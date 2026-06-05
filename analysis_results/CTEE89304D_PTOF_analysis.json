@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CTEE89304D",
+    "denominazione": "Ic Nicolosi - G.Nni Xxiii",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Paterno'",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Liberta'",
+    "cap": "95047",
+    "email": "casab.montessori@gmail.com",
+    "pec": "ND",
+    "website": "www.gbnicolosi.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività proposte da Docendum, Ente riconosciuto dal Ministero dell’Istruzione.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra effettua visite mediche su richiesta genitori.",
+      "target": "Bambini e Genitori"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione Genitori",
+      "descrizione_e_metodologia": "Incontri su tematiche scelte dai genitori.",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Svolto in aula con docente del nucleo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia formativa esterna accreditata.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare e al gusto",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri con pediatra e cuochi.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CTEE89304D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del Plesso Via Liberta', scuola primaria statale di Paterno', in provincia di Catania, per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'analisi si concentra sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un impegno nella costruzione di un sistema di orientamento, sebbene con alcune aree che necessitano di maggiore attenzione e sviluppo.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento: Sezione Dedicata**\n\nIl PTOF non prevede una sezione esplicitamente dedicata all'orientamento, come evidenziato dal punteggio di 1. Tuttavia, l'orientamento è integrato trasversalmente nelle diverse aree del piano.\n\n**2.2 Partnership**\n\nIl Plesso Via Liberta' ha stabilito partnership significative con diversi enti e istituzioni. Tra questi, si distinguono **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. La presenza di quattro partner attivi testimonia un approccio collaborativo e l'apertura a risorse esterne per arricchire l'offerta formativa.\n\n**2.3 Finalità**\n\nLe finalità del PTOF sono orientate allo sviluppo delle attitudini e degli interessi degli studenti, con un punteggio di 3 per entrambe le aree. Meno marcata è l'attenzione al **progetto di vita** e alle **transizioni formative**, con un punteggio di 1 per ciascuna. Anche le capacità orientative per cogliere le opportunità risultano meno sviluppate, con un punteggio di 1.\n\n**2.4 Obiettivi**\n\nGli obiettivi del PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica e sulla promozione del **lifelong learning**. Tuttavia, tutti questi obiettivi ricevono un punteggio di 1, suggerendo la necessità di definire strategie più specifiche e misurabili per il loro raggiungimento.\n\n**2.5 Azioni di Sistema**\n\nIl PTOF prevede azioni di coordinamento con i servizi territoriali e di rapporto con le famiglie, entrambe con un punteggio di 3. Buona anche l'attenzione al **sistema integrato di inclusione e fragilità**, con un punteggio di 3. Meno sviluppate risultano l'azione di dialogo tra docenti e studenti e il monitoraggio delle azioni intraprese, con punteggi rispettivamente di 2 e 1.\n\n**2.6 Didattica Orientativa**\n\nL'approccio didattico del PTOF valorizza l'esperienza degli studenti, con un punteggio di 4. Buona anche l'attenzione alla didattica laboratoriale, alla flessibilità degli spazi e dei tempi e all'interdisciplinarità, tutte con un punteggio di 3.\n\n**2.7 Opzionali e Facoltative**\n\nL'offerta di attività opzionali si concentra su laboratori espressivi e ludico-ricreativi, entrambi con un punteggio di 3. Meno sviluppate sono le opzioni culturali, di volontariato e sportive, con un punteggio di 1 per ciascuna.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di partnership consolidate, nell'attenzione allo sviluppo delle attitudini e degli interessi degli studenti e nell'approccio didattico centrato sull'esperienza. L'offerta di laboratori diversificati, come il **Laboratorio di Coding per l’Infanzia**, il **Laboratorio di Musica in movimento** e il **Laboratorio di Scienze**, rappresenta un valore aggiunto per l'offerta formativa. L'impegno nel coinvolgimento dei genitori, attraverso **incontri di sostegno alla genitorialità** e **questionari di soddisfazione**, è un elemento positivo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la mancanza di una sezione dedicata all'orientamento, la scarsa definizione degli obiettivi e delle finalità relative al progetto di vita e alle transizioni formative, e la necessità di rafforzare il monitoraggio delle azioni intraprese. L'offerta di attività opzionali potrebbe essere ampliata per includere opzioni culturali, di volontariato e sportive.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di esplicitare e strutturare l'azione di orientamento all'interno del PTOF. È necessario definire obiettivi e finalità più specifici, sviluppare azioni di monitoraggio efficaci e ampliare l'offerta di attività opzionali per rispondere in modo più completo alle esigenze degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF del Plesso Via Liberta' rappresenta un documento programmatico solido, con un buon livello di attenzione all'orientamento. Tuttavia, per raggiungere una maggiore efficacia, è necessario colmare le lacune individuate, strutturando l'azione di orientamento, definendo obiettivi misurabili e ampliando l'offerta formativa. L'impegno nella costruzione di partnership e la valorizzazione dell'esperienza degli studenti rappresentano un solido punto di partenza per il miglioramento continuo del PTOF. L'utilizzo di strumenti di valutazione come il **Questionario di gradimento personale** e il **Questionario di soddisfazione genitori** dimostra un'attenzione alla qualità del servizio offerto. L'implementazione di attività a distanza come **LEAD (Legami Educativi a Distanza)** evidenzia la capacità di adattamento alle nuove esigenze educative."
+}

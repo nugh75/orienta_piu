@@ -1,0 +1,298 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SRTDRP500U",
+    "denominazione": "Istituto Paritario \"S. Quasimodo",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Siracusa",
+    "anno_ptof": "2025-2028",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza S. Giuseppe 13",
+    "cap": "96100",
+    "email": "quasimodomagica@libero.it",
+    "pec": "scuolaparitariasangiuseppe@pec.impresesiracusa.it",
+    "website": "www.istitutocolasanto.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "ITS Puma",
+        "Enti di formazione professionale riconosciuti dalla Regione Puglia",
+        "CNEAP Hauts-de-France",
+        "Istituti Francesi",
+        "Istituti Svedesi",
+        "Istituti Sloveni",
+        "Aziende",
+        "Strutture pubbliche",
+        "Centri di volontariato sociale",
+        "FAI",
+        "ADMO",
+        "ADISCO",
+        "AVIS",
+        "Croce Rossa Italiana",
+        "SAPERECOOP",
+        "Lion’s Club",
+        "CLUB ALPINO ITALIANO",
+        "librerie Mondadori Bookstore di Andria",
+        "librerie gemellate",
+        "cooperative sociali",
+        "aziende presenti sul territorio",
+        "ASL",
+        "enti presenti sul territorio"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 6
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso quadriennale Design della Comunicazione Visiva e Pubblicitaria",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Correlato con l'ITS Puma",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curvatura Operatore Sportivo-Sanitario e della Riabilitazione",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Potenziamento Igiene e cultura medico-sanitaria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+ KA122-SCH",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e personale per sviluppo competenze linguistiche, digitali, sostenibilità, identità europea.",
+      "target": "Studenti e personale"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+ KA210-VET",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Small-scale partnerships per sviluppo competenze professionali e mobilità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Espressivo-Riabilitativo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di linguaggi non verbali come strumenti terapeutici",
+      "target": "Studenti curvatura"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze in azienda, strutture pubbliche e centri di volontariato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori professionalizzanti",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppo competenze",
+      "target": "Studenti professionali"
+    },
+    {
+      "titolo_attivita": "Formazione Scuola-Lavoro (ex PCTO)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "210 ore per indirizzi Servizi socio sanitari e Servizi commerciali; 90 ore per Liceo artistico. Stage/formazione in azienda.",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "Catalogazione (Digitale)",
+      "categoria_principale": "Biblioteca",
+      "descrizione_e_metodologia": "Utilizzo software Qloud Scuola, coinvolgimento alunni a rischio dispersione",
+      "target": "Alunni a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Prestito Bibliotecario Scolastico (Digitale)",
+      "categoria_principale": "Biblioteca",
+      "descrizione_e_metodologia": "Gestione informatizzata prestiti tramite Qloud.scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "#Ioleggoperché2025",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Partecipazione al progetto nazionale, eventi in libreria, promozione sul territorio",
+      "target": "Studenti, docenti, cittadinanza"
+    },
+    {
+      "titolo_attivita": "Silent Reading Party",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Lettura silenziosa in biblioteca con snack e condivisione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La Biblioteca Inclusiva del Colasanto (Instagram)",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Creazione pagina Instagram, restyling copertine libri",
+      "target": "Studenti, docenti"
+    },
+    {
+      "titolo_attivita": "Scuola, Sport e Disabilità",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento alle pratiche sportive normali e speciali. Cooperative learning, Tutoring.",
+      "target": "Alunni diversamente abili"
+    },
+    {
+      "titolo_attivita": "Laboratorio Creativo",
+      "categoria_principale": "Arte/Creatività",
+      "descrizione_e_metodologia": "Giochi di ruolo, uso creativo delle mani. Role play, Tutoring.",
+      "target": "Alunni diversamente abili"
+    },
+    {
+      "titolo_attivita": "Partecipazione Campionati Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Organizzazione di gare/tornei interni, partecipazione a gare provinciali/regionali/nazionali.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Partecipazione al Progetto Sport Scuola e Disabilità",
+      "categoria_principale": "Sport/Inclusione",
+      "descrizione_e_metodologia": "Programmazione di attività scolastica in collaborazione con tecnici. Interventi frontali.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Partecipazione al Progetto La Fitav Incontra La Scuola",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Lezioni teoriche e pratiche presso struttura FITAV. Tecnici federali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori di Fabbricazione Digitale",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di prototipi con stampanti 3D e cutter laser.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di Robotica",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Programmazione e sviluppo di progetti di robotica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "VR/AR e ZSpace Experience",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Creazione e fruizione di contenuti virtuali e immersivi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Donne e STEM - Orientarsi per il futuro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contrasto stereotipi di genere, visione opportunità STEM",
+      "target": "Studenti (soprattutto studentesse)"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con cooperative sociali e aziende",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Incontri con l'equipe ASL",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Incontri periodici",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività laboratoriali varie",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Prova simulata di evacuazione",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Esercitazione annuale con popolazione scolastica",
+      "target": "Tutta la popolazione scolastica"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SRTDRP500U\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Paritario \\\"S. Quasimodo\\\"** (SRTDRP500U) per il triennio 2025-2028. L'istituto, di tipo **Professionale e Tecnico** per il secondo grado, opera in un contesto territoriale **non metropolitano** nell'area delle **Isole** della regione **Sicilia**, precisamente nel comune di **Siracusa**. La valutazione si basa sui dati forniti, con un focus particolare sulle finalità, gli obiettivi, le azioni e le attività implementate. L'istituto dimostra un impegno significativo verso l'orientamento, con una sezione dedicata presente e un punteggio complessivo che riflette un approccio strutturato, sebbene con margini di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 7, indicando una buona attenzione a questo aspetto cruciale.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con ben 24 partner nominati, tra cui **ITS Puma**, enti di formazione professionale della **Regione Puglia**, istituti francesi, svedesi e sloveni, **aziende**, **strutture pubbliche**, **centri di volontariato sociale** come **FAI**, **ADMO**, **ADISCO**, **AVIS**, **Croce Rossa Italiana**, **SAPERECOOP**, **Lion’s Club**, **CLUB ALPINO ITALIANO**, librerie **Mondadori Bookstore** di Andria e gemellate, **cooperative sociali**, **ASL** e altri enti territoriali. Questa vasta rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati (7) per lo sviluppo del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** rispetto alle opportunità. Anche l'attenzione alle **attitudini** e agli **interessi** degli studenti è considerata importante, con un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**. I punteggi ottenuti variano tra 5 e 6, suggerendo un buon livello di ambizione, ma anche la necessità di un monitoraggio costante per verificarne l'effettiva implementazione.\n\n**2.5 Azioni di Sistema:** Le azioni previste per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori e il monitoraggio delle azioni intraprese. Anche in questo caso, i punteggi si attestano intorno a 5, indicando un approccio standardizzato ma potenzialmente migliorabile. L'attenzione al **sistema integrato di inclusione e fragilità** è un elemento positivo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. I punteggi variano tra 5 e 7, evidenziando un buon livello di innovazione didattica.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi oscillano tra 5 e 6, suggerendo una varietà di proposte, ma anche la possibilità di ampliare l'offerta in base agli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** con enti e aziende del territorio e internazionali, nella chiarezza delle **finalità** e nella varietà delle attività proposte. L'impegno verso l'inclusione e l'attenzione alle esigenze degli studenti con disabilità sono particolarmente apprezzabili. Le attività come il **Percorso quadriennale Design della Comunicazione Visiva e Pubblicitaria** e i progetti **Erasmus+** offrono opportunità concrete di crescita e sviluppo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la necessità di rafforzare le azioni di sistema e il monitoraggio degli obiettivi. I punteggi relativamente bassi in alcune dimensioni suggeriscono che l'implementazione delle strategie orientative potrebbe non essere ancora ottimale. Inoltre, l'offerta di attività opzionali potrebbe essere ampliata per rispondere in modo più efficace agli interessi e alle aspirazioni degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella traduzione dei buoni propositi in azioni concrete e misurabili. Pur essendo presente una solida base teorica e una vasta rete di collaborazioni, è necessario definire indicatori di performance chiari e monitorare costantemente i risultati ottenuti. Un'analisi più approfondita delle esigenze del territorio e delle richieste del mondo del lavoro potrebbe contribuire a orientare meglio l'offerta formativa e a ridurre il rischio di **dispersione scolastica**.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Paritario \\\"S. Quasimodo\\\"** dimostra un impegno significativo verso l'orientamento, con una solida base teorica e una vasta rete di **partnership**. Tuttavia, è necessario rafforzare le azioni di sistema, il monitoraggio degli obiettivi e l'offerta di attività opzionali per garantire un'efficacia ancora maggiore delle strategie orientative e favorire la realizzazione del **progetto di vita** degli studenti. L'istituto ha il potenziale per diventare un punto di riferimento per l'orientamento nel territorio, contribuendo a formare cittadini consapevoli e preparati per le sfide del futuro."
+}

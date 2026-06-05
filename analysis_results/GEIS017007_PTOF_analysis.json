@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEIS017007",
+    "denominazione": "Istituto Omnicomprensivo Vallescrivia",
+    "tipo_scuola": "Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Ronco Scrivia",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Trento E Trieste 87",
+    "cap": "16019",
+    "email": "geis017007@istruzione.it",
+    "pec": "geis017007@pec.istruzione.it",
+    "website": "www.iovallescrivia.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperto",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi di formazione in azienda",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIS017007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Omnicomprensivo Vallescrivia** (GEIS017007) per il triennio 2019/20-2021/22. L'istituto, situato nel territorio metropolitano di **Ronco Scrivia** (Genova, Liguria), è un liceo e istituto tecnico di secondo grado statale. La valutazione evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia gamma di attività proposte, che spaziano dall'orientamento in ingresso a quello in uscita, passando per la formazione e l'offerta formativa. I punteggi ottenuti nelle diverse dimensioni dell'orientamento sono generalmente alti, indicando una solida base su cui costruire e migliorare ulteriormente l'offerta.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto dimostra una forte capacità di collaborare con diversi partner, tra cui **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Questa rete di collaborazioni, composta da quattro partner, rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mirano a ridurre l'**abbandono scolastico**, a garantire la continuità territoriale, a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema efficaci, quali il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali (sebbene con un punteggio inferiore rispetto ad altri aspetti), sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla presenza di una sezione dedicata, dalla solida rete di partnership, dalla chiarezza delle finalità e degli obiettivi, dall'efficacia delle azioni di sistema e dalla varietà dell'offerta didattica e delle attività opzionali. L'istituto dimostra un impegno concreto nell'offrire agli studenti un supporto completo per la costruzione del loro futuro. Le attività **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Primo soccorso** e **Orientamento post-liceo** sono esempi di iniziative mirate e ben strutturate.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza riscontrata riguarda la didattica labororiale, che, pur presente, ottiene un punteggio inferiore rispetto ad altri aspetti. Potrebbe essere necessario potenziare questa dimensione, ampliando l'offerta di laboratori e integrandoli maggiormente nelle attività didattiche.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, si evidenzia la necessità di monitorare costantemente l'efficacia delle azioni intraprese e di adattare l'offerta orientativa alle esigenze specifiche degli studenti e del territorio. Un'analisi più approfondita dei dati relativi all'abbandono scolastico, alla dispersione formativa e all'inserimento nel mondo del lavoro potrebbe fornire indicazioni utili per migliorare ulteriormente l'efficacia del PTOF.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Omnicomprensivo Vallescrivia** presenta una solida base per l'orientamento, con un'ampia gamma di attività e una rete di partnership consolidata. L'istituto dimostra un impegno significativo verso la crescita personale e professionale degli studenti, offrendo loro un supporto completo per affrontare le sfide del futuro. Il potenziamento della didattica labororiale e un monitoraggio costante dell'efficacia delle azioni intraprese potrebbero contribuire a migliorare ulteriormente l'offerta orientativa e a raggiungere gli obiettivi prefissati. Le attività **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra** e **Viaggio d'istruzione** rappresentano un valore aggiunto per l'esperienza formativa degli studenti."
+}

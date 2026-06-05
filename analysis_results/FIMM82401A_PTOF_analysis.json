@@ -1,0 +1,252 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIMM82401A",
+    "denominazione": "Primo Levi",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Impruneta",
+    "anno_ptof": "2022/2025",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via I Maggio 47",
+    "cap": "50023",
+    "email": "fiic824009@istruzione.it",
+    "pec": "scuolaparitariacampussrls@legalmail.it",
+    "website": "www.icimprunetaprimolevi.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento, ma diverse attività rientrano in tale ambito."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "organizzazioni del terzo settore",
+        "imprese",
+        "musei",
+        "istituti pubblici e privati",
+        "Comune di Pagani",
+        "ASL Fg",
+        "Associazione Superamento Handicap",
+        "altre scuole",
+        "università",
+        "enti di ricerca",
+        "associazioni sportive",
+        "aziende private",
+        "ASI"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l’orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incremento dell'alternanza scuola-lavoro",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di potenziamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Metodologie laboratoriali e attività di laboratorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività trasversali e interdisciplinari",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione attività per lo sviluppo delle competenze digitali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con università, associazioni, terzo settore e imprese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento strumenti didattici e laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Miglioramento formazione e processi di innovazione.",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti per l'innovazione didattica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Sviluppo cultura digitale per competenze lavorative, cognitive e sociali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Definizione criteri per l'adozione di testi didattici digitali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Produzione e diffusione di materiali didattici autonomi.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Creazione laboratori territoriali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Orientamento ai settori strategici del made in Italy.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO in impresa formativa simulata",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Simulazione di azienda con tutoraggio",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Orientamento in entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Mini stage nei laboratori",
+      "target": "Scuole medie del territorio"
+    },
+    {
+      "titolo_attivita": "Tirocinio formativo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze in aziende/enti",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Redazione PDP",
+      "categoria_principale": "BES",
+      "descrizione_e_metodologia": "Elaborazione collegiale e personalizzata",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Didattica per Competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione unità di apprendimento, rubriche, compiti autentici.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Innovativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sperimentazione nuovi metodi, tecnologie, inclusione.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Gesti salvavita, manovre disostruzione.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza Nei Luoghi Di Lavoro",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Riduzione rischi, tutela sicurezza personale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti di accoglienza alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi di italiano L2 e attività interculturali",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Sport e disabilità",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti sportivi adattati",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Progetto Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Percorsi di accoglienza, laboratori di italiano L2, moduli di recupero, progetti di intercultura",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIMM82401A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Domenico Ghirlandaio** (FIMM82401A), per l'anno scolastico 2022/2025. La scuola, di I Grado, situata nel territorio metropolitano di Impruneta (Firenze), Toscana, si configura come un istituto statale. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non esista una sezione specificamente dedicata, ma piuttosto un insieme di attività che rientrano in tale ambito. Il PTOF dimostra una forte attenzione alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi, progettazione del percorso di vita, supporto alle transizioni formative e capacità di cogliere le opportunità. Si riscontra un'attenzione particolare alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nPur non essendo presente una sezione esplicitamente dedicata all'orientamento, il PTOF integra diverse attività che contribuiscono a questo scopo, ottenendo un punteggio di 3.\n\n**2.2 Partnership:**\n\nLa scuola vanta un network di partnership consolidato, che include **organizzazioni del terzo settore**, **imprese**, **musei**, **istituti pubblici e privati**, il **Comune di Pagani**, l'**ASL Fg**, l'**Associazione Superamento Handicap**, altre scuole, università, enti di ricerca, associazioni sportive, aziende private e **ASI**. Il numero di partner attivi è pari a 7, evidenziando una forte apertura verso il territorio e il mondo del lavoro.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate in modo completo, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e lo sviluppo della **capacità di orientarsi nelle opportunità**.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento sono ambiziosi e ben definiti, con punteggi massimi (5) per la riduzione dell'**abbandono scolastico**, la promozione della **continuità territoriale**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nIl PTOF prevede azioni di sistema efficaci, con punteggi massimi (5) per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci innovativi, con punteggi massimi (5) per l'utilizzo di metodologie basate sull'**esperienza degli studenti**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**. La didattica laboratoriale, pur presente, ottiene un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata, ma con punteggi medi (3) per le opzionali **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e degli obiettivi, nella solidità delle partnership con il territorio e nel sistema di azioni integrate per il supporto agli studenti. L'impegno verso la didattica innovativa e l'attenzione all'inclusione rappresentano ulteriori elementi di valore. Le attività come **PCTO**, **Alternanza scuola-lavoro**, **Progetti di potenziamento** e **Educazione Civica** sono ben integrate nel tessuto del PTOF.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento potrebbe limitare la visibilità e la coerenza delle attività in questo ambito. L'offerta di attività opzionali e facoltative, pur diversificata, potrebbe essere ulteriormente potenziata per rispondere in modo più efficace agli interessi e alle esigenze degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di formalizzare un'articolazione più chiara e strutturata delle attività di orientamento all'interno del PTOF, creando una sezione dedicata che ne definisca le linee guida, le responsabilità e gli indicatori di successo. Potrebbe essere utile ampliare l'offerta di attività opzionali e facoltative, in particolare quelle legate all'orientamento professionale e alla scoperta dei talenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Domenico Ghirlandaio** dimostra un impegno significativo verso l'orientamento, sebbene con margini di miglioramento. La scuola si distingue per la chiarezza delle finalità, la solidità delle partnership e l'attenzione all'innovazione didattica. Formalizzando un'articolazione più chiara delle attività di orientamento e ampliando l'offerta di attività opzionali, la scuola potrà massimizzare l'efficacia del proprio PTOF e offrire agli studenti un supporto ancora più completo e personalizzato per la costruzione del loro futuro. Attività come **PCTO in impresa formativa simulata**, **Orientamento in entrata**, **Tirocinio formativo**, **Redazione PDP**, **Didattica per Competenze** e **Progetti di Integrazione Alunni Stranieri** rappresentano un valore aggiunto per la comunità scolastica."
+}

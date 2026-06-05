@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PDVE010001",
+    "denominazione": "San Benedetto",
+    "tipo_scuola": "Convitto",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Montagnana",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Padova",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Benedetto14",
+    "cap": "35044",
+    "email": "pdve010001@istruzione.it",
+    "pec": "pdve010001@pec.istruzione.it",
+    "website": "www.educandatosanbenedetto.edu.it",
+    "tipo_scuola_dettaglio": "Educandato"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento, ma non una sezione dedicata."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive per studenti",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Elementi di primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PDVE010001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \\\"San Benedetto\\\" (ID scuola PDVE010001), Liceo e Tecnico di secondo grado situato a Montagnana, in provincia di Padova e regione Veneto. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi elevati in diverse aree, sebbene con alcune lacune da colmare.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta attività di orientamento, tuttavia non è presente una sezione specificamente dedicata a questo tema, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership, con un punteggio di 5. Tra i partner nominati figurano **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per un totale di 4 collaborazioni.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, ottenendo il punteggio massimo (5) per tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi definiti nel PTOF mostrano un approccio meno incisivo. Il punteggio è basso (1) per la riduzione dell'**abbandono** e del fenomeno **NEET**, mentre la **continuità territoriale** e il **lifelong learning** ricevono un punteggio di 2 e 1 rispettivamente.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con un punteggio di 5 per tutte le aree: **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si distingue per l'attenzione all'esperienza degli studenti (punteggio 5), alla flessibilità degli spazi e dei tempi (punteggio 5) e all'approccio interdisciplinare (punteggio 5). La didattica laboratoriale, invece, riceve un punteggio inferiore (2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, con punteggi massimi (5) per le opzionali **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella forte attenzione alle finalità dell'orientamento, nella qualità delle azioni di sistema implementate e nella ricchezza dell'offerta didattica e delle attività opzionali. Le partnership consolidate rappresentano un valore aggiunto significativo. L'istituto dimostra di saper valorizzare l'esperienza diretta degli studenti e di promuovere un approccio flessibile e interdisciplinare all'apprendimento. Attività come **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza** e **Elementi di primo soccorso** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la definizione degli obiettivi, in particolare per quanto concerne la riduzione dell'abbandono scolastico e del fenomeno NEET. L'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un limite, nonostante la presenza di numerose attività in questo ambito. Anche la didattica laboratoriale potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario tra l'impegno profuso nelle finalità, nelle azioni e nell'offerta didattica e la debolezza nella definizione degli obiettivi suggerisce la necessità di una maggiore focalizzazione sui risultati concreti. È importante tradurre le finalità ambiziose in obiettivi misurabili e definire strategie specifiche per affrontare le problematiche dell'abbandono scolastico e del fenomeno NEET.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \\\"San Benedetto\\\" presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. L'istituto dimostra una forte consapevolezza dell'importanza di questo ambito e un impegno significativo nella sua implementazione. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario definire obiettivi più chiari e misurabili, potenziare la didattica laboratoriale e formalizzare una sezione dedicata all'orientamento all'interno del PTOF. Le attività **PCTO** come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d’istruzione** rappresentano un valido strumento per l'orientamento e l'acquisizione di competenze. La formazione continua dei docenti, come evidenziato dalle attività **Formazione didattica inclusiva**, **Formazione utilizzo strumenti multimediali** e **Formazione sicurezza**, contribuisce a migliorare la qualità dell'offerta formativa."
+}

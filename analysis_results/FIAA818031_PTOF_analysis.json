@@ -1,0 +1,279 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIAA818031",
+    "denominazione": "Barberino Di Mugello",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Barberino Di Mugello",
+    "anno_ptof": "2020-2022",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mons. G. Agresti 14",
+    "cap": "50031",
+    "email": "fiic818002@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.barbescuola.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Famiglie",
+        "Studenti"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Potenziamento Competenze",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Proposte nuove tecniche d’insegnamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Flipped classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Introduzione del metodo flipped classroom",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori service learning",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Veicolazione moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Moduli disciplinari in lingua inglese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Protocollo di accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione pratiche comuni per accoglienza alunni BES",
+      "target": "Alunni BES, famiglie, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Progetti PON",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Potenziamento discipline fondamentali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Regione Basilicata",
+      "categoria_principale": "Cinema",
+      "descrizione_e_metodologia": "Realizzazione cortometraggio",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola 2.0",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Realizzazione classi digitali",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIAA818031\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto “Gianni Rodari”, scuola dell'infanzia statale situata nel comune di Barberino Di Mugello, in provincia di Firenze e regione Toscana, relativo all'anno 2020-2022. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la struttura, gli obiettivi, le azioni intraprese e le attività realizzate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un'ampia gamma di partnership attivate. L'istituto pone l'accento sullo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, nonché sulla preparazione alle transizioni formative e sull'acquisizione di capacità orientative per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che indica un'attenzione particolare a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** L'istituto ha sviluppato un network di ben 15 partnership, tra cui **AGROBIOS**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Teaching For Inclusion**, **ASL** e le **Famiglie** e gli **Studenti** stessi. Questa rete diversificata di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità di apprendimento e di confronto per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle attitudini, degli interessi, del progetto di vita e alla preparazione alle transizioni formative, con un punteggio di 4 per ciascuna di queste aree. L'istituto si propone di fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire un percorso personale e professionale soddisfacente.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica e sulla promozione del lifelong learning, con un punteggio di 3 per ciascun obiettivo.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e fragilità, con un punteggio di 3 per ciascuna azione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con punteggi che variano da 3 a 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, con punteggi elevati (4), mentre quelle ludiche, ricreative e sportive ricevono punteggi inferiori (2).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, ben strutturata e con obiettivi chiari. L'ampia rete di partnership, che include enti di ricerca, associazioni, istituzioni sanitarie e le famiglie, rappresenta un valore aggiunto significativo. L'attenzione allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, unitamente alla promozione del lifelong learning, dimostra un approccio orientativo completo e orientato al futuro. Le attività come **Stage ASL**, **Certificazioni linguistiche**, **Microconferenze** e **Service Learning** sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza risiede negli obiettivi di riduzione dell'abbandono, continuità territoriale, contrasto al fenomeno NEET e promozione del lifelong learning, che ottengono un punteggio di 3. Potrebbe essere necessario definire strategie più specifiche e misurabili per raggiungere questi obiettivi. Anche le opzioni ludiche, ricreative e sportive potrebbero essere potenziate per offrire agli studenti una gamma più ampia di opportunità.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di tradurre gli obiettivi generali in azioni concrete e misurabili. Sebbene il PTOF delinei una visione chiara dell'orientamento, è importante definire indicatori di performance specifici per monitorare l'efficacia delle azioni intraprese e per valutare il raggiungimento degli obiettivi prefissati. Inoltre, sarebbe auspicabile un maggiore coinvolgimento degli studenti nella definizione delle attività orientative, per garantire che l'offerta sia in linea con le loro esigenze e aspettative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto “Gianni Rodari” presenta un approccio orientativo solido e ben strutturato. La presenza di una sezione dedicata, l'ampia rete di partnership e l'attenzione allo sviluppo delle competenze chiave rappresentano punti di forza significativi. Per migliorare ulteriormente l'efficacia del PTOF, è necessario definire obiettivi più specifici e misurabili, monitorare attentamente le azioni intraprese e coinvolgere attivamente gli studenti nella definizione delle attività orientative. Attività come **Olimpiadi Di Astronomia**, **Cittadinanza E Costituzione**, **Gemellaggi** e l'implementazione di tecnologie come **BYOD** e **Coding e Robotica** dimostrano un impegno verso un'offerta formativa innovativa e completa."
+}

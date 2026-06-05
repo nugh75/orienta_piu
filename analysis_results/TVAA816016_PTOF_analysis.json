@@ -1,0 +1,267 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TVAA816016",
+    "denominazione": "Ic Castelfranco V.To 2",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Castelfranco Veneto",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Treviso",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Verdi 32",
+    "cap": "31033",
+    "email": "tvic816009@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.ic2castelfranco.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti con enti locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni esterne",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Interventi educativi, formazione docenti, supporto psicologico",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni che passano dalla scuola dell'infanzia alla primaria e alla secondaria."
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Attività ludico-motorie per promuovere uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale con esperti.",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Sensibilizzazione sulle tematiche di genere.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi e delle Ragazze.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Pomeriggi Alla Giotti",
+      "categoria_principale": "Attività pomeridiane",
+      "descrizione_e_metodologia": "Potenziamento delle attività pomeridiane in collaborazione con il SIS.",
+      "target": "Alunni della scuola Giotti"
+    },
+    {
+      "titolo_attivita": "Progetto Pari Opportunità",
+      "categoria_principale": "Educazione alla parità",
+      "descrizione_e_metodologia": "Sensibilizzazione sulle tematiche di genere.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni delle classi terze"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Coinvolgimento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano L2",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Definito per alunni NAI",
+      "target": "Alunni NAI"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TVAA816016\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia Borgo Pieve** (codice scuola **TVAA816016**) per il triennio **2019/20-2021/22**. La scuola, statale situata nel comune di **Castelfranco Veneto** (provincia di **Treviso**, regione **Veneto**), dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5 su 5 in tal senso. L'istituto si colloca in un contesto territoriale **non metropolitano** e si rivolge a studenti della scuola dell'infanzia. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni intraprese e le attività registrate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:**\n\nLa presenza di una sezione specificamente dedicata all'orientamento nel PTOF è un elemento positivo, indicando una chiara attenzione a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:**\n\nLa scuola vanta un ampio ventaglio di partnership, con ben 17 partner nominati, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **musei**, l'**Archivio di Stato**, diversi **istituti pubblici**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione **\"Giardino Felice\"**, la Cooperativa **(SIS Giotti)**, altre scuole, altre associazioni o cooperative, le **Autonomie locali** e l'**ASL**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per le opportunità di orientamento offerte agli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi** e del **progetto di vita** degli studenti, con un particolare focus sulle **transizioni formative**. La capacità di orientare gli studenti verso le **opportunità** formative e professionali risulta leggermente meno sviluppata, con un punteggio di 3.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono** scolastico e a garantire la continuità territoriale. L'attenzione verso il contrasto alla dispersione scolastica e al fenomeno dei **NEET** è meno marcata, così come lo sviluppo di competenze per il **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni intraprese per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni. Particolarmente efficace si rivela il rapporto scuola-genitori, mentre il monitoraggio delle azioni necessita di un ulteriore rafforzamento. Viene inoltre evidenziata l'importanza di un sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampia rete di partnership, nella chiarezza delle finalità e nell'efficacia del rapporto scuola-genitori. L'attività \"**Programma Continuità**\" è un esempio di attenzione alle transizioni formative. L'impegno verso l'inclusione, con progetti specifici per alunni con **BES**, è degno di nota.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la minore attenzione verso il contrasto alla dispersione scolastica e al fenomeno dei NEET, lo sviluppo di competenze per il lifelong learning e il monitoraggio delle azioni intraprese. La didattica orientativa potrebbe essere potenziata attraverso l'utilizzo più sistematico di laboratori e l'integrazione di approcci più innovativi.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità ambiziose e gli obiettivi meno definiti suggerisce la necessità di una maggiore focalizzazione sugli esiti concreti dell'orientamento. Il punteggio relativamente basso per la capacità di orientare gli studenti verso le opportunità formative e professionali indica la necessità di sviluppare strumenti e strategie più efficaci in questo ambito.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Infanzia Borgo Pieve dimostra un impegno significativo verso l'orientamento, con una solida base di partenza rappresentata dalla presenza di una sezione dedicata, da una vasta rete di partnership e da un'attenzione particolare alle finalità formative. Per massimizzare l'efficacia dell'orientamento, è necessario rafforzare il monitoraggio delle azioni, definire obiettivi più specifici e misurabili e sviluppare strategie innovative per contrastare la dispersione scolastica e promuovere il lifelong learning. Attività come \"**Attività di ampliamento curricolare**\", \"**Collaborazione con associazioni del territorio**\" e il \"**Programma Benessere**\" rappresentano esempi virtuosi di come la scuola si impegna a fornire un supporto completo agli studenti. L'attività \"**Curricolo Italiano L2**\" dimostra attenzione all'integrazione degli alunni stranieri."
+}

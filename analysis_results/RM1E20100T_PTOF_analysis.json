@@ -1,0 +1,201 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1E20100T",
+    "denominazione": "Scuola Elem.Parif.San Giovanni",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Nettuno",
+    "anno_ptof": "2025-2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza Colonna 16",
+    "cap": "00048",
+    "email": "scuolaborgo1951@libero.it",
+    "pec": "ND",
+    "website": "www.karis.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente, ma non dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà",
+        "FOE"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Doposcuola Pomerì",
+      "categoria_principale": "Servizi per la famiglia",
+      "descrizione_e_metodologia": "Supporto compiti e attività laboratoriali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Attività pratiche per l'apprendimento della matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Varie",
+      "descrizione_e_metodologia": "Visite a musei, mostre, luoghi di interesse culturale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Celebrazione esperienze scolastiche",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Apertura scuole per far conoscere l'ambiente",
+      "target": "Genitori e potenziali studenti"
+    },
+    {
+      "titolo_attivita": "Progetto educazione sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Tempo Libero",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e convivenza",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Sostegno bambini tramite AVSI",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta generi alimentari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto promozione lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Avviare e consolidare il piacere di leggere",
+      "target": "Alunni scuole primarie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RM1E20100T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Elem.Parif.San Giovanni** (RM1E20100T) per il triennio 2025-2028, con particolare attenzione alla dimensione dell'orientamento. La scuola, di tipo **Primaria** e **Paritaria**, situata nel territorio **Metropolitano** del comune di **Nettuno** (Roma, Lazio), dimostra un impegno nella definizione di una sezione dedicata all'orientamento, sebbene questa necessiti di maggiore dettaglio. L'istituto si avvale di diverse **partnership**, tra cui **Karis Foundation**, **AVSI**, **Federazione Nazionale Banchi di Solidarietà** e **FOE**, per arricchire la propria offerta formativa. L'attenzione alle finalità formative, in particolare per quanto riguarda attitudini, interessi e progetto di vita, è ben definita, mentre le transizioni formative e lo sviluppo di capacità orientative per cogliere le opportunità risultano meno strutturate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede la presenza di una sezione dedicata all'orientamento, ottenendo un punteggio massimo, tuttavia, si evidenzia la necessità di approfondire i contenuti e le strategie specifiche implementate.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con quattro collaborazioni attive. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per l'ampliamento delle opportunità offerte agli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite in relazione allo sviluppo di attitudini, interessi e del progetto di vita degli studenti, con punteggi elevati in queste aree. Meno marcata è l'attenzione alle transizioni formative e allo sviluppo di capacità orientative per affrontare le sfide del futuro.\n\n**2.4 Obiettivi:** L'istituto non pone particolare enfasi sulla riduzione dell'abbandono scolastico o sul contrasto alla dispersione NEET. L'obiettivo di garantire la continuità territoriale e promuovere il lifelong learning sono invece considerati, seppur con un punteggio moderato per quest'ultimo.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni risulta meno strutturato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, offrendo agli studenti diverse opportunità di approfondimento e di sviluppo dei propri interessi.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, seppur da approfondire, nella solida rete di **partnership** con enti e associazioni del territorio, e nella chiarezza delle finalità formative legate allo sviluppo di attitudini, interessi e del **progetto di vita** degli studenti. L'offerta di attività extracurriculari, come il **Doposcuola Pomerì**, il **Progetto Clil**, i **Laboratori esperienziali**, le **Uscite didattiche e viaggi d'istruzione**, il **Gesto di Natale**, la **Festa di fine anno**, l'**Open Day**, il **Progetto educazione sicurezza stradale**, i **Progetti tecnologia e informatica**, il **Campo estivo**, le **Adozioni a distanza**, il **Donacibo** e il **Progetto promozione lettura**, arricchisce l'offerta formativa e contribuisce allo sviluppo integrale degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la scarsa attenzione alla riduzione dell'abbandono scolastico e al contrasto alla dispersione NEET, la limitata strutturazione delle transizioni formative e lo sviluppo di capacità orientative per cogliere le opportunità future. Il monitoraggio delle azioni previste risulta inoltre poco definito.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità formative in obiettivi concreti e misurabili, con particolare attenzione alle transizioni formative e allo sviluppo di competenze orientative per il futuro. È necessario, inoltre, rafforzare il monitoraggio delle azioni implementate per valutarne l'efficacia e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Elem.Parif.San Giovanni** presenta un quadro generale positivo, con un impegno significativo nella definizione di una sezione dedicata all'orientamento e nella creazione di un'offerta formativa diversificata e stimolante. Tuttavia, per ottimizzare l'efficacia del piano, è necessario approfondire la sezione dedicata all'orientamento, definire obiettivi più specifici e misurabili, rafforzare il monitoraggio delle azioni implementate e prestare maggiore attenzione alle transizioni formative e allo sviluppo di competenze orientative per il futuro."
+}

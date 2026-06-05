@@ -1,0 +1,220 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VVMM824016",
+    "denominazione": "Ic A. Tedeschi S.S.B. Fabrizia",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Serra San Bruno",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Vibo Valentia",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Alfonso Scrivo N . 2",
+    "cap": "89822",
+    "email": "vvic824005@istruzione.it",
+    "pec": "ND",
+    "website": "www.ictedeschi.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, bensì attività di orientamento integrate in altre iniziative."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Prevalenza di lezioni frontali e stage, con scarsa evidenza di attività di didattica laboratoriale specifica per l'orientamento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2,
+        "note": "Mancanza di evidenze di flessibilità di spazi e tempi dedicati specificamente all'orientamento."
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Esperienze lavorative",
+      "target": "Studenti uscenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VVMM824016\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto \"Ignazio Larussa\", scuola di I grado situata a Serra San Bruno, in provincia di Vibo Valentia e regione Calabria. Il PTOF, relativo all'anno scolastico 2019/20-2021/22, mostra un impegno nell'integrazione di attività di orientamento all'interno di iniziative più ampie, piuttosto che in una sezione dedicata specifica. L'istituto, statale, dimostra una buona attenzione alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità. Si evidenzia un'attenzione particolare alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela l'assenza di una sezione specificamente dedicata all'orientamento nel PTOF, con attività integrate in altre iniziative.\n\n**2.2 Partnership:**\n\nL'istituto vanta un buon livello di partnership, con un punteggio di 4 su 5, collaborando con **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate in modo completo, ottenendo un punteggio di 4 per ciascuna delle aree analizzate: attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi posti dall'istituto in termini di orientamento sono mirati e pertinenti, con un punteggio di 3 per ciascuna delle aree considerate: riduzione dell'abbandono, continuità territoriale, contrasto alla dispersione NEET e promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:**\n\nL'istituto implementa azioni di sistema efficaci, ottenendo un punteggio di 4 per ciascuna delle aree analizzate: coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su esperienze dirette degli studenti, con un punteggio di 4. Tuttavia, si rileva una minore attenzione alla didattica laboratoriale, con un punteggio di 2, e alla flessibilità di spazi e tempi dedicati specificamente all'orientamento, anch'essa con un punteggio di 2. La didattica interdisciplinare, invece, risulta ben integrata.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di opzionali e attività facoltative è ampia e diversificata, con un punteggio di 4 per ciascuna delle aree considerate: culturali, laboratoriali ed espressive, ludiche e ricreative, volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'efficacia delle azioni di sistema, nella buona rete di partnership e nell'ampia offerta di attività opzionali. L'integrazione dell'orientamento nelle attività quotidiane e nei progetti didattici rappresenta un approccio valido. Le attività di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento) sono ben strutturate e mirate, come dimostrano le attività registrate: **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra** e **Viaggio d'istruzione**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata all'orientamento all'interno del PTOF. Inoltre, la didattica laboratoriale e la flessibilità di spazi e tempi specifici per l'orientamento necessitano di essere potenziate.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare maggiormente l'impegno dell'istituto verso l'orientamento, attraverso la creazione di una sezione dedicata nel PTOF. Questo consentirebbe di definire in modo più preciso obiettivi, azioni e indicatori di monitoraggio specifici per l'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \"Ignazio Larussa\" dimostra un'attenzione significativa all'orientamento, sebbene non formalizzata in una sezione dedicata. L'istituto implementa azioni efficaci, vanta una buona rete di partnership e offre un'ampia gamma di attività opzionali. Per migliorare ulteriormente l'offerta formativa in termini di orientamento, si raccomanda di creare una sezione specifica nel PTOF e di potenziare la didattica laboratoriale e la flessibilità di spazi e tempi dedicati a questa importante attività. Le attività registrate, come il **Ritiro di accoglienza**, gli incontri di **Educazione alimentare** e **La tossicodipendenza**, il corso di **Primo soccorso** e l'**Orientamento post-liceo**, dimostrano un impegno concreto verso la crescita e lo sviluppo degli studenti. La formazione del personale docente, con attività come **Formazione didattica inclusiva**, **Formazione utilizzo strumenti multimediali** e **Formazione sicurezza**, contribuisce a creare un ambiente scolastico stimolante e preparato."
+}

@@ -1,0 +1,255 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEIS003009",
+    "denominazione": "I.I.S. E. Montale-Nuovo I.P.C",
+    "tipo_scuola": "Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Timavo 63",
+    "cap": "16132",
+    "email": "geis003009@istruzione.it",
+    "pec": "geis003009@pec.istruzione.it",
+    "website": "www.iscsmontalegenova.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Indirizzo musicale",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "6 unità orarie giornaliere, lezioni di teoria e strumento, studio individuale",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria, secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Espressione e comunicazione",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2, percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definito per alunni NAI",
+      "target": "Alunni stranieri neo arrivati"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": null,
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIS003009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. E. Montale-Nuovo I.P.C. (GEIS003009) per il triennio 2019/20-2021/22. L'istituto, situato nel territorio metropolitano di Genova, si configura come una scuola statale che abbraccia i gradi di infanzia, primaria e secondaria di primo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, evidenziando un'attenzione strutturale a questo ambito.\n\n**2.2 Partnership:** L'istituto dimostra un'ampia rete di collaborazioni con diversi soggetti esterni. Tra i partner nominati figurano l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, i **Musei**, l'**Archivio di Stato**, diversi **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, **Altre scuole**, **Altre associazioni o cooperative**, le **Autonomie locali** e l'**ASL**. Il numero di partnership attive, pari a 16, suggerisce un forte impegno nel creare un sistema di supporto esterno per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, nonché il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono scolastico**, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**. Sebbene gli obiettivi di contrasto ai NEET e di lifelong learning abbiano ottenuto un punteggio inferiore rispetto agli altri, l'istituto dimostra una chiara volontà di affrontare le sfide legate all'inserimento nel mondo del lavoro.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita personale e professionale degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in un sistema di azioni coordinate e supportate da una solida rete di partnership. La presenza di una sezione dedicata, la chiarezza delle finalità e degli obiettivi, l'attenzione all'inclusione e la varietà dell'offerta didattica e opzionale costituiscono elementi positivi. L'attività \"**Attività di ampliamento curricolare**\" con visite guidate e incontri con professionisti, e la \"**Collaborazione con associazioni del territorio**\" attraverso progetti congiunti, sono esempi concreti di questo impegno.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza emergono dai punteggi inferiori relativi agli obiettivi di contrasto ai NEET e di promozione del lifelong learning. Potrebbe essere necessario rafforzare le azioni specifiche volte a preparare gli studenti all'inserimento nel mondo del lavoro e a sviluppare competenze spendibili nel lungo termine.\n\n### 5. Gap Analysis\n\nIl divario tra gli obiettivi ambiziosi e i punteggi ottenuti in alcune aree suggerisce la necessità di un monitoraggio più accurato delle azioni intraprese e di una valutazione degli impatti sull'effettiva riduzione dell'abbandono scolastico e sull'inserimento lavorativo degli studenti. L'attività \"**Monitoraggio Risultati Alunni**\" e \"**Monitoraggio Didattica Digitale Integrata**\" sono passi importanti, ma necessitano di essere integrati con indicatori specifici per l'orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. E. Montale-Nuovo I.P.C. presenta un approccio strutturato e completo all'orientamento, supportato da una solida rete di partnership e da un'offerta didattica diversificata. Pur riconoscendo alcune aree di miglioramento, l'istituto dimostra un forte impegno nel fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire il proprio **progetto di vita**. Attività come \"**Orientamento In Uscita Classi Terze Scuola Secondaria**\" e \"**Progetti di inclusione**\" testimoniano l'attenzione verso le esigenze specifiche degli studenti. L'attività \"**Formazione del personale**\" è fondamentale per garantire la qualità dell'orientamento."
+}

@@ -1,0 +1,336 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAAA8G401B",
+    "denominazione": "Na Ic - Tito Livio-Fiorelli",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Napoli",
+    "anno_ptof": "2024-2028",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via T.Campanella 1",
+    "cap": "80122",
+    "email": "rmic8gq00r@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.icsulmonacatullo.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Forze Armate",
+        "Forze dell'Ordine",
+        "Museo archeologico nazionale",
+        "Associazioni sportive",
+        "Comune",
+        "Avis",
+        "ASL",
+        "specialisti del territorio",
+        "servizi sociali",
+        "enti esterni",
+        "Istituzioni",
+        "Agenzie di viaggio",
+        "strutture pubbliche",
+        "convenzionate",
+        "private",
+        "UONPIA",
+        "Autorità garante per l’infanzia e l’adolescenza",
+        "Polizia di Stato",
+        "Polizia Postale"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite sul territorio",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetti di integrazione interculturale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Promozione progetti",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lab. Teatrale",
+      "categoria_principale": "Espressione",
+      "descrizione_e_metodologia": "Attività teatrali",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a Fattorie didattiche (Villaggio del Fanciullo, Fiocco di Neve, Gattopuzzo)",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caserma Vigili del Fuoco",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita alla Caserma Vigili del Fuoco",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Porto, mercato, centro storico",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a Porto, mercato, centro storico",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Teatro Traiano",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al Teatro Traiano",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Cinema",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al Cinema",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Ninfa e Sermoneta",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Ninfa e Sermoneta",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Tarquinia-Piani degli Alpaca",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Tarquinia-Piani degli Alpaca",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Perugia-Trasimeno",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Perugia-Trasimeno",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Museo Civico e Bosco di Allumiere",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al Museo Civico e Bosco di Allumiere",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caprarola-Villa Farnese",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a Caprarola-Villa Farnese",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Museo Piana delle Orme-Circeo",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al Museo Piana delle Orme-Circeo",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse per la conoscenza del territorio.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetti di integrazione interculturale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Promozione progetti",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lab. Teatrale",
+      "categoria_principale": "Espressione",
+      "descrizione_e_metodologia": "Attività teatrali",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Formazione Geometriko",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione specifica su Geometriko",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Metodologia DADA",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione specifica su DADA",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso Blended",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso blended learning",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Certificazione lingue",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse per la conoscenza del territorio.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "30 ore annue per classe dedicate ad attività di orientamento.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Definizione modalità DDI, strumenti e orario lezioni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "monitoraggio situazione organizzativa",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Contatto telefonico con le famiglie",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "comodato d'uso",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Concessione in comodato di sussidi didattici",
+      "target": "Alunni con sussidi tecnologici"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Incontri tra docenti scuole di provenienza e di destinazione",
+      "target": "Alunni in passaggio"
+    },
+    {
+      "titolo_attivita": "Incontri disciplinari",
+      "categoria_principale": "Didattica orientativa",
+      "descrizione_e_metodologia": "Incontri su matematica, scienze, musica, L2",
+      "target": "Alunni in passaggio"
+    },
+    {
+      "titolo_attivita": "Formazione specifica del personale scolastico",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, seminari, aggiornamenti",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Formazione delle famiglie",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri, workshop, materiali informativi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Esplorazione fenomeni scientifici",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Osservazione, classificazione, esposizione",
+      "target": "Alunni classe quinta"
+    },
+    {
+      "titolo_attivita": "Realizzazione oggetti in cartoncino",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Pianificazione, fabbricazione, documentazione",
+      "target": "Alunni classe quinta"
+    },
+    {
+      "titolo_attivita": "Orientamento con la bussola",
+      "categoria_principale": "Geografia",
+      "descrizione_e_metodologia": "Utilizzo bussola, punti cardinali",
+      "target": "Alunni classe quinta"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAAA8G401B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Na Ic-T.Livio-Fiorelli Materna**, codice **NAAA8G401B**, per il periodo **2024-2028**. La scuola, di ordine **Infanzia** e situata nel territorio **Metropolitano** di **Napoli** (Campania), si configura come istituzione **Statale**. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento in termini di presenza di una sezione dedicata, partnership, finalità, obiettivi, azioni di sistema, didattica orientativa e opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un'ampia rete di collaborazioni esterne.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di **7**, indicando un'attenzione particolare a questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di **partnership** con ben **20** enti e istituzioni, tra cui **Forze Armate**, **Forze dell'Ordine**, il **Museo archeologico nazionale**, **Associazioni sportive**, il **Comune**, **Avis**, **ASL**, **specialisti del territorio**, **servizi sociali**, **enti esterni**, **Istituzioni**, **Agenzie di viaggio**, **strutture pubbliche** e **private**, **UONPIA**, **Autorità garante per l’infanzia e l’adolescenza**, **Polizia di Stato** e **Polizia Postale**. Questa vasta collaborazione suggerisce un approccio integrato all'orientamento, coinvolgendo diversi attori del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** e delle **transizioni formative**, oltre a potenziare le **capacità orientative** rispetto alle opportunità. Tutti questi aspetti ricevono un punteggio di **4**, evidenziando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità con il **territorio**, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**, ciascuno con un punteggio di **3**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. Il coordinamento dei servizi e il rapporto scuola-genitori ottengono un punteggio di **5**, mentre le restanti azioni un punteggio di **4**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**, con punteggi che variano tra **3** e **4**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra **3** e **4**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di creare una rete di **partnership** estesa e diversificata, che coinvolge attivamente il territorio e le istituzioni locali. La presenza di una sezione dedicata all'orientamento e l'attenzione alle finalità di sviluppo personale e professionale degli studenti rappresentano ulteriori elementi positivi. L'ampia gamma di attività proposte, tra cui **visite guidate**, **progetti di integrazione interculturale** e **laboratori teatrali**, arricchisce l'offerta formativa e favorisce l'apprendimento esperienziale.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcuni aspetti potrebbero essere ulteriormente sviluppati. Gli obiettivi di riduzione dell'abbandono, continuità territoriale, contrasto al fenomeno NEET e lifelong learning, pur presenti, ottengono un punteggio di **3**, suggerendo la necessità di definire strategie più mirate e misurabili.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità e gli obiettivi in azioni concrete e monitorabili. Sebbene la scuola offra una vasta gamma di attività, sarebbe opportuno definire indicatori di performance specifici per valutare l'efficacia delle iniziative di orientamento e il loro impatto sugli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola **Na Ic-T.Livio-Fiorelli Materna** dimostra un impegno significativo verso l'orientamento, con una solida base di partnership, finalità ben definite e un'offerta formativa diversificata. Concentrando gli sforzi sul monitoraggio delle azioni e sulla definizione di indicatori di performance, la scuola potrà massimizzare l'efficacia delle iniziative di orientamento e contribuire in modo significativo allo sviluppo personale e professionale dei propri studenti. Le attività come **Uscite didattiche**, **Progetti di orientamento** e **Formazione Docenti** rappresentano un valore aggiunto per il raggiungimento degli obiettivi prefissati."
+}

@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TVPC035005",
+    "denominazione": "Liceo Classico \"Istituto Cavanis - Collegio Canova",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Possagno",
+    "anno_ptof": "2025-2028",
+    "provincia": "Treviso",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Degli Impianti Sportivi 8",
+    "cap": "31054",
+    "email": "istituto@cavanis.net",
+    "pec": "istituto@pec.cavanis.net",
+    "website": "www.cavanis.net",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Cambridge University",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie e comunità"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo lingua inglese per insegnare scienze",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Certificazione Cambridge Starters",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Preparazione all'esame di certificazione",
+      "target": "Classi IV"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Viaggio nella tradizione attraverso poesia, storia, musica e arte.",
+      "target": "Scuole dell'infanzia e primarie"
+    },
+    {
+      "titolo_attivita": "Progetto di educazione alla sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati per la sicurezza stradale.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di tecnologia e informatica",
+      "categoria_principale": "Tecnologia e Informatica",
+      "descrizione_e_metodologia": "Sviluppo del pensiero computazionale attraverso coding.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto per la promozione della lettura",
+      "categoria_principale": "Letteratura e Lingua Italiana",
+      "descrizione_e_metodologia": "Avviare, potenziare e consolidare il piacere di leggere.",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TVPC035005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Classico “Istituto Cavanis - Collegio Canova”** (TVPC035005) per il triennio 2025-2028. L'istituto, paritario, situato nel territorio non metropolitano di Possagno (Treviso), Veneto, dimostra un impegno significativo verso la crescita personale e professionale degli studenti, con particolare attenzione alle loro attitudini, interessi e alla progettazione del loro futuro. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, il PTOF evidenzia una solida base per lo sviluppo di competenze orientative attraverso diverse azioni e attività.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela l'assenza di una sezione esplicitamente dedicata all'orientamento all'interno del PTOF, ottenendo un punteggio di 0.\n\n**2.2 Partnership:** Il liceo dimostra una buona capacità di collaborare con diversi partner esterni, tra cui **Karis Foundation**, **Cambridge University**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Queste partnership, pari a 4, rappresentano un valore aggiunto per l'offerta formativa e per l'ampliamento delle opportunità offerte agli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento, come definite nel PTOF, sono ben delineate e ambiziose. Si riscontra un forte impegno nel supportare lo sviluppo delle attitudini, degli interessi e nella progettazione del percorso di vita degli studenti, con punteggi elevati (4) per ciascuna di queste aree. Anche la preparazione alle transizioni formative e lo sviluppo di capacità orientative per cogliere le opportunità future ricevono un buon riscontro (punteggio 3).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico e sulla continuità territoriale, entrambi con un punteggio di 3. L'attenzione verso il contrasto alla dispersione scolastica giovanile (neet) risulta meno sviluppata (punteggio 0), così come l'impegno per il lifelong learning (punteggio 1).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema mirate a rafforzare l'orientamento, come il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori, tutte con un punteggio di 3. Il monitoraggio delle azioni implementate appare meno strutturato (punteggio 1), mentre l'integrazione di azioni di inclusione e supporto alla fragilità è considerata importante (punteggio 3).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 4), sull'utilizzo di laboratori (punteggio 3) e sull'interdisciplinarità (punteggio 3). La flessibilità degli spazi e dei tempi didattici, invece, sembra meno prioritaria (punteggio 1).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive (punteggio 3), mentre quelle ludiche, ricreative, di volontariato e sportive ricevono un punteggio inferiore (2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara definizione delle finalità orientative, nella collaborazione con partner esterni qualificati e nell'impegno per una didattica orientativa basata sull'esperienza degli studenti. Le attività come **Adozioni a distanza** e il **Progetto del “Donacibo”** dimostrano un forte orientamento verso la responsabilità sociale e la cittadinanza attiva. Il **Progetto Clil** e la preparazione alla certificazione **Cambridge Starters** evidenziano l'attenzione all'internazionalizzazione e allo sviluppo di competenze linguistiche.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un punto debole del PTOF. L'attenzione al contrasto alla dispersione scolastica giovanile (neet) e al lifelong learning risulta insufficiente. Il monitoraggio delle azioni implementate necessita di essere potenziato per garantire l'efficacia dell'intervento orientativo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica integrata per l'orientamento, che dovrebbe essere esplicitata in una sezione dedicata del PTOF. È necessario rafforzare l'impegno verso il contrasto alla dispersione scolastica giovanile e promuovere una cultura del lifelong learning. L'istituto potrebbe beneficiare di un sistema di monitoraggio più efficace per valutare l'impatto delle azioni orientative e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Classico “Istituto Cavanis - Collegio Canova”** dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione dedicata. Le partnership, le finalità ben definite e la didattica orientativa basata sull'esperienza rappresentano punti di forza. Per migliorare l'efficacia dell'intervento orientativo, è necessario colmare le lacune identificate, rafforzando l'impegno verso il contrasto alla dispersione scolastica giovanile, promuovendo il lifelong learning e implementando un sistema di monitoraggio più efficace. Attività come il **Gesto di Natale**, il **Progetto di educazione alla sicurezza stradale** e il **Progetto per la promozione della lettura** contribuiscono a formare cittadini consapevoli e responsabili."
+}

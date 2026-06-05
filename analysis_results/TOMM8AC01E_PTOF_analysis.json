@@ -1,0 +1,185 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano di Miglioramento",
+  "metadata": {
+    "school_id": "TOMM8AC01E",
+    "denominazione": "I.C. Rivarolo C.Se",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Rivarolo Canavese",
+    "anno_ptof": "2016/17",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Le Maire 20",
+    "cap": "10086",
+    "email": "toic8ac00d@istruzione.it",
+    "pec": "ND",
+    "website": "www.icgozzano.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Confindustria/Agenzie produttive territoriali",
+        "Scuole x Canavese (Rete)",
+        "Uffici Scolastici",
+        "Confindustria",
+        "Rete di scuole SCR",
+        "Città Metropolitana"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Orienta",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con Confindustria/Agenzie produttive territoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi risultati passaggio scuola Primaria/Secondaria I grado",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Comparazione risultati 2° quadrimestre classi prime I grado con classi quinte Primaria.",
+      "target": "Alunni classi prime I grado e classi quinte Primaria"
+    },
+    {
+      "titolo_attivita": "Analisi risultati passaggio scuola Secondaria I grado/II grado",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Comparazione risultati alunni classi prime Secondaria II grado con consigli orientativi.",
+      "target": "Alunni classi prime Secondaria II grado"
+    },
+    {
+      "titolo_attivita": "Certificazione delle Competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Approvazione modello ministeriale di Certificazione delle Competenze.",
+      "target": "Alunni classi quinte Primaria e terze Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero e potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Organizzazione corsi pomeridiani (es. Madrelingua Inglese).",
+      "target": "Alunni con difficoltà/eccellenze"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione gruppi di lavoro in parallelo per recupero/potenziamento.",
+      "target": "Alunni classi terze Primaria (Bosconero)"
+    },
+    {
+      "titolo_attivita": "Incontri su bullismo, cyberbullismo e utilizzo dei social",
+      "categoria_principale": "Prevenzione e benessere",
+      "descrizione_e_metodologia": "Incontri per famiglie e alunni, obbligatori per casi problematici.",
+      "target": "Famiglie e alunni"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole superiori e aziende",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate e incontri per conoscere percorsi formativi e professionali.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Utilizzo piattaforma Spaggiari",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Comunicazione scuola-famiglia e registro elettronico.",
+      "target": "Docenti, famiglie, segreteria"
+    },
+    {
+      "titolo_attivita": "Organizzazione dell'Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Riunioni con responsabile Confindustria",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOMM8AC01E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Rivarolo - Gozzano (TOMM8AC01E), relativo all'anno 2016/17. L'istituto, di I grado, situato nel territorio metropolitano della provincia di Torino e regione Piemonte, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di valutazione positivo. L'analisi si concentra sulle diverse dimensioni dell'orientamento, identificando punti di forza, aree di debolezza e possibili gap da colmare per ottimizzare l'offerta formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che indica una chiara attenzione a questa tematica.\n\n**2.2 Partnership:** L'istituto ha stabilito collaborazioni con diversi partner, tra cui **Confindustria/Agenzie produttive territoriali**, **Scuole x Canavese (Rete)**, **Uffici Scolastici**, **Confindustria**, la **Rete di scuole SCR** e la **Città Metropolitana**. Il numero di partnership attive è pari a 6, suggerendo un approccio collaborativo all'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative rispetto alle opportunità. Tutte queste aree ricevono un punteggio di 3, indicando un'attenzione equilibrata a diversi aspetti dello sviluppo personale e professionale degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno NEET e a promuovere il lifelong learning. L'obiettivo di continuità territoriale ottiene un punteggio di 3, mentre gli obiettivi di riduzione dell'abbandono e contrasto ai NEET ricevono un punteggio di 2, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione di azioni di inclusione e supporto alla fragilità. Il rapporto scuola-genitori ottiene un punteggio di 4, mentre le altre azioni ricevono un punteggio di 3 o 2, indicando la necessità di rafforzare alcuni aspetti della collaborazione e del supporto agli studenti.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'approccio basato sull'esperienza e l'interdisciplinarità ottengono un punteggio di 3, mentre l'utilizzo di laboratori e la flessibilità degli spazi e dei tempi ricevono un punteggio di 2, suggerendo un'area di potenziale sviluppo.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali include attività culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali laboratoriali ed espressive ottengono un punteggio di 3, mentre le altre attività ricevono un punteggio di 2, indicando la necessità di diversificare ulteriormente l'offerta formativa.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, che dimostra un impegno istituzionale verso questa tematica. Le partnership attive con diversi soggetti del territorio, tra cui **Confindustria** e le **Scuole x Canavese**, rappresentano un valore aggiunto per l'offerta formativa. Il rapporto scuola-genitori è ben strutturato e riceve un punteggio elevato.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno NEET, che ricevono un punteggio basso. Anche l'utilizzo di laboratori e la flessibilità degli spazi e dei tempi nella didattica orientativa necessitano di essere potenziati. L'offerta di opzionali potrebbe essere diversificata ulteriormente per rispondere alle diverse esigenze e interessi degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi dell'orientamento in azioni concrete e misurabili, con particolare attenzione alla riduzione dell'abbandono scolastico e al contrasto al fenomeno NEET. È necessario rafforzare la collaborazione tra scuola, famiglie e territorio per garantire un supporto efficace agli studenti durante le transizioni formative.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Rivarolo - Gozzano dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e diverse partnership attive. Tuttavia, è necessario concentrarsi sul potenziamento delle azioni volte a ridurre l'abbandono scolastico e a contrastare il fenomeno NEET, nonché sulla diversificazione dell'offerta formativa e sull'utilizzo di metodologie didattiche innovative. Le attività registrate, come il **Progetto Orienta**, l'analisi dei risultati di passaggio tra i diversi gradi scolastici e gli incontri con scuole superiori e aziende, rappresentano un buon punto di partenza per raggiungere gli obiettivi prefissati. L'utilizzo della piattaforma **Spaggiari** per la comunicazione scuola-famiglia è un elemento positivo da mantenere e sviluppare."
+}

@@ -1,0 +1,212 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LUMM81701P",
+    "denominazione": "Ist.Comprensivo Forte Dei Marmi",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Forte Dei Marmi",
+    "anno_ptof": "2022/23- 2024/2025",
+    "provincia": "Lucca",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via P.Ignazio Da Carrara 79",
+    "cap": "55042",
+    "email": "luic81700n@istruzione.it",
+    "pec": "ND",
+    "website": "www.icsfdm.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. L'analisi del contesto inclusione non è sufficiente a giustificare un punteggio più alto."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Università di Cambridge",
+        "partner esterni",
+        "Ufo Saronno",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Associazione L’Orma di Milano",
+        "Associazione Fourchette Verte Ticino"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di musica, cucina, pittura, teatro",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Attività laboratoriali in collaborazione con enti locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto al metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua straniera",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi pomeridiani di inglese su quattro livelli, preparazione Cambridge Examinations",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Campo estivo in Inghilterra",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Organizzato in collaborazione con partner esterni",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Laboratorio di strumento musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Organizzati dall'istituto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaboration with youth center",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Project Gruppo Visione Giovani",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaboration with Red Cross",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus Plus",
+      "categoria_principale": "International Mobility",
+      "descrizione_e_metodologia": "Collaboration with Associazione L’Orma di Milano",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Settimana della lingua italiana nel mondo",
+      "categoria_principale": "Cultural Events",
+      "descrizione_e_metodologia": "Workshops, conferences",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Giochi matematici",
+      "categoria_principale": "Academic Competitions",
+      "descrizione_e_metodologia": "Participation in math games",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Field Trips",
+      "descrizione_e_metodologia": "Visits to art places",
+      "target": "Students"
+    },
+    {
+      "titolo_attivita": "Sportello di sostegno all'allievo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui, coordinamento PDP, raccordo specialisti",
+      "target": "Alunni DSA, BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LUMM81701P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto \\\"Ugo Guidi\\\" Forte Dei Marmi (LUMM81701P), relativo all'anno scolastico 2022/23-2024/2025. L'istituto, di I Grado, situato nel territorio non metropolitano di Forte Dei Marmi, in provincia di Lucca e regione Toscana, è di tipo statale. L'analisi evidenzia un impegno generale verso l'orientamento, sebbene manchi una sezione specificamente dedicata. Il PTOF dimostra un'attenzione alle finalità dell'orientamento, agli obiettivi di riduzione dell'abbandono scolastico e al supporto agli studenti, con un sistema di azioni che coinvolge coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori e monitoraggio delle attività.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'assenza di una sezione dedicata all'orientamento rappresenta una criticità. L'analisi del contesto inclusione, pur presente, non è sufficiente a compensare questa mancanza.\n\n**2.2 Partnership:**\n\nL'istituto vanta un network di **partnership** significativo, con nove collaborazioni attive. Tra i partner figurano **LAC**, **Museo in Erba**, **Università di Cambridge**, diversi **partner esterni**, **Ufo Saronno**, **Polizia Cantonale**, **Croce Rossa**, **Associazione L’Orma di Milano** e **Associazione Fourchette Verte Ticino**. Queste collaborazioni dimostrano un'apertura verso il territorio e un impegno nell'arricchire l'offerta formativa.\n\n**2.3 Finalità:**\n\nIl PTOF definisce chiaramente le finalità dell'orientamento, focalizzandosi sullo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio di 3, indicando un'attenzione equilibrata.\n\n**2.4 Obiettivi:**\n\nGli obiettivi delineati nel PTOF sono mirati a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale**, **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e promuovere il **lifelong learning**. Anche in questo caso, il punteggio di 3 per ciascun obiettivo suggerisce un approccio coerente.\n\n**2.5 Azioni di Sistema:**\n\nIl sistema di azioni proposto include il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori** e un efficace **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'attenzione verso un **sistema integrato di inclusione e fragilità**. Ogni azione riceve un punteggio di 3, evidenziando un approccio sistematico.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Queste metodologie, tutte valutate con un punteggio di 3, mirano a rendere l'apprendimento più coinvolgente e significativo.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende moduli **culturali**, **laboratoriali ed espressivi**, **ludico-ricreativi**, di **volontariato** e **sportivi**. Questa varietà, con un punteggio di 3 per ciascuna tipologia, contribuisce a personalizzare l'offerta formativa e a soddisfare le diverse esigenze degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e degli obiettivi, nella presenza di un sistema di azioni ben definito e nella varietà dell'offerta didattica e delle attività opzionali. La rete di **partnership** consolidata rappresenta un valore aggiunto significativo, consentendo all'istituto di ampliare le proprie risorse e di offrire opportunità formative diversificate. L'impegno verso l'inclusione e il supporto agli studenti con **BES/DSA** è inoltre degno di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questa mancanza limita la visibilità e la coerenza delle azioni intraprese in questo ambito.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare un'offerta di orientamento più organica e formalizzata. L'istituto dovrebbe considerare l'inserimento di una sezione specifica nel PTOF, definendo un piano di azione dettagliato con obiettivi misurabili e indicatori di performance.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \\\"Ugo Guidi\\\" Forte Dei Marmi dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione dedicata. La presenza di una rete di **partnership** attiva, la chiarezza delle finalità e degli obiettivi, e la varietà dell'offerta formativa rappresentano punti di forza. Per migliorare l'efficacia dell'orientamento, è necessario colmare il divario identificato attraverso l'inserimento di una sezione specifica nel PTOF e la definizione di un piano di azione dettagliato. Le attività registrate, come i **corsi di musica, cucina, pittura, teatro**, lo **sportello di supporto psicologico**, i **corsi di lingua straniera** e il **progetto Erasmus Plus**, contribuiscono a creare un ambiente scolastico stimolante e orientato allo sviluppo integrale degli studenti."
+}

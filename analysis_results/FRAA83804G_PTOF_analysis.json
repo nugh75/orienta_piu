@@ -1,0 +1,202 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FRAA83804G",
+    "denominazione": "I.C.2 Alatri Sacchetti Sassetti",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Alatri",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Frosinone",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Valle",
+    "cap": "03011",
+    "email": "fric83800g@istruzione.it",
+    "pec": "ND",
+    "website": "www.icalatrisecondo.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori",
+        "Commissione zero-sei"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività proposte da Docendum, Ente riconosciuto dal MIUR",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra effettua visite su richiesta",
+      "target": "Bambini e genitori"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche scelte dai genitori",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua Cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Verifiche e rendicontazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionari di soddisfazione genitori e personale, verbali colloqui.",
+      "target": "Genitori, Personale"
+    },
+    {
+      "titolo_attivita": "Legami Educativi a Distanza (LEAD)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di mail, audio, video, chat, piattaforme digitali, registro elettronico.",
+      "target": "Bambini, Famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FRAA83804G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia **Alatri Fiura** (codice scuola **FRAA83804G**) per il triennio **2022/2023 – 2023/2024 – 2024/2025**. La scuola, statale, situata nel comune di **Alatri** (provincia di **Frosinone**, regione **Lazio**), non presenta una sezione esplicita e dedicata all'orientamento, ottenendo un punteggio di 0 in tal senso. Tuttavia, l'istituto dimostra un impegno significativo nella costruzione di una rete di **partnership** con diversi enti e organizzazioni, tra cui **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. L'attenzione alle finalità formative, in particolare alle attitudini e agli interessi degli alunni, risulta ben definita, mentre la progettazione per la transizione formativa e lo sviluppo di capacità orientative per il futuro appaiono meno strutturate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Come già evidenziato, il PTOF non prevede una sezione specificamente dedicata all'orientamento, suggerendo una possibile area di sviluppo per il futuro.\n\n**2.2 Partnership:** La scuola vanta un solido network di collaborazioni esterne, con un punteggio di 3 su 5 partner nominati. Queste partnership rappresentano un valore aggiunto per l'offerta formativa e possono contribuire a potenziare le attività di orientamento, se integrate in modo strategico.\n\n**2.3 Finalità:** Le finalità formative del PTOF si concentrano prevalentemente sullo sviluppo delle attitudini e degli interessi degli alunni (punteggio 3 per entrambe le aree). L'attenzione al **progetto di vita** è presente, ma meno marcata (punteggio 2), così come le finalità legate alla transizione formativa e allo sviluppo di capacità orientative per le opportunità future (punteggio 1 per entrambe).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si focalizzano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno NEET) e sulla promozione del **lifelong learning**. Tutti questi obiettivi ottengono un punteggio di 1, indicando un impegno generale, ma non particolarmente approfondito, in queste aree.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Il rapporto scuola-genitori e il sistema integrato di inclusione ricevono un punteggio di 3, mentre le altre azioni ottengono un punteggio di 2 o 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza diretta degli studenti (punteggio 4), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. I punteggi ottenuti in queste aree sono generalmente bassi (da 1 a 2), suggerendo un'offerta limitata o poco strutturata.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono rappresentati dalla solida rete di **partnership** con enti esterni, dall'attenzione allo sviluppo delle **attitudini** e degli **interessi** degli alunni e dall'utilizzo di metodologie didattiche innovative basate sull'esperienza diretta e sulla **laboratorialità**. L'impegno per l'inclusione e il supporto alle fragilità è un ulteriore elemento positivo. Le attività registrate, come il **Laboratorio di Coding per l’Infanzia**, il **Laboratorio di Musica in movimento** e gli **Incontri di sostegno alla genitorialità**, testimoniano un'offerta diversificata e orientata al benessere degli alunni e delle famiglie.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta la principale area di debolezza del PTOF. Inoltre, le finalità legate alla transizione formativa e allo sviluppo di capacità orientative per il futuro appaiono poco definite. L'offerta di attività opzionali e facoltative è limitata e poco strutturata. Il monitoraggio delle azioni intraprese, pur presente, sembra poco incisivo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e coordinata dell'orientamento. Sebbene siano presenti elementi di orientamento implicito nelle attività e nelle finalità formative, manca un approccio esplicito e sistematico che consenta di accompagnare gli alunni nello sviluppo delle loro competenze orientative e nella consapevolezza delle loro potenzialità.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Alatri Fiura** presenta un buon livello di impegno nella realizzazione di un'offerta formativa diversificata e orientata al benessere degli alunni. Tuttavia, per potenziare l'efficacia dell'azione educativa, è necessario colmare il divario esistente in materia di orientamento, definendo una sezione specifica del PTOF dedicata a questo tema e sviluppando un piano di interventi mirati a promuovere la consapevolezza, l'autonomia e la capacità di progettazione degli alunni. L'integrazione delle **partnership** esistenti in un quadro strategico di orientamento potrebbe rappresentare un'opportunità preziosa per arricchire l'offerta formativa e migliorare i risultati scolastici."
+}

@@ -1,0 +1,254 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSPSSP500D",
+    "denominazione": "Liceo Scientifico R. Misasi",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cosenza",
+    "anno_ptof": "2025-2028",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Galiano N. 4/D",
+    "cap": "87100",
+    "email": "segreteria@scuolemisasi.it",
+    "pec": "ND",
+    "website": "www.scuolemisasi.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Società sportiva Basket Rimini Crabs",
+        "Accademia Rimini Calcio VB",
+        "CTS",
+        "CTI",
+        "servizi di zona",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "Sostieni il Sostegno"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre. Sviluppo psico-fisico.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Danza come linguaggio espressivo. Spettacolo finale.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Istruttore minibasket con maestra. Giochi per base motoria.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Approccio al gruppo, sviluppo comunicazione, creatività.",
+      "target": "3 e 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria propedeutica al calcio.",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale.",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Consapevolezza fonologica, narrazione, gioco.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione argilla, sviluppo manualità.",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Segare, martellare, cucire, creare.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per presentare la scuola.",
+      "target": "Genitori, bambini, famiglie"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini, famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a fattorie, musei, mercati, etc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa con maratonina, spettacoli e cene.",
+      "target": "Alunni, genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "sostegno",
+      "descrizione_e_metodologia": "promozione attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività con gruppi eterogenei",
+      "categoria_principale": "inclusione",
+      "descrizione_e_metodologia": "promozione attività con gruppi eterogenei",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "didattica",
+      "descrizione_e_metodologia": "learning by doing",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "tutoring",
+      "categoria_principale": "sostegno",
+      "descrizione_e_metodologia": "supporto individuale",
+      "target": "alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "transizione",
+      "descrizione_e_metodologia": "incontri tra docenti",
+      "target": "alunni in transizione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSPSSP500D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico R. Misasi** (CSPSSP500D) per il periodo 2025-2028. La scuola, situata a **Cosenza** in **Calabria**, è una realtà **paritaria** che opera nel secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, l'offerta didattica e le attività opzionali. La valutazione complessiva indica un impegno significativo verso l'orientamento, con particolare attenzione alle **partnership** e alla didattica laboratoriale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:**\n\nUn punto di forza del PTOF è rappresentato dalle numerose **partnership** attivate, ben 14, che includono enti locali come il **Comune di Riccione** e l'**ASL**, associazioni sportive come la **Federazione Italiana Pallacanestro di Rimini**, **Società sportiva Basket Rimini Crabs** e **Accademia Rimini Calcio VB**, oltre a istituzioni educative come **Nido d’Infanzia Piccole tracce** e la **Scuola Primaria**. Sono presenti anche collaborazioni con **CTS**, **CTI**, **servizi di zona**, **Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini**, **Diesse** e **Sostieni il Sostegno**. Questo ampio network testimonia l'impegno della scuola nell'ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (4), **interessi** (4) e la preparazione al **progetto di vita** (3), nonché per la gestione delle **transizioni formative** (4). L'area che necessita di maggiore attenzione è lo sviluppo delle **capacità orientative** per cogliere le opportunità (1).\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla **continuità territoriale** (4). Gli obiettivi di riduzione dell'**abbandono** scolastico (1) e di contrasto al fenomeno **NEET** (1) ricevono un punteggio inferiore, mentre l'obiettivo di promuovere il **lifelong learning** (2) mostra un potenziale di sviluppo.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento sono orientate al **coordinamento dei servizi** (4) e al rafforzamento del **rapporto scuola-genitori** (4). Il **dialogo tra docenti e studenti** (2) e il **monitoraggio delle azioni** (3) ricevono punteggi medi, mentre il sistema integrato per l'**inclusione e la fragilità** (3) evidenzia un'attenzione alle esigenze specifiche degli studenti.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (3), sull'utilizzo di **laboratori** (3) e sulla **flessibilità degli spazi e dei tempi** (3). L'approccio **interdisciplinare** (3) completa il quadro delle metodologie didattiche adottate.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata, con punteggi elevati per i laboratori **espressivi** (5) e le attività **sportive** (5). Le attività **ludiche e ricreative** (4) ricevono un buon punteggio, mentre quelle **culturali** (1) e di **volontariato** (2) presentano un margine di miglioramento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la ricchezza delle **partnership** attivate, la chiarezza delle **finalità** orientative e l'attenzione alla didattica laboratoriale. Le numerose attività proposte, come **Amico sport**, **Laboratorio di Danza creativa**, **Avviamento al gioco sport Basket**, **Madrelingua inglese** e **Laboratorio di creta**, offrono agli studenti opportunità di esplorare i propri interessi e sviluppare le proprie competenze.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, gli obiettivi di riduzione dell'abbandono scolastico e di contrasto al fenomeno NEET necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione specifica dell'orientamento all'interno del PTOF. Sebbene le attività e le partnership siano numerose e significative, la loro integrazione in un quadro strategico coerente potrebbe essere migliorata. È necessario definire indicatori di performance per monitorare l'efficacia delle azioni intraprese e valutare il raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico R. Misasi** dimostra un impegno significativo verso l'orientamento, supportato da una vasta rete di **partnership** e da un'offerta didattica diversificata. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è necessario definire una sezione dedicata all'orientamento all'interno del PTOF e rafforzare gli obiettivi di contrasto all'abbandono scolastico e al fenomeno NEET. L'integrazione delle attività in un quadro strategico coerente e la definizione di indicatori di performance consentirebbero di monitorare i progressi e garantire il raggiungimento degli obiettivi prefissati."
+}

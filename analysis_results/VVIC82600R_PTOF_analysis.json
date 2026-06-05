@@ -1,0 +1,234 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VVIC82600R",
+    "denominazione": "I.C. \"A. Vespucci\" - Murmura",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Vibo Valentia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Vibo Valentia",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Stazione - Vibo Marina",
+    "cap": "89900",
+    "email": "vvic82600r@istruzione.it",
+    "pec": "vvic82600r@pec.istruzione.it",
+    "website": "www.icsamerigovespuccivibo.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "PTOF menziona obiettivi formativi prioritari"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Carabinieri",
+        "Capitaneria di Porto",
+        "Guardia di Finanza",
+        "Parrocchie",
+        "associazioni sportive locali",
+        "musei",
+        "istituti pubblici e privati",
+        "Teatro Piccolo Eliseo",
+        "Scie",
+        "Enti locali",
+        "Gestori ambientali",
+        "Associazioni di volontariato",
+        "Aziende"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Didattica in barca",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Utilizzo di una barca a vela sequestrata per attività didattiche.",
+      "target": "Alunni a rischio e non"
+    },
+    {
+      "titolo_attivita": "Orchestra giovanile",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Attività musicali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Lezioni di 2 ore con accoglienza, lezione teorico-pratica e rappresentazione finale.",
+      "target": "Studenti della scuola secondaria di primo grado, orchestra giovanile"
+    },
+    {
+      "titolo_attivita": "Festival tematico Agenda 2030",
+      "categoria_principale": "Evento",
+      "descrizione_e_metodologia": "Spettacoli tematici al teatro Piccolo Eliseo o in digitale.",
+      "target": "Studenti della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione mirata annuale, formazione gratuita finanziata da progetti europei.",
+      "target": "Docenti referenti della rete OTIS"
+    },
+    {
+      "titolo_attivita": "Outdoor Education",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi didattici in ambienti naturali e urbani, valorizzando l'ambiente esterno come contesto educante.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Magia dell'apprendimento",
+      "categoria_principale": "Progetto trasversale",
+      "descrizione_e_metodologia": "Utilizzo del contesto narrativo di Harry Potter per rendere l'apprendimento più coinvolgente.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto T.E.R.R.A.",
+      "categoria_principale": "Contrasto alla povertà educativa",
+      "descrizione_e_metodologia": "Percorsi didattici, laboratori, officine tematiche (progettazione sociale, arti e mestieri, musica, sport, teatro, identità territoriale, imprenditorialità, riqualificazione urbana)",
+      "target": "Ragazzi a rischio drop-out, famiglie in difficoltà"
+    },
+    {
+      "titolo_attivita": "Rete Otis: Oltreconfini",
+      "categoria_principale": "Teatro e Didattica",
+      "descrizione_e_metodologia": "Laboratori teatrali, spettacoli tematici, focus su Agenda 2030",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "SOS Sostenibilità",
+      "categoria_principale": "Educazione allo Sviluppo Sostenibile",
+      "descrizione_e_metodologia": "Attività (concorsi, manifestazioni, laboratori) legate all'analisi dei goal dell'Agenda 2030",
+      "target": "Tutti i plessi dell'Istituto"
+    },
+    {
+      "titolo_attivita": "Crescere in Armonia",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio settimanale per sviluppo cultura e pratica strumentale",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive individuali e a squadre, lezioni extracurricolari",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto O.T.i.S",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Laboratori teatrali e interscambio scuole",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori inclusivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività in gruppi interclasse",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Tutti uguali, tutti diversi con la lettura",
+      "categoria_principale": "Promozione della lettura",
+      "descrizione_e_metodologia": "Realizzazione di Punto Lettura nella scuola dell'infanzia di Portosalvo con scaffale, tappeto e albi illustrati. Incontri di lettura, laboratori, incontri con scrittori.",
+      "target": "Bambini della scuola dell'infanzia e famiglie"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento sull'Agenda 2030",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Organizzazione di corsi di aggiornamento per docenti sull'Agenda 2030.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Insegnamento trasversale di Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Contitolarità docenti, 33 ore annue",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VVIC82600R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. “A. Vespucci” di Murmura (VVIC82600R) per il triennio 2022-2025. L'istituto, comprensivo e situato in un territorio non metropolitano della Calabria, dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio complessivo che evidenzia una buona strutturazione delle finalità e delle azioni previste. L'attenzione è rivolta alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica e alla promozione del lifelong learning. Il PTOF si distingue per un approccio didattico orientativo basato sull'esperienza diretta degli studenti e sull'utilizzo di metodologie laboratoriali e interdisciplinari.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, con obiettivi formativi prioritari ben definiti.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership con enti e associazioni del territorio, tra cui **Carabinieri**, **Capitaneria di Porto**, **Guardia di Finanza**, **Parrocchie**, associazioni sportive locali, **musei**, istituti pubblici e privati, il **Teatro Piccolo Eliseo**, **Scie**, enti locali, gestori ambientali, associazioni di volontariato e aziende. Questa rete di collaborazioni, composta da ben 12 partner, rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, nonché alla facilitazione delle transizioni formative e all'ampliamento delle capacità orientative verso le opportunità disponibili.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'abbandono scolastico, garantire la continuità territoriale, contrastare il fenomeno dei NEET e promuovere il lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e, in particolare, un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in un sistema ampio di azioni e partnership. L'istituto dimostra una forte attenzione all'inclusione e al supporto degli studenti fragili, come evidenziato dal punteggio massimo attribuito all'azione \"sistema integrato inclusione fragilita\". L'offerta didattica orientativa, basata sull'esperienza e sulla laboratorialità, è particolarmente apprezzabile. Le attività come **Didattica in barca**, **Orchestra giovanile**, **Laboratorio teatrale**, **Festival tematico Agenda 2030**, **Outdoor Education** e **Magia dell'apprendimento** dimostrano un approccio innovativo e coinvolgente.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, il PTOF presenta alcune aree di debolezza. L'obiettivo di contrastare il fenomeno dei NEET ha ottenuto un punteggio inferiore rispetto agli altri obiettivi, suggerendo la necessità di rafforzare le azioni specifiche in questo ambito. Anche le opzionali ludiche, ricreative e di volontariato potrebbero essere potenziate per offrire agli studenti una gamma più ampia di opportunità.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi ambiziosi in azioni concrete e misurabili. Sebbene il PTOF delinei una visione chiara dell'orientamento, è fondamentale definire indicatori di performance specifici per monitorare l'efficacia delle azioni intraprese e valutare il raggiungimento dei risultati attesi. Un maggiore focus sulla misurazione dell'impatto delle partnership e delle attività opzionali potrebbe contribuire a colmare questo gap.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. “A. Vespucci” di Murmura presenta un approccio solido e ben strutturato all'orientamento. L'istituto dimostra un forte impegno verso lo sviluppo delle competenze e delle potenzialità degli studenti, con un'attenzione particolare all'inclusione e alla collaborazione con il territorio. Il potenziamento delle azioni volte a contrastare la dispersione scolastica e la definizione di indicatori di performance specifici potrebbero contribuire a rendere il PTOF ancora più efficace e a garantire il successo degli studenti nel loro percorso formativo e professionale. Progetti come **Progetto T.E.R.R.A.**, **Rete Otis: Oltreconfini**, **SOS Sostenibilità**, **Crescere in Armonia**, **Giochi Sportivi Studenteschi**, **Progetto O.T.i.S.**, **Laboratori inclusivi** e **Progetto Tutti uguali, tutti diversi con la lettura** rappresentano un valore aggiunto per l'offerta formativa e testimoniano l'impegno dell'istituto verso un'educazione completa e orientata al futuro. L'impegno nella **Formazione docenti** e nell'**Insegnamento trasversale di Educazione Civica** completa il quadro di un'offerta formativa attenta alle esigenze del territorio e del mondo contemporaneo."
+}

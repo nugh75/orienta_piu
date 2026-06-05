@@ -1,0 +1,369 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BAPM010001",
+    "denominazione": "Liceo \"G. Bianchi Dottula",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Bari",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bari",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Mazzini 114",
+    "cap": "70123",
+    "email": "bapm010001@istruzione.it",
+    "pec": "bapm010001@pec.istruzione.it",
+    "website": "www.liceobianchidottula.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Magistrale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Enti Locali",
+        "Istituzioni",
+        "Associazioni",
+        "Istituto Salesiani Redentore",
+        "Banca d’Italia",
+        "Camera di Commercio",
+        "Biblioteca Nazionale",
+        "Archivio di Stato",
+        "Soprintendenza archivistica",
+        "CVS",
+        "Scuole Sec. I grado Imbriani",
+        "UE",
+        "Erasmus+",
+        "E-Twinning",
+        "CSV San Nicola",
+        "FAI Bari",
+        "ANASF",
+        "Università degli Studi di Bari",
+        "Agenzia viaggi “Oltre l’infinito”",
+        "CIPO Centro Interculturale Ponte ad Oriente",
+        "ASL",
+        "Università"
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 7
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Iniziative di formazione per tecniche di primo soccorso",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Corsi pratici e teorici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori contro la violenza di genere",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Incontri con esperti e associazioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione su bullismo e cyberbullismo",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Seminari e workshop",
+      "target": "Studenti e genitori"
+    },
+    {
+      "titolo_attivita": "Partecipazione a gare, olimpiadi e tornei",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Iscrizione e preparazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario Agenzie del territorio",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Rilevazione bisogni formativi",
+      "target": "Agenzie del territorio"
+    },
+    {
+      "titolo_attivita": "Questionario Genitori",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Rilevazione iniziative efficaci",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Focus group Dirigenza",
+      "categoria_principale": "Analisi",
+      "descrizione_e_metodologia": "Riflessione bisogni formativi",
+      "target": "Dirigenza"
+    },
+    {
+      "titolo_attivita": "Attività di orientamento per studenti classi 3^ Scuole Sec. I grado",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Incontri nelle scuole",
+      "target": "Studenti classi 3^ Scuole Sec. I grado"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Open day in presenza",
+      "target": "Studenti e genitori"
+    },
+    {
+      "titolo_attivita": "Attività inerenti la didattica orientativa con l’Università",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Visite e incontri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Manifestazione Festa Unità Nazionale",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al Sacrario Caduti d’Oltremare Bari",
+      "target": "classi 5^BU e 5^BE"
+    },
+    {
+      "titolo_attivita": "Giornata della Memoria – Talk",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Teatro Piccinni Bari",
+      "target": "classi 3^AU, 2^AU, 2^Bu, 2^Cu, 2^Ce, 3^Cu"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Teatro Pubblico Pugliese",
+      "target": "classi 5^AU, 5^BU, 5^Cu, 5^Du, 5^Ae"
+    },
+    {
+      "titolo_attivita": "Film Fest Anni Verdi",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Proiezione Film “Io capitano”, Cinema Galleria Bari",
+      "target": "Classi 1^CU, 1^BL"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali in lingua Inglese",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "a cura di uniBa",
+      "target": "Classi 3^Al, 3^Bl, 4^Al, 4^Bl, 5^Al"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura – Il Libro Possibile winter",
+      "categoria_principale": "Competenza Alfabetica Funzionale",
+      "descrizione_e_metodologia": "Letture guidate, incontri con autori, scrittura e riscrittura testi.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Statistica a scuola",
+      "categoria_principale": "Competenza In Matematica E Scienze",
+      "descrizione_e_metodologia": "Percorsi didattici laboratoriali, TIC.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Esabac",
+      "categoria_principale": "Competenza Multilinguistica",
+      "descrizione_e_metodologia": "Acquisizione competenze multilinguistiche.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Predisposizione del PEI",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Contatto operatori ASL, analisi situazione, formulazione PEI con partecipazione docenti, genitori, ASL",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Verifica intermedia del PEI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione opportunità modifiche PEI",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Verifica finale del PEI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione risultati, aggiornamento condizioni contesto e progettazione",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Richiesta educatori professionali",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Richiesta in base a necessità e disponibilità finanziaria",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Richiesta trasporto scolastico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Richiesta in base a necessità e disponibilità finanziaria",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Progetti europei/regionali",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Oltre 35 ore",
+      "target": "Discipline coinvolte"
+    },
+    {
+      "titolo_attivita": "Progetti PTOF",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Fino a 30 ore",
+      "target": "Discipline coinvolte"
+    },
+    {
+      "titolo_attivita": "Concorsi",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "1° classificato",
+      "target": "Discipline coinvolte"
+    },
+    {
+      "titolo_attivita": "Certificazioni",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Certificazione Informatica",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Attività di volontariato",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Almeno 30 ore",
+      "target": "Scienze Umane"
+    },
+    {
+      "titolo_attivita": "Vite spezzate",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Progetto INAIL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bussole per il futuro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto I.C. Collodi-Levi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Per un futuro migliore",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "CSV San Nicola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendisti ciceroni",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "FAI Bari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "economic@mente®",
+      "categoria_principale": "Educazione Finanziaria",
+      "descrizione_e_metodologia": "ANASF",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stratificazione geologica",
+      "categoria_principale": "Geoambientale",
+      "descrizione_e_metodologia": "Dipartimento Scienze Terra",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il mondo che vorrei",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "InConTra - ODV",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "In viaggio con se stessi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Agenzia viaggi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite guidate per scoperta del mondo del lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage e tirocini",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione stage e tirocini presso aziende locali",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BAPM010001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo \\\"G. Bianchi Dottula\\\"** (BAPM010001) per il triennio 2022-2025. La scuola, situata a **Bari** e operante in un contesto **metropolitano** della regione **Puglia**, si configura come un istituto **statale** che offre percorsi di studio di I e II grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree che necessitano di ulteriore attenzione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 7.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di partnership, con ben 21 partner nominati, tra cui **Enti Locali**, **Istituzioni**, **Associazioni**, l'**Istituto Salesiani Redentore**, la **Banca d’Italia**, la **Camera di Commercio**, la **Biblioteca Nazionale**, l'**Archivio di Stato**, la **Soprintendenza archivistica**, il **CVS**, le **Scuole Sec. I grado Imbriani**, l'**UE** con i programmi **Erasmus+** ed **E-Twinning**, il **CSV San Nicola**, il **FAI Bari**, l'**ANASF**, l'**Università degli Studi di Bari**, l'agenzia viaggi “**Oltre l’infinito**”, il **CIPO Centro Interculturale Ponte ad Oriente**, l'**ASL** e diverse **Università**. Questo network di collaborazioni rappresenta una risorsa preziosa per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità, tutte valutate con un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** e il mantenimento di una forte connessione con il **territorio**, entrambi con un punteggio di 5. L'obiettivo di contrastare il fenomeno dei **NEET** risulta meno prioritario, con un punteggio di 3, mentre la promozione del **lifelong learning** è considerata importante, con un punteggio di 5.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul **rapporto scuola-genitori**, sul **monitoraggio delle azioni** e sulla creazione di un **sistema integrato di inclusione e supporto alle fragilità**, tutte valutate con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento attraverso l'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi**, e sull'**interdisciplinarità**, tutte valutate con un punteggio di 5, con un focus particolare sull'esperienza degli studenti che ottiene un punteggio di 6.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzionali **culturali** e di **volontariato** (punteggio 7), **laboratoriali ed espressive** (punteggio 7), mentre quelle **ludiche e ricreative** e **sportive** ricevono un punteggio inferiore (4).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate, che offrono agli studenti numerose opportunità di contatto con il mondo del lavoro e del territorio. L'impegno verso la didattica orientativa basata sull'esperienza e la presenza di attività opzionali diversificate rappresentano ulteriori elementi positivi. L'attenzione alle finalità di sviluppo personale e professionale degli studenti, unitamente alle azioni di sistema volte a creare un ambiente scolastico inclusivo e supportivo, contribuiscono a rafforzare l'efficacia dell'orientamento.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza riscontrata è la minore priorità attribuita all'obiettivo di contrastare il fenomeno dei **NEET**. Sebbene l'orientamento sia presente, un maggiore focus su questo aspetto potrebbe contribuire a ridurre il rischio di dispersione scolastica e disoccupazione giovanile.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità e gli obiettivi dichiarati e le azioni concrete implementate appare minimo, suggerendo un buon livello di coerenza tra la pianificazione strategica e l'operatività. Tuttavia, un monitoraggio più sistematico delle attività e dei risultati potrebbe consentire di identificare eventuali aree di miglioramento e di ottimizzare l'efficacia dell'orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo \\\"G. Bianchi Dottula\\\"** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un approccio didattico innovativo. Pur con alcune aree di miglioramento, il PTOF rappresenta un valido strumento per guidare gli studenti nella transizione verso il mondo del lavoro e per promuovere il loro sviluppo personale e professionale. Le attività registrate, come i corsi di **primo soccorso**, i **laboratori contro la violenza di genere**, la **formazione su bullismo e cyberbullismo**, le **visite guidate** e gli **stage**, testimoniano un'offerta formativa ricca e diversificata, in linea con le esigenze del territorio e le aspettative degli studenti."
+}

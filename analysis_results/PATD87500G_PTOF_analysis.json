@@ -1,0 +1,279 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PATD87500G",
+    "denominazione": "Centro Lingue",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Misilmeri",
+    "anno_ptof": "2022-2025",
+    "provincia": "Palermo",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via M.Rapisardi N 14",
+    "cap": "90036",
+    "email": "centrolingue2srl@gmail.com",
+    "pec": "centrolingue@arubapec.it",
+    "website": "http://www.buniva.gov.it/istituto/piano-triennale/formazione_personale/",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione ITS Energia",
+        "Accademie",
+        "Università",
+        "enti del territorio",
+        "scuola partner inglese",
+        "Enti certificatori",
+        "istituti di istruzione superiore francese",
+        "Fondazioni museali",
+        "Aziende",
+        "Rete per l'Integrazione dell’handicap del Pinerolese",
+        "Rete Pinerolese per l'Orientamento",
+        "Rete DSA scuole del Pinerolese",
+        "CPIA 5 di Rivoli",
+        "ASL",
+        "Centri privati",
+        "UNITO",
+        "Centri didattici privati",
+        "ASL TO3",
+        "CISS",
+        "Città Metropolitana",
+        "Mafalda",
+        "Forze Armate"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Moduli condivisi di Disc. progettuali arch. e ambiente, di Disc pittoriche, di Disc. plastiche e scultoree e di Comunicazione multimediale.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Intese con Accademie, Università, enti del territorio.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Scuola d'estate",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Peer education: studenti con risultati migliori accompagnano studenti in difficoltà.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Corsi preparazione Cambridge English B1/B2/C1",
+      "categoria_principale": "Certificazioni linguistiche",
+      "descrizione_e_metodologia": "Corsi extra-curricolari tenuti da esperti madrelingua.",
+      "target": "Studenti classi seconde, terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Soggiorno studio nel Regno Unito",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Settimana di studio in Inghilterra con scuola partner.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Esabac Techno",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Diploma Baccalauréat francese.",
+      "target": "Studenti articolazione RIM"
+    },
+    {
+      "titolo_attivita": "Soggiorno studio in Francia",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Settimana di studio in Francia.",
+      "target": "Studenti AFM classi seconde"
+    },
+    {
+      "titolo_attivita": "Corsi DELE B1",
+      "categoria_principale": "Certificazioni linguistiche",
+      "descrizione_e_metodologia": "Corsi extra-curricolari per certificazione DELE B1.",
+      "target": "Studenti RIM"
+    },
+    {
+      "titolo_attivita": "Soggiorno studio in Spagna",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Settimana di studio a Salamanca.",
+      "target": "Studenti RIM classi quarte"
+    },
+    {
+      "titolo_attivita": "PCTO per allievi con grave disabilità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Costruzione reti sul territorio, progetti sperimentali con Università",
+      "target": "Allievi con grave disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi facilitatori per docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Panoramica nuove tecnologie, metodologia laboratoriale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete DSA del pinerolese",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione scuole ogni ordine e grado",
+      "target": "Scuole del pinerolese"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Visite aziendali, tirocini, project work, simulazione impresa",
+      "target": "Studenti classi 3, 4, 5"
+    },
+    {
+      "titolo_attivita": "Apprendistato",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Contratto di apprendistato, formazione interna/esterna",
+      "target": "Studenti indirizzo tecnico-economico e tecnologico"
+    },
+    {
+      "titolo_attivita": "Incontri con Università e Accademie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open day, laboratori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Seminari sui test d'ingresso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Alpha test, Testbuster",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Presentazione offerta formativa Forze Armate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri informativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento Politecnico di Torino",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corso preparazione test ammissione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri informativi sul territorio",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Coordinamento e gestione degli incontri informativi sul territorio rivolti ad allievi e/o genitori",
+      "target": "Allievi e genitori"
+    },
+    {
+      "titolo_attivita": "Giornate di Scuola Aperta",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Coordinamento e gestione delle giornate di Scuola Aperta",
+      "target": "Allievi e genitori"
+    },
+    {
+      "titolo_attivita": "Attività di orientamento per scelta indirizzo",
+      "categoria_principale": "Orientamento in itinere",
+      "descrizione_e_metodologia": "Attività rivolte agli allievi di classe seconda per una scelta consapevole dell’indirizzo",
+      "target": "Alunni di seconda"
+    },
+    {
+      "titolo_attivita": "Incontri sul mondo del lavoro",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Incontri formativi e informativi sul mondo del lavoro",
+      "target": "Alunni del triennio"
+    },
+    {
+      "titolo_attivita": "Incontri sull'università",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Incontri formativi e informativi sul mondo dell’università",
+      "target": "Alunni del triennio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PATD87500G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Centro Lingue** (PATD87500G), un istituto di istruzione secondaria di secondo grado situato a Misilmeri, in Sicilia, per il triennio 2022-2025. L'analisi si basa sui dati forniti, evidenziando un approccio all'orientamento ben strutturato e integrato nella didattica, con un forte focus sulle **partnership** esterne e sulla preparazione degli studenti alle transizioni formative e al **lifelong learning**. Il PTOF dimostra un impegno significativo nel ridurre l'abbandono scolastico e nel contrastare il fenomeno dei **NEET**, offrendo un sistema di supporto completo che coinvolge docenti, studenti, genitori e una vasta rete di collaborazioni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento: Sezione Dedicata**\n\nIl PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership**\n\nUn elemento distintivo del PTOF è l'ampia rete di **partnership** attivate, che include **Fondazione ITS Energia**, diverse **Accademie** e **Università**, **enti del territorio**, una **scuola partner inglese**, **Enti certificatori**, **istituti di istruzione superiore francese**, **Fondazioni museali**, **Aziende**, la **Rete per l'Integrazione dell’handicap del Pinerolese**, la **Rete Pinerolese per l'Orientamento**, la **Rete DSA scuole del Pinerolese**, il **CPIA 5 di Rivoli**, l'**ASL**, **Centri privati**, **UNITO**, **Centri didattici privati**, l'**ASL TO3**, il **CISS**, la **Città Metropolitana**, **Mafalda** e le **Forze Armate**. Questa vasta gamma di collaborazioni, per un totale di 18 partner, testimonia l'impegno dell'istituto nel creare un ecosistema formativo ricco e diversificato.\n\n**2.3 Finalità**\n\nLe finalità dell'azione orientativa sono chiaramente definite e comprendono lo sviluppo delle **attitudini** e degli **interessi** degli studenti, la progettazione del loro **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle loro **capacità orientative** per affrontare le opportunità del mondo del lavoro.\n\n**2.4 Obiettivi**\n\nGli obiettivi del PTOF sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità** tra scuola e territorio, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema**\n\nIl PTOF prevede un sistema integrato di azioni che include il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e un sistema di supporto all'**inclusione** e alla gestione delle **fragilità**.\n\n**2.6 Didattica Orientativa**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative**\n\nL'offerta formativa include opzionali **culturali**, **laboratoriali ed espressive**, **volontariato** e **sportive**, con un punteggio leggermente inferiore per le attività **ludiche e ricreative**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua capacità di integrare l'orientamento in un sistema complessivo che coinvolge tutti gli attori della comunità scolastica e del territorio. La vasta rete di **partnership** rappresenta un valore aggiunto significativo, offrendo agli studenti opportunità concrete di **PCTO**, **soggiorni studio** in **Regno Unito**, **Francia** e **Spagna**, e accesso a **certificazioni linguistiche** come il **Cambridge English** e il **DELE**. L'attenzione alla **formazione dei docenti** e all'inclusione degli studenti con **disabilità** completano un quadro positivo.\n\n### 4. Aree di Debolezza\n\nL'unica area di miglioramento individuata riguarda l'offerta di attività **ludiche e ricreative**, che potrebbe essere potenziata per garantire un equilibrio più completo tra le diverse dimensioni dell'orientamento.\n\n### 5. Gap Analysis\n\nNon emergono gap significativi nell'analisi del PTOF. L'istituto dimostra di aver affrontato in modo efficace le sfide legate all'orientamento, offrendo un'ampia gamma di servizi e attività per supportare gli studenti nel loro percorso formativo.\n\n### 6. Conclusioni\n\nIl PTOF del **Centro Lingue** (PATD87500G) rappresenta un modello virtuoso di orientamento, caratterizzato da una visione strategica, un approccio integrato e un forte impegno nella costruzione di un futuro migliore per i propri studenti. Le attività come i **Percorsi interdisciplinari**, la **Scuola d'estate** con il metodo del **peer education**, i **Corsi preparazione Cambridge English**, l'**Esabac Techno** e i numerosi **Incontri con Università e Accademie** dimostrano un'offerta formativa completa e orientata alle esigenze del territorio. L'istituto si conferma un punto di riferimento per l'orientamento nella regione, grazie alla sua capacità di innovare e di collaborare con una vasta rete di partner."
+}

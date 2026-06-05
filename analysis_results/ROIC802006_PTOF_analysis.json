@@ -1,0 +1,307 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ROIC802006",
+    "denominazione": "Loreo",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Loreo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Rovigo",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Stazione 14",
+    "cap": "45017",
+    "email": "roic802006@istruzione.it",
+    "pec": "roic802006@pec.istruzione.it",
+    "website": "www.liceofermipolicoro.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata assente. Le attività di orientamento sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli/momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Veicolazione moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Moduli disciplinari in inglese nel biennio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Question/Reflection Time",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Segmento temporale per chiarimenti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "E-twinning",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Creazione partnership nazionali/internazionali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Oltre le discipline",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Pratica laboratoriale integrata con didattica curriculare.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Rovesciamento ruoli/momenti, uso strumenti tecnologici",
+      "target": "Docenti/Studenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Apprendimento e servizio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare senso di cittadinanza attiva.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento lingua italiana per ragazzi stranieri. Potenziare competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dispositivi per apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni per progetti sul territorio.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in aziende.",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici, musicali, linguistici, teatrali, cinematografici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppare competenze.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo di accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione pratiche comuni per accoglienza alunni BES",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Alunni con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ROIC802006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Loreo\" (ROIC802006), Liceo e Istituto Tecnico di II grado situato nel territorio non metropolitano del Veneto. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate. Il PTOF, relativo all'anno 2019/20-2021/22, dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione specificamente dedicata, con le attività integrate in altre aree del piano. L'istituto si distingue per un'ampia rete di **partnership** e per l'adozione di metodologie didattiche innovative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF è compensata dall'integrazione delle attività in altre aree programmatiche. Questo approccio, pur non esplicitando un focus specifico, permette di permeare l'orientamento in tutta l'offerta formativa.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di **partnership**, con ben 14 collaborazioni attive. Tra i partner figurano **AGROBIOS**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **I.B.B.R**, diverse **Associazioni**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e l'**ASL**. Questa rete diversificata supporta le attività di orientamento e offre opportunità concrete di collegamento con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitando le **transizioni formative** e fornendo loro le **capacità orientative** per cogliere le **opportunità** offerte dal contesto socio-economico. Tutti i campi analizzati hanno ottenuto un punteggio di 4, indicando un'attenzione equilibrata a tutti gli aspetti fondamentali dell'orientamento.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sullo sviluppo del **lifelong learning**. L'obiettivo di continuità territoriale risulta particolarmente prioritario, con un punteggio di 4.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Viene inoltre sottolineata l'importanza di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende moduli **culturali**, **laboratoriali ed espressivi**, con un punteggio di 4 per entrambi. Le attività **ludiche, ricreative, di volontariato e sportive** ricevono punteggi inferiori, suggerendo un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la vasta rete di **partnership**, la chiarezza delle **finalità** e l'adozione di metodologie didattiche innovative come la **flipped classroom** e il **service learning**. L'istituto dimostra un impegno concreto nell'offrire agli studenti esperienze pratiche, come gli **stage presso l'ASL** e le attività di **PCTO**, e nel promuovere l'internazionalizzazione attraverso progetti come **E-twinning** e **gemellaggi**.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza, sebbene compensata dall'integrazione delle attività in altre aree. Anche l'offerta di attività opzionali **ludiche, ricreative e di volontariato** appare meno sviluppata rispetto ad altri ambiti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria e formalizzata per l'orientamento, che potrebbe essere raggiunta attraverso la creazione di una sezione dedicata nel PTOF. Inoltre, sarebbe opportuno potenziare l'offerta di attività opzionali meno rappresentate, al fine di offrire agli studenti una gamma più ampia di opportunità di crescita personale e professionale.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Loreo\" dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e dall'adozione di metodologie didattiche innovative. Pur mancando una sezione dedicata, le attività di orientamento sono integrate in modo efficace nell'offerta formativa. Il potenziamento dell'offerta di attività opzionali e la formalizzazione di una strategia unitaria per l'orientamento potrebbero ulteriormente migliorare l'efficacia del PTOF e garantire un supporto più completo agli studenti nel loro percorso di crescita."
+}

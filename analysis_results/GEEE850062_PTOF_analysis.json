@@ -1,0 +1,307 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEEE850062",
+    "denominazione": "I.C. Pegli",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Pallavicini 3A",
+    "cap": "16156",
+    "email": "geic85000p@istruzione.it",
+    "pec": "miic8a0002@pec.istruzione.it",
+    "website": "www.icpegli.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Ente Locale",
+        "UONPIA",
+        "Università Statale",
+        "Liceo Erasmo da Rotterdam",
+        "Centro Decanale",
+        "Biblioteca dei Ragazzi",
+        "Università Cattolica",
+        "Bicocca",
+        "Centro Studi Azimut",
+        "ANPI",
+        "ANED",
+        "Comune di Sesto San Giovanni",
+        "Gruppo CAP",
+        "3BEE",
+        "Associazione Colors for Peace",
+        "Robert F. Kennedy Foundation of Italy Onlus",
+        "La Nostra Famiglia",
+        "Oratorio della Parrocchia",
+        "Università di Milano- Facoltà di Mediazione Linguistica e Culturale",
+        "rete ambito 23"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Pratica sportiva",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Attività sportive condotte da docenti interni ed esterni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Percorsi musicali",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Percorsi musicali condotti da docenti interni ed esterni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di potenziamento lingua inglese",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Corsi condotti da docenti interni ed esterni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Invito alla lettura",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Spazi dedicati alla lettura e narrazione",
+      "target": "Infanzia, Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di lingua inglese",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Approccio ludico e esperto esterno",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Un libro a scuola",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Promozione lettura con biblioteca scolastica",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "In Biblioteca",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Collaborazione con biblioteche locali",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze Matematiche-Scientifiche",
+      "descrizione_e_metodologia": "Spazio per esplorazione e sperimentazione",
+      "target": "Infanzia, Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto e-Twinning",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Scambio virtuale con scuole europee",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Crescere insieme",
+      "categoria_principale": "Inclusione Scolastica",
+      "descrizione_e_metodologia": "Laboratori per contrastare isolamento",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Giornata della memoria",
+      "categoria_principale": "Cittadinanza e Costituzione",
+      "descrizione_e_metodologia": "Iniziative in collaborazione con associazioni esterne",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Ecologia e sostenibilità ambientale",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Percorsi tematici, laboratori, esperti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Gocce sostenibili",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Laboratori, visite guidate",
+      "target": "Tutte le sezioni"
+    },
+    {
+      "titolo_attivita": "Save the bees",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Osservazione api, alveare",
+      "target": "Classi seconde e quinte"
+    },
+    {
+      "titolo_attivita": "Disegniamo la Pace",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Laboratorio disegno, elaborazione grafica",
+      "target": "Classi seconde e quinte"
+    },
+    {
+      "titolo_attivita": "Cittadini attivi – Sesto città della Pace",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Minecraft, riflessione diritti/doveri",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Sicurezza e educazione stradale",
+      "categoria_principale": "Cittadinanza e Costituzione",
+      "descrizione_e_metodologia": "Interventi Polizia Locale",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione digitale",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Software applicativi",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Digital lending, laboratori",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "ROBOTIKA educativa",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Potenziamento competenze digitali",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Percorsi di prima alfabetizzazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Alfabetizzazione lingua italiana",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creatività",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Manufatti, materiali naturali",
+      "target": "Tutte le sezioni"
+    },
+    {
+      "titolo_attivita": "Progetto Ponte",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Motivare e stimolare gli alunni al passaggio Infanzia-Primaria. Incontri e visite.",
+      "target": "Alunni di 5 anni"
+    },
+    {
+      "titolo_attivita": "Visita alla Scuola Secondaria di I grado",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita con alunni e professori, conoscenza degli spazi e attività.",
+      "target": "Alunni di Primaria"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto Inside Out",
+      "categoria_principale": "Supporto Psicologico",
+      "descrizione_e_metodologia": "Consulenza psico-pedagogica con esperti, mediazione, ascolto.",
+      "target": "Alunni, insegnanti, genitori"
+    },
+    {
+      "titolo_attivita": "Percorso di prima alfabetizzazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Supporto per alunni stranieri.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Progetto Doposcuola / Spazio Studio Assistito",
+      "categoria_principale": "Supporto scolastico",
+      "descrizione_e_metodologia": "Offrire supporto agli alunni con difficoltà nell'esecuzione dei compiti.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Svolgimento di percorsi per le competenze trasversali e l'orientamento.",
+      "target": "Secondaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEEE850062\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola Primaria “Pascoli” (GEEE850062) per il triennio 2022-2025. La scuola, situata nel territorio metropolitano di Genova, si distingue per un approccio all'orientamento ben definito, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. L'istituto dimostra un forte impegno nel promuovere le finalità dell'orientamento, in particolare per quanto riguarda le transizioni formative e la riduzione dell'abbandono scolastico. La rete di partnership è particolarmente ampia e diversificata, coinvolgendo enti locali, università, licei e numerose associazioni del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, con un punteggio di 3, indicando un'attenzione strutturata a questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto esteso, con ben 19 partner nominati, tra cui l'**Ente Locale**, l'**UONPIA**, diverse **Università** (Statale, Cattolica, Bicocca), il **Liceo Erasmo da Rotterdam**, il **Centro Decanale**, la **Biblioteca dei Ragazzi**, **Centro Studi Azimut**, **ANPI**, **ANED**, **Comune di Sesto San Giovanni**, **Gruppo CAP**, **3BEE**, **Associazione Colors for Peace**, **Robert F. Kennedy Foundation of Italy Onlus**, **La Nostra Famiglia**, **Oratorio della Parrocchia**, **Università di Milano- Facoltà di Mediazione Linguistica e Culturale** e la **rete ambito 23**. Questo ampio coinvolgimento testimonia la volontà di creare un sistema di supporto integrato per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e affrontate, con punteggi elevati per l'attenzione alle **attitudini**, agli **interessi** e al **progetto di vita** degli studenti (punteggio 4 per ciascuna). Particolarmente forte è l'impegno a supportare le **transizioni formative** (punteggio 5), mentre l'attenzione allo sviluppo delle **capacità orientative** e all'individuazione delle **opportunità** risulta leggermente inferiore (punteggio 3).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla **riduzione dell'abbandono** scolastico e sulla promozione della **continuità territoriale** (punteggio 4 per entrambi). L'impegno a **contrastare il fenomeno NEET** è meno marcato (punteggio 2), così come lo sviluppo di competenze per il **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni messe in campo per implementare l'orientamento sono efficaci, con punteggi elevati per il **coordinamento dei servizi** e il **rapporto scuola-genitori** (punteggio 5 per entrambi). Buono anche il **dialogo tra docenti e studenti** (punteggio 4), mentre il **monitoraggio delle azioni** risulta meno strutturato (punteggio 3). L'attenzione all'integrazione e alla fragilità degli studenti è considerata importante (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** e sull'approccio **interdisciplinare** (punteggio 4 per entrambi). L'utilizzo di metodologie **laboratoriali** è meno diffuso (punteggio 2), così come la flessibilità degli spazi e dei tempi (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con un buon punteggio per le opzionali **culturali** e **laboratoriali/espressive** (punteggio 4 per entrambe). Le opzionali **ludiche/ricreative** sono meno presenti (punteggio 1), mentre quelle dedicate al **volontariato** e allo **sport** presentano un punteggio intermedio (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, l'ampia rete di **partnership** con enti e associazioni del territorio, l'attenzione alle finalità dell'orientamento (in particolare le **transizioni formative**) e l'efficacia delle azioni di sistema (coordinamento dei servizi e rapporto scuola-genitori). L'offerta di attività extracurriculari, come **Pratica sportiva**, **Percorsi musicali**, **Corsi di potenziamento lingua inglese** e **Invito alla lettura**, arricchisce l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano la scarsa attenzione alla lotta contro il fenomeno **NEET**, lo sviluppo di competenze per il **lifelong learning**, l'utilizzo di metodologie didattiche **laboratoriali** e la limitata offerta di attività opzionali **ludiche/ricreative**. Il monitoraggio delle azioni di orientamento potrebbe essere potenziato per garantire una maggiore efficacia.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità e gli obiettivi dichiarati e le azioni concrete messe in campo è minimo, suggerendo un buon allineamento tra la visione strategica e l'implementazione pratica. Tuttavia, è necessario rafforzare l'impegno a contrastare il fenomeno **NEET** e a promuovere il **lifelong learning**, attraverso azioni mirate e un monitoraggio costante dei risultati.\n\n### 6. Conclusioni\n\nIl PTOF della scuola Primaria “Pascoli” presenta un approccio all'orientamento solido e ben strutturato, supportato da una vasta rete di **partnership** e da un impegno costante nella promozione delle finalità dell'orientamento. Le attività proposte, come **Progetto e-Twinning**, **Giornata della memoria**, **Ecologia e sostenibilità ambientale** e **Sportello d'ascolto Inside Out**, contribuiscono a formare cittadini consapevoli e responsabili. Pur presentando alcune aree di debolezza, il PTOF dimostra un forte potenziale per migliorare ulteriormente l'offerta formativa e supportare gli studenti nel loro percorso di crescita e orientamento."
+}

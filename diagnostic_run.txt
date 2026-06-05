@@ -1,0 +1,31 @@
+STARTING generate_synthesis.py
+INSIDE MAIN BLOCK
+usage: generate_synthesis.py [-h]
+                             [--ordine-grado ORDINE_GRADO [ORDINE_GRADO ...]]
+                             [--regione REGIONE]
+                             [--area-geografica AREA_GEOGRAFICA]
+                             [--tipo-scuola TIPO_SCUOLA]
+                             [--provider {ollama,openrouter,gemini}]
+                             [--model MODEL] [--max-samples MAX_SAMPLES]
+                             [--dry-run] [--verbose]
+
+Genera un report di sintesi narrativa cross-cutting dai PTOF analizzati.
+
+options:
+  -h, --help            show this help message and exit
+  --ordine-grado ORDINE_GRADO [ORDINE_GRADO ...]
+                        Ordine/grado scolastico da filtrare (default: I Grado,
+                        II Grado)
+  --regione REGIONE     Filtra per regione (default: tutte)
+  --area-geografica AREA_GEOGRAFICA
+                        Filtra per area geografica (default: tutte)
+  --tipo-scuola TIPO_SCUOLA
+                        Filtra per tipo scuola (default: tutti)
+  --provider {ollama,openrouter,gemini}
+                        LLM provider (default: ollama)
+  --model MODEL         Modello LLM specifico (default: dal provider)
+  --max-samples MAX_SAMPLES
+                        Numero massimo di narrative da campionare (default:
+                        30)
+  --dry-run             Solo aggregazione dati, nessuna chiamata LLM
+  --verbose, -v         Output di debug dettagliato

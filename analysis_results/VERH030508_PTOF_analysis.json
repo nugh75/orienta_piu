@@ -1,0 +1,255 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VERH030508",
+    "denominazione": "Cesare Musatti",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Dolo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Rinascita 3",
+    "cap": "30031",
+    "email": "verh03000v@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.musatti.venezia.provincia.it",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Alberghieri E Ristorazione"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma solo attività sparse in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'Istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curricolare",
+      "descrizione_e_metodologia": "33 ore annuali, trasversale, in contitolarità",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria e secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, Ccrr",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Temi inquinamento, diritti, ecc.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per scelta scolastica.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA e BES"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": null,
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti integrati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti a livello di singola scuola",
+      "target": "Associazioni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VERH030508\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo Cesare Musatti (VERH030508) per il triennio 2019/20-2021/22, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio metropolitano di Dolo (Venezia), opera su diversi ordini di grado: Infanzia, Primaria e Secondaria di Primo Grado. L'analisi evidenzia un impegno diffuso verso la costruzione di una rete di **partnership** significative e una buona attenzione alle **finalità** dell'orientamento, in particolare per quanto riguarda lo sviluppo di **attitudini**, **interessi** e la progettazione del **progetto di vita** degli studenti. Tuttavia, manca una sezione specificamente dedicata all'orientamento all'interno del PTOF, con le attività disperse in altre aree.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non presenta una sezione dedicata all'orientamento, limitandosi ad attività sparse in altre aree tematiche.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership**, con un punteggio di 3 su 3, che include **Amministrazione Comunale**, **Azienda Sanitaria**, **CTS provinciale**, diversi **musei** e **istituti pubblici/privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione “**Giardino Felice**”, la Cooperativa **SIS Giotti**, altre **scuole**, **autonomie locali** e **ASL**. Questa ricchezza di collaborazioni rappresenta un importante punto di forza per l'implementazione di attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate con un punteggio elevato (4) per quanto riguarda lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e lo sviluppo delle **capacità orientative** per cogliere le **opportunità**. Un punteggio leggermente inferiore (2) è stato attribuito alle finalità relative alle **transizioni formative**.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico (punteggio 4) e di favorire la **continuità** con il territorio (punteggio 4). L'obiettivo di **contrastare il fenomeno NEET** risulta meno prioritario (punteggio 1), mentre l'attenzione al **lifelong learning** è considerata con un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate, con particolare attenzione al **coordinamento dei servizi** (punteggio 4) e al **rapporto scuola-genitori** (punteggio 5). Il **dialogo tra docenti e studenti** è considerato con un punteggio di 3, mentre il **monitoraggio delle azioni** risulta meno sviluppato (punteggio 1). L'azione relativa al **sistema integrato di inclusione e fragilità** ottiene un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3) e sull'utilizzo di metodologie **interdisciplinari** (punteggio 3). L'uso della **didattica laboratoriale** e la **flessibilità degli spazi e dei tempi** sono considerate con un punteggio di 1 e 3 rispettivamente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte valutate con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla vasta rete di **partnership** attivate, dalla chiara definizione delle **finalità** e dalla buona strutturazione delle **azioni di sistema**, in particolare per quanto riguarda il coinvolgimento delle famiglie. L'attività di **ampliamento curricolare** tramite **visite guidate** e **incontri con professionisti** rappresenta un'iniziativa concreta in questo ambito.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza significativa. Inoltre, il **monitoraggio delle azioni** intraprese risulta poco sviluppato e l'attenzione al contrasto del fenomeno **NEET** è limitata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare un approccio sistematico all'orientamento, integrando le attività esistenti in un quadro coerente e definendo indicatori di performance per misurarne l'efficacia. È necessario potenziare il **monitoraggio** delle azioni e ampliare l'offerta di attività specifiche per contrastare la dispersione scolastica e favorire l'inserimento nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo Cesare Musatti dimostra un impegno significativo verso l'orientamento, sebbene manchi una sua esplicita strutturazione. La ricchezza di **partnership** e la chiarezza delle **finalità** rappresentano un solido punto di partenza per lo sviluppo di un'offerta formativa sempre più orientata alle esigenze degli studenti e del territorio. L'istituto dovrebbe concentrarsi sulla formalizzazione di una sezione dedicata all'orientamento e sul potenziamento del **monitoraggio** delle attività, al fine di garantire una maggiore efficacia e coerenza delle azioni intraprese."
+}

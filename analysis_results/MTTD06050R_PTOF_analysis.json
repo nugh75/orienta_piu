@@ -1,0 +1,209 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTTD06050R",
+    "denominazione": "I.T.Comm.Geom.\"Loperfido - Olivetti\"-Mt",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Matera",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Matarazzo S.N.C.",
+    "cap": "75100",
+    "email": "mttd06000b@istruzione.it",
+    "pec": "ND",
+    "website": "www.loperfido-olivetti.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Commerciale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Pediatra",
+        "Nutrizionista",
+        "Agenzia Formativa esterna"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche specifiche",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Svolto in aula con docente del nucleo",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteraria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare e al gusto",
+      "categoria_principale": "Alimentare",
+      "descrizione_e_metodologia": "Collaborazione Pediatra, responsabile Scienze, cucina",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite alla scuola dell'infanzia per bambini del nido",
+      "target": "Bambini del nido"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Incontri genitori",
+      "descrizione_e_metodologia": "Incontro con direzione, insegnanti e personale",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Incontri tra educatrici e insegnanti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Presentazione del bambino e formazione delle classi",
+      "target": "Educatrici e insegnanti"
+    },
+    {
+      "titolo_attivita": "Incontri online",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Presentazione del bambino a scuole primarie",
+      "target": "Insegnanti scuola primaria"
+    },
+    {
+      "titolo_attivita": "LEAD",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività a distanza con mediazione genitori",
+      "target": "Bambini assenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTTD06050R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.C.G. \"L. Olivetti\" - Corso Serale di Matera, relativo agli anni 2022/2023 – 2023/2024 – 2024/2025. L'istituto, di tipo tecnico e appartenente al secondo grado, opera in un contesto territoriale non metropolitano della regione Basilicata. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate in relazione all'orientamento. Si evidenzia una buona attenzione alle partnership esterne e alla didattica laboratoriale, mentre l'assenza di una sezione dedicata specificamente all'orientamento rappresenta un punto critico.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, come evidenziato dal punteggio pari a zero.\n\n**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione con il territorio, come testimoniato dal punteggio di 3 e dalla presenza di 6 partner nominati, tra cui **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum**, un **Pediatra**, un **Nutrizionista** e un’**Agenzia Formativa esterna**. Queste collaborazioni suggeriscono un approccio aperto e proattivo verso l'integrazione di risorse esterne a supporto dell'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano ben definite, con punteggi elevati per lo sviluppo di **attitudini** (3), **interessi** (3) e la preparazione alle **transizioni formative** (3). Meno marcata l'attenzione al **progetto di vita** (2) e allo sviluppo delle **capacità orientative** per cogliere le opportunità (2).\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF mostrano una maggiore attenzione alla riduzione dell'**abbandono scolastico** (1), alla continuità territoriale (2), al contrasto alla dispersione scolastica e al fenomeno **NEET** (1) e alla promozione del **lifelong learning** (1).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento risultano efficaci in ambiti quali il **coordinamento dei servizi** (3) e il **rapporto scuola-genitori** (3). Meno strutturati il **dialogo tra docenti e studenti** (2), il **monitoraggio delle azioni** (2) e l'integrazione di azioni di inclusione e supporto alle fragilità (4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci validi come l'apprendimento dall'**esperienza degli studenti** (3), la **didattica laboratoriale** (3), la **flessibilità degli spazi e dei tempi** (3) e l'**interdisciplinarità** (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative presenta una varietà di proposte, con punteggi più alti per i **laboratori espressivi** (3) e una minore attenzione alle attività **culturali** (1), **ludiche-ricreative** (2), di **volontariato** (1) e **sportive** (2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership** con enti e professionisti esterni, nella didattica orientativa basata sull'esperienza e sulla **laboratorialità**, e nell'attenzione all'integrazione e all'inclusione. Le attività proposte, come il **Laboratorio di Coding per l’Infanzia**, gli **Incontri di sostegno alla genitorialità** e i diversi **laboratori** (Musica, Scienze, Educazione Motoria, Pittura, Lettura, Lingua Cinese, Alimentazione), offrono opportunità di crescita e sviluppo per gli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza significativa. Inoltre, l'attenzione agli obiettivi di contrasto all'abbandono e al fenomeno NEET appare meno prioritaria rispetto ad altri aspetti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si concretizzi in una sezione dedicata del PTOF. È necessario definire in modo più chiaro le finalità relative al **progetto di vita** e allo sviluppo delle **capacità orientative** degli studenti, nonché potenziare le azioni di monitoraggio e valutazione delle attività implementate.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.T.C.G. \"L. Olivetti\" - Corso Serale dimostra un impegno nell'offrire un'ampia gamma di attività orientative, supportate da una solida rete di partnership. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è fondamentale integrare una sezione dedicata all'interno del PTOF, definire obiettivi più ambiziosi e implementare un sistema di monitoraggio e valutazione più strutturato. L'istituto potrebbe beneficiare da una maggiore focalizzazione sullo sviluppo delle competenze per l'orientamento e sulla preparazione degli studenti alle sfide del mondo del lavoro e della vita adulta."
+}

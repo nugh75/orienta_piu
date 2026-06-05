@@ -1,0 +1,23 @@
+## 1. Sintesi
+
+Il PTOF analizzato, redatto nel 2015, presenta una sezione dedicata all'orientamento, evidenziando l'impegno dell'istituzione scolastica verso questo ambito. Le partnership individuate sono quattro, comprendendo enti locali e realtà territoriali, associazioni genitori e studenti. Gli obiettivi e le azioni delineate si concentrano sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione NEET e la promozione del lifelong learning. Tuttavia, l'analisi rivela alcune criticità, in particolare una scarsa attenzione all'inclusione e un approccio prevalentemente descrittivo che limita la valutazione critica del documento.
+
+## 2. Analisi Dimensionale
+
+La dimensione dell'orientamento è ben rappresentata, con una sezione specifica e obiettivi chiari. Le finalità orientative, pur menzionate, appaiono generiche e poco contestualizzate alle specifiche esigenze del territorio e degli studenti. La rete di partnership, seppur presente, necessiterebbe di una maggiore definizione dei ruoli e delle modalità di collaborazione. Le azioni previste sono standardizzate e mancano di elementi innovativi o di personalizzazione. L'assenza di una sezione dedicata all'inclusione, nonostante la menzione di strumenti come il RAV e il PdM, rappresenta una lacuna significativa.
+
+## 3. Punti di Forza
+
+Il principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, che dimostra una consapevolezza dell'importanza di questo ambito per la crescita degli studenti. La rete di partnership, seppur migliorabile, offre potenziali opportunità di collaborazione e di arricchimento dell'offerta formativa. L'attenzione agli obiettivi di riduzione dell'abbandono scolastico e di contrasto alla dispersione NEET è condivisibile e in linea con le priorità nazionali.
+
+## 4. Debolezze
+
+La principale debolezza del PTOF è l'approccio eccessivamente descrittivo e la mancanza di una valutazione critica delle azioni previste. Le finalità orientative sono generiche e poco contestualizzate, mentre la rete di partnership necessiterebbe di una maggiore definizione dei ruoli e delle modalità di collaborazione. L'assenza di una sezione dedicata all'inclusione, nonostante la menzione di strumenti specifici, rappresenta una lacuna significativa.
+
+## 5. Gap Analysis
+
+Il PTOF presenta un gap significativo in termini di inclusione. Pur riconoscendo l'importanza di supportare gli studenti con fragilità, il documento non definisce strategie specifiche per garantire un'effettiva inclusione scolastica e sociale. È necessario integrare nel PTOF un'analisi approfondita dei bisogni educativi speciali degli studenti, definendo azioni mirate e indicatori di monitoraggio. Inoltre, si rileva un gap in termini di innovazione didattica e di personalizzazione dell'offerta formativa.
+
+## 6. Conclusioni
+
+In conclusione, il PTOF analizzato presenta elementi positivi, in particolare la presenza di una sezione dedicata all'orientamento e l'attenzione agli obiettivi di riduzione dell'abbandono scolastico. Tuttavia, per migliorare l'efficacia del documento, è necessario superare l'approccio eccessivamente descrittivo, definire finalità orientative più precise e contestualizzate, rafforzare la rete di partnership e, soprattutto, integrare una sezione dedicata all'inclusione, definendo strategie specifiche per supportare gli studenti con fragilità.

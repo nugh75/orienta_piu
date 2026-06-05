@@ -1,0 +1,245 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GETH020002",
+    "denominazione": "I.T.T.L. \"Nautico San Giorgio",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Edificio Calata Darsena",
+    "cap": "16126",
+    "email": "geth020002@istruzione.it",
+    "pec": "geth020002@pec.istruzione.it",
+    "website": "www.itnautico.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Nautico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Parrocchia dei Ss. Faustino e Giovita Martiri",
+        "Centro di Consulenza per la Famiglia della Diocesi",
+        "Fondazioni e società sportive",
+        "Fidae",
+        "Fism",
+        "Agidae",
+        "Centoform",
+        "Comune di Modena",
+        "Fondazione Cassa di Risparmio",
+        "Bper",
+        "Associazioni sportive",
+        "Associazioni culturali"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Incontri con famiglie",
+      "categoria_principale": "Coinvolgimento genitori",
+      "descrizione_e_metodologia": "Assemblee di classe, colloqui individuali",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Progetti con Centro di Consulenza",
+      "categoria_principale": "Servizi esterni",
+      "descrizione_e_metodologia": "Collaborazione per iniziative formative",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "Progetto di rinforzo didattico per alunni in difficoltà",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Ore di compresenza, programmazioni personalizzate",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Costruzione del Curricolo Verticale",
+      "categoria_principale": "Progettazione",
+      "descrizione_e_metodologia": "Elaborazione curricolo con scuola infanzia",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sportello d'Ascolto Psicologico: INsiemeAscuola",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Collaborazione con Centro Consulenza Famiglia",
+      "target": "Alunni, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Flauto Dolce",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Pratica strumentale con flauto dolce, formazione orchestra, saggio finale.",
+      "target": "Classi 3^ e 4^"
+    },
+    {
+      "titolo_attivita": "Progetto Teatriamo",
+      "categoria_principale": "Arte/Teatro",
+      "descrizione_e_metodologia": "Percorso teatrale per migliorare consapevolezza espressiva.",
+      "target": "Classi 1^ e 2^"
+    },
+    {
+      "titolo_attivita": "Il Mondo dei Colori/Nel Mondo dell'Arte",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Tecniche di pastello/pennarello, analisi opere d'arte.",
+      "target": "Classi 1^ e 2^ / 3^ 4^ 5^"
+    },
+    {
+      "titolo_attivita": "Festa degli auguri",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Riflessione sul messaggio del Natale.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Gita finale alle Piane di Mocogno",
+      "categoria_principale": "Progetto ambientale, naturalistico e di convivenza civica",
+      "descrizione_e_metodologia": "Gita di due giorni per promuovere la coesione, l'integrazione e la collaborazione tra età diverse.",
+      "target": "Alunni della scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto 'Vogliamoci bene'",
+      "categoria_principale": "Educazione relazionale-affettiva",
+      "descrizione_e_metodologia": "Percorso di Educazione relazionale-affettiva e di promozione al benessere in classe.",
+      "target": "Alunni della classe 3^"
+    },
+    {
+      "titolo_attivita": "Progetto di recupero didattico",
+      "categoria_principale": "Recupero didattico",
+      "descrizione_e_metodologia": "Offrire agli alunni in difficoltà l’opportunità di svolgere un percorso formativo/didattico adeguato.",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "Sportello Psicologico d’ascolto",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Servizio di ascolto rivolto a docenti, personale della scuola e alle famiglie.",
+      "target": "Docenti, personale, famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto screening della letto-scrittura",
+      "categoria_principale": "Individuazione precoce difficoltà",
+      "descrizione_e_metodologia": "Prove standardizzate per l’individuazione precoce delle difficoltà.",
+      "target": "Alunni classi 1^ e 2^"
+    },
+    {
+      "titolo_attivita": "I disturbi specifici dell’apprendimento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso di formazione di 20 ore",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "La qualità dell’integrazione scolastica e sociale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso di formazione di 12 ore",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "L’apprendimento Cooperativo",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso di formazione di 15 ore",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Disturbi dell’attenzione e ipercinesia",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso di formazione di 15 ore",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Primo pronto soccorso e rischio medio",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Corso di aggiornamento di 12 ore",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GETH020002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.T.L. \"Nautico San Giorgio\" (codice scuola GETH020002) per il periodo 2019/20-2021/22. L'istituto, di tipo tecnico e afferente al secondo grado, opera nel territorio metropolitano di Genova, in Liguria. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni messe in atto, l'approccio didattico e l'offerta di attività opzionali. La valutazione complessiva evidenzia un impegno significativo verso il coinvolgimento di partner esterni e un'attenzione alla didattica laboratoriale e interdisciplinare, sebbene manchi una sezione specificamente dedicata all'orientamento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio zero attribuito.\n\n**2.2 Partnership:** L'istituto dimostra una forte capacità di collaborare con diversi soggetti esterni. Sono stati nominati ben undici partner, tra cui la **Parrocchia dei Ss. Faustino e Giovita Martiri**, il **Centro di Consulenza per la Famiglia della Diocesi**, diverse **fondazioni e società sportive** (**Fidae**, **Fism**, **Agidae**), **Centoform**, il **Comune di Modena**, la **Fondazione Cassa di Risparmio**, **Bper**, e varie **associazioni sportive e culturali**. Questo network di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, ottenendo un punteggio di 3 per ciascuna di queste aree. Le finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risultano meno definite, con un punteggio di 2 per entrambe.\n\n**2.4 Obiettivi:** Tra gli obiettivi dichiarati, si riscontra un impegno limitato alla riduzione dell'**abbandono scolastico** e al contrasto al fenomeno dei **NEET**, con un punteggio di 1 per entrambi. Maggiore attenzione è rivolta alla continuità territoriale e alla promozione del **lifelong learning**, con un punteggio di 2 e 1 rispettivamente.\n\n**2.5 Azioni di Sistema:** L'istituto punta su azioni di **coordinamento dei servizi** e sul **rapporto scuola-genitori**, ottenendo un punteggio di 3 per entrambe. Il **dialogo tra docenti e studenti** e l'implementazione di un **sistema integrato di inclusione e fragilità** ricevono un punteggio inferiore (2 e 1 rispettivamente), così come il **monitoraggio delle azioni** intraprese (punteggio 1).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 2), sull'utilizzo di metodologie **laboratoriali** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 2) e sull'approccio **interdisciplinare** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, ma con punteggi generalmente bassi. Sono presenti opzionali **culturali** (punteggio 1), **laboratoriali ed espressive** (punteggio 2), **ludiche e ricreative** (punteggio 1), di **volontariato** (punteggio 1) e **sportive** (punteggio 1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella consolidata rete di **partnership** con enti e associazioni del territorio, nell'attenzione alla didattica **laboratoriale** e **interdisciplinare**, e nell'impegno a sviluppare le **attitudini**, gli **interessi** e il **progetto di vita** degli studenti. Le attività registrate, come gli **Incontri con le famiglie**, i **Progetti con il Centro di Consulenza**, lo **Sportello d'Ascolto Psicologico: INsiemeAscuola**, e i vari progetti artistici (**Progetto Flauto Dolce**, **Progetto Teatriamo**, **Il Mondo dei Colori/Nel Mondo dell'Arte**) dimostrano un'offerta diversificata e orientata al benessere degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta una lacuna significativa. Gli obiettivi di riduzione dell'**abbandono scolastico** e contrasto al fenomeno **NEET** appaiono poco definiti. Il **monitoraggio delle azioni** intraprese e l'implementazione di un **sistema integrato di inclusione e fragilità** necessitano di maggiore attenzione. L'offerta di attività opzionali, pur diversificata, risulta poco strutturata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e coordinata dell'orientamento, che si traduce nell'assenza di una sezione dedicata nel PTOF. È necessario definire obiettivi più ambiziosi per la riduzione dell'abbandono scolastico e il contrasto al fenomeno NEET, e implementare un sistema di monitoraggio efficace per valutare l'impatto delle azioni intraprese.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.T.T.L. \"Nautico San Giorgio\" dimostra un impegno significativo verso l'orientamento, sebbene manchi una struttura formale e una visione strategica consolidata. Il forte network di **partnership** e l'attenzione alla didattica **laboratoriale** e **interdisciplinare** rappresentano un solido punto di partenza per sviluppare un'offerta formativa sempre più orientata alle esigenze degli studenti e del territorio. Si raccomanda di integrare il PTOF con una sezione dedicata all'orientamento, definendo obiettivi più ambiziosi e implementando un sistema di monitoraggio efficace."
+}

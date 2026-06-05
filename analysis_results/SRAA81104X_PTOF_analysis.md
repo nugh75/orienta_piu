@@ -1,0 +1,27 @@
+# Analisi del PTOF SRAA81104X
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia **Wojtyla-Chindemi Parco Robinson** (codice scuola **SRAA81104X**) per il triennio 2016-2018. La scuola, situata a Siracusa, in Sicilia, è un istituto statale. L'analisi evidenzia un impegno significativo nella creazione di **partnership** con diversi enti e associazioni del territorio, e una buona attenzione alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi e la progettazione del futuro degli studenti. Tuttavia, manca un'organizzazione strutturata e un capitolo dedicato specificamente all'orientamento, con iniziative che appaiono frammentate.
+
+### 2. Analisi Dimensionale
+
+La valutazione delle diverse dimensioni dell'orientamento presente nel PTOF rivela un quadro variegato. Per quanto riguarda l'orientamento come sezione dedicata, il punteggio è di 5 su 5, ma la nota evidenzia la mancanza di un capitolo organico e strutturato. Le **partnership** rappresentano un punto di forza, con un punteggio di 6 e un elevato numero di collaborazioni (20), tra cui il **Comune**, l'**ASL**, diverse **associazioni** e **istituti scolastici**. Le finalità dell'orientamento, relative ad attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative, ottengono un punteggio uniforme di 6, indicando una chiara consapevolezza degli obiettivi da perseguire. Gli obiettivi specifici mostrano una variabilità: riduzione dell'abbandono (5), continuità territoriale (6), contrasto al fenomeno NEET (4) e lifelong learning (5). Le azioni a livello di sistema, come il coordinamento dei servizi (7), il dialogo tra docenti e studenti (5), il rapporto scuola-genitori (6), il monitoraggio delle azioni (6) e l'integrazione di inclusione e fragilità (6), dimostrano un approccio olistico. La didattica orientativa, basata sull'esperienza degli studenti (5), sull'utilizzo di laboratori (5), sulla flessibilità degli spazi e dei tempi (5) e sull'interdisciplinarità (6), presenta buone potenzialità. Infine, l'offerta di attività opzionali, tra cui quelle culturali (5), laboratoriali ed espressive (6), ludiche e ricreative (5), di volontariato (4) e sportive (6), amplia l'offerta formativa.
+
+### 3. Punti di Forza
+
+I principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, che coinvolgono enti locali, associazioni e altre scuole. L'impegno nella realizzazione di diverse attività, come **"ampliare partecipazione consiglio istituto"**, **"Istituire comitato genitori"**, **"Protocollo d'intesa"**, **"Attività teatrali con Cada Die Teatro"**, **"Attività artistiche e creative"**, **"Supporto educativo e psicologico"**, **"Progetto 'nuovi spazi di apprendimento'"**, **"Costruzione aule laboratorio"**, **"Progetto Fiaba"**, **"Educazione Ambientale"**, **"Educazione Alimentare"**, **"Studio Assistito"**, **"Visite guidate e viaggi d'istruzione"**, **"Master Plan 2016-2018"**, **"Sperimentazione azioni Evidence based education"**, **"Definizione curricolo verticale"**, **"Progetto Sport a scuola"**, **"Progetto Il Futuro"**, **"Dall’Acqua Per L’Acqua"**, **"Mini Volley"**, **"Giochi Matematici"**, **"Psicologia Scolastica"**, **"Progetto Continuità"**, **"Prove esperte"**, **"Elaborazione Piano Annuale per l'Inclusione"**, **"Formazione e Tutoraggio"**, **"Elaborazione PEI"**, **"Elaborazione PDP"**, **"Visite didattiche"**, **"Incontri con professionisti"**, **"Progetto “Accompagnamento alle Indicazioni Nazionali 2012”"**, **"Progetto EBE didattica dell’evidenza"**, **"Costruzione prove per la valutazione delle competenze"**, **"Senza Zaino"**, **"Didattica in ambienti di apprendimento"**, **"Pensiero computazionale e coding"**, **"Gestione del sito web"**, **"Sicurezza e salute negli ambienti di lavoro"**, dimostra un'attenzione alla diversificazione dell'offerta formativa e all'inclusione.
+
+### 4. Aree di Debolezza
+
+L'area di debolezza principale risiede nella mancanza di un'organizzazione strutturata e di un capitolo dedicato specificamente all'orientamento. Le iniziative, pur numerose, appaiono frammentate e non coordinate in un piano d'azione coerente. L'obiettivo di contrastare il fenomeno **NEET** ottiene un punteggio inferiore rispetto agli altri, suggerendo la necessità di rafforzare le azioni in questa direzione.
+
+### 5. Gap Analysis
+
+Il divario principale risiede nella trasformazione delle attività esistenti in un sistema di orientamento integrato e strutturato. È necessario definire un percorso formativo coerente, che coinvolga tutti gli attori scolastici (docenti, studenti, genitori) e che sia finalizzato allo sviluppo delle competenze necessarie per affrontare le sfide del futuro.
+
+### 6. Conclusioni
+
+Il PTOF della scuola **Wojtyla-Chindemi Parco Robinson** presenta un buon potenziale in termini di orientamento, grazie alla ricchezza delle **partnership** e alla varietà delle attività proposte. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario superare la frammentazione delle iniziative e definire un piano strategico coerente, con obiettivi chiari e misurabili. Un'organizzazione più strutturata dell'orientamento consentirebbe di valorizzare appieno le risorse disponibili e di offrire agli studenti un supporto adeguato nella progettazione del loro futuro.

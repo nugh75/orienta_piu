@@ -1,0 +1,348 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "IMIC82000A",
+    "denominazione": "I.C. Taggia - Valle Argentina",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Taggia",
+    "anno_ptof": "2025-2028",
+    "provincia": "Imperia",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Anfossi",
+    "cap": "18018",
+    "email": "imic82000a@istruzione.it",
+    "pec": "imic82000a@pec.istruzione.it",
+    "website": "https//www.comprensivotaggia.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente, ma non particolarmente dettagliata."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Forze Armate",
+        "Forze dell'Ordine",
+        "Museo archeologico nazionale",
+        "Associazioni sportive",
+        "Comune",
+        "Avis",
+        "Enel",
+        "Autorità portuale",
+        "ASL",
+        "specialisti del territorio",
+        "servizi sociali",
+        "enti esterni",
+        "Istituzioni",
+        "Agenzie di viaggio",
+        "strutture pubbliche",
+        "convenzionate",
+        "private",
+        "UONPIA",
+        "Autorità garante per l’infanzia e l’adolescenza"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Organizzazione e coordinamento viaggi d'istruzione e visite sul territorio",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di integrazione interculturale",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Promozione di progetti di integrazione interculturale",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Lab. Teatrale",
+      "categoria_principale": "Espressione",
+      "descrizione_e_metodologia": "Attività teatrali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse culturale e professionale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori di coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo linguaggio Scratch",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori di latino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Laboratori pomeridiani gratuiti",
+      "target": "Studenti terza media"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Partecipazione al torneo organizzato dall'Università Bocconi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apo - Giornalino di Istituto",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Laboratorio gratuito",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche Fattorie didattiche",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a Fattorie didattiche",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caserma Vigili del Fuoco",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita alla Caserma",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Porto, mercato, centro storico",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a luoghi significativi della città",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Teatro Traiano",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al teatro",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Cinema",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al cinema",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Ninfa e Sermoneta",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Ninfa e Sermoneta",
+      "target": "Secondaria IA, IB, ID, IE, IL"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Tarquinia-Piani degli Alpaca",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Tarquinia e Piani degli Alpaca",
+      "target": "Secondaria IC, IM"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Perugia-Trasimeno",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Perugia e Trasimeno",
+      "target": "Secondaria IIA, IIB, IIC, IID, IIE, IIL, IIM"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Lucca-Pisa",
+      "categoria_principale": "Viaggi d'istruzione",
+      "descrizione_e_metodologia": "Visita a Lucca e Pisa",
+      "target": "Secondaria IIIA, IIIB, IIIC, IID, IIIE, IIIF, IIIL, IIM"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Museo Civico e Bosco di Allumiere",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al museo e bosco",
+      "target": "Secondaria IA, IB, IC, ID, IE, IL, IM"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caprarola-Villa Farnese",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a Caprarola e Villa Farnese",
+      "target": "Secondaria IIA, IIB, IIC, IID, IIE, IIL, IIM"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Museo Piana delle Orme-Circeo",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita al museo",
+      "target": "Secondaria IIIA, IIIB, IIIC, IID, IIIE, IIIF, IIIL, IIM"
+    },
+    {
+      "titolo_attivita": "Formazione Geometriko",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione in presenza, online, sperimentazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Metodologia DADA",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione in presenza, online, sperimentazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Formazione Linguistica",
+      "descrizione_e_metodologia": "Formazione in presenza, online",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso Blended",
+      "categoria_principale": "Formazione Digitale",
+      "descrizione_e_metodologia": "Formazione online",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Realizzare un oggetto in cartoncino",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Pianificazione fabbricazione oggetto, elencando strumenti e materiali.",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Osservare l'ambiente",
+      "categoria_principale": "Geografia",
+      "descrizione_e_metodologia": "Osservare l'ambiente con strumenti adeguati.",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Utilizzare la bussola",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Orientarsi utilizzando la bussola e i punti cardinali.",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Definizione modalità DDI, strumenti, orario, valutazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio situazione familiare",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Contatto telefonico per verifica risorse e supporto tecnico",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Comodato d'uso sussidi didattici",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Concessione in comodato di strumenti tecnologici",
+      "target": "Alunni che usano sussidi a scuola"
+    },
+    {
+      "titolo_attivita": "Progetto Miur “Generazioni Connesse”",
+      "categoria_principale": "Prevenzione bullismo/cyberbullismo",
+      "descrizione_e_metodologia": "Incontri con esperti, alunni, famiglie e docenti per sensibilizzare e promuovere l'integrazione.",
+      "target": "Alunni, famiglie, docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni stranieri/nuovi arrivati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Prove di ingresso, PDP, supporto docenti.",
+      "target": "Alunni stranieri/nuovi arrivati"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni adottati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto docenti, PDP (se necessario).",
+      "target": "Alunni adottati"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Incontri tra docenti delle classi interessate e precedenti insegnanti.",
+      "target": "Alunni in passaggio tra ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Incontri disciplinari",
+      "categoria_principale": "Didattica orientativa",
+      "descrizione_e_metodologia": "Incontri disciplinari in matematica, scienze, musica, L2.",
+      "target": "Alunni in passaggio dalla scuola primaria alla secondaria di primo grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF IMIC82000A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Taggia - Valle Argentina (IMIC82000A) per il periodo 2025-2028. L'istituto, di tipo comprensivo e situato in un territorio non metropolitano della regione Liguria, dimostra un'attenzione alla tematica dell'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo che suggerisce un buon livello di strutturazione. L'analisi approfondita delle diverse dimensioni dell'orientamento, delle attività proposte e dei partner coinvolti permette di delineare un quadro completo delle potenzialità e delle aree di miglioramento del PTOF in questo ambito.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 5 su 5. Tuttavia, la nota associata indica che la sezione, pur presente, potrebbe beneficiare di un maggiore dettaglio.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, con ben 19 partner nominati, tra cui **Forze Armate**, **Forze dell'Ordine**, **Museo archeologico nazionale**, **Associazioni sportive**, il **Comune**, **Avis**, **Enel**, l'**Autorità portuale**, l'**ASL**, **specialisti del territorio**, **servizi sociali**, **enti esterni**, **Istituzioni**, **Agenzie di viaggio**, **strutture pubbliche** (convenzionate e private), la **UONPIA** e l'**Autorità garante per l’infanzia e l’adolescenza**. Questo network di collaborazioni rappresenta una risorsa significativa per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e il supporto alle **transizioni formative**, oltre alla capacità di cogliere le **opportunità** offerte dal territorio. A ciascuna di queste finalità è stato attribuito un punteggio di 4 su 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sulla promozione del **lifelong learning**. Anche in questo caso, ciascun obiettivo ha ottenuto un punteggio di 3 su 5.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**. Il coordinamento dei servizi e il rapporto scuola-genitori ricevono un punteggio di 5, mentre le altre azioni ottengono un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Ciascuna di queste modalità didattiche ha ottenuto un punteggio di 4 su 5, ad eccezione della didattica laboratoriale che ha ottenuto un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Tutte queste opzioni hanno ottenuto un punteggio di 3 su 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella presenza di una sezione dedicata all'orientamento e nell'ampio network di **partnership** attivate. La definizione chiara delle **finalità** e delle **azioni di sistema** rappresenta un ulteriore elemento positivo. L'istituto dimostra di voler implementare una didattica orientativa basata sull'esperienza e sulla flessibilità, offrendo agli studenti diverse opportunità di approfondimento attraverso attività opzionali. L'offerta di attività è variegata, spaziando da **visite guidate** a **progetti di integrazione interculturale**, da **laboratori teatrali** a **laboratori di coding**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la necessità di approfondire la sezione dedicata all'orientamento, come evidenziato dalla nota associata al punteggio. Anche gli obiettivi specifici e le attività opzionali potrebbero beneficiare di una maggiore definizione e di un'analisi più approfondita del loro impatto. Il punteggio relativamente basso delle opzionali suggerisce la necessità di rivedere l'offerta per renderla più attrattiva e in linea con gli interessi degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella trasposizione delle intenzioni dichiarate in azioni concrete e misurabili. Sebbene il PTOF delinei un quadro generale dell'orientamento, mancano dettagli specifici sulle modalità di implementazione, sui criteri di valutazione e sugli indicatori di successo. È necessario definire un piano operativo dettagliato che preveda la definizione di obiettivi SMART (Specifici, Misurabili, Attuabili, Rilevanti, Temporizzati) e la creazione di strumenti di monitoraggio efficaci.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Taggia - Valle Argentina dimostra un'attenzione significativa alla tematica dell'orientamento. La presenza di una sezione dedicata, l'ampio network di partnership e la definizione chiara delle finalità rappresentano punti di forza importanti. Tuttavia, è necessario approfondire la sezione dedicata, definire obiettivi specifici e misurabili e implementare un piano operativo dettagliato per garantire l'efficacia delle azioni intraprese. Un maggiore focus sulla didattica esperienziale e sull'offerta di attività opzionali innovative potrebbe contribuire a migliorare l'esperienza degli studenti e a prepararli al meglio per il futuro."
+}

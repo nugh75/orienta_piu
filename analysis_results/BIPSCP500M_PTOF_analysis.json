@@ -1,0 +1,247 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BIPSCP500M",
+    "denominazione": "Hanneke Te Braake - Schakenraad",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Biella",
+    "anno_ptof": "2025-2028",
+    "provincia": "Biella",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Garibaldi N° 9",
+    "cap": "13900",
+    "email": "amministrazione@bigpicturelearning.it",
+    "pec": "bigpicturelearning@pec.it",
+    "website": "www.bigpicturelearning.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Accademia Rimini Calcio VB",
+        "CTS",
+        "CTI",
+        "servizi di zona",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "Sostieni il Sostegno"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Educazione fisica in co-presenza con le maestre, sviluppo psico-fisico",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Danza come linguaggio espressivo, sviluppo fiducia in sé stessi",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Giochi ludico motori propedeutici al basket",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Sviluppo comunicazione, relazione, creatività",
+      "target": "3 e 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Calcio come gioco divertente, sviluppo capacità motorie",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Narrazione e gioco per sviluppare consapevolezza fonologica",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione dell'argilla per esprimere creatività",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Attività manuali per sviluppare fantasia e creatività",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per illustrare le attività scolastiche.",
+      "target": "Genitori, bambini, maestre"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a fattorie, pescherie, musei, etc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa con maratonina, performance musicali e cene.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "supporto",
+      "descrizione_e_metodologia": "attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività con gruppi eterogenei",
+      "categoria_principale": "supporto",
+      "descrizione_e_metodologia": "attività con gruppi eterogenei",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "didattica",
+      "descrizione_e_metodologia": "learning by doing",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "tutoring",
+      "categoria_principale": "supporto",
+      "descrizione_e_metodologia": "tutoring",
+      "target": "alunni con disabilità"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BIPSCP500M\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Hanneke Te Braake - Schakenraad** (BIPSCP500M), con particolare attenzione alla dimensione dell'orientamento. L'istituto, di tipo **Infanzia e Liceo** e situato nel territorio **non metropolitano** di **Biella** (Piemonte), opera in regime di **parità**. L'analisi si basa sui dati forniti nel documento PTOF per l'anno **2025-2028**, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni messe in atto, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione con il territorio, come testimoniato dal punteggio di 3 e dalla presenza di 14 partner. Tra questi, si segnalano **Nido d’Infanzia Piccole tracce**, **Scuola Primaria**, il **Comune di Riccione**, l'**ASL**, diverse associazioni sportive (**Federazione Italiana Pallacanestro di Rimini**, **Accademia Rimini Calcio VB**) e realtà del terzo settore (**Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini**, **Diesse**, **Sostieni il Sostegno**). La rete di collaborazioni è ampia e diversificata.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con punteggi pari a 3 per ciascuna area. Particolarmente rilevante è l'attenzione alle **transizioni formative** (punteggio 4), mentre la capacità di orientare verso le **opportunità** formative e professionali risulta meno sviluppata (punteggio 2).\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, spicca l'impegno per la **continuità territoriale** (punteggio 4). Gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno **NEET** non sono esplicitamente perseguiti (punteggio 0). L'attenzione al **lifelong learning** è presente, ma con un livello di sviluppo limitato (punteggio 1).\n\n**2.5 Azioni di Sistema:** L'istituto punta su un forte **coordinamento dei servizi** (punteggio 4) e su un solido **rapporto scuola-genitori** (punteggio 4). Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** orientative presentano margini di miglioramento (punteggio 2 per entrambi). L'implementazione di un **sistema integrato di inclusione e fragilità** è considerata importante (punteggio 3).\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'**interdisciplinarità** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con particolare attenzione ai **laboratori espressivi** (punteggio 5) e alle attività **ludico-ricreative** (punteggio 4). Le opzionali **sportive** sono ben rappresentate (punteggio 4), mentre quelle **culturali** e di **volontariato** risultano meno sviluppate (punteggio 1 per entrambe).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** orientative e nell'impegno per la **continuità territoriale**. L'offerta di **laboratori espressivi** e **sportivi** rappresenta un valore aggiunto per gli studenti. L'attenzione all'inclusione e alla collaborazione con le famiglie è un elemento distintivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF e la scarsa attenzione agli obiettivi di riduzione dell'abbandono scolastico e di contrasto al fenomeno NEET rappresentano le principali aree di debolezza. Il monitoraggio delle azioni orientative e il dialogo tra docenti e studenti necessitano di essere potenziati.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare un'offerta orientativa più organica e sistematica, con obiettivi chiari e misurabili. È necessario definire indicatori di performance per valutare l'efficacia delle azioni intraprese e monitorare i risultati ottenuti. L'istituto potrebbe inoltre ampliare l'offerta di attività opzionali in ambito culturale e di volontariato.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Hanneke Te Braake - Schakenraad** presenta un buon livello di attenzione all'orientamento, con una solida base di partenza rappresentata dalle partnership attivate e dalle finalità perseguite. Tuttavia, è necessario colmare le lacune individuate, strutturando un'offerta orientativa più completa e integrata, e definendo obiettivi specifici per la riduzione dell'abbandono scolastico e il contrasto al fenomeno NEET. Le attività registrate, come **Amico sport**, **Laboratorio di Danza creativa**, **Madrelingua inglese** e **Uscite didattiche**, dimostrano un impegno concreto nella realizzazione di un percorso formativo ricco e diversificato."
+}

@@ -1,0 +1,241 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CA1A22500Z",
+    "denominazione": "Scuola Dell'Infanzia San Giuseppe",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Serramanna",
+    "anno_ptof": "2025-2028",
+    "provincia": "Sud Sardegna",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Roma 116-132",
+    "cap": "09038",
+    "email": "sangiuseppeserramanna@gmail.com",
+    "pec": "sangiuseppeserramanna@pec.it",
+    "website": "www.asilosangiuseppe.altervista.org",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Accademia Rimini Calcio VB",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "Sostieni il Sostegno",
+        "CTS",
+        "CTI",
+        "servizi di zona"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre. Sviluppo psico-fisico.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Danza come linguaggio espressivo. Sviluppo fiducia in sé stessi.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Istruttore minibasket con maestra. Giochi per base motoria.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Approccio al gruppo, sviluppo comunicazione, creatività.",
+      "target": "3 e 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria propedeutica al calcio.",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale.",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Consapevolezza fonologica, narrazione, gioco.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione argilla, sviluppo manualità.",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppare creatività e manualità.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per illustrare le attività scolastiche.",
+      "target": "Genitori, bambini, maestre"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a fattorie, pescherie, musei, etc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa con maratonina, performance musicali e cene.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "sostegno",
+      "descrizione_e_metodologia": "promozione attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "didattica",
+      "descrizione_e_metodologia": "learning by doing (teatro, danza, ecc.)",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "transizioni",
+      "descrizione_e_metodologia": "colloqui tra docenti",
+      "target": "alunni in transizione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CA1A22500Z\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia San Giuseppe** (CA1A22500Z) per il periodo 2025-2028, con particolare attenzione alla dimensione dell'orientamento. La scuola, situata nel territorio non metropolitano di **Serramanna** (Sud Sardegna), è una realtà **paritaria** che dimostra un impegno significativo nella costruzione di una rete di **partnership** e nella definizione di finalità educative orientate allo sviluppo integrale del bambino. L'analisi evidenzia una buona coerenza tra gli obiettivi dichiarati e le azioni messe in campo, con un focus sulla continuità territoriale e sull'inclusione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola vanta un solido network di **partnership**, con ben 14 collaborazioni attive. Tra i partner figurano altri istituti scolastici come il **Nido d’Infanzia Piccole tracce** e la **Scuola Primaria**, enti locali come il **Comune di Riccione**, servizi sanitari come l’**ASL**, associazioni sportive come la **Federazione Italiana Pallacanestro di Rimini** e l’**Accademia Rimini Calcio VB**, e organizzazioni del terzo settore come l’**Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini**, **Diesse**, **Sostieni il Sostegno**, **CTS**, **CTI** e i **servizi di zona**. Questo ampio ventaglio di collaborazioni suggerisce una forte apertura della scuola verso il territorio e una volontà di integrare l'offerta formativa con risorse esterne.\n\n**2.3 Finalità:** Le finalità educative del PTOF sono ben definite e orientate allo sviluppo delle **attitudini** e degli **interessi** dei bambini, con punteggi elevati (4). Si riscontra un buon impegno nel favorire la costruzione del **progetto di vita** (punteggio 3) e nel supportare le **transizioni formative** (punteggio 4). L'attenzione allo sviluppo delle **capacità orientative** e all'individuazione delle **opportunità** formative è presente, ma con un punteggio leggermente inferiore (3).\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, spicca l'impegno per la **continuità territoriale** (punteggio 4). Gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno dei **NEET** risultano meno prioritari (punteggio 0). L'attenzione al **lifelong learning** è presente, ma con un punteggio moderato (2).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, come il **coordinamento dei servizi** (punteggio 4) e il **rapporto scuola-genitori** (punteggio 4). Il **dialogo tra docenti e studenti** (punteggio 2) e il **monitoraggio delle azioni** (punteggio 3) necessitano di un maggiore approfondimento. L'implementazione di un **sistema integrato di inclusione e fragilità** (punteggio 3) dimostra l'attenzione della scuola verso i bisogni educativi speciali.\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** (punteggio 4), l'utilizzo di **laboratori** (punteggio 3), la **flessibilità degli spazi e dei tempi** (punteggio 4) e l'**interdisciplinarità** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali** (punteggio 1), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), **sportive** (punteggio 4) e, in misura minore, attività di **volontariato** (punteggio 1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella solida rete di **partnership**, nella chiarezza delle **finalità educative**, nell'impegno per la **continuità territoriale** e nell'adozione di approcci didattici innovativi. L'ampia offerta di attività **laboratoriali ed espressive** rappresenta un valore aggiunto per lo sviluppo delle competenze creative e manuali dei bambini.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la scarsa attenzione agli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno dei **NEET** costituiscono le principali aree di debolezza del PTOF. Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** necessitano di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di esplicitare in modo più chiaro le strategie di orientamento, definendo obiettivi specifici e azioni mirate per supportare i bambini nella costruzione del loro **progetto di vita** e nelle **transizioni formative**. È auspicabile un maggiore coinvolgimento degli studenti nel processo di orientamento e un monitoraggio più sistematico delle azioni intraprese.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Dell'Infanzia San Giuseppe** rappresenta un documento programmatico solido e ben strutturato, che evidenzia un impegno significativo nella promozione di un'educazione di qualità. Pur presentando alcune aree di debolezza, la scuola dimostra una forte capacità di adattamento alle esigenze del territorio e una volontà di innovare la propria offerta formativa. L'implementazione di strategie di orientamento più esplicite e il rafforzamento del monitoraggio delle azioni consentirebbero di migliorare ulteriormente l'efficacia del PTOF e di garantire un futuro migliore ai bambini. Le attività come \"**Amico sport**\", \"**Laboratorio di Danza creativa**\", \"**Madrelingua inglese**\" e \"**Uscite didattiche**\" sono esempi concreti di come la scuola si impegni a offrire un'esperienza educativa ricca e stimolante."
+}

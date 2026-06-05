@@ -1,0 +1,258 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ALAA82207E",
+    "denominazione": "Don Milani\" - Ticineto",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Mirabello Monferrato",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Alessandria",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Maria Ausiliatrice 7",
+    "cap": "15040",
+    "email": "alic82200b@istruzione.it",
+    "pec": "ND",
+    "website": "www.icdonmilaniticineto.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento nel documento. Le attività di orientamento sono integrate in altre iniziative, come i PCTO."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Apprendimento mappe mentali come metodo di studio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione Formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Autovalutazione, valutazione tra pari, feedback",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici/chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali, dossier tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali, glossari tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Supporti cartacei, software CAD.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Proporzioni, percentuali, grafici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee scienze motorie",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Postura, prevenzione, stile di vita.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico Avanzato",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD/CAM, scanner 3D.",
+      "target": "Classi 4 e 5"
+    },
+    {
+      "titolo_attivita": "Formazione docenti mappe mentali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso sull'uso di mappe mentali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze estive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie.",
+      "target": "Studenti PCTO"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ALAA82207E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto \"Mirabello Monferrato\", codice scuola ALAA82207E, per gli anni 2023/24-2024/25-2025/26. L'istituto, statale, situato nel comune di Mirabello Monferrato in provincia di Alessandria e regione Piemonte, mostra un impegno significativo nell'integrazione dell'orientamento all'interno delle attività didattiche e formative, sebbene non sia presente una sezione specificamente dedicata. L'analisi evidenzia un buon livello di strutturazione degli obiettivi e delle azioni, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e all'inclusione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'assenza di una sezione specificamente dedicata all'orientamento rappresenta una criticità, sebbene le attività siano integrate in altre iniziative, come i percorsi **PCTO**.\n\n**2.2 Partnership:** Il PTOF dimostra una solida rete di **partnership** con il territorio, includendo **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, **aziende accreditate** e altre **aziende di settore**. Questo coinvolgimento attivo del mondo del lavoro e delle istituzioni locali rappresenta un punto di forza significativo.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Tutti questi aspetti ricevono un punteggio elevato, indicando una chiara visione strategica.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico**, alla continuità territoriale, al contrasto al fenomeno **NEET** e alla promozione del **lifelong learning**. L'impegno verso questi traguardi è evidente e ben strutturato.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono complete ed efficaci, con particolare attenzione al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori**, al **monitoraggio delle azioni** e all'implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali**, **laboratoriali ed espressive**, con un minor coinvolgimento in attività **ludiche, ricreative, di volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** e degli **obiettivi** dell'orientamento, nella completezza delle **azioni di sistema** e nell'approccio didattico basato sull'esperienza e sulla **laboratorialità**. L'impegno verso l'**inclusione** e la valorizzazione delle **competenze** degli studenti rappresentano ulteriori elementi positivi. Le attività di **PCTO** e i laboratori tematici, come quelli dedicati all'odontotecnica, offrono opportunità concrete di orientamento e sviluppo professionale.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene le attività siano integrate in altre iniziative, una sezione dedicata potrebbe garantire maggiore visibilità e coerenza all'azione orientativa. L'offerta di attività opzionali **ludiche, ricreative, di volontariato** e **sportive** risulta meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare una sezione dedicata all'orientamento all'interno del PTOF, al fine di evidenziare in modo più chiaro le strategie, le azioni e le risorse dedicate a questo ambito. È inoltre auspicabile un potenziamento dell'offerta di attività opzionali, in particolare quelle volte a promuovere il benessere psicofisico e l'impegno sociale degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \"Mirabello Monferrato\" dimostra un impegno significativo nell'orientamento, con una solida base di **partnership**, obiettivi ben definiti e azioni di sistema efficaci. L'integrazione dell'orientamento all'interno delle attività didattiche e formative rappresenta un punto di forza, sebbene l'assenza di una sezione dedicata costituisca un'area di miglioramento. Il potenziamento dell'offerta di attività opzionali e la strutturazione di una sezione dedicata all'orientamento potrebbero contribuire a rafforzare ulteriormente l'efficacia del PTOF e a garantire un'offerta formativa sempre più rispondente alle esigenze degli studenti e del territorio."
+}

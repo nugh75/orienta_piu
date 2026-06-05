@@ -1,0 +1,39 @@
+# Analisi del PTOF RAPS01000Q
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico A. Oriani** (RAPS01000Q) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'analisi si basa sui dati forniti e mira a fornire una valutazione complessiva dell'approccio dell'istituto all'orientamento, identificando punti di forza, aree di debolezza e possibili gap. La scuola, situata a Ravenna in Emilia Romagna, è un istituto statale di II grado. L'attenzione all'orientamento, sebbene presente, mostra margini di miglioramento in alcune aree specifiche.
+
+### 2. Analisi Dimensionale
+
+**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a zero.
+
+**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione esterna, con un punteggio di 3 e la presenza di diversi partner significativi. Tra questi spiccano **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. Il numero totale di partnership attive è pari a 6.
+
+**2.3 Finalità:** Le finalità dell'orientamento sembrano ben definite in relazione alle attitudini e agli interessi degli studenti, con punteggi pari a 3 per entrambe le aree. Tuttavia, l'attenzione a obiettivi più complessi come la progettazione del progetto di vita, le transizioni formative e lo sviluppo di capacità orientative per cogliere le opportunità risulta meno sviluppata, con punteggi pari a 1 per ciascuna di queste aree.
+
+**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientativo si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione NEET e sulla promozione del lifelong learning, tutti con un punteggio di 1.
+
+**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento mostrano un buon impegno nel rapporto scuola-genitori (punteggio 3) e nel supporto all'inclusione e alla fragilità (punteggio 3). Il coordinamento dei servizi e il dialogo tra docenti e studenti ricevono un punteggio di 2, mentre il monitoraggio delle azioni risulta meno strutturato (punteggio 1).
+
+**2.6 Didattica Orientativa:** La didattica orientativa si distingue per l'attenzione all'esperienza degli studenti (punteggio 4) e alla flessibilità degli spazi e dei tempi (punteggio 4). Anche la didattica laboratoriale e interdisciplinare sono considerate importanti, con punteggi pari a 3.
+
+**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata, con un buon punteggio per quelle di tipo laboratoriale ed espressivo (3) e ludico-ricreativo (3). Le opzionali culturali, di volontariato e sportive, invece, sembrano meno sviluppate (punteggio 1 per ciascuna).
+
+### 3. Punti di Forza
+
+I principali punti di forza del PTOF in relazione all'orientamento risiedono nella collaborazione con partner esterni, nell'attenzione alle attitudini e agli interessi degli studenti, nella didattica orientativa basata sull'esperienza e sulla flessibilità, e nell'impegno nel rapporto scuola-genitori. L'offerta di laboratori, come il **Laboratorio di Coding**, il **Laboratorio di Musica in movimento**, il **Laboratorio di Scienze** e il **Laboratorio di Educazione Alimentare**, rappresenta un valore aggiunto significativo.
+
+### 4. Aree di Debolezza
+
+L'assenza di una sezione dedicata all'orientamento nel PTOF e la scarsa attenzione a finalità più complesse come la progettazione del progetto di vita e le transizioni formative rappresentano le principali aree di debolezza. Anche il monitoraggio delle azioni orientative e l'offerta di opzionali culturali e di volontariato necessitano di un maggiore sviluppo.
+
+### 5. Gap Analysis
+
+Il gap principale risiede nella necessità di strutturare un approccio all'orientamento più organico e integrato nel PTOF, con una sezione dedicata e obiettivi più ambiziosi. È necessario potenziare le azioni volte a supportare gli studenti nella progettazione del loro futuro, promuovendo la consapevolezza delle proprie capacità e interessi e facilitando le transizioni formative. L'implementazione di strumenti di valutazione, come il **Questionario di soddisfazione genitori** e il **Questionario di gradimento personale**, è un passo importante, ma necessita di essere integrata con altre forme di monitoraggio e valutazione.
+
+### 6. Conclusioni
+
+Il PTOF del **Liceo Scientifico A. Oriani** dimostra un impegno significativo nell'ambito dell'orientamento, con diversi punti di forza e un buon livello di collaborazione esterna. Tuttavia, per raggiungere una maggiore efficacia, è necessario colmare le lacune identificate, strutturando un approccio più organico e integrato, potenziando le azioni volte a supportare gli studenti nella progettazione del loro futuro e ampliando l'offerta di opzionali e attività facoltative. L'iniziativa **LEAD (Legami Educativi a Distanza)**, pur essendo valida, andrebbe integrata con altre attività in presenza per garantire una formazione completa e stimolante.

@@ -1,0 +1,206 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MBPSFH500F",
+    "denominazione": "Liceo Scientifico Quadriennale \"Collegio Villoresi San Giuseppe",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Monza",
+    "anno_ptof": "2025-2028",
+    "provincia": "Monza E Della Brianza",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Monti E Tognetti 10",
+    "cap": "20900",
+    "email": "segreteria@collegiovilloresi.it",
+    "pec": "villoresi.monza@abtmpec.it",
+    "website": "www.collegiovilloresi.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento scolastico e professionale. Si evidenzia un focus su educazione civica e cittadinanza attiva, ma manca una specifica declinazione dell'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie e comunità"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Introduzione alla robotica e al coding.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto educazione sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati nel traffico",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto promozione lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Promuovere il piacere della lettura",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MBPSFH500F\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Quadriennale \\\"Collegio Villoresi San Giuseppe\\\"** (MBPSFH500F) per il triennio 2025-2028. L'istituto, paritario, situato a **Monza** in **Lombardia**, opera in un contesto territoriale non metropolitano. L'analisi evidenzia un impegno generale verso la crescita degli studenti, con particolare attenzione all'educazione civica e alla cittadinanza attiva, ma con una carenza di una specifica e strutturata sezione dedicata all'orientamento scolastico e professionale. Le finalità orientative sono presenti, ma non pienamente sviluppate in azioni concrete e misurabili.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento scolastico e professionale, limitandosi a un focus su educazione civica e cittadinanza attiva.\n\n**2.2 Partnership:** L'istituto vanta collaborazioni con importanti partner quali **Karis Foundation**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**, dimostrando una buona apertura verso il territorio e la possibilità di ampliare l'offerta formativa con risorse esterne.\n\n**2.3 Finalità:** Le finalità orientative del PTOF sono considerate positive, con punteggi elevati per lo sviluppo di attitudini, interessi e nella progettazione del percorso di vita degli studenti. Le finalità relative alle transizioni formative e allo sviluppo di capacità orientative per cogliere le opportunità risultano leggermente meno sviluppate.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'abbandono scolastico, garantire la continuità territoriale e promuovere il lifelong learning. L'obiettivo di contrastare il fenomeno NEET appare meno prioritario.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento tra i servizi, dialogo tra docenti e studenti, un forte rapporto scuola-genitori e un sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni implementate risulta meno strutturato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con proposte culturali, laboratoriali ed espressive, ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di partnership consolidate con realtà esterne, nell'attenzione allo sviluppo delle finalità orientative legate all'attitudine e agli interessi degli studenti, e nella buona qualità del rapporto scuola-genitori. L'offerta di attività opzionali e facoltative, in particolare quelle di tipo laboratoriale ed espressivo, rappresenta un valore aggiunto per la crescita personale e professionale degli studenti. Le attività come **Progetto Clil**, **Laboratori esperienziali di matematica** e **Progetto di robotica e coding** dimostrano un approccio didattico innovativo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento scolastico e professionale all'interno del PTOF. Questo comporta una mancanza di chiarezza e di strutturazione delle azioni volte a supportare gli studenti nella scelta del percorso di studi e nella definizione del proprio progetto di vita. Anche l'obiettivo di contrastare il fenomeno NEET appare poco sviluppato.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di integrare nel PTOF una sezione specifica dedicata all'orientamento, con obiettivi, azioni e indicatori di monitoraggio ben definiti. È necessario potenziare le azioni volte a favorire le transizioni formative degli studenti e a sviluppare le loro capacità orientative per cogliere le opportunità offerte dal mercato del lavoro. L'istituto potrebbe inoltre rafforzare la collaborazione con il territorio per offrire agli studenti opportunità di stage e di apprendistato.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico Quadriennale \\\"Collegio Villoresi San Giuseppe\\\"** presenta un quadro generale positivo, con un forte impegno verso la crescita degli studenti e una buona offerta formativa. Tuttavia, l'assenza di una sezione dedicata all'orientamento rappresenta una lacuna significativa che deve essere colmata per garantire agli studenti un supporto adeguato nella scelta del proprio futuro. L'integrazione di una sezione specifica, con obiettivi chiari e azioni concrete, consentirebbe all'istituto di rafforzare il proprio ruolo di guida e di accompagnamento per gli studenti nel loro percorso di crescita personale e professionale. Attività come **Presepe Vivente**, **Festa di fine anno**, **Open Day**, **Corso di teatro**, **Campo estivo**, **Adozioni a distanza**, **Progetto del “Donacibo”**, **Gesto di Natale**, **Progetto educazione sicurezza stradale**, **Progetti tecnologia e informatica** e **Progetto promozione lettura** sono valide, ma necessitano di essere integrate in un quadro orientativo più ampio."
+}

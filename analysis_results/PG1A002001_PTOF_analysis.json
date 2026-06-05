@@ -1,0 +1,209 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PG1A002001",
+    "denominazione": "Sc.Inf.Paritaria \"S. Francesco Di Sales",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Citta' Di Castello",
+    "anno_ptof": "2025-2028",
+    "provincia": "Perugia",
+    "regione": "Umbria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Cacciatori Del Tevere 6",
+    "cap": "06012",
+    "email": "elementari@karis.it",
+    "pec": "sanfrancescodisales@cgn.legalmail.it",
+    "website": "www.karis.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento scolastico e professionale. Le attività di educazione civica e cittadinanza attiva, pur importanti, non configurano una sezione specifica per l'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e manipolativo alla matematica.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Introduzione alla robotica e al coding.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Comportamenti corretti sulla strada",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Promozione interesse per la lettura",
+      "target": "Alunni scuole primarie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PG1A002001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola dell’Infanzia Paritaria “S. Francesco Di Sales”** (PG1A002001) per il triennio 2025-2028. L'istituto, situato nel comune di **Città di Castello** in provincia di **Perugia** e regione **Umbria**, opera in un contesto territoriale non metropolitano. L'analisi evidenzia un impegno generale verso la crescita degli studenti, con particolare attenzione alle finalità di sviluppo di attitudini, interessi e progetto di vita. Tuttavia, manca una sezione specificamente dedicata all'orientamento scolastico e professionale, sebbene siano presenti attività di educazione civica e cittadinanza attiva.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione dedicata all'orientamento scolastico e professionale, limitandosi ad attività di educazione civica e cittadinanza attiva.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** consolidato, che include la **Karis Foundation**, la **Scuola dell’infanzia**, la **Scuola secondaria di primo grado**, **enti locali**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Questo tessuto relazionale rappresenta un valore aggiunto per l'offerta formativa e le opportunità di ampliamento dell'esperienza educativa.\n\n**2.3 Finalità:** Le finalità del PTOF mostrano un forte orientamento allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con punteggi elevati in queste aree. Meno marcata è l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un impegno moderato nella riduzione dell'**abbandono** scolastico e nella promozione della continuità territoriale. L'attenzione al contrasto alla dispersione scolastica giovanile (**NEET**) è assente, così come un focus specifico sul **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema sono ben strutturate, con particolare attenzione al **rapporto scuola-genitori** e al **dialogo tra docenti e studenti**. Il **coordinamento dei servizi** e il **monitoraggio delle azioni** ricevono un punteggio discreto, mentre il sistema integrato di inclusione e fragilità è considerato adeguato.\n\n**2.6 Didattica Orientativa:** La didattica si basa su approcci innovativi, con un forte focus sull'apprendimento **da esperienza** degli studenti. La didattica **laboratoriale**, la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare** ricevono valutazioni positive, sebbene con margini di miglioramento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, **sportive** e di **volontariato**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership**, nell'attenzione allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, e nella varietà dell'offerta didattica e delle attività opzionali. L'impegno nel rapporto **scuola-genitori** e nel dialogo tra **docenti e studenti** costituisce un ulteriore elemento positivo. Le attività come **Presepe Vivente**, **Festa di fine anno**, **Open Day**, **Corso di teatro**, **Campo estivo**, **Adozioni a distanza** e **Progetto del “Donacibo”** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento scolastico e professionale. L'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risulta insufficiente. Inoltre, manca un focus specifico sul contrasto alla dispersione scolastica giovanile (**NEET**) e sul **lifelong learning**.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strategia esplicita per l'orientamento scolastico e professionale, che potrebbe essere colmata attraverso l'inserimento di attività specifiche nel PTOF, come workshop, seminari, visite aziendali e colloqui individuali. È necessario rafforzare l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** degli studenti, al fine di prepararli ad affrontare le sfide del mondo del lavoro e della società.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola dell’Infanzia Paritaria “S. Francesco Di Sales”** presenta un quadro complessivamente positivo, con un forte impegno verso la crescita degli studenti e una solida rete di **partnership**. Tuttavia, per migliorare l'efficacia del piano, è necessario colmare il divario relativo all'orientamento scolastico e professionale, inserendo attività specifiche e rafforzando l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative**. Progetti come il **Progetto Clil**, i **Laboratori esperienziali di matematica**, il **Progetto di robotica e coding**, il **Gesto di Natale**, il **Progetto sicurezza stradale**, i **Progetti tecnologia e informatica** e il **Progetto lettura** rappresentano un buon punto di partenza per un'offerta formativa completa e orientata al futuro."
+}

@@ -314,7 +314,7 @@ if 'tipo_scuola' in df.columns:
         df_tipo = df_tipo[df_tipo['tipo_scuola'].isin(TIPI_SCUOLA)]
     except Exception:
         df_tipo = df.copy()
-        TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Liceo', 'Tecnico', 'Professionale']
+        TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Comprensivo', 'Liceo', 'Tecnico', 'Professionale', 'Convitto']
 
     tipo_stats = df_tipo.groupby('tipo_scuola')[idx_col].mean().reset_index()
     tipo_stats.columns = ['Tipologia', 'Media']
@@ -597,7 +597,7 @@ if 'regione' in df.columns:
     try:
         from data_utils import TIPI_SCUOLA
     except Exception:
-        TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Liceo', 'Tecnico', 'Professionale']
+        TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Comprensivo', 'Liceo', 'Tecnico', 'Professionale', 'Convitto']
 
     def get_primary_type(tipo):
         if pd.isna(tipo):

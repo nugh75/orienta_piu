@@ -1,0 +1,445 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SPAA82505N",
+    "denominazione": "I.C. Ricco' Del Golfo - Isa 5 A",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Pignone",
+    "anno_ptof": "2022-2025",
+    "provincia": "La Spezia",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via 24 Maggio",
+    "cap": "19020",
+    "email": "pvps05000q@istruzione.it",
+    "pec": "pvps05000q@pec.istruzione.it",
+    "website": "www.istitutocomprensivo5sp.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università degli Studi di Pavia",
+        "Ospedali",
+        "Ordine dei Medici",
+        "Strutture ospedaliere cittadine",
+        "Banca Intesasanpaolo",
+        "Provincia pavese",
+        "Fondazione I.R.C.C.S. Policlinico San Matteo",
+        "Gran Sasso Science Institute (GSSI)",
+        "Istituto Nazionale di Fisica Nucleare (INFN)",
+        "Università",
+        "DIESSE Firenze e Toscana",
+        "FAI",
+        "Altre scuole",
+        "Altre associazioni"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Power",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ora aggiuntiva di Fisica",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Percorso Biomedicale Ippocrate",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Potenziamento Scienze Naturali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso cliniche, laboratori, servizi ai pazienti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite documentative guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a strutture sanitarie con medici specialisti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Z-lab Banca Intesasanpaolo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alfabetizzazione economica e finanziaria, sviluppo soft skills.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un'esperienza alla Provincia pavese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività redazionali in quotidiano locale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Starbook",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Gestione attività commerciale libreria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Lettura critica e recensione libro divulgazione scientifica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Show and tell",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Integrazione storia fisica e competenze comunicative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD e realtà aumentata",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Utilizzo software CAD e realtà aumentata.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Istituto di zooprofilassi",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Assistenza analisi biologiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Affettività",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Incontri con psicologi e ostetriche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Arte vista da vicino",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Conferenze e visite a luoghi artistici.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola di vela",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Stage vela, collaborazione e gestione spazi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Conferenze Copernicane",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Incontri su temi scientifico-tecnologici, storico-sociali e civici.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "CAD e Approfondimento CAD e realtà aumentata",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD e realtà aumentata.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cantacopernico",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Laboratorio corale e strumentale in lingua inglese.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Preparazione alle competizioni sportive.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Certificazioni Cambridge PET, FCE, IELTS",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Corsi preparazione certificazioni lingua inglese.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Colloqui fiorentini",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Studio autore letteratura italiana e elaborazione lavori multimediali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Global teaching labs - MIT",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Lezioni studenti MIT approccio hands-on.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Interscambio Brasile-Italia",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Mobilità scolastica con liceo brasiliano.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "FAI: apprendisti ciceroni",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate a beni architettonici pavesi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di fisica articolate in più fasi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "giochi di Anacleto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Esperienza pratica di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi dell'Italiano",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di lingua italiana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di matematica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi delle Scienze Naturali",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di scienze naturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto volley Copernico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di pallavolo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scienze Under 18",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Manifestazione con exhibit scientifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "History Walks",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite in inglese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Unitest",
+      "categoria_principale": "Preparazione Universitaria",
+      "descrizione_e_metodologia": "Attività di preparazione ai test d'ammissione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura e recensione di opere scientifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano Lauree Scientifiche",
+      "categoria_principale": "Collaborazione Universitaria",
+      "descrizione_e_metodologia": "Attività laboratoriali e seminari con l'Università di Pavia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scaccopernico",
+      "categoria_principale": "Giochi",
+      "descrizione_e_metodologia": "Insegnamento degli scacchi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Copeteatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Laboratorio teatrale e partecipazione a spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Radio Cope",
+      "categoria_principale": "Media",
+      "descrizione_e_metodologia": "Gestione di una radio scolastica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Show and tell",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite al museo e storytelling",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Qui Copernico",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Redazione di articoli per il quotidiano locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scatti di civiltà",
+      "categoria_principale": "Fotografia",
+      "descrizione_e_metodologia": "Documentazione fotografica di comportamenti virtuosi/irrispettosi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Leggere con arte",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura di libri e realizzazione di manufatti artistici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Basket 3vs3",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di basket",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Trofeo Maggi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di calcio a 5",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti acqua",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Esplorazione del Parco del Ticino",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Google Suite",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Webinar e tutorial sull'uso di Google Suite",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi base sull'uso degli strumenti digitali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Rafting",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Esplorazione del Parco del Ticino, attività di gruppo, pratica del rafting",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Badminton",
+      "categoria_principale": "Benessere, salute e sport",
+      "descrizione_e_metodologia": "Teoria e pratica del badminton, costruzione campi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola di sci",
+      "categoria_principale": "Benessere, salute e sport",
+      "descrizione_e_metodologia": "Attività di avviamento o perfezionamento allo sci",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Camposcuola Isola d'Elba",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Esperienze dirette interdisciplinari (botanica, geologia, ecologia)",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Potenziamento linguaggi",
+      "descrizione_e_metodologia": "Apertura biblioteca al pubblico, gestione materiale librario",
+      "target": "Altro"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SPAA82505N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dello scuola **Pignone Capoluogo** (SPAA82505N), un istituto di grado **Infanzia** situato a **Pignone** (La Spezia), **Liguria**. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la struttura, gli obiettivi, le azioni e le attività implementate. Il PTOF 2022-2025 dimostra un impegno significativo verso l'orientamento, con una sezione dedicata che ha ottenuto un punteggio di 7. La scuola si colloca in un territorio **non metropolitano** e opera come istituto **statale**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:**\n\nLa presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, come evidenziato dal punteggio di 7. Questo indica una chiara consapevolezza dell'importanza di questo aspetto nella formazione degli studenti.\n\n**2.2 Partnership:**\n\nLa scuola vanta un network di **partnership** ampio e diversificato, comprendendo **Università degli Studi di Pavia**, **Ospedali**, **Ordine dei Medici**, diverse **strutture ospedaliere cittadine**, **Banca Intesasanpaolo**, **Provincia pavese**, **Fondazione I.R.C.C.S. Policlinico San Matteo**, **Gran Sasso Science Institute (GSSI)**, **Istituto Nazionale di Fisica Nucleare (INFN)**, **DIESSE Firenze e Toscana**, **FAI**, **altre scuole** e **altre associazioni**. Il numero di partner (15) suggerisce una forte volontà di collaborare con enti esterni per arricchire l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la preparazione alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità** offerte dal territorio e dal mondo del lavoro. Tutti gli aspetti valutati hanno ottenuto un punteggio di 5.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sulla promozione del **lifelong learning**. Anche in questo caso, ogni obiettivo ha ricevuto un punteggio di 4.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste per l'implementazione dell'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Ogni azione ha ottenuto un punteggio di 5.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi**, e sull'approccio **interdisciplinare**. La didattica da esperienza studentesca, la flessibilità e l'interdisciplinarità hanno ottenuto un punteggio di 5, mentre la didattica laboratoriale un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende moduli **culturali**, **laboratoriali ed espressivi**, **ludico-ricreativi**, di **volontariato** e **sportivi**. Ogni tipologia di opzionale ha ottenuto un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e l'ampio network di **partnership** con enti esterni. L'attenzione alle finalità, agli obiettivi e alle azioni di sistema dimostra un approccio olistico e ben strutturato all'orientamento. L'offerta di attività opzionali diversificate contribuisce ad arricchire l'esperienza formativa degli studenti. Le numerose attività proposte, come **Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)**, **Visite documentative guidate** e **Z-lab Banca Intesasanpaolo**, offrono agli studenti opportunità concrete di esplorazione e di sviluppo delle proprie competenze.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza riscontrata riguarda la didattica **laboratoriale**, che ha ottenuto un punteggio inferiore rispetto alle altre dimensioni. Potrebbe essere necessario potenziare l'offerta di attività pratiche e sperimentali per favorire un apprendimento più attivo e coinvolgente.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario monitorare costantemente l'efficacia delle azioni intraprese e valutare l'impatto delle **partnership** sulla reale **occupabilità** degli studenti. Un'analisi più approfondita dei dati relativi all'**abbandono** scolastico e al fenomeno dei **NEET** potrebbe consentire di definire strategie più mirate ed efficaci.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Pignone Capoluogo** presenta un solido impianto teorico e una chiara visione dell'importanza dell'orientamento. La presenza di una sezione dedicata, l'ampio network di **partnership** e l'offerta di attività diversificate rappresentano punti di forza significativi. Per migliorare ulteriormente l'efficacia del PTOF, è consigliabile potenziare la didattica **laboratoriale** e monitorare costantemente i risultati ottenuti per garantire un orientamento sempre più efficace e in linea con le esigenze del territorio e del mondo del lavoro. Attività come **CAD e realtà aumentata**, **Istituto di zooprofilassi** e **Certificazioni Cambridge PET, FCE, IELTS** dimostrano un impegno concreto verso l'innovazione e l'internazionalizzazione."
+}

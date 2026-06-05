@@ -1,0 +1,319 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BORA00601T",
+    "denominazione": "I.I.S Arrigo Serpieri",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Loiano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Roma 3/1",
+    "cap": "40050",
+    "email": "bois00600t@istruzione.it",
+    "pec": "ctic81600v@pec.istruzione.it",
+    "website": "www.istitutoserpieri.edu.it",
+    "tipo_scuola_dettaglio": "Ist Prof Per L'Agricoltura E L'Ambiente"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "amministrazione locale",
+        "Associazioni",
+        "forze dell’ordine",
+        "CUS",
+        "ASP",
+        "Protezione civile",
+        "organizzazioni del terzo settore",
+        "magistrati",
+        "forze di polizia",
+        "arma dei carabinieri",
+        "CONI",
+        "Rotary Acicastello",
+        "Don Pietro Carrera",
+        "ISS Redi di Paternò",
+        "Università KORE di Enna",
+        "British School di Catania",
+        "Associazione I-Sports Catania",
+        "Associazione Scacchistica Don Pietro Carrera Catania",
+        "Trinity College London",
+        "Etna Sycula"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti PAI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Potenziare l’inclusione scolastica degli alunni con Bisogni Educativi Speciali",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Progetti di Potenziamento/Consolidamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Potenziamento nelle aree linguistico-espressivo e logico-matematico",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di avviamento alla pratica musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corsi per alunni della scuola primaria",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua spagnola",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Laboratorio per sviluppo competenze linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche, visite e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse storico-artistico e ambientale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Incontri con i magistrati",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Lezioni sul tema della legalità",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Incontri con le forze di polizia",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Incontri con rappresentanti delle forze dell'ordine",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Arte di crescere",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori mare e costa",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Ascolto racconti, sperimentazione, progetti fotografici, pulizia litorale",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Registro elettronico",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Piattaforma online per dati scolastici e comunicazione scuola-famiglia",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Cablaggio edifici scolastici",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Realizzazione reti LAN/W-Lan",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Piattaforma G-Suite",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Didattica digitale integrata, approfondimenti, riunioni online",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Assistente tecnico",
+      "categoria_principale": "Supporto tecnico",
+      "descrizione_e_metodologia": "Supporto strumentazione informatica, DAD, progetti",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Formazione digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Animazione digitale, sperimentazione metodologie innovative",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Legalità, Bullismo e Cyberbullismo",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Interventi e attività per studenti, docenti e famiglie.",
+      "target": "Studenti, Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Ambiente e Salute",
+      "categoria_principale": "Educazione alla Salute",
+      "descrizione_e_metodologia": "Promozione stili di vita sani tramite esperti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Psicomotoria",
+      "categoria_principale": "Psicomotricità",
+      "descrizione_e_metodologia": "Esercizi, giochi e attività mirate.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Greco Antico",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Studio del greco antico attraverso miti ed eroi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Imparare facendo, con artisti locali.",
+      "target": "Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scrittura Creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Redazione di testi narrativi multimediali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica in Scena",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Percorso integrato tra musica, teatro e arte.",
+      "target": "Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "La regina dei baci",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura animata e drammatizzazione.",
+      "target": "Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Inseguendo Alice - Codifeet",
+      "categoria_principale": "Coding",
+      "descrizione_e_metodologia": "Narrazione e gioco del Codifeet.",
+      "target": "Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Psicomotricità",
+      "categoria_principale": "Psicomotricità",
+      "descrizione_e_metodologia": "Giochi di movimento e simbolici.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Tutti al traguardo!",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Riduzione carenze e orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Predisposizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI in collaborazione con docenti e famiglia",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Redazione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PDP in collaborazione con docenti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Visite didattiche e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Pianificazione e realizzazione di uscite didattiche per ampliare l'esperienza degli alunni.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri tra diversi ordini di scuola per facilitare la transizione.",
+      "target": "Alunni delle classi ponte"
+    },
+    {
+      "titolo_attivita": "Attivazione procedure dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Individuazione precoce e intervento su casi di dispersione scolastica.",
+      "target": "Alunni a rischio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BORA00601T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Luigi Noe' - Coordinata Serpieri** (ID scuola **BORA00601T**) per il triennio **2022-2025**. L'istituto, situato nel territorio metropolitano di **Loiano** (Bologna), in **Emilia Romagna**, è un comprensivo che offre istruzione di I grado, Infanzia e Primaria. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutandone la presenza, la completezza e l'efficacia delle azioni previste. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e una vasta rete di **partnership** attivate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una buona attenzione a questo aspetto cruciale.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di collaborazioni con diversi soggetti esterni, tra cui **amministrazione locale**, **Associazioni**, **forze dell’ordine**, **CUS**, **ASP**, **Protezione civile**, **organizzazioni del terzo settore**, **magistrati**, **forze di polizia**, **arma dei carabinieri**, **CONI**, **Rotary Acicastello**, **Don Pietro Carrera**, **ISS Redi di Paternò**, **Università KORE di Enna**, **British School di Catania**, **Associazione I-Sports Catania**, **Associazione Scacchistica Don Pietro Carrera Catania**, **Trinity College London** e **Etna Sycula**. Il numero di partner (19) e il punteggio di 4 evidenziano un forte radicamento territoriale e una capacità di attivare risorse esterne a supporto dell'azione educativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, del **progetto di vita** e delle **capacità orientative** per cogliere le opportunità. I punteggi ottenuti (4, 4, 3, 3, 4) suggeriscono un approccio completo e mirato a supportare gli studenti nel loro percorso di crescita.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l’**abbandono** scolastico (punteggio 4), a garantire la continuità territoriale (punteggio 3), a contrastare il fenomeno dei **NEET** (punteggio 2) e a promuovere il **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. Particolarmente rilevante è l'azione volta a creare un sistema integrato di inclusione e supporto alle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive (punteggio 5), ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla presenza di una sezione dedicata, dalla vasta rete di **partnership** attivate, dalla chiarezza delle finalità e degli obiettivi, dalla completezza delle azioni di sistema e dall'attenzione all'inclusione. Le attività registrate, come i **Progetti PAI**, i **Progetti di Potenziamento/Consolidamento**, i **Corsi di avviamento alla pratica musicale**, il **Laboratorio di Lingua spagnola** e le **Uscite didattiche, visite e viaggi di istruzione**, contribuiscono a creare un ambiente scolastico stimolante e orientato alla crescita degli studenti. L'implementazione del **Registro elettronico**, il **Cablaggio edifici scolastici** e l'utilizzo della **Piattaforma G-Suite** dimostrano un impegno verso la **digitalizzazione** e l'innovazione didattica.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno dei **NEET**, che ha ottenuto un punteggio di 2, suggerendo la necessità di rafforzare le azioni specifiche volte a prevenire l'abbandono scolastico e a favorire l'inserimento nel mondo del lavoro.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra gli obiettivi dichiarati e le azioni concrete, in particolare per quanto riguarda la prevenzione della dispersione scolastica e l'orientamento al lavoro. Potrebbe essere utile intensificare le collaborazioni con le aziende del territorio e con i centri per l'impiego, offrendo agli studenti opportunità di stage e di apprendistato.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Luigi Noe' - Coordinata Serpieri** presenta un'offerta formativa ricca e diversificata, con un'attenzione particolare all'orientamento. La vasta rete di **partnership**, la chiarezza delle finalità e degli obiettivi, la completezza delle azioni di sistema e l'attenzione all'inclusione rappresentano i punti di forza del piano. Pur riconoscendo alcune aree di debolezza, il PTOF si configura come uno strumento efficace per supportare gli studenti nel loro percorso di crescita e per prepararli ad affrontare le sfide del futuro. Le attività come **Legalità, Bullismo e Cyberbullismo**, **Ambiente e Salute**, **Educazione Psicomotoria**, **Laboratorio di Greco Antico**, **Laboratorio di Pittura**, **Laboratorio di Scrittura Creativa**, **Musica in Scena**, **La regina dei baci**, **Inseguendo Alice - Codifeet**, **Psicomotricità**, **Tutti al traguardo!**, **Predisposizione PEI**, **Redazione PDP**, **Visite didattiche e viaggi di istruzione**, **Incontri di continuità** e **Attivazione procedure dispersione scolastica** dimostrano un approccio olistico all'educazione."
+}

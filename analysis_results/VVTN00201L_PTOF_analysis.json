@@ -1,0 +1,304 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VVTN00201L",
+    "denominazione": "Ist D'Istruzione Superiore P.Galluppi",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Tropea",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Vibo Valentia",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Coniugi Crigna",
+    "cap": "ND",
+    "email": "vvis00200c@istruzione.it",
+    "pec": "brtf02000p@pec.istruzione.it",
+    "website": "www.tecnologicovibo.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Per Il Turismo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nell'indice"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Leonardo",
+        "GE Avio Aereo",
+        "Jindal Film Europe",
+        "A2A",
+        "Enel",
+        "Sanofi Aventis",
+        "Salver",
+        "Rav Aerospace",
+        "Dema",
+        "Gse",
+        "Revisud",
+        "Convertino",
+        "Aerial Click",
+        "ArcelorMittal",
+        "Eni",
+        "Vestas",
+        "TecnoProget",
+        "Novimpianti",
+        "Nuova Elettronica",
+        "A & P",
+        "Diesel Line",
+        "Leonardo div. Aerostrutture",
+        "Axist",
+        "Primed",
+        "Meth Eng.",
+        "Novotech Aerospace Advanced Tec.",
+        "Reddoak",
+        "Cos.Mecc. Sas",
+        "De Donno",
+        "Elettromeccanica Ciaurri",
+        "Tecno Imiel",
+        "Ionica Impianti",
+        "Calf96",
+        "ScaffSystem",
+        "New Damar Ascensori",
+        "Orm",
+        "Cambitek",
+        "Officine Bene",
+        "Athena SpA",
+        "scuole delle macro aree regionale e nazionale",
+        "servizi socio-sanitari ed educativi del territorio",
+        "associazioni di settore",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Camera di Commercio",
+        "Confindustria",
+        "Università",
+        "Adecco Spa",
+        "Progetto Sviluppo",
+        "Consorzio PIP",
+        "Junior Achievement",
+        "Assoform",
+        "Anpal",
+        "Puglia Sviluppo Spa",
+        "AMCM Multikulturalità",
+        "Umana",
+        "ASL",
+        "Indire",
+        "ITALIA-Scuola"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi di competenza trasversale e orientamento, stage presso aziende del territorio.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "ITS Fondazione Aerospazio Puglia",
+      "categoria_principale": "Formazione tecnica superiore",
+      "descrizione_e_metodologia": "Formazione tecnica superiore in ambito aerospaziale.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Recupero in itinere",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Interventi di recupero più efficaci rispetto agli interventi estivi",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Formazione docenti competenze digitali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Acquisizione competenze digitali per didattica inclusiva",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Tecnologia E Territorio",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita aziende, progetto realtà aumentata/virtuale (Assoform), presentazione esperienza",
+      "target": "3° anno Informatica e Telecomunicazioni"
+    },
+    {
+      "titolo_attivita": "Imprenditorialita’ A Scuola",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto Impresa in Azione (Junior Achievement), mini-impresa, gestione dal concept al lancio",
+      "target": "4° anno"
+    },
+    {
+      "titolo_attivita": "La Scuola Va In Azienda",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage in aziende settore informatico, presentazione attività",
+      "target": "5° anno"
+    },
+    {
+      "titolo_attivita": "Progettazione e realizzazione di componentistica meccanica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività didattiche in collaborazione con aziende meccaniche, laboratorio, progetto-realizzazione",
+      "target": "3° anno Meccanica"
+    },
+    {
+      "titolo_attivita": "La Robotica E I Processi E Prodotti Eco-Innovativi",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso robotica (Assoform), stage in aziende automazione, laboratorio eco-innovazione",
+      "target": "4° anno Meccanica"
+    },
+    {
+      "titolo_attivita": "Welding License E Welding Coordinator",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso preparazione esame saldatura, attestato Welding Coordinator, stage in aziende",
+      "target": "5° anno Meccanica"
+    },
+    {
+      "titolo_attivita": "Attestato Pilota Sapr Droni – Corso Base/Avanzato",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Formazione regole dell'aria, programmazione, esercitazioni pratiche",
+      "target": "3°, 4°, 5° anno Elettronica"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Creazione gruppi classe affiatati, solidarietà",
+      "target": "Alunni primo anno"
+    },
+    {
+      "titolo_attivita": "Progetto Welfare Scolastico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Interventi psico-sociali, sportello ascolto",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Scuola, Sport e Disabilità",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento pratica sportiva",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Studenti-Atleti",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Supporto studenti-atleti",
+      "target": "Studenti-atleti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate ad aziende del territorio per conoscere le professioni.",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di professionisti su percorsi formativi e lavorativi.",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Ricerca-azione",
+      "target": "Docenti neo-assunti, Personale ATA"
+    },
+    {
+      "titolo_attivita": "Visita di studio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione in scuola innovativa",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Autoformazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione on line",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Seminari Acquisti Mepa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VVTN00201L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ist. Tecnico Per Il Turismo** di Tropea (Vibo Valentia), relativo al periodo 2019/20-2021/22. L'istituto, di ordine II grado e di tipo tecnico, opera in un contesto territoriale non metropolitano del Sud Italia. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Presenza di Sezione Dedicata:** Il PTOF include esplicitamente una sezione dedicata all'orientamento, come evidenziato dal punteggio massimo di 5.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership con un numero considerevole di soggetti, ben 30, tra cui aziende come **Leonardo**, **GE Avio Aereo**, **Jindal Film Europe**, **Enel** e **Sanofi Aventis**, ma anche **scuole** regionali e nazionali, **servizi socio-sanitari ed educativi del territorio**, **associazioni di settore** e **organizzazioni del terzo settore**. Questa vasta rete di collaborazioni, valutata con un punteggio di 6, rappresenta un importante punto di forza per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con punteggi di 4 per ciascuna di queste aree. L'attenzione alle **transizioni formative** risulta leggermente inferiore, con un punteggio di 3, mentre lo sviluppo delle **capacità orientative** e delle **opportunità** è valutato positivamente con un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono scolastico** (punteggio 4), a favorire la continuità territoriale (punteggio 5), a promuovere il **lifelong learning** (punteggio 4). L'obiettivo di contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) risulta meno prioritario, con un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento tra i diversi servizi scolastici (punteggio 5), un dialogo costante tra docenti e studenti (punteggio 5), un rapporto attivo con le famiglie (punteggio 5), un monitoraggio delle azioni intraprese (punteggio 4) e un sistema integrato di inclusione e attenzione alle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:** L'approccio didattico è orientato all'apprendimento basato sull'esperienza degli studenti (punteggio 5), all'utilizzo di metodologie laboratoriali (punteggio 5), all'interdisciplinarità (punteggio 4). La flessibilità degli spazi e dei tempi didattici, invece, risulta meno sviluppata, con un punteggio di 2.\n\n**2.7 Offerta di Opzionali:** L'offerta di attività opzionali comprende opzionali culturali (punteggio 4), laboratoriali ed espressive (punteggio 4), sportive (punteggio 4), mentre quelle ludico-ricreative e di volontariato ricevono un punteggio leggermente inferiore (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, la vasta rete di **partnership** attivate, l'attenzione allo sviluppo delle **competenze trasversali** e del **progetto di vita** degli studenti, l'impegno nell'implementazione di azioni di sistema efficaci e l'utilizzo di metodologie didattiche innovative basate sull'esperienza e sulla laboratorialità. Le attività **PCTO** come **Stage aziendali**, **Tecnologia E Territorio** e **Imprenditorialita’ A Scuola** sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'attenzione alla lotta contro il fenomeno dei **NEET**, che risulta meno prioritaria rispetto ad altri obiettivi. Inoltre, la flessibilità degli spazi e dei tempi didattici potrebbe essere ulteriormente sviluppata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le azioni specifiche volte a contrastare la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani, in particolare attraverso un'offerta formativa più mirata e personalizzata.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Ist. Tecnico Per Il Turismo** di Tropea dimostra un forte impegno verso l'orientamento, con un'ampia gamma di attività e partnership che contribuiscono a sviluppare le competenze e le capacità degli studenti. Pur presentando alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per migliorare ulteriormente l'offerta formativa e garantire un futuro professionale di successo per i giovani. Le attività di **recupero in itinere**, **formazione docenti competenze digitali** e i progetti di **inclusione** e **benessere** completano un quadro positivo."
+}

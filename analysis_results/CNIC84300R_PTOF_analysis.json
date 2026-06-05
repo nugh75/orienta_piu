@@ -1,0 +1,296 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CNIC84300R",
+    "denominazione": "Centallo-Villafalletto",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Centallo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Cuneo",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Delle Scuole 8",
+    "cap": "12044",
+    "email": "cnic84300r@istruzione.it",
+    "pec": "cnic84300r@pec.istruzione.it",
+    "website": "https://www.icsfalconeacicastello.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "amministrazione locale",
+        "Associazioni",
+        "forze dell’ordine",
+        "CUS",
+        "ASP",
+        "Protezione civile",
+        "organizzazioni del terzo settore",
+        "magistrati",
+        "istituzioni",
+        "forze di polizia",
+        "arma dei carabinieri",
+        "CONI",
+        "Esterno",
+        "Servizi socio-sanitari",
+        "Associazione I-Sports Catania",
+        "Associazione Scacchistica Don Pietro Carrera Catania",
+        "Trinity College London",
+        "Etna Sycula",
+        "ISS Redi di Paternò",
+        "Università KORE di Enna",
+        "British School di Catania"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti PAI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Potenziare l’inclusione scolastica",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Progetti di Potenziamento/Consolidamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Aree linguistico-espressivo e logico-matematico",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Progetto Scuola e legalità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corsi avviamento musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Avviamento alla pratica musicale",
+      "target": "Alunni primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua spagnola",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Laboratorio per sviluppo competenze linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche, visite e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a scuole secondarie di II grado e Open Day",
+      "target": "Classi III"
+    },
+    {
+      "titolo_attivita": "Incontri con i magistrati",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Lezioni sul tema della legalità",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Incontri con rappresentanti delle istituzioni",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Giornate di studio con rappresentanti delle istituzioni",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Incontri con le forze di polizia",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Incontri con le forze di polizia e carabinieri",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Arte di crescere",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Dall'Arte all'Immagine",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Dalla cultura alla cultura",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Giochi matematici del Mediterraneo 2024",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Lingua Inglese",
+      "categoria_principale": "Progetti a carico famiglie",
+      "descrizione_e_metodologia": "Docenti madrelingua",
+      "target": "Infanzia, Primaria, Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Scacchi a Scuola",
+      "categoria_principale": "Progetti esterni",
+      "descrizione_e_metodologia": "Associazione Don Pietro Carrera",
+      "target": "Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratori sul mare e la costa",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Ascolto racconti, sperimentazione manuale, progetti fotografici, pulizia litorale",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Registro elettronico",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Piattaforma online per dati scolastici e comunicazione scuola-famiglia",
+      "target": "Tutti gli studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Cablaggio edifici scolastici",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Realizzazione reti LAN/W-Lan",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Piattaforma G-Suite",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Didattica digitale integrata e approfondimenti",
+      "target": "Studenti classi terze primaria e superiori"
+    },
+    {
+      "titolo_attivita": "Assistente tecnico",
+      "categoria_principale": "Supporto tecnico",
+      "descrizione_e_metodologia": "Supporto per DAD, prove Invalsi, PON e progetti",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Animatore digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione innovazione didattica e digitale",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Predisposizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI in collaborazione con docenti e famiglia",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Redazione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PDP in collaborazione con docenti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Visite didattiche e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Pianificazione e realizzazione di uscite didattiche per ampliare gli orizzonti degli studenti.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri tra diversi ordini di scuola per facilitare la transizione.",
+      "target": "Alunni classi ponte"
+    },
+    {
+      "titolo_attivita": "Attivazione procedure dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Individuazione precoce e intervento su casi di dispersione scolastica.",
+      "target": "Alunni a rischio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CNIC84300R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo Centallo-Villafalletto (CNIC84300R) per il triennio 2022-2025. L'istituto, situato in Piemonte, serve un territorio non metropolitano e comprende i gradi di scuola dell'Infanzia, Primaria e Secondaria di Primo Grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, evidenziando l'importanza attribuita a questo aspetto.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership con diversi soggetti esterni, tra cui l'**amministrazione locale**, **Associazioni**, **forze dell’ordine**, il **CUS**, l'**ASP**, la **Protezione civile**, **organizzazioni del terzo settore**, **magistrati**, **istituzioni**, **forze di polizia**, l'**arma dei carabinieri**, il **CONI**, **Esterno**, **Servizi socio-sanitari**, **Associazione I-Sports Catania**, **Associazione Scacchistica Don Pietro Carrera Catania**, **Trinity College London**, **Etna Sycula**, **ISS Redi di Paternò**, **Università KORE di Enna**, e la **British School di Catania**. Questo elevato numero di collaborazioni (22 partner) suggerisce un forte radicamento del PTOF nel territorio e una volontà di offrire agli studenti opportunità di confronto con il mondo esterno.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita**, facilitare le **transizioni formative** e potenziare le **capacità orientative** degli studenti rispetto alle opportunità disponibili.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la promozione della continuità territoriale, il contrasto al fenomeno dei **NEET** e l'incentivo al **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'esperienza, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzioni **culturali**, **laboratoriali espressive** (con un punteggio particolarmente alto), **ludiche ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampia rete di partnership attivate, nella chiarezza delle finalità e degli obiettivi, nell'implementazione di azioni di sistema efficaci e nell'offerta di una didattica orientativa innovativa e diversificata. L'attenzione all'inclusione e alla gestione delle fragilità rappresenta un ulteriore elemento di valore. Le attività registrate, come i **Progetti PAI**, i **Progetti di Potenziamento/Consolidamento**, le **Attività sportive**, i **Corsi avviamento musicale**, il **Laboratorio di Lingua spagnola** e le **Uscite didattiche, visite e viaggi di istruzione**, dimostrano un impegno concreto nella realizzazione delle azioni previste.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero beneficiare di un ulteriore approfondimento. L'obiettivo di contrastare il fenomeno dei **NEET** ha ottenuto un punteggio inferiore rispetto agli altri, suggerendo la necessità di potenziare le azioni specifiche in questo ambito. Anche l'obiettivo di garantire la continuità territoriale potrebbe essere ulteriormente sviluppato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di contrasto al fenomeno **NEET** in azioni concrete e misurabili. Un'analisi più approfondita delle cause dell'abbandono scolastico e della dispersione formativa nel territorio di riferimento potrebbe contribuire a definire strategie più efficaci.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo Centallo-Villafalletto presenta un'impostazione solida e coerente in materia di orientamento. La presenza di una sezione dedicata, l'ampia rete di partnership, la chiarezza delle finalità e degli obiettivi, l'efficacia delle azioni di sistema e l'innovazione della didattica orientativa rappresentano elementi distintivi. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra un impegno significativo verso la crescita e lo sviluppo degli studenti, preparandoli ad affrontare le sfide del futuro. Le attività registrate, come gli incontri con i **magistrati**, i rappresentanti delle **istituzioni** e le **forze di polizia**, insieme a progetti come **Arte di crescere**, **Dall'Arte all'Immagine**, **Dalla cultura alla cultura**, **Giochi matematici del Mediterraneo 2024**, **Progetto Lingua Inglese**, **Progetto Scacchi a Scuola**, **Laboratori sul mare e la costa**, l'implementazione del **Registro elettronico**, il **Cablaggio edifici scolastici**, l'utilizzo della **Piattaforma G-Suite**, il supporto dell'**Assistente tecnico** e dell'**Animatore digitale**, e le procedure per la predisposizione di **PEI** e **PDP**, testimoniano un approccio globale e integrato all'orientamento e all'inclusione."
+}

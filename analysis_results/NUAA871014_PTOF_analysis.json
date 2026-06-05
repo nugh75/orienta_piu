@@ -1,0 +1,260 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NUAA871014",
+    "denominazione": "Dorgali - \"G.M. Gisellu",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Dorgali",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Nuoro",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Enrico Fermi",
+    "cap": "08022",
+    "email": "nuic871007@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.istitutocomprensivodorgali.gov.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente nell'indice e nelle attività, manca una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Museo Archeologico Nazionale della Siritide",
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scambi culturali con scuole europee",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Erasmus+, Etwinning",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Proposte nuove tecniche d’insegnamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Introduzione del metodo flipped classroom",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori service learning",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare senso di cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD (Bring Your Own Device). Uso consapevole dei dispositivi.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e progetti dedicati",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione del Piano Educativo Individualizzato",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico",
+      "target": "Studenti con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NUAA871014\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Dorgali - Via Enrico Fermi** (NUAA871014), relativo all'anno scolastico **2019/20-2021/22**. L'istituto, di ordine **Infanzia**, situato nel territorio **Non Metropolitano** della regione **Sardegna**, presenta un impegno nell'orientamento, sebbene con alcune criticità strutturali. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nL'orientamento, pur essendo presente nell'indice generale e nelle attività svolte, non beneficia di una sezione dedicata e strutturata all'interno del PTOF. Questo rappresenta un limite nella chiarezza e nella visibilità delle strategie adottate.\n\n#### 2.2 Partnership\n\nL'istituto dimostra una notevole capacità di collaborare con numerosi partner esterni, tra cui **Museo Archeologico Nazionale della Siritide**, **AGROBIOS**, diverse **Associazioni**, **Consulenti esterni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e **ASL**. Il numero di partnership attive, pari a 15, testimonia un forte radicamento nel territorio e una volontà di ampliare l'offerta formativa attraverso la collaborazione esterna.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, la preparazione alle **transizioni formative** e il potenziamento delle **capacità orientative** per affrontare le opportunità future. Tutte queste aree ricevono un punteggio elevato, indicando una chiara visione degli obiettivi educativi.\n\n#### 2.4 Obiettivi\n\nGli obiettivi specifici delineati nel PTOF mirano a ridurre l'**abbandono** scolastico, garantire la continuità con il **territorio**, contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e promuovere il **lifelong learning**. Tuttavia, il punteggio di 3 attribuito a ciascun obiettivo suggerisce che la loro implementazione potrebbe richiedere un maggiore sforzo e una definizione più precisa delle strategie.\n\n#### 2.5 Azioni di Sistema\n\nLe azioni di sistema previste includono il coordinamento dei **servizi** scolastici, il dialogo tra **docenti** e **studenti**, il rapporto con i **genitori** e il monitoraggio delle azioni intraprese. Anche in questo caso, il punteggio di 3 indica la necessità di rafforzare l'efficacia di queste azioni per garantire un sistema di orientamento integrato e funzionale. Viene inoltre sottolineata l'importanza di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza** degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità** degli spazi e dei tempi e sull'approccio **interdisciplinare**. L'attenzione all'esperienza diretta e alla flessibilità didattica rappresenta un punto di forza, mentre l'utilizzo limitato di laboratori potrebbe costituire un'area di miglioramento.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali** ed **espressive**, con un buon livello di coinvolgimento. Le attività **ludiche** e **ricreative** sembrano meno sviluppate, mentre quelle legate al **volontariato** e allo **sport** presentano un punteggio intermedio.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la chiara definizione delle finalità, la vasta rete di **partnership** con enti e associazioni del territorio, l'attenzione all'esperienza diretta degli studenti e l'approccio interdisciplinare alla didattica. L'istituto dimostra una buona capacità di attivare progetti e attività che coinvolgono gli studenti in contesti reali e stimolanti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza significativa. Inoltre, gli obiettivi e le azioni di sistema, pur essendo ben definiti, sembrano richiedere un maggiore sforzo per essere implementati in modo efficace. L'utilizzo limitato di laboratori e la scarsa attenzione alle attività ludiche e ricreative potrebbero limitare l'offerta formativa.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una struttura organizzativa dedicata all'orientamento, che ne ostacola la visibilità e l'efficacia. È necessario definire un piano d'azione specifico con obiettivi misurabili e indicatori di performance per monitorare i progressi e valutare l'impatto delle attività svolte.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Dorgali - Via Enrico Fermi** presenta un buon potenziale in termini di orientamento, grazie alla chiarezza delle finalità, alla vasta rete di partnership e all'attenzione all'esperienza diretta degli studenti. Tuttavia, per migliorare l'efficacia delle strategie adottate, è necessario strutturare una sezione dedicata all'orientamento, definire obiettivi misurabili e rafforzare le azioni di sistema. L'implementazione di queste misure consentirebbe all'istituto di offrire un servizio di orientamento più completo e funzionale, in grado di supportare gli studenti nel loro percorso di crescita personale e professionale. Le attività registrate, come gli **Stage ASL**, gli **Scambi culturali con scuole europee**, i corsi di **PCTO** e i progetti di **Service Learning**, dimostrano un impegno concreto nell'orientamento pratico e nella preparazione al mondo del lavoro."
+}

@@ -1,0 +1,175 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VATD020509",
+    "denominazione": "E.Tosi",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Busto Arsizio",
+    "anno_ptof": "2019-2022",
+    "provincia": "Varese",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Stelvio 173",
+    "cap": "21052",
+    "email": "vatd02000x@istruzione.it",
+    "pec": "ND",
+    "website": "www.etosi.va.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Commerciale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "L'orientamento non è presente come sezione autonoma nel PTOF. È integrato all'interno della sezione 'Pratiche Educative E Didattiche Per Il Successo Formativo'. Questo approccio implica una diffusione dell'orientamento nelle attività didattiche, ma non una sua specifica strutturazione come area tematica dedicata."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "aziende",
+        "studi",
+        "enti",
+        "ITS Incom"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "formare cittadini orientati a un contesto internazionale",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "pluralità di indirizzi",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 4,
+        "evidence_quote": "inserirsi con competenza nel mondo del lavoro e della formazione superiore",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola/Lavoro",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola/lavoro per gli studenti.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienza lavorativa in azienda.",
+      "5w_dove": "Aziende partner",
+      "5w_quando": "Durante il triennio",
+      "5w_perche": "Acquisire competenze professionali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Incrementare e selezionare partner (aziende/studi/enti) per effettuazione periodi di alternanza scuola/lavoro",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione di un'impresa per sviluppare competenze imprenditoriali.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Gestione di un'impresa simulata.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Durante il triennio",
+      "5w_perche": "Sviluppare competenze imprenditoriali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Impresa Formativa Simulata (IFS)",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "AlmaOrientati",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Attività di orientamento post-diploma.",
+      "5w_chi": "Studenti classi 5",
+      "5w_cosa": "Informazioni su università e lavoro.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Classi 5",
+      "5w_perche": "Supportare gli studenti nella scelta del percorso post-diploma.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 5",
+      "evidence_quote": "AlmaOrientati",
+      "evidence_location": "Pagina 9"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ITE TOSI\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'ITE TOSI dimostra un approccio all'orientamento integrato nelle diverse aree tematiche, piuttosto che strutturato come una sezione autonoma. L'istituto pone l'accento sull'orientamento al mondo del lavoro e alla formazione superiore, con un'attenzione alla dimensione internazionale e all'innovazione. Il documento evidenzia un impegno nella preparazione degli studenti per le transizioni formative successive.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nCome rilevato, il PTOF non prevede una sezione specificamente dedicata all'orientamento. Questo approccio implica una sua diffusione trasversale all'interno delle 'Pratiche Educative E Didattiche Per Il Successo Formativo', collegando l'orientamento alle attività didattiche e alle competenze chiave.\n\n#### 2.2 Partnership e Reti\nL'istituto collabora con **aziende**, **studi**, **enti** e **ITS Incom** per offrire opportunità di alternanza scuola-lavoro e stage agli studenti. Queste partnership rappresentano un elemento cruciale per il collegamento tra il sistema scolastico e il mondo del lavoro.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità del PTOF includono la formazione di cittadini con una prospettiva internazionale e la loro preparazione per l'ingresso nel mondo del lavoro. Gli obiettivi delineati mirano a ridurre l'abbandono scolastico e a favorire la continuità territoriale.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie. Queste azioni sono fondamentali per la creazione di un sistema di orientamento coeso ed efficace.\n\n#### 2.5 Didattica Orientativa\nLa didattica è orientata allo sviluppo di competenze professionali e alla preparazione per il mondo del lavoro. L'istituto utilizza metodologie quali l'alternanza scuola-lavoro e l'impresa formativa simulata, sebbene l'enfasi su laboratori pratici specificamente orientativi risulti meno marcata.\n\n#### 2.6 Opportunità Formative\nL'istituto offre opportunità di volontariato e attività sportive, contribuendo alla formazione di cittadini attivi e responsabili.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Alternanza Scuola/Lavoro\nGli studenti partecipano a periodi di alternanza scuola/lavoro presso **aziende** partner, acquisendo competenze professionali e un'esperienza pratica nel mondo del lavoro. L'attività si svolge durante il triennio e coinvolge tutti gli studenti.\n\n#### 2.7.2 Impresa Formativa Simulata (IFS)\nGli studenti simulano la gestione di un'impresa, sviluppando competenze imprenditoriali e capacità di problem solving. L'attività si svolge all'interno dell'istituto durante il triennio e coinvolge tutti gli studenti.\n\n#### 2.7.3 AlmaOrientati\nGli studenti delle classi 5 partecipano ad attività di orientamento post-diploma, ricevendo informazioni su università e lavoro. L'attività si svolge all'interno dell'istituto e ha l'obiettivo di supportare gli studenti nella scelta del percorso post-diploma.\n\n### 3. Punti di Forza\nIl principale punto di forza risiede nell'integrazione dell'orientamento nelle attività didattiche e nella collaborazione con il mondo del lavoro.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento potrebbe ostacolare la comunicazione e il coordinamento delle attività. Inoltre, l'enfasi sulla didattica laboratoriale specifica per l'orientamento appare limitata.\n\n### 5. Gap Analysis\nÈ necessario rafforzare la collaborazione con le famiglie e i servizi territoriali per garantire un orientamento efficace. Si evidenzia inoltre la necessità di considerare specificamente le esigenze di studenti con bisogni educativi speciali e di integrare nel PTOF strategie inclusive per l'orientamento, come documentato a pagina 9.\n\n### 6. Conclusioni\nIl PTOF dell'ITE TOSI presenta un buon livello di maturità nell'orientamento, con un'attenzione particolare al mondo del lavoro e all'internazionalizzazione. L'istituto dovrebbe valutare la possibilità di migliorare la comunicazione e il coordinamento delle attività, nonché di potenziare l'offerta di didattica laboratoriale specificamente orientativa e di integrare strategie inclusive per l'orientamento di tutti gli studenti."
+}

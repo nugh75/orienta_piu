@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIIS013003",
+    "denominazione": "Salvemini-D'Aosta",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Firenze",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giusti 27",
+    "cap": "50121",
+    "email": "fiis013003@istruzione.it",
+    "pec": "fiis013003@pec.istruzione.it",
+    "website": "www.polotecnico.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia affrontato all'interno di diverse sezioni del PTOF, non è presente una sezione dedicata specificamente all'orientamento scolastico e professionale."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive per studenti",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursione in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitale europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Elementi di primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti per presentare l'offerta formativa.",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi di formazione in azienda.",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIIS013003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo Salvemini-D'Aosta (FIIS013003) per il periodo 2019/20-2021/22. L'istituto, situato a Firenze, si configura come un liceo e istituto tecnico di secondo grado. L'analisi evidenzia un impegno complessivo positivo verso l'orientamento, pur con alcune aree di miglioramento. L'orientamento è integrato in diverse aree del PTOF, ma manca una sezione specificamente dedicata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene l'orientamento sia affrontato in diverse sezioni del PTOF, non è presente una sezione dedicata specificamente all'orientamento scolastico e professionale, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** L'istituto dimostra una buona capacità di collaborare con il territorio, come evidenziato dai punteggi ottenuti (4) e dai partner nominati, tra cui **enti ed istituzioni**, **Enti operanti nel terzo settore**, **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Sono state individuate 4 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e lo sviluppo di **capacità orientative** per cogliere le **opportunità**. Tutte queste aree hanno ottenuto un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mirano a **ridurre l'abbandono** scolastico, garantire la **continuità** con il territorio, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**. Tuttavia, il punteggio di 3 per ciascun obiettivo suggerisce la necessità di una maggiore definizione di strategie concrete per il loro raggiungimento.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema efficaci, quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni hanno ottenuto un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento **da esperienza degli studenti**, l'utilizzo di **laboratori**, la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare**. La didattica da esperienza e la flessibilità hanno ottenuto un punteggio di 4, mentre la didattica laboratoriale ha ottenuto un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 4.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella solida rete di **partnership** con enti ed istituzioni del territorio, nella chiarezza delle **finalità** orientative e nell'implementazione di azioni di sistema efficaci. L'offerta di attività **opzionali e facoltative** è ampia e diversificata, offrendo agli studenti numerose opportunità di crescita e scoperta. L'istituto propone attività pratiche come **stage sportivi**, **stage di vela**, **escursionismo alpino** e **stage in Inghilterra**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata specificamente all'orientamento all'interno del PTOF. Inoltre, gli obiettivi prefissati, pur lodevoli, necessitano di una maggiore definizione di strategie concrete per il loro raggiungimento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta orientativa più organica e visibile all'interno del PTOF. Questo potrebbe essere realizzato attraverso la creazione di una sezione dedicata, con obiettivi specifici, azioni mirate e indicatori di performance definiti.\n\n### 6. Conclusioni\n\nIl PTOF del Liceo Salvemini-D'Aosta dimostra un impegno significativo verso l'orientamento, con una solida base di partnership, finalità chiare e azioni di sistema efficaci. Tuttavia, per ottimizzare l'offerta orientativa, si raccomanda di strutturare un'offerta più organica e visibile all'interno del PTOF, con una sezione dedicata e obiettivi specifici. Le attività di **orientamento in ingresso** come l'**Open Day** e quelle di **orientamento in uscita** come il **PCTO** sono ben implementate. L'istituto offre anche attività di **formazione** per docenti e personale amministrativo."
+}

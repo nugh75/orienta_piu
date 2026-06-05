@@ -1,0 +1,353 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NOTB12500G",
+    "denominazione": "Istituto Tecnico Aeronautico Francesco Baracca",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Novara",
+    "anno_ptof": "2025/28",
+    "provincia": "Novara",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Costantino Porta N.25",
+    "cap": "28100",
+    "email": "baracca.csi@virgilio.it",
+    "pec": "sellasrl@legalmail.it",
+    "website": "www.scuolenovara.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Enti ecclesiastici",
+        "beneficenza pubblica e privata",
+        "Scuole Medie di provenienza",
+        "Scuole superiori",
+        "Professionisti",
+        "Enti territoriali"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 7
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 7
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite guidate per conoscere il territorio",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività laboratoriali per lo sviluppo delle competenze",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Attività pomeridiana, integrazione approccio sperimentale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Pubblicazione online, allargare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Potenziare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Migliorare proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Incrementare attività senso critico ed estetico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Presentazione scuola",
+      "descrizione_e_metodologia": "Allievi presentano la scuola e attività",
+      "target": "Famiglie futuri allievi"
+    },
+    {
+      "titolo_attivita": "Laboratori extracurriculari",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività opzionali con contributo economico",
+      "target": "Allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Allestimento spettacolo, sviluppo abilità espressive",
+      "target": "Alunni classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio metodo di studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Laboratorio obbligatorio per classi prime, pomeridiano, trimestrale.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Studio pomeridiano assistito",
+      "categoria_principale": "Supporto allo studio",
+      "descrizione_e_metodologia": "Presenza insegnanti ed educatrici in locali dedicati.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori di recupero e approfondimento",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Utilizzo di metodologie innovative (feedback, cooperative learning, didattica laboratoriale).",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico con attività di reading, listening, dialoghi e role playing.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura partecipata e analisi del romanzo 'Mio fratello rincorre i dinosauri'.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Realizzazione di esperimenti di chimica, fisica e biologia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di avvicinamento con role playing, letture ed esercizi.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Cucina",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla pratica culinaria.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Delf",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di francese per certificazione QCER livello A1.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione e pittura di manufatti in creta.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Atelier di canto corale con repertorio liturgico e moderno.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport (ragazze/ragazzi)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5)",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato di illustrazione.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a maglia con i ferri",
+      "categoria_principale": "Artigianato",
+      "descrizione_e_metodologia": "Realizzazione di prodotti lavorati a maglia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo di Arduino.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso per il conseguimento della certificazione ICDL.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Giapponese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla lingua e cultura giapponese.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Food and Cooking",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento del vocabolario inglese culinario con pratica in cucina.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5)",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio di latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni di terza media con prerequisiti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagella, uscita in montagna.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e a seguito di convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Rivolti a tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di apprendimento uso PC",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corsi specifici per l'uso del PC come ausilio allo studio e programmazione attività.",
+      "target": "Alunni classe prima"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica di base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding e hardware",
+      "target": "Alunni classe seconda"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Conseguimento certificazione Nuova ECDL",
+      "target": "Alunni classe terza"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NOTB12500G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Tecnico Aeronautico Francesco Baracca** (school_id: NOTB12500G) per il triennio 2025/28. L'istituto, di tipo professionale e situato nel territorio non metropolitano di **Novara** (Piemonte), dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da punteggi elevati nelle finalità formative. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative per affrontare le opportunità future. Si riscontra un'attenzione particolare alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa (NEET) e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 4, indicando un'integrazione strutturale dell'orientamento all'interno del piano scolastico.\n\n**2.2 Partnership:** L'istituto collabora con diversi partner, tra cui **enti ecclesiastici**, associazioni di **beneficenza pubblica e privata**, **scuole medie** di provenienza, **scuole superiori**, **professionisti** ed **enti territoriali**. Il numero di partnership attive è pari a 3.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo e ambizioso, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati includono la riduzione dell'**abbandono scolastico** (punteggio 4), la promozione della continuità territoriale (punteggio 4), il contrasto alla situazione NEET (punteggio 3) e la promozione del **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su azioni coordinate, quali il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e un sistema integrato di inclusione e supporto alle fragilità, tutte valutate positivamente con punteggi elevati (4-5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare, ottenendo punteggi elevati (4-5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive** (punteggio 7), **sportive** (punteggio 7), mentre quelle **ludiche e ricreative** e di **volontariato** ricevono punteggi inferiori (3 e 2 rispettivamente).\n\n### 3. Punti di Forza\n\nI punti di forza del sistema di orientamento dell'Istituto Baracca risiedono nella presenza di una sezione dedicata all'interno del PTOF, nella chiarezza delle finalità formative, nella varietà delle azioni di sistema e nell'approccio didattico orientativo basato sull'esperienza e sull'interdisciplinarità. L'ampia offerta di attività opzionali, in particolare quelle culturali, laboratoriali ed espressive, e sportive, rappresenta un valore aggiunto per gli studenti. L'impegno verso l'inclusione e il supporto alle fragilità è un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la scarsa offerta di attività opzionali di tipo ludico-ricreativo e di volontariato. Inoltre, l'obiettivo di contrasto alla situazione NEET, pur presente, ottiene un punteggio inferiore rispetto agli altri obiettivi, suggerendo la necessità di un maggiore focus su questo aspetto.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di potenziare le attività opzionali volte a promuovere il volontariato e le attività ludico-ricreative, al fine di offrire agli studenti un'offerta formativa più completa e bilanciata. È inoltre opportuno rafforzare le azioni specifiche volte a contrastare la dispersione formativa e a favorire l'inserimento lavorativo dei giovani.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Tecnico Aeronautico Francesco Baracca dimostra un forte impegno verso l'orientamento, con una solida base teorica e una varietà di azioni concrete. Pur presentando alcune aree di debolezza, l'istituto si pone come un punto di riferimento per l'orientamento nel territorio, offrendo agli studenti un supporto completo per affrontare le sfide del futuro e costruire il proprio **progetto di vita**. Le attività registrate, come le **visite guidate**, i **laboratori**, il **giornalino d'istituto**, il **progetto teatro** e i numerosi **laboratori extracurriculari**, testimoniano l'impegno dell'istituto nell'offrire un'esperienza formativa ricca e stimolante."
+}

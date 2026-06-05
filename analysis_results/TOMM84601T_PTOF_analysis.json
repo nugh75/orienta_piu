@@ -1,0 +1,195 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOMM84601T",
+    "denominazione": "I.C. Pinerolo V-Cumiana",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Cumiana",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Michelangelo Ferrero11",
+    "cap": "10040",
+    "email": "toic84600r@istruzione.it",
+    "pec": "ND",
+    "website": "www.icpinerolo5.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche educative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare e al gusto",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOMM84601T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Pinerolo V - Cumiana (TOMM84601T) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, di I Grado, situato nel territorio metropolitano di Cumiana, in provincia di Torino e regione Piemonte, è una scuola statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, sebbene l'analisi indichi un punteggio di 1, suggerendo una presenza implicita.\n\n**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione esterna, come evidenziato dal punteggio di 3 e dalla presenza di quattro partner significativi: **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo si concentrano prevalentemente sullo sviluppo di attitudini e interessi degli studenti, ottenendo un punteggio di 3 per entrambe le aree. Meno marcata è l'attenzione al progetto di vita e alle capacità orientative per le opportunità future, con punteggi di 1 per entrambe le aree. Anche le finalità legate alle transizioni formative ricevono un punteggio moderato di 2.\n\n**2.4 Obiettivi:** L'istituto sembra concentrarsi maggiormente sul lifelong learning, con un punteggio di 1, mentre l'attenzione alla riduzione dell'abbandono scolastico e al contrasto alla dispersione NEET è assente, come indicato dai punteggi pari a 0. Un punteggio di 1 è stato attribuito all'obiettivo di garantire la continuità territoriale.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben distribuite, con particolare attenzione al rapporto scuola-genitori (punteggio di 3) e al sistema integrato di inclusione e fragilità (punteggio di 3). Il coordinamento dei servizi e il dialogo tra docenti e studenti ottengono un punteggio di 2, mentre il monitoraggio delle azioni risulta meno sviluppato, con un punteggio di 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi e partecipativi, con un punteggio di 4 per la didattica basata sull'esperienza degli studenti. Buoni risultati anche per la didattica laboratoriale, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità, tutte con punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con un buon punteggio per i laboratori espressivi e le attività ludico-ricreative (punteggio di 3 per entrambe). Meno sviluppate sono le opzionali culturali, di volontariato e sportive, con un punteggio di 1 per ciascuna.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership** con enti esterni, nell'attenzione allo sviluppo di **attitudini** e **interessi** degli studenti, e nell'approccio didattico orientativo basato sull'esperienza e sulla **laboratorialità**. Il forte coinvolgimento dei **genitori** e l'attenzione all'**inclusione** e alla gestione delle **fragilità** rappresentano ulteriori elementi positivi. L'attività **Laboratorio di Coding per l’Infanzia** con **Docendum** e i **Laboratori** di diverse discipline sono esempi concreti di applicazione di queste strategie.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF e la scarsa attenzione al **progetto di vita** e alle **capacità orientative** per le opportunità future rappresentano le principali aree di debolezza. Anche la mancanza di obiettivi specifici per la riduzione dell'abbandono scolastico e il contrasto alla dispersione NEET costituisce un limite.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di esplicitare e strutturare maggiormente l'azione orientativa all'interno del PTOF. È necessario definire obiettivi più chiari e misurabili, con particolare attenzione alla prevenzione dell'abbandono scolastico e all'orientamento verso il mondo del lavoro o della formazione superiore. L'integrazione di attività specifiche per lo sviluppo del **progetto di vita** e delle **competenze trasversali** potrebbe colmare questo gap.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Pinerolo V - Cumiana presenta un quadro complessivamente positivo in termini di orientamento, grazie alla presenza di partnership significative, a un approccio didattico innovativo e al coinvolgimento dei genitori. Tuttavia, è necessario superare la mancanza di una sezione dedicata all'orientamento e definire obiettivi più specifici per affrontare le sfide legate all'abbandono scolastico e all'inserimento nel mondo del lavoro. Attività come gli **Incontri di sostegno alla genitorialità** e i **Questionari di soddisfazione genitori** dimostrano un impegno verso il miglioramento continuo, ma è fondamentale tradurre queste iniziative in un piano strategico più strutturato e orientato al futuro."
+}

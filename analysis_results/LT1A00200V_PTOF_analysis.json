@@ -1,0 +1,234 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LT1A00200V",
+    "denominazione": "Filippo Smaldone",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Formia",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Latina",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Appia Lato Napoli N.64",
+    "cap": "04023",
+    "email": "info@istitutogaussasti.it",
+    "pec": "ND",
+    "website": "https://www.nobilmetal.it/it-",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi su materiale didattico informatico (Mappe Mentali).",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD, scanner 3D, stampanti 3D.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LT1A00200V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Filippo Smaldone** di Formia, scuola dell'infanzia paritaria con codice **LT1A00200V**. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata, finalità ben definite e un sistema di azioni strutturato. L'istituto si concentra sullo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, preparandoli alle transizioni formative e fornendo loro le capacità orientative necessarie per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una presenza strutturata dell'argomento all'interno del documento.\n\n**2.2 Partnership:** L'istituto vanta un solido sistema di partnership, con un punteggio di 5. Tra i partner nominati figurano **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, **aziende accreditate** e altre **aziende di settore**. Sono state individuate 4 partnership attive.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo e ambizioso, con punteggi massimi (5) per lo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico (punteggio 5), sulla continuità territoriale (punteggio 4), sul contrasto alla dispersione scolastica e NEET (punteggio 5) e sulla promozione del lifelong learning (punteggio 5).\n\n**2.5 Azioni di Sistema:** Il coordinamento dei servizi (punteggio 6) e il sistema integrato di inclusione e fragilità (punteggio 6) rappresentano i punti di forza delle azioni di sistema. Il dialogo tra docenti e studenti (punteggio 4) e il rapporto scuola-genitori (punteggio 2) necessitano di maggiore attenzione. Il monitoraggio delle azioni (punteggio 3) è considerato sufficiente.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 5), sull'utilizzo di laboratori (punteggio 4), sull'interdisciplinarità (punteggio 5) e, in misura minore, sulla flessibilità degli spazi e dei tempi (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative include opzioni culturali (punteggio 3), laboratoriali ed espressive (punteggio 4), mentre quelle ludico-ricreative (punteggio 2), di volontariato (punteggio 3) e sportive (punteggio 2) ricevono valutazioni inferiori.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella chiarezza delle finalità, nella solidità delle partnership con il territorio e nel forte impegno verso l'inclusione e il sostegno agli studenti con fragilità. Le attività di **PCTO** e i laboratori pratici, come la **realizzazione di audiolibri** e il **laboratorio di simulazione professionale odontotecnica**, offrono opportunità concrete di orientamento e sviluppo di competenze. L'attenzione alla formazione dei docenti, con corsi su strumenti come le **mappe mentali**, contribuisce a migliorare la qualità dell'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area che necessita di maggiore attenzione è il rapporto scuola-genitori, che ha ottenuto un punteggio basso. Anche il monitoraggio delle azioni di orientamento potrebbe essere potenziato. L'offerta di opzionali ludico-ricreative e sportive appare meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, si evidenzia un potenziale gap nella traduzione delle finalità e degli obiettivi in azioni concrete e misurabili. Un monitoraggio più sistematico delle attività e una maggiore attenzione al coinvolgimento delle famiglie potrebbero colmare questa lacuna.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Filippo Smaldone** presenta un approccio all'orientamento ben strutturato e orientato al futuro. I punti di forza superano le aree di debolezza, e con un'attenzione mirata al miglioramento del rapporto scuola-genitori e al potenziamento del monitoraggio, l'istituto potrà raggiungere risultati ancora più significativi nell'orientamento dei propri studenti. Le attività come **PCTO presso Archivio di Stato di Asti e ISRAT**, le **simulazioni di interviste storiche** e le **esercitazioni di disegno tecnico** dimostrano un approccio didattico innovativo e orientato alla pratica."
+}

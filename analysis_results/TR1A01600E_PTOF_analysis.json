@@ -1,0 +1,210 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TR1A01600E",
+    "denominazione": "Scuola Dell'Infanzia Santa Lucia Filippini",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Castel Giorgio",
+    "anno_ptof": "2025-2028",
+    "provincia": "Terni",
+    "regione": "Umbria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza Giorgio Della Rovere 1",
+    "cap": "05013",
+    "email": "scuolasantaluciafilippini@gmail.com",
+    "pec": "m.piefilippini@pec.net.it",
+    "website": "www.karis.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Esplicita menzione del PTOF e della proposta educativa"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Fondazione Karis",
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie e comunità"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività di robotica e coding per sviluppare competenze tecnologiche.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti corretti sulla strada",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Promuovere interesse e piacere per la lettura",
+      "target": "Alunni scuole primarie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TR1A01600E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia Santa Lucia Filippini** (ID: TR1A01600E) per il triennio 2025-2028. La scuola, di tipo **Infanzia** e situata nel territorio non metropolitano del comune di **Castel Giorgio** (provincia di **Terni**, regione **Umbria**), è una realtà **paritaria**. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità educative, gli obiettivi, le azioni messe in campo, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un'attenzione esplicita all'orientamento e alla proposta educativa, con un punteggio massimo nella relativa sezione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'orientamento, come evidenziato dal punteggio massimo ottenuto.\n\n**2.2 Partnership:** La scuola ha sviluppato un network di **partnership** con diversi soggetti, tra cui **Fondazione Karis**, **Karis Foundation**, la **Scuola dell’infanzia**, la **Scuola secondaria di primo grado**, **Enti locali**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Questo approccio collaborativo, con un totale di 7 partner, rappresenta un punto di forza per l'arricchimento dell'offerta formativa e l'ampliamento delle opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF sono ben definite e orientate allo sviluppo delle attitudini, degli interessi e del **progetto di vita** degli studenti. Si riscontra un forte impegno nel favorire le capacità orientative e nell'individuazione delle opportunità formative, sebbene con punteggi leggermente inferiori rispetto alle prime tre finalità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, la continuità territoriale e, in misura minore, il contrasto alla dispersione scolastica (NEET) e la promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti e, in particolare, sul rapporto scuola-genitori. Il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità ricevono un'attenzione moderata.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'esperienza diretta degli studenti, sulla didattica laboratoriale e sull'interdisciplinarità. La flessibilità degli spazi e dei tempi, invece, sembra essere meno enfatizzata.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, di volontariato e sportive. Le attività ludiche e ricreative, invece, ricevono un'attenzione minore.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership** attivate, nella chiarezza delle finalità educative e nell'attenzione al rapporto **scuola-genitori**. L'offerta di attività diversificate, come il **Corso di teatro**, il **Campo estivo** e le **Adozioni a distanza**, contribuisce ad arricchire l'esperienza formativa degli studenti. Progetti come il **Progetto Clil**, i **Laboratori esperienziali di matematica** e il **Progetto di robotica e coding** dimostrano un impegno verso l'innovazione didattica.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente il monitoraggio delle azioni, la flessibilità degli spazi e dei tempi didattici e l'offerta di attività ludiche e ricreative. Gli obiettivi di contrasto alla dispersione scolastica (NEET) e di promozione del lifelong learning sembrano meno prioritari rispetto ad altri.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di coerenza interna, ma potrebbe essere ulteriormente rafforzato attraverso un maggiore focus sul monitoraggio e la valutazione delle azioni intraprese. Sarebbe opportuno, inoltre, ampliare l'offerta di attività ludiche e ricreative e definire strategie più efficaci per il contrasto alla dispersione scolastica e la promozione del lifelong learning.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della **Scuola Dell'Infanzia Santa Lucia Filippini** rappresenta un documento programmatico solido e ben strutturato, con una particolare attenzione all'orientamento e alla costruzione di un ambiente educativo stimolante e inclusivo. Le **partnership** attivate e l'offerta di attività diversificate costituiscono un valore aggiunto per la comunità scolastica. Pur presentando alcune aree di debolezza, il PTOF dimostra un chiaro impegno verso la crescita e lo sviluppo degli studenti, in linea con le finalità educative e gli obiettivi prefissati. Progetti come il **Gesto di Natale**, il **Progetto sicurezza stradale**, i **Progetti tecnologia e informatica** e il **Progetto lettura** testimoniano l'impegno della scuola verso una formazione a 360 gradi."
+}

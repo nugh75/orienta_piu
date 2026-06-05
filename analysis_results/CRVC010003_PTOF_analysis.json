@@ -1,0 +1,218 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CRVC010003",
+    "denominazione": "Pandino",
+    "tipo_scuola": "Convitto",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Pandino",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Cremona",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Castello 2",
+    "cap": "26025",
+    "email": "crvc010003@istruzione.it",
+    "pec": "cris00200e@pec.istruzione.it",
+    "website": "www.istmarcopolo.it",
+    "tipo_scuola_dettaglio": "Convitto Annesso"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente nell'indice"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Seconda anno"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Terza anno"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Quarta anno"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperto",
+      "target": "Quinta anno"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi e aggiornamenti per figure referenti",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CRVC010003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Liceo e Tecnico \"Pandino\" (CRVC010003) per il triennio 2019/20-2021/22. L'istituto, situato in Lombardia, provincia di Cremona, si configura come scuola statale di secondo grado. L'analisi evidenzia un'attenzione significativa all'orientamento, con una sezione dedicata presente nell'indice del PTOF e un punteggio complessivo elevato nelle diverse dimensioni considerate. Le finalità dell'orientamento sono ben definite, focalizzandosi sullo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità. L'istituto dimostra un impegno concreto nella riduzione dell'abbandono scolastico, nella continuità territoriale, nel contrasto alla dispersione NEET e nella promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Partnership:** Il PTOF evidenzia una solida rete di partnership, con la collaborazione di **Enti operanti nel terzo settore**, della **Croce Verde di Ospitaletto** e dell'**Associazione ABC**. Questa collaborazione si traduce in un punteggio di 3, indicando un livello di coinvolgimento esterno positivo.\n\n**2.2 Finalità:** Le finalità dell'orientamento sono considerate con un punteggio massimo (4) in tutte le aree: sviluppo di attitudini, interessi, costruzione del progetto di vita, supporto alle transizioni formative e potenziamento delle capacità orientative verso le opportunità.\n\n**2.3 Obiettivi:** Gli obiettivi prefissati, quali la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione NEET e la promozione del lifelong learning, ricevono un punteggio di 3, suggerendo un impegno costante in queste direttrici.\n\n**2.4 Azioni di Sistema:** Le azioni di sistema implementate, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità, ottengono un punteggio di 4, dimostrando un approccio olistico e ben strutturato.\n\n**2.5 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità, con un punteggio di 4. L'utilizzo della didattica laboratoriale, pur presente, risulta meno sviluppato (punteggio 2).\n\n**2.6 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è ampia e diversificata, comprendendo attività culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella chiarezza delle finalità e nella completezza delle azioni di sistema messe in atto per supportare l'orientamento. La presenza di una sezione dedicata all'orientamento e la solida rete di partnership rappresentano ulteriori elementi positivi. L'offerta di attività extracurriculari, come **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra** e **Viaggio d’istruzione**, arricchisce l'esperienza formativa degli studenti. L'impegno nella formazione dei docenti, con attività come **Formazione didattica inclusiva** e **Formazione utilizzo strumenti multimediali**, contribuisce a migliorare la qualità dell'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la didattica laboratoriale, che, pur presente, non raggiunge i punteggi più alti rispetto ad altre metodologie didattiche. Sebbene le partnership siano solide, un ulteriore sviluppo in questo ambito potrebbe ampliare le opportunità offerte agli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di potenziare la didattica laboratoriale, integrando maggiormente questa metodologia nelle attività di orientamento. Un'analisi più approfondita delle esigenze del territorio e delle richieste del mondo del lavoro potrebbe contribuire a definire percorsi di orientamento più mirati ed efficaci.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF CRVC010003 dimostra un'attenzione significativa all'orientamento, con una solida base teorica e un impegno concreto nella realizzazione di attività e progetti. L'istituto si distingue per la chiarezza delle finalità, la completezza delle azioni di sistema e la diversificazione dell'offerta formativa. Il potenziamento della didattica laboratoriale e un'ulteriore espansione delle partnership potrebbero contribuire a migliorare ulteriormente l'efficacia dell'orientamento e a garantire un futuro di successo per gli studenti. Attività come il **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Primo soccorso**, **Orientamento post-liceo**, **Open day**, **Stage orientativi** e **PCTO** dimostrano un approccio completo e integrato all'orientamento, che coinvolge studenti, docenti, genitori e territorio."
+}

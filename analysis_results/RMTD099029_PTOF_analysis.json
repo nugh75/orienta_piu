@@ -1,0 +1,260 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMTD099029",
+    "denominazione": "Via Gramsci S.N.C.",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Valmontone",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Antonio Gramsci Snc",
+    "cap": "00038",
+    "email": "rmis099002@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.iisviagramsci.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Commerciale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi/criticità DDI 2020/21 rispetto a 2019/20",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni (II anno scuola sec. I grado)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa e mediazione",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Insegnamento trasversale, 33 ore annuali, contitolarità docenti",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni che passano dalla scuola dell'infanzia alla primaria e alla secondaria"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2 e percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi e delle Ragazze.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni delle classi terze"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti di inclusione",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività promozione comunità educante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in attività di promozione della comunità educante",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti integrati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti integrati a livello di singola scuola con associazioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti territoriali integrati con privato sociale e volontariato",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMTD099029\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Tecnico \\\"Enzo Gigli\\\"** (RMTD099029) per il triennio 2019/20-2021/22. L'istituto, di tipo **Tecnico** e situato nel territorio **Metropolitano** di **Valmontone** (Roma, Lazio), dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. La scuola statale si distingue per una forte rete di **partnership** con enti locali, aziende e associazioni, e per un'attenzione particolare alle finalità di orientamento legate al **progetto di vita** e alle **transizioni formative** degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 2.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni, con ben 15 **partner nominati**, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, diversi **musei** e **istituti pubblici/privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, **Altre scuole**, **Altre associazioni o cooperative**, le **Autonomie locali** e l'**ASL**. Questa ricchezza di collaborazioni rappresenta un elemento cruciale per l'implementazione di attività di orientamento efficaci e integrate nel territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per l'attenzione alle **attitudini** (3), agli **interessi** (3), al **progetto di vita** (4) e alle **transizioni formative** (4). Anche la capacità di orientare gli studenti verso le **opportunità** (3) è considerata importante.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico (4) e di favorire la **continuità** con il territorio (4). L'obiettivo di **contrastare i NEET** (2) risulta meno prioritario, mentre l'impegno per il **lifelong learning** (3) è considerato rilevante.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate, con particolare attenzione al **coordinamento dei servizi** (4), al **rapporto scuola-genitori** (4) e al **sistema integrato di inclusione e fragilità** (4). Il **dialogo tra docenti e studenti** (3) e il **monitoraggio delle azioni** (3) sono anch'essi considerati importanti.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** (3), la **didattica laboratoriale** (3), la **flessibilità degli spazi e dei tempi** (3) e l'**interdisciplinarità** (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con proposte **culturali** (3), **laboratoriali ed espressive** (3), **ludiche e ricreative** (3), di **volontariato** (3) e **sportive** (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, la vasta rete di **partnership** con enti e associazioni del territorio, l'attenzione alle finalità di orientamento legate al **progetto di vita** e alle **transizioni formative**, e l'impegno per la riduzione dell'**abbandono** scolastico. L'ampia gamma di attività proposte, tra cui **visite guidate**, **incontri con professionisti**, **progetti congiunti** e **laboratori pomeridiani**, contribuisce a creare un ambiente scolastico stimolante e orientato al futuro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la scarsa priorità attribuita all'obiettivo di **contrastare i NEET**, che potrebbe richiedere un'attenzione maggiore da parte dell'istituto.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario monitorare costantemente l'efficacia delle azioni intraprese e valutare l'impatto delle **partnership** sulla reale inseribilità lavorativa degli studenti. Un'analisi più approfondita dei dati relativi all'**abbandono** scolastico e alla dispersione formativa potrebbe consentire di individuare ulteriori aree di intervento e di affinare le strategie di prevenzione.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Istituto Tecnico \\\"Enzo Gigli\\\"** dimostra un approccio proattivo e strutturato all'orientamento, con un'attenzione particolare alle esigenze degli studenti e alle dinamiche del territorio. La ricchezza di **partnership** e la varietà delle attività proposte rappresentano un valore aggiunto significativo. Pur riconoscendo alcune aree di miglioramento, si può concludere che l'istituto è ben posizionato per raggiungere gli obiettivi prefissati e per contribuire alla formazione di cittadini consapevoli e preparati alle sfide del futuro. Le attività registrate, come l'**Anagrafe Competenze Docenti e Personale ATA**, il **Monitoraggio Risultati Alunni**, la **Revisione Regolamento di Disciplina** e l'**Insegnamento di Educazione Civica**, supportano efficacemente l'implementazione del PTOF."
+}

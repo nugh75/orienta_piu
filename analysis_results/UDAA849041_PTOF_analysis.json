@@ -1,0 +1,278 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDAA849041",
+    "denominazione": "Codroipo",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Bertiolo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giorvanni Xxiii 2",
+    "cap": "33032",
+    "email": "udic849001@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.iccodroipo.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento; le attività sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli disciplinari in lingua inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage e Alternanza scuola/lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici, musicali, linguistici, teatrali, cinematografici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Learning by doing",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglie, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDAA849041\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Bertiolo**, scuola dell'infanzia situata nel territorio non metropolitano del Friuli-Venezia Giulia (provincia di Udine). L'analisi si basa sui dati forniti, evidenziando un approccio all'orientamento integrato nelle diverse aree del PTOF piuttosto che concentrato in una sezione specifica. L'istituto dimostra un'attenzione particolare alle **partnership** con numerosi enti e associazioni, e una solida base per lo sviluppo di competenze trasversali e la preparazione degli studenti alle transizioni formative e al **lifelong learning**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ma integra le attività in altre aree programmatiche.\n\n**2.2 Partnership:** L'istituto vanta un network di **14 partner**, tra cui **AGROBIOS**, **Museo Archeologico Nazionale della Siritide**, diverse **associazioni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e **ASL**. Questa ricca rete di collaborazioni rappresenta un punto di forza significativo per l'arricchimento dell'offerta formativa e l'ampliamento delle opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità offerte dal territorio. Tutte queste aree ricevono un punteggio elevato (4).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, la continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. Anche in questo caso, i punteggi ottenuti (3) indicano un impegno costante in queste direzioni.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte queste azioni, con un punteggio di 3, dimostrano un approccio olistico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'attenzione alla didattica esperienziale e flessibile rappresenta un elemento distintivo del PTOF.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include moduli **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**. L'offerta è diversificata, con particolare attenzione alle attività laboratoriali espressive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** con enti e associazioni del territorio, che consente di ampliare l'offerta formativa e offrire agli studenti opportunità di apprendimento pratico e di orientamento. L'integrazione delle attività di orientamento nelle diverse aree del PTOF, la chiarezza delle finalità e degli obiettivi, e l'attenzione alla didattica esperienziale e flessibile rappresentano ulteriori elementi positivi. Le attività registrate, come gli **Stage ASL**, le **Certificazioni linguistiche**, le **Microconferenze**, il **Service Learning (METEO)** e i **Gemellaggi**, testimoniano un impegno concreto nella realizzazione di un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF potrebbe rendere meno evidente l'importanza attribuita a questa area. Sebbene le attività siano integrate in altre aree, una sezione specifica potrebbe favorire una maggiore coerenza e sistematicità dell'azione orientativa. L'offerta di attività opzionali **ludiche ricreative** sembra meno sviluppata rispetto alle altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che potrebbe essere colmata attraverso la creazione di una sezione dedicata nel PTOF. È necessario rafforzare l'offerta di attività opzionali **ludiche ricreative** per garantire una maggiore diversificazione dell'offerta formativa.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Bertiolo** dimostra un impegno significativo nell'orientamento, pur non prevedendo una sezione dedicata. La ricca rete di **partnership**, la chiarezza delle finalità e degli obiettivi, e l'attenzione alla didattica esperienziale e flessibile rappresentano punti di forza importanti. Per migliorare ulteriormente l'azione orientativa, si suggerisce di valutare la creazione di una sezione specifica nel PTOF e di rafforzare l'offerta di attività opzionali **ludiche ricreative**. L'istituto si presenta come una realtà scolastica dinamica e attenta alle esigenze degli studenti, in grado di offrire un'offerta formativa completa e diversificata."
+}

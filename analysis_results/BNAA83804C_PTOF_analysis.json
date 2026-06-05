@@ -1,0 +1,575 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "BNAA83804C",
+    "denominazione": "Ic \"F.De Sanctis\" Moiano",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Forchia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Benevento",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Misciuni",
+    "cap": "82010",
+    "email": "bnic83800c@istruzione.it",
+    "pec": "capm02000c@pec.istruzione.it",
+    "website": "www.icmoiano.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Enti Locali",
+        "Comuni",
+        "ASL",
+        "Fondazione Teatro Lirico di Cagliari",
+        "FestivalScienze di Cagliari",
+        "Università di Cagliari",
+        "Strutture convenzionate",
+        "Institut St. Joseph di Ciney",
+        "Gymnasio di Epanomi",
+        "Istituto Irungo La Salle",
+        "Lycée “Casanova”",
+        "Lycée “La Hotoie”",
+        "Lycée “Pravaz”",
+        "Coca Cola HBC",
+        "Corepla",
+        "INAIL",
+        "Samsung",
+        "Salesiani San Giovanni Bosco",
+        "UNICA RADIO",
+        "Croce Rossa Italiana",
+        "associazioni del terzo settore",
+        "agenzie formative",
+        "Università",
+        "Altre scuole"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 7
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 7
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Camere Penali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto KINTSUGI",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Supporto e accompagnamento studenti fragili",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Progetto Ciascuno a suo modo",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Valorizzazione talenti, inclusione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Animatore digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione sull'uso tecnologie",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Transizione digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Aggiornamento competenze digitali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Si - STEM - @tica - MENTE",
+      "categoria_principale": "STEM e Multilinguismo",
+      "descrizione_e_metodologia": "Approccio trasversale STEM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Periodi di formazione in aula e apprendimento tramite esperienze di lavoro",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Sicurezza sui luoghi di lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorsi formativi",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorsi formativi",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorsi formativi",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Certificazione esterna competenze lingua straniera",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corsi preparazione esami, contributo tasse iscrizione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Gemellaggi e integrazione culturale",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali, soggiorni studio, progetti di ricerca",
+      "target": "Liceo Linguistico e Economico Sociale"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Beach tennis, pallavolo, atletica, nuoto, etc.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate e viaggi di istruzione",
+      "categoria_principale": "Arricchimento Culturale",
+      "descrizione_e_metodologia": "Visite a musei, città d'arte, siti storici",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Supporto psicologico, prevenzione disagio",
+      "target": "Studenti, genitori, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Diversamente insieme",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Riflessione su diversità, integrazione",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Eleonora's got talent",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Laboratorio di canto, esibizioni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Parole O_Stili",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Workshop su cyberbullismo, fake news",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Scrittura Creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Recupero e potenziamento scrittura",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Tecno-CLIL",
+      "categoria_principale": "CLIL",
+      "descrizione_e_metodologia": "Insegnamento discipline non linguistiche in inglese",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Scuola Gentile",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Promozione gentilezza, inclusione",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Settimana del benessere",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Educazione salute psico-fisica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giardino Arbòrea",
+      "categoria_principale": "Spazi Verdi",
+      "descrizione_e_metodologia": "Miglioramento funzionale giardino",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Realtà aumentata e virtuale",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Aula RA/VR, didattica immersiva",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti PON",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Utilizzo fondi europei",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Festival LEI",
+      "categoria_principale": "Cultura e Eventi",
+      "descrizione_e_metodologia": "Coinvolgimento staff organizzazione festival",
+      "target": "Classi Quinte"
+    },
+    {
+      "titolo_attivita": "Workshop scrittura giornalistica",
+      "categoria_principale": "Comunicazione e Media",
+      "descrizione_e_metodologia": "Scrittura interviste autori, video interviste",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Orientamento Università di Cagliari",
+      "categoria_principale": "Orientamento Universitario",
+      "descrizione_e_metodologia": "Corsi di 15 ore, priorità classi quinte",
+      "target": "Classi Quinte"
+    },
+    {
+      "titolo_attivita": "Ufficio Anagrafe Comune di Cagliari",
+      "categoria_principale": "Amministrazione Pubblica",
+      "descrizione_e_metodologia": "Affiancamento impiegato, trattamento pratiche",
+      "target": "Classi Quinte"
+    },
+    {
+      "titolo_attivita": "Museo della Shoah",
+      "categoria_principale": "Storia e Memoria",
+      "descrizione_e_metodologia": "Visite guidate, produzione documentari",
+      "target": "Tutti i trienni"
+    },
+    {
+      "titolo_attivita": "Raccolta Farmaci",
+      "categoria_principale": "Solidarietà e Volontariato",
+      "descrizione_e_metodologia": "Raccolta farmaci presso farmacie",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Certificazione Informatica EIPASS",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso e esame per certificazione",
+      "target": "Tutti i trienni"
+    },
+    {
+      "titolo_attivita": "Exmè Monserrato",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Distribuzione aiuti alimentari",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Oasi del Cervo",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Contenuti multimediali, cura sentieri",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Corso Arbitri Calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso e affiancamento",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Corso Arbitri Pallavolo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso e affiancamento",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Educazione ambientale e pulizia spiagge",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Formazione in aula e pulizia spiagge",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Stage Grimaldi Lines",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Stage a bordo di una crociera",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Chatterbox",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Affiancamento insegnanti scuole bilingue",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Campionati Scherma",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Gestione varchi, accoglienza delegazioni",
+      "target": "Istituto"
+    },
+    {
+      "titolo_attivita": "Young European Multiplier",
+      "categoria_principale": "Cittadinanza Europea",
+      "descrizione_e_metodologia": "Webinar e attività informative",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Eleonora's got talent",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Laboratorio di canto, esibizioni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Parole O_Stili",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Workshop su cyberbullismo, fake news",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Scrittura Creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Recupero e potenziamento scrittura",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Tecno-CLIL",
+      "categoria_principale": "CLIL",
+      "descrizione_e_metodologia": "Insegnamento discipline non linguistiche in inglese",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Scuola Gentile",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Promozione gentilezza, inclusione",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Settimana del benessere",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Educazione salute psico-fisica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giardino Arbòrea",
+      "categoria_principale": "Spazi Verdi",
+      "descrizione_e_metodologia": "Miglioramento funzionale giardino",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Realtà aumentata e virtuale",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Aula RA/VR, didattica immersiva",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti RECUPERIAMO, AIUTIAMOCI, DIGITIAMO!",
+      "categoria_principale": "Sostegno e inclusione",
+      "descrizione_e_metodologia": "Supporto a studenti con difficoltà, inclusione, competenze digitali.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi individuali di mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi individualizzati per studenti fragili",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Piccoli gruppi per competenze di base",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento per le famiglie",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri e supporto per le famiglie",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Mobilità studentesca",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorno di 2 settimane all'estero",
+      "target": "Studenti Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Piano Scuola 4.0 - Azione 1",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Implementazione attrezzature digitali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Piano Scuola 4.0 - Azione 2",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Laboratori per professioni digitali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Iniziative formative in tema di educazione alla legalità",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Incontri con avvocati, simulazione processo, visione filmati",
+      "target": "Classi terze e quarte indirizzo economico-sociale"
+    },
+    {
+      "titolo_attivita": "Si - STEM - @tica - MENTE",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Percorsi didattici, formativi e di orientamento STEM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Invece Di Giudicare",
+      "categoria_principale": "Gestione Conflitti",
+      "descrizione_e_metodologia": "Sensibilizzazione, coinvolgimento, valorizzazione partecipazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "BULLI? NO, GRAZIE!",
+      "categoria_principale": "Prevenzione Bullismo",
+      "descrizione_e_metodologia": "Sportello d'ascolto, attività didattica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "E allora… Cibo!",
+      "categoria_principale": "Salute e benessere",
+      "descrizione_e_metodologia": "Auto-esplorazione, progettazione creativa, condivisione",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Dipende - Da - Te.",
+      "categoria_principale": "Salute Mentale",
+      "descrizione_e_metodologia": "Prevenzione, informazione, supporto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gestione didattica e tecnica degli ambienti di apprendimento innovativi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, comunità di pratiche, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, formazione di scuola/rete",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Didattica digitale integrata",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, comunità di pratiche",
+      "target": "Tutto il personale"
+    },
+    {
+      "titolo_attivita": "Corsi annuali di formazione linguistica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi annuali per certificazione B2/C1 inglese",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Assistenti Amministrativi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, online, formazione di scuola/rete",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Progetto per l’utilizzo delle tecnologie informatiche",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Utilizzo tecnologie per alunni diversamente abili",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Predisposizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI in collaborazione con famiglie e specialisti",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Predisposizione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PDP per alunni DSA e BES",
+      "target": "Alunni con DSA e BES"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento della comunità scolastica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Favorire la partecipazione di alunni, famiglie e attori del territorio per una cultura digitale condivisa.",
+      "target": "Alunni, famiglie, territorio"
+    },
+    {
+      "titolo_attivita": "Animatore Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Coordinare l'innovazione tecnologica a scuola, stimolando attività formative e progettuali.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BNAA83804C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia \"Forchia \\\"Capoluogo\\\"\", identificata dal codice BNAA83804C. L'istituto, situato nel territorio non metropolitano di Forchia, in provincia di Benevento e regione Campania, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. Il PTOF evidenzia una solida rete di **partnership** con diversi enti, tra cui **Enti Locali**, **Comuni**, **ASL**, università e numerose scuole europee, oltre a collaborazioni con aziende come **Coca Cola HBC** e **Samsung**. Le finalità dell'orientamento sono orientate allo sviluppo di **attitudini**, **interessi**, **progetto di vita**, facilitando le **transizioni formative** e fornendo agli studenti le **capacità orientative** per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\nLa scuola attribuisce grande importanza alla riduzione dell'**abbandono scolastico** e alla continuità territoriale, con punteggi elevati in queste aree. L'impegno verso il contrasto alla dispersione scolastica e la promozione del **lifelong learning** sono presenti, sebbene con punteggi leggermente inferiori. Il sistema di orientamento si basa su un forte **coordinamento dei servizi**, un dialogo aperto tra **docenti** e **studenti**, e un solido rapporto con le **famiglie**. L'attenzione all'**inclusione** e alla fragilità è un elemento distintivo. La didattica orientativa si caratterizza per l'utilizzo di esperienze dirette degli studenti, approcci **laboratoriali**, flessibilità degli spazi e dei tempi, e l'**interdisciplinarità**. L'offerta di **opzionali** copre diverse aree, tra cui cultura, laboratori espressivi, attività ludiche, **volontariato** e sport.\n\n### 3. Punti di Forza\n\nUn punto di forza significativo è la vasta gamma di **attività** proposte, che spaziano da visite guidate come il **Progetto Camere Penali** a interventi mirati per studenti a rischio come il **Progetto KINTSUGI** e **Progetto Ciascuno a suo modo**. La formazione dei **docenti** sull'uso delle tecnologie, con iniziative come **Animatore digitale** e **Transizione digitale**, è un altro elemento positivo. L'approccio **STEM** con il progetto **Si - STEM - @tica - MENTE** e l'attenzione all'orientamento universitario con il **PCTO** e **Orientamento Università di Cagliari** dimostrano una visione proattiva. L'impegno per il benessere degli studenti, con lo **Sportello di ascolto** e iniziative come **Diversamente insieme**, contribuisce a creare un ambiente scolastico positivo e inclusivo.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero beneficiare di un ulteriore approfondimento. I punteggi relativi alle finalità dell'orientamento (attitudini, interessi, progetto di vita, transizioni formative, capacità orientative) si attestano a 5, suggerendo la necessità di definire obiettivi più specifici e misurabili in queste aree. Analogamente, i punteggi relativi alla didattica orientativa e alle opzionali indicano un margine di miglioramento nella diversificazione delle metodologie e nell'ampliamento dell'offerta formativa.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità generali dell'orientamento in azioni concrete e verificabili. Sebbene la scuola dimostri un impegno significativo verso l'orientamento, è necessario definire indicatori di performance chiari per monitorare l'efficacia delle iniziative intraprese. Inoltre, sarebbe opportuno rafforzare la collaborazione con il territorio, coinvolgendo attivamente le **associazioni del terzo settore** e le **agenzie formative** nella progettazione e realizzazione delle attività di orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola \"Forchia \\\"Capoluogo\\\"\" presenta un approccio solido e articolato all'orientamento. La vasta rete di **partnership**, l'impegno per l'**inclusione** e la diversificazione delle **attività** rappresentano punti di forza significativi. Tuttavia, è necessario definire obiettivi più specifici e misurabili, rafforzare la collaborazione con il territorio e monitorare l'efficacia delle iniziative intraprese per garantire un servizio di orientamento sempre più efficace e rispondente alle esigenze degli studenti. L'istituto dimostra una chiara volontà di investire nel futuro dei propri alunni, offrendo loro strumenti e opportunità per affrontare con successo le sfide del mondo del lavoro e della vita."
+}

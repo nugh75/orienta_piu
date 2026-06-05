@@ -1,0 +1,203 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RE1A107004",
+    "denominazione": "Scuola Comunale Dell'Infanzia",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Campegine",
+    "anno_ptof": "2019/2020,2020/2021,2022/2023,2023/2024,2024/2025",
+    "provincia": "Reggio Emilia",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via A. Moro 20",
+    "cap": "42040",
+    "email": "biblioteca@comune.campegine.re.it",
+    "pec": "istitutisantamaria@legalmail.it",
+    "website": "ND",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Esplicita attenzione all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Imprese",
+        "Professionisti",
+        "Ordini",
+        "Associazioni",
+        "Enti del terzo settore",
+        "Università"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni con BES",
+      "target": "Alunni BES, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica metacognitiva",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Imparare ad imparare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro concordato tra docenti, verifica comune, emulazione, competizione.",
+      "target": "Studenti classi aperte"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Strumento quotidiano con potenziale comunicativo superiore.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica laboratoriale, personalizzazione, flessibilità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti esterni del polo CAMPUS di Portici tramite piattaforma MEET",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "UDA con valenza orientante",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi multidisciplinari su temi trasversali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RE1A107004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Comunale Dell'Infanzia** di Campegine (RE), identificata con il codice RE1A107004, con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre gli anni scolastici 2019/2020, 2020/2021, 2022/2023, 2023/2024 e 2024/2025. L'istituto, di tipo **paritario** e situato in un contesto **non metropolitano** dell'area geografica **Nord Est**, dimostra un'esplicita attenzione all'**inclusione**, come evidenziato dai punteggi ottenuti nelle diverse aree di valutazione. La scuola si impegna a costruire una rete di **partnership** con **imprese**, **professionisti**, **ordini**, **associazioni**, **enti del terzo settore** e **università**, coinvolgendo attivamente 5 partner diversi.\n\n### 2. Analisi Dimensionale\n\n**2.1 Finalità**\n\nLe finalità del PTOF in ambito orientativo sono considerate molto elevate, con punteggi massimi (6) per lo sviluppo di **attitudini**, **interessi** e per la progettazione del **progetto di vita** degli studenti. Buona anche la valutazione (6) per lo sviluppo delle **capacità orientative** e delle opportunità. Il punteggio per le **transizioni formative** è leggermente inferiore (4), suggerendo un'area di potenziale miglioramento.\n\n**2.2 Obiettivi**\n\nLa scuola si pone l'obiettivo di **ridurre l'abbandono** scolastico con un punteggio di 5, mentre la **continuità territoriale** e il contrasto alla dispersione scolastica (fenomeno **NEET**) ricevono un punteggio di 4 e 3 rispettivamente. L'impegno per il **lifelong learning** è particolarmente forte, con un punteggio di 6.\n\n**2.3 Azioni di Sistema**\n\nLe azioni di sistema per l'orientamento includono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (5), il **rapporto scuola-genitori** (5), il **monitoraggio delle azioni** (3) e un **sistema integrato di inclusione e fragilità** (4).\n\n**2.4 Didattica Orientativa**\n\nLa didattica orientativa si basa sull'apprendimento **da esperienza** degli studenti (6), sull'utilizzo di metodologie **laboratoriali** (6), sull'**interdisciplinarità** (5) e sulla flessibilità degli spazi e dei tempi (4).\n\n**2.5 Offerta Formativa Opzionale**\n\nL'offerta formativa opzionale comprende attività **culturali** (4), **laboratoriali ed espressive** (4), **volontariato** (4), mentre quelle **ludiche-ricreative** e **sportive** ricevono un punteggio inferiore (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella forte attenzione alle finalità orientative, nello sviluppo delle attitudini e degli interessi degli studenti, e nell'impegno per il lifelong learning. La didattica laboratoriale e l'apprendimento da esperienza rappresentano un valore aggiunto significativo. L'istituto dimostra una buona capacità di costruire partnership con diversi attori del territorio. Le attività registrate, come **Progetto accoglienza classi prime** e lo **Sportello BES**, evidenziano un impegno concreto verso l'inclusione e l'orientamento.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la transizione formativa, il contrasto al fenomeno NEET e il monitoraggio delle azioni intraprese. L'offerta formativa opzionale, in particolare le attività ludico-ricreative e sportive, potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a facilitare le transizioni formative degli studenti e a contrastare la dispersione scolastica. Un monitoraggio più efficace delle azioni intraprese permetterebbe di valutare l'impatto delle iniziative e di apportare eventuali correzioni. L'ampliamento dell'offerta formativa opzionale potrebbe contribuire a soddisfare una gamma più ampia di interessi e bisogni degli studenti. Attività come il **PCTO - Modulo Orientamento**, il **PCTO** e il **Job Placement** sono importanti, ma necessitano di un'integrazione più sistematica nel PTOF.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Comunale Dell'Infanzia di Campegine presenta un quadro generale positivo, con un forte orientamento verso l'inclusione, lo sviluppo delle competenze e il lifelong learning. Pur evidenziando alcune aree di debolezza, l'istituto dimostra un impegno costante per migliorare la qualità dell'offerta formativa e per rispondere alle esigenze del territorio. L'implementazione di azioni mirate per colmare i gap individuati permetterà di consolidare i punti di forza e di raggiungere obiettivi ancora più ambiziosi. L'utilizzo della **LIM** e delle **Unità di Apprendimento** sono strumenti validi per una didattica innovativa e personalizzata."
+}

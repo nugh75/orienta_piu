@@ -1,0 +1,338 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMAA8AL039",
+    "denominazione": "Istituto Comprensivo - Vicovaro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Mandela",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Q. Orazio Flacco 4 / B",
+    "cap": "00020",
+    "email": "rmic8al00a@istruzione.it",
+    "pec": "rmis092007@pec.istruzione.it",
+    "website": "icsvicovaro.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Istituto Superiore Sordi Roma (ISSR)",
+        "Mediavisuale",
+        "CNR",
+        "CABSS Onlus",
+        "Gruppo SILIS",
+        "Coop. Il Treno",
+        "Ass. Bellocchio",
+        "SILIS",
+        "istituzioni locali",
+        "privato sociale",
+        "INVALSI",
+        "Enti di grafica",
+        "Istituto di Vulcanologia INGV",
+        "LiMiX s.r.l.",
+        "UNICREDIT",
+        "associazioni di genitori",
+        "docenti",
+        "A.S.D. WIBE",
+        "MIBACT",
+        "CNCB-Bulli Stop",
+        "Feduf"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 2
+      },
+      "finalita_interessi": {
+        "score": 2
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di accoglienza e integrazione studenti stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per favorire lo scambio interculturale e l'integrazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso aziende del territorio.",
+      "target": "Studenti IPSIA"
+    },
+    {
+      "titolo_attivita": "Laboratorio espressivo socio-affettivo",
+      "categoria_principale": "Sostegno emotivo",
+      "descrizione_e_metodologia": "Utilizzo di disegno, musica, corpo, drammatizzazione per esprimere emozioni e sviluppare autostima.",
+      "target": "Bambini e adolescenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di consolidamento e riallineamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Percorsi in orario curricolare ed extracurricolare per potenziare competenze linguistiche e logico-matematiche.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Corsi di strategie didattiche per l'insegnamento agli alunni sordi",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Lezioni sulle strategie didattiche per predisporre materiali specifici.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi LIS per alunni sordi e udenti",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi base LIS per docenti, alunni sordi e udenti.",
+      "target": "Studenti, Docenti, ATA, Genitori"
+    },
+    {
+      "titolo_attivita": "Never Stop Learning",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Percorso didattico personalizzato per superare difficoltà.",
+      "target": "Studenti, Docenti, ATA, Consulenti esterni"
+    },
+    {
+      "titolo_attivita": "Perfectly Imperfect",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Laboratori interculturali per alunni stranieri.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lab33",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Realizzazione gadget promozionali con serigrafia e stampante 3D.",
+      "target": "Triennio PIA"
+    },
+    {
+      "titolo_attivita": "Terremotiamoci",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Studio dei terremoti con l'INGV, analisi dati sismici.",
+      "target": "Triennio Liceo Scientifico - Scienze Applicate"
+    },
+    {
+      "titolo_attivita": "Talking Hands",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Sperimentazione strumento elettronico che traduce LIS in voce.",
+      "target": "Triennio MAT"
+    },
+    {
+      "titolo_attivita": "Start Up You Life",
+      "categoria_principale": "Educazione Finanziaria",
+      "descrizione_e_metodologia": "Piattaforma online con seminari su educazione finanziaria.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Primi Passi In Azienda",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite aziendali, incontri con esperti e ex alunni.",
+      "target": "Classi III e IV settore Manutenzione"
+    },
+    {
+      "titolo_attivita": "Laboratorio “Abilita’ Di Studio “",
+      "categoria_principale": "Supporto allo studio",
+      "descrizione_e_metodologia": "Laboratori pomeridiani per imparare a studiare autonomamente. Lavoro individuale e di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio “Open Mind:L’Approccio Creativo",
+      "categoria_principale": "Problem Solving",
+      "descrizione_e_metodologia": "Laboratorio di problem posing e problem solving per scienze della vita.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio : L'Arte Della Comunicazione",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Aumentare le abilità di relazione e prevenire problematiche.",
+      "target": "Docenti, Consulenti esterni, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio Rainbow",
+      "categoria_principale": "Inclusione e Benessere",
+      "descrizione_e_metodologia": "Contrasto discriminazioni LGBT e miglioramento integrazione.",
+      "target": "Secondaria di Secondo Grado"
+    },
+    {
+      "titolo_attivita": "Dallo Scontro All’Incontro",
+      "categoria_principale": "Competenze Sociali",
+      "descrizione_e_metodologia": "Promozione mediazione e gestione conflitti.",
+      "target": "Secondaria di Secondo Grado"
+    },
+    {
+      "titolo_attivita": "La Divina Commedia A Fumetti",
+      "categoria_principale": "Arte e Letteratura",
+      "descrizione_e_metodologia": "Realizzazione tavole a fumetti ispirate alla Divina Commedia.",
+      "target": "Secondaria di Secondo Grado"
+    },
+    {
+      "titolo_attivita": "Cinema E Società",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Analisi critica di tematiche contemporanee attraverso il cinema.",
+      "target": "Secondaria di Secondo Grado"
+    },
+    {
+      "titolo_attivita": "Never Stop Learning",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Percorso didattico personalizzato per superare difficoltà.",
+      "target": "Studenti, Docenti, ATA, Consulenti esterni"
+    },
+    {
+      "titolo_attivita": "Un Quotidiano Per Amico",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Attività alternativa alla Religione Cattolica per acquisire abilità linguistiche e giudizio critico.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Educazione All'Affettività E Sessualita'",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Sviluppo identità personale, valorizzazione differenze, ascolto reciproco.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Legalita'",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Conoscere regole, diritti, valori della democrazia.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Multiculturalità, Multietniticità",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Valorizzazione differenze, educazione interculturale.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Bilinguismo",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Comunicazione bilingue, superare barriere comunicative.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio Creativo E Mercatino Di Natale",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Manipolazione, invenzione, riciclo creativo.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Testimonianze Silenziose",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Riflettere sui pregiudizi e intolleranze.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Orti, Piante E Fiori",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Conoscenza dei cicli biologici e tutela dei prodotti della terra.",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Transizione",
+      "descrizione_e_metodologia": "Continuità educativa tra Infanzia, Primaria e Secondaria di Primo Grado.",
+      "target": "Infanzia - Primaria - Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Stampa 3D",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Realizzazione manufatti in stampa 3D FDM",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Tablet",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo tablet per didattica innovativa",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio crossmediale",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Esplorazione metodologie trasferimento notizie",
+      "target": "Giovani e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMAA8AL039\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia **Mandela**, identificata dal codice **RMAA8AL039**. L'istituto, statale e situato nel territorio metropolitano di Roma, ha dimostrato un impegno significativo nell'integrazione dell'orientamento nel suo piano strategico, come evidenziato dalla presenza di una sezione dedicata con un punteggio massimo di 5. L'analisi si concentra sulle diverse dimensioni dell'orientamento, identificando punti di forza, aree di debolezza e possibili gap da colmare per ottimizzare l'efficacia delle azioni intraprese. Il PTOF 2019/20-2021/22 mostra un'attenzione particolare alla progettazione di percorsi formativi che favoriscano la transizione degli studenti e lo sviluppo delle loro capacità orientative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, indicando una chiara volontà di strutturare e pianificare le attività in questo ambito.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di partnership, ben 19, che includono istituzioni come l'**Istituto Superiore Sordi Roma (ISSR)**, **Mediavisuale**, il **CNR**, **CABSS Onlus**, il **Gruppo SILIS**, **Coop. Il Treno**, **Ass. Bellocchio**, **SILIS**, **istituzioni locali**, **privato sociale**, **INVALSI**, **Enti di grafica**, l'**Istituto di Vulcanologia INGV**, **LiMiX s.r.l.**, **UNICREDIT**, le **associazioni di genitori**, i **docenti**, l'**A.S.D. WIBE**, il **MIBACT**, il **CNCB-Bulli Stop** e **Feduf**. Queste collaborazioni offrono opportunità significative per arricchire l'offerta formativa e connettere gli studenti con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano ben definite, con un punteggio elevato per il **progetto di vita** degli studenti. Le finalità relative ad **attitudini** e **interessi** ricevono un punteggio inferiore, suggerendo un'area di potenziale miglioramento. Buona l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità territoriale, sul contrasto al fenomeno dei **NEET** e sul sostegno al **lifelong learning**. Tuttavia, i punteggi ottenuti per ciascun obiettivo sono moderati, indicando la necessità di definire strategie più efficaci per raggiungere risultati concreti.\n\n**2.5 Azioni di Sistema:** L'azione di **coordinamento dei servizi** e l'implementazione di un **sistema integrato di inclusione e fragilità** ricevono un punteggio elevato, dimostrando un forte impegno della scuola nel garantire un supporto completo agli studenti. Meno sviluppate sembrano le azioni di **dialogo tra docenti e studenti** e il **rapporto scuola-genitori**, aree che potrebbero beneficiare di un maggiore investimento. Il **monitoraggio delle azioni** è considerato adeguato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Questi elementi contribuiscono a creare un ambiente di apprendimento stimolante e coinvolgente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Le attività **laboratoriali ed espressive** e quelle di **volontariato** sembrano essere le più sviluppate, mentre le altre aree potrebbero beneficiare di un maggiore ampliamento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, l'ampio numero di partnership attivate, l'attenzione al progetto di vita degli studenti e l'implementazione di un sistema integrato di inclusione e fragilità. Le attività registrate, come i progetti di accoglienza e integrazione degli studenti stranieri, i percorsi di consolidamento e riallineamento, i corsi di formazione per i docenti e i laboratori espressivi socio-affettivi, testimoniano un impegno concreto nel promuovere il benessere e lo sviluppo degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la definizione di obiettivi misurabili, lo sviluppo delle finalità legate ad attitudini e interessi degli studenti, il potenziamento del dialogo tra docenti e studenti e il coinvolgimento delle famiglie. Inoltre, l'offerta di attività opzionali e facoltative potrebbe essere ampliata per rispondere meglio alle diverse esigenze e interessi degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi del PTOF in azioni concrete e misurabili. È importante definire indicatori di performance chiari e monitorare regolarmente i progressi compiuti per valutare l'efficacia delle strategie implementate. Inoltre, è necessario rafforzare la collaborazione tra scuola, famiglie e territorio per creare un sistema di orientamento integrato e coerente.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Mandela** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, l'ampio numero di partnership e l'attenzione al progetto di vita degli studenti sono elementi di forza che contribuiscono a creare un ambiente di apprendimento stimolante e inclusivo. Tuttavia, è necessario colmare le aree di debolezza identificate e definire obiettivi misurabili per garantire l'efficacia delle azioni intraprese e massimizzare l'impatto dell'orientamento sullo sviluppo degli studenti. Attività come **Terremotiamoci**, **Talking Hands** e **Start Up You Life** dimostrano una volontà di innovazione e di apertura verso tematiche attuali e rilevanti per il futuro degli studenti."
+}

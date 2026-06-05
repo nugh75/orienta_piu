@@ -1,0 +1,341 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TO1A116008",
+    "denominazione": "Margherita Mirafiori",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2025/2028",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Str. Castello Di Mirafiori 46",
+    "cap": "10135",
+    "email": "margheritamirafiori@virgilio.it",
+    "pec": "scuolamargherita@pec.inforisorse.it",
+    "website": "www.scuolamargherita.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti attività di orientamento come il Progetto Orientamento, il Progetto Continuità, Boscolandia e attività di accoglienza, manca una sezione strutturata e dedicata specificamente all'orientamento all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Scuole Medie",
+        "Scuole Paritarie Cattoliche",
+        "Professionisti",
+        "Enti territoriali",
+        "IUSTO",
+        "Università Cattolica"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Attività pomeridiana opzionale con approccio sperimentale integrato nel curricolo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Pubblicazione online con maggiore partecipazione degli allievi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Potenziamento della partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Miglioramento della proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Incremento delle attività relative al senso critico ed estetico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Presentazione scuola",
+      "descrizione_e_metodologia": "Allievi presentano la scuola e attività",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Laboratorio teatrale con allestimento spettacolo",
+      "target": "Allievi classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Corretto utilizzo strumenti studio e nuove tecnologie",
+      "target": "Allievi classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio metodo di studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Laboratorio obbligatorio per classi prime, orario pomeridiano, Trimestre",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Studio pomeridiano assistito",
+      "categoria_principale": "Supporto allo studio",
+      "descrizione_e_metodologia": "Presenza insegnanti ed educatrici, locali dedicati",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori di recupero e approfondimento",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Feedback, verifiche, cooperative learning, didattica laboratoriale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico, reading, listening, dialoghi, role playing",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura partecipata, analisi romanzo 'Mio fratello rincorre i dinosauri'",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Realizzazione esperimenti chimica, fisica, biologia",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Role playing, letture, esercizi",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Cucina",
+      "descrizione_e_metodologia": "Corso di cucina, preparazione ricette",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Delf",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso francese, preparazione certificazione QCER livello A1",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione e pittura manufatti in creta",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canto corale, repertorio liturgia giovanile",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport (ragazze/ragazzi)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Imparare, impegnarsi, divertirsi con lo sport",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato di illustrazione",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a maglia con i ferri",
+      "categoria_principale": "Artigianato",
+      "descrizione_e_metodologia": "Realizzazione prodotti a maglia",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo scheda Arduino",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi/tecnologici",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Aperti a tutti gli alunni, inclusi quelli con BES",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Boscolandia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività di Accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di apprendimento uso PC",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Software per mappe concettuali, schemi, programmazione",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classi seconde"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5).",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio di latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni di terza media individuati dai docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TO1A116008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia **Margherita Mirafiori** (TO1A116008) per il triennio 2025/2028. La scuola, paritaria, situata nel comune di Torino, presenta un impegno generale verso l'orientamento, evidenziato da diverse attività come il **Progetto Orientamento**, il **Progetto Continuità**, **Boscolandia** e le attività di accoglienza. Tuttavia, manca una sezione strutturata e specificamente dedicata all'orientamento all'interno del PTOF, nonostante la presenza di finalità orientative ben definite e azioni sistemiche atte a supportare i processi di transizione e sviluppo degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi rivela una mancanza di una sezione dedicata all'orientamento nel PTOF, ottenendo un punteggio di 3. Questo suggerisce la necessità di strutturare in modo più esplicito le strategie e gli obiettivi relativi all'orientamento.\n\n**2.2 Partnership:** La scuola dimostra una buona apertura alla collaborazione esterna, con partnership consolidate con **Scuole Medie**, **Scuole Paritarie Cattoliche**, **Professionisti**, **Enti territoriali**, **IUSTO** e **Università Cattolica**. Il punteggio di 3 e la presenza di 3 partner nominati indicano un potenziale di sviluppo ulteriore in questo ambito.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e raggiungono punteggi elevati in termini di sviluppo di attitudini, interessi e progetto di vita (punteggio 6 per ciascuna). L'attenzione alle finalità relative alle transizioni formative e allo sviluppo delle capacità orientative per cogliere le opportunità risulta leggermente inferiore (punteggio 3 e 5 rispettivamente).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in relazione all'orientamento si concentrano sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (NEET) e la promozione del lifelong learning. I punteggi ottenuti (4, 4, 3 e 5 rispettivamente) suggeriscono un buon allineamento con le priorità del contesto territoriale.\n\n**2.5 Azioni Sistema:** Le azioni sistemiche a supporto dell'orientamento sono considerate efficaci, con punteggi elevati per il coordinamento dei servizi (6), il dialogo tra docenti e studenti (5), il rapporto scuola-genitori (7) e il monitoraggio delle azioni (6). Particolarmente apprezzata è l'azione relativa al sistema integrato di inclusione e fragilità (7).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza degli studenti (5), la didattica laboratoriale (5), la flessibilità degli spazi e dei tempi (5) e l'interdisciplinarità (6).\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali (4), laboratoriali ed espressive (6), ludiche e ricreative (4), di volontariato (3) e sportive (4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'efficacia delle azioni sistemiche, nella varietà delle attività opzionali e nella collaborazione con partner esterni. L'impegno verso l'inclusione e il supporto agli studenti con bisogni educativi speciali è particolarmente degno di nota. Le attività registrate, come il **Laboratorio scientifico**, il **Giornalino d'istituto** e il **Piano delle Arti**, contribuiscono a sviluppare competenze sociali, civiche e artistiche negli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo rende meno esplicite le strategie e gli obiettivi specifici in questo ambito. Anche la finalizzazione delle attività di orientamento come il **Progetto Orientamento**, **Progetto Continuità**, **Boscolandia** e le **Attività di Accoglienza** risulta poco definita.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare un'offerta formativa orientativa più coerente e integrata nel PTOF. È necessario definire obiettivi specifici, azioni concrete e indicatori di monitoraggio per valutare l'efficacia delle iniziative intraprese. Un'ulteriore area di miglioramento riguarda la valorizzazione delle partnership con il mondo del lavoro e del territorio.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Margherita Mirafiori** dimostra un impegno significativo verso l'orientamento, ma necessita di una maggiore strutturazione e integrazione di questa dimensione all'interno del piano strategico. La creazione di una sezione dedicata all'orientamento, la definizione di obiettivi specifici e la valorizzazione delle partnership potrebbero contribuire a rafforzare l'efficacia delle iniziative intraprese e a garantire un futuro migliore per gli studenti. L'offerta di attività diversificate, come i laboratori di **informatica**, **arte**, **sport** e le iniziative di **inclusione**, rappresenta un valore aggiunto per la comunità scolastica."
+}

@@ -1,0 +1,261 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VERH04050V",
+    "denominazione": "Andrea Barbarigo",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Venezia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Castello 6395/C",
+    "cap": "30122",
+    "email": "verh04000d@istruzione.it",
+    "pec": "ND",
+    "website": "www.barbarigo.it",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Alberghieri E Ristorazione"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sebbene il documento affronti tematiche legate all'orientamento, manca una sezione specificamente dedicata e riconoscibile come tale. L'analisi si basa sull'interpretazione di elementi dispersi nel testo."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione ITS Energia",
+        "Accademie",
+        "Università",
+        "enti del territorio",
+        "scuola partner inglese",
+        "istituti di istruzione superiore francese",
+        "scuole di Alta Formazione Artistica",
+        "Aziende",
+        "Rete Pinerolese per l'Orientamento",
+        "Rete DSA scuole del Pinerolese",
+        "CPIA 5 di Rivoli",
+        "ASL",
+        "Centri privati",
+        "UNITO",
+        "CISS",
+        "Città Metropolitana"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Moduli condivisi di Disc. progettuali arch. e ambiente, di Disc pittoriche, di Disc. plastiche e scultoree e di Comunicazione multimediale.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Intese con Accademie, Università, enti del territorio.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Scuola d'estate",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Peer education: studenti con risultati migliori accompagnano studenti in difficoltà.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione Cambridge English B1 PRELIMINARY e B2 FIRST",
+      "categoria_principale": "Certificazioni Linguistiche",
+      "descrizione_e_metodologia": "Corsi extra-curricolari di 20/40 ore tenuti da esperti madrelingua.",
+      "target": "Studenti classi seconde, terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Corso preparazione Cambridge English C1 ADVANCED",
+      "categoria_principale": "Certificazioni Linguistiche",
+      "descrizione_e_metodologia": "Corso extra-curricolare di 40 ore per studenti meritevoli.",
+      "target": "Studenti meritevoli"
+    },
+    {
+      "titolo_attivita": "Soggiorno studio nel Regno Unito",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Settimana di studio in accordo con scuola partner inglese.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Soggiorno studio in Francia",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Settimana di studio presso centro accreditato.",
+      "target": "Studenti classi seconde AFM"
+    },
+    {
+      "titolo_attivita": "Esabac Techno",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Conseguimento diploma francese Baccalauréat.",
+      "target": "Studenti articolazione RIM"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua spagnola A1",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corsi extracurricolari di livello base.",
+      "target": "Studenti non previsti nel piano di studi"
+    },
+    {
+      "titolo_attivita": "Soggiorno studio in Spagna",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Settimana di studio a Salamanca.",
+      "target": "Studenti classi quarte RIM"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Visite aziendali, simulazioni, tirocini, project work",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Apprendistato",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Contratto di apprendistato, formazione interna/esterna",
+      "target": "Studenti indirizzo tecnico-economico e tecnologico"
+    },
+    {
+      "titolo_attivita": "GATEKEEPER",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Allaccio con aziende ICT, raccolta preferenze studenti",
+      "target": "Studenti corso Perito Informatico e Telecomunicazioni"
+    },
+    {
+      "titolo_attivita": "Incontri nelle scuole medie",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Presentazione offerta formativa",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visita della scuola e presentazione dei corsi",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "PCTO per studenti con disabilità",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Costruzione reti sul territorio",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Incontri informativi sul territorio",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Coordinamento e gestione degli incontri informativi",
+      "target": "Allievi e genitori"
+    },
+    {
+      "titolo_attivita": "Giornate di Scuola Aperta",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Coordinamento e gestione delle giornate",
+      "target": "Allievi e genitori"
+    },
+    {
+      "titolo_attivita": "Attività di orientamento per scelta indirizzo",
+      "categoria_principale": "Orientamento in itinere",
+      "descrizione_e_metodologia": "Coordinamento e gestione delle attività",
+      "target": "Alunni di seconda classe"
+    },
+    {
+      "titolo_attivita": "Incontri formativi sul mondo del lavoro",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Coordinamento e gestione degli incontri",
+      "target": "Alunni del triennio"
+    },
+    {
+      "titolo_attivita": "Incontri informativi sull'università",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Coordinamento e gestione degli incontri",
+      "target": "Alunni del triennio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VERH04050V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Andrea Barbarigo - Corso Serale** (codice **VERH04050V**), relativo al triennio **2022-2025**. L'istituto, situato a **Venezia** (provincia di **Venezia**, regione **Veneto**) e di natura **statale**, opera nel secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con un'attenzione particolare alle finalità di sviluppo delle attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità. Sebbene non esista una sezione specificamente dedicata all'orientamento, le tematiche sono affrontate in modo diffuso all'interno del documento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che, nonostante l'importanza attribuita all'orientamento, manca una sezione esplicitamente dedicata e riconoscibile come tale nel PTOF. L'individuazione delle azioni e delle strategie in questo ambito richiede un'interpretazione di elementi dispersi nel testo.\n\n**2.2 Partnership:**\n\nL'istituto dimostra una forte capacità di costruire **partnership** con un ampio ventaglio di soggetti, tra cui **Fondazione ITS Energia**, diverse **Accademie** e **Università**, **enti del territorio**, una **scuola partner inglese** e **istituti di istruzione superiore francese**, **scuole di Alta Formazione Artistica**, **Aziende**, la **Rete Pinerolese per l'Orientamento**, la **Rete DSA scuole del Pinerolese**, il **CPIA 5 di Rivoli**, l'**ASL**, **Centri privati**, **UNITO**, **CISS**, e la **Città Metropolitana**. Sono state individuate ben 15 partnership, a testimonianza di un approccio collaborativo e proattivo.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono chiaramente definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'incremento delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità** con il territorio, a **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nIl PTOF prevede azioni di sistema efficaci, quali il **coordinamento dei servizi** di orientamento, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'utilizzo di esperienze dirette degli studenti, sull'organizzazione di attività **laboratoriali** (sebbene con un punteggio inferiore rispetto ad altri aspetti) e sull'adozione di metodologie flessibili in termini di spazi e tempi, nonché sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative presenta alcune lacune. Le opzionali **culturali** e **ludico-ricreative** ricevono un punteggio basso, mentre le **opzionali laboratoriali ed espressive** sono ben sviluppate. Anche le attività di **volontariato** e **sportive** risultano poco presenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la chiara definizione delle finalità e degli obiettivi, la forte rete di **partnership** con enti e istituzioni del territorio, l'impegno verso azioni di sistema efficaci e l'utilizzo di metodologie didattiche innovative. L'attività di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento) è ben strutturata e rivolta a diversi indirizzi scolastici. L'istituto offre anche opportunità di **apprendistato** per gli studenti degli indirizzi tecnico-economico e tecnologico.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione specificamente dedicata all'orientamento nel PTOF. Inoltre, l'offerta di attività opzionali e facoltative risulta sbilanciata, con una scarsa attenzione alle attività culturali, ludiche e sportive.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare e rendere più visibile l'azione orientativa all'interno del PTOF, attraverso la creazione di una sezione dedicata. È inoltre auspicabile un ampliamento dell'offerta di attività opzionali e facoltative, al fine di soddisfare le diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Andrea Barbarigo - Corso Serale** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da azioni di sistema efficaci. Tuttavia, per ottimizzare l'azione orientativa, è necessario formalizzare la presenza di questa tematica all'interno del documento, attraverso la creazione di una sezione dedicata, e ampliare l'offerta di attività opzionali e facoltative. Attività come **Incontri nelle scuole medie**, **Open Day**, **PCTO per studenti con disabilità**, e **Incontri informativi** dimostrano un impegno costante verso l'orientamento in entrata, in itinere e in uscita."
+}

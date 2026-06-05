@@ -1,0 +1,204 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "OR1A02200X",
+    "denominazione": "Scuola Materna Santa Maria Bonarcado",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Bonarcado",
+    "anno_ptof": "2025-2028",
+    "provincia": "Oristano",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via San Romualdo S.N.C.",
+    "cap": "09070",
+    "email": "ker.scuolainfanziasantamaria@gmail.com",
+    "pec": "coopker@pec.it",
+    "website": "www.karis.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione presente, ma non dettagliata. Non esiste un capitolo dedicato all'orientamento, ma solo menzioni sparse all'interno di altri argomenti."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Fondazione Karis",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Doposcuola Pomerì",
+      "categoria_principale": "Servizi per la famiglia",
+      "descrizione_e_metodologia": "Supporto compiti, attività laboratoriali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività di robotica e coding per sviluppare competenze digitali.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Evento con alunni, insegnanti e genitori",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Apertura della scuola a genitori e potenziali studenti",
+      "target": "Genitori e comunità"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti corretti sulla strada",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Attività extrascolastiche",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e convivenza",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Sostegno a bambini tramite AVSI",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta alimenti per famiglie bisognose",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Promuovere il piacere della lettura",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF OR1A02200X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Materna Santa Maria Bonarcado** (ID scuola: OR1A02200X) per il triennio 2025-2028. La scuola, di tipo **Infanzia** e situata nel territorio non metropolitano della regione **Sardegna**, si configura come un istituto **paritario** con un'attenzione particolare alla collaborazione con diversi partner del territorio. L'analisi evidenzia una presenza di azioni orientative, sebbene non formalizzate in una sezione dedicata specifica, ma integrate in diverse attività e progetti. L'impegno verso la costruzione di un percorso formativo completo, che tenga conto delle attitudini, degli interessi e del progetto di vita degli alunni, è chiaramente percepibile.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento non è trattato in un capitolo specifico del PTOF, ma è presente attraverso menzioni sparse in altri ambiti. Questo suggerisce una necessità di maggiore strutturazione e visibilità delle azioni orientative.\n\n**2.2 Partnership:** La scuola vanta una rete di collaborazioni significativa, che include la **Karis Foundation**, la **Scuola dell’infanzia** e la **Scuola secondaria di primo grado**, la **Fondazione Karis**, **Enti locali**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Queste partnership rappresentano un valore aggiunto per l'offerta formativa e per la realizzazione di progetti orientativi.\n\n**2.3 Finalità:** Le finalità del PTOF in relazione all'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini**, **interessi** e del **progetto di vita** degli alunni. Buona anche l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un punteggio medio per la **continuità territoriale**, mentre l'obiettivo di ridurre l'**abbandono** scolastico e promuovere il **lifelong learning** necessitano di maggiore attenzione. L'obiettivo di contrastare i **NEET** risulta essere il meno prioritario.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, in particolare quelle relative al **rapporto scuola-genitori** e al **dialogo tra docenti e studenti**. Il **coordinamento dei servizi** e l'attenzione al **sistema integrato di inclusione e fragilità** sono anch'essi punti di forza. Il **monitoraggio delle azioni** necessita di un potenziamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **interdisciplinari** e, in misura minore, su approcci **laboratoriali** e sulla **flessibilità degli spazi e dei tempi**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con un'attenzione particolare alle attività **laboratoriali ed espressive**. Buona anche l'offerta di attività **culturali**, **ludiche-ricreative** e **sportive**, mentre il **volontariato** potrebbe essere maggiormente sviluppato.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella rete di **partnership** consolidata, nella chiarezza delle **finalità** educative e nell'impegno verso la costruzione di un rapporto solido tra **scuola e genitori**. Le attività proposte, come il **Progetto Clil**, i **laboratori esperienziali di matematica** e il **progetto di robotica e coding**, offrono agli alunni opportunità di apprendimento stimolanti e innovative. L'impegno nella **solidarietà**, con iniziative come **Adozioni a distanza** e **Donacibo**, contribuisce alla formazione di cittadini consapevoli e responsabili.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo rende difficile individuare in modo chiaro e sistematico le azioni orientative previste e i relativi obiettivi. Inoltre, alcuni obiettivi, come la riduzione dell'abbandono scolastico e la lotta al fenomeno dei NEET, necessitano di maggiore attenzione e di strategie più mirate.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica integrata dell'orientamento, che dovrebbe essere presente in tutte le fasi del percorso formativo. È necessario definire indicatori specifici per monitorare l'efficacia delle azioni orientative e valutare il raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Materna Santa Maria Bonarcado** presenta un buon livello di attenzione all'orientamento, sebbene questa attenzione non sia formalizzata in una sezione dedicata. Per migliorare l'efficacia delle azioni orientative, si raccomanda di strutturare una sezione specifica all'interno del PTOF, definire obiettivi misurabili e implementare un sistema di monitoraggio e valutazione dei risultati. Il potenziamento delle partnership con il territorio e l'ampliamento dell'offerta di attività opzionali e facoltative potrebbero contribuire a creare un ambiente scolastico ancora più stimolante e orientato al successo formativo degli alunni."
+}

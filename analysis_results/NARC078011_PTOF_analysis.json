@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NARC078011",
+    "denominazione": "Ist. D'Istruzione Superiore \"Europa",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Pomigliano D'Arco",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Fiuggi14",
+    "cap": "80038",
+    "email": "nais078002@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.isiseuropa.edu.it/",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Commerciali E Turistici"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Assenza di una sezione dedicata all'orientamento; le tematiche sono affrontate in modo frammentario all'interno di altre sezioni."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze in enti esterni, giornale scolastico, formazione sicurezza",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Iniziative",
+      "descrizione_e_metodologia": "Interventi per facilitare l'inserimento degli studenti",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Sportello D'Ascolto",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto psicologico e tutoraggio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di Formazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche attuali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Iniziative Culturali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visite guidate, proiezioni cinematografiche",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NARC078011\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**I.P.S. Comm.Tu \"Europa\" Pomigliano D'Arco** (codice scuola **NARC078011**), relativo al periodo **2019/20-2021/22**. L'istituto, di tipo **Liceo, Tecnico** e operante nell'area **Metropolitana** del **Sud** (Campania), presenta un impegno generale verso l'orientamento, sebbene con alcune criticità strutturali. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap da colmare per ottimizzare l'efficacia delle azioni intraprese.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ma affronta le tematiche in modo frammentario all'interno di altre sezioni.\n\n**2.2 Partnership:** L'istituto dimostra una buona capacità di collaborare con il territorio, come evidenziato dai **3 partner** nominati: **enti ed istituzioni**, **Enti operanti nel terzo settore**, **Croce Verde di Ospitaletto** e **Associazione ABC**. Il punteggio di **4** indica un livello di collaborazione soddisfacente.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le **opportunità** offerte dal contesto. Tutte queste aree ricevono un punteggio di **4**, suggerendo un'attenzione completa alle diverse dimensioni dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mirano a **ridurre l'abbandono** scolastico, garantire la **continuità** con il territorio, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**. Ogni obiettivo ottiene un punteggio di **3**, indicando un impegno concreto ma con margini di miglioramento.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato inclusione-fragilità**. Tutte queste azioni sono valutate positivamente con un punteggio di **4**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato, con un punteggio di **2**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte valutate con un punteggio di **4**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità, nella buona rete di **partnership** con enti esterni, nell'implementazione di azioni di sistema efficaci e nella varietà dell'offerta di attività opzionali. L'istituto dimostra un'attenzione particolare all'inclusione e al supporto agli studenti, come evidenziato dal **Progetto Accoglienza** e dallo **Sportello D'Ascolto**. L'offerta formativa è arricchita da attività pratiche come **stage sportivi** (vela, sci, escursionismo) e **stage in Inghilterra**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che comporta una frammentazione delle tematiche e una mancanza di visione strategica unitaria. La didattica laboratoriale, pur presente, risulta meno sviluppata rispetto ad altri approcci didattici.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare un'offerta di orientamento più organica e integrata, con obiettivi specifici, azioni mirate e indicatori di valutazione chiari. È necessario potenziare la didattica laboratoriale, favorendo l'apprendimento pratico e l'acquisizione di competenze spendibili nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'**I.P.S. Comm.Tu \"Europa\" Pomigliano D'Arco** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento, con numerosi punti di forza e un impegno concreto verso il supporto agli studenti. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è necessario colmare il gap relativo all'assenza di una sezione dedicata all'orientamento e potenziare la didattica laboratoriale. L'istituto dovrebbe inoltre concentrarsi sul monitoraggio e la valutazione delle attività, al fine di misurare l'impatto delle azioni implementate e apportare eventuali correzioni di rotta. La **Formazione didattica inclusiva** e la **Formazione sicurezza** per il personale rappresentano ulteriori elementi di attenzione e investimento."
+}

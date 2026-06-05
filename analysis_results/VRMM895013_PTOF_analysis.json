@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VRMM895013",
+    "denominazione": "Ic Mozzecane",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Nogarole Rocca",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Verona",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Roma 23",
+    "cap": "37060",
+    "email": "vric895002@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmozzecane.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. L'orientamento è affrontato all'interno di altre sezioni, come PCTO e attività extracurriculari."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Seconda annualità"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Terza annualità"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Quarta annualità"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperti",
+      "target": "Quinta annualità"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VRMM895013\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Nogarole Rocca** (VRMM895013), relativo all'anno scolastico 2019/20-2021/22. L'istituto, di I Grado, situato nel territorio non metropolitano della regione Veneto, presenta un approccio all'orientamento integrato nelle diverse attività scolastiche, piuttosto che concentrato in una sezione specifica. La valutazione complessiva evidenzia un buon livello di attenzione alle finalità dell'orientamento, con punteggi elevati nelle aree relative alle attitudini, interessi, progetto di vita, transizioni formative e capacità orientative. Le azioni del sistema, come il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni, risultano ben strutturate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che non è presente una sezione dedicata specificamente all'orientamento nel PTOF. Tuttavia, l'orientamento viene affrontato in modo trasversale, integrato in altre aree come i Percorsi per le Competenze Trasversali e per l'Orientamento (PCTO) e le attività extracurriculari.\n\n**2.2 Partnership:**\n\nL'istituto dimostra un buon livello di collaborazione con il territorio, come evidenziato dai quattro partner nominati: **enti ed istituzioni**, **Enti operanti nel terzo settore**, **Croce Verde di Ospitaletto** e **Associazione ABC**. Queste partnership contribuiscono ad ampliare l'offerta formativa e a fornire agli studenti opportunità di orientamento pratico.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e perseguite, con punteggi elevati in tutte le aree considerate: sviluppo delle attitudini, degli interessi, del progetto di vita, facilitazione delle transizioni formative e potenziamento delle capacità orientative per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati dall'istituto sono orientati alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto al fenomeno NEET e alla promozione del lifelong learning, ottenendo un punteggio di 3 su 4 in ciascuna area.\n\n**2.5 Azioni del Sistema:**\n\nIl sistema di orientamento è supportato da azioni coordinate, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. Anche in questo caso, il punteggio è di 4 su 4, indicando un'efficace implementazione.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. L'utilizzo di metodologie laboratoriali, tuttavia, risulta meno sviluppato, con un punteggio di 2 su 4.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, tutte con un punteggio di 4 su 4.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'efficacia delle azioni del sistema, nella collaborazione con partner esterni e nella varietà dell'offerta formativa, in particolare per quanto riguarda le attività opzionali. L'integrazione dell'orientamento nelle diverse aree del PTOF, sebbene non presente in una sezione dedicata, garantisce una copertura trasversale e un approccio olistico. Le attività **PCTO**, come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d’istruzione**, offrono agli studenti esperienze pratiche e opportunità di scoperta.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la mancanza di una sezione dedicata all'orientamento nel PTOF. Inoltre, l'utilizzo di metodologie didattiche laboratoriali specifiche per l'orientamento sembra meno sviluppato rispetto ad altri approcci.\n\n### 5. Gap Analysis\n\nIl gap principale è rappresentato dalla necessità di formalizzare maggiormente l'approccio all'orientamento, attraverso la creazione di una sezione dedicata nel PTOF. Questo permetterebbe di definire in modo più preciso le strategie, le azioni e gli indicatori di valutazione specifici per l'orientamento. Un potenziamento delle attività didattiche laboratoriali potrebbe contribuire a rendere l'orientamento più pratico e coinvolgente per gli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Nogarole Rocca** dimostra un'attenzione significativa all'orientamento, sebbene non formalizzata in una sezione dedicata. I punti di forza risiedono nella chiarezza delle finalità, nell'efficacia delle azioni del sistema e nella collaborazione con il territorio. Per migliorare ulteriormente l'offerta orientativa, si suggerisce di creare una sezione specifica nel PTOF e di potenziare le attività didattiche laboratoriali. Le attività di **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Primo soccorso**, **Orientamento post-liceo**, **Open day**, **PCTO** e le formazioni per i **Docenti neoassunti**, **Docenti presenti** e **Personale amministrativo** rappresentano un valido supporto per la crescita degli studenti e del personale scolastico."
+}

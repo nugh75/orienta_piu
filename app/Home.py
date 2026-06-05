@@ -186,7 +186,8 @@ st.subheader("IIPO (Indice di Documentazione Pratiche Orientamento)")
 st.markdown("""
 L'**IIPO** è un indicatore sintetico che quantifica la completezza della documentazione delle pratiche di orientamento nel PTOF.
 
-$$ \\text{IIPO} = \\frac{\\text{Media Finalità} + \\text{Media Obiettivi} + \\text{Media Governance} + \\text{Media Didattica} + \\text{Media Opportunità}}{5} $$
+$$ \\text{IIPO} = \\frac{\\text{Media Strutturale} + \\text{Media Finalità} + \\text{Media Obiettivi} + \\text{Media Governance} + \\text{Media Didattica} + \\text{Media Opportunità}}{6} $$
+
 
 **Interpretazione:**
 *   **0.0 - 1.0**: Non classificabile / Errore (scartato)

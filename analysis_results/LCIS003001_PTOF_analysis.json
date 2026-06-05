@@ -1,0 +1,210 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LCIS003001",
+    "denominazione": "Marco Polo Colico",
+    "tipo_scuola": "Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Colico",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Lecco",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via La Madoneta 3",
+    "cap": "23823",
+    "email": "lcis003001@istruzione.it",
+    "pec": "lcis003001@pec.istruzione.it",
+    "website": "www.marcopolocolico.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "enti ed istituzioni"
+      ],
+      "partnership_count": 1
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze in enti esterni e simulazioni interne",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Iniziative",
+      "descrizione_e_metodologia": "Interventi per facilitare l'inserimento",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Sportello D’Ascolto",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto psicologico e tutoraggio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LCIS003001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Marco Polo Colico** (LCIS003001) per il periodo 2019/20-2021/22. La scuola, situata in **Lombardia** e operante in un territorio **non metropolitano**, si configura come un istituto **statale** di istruzione secondaria di secondo grado. L'analisi evidenzia una presenza strutturata di attività orientative, con un focus su diverse dimensioni, tra cui la didattica, le partnership e gli obiettivi di lungo termine. Il PTOF dimostra un impegno nella riduzione dell'abbandono scolastico e nel promuovere la continuità territoriale, sebbene alcuni aspetti necessitino di ulteriore attenzione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 5, il che indica un'attenzione specifica a questa area.\n\n**2.2 Partnership:** La scuola collabora con **enti ed istituzioni**, sebbene il numero di partner nominati sia limitato a uno, ottenendo un punteggio di 3.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'ampliamento delle capacità orientative verso le opportunità disponibili, con un punteggio di 4 per ciascuna di queste aree.\n\n**2.4 Obiettivi:** L'obiettivo di ridurre l'abbandono scolastico riceve un punteggio di 3, mentre la continuità territoriale ottiene un punteggio più elevato, pari a 4. Il contrasto al fenomeno **NEET** e la promozione del **lifelong learning** presentano punteggi inferiori, rispettivamente 2 e 3.\n\n**2.5 Azioni di Sistema:** Il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto con i genitori sono considerati importanti, con punteggi di 3 e 4. Tuttavia, il monitoraggio delle azioni e l'integrazione di sistemi di inclusione e supporto alla fragilità ottengono punteggi inferiori, pari a 2.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, con un punteggio di 4, e integra approcci laboratoriale, flessibile e interdisciplinare, ciascuno con un punteggio di 3.\n\n**2.7 Offerta di Opzionali:** L'offerta di opzionali include attività culturali, laboratoriali ed espressive, sportive, con un punteggio di 3 per ciascuna. Le opzionali ludiche, ricreative e di volontariato ricevono punteggi inferiori, pari a 2.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella presenza di una sezione dedicata all'orientamento e nella definizione chiara delle finalità, che coprono un ampio spettro di esigenze degli studenti. L'offerta formativa è arricchita da attività pratiche come **stage sportivi** (vela, sci, escursionismo) e **stage in Inghilterra**, che offrono opportunità concrete di orientamento e sviluppo di competenze. L'impegno nella formazione dei docenti, con particolare attenzione all'inclusione e all'utilizzo di strumenti multimediali, rappresenta un ulteriore elemento positivo. L'attività di **Progetto Accoglienza** e lo **Sportello D’Ascolto** dimostrano attenzione al benessere e al supporto degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il numero limitato di **partnership** attivate e la necessità di rafforzare il monitoraggio delle azioni intraprese. Gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** necessitano di maggiore attenzione e di strategie più efficaci. L'offerta di opzionali, pur diversificata, potrebbe essere ampliata per includere attività ludiche, ricreative e di volontariato più strutturate.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella traduzione degli obiettivi teorici in azioni concrete e misurabili. Sebbene il PTOF delinei finalità ambiziose, la mancanza di un sistema di monitoraggio efficace impedisce di valutare l'impatto reale delle attività orientative. È necessario un maggiore coinvolgimento di **enti ed istituzioni** del territorio per ampliare l'offerta formativa e offrire agli studenti opportunità di orientamento più diversificate.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Marco Polo Colico** dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e una chiara definizione delle finalità. L'offerta formativa, arricchita da attività pratiche e di supporto, rappresenta un punto di forza. Tuttavia, è necessario rafforzare le partnership, migliorare il monitoraggio delle azioni e ampliare l'offerta di opzionali per colmare le lacune individuate e garantire un servizio di orientamento efficace e completo per tutti gli studenti."
+}

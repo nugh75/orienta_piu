@@ -1,0 +1,307 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ANMM815021",
+    "denominazione": "Camerano - G. Paolo Ii Sirolo",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Sirolo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Del Municipio 2",
+    "cap": "60020",
+    "email": "tsic80300d@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.iccamerano.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti diverse attività di orientamento, manca un capitolo dedicato e organico che ne delinei una visione strategica e coerente."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "note": "La formulazione delle finalità risulta generica e poco specifica riguardo allo sviluppo di competenze orientative concrete negli studenti."
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1,
+        "note": "L'obiettivo di contrastare la dispersione scolastica e il fenomeno NEET è menzionato superficialmente, senza indicare azioni mirate e misurabili."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1,
+        "note": "Il monitoraggio delle azioni è descritto in termini generali, senza definire indicatori di performance o modalità di valutazione dell'efficacia."
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1,
+        "note": "L'offerta didattica orientativa si concentra su visite guidate e incontri con professionisti, mancando un'articolazione più pratica attraverso laboratori e simulazioni."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curricolare",
+      "descrizione_e_metodologia": "33 ore annuali, trasversalità, interdisciplinarità, affidato a tutti i docenti",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni che passano dalla scuola dell'infanzia alla primaria e alla secondaria"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro on-line tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire una miglior conoscenza delle specificità dei diversi segmenti scolastici.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lavoro sistematico per dipartimenti verticali",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Revisione periodica e rendere operativo il Curricolo d’Istituto.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA e BES"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione di Scuola/Rete",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Scuola Amica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Rete Scuole Green",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Innovazione Tecnologica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "formazone interna con animatore digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "I Disturbi Specifici Dell'Apprendimento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Peer review, Formazione di Scuola/Rete",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Giustizia Riparativa E Mediazione Umanistica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Social networking, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Dsga",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Lezioni frontali, Formazione di Scuola/Rete",
+      "target": "DS, DSGA, Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ANMM815021\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo “Renaldini” di Sirolo (ANMM815021), relativo al periodo 2019/20-2021/22. La scuola, di I grado, situata nel territorio non metropolitano della regione Marche, presenta un impegno significativo verso la costruzione di una rete di **partnership** con diversi attori del territorio. Sebbene siano presenti diverse attività orientative, l'approccio appare frammentato e necessita di una visione strategica più definita. L'analisi evidenzia punti di forza nelle collaborazioni esterne e nella progettazione di percorsi di transizione, ma anche aree di debolezza relative alla mancanza di un capitolo dedicato all'orientamento e alla scarsa specificità delle finalità e degli obiettivi.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3. Questo suggerisce una mancanza di organicità nella presentazione delle strategie e delle azioni in questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un elevato numero di **partnership** (16), tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, diversi **musei** e **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, altre **scuole**, **associazioni** e **autonomie locali**, oltre all'**ASL**. Questo network di collaborazioni rappresenta un importante punto di forza per l'implementazione di attività orientative e per l'ampliamento dell'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano orientate allo sviluppo di **attitudini** e **interessi** degli studenti (punteggio 3 per entrambi), con un focus più marcato sulla preparazione al **progetto di vita** (punteggio 4) e sulle **transizioni formative** (punteggio 5). Tuttavia, lo sviluppo di **capacità orientative** concrete per affrontare le opportunità future risulta meno definito (punteggio 1).\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono** scolastico e di garantire la continuità territoriale (punteggio 4 per entrambi). L'obiettivo di contrastare il fenomeno **NEET** è menzionato in modo superficiale (punteggio 1), mentre l'attenzione al **lifelong learning** è ancora in fase di sviluppo (punteggio 2).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema prevedono un buon **coordinamento dei servizi** e un adeguato **rapporto scuola-genitori** (punteggio 4 per entrambi), nonché un **dialogo** tra docenti e studenti (punteggio 3). Il **monitoraggio delle azioni** risulta però poco strutturato (punteggio 1), e manca una chiara definizione di indicatori di performance. L'attenzione all'integrazione e alla fragilità è ben presente (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa principalmente su esperienze dirette, come **visite guidate** e **incontri con professionisti** (punteggio 3). Manca, però, un'articolazione più pratica attraverso **laboratori** e **simulazioni** (punteggio 1), e una maggiore flessibilità degli spazi e dei tempi (punteggio 2). L'approccio interdisciplinare è presente (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali espressive** e **ludico-ricreative** (punteggio 3 per tutte). Le attività di **volontariato** sono meno sviluppate (punteggio 2), così come quelle **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza del network di **partnership** con il territorio, che offre agli studenti numerose opportunità di contatto con il mondo del lavoro e della cultura. L'attenzione alle **transizioni formative** e alla progettazione del **progetto di vita** rappresentano ulteriori elementi positivi. Tra le attività registrate, si evidenziano **Attività di ampliamento curricolare**, **Collaborazione con associazioni del territorio**, e il **Programma Continuità**.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la scarsa specificità delle finalità e degli obiettivi rappresentano le principali aree di debolezza. Il **monitoraggio delle azioni** risulta poco strutturato e manca un'articolazione più pratica della didattica orientativa attraverso **laboratori** e **simulazioni**.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di trasformare l'orientamento da insieme di attività frammentate a un sistema organico e coerente, con obiettivi misurabili e indicatori di performance definiti. È necessario potenziare la didattica orientativa attraverso l'introduzione di attività pratiche e laboratoriali, e definire azioni mirate per contrastare il fenomeno **NEET**.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo “Renaldini” di Sirolo presenta un buon potenziale in termini di orientamento, grazie alla ricchezza delle **partnership** e all'attenzione alle **transizioni formative**. Tuttavia, per raggiungere una maggiore efficacia, è necessario definire una visione strategica più chiara, strutturare il **monitoraggio delle azioni** e potenziare la didattica orientativa con attività pratiche e laboratoriali. L'implementazione di queste azioni consentirebbe all'istituto di offrire agli studenti un supporto più completo e mirato nella costruzione del loro **progetto di vita** e nell'acquisizione di **capacità orientative** concrete."
+}

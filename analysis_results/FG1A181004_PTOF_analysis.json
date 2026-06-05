@@ -1,0 +1,252 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FG1A181004",
+    "denominazione": "Santa Rita",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Foggia",
+    "anno_ptof": "2022/2025",
+    "provincia": "Foggia",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Evemero Nardella 12/A-B E 22",
+    "cap": "71100",
+    "email": "info@sacrocuorets.it",
+    "pec": "ND",
+    "website": "https://sacrocuorets.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune di Trieste",
+        "Università degli Studi di Trieste",
+        "FISM",
+        "Fondazione Teatro Lirico “Giuseppe Verdi”",
+        "Croce Rossa Italiana",
+        "Cambridge English Qualifications",
+        "Università Popolare di Trieste",
+        "Parrocchia di San Giusto",
+        "Parrocchia di San Giacomo",
+        "Parrocchia di Notredame de Sion",
+        "IV Circoscrizione/Comune di Trieste",
+        "Fondazione Luchetta Ota D’Angelo Hrovatin",
+        "British Beatles Fan Club"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Chitarra ritmica e musica d’insieme",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento chitarra e musica d'insieme",
+      "target": "Classe quinta"
+    },
+    {
+      "titolo_attivita": "Chitarra elettrica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento chitarra elettrica",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Basso elettrico",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento basso elettrico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Attività motoria",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento a varie discipline sportive",
+      "target": "Classi I, II, III, IV e V"
+    },
+    {
+      "titolo_attivita": "Teatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Improvvisazione, scenette, lettura espressiva",
+      "target": "Tutte le classi della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività trasversali, temi costituzionali, sostenibilità",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Strumentario Orff, tastiere, chitarre, batterie",
+      "target": "Scuola Primaria e dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte e immagine",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Materiale per disegno, pittura, collage",
+      "target": "Scuola Primaria e dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di inglese",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica immersiva, materiale ludico-didattico",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di computer",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "PC con software e internet",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Certificazione Lingua Inglese",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Esame di inglese per ragazzi di classe V, in collaborazione con Cambridge English Qualifications.",
+      "target": "Classe V"
+    },
+    {
+      "titolo_attivita": "Frutta e Verdura nelle scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Distribuzione di frutta e verdura, visite a fattorie didattiche, laboratori sensoriali.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Latte nelle scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Degustazioni guidate di latte e prodotti lattiero caseari.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Io Leggo Perché",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Promozione della lettura e potenziamento biblioteche scolastiche.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corso di propedeutica musicale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Corso in collaborazione con l'Università Popolare di Trieste",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di psicomotricità",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attivazione dipendente dal numero di partecipanti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attivazione dipendente dal numero di partecipanti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di danza",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Corso in collaborazione con l'Università Popolare di Trieste",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi interne (palla avvelenata, pallavolo)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Tornei sportivi per classi diverse, premiazione e medaglie.",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Coro Scolastico e Orchestra",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio di canto corale e musica d'insieme, esibizioni interne ed esterne.",
+      "target": "Classi I-V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FG1A181004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) relativo all'istituto \"Santa Rita\" di Foggia, codice scuola FG1A181004, per l'anno scolastico 2022/2025. La scuola, di tipo **Infanzia** e statuto **Paritaria**, opera in un contesto territoriale **Non Metropolitano** nella regione **Puglia**. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'offerta didattica orientativa e le attività opzionali. Il PTOF evidenzia un impegno significativo nella creazione di una rete di **partnership** con enti e istituzioni del territorio, ma mostra una minore attenzione alla definizione di una sezione specifica dedicata all'orientamento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicitamente dedicata all'orientamento, come evidenziato dal punteggio di 1.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto ampio e diversificato, con ben 14 partner tra cui il **Comune di Trieste**, l'**Università degli Studi di Trieste**, la **FISM**, la **Fondazione Teatro Lirico “Giuseppe Verdi”**, la **Croce Rossa Italiana**, **Cambridge English Qualifications**, l'**Università Popolare di Trieste**, diverse **Parrocchie** e altre realtà locali. Questo elemento costituisce un punto di forza significativo per l'arricchimento dell'offerta formativa e l'ampliamento delle opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF, in relazione all'orientamento, mostrano un buon livello di attenzione allo sviluppo di **attitudini** e **interessi** degli studenti (punteggio 3 per entrambi), nonché alla preparazione per le **transizioni formative** e alla capacità di cogliere le **opportunità** offerte dal territorio (punteggio 3). Tuttavia, l'attenzione al **progetto di vita** degli studenti risulta meno sviluppata (punteggio 1).\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, si evidenzia un impegno moderato nella riduzione dell'**abbandono scolastico** (punteggio 2) e nel mantenimento di un legame con il **territorio** (punteggio 3). L'attenzione alla lotta contro il fenomeno dei **NEET** è assente (punteggio 0), così come un focus specifico sul **lifelong learning** (punteggio 2).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il **coordinamento dei servizi** (punteggio 3), il **dialogo tra docenti e studenti** (punteggio 3), il rafforzamento del **rapporto scuola-genitori** (punteggio 4) e l'attenzione all'**inclusione** e alla gestione delle **fragilità** (punteggio 3). Il **monitoraggio delle azioni** risulta meno strutturato (punteggio 1).\n\n**2.6 Didattica Orientativa:** L'approccio didattico orientativo si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di **laboratori** (punteggio 2), sulla **flessibilità degli spazi e dei tempi** (punteggio 2) e sull'**interdisciplinarità** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 2), **laboratoriali ed espressive** (punteggio 4), **ludico-ricreative** (punteggio 2), **sportive** (punteggio 3), mentre il **volontariato** è meno presente (punteggio 1).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza e la varietà delle **partnership** attivate, che offrono agli studenti numerose opportunità di arricchimento e di contatto con il mondo esterno. L'impegno nel rafforzare il **rapporto scuola-genitori** e nel promuovere l'**inclusione** rappresentano ulteriori elementi positivi. L'offerta di attività laboratoriali, in particolare quelle espressive, è ben sviluppata.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la scarsa attenzione al **progetto di vita** degli studenti costituiscono le principali aree di debolezza del PTOF. L'impegno nella lotta contro il fenomeno dei **NEET** e nella promozione del **lifelong learning** risulta insufficiente. Il **monitoraggio delle azioni** è poco strutturato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, definendo finalità e obiettivi specifici e implementando azioni mirate per supportare gli studenti nella costruzione del loro **progetto di vita**. È necessario potenziare l'attenzione alla prevenzione dell'**abbandono scolastico** e alla promozione del **lifelong learning**.\n\n### 6. Conclusioni\n\nIl PTOF FG1A181004 presenta un quadro complessivamente positivo, caratterizzato da un forte impegno nella creazione di una rete di **partnership** e nella promozione di un'offerta formativa diversificata. Tuttavia, per migliorare l'efficacia dell'azione orientativa, è necessario definire una sezione dedicata, rafforzare l'attenzione al **progetto di vita** degli studenti e implementare azioni mirate per contrastare l'**abbandono scolastico** e promuovere il **lifelong learning**. Le attività come **Chitarra ritmica e musica d’insieme**, **Teatro**, **Laboratorio di musica** e **Coro Scolastico e Orchestra** rappresentano un valore aggiunto per lo sviluppo delle competenze degli studenti."
+}

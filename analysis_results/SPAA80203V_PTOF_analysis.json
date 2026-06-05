@@ -1,0 +1,288 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SPAA80203V",
+    "denominazione": "Omnicomprensivo Val Di Vara",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Varese Ligure",
+    "anno_ptof": "2014-2017",
+    "provincia": "La Spezia",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Vittorio Emanuele57",
+    "cap": "19028",
+    "email": "spic80200x@istruzione.it",
+    "pec": "ND",
+    "website": "www.icvaldivara.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "scuole paritarie",
+        "Aziende Sanitarie Locali",
+        "centri di valutazione psico-diagnostica e terapia",
+        "MIUR",
+        "Ente Locale",
+        "Casa di accoglienza per rifugiati politici",
+        "CCRR Caronno Pertusella"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività legate all’accoglienza e all’integrazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza nuovi iscritti, alunni disabili, alunni stranieri",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività di recupero e potenziamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività mirate a seconda delle attitudini e ritmi",
+      "target": "Alunni con difficoltà/talento"
+    },
+    {
+      "titolo_attivita": "Attività di mensa e post-mensa",
+      "categoria_principale": "Socializzazione",
+      "descrizione_e_metodologia": "Intervento di un docente durante la mensa",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Trasformazioni geometriche",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Riconoscere figure convesse e non, simmetrie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Misura",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Effettuare misurazioni con unità convenzionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Logica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Classificare oggetti e figure in base ad attributi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scienze - Osservazione",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Sperimentare sensazioni visive, uditive, tattili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "laboratori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "piccoli gruppi, classi aperte",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "progetti",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "favorire relazione, autonomia, creatività",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio linguistico per alunni stranieri",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Sviluppo abilità ascolto, comprensione, comunicazione, lettura, produzione, rielaborazione",
+      "target": "Alunni non italofoni"
+    },
+    {
+      "titolo_attivita": "Accoglienza",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Protocollo d'istituto",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Genitori a scuola",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Laboratori, confronto, progetti comuni",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Ritmia",
+      "categoria_principale": "Musica e Movimento",
+      "descrizione_e_metodologia": "Percorsi musicali per consapevolezza corporea",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Progetto rifiuti",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Lezione in classe e uscita didattica al CCRR per sensibilizzazione al riciclo.",
+      "target": "Classi 4°A-B, 5°A-B"
+    },
+    {
+      "titolo_attivita": "CCRR",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Preparazione elezioni CCRR, candidatura, campagna elettorale.",
+      "target": "Classi 4°A-B, 5°A-B"
+    },
+    {
+      "titolo_attivita": "Storia Locale",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Visita guidata e lezione per appropriarsi del patrimonio locale.",
+      "target": "Classi 4°A-B, 5°A-B"
+    },
+    {
+      "titolo_attivita": "Progetti di educazione alimentare",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Attività didattiche operative e informative",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Mensa",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Consumo frutta, scelta cibo",
+      "target": "Alunni servizio mensa"
+    },
+    {
+      "titolo_attivita": "Teatro",
+      "categoria_principale": "Arte e Immagine",
+      "descrizione_e_metodologia": "Laboratorio teatrale per sviluppo creatività e capacità espressive.",
+      "target": "Classi 2°A-B, 5°A-B"
+    },
+    {
+      "titolo_attivita": "English Snacks",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Immersione in contesto d'apprendimento stimolante per uso spontaneo dell'inglese.",
+      "target": "Classi 1°A-B, 2°A-B, 3°A-B, 4°A-B, 5°A-B"
+    },
+    {
+      "titolo_attivita": "DELF",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Certificazione linguistica internazionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Let's speak English",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Incontri di conversazione",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Missione coraggio",
+      "categoria_principale": "Motorio",
+      "descrizione_e_metodologia": "Problem-solving.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di scenette",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Realizzazione di scenette tratte da brevi brani o dalla fantasia degli alunni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionari",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Questionari a risposta aperta o a crocette",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lezione frontale",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Lezione frontale partecipata",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lettura testi",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Lettura dei testi",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SPAA80203V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Materna Di Varese Ligure** (SPAA80203V), con particolare attenzione alla dimensione dell'orientamento. Il documento, relativo al periodo 2014-2017, evidenzia un impegno significativo verso la costruzione di un sistema di orientamento ben strutturato, come dimostra la presenza di una sezione dedicata e un punteggio massimo di 5 in tal senso. La scuola, situata in **Liguria** e operante in un territorio **non metropolitano**, si distingue per una forte attenzione all'inclusione e alla collaborazione con diversi partner esterni. L'analisi delle attività registrate conferma un approccio olistico all'educazione, che mira a sviluppare le attitudini, gli interessi e i progetti di vita degli alunni, facilitando al contempo le loro transizioni formative e la capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio pieno di 5, il che indica un'attenzione prioritaria a questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un network di partnership consolidato, comprendente **scuole paritarie**, **Aziende Sanitarie Locali**, **centri di valutazione psico-diagnostica e terapia**, il **MIUR**, l'**Ente Locale**, la **Casa di accoglienza per rifugiati politici** e il **CCRR Caronno Pertusella**. Questo ampio ventaglio di collaborazioni, pari a 7 partner, suggerisce un approccio integrato e una volontà di coinvolgere diversi attori del territorio nel processo educativo.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, dei progetti di vita, delle capacità di transizione formativa e la capacità di individuare e cogliere le opportunità. Ogni area ha ottenuto un punteggio di 4, dimostrando un equilibrio nell'approccio alle diverse dimensioni dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno NEET) e sulla promozione del lifelong learning. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 4, evidenziando una coerenza tra le finalità e gli obiettivi prefissati.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate dalla scuola sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e gestione delle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 5, sottolineando l'efficacia delle strategie adottate.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. I punteggi variano da 3 a 4, suggerendo un buon livello di implementazione, con margini di miglioramento nell'ambito della didattica laboratoriale.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Tutte queste opzioni hanno ottenuto un punteggio di 3, indicando un'offerta diversificata ma con un potenziale di sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di partnership, nella chiarezza delle finalità e degli obiettivi, nell'efficacia delle azioni di sistema e nell'attenzione all'inclusione. Le attività registrate, come \"**Attività legate all’accoglienza e all’integrazione**\", \"**Attività di recupero e potenziamento**\", \"**Laboratori**\" e \"**Progetti**\", testimoniano un impegno concreto nella realizzazione di un'offerta formativa completa e personalizzata. Particolarmente rilevante è l'iniziativa \"**Progetto rifiuti**\" in collaborazione con il **CCRR**, che promuove la cittadinanza attiva e la consapevolezza ambientale.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la didattica laboratoriale e l'offerta di attività opzionali e facoltative, che potrebbero essere ulteriormente sviluppate e potenziate. Sebbene i punteggi siano buoni, c'è spazio per incrementare l'utilizzo di metodologie didattiche innovative e per ampliare l'offerta di attività extracurricolari.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le buone intenzioni espresse nel PTOF in azioni concrete e misurabili. È importante definire indicatori di performance specifici per monitorare l'efficacia delle attività di orientamento e per valutare il raggiungimento degli obiettivi prefissati. Inoltre, sarebbe opportuno rafforzare la collaborazione con i partner esterni, coinvolgendoli attivamente nella progettazione e nella realizzazione delle attività.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della **Scuola Materna Di Varese Ligure** presenta un quadro complessivamente positivo in termini di orientamento. La scuola dimostra un forte impegno verso la costruzione di un sistema educativo inclusivo e orientato al futuro, con una solida base di partnership e un'offerta formativa diversificata. Pur riconoscendo alcune aree di debolezza, il PTOF rappresenta un valido strumento per guidare l'azione educativa e per garantire il successo formativo degli alunni. L'implementazione di azioni mirate a rafforzare la didattica laboratoriale e l'offerta di attività opzionali e facoltative consentirebbe di colmare i gap esistenti e di massimizzare l'impatto del PTOF."
+}

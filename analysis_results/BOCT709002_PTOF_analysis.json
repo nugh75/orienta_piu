@@ -1,0 +1,270 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOCT709002",
+    "denominazione": "Cpia 1 Imola-Castel S.Pietro T.",
+    "tipo_scuola": "CPIA",
+    "ordine_grado": "Altro",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Castel San Pietro Terme",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Xvii Aprile 1",
+    "cap": "40024",
+    "email": "bomm36200n@istruzione.it",
+    "pec": "ctmm151004@pec.istruzione.it",
+    "website": "www.cpiacatania2.edu.it",
+    "tipo_scuola_dettaglio": "Centro Territoriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma attività sparse all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Associazioni",
+        "Strutture sportive",
+        "Comunità alloggio",
+        "Assessorati Regionali",
+        "Enti locali",
+        "aziende private",
+        "Istituzioni scolastiche di secondo livello",
+        "Università di Siena",
+        "USSM Catania",
+        "Distretti sanitari locali",
+        "Associazioni sindacali",
+        "Ordini professionali",
+        "Soggetti pubblici e privati"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di alfabetizzazione",
+      "categoria_principale": "Istruzione",
+      "descrizione_e_metodologia": "Lezioni frontali e attività pratiche",
+      "target": "Immigrati"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua italiana",
+      "categoria_principale": "Istruzione",
+      "descrizione_e_metodologia": "Lezioni frontali e conversazioni",
+      "target": "Immigrati"
+    },
+    {
+      "titolo_attivita": "Preparazione esami",
+      "categoria_principale": "Istruzione",
+      "descrizione_e_metodologia": "Esercitazioni e simulazioni",
+      "target": "Adulti"
+    },
+    {
+      "titolo_attivita": "Corsi IeFP",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Corsi di qualifica professionale",
+      "target": "Adulti e giovani adulti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio PFI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Monitoraggio studenti con patto formativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "I recycle and you?",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Lab",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Protocolli con enti locali",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Attivazione protocolli con enti locali, associazioni, mondo del lavoro",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Raccordo percorsi I e II livello",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Raccordo tra percorsi I e II livello tramite istituzioni del II livello",
+      "target": "Studenti I livello"
+    },
+    {
+      "titolo_attivita": "Educazione Stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Finanziaria",
+      "categoria_principale": "Competenze",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Teatro In Classe",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Acqua: Un Bene Prezioso",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cinemambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ecologia E Ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tradizioni Popolari",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mens Sana In Corpore Sano",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Organizzazione attività di orientamento con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri, visite, seminari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento banditi da MIUR/Enti locali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione a bandi e realizzazione progetti",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Attività di collegamento con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Insegnamento materie base CPIA e materie indirizzo scuole superiori",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Protocolli con distretti sanitari",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Protocolli SIA – inclusione sociale",
+      "target": "Studenti fragili"
+    },
+    {
+      "titolo_attivita": "Formazione docenti Erasmus+",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione all'estero e disseminazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione PNSD",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Didattica digitale integrata",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOCT709002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto C.Istr.Adulti Pizzigotti C.S.Pietro T. (BOCT709002) per il triennio 2022-2025. L'istituto, di tipo Professionale e Tecnico, opera nel secondo grado in un contesto territoriale metropolitano della regione Emilia Romagna. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, si evidenzia la presenza di attività diffuse in tutto il documento, ottenendo un punteggio complessivo di 7.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Come precedentemente indicato, il PTOF non prevede una sezione autonoma dedicata all'orientamento.\n\n**2.2 Partnership:** L'istituto dimostra una buona capacità di attivare **partnership** con diversi soggetti, tra cui **associazioni**, **strutture sportive**, **comunità alloggio**, **assessorati regionali**, **enti locali**, **aziende private**, **istituzioni scolastiche di secondo livello**, **Università di Siena**, **USSM Catania**, **distretti sanitari locali**, **associazioni sindacali**, **ordini professionali** e altri **soggetti pubblici e privati**. Sono state individuate 9 partnership attive.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa si concentrano sullo sviluppo delle **attitudini** e degli **interessi** degli studenti, sulla progettazione del loro **progetto di vita**, sulla facilitazione delle **transizioni formative** e sul potenziamento delle loro **capacità orientative** per cogliere le **opportunità** offerte dal territorio. I punteggi ottenuti per ciascuna finalità sono generalmente buoni, attestandosi intorno a 5 o 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale** dei percorsi formativi, a **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**. Anche in questo caso, i punteggi sono buoni, con valori compresi tra 5 e 6.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento includono il **coordinamento dei servizi** territoriali, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**. I punteggi ottenuti per queste azioni si attestano intorno a 5 o 6.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'utilizzo di metodologie esperienziali, laboratoriali, flessibili e interdisciplinari. I punteggi in questa dimensione sono generalmente moderati, con valori intorno a 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende iniziative **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi ottenuti per queste attività sono uniformemente pari a 5.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella capacità di attivare numerose **partnership** con diversi soggetti del territorio, nella definizione di finalità e obiettivi chiari e coerenti con le esigenze degli studenti e nella varietà delle attività proposte. L'istituto dimostra un'attenzione particolare all'inclusione e al supporto alle fragilità, come evidenziato dai **protocolli con i distretti sanitari**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo rende difficile individuare in modo chiaro e sistematico le azioni e le strategie implementate in questo ambito. Inoltre, i punteggi ottenuti per alcune dimensioni, come la didattica orientativa e le attività opzionali, suggeriscono la necessità di potenziare l'offerta formativa e di sperimentare metodologie innovative.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare un'offerta di orientamento più organica e integrata all'interno del PTOF. Questo richiede la definizione di una sezione dedicata, la redazione di un piano di azione dettagliato e la creazione di indicatori di performance per monitorare l'efficacia delle iniziative intraprese.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto C.Istr.Adulti Pizzigotti C.S.Pietro T. presenta un buon potenziale in materia di orientamento, grazie alla presenza di numerose attività e partnership attivate. Tuttavia, per migliorare l'efficacia delle azioni intraprese, è necessario strutturare un'offerta di orientamento più organica e integrata, definendo una sezione dedicata all'interno del PTOF e implementando un piano di azione dettagliato. Attività come **\"Organizzazione attività di orientamento con scuole superiori\"**, **\"Progetti di orientamento banditi da MIUR/Enti locali\"** e **\"Protocolli con distretti sanitari\"** rappresentano un buon punto di partenza per sviluppare ulteriormente l'azione orientativa dell'istituto."
+}

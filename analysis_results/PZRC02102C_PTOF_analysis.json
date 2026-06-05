@@ -1,0 +1,185 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZRC02102C",
+    "denominazione": "I.I.S. \"Flacco-Battaglini\" Venosa",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Venosa",
+    "anno_ptof": "2025-2028",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Accademia Dei Rinascenti Snc",
+    "cap": "85029",
+    "email": "ND",
+    "pec": "ND",
+    "website": "http//www.liceovenosa.edu.it",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Commerciali"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "PTOF dedica spazio all'orientamento, Presente offerta formativa diversificata, Sezione dedicata all'offerta formativa, Sezione dedicata all'offerta formativa"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "A.S.P.",
+        "Sert",
+        "Consultorio",
+        "Centro Psicopedagogico",
+        "Intercultura",
+        "CCIAA di Potenza",
+        "UNIBAS",
+        "AFAM G. da Venosa di Potenza",
+        "Salone dello Studente - Bari",
+        "Enti pubblici",
+        "Aziende",
+        "Associazioni"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Interscambi scolastici con Intercultura",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Opportunità di studio all'estero per gli studenti",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Campionato Nazionale delle Lingue",
+      "categoria_principale": "Valorizzazione Eccellenze",
+      "descrizione_e_metodologia": "Partecipazione al campionato per studenti delle classi quinte",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "DigiCivis",
+      "categoria_principale": "Cittadinanza Digitale",
+      "descrizione_e_metodologia": "Progetto Erasmus+ per l'educazione alla cittadinanza digitale",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Progetto Lauree Scientifiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto per incentivare le lauree scientifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Guide Turistiche",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO per aspiranti guide turistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Event Planner",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO per aspiranti event planner",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Teatrale",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Laboratorio teatrale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Progetti in collaborazione con enti esterni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certamen Horatianum",
+      "categoria_principale": "Progetti Culturali",
+      "descrizione_e_metodologia": "Organizzazione evento culturale",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. \"Flacco - Battaglini\" per il triennio 2025-2028 delinea le strategie e le azioni volte a garantire un'istruzione di qualità, inclusiva e orientata al futuro. Il documento evidenzia un impegno significativo nella costruzione di partnership con enti del territorio, finalizzato a potenziare l'offerta formativa e a favorire l'inserimento degli studenti nel mondo del lavoro. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, quest'ultimo è integrato trasversalmente nelle diverse attività proposte.\n\n## 2. Analisi Dimensionale\n\nL'analisi delle finalità del PTOF rivela un'attenzione particolare allo sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti, con un focus sulle transizioni formative e sulle capacità orientative necessarie per affrontare le sfide del futuro. Gli obiettivi delineati mirano a ridurre l'abbandono scolastico, a promuovere la continuità territoriale e a contrastare il fenomeno dei NEET, incentivando al contempo l'apprendimento permanente. Le azioni previste si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori e sul monitoraggio delle attività implementate. L'offerta didattica orientativa si basa su esperienze dirette, laboratoriali e sull'interdisciplinarità, mentre l'offerta di attività opzionali e facoltative spazia dall'ambito culturale a quello sportivo, passando per il volontariato.\n\n## 3. Punti di Forza\n\nUn punto di forza del PTOF è la consolidata rete di partnership con enti pubblici, aziende e associazioni del territorio, che consente di arricchire l'offerta formativa e di offrire agli studenti opportunità di stage e di apprendimento sul campo. L'ampia gamma di attività extracurriculari e di progetti culturali contribuisce a stimolare l'interesse degli studenti e a promuovere lo sviluppo delle loro competenze trasversali. L'impegno nell'internazionalizzazione, testimoniato dagli interscambi scolastici con Intercultura e dalla partecipazione a progetti Erasmus+, apre gli studenti a nuove culture e prospettive.\n\n## 4. Debolezze\n\nUn'area di miglioramento riguarda la didattica orientativa, dove l'enfasi sulle lezioni frontali e le visite guidate potrebbe essere integrata con attività laboratoriali più strutturate e coinvolgenti. L'assenza di una sezione dedicata all'orientamento rende meno evidente la coerenza e la sistematicità delle azioni intraprese in questo ambito. Inoltre, sebbene siano presenti azioni volte all'inclusione, una loro analisi più approfondita nel presente report avrebbe permesso di valutare compiutamente l'efficacia delle strategie implementate.\n\n## 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare l'aspetto laboratoriale dell'orientamento, integrando attività pratiche che consentano agli studenti di sperimentare direttamente le diverse professioni e di sviluppare le competenze necessarie per affrontare il mondo del lavoro. È inoltre opportuno definire una sezione specifica dedicata all'orientamento all'interno del PTOF, al fine di rendere più chiara e coerente la visione strategica dell'istituto in questo ambito. Un'analisi più dettagliata delle azioni di inclusione permetterebbe di identificare eventuali lacune e di proporre interventi mirati.\n\n## 6. Conclusioni\n\nIl PTOF dell'I.I.S. \"Flacco - Battaglini\" rappresenta un documento programmatico solido e ben strutturato, che evidenzia un impegno significativo nella promozione di un'istruzione di qualità e inclusiva. Pur riconoscendo alcune aree di miglioramento, il PTOF si presenta come uno strumento efficace per guidare l'azione educativa dell'istituto nel triennio 2025-2028."
+}

@@ -1,0 +1,194 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CE1E02500Q",
+    "denominazione": "Istituto Jean Jacques Rousseau",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Aversa",
+    "anno_ptof": "2025-2028",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Viale Della Liberta' 198",
+    "cap": "81031",
+    "email": "istitutojjrousseau@virgilio.it",
+    "pec": "associazinejjrousseau@pec.it",
+    "website": "https//istitutojjrousseau.wixsite.com/w",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento scolastico e professionale. Sebbene si affrontino temi di educazione civica e cittadinanza attiva, manca un focus specifico sull'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Varie",
+      "descrizione_e_metodologia": "Visite a musei, mostre, luoghi di interesse culturale.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Viaggio nella tradizione attraverso arte, storia, musica e poesia.",
+      "target": "Scuole dell'infanzia e primarie"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi Scolastici",
+      "descrizione_e_metodologia": "Celebrazione dell'anno scolastico con performance artistiche e musicali.",
+      "target": "Alunni, insegnanti, genitori"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Promozione della Scuola",
+      "descrizione_e_metodologia": "Apertura della scuola per far conoscere l'ambiente e le attività.",
+      "target": "Prospettivi alunni e genitori"
+    },
+    {
+      "titolo_attivita": "Progetto di educazione alla sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziamento di comportamenti corretti sulla strada.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di tecnologia e informatica",
+      "categoria_principale": "Tecnologia e Coding",
+      "descrizione_e_metodologia": "Sviluppo del pensiero computazionale attraverso il coding.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Attività Extrascolastiche",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e di convivenza in Appennino.",
+      "target": "Alunni delle scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà Internazionale",
+      "descrizione_e_metodologia": "Sostegno a bambini di paesi in via di sviluppo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà Locale",
+      "descrizione_e_metodologia": "Raccolta di generi alimentari per famiglie bisognose.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto per la promozione della lettura",
+      "categoria_principale": "Promozione della Lettura",
+      "descrizione_e_metodologia": "Avvio e consolidamento del piacere della lettura.",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CE1E02500Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Jean Jacques Rousseau** di Aversa, per il triennio 2025-2028. La scuola, di ordine e grado primario, opera in un contesto territoriale non metropolitano della regione Campania. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali. In generale, il PTOF dimostra un impegno nella promozione di attitudini, interessi e nella costruzione del progetto di vita degli studenti, ma presenta alcune lacune nell'attenzione alle transizioni formative e alla prevenzione dell'abbandono scolastico.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento Sezione Dedicata\n\nIl PTOF non prevede una sezione specificamente dedicata all'orientamento scolastico e professionale, sebbene i temi dell'educazione civica e della cittadinanza attiva siano affrontati. Questa assenza rappresenta un punto critico per una pianificazione organica dell'orientamento.\n\n#### 2.2 Partnership\n\nL'istituto vanta collaborazioni con importanti realtà del terzo settore, tra cui **Karis Foundation**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Queste partnership, pari a 3, possono rappresentare un valore aggiunto per l'implementazione di progetti orientativi e per l'ampliamento dell'offerta formativa.\n\n#### 2.3 Finalità\n\nLe finalità del PTOF risultano solide per quanto riguarda lo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, ottenendo un punteggio massimo di 5 per ciascuna di queste aree. Tuttavia, l'attenzione alle transizioni formative risulta meno sviluppata, con un punteggio di 1, e anche le capacità orientative per cogliere le opportunità future presentano un punteggio intermedio di 3.\n\n#### 2.4 Obiettivi\n\nTra gli obiettivi delineati nel PTOF, la continuità territoriale ottiene un punteggio di 3, mentre la riduzione dell'abbandono scolastico e il contrasto al fenomeno NEET sono completamente assenti, con un punteggio di 0. L'attenzione al lifelong learning è presente, ma con un punteggio limitato di 1.\n\n#### 2.5 Azioni di Sistema\n\nLe azioni di sistema previste dal PTOF mostrano un buon livello di attenzione al rapporto scuola-genitori, con un punteggio di 4, e al dialogo tra docenti e studenti, con un punteggio di 3. Il coordinamento dei servizi e il sistema integrato di inclusione e fragilità ottengono un punteggio di 2 e 3 rispettivamente. Manca, invece, un'azione specifica di monitoraggio delle attività, con un punteggio di 0.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa su approcci esperienziali, con un punteggio di 4, e sull'utilizzo di laboratori, con un punteggio di 4. La flessibilità degli spazi e dei tempi didattici risulta meno sviluppata, con un punteggio di 2, mentre l'interdisciplinarità ottiene un punteggio di 3.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con punteggi compresi tra 2 e 3. Questo suggerisce una varietà di proposte, ma con un potenziale di sviluppo ulteriore.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida attenzione allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, nonché nella presenza di partnership con realtà consolidate del terzo settore. L'impegno nella didattica esperienziale e laboratoriale rappresenta un ulteriore elemento positivo. Tra le attività registrate, il **Progetto Clil**, i **Laboratori esperienziali di matematica** e il **Progetto per la promozione della lettura** si distinguono per la loro valenza educativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento scolastico e professionale rappresenta un'area di debolezza significativa. Inoltre, il PTOF mostra una scarsa attenzione alla prevenzione dell'abbandono scolastico e al contrasto al fenomeno NEET. Il monitoraggio delle azioni orientative è assente, rendendo difficile la valutazione dell'efficacia degli interventi.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una pianificazione strategica dell'orientamento, che integri le diverse azioni e attività in un quadro coerente. È necessario definire obiettivi specifici per la riduzione dell'abbandono scolastico e per il supporto alle transizioni formative. L'implementazione di un sistema di monitoraggio delle attività orientative consentirebbe di valutare l'impatto degli interventi e di apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Jean Jacques Rousseau presenta un buon punto di partenza per lo sviluppo di un'offerta orientativa efficace. Tuttavia, è necessario colmare le lacune individuate, in particolare per quanto riguarda la pianificazione strategica dell'orientamento, la prevenzione dell'abbandono scolastico e il monitoraggio delle attività. Un maggiore focus su questi aspetti consentirebbe di migliorare la qualità dell'offerta formativa e di garantire un futuro più solido per gli studenti. Attività come **Donacibo** e **Adozioni a distanza** dimostrano un forte impegno sociale, che potrebbe essere integrato in un percorso di orientamento più ampio."
+}

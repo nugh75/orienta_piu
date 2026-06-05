@@ -1,0 +1,348 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BGEE892045",
+    "denominazione": "Zogno",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Zogno",
+    "anno_ptof": "2024-2027",
+    "provincia": "Bergamo",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Centro 3",
+    "cap": "24019",
+    "email": "bgic89200x@istruzione.it",
+    "pec": "ND",
+    "website": "www.iczogno.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente in diverse attività, manca una sezione dedicata e strutturata con un titolo esplicito."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti locali",
+        "Istituzioni",
+        "Associazioni genitori",
+        "Studenti",
+        "A.S.D. Atletica Valle Brembana",
+        "A.S.D. Pallavolo Zogno",
+        "Sci club Valserina",
+        "Sci club Roncobello",
+        "New Wushu Karatè Brambilla",
+        "A.S.D. Zognese Calcio",
+        "Bergamo Scienza",
+        "SMI Group",
+        "Fondazione Dalmine",
+        "Enjoyski",
+        "Goethe Institut",
+        "UniCredit",
+        "Bergamo Sviluppo",
+        "Comune di Zogno",
+        "enti sportivi locali",
+        "Carabinieri",
+        "Polizia locale",
+        "parrocchie",
+        "consultorio",
+        "case di cura",
+        "aziende del territorio",
+        "RBBG",
+        "Istituto Paleocapa",
+        "Istituto Majorana",
+        "Istituto Fantoni",
+        "Liceo Mascheroni",
+        "Ufficio Scolastico Territoriale"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Attivo prima dell'obbligatorietà",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto sportivo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attivo",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Progetto sport e disabilità",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attivo",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Progetto legalità",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attivo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di madrelingua",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Finalizzati a certificazioni",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "A scuola dai fiumi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezione in classe, uscita sul fiume, analisi in laboratorio",
+      "target": "Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Uscita geologica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso guidato dal geologo lungo la valle Brembana",
+      "target": "Liceo Scientifico/Sportivo"
+    },
+    {
+      "titolo_attivita": "Bridge",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Gioco per il potenziamento delle competenze",
+      "target": "Studenti/Docenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di matematica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Gara interna per la partecipazione alle selezioni provinciali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "PCTO - Impresa formativa simulata",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Simulazione di imprese virtuali",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Interventi specifici per insegnare metodo di studio",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Esami Cambridge, DELF, DELE, Goethe",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto madrelingua inglese e francese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Incontri con native speakers",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Soggiorni studio all'estero",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Insegnamento discipline non linguistiche in lingua straniera",
+      "target": "Studenti Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Apprendimento lingue extraeuropee",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi di cinese e giapponese",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Percorso propedeutico didattica museale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Visite a musei e narrazione in lingua straniera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Imparare le lingue con il teatro",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Visione di spettacoli teatrali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Mobilità internazionale studentesca",
+      "categoria_principale": "Mobilità Internazionale",
+      "descrizione_e_metodologia": "Organizzazione periodi studio all'estero secondo direttive UE e nazionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Erasmus Plus",
+      "categoria_principale": "Mobilità Internazionale",
+      "descrizione_e_metodologia": "Partecipazione al programma Erasmus+ per sviluppo personale e professionale.",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Sguardi incrociati sul mondo del lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di sensibilizzazione sulla realtà economica e sociale.",
+      "target": "Alunni dei Licei"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Europea Attiva",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Seminari presso l'Accademia Europea di Otzenhausen.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi di istruzione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse culturale, sociale e storico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto scuola Amica",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Affiancamento studenti con BES",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza e accompagnamento",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto studenti stranieri",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Sportello di consulenza/accompagnamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Consulenza individuale per docenti sull'uso di soluzioni digitali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Workshop e attività PNSD",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Organizzazione di laboratori per la comunità scolastica",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Interventi formativi Carabinieri/Polizia Locale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Incontri con studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione enti locali",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Interventi educativi",
+      "target": "Studenti con problematiche"
+    },
+    {
+      "titolo_attivita": "Prestito libri RBBG",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Prestito libri",
+      "target": "Studenti e utenti esterni"
+    },
+    {
+      "titolo_attivita": "Progetto Fiumi",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto GIS",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Amica",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BGEE892045\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Zogno - Poscante\" (ID scuola BGEE892045) per il triennio 2024-2027. La scuola, statale, situata nel comune di Zogno, provincia di Bergamo, regione Lombardia, dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le opzioni facoltative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento è presente in diverse attività scolastiche, tuttavia manca una sezione esplicitamente dedicata e strutturata con un titolo specifico. Questo aspetto rappresenta un'area di miglioramento per una maggiore chiarezza e visibilità dell'impegno scolastico in questo ambito.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di partnership, con ben 30 partner nominati, tra cui **enti locali**, **istituzioni**, **associazioni genitori**, **studenti**, diverse **A.S.D.** sportive (**Atletica Valle Brembana**, **Pallavolo Zogno**, **Sci club Valserina**, **Sci club Roncobello**, **New Wushu Karatè Brambilla**, **Zognese Calcio**), **Bergamo Scienza**, **SMI Group**, **Fondazione Dalmine**, **Enjoyski**, **Goethe Institut**, **UniCredit**, **Bergamo Sviluppo**, il **Comune di Zogno**, **enti sportivi locali**, **Carabinieri**, **Polizia locale**, **parrocchie**, **consultorio**, **case di cura**, **aziende del territorio**, **RBBG**, **Istituto Paleocapa**, **Istituto Majorana**, **Istituto Fantoni**, **Liceo Mascheroni** e l'**Ufficio Scolastico Territoriale**. Questa ricca rete di collaborazioni rappresenta un punto di forza significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, **progetto di vita**, la preparazione alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità**. Tutti questi aspetti ricevono un punteggio elevato, evidenziando una chiara visione degli obiettivi educativi.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità territoriale, sul contrasto al fenomeno dei **NEET** e sul sostegno al **lifelong learning**. Anche in questo caso, i punteggi ottenuti sono buoni, indicando un allineamento tra obiettivi e strategie.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. L'attenzione all'inclusione e al coordinamento dei servizi rappresenta un elemento distintivo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'enfasi sull'esperienza pratica e sulla flessibilità didattica è positiva.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende proposte **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** educative, nell'attenzione all'**inclusione** e nella diversificazione dell'offerta didattica attraverso le attività opzionali. L'impegno verso il **lifelong learning** e la riduzione dell'**abbandono scolastico** sono ulteriori elementi positivi. Le attività registrate, come il **PCTO**, i progetti **sportivi**, **legalità**, i **corsi di madrelingua** e le uscite didattiche, testimoniano un approccio proattivo e diversificato.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, con un titolo esplicito e una struttura definita. Questo potrebbe limitare la visibilità e l'efficacia delle iniziative intraprese.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è la formalizzazione di una sezione dedicata all'orientamento nel PTOF, che integri le diverse attività e iniziative in un quadro coerente e strutturato. Questo consentirebbe di rafforzare l'impegno della scuola verso l'orientamento e di monitorare più efficacemente i risultati ottenuti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria \"Zogno - Poscante\" dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle **finalità** e degli **obiettivi**. Pur presentando alcune aree di miglioramento, in particolare per quanto riguarda la strutturazione di una sezione dedicata, la scuola si pone come un punto di riferimento per l'orientamento nel territorio, offrendo agli studenti opportunità di crescita e di sviluppo delle proprie potenzialità."
+}

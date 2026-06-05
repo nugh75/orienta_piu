@@ -1,0 +1,268 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSIS028006",
+    "denominazione": "Iis Cetraro Lc-Isa-Ita-Itt-Ls-Ipsia-",
+    "tipo_scuola": "Liceo, Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cetraro",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Marinella",
+    "cap": "87022",
+    "email": "csis028006@istruzione.it",
+    "pec": "csis028006@pec.istruzione.it",
+    "website": "https://ictizianaweiss.edu.it/comitato-genitori/",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività integrative",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Interventi educativi, formazione, supporto psicologico, inclusione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria, secondaria"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura e Integrazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento in Uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti per scelta scolastica e professionale.",
+      "target": "Alunni classi terze secondaria"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività promozione comunità educante",
+      "categoria_principale": "Coinvolgimento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in attività",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti integrati",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Progetti con associazioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Educazione Interculturale",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSIS028006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'**Iis Cetraro Lc-Isa-Itt-Ls-Ipsia-** (CSIS028006), con particolare attenzione alla sezione dedicata all'orientamento. L'istituto, situato in **Calabria** e operante in un contesto di **territorio non metropolitano**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una **sezione dedicata** con un punteggio massimo di 5. Il PTOF evidenzia una solida rete di **partnership** con diversi soggetti del territorio, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, **musei**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione **\"Giardino Felice\"**, la Cooperativa **(SIS Giotti)**, l'**IRCCS Burlo Garofolo**, **Altre scuole**, **Altre associazioni o cooperative**, **Autonomie locali** e l'**ASL**. Le finalità dell'orientamento sono ben definite, con particolare attenzione alle **attitudini**, agli **interessi**, al **progetto di vita** e alle **transizioni formative** degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Come già accennato, la presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, ottenendo un punteggio di 5.\n\n**2.2 Partnership:** L'istituto vanta un elevato numero di partnership (16), dimostrando una forte capacità di collaborare con il territorio. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate adeguate in tutte le aree considerate, con punteggi di 4 per **attitudini**, **interessi**, **progetto di vita** e **capacità orientative** e un punteggio di 5 per le **transizioni formative**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi, con punteggi massimi per la riduzione dell'**abbandono** scolastico e punteggi di 4 per la continuità con il **territorio** e il contrasto al fenomeno dei **NEET**. L'obiettivo del **lifelong learning** risulta meno prioritario, con un punteggio di 1.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con punteggi di 4 per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni**, e punteggi di 5 per il **rapporto scuola-genitori** e l'implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci diversi, con punteggi di 3 per l'apprendimento **da esperienza** degli studenti e l'**interdisciplinarità**, ma punteggi inferiori (2) per la didattica **laboratoriale** e la **flessibilità** di spazi e tempi.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata, con punteggi di 3 per le opzionali **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** e nella definizione di obiettivi ambiziosi, in particolare per la riduzione dell'**abbandono** scolastico. L'impegno verso l'inclusione e il coinvolgimento delle famiglie è un ulteriore elemento positivo. Le attività registrate, come **\"Attività di ampliamento curricolare\"**, **\"Collaborazione con associazioni del territorio\"** e il **\"Programma Benessere\"**, dimostrano un approccio proattivo e orientato al benessere degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la didattica orientativa, che necessita di maggiore attenzione alla **laboratorialità** e alla **flessibilità** degli spazi e dei tempi. L'obiettivo del **lifelong learning** sembra meno prioritario rispetto agli altri.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di potenziare le attività didattiche orientative, rendendole più pratiche e coinvolgenti per gli studenti. È inoltre auspicabile una maggiore attenzione alla promozione del **lifelong learning**, al fine di preparare gli studenti ad affrontare le sfide del mondo del lavoro in continua evoluzione.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Iis Cetraro Lc-Isa-Itt-Ls-Ipsia-** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la solida rete di **partnership** e la chiarezza delle **finalità** rappresentano elementi di forza. Tuttavia, è necessario potenziare la didattica orientativa e dare maggiore attenzione al **lifelong learning** per garantire un'offerta formativa completa ed efficace. Le attività registrate, come **\"Orientamento in Uscita\"**, **\"Formazione del personale\"** e **\"Progetto di istituto per l'inclusione\"**, testimoniano l'impegno dell'istituto verso l'orientamento e l'inclusione degli studenti."
+}

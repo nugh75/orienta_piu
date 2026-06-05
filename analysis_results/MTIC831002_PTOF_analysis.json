@@ -1,0 +1,331 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTIC831002",
+    "denominazione": "I.C.\"L. Milani\"-Policoro N. 1",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Policoro",
+    "anno_ptof": "2022-2025",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Puglia 4",
+    "cap": "75025",
+    "email": "mtic831002@istruzione.it",
+    "pec": "mtic831002@pec.istruzione.it",
+    "website": "www.icmilanipolicoro.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Museo della Siritide",
+        "Circolo Velico lucano",
+        "WWF",
+        "biblioteca comunale",
+        "Interno",
+        "Esterno",
+        "WWF Nazionale",
+        "WWF Locale",
+        "Università di Basilicata",
+        "Università di Firenze",
+        "Istituto IIS Pitagora",
+        "ENFOR",
+        "Associazione Musicale A. Vessella",
+        "Associazione Sportiva Kodokan Lucania",
+        "Fondazione Orchestra Sinfonica di Matera",
+        "Ser. T. di Policoro",
+        "USP",
+        "USR",
+        "MIUR",
+        "Scuole"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite al Museo della Siritide",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite guidate e laboratori didattici",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Uscite al Circolo Velico",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Introduzione alla vela e attività pratiche",
+      "target": "Classi della scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Scambiamo Buone prassi",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Scambio di esperienze tra docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi ad Indirizzo Musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività canore e strumentali, continuità con scuole Infanzia/Primaria",
+      "target": "Alunni Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "ForZA CAMPIONI - SCUOLA ATTIVA",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motorie e sportive specifiche",
+      "target": "Alunni Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Certificazione Trinity/Nice To Meet You",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Attività di ascolto, comprensione e produzione in lingua inglese",
+      "target": "Alunni Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetti Letterari",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Attività di lettura e scrittura creativa",
+      "target": "Alunni Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetti Scientifico-Matematici",
+      "categoria_principale": "Scienze/Matematica",
+      "descrizione_e_metodologia": "Attività di osservazione scientifica e risoluzione problemi",
+      "target": "Alunni Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Certificazione Informatica PEKIT/Coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività informatiche e coding",
+      "target": "Alunni Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "B.I.S.A.",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Analisi di situazioni per tradurle in termini matematici",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "SOS...Terra chiama Eram",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Osservazione scientifica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Quando c'è di mezzo il mare",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Attività di osservazione",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Nutriamoci. Cibo e emozioni",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Attività di osservazione",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Logica...mente",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Risoluzione di problemi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sommo e recupero",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Risoluzione di problemi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Problem Solving",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Risoluzione di problemi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Matematica senza frontiere",
+      "categoria_principale": "Scientifico-Matematico",
+      "descrizione_e_metodologia": "Risoluzione di problemi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Certificazione Informatica P.E.K.I.T.",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Attività informatiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Coding",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Attività informatiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Educazione all'Affettività",
+      "categoria_principale": "Affettivo-Relazionale",
+      "descrizione_e_metodologia": "Laboratori emozionali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Coloriamo il nostro futuro",
+      "categoria_principale": "Cittadinanza e Costituzione",
+      "descrizione_e_metodologia": "Lettura e analisi articoli Costituzione",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Prendiamoci cura del Creato",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione, laboratori, approfondimenti su sostenibilità.",
+      "target": "Studenti, Personale scolastico, Famiglie"
+    },
+    {
+      "titolo_attivita": "Aula Natura",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Attività laboratoriali all'aperto con WWF per biodiversità e ambiente.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recupero e potenziamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività mirate al raggiungimento obiettivi minimi e potenziamento capacità",
+      "target": "Studenti con difficoltà/meritevoli"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività per favorire l'inclusione studenti con BES/disabilità",
+      "target": "Studenti con BES/disabilità"
+    },
+    {
+      "titolo_attivita": "Progetto Judo For Children",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Realizzazione del Progetto “Judo For Children” con Associazione Sportiva Kodokan Lucania",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Musica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Diffusione della lingua e cultura Portoghese tramite gemellaggi con scuole del Portogallo e del Brasile",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuole Sicure",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Accordo di Rete Scuole Sicure",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Formazione docenti neo-assunti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione, peer review, comunità di pratiche, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Collaborazione con Ser. T. di Policoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione ATA - Contratti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, laboratori, formazione online",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione ATA - Emergenza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Attività in presenza, laboratori",
+      "target": "Personale Collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTIC831002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C.\"L. Milani\"-Policoro N. 1 (MTIC831002) per il triennio 2022-2025. L'istituto, situato in Basilicata, si configura come un comprensivo che abbraccia i gradi di infanzia, primaria, secondaria di primo e secondo grado. L'analisi evidenzia una solida attenzione all'orientamento, con una sezione dedicata ben strutturata e un'ampia rete di **partnership** attivate. I punteggi ottenuti nelle diverse dimensioni dell'orientamento indicano un impegno significativo nel supportare gli studenti nelle loro scelte formative e professionali, con particolare attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 4, il che conferma l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di collaborazioni con numerosi partner, tra cui il **Museo della Siritide**, il **Circolo Velico lucano**, il **WWF**, la **biblioteca comunale**, diverse università (**Università di Basilicata** e **Università di Firenze**), l'**Istituto IIS Pitagora**, **ENFOR**, l'**Associazione Musicale A. Vessella**, l'**Associazione Sportiva Kodokan Lucania**, la **Fondazione Orchestra Sinfonica di Matera**, **Ser. T. di Policoro**, **USP**, **USR**, **MIUR** e altre **Scuole**. Questo elevato numero di partnership (20) rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi e il progetto di vita degli studenti, oltre a supportarli nelle transizioni formative e a fornire loro le capacità orientative necessarie per affrontare le opportunità del mondo del lavoro. Il punteggio di 4 per ciascuna di queste finalità, ad eccezione delle transizioni formative (punteggio 2), suggerisce un buon allineamento con le esigenze degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione NEET e sulla promozione del lifelong learning, tutti con un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e un sistema integrato di inclusione e fragilità, con punteggi elevati in tutte le aree.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con punteggi che vanno da 3 a 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende ambiti culturali, laboratoriali ed espressivi, ludici e ricreativi, di volontariato e sportivi, tutti con un punteggio di 4.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, l'ampia rete di **partnership** attivate, la chiarezza delle finalità e degli obiettivi, l'attenzione alle azioni di sistema e la varietà dell'offerta didattica e delle attività opzionali. Particolarmente degna di nota è l'attenzione all'inclusione e alla fragilità, con un punteggio di 5. Le attività pratiche come **Visite al Museo della Siritide** e **Uscite al Circolo Velico** offrono esperienze dirette agli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nelle finalità relative alle **transizioni formative**, che ottengono un punteggio inferiore (2). Questo suggerisce la necessità di rafforzare le azioni volte a supportare gli studenti nel passaggio tra i diversi gradi di istruzione e nel loro ingresso nel mondo del lavoro.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra le finalità dichiarate e le azioni concrete volte a facilitare le transizioni formative degli studenti. Potrebbe essere utile implementare attività specifiche di orientamento universitario e professionale, come stage, tirocini e incontri con esperti del settore.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C.\"L. Milani\"-Policoro N. 1 dimostra un forte impegno verso l'orientamento, con una solida base teorica e una vasta gamma di attività pratiche. L'istituto si avvale di una ricca rete di **partnership** e pone grande attenzione all'inclusione e alla fragilità. Pur riconoscendo l'importanza delle finalità relative alle transizioni formative, è necessario rafforzare le azioni concrete in questo ambito per garantire un supporto completo agli studenti nel loro percorso di crescita e di sviluppo. Attività come **Certificazione Trinity/Nice To Meet You**, **Progetti Letterari** e **Progetti Scientifico-Matematici** arricchiscono l'offerta formativa. L'impegno nella **Transizione Ecologica** con progetti come **Prendiamoci cura del Creato** e **Aula Natura** dimostra una sensibilità verso le tematiche ambientali."
+}

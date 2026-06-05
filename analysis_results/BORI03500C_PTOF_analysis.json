@@ -1,0 +1,352 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "BORI03500C",
+    "denominazione": "Istituto Salesiano Beata Vergine Di San Luca",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2025-2028",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V. Jacopo Della Quercia 1",
+    "cap": "40128",
+    "email": "segreteria.bolognabv@salesiani.it",
+    "pec": "segreteria.isbvsl@pec.it",
+    "website": "www.istitutocolasanto.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "ITS Puma",
+        "Enti di formazione professionale riconosciuti dalla Regione Puglia",
+        "CNEAP Hauts-de-France",
+        "Istituti Francesi",
+        "Istituti Svedesi",
+        "Istituti Sloveni",
+        "Aziende",
+        "Strutture pubbliche",
+        "Centri di volontariato sociale",
+        "FAI",
+        "ADMO",
+        "ADISCO",
+        "AVIS",
+        "Croce Rossa Italiana",
+        "SAPERECOOP",
+        "Lion’s Club",
+        "CLUB ALPINO ITALIANO",
+        "Librerie Mondadori Bookstore di Andria",
+        "QLOUD Scuola",
+        "cooperative sociali",
+        "aziende presenti sul territorio",
+        "ASL",
+        "enti presenti sul territorio"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 6
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso quadriennale Design della Comunicazione Visiva e Pubblicitaria",
+      "categoria_principale": "Orientamento/Formazione Professionale",
+      "descrizione_e_metodologia": "Correlato con l'ITS Puma",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curvatura Operatore Sportivo-Sanitario e della Riabilitazione",
+      "categoria_principale": "Orientamento/Formazione Professionale",
+      "descrizione_e_metodologia": "Potenziamento discipline e nuovo laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+ KA122-SCH",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e personale per sviluppo competenze linguistiche, digitali, sostenibilità e identità europea.",
+      "target": "Studenti e personale"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+ KA210-VET",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Small-scale partnerships per sviluppo competenze e mobilità giovanile.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Espressivo-Riabilitativo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di linguaggi non verbali come strumenti terapeutici",
+      "target": "Studenti curvatura"
+    },
+    {
+      "titolo_attivita": "Progetti con ITS Puma",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Attività pratiche in azienda",
+      "target": "Studenti curvatura"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze in aziende, strutture pubbliche e centri di volontariato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori professionalizzanti",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppare competenze specifiche",
+      "target": "Studenti professionali"
+    },
+    {
+      "titolo_attivita": "Formazione Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l’orientamento con aziende del territorio.",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Catalogazione (Digitale)",
+      "categoria_principale": "Biblioteca",
+      "descrizione_e_metodologia": "Utilizzo software Qloud Scuola, coinvolgimento studenti a rischio dispersione",
+      "target": "Studenti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Prestito Bibliotecario Scolastico (Digitale)",
+      "categoria_principale": "Biblioteca",
+      "descrizione_e_metodologia": "Gestione informatizzata prestiti tramite Qloud.scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "#Ioleggoperché2025",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Partecipazione al progetto nazionale, eventi in libreria",
+      "target": "Studenti, docenti, cittadinanza"
+    },
+    {
+      "titolo_attivita": "Silent Reading Party",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Lettura silenziosa in biblioteca con snack",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Creazione Pagina Instagram Biblioteca",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Creazione e gestione pagina Instagram",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola, Sport e Disabilità",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento alle pratiche sportive normali e speciali. Cooperative learning, Tutoring.",
+      "target": "Alunni diversamente abili"
+    },
+    {
+      "titolo_attivita": "Laboratorio Creativo",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Giochi di ruolo, uso creativo delle mani. Role play, Tutoring.",
+      "target": "Alunni diversamente abili"
+    },
+    {
+      "titolo_attivita": "Partecipazione Campionati Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Organizzazione di gare/tornei interni, partecipazione a gare provinciali/regionali/nazionali.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Partecipazione al Progetto Sport Scuola e Disabilità",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Programmazione attività scolastica in collaborazione con tecnici.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Partecipazione al Progetto La Fitav Incontra La Scuola",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Lezioni teoriche e pratiche presso struttura FITAV.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Tableaux Vivants",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Reinterpretazione opere d'arte con materiali riciclo, cooperative learning",
+      "target": "Liceo Artistico"
+    },
+    {
+      "titolo_attivita": "Sulle Tracce Di Banksy",
+      "categoria_principale": "Arte e Tecnica",
+      "descrizione_e_metodologia": "Tecnica del murales con spray, studio stencil, cooperative learning",
+      "target": "Liceo Artistico e Grafica"
+    },
+    {
+      "titolo_attivita": "Andria Arte",
+      "categoria_principale": "Arte e Territorio",
+      "descrizione_e_metodologia": "Laboratori artistici, esposizioni in città, incontri associazioni",
+      "target": "Liceo Artistico"
+    },
+    {
+      "titolo_attivita": "Elektrical Art",
+      "categoria_principale": "Arte Urbana",
+      "descrizione_e_metodologia": "Decorazione cassette elettriche con spray, ricerca-azione",
+      "target": "Liceo Artistico"
+    },
+    {
+      "titolo_attivita": "Una Porta … Sull’Arte",
+      "categoria_principale": "Arte e Ambiente Scolastico",
+      "descrizione_e_metodologia": "Decorazione porte aule con riproduzione opere d'arte, role playing",
+      "target": "Liceo Artistico"
+    },
+    {
+      "titolo_attivita": "L’Artificio Scenografico",
+      "categoria_principale": "Scenografia",
+      "descrizione_e_metodologia": "Conoscenza tecniche scenografiche, laboratorio",
+      "target": "Liceo Artistico"
+    },
+    {
+      "titolo_attivita": "Artisti In Panchina",
+      "categoria_principale": "Arte e Arredo Urbano",
+      "descrizione_e_metodologia": "Decorazione panchine in legno, cooperative learning",
+      "target": "Liceo Artistico"
+    },
+    {
+      "titolo_attivita": "Fotografia e Tecnologia: Droni e Riprese Aeree",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Introduzione alla normativa sull'uso dei droni. Lezione pratica e discussione.",
+      "target": "3^ 4^ e 5^ CVP e LICEO ARTISTICO"
+    },
+    {
+      "titolo_attivita": "Fotografia di Ritratto: Psicologia e Tecnica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Scattare ritratti, tecniche illuminazione, discussione fiducia.",
+      "target": "3^ 4^ e 5^ CVP e LICEO ARTISTICO"
+    },
+    {
+      "titolo_attivita": "\"Ciò che la terra dona deve esserle restituito\" - Progetto Murales",
+      "categoria_principale": "Arte/Educazione Civica",
+      "descrizione_e_metodologia": "Realizzazione di murales su sostenibilità e legalità.",
+      "target": "3^ 4^ e 5^ LICEO ARTISTICO"
+    },
+    {
+      "titolo_attivita": "Donne e STEM - Orientarsi per il futuro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contrasto stereotipi genere, opportunità STEM",
+      "target": "Studenti (soprattutto studentesse)"
+    },
+    {
+      "titolo_attivita": "Laboratori di Fabbricazione Digitale e Prototipazione 3D",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Realizzazione pratica di modelli e progetti con stampanti 3D e cutter laser.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di Robotica Educativa",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Programmazione e sviluppo di progetti di robotica con kit specifici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Workstation Olografica 3D",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Creazione e visualizzazione di oggetti olografici per apprendimento immersivo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Comunicazione e AI",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Creazione podcast con supporto IA.",
+      "target": "Docenti e Studenti"
+    },
+    {
+      "titolo_attivita": "Prova simulata di evacuazione",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Esercitazione annuale con popolazione scolastica",
+      "target": "Tutta la popolazione scolastica"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BORI03500C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Salesiano Beata Vergine Di San Luca** (BORI03500C) per il triennio 2025-2028. L'istituto, di tipo **Professionale, Tecnico** e situato nel territorio **Metropolitano** di **Bologna**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. L'attenzione si concentra sulla preparazione degli studenti alle transizioni formative, allo sviluppo delle capacità orientative e all'inserimento nel mondo del lavoro, con un forte legame con il territorio e un'apertura all'internazionalizzazione.\n\n### 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento del PTOF si articola su diverse dimensioni. Per quanto riguarda l'orientamento in sé, è presente una sezione dedicata con un punteggio di 7, indicando un'attenzione specifica a questo aspetto. Il PTOF evidenzia una rete di **partnership** molto ampia e diversificata, con ben 24 partner nominati, tra cui **ITS Puma**, enti di formazione professionale, istituti francesi, svedesi e sloveni, **aziende**, strutture pubbliche, centri di volontariato e associazioni come **FAI**, **ADMO**, **ADISCO**, **AVIS**, **Croce Rossa Italiana**, **SAPERECOOP**, **Lion’s Club**, **CLUB ALPINO ITALIANO**, **Librerie Mondadori Bookstore di Andria**, **QLOUD Scuola**, cooperative sociali e ASL.\n\nLe finalità dell'orientamento sono ben definite, con punteggi elevati (7) per il progetto di vita, le transizioni formative e lo sviluppo delle capacità orientative e delle opportunità. Anche gli obiettivi, come la riduzione dell'abbandono scolastico (5), la continuità territoriale (6), il contrasto alla dispersione NEET (5) e la promozione del lifelong learning (5), sono chiari e mirati. Le azioni previste dal sistema, come il coordinamento dei servizi (5), il dialogo tra docenti e studenti (6), il rapporto scuola-genitori (5), il monitoraggio delle azioni (5) e l'integrazione di servizi per l'inclusione e la fragilità (5), delineano un approccio sistemico all'orientamento.\n\nLa didattica orientativa si basa su metodologie innovative, come l'apprendimento dall'esperienza degli studenti (7), l'utilizzo di laboratori (5), la flessibilità degli spazi e dei tempi (6) e l'interdisciplinarità (7). L'offerta di attività opzionali e facoltative comprende opzioni culturali (5), laboratoriali ed espressive (6), ludiche e ricreative (5), di volontariato (6) e sportive (5).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, che offrono agli studenti opportunità concrete di orientamento e di inserimento nel mondo del lavoro. L'impegno verso l'internazionalizzazione, con i progetti **Erasmus+ KA122-SCH** e **KA210-VET**, amplia gli orizzonti degli studenti e promuove lo sviluppo di competenze interculturali. L'attenzione alla didattica orientativa, basata sull'esperienza, sull'interdisciplinarità e sulla flessibilità, favorisce un apprendimento attivo e significativo. Le attività pratiche come il **Percorso quadriennale Design della Comunicazione Visiva e Pubblicitaria** e la **Curvatura Operatore Sportivo-Sanitario e della Riabilitazione** offrono agli studenti un'esperienza diretta del mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano alcuni punteggi inferiori in ambiti specifici. Gli obiettivi di riduzione dell'abbandono, contrasto alla dispersione NEET e promozione del lifelong learning ottengono un punteggio di 5, suggerendo la necessità di rafforzare le azioni mirate a questi aspetti. Anche alcune azioni del sistema, come il coordinamento dei servizi, il rapporto scuola-genitori e il monitoraggio delle azioni, necessitano di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre i punteggi mediamente buoni in azioni concrete e misurabili. Sebbene il PTOF delinei un quadro generale promettente, è fondamentale definire indicatori specifici per monitorare l'efficacia delle azioni intraprese e valutare il raggiungimento degli obiettivi prefissati. È inoltre importante garantire un maggiore coinvolgimento dei genitori e degli altri stakeholder nel processo di orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Salesiano Beata Vergine Di San Luca** presenta un approccio all'orientamento solido e ben strutturato. La vasta rete di **partnership**, l'impegno verso l'internazionalizzazione e l'attenzione alla didattica innovativa rappresentano punti di forza significativi. Per migliorare ulteriormente l'efficacia del PTOF, è necessario rafforzare le azioni mirate alla riduzione dell'abbandono scolastico, al contrasto alla dispersione NEET e alla promozione del lifelong learning, definire indicatori specifici per il monitoraggio e garantire un maggiore coinvolgimento di tutti gli stakeholder. Le numerose attività proposte, come l'**Alternanza Scuola-Lavoro**, i **laboratori professionalizzanti** e i progetti di **promozione della lettura** (tra cui **#Ioleggoperché2025** e **Silent Reading Party**), dimostrano un impegno concreto verso la crescita e lo sviluppo degli studenti."
+}

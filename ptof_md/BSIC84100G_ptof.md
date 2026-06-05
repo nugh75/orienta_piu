@@ -1,3446 +1,2782 @@
-# Contenuto PTOF: BSIC84100G_PTOF.pdf
+# Contenuto PTOF: VCAA80002C_PTOF.pdf
 
 ## Pagina 1
 
-ISTITUTO SCOLASTICO PARITARIO  "GIUSEPPE PARINI"  LICEO SCIENTIFICO -  LICEO SCIENTIFICO
-Opzione SCIENZE APPLICATE -  LICEO SCIENTIFICO ad indirizzo SPORTIVO - LICEO LINGUISTICO
-COD. MIUR: VEPS00500C (Scientifico) – VEPL4H500R (Linguistico)
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
-Piano Triennale Offerta Formativa
-(Ex art. 1, Comma 14, Legge n. 107/2015)
-Perché se un insegnante non è aperto a imparare, non è un buon insegnante, e non è nemmeno interessante;
-i ragazzi capiscono, hanno ‘fiuto’, e sono attratti dai professori che hanno un pensiero aperto,
-‘incompiuto’, che cercano un ‘di più’, e così contagiano questo atteggiamento agli studenti.
-Questo è il primo motivo per cui amo la scuola
-Papa Francesco
+Ministero dell’Istruzione, dell’Università e della Ricerca
+II Istituto Comprensivo di Palazzolo sull’Oglio
+Via Dogane n. 8 – 25036 Palazzolo sull’Oglio
+Tel. 030731438 – 0307438336
+e-mail: bsic84100g@istruzione.it - bsic84100g@pec.istruzione.it
+sito: www.ic2palazzolosulloglio.gov.it
+
+## Piano Triennale
+
+
+## Dell’Offerta Formativa
+
+Legge 107/2015 - comma 14
+
+## Anni Scolastici 2019-2020
+
+2020-2021
+2021-2022
+DELIBERA N. – 24 Gennaio 2019 – Collegio Docenti Unitario
+DELIBERA N. – 28 Gennaio 2019 – Consiglio d’Istituto
+Non è possibile visualizzare l'immagine.
 
 ---
 
 ## Pagina 2
 
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 2
 
 ## Indice
 
-Il P.T.O.F.     Piano Triennale dell’Offerta Formativa
-pag.  3
-1. L’istituto Scolastico Paritario “Giuseppe Parini”
-pag.  4
-1.1
-La storia dell’Istituto
-pag.  4
-1.2
-I valori fondanti
-pag.  5
-1.3
-L’impegno della Direzione e l’attenzione per lo studente
-pag.  5
-1.4
-Organizzazione generale delle attività
-pag.  6
-1.4.1    Pianificazione della realizzazione del servizio
-pag.  6
-1.4.2    Comunicazione del limite massimo delle ore di assenza
-pag. 11
-1.5
-Dati identificativi dell’Istituto
-pag. 11
-1.6
-Organigramma
-pag. 12
-1.7
-La struttura
-pag. 13
-1.8
-Gli indirizzi di studio attivi
-pag. 14
-1.9
-Pianificazione individuale dei docenti (Dipartimenti)
-pag. 19
 
-## 2. L’Offerta Formativa
+## Premessa
 
-pag. 20
-2.1
-Il Curricolo
-pag. 22
-2.2
-Self enpowerment e inclusività
-pag. 20
-2.3
-Valutazione
-pag. 22
-2.4
-Progetti curricolari
-pag. 26
-2.5
-Ampliamento dell’offerta formativa
-pag. 27
-2.6
-Alternanza scuola lavoro
-pag. 31
-2.7
-Attività internazionali, stage e certificazioni linguistiche
-pag. 34
-2.8
-Progetti sportivi
-pag. 36
-2.9
-Attività riservate
-pag. 37
-2.10
-Educazione alla cittadinanza
-pag. 39
+L’azione educativa
+pag.3
+I principi etici fondamentali
+pag.3
+Le linee d’indirizzo del Dirigente Scolastico
+pag.4
+1. L’organizzazione scolastica
+1.1. La composizione dell’Istituto
+pag.7
+1.2. Le scelte organizzative
+1.2.1. La Scuola dell’Infanzia
+pag.9
+1.2.2. Le Scuole dell’Infanzia dell’Istituto
+pag.11
+1.2.3. La Scuola del Primo Ciclo
+pag.12
+1.2.4. Le Scuole Primarie dell’Istituto
+pag.14
+1.2.5. La Scuola Secondaria di I grado
+pag.15
+1.3. La progettazione d’Istituto
+1.3.1. La programmazione
+pag.18
+1.3.2. Le strategie educative e didattiche
+pag.18
+1.3.3. Le attività trasversali e di supporto all’Offerta Formativa curricolare
+pag.19
+1.3.4. La dimensione europea
+pag.20
+2. Le parole chiave della nostra azione istituzionale
+2.1. Accoglienza e continuità
+pag.23
+2.2. Inclusione e personalizzazione
+pag.24
+2.2.1 Risorse umane
+pag.24
+2.3. Valutazione
+pag.27
+2.3.1. La valutazione nella Scuola dell’Infanzia
+pag.29
+2.3.2. La valutazione nelle Scuole Primaria e Secondaria di I grado
+pag.30
+2.3.3. La valutazione del comportamento
+pag.31
+2.3.4. La valutazione per gli alunni con certificazione
+pag.32
+3. Le scelte di partecipazione, di ricerca, di formazione e di sviluppo
+3.1. La condivisione
+pag.33
+3.2. La formazione
+pag.34
+3.2.1. Iniziative comprese nel piano di formazione-aggiornamento
+pag.34
+3.3. L’autoanalisi
+pag.35
+3.3.1. Il RAV: Rapporto di Auto-Valutazione
+pag.35
+4. Il PDM: Piano di Miglioramento
+4.1. Le scelte strategiche nel triennio 2019-2022
+pag.39
+4.2. Il fabbisogno dell’Istituto
+pag.41
 
-## 3. Miglioramento 2016-2019
+## Conclusione
 
-pag. 41
-3.1
-La mappatura dei processi
-pag. 41
-3.2
-Il P.d.M. - Piano di Miglioramento
-pag. 44
-3.3
-Formazione del personale
-pag. 45
-3.4
-Promozione della partecipazione delle famiglie del territorio
-pag. 46
+pag.42
 
 ---
 
 ## Pagina 3
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 3
-Il Piano Triennale dell’Offerta Formativa
-Il P.T.O.F. - Piano Triennale dell’Offerta Formativa è il documento fondamentale costitutivo dell’identità culturale e
-progettuale della scuola1 ed esplicita la progettazione curricolare, extracurricolare, educativa e organizzativa che la scuola
-adotta nell’ambito della sua autonomia. Il Piano ha valenza triennale perché, a partire dalla descrizione dell’identità venutasi
-a consolidare, individua, attraverso attente procedure valutative, la parte programmatica e gli obiettivi di miglioramento così
-come individuati dal RAV – Rapporto di Autovalutazione e concretizzati dal P.d.M. – Piano di Miglioramento2.
-In questo modo il Piano dell’Offerta Formativa della scuola non è solo la fotografia dell’identità esistente, ma impegna la
-struttura organizzativa della scuola e le sue risorse in modo dinamico verso obiettivi di miglioramento e potenziamento.
-L’azione della dirigenza e di tutte le figure professionali che compongono la comunità scolastica  concorre al raggiungimento
-degli obiettivi prefissati dal PTOF e dal PdM anche in considerazione del principio dell’Autonomia Scolastica3.
-L’offerta formativa dell’Istituto si configura quindi come percorso di ricerca e di sperimentazione volto a proporre ai giovani
-opportunità formative in evoluzione con il radicale mutamento della dimensione storica, economica e sociale del territorio. I
-principi di istruzione ed educazione si attuano in percorsi personalizzati in cui ogni studente, sfruttando e valorizzando i
-le proprie attitudini e i propri talenti, possa maturare specifiche competenze.
-Le opzioni formative dell’Istituto sono sottoposte a continue riorganizzazioni e revisioni, in sintonia con le indicazioni
-ministeriali e utilizzando le opportunità derivanti dalla costante collaborazione con gli Enti Locali, con la realtà produttiva
-del territorio, con l’orientamento universitario. Gli esiti professionali o di conseguimento di titoli di istruzione superiore da
-parte dei diplomati del nostro Istituto confermano la validità delle scelte operate sul piano della formazione umana e sociale.
-Il Piano Triennale dell’Offerta Formativa:
-•
-è stato elaborato dal Collegio dei docenti sulla base degli indirizzi per le attività della scuola e delle scelte di
-gestione e di amministrazione definiti dal dirigente scolastico con proprio atto di indirizzo prot. n°14/Ris.P
-del 13/10/2015;
-•
-è stato approvato dal collegio dei docenti nella seduta del 22/12/2015 e dal consiglio d’istituto nella seduta del
-12/01/2016;
-•
-è pubblicato nel portale della scuola: www.istitutoparini.it
-1Art. 1, c. 14, Legge n. 107 del 13 luglio 2015, recante “Riforma del sistema nazionale di istruzione e formazione e delega per il riordino delle disposizioni normative vigenti”.
-2 Art. 6, c. 1, D.P.R. n. 80 del 28 marzo 2013.
-3 Art.3, D.P.R. n. 275 del 8 marzo 1999.
 
-## Studenti
+## Premessa
 
-P.d.M.
-Piano  di
-Miglioramento
+Compito della scuola è favorire la formazione dell’uomo e del cittadino secondo i principi sanciti dalla
+Costituzione, attraverso la promozione dell’identità, dell’alfabetizzazione, della convivenza, nel
+rispetto e nella valorizzazione delle diversità individuali, sociali, culturali ed etniche.
+Per questo la scuola in ogni suo ordine ha compiti formativi sia sul piano cognitivo, sia su quello
+educativo.
+In quest’ottica il II Istituto Comprensivo di Palazzolo Sull’Oglio propone per tutti gli ordini delle sue
+scuole gli stessi obiettivi educativi, volutamente ampi, che poi ciascuno di essi svilupperà con
+metodologie e strategie consone all’età e alle potenzialità dei propri alunni. La scuola deve diventare
+un laboratorio di “ricerca-azione” perché la società e le sue componenti sono in continua evoluzione
+ed è doveroso che le strutture preposte alla educazione-formazione integrale dell’alunno siano
+sensibili ai mutamenti e provvedano a proporre attività, strumenti e metodologie idonee.
+Alla luce di quanto detto, la scuola, i giovani, le famiglie, le strutture socio-culturali devono essere
+propositivi e collaborativi: dal contributo di tutti deve scaturire un Piano Triennale dell’Offerta
+Formativa che tenga conto sia della finalità essenziale della scuola, ovvero l’istruzione e l’educazione,
+sia dei bisogni dell’utenza.
 
-## P.T.O.F.
+## L’Azione Educativa
 
+Il II Istituto Comprensivo di Palazzolo sull’Oglio intende realizzare la propria azione d’istruzione, di
+formazione e di educazione, nella consapevolezza che tutte le alunne e tutti gli alunni devono essere
+messi nella condizione di:
+ maturare la propria identità personale sotto il profilo corporeo, intellettuale e psicodinamico. Ciò
+richiede e sollecita la crescita nella persona dei necessari atteggiamenti di sicurezza, di fiducia in sé
+e nelle proprie potenzialità, oltre che della motivazione alla curiosità, della capacità di imparare a
+vivere in modo equilibrato e positivo i propri stati affettivi e ad esprimere sentimenti ed emozioni.
+ conquistare l’autonomia allo scopo di pensare ed agire liberamente e consapevolmente. Compito
+della scuola è sostenere l’alunno nel complesso percorso di progressiva acquisizione
+dell’autonomia di giudizio, di scelta, di assunzione di impegni.
+ instaurare relazioni interpersonali positive, con adulti e coetanei. Questo richiede il superamento
+dell’egocentrismo e l’interiorizzazione di norme che consentano la vita di gruppo. L’impegno della
+scuola consiste nel far acquisire una maturazione critica e consapevole nei confronti delle norme
+più semplici, che vanno definite e discusse insieme, per allargare poi l’orizzonte verso le regole
+proprie della convivenza civile, democratica e rispettosa della legalità e giungere infine alla
+consapevolezza delle responsabilità personali.
 
-## R.A.V.
+## I Principi Etici Fondamentali
 
-Rapporto di
-Autovalutazione
-
-## Azione E
-
-
-## Proiezione Del
-
-Riflession
-
-## Famiglie
-
-Definizione
-delle priorità
-
-## Territorio
-
+I principi etici a cui tutte le scuole dell’Istituto ispirano la loro azione educativa sono i seguenti:
+ uguaglianza, nella convinzione che nell’erogazione del servizio scolastico, non debba essere
+compiuta nessuna discriminazione di genere, etnia, lingua, religione, opinioni politiche, condizioni
+psicofisiche e socioeconomiche.
+ imparzialità e regolarità, perché la scuola deve agire secondo criteri di obiettività ed equità,
+garantendo la regolarità e la continuità del servizio.
+ accoglienza e integrazione, dal momento che occorre favorire l’accoglienza dei genitori e degli
+alunni, assicurando l’inserimento e l’integrazione di questi ultimi.
 
 ---
 
 ## Pagina 4
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 4
-1. L’Istituto scolastico paritario “Giuseppe Parini”
-1.1 Storia dell’Istituto
-L’Istituto scolastico paritario “Giuseppe Parini” è una scuola secondaria di secondo grado pubblica non statale, soggetta alle
-disposizioni del MIUR – Ministero dell’Istruzione, dell’Università e della Ricerca e pertanto abilitata al rilascio dei titoli di
-diploma di istruzione liceale.
-È una scuola libera e laica, affiliata all’ANINSEI – Associazione nazionale istituti non statali di educazione e istruzione,
-affiliata a Confindustria.
-L’Istituto “Giuseppe Parini” nasce nel 1937, quando il Provveditorato agli Studi di Venezia   lo riconosce come ente di
-formazione per la preparazione di studenti lavoratori. Ripresa l’attività dopo la guerra, nel 1947 vengono aperte le iscrizioni
-all’Istituto Tecnico per Geometri, il primo del territorio.
-Presto il Parini diventa un punto di riferimento nel veneziano, tanto che dopo il 1969, con la liberalizzazione dell’accesso
-all’università, si aprono le iscrizioni al Liceo scientifico (che otterrà il riconoscimento legale nel 1975) e all’Istituto Tecnico
-per Ragionieri (1972).
-Nel 2000 l’Istituto ottiene la parità scolastica, diventando di fatto «scuola pubblica non statale» in base ai requisiti
-previsti dalla legge 62/2000, che stabilisce condizioni comuni a scuole statali e paritarie per il rilascio dei titoli di studio.
-Sette anni più tardi, il Parini consegue la certificazione per il Sistema Gestione Qualità ISO 9001: 2000, impegnandosi a
-mantenere standard qualitativi di erogazione del servizio adeguati alla  normativa europea.
-Sempre attento ai mutamenti sociali e alle richieste dell’utenza, negli anni il Parini ha aperto nuovi corsi di studio, come
-l’Opzione Scienze Applicate e l’Indirizzo Sportivo per il Liceo Scientifico, e il Liceo Linguistico. In oltre settant’anni di
-storia, più di 16.000 giovani hanno conseguito il diploma al Parini.
-Forte di una tradizione che gli ha conferito crescente prestigio, l’Istituto gode di una gestione sempre attenta ai cambiamenti
-sociali e culturali del suo tempo, confermandosi un’istituzione culturale solida e al tempo stesso dinamica.
-Alla crescente esigenza di qualità di una scuola dinamica, moderna, inserita dialetticamente nel territorio e in grado di
-promuoverne la crescita, rispondono i nostri percorsi scolastici innovativi, differenziati, autonomi, di significativo spessore
-culturale.
-Indirizzi di studio attivati (2016/2019)
-Proposta di nuovi indirizzi di studio (dal 2017/2018)
-Liceo scientifico
-Liceo scientifico Opzione Scienze Applicate
-LIQ - Liceo Internazionale Quadriennale
-Liceo Scientifico a Indirizzo Sportivo
-Istituto Tecnico Turistico
-Liceo Linguistico
+ partecipazione, efficienza e trasparenza, affinché tutti gli interlocutori del mondo scolastico
+possano essere protagonisti responsabili dell’attuazione dell’Offerta Formativa attraverso una
+gestione compartecipata e condivisa. L’attività scolastica si uniforma a criteri di efficienza, efficacia
+e flessibilità nella volontà di rispondere apertamente alle esigenze dell’utenza.
+ autonomia didattica, declinando una programmazione che assicuri il rispetto della libertà di
+insegnamento dei docenti e, nel contempo, garantisca la formazione dell’alunno, sviluppandone le
+potenzialità individuali. In tal senso, l’aggiornamento e la formazione costituiscono un impegno per
+tutto il personale scolastico e un compito per l’Amministrazione.
+
+## Le Linee D’Indirizzo Del Dirigente Scolastico
+
+Sulla base delle premesse fin qui espresse, l’Istituto per il triennio 2019-20, 2020-21, 2021-22, ha
+formulato i seguenti indirizzi per le attività della scuola e le scelte di gestione e di amministrazione:
+1. Adeguare il Piano dell’Offerta Formativa al Piano Triennale dell’Offerta Formativa previsto dai nuovi
+Ordinamenti, in coerenza con gli obiettivi di cui al comma 7 della Legge 107/2015.
+2. Promuovere e implementare l’identità dell’Istituto Comprensivo, nella sua accezione di verticalità
+formativa e didattica, secondo i principi già espressi nel Rapporto di Autovalutazione.
+3. Favorire una gestione equilibrata, condivisa e distribuita, attraverso la definizione del nuovo
+funzionigramma e del relativo sistema di deleghe.
+4. Sviluppare un sistema di controllo dei processi mediante la definizione di metodi e strumenti
+destinati alla funzionalità dello stesso, ossia l’istituzione e la messa a regime di coordinamenti e
+presìdi, così come la diffusione di modelli univoci di rendicontazione.
+5. Incoraggiare e sostenere la cultura della valutazione in un’ottica di miglioramento della qualità del
+servizio, promuovendo a tal fine la crescita professionale di tutto il personale docente e non
+docente, anche e soprattutto verso la responsabilità degli esiti educativi e di apprendimento degli
+alunni (successo formativo e progetto di vita), attraverso l’autoanalisi e la metacognizione sulle
+pratiche educative, didattiche e gestionali; allo stesso modo, sollecitare la presa d’atto e
+l’acquisizione del nuovo regolamento sul sistema nazionale di valutazione, in materia di istruzione e
+formazione, Dlgs n. 62/2017, ai fini dell’implementazione del Piano di miglioramento della qualità
+dell'offerta formativa e degli apprendimenti, nonché della valutazione dell'efficienza e l'efficacia del
+sistema educativo di istruzione e formazione.
+6. Favorire la qualificazione progressiva del personale attraverso le seguenti azioni prioritarie:
+a) pianificazione di un percorso di formazione e aggiornamento che migliori gradualmente le
+metodologie e gli ambienti di insegnamento-apprendimento;
+b) incoraggiamento delle pratiche di autoformazione e di disseminazione delle buone prassi,
+secondo il principio della socializzazione delle conoscenze e delle esperienze;
+c) ottimizzazione dei piani di lavoro;
+d) implementazione di un archivio delle buone pratiche;
+e) attivazione di meccanismi meritocratici, intrinseci ed estrinseci.
+7. Diffondere la cultura di rete come prospettiva di lavoro e di cooperazione attiva nella gestione
+dell’istituzione scolastica, ritenendo imprescindibili:
+a) la partecipazione a Reti di scuole e a tavoli interistituzionali;
+b) la programmazione integrata con gli EE.LL.;
+c) il patto territoriale con l’utenza e l’associazionismo.
+Agli Enti Locali, in particolare, si chiederà di intervenire gradualmente, ma con sistematicità
+sull’edilizia scolastica, nell’ottica del costante adeguamento strutturale degli spazi e degli ambienti
+destinati all’attività curricolare ed extracurricolare, per assicurare la rispondenza degli edifici alle
+esigenze di un Istituto in progressiva crescita, sia nei numeri, sia nelle proposte formative offerte
+all’utenza, in linea di continuità con l’attuazione di una scuola aperta, accogliente e di qualità.
 
 ---
 
 ## Pagina 5
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 5
-1.2 I valori fondanti
-Costruire l’identità
-L’Istituto scolastico paritario “Giuseppe Parini” favorisce e promuove lo sviluppo equilibrato della personalità, la coscienza
-della propria identità e della propria unicità, attraverso la valorizzazione dei talenti, l’esercizio dell’autonomia e del senso
-critico.
-Fare società
-L’Istituto sostiene e persegue la dimensione civile ed etica del cittadino, il rispetto della persona e dell’ambiente, il confronto
-con l’altro e i valori della legalità e del pluralismo.
-Imparare a imparare
-Una formazione orientata al proseguimento degli studi o all’ingresso nel mondo del lavoro passa attraverso l’acquisizione
-dell’indispensabile strumento dell’autonomia, che il Parini si impegna a promuovere favorendo lo sviluppo delle potenzialità
-e la costruzione dell’autostima.
-Saper fare
-Il Parini fornisce allo studente i mezzi idonei a conseguire versatilità, capacità di confronto con le culture, di avvalersi delle
-nuove tecnologie, di affrontare situazioni sempre nuove e sviluppare la progettualità attraverso il lavoro individuale e in
-gruppo.
-Costruire il futuro
-In conformità con i curricoli nazionali, l’Istituto si impegna a privilegiare il valore formativo e culturale dell’istruzione, nella
-consapevolezza che la cultura, intesa come apertura alla complessità e alla varietà del mondo, sia requisito indispensabile alla
-costruzione del futuro.
-1.3 L’impegno della Direzione e l’attenzione per lo studente
-L'interlocutore primo dell’Istituto “Giuseppe Parini” è lo studente, unitamente alla famiglia, al territorio, alle Istituzioni
-scolastiche, agli Enti, alle Associazioni ed agli Ordini e Collegi professionali. Svolgendo un servizio pubblico, le nostre
-attività sono rivolte ai singoli utenti, ma tale servizio ha effetto in modo determinante anche sul contesto socio-culturale e
-territoriale.
-Il nostro impegno è migliorare progressivamente il servizio offerto agli utenti, in modo che risulti alto il loro grado di
-soddisfazione. A tal fine l’Istituto “Giuseppe Parini” persegue le seguenti politiche d’intervento:
-
-Capacità di comprensione e di confronto con le esigenze degli utenti
-
-Attività di promozione e sostegno dell’Utente, con azioni di formazione mirate
-
-Massima disponibilità nel fornire informazioni all’utenza, sia attraverso le consuete attività di segreteria sia
-attraverso il sito web dell’Istituto
-
-Massima attenzione alla realtà socio culturale del bacino dell’utenza
-
-Ricerca di partnership qualificate per soddisfare le necessità dell’utenza
-
-Attenzione all’evoluzione ed alle dinamiche culturali che sottendono gli aspetti dello sviluppo territoriale
-
-Massima disponibilità, competenza e professionalità da parte di tutto il personale
-
-Rispetto della normativa generale e specifica del settore scolastico
-
-Impiego di docenti qualificati e con provata esperienza.
-La Direzione, consapevole dell’importanza dell’immagine dell’Istituto nell’ambito del territorio di riferimento e puntando al
-raggiungimento degli obiettivi qualitativi nella gestione dei processi e nell’erogazione dei servizi, intende proseguire nel
-miglioramento continuo dell’Offerta Formativa. In tale ottica, l’Istituto intende:
-
-Incrementare la cultura della trasparenza e della qualità, mettendo a disposizione del personale e degli utenti il
-PTOF, il RAV, il PdM, promuovendo azioni mirate di formazione e di coinvolgimento del personale
-
-Garantire le risorse (umane, economiche, strutturali ed ambientali) necessarie al funzionamento delle attività
-formative
-
-Definire, condividere e perseguire gli obiettivi per la gestione delle attività programmate, ottimizzando le risorse
-al fine di rispondere agli obiettivi del PTOF
-
-Perseguire l’efficienza del servizio e la soddisfazione degli utenti
+8. Promuovere la “cultura della sicurezza”, attivando, nel rispetto della normativa vigente, appositi
+corsi di formazione in materia di tutela della salute e della sicurezza nei luoghi di lavoro in favore
+degli studenti, secondo quanto disposto dal Dlgs 81/2008.
+9. Rendere possibili azioni di Fund Raising, attraverso la ricerca e la determinazione di contributi
+volontari e di erogazioni liberali che possano agevolare l’arricchimento dell’offerta formativa delle
+alunne e degli alunni, anche attraverso dotazioni strutturali e infrastrutturali rispondenti alle
+esigenze formative e didattiche.
+10. Promuovere l’innovazione digitale e la didattica laboratoriale, perseguendo:
+a) lo sviluppo delle competenze digitali delle studentesse e degli studenti;
+b) l’installazione di attrezzature o l’adeguamento della dotazione didattica e laboratoriale;
+c) l’adozione di libri di testo digitali;
+d) la formazione del personale con riferimento all’innovazione didattica, organizzativa e
+amministrativa.
+11. Migliorare la progettazione curriculare, la programmazione didattica e le strategie di valutazione in
+un contesto scolastico da intendere sempre più fortemente come luogo di ricerca e di
+sperimentazione costanti, orientando l’azione verso:
+a) l’assunzione delle life skills (OMS) e delle otto competenze chiave per l’apprendimento
+permanente e di cittadinanza (CE 2006) come mete orientative dell’intero percorso del I ciclo
+dell’istruzione;
+b) la messa a punto del curricolo verticale e trasversale, in coerenza con gli obiettivi generali
+declinati nelle indicazioni nazionali, in una prospettiva di sussidiarietà circolare.
+12. Predisporre nuovi ambienti di apprendimento, di cui affinare gradualmente:
+a) la dimensione organizzativa, avvalendosi
+ della flessibilità e della modularità di tempi e spazi, in orizzontale e in verticale;
+ delle classi aperte e dei gruppi di livello;
+ delle occasioni di recupero e di potenziamento;
+b) la dimensione metodologica, promuovendo
+ la pratica della didattica laboratoriale;
+ l’uso delle ICT e della didattica in rete;
+ l’applicazione degli strumenti di individualizzazione e di personalizzazione;
+c) la dimensione relazionale, valorizzando
+ la cura della relazione educativa;
+ la realizzazione delle pratiche inclusive;
+ la declinazione di esperienze di cittadinanza attiva.
+13. Sostenere le politiche inclusive e ottimizzare le pratiche di personalizzazione dei percorsi formativi,
+intendendo valorizzare le doti di tutti e di ciascuno, attraverso proposte curriculari ed
+extracurriculari significative, quali:
+ attività espressive, musicali, sportive, pratico-operative;
+ certificazioni linguistiche;
+ informatiche;
+ linguistiche;
+ partecipazione a giochi e concorsi.
+14.  Mettere a sistema i percorsi di continuità e di orientamento, mediante:
+a) la promozione e la progettazione di percorsi formativi e informativi di accoglienza, continuità,
+orientamento-stage;
+b) la partecipazione a bandi e la sottoscrizione di accordi di rete in continuità con il II ciclo
+dell’istruzione ai fini del raccordo e della verticalizzazione del curricolo.
+15. Implementare i sistemi di digitalizzazione dei processi organizzativi e amministrativi già esistenti,
+operando per:
+a) l’ottimizzazione della segreteria digitale;
+b) la procedimentalizzazione dei processi;
 
 ---
 
 ## Pagina 6
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 6
-
-Coinvolgere integralmente le risorse umane, valorizzandone competenze, capacità professionali e attitudini,
-favorendone la formazione e l’aggiornamento continuo;
-
-Favorire i rapporti comunicativi e relazionali, migliorando l’attività didattica e rendendo efficiente
-l’organizzazione, al fine di rispondere in maniera soddisfacente ai bisogni dell’utente;
-
-Sviluppare il senso di responsabilità di tutto il personale e dell’utenza stessa;
-
-Verificare sistematicamente la quotidiana attività, mediante controlli costanti che costituiscono il fondamento
-indispensabile per il miglioramento continuo;
-
-Verificare annualmente, attraverso il RAV e il PdM, la corretta attuazione della Politica e degli obiettivi qualitativi
-e, conseguentemente, effettuare il riesame sistematico dei contenuti di tali documenti al fine di perseguire il
-miglioramento continuo dell’azione organizzativa e formativa della scuola.
-La gestione delle risorse costituisce parte integrante della strategia della Direzione orientata al successo durevole. Col
-termine risorse intendiamo il complesso dei fattori che concorrono al conseguimento degli obiettivi dell’organizzazione.
-Il Piano adottato dall’’Istituto "Giuseppe Parini" è l’insieme della struttura organizzativa, delle procedure, dei processi, delle
-risorse e delle attività che, in armonia con le politiche dell’Istituto, mirano alla soddisfazione dell’Utente.
-L’Istituto ha identificato e determinato i processi necessari per la gestione delle attività distinguendoli in:
-
-Processi Direttivi: riguardano gli indirizzi e il coordinamento delle attività didattiche e gestionali;
-
-Processi Primari: descrivono le attività che hanno il maggior impatto sul risultato dei servizi dell’Istituto e danno
-valore aggiunto ai servizi forniti;
-
-Processi di Supporto: descrivono la gestione delle risorse documentali, umane, infrastrutturali e le regole di
-monitoraggio e miglioramento dei risultati previsti.
-In particolare sono considerate, determinate e pianificate le seguenti attività:
-
-Il rispetto delle leggi e dei regolamenti
-
-L’attribuzione delle responsabilità e delle autorità
-
-La formazione e l’aggiornamento professionale
-
-La disponibilità di adeguate risorse (mezzi e personale qualificato)
-
-I processi necessari per il sistema di gestione e di tutte le attività operative
-
-Il sistema di interazioni dei principali processi
-
-I punti di controllo e verifica necessari
-
-L’individuazione di efficienti sistemi di misurazione analisi e miglioramento dell’efficacia dei servizi
-
-L’aggiornamento delle tecniche del controllo della qualità
-
-Un’adeguata supervisione di tutte le attività.
-1.4 Organizzazione generale delle attività
-1.4.1 Pianificazione della realizzazione del servizio
-I processi fondamentali di realizzazione del servizio che l’Istituto  “Giuseppe Parini” ha identificato e pianificato per
-assicurare la conformità finale del servizio erogato, nel rispetto dei requisiti espressi ed impliciti dell’Utente, sono:
-A) Il processo relativo ai contatti con l’Utente in fase di acquisizione servizi con l’individuazione delle esigenze, la
-definizione dell’offerta, il riesame dei requisiti concordati con l’Utente, la verifica della fattibilità del servizio.
-B) La progettazione e lo sviluppo con la definizione del servizio formativo, delle specifiche del servizio, delle specifiche di
-erogazione del servizio (risorse, mezzi, modalità operative di erogazione), delle specifiche di controllo del servizio e delle
-attività inerenti la sua realizzazione, al fine di garantire che i risultati della progettazione siano coerenti e soddisfino i requisiti
-pattuiti con l’Utente.
-C) Il processo di selezione e valutazione dei fornitori di servizi e di mezzi, l’approvvigionamento e la definizione
-delle specifiche e dei dati d’acquisto, compresa la sorveglianza sul mantenimento dei requisiti.
-D) ll processo di erogazione dei servizi all’utente con la definizione di specifiche istruzioni operative; la registrazione delle
-principali attività su appositi supporti elettronici e/o cartacei; la ricezione, il trattamento e la riconsegna del materiale di
-proprietà dell’utente affidato all’Istituto; l’archiviazione e la consegna dei documenti e degli elaborati  prodotti dall’ Istituto
-“Giuseppe Parini”.
-E) Il processo di valutazione e controllo del servizio che, a partire dalle fasi intermedie delle attività fino al termine del
-processo di erogazione, consentono di valutare la conformità degli elaborati e/o dei servizi prodotti in riferimento a tutti gli
-elementi qualitativi ed ai risultati ottenuti. I principali processi individuati dall’Istituto “Giuseppe Parini” sono riportati
-nella“Mappatura dei Processi”.
+c) l’individuazione dei responsabili dei procedimenti e la formalizzazione di ruoli, compiti e
+funzioni;
+d) l’implementazione dei mezzi di comunicazione istituzionale telematica (sito web, mailing list,
+segreteria digitale;
+e) la definizione di razionali sistemi di gestione e di controllo;
+f) l’adeguamento documentale periodico secondo le indicazioni del Regolamento UE 679/2016;
+Inoltre, con riferimento alla comunicazione multimediale, s’intende raggiungere efficacemente “il
+mondo esterno”, in modo da pubblicizzare le azioni, le esperienze e le iniziative effettuate dall’Istituto,
+acquisendo informazioni e pareri circa la qualità del servizio erogato all’utenza. Per soddisfare la
+necessità di riscontri bidirezionali, scuola-famiglia e viceversa, si lavorerà affinché sia ottimizzato in tal
+senso l’uso del sito web e del registro elettronico.
+In conclusione, l’elaborazione del Piano Triennale dell’Offerta Formativa del II Istituto Comprensivo di
+Palazzolo sull’Oglio e la sua declinazione operativa, dal 2019 al 2022, non potrà prescindere dalle
+esigenze formative già individuate ed espresse nel Rapporto di Autovalutazione, perseguendo una
+selezione attenta e mirata degli obiettivi formativi indicati nel comma 7 della legge 107/2015, ossia:
+a) valorizzazione e potenziamento delle competenze linguistiche e utilizzo della metodologia CLIL;
+b) potenziamento delle competenze matematico-logiche e scientifiche;
+c) potenziamento delle competenze nella pratica e nella cultura musicali, nell’arte e nella storia
+dell’arte, nel cinema, nelle tecniche e nei media di produzione e di diffusione delle immagini e dei
+suoni;
+d) sviluppo delle competenze in materia di cittadinanza attiva e democratica attraverso la
+valorizzazione dell’educazione interculturale e alla pace, il rispetto delle differenze e il dialogo tra le
+culture;
+e) sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto della legalità e della
+sostenibilità ambientale;
+f) alfabetizzazione all’arte, alle tecniche e ai media di produzione e diffusione delle immagini;
+g) potenziamento delle discipline motorie e sviluppo di comportamenti ispirati ad uno stile di vita sano;
+h) sviluppo delle competenze digitali delle studentesse e degli studenti;
+i) potenziamento delle metodologie laboratoriali e delle attività di laboratorio;
+l) prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione e del bullismo,
+anche informatico, nonché potenziamento dell’inclusione scolastica e del diritto allo studio degli
+alunni con bisogni educativi speciali attraverso percorsi individualizzati e personalizzati;
+m) valorizzazione della scuola intesa come comunità attiva, aperta al territorio e in grado di sviluppare
+e aumentare l’interazione con le famiglie e la comunità locale;
+n) apertura pomeridiana delle scuole e riduzione del numero di alunne e alunni per classe o per
+articolazione di gruppi di classi;
+p) valorizzazione di percorsi formativi individualizzati;
+q) individuazione di percorsi funzionali alla premialità e alla valorizzazione del merito delle studentesse
+e degli studenti;
+r) alfabetizzazione e perfezionamento dell’italiano come lingua seconda attraverso corsi e laboratori per
+studenti di cittadinanza o di lingua non italiana;
+s) definizione di un sistema di orientamento.
 
 ---
 
 ## Pagina 7
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 7
-Processi relativi all’Utente
-Le richieste e/o le esigenze di nuovi servizi da parte degli Utenti sono costantemente recepite ed aggiornate da parte del
-Legale Rappresentante, del Direttore Generale e del Coordinatore Didattico, con la collaborazione del Vice
-Coordinatore Didattico e lo Staff di Presidenza, a mezzo di:
-•
-Aggiornamento continuo sulle nuove possibilità e/o indirizzi con ampliamenti dell’offerta formativa;
-•
-Incontri di orientamento con le scuole medie per recepire le richieste di possibili nuovi Utenti;
-•
-Informazioni di ritorno fornite dal responsabile per l’orientamento in entrata, relativamente ai risultati sulla
-soddisfazione degli Utenti e sulle eventuali richieste di ampliamento/miglioramento dei servizi offerti;
-•
-Informazioni di ritorno relativamente alle esigenze espresse dal territorio (Università, Associazioni di Categoria,
-Famiglie, ecc.).
-I documenti contrattuali sono:
-•
-Piano Triennale dell’Offerta Formativa
-•
-Patto Educativo di Corresponsabilità
-•
-Regolamento di Istituto
-•
-Statuto delle Studentesse e degli Studenti
-•
-Piano Annuale per l’Inclusione
-•
-Rapporto di Autovalutazione
-•
-Piano di Miglioramento
-Le relazioni con gli Utenti sono tenute dal Legale Rappresentante, dal Direttore Generale e dal Coordinatore Didattico fin
-dalla fase dell’individuazione ed analisi delle richieste. Le comunicazioni relative all’erogazione del servizio sono curate dai
-docenti e dagli operatori interessati.
-La Segreteria cura:
-•
-La trasmissione di tutte le circolari informative predisposte;
-•
-La diffusione delle informazioni sui servizi che l’Istituto è in grado di fornire e le relative modalità di erogazione;
-•
-Le informazioni relative alle attività di miglioramento continuo avviate dall’Istituto, per far sì che i servizi erogati
-siano sempre più affini alle attese ed alle esigenze esplicite ed implicite dell’Utente;
-•
-Le informazioni relative all’aggiornamento costante della documentazione cartacea e/o elettronica relativa alla
-gamma dei servizi offerti;
-•
-Le modalità di gestione delle richieste dell’Utente;
-•
-Le modalità di gestione di tutti i documenti contrattuali;
-•
-Il recepimento dei reclami, delle richieste e delle segnalazioni per il miglioramento del servizio, effettuati
-dall’Utente, anche sulla base delle informazioni fornite dal responsabile per la qualità, dai docenti e da quanti
-interessati.
-Progettazione e sviluppo
-L’Istituto  “Giuseppe Parini” ha definito le attività essenziali della progettazione e sviluppo: pianificazione, elementi in
-ingresso, elementi in uscita,  verifiche, validazione, gestione delle modifiche, al fine di soddisfare i requisiti dell’utente e del
-servizio richiesti.
-Pianificazione della progettazione e sviluppo
-’Istituto “Giuseppe Parini” ha definito nella procedura “Progettazione e sviluppo” le responsabilità e le modalità adottate
-per garantire che, nella fase di pianificazione della progettazione, siano stabilite:
-•
-la definizione dei responsabili di progetto e dei collaboratori;
-•
-la scomposizione in fasi della progettazione e dello sviluppo del servizio didattico;
-•
-l’individuazione delle attività di riesame, di verifica e di validazione necessarie  alla  progettazione e sviluppo del
-servizio didattico.
-In particolare l’Istituto “Giuseppe Parini” assicura in questa fase la comunicazione e la trasmissione delle informazioni tra i
-diversi soggetti coinvolti sia nel singolo progetto che nei progetti nel loro insieme, così come definiti nel piano dell’offerta
-formativa e negli altri documenti di Pianificazione dell’Istituto.
+
+## 1. L’Organizzazione Scolastica
+
+
+## 1.1 La Composizione Dell’Istituto
+
+Il II Istituto Comprensivo di Palazzolo sull’Oglio è stato costituito l’1 Settembre 2013 ed è così
+composto:
+
+due plessi di Scuola dell’Infanzia;
+
+due plessi di Scuola Primaria;
+
+un plesso di Scuola Secondaria di I grado.
+La Dirigenza e gli uffici di Segreteria hanno sede presso la Scuola Secondaria di I grado, in via
+Dogane 8, a Palazzolo sull’Oglio.
+L’Istituto Comprensivo aggrega in un solo organismo le Scuole dell’Infanzia, Primarie e Secondaria di
+I grado, con una sola Presidenza, un solo Consiglio di Istituto, un Collegio dei Docenti Unitario.
+Pertanto, pur riconoscendo ad ogni plesso la propria specificità organizzativa e gestionale, anche in
+relazione alla differente dislocazione sul territorio e ai bisogni particolari dell’utenza, tutti gli
+insegnanti fanno parte di un unico Collegio dei Docenti e le decisioni relative alle scelte educative e
+didattiche sono condivise nell’ottica dell’orizzontalità di grado e della verticalità d’Istituto.
+Il Piano dell’Offerta Formativa è dunque unico: i principi e le linee guida a cui si ispira, così come le
+finalità che intende perseguire, sono comuni, nella consapevolezza delle diverse e specifiche strutture
+organizzative della Scuola dell’Infanzia, della Scuola Primaria e della Scuola Secondaria di I grado.
+Denominazione plessi
+Codice
+Meccanografico
+Comune
+Indirizzo
+Alunni
+
+## Ii Ic Palazzolo S/O
+
+
+## Bsic84100G
+
+
+## Palazzolo S/O
+
+
+## Via Dogane 8 Sede
+
+
+## A.S.
+
+2018-19
+
+## Infanzia Mura
+
+
+## Bsaa84101C
+
+
+## Palazzolo S/O
+
+Via Franco Bonari
+108
+
+## Infanzia San Rocco
+
+
+## Bsaa84102D
+
+
+## Palazzolo S/O
+
+Via Gardale
+100
+
+## Primaria Mura
+
+
+## Bsee84101N
+
+
+## Palazzolo S/O
+
+Piazzale Mazzini
+270
+
+## Primaria San Rocco
+
+
+## Bsee84102P
+
+
+## Palazzolo S/O
+
+Via Fratelli Marzoli
+152
+
+## Secondaria Di I Grado
+
+
+## Bsmm84101L
+
+
+## Palazzolo S/O
+
+Via Dogane
+248
+La popolazione scolastica:
+Nel corrente anno scolastico 2018/2019 sono iscritti n. 878 alunni distribuiti su 46 classi.
+Oltre al Dirigente scolastico di ruolo dal 30 Giugno 2014, l’organico docente ed amministrativo
+dell’Istituto all’inizio dell’esercizio finanziario risulta essere costituito da 115 unità.
+
+## Dirigente Scolastico
+
+Dott.ssa Gusmini Barbara
+
+## Direttore Dei Servizi Generali Ed Amministrativi
+
+Dott. Raineri Luca
+
+## Unità
+
+
+## Personale Docente
+
+94
+
+## Personale Ata
+
+21
+
+## Totale 115
+
 
 ---
 
 ## Pagina 8
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 8
-La verifica e la validazione della progettazione e sviluppo hanno scopi distinti. Tali attività possono essere condotte e
-registrate separatamente o in qualunque combinazione appropriata al servizio e all’organizzazione dell’Istituto.
-Gli elaborati progettuali relativi alla pianificazione della progettazione sono tenuti in controllo dal responsabile progetti che
-ne cura il costante aggiornamento, anche durante la fase di sviluppo dei progetti stessi.
-Elementi in uscita dalla progettazione e sviluppo
-Le “Schede di progettazione” consentono la verifica degli elementi in uscita dalla progettazione con gli elementi in ingresso
-e sono approvate prima dell’emissione dal responsabile di progetto incaricato.
-Il “Quadro generale dei Progetti” è aggiornato dal Responsabile Progetti e fornisce il quadro d’insieme dei progetti avviati
-dall’Istituto. In particolare gli elementi in uscita dalla progettazione danno evidenza della capacità dell’Istituto  “Giuseppe
-Parini” di:
-•
-Soddisfare i requisiti in ingresso alla progettazione ed allo sviluppo;
-•
-Garantire le informazioni sulla necessità di utilizzare risorse esterne (fornitori qualificati), mezzi e/o risorse
-economiche e per la definizione delle specifiche di erogazione del servizio ;
-•
-Definire gli obiettivi ed i criteri di accettazione dei servizi;
-•
-Precisare le caratteristiche del servizio necessarie per il raggiungimento degli obiettivi prefissati.
-Verifiche della progettazione e dello sviluppo
-L’Istituto  “Giuseppe Parini” pianifica ed esegue opportune verifiche della progettazione e dello sviluppo finalizzate a:
-•
-confrontare i risultati delle attività di progettazione ed i dati e requisiti specificati in ingresso, al fine di assicurarne
-l’adeguatezza.
-•
-registrare i risultati delle verifiche e delle incongruenze e/o carenze riscontrate, nonché le soluzioni adottate per
-eliminare tali incongruenze e/o carenze.
-Processo di approvvigionamento
-L’Istituto  “Giuseppe Parini” considera prioritaria la selezione e la qualificazione dei fornitori di prodotti, materiali, mezzi e
-servizi, in quanto importanti per la qualità del servizio erogato.
-Fin dalla fase contrattuale o nel corso della progettazione/erogazione del servizio, l’Istituto “Giuseppe Parini” può avvalersi
-di servizi specialistici, non disponibili all'interno della propria struttura.
-L'acquisizione di servizi esterni avviene solo nel caso in cui siano rispettate dai fornitori le specifiche previste in progetto
-e/o servizio ed è preceduta, laddove sia ritenuto necessario, da un’attività di valutazione/qualificazione dei fornitori stessi.
-Identificazione e rintracciabilità
-L’Istituto “Giuseppe Parini” dispone di un sistema documentato che permette di identificare, anche a distanza di tempo la
-tipologia, la natura e le risorse impiegate nel servizio. A tal fine sono individuate due attività principali:
-•
-Identificazione: è il sistema che permette di identificare in maniera univoca il servizio e le risorse impiegate in
-qualsiasi fase del processo in cui si trovi nel corso della realizzazione del servizio;
-•
-Rintracciabilità: è la possibilità di ricostruire la storia di un servizio e di seguirne lo sviluppo mediante opportuna
-documentazione.
-Il sistema d’identificazione adottato dall’Istituto “Giuseppe Parini” permette il riconoscimento di ciascun servizio erogato
-agli studenti, in qualsiasi fase del processo in cui si trovi, per mezzo della registrazione dei dati relativi nel “Cartella
-personale” dell’allievo.
-La cartella riporta:
-•
-Nome e cognome dell’allievo
-•
-Numero di matricola
-Il sistema consente, inoltre, di identificare ciascuna fase di erogazione del servizio scolastico nei seguenti documenti:
-•
-Classi funzionanti (ad ogni classe è assegnata una sigla identificativa con la sezione e l’indirizzo di studio)
-•
-Distribuzione delle cattedre ( ad ogni docente sono assegnate le classi, le materie e le ore di lezione)
-•
-Orario scolastico
-•
-Assegnazione delle classi alle aule
-•
-Elenco degli allievi suddivisi per classe
-Il Direttore Generale, in accordo con il Coordinatore Didattico, per quanto attiene gli incarichi al personale non docente,
-individua:
-•
-i servizi da attivare in istituto
+
+## Plessi Dell’Istituto
+
+Scuola dell’Infanzia “G. Rodari”
+Scuola dell’Infanzia San Rocco
+Scuola Primaria “G. A. Galignani”
+Scuola Primaria San Rocco
+Scuola Secondaria di I grado                                                                Sede della Dirigenza
+“M.L. King”                                                                         e degli Uffici di Segreteria
 
 ---
 
 ## Pagina 9
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 9
-•
-i criteri per la predisposizione del personale ai servizi da erogare
-•
-le modalità di utilizzo  dell’orario di lavoro
-•
-le attività aggiuntive
-I servizi erogati sono rintracciabili attraverso i seguenti documenti:
-•
-Registro di classe (permette di identificare per ogni ora di lezione il docente, la materia, gli alunni presenti ed
-assenti)
-•
-Registro personale del docente (permette di identificare per ogni ora di lezione svolta gli alunni presenti ed assenti,
-i contenuti disciplinari svolti, le valutazioni degli allievi relative alle prove scritte e orali)
-•
-Registro Elettronico
-•
-Libro dei Verbali del Consiglio di Classe, integrato dalla componente studenti e genitori (permette di ricostruire la
-storia della classe, l’insieme delle attività progettate e realizzate nel corso dell’anno scolastico, problemi significativi
-di natura disciplinare e didattica. In seduta ristretta, valutazioni periodiche individuali)
-•
-Piano annuale del CdC (permette di ricostruire la storia della classe, gli obiettivi trasversali e didattici, le
-metodologie e gli strumenti, i criteri di valutazione, i tempi e i modi di attuazione)
-•
-Piani di Lavoro individuali dei docenti (sulla base delle elaborazioni per aree disciplinari sono sviluppati i contenuti
-del Piano di lavoro del CdC)
-•
-Programmi preventivi e consuntivi per disciplina
-•
-Unità Formative di Apprendimento (I° Biennio)
-•
-Relazioni finali dei docenti (rendicontano le attività svolte segnalando il livello di effettivo raggiungimento degli
-obiettivi stabiliti e/o eventuali scostamenti)
-•
-Registro dei verbali degli scrutini (raccoglie la trascrizione puntuale delle operazioni di valutazione periodica e
-finale degli alunni)
-•
-Tabelloni dei risultati degli scrutini (pubblica gli esiti dei risultati dello scrutinio relativamente agli alunni ammessi
-alla classe successiva)
-•
-Elaborati scritti eseguiti in classe dagli alunni (documentano le competenze raggiunte)
-Documenti relativi alla progettazione (permettono di individuare il livello di raggiungimento degli obiettivi definiti a
-progetto e la rendicontazione delle attività svolte).
-La documentazione è archiviata e conservata nei luoghi definiti nella “Mappa degli archivi dell’Istituto”, in modo da
-permettere la ricostruzione in qualsiasi momento, anche a distanza di tempo, della storia degli interventi.
-Proprietà dell’utente
-L’Istituto “Giuseppe Parini” ha definito le modalità che garantiscono la salvaguardia dell’incolumità degli allievi che lo
-frequentano  e le modalità di intervento in caso di infortunio e/o indisposizione degli stessi.
-Il “Documento della valutazione dei rischi” definito all’interno del sistema di sicurezza adottato dall’Istituto e disciplinato
-dal D. Lgs. n°. 81/2008 e s.m.i. “Testo unico sulla salute e sicurezza sul lavoro” è descritto dal Piano di Sicurezza e dal Piano di
-Valutazione dei rischi redatto in conformità alla normativa di riferimento.
-L’Istituto “Giuseppe Parini” conserva nella cartella personale degli studenti, tutto il materiale di proprietà dell’utente affidato
-all’Istituto ed, in particolare, il Diploma originale rilasciato dalle Scuole Medie e ne garantisce la corretta conservazione. Lo
-studente ha diritto di avere accesso e copia degli atti sé riguardanti, ma non di ricevere la documentazione originale (R.D. n°
-653/1925).
-L’Istituto “Giuseppe Parini”  garantisce la tutela dei dati personali (196/03 - privacy) secondo le modalità descritte
-nell’apposito DPS (Documento programmatico della Sicurezza).
-Conservazione dei servizi
-L’Istituto “Giuseppe Parini” ha definito le modalità per la conservazione e la consegna dei documenti prodotti, al fine di
-impedirne lo smarrimento, il danneggiamento o il deterioramento, per tutto il tempo previsto dalla normativa in vigore  e/o
-dal contratto sottoscritto con l’utente.
-Tutti i documenti cartacei prodotti:
-•
-Registro di Classe
-•
-Registro personale del Docente
-•
-Registri dei Verbali del Consiglio di Classe
-•
-Verbale delle operazioni di scrutinio
-•
-Tabellone dei risultati degli scrutini
-•
-Elaborati scritti eseguiti in classe dagli alunni
+
+## 1.2 Le Scelte Organizzative
+
+
+## 1.2.1 La Scuola Dell’Infanzia
+
+
+## Ordinamenti
+
+La scuola dell’infanzia è aperta a tutti i bambini italiani e stranieri che abbiano un'età compresa fra i tre e i cinque
+anni compiuti entro il 31 dicembre. Ha durata triennale e non è obbligatoria.
+Questo primo segmento del percorso di istruzione concorre all’educazione e allo sviluppo affettivo, psicomotorio,
+cognitivo, morale, religioso e sociale dei bambini promuovendone le potenzialità di relazione, autonomia,
+creatività, apprendimento, e ad assicurare un’effettiva eguaglianza delle opportunità educative. Nel rispetto della
+primaria responsabilità educativa dei genitori, la scuola dell’infanzia contribuisce alla formazione integrale dei
+bambini e, nella sua autonomia e unitarietà didattica e pedagogica, realizza la continuità educativa con la scuola
+primaria (art. 2 legge n. 53 del 28 marzo 2003).
+Possono iscriversi alla scuola dell’infanzia i bambini che compiono tre anni di età entro il 30 aprile dell’anno
+scolastico di riferimento. Tale possibilità è, comunque, subordinata alle seguenti condizioni previste dall’articolo 2
+del Regolamento (DPR 89/2009):
+a) disponibilità dei posti;
+b) accertamento dell'avvenuto esaurimento di eventuali liste di attesa;
+c) disponibilità di locali e dotazioni idonei sotto il profilo dell'agibilità e funzionalità, tali da rispondere alle diverse
+esigenze dei bambini di età inferiore a tre anni;
+d) valutazione pedagogica e didattica, da parte del collegio dei docenti, dei tempi e delle modalità dell'accoglienza.
+L'orario di funzionamento della scuola dell'infanzia è stabilito in 40 ore settimanali, con possibilità di estensione
+fino a 50 ore. Le famiglie possono richiedere un tempo scuola ridotto, limitato alla sola fascia del mattino, per
+complessive 25 ore settimanali (art. 2, DPR 89/2009).
+
+## Ambiente Di Apprendimento
+
+Il curricolo della scuola dell’infanzia non coincide con la sola organizzazione delle attività didattiche che si
+realizzano nella sezione e nelle intersezioni, negli spazi esterni, nei laboratori, negli ambienti di vita comune, ma si
+esplica in un’equilibrata integrazione di momenti di cura, di relazione, di apprendimento, dove le stesse routine
+svolgono una funzione di regolazione dei ritmi della giornata e si offrono come “base sicura” per nuove esperienze
+e nuove sollecitazioni. L’apprendimento avviene attraverso l’azione, l’esplorazione, il contatto con gli oggetti, la
+natura, l’arte, il territorio in una dimensione ludica da intendersi come forma tipica di relazione e di conoscenza.
+Nel gioco, particolarmente in quello simbolico, i bambini si esprimono, raccontano, rielaborano in modo creativo le
+esperienze personali e sociali. Nella relazione educativa, gli insegnanti svolgono una funzione di mediazione e di
+facilitazione e, nel fare propria la ricerca dei bambini, li aiutano a pensare e a riflettere meglio, sollecitandoli a
+osservare, descrivere, narrare, fare ipotesi, dare e chiedere spiegazioni in contesti cooperativi e di confronto
+diffuso.
+L’organizzazione degli spazi e dei tempi diventa elemento di qualità pedagogica dell’ambiente e educativo e
+pertanto deve essere oggetto di esplicita progettazione e verifica. In particolare: lo spazio dovrà essere
+accogliente, caldo, ben curato, orientato dal gusto estetico, espressione della pedagogia e delle scelte educative di
+ciascuna scuola. Lo spazio parla dei bambini, del loro valore, dei loro bisogni di gioco, di movimento, di
+espressione, di intimità e di socialità, attraverso l’ambientazione fisica, la scelta di arredamenti e oggetti volti a
+creare un luogo funzionale e invitante; -il tempo disteso consente al bambino di vivere con serenità la propria
+giornata, di giocare, esplorare, parlare, capire, sentirsi padroni di sé e delle attività che sperimenta e nelle quali si
+esercita. L’osservazione, nelle sue diverse modalità, rappresenta uno strumento fondamentale per conoscere e
+accompagnare il bambino in tutte le sue dimensioni di sviluppo, rispettandone l’originalità, l’unicità, le potenzialità
+attraverso un atteggiamento di ascolto, empatia e rassicurazione. La pratica della documentazione va intesa come
+processo che produce tracce, memoria e riflessione negli adulti e nei bambini, rendendo visibili le modalità e i
+percorsi di formazione e permettendo di apprezzare i progressi dell’apprendimento individuale e di gruppo.
+L’attività di valutazione nella scuola dell’infanzia risponde ad una funzione di carattere formativo che riconosce,
+accompagna, descrive e documenta i processi di crescita, evita di classificare e giudicare le prestazioni dei
+bambini, perché orientata a esplorare e incoraggiare lo sviluppo di tutte le loro potenzialità. Analogamente, per
+l’istituzione scolastica, le pratiche dell’autovalutazione, della valutazione esterna, della rendicontazione sociale,
+sono volte al miglioramento continuo della qualità educativa.
+Nella scuola dell’infanzia i traguardi per lo sviluppo della competenza suggeriscono all’insegnante orientamenti,
+attenzioni e responsabilità nel creare piste di lavoro per organizzare attività ed esperienze volte a promuovere la
+competenza, che a questa età, va intesa in modo globale e unitario.
 
 ---
 
 ## Pagina 10
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 10
-•
-Documenti degli esami integrativi, di idoneità e di Stato
-sono conservati in appositi archivi come  definito nella “Mappa degli Archivi dell’Istituto”.
-I documenti relativi agli Esami di Stato sono raccolti e conservati secondo le modalità previste dalla normativa in vigore.
-Tenuta sotto controllo delle apparecchiature di monitoraggio e di misurazione
-Gli strumenti per la misurazione delle caratteristiche dei servizi erogati dall’Istituto “Giuseppe Parini” consentono il
-controllo dell’erogazione del servizio e la messa a punto di metodi appositi per la misurazione dello stesso.
-La misurazione dell’erogazione del servizio si effettua tramite i seguenti strumenti:
-•
-verifica dell’avanzamento della programmazione (attraverso i CdC fissati nel calendario scolastico),
-•
-verifiche di ingresso per aree disciplinari e per indirizzo di studi
-•
-test e prove di verifica sull’apprendimento degli alunni (come fissato dal programma del CdC)
-•
-tabella con le proposte di voto da utilizzare in sede di scrutinio trimestrale e finale
-•
-questionari che consentono di conoscere la valutazione del servizio da parte degli studenti, docenti, personale non
-docente, genitori, ed eventualmente degli Enti territoriali.
-Strumenti
-Gli strumenti per la misurazione del servizio approntati sono:
-•
-Test e prove di verifica di ingresso
-•
-Test e prove di verifica sull’apprendimento degli alunni
-•
-Scheda per la proposta di voto da utilizzare in sede di scrutinio trimestrale e finale.
-La valutazione dei risultati dei test delle prove di verifica di ingresso consente la verifica del livello di
-conoscenze/competenze iniziali dello studente. La valutazione dei risultati dei test formativi e delle prove sommative
-sull’apprendimento, consente la verifica del livello di apprendimento raggiunto da parte dello studente nel rispetto delle
-modalità e dei tempi indicati nel piano dell’offerta formativa. In corso d’anno nel caso di risultati non conformi agli obiettivi
-previsti, il Consiglio di Classe provvede a  comunicare per iscritto l’esito insoddisfacente ai genitori mediante lettera di
-convocazione a conferire con il Coordinatore Didattico, il Coordinatore di Classe e i docenti delle materie interessate. A fine
-anno scolastico, nel rispetto della normativa cogente, la non ammissione alla Classe successiva viene comunicata per iscritto
-e/o per telefono ai genitori degli studenti interessati prima della pubblicazione dei risultati della Classe. Gli alunni promossi
-alla classe successiva, senza aver raggiunto pienamente gli obiettivi definiti dal Consiglio di Classe, ed i rispettivi genitori,
-sono informati per iscritto della situazione e dei provvedimenti deliberati dal Consiglio di Classe per rimediare al deficit.
-Comunicazione del limite massimo delle ore di assenza complessive per la validità dell’anno scolastico
-Il D.P.R. n° 122 del 22 giugno 2009 «Regolamento recante coordinamento delle norme vigenti per la valutazione degli
-alunni e ulteriori modalità applicative in materia, ai sensi degli articoli 2 e 3 del Decreto-legge 1° settembre 2008, n. 137,
-convertito, con modificazioni, dalla Legge 30 ottobre 2008, n. 169»,  richiamato dalla circolare n. 20 del 4 marzo 2011,
-stabilisce:
-
-Ai fini della validità dell’anno, per la valutazione dello studente, è richiesta la frequenza di almeno tre quarti del
-monte ore annuo personalizzato;
-
-Gli alunni che nello scrutinio finale, conseguono una votazione non inferiore a sei decimi in ciascuna
-disciplina o gruppo di discipline valutate con l’attribuzione di un unico voto secondo l’ordinamento vigente e un
-voto di comportamento non inferiore a sei decimi sono ammessi all’Esame di Stato.
-In ottemperanza alla Circolare Ministeriale n. 20, prot. n. 1483 del 4 marzo 2011 avente come oggetto la “validità dell’anno
-scolastico per la valutazione degli alunni nella scuola secondaria di primo e secondo grado – artt. 2 e 14 DPR 122/2009”;
-preso atto del monte ore annuo individualizzato di riferimento per ogni anno di corso dei Licei Scientifici e del Liceo
-Linguistico e del limite di assenze massimo di ore corrispondente così come sono definiti nel prospetto che segue:
 
-## • Liceo Scientifico
+## Organizzazione
 
+Le scuole dell’infanzia sono organizzate in sezioni e ad ogni sezione sono assegnate due insegnanti che sono
+contitolari della stessa.
+Alle sezioni in cui sono inseriti bambine e bambini in situazione di handicap è assegnato un docente di sostegno,
+con l’eventuale supporto di un assistente all’autonomia per favorire l’integrazione degli stessi. Secondo la
+normativa vigente nelle suddette sezioni è prevista una riduzione del numero massimo di iscritti.
+L’insegnamento della Religione Cattolica, per i bambini le cui famiglie hanno scelto di avvalersene, è garantito
+dall’insegnante specialista con una quota oraria pari ad un’ora e trenta minuti settimanali per sezione. I bambini,
+che non si avvalgono di tale insegnamento, svolgono l’attività alternativa con le insegnanti di sezione.
+Tutte le sezioni sono organizzate con i criteri delle eterogeneità di età e di genere; le dieci ore settimanali di
+compresenza delle insegnanti sono utilizzate per organizzare le alunne e gli alunni in gruppi omogenei per età o per
+bi-età, nell’ambito delle attività progettuali programmate.
 
-## • Liceo Scientifico Ad Indirizzo Sportivo
+## Finalità Educative
 
-• LICEO SCIENTIFICO Opzione Scienze Applicate
+● Conquista dell’autonomia
+● Riconoscimento e sviluppo dell’identità sotto il profilo intellettivo, psicodinamico, sociale
+● Sviluppo delle competenze
+● Approccio alla cittadinanza attiva
+Le bambine e i bambini sono visti come soggetti:
+ competenti e con un proprio patrimonio di conoscenze;
+ con una propria identità culturale e una storia personale in evoluzione che ha diritti e doveri;
+ in continuo cambiamento sul piano cognitivo, affettivo ed emotivo;
+ capaci di orientarsi e di compiere scelte;
+ che hanno un proprio modo di essere e di pensare;
+ curiosi, interessati, che sperimentano continuamente il mondo.
+Il docente organizza:
+ contesti di apprendimento;
+ percorsi in continua destrutturazione e ristrutturazione;
+attraverso:
+ la flessibilità organizzativa (spazi, tempi, gruppi, saper);
+ l’osservazione sistematica dei processi attivati/potenziati;
+ la messa in gioco nelle diverse situazioni e nei diversi contesti
+ l’approccio motivato e motivante alla realtà per indagarla da diversi punti di vista;
+ l’attenzione costante alle interazioni tra elemento emotivo e cognitivo;
+ il confronto delle conoscenze e delle elaborazioni personali di bambine e bambini.
 
-## • Liceo Linguistico
+## Obiettivi Formativi
 
-Classe
-Numero ore settimanali
-Numero settimane per anno
-Numero ore per anno
-25% di ore di assenze
-Prima
-27
-33
-891
-222,75
-Seconda
-27
-33
-891
-222,75
-Terza
-30
-33
-990
-247,5
-Quarta
-30
-33
-990
-247,5
-Quinta
-30
-33
-990
-247,5
+Gli obiettivi generali del processo formativo, determinati a livello nazionale, sono sintetizzati dalla legislazione
+scolastica, come segue:
+ star bene con se stessi;
+ star bene con gli altri;
+ star bene a scuola;
+ star bene con l’ambiente.
 
 ---
 
 ## Pagina 11
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 11
-1.5 Dati  identificativi dell’Istituto
 
-## Denominazione
+## 1.2.2 Le Scuole Dell’Infanzia Dell’Istituto
 
+La Scuola dell’Infanzia accoglie i bambini dalle 8.00 alle 16.00; offre un servizio di pre-scuola dalle
+7.45 alle 8.00, previa iscrizione sull’apposita modulistica fornita dalla Scuola. Il servizio mensa è
+compreso nella scelta del tempo scuola delle 40 ore, mentre non è previsto per coloro che scelgono
+le 25 ore di frequenza, dalle 8.00 alle 13.00.
+Entrambi i plessi di Scuola dell’Infanzia dell’Istituto Comprensivo funzionano con il medesimo orario
+di servizio, dal lunedì al venerdì dalle 8.00 alle 16.00.
+Per le famiglie che lo richiedono è garantito l’anticipo del servizio dalle ore 7.45 con la presenza di un
+insegnante del plesso.
+La scansione temporale delle attività giornaliere è mediamente stabilita, anche se gli orari possono
+subire delle variazioni a seconda del plesso e delle necessità previste o imprevedibili, cui si deve far
+fronte attraverso lievi cambiamenti della programmazione.
+La tabella sottostante sintetizza i momenti significativi della “giornata tipo” presso le Scuole
+dell’Infanzia del II Istituto Comprensivo di Palazzolo sull’Oglio.
 
-## Istituto Scolastico Paritario “Giuseppe Parini”
-
-
-## Direzione
-
-
-## Presidenza
-
-
-## Segreteria
-
-Codice Meccanografico (GENERALE):  VE1S00500C
-Codice Meccanografico (LICEO SCIENTIFICO/LICEO SCIENTIFICO
-O.S.A./LICEO SCIENTIFICO L.i.S.S.):  VEPS00500C
-Codice Meccanografico (LICEO LINGUISTICO):  VEPL4H500R
-
-## Indirizzo
-
-Calle de Lena, 3 – 30174 - Mestre Venezia
-041 987455
-041 987060
-info@ istitutoparini.it
-
-## Legale  Rappresentante
+## Scuole Dell’Infanzia
 
 
-## Direttore Generale
+## Scansione Temporale Delle Attività Giornaliere
 
-Enrico PIZZOLI
+Intervallo orario
+Attività
+7.45 – 8.00
+Servizio di anticipo
+8.00 – 9.00
+Ingresso in sezione / Accoglienza
+9.00 – 10.30
+Attività guidate di sezione
+10.30 – 11.30
+Laboratori per fasce omogenee d’età
+11.30 – 12.45
+Tempo del pranzo
+12.45 – 13.30
+Attività di sezione guidate o libere
+14.00 – 15.00
+Attività libere o guidate negli spazi esterni alla sezione (salone / giardino)
+15.00 – 16.00
+Merenda e uscita
 
-## Coordinatore  Didattico
+## Scuola Dell’Infanzia “G. Rodari” – Mura
 
-Franco MAZZUCCO
 
-## Segreteria
+## Via Franco Bonari
 
-Ricevimento:
-Dal lunedì  al venerdì
-09.00 – 12.30
-Dal lunedì  al venerdì
-15.30 -  18.00
-Sabato                              09.00 – 12.00
 
-## Posta Elettronica
+## Cap 25036 Palazzolo Sull’Oglio (Bs)
 
-Certificata
-istitutoparini@pec.it
 
-## Sito Web
+## Tel 030732594
 
-www.istitutoparini.it
-L'Istituto è situato in via Torre Belfredo n. 64 - Calle de Lena n. 3, nel centro di Mestre, nei pressi di Piazza Ferretto. A soli
-10 minuti dalla Stazione Ferroviaria e a 20 minuti da Venezia; è raggiungibile con 8 linee urbane ed extra urbane.
-1.6 Organigramma
+E.MAIL infanzia.mura@gmail.com
+
+## Codice Meccanografico Bsaa84101C
+
+
+## Scuola Dell’Infanzia San Rocco
+
+
+## Via Gardale
+
+
+## Cap 25036 Palazzolo Sull’Oglio (Bs)
+
+
+## Tel 0307300263
+
+E.MAIL infanzia.sanrocco@gmail.com
+
+## Codice Meccanografico Bsaa84102D
+
 
 ---
 
 ## Pagina 12
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 12
-Il profilo organizzativo dell’Istituto Paritario “Giuseppe Parini” è definito attraverso l’organigramma allegato, in cui tutti i
-soggetti sono disposti all’interno di processi a cui sono assegnati funzioni specifiche, che ne definiscono ruoli, mansioni e
-responsabilità. I processi dialogano in rapporto di complementarietà e di interdipendenza, attraversate da una fitta rete di
-relazioni, tali da realizzare il progetto educativo dell’istituzione.
-IL LEGALE RAPPRESENTANTE E DIRETTORE GENERALE: è garante dell'identità culturale e del progetto
-educativo della scuola, responsabile della conduzione dell'istituzione scolastica nei confronti dell'Amministrazione e degli
-Utenti.
-IL COORDINATORE DIDATTICO: promuove e coordina ogni attività didattica dell'Istituto per quanto riguarda
-l'aggiornamento Docenti, il percorso formativo di ogni classe; su indicazione del Collegio Docenti incarica e nomina i
-responsabili di settori didattici; rimane in continuo dialogo con gli studenti e le famiglie per motivazioni didattiche; è
-coadiuvato dal Vice Coordinatore Didattico.
-FUNZIONI E RESPONSABILITA' DELLE AREE: all'interno di ciascun dipartimento (lettere italiane e latino, lingue
-straniere, filosofia e storia, storia e geografia, matematica e fisica, scienze naturali, disegno e storia dell’arte, scienze motorie e
-sportive, discipline sportive, diritto ed economia dello sport, informatica, religione cattolica e attività alternative)  viene
-nominato un coordinatore con le seguenti funzioni:
-
-contribuire all'elaborazione del Piano dell'Offerta Formativa dell'Istituto;
-
-curare la programmazione curriculare ed extracurricolare annuale;
-
-proporre al Collegio dei Docenti progetti di sperimentazione metodologico - didattica;
-
-predisporre il regolamento di utilizzazione dei sussidi didattici, delle aule di informatica e dei laboratori;
-
-promuovere il confronto, la ricerca e l’intesa fra i colleghi, mantenere i contatti con i coordinatori degli altri
-dipartimenti.
-Commissioni, incarichi e gruppi di lavoro
-Vice Coordinamento Didattico
-Staff di Presidenza
-N.I.V. - Nucleo di Autovalutazione
-Commissione R.A.V. - Rapporto di Autovalutazione
-Commissione P.d.M. - Piano di Miglioramento
-Commissione P.T.O.F. - Piano Triennale per l’Offerta formativa
-Commissione P.A.I. - Piano Annuale per l’Inclusività (D.S.A./B.E.S.)
-Commissione A.S.L. - Alternanza Scuola Lavoro
-Commissione Sito Web
-Commissione orientamento in entrata
-Commissione orientamento in uscita
-Commissione progetti di istituto
-Commissione certificazioni linguistiche
-Commissione viaggi all’estero
-Commissione formazione
-Laboratori/aule multimediali
-Ufficio tecnico
-Registro elettronico
-Commissione elettorale
-Viaggi/visite
-Progetti sportivi
-Biblioteca/audiovisivi/sala lettura e studio
-Programmi di recupero/rinforzo/sviluppo
-Esami di idoneità
+
+## 1.2.3 La Scuola Del Primo Ciclo
+
+
+## Ordinamenti
+
+Il primo ciclo di istruzione si articola in due percorsi scolastici consecutivi e obbligatori:
+1. la scuola primaria, della durata di cinque anni;
+2. la scuola secondaria di primo grado, della durata di tre anni.
+La scuola primaria promuove, nel rispetto delle diversità individuali, lo sviluppo della personalità; permette di
+acquisire e sviluppare le conoscenze e le abilità di base fino alle prime sistemazioni logico-critiche; favorisce
+l’apprendimento dei mezzi espressivi, ivi inclusa l’alfabetizzazione in almeno una lingua dell’Unione europea
+(inglese) oltre alla lingua italiana; pone le basi per l’utilizzazione di metodologie scientifiche nello studio del mondo
+naturale, dei suoi fenomeni e delle sue leggi; valorizza le capacità relazionali e di orientamento nello spazio e nel
+tempo; educa i giovani cittadini ai principi fondamentali della convivenza civile (Legge 53/2003). La frequenza alla
+scuola primaria è obbligatoria per tutti i ragazzi italiani e stranieri che abbiano compiuto sei anni di età entro il 31
+dicembre. L'iscrizione è facoltativa per chi compie sei anni entro il 30 aprile dell'anno successivo. L’orario
+settimanale delle lezioni nella scuola primaria può variare in base alla prevalenza delle scelte delle famiglie da 24 a
+27 ore, estendendosi anche fino a 30 ore.
+In alternativa a tali orari normali, le famiglie, in base alla disponibilità dei posti e dei servizi attivati, possono
+chiedere il tempo pieno di 40 ore settimanali.
+A partire dall’anno scolastico 2009-10, gradualmente viene superata l’organizzazione a moduli e ridotta al
+massimo la compresenza. Contestualmente, a cominciare dalle prime classi ad orario normale, viene introdotto il
+modello del docente unico di riferimento con orari di insegnamento prevalente e con compiti di coordinamento.
+SECONDO L’ATTO DI INDIRIZZO DELL’8 SETTEMBRE 2009, LA SCUOLA PRIMARIA È UNA BUONA TRADIZIONE DA
+MANTENERE E SVILUPPARE: HA EVOLUTO NEL TEMPO ASPETTI DI QUALITÀ E DI EFFICIENZA DA PRESERVARE E
+PROMUOVERE. COSTITUISCE UN SEGMENTO FORMATIVO DI FONDAMENTALE IMPORTANZA, LUNGO IL QUALE SI
+
+## Forma E Si Consolida Una Vera E Propria Alfabetizzazione Culturale.
+
+La scuola secondaria di primo grado, attraverso le discipline, è finalizzata alla crescita delle capacità autonome
+di studio e di interazione sociale; organizza ed accresce, anche attraverso l'alfabetizzazione e l'approfondimento
+nelle tecnologie informatiche, le conoscenze e le abilità, anche in relazione alla tradizione culturale e alla
+evoluzione sociale, culturale e scientifica della realtà contemporanea; sviluppa progressivamente le competenze e
+le capacità di scelta corrispondenti alle attitudini e vocazioni degli allievi; fornisce strumenti adeguati alla
+prosecuzione delle attività di istruzione e formazione; introduce lo studio di una seconda lingua dell'Unione
+europea; aiuta ad orientarsi per la successiva scelta di istruzione e formazione.
+La frequenza alla scuola secondaria di primo grado è obbligatoria per tutti i ragazzi italiani e stranieri che abbiano
+concluso il percorso della scuola primaria.
+Il primo ciclo di istruzione si conclude con un esame di Stato, il cui superamento costituisce titolo di accesso al
+secondo ciclo.
+L’orario settimanale delle lezioni nella scuola secondaria di primo grado, organizzato per discipline, è pari a 30 ore.
+In base alla disponibilità dei posti e dei servizi attivati, possono essere organizzate classi a tempo prolungato
+funzionanti per 36 ore settimanali di attività didattiche e di insegnamenti con obbligo di due-tre rientri
+pomeridiani.
+Su richiesta della maggioranza delle famiglie, il tempo prolungato può essere esteso a 40 ore.
+SECONDO L’ATTO DI INDIRIZZO DELL’8 SETTEMBRE 2009, LA SCUOLA SECONDARIA DI I GRADO È UN
+SEGMENTO FORMATIVO DA VALORIZZARE. HA IL COMPITO DI ASSICURARE AD OGNI ALLIEVO IL
+CONSOLIDAMENTO DELLE PADRONANZE STRUMENTALI E DELLE CAPACITÀ DI APPRENDERE, OLTRE A UN
+ADEGUATO LIVELLO DI CONOSCENZE E COMPETENZE CHE FORMANO LA PIATTAFORMA SU CUI COSTRUIRE IL
+
+## Successivo Percorso. È Lo Snodo Decisivo Del Sistema Educativo.
+
+
+## Ambiente Di Apprendimento
+
+La scuola del primo ciclo si organizza per realizzare un clima sociale positivo nella vita quotidiana della comunità,
+individuando forme di accoglienza, favorendo l’inserimento, l’aiuto reciproco, l’iniziativa individuale e di gruppo,
+l’assunzione di responsabilità. Crea le condizioni per essere effettivamente ambiente educativo e di
+apprendimento, nel quale ogni alunna e ogni alunno, in base ai ritmi e alle potenzialità individuali, maturi
+progressivamente capacità di azione diretta, di progettazione, di esplorazione, di riflessione e di studio individuale.
+Per realizzare tali condizioni, la scuola si propone come una comunità educante che si avvale dello specifico
+contributo di tutte le figure professionali in essa presenti.
 
 ---
 
 ## Pagina 13
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 13
-1.7 La struttura
-Situato da sempre nel centro storico di Mestre, dal 2007 l’Istituto Parini occupa i locali di un’antica dimora signorile,
-completamente ristrutturata nel rispetto delle qualità architettoniche originarie e del patrimonio archeologico custodito nelle
-sue fondamenta che conservano, visibili, i reperti dell’antica cinta muraria della città, risalenti al XIV secolo. I resti delle
-mura sono ripercorribili come esperienza storico-artistica quotidiana grazie alla soluzione architettonica che si è adottata nel
-rispetto della legge per la salvaguardia dei Beni culturali ed archeologici, soluzione che, con una pavimentazione in vetro
-strutturale posta all’ingresso principale dell’edificio ne evidenzia ed esalta il valore storico ed artistico.
-Il cortile interno
-Circondato da mura e cancelli, è l’ambiente ideale per la ricreazione e i momenti di pausa, lontano dal traffico e presenze
-indiscrete.
-L’Auditorium
-Un ampio auditorium, espandibile grazie a pareti semoventi e dotato delle più moderne attrezzature audiovisive, può
-ospitare fino a cento posti a sedere.
-Le Aule
-Le aule sono accoglienti e curate, luminose e anch’esse dotate di sistemi che le rendono adattabili alle più diverse
-disposizioni, nonché di lavagne interattive multimediali touchscreen e collegamento Internet Wi-fi.
+
+## Organizzazione
+
+Le scuole del primo ciclo sono organizzate in classi e ad ogni gruppo di classi, che raccoglie le alunne e gli alunni
+della medesima età anagrafica, è assegnato un team di insegnanti che ne costituisce l’equipe pedagogico-didattica.
+Alle classi in cui sono inseriti alunne e alunni in situazione di handicap è assegnato un docente di sostegno, con
+l’eventuale supporto di un assistente all’autonomia, per favorire l’integrazione degli stessi. Secondo la normativa
+vigente nelle suddette classi è prevista una riduzione del numero massimo di iscritti.
+L’insegnamento della Religione Cattolica, per le studentesse e gli studenti le cui famiglie hanno scelto di
+avvalersene, è garantito dall’insegnante specialista con una quota oraria pari a due ore settimanali per classe nella
+scuola primaria e una sola per la scuola secondaria di I grado. I discenti, che non si avvalgono di tale
+insegnamento, possono godere di tre diverse opportunità sostitutive rispetto al medesimo, ossia l’attività
+alternativa con un insegnante ad essa preposto; lo studio assistito mediante inserimento in una classe parallela;
+l’ingresso posticipato o l’uscita anticipata qualora il genitore ne facesse richiesta esplicita, potendo accompagnare o
+ritirare l’alunna o l’alunno in orari diversi da quelli di funzionamento ordinario della scuola primaria oppure, nella
+secondaria, autorizzando che le alunne e gli alunni si muovano autonomamente fuori dall’ambiente scolastico.
+Tutte le classi sono organizzate con i criteri dell’eterogeneità di età e di genere, oltre che in relazione agli stili
+cognitivi e di apprendimento, tenendo conto delle informazioni di passaggio fornite dalla Scuola dell’Infanzia, nel
+caso dell’ingresso alla Primaria, e dalla Scuola Primaria, con riferimento all’ingresso nella Scuola Secondaria.
+
+## Finalità Educative
+
+La formazione della persona intesa nella sua completezza e nella complessità delle sue dimensioni:
+ cognitiva;
+ emotiva;
+ sociale;
+ artistico-espressiva;
+ corporea.
+La crescita integrale della persona coniugando educazione e istruzione.
+La cultura della promozione del successo formativo per tutti e la ricerca delle strategie e dei percorsi atti a
+valorizzare vocazioni e potenzialità di ciascuno.
+Il raggiungimento per tutti dei traguardi definiti dalla legge, nel rispetto dei ritmi personali, in modo che nessuno
+rimanga escluso.
+La cura delle relazioni interpersonali interne ed esterne, del clima generale della scuola, del benessere di ogni
+singolo alunno e del gruppo classe.
+
+## Obiettivi Formativi
+
+Gli obiettivi generali del processo formativo, desunti dalla programmazione delle singole discipline e sintetizzati in
+modo trasversale, possono essere declinati come segue:
+ acquisizione dei linguaggi specifici delle varie discipline;
+ acquisizione di un efficace metodo di lavoro e di studio;
+ acquisizione dell’abitudine a problematizzare, in misura diversa, la realtà e le conoscenze;
+ affinamento delle abilità verbali ed extraverbali, nella duplice connotazione espressiva ed operativa.
 
 ---
 
 ## Pagina 14
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 14
-1.8 Gli indirizzi di studio attivi
 
-## Liceo Scientifico
+## 1.2.4 Le Scuole Primarie Dell’Istituto
 
+Le Scuole Primarie dell’Istituto rispettano i seguenti orari di funzionamento:
 
-## Liceo Scientifico
-
-
-## Opzione Scienze Applicate
+## Mura
 
 
-## Liceo Scientifico
+## San Rocco
+
+Servizio di anticipo
+7.45 – 8.10
+7.45 – 8.25
+Inizio delle lezioni antimeridiane
+8.15
+8.30
+Termine delle lezioni antimeridiane
+12.15
+12.30
+Tempo mensa
+12.15 – 14.15
+12.30 – 14.00
+Inizio delle lezioni pomeridiane
+14.15
+14.00
+Termine delle lezioni pomeridiane
+16.15
+16.00
+L’orario annuale obbligatorio delle lezioni è di complessive 891ore.
+Le istituzioni scolastiche al fine di personalizzare il piano di studi, possono organizzare, nell’ambito
+del piano dell’offerta formativa, tenendo conto delle prevalenti richieste delle famiglie, attività e
+insegnamenti, coerenti con il profilo educativo, per ulteriori 99 ore annue, la cui scelta è facoltativa e
+opzionale per gli allievi (L 53 del 28 marzo 2003 e DPR 89 del 20 marzo 2009).
+Le Indicazioni Nazionali prevedono per la Scuola Primaria l’insegnamento delle seguenti discipline:
+
+italiano
+
+matematica
+
+storia, cittadinanza e costituzione
+
+geografia
+
+scienze e tecnologia
+
+lingua inglese
+
+arte e immagine
+
+educazione fisica
+
+musica
+
+Insegnamento Religione Cattolica – Attività Alternativa.
+La concreta articolazione dell’orario è demandata all’autonomia organizzativa e didattica delle singole
+scuole, ad eccezione dell’Insegnamento della Religione Cattolica, che prevede l’impegno di 2 ore
+settimanali, e della lingua inglese, che è proposta per 1 ora settimanale nella classe prima, 2 ore
+settimanali in seconda e 3 ore in terza, quarta e quinta.
+Le Scuole Primarie del II Istituto Comprensivo hanno stabilito i monteore disciplinari come segue:
+
+## Discipline
 
 
-## Indirizzo Sportivo
+## Cl. 1
 
 
-## Liceo Linguistico
+## Cl. 2
 
+
+## Cl. 3 – 4 – 5
+
+Mura–San Rocco
+Mura–San Rocco
+Mura–San Rocco
+Italiano
+8
+7
+7
+Matematica
+7
+7
+7
+Storia
+2
+2
+2
+Geografia
+2
+2
+2
+Scienze e tecnologia
+2
+2
+2
+Lingua inglese
+1
+2
+3
+Arte e immagine
+2
+2
+2
+Musica
+2
+2
+2
+Educazione fisica
+2
+2
+1
+IRC/ Attività Alternativa
+2
+2
+2
+Totale
+30
+30
+30
 
 ---
 
 ## Pagina 15
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 15
+Le famiglie, all’atto dell’iscrizione alla classe prima, possono scegliere tra diverse proposte ministeriali
+di tempo scuola, presentate dal Dirigente Scolastico in sede di assemblea per la presentazione
+dell’Offerta Formativa.
+Il modello di funzionamento presente nei plessi di Scuola Primaria dell’Istituto è il seguente:
 
-## Liceo Scientifico
+## Modello Fino A 30 Ore Settimanali - Tempo Prolungato
 
-Quadro orario settimanale
-1° biennio
-2° biennio
-5° anno
-1° anno
-2° anno
-3° anno
-4° anno
-Lingua e letteratura italiana
-4
-4
-4
-4
-4
-Lingua e cultura latina
-3
-3
-3
-3
-3
-Lingua  e cultura straniera
-3
-3
-3
-3
-3
-Storia e Geografia
-3
-3
--
--
--
-Storia
--
--
-2
-2
-2
-Filosofia
--
--
-3
-3
-3
-Matematica*
-5
-5
-4
-4
-4
-Fisica
-2
-2
-3
-3
-3
-Scienze naturali**
-2
-2
-3
-3
-3
-Disegno e storia dell’arte
-2
-2
-2
-2
-2
-Scienze motorie e sportive
-2
-2
-2
-2
-2
-Religione cattolica o Attività alternative
-1
-1
-1
-1
-1
-Totale ore settimanali
-27
-27
-30
-30
-30
-*    Con Informatica al primo biennio
-** Biologia, Chimica, Scienze della Terra
+30 ore di attività didattica
+dal lunedì al venerdì con cinque rientri pomeridiani
 
-## Il Profilo In Uscita
+## Mensa Facoltativa Garantita Per 5 Giorni Alla Settimana
 
-“Il percorso del liceo scientifico è indirizzato allo studio del nesso tra cultura scientifica e tradizione umanistica. Favorisce
-l’acquisizione delle conoscenze e dei metodi propri della matematica, della fisica e delle scienze naturali. Guida lo studente
-ad approfondire e a sviluppare le conoscenze e le abilità e a maturare le competenze necessarie per seguire lo sviluppo della
-ricerca scientifica e tecnologica e per individuare le interazioni tra le diverse forme del sapere, assicurando la padronanza dei
-linguaggi, delle tecniche e delle metodologie relative, anche attraverso la pratica laboratoriale” (art. 8 comma 1). Gli studenti,
-a conclusione del percorso di studio, oltre a raggiungere i risultati di apprendimento comuni, dovranno:
-
-aver acquisito una formazione culturale equilibrata nei due versanti linguistico- storico filosofico e scientifico;
-comprendere i nodi fondamentali dello sviluppo del pensiero, anche in dimensione storica, e i nessi tra i metodi di
-conoscenza propri della matematica e delle scienze sperimentali e quelli propri dell’indagine di tipo umanistico;
-
-saper cogliere i rapporti tra il pensiero scientifico e la riflessione filosofica;
-
-comprendere le strutture portanti dei procedimenti argomentativi e dimostrativi della matematica, anche attraverso
-la padronanza del linguaggio logico-formale; usarle in particolare nell’individuare e risolvere problemi di varia
-natura;
-
-saper utilizzare strumenti di calcolo e di rappresentazione per la modellizzazione e la risoluzione di problemi;
-
-aver raggiunto una conoscenza sicura dei contenuti fondamentali delle scienze fisiche e naturali (chimica, biologia,
-scienze della terra, astronomia) e, anche attraverso l’uso sistematico del laboratorio, una padronanza dei linguaggi
-specifici e dei metodi di indagine propri delle scienze sperimentali;
-
-essere consapevoli delle ragioni che hanno prodotto lo sviluppo scientifico e tecnologico nel tempo, in relazione ai
-bisogni e alle domande di conoscenza dei diversi contesti, con attenzione critica alle dimensioni tecnico-applicative
-ed etiche delle conquiste scientifiche, in particolare quelle più recenti;
-
-saper cogliere la potenzialità delle applicazioni dei risultati scientifici nella vita quotidiana.
+I plessi di scuola primaria del II Istituto Comprensivo, in risposta alle esigenze del territorio, hanno
+organizzato le ore di lezione su cinque giorni anziché sei settimanali, dal lunedì al venerdì.
+
+## 1.2.5 La Scuola Secondaria Di I Grado Dell’Istituto
+
+L’orario annuale obbligatorio delle lezioni è di complessive 990 ore, corrispondenti a 29 ore
+settimanali, più 33 ore annuali da destinare ad attività di approfondimento riferite agli insegnamenti
+di materie letterarie e scientifico-matematiche. Nel tempo prolungato il monte ore è determinato
+mediamente in 36 ore settimanali, elevabili fino a 40, comprensive delle ore destinate agli
+insegnamenti e al tempo dedicato alla mensa (DPR 89 - 20 marzo 2009).
+
+## Tempo Ordinario
+
+30 ore di discipline di base: dal lunedì al sabato 8.00-13.00
+
+## Tempo Prolungato
+
+30 ore di discipline di base: dal lunedì al sabato 8:00-13:00 e 6 ore di attività pomeridiane distribuite
+su due pomeriggi dalle 13.00 alle 16.00 (1 ora di mensa e 2 ore di attività didattica) per un totale di
+36 ore.
+Le ore di attività opzionale pomeridiane scelte dagli alunni si svolgono in due dei pomeriggi di lunedì,
+mercoledì e venerdì, giorni in cui è garantito il servizio mensa.
+Le attività svolte nei vari laboratori, anche se con contenuti e modalità diversi, perseguono sempre le
+seguenti finalità:
+•
+approfondimento o recupero di argomenti legati alle programmazioni disciplinari;
+•
+arricchimento dell’esperienza di apprendimento attraverso strategie e modalità espressive
+varie.
+TEMPO ORDINARIO 30 ore (no mensa)
+TEMPO PROLUNGATO 36 ore (34 curricolo + 2 mensa)
+6 ore di italiano
+6 ore di italiano  + 2 ore di laboratorio pomeridiano
+4 ore di storia/geografia
+(comprensive di educazione alla Cittadinanza)
+4 ore di storia/geografia
+(comprensive di educazione alla Cittadinanza)
+3 ore di lingua inglese
+3 ore di lingua inglese
+2 ore di seconda lingua comunitaria (Francese)
+2 ore di seconda lingua comunitaria (Francese o Spagnolo)
+4 ore di matematica
+4 ore di matematica + 2 ore di laboratorio pomeridiano
+2 ore di scienze
+2 ore di scienze
+2 ore di tecnologia
+2 ore di tecnologia
+2 ore di educazione fisica
+2 ore di educazione fisica
+2 ore di arte e immagine
+2 ore di arte e immagine
+2 ore di musica
+2 ore di musica
+1 ora di religione o attività alternativa
+1 ora di religione o attività alternativa
 
 ---
 
 ## Pagina 16
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 16
+Relativamente ai contenuti affrontati, si possono costituire due categorie di laboratori con finalità
+analoghe:
+ Laboratorio linguistico
+Il laboratorio intende potenziare e consolidare negli alunni le abilità di lettura, scrittura e espressione,
+mediante letture drammatizzate, letture espressive, comprensioni testuali, visione di film inerenti ai
+programmi di studio ed esercitazioni sulle prove Invalsi. Inoltre, permette agli alunni lo svolgimento
+dei compiti assegnati.
+ Laboratorio matematico-informatico
+Il laboratorio ha la finalità di consolidare e potenziare le abilità di calcolo e logica matematica;
+apprendere o approfondire le conoscenze delle tecnologie multimediali; fornire strumenti per
+affrontare con competenza maggiore le prove Invalsi. Inoltre, permette agli alunni lo svolgimento dei
+compiti assegnati.
 
-## Liceo Scientifico
+## Scuola Primaria “G.A. Galignani” – Mura
 
 
-## Opzione Scienze Applicate
+## P.Le Mazzini 11
 
-Quadro orario settimanale
-1° biennio
-2° biennio
-5° anno
-1° anno
-2° anno
-3° anno
-4° anno
-Lingua e letteratura italiana
-4
-4
-4
-4
-4
-Lingua e cultura straniera
-3
-3
-3
-3
-3
-Storia e Geografia
-3
-3
--
--
--
-Storia
--
--
-2
-2
-2
-Filosofia
--
--
-2
-2
-2
-Matematica
-5
-4
-4
-4
-4
-Informatica
-2
-2
-2
-2
-2
-Fisica
-2
-2
-3
-3
-3
-Scienze naturali*
-3
-4
-5
-5
-5
-Disegno e storia dell’arte
-2
-2
-2
-2
-2
-Scienze motorie e sportive
-2
-2
-2
-2
-2
-Religione cattolica o Attività alternative
-1
-1
-1
-1
-1
-Totale ore settimanali
-27
-27
-30
-30
-30
-* Biologia, Chimica, Scienze della Terra
 
-## Il Profilo In Uscita
+## Cap 25036 Palazzolo Sull’Oglio (Bs)
 
-E’ stata attivata l’opzione “scienze applicate” che fornisce allo studente competenze particolarmente avanzate negli studi
-afferenti alla cultura scientifico-tecnologica, con particolare riferimento alle scienze matematiche, fisiche, chimiche,
-biologiche e all’informatica e alle loro applicazioni” (art. 8 comma 2).
-Gli studenti, a conclusione del percorso di studio, oltre a raggiungere i risultati di apprendimento comuni, dovranno:
-
-aver appreso concetti, principi e teorie scientifiche anche attraverso esemplificazioni operative di laboratorio;
-
-elaborare l’analisi critica dei fenomeni considerati, la riflessione metodologica sulle procedure sperimentali e la
-ricerca di strategie atte a favorire la scoperta scientifica;
-
-analizzare le strutture logiche coinvolte ed i modelli utilizzati nella ricerca scientifica;
-
-individuare le caratteristiche e l’apporto dei vari linguaggi (storico-naturali, simbolici, matematici, logici, formali,
-artificiali);
-
-comprendere il ruolo della tecnologia come mediazione fra scienza e vita quotidiana;
-
-saper utilizzare gli strumenti informatici in relazione all’analisi dei dati e alla modellizzazione di specifici problemi
-scientifici e individuare la funzione dell’informatica nello sviluppo scientifico;
-
-saper applicare i metodi delle scienze in diversi ambiti.
+
+## Tel 030731855
+
+E.MAIL primaria.mura@gmail.com
+
+## Codice Meccanografico Bsee84101N
+
+
+## Scuola Primaria San Rocco
+
+
+## Via F. Marzoli 3
+
+
+## Cap 25036 Palazzolo Sull’Oglio (Bs)
+
+
+## Tel 0307301513
+
+E.MAIL primaria.sanrocco@gmail.com
+
+## Codice Meccanografico Bsee84102P
+
+
+## Scuola Secondaria Di I Grado “M.L. King”
+
+
+## Via Dogane 8
+
+
+## Cap 25036 Palazzolo Sull’Oglio (Bs)
+
+
+## Tel 030731438
+
+E.MAIL media.mlking@gmail.com
+
+## Codice Meccanografico Bsmm84101L
+
 
 ---
 
 ## Pagina 17
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 17
 
-## Liceo Scientifico
+## I Fondamenti Educativi E Formativi
 
+L'obiettivo generale del II Istituto Comprensivo di Palazzolo sull’Oglio è quello di garantire alle
+studentesse e agli studenti  un'offerta formativa di qualità,  ricca di stimoli e di opportunità, in cui
+tutte le risorse interne ed esterne alla scuola siano coinvolte, impegnate e valorizzate allo stesso modo,
+nella consapevolezza della differenza dei ruoli, per realizzare un progetto educativo, formativo e
+d’istruzione efficace e coerente.
 
-## Indirizzo Sportivo
+## Principi Educativi
 
-Quadro orario settimanale
-1° biennio
-2° biennio
-5° anno
-1° anno
-2° anno
-3° anno
-4° anno
-Lingua e letteratura italiana
-4
-4
-4
-4
-4
-Lingua e cultura straniera
-3
-3
-3
-3
-3
-Storia e Geografia
-3
-3
--
--
--
-Storia
--
--
-2
-2
-2
-Filosofia
--
--
-2
-2
-2
-Matematica*
-5
-5
-4
-4
-4
-Fisica
-2
-2
-3
-3
-3
-Scienze naturali**
-3
-3
-3
-3
-3
-Diritto ed economia dello sport
--
--
-3
-3
-3
-Scienze motorie e sportive
-3
-3
-3
-3
-3
-Discipline sportive
-3
-3
-3
-3
-3
-Religione cattolica o attività alternative
-1
-1
-1
-1
-1
-Totale ore settimanali
-27
-27
-30
-30
-30
-*   Con Informatica nel Primo Biennio
-** Biologia, Chimica, Scienze della terra
+
+Accoglienza e rispetto delle diversità.
+
+Sviluppo dello spirito critico.
+
+Rispetto di persone, tempi, spazi, impegni, regole, materiali.
+
+Cittadinanza attiva, senso della legalità e etica della responsabilità.
+
+Orientamento alla consapevolezza delle proprie attitudini, aspirazioni e capacità.
+
+Contrasto dei fenomeni di devianza minorile e dispersione scolastica.
 
-## Profilo In Uscita
+## Principi Formativi
 
-A partire dall’anno scolastico 2014 – 2015 l’Istituto, rispondendo alle richieste dell’utenza, mediante un percorso di ricerca e
-sperimentazione, propone ai giovani un’opportunità formativa che offre una base culturale per un’ulteriore formazione a
-livello universitario nella cultura sportiva e per la qualificazione professionale nel mondo dello sport.
-
-Capacità di espressione di sé, di comunicazione e di relazione con l’altro.
-
-Capacità di trasferire il sapere teorico in quello pratico secondo i principi e le regole dell’etica individuale e
-collettiva.
-
-Capacità di orientamento nella scelta delle varie facoltà universitarie o nei vari settori sportivi.
+
+Personalizzazione.
+
+Apprendimento cooperativo.
+
+Didattica culturale.
+
+Molteplicità di linguaggi espressivi.
+
+Nuove tecnologie.
+
+Internazionalizzazione.
+
+Continuità e verticalità del curricolo.
+
+## Fattori Di Qualità
+
+L'Istituto Comprensivo, con l’apporto delle competenze professionali del personale, con la
+collaborazione delle famiglie, della società civile, delle agenzie educative e delle realtà istituzionali
+presenti e attive nella Comunità Locale e che, a diverso titolo, interagiscono con il mondo scolastico, è
+responsabile della qualità dell’attività educativa.
+Pertanto esso garantisce:
+ la condivisione delle scelte educative;
+ la collaborazione di tutto il personale nella gestione e nell’organizzazione della scuola;
+ l’attenzione al tema della continuità tra i diversi ordini di istruzione;
+ l’individuazione di traguardi comuni definiti collegialmente dai docenti dei diversi ordini di scuola;
+ l’impegno alla elaborazione di un curricolo verticale d’Istituto;
+ l’adattamento pedagogico-didattico alle esigenze educative, formative e d’istruzione delle alunne e
+degli alunni, prevedendo risposte operative personalizzate per i Bisogni Educativi Speciali, al fine di
+favorire un processo di integrazione e socializzazione nel rispetto delle diversità di ciascuno;
+ l’individuazione di un percorso valutativo finalizzato ad adeguare l’intervento didattico alle necessità
+degli alunni, privilegiando il carattere formativo della valutazione degli apprendimenti;
+ il rapporto costante fra insegnanti e famiglie, in un’ottica di collaborazione costante;
+ la disponibilità degli insegnanti all’innovazione didattica e all’aggiornamento professionale.
 
 ---
 
 ## Pagina 18
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 18
 
-## Liceo Linguistico
+## 1.3 La Progettazione D’Istituto
 
-Quadro orario settimanale
-1° biennio
-2° biennio
-5° anno
-1° anno
-2° anno
-3° anno
-4° anno
-Lingua e letteratura italiana
-4
-4
-4
-4
-4
-Lingua latina
-2
-2
--
--
--
-Lingua e cultura straniera 1*
-4
-4
-3
-3
-3
-Lingua e cultura straniera 2*
-3
-3
-4
-4
-4
-Lingua e cultura straniera 3*
-3
-3
-4
-4
-4
-Storia e Geografia
-3
-3
--
--
--
-Storia
--
--
-2
-2
-2
-Filosofia
--
--
-2
-2
-2
-Matematica**
-3
-3
-2
-2
-2
-Fisica
--
--
-2
-2
-2
-Scienze naturali***
-2
-2
-2
-2
-2
-Storia dell’arte
--
--
-2
-2
-2
-Scienze motorie e sportive
-2
-2
-2
-2
-2
-Religione cattolica o Attività alternative
-1
-1
-1
-1
-1
-Totale ore settimanali
-27
-27
-30
-30
-30
-*
-Sono comprese 33 ore annuali di conversazione con il docente di madrelingua
-**
-Con Informatica al primo biennio
-***
-Biologia, Chimica, Scienze della Terra
 
-## Il Profilo In Uscita
+## 1.3.1 La Programmazione
 
-
-avere acquisito in due lingue moderne strutture, modalità e competenze comunicative corrispondenti almeno al
-livello B2 del Quadro Comune Europeo di Riferimento;
-
-avere acquisito in una terza lingua moderna strutture, modalità e competenze comunicative corrispondenti almeno
-al livello B1 del Quadro Comune Europeo di Riferimento;
-
-saper comunicare in tre lingue moderne in vari contesti sociali e in situazioni professionali utilizzando diverse
-forme testuali;
-
-riconoscere in un’ottica comparativa gli elementi strutturali caratterizzanti le lingue studiate ed essere in grado di
-passare agevolmente da un sistema linguistico all’altro;
-
-essere in grado di affrontare in lingua diversa dall’italiano specifici contenuti disciplinari;
-
-conoscere le principali caratteristiche culturali dei Paesi di cui si è studiata la lingua, attraverso lo studio e l’analisi di
-opere letterarie, estetiche, visive, musicali, cinematografiche, delle linee fondamentali della loro storia e delle loro
-tradizioni;
-
-sapersi confrontare con la cultura degli altri popoli, avvalendosi delle occasioni di contatto e di scambio.
+La programmazione, elemento fondante dell’attività didattica, viene effettuata dal Collegio dei
+Docenti per quanto concerne le finalità e gli obiettivi trasversali.
+La programmazione didattica si effettua secondo diverse modalità organizzative.
+Scuola dell’Infanzia.
+•
+Programmazione di plesso: i docenti del plesso condividono le linee organizzative, educative e
+didattiche del plesso nel rispetto delle Indicazioni nazionali, verificandone periodicamente
+l’efficacia.
+•
+Programmazione di sezione: i docenti di sezione redigono la programmazione Educativa,
+verificandone periodicamente l’efficacia.
+Scuola Primaria.
+•
+Programmazione di plesso: i docenti del plesso condividono le linee organizzative ed educative
+del plesso.
+•
+Programmazione di équipe: i docenti di uno stesso team redigono la programmazione
+educativa, verificandone settimanalmente – nelle riunioni di modulo – l’efficacia.
+•
+Programmazione di ambito disciplinare e per competenze: i docenti di plessi diversi
+programmano, secondo un calendario prestabilito, piani di lavoro per ambiti disciplinari e per
+competenze, nel rispetto del curricolo dell’Istituto, prevedendo la somministrazione di
+verifiche condivise, allo scopo di monitorare il raggiungimento degli obiettivi trasversali
+d’istruzione.
+Scuola Secondaria di primo grado.
+•
+Programmazione disciplinare e per competenze: ciascun docente elabora la propria
+programmazione disciplinare e per competenze, nel pieno esercizio della libertà di
+insegnamento, da realizzarsi nel quadro del più ampio pluralismo culturale, ma anche nel
+rispetto di quanto stabilito nel PTOF e nel curricolo dell’Istituto. I docenti di classi parallele,
+delle stesse discipline, si confrontano sui piani di lavoro e sulle modalità di organizzazione e
+svolgimento di progetti comuni, prevedendo la somministrazione di verifiche condivise, allo
+scopo di monitorare il raggiungimento degli obiettivi trasversali d’istruzione.
+•
+Programmazione del Consiglio di Classe: gli obiettivi educativi trasversali di ciascuna classe
+sono di competenza dei vari consigli di classe e vengono definiti in base al profilo della classe
+e alle esigenze che ne emergono.
+
+## 1.3.2 Le Strategie Educative E Didattiche
+
+Ferma restando la libertà degli insegnanti di scegliere i metodi di insegnamento ritenuti più adatti e
+produttivi, nel nostro Istituto si possono individuare alcune strategie educative e didattiche comuni,
+declinate, sebbene a livelli diversi, nei tre ordini di scuola, ossia:
+ ricerca di modalità motivanti nella proposta delle attività;
+ attività che partano, ove possibile, dall’esperienza concreta degli alunni;
+ creazione di un clima di classe improntato all’accettazione di tutti;
+ lezione frontale, ove necessaria, ma soprattutto lezione partecipata, con interventi spontanei o
+sollecitati, che impegnino le capacità cognitive degli allievi;
+ metodologia della comunicazione con attività che conducano a comunicare in modo sempre più
+autonomo e nella molteplicità delle sue forme: iconica (disegno, pittura, immagini, audiovisivi
+ecc.); verbale (dialoghi, conversazioni, discussioni, relazioni, letture ecc.); grafica (elaborazione e
+rielaborazione di testi, cronache, relazioni scritte, articoli per il giornalino ecc.);
 
 ---
 
 ## Pagina 19
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 19
-1.9    Pianificazione individuale dei docenti (Dipartimenti)
-Sulla base della programmazione effettuata a livello di Dipartimento e di Consiglio di Classe,  ogni Docente, a inizio anno
-scolastico, pianifica la propria attività, stilando la seguente documentazione:
-
-Piano Annuale (Coordinatore di Classe);
-
-Piano di lavoro individuale (Il piano di lavoro deve indicare: livello di partenza della Classe; obiettivi formativi in termini di
-conoscenze, capacità e competenze; contenuti disciplinari e tempi orientativi di realizzazione; metodologie didattiche; materiali
-utilizzati; tipologia delle prove di verifica);
-
-Programma preventivo;
-Per quanto riguarda le valutazioni periodiche gli insegnanti si atterranno alle indicazioni della C.M. 94 del 18/10/2011 e
-della C.M. 89 del 18/10/2012, assegnando un voto unico in ciascuna disciplina.
-A fine anno ogni Docente presenta:
-
-Piano Annuale consuntivo (Coordinatore di Classe);
-
-Relazione finale con la descrizione dell’attività didattica effettivamente svolta;
-
-Programma consuntivo;
-
-Documento del 15 Maggio (Classi quinte).
-Tutta la documentazione viene consegnata ed archiviata in Presidenza.
+ sperimentazione diretta ed esercitazione di conoscenze, abilità e competenze attraverso:
+•
+visite guidate ad ambienti e realtà economiche, sociali e culturali del territorio;
+•
+viaggi di istruzione;
+•
+raccolta di documenti
+•
+lavori in coppia e in gruppo;
+•
+attività di laboratorio;
+•
+metodologia della ricerca;
+•
+uso del metodo induttivo e deduttivo per favorire lo sviluppo delle capacità logiche;
+•
+insegnamento “per problemi” (problem solving) per favorire le capacità critiche e di giudizio;
+•
+uso di esercizi applicativi per consolidare conoscenze e competenze;
+•
+uso di giochi manipolativi e non, adeguati all’età ed al livello degli allievi, funzionali
+all’apprendimento;
+ controllo del lavoro svolto a casa;
+ individuazione di percorsi per il recupero, il consolidamento o il potenziamento di conoscenze e
+competenze.
+
+## 1.3.3 Le Attività Trasversali E Di Supporto All’Offerta Curricolare
+
+L’Istituto prevede la realizzazione di alcune attività trasversali, di carattere fortemente educativo, con
+le quali intende completare e arricchire l’Offerta Formativa.
+ Educazione teatrale.
+ Educazione musicale.
+ Educazione espressiva.
+ Educazione ambientale.
+ Educazione stradale.
+ Educazione alla salute e allo sport.
+ Educazione all’internazionalità.
+ Educazione alla cittadinanza attiva.
+ Educazione alla legalità.
+ Educazione all’affettività e alle differenze di genere.
+Si attuano inoltre buone prassi di supporto al curricolo, attraverso:
+ Attività di accoglienza e di continuità.
+ Attività di orientamento.
+ Attività di recupero, consolidamento e potenziamento.
+ Attività alternativa all’IRC.
+L’Insegnamento della Religione Cattolica:
+▪ è impartito nel rispetto della libertà di coscienza degli alunni e delle famiglie;
+▪ è collocato nel quadro delle finalità scolastiche;
+▪ ha delle specifiche indicazioni didattiche cui ogni docente deve attenersi.
+Le attività alternative all’IRC sono quattro:
+▪ uscita da scuola.
+▪ studio assistito.
+▪ studio non assistito.
+▪ attività formativa alternativa all’IRC.
+Le ore di attività alternativa devono concorrere al processo formativo della personalità degli studenti e
+collocarsi nell’ambito dei «valori fondamentali della vita e della convivenza». CM 130/86
 
 ---
 
 ## Pagina 20
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 20
-2. L’Offerta  Formativa
-2.1 Il curricolo
-Primo biennio
-Per ciascun indirizzo di studio attivato, il primo biennio è orientato al consolidamento di conoscenze e competenze per
-tutti gli assi culturali, nonché allo sviluppo delle competenze metacognitive. Particolare cura è riservata alla dimensione
-emotiva del soggetto in età evolutiva. In particolare, l’Istituto Parini concentra l’azione formativa e didattica sulle seguenti
-competenze:
--
-Competenze chiave di cittadinanza
--
-Competenze sociali
--
-Competenze metacognitive
--
-Intelligenza emotiva
-L’Istituto certifica il livello di conoscenze e competenze mediante appositi strumenti di osservazione e certificazione. Un
-resoconto di tale certificazione costituirà parte del curriculum digitale di ciascun allievo.
-Secondo biennio
-Per ciascun indirizzo di studio attivato, il secondo biennio è orientato al progressivo incontro dell’allievo con le proprie
-specificità. L’Istituto Parini, a tale scopo, orienta la propria azione formativa e didattica al potenziamento dello stile di
-apprendimento individuale e alla valorizzazione delle attitudini personali, attingendo alla teoria delle intelligenze
-multiple formulata da Howard Gardner.
--
-Classi terze: lavoro sugli stili di apprendimento
--
-Classi quarte: didattica ispirata alla teoria delle intelligenze multiple, finalizzata anche all’individuazione dell’area
-disciplinare entro la quale sviluppare il percorso di approfondimento da presentare all’Esame di Stato.
-Nell’ottica di favorire le attitudini individuali dei suoi allievi, l’Istituto Parini dispone di strumenti idonei all’osservazione. Un
-resoconto di tale osservazione costituirà parte del curriculum digitale di ciascun allievo. Le attività di alternanza scuola-
-lavoro costituiscono parte integrante del percorso formativo per il secondo biennio.
-Ultimo anno
-L’ultimo anno di ciascun indirizzo attivato è orientato alla costruzione di un profilo in uscita per ciascun allievo. L’Istituto
-a tal proposito accompagna gli allievi nell’elaborazione del percorso individuale di approfondimento da presentare
-all’Esame di Stato e completa il curriculum digitale per ciascun allievo. Le attività di orientamento in uscita ed eventuali
-esperienze di alternanza scuola-lavoro costituiscono parte del percorso formativo per l’ultimo anno di corso di ciascun
-indirizzo.
-2.2 Self empowerment e inclusività
-Da sempre l’Istituto Parini si distingue per la cura e l’attenzione nei confronti dell’allievo considerato in quanto persona e
-considera il rinforzo della sfera psicologica, emotiva e relazionale, la promozione dell’autonomia nello studio e lo
-sviluppo dei talenti individuali, in ottica di self empowerment, determinanti per il successo scolastico. Per questo
-l’Istituto attiva per ciascuna classe e in ciascuno degli indirizzi una serie di programmi, intesi in qualità di azioni coordinate,
-pensati per accompagnare l’allievo al pieno sviluppo delle proprie potenzialità, in ottemperanza al principio di inclusività che
-innerva tutta l’azione didattica della scuola, la quale provvede alla stesura del PAI – Piano Annuale per l’Inclusività (C.M.
-n. 8 del 6 marzo 2013).
-Programma di rinforzo psicologico ed emotivo
-Le attività che concorrono al potenziamento della dimensione psicologica ed emotiva degli allievi, inserite in appositi
-programmi elaborati dal Consiglio di Classe, sono:
--
-consulenze psicologiche
--
-attività in sinergia con le famiglie
--
-azioni volte all’inclusione
--
-attività per lo sviluppo dell’intelligenza emotiva
--
-uscite didattiche
--
-attività facoltative extracurricolari
+
+## 1.3.4 La Dimensione Europea
+
+Il Piano Triennale dell'Offerta formativa del II Istituto Comprensivo di Palazzolo sull’Oglio intende
+continuare ad ispirarsi alla Nota MIUR Prot. n.267 del 21 giugno 2004 “L’Europa dell’istruzione.
+Sviluppo e promozione della dimensione europea dell’educazione” e alla Nota Prot. n. 3999 del 21
+giugno 2007 “Più scuola in Europa, più Europa nella scuola”.
+Si ritiene che la promozione e la valorizzazione della dimensione europea dell'educazione siano
+fondamentali per il raggiungimento degli obiettivi di cittadinanza e della capacità di orientarsi nella
+complessità del mondo attuale, come si evince dal documento “Cultura, Scuola Persona” che
+introduce le Indicazioni per il Curricolo, in cui eventi storici come la formazione dell'Unione Europea
+sono considerati “decisivi”.
+Si inseriscono quindi attività atte a perseguire le finalità individuate a livello ministeriale, declinabili
+su tre livelli di azione:
+1. sviluppare nelle nuove generazioni il senso dell'identità europea e i valori della civiltà europea;
+2. formare i giovani ad una più responsabile e piena partecipazione allo sviluppo sociale ed
+economico dell'Unione Europea;
+3. accrescere la conoscenza degli Stati membri, della Comunità e delle politiche comunitarie sotto
+l’aspetto storico, culturale, economico e sociale.
+La nostra scuola, accogliendo le indicazioni del MIUR, adotta pertanto azioni per lo “sviluppo e la
+promozione della dimensione europea della educazione” contribuendo all'arricchimento e al rilancio
+del “comune sentire europeo”.
+Si impegna a promuovere nell'elaborazione del suo curricolo gli obiettivi definiti nella “strategia di
+Lisbona”:
+
+aumentare la qualità e l'efficacia dei sistemi di istruzione e di formazione nell'unione europea;
+
+facilitare l'accesso ai sistemi di istruzione e di formazione;
+
+aprire i sistemi di istruzione e formazione al mondo esterno;
+
+migliorare la coscienza europea di studenti, insegnanti e genitori attraverso la consapevolezza dei
+problemi comuni e delle differenze fra i nostri paesi;
+
+migliorare la conoscenza della cultura, della storia, del presente di altre nazioni;
+
+stimolare l'apprendimento cooperativo;
+
+coinvolgere docenti di tutte le materie nell'innovazione metodologica e didattica;
+
+aumentare le motivazioni e lo studio della lingua inglese come strumento di comunicazione
+internazionale;
+
+promuovere una educazione multiculturale;
+
+costruire tolleranza;
+
+prevenire razzismo e xenofobia.
+Tutto ciò si attua attraverso l’introduzione, all’interno della comune attività didattica, di:
+•
+
+## Clil
+
+ insegnamento di una o più discipline curricolari nelle lingue comunitarie;
+•
+
+## Trinity
+
+ certificazione di Lingua Inglese per studenti;
+In questa ottica, l’Istituto Comprensivo mira a promuovere le otto competenze chiave:
+1. comunicazione nella madrelingua;
+2. comunicazione nelle lingue straniere;
+3. competenza matematica e competenze di base in scienza e tecnologia;
+4. competenza digitale;
+5. imparare ad imparare;
+6. competenze sociali e civiche;
 
 ---
 
 ## Pagina 21
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 21
-Programma di rinforzo socio-relazionale
-Le attività che concorrono al potenziamento della dimensione socio-relazionale degli allievi, inserite in appositi programmi
-elaborati dal Consiglio di Classe, sono:
--
-coaching
--
-attività sportive
--
-stage
--
-uscite didattiche
--
-tutoring
-Programma di rinforzo dell’autoefficacia
-Le attività che concorrono al potenziamento dell’autoefficacia degli allievi, inserite in appositi programmi elaborati dal
-Consiglio di Classe, sono:
--
-corsi di recupero
--
-tutoring (anche on line e tra pari)
--
-azioni volte all’inclusione
--
-percorsi metacognitivi
--
-attività facoltative extracurricolari
-Programma di sviluppo dei talenti individuali
-L’Istituto Parini promuove lo sviluppo delle attitudini e dei talenti individuali attraverso un approccio didattico
-orientato alla personalizzazione dei saperi e ampliando l’offerta formativa in una serie di attività curricolari ed
-extracurricoalari facoltative progettate per ciascun asse culturale (Asse dei linguaggi, matematico, scientifico-tecnologico e
-storico-sociale), nonché integrando maggiormente nella propria offerta formativa percorsi di alternanza scuola-lavoro.
-PAI – Piano Annuale per l’Inclusività
-A seguito della Direttiva M. 27/12/2012 e CM n. 8 del 6/3/2013 il nostro Istituto elabora il PAI – Piano Annuale per
-l’Inclusività,  alla stesura del quale collaborano i docenti del Gruppo di lavoro per l’inclusività. Il PAI si concretizza quale
-strumento per una progettazione dell’offerta formativa in senso inclusivo, in particolare nei confronti di allievi titolari di
-BES - Bisogni Educativi Specifici, quali:
--
-Allievi con disabilità (ai sensi della Legge 104/92, Legge 517/77)
--
-Allievi con disturbi evolutivi specifici: si intendono, oltre i disturbi specifici dell’apprendimento, anche i deficit del
-linguaggio, dell’attenzione, dell’iperattività, il ritardo mentale lieve ed il ritardo maturativo, ma anche altre tipologie
-di deficit o disturbo non altrimenti certificate. I disturbi specifici di apprendimento (Legge 170 dell’ 8 ottobre 2010
-e al D.M. 12 luglio 2011) si distinguono in dislessia, disgrafia, disortografia e discalculia; riguardano alcune
-specifiche abilità dell’apprendimento di alunni con capacità intellettive adeguate all’età anagrafica.
--
-Allievi con svantaggio socioeconomico, culturale, comportamentale e relazionale.
-Rientrano nelle politiche di inclusività dell’Istituto anche i programmi di self empowerment precedentemente illustrati.
-Risorse dell’Istituto:
-Coordinatore BES
--
-Collabora con la Direzione per il coordinamento delle iniziative destinate agli allievi titolari di BES.
-GLI - Gruppo di Lavoro per l’Inclusività:
--
-Rileva i BES
--
-Raccoglie documentazione degli interventi didattici
--
-Supporta i docenti nell’individuazione di strategie consone
--
-Si interfaccia con soggetti ed enti eventualmente coinvolti
-Consiglio di Classe:
-Ha il compito di indicare in quali casi siano opportuni interventi di personalizzazione della didattica, nonché l’adozione di
-misure compensative e dispensative e formulazione di PEI – Piano Educativo Individualizzato o PDP – Piano Didattico
-Personalizzato.
-Collegio dei Docenti:
--
-Discute e delibera i criteri per l’individuazione di allievi titolari di BES
--
-Discute e delibera gli obiettivi proposti dal GLI che confluiranno nel PAI
--
-Verifica i risultati ottenuti
-Per il potenziamento della didattica delle lingue ad allievi titolari di BES, l’Istituto si avvale della consulenza del Centro del
-gruppo di ricerca GLOBES, afferente al Centro di Ricerca sulla Didattica delle Lingue dell’Università Ca’ Foscari di Venezia.
+7. spirito d'iniziativa e imprenditorialità;
+8. consapevolezza ed espressione culturale;
+ispirandosi alle finalità specifiche della dimensione europea dell'istruzione:
+•
+favorire autonomia di pensiero;
+•
+costruire saperi;
+•
+promuovere la capacità di elaborare metodi;
+•
+creare situazioni formative di tipo modulare.
+
+## Clil
+
+Il CLIL (Content and Language Integrated Learning), è un approccio didattico di tipo immersivo che punta alla
+costruzione di competenze linguistiche e abilità comunicative in lingua straniera insieme allo sviluppo e
+all’acquisizione di conoscenze disciplinari.
+L'approccio CLIL ha infatti il duplice obiettivo di focalizzarsi tanto sulla disciplina insegnata, sia sugli aspetti
+grammaticali, fonetici e comunicativi della lingua straniera che fa da target veicolare.
+Benefici del CLIL
+L’approccio multi-disciplinare può offrire una varietà di benefici. Esso:
+
+costruisce una conoscenza ed una visione interculturale
+
+sviluppa abilità di comunicazione interculturale
+
+migliora le competenze linguistiche e le abilità di comunicazione orale
+
+sviluppa interessi ed una mentalità multilinguistica
+
+dà opportunità concrete per studiare il medesimo contenuto da diverse prospettive
+
+permette ai discenti un maggior contatto con la lingua obiettivo
+
+non richiede ore aggiuntive di insegnamento
+
+completa le altre materie invece che competere con le altre
+
+diversifica i metodi e le pratiche in classe
+
+aumenta la motivazione dei discenti e la fiducia sia nelle lingue, sia nella materia che viene insegnata
 
 ---
 
 ## Pagina 22
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 22
-2.3 Valutazione
-Il Collegio dei Docenti ha indicato i seguenti livelli per la valutazione del profitto:
 
-## Valutazione
+## Il Ii Istituto Comprensivo Di Palazzolo Sull’Oglio
 
+È
 
-## ( Decimi ) [ Quindicesimi ] { Trentesimi }
+## Centro Trinity N.54596
 
-
-## Livelli Relativi
-
-
-## All’Acquisizione
-
-
-## Delle
-
-
-## Competenze
-
-
-## Gravemente
-
-
-## Insufficiente
-
-(3 – 4)
-[5 - 6]
-{8 - 12}
-Nelle verifiche evidenzia vistose lacune nelle conoscenze, nella
-comprensione, nella capacità di applicazione e di impegno allo studio.
-Si esprime in modo incerto e poco appropriato. Non ha partecipato
-al dialogo educativo.
-
-## Base  Non  Raggiunto
-
-( 0 )
-
-## Insufficiente
-
-(5)
-[8]
-{16}
-La preparazione di base è inadeguata. Nelle verifiche evidenzia
-carenze nella conoscenza e nella comprensione e l’applicazione allo
-studio è incostante. Si esprime in modo incerto e poco appropriato.
-Partecipa al dialogo educativo solo saltuariamente.
-
-## Sufficiente
-
-(6)
-[10]
-{20}
-La preparazione di base risulta omogenea ma non approfondita.
-Nelle verifiche ha evidenziato il raggiungimento dei livelli sufficienti
-di conoscenza e di competenza. Sa esprimersi con correttezza. Ha
-partecipato al dialogo educativo in modo corretto ma passivo.
-
-## Base
-
-( 1 )
-
-## Discreto
-
-(7)
-[11,25]
-{22,5}
-La preparazione di base è omogenea ed abbastanza approfondita.
-Nelle verifiche evidenzia il raggiungimento di livelli discreti di
-conoscenza e competenza almeno nei casi più semplici. Sa esprimersi
-in forma corretta anche se priva di approfondimenti. Se sollecitato,
-ha partecipato attivamente al dialogo educativo.
-
-## Intermedio
-
-( 2 )
-
-## Buono
-
-(8)
-[12,5]
-{25}
-La preparazione di base è organica e completa. Nelle verifiche ha
-evidenziato il raggiungimento di buoni livelli di conoscenza,
-competenza e comprensione anche nei casi complessi. Ha partecipato
-attivamente al dialogo educativo.
-
-## Ottimo
-
-(9)
-[13,75]
-{27,5}
-L’allievo rielabora le nozioni in modo personale, con efficacia
-argomentativa, capacità critica e padronanza del linguaggio specifico.
-
-## Avanzato
-
-( 3 )
-
-## Eccellente
-
-(10)
-[10]
-{30}
-Le competenze acquisite sono ben approfondite, organiche e sorrette
-da autonomia di giudizio. Si esprime in forma corretta, disinvolta ed
-arricchita di spunti personali e critici. Ha partecipato al dialogo
-educativo attivamente e con validi contributi personali.
+Trinity nel PTOF
+La recente riforma della scuola (L. 107/2015) ha rivisto il Piano dell’Offerta Formativa (POF) rispetto a quello
+previsto dal regolamento dell’autonomia scolastica (DPR 275/1999).
+Ogni istituzione scolastica dovrà predisporre, con la partecipazione di tutte le sue componenti, il piano triennale
+dell’offerta formativa, rivedibile annualmente.
+Il piano è il documento fondamentale costitutivo dell’identità culturale e progettuale delle istituzioni scolastiche ed
+esplicita la progettazione curricolare, extracurricolare, educativa e organizzativa che le singole scuole adottano
+nell’ambito della loro autonomia.
+Tra i numerosi obiettivi che le istituzioni scolastiche possono inserire nel POF Triennale in base alle esigenze
+formative individuate (comma 7 della legge) vi sono:
+
+valorizzazione delle competenze linguistiche e utilizzo della metodologia CLIL
+
+valorizzazione delle competenze nella musica, nell’arte, nel cinema
+Centinaia di scuole come la vostra hanno inserito gli esami Trinity nel Piano dell’Offerta Formativa.
+Cosa potete inserire nel POF?
+
+Graded Examination is Spoken English (GESE) - Esami che valutano le abilità di comprensione ed
+espressione orali, disponibili a 12 livelli graduali. Gli esami GESE sono disponibili da pre-A1 a C2, ed
+offrono 2 o 3 livelli differenziati per alcuni dei macro livelli del Quadro Comune Europeo, in modo da
+permettere a tutti di fissare obiettivi raggiungibili a prescindere dal punto di partenza.
+
+Integrated Skills in English (ISE) - Esami che valutano le abilità di comprensione ed espressione orali e
+scritte, disponibili a 5 livelli a A2 a C2 del Quadro Comune Europeo. Le certificazioni ISE sono riconosciute,
+da oltre 1600 corsi di laurea in Italia e sono valide per il personale della scuola.
+
+Spoken English for Work (SEW) - Esami che valutano le abilità di comprensione ed espressione orali in
+un contesto tipico del mondo del lavoro, comprendenti anche una prova di comprensione al telefono. Gli
+esami SEW sono disponibili a 4 livelli da B1 a C1 del Quadro Comune di Riferimento.
+
+Trinity Stars Awards - Non sono esami, ma valutazioni di gruppo per bambini che stanno iniziando a
+studiare la lingua inglese o che non sono ancora pronti o abbastanza maturi per sostenere un esame.
+
+Music Grades - Esami di musica Classica, Jazz e Rock & POP disponibili a molti livelli da principiante ad
+avanzato. Ci sono livelli per ogni strumento, mappati all’European Qualification Framework.
+
+Rock & POP - Esami di musica Rock & POP, individuali e per intere band, sono disponibili per Basso,
+Chitarra, Tastiere, Batteria e Voce. Gli esami Rock & POP sono mappati all’European Qualification
+Framework.
+
+Music Diplomas - Qualifiche per professionisti e insegnanti mappate all’European Qualifications
+Framework.
+Le certificazioni di tutti gli esami Trinity possono essere valutate come crediti formativi per l’esame di Stato
+secondo la normativa vigente.
 
 ---
 
 ## Pagina 23
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 23
-Il Collegio dei Docenti ha indicato i seguenti livelli per la valutazione del comportamento:
 
-## Descrittori
+## 2. Le Parole Chiave Della Nostra Azione Istituzionale
 
 
-## Voto
+## 2.1 Accoglienza E Continuità
 
-6
-7
-8
-9
-10
+L’Accoglienza, assieme alla Continuità, garantisce un efficace e sereno inserimento dei bambini nella
+scuola e le condizioni di conoscenza e fiducia della famiglia nei confronti dell’Istituto indispensabili per
+la progettazione educativa condivisa.
+Le fasi di accoglienza degli alunni e delle famiglie sono definite dall’Istituto attraverso interventi
+differenziati e mirati secondo l’Ordine di Scuola.
+“La continuità nasce dall’esigenza primaria di garantire il diritto dell’alunno ad un percorso formativo
+organico e completo, che mira a promuovere uno sviluppo articolato e multidimensionale del soggetto
+il quale, pur nei cambiamenti evolutivi e nelle diverse istituzioni scolastiche, costruisce così la sua
+particolare identità. Una corretta azione educativa, infatti, richiede un progetto formativo continuo.
+Essa si propone anche di prevenire le difficoltà che sovente si riscontrano, specie nei passaggi tra i
+diversi ordini di scuola, e che spesso sono causa di fenomeni come quello dell’abbandono scolastico,
+prevedendo opportune forme di coordinamento che rispettino, tuttavia, le differenziazioni proprie di
+ciascuna scuola.
+Continuità del processo educativo non significa, infatti, né uniformità né mancanza di cambiamento;
+consiste piuttosto nel considerare il percorso formativo secondo una logica di sviluppo coerente, che
+valorizzi le competenze già acquisite dall’alunno e riconosca la specificità e la pari dignità educativa
+dell’azione di ciascuna scuola nella dinamica della diversità dei loro ruoli e funzioni.”
+(dalla Circolare Ministeriale n. 339 del 18 Novembre 1992)
+La continuità del processo educativo è una condizione essenziale per assicurare e garantire agli alunni
+il positivo conseguimento delle finalità dell’istruzione.
+La necessità del raccordo tra i progressivi passaggi del percorso formativo si coniuga con il dovere di
+un’accoglienza continua e costante, che si realizza nella graduale elaborazione di tutte le risorse che il
+bambino possiede, dei bisogni che manifesta, delle richieste che esplicita, dei traguardi che sogna e
+che desidera raggiungere.
+Progettare e attuare percorsi di continuità, che favoriscano la “transizione“, significa per la nostra
+scuola organizzare, curare e monitorare il delicato momento in parola, perché carico di emozioni e di
+aspettative, creando le condizioni operative adatte ad accogliere alunni e genitori. È indispensabile che
+l’esperienza formativa si realizzi in una forma di continuità, dove la famiglia e la scuola condividano le
+proprie posizioni educative, ponendo al centro della loro attenzione il discente.
+Il nostro progetto formativo non può trascurare pertanto la gradualità del processo di insegnamento-
+apprendimento, intesa come capacità di valorizzare le competenze già acquisite dall’alunno nel rispetto
+dell’azione educativa di ciascuna agenzie educativa e di ogni ordine e grado di scuola, pur nella
+diversità di ruoli e funzioni.
 
-## Indicatori
+## Finalità Generali
 
-Comportamento in aula
-Non rispettoso
-delle regole
-Non del tutto
-rispettoso delle
-regole
-Rispetta le
-elementari
-regole
-Adeguato
-Ottimo e
-partecipativo
-Comportamento fuori aula
-Non sempre
-educato
-Abbastanza
-educato
-Discreto
-Buono
-Ottimo e
-interessato
-Rispetto delle consegne:
--
-a scuola
-Quasi mai
-Saltuario
-Discontinuo
-Costante
-Costante ed
-efficace
--
-a casa
-Mai
-Incostante
-Talora
-incostante
-Puntuale
-Puntuale e
-Continuo
--
-ritardi
-Frequenti
-Abbastanza
-frequente
-Nella norma
-Nessuno
-Nessuno
-Attenzione
-Molto saltuario
-Discontinuo
-Abbastanza
-costante
-Continua
-Costante e
-interattiva
-Interesse
-Raro
-Infrequente
-Frequente
-Costante
-Costante e
-profondo con
-capacità di
-iniziative
-Partecipazione al dialogo
-formativo
-Scarsa e banale
-Superficiale e
-solo
-relativamente a
-ciò che gli
-interessa
-Saltuaria
-Costante e
-proficua
-Attiva, efficace
-e propositiva
-Rapporto con i docenti
-Non coerente e
-polemico
-A volte polemico
-Non sempre
-adeguato
-Buono e
-proficuo
-Attivo,
-efficace e
-collaborativo
-Rapporto con i compagni
-Irrispettoso
-Altezzoso
-Non sempre
-corretto
-Rispettoso e a
-volte solidale
-Collaborativo
-e solidale
-VOTO  5 :  Nel corso dell’anno destinatario di almeno una delle sanzioni disciplinari di cui al DPR 235/2007
-(comportamento di particolare gravità, di reati penali che violano la dignità e il rispetto della persona, o con pericolo per
-l’incolumità delle persone, di violenza grave o che destano elevato allarme sociale, comportanti la sanzione
-dell’allontanamento dalle lezioni per un periodo superiore ai 15 giorni o fino al termine delle lezioni). Successivamente alla
-irrogazione delle sanzioni previste dal sistema disciplinare, non ha dimostrato apprezzabili e concreti cambiamenti nel
-comportamento, tali da evidenziare un sufficiente livello di miglioramento nel suo percorso di crescita e di maturazione in
-ordine alle finalità educative di cui all’articolo 1 del DM 5/2009.
-pertanto ammessi alla classe successiva gli alunni che in sede di scrutinio finale conseguono un voto di
-comportamento non inferiore a sei decimi.
-Criteri per l’attribuzione del credito scolastico
-Agli alunni del triennio viene attribuito un credito scolastico secondo le bande di oscillazione indicate nella tabella A sotto
-riportata, esso viene espresso in numero intero e tiene in considerazione, oltre la media M dei voti, anche l’assiduità della
-frequenza scolastica, l’interesse e l’impegno nella partecipazione al dialogo educativo e alle attività complementari ed
-integrative ed eventuali crediti formativi. Il riconoscimento di eventuali crediti formativi non può in alcun modo comportare
-il cambiamento della banda di oscillazione corrispondente alla media M dei voti.
+Il progetto, in conformità con la legislazione vigente, si propone di:
+ elaborare piani di intervento efficaci al fine di promuovere adeguatamente e con successo la
+continuità educativa e didattica;
+ garantire la gradualità del processo educativo fra scuola dell’infanzia, scuola primaria e scuola;
+secondaria di primo grado, da intendersi come percorso formativo integrale e unitario seppur
+differenziato sotto l’aspetto dei contenuti;
+ realizzare un clima culturale, relazionale ed istituzionale che consenta a tutti di partecipare ed
+essere protagonisti, favorendo una graduale conoscenza del “nuovo“, per agevolare il passaggio
+dalla scuola dell’infanzia alla scuola primaria, fino alla scuola secondaria di primo grado;
 
 ---
 
 ## Pagina 24
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 24
-Riferimenti legislativi
-
-L’istituto del credito scolastico e del credito formativo é stato introdotto, rispettivamente, dall’art. 11 e dall’art 12 del
-D.P.R. 323/98 (Regolamento di attuazione della legge 10 dicembre 1997, n. 425, recante disposizioni per la riforma
-degli esami di Stato conclusivi dei corsi di studio di istruzione secondaria).
-
-L’attribuzione del credito formativo é regolata dal D.M. 49/2000, che stabilisce i requisiti per il riconoscimento delle
-attività extrascolastiche effettuate.
-
-La normativa per l’individuazione del credito scolastico é stata successivamente modificata con il D.M. 42/2007 e
-quindi con il D.M. 99/2009,  al quale sono allegate le tabelle attualmente in vigore per l’assegnazione del credito sia
-agli studenti interni che esterni.
-
-Inoltre, l’attribuzione dei crediti é ogni anno delineata negli art. 8 e 9 dell’O.M. che fornisce istruzioni e modalità
-organizzative per l’esecuzione degli Esami di Stato, e specifica, in particolare, la normativa in caso di curricoli non
-regolari e per i candidati esterni.
-Attribuzione credito scolastico
-L’attribuzione del credito scolastico nell’ambito della banda di oscillazione, é di competenza del Consiglio di Classe, sulla
-base delle indicazioni Normative e dei criteri generali adottati dal collegio dei docenti. Il punteggio attribuito quale credito
-scolastico ad ogni alunno è pubblicato all'albo dell'istituto.
-1.
-Il consiglio di classe, in sede di scrutinio finale procede all'attribuzione del credito scolastico ad ogni candidato interno,
-sulla base e nel rispetto delle Tabelle ministeriali vigenti. Il punteggio attribuito deve essere espresso in numeri interi,
-tenere conto del complesso degli elementi valutativi di cui all'art. 11, comma 2, del DPR 323/98 e rientrare nella banda
-d’oscillazione individuata in rapporto alla media conseguita nello scrutinio finale.
-2.
-L’attribuzione del credito scolastico ad ogni alunno va deliberata, motivata e verbalizzata.
-Attribuzione crediti classe quinta
-
-Per l’esame di Stato i punteggi del credito scolastico relativo all’ultima classe sono attribuiti ai candidati sulla base delle
-tabelle allegate al D.M. n.99 del 16 dicembre 2009, che hanno sostituito le tabelle allegate al D.M. n.42 del 22.5.2007
-(le quali ultime avevano già sostituito  le tabelle allegate al DPR 23.7.1998. n. 323).
-
-Il Consiglio di Classe, nello scrutinio finale dell'ultimo anno di corso, può motivatamente integrare, fermo restando il
-massimo dei punti attribuibili, a norma del 4° comma dell'art.11 del DPR n.323/1998, il punteggio complessivo
-conseguito dall'alunno, quale risulta dalla somma dei punteggi attribuiti negli scrutini finali degli anni precedenti, “in
-considerazione del particolare impegno e merito scolastico dimostrati nel recupero di situazioni di svantaggio presentatesi negli anni precedenti
-in relazione a situazioni familiari o personali dell’alunno stesso, che hanno determinato un minor rendimento”. Le deliberazioni,
-relative a tale integrazione, opportunamente motivate, vanno ampiamente verbalizzate con riferimento alle situazioni
-oggettivamente rilevanti ed idoneamente documentate.
-
-Nel caso di candidati esterni agli Esami di Stato, l’attribuzione del credito é di competenza del Consiglio di Classe
-davanti al quale sostengono gli esami preliminari. In tal caso il credito scolastico è attribuito sulla base della
-documentazione del curriculum scolastico, dei crediti formativi e dei risultati delle prove preliminari; il Consiglio di
-classe stabilisce preventivamente i criteri per l’attribuzione del credito scolastico e formativo, verbalizza accuratamente
-le motivazioni della delibera e pubblica all’Albo il punteggio attribuito.
-Riconoscimento crediti formativi
-
-Le esperienze che danno luogo all’acquisizione di crediti formativi sono acquisite al di fuori della scuola di
-appartenenza. I crediti formativi devono essere opportunamente certificati e ritenuti coerenti con il tipo di corso cui si
-riferisce l’esame. Il Consiglio di classe stabilisce preventivamente i criteri per l’attribuzione del credito scolastico e
-formativo.
-
-L’attribuzione dei crediti formativi, sulla base di quanto stabilito nell’art. 12 comma 1 del DPR 323/98, é regolata dal
-D.M. 49/2000, che individua le tipologie di attività riconosciute.
-
-Il riconoscimento del credito avviene a fronte della presentazione di idonea documentazione.
-
-La documentazione relativa all'esperienza che dà luogo ai crediti formativi deve comprendere in ogni caso una
-attestazione proveniente dagli enti, associazioni, istituzioni presso i quali il candidato ha realizzato l'esperienza (solo in
-caso di attività svolta presso Amministrazioni Pubbliche é ammessa l’autocertificazione) e contenere una sintetica
-descrizione dell'esperienza stessa; tale documentazione deve pervenire all’Istituto entro il 15 maggio di ciascun anno.
-
-Le esperienze formative riconosciute vengono riportate nella certificazione finale dell’esame di Stato e possono
-contribuire ad elevare il punteggio del credito scolastico all’interno delle bande d’oscillazione.
+ rispondere all’esigenza prioritaria di integrazione e prevenzione del disagio, poiché l’alunno che vive
+serenamente la realtà scolastica ha i presupposti per consolidare l’autostima, utilizzare nuove forme
+di comunicazione, raggiungere il successo personale e scolastico.
+
+## Obiettivi
+
+Con la promozione delle attività di accoglienza e di continuità, il II Istituto Comprensivo di Palazzolo
+sull’Oglio si prefigge di perseguire i seguenti obiettivi:
+ instaurare un dialogo permanente tra i vari ordini della scuola per un reale coordinamento
+orizzontale e verticale;
+ promuovere attività che favoriscano la continuità educativa scuola-famiglia;
+ salvaguardare la crescita formativa e il bagaglio di conoscenze che ogni bambina e bambino porta
+con sé;
+ potenziare nelle alunne e negli alunni la consapevolezza di essere soggetti in crescita, pertanto in
+una condizione di cambiamento graduale e di progressiva acquisizione delle varie autonomie di vita;
+ favorire il passaggio da una struttura all’altra eliminando sentimenti di insicurezza e disagio per il
+nuovo.
+
+## Attività
+
+Al fine di rispondere ai bisogni delle alunne e degli alunni durante il dispiegarsi del processo educativo
+e formativo all’interno dell’Istituto, tutti i docenti dei diversi ordini di scuola si impegnano affinchè si
+affermi e si consolidi una vera e propria “cultura “ della continuità, come attitudine a considerare la
+propria azione docente all’interno di un percorso evolutivo che vede come protagonista l’alunno e che
+di conseguenza prevede sempre un collegamento tra un “prima e un dopo“ attraverso la pratica di
+attività comuni e collegiali.
+
+## 2.2 Inclusione E Personalizzazione
+
+Per l’iscrizione alle scuole dell’Istituto Comprensivo si deve prendere sempre in considerazione la
+Circolare Ministeriale emanata annualmente dal Ministero dell’Istruzione, dell’Università e della Ricerca
+per l’anno scolastico di riferimento, in cui vengono esplicitate, modalità e tempistica per l’accesso alle
+scuole che lo costituiscono.
+Nel Regolamento di Istituto sono riportati:
+ i criteri per l’iscrizione, la gestione delle liste d’attesa e dei trasferimenti nella Scuola dell’Infanzia;
+ i criteri per la formazione delle classi prime nelle Scuole Primaria e Secondaria di I grado;
+ le norme di funzionamento generale dei singoli plessi.
+Al fine di rendere la pratica educativo – didattica maggiormente condivisa, efficace e proficua, il II
+Istituto Comprensivo aggiorna annualmente le procedure di Accoglienza e di Continuità, in relazione
+alle esigenze emerse durante l’anno scolastico precedente, allo scopo di rendere tali interventi il più
+possibile aderenti al contesto.
+Con la Legge n. 53 del 2003 si comincia a parlare in modo ufficiale e formalizzato della pratica di
+personalizzazione dei piani di studio e della didattica d’aula: i docenti devono predisporre percorsi di
+insegnamento-apprendimento tenendo conto delle situazioni di partenza dei singoli alunni, delle loro
+difficoltà e potenzialità. Altre normative di primo livello (Legge n. 170 del 2010 sui Disturbi Specifici
+d’Apprendimento), ma anche di secondo e terzo livello (D.M. 5669 del 2011 recante le Linee guida
+sui DSA, D.M. del 27 Dicembre 2012 sui Bisogni Educativi Speciali resa operativa dalla C.M. n. 8 del
+6 Marzo 2013) intendono indirizzare e regolare l’azione delle scuole, dei docenti e dei dirigenti nei
+confronti degli allievi che presentano difficoltà di apprendimento non solo certificate (L.104/92 e
+L.170/2010), ma anche al di fuori delle situazioni di disabilità certificata. Nella direttiva ministeriale
+del 27 Dicembre 2012, infatti, sono specificate tre sotto-categorie, a ciascuna delle quali le scuole
+devono rispondere prevedendo strategie operative mirate: quella della disabilità; quella dei disturbi
+evolutivi specifici e quella dello svantaggio socioeconomico, linguistico, culturale.
+
+## 2.2.1 Risorse Umane
+
+Il GLI, Gruppo di lavoro per l’Inclusione, in osservanza della C.M. n. 8 del 06 Marzo 2013, si compone
+di “tutte le risorse specifiche e di coordinamento presenti nella scuola (funzioni strumentali,
 
 ---
 
 ## Pagina 25
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 25
-
-La partecipazione ad iniziative complementari ed integrative non dà luogo all’acquisizione dei crediti formativi, ma
-rientra tra le esperienze acquisite all’interno della scuola di appartenenza, che concorrono alla definizione del credito
-scolastico.
-
-I criteri di valutazione devono essere conformi a quanto previsto all'art.12 del D.P.R. 23.7.1998, n. 323 e tener conto
-della rilevanza qualitativa delle esperienze.
-
-I criteri generali per il riconoscimento dei crediti formativi sono stabiliti dal CdD.
-
-Il consiglio di classe delibera in merito al riconoscimento del credito formativo.
-
-Il coordinatore di classe é incaricato dell’esame della documentazione agli atti, prima del consiglio di classe, per
-verificarne la congruità con le disposizioni normative e con i criteri generali individuati, e della verifica della correttezza
-della registrazione, a consiglio di classe avvenuto.
-Tabella A -  D.M. 99/2009 - credito scolastico - candidati interni
-(sostituisce la tabella prevista dall'articolo 11, comma 2 del D.P.R. 23 luglio 1998, n. 323, così come modificata dal D.M. n. 42/2007)
-Media dei voti
-CREDITO SCOLASTICO - (Punti)
-I anno (classe 3a)
-II anno (classe 4a)
-III anno (classe 5a)
-
-## M = 6
-
-3 - 4
-3 - 4
-4 - 5
-
-## 6 < M ≤ 7
-
-4 - 5
-4 - 5
-5 - 6
-
-## 7 < M ≤ 8
-
-5 - 6
-5 - 6
-6 - 7
-
-## 8 < M ≤ 9
-
-6 - 7
-6 - 7
-7 - 8
-
-## 9 < M ≤ 10
-
-7 - 8
-7 - 8
-8 - 9
-NOTA - M rappresenta la media dei voti conseguiti in sede di scrutinio finale di ciascun anno scolastico. Al fini dell'ammissione
-alla classe successiva e dell’ammissione all'esame conclusivo del secondo ciclo di istruzione, nessun voto può essere inferiore a sei decimi in ciascuna disciplina o
-gruppo di discipline valutate con l'attribuzione di un unico voto secondo l'ordinamento vigente. Sempre ai fini dell'ammissione alla classe successiva e
-dell'ammissione all'esame conclusivo del secondo ciclo di istruzione, il voto di comportamento non può essere inferiore a sei decimi. Il voto di comportamento,
-concorre, nello stesso modo dei voti relativi a ciascuna disciplina o gruppo di discipline valutate con l'attribuzione di un unico voto secondo l’ordinamento
-vigente, alla determinazione della media M dei voti conseguiti in sede di scrutinio finale di ciascun anno scolastico. Il credito scolastico, da attribuire
-nell'ambito delle bande di oscillazione indicate dalla precedente tabella, va espresso in numero intero e deve tenere in considerazione, oltre la media M dei voti,
-anche l'assiduità della frequenza scolastica, l'interesse e l'impegno nella partecipazione al dialogo educativo e alle attività complementari ed integrative ed
-eventuali crediti formativi. Il riconoscimento di eventuali crediti formativi non può in alcun modo comportare il cambiamento della banda di oscillazione
-corrispondente alla media M dei voti.
-Tabella B - D.M. 99/2009 - credito scolastico - candidati esterni - esami di idoneità
-(sostituisce la tabella prevista dall'articolo 11, comma 2 del D.P.R. 23 luglio 1998, n. 323, così come modificata dal D.M. n. 42/2007)
-Media dei voti conseguiti
-in esami di idoneità
-CREDITO SCOLASTICO - (Punti)
-
-## M = 6
-
-3
-
-## 6 < M ≤ 7
-
-4 - 5
-
-## 7 < M ≤ 8
-
-5 - 6
-
-## 8 < M ≤ 9
-
-6 - 7
-
-## 9 < M ≤ 10
-
-7 - 8
-NOTA - M rappresenta la media dei voti conseguiti agli esami di idoneità (nessun voto può essere inferiore a sei decimi). Il punteggio, da attribuire
-nell'ambito delle bande di oscillazione indicate nella presente tabella, va moltiplicato per 2 in caso di esami di idoneità relativi a 2 anni di corso in un unica
-sessione. Esso va espresso in numero intero. Per quanto concerne l'ultimo anno il punteggio è attribuito nella misura ottenuta per il penultimo anno.
-Tabella C - D.M. 99/2009 - credito scolastico - candidati esterni - prove preliminari
-(sostituisce la tabella prevista dall'articolo 11, comma 2 del D.P.R. 23 luglio 1998, n. 323, così come modificata dal D.M. n. 42/2007)
-Media dei voti delle prove preliminari
-CREDITO SCOLASTICO - (Punti)
-
-## M = 6
-
-3
-
-## 6 < M ≤ 7
-
-4 - 5
-
-## 7 < M ≤ 8
-
-5 - 6
-
-## 8 < M ≤ 9
-
-6 - 7
-
-## 9 < M ≤ 10
-
-7 - 8
-NOTA - M rappresenta la media dei voti conseguiti nelle prove preliminari (nessun voto può essere inferiore a sei decimi). Il punteggio, da attribuire nell'ambito
-delle bande di oscillazione indicate nella presente tabella, va moltiplicato per 2 o per 3 in caso di prove preliminari relative, rispettivamente, a 2 o a 3 anni di corso.
-Esso va espresso in numero intero.
+insegnanti per il sostegno, docenti ‘disciplinari’ con esperienza e/o formazione specifica o con compiti
+di coordinamento delle classi, genitori ed esperti istituzionali o esterni in regime di convenzionamento
+con la scuola), in modo da assicurare all’interno del corpo docente il trasferimento capillare delle
+azioni di miglioramento intraprese e un’efficace capacità di rilevazione e intervento sulle criticità
+all’interno delle classi.
+Il GLI svolge le seguenti funzioni:
+ raccolta e documentazione degli interventi didattico-educativi posti in essere anche in
+funzione di azioni di apprendimento organizzativo in rete tra scuole e/o in rapporto con azioni
+strategiche dell’Amministrazione;
+ focus e confronto sui casi, consulenza e supporto ai colleghi sulle strategie e sulle metodologie
+di gestione delle classi;
+ rilevazione, monitoraggio e valutazione del livello di integrazione nella scuola;
+ raccolta e coordinamento delle proposte formulate dai singoli GLH Operativi sulla base delle
+effettive esigenze, tradotte in sede di definizione del PEI;
+ elaborazione di una proposta di Piano Annuale per l’Integrazione”.
+Al livello di Istituto agiscono in sinergia, anche se con compiti specifici, la Commissione Disabilità, la
+Commissione Disturbi Specifici dell’Apprendimento (DSA) e la Commissione Intercultura: i membri
+dei gruppi laboratoriali appena citati costituiscono il Gruppo di Lavoro per l’Inclusione.
+La Commissione Disabilità è un team di raccordo e di approfondimento circa problematiche
+organizzative ed educative specifiche dell’ambito della disabilità. Ne fanno parte tutti gli insegnanti di
+sostegno dei vari ordini di scuola, guidati da un’apposita Funzione Strumentale: propone attività,
+sviluppa accordi con il territorio, indica soluzioni ai bisogni. Ogni anno predispone un calendario di
+incontri in vista di un piano di intenti. La ricerca-azione, la sperimentazione e l’innovazione della
+didattica sono i principi costitutivi che animano e sostanziano l’operatività di questo gruppo di lavoro,
+allo scopo di promuovere l’inclusione reale della disabilità mediante la riduzione dei momenti di
+individualizzazione, a favore delle occasioni di integrazione personalizzata.
+Con riferimento alla disabilità, ex L. 104/92, la nostra scuola intende operare per una positiva
+inclusione degli alunni diversamente abili, valorizzando le potenzialità di ciascuno con tutte le risorse
+disponibili, pertanto:
+• l’integrazione è affidata a tutto il gruppo docente che mette in atto strategie organizzative e
+relazionali capaci di favorire lo sviluppo dei processi cognitivi, sociali, relazionali ed affettivi;
+• viene steso un Piano Educativo Personalizzato (PEI) in collaborazione con la famiglia e gli operatori
+socio-sanitari;
+• gli insegnanti si rendono disponibili ad incontrare gli operatori della ASL e della Neuropsichiatria
+Infantile (NPI), che seguono l’alunna o l’alunno in situazione di handicap, per concordare le linee
+educative e formative d’intervento;
+• una specifica commissione di lavoro ha l’incarico di ricercare informazioni su problematiche
+specifiche relative all’handicap e divulgare questo materiale all’interno dell’Istituto;
+• il Dirigente Scolastico individua una Funzione Strumentale al PTOF affinché coordini le azioni di
+inclusione delle studentesse e degli studenti con disabilità.
+La Commissione DSA è anch’essa coordinata da una Funzione Strumentale e comprende docenti
+membri rappresentanti di ogni plesso: promuove la partecipazione e partecipa essa stessa ad attività
+di aggiornamento circa i Disturbi Specifici dell’Apprendimento e prepara strumenti e materiali per la
+personalizzazione dei percorsi di insegnamento–apprendimento, attraverso l’elaborazione di Piani
+Didattici Personalizzati (PDP), di cui l’Istituto promuove e controlla la correttezza formale, oltre ad
+assicurarne la concreta declinazione operativa, sotto la forma di un insegnamento flessibile e duttile,
+in relazione alle caratteristiche cognitive, relazionali e socio-familiari di ogni alunna ed alunno.
 
 ---
 
 ## Pagina 26
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 26
-2.4 Progetti curricolari
-Progetti tematici (2016-2017)
-Sono programmati alcuni progetti tematici che nel corso degli anni costituiranno percorsi di ricerca interdisciplinari. In
-particolare l’Istituto si propone di continuare a sviluppare i seguenti temi:
-Educazione alla cittadinanza europea
-Il viaggio
-Intolleranza e discriminazione
-Incontri di formazione con la Croce Verde e la Protezione Civile
-Sicurezza informatica
-Progetti dell’asse umanistico
-Itinerari letterari
-Letteratura e intelligenze multiple
-Progetti dell’asse scientifico
-Applicazioni scientifiche di scale logaritmiche ed esponenziali
-La fisica nello sport
-Natura e territorio lagunare
-Progetti dell’asse linguistico
-Les galeries de l’Academie de Venise (in lingua francese)
-Lingua russa (per il Liceo Linguistico)
-Progetti dell’asse storico-sociale
-Adotta un fossile
+La Commissione Intercultura, ugualmente orientata dall’azione di una specifica Funzione
+Strumentale, sottopone ai membri della stessa le problematiche strettamente legate all’Alto Flusso
+Migratorio e alla presenza significativa di alunne ed alunni stranieri all’interno dell’Istituto, ponendo
+in evidenza le necessità educative e didattiche che esitano dalla stessa: predispone strumenti di
+intervento, di carattere organizzativo e operativo, per contenere le criticità connesse alla profilatura
+istituzionale di cui sopra e propone azioni sperimentali e innovative al fine di promuovere le
+eccellenze d’apprendimento, con la volontà di valorizzare la caratterizzazione multietnica e
+interculturale dell’Istituto.
+PEI
+Il Piano Educativo Individualizzato è lo strumento principale per la strutturazione e la messa in opera del
+processo didattico–educativo destinato agli alunni con certificazione di disabilità che realizza quanto previsto
+dalla L. 104/92 in materia di diritto all’educazione, all’istruzione ed all’integrazione scolastica degli alunni in
+situazione di handicap. Ogni alunno in possesso di regolare certificazione sanitaria è coinvolto in un PEI, alla
+stesura del quale provvedono, in misura diversa e ciascuno con specifiche competenze, il docente di sostegno
+specializzato e i docenti curricolari in seno al team docente, i medici specialisti dell’ASL o dell’Azienda
+Ospedaliera di riferimento, i genitori dell’alunno, eventuali figure dell’Ente Locale. Prerogative del PEI sono
+l’elasticità dei contenuti e delle soluzioni organizzative volte al raggiungimento degli obiettivi di cui sopra, nel
+rispetto delle peculiarità dell’alunno, dei suoi tempi e dei suoi bisogni. Il PEI si raccorda con la programmazione
+del gruppo insegnanti e con essa viene valutato nelle sedi istituzionali previste, fatti salvi gli incontri fra Scuola e
+ASL/AO ed i casi nei quali si rendono necessari specifici aggiustamenti e/o interventi tempestivi. Nel rispetto
+dell’Accordo di Programma per l’integrazione scolastica degli alunni con disabilità della Provincia di Brescia per
+gli anni 2011-2016, il PEI è redatto o aggiornato ogni anno scolastico entro la fine del mese di novembre,
+configurandosi a tutti gli effetti quale atto formale dell’Istituto.
+PDP
+Per quanto riguarda gli alunni con Disturbi Specifici dell’Apprendimento, al fine di prevenire difficoltà nel
+percorso degli apprendimenti scolastici e di assicurare a ciascun alunno interventi educativi e didattici mirati e
+rispondenti alle proprie necessità, nonché per rispondere alle richieste normative della legge 170/2010, relativa
+all'individuazione precoce delle difficoltà di cui sopra, l’Istituto si attiva per rilevare eventuali situazioni di
+problematicità apprenditiva.
+La scuola si impegna altresì a strutturare un Piano Didattico Personalizzato per gli alunni che hanno già una
+diagnosi di disturbo specifico dell'apprendimento o sono in attesa della stessa. Il Piano Didattico Personalizzato
+(PDP) è lo strumento indispensabile per personalizzare il percorso educativo e didattico durante l’iter scolastico.
+Il PDP è redatto dagli insegnanti interessati. In esso sono contenute particolari strategie educative, formative e
+d’istruzione, utilizzate per permettere all'alunno di raggiungere gli obiettivi annuali mediante tutte le misure
+dispensative e gli strumenti compensativi opportuni e necessari. Il PDP viene redatto sia per gli alunni certificati
+con DSA, sia per gli alunni ancora in fase di certificazione o portatori di Bisogni Educativi Speciali, con
+riferimento a situazioni di disagio linguistico, socio-economico o relazionale.
+Ricapitolando, la personalizzazione dei percorsi di insegnamento–apprendimento, come già
+sottolineato in precedenza, però non riguarda solo gli alunni con difficoltà certificate (L.104 del 1992
+e L.170 del 2010), bensì interessa tutti coloro che, per vari motivi (familiari, sociali, linguistico –
+culturali, particolari e anche momentanei vissuti di disagio emotivo – relazionale), evidenzino nel
+percorso di scolarizzazione, per periodi più o meno lunghi, particolari fatiche nel processo di
+apprendimento.
+In quest’ottica è l’educazione stessa, in quanto rivolta alla crescita della persona umana, ad avere
+carattere integrativo, di ricomposizione continua dei diversi aspetti che la sostanziano; pertanto
+l’integrazione riguarda tutti i discenti e per tutti e per ciascuno deve valere il principio della
+valorizzazione delle risorse personali, trasformando le fragilità in potenzialità.
+Per raggiungere questo obiettivo è necessaria una specifica programmazione educativa e didattica
+che si deve articolare e sviluppare prevedendo la costruzione e la realizzazione di percorsi
+personalizzati di apprendimento scolastico. Gli interventi devono mirare a promuovere l’autonomia,
+l’acquisizione di competenze e di abilità espressive e comunicative e il possesso di strumenti basilari.
+La scuola interviene sulla globalità della persona e sul processo di apprendimento che non può essere
+in alcun modo disatteso. Anche in questi casi, apparentemente più generici e meno “specialistici”, gli
+insegnanti di modulo alla Primaria e i docenti del consiglio di classe alla Scuola Secondaria di primo
 
 ---
 
 ## Pagina 27
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 27
-2.5 Ampliamento dell’offerta formativa
-Parini (PM) - attività opzionali pomeridiane
-L’Istituto Parini intende essere un laboratorio aperto agli studenti anche il pomeriggio. Per questo mette a disposizione degli
-studenti i locali della scuola, che potranno essere adoperati per riunire gruppi di studio o per ospitare corsi e iniziative
-pensati per offrire ai ragazzi molteplici occasioni di crescere e incontrare il proprio talento. Questo il senso dell’iniziativa
-Parini (PM), che raccoglie un paniere di proposte di corsi opzionali offerti agli studenti dell’Istituto da novembre a maggio,
-con calendario e programmazione autonomi, ma con una ricaduta nella costruzione del profilo di ciascuno studente.
+grado si attivano per strutturare un Piano Didattico Personalizzato contenente le strategie operative
+utilizzate per permettere all'alunno di raggiungere gli obiettivi annuali mediante tutte le misure
+dispensative e gli strumenti compensativi necessari.
+L’Istituto Comprensivo può richiedere l’intervento di esperti esterni per l’osservazione mirata nel
+setting d’aula, al fine di condividere e predisporre interventi educativi specifici; allo stesso modo è
+disponibile a collaborare con tutti gli operatori di supporto che seguono i propri iscritti all’esterno
+dell’ambiente istituzionale.
+Per quanto attiene gli alunni stranieri, occorre sottolineare che il nostro Istituto Comprensivo è sito in
+un territorio ad alta affluenza migratoria, perciò le scuole ad esso appartenenti hanno elaborato ed
+aggiornano annualmente le procedure di accoglienza per gli alunni stranieri.
+L’integrazione degli stessi presuppone la progettazione di azioni comuni e condivise, quali:
+•
+l’elaborazione di linee guida che facilitino l’ingresso degli alunni stranieri nel sistema scolastico;
+•
+l’organizzazione di pacchetti di alfabetizzazione per alunni neo-arrivati;
+•
+la valutazione formativa degli alunni stranieri secondo il criterio della personalizzazione didattica;
+•
+la predisposizione di materiali di supporto, per il recupero o il potenziamento delle abilità
+linguistiche;
+•
+la collaborazione con i mediatori culturali per interventi di mediazione linguistica e comunicativa
+con le famiglie e per attività di conoscenza interculturale all’interno delle classi;
+•
+la declinazione attiva di spunti interculturali nella didattica quotidiana in tutti gli ordini di scuola,
+in un’ottica di continuità da un grado scolastico all’altro;
+•
+l’acquisto di sussidi a supporto del percorso di alfabetizzazione per gli alunni.
+Sono definite inoltre le procedure, i tempi, le finalità educative, le persone e le risorse coinvolte nel
+processo di iscrizione e di integrazione dell’alunno straniero neo arrivato dal Paese d’origine.
 
-## Parini (Pm)
+## 2.3 Valutazione
 
-attività opzionali pomeridiane
-Book club – in collaborazione con la Libreria UBIK
-I ragazzi leggono insieme e incontrano esperti ed autori a scuola e in libreria.
-Cineclub
-I capolavori del cinema visti a scuola con la guida di un esperto.
-Redazione web – in collaborazione con Venezia News
-Giovani redattori curano i contenuti del sito web della scuola.
-Laboratorio teatrale in francese – in collaborazione con France Théâtre
-I ragazzi salgono sul palcoscenico per imparare a recitare nella lingua di Molière.
+La valutazione è un momento imprescindibile di qualsiasi azione programmatica. Nella scuola si
+sostanzia in un lungo processo che prevede l’osservazione sistematica, iniziale e in itinere,
+l’effettuazione di prove d’ingresso e di verifica di vario tipo, momenti di confronto tra insegnanti.
+Tale processo non è mai da intendere come giudizio definitivo, con cui l’alunno è sottoposto ad una
+“misurazione”, ma piuttosto come un momento propositivo di grande valenza formativa che serve
+agli alunni e agli insegnanti per un’eventuale revisione della programmazione iniziale e dei
+comportamenti assunti, al fine di apportare i necessari correttivi e integrazioni.
+Le Indicazioni Nazionali recitano: “Le finalità della scuola devono essere definite a partire dalla persona che
+apprende, con l’originalità del suo percorso individuale e con l’unicità della rete di relazioni che la legano alla
+famiglia e agli ambiti sociali. La definizione e la realizzazione delle strategie educative e didattiche devono sempre
+tener conto della singolarità di ogni persona, della sua articolata identità, delle sue capacità e delle sue fragilità,
+nelle varie fasi di sviluppo e di formazione. Lo studente è posto al centro dell’azione educativa in tutti i suoi
+aspetti: cognitivi, affettivi, relazionali, corporei, estetici, etici, spirituali”.
+Pertanto ogni proposta di revisione dei criteri valutativi deve necessariamente ispirarsi al principio di
+cui sopra. Nel momento della valutazione l’oggetto della verifica non è la prestazione in sé, ma il
+percorso seguito dall’alunno per raggiungere gli obiettivi prefissati.
+Nel rispetto delle suddette finalità e in considerazione del carattere unitario del percorso scolastico
+del primo ciclo, che inizia dalla prima classe della scuola primaria e si conclude con l’esame di stato
+della terza media si definiscono le seguenti linee guida:
+•
+data l’unicità del percorso, il criterio di valutazione nel primo ciclo scolastico deve
+necessariamente risultare omogeneo e uniforme;
+•
+il fine primario della valutazione è di guidare gli alunni nel processo di autovalutazione per
+orientarli nelle scelte future. In tale ottica non si ritiene significativo utilizzare tutti i gradi della
+scala valutativa in decimi;
 
 ---
 
 ## Pagina 28
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 28
-Corso di conversazione in lingua francese
-Chiacchierate guidate en Français per esercitarsi e divertisrsi.
-Corso di Archicad e Corso di Interior Design
-in collaborazione con lo Studio Quotazero
-Progettare e arredare in modo facile e coinvolgente insieme a esperti architetti.
-Corso di Fotografia
-Un fotografo insegna ai ragazzi tutti i segreti della fotografia digitale.
-Corso di Fumetto – in collaborazione con Veneziacomix
-Dal disegno al lettering alla scoperta di tecniche e segreti del fumetto.
-Corso di strumento – in collaborazione esperti maestri di musica
-I ragazzi condividono il proprio cammino con insegnanti e amici con la stessa passione per
-la musica
+•
+occorre sempre tenere distinti i due momenti della valutazione: misurazione degli
+apprendimenti e grado di maturazione globale dell’allievo;
+•
+la valutazione necessariamente non deve trascurare la situazione di partenza dell’alunno. Il
+rinforzo affettivo riveste un ruolo importante e determinante all’interno del giudizio, al fine di
+accrescere l’autostima degli allievi.
+Il decreto legislativo n. 62/2017 recante norme in materia di valutazione e di certificazione delle
+competenze, approvato ai sensi dell’art.1 commi 180 e 181 della Legge 107/2015, apporta importanti
+modifiche al decreto n. 122 del 2009, Regolamento recante coordinamento delle norme vigenti per la
+valutazione.
+Al decreto n. 62/2017, attuativo della legge n. 107/2015, seguono il DM n. 741/2017, dedicato a
+disciplinare in modo organico gli esami di Stato di scuola secondaria di I grado, il DM n. 742/2017, con
+il quale sono stati adottati i modelli nazionali di certificazione nazionale delle competenze, e la nota n.
+1865 del 10 ottobre 2017, volta a fornire indicazioni in merito a valutazione, certificazione delle
+competenze ed Esame di Stato nelle scuole del primo ciclo di istruzione.
+In sintesi, le principali disposizioni sono le seguenti:
+Valutazione degli apprendimenti e del comportamento. Il collegio dei docenti delibera i criteri e le
+modalità di valutazione degli apprendimenti e del comportamento. I criteri saranno resi pubblici e
+inseriti nel Piano triennale dell’offerta formativa. I voti in decimi saranno accompagnati dalla
+descrizione del processo e del livello globale di sviluppo degli apprendimenti raggiunto. La valutazione
+del comportamento non sarà più espressa in voti decimali, ma con un giudizio sintetico. Non è più
+prevista la non ammissione alla classe successiva per chi consegue un voto di comportamento inferiore
+a 6/10. Gli alunni della scuola primaria sono ammessi alla classe successiva e alla prima classe della
+scuola secondaria di I grado anche in presenza di livelli di apprendimento parzialmente raggiunti o in
+via di prima acquisizione.
+Prove INVALSI. Nella scuola primaria le prove si sostengono in seconda e quinta. In quinta viene
+introdotta una prova in inglese coerente con il Quadro comune europeo di riferimento delle lingue e con
+le Indicazioni nazionali per il curricolo. Nella secondaria di I grado le prove si sostengono in terza, ma
+non fanno più parte dell’esame. Alle prove di italiano e matematica, si aggiunge la prova di inglese. Le
+prove saranno computer-based. La partecipazione sarà requisito per l’accesso all’Esame, ma non
+inciderà sul voto finale.
+Esame conclusivo del primo ciclo. L’ammissione all’esame è subordinata alla frequenza di almeno tre
+quarti del monte ore annuale, alla non presenza di sanzioni disciplinari che comportano la non
+ammissione all’esame, e alla partecipazione alle prove INVALSI di italiano, matematica e inglese. Le
+prove scritte dell’esame sono tre:
+1. italiano: le tracce dovranno comprendere un testo narrativo o descrittivo; un testo argomentativo,
+che consenta l’esposizione di riflessioni personali, per il quale dovranno essere fornite indicazioni di
+svolgimento; una traccia di comprensione e sintesi di un testo letterario, divulgativo, scientifico;
+2. matematica: la prova sarà strutturata con problemi articolati su una o più richieste e quesiti a
+risposta aperta;
+3. lingua straniera: La prova potrà consistere in: questionario di comprensione di un testo;
+completamento di un testo in cui siano state omesse parole o gruppi di parole; riordino e riscrittura o
+trasformazione di un testo; elaborazione di un dialogo su traccia articolata; elaborazione di una lettera
+o email personale su traccia riguardante argomenti di carattere familiare o di vita quotidiana; sintesi di
+un testo.
+Il colloquio è finalizzato a valutare il livello di acquisizione delle conoscenze, abilità e competenze
+previsto dalla Indicazioni nazionali, con particolare attenzione alle capacità di argomentazione, di
+risoluzione di problemi, di pensiero critico e riflessivo, di collegamento fra discipline e prenderà in
+considerazione anche le competenze di Cittadinanza e Costituzione.
+Il voto finale deriverà dalla media fra il voto di ammissione e la media dei voti delle prove scritte e del
+colloquio. Potrà essere assegnata la lode.
 
 ---
 
 ## Pagina 29
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 29
-Collaborazioni e convenzioni
-Di seguito un elenco di progetti in collaborazione o in convenzione con alcuni enti del territorio che l’Istituto intende
-sviluppare nel triennio. Alcuni progetti sono stati avviati e verranno rinnovati su base triennale, altri sono in
-programmazione. L’elenco è passibile di modifiche.
-Doppio diploma – Mater Academy
-Il Programma Doppio Diploma Italia – USA è un percorso di studio che dà l’opportunità
-agli studenti di ottenere un diploma statunitense (High School Diploma), completando il
-percorso accademico nel proprio paese (Diploma di Maturità).
-Adotta un fossile
-In collaborazione con il Museo di Storia Naturale di Verona, il progetto intende divulgare
-la specificità dell’area geopaleontologica della val d’Alpone, nel tentativo di ottenere per i siti
-di Bolca e Roncà l’attestazione di patrimonio dell’umanità da parte dell’Unesco.
-Sicurezza informatica
-Il progetto intende sensibilizzare gli studenti all’uso responsabile delle tecnologie in ambito
-telematico, allo scopo di promuovere la tutela della privacy e prevenire fenomeni quali il
-cyber bullismo.
-Liceali a Ca’ Foscari
-Verrà rinnovata la convenzione con i dipartimenti di Studi Umanistici e di Lingue e
-culture comparate dell'Università Ca' Foscari per consentire agli studenti dei licei
-dell'Istituto di frequentare corsi universitari, con la possibilità di sostenere l'esame e di
-conservare il credito formativo universitario.
-Fare storia (con l’associazione L’ESDE)
-Le esperienze di ricerca storiografica nell'ambito della storia locale, che hanno visto coinvolti
-diversi studenti dei licei in rete con altre scuole del territorio, avranno sviluppo triennale e
-troveranno esito in una pubblicazione curata da studiosi esperti.
-Apprendisti ciceroni (con il FAI)
-Verrà ripristinata la convenzione con il FAI per dare agli studenti l'opportunità di
-studiare e valorizzare il patrimonio artistico locale, rendendosi disponibili in qualità di
-guide in occasione delle Giornate F.A.I di Primavera.
-Laboratori di storia antica (con il Museo Archeologico Nazionale di
-Venezia)
-Continua la collaborazione con il Museo Archeologico Nazionale di Venezia che offre
-percorsi e laboratori didattici che integrano le lezioni di storia antica nel biennio dei licei.
-Gli studenti avranno così la possibilità di osservare e studiare reperti archeologici all'interno
-del prestigioso museo marciano.
-Il patrimonio librario marciano (con la Biblioteca Nazionale Marciana)
-Continuano le uscite didattiche e i laboratori condotti presso la Biblioteca Nazionale
-Marciana sulla tradizione dei documenti manoscritti e a stampa delle maggiori opere
-letterarie.
+Certificazione delle competenze. Insieme al diploma finale del I ciclo sarà rilasciata una Certificazione
+delle competenze con riferimento alle competenze chiave europee. Saranno otto le competenze
+certificate dalle scuole: comunicazione nella madrelingua, comunicazione nella lingua straniera,
+competenza matematica e competenze di base in scienza e tecnologia, competenze digitali, capacità di
+imparare ad imparare competenze sociali e civiche, spirito di iniziativa, consapevolezza ed espressione
+culturale Per ognuna di esse va indicato il livello conseguito (avanzato, intermedio, base, iniziale).
+Per il livello di maturazione personale sono individuati alcuni indicatori, funzionali sia alla valutazione
+dei livelli raggiunti, sia alla programmazione di attività di sviluppo e potenziamento delle abilità
+stesse, ossia:
+•
+interesse, attenzione e partecipazione;
+•
+impegno;
+•
+autonomia e modalità di lavoro;
+•
+metodo di studio;
+•
+progressione degli apprendimenti (I quadrimestre) e livello generale di competenza (II
+quadrimestre).
+•
+comportamento con riferimento al rispetto delle regole, all’autocontrollo, al grado di
+responsabilità, alla collaborazione, alla relazione con i pari e con gli adulti di riferimento.
+La valutazione, che assumerà un carattere più formalizzato col graduale passaggio dagli ambiti alle
+discipline, si baserà sull’osservazione sistematica degli allievi durante l’attività didattica (valutazione
+in itinere) e su un’ampia tipologia di prove, oggettive e soggettive, che varieranno a seconda delle
+caratteristiche di ciascuna disciplina.
+
+## 2.3.1 La Valutazione Nella Scuola Dell’Infanzia
+
+Volendo schematizzare le caratteristiche della valutazione nella scuola dell’infanzia, facciamo
+riferimento in primo luogo a ciò che non deve essere: non sanzionatoria e punitiva, non
+categorizzante, non misuratrice, non astratta, non rigidamente collegata a criteri di stadialità
+(Zumino, 1995).
+In linea con tale concezione sono le funzioni assegnate dalla C.M. n. 84 del 2005 al Portfolio delle
+competenze, che si configura come uno strumento a forte valenza formativa orientato a valutare non
+solo il singolo alunno, i suoi progressi e i suoi risultati, ma anche il processo di
+insegnamento/apprendimento e l’efficacia delle esperienze educative realizzate; si precisa infatti che,
+soprattutto nella scuola dell'infanzia, «l'osservazione occasionale e sistematica dei bambini e la
+documentazione della loro attività sono fondamentali per cogliere e valutare le loro esigenze, per
+riequilibrare progressivamente le proposte educative in base alla qualità e alla quantità delle loro
+risposte» (C.M. n.84/2005, par. 4.2).
+Gli elementi e i dati acquisiti nel Portfolio o mediante altri strumenti offrono dunque agli insegnanti
+stessi l’opportunità di riflettere criticamente sul proprio operato, secondo una prospettiva che viene
+ribadita anche dalle Indicazioni per il curricolo per la scuola dell’infanzia e per il primo ciclo
+d’istruzione in cui si afferma che la valutazione «precede, accompagna e segue i percorsi curricolari;
+attiva le azioni da intraprendere, regola quelle avviate, promuove il bilancio critico su quelle condotte
+a termine; assume una preminente funzione formativa, di accompagnamento dei processi di
+apprendimento e di stimolo al miglioramento continuo» (MPI 2007, pg.24). Le Indicazioni assegnano
+inoltre alle singole istituzioni scolastiche la responsabilità dell’autovalutazione, che «ha la funzione di
+introdurre modalità riflessive sull’intera organizzazione dell’offerta educativa e didattica della scuola,
+ai fini del suo continuo miglioramento, anche attraverso dati di rendicontazione sociale o dati che
+emergono da valutazioni esterne» (ibidem, p. 25).
+La valutazione della qualità del contesto educativo nei suoi molteplici aspetti si affianca dunque a
+quella dell’allievo e dell’attività dell’insegnante, cui spetta il compito di «stabilire uno stretto raccordo
+tra le “Indicazioni” e gli interventi di valutazione» e la responsabilità «di modulare e usare la
+valutazione come strumento pedagogico-didattico» (Atto di indirizzo 8 Settembre 2009, par.1.4 e
+1.5).
+Le Scuole dell’Infanzia dell’Istituto rispettano i principi della valutazione appena esplicitati, ricorrendo
+agli strumenti privilegiati dell’osservazione sistematica, della raccolta di fonti materiali significative a
 
 ---
 
 ## Pagina 30
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 30
-Costruire l'identità femminile (con il Centro Donna del Comune di
-Venezia)
-L’Istituto si avvale della consulenza del personale del Centro Donna per incontri e percorsi
-di lettura legati all’identità femminile.
-Saper vedere un film (con IMG Cinema)
-La Multisala IMG Cinema è la sala cinematografica selezionata dall’Istituto per la
-proiezione di film didattici o di interesse culturale, presentati da esperti del settore.
-Biennale Educational
-L’Istituto si avvale dei servizi di Biennale Educational per l’organizzazione di visite
-guidate, progetti e laboratori sui temi dell’arte e dell’architettura.
-A lezione di Terremoto (con la Protezione Civile del Comune di
-Venezia)
-Continua la collaborazione con i Volontari della Protezione Civile del Comune di
-Venezia riguardo la prevenzione dai danni sismici, i pericoli del terremoto e le buone
-pratiche di protezione civile da attuare prima, durante e dopo un terremoto.
-Fondamenti di Primo Soccorso (con i Volontari della Croce Verde di
-Mestre)
-In collaborazione con i Volontari della Croce Verde Mestre, il progetto intende trasmettere
-le conoscenze di base del primo soccorso e le norme di comportamento da tenere in situazioni
-con rischi per la salute. Il soccorso non è solo conoscenza di segni e sintomi, ma è anche
-educazione civica, cultura della salute, conoscenza delle strutture che erogano i servizi
-sanitari di emergenza e il loro funzionamento.
+tracciare l’evoluzione del percorso di crescita delle bambine e dei bambini iscritti, della
+rendicontazione finale del processo educativo e formativo degli stessi attraverso l’elaborazione di una
+scheda personale di sintesi, ossia il Portfolio di cui parla la Legge, affinché le famiglie e i docenti del
+grado scolastico successivo siano messi a conoscenza del loro profilo in uscita.
+
+## 2.3.2 La Valutazione Nelle Scuole Primaria E Secondaria Di I Grado
+
+La valutazione degli apprendimenti dell’allievo pone attenzione ai processi formativi, è correlata alla
+programmazione delle attività e degli obiettivi di apprendimento, nel rispetto delle peculiarità degli
+allievi, tiene conto della situazione di partenza e del percorso di crescita personale.
+Si realizza attraverso l’osservazione continua e sistematica dei processi di apprendimento formali e
+informali e stimola l’alunno alla autovalutazione dei propri comportamenti e percorsi di
+apprendimento. Il raggiungimento degli obiettivi viene rilevato attraverso la somministrazione di
+prove formative e sommative, esprimendo i risultati in decimi.
+La valutazione finale, considerando il percorso formativo dell’allievo e la maturazione personale,
+esprime il grado complessivo delle conoscenze acquisite e il livello di competenza raggiunto.
+Le tabelle qui di seguito riportate definiscono i criteri oggettivi per l’attribuzione del voto, mettendo in
+corrispondenza le conoscenze e le competenze sottoposte a verifica con una valutazione espressa in
+decimi, individuata all’interno di un intervallo percentuale calcolato sulla base degli items che ogni
+docente decide di inserire nella prova da somministrare all’alunno.
+
+## Scuola Primaria
+
+Voto
+%
+Descrittori
+10
+100-95
+1. Possesso di conoscenze complete ed approfondite
+2. Applicazione corretta delle conoscenze in situazioni nuove
+3. Esposizione completa con rilevante capacità di argomentazione
+4. Rielaborazione personale dei contenuti
+9
+94-85
+1. Possesso di conoscenze complete ed approfondite
+2. Applicazione corretta delle conoscenze in situazioni nuove
+3. Esposizione chiara e completa delle conoscenze acquisite, con corretto
+utilizzo della terminologia specifica
+4. Rielaborazione personale dei contenuti
+8
+84-75
+1. Possesso di conoscenze complete e corrette
+2. Applicazione corretta delle conoscenze in situazioni note
+3. Esposizione corretta e sicura delle conoscenze acquisite
+4. Maturazione di buone capacità di rielaborazione personale
+7
+74-65
+1. Possesso di conoscenze corrette
+2. Applicazione corretta delle conoscenze acquisite, in situazioni note
+3. Esposizione elementare, ma corretta delle conoscenze acquisite
+4. Declinazione di un lavoro diligente
+6
+64-55
+1. Possesso dei requisiti essenziali
+2. Capacità di procedere nelle applicazioni pur con qualche errore od
+imprecisione
+3. Esposizione accettabile delle conoscenze acquisite
+4. Declinazione di un lavoro diligente
+5
+54-45
+1. Acquisizione succinta degli elementi essenziali
+2. Applicazione parziale delle conoscenze, con presenza di lacune e/o
+incertezze
+3. Esposizione talvolta incompleta delle conoscenze acquisite
+4. Declinazione di un lavoro non sempre diligente
 
 ---
 
 ## Pagina 31
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 31
-2.6 Alternanza Scuola-Lavoro
-L' ”Alternanza” secondo la Buona Scuola (legge 107/2015)
-La legge 107/2015 (commi 33-43 art. 1) sistematizza l’alternanza scuola lavoro dall’a.s.2015-2016 nel secondo ciclo di
-istruzione, attraverso la previsione di percorsi obbligatori di alternanza nel secondo biennio e nell’ultimo anno della
-scuola secondaria di secondo grado, con una differente durata complessiva rispetto agli ordinamenti: almeno 400 ore
-negli istituti tecnici e professionali e almeno 200 ore nei licei, da inserire nel Piano triennale dell’offerta formativa.
-L' ”Alternanza” secondo la normativa, pertanto, costituisce una metodologia didattica per offrire agli studenti la possibilità
-di fare scuola in situazione lavorativa e di “apprendere facendo”, alternando periodi di studio e di pratica. Una modalità di
-realizzazione del percorso formativo progettata e attuata dall'istituzione scolastica e formativa, in collaborazione con le
-organizzazioni, che insieme intervengono per la definizione dei fabbisogni formativi del territorio, la progettazione
-curriculare, l’erogazione del percorso formativo e la valutazione. Si tratta di “nuova visione” della formazione, che nasce dal
-superamento della separazione tra momento formativo e momento applicativo e si basa su una concezione in cui educazione
-formale, informale ed esperienza di lavoro si combinano in un unico progetto formativo.
-Lo studente che partecipa ai percorsi in “Alternanza”, durante l'anno scolastico frequenta regolarmente le attività didattiche
-curricolari in aula e svolge attività pratiche in organizzazione durante l’anno scolastico. Al termine dell’anno scolastico, lo
-studente consegue il titolo di studio previsto dal percorso curricolare ed una o più certificazioni relative alle competenze
-acquisite partecipando alla formazione in “Alternanza”.
-Le finalità
-I percorsi di formazione in Alternanza Scuola-Lavoro sono realizzati con l’obiettivo di:
-•
-attuare modalità di apprendimento flessibili che colleghino sistematicamente la formazione in aula con
-l'esperienza pratica;
-•
-arricchire la formazione acquisita dagli studenti nei percorsi scolastici e formativi, con l'acquisizione di
-competenze spendibili anche nel mercato del lavoro;
-•
-favorire l'orientamento dei giovani per valorizzarne le vocazioni personali, gli interessi e gli stili di apprendimento
-individuali;
-•
-realizzare un organico collegamento delle istituzioni scolastiche e formative con il mondo del lavoro,
-consentendo la partecipazione attiva di tali soggetti nei processi formativi;
-•
-correlare l'offerta formativa allo sviluppo culturale, sociale ed economico del territorio.
-L’organizzazione
-Le attività necessarie per realizzare percorsi di formazione in Alternanza Scuola–Lavoro devono essere:
-•
-progettate
-•
-attuate
-•
-verificate
-•
-valutate
-A tal fine l’organizzazione (es: aziende, associazioni, enti pubblici e privati, studi professionali ed altri soggetti a diverso
-titolo coinvolti nei processi di carattere lavorativo) aderisce ad un partenariato promosso dalla Scuola e composto dai
-referenti delle organizzazioni, i coordinatori del progetto in Alternanza delle varie classi della scuola, un referente della
-Camera di Commercio, un rappresentante dell’Ufficio Scolastico Provinciale, i rappresentanti di enti pubblici e/o privati, i
-rappresentanti delle Province.
-Tutti i rappresentanti del partenariato saranno i componenti di un gruppo di lavoro o “comitato tecnico” che progetta,
-programma e verifica le attività della formazione in “Alternanza”.
-L’organizzazione svolge un ruolo importante dal punto di vista formativo nella realizzazione dei percorsi di formazione in
-Alternanza Scuola-Lavoro; l’integrazione delle attività pratiche in azienda con le conoscenze acquisite nella formazione
-scolastica rappresenta un elemento cardine per il raggiungimento degli obiettivi dell’ Alternanza.
+
+## Ricapitolando Sulla Valutazione
+
+Nella scuola dell’infanzia la valutazione delle bambine e dei bambini prevede i seguenti momenti
+intervento da parte del corpo docente:
+ l’osservazione occasionale e sistematica;
+ la documentazione delle attività;
+ l’analisi e la descrizione dei livelli evolutivi;
+ la redazione di un profilo globale e unitario.
+La Scuola Primaria e la Scuola Secondaria di I grado valutano per educare:
+ mediante esperienze di apprendimento significative e motivanti;
+ per consentire a ciascuno di sviluppare in modo ottimale le proprie capacità, intelligenze e
+attitudini.
+
+## La Valutazione Non È Classificazione
+
+
+## 2.3.3 La Valutazione Del Comportamento
+
+La valutazione della condotta è definita a seguito dell’osservazione dei seguenti ambiti:
+A. relazione con i pari e con gli adulti;
+B. capacità di collaborazione;
+C. rispetto degli impegni;
+D. approccio al contesto.
+
+## Scuola Secondaria Di I Grado
+
+Descrittori
+Voto
+%
+Conoscenze
+Abilità
+10
+100-95
+Ampie e approfondite
+1. Lavora con metodo e con attenzione intenzionali
+2. Utilizza un linguaggio appropriato e sicuro
+3. Rielabora in modo personale i contenuti
+4. Produce in modo autonomo alcuni collegamenti
+interdisciplinari
+9
+94-85
+Soddisfacenti
+1. Lavora con metodo e con attenzione prolungate
+2. Utilizza un linguaggio chiaro
+3. Rielabora in modo organico i contenuti
+4. Produce collegamenti disciplinari
+8
+84-75
+Complete
+1. Lavora con attenzione
+2. Utilizza un linguaggio corretto
+3. Applica le regole correttamente
+4. Rileva i collegamenti tra i contenuti disciplinari
+7
+74-65
+Abbastanza complete
+1. Utilizza un linguaggio abbastanza corretto
+2. Applica le regole in modo abbastanza corretto
+3. Utilizza con discreta sicurezza le procedure acquisite
+6
+64-55
+Accettabili
+1. Lavora con poca concentrazione
+2. Utilizza un linguaggio elementare, ma corretto
+3. Applica in modo meccanico le procedure acquisite
+5
+54-45
+Parziali e frammentarie
+1. Esprime un’inadeguata capacità di ascolto
+2. Utilizza un linguaggio elementare e non sempre
+appropriato
+3. Applica con incertezza le procedure apprese
+4
+44-35
+Molto lacunose
+1. Limitata capacità di attenzione
+2. Esposizione frammentaria, poco ordinata e imprecisa
+3. Compie errori procedurali nell’esecuzione di problemi o
+esercizi semplici
 
 ---
 
 ## Pagina 32
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 32
-Lo studente che frequenta un percorso di formazione in Alternanza Scuola-Lavoro, segue regolarmente le attività didattiche
-curricolari in aula, ma svolge anche attività pratiche in organizzazione durante l’anno scolastico.
-I percorsi in “Alternanza” attivano un processo formativo che si realizza non più soltanto in classe, considerata come luogo
-esclusivo di apprendimento, ma anche in contesti lavorativi. Lo studente apprende, pertanto, i contenuti elaborati in classe
-attraverso l’esperienza di lavoro.
-Per programmare ed organizzare la permanenza degli studenti negli ambienti di lavoro, l’Organizzazione condivide e
-programma con la Scuola i seguenti aspetti:
-•
-le attività da svolgere in organizzazione;
-•
-i tempi di permanenza in organizzazione ed i periodi;
-•
-il numero degli studenti;
-•
-il materiale didattico per gli studenti;
-•
-gli ambiti formativi relativi alle competenze e conoscenze che gli studenti dovranno acquisire.
-Il ruolo e le attività della Scuola
-Nei percorsi in Alternanza Scuola Lavoro la Scuola svolge, in sinergia con le Organizzazioni, il ruolo di soggetto attuatore ed
-in particolare quello di:
-•
-progettazione integrata dei percorsi, progettando con le Organizzazioni e gli altri soggetti coinvolti, i percorsi di
-formazione degli allievi, in coerenza con gli obiettivi definiti nella fase iniziale e nell'ottica di favorire e supportare
-l'acquisizione di specifiche competenze e conoscenze, coerenti con il percorso di studi intrapreso dagli studenti;
-•
-attivazione del sistema tutoriale, individuando uno o più tutor/referenti tra i docenti della scuola che seguiranno
-gli studenti durante tutto il percorso di formazione;
-•
-certificazione dell'apprendimento, valutando e certificando le competenze acquisite dagli studenti.
-La valutazione degli allievi
-Il tutor aziendale nel percorso di Alternanza Scuola-Lavoro deve fornire all’Istituzione Scolastica gli elementi utili a:
-•
-verificare l’efficacia del processo formativo;
-•
-valutare le attività dello studente.
-L’Organizzazione realizza queste fasi di valutazione e di verifica con modalità, tempi e strumenti programmati e condivisi
-con la Scuola.
-Le valutazioni fornite dall’Organizzazione permetteranno all’Istituzione Scolastica di fare una valutazione globale e
-conclusiva in merito al raggiungimento degli obiettivi formativi.
-La Scuola certificherà le competenze acquisite dagli studenti in formazione di “Alternanza Scuola-Lavoro”.
-Articolazione dell’attività di Alternanza Scuola Lavoro
+Qui di seguito la tabella con i descrittori del comportamento.
+Griglia per la valutazione del comportamento
+Scuola Primaria e Scuola Secondaria di I grado
+Relazione con i pari e con gli
+adulti
+Capacità di
+collaborazione
+Rispetto degli
+impegni
+Approccio al
+contesto
+Maturo, corretto
+e responsabile
+Comportamento irreprensibile,
+maturo, responsabile, sempre
+corretto con docenti, compagni e
+personale della scuola; l’alunno
+rispetta gli altri e i loro diritti, nel
+riconoscimento delle differenze
+individuali.
+È sempre
+disponibile alla
+partecipazione e
+alla
+collaborazione
+con tutti.
+Assolve gli
+impegni
+scolastici in
+maniera
+sempre
+puntuale,
+costante e
+approfondito in
+tutte le
+discipline, sia a
+scuola, sia a
+casa.
+È consapevole del
+valore comune delle
+attrezzature, dei
+materiali e dei sussidi
+della scuola, li utilizza
+in modo responsabile
+e ne ha cura.
+Corretto e
+responsabile
+Comportamento responsabile,
+sempre corretto con docenti,
+compagni e personale della scuola;
+l’alunno rispetta gli altri e i loro
+diritti, nel riconoscimento delle
+differenze individuali.
+È disponibile alla
+partecipazione e
+alla
+collaborazione
+con tutti.
+Assolve gli
+impegni
+scolastici in
+maniera
+costante in
+tutte le
+discipline, sia a
+scuola, sia a
+casa.
+Utilizza in modo
+appropriato materiali,
+attrezzature e sussidi
+scolastici.
+Sostanzialmente
+corretto
+Comportamento complessivamente
+corretto nei confronti dei docenti,
+dei compagni e del personale
+scolastico; l’alunno rispetta gli altri
+e i loro diritti.
+È abbastanza
+disponibile alla
+partecipazione e
+alla
+collaborazione
+con tutti.
+Assolve gli
+impegni
+scolastici, ma
+non sempre in
+maniera
+puntuale e
+costante.
+Di solito utilizza
+materiali,
+attrezzature e sussidi
+scolastici
+correttamente.
+Poco corretto
+Comportamento non sempre
+corretto nei confronti di docenti,
+compagni e personale scolastico;
+l’alunno, talvolta, assume
+atteggiamenti poco rispettosi degli
+altri e dei loro diritti.
+Non sempre
+partecipa o si
+mostra
+disponibile alla
+collaborazione;
+instaura rapporti
+spesso
+conflittuali.
+Assolve gli
+impegni
+scolastici
+saltuariamente.
+A volte si mostra
+superficiale e
+disattento nell’uso di
+materiali,
+attrezzature e sussidi.
+Non corretto
+Comportamento scorretto nei
+confronti di docenti, compagni o
+personale scolastico; l’alunno spesso
+assume atteggiamenti poco rispettos
+degli altri e dei loro diritti.
+Non partecipa e
+non è disponibile
+alla
+collaborazione;
+disturba
+frequentemente
+l’attività
+didattica.
+Assolve gli
+impegni
+scolastici in
+rarissimi casi.
+Utilizza materiali,
+attrezzature e sussidi
+in modo non sempre
+adeguato.
+Scorretto e di
+disturbo
+Comportamento gravemente
+scorretto nei confronti di docenti,
+compagni o personale scolastico;
+l’alunno assume atteggiamenti
+irrispettosi nei confronti degli altri e
+dei loro diritti.
+Ha a suo carico
+un numero
+consistente di
+provvedimenti
+disciplinari per
+violazione
+reiterata del
+regolamento di
+istituto.
+Non assolve
+mai gli impegni
+scolastici.
+Utilizza materiali,
+attrezzature e sussidi
+in modo poco corretto
+o inappropriato fino
+ad arrecare danno.
 
-## Attivita'
+## 2.3.6 La Valutazione Per Gli Alunni Con Certificazione
 
-
-## Soggetti
-
-
-## Coinvolti
-
-
-## Modalita'
-
-
-## L’Asl: Linee Guida
-
-(finalità, organizzazione,
-documentazione)
-Coordinatore Didattico, Legale
-Rappresentante, Referente ASL, Tutor
-scolastico, tutor aziendale
-(orario scolastico)
-Patto formativo firmato e compilato dall’alunno e
-da chi ha la sua patria potestà
-
-## (Allegato A )
-
-Convenzione firmata  tra istituto e comune  da
-redigere
-
-## (Allegato B )
-
-Valutazione dei rischi per l’attività di asl da far
-compilare al Tutor aziendale
-
-## (Allegato C )
-
+Gli obiettivi presenti nei Piani Educativi Individualizzati (PEI) e Personalizzati (PDP) indicano quali
+competenze saranno soggette a verifica. Le verifiche vengono somministrate nel rispetto dei tempi
+personali e con modalità specifiche per ognuno, evitando complessità che mascherino l’effettivo
 
 ---
 
 ## Pagina 33
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 33
-Conoscenze di base: mercato e
-legislazione del lavoro
-Esperti dal mondo del lavoro,
-Direttore, Referente ASL
-(orario scolastico)
-Conoscenze di base:
-organizzazione aziendale
-Esperti dal mondo del lavoro,
-Coordinatore Didattico, docenti,
-Referente ASL
-(orario scolastico)
-Conoscenze di base: sicurezza
-negli ambienti di lavoro
-Esperti dal mondo del lavoro,
-Referente ASL
-(orario scolastico)
-ASL nell'orario annuale dei
-piani di studio:   inserimento
-nelle aziende
-Tutor scolastico, tutor aziendale
-Individualmente o in piccoli gruppi; in orario
-scolastico
-Presentazione di sé: stesura cv
-Docenti
-(presentazione cv in classe, stesura in attività
-individuali, revisione in classe)
-Valutazione e autovalutazione
-Tutor aziendali/tutor  scolastico
-Coordinatore Didattico
-Relazione da parte degli allievi sull'attività svolta e
-Scheda di valutazione del percorso di alternanza
-scuola lavoro da parte dello studente
+grado di competenza raggiunto. Si prevedono quindi, laddove l’aderenza al percorso didattico della
+classe lo consente:
+ verifiche uguali a quelle della classe;
+ verifiche opportunamente semplificate;
+ verifiche eseguite con strumenti compensativi.
+Saranno invece somministrate verifiche completamente differenziate in relazione agli obiettivi
+individualizzati, perseguiti anche da insegnanti di sostegno con percorsi speciali. La responsabilità
+dell’atto valutativo del percorso spetta in modo collegiale al team docente che l’ha sostenuto. Si terrà
+conto, oltre che dei livelli raggiunti nelle varie aree, anche delle offerte a cui l’alunno ha avuto
+accesso e delle risposte comportamentali, con coerenza rispetto agli obiettivi e alla situazione di
+partenza. La valutazione verrà formalizzata e resa pubblica trimestralmente o quadrimestralmente,
+secondo le indicazioni e le modalità indicate dagli organi collegiali.
+Inoltre, come previsto dalla L. 104 del 1992, art.16, commi 1 e 2: “Nella valutazione degli alunni
+handicappati da parte degli insegnanti è indicato, sulla base del piano educativo individualizzato, per
+quali discipline siano stati adottati particolari criteri didattici, quali attività integrative e di sostegno
+siano state svolte, anche in sostituzione parziale dei contenuti programmatici di alcune discipline.
+Nella scuola dell'obbligo sono predisposte, sulla base degli elementi conoscitivi di cui al comma 1,
+prove d'esame corrispondenti agli insegnamenti impartiti e idonee a valutare il progresso dell'allievo
+in rapporto alle sue potenzialità e ai livelli di apprendimento iniziali”. Ciò a garanzia della perfetta
+valenza legale del titolo conseguito al termine dell’Esame di Stato conclusivo del Primo Ciclo di
+Istruzione, che dà libero accesso a qualunque indirizzo scolastico di ordine immediatamente
+superiore.
+Riguardo alle verifiche ed alla valutazione degli alunni con certificazione DSA, nel rispetto della
+L.170/10, art. 5, viene garantito il ricorso agli strumenti compensativi e dispensativi previsti dal PDP.
+Tali alunni avranno a disposizione un tempo più lungo e, se necessario, si potranno avvalere della
+sintesi vocale o della lettura ad alta voce dell'insegnante. L'insegnante prediligerà infine la
+valutazione orale delle competenze acquisite.
+Le prove INVALSI saranno somministrate, in caso di necessità, in modalità informatizzata, mentre
+per quanto concerne l’Esame di Stato conclusivo del primo ciclo d'istruzione, annualmente vengono
+emanate specifiche indicazioni attraverso le circolari ministeriali, volte comunque sempre a tutelare
+gli alunni con DSA confermando la possibilità di utilizzare le misure dispensative e compensative
+previste durante il percorso scolastico nel PDP.
+Nel diploma dell’Esame di Stato del primo ciclo degli alunni con certificazione di disabilità o di disturbi
+specifici dell’apprendimento è riportato il voto finale in decimi senza menzione delle modalità di
+svolgimento e differenziazione delle prove.
 
-## (Allegato D)
+## 3. Le Scelte Di Partecipazione, Di Ricerca, Di Formazione E Di Sviluppo
 
-Scheda di valutazione studente a cura della
-struttura ospitante (
 
-## Allegato E)
+## 3.1 La Condivisione
 
-Scheda di osservazione dell’attività di Alternanza Scuola Lavoro
-scadente
-accettabile
-soddisfacente
-discreto
-buono
-Frequenza
-Osservazioni dello studente sulla qualità
-dell’esperienza
-Osservazioni del tutor sull’apporto
-personale dello stagista
-Osservazione della commissione sulla
-qualità della relazione
-Osservazioni complessive della
-commissione sull’esperienza
+L’innovazione scolastica non può realizzarsi appieno senza adeguate azioni di condivisione che
+consentono all’Istituto di confrontarsi costantemente con le altre realtà operanti nell’area
+dell’educazione, della formazione e dell’istruzione delle giovani generazioni.
+Le scelte partecipative dell’Istituto sono orientate al perseguimento delle finalità e degli obiettivi così
+di seguito sintetizzati:
+ continuità interna, come promozione della comunicazione all’interno delle scuole facenti parte
+dell’Istituto per la costruzione di curricoli verticali, a partire dal confronto e dallo scambio costanti
+relativamente alle programmazioni educative e d’istruzione, alle metodologie, alle tecniche di
+verifica e di valutazione, con l’intento di promuovere una crescita valoriale comune;
+ continuità esterna, nel senso pieno della collaborazione con gli altri Istituti d’Istruzione di ogni
+ordine e grado, con l’Ente Locale e con le Agenzie che operano nel contesto socio-economico-
+culturale della Comunità Locale.
+ integrazione delle risorse, secondo i principi della solidarietà e della sussidiarietà, tra gli ordini di
+scuola all’interno dell’Istituto, in rete con scuole dello stesso Comune e limitrofe e con Enti
+Educativi e Associazioni che operano sul territorio o nei Comuni viciniori.
 
 ---
 
 ## Pagina 34
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 34
-2.7 Attività  internazionali, stage e certificazioni linguistiche
-La dimensione internazionale è imprescindibile nel percorso formativo degli studenti odierni. Per promuovere e favorire la
-dovuta apertura alle culture e ai saperi globali, l’Istituto offre attività didattiche, di stage, di viaggio o di lavoro a contatto con
-paesi e culture europei ed extraeuropei.
-Stage linguistici all’estero
-Scopo degli stage linguistici è quello di offrire agli studenti non solo la possibilità di approfondire lo studio di una lingua
-straniera ma anche di fare un’esperienza all’estero in un contesto sociale e culturale talvolta per alcuni aspetti diverso da
-quello del Paese di provenienza. Le lingue interessate dagli stage linguistici sono: francese, tedesco, spagnolo e inglese.
-Certificazioni linguistiche
-Avvalendosi anche della partnership con l’Istituto Dante Alighieri di Padova, agli studenti viene offerta la possibilità di
-sostenere gli esami per ottenere certificazioni linguistiche secondo il Quadro Comune di Riferimento Europeo per la
-Didattica delle Lingue, presso enti certificatori accreditati.
-Certificazione di lingua inglese
-Certificazione di lingua francese
-Certificazione di lingua tedesca
-Certificazione di lingua spagnola
-Corsi di lingue opzionali aggiuntive
-Forte della convenzione con l’Università Ca’ Foscari di Venezia e della partecipazione con enti e istituti di cultura del
-territorio, l’Istituto offre ai suoi studenti la possibilità di frequentare corsi anche gratuiti di lingue europee ed extraeuropee
-che di solito non entrano nel curricolo scolastico.
-Lingua russa
-Lingua neogreca
-Lingua albanese
-Lingua romena
-Lingua svedese
-Lingua portoghese e brasiliana
+ diffusione della coscienza della collegialità e del senso di responsabilità condivisa, per arrivare alle
+decisioni in modo democratico, per valorizzare le competenze e gli interessi di tutti i docenti e del
+personale scolastico;
+ superamento dell’autoreferenzialità attraverso l’adesione a proposte di rete, per scongiurare il
+pericolo di guardare unicamente al proprio interno  CTI (Centro Territoriale per l’Inclusione) di
+Chiari; rete ATA (Assistenti Amministrativi) e di formazione dei DS e dei DSGA (Dirigenti Scolastici
+e Direttori dei Servizi Generali Amministrativi); CTRH (Centro Territoriale Risorse Handicap); Rete
+Ambito 09 Sebino- Franciacorta-Sud Ovest bresciano; rete acquisti facile consumo e materiale
+igienico-sanitario; ASAB (Associazione Scuole Autonome Bresciane); rete digitalizzazione; rete
+
+## Dpo.
+
+
+## 3.2 La Formazione
+
+L’aggiornamento professionale è un elemento di qualità della nostra Offerta Formativa: fornisce ai
+docenti strumenti culturali e scientifici per supportare la sperimentazione, la ricerca-azione,
+l’innovazione didattica; inoltre, in alcune delle sue declinazioni, permette a tutto il personale scolastico
+di migliorare le conoscenze e affinare gli strumenti operativi di propria competenza.
+Le attività di formazione sono invece specificamente rivolte ai neo-immessi in ruolo, durante l’anno di
+prova, e ai docenti che svolgono particolari incarichi, come le Funzioni Strumentali.
+Il Piano di formazione-aggiornamento, previsto per l’anno scolastico 2018-2019, sulla base delle
+sollecitazioni legislative, degli obiettivi del PtOF e dei risultati dell’Autovalutazione di Istituto, tiene
+conto dei seguenti elementi:
+ il bisogno di rafforzare le competenze progettuali, valutative, organizzative, pedagogiche e
+relazionali, per affrontare i cambiamenti che la società propone;
+ l’esigenza di conoscere l’evoluzione del quadro normativo;
+ l’attenzione alla sicurezza e alla salute nell’ambiente di lavoro;
+ l’approfondimento di aspetti culturali, epistemologici e didattici sia disciplinari che interdisciplinari;
+ la necessità di implementare la relazione con le famiglie, il territorio e i referenti istituzionali, con
+particolare riferimento a specifiche problematiche, alla disabilità e alle difficoltà di apprendimento.
+Il piano di aggiornamento prevede l’adesione a corsi organizzati in particolare dall’Ambito 09, cui
+appartiene il nostro Istituto, ma anche alle proposte formative promosse dal MIUR, dall’USR
+Lombardia, dall’UST di Brescia, da altre Reti di scuole ed Enti territoriali. Si può avvalere avvale delle
+risorse e delle competenze interne, proponendo la condivisione e l’apertura al confronto quali modalità
+ricorrenti del lavoro collegiale. Si farà pertanto ricorso, secondo le esigenze, alle seguenti risorse:
+ personale docente interno con specifiche competenze;
+ soggetti esterni che svolgano un'attività di consulenza in seminari e incontri-dibattito;
+ formazione a distanza e apprendimento in rete;
+ reti tra scuole che promuovano modalità di ricerca-azione e riflessione sulle esperienze.
+
+## 3.2.1 Iniziative Comprese Nel Piano Di Formazione-Aggiornamento
+
+Con riferimento al triennio 2019-2022, il II Istituto di Palazzolo sull’Oglio prevede di affrontare le
+seguenti tematiche di formazione-aggiornamento, in relazione ai bisogni emersi ed espressi dal
+personale in servizio all’interno dello stesso:
+ Valutazione e Autovalutazione  Percorso formativo sullo sviluppo delle competenze utili alla
+progettazione e all’utilizzo di strumenti e metodi per la valutazione e l’autovalutazione.
+ Didattica e Nuove Tecnologie  Percorsi formativi di livelli differenziati, per il potenziamento delle
+competenze digitali, per un utilizzo efficace dei linguaggi multimediali e per l’introduzione delle
+tecnologie nella didattica, nell’ambito del PNSD.
+ Metodologia laboratoriale e innovazione didattica  Percorsi formativi sull’uso della metodologia
+della ricerca, per valorizzare i linguaggi non verbali, e non solo quelli verbali,  intendendo il
+laboratorio non solo come uno spazio fisico attrezzato in maniera specifica ai fini di una determinata
+produzione, ma come situazione, come modalità di lavoro, anche in aula, dove docenti ed allievi
+progettano, sperimentano, ricercano agendo la loro fantasia e la loro creatività.
 
 ---
 
 ## Pagina 35
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 35
-Clil – Content and Language Integrated Learning
-Il termine CLIL, introdotto da David Marsh e Anne Maljers nel 1994, è l’acronimo di Content and Language Integrated
-Learning, apprendimento integrato di contenuti disciplinari in lingua straniera veicolare. La Legge di Riforma della Scuola
-Secondaria di secondo grado avviata nel 2010 ha introdotto l’insegnamento in lingua veicolare anche negli ordinamenti
-scolastici italiani. Il Parini ha attivato un insegnamento CLIL per ciascun indirizzo di studi.
-Alternanza Scuola Lavoro all’estero
-Con l’obbligo di organizzare percorsi di alternanza scuola-lavoro nel secondo biennio e all’ultimo anno, l’Istituto ha
-costruito un portafoglio di contatti con enti pubblici e privati all’estero presso i quali gli studenti potranno svolgere il
-periodo di alternanza previsto dall’ordinamento e al contempo consolidare le loro competenze linguistiche e sociali.
+ Competenze sociali e didattica cooperativa  Formazione del personale docente in merito ai principi
+e alle tecniche della didattica cooperativa in quanto capace di determinare elevati livelli di
+ragionamento, di sviluppo di nuove idee e di soluzioni e di  trasferimento di ciò che si è appreso da
+un contesto ad un altro, rispetto all'apprendimento competitivo e a quello individualistico.
+ Procedura e strumenti a supporto dell’inclusione degli alunni con Disturbi Oppostivi Provocatori 
+Formazione rivolta ai docenti relativa all’applicazione di strategie educative e didattiche per la
+gestione efficace delle fragilità di comportamento.
+ Sicurezza e salute negli ambienti di lavoro  Percorso di formazione sulla sicurezza nella scuola
+rivolto ai docenti e al personale ATA, per il conseguimento degli attestati di addetti Antincendio e
+Primo Soccorso.
+ Bilancio e programmazione economico-amministrativa  Formazione specifica per il Dirigente
+Scolastico e il Direttore dei Servizi Generali Amministrativi circa gli obblighi normativi in materia
+contabile e in ordine all’acquisizione di beni e servizi.
+ Corso di Formazione per docenti neo-immessi in ruolo  Il corso è rivolto ai docenti in anno di prova
+e si svolgerà sia con incontri in presenza, sia con moduli on line.
+
+## 3.3 L’Autoanalisi
+
+La Scuola è un sistema complesso, dal profilo fortemente dinamico, che deve lavorare per sviluppare le
+condizioni organizzative, gestionali e d’istruzione necessarie ad affinare e ampliare l’Offerta Formativa,
+rispondendo alle aspettative dei docenti, del personale amministrativo, dei genitori e degli alunni.
+L’autoanalisi d’istituto è uno strumento utile ad individuare i punti forti e i punti deboli dell’istituzione
+scolastica, affinché possa intervenire sulle proprie disfunzioni per porvi rimedio.
+Il II Istituto Comprensivo ha avviato da tempo un significativo percorso di autoanalisi che ha raggiunto
+la sua compiutezza formale nell’elaborazione del RAV (Rapporto di Autovalutazione).
+I punti di riferimento operativi del processo di autoanalisi sono i seguenti:
+• costruzione dei curricoli, condivisione dei Piani di Lavoro e delle strategie e metodologie educative e
+didattiche incontri di area, orizzontale e verticale, e dipartimenti disciplinari;
+• lettura e condivisione degli esiti delle Prove Invalsi e conseguente riflessione per una ricaduta sul
+processo di insegnamento–apprendimento;
+• osservazione e valutazione dei processi educativi, gestionali e organizzativi in atto nell’Istituto.
+• revisione annuale dei Progetti all’interno dei Consigli di interclasse e di classe, del Collegio Docenti,
+del Consiglio di Istituto e attraverso lo scambio e il confronto con eventuali esperti esterni;
+• monitoraggio continuo da parte del Dirigente Scolastico e degli insegnanti dell’azione educativa e
+didattica per mantenere o modificare le strategie utilizzate;
+• riflessione sui processi di valutazione a partire dalla ricognizione delle prassi didattiche, delle
+riflessioni docimologiche e della registrazione e rendicontazione degli esiti a livello regionale e
+nazionale.
+3.3.1
+
+## Il Rav: Rapporto Di Auto-Valutazione
+
+Il Rapporto di Autovalutazione ha consentito al Dirigente Scolastico e al Gruppo di Lavoro per la
+Valutazione di delineare il profilo del II Istituto Comprensivo di Palazzolo sull’Oglio attraverso l’uso di
+descrittori precostituiti, che ne hanno definito sinteticamente i caratteri salienti per aree di riferimento.
+Il format è stato elaborato dall’Invalsi con il supporto e la supervisione del Gruppo Start Up (Miur, Invalsi ed
+esperti esterni). Raccoglie gli spunti di alcune sperimentazioni portate avanti dal 2008 (Valutazione e
+Miglioramento, VSQ e VALES) e prevede che gli istituti debbano analizzare:
+
+il contesto in cui operano  popolazione scolastica, territorio e capitale sociale, risorse economiche e
+materiali, risorse professionali;
+
+gli esiti dei loro studenti  i risultati scolastici e gli esiti delle prove standardizzate, le competenze chiave
+raggiunte e i risultati a distanza, i successi e gli insuccessi nei cicli scolastici successivi, l’eventuale
+prosecuzione negli studi universitari, l’inserimento nel mondo del lavoro;
 
 ---
 
 ## Pagina 36
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 36
-2.8 Progetti sportivi
-Da sempre i numerosi progetti sportivi caratterizzano l’offerta formativa dell’Istituto. La cultura sportiva è infatti assunta nel
-percorso formativo come occasione di misurarsi con i propri limiti, di superare le proprie paure e sciogliere le tensioni
-emotive che caratterizzano l’età evolutiva.
+
+i processi di organizzazione e gli ambienti di insegnamento-apprendimento  dalla predisposizione e
+progettazione della didattica, alla predisposizione degli ambienti di apprendimento passando per
+l’integrazione con il territorio.
 
-## Giochi Sportivi Studenteschi
+## Area Contesto E Risorse
 
-Referente: Prof. Enrico LAZZARIN
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolte: Scienze Motorie
-Obiettivi generali: promuovere la diffusione dello sport intesa come cultura del movimento e
-acquisizione di stili di vita attivi ed abitudini alimentari corrette
-Contenuti: partecipazione pratica alle attività sportive individuali e di squadra previste dal programma ministeriale.
+Territorio e capitale sociale
+* Comunanza d'intenti e sinergia attiva tra la scuola e il territorio, attraverso lo scambio e il confronto costanti,
+alla ricerca di occasioni formative e aggregative ugualmente utili agli attori coinvolti
+* Sensibilità dell'ente locale nei confronti della scuola, destinataria di un apprezzabile piano di diritto allo studio
+attraverso il quale è stato possibile fino ad oggi rispondere ai bisogni più generali e anche a quelli particolari.
+Risorse economiche e materiali
+* Strutture scolastiche non recenti, ma continuamente monitorate dall'Ente Locale che le sta adeguando ai vincoli
+di sicurezza previsti dalla normativa vigente.
+* Le sedi sono facilmente raggiungibili anche dai territori confinanti, permettendo alle famiglie di scegliere in
+relazione all’Offerta Formativa.
+* Piano di diritto allo Studio e Fondo d'Istituto sono le due fonti economiche principali.
+Risorse professionali
+* Corpo docente complessivamente stabile, disponibile alla sperimentazione, all'innovazione, all'aggiornamento.
+* Maggioranza di insegnanti a tempo indeterminato residenti sul territorio e con evidente senso di appartenenza
+alla comunità locale.
+* Numero apprezzabile di insegnanti a tempo determinato con ricorsività annuale, tali da garantire la stabilità del
+ciclo.
+* Condivisione e confronto apprezzabili in orizzontale, più facilmente all'interno dello stesso gruppo di lavoro, ma
+con discreta disposizione al riconoscimento delle competenze reciproche.
 
-## Progetto Sportivo “Atletica Leggera”
+## Area Esiti
 
-Referente: Prof. Enrico LAZZARIN
-Destinatari: Liceo dello sport
-Discipline coinvolti: Scienze Motorie
-Obiettivi generali: Attività sportiva progettata in collaborazione con i Tecnici Federali delle società G.A. COIN. Le lezioni
-verranno strutturate e svolte presso l’impianto sportivo gestito dalla società ATHLON S, GIULIANO – VENEZIA
+Risultati scolastici
+Criterio di Qualità: la scuola garantisce il successo formativo degli studenti
+Rubrica di Autovalutazione
+L'Istituto si colloca, relativamente all'ambito della valutazione, all'interno della fascia di apprezzabilità, tuttavia
+occorre migliorare la coerenza dei criteri di selezione evitando discrepanze tra singoli insegnanti, tra moduli e
+consigli di classe, tra gradi scolastici, pur salvaguardando le specificità disciplinari, le caratteristiche di contesto (le
+classi) e quelle personali (gli alunni e la loro storia).
+I risultati nelle prove standardizzate
+Criterio di qualità: la scuola assicura l’acquisizione dei livelli essenziali di competenze
+Rubrica di autovalutazione
+Il punteggio di italiano e di matematica della scuola alle PROVE INVALSI è in alcuni casi superiore a quello di
+scuole con background socio-economico e culturale simile.
+Competenze chiave e di cittadinanza
+Criterio di qualità: la scuola assicura l’acquisizione delle competenze chiave e di cittadinanza
+Rubrica di autovalutazione
+L'Istituto è particolarmente attento all'acquisizione delle competenze chiave e di cittadinanza da parte delle
+studentesse e degli studenti e attiva occasioni educative e formative mirate in tal senso:
 
-## Progetto Sportivo “Difesa Personale”
+## Scuola Primaria
 
-Referente: Prof. Enrico LAZZARIN
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolte: Scienze Motorie
-Obiettivi generali: sensibilizzare lo studente sul tema della violenza fisica analizzando le cause che la
-generano e come comportarsi nelle varie situazioni di pericolo.
-Contenuti: serie di lezioni su vari temi legati alla violenza fisica e alla tutela della propria persona sia
-dal punto di vista giuridico che pratico.
-
-## Progetto Sportivo “Conoscere Venezia Dall’Acqua”
-
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolte: Scienze Motorie e sportive
-Obiettivi generali: percorso naturalistico conoscitivo della città di Venezia in “Dragon Boat”,
-particolare canoa cinese. Il progetto nasce in collaborazione con il personale Tecnico Federale della
-società sportiva di “Venice canoe” con sede a San. Alvise e Associazione Sportiva Canottieri Mestre.
-Contenuti:
-• conoscenza artistico culturale della città di Venezia dalla prospettiva acquea.
-• conoscenza dell’habitat lagunare.
-• conoscenza e realizzazione di semplici manovre di propulsione arresto e avanzamento.
-
-## Progetto Sportivo “Basket School”
-
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolti: Scienze Motorie
-Obiettivi generali:
-Attività sportiva progettata in collaborazione con i Tecnici Federali del settore giovanile della
-società Reyer Basket.
-L’attività si svolge durante l’orario curriculare attraverso delle lezioni strutturate per l’acquisizione della tecnica e didattica
-specifica della disciplina.
-Contenuti:
-• competenze dei fondamentali tecnico-tattici del Basket
-• sensibile miglioramento della funzionalità dei grandi apparati e del trofismo muscolare
-• acquisizione delle norme e regolamenti specifici della disciplina.
+* Educazione quotidiana all'uso opportuno degli spazi e all'attivazione di comportamenti idonei agli stessi (aula,
+palestra, mensa, laboratori, servizi igienici);
+Popolazione scolastica
+* Significativo lavoro di rete con le agenzie educative e i servizi medico-specialistici del territorio e dei contesti
+viciniori.
+* Apertura della scuola al volontariato per supportare le attività di prima e seconda alfabetizzazione o di rinforzo
+didattico, soprattutto nei confronti degli alunni stranieri, oppure di quelli a forte rischio di dispersione scolastica.
+* Attivazione di occasioni educative e formative all'interno dei locali scolastici in orari extrascolastici per riunire le
+studentesse e gli studenti in un luogo di aggregazione sicura.
 
 ---
 
 ## Pagina 37
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 37
+* Educazione all'uso corretto del materiale, all'evitamento dello spreco e all'attribuzione di valore a quanto messo
+a disposizione dalla scuola per lo svolgimento delle attività;
+* Educazione al rispetto dell'altro, come interlocutore privilegiato, sia esso un adulto o un pari età;
+* Coinvolgimento attivo e diretto delle classi quinte nell'organizzazione e nella gestione degli open day;
+* Coinvolgimento attivo e diretto nell'organizzazione e nella gestione di eventi destrutturati, quali feste e
+spettacoli.
 
-## Progetto Sportivo “Rugby Educativo”
+## Scuola Secondaria Di I Grado
 
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolti: Scienze Motorie e sportive - Inglese
-Obiettivi generali:
-Attività sportiva progettata in collaborazione con i Tecnici Federali delle squadre di eccellenza del
-territorio. In riferimento alla tipologia del corso e agli obiettivi educativi prefissati, si è concordato di
-proibire la mischia “fondamentale tecnico del Rugby”, al fine di evitare qualsiasi situazione rischiosa dal
-punto di vista contusivo.
-L’attività tenuta esclusivamente in lingua inglese, privilegerà lo studio e le competenze comunicativo- lessicali proprie della
-lingua, attraverso lo sport.
-Contenuti:
-• competenze dei fondamentali tecnico-tattici del Rugby
-• sensibile miglioramento della funzionalità dei grandi apparati e del trofismo muscolare
-• acquisizione della terminologia specifica in lingua inglese.
+* Consiglio Comunale dei Ragazzi;
+* Percorso sull'affettività;
+* Percorso sul cyberbullismo;
+* Peer education e tutoring, diretti alla presa di coscienza dell'altro, delle sue peculiarità apprenditive, delle sue
+difficoltà;
+* Corso di Educazione stradale;
+* Coinvolgimento attivo e diretto nell'organizzazione e nella gestione degli open day;
+* Coinvolgimento attivo e diretto nell'organizzazione e nella gestione di eventi destrutturati.
 
-## Progetto Sportivo “Sport E Ambiente Naturale”
+## Area Processi – Pratiche Educative E Didattiche
 
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolte: Scienze motorie - Scienze Naturali - Storia
-Obiettivi generali: attività sportiva in ambiente montano, presso “Onda Selvaggia” Centro di
-Formazione Sport Fluviali, in collaborazione con Tecnici Federali di livello Nazionale Canoa-
-Kayak-Guide Rafting e Guide Alpine. L’ attività sportiva montana permette il raggiungimento di
-obiettivi trasversali inerenti all’aspetto antropologico e morfologico dell’ambiente relativi alle
-Scienze Naturali e alla Storia.
-Contenuti:
-Conoscenza della Valle del Brenta attraverso gli sport fluviali: rafting-canoa-hydrospeed e percorsi itineranti sul Massiccio
-del Grappa e sull’Altopiano di Asiago, percorrendo sentieri storici risalenti alla Prima Guerra Mondiale.
-2.9 Attività riservate
-
-## Progetto Sportivo “Pady Open Water”
-
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio
-Discipline coinvolte: Scienze Motorie – Scienze Naturali - Inglese
-Obiettivi generali: l’attività si avvale di strutture adeguate  “Diving Center” sia in  Italia che all’estero e di e istruttori
-certificati. Lo sport  subacqueo permette il raggiungimento di obiettivi trasversali inerenti all’aspetto biologico, e nella
-fattispecie di indirizzo bio-marino, quale risorsa imprescindibile per maturare conoscenze naturalistiche delle specie marine
-presenti nel territorio. Inoltre si sottolinea l’importanza dell’acquisizione di strumenti per il riconoscimento generale dei
-fondali e delle strutture geologiche ed ambientali dei territori locali ed esteri.
-Contenuti:
-• rilascio brevetto “Padi Open Water Diver”
-• riconoscimento del territorio subacqueo e delle specie presenti.
-• studio del manuale “Open Water Diver Manual”
-• gestione e utilizzo dell’attrezzatura subacquea
-• immersione in acque confinate
-• immersione in acque libere
-L’acquisizione del brevetto richiede un esame scritto sulle conoscenze teoriche e un esame pratico.
-
-## Progetto Sportivo “Italian Resuscitation Council”
-
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio (Triennio)
-Discipline coinvolte: Scienze Motorie e sportive - Scienze naturali
+Risultati a distanza
+Criterio di qualità: La scuola favorisce il successo degli studenti nei successivi percorsi di studio e di lavoro
+Rubrica di autovalutazione
+La cura del passaggio d'informazioni da un grado scolastico all'altro, come pratica ormai consolidata all'interno
+dell'Istituto sin dal momento conclusivo della scuola dell'infanzia e poi al termine della scuola primaria, rendendo
+la scuola secondaria di I grado, l'ultimo contenitore del percorso educativo e formativo di ogni studentessa e di
+ogni studente, permette di monitorare il loro percorso, sia in termini di costruzione delle competenze, sia con
+riferimento allo specifico degli esiti. Tutti gli alunni, tranne qualche rara eccezione, sono ammessi alle classi
+successive; quelli in difficoltà sono messi nella condizione di affrontare con serenità il percorso scolastico, offrendo
+loro le personalizzazioni opportune. Gli esiti sono soddisfacenti e solo minimamente si attestano nelle fasce
+valutative più basse. La continuità tra gli ordini di scuola all'interno del medesimo Istituto facilita la presa in carico
+delle situazioni nella loro specificità, favorendo il monitoraggio dei percorsi d'apprendimento e gli esiti ad essi
+corrispondenti. La continuità con la scuola secondaria di II grado rimanda all'Istituto la percezione che le
+studentesse e gli studenti rispettosi del Consiglio Orientativo espresso dai Consigli di Classe, alla fine dell'attività di
+orientamento, conseguano risultati complessivamente positivi al termine del primo anno di istruzione superiore.
+Curricolo, Progettazione e Valutazione
+Criterio di qualità: La scuola propone un curricolo aderente alle esigenze del contesto, progetta attività,
+didattiche coerenti con il curricolo, valuta gli studenti utilizzando criteri e strumenti condivisi
+Rubrica di autovalutazione
+La graduale e non ancora compiuta elaborazione delle strutture afferenti al curricolo, alla progettazione e alla
+valutazione è chiaramente riferibile al fatto che serve un tempo quantitativamente e qualitativamente disteso
+per consentire a tutti gli attori professionali in gioco di dare un contributo concreto a definire, non solo nella
+forma, ma anche e soprattutto nella sostanza, i suoi documenti costitutivi, le sue procedure didattiche e i suoi
+criteri valutativi, in un'ottica di coerenza e di condivisione interna, sia in orizzontale, sia ovviamente in verticale.
+Inclusione e differenziazione
+Criterio di qualità: La scuola cura l'inclusione degli studenti con bisogni educativi speciali, valorizza le differenze
+culturali, adegua l'insegnamento ai bisogni formativi di ciascun allievo attraverso percorsi di recupero e
+potenziamento.
+Rubrica di autovalutazione
+Le proposte educative e didattiche realizzate dalla scuola per gli studenti che necessitano di inclusione sono
+apprezzabili. La qualità degli interventi formativi, di recupero o potenziamento per gli studenti che necessitano di
+inclusione, è in generale significativa. La scuola è sensibile ai temi interculturali: si sperimentano numerose
+sollecitazioni innovative nell’ambito della didattica inclusiva, volendo migliorare le prestazioni scolastiche degli
+studenti. Gli interventi individualizzati nel lavoro d'aula sono diffusi e sistematici.
+Ambiente di apprendimento
+Criterio di qualità: La scuola offre un ambiente di apprendimento innovativo, curando gli aspetti organizzativi,
+metodologici e relazionali del lavoro d'aula
+Rubrica di autovalutazione
+L’Istituto promuove:
+-la convivenza democratica, sostenendo l’alunno nella progressiva conquista della sua autonomia di giudizio, di
 
 ---
 
 ## Pagina 38
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 38
-Obiettivi generali: apprendimento delle procedure di primo soccorso in caso di
-emergenza.
-Contenuti.
-• Formazione ed addestramento sulle procedure standard internazionali della
-rianimazione cardiopolmonare con l’utilizzo del defibrillatore.
-• Addestramento RCP (massaggio cardiopolmonare), primo soccorso e uso del DAE (defibrillatore), su manichino.
-L’acquisizione del brevetto richiede un esame scritto sulle conoscenze teoriche e un esame pratico sulle procedure pratiche
-RCP e utilizzo DAE.
 
-## Progetto Sportivo “ Attivita Motoria E Disabilita’ “
+## Area Processi – Pratiche Gestionali E Organizzative
 
-Referente: Prof. Enrico LAZZARIN
-Destinatari: alunni frequentanti l’ampliamento dell’offerta formativa nel settore sportivo
-Discipline coinvolte: Scienze Motorie
-Obiettivi generali: attività di assistenza motoria con i diversamente abili all’Istituto Opsa di
-Padova, finalizzata al recupero del benessere psico-fisico in soggetti diversamente abili.
-Contenuti:
-• attività di sensibilizzazione propriocettiva ed esterocettiva con piccoli attrezzi al fine di migliorare l’autonomia della
-persona e la vita di relazione.
-Si tratta di attività riservata agli studenti frequentanti il Liceo Scientifico con ampliamento nel settore sportivo.
-
-## Progetto Sportivo “Tirocinio Didattico”
-
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: alunni frequentanti l’ampliamento dell’offerta formativa nel settore sportivo
-Discipline coinvolte: Scienze Motorie
-Obiettivi generali: Controllo e gestione della classe relativa ad alunni della scuola d’infanzia e primaria
-Contenuti:
-• strutturazione di unità  didattiche atte al raggiungimento di obiettivi relativi alle linee guida didattiche ministeriali.
-Si tratta di attività riservata agli studenti frequentanti il Liceo Scientifico con ampliamento nel settore sportivo.
-
-## Progetto Sportivo “Soccorritore Acquatico-Bagnino Di Salvataggio”
-
-Referente: Prof.ssa Isabella BRUNELLO
-Destinatari: tutti gli indirizzi di studio (Triennio)
-Discipline coinvolte: Scienze Motorie- Scienze Naturali
-Obiettivi generali: l’attività si avvale dei tecnici di SNS Mestre. Alla fine del corso per bagnino di
-salvataggio, si otterrà un brevetto lavorativo valido su tutto il territorio dell’Unione Europea ma
-soprattutto si avrà appreso un notevole bagaglio tecnico per poter operare con sicurezza in caso di
-essere spettatori di un incidente acquatico diventando così un prezioso ausilio al bagnino di salvataggio
-“ufficiale” presente in piscina o nello stabilimento balneare.
-Contenuti:
-• abilità e cultura della sicurezza in acqua.
-• insegnamento del nuoto di salvataggio.
-• tecniche di rianimazione cardiopolmonare.
-• tecniche di primo soccorso.
-Il conseguimento del titolo professionale di bagnino di salvataggio-piscina si conseguirà previa ammissione agli esami e al
-superamento delle prove teorico – pratiche degli stessi di fronte ad apposita commissione composta da:
-• un esaminatore esterno nominato dalla sede centrale.
-• un segretario.
-• un medico.
-• un istruttore IAMAS.
-un Ufficiale della locale Capitaneria di Porto.
+Orientamento strategico e organizzazione della scuola
+Criterio di qualità: La scuola individua le priorità da raggiungere e le persegue dotandosi di sistemi di controllo e
+monitoraggio, individuando ruoli di responsabilità e compiti per il personale, convogliando le risorse economiche
+sulle azioni ritenute prioritarie
+Rubrica di valutazione
+L'Istituto Comprensivo, ha definito internamente e divulgato all'esterno, le priorità ideologiche su cui fonda la
+qualità della propria azione formativa, di cui rende partecipe periodicamente le famiglie, l'Amministrazione
+Comunale, le altre agenzie educative del territorio, così come i Servizi specialistici con i quali deve mantenere
+un'interlocuzione costante per assicurare la realizzazione delle buone prassi inclusive. La scuola agisce in funzione
+degli obiettivi strategici esplicitati nei propri documenti identificativi, anche se non sempre è possibile raggiungerli
+secondo quanto prefigurato in partenza, dovendo affrontare criticità e lievi cambiamenti di rotta conseguenti, sui
+quali sono chiamati a pronunciarsi gli organi competenti, espletando indirettamente una forma di controllo e di
+monitoraggio sistematici sulle attività stesse. I compiti e le responsabilità sono stati distribuiti in modo da
+coinvolgere il personale docente di ogni ordine e grado, rendendo reale il carattere "comprensivo" dell'Istituto: la
+disponibilità è ampia e i livelli di coinvolgimento e di impegno sensibilmente elevati. La medesima valutazione si
+può esprimere per il personale ATA in relazione al quale è stata equilibrata ed efficace l'assegnazione degli
+incarichi. L'Istituto pianifica e realizza alcune importanti progettazioni, allocando in modo intelligente le risorse
+economiche, senza disattendere, se non raramente, alle priorità operative definite nelle sedi decisionali
+opportune.
+Sviluppo e valorizzazione delle risorse umane
+Criterio di qualità: La scuola valorizza le risorse professionali tenendo conto delle competenze per l'assegnazione
+degli incarichi, promuovendo percorsi formativi di qualità, incentivando la collaborazione tra pari
+Rubrica di valutazione
+L'Istituto è attento alle esigenze formative del personale docente e ATA, di cui accoglie le richieste di
+aggiornamento, cercando di corrispondervi attraverso proposte accattivanti, concretamente spendibili e, se
+scelta e di assunzione di impegni e nel suo inserimento attivo nel mondo delle relazioni umane sulla base
+dell’accettazione e del rispetto dell’altro, del dialogo e della partecipazione al bene comune;
+-la costruzione dell’identità personale, storica, culturale attraverso l’interazione con le diverse agenzie educative
+del territorio;
+-la realizzazione di un processo educativo centrato sull’orientamento per consentire ad ognuno di uscire dalla
+scuola di base avendo maturato le competenze necessarie per affrontare la tappe successive della propria
+formazione.
+La Scuola opera concretamente affinché le alunne e gli alunni possano:
+-divenire consapevoli delle proprie idee, interessi, motivazioni, prestazioni e responsabili delle proprie azioni;
+-conquistare progressivamente autonomia di giudizio, di scelta e di assunzione di impegni;
+-divenire consapevoli delle regole sociali, dei propri diritti e doveri;
+-comprendere e rispettare le idee e le credenze altrui, evitando stereotipi;
+-interiorizzare atteggiamenti e comportamenti improntati alla cooperazione e alla solidarietà.
+Spazi, tempi, strategie sono pensati e organizzati in relazione alle specifiche esigenze d'apprendimento degli
+alunni, così come non è mai trascurata l'applicazione di modalità didattiche innovative, nell'attività d'aula e di
+laboratorio, soprattutto con riferimento all'uso delle nuove tecnologie. Si deve ancora lavorare affinché le buone
+prassi personali o gruppali diventino patrimonio condiviso di tutto il corpo docente, allo scopo di dare coerenza
+all'azione educativa, formativa e didattica interna, evitando che le dichiarazioni d'intenti rimangano tali, bensì
+possano essere declinate operativamente e realizzate nella quotidianità scolastica.
+Continuità e orientamento
+Criterio di qualità: La scuola garantisce la continuità dei percorsi scolastici e cura l'orientamento personale,
+scolastico e professionale degli studenti.
+Rubrica di autovalutazione
+Le attività di continuità sono in fase di significativa evoluzione e di graduale rimessa a punto.
+La collaborazione tra i docenti di ordini di scuola diversi sta crescendo sensibilmente ed è emersa dalla volontà
+diffusa "in verticale" di garantire la buona riuscita del Progetto Continuità.
+Per quanto riguarda lo specifico delle attività di orientamento, esse sono ben strutturate e coinvolgono anche le
+famiglie. La scuola realizza percorsi finalizzati alla conoscenza di sè e delle proprie attitudini, realizza coinvolgenti
+attività di orientamento al proprio interno, coinvolgendo le realtà formative, produttive e professionali del territorio.
+Inoltre accoglie tutte le opportunità organizzate all'esterno, allo scopo di ampliare, prima, e di circoscrivere, poi,
+l'orizzonte di scelta degli studenti. La scuola monitora internamente i risultati delle proprie azioni di orientamento;
+un buon numero di famiglie e studenti segue il consiglio orientativo della scuola, anche se emerge la fatica di
+guidare le decisioni di alcuni nuclei poco consapevoli della specificità apprenditiva dei propri figli, soprattutto se con
+difficoltà.
 
 ---
 
 ## Pagina 39
 
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 39
-2.10 Educazione alla cittadinanza
-Per educazione alla cittadinanza si intendono gli aspetti dell’istruzione scolastica volta a preparare gli studenti a diventare
-cittadini attivi garantendo loro conoscenze, competenze e capacità necessarie a contribuire allo sviluppo e al benessere della
-società in cui vivono. Si tratta di un concetto ampio, che racchiude non solo l’insegnamento e l’apprendimento in classe, ma
-anche l’esperienza pratica acquisita durante l’attività scolastica e l’esperienza extrascolastica.
-L’educazione alla cittadinanza può assumere una dimensione interdisciplinare. In quanto dimensione interdisciplinare, tutti
-gli insegnanti contribuiscono ad attuare gli obiettivi connessi definiti nei curricoli nazionali. Le attività in regime di
-ampliamento dell’offerta formativa (i corsi opzionali “Parini PM”, le attività in collaborazione o convenzione e di Alternanza
-Scuola Lavoro) concorrono allo sviluppo delle competenze sociali e di cittadinanza.
-Nell’ambito dell’area interdisciplinare “Cittadinanza e Costituzione” lanciata nel 2008 e attualmente in corso, tutti gli
-insegnanti includono obiettivi legati alla cittadinanza e alla costituzione nell’insegnamento della loro materia o area tematica.
-Realizzano inoltre progetti didattici mirati all’approfondimento della conoscenza della Costituzione italiana da parte degli
-alunni e allo sviluppo dei valori della cittadinanza attiva. La valutazione degli studenti in relazione a queste specifiche attività
-è di competenza degli insegnanti dell’area storico-sociale.
-Allo scopo di dare per ciascuno studente un quadro complessivo delle competenze di cittadinanza, l’Istituto ha elaborato
-una griglia di valutazione delle competenze chiave per l’apprendimento che monitora alcune delle competenze chiave di
-cittadinanza europea, integrandole nella valutazione del comportamento, inteso come complesso degli aspetti psicologici e
-relazionali coinvolti nel processo di apprendimento.
+possibile, realizzabili all'interno dell'Istituto per assicurare la massima partecipazione. Le occasioni formative sono
+frutto di un lavoro di programmazione e di ricerca mirate, interpellando gli esperti del settore in cui si
+concentrano i bisogni di aggiornamento; inoltre rispondono, almeno complessivamente, agli interessi teorici e
+operativi dei docenti. La scuola valorizza il personale tenendo conto, per l'assegnazione di alcuni incarichi, delle
+attitudini personali e delle competenze possedute, con riferimento tanto alle esperienze professionali pregresse,
+quanto allo specifico bagaglio di conoscenze. Nella scuola sono presenti gruppi di lavoro, composti da insegnanti
+di tutti i gradi scolastici e di tutti i plessi, che producono materiali o esiti di buona qualità, mettendoli a
+disposizione dei colleghi attraverso canali divulgativi più o meno formalizzati, dalla mailing list allo scambio
+quotidiano sul luogo di lavoro, dalle riunioni periodiche delle commissioni alle occasioni di incontro collegiale
+calendarizzate nel piano degli impegni annuali. La scuola promuove lo scambio tra docenti su temi d'interesse
+trasversale.
+Integrazione con il territorio e rapporti con le famiglie
+Criterio di qualità: La scuola svolge un ruolo propositivo nella promozione di politiche formative territoriali e
+coinvolge le famiglie nella definizione dell'offerta formativa
+Rubrica di valutazione
+L'Istituto partecipa a un considerevole numero di reti e ne coordina alcune in qualità di scuola capofila. Riconosce
+il valore indiscutibile dell'attività di rete, di cui raccoglie le proposte operative affinché siano occasioni di crescita e
+di arricchimento professionale per il personale docente e ATA: le collaborazioni finora attivate hanno ottenuto
+largo consenso e hanno migliorato l'offerta formativa, soprattutto in corrispondenza di alcuni nodi nevralgici
+dell'intervento educativo. Allo stesso modo hanno contribuito ad innovare talune pratiche organizzative e
+gestionali, con particolare riferimento all'area amministrativa della vita scolastica. Non si trascura mai la coerenza
+tra le proposte delle reti e le reali esigenze dell'istituzione scolastica, La scuola, le famiglie e il territorio dialogano
+costantemente per la promozione delle politiche formative: lo scambio reciproco è costruttivo e ricco di
+sollecitazioni vicendevoli. Il governo territoriale cerca di non disattendere le richieste della scuola e si sforza
+sempre, con opera di mediazione, di rispondere alle esigenze emergenti della stessa; l'Istituto, dal canto suo,
+cerca di essere parte integrante della Comunità Locale, prevedendo un'organizzazione e una programmazione il
+più possibile aderenti ai bisogni dell'utenza e agli eventuali desiderata dell'Amministrazione.
+4.
+
+## Il Pdm: Piano Di Miglioramento
+
+
+## 4.1 Le Scelte Strategiche Nel Triennio 2019-2022
+
+Le priorità che l’Istituto si prefigge di realizzare con l’azione di miglioramento insistono sulle seguenti
+aree di intervento, che guidano l’azione quotidiana di tutto il personale, dalla Scuola dell’Infanzia alla
+Scuola Secondaria di I grado:
+
+
+## Continuita’
+
+come progressiva maturazione dell’alunno, orientata verso un’autentica realizzazione di sé attraverso
+la collaborazione tra i docenti dei diversi ordini di scuola ed esperienze di raccordo fra i vari ordini di
+scuola.
+
+
+## Intercultura
+
+come valore da porre a fondamento del rispetto reciproco, dello scambio tra le culture e della
+tolleranza. A tal fine la scuola promuove e favorisce iniziative volte all’accoglienza, alla tutela della
+cultura e della lingua d’origine e alla realizzazione di attività interculturali comuni.
+
+
+## Inclusione
+
+come valorizzazione delle potenzialità di ciascuno, da fare emergere attraverso la definizione e la
+realizzazione di strategie educative e didattiche che tengano conto della singolarità e complessità
+di ogni persona, della sua articolata identità, delle sue aspirazioni, delle sue capacità e delle sue
+fragilità, nelle varie fasi di sviluppo e di formazione.
+
+
+## Legalita’
+
+come prospettiva formativa integrata per il rispetto delle regole della convivenza civile e l’assunzione di
+comportamenti etici nel mondo reale e virtuale.
+
+
+## Cittadinanza Attiva
+
+come educazione alla legalità e alla democrazia attraverso esperienze di apprendimento attivo
+finalizzate all'acquisizione dello spirito di appartenenza alla comunità e alla conoscenza dei diritti e
+doveri del cittadino.
+
+
+## Globalizzazione
+
+come internazionalizzazione e promozione di percorsi di innovazione metodologico-didattica in campo
+linguistico.
 
 ---
 
 ## Pagina 40
 
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 40
-Griglia di valutazione delle competenze chiave per l’apprendimento
-Indicatori
-Livelli
-Carente
-Accettabile
-Soddisfacente
-Avanzato
-Aspetti
-psicologici
-ed emotivi
-Serenità complessiva
-Livello di autostima
-Capacità di autocontrollo
-Capacità di gestione dello stress
-Disponibilità al dialogo
-Autoefficacia
-Imparare ad imparare*
-Risolvere i problemi*
-Agire in modo autonomo e responsabile*
-Progettare*
-Individuare collegamenti e relazioni*
-Acquisire e interpretare l’informazione*
-Valutazione del comportamento
-1-5
-6-7
-8-9
-10
-Aspetti
-socio-
-relazionali
-Comunicare*
-Collaborare e partecipare*
-Stabilire relazioni positive
-Rispettare le regole
-Rispettare i ruoli
-* Competenze chiave europee di cittadinanza
-Voto di comportamento:
-Si delibera per l’allievo l’attivazione dei seguenti programmi:
-Programma di rinforzo psicologico ed emotivo
-Programma di rinforzo socio-relazionale
-Programma di rinforzo dell’autoefficacia
-Programma di sviluppo dei talenti individuali
-Nome e cognome
-Classe e corso di studi
-Data
-Il coordinatore di classe
-_______________________
+Nel Piano di miglioramento sono stabiliti priorità, traguardi e obiettivi di processo.
+Priorità
+Obiettivi processo
+Continuità e Valutazione
+ Realizzare un curricolo verticale per competenze
+trasversali.
+ Valutare gli esiti di apprendimento conseguenti a
+percorsi didattici per competenze attraverso griglie di
+che rimandino a un protocollo di valutazione
+condiviso.
+ Stabilizzare l'indice di convergenza scuola-famiglia
+sull'orientamento scolastico.
+Sviluppo delle competenze sociali e civiche
+ Realizzare un curricolo verticale di cittadinanza e
+Costituzione.
+ Realizzare un percorso di formazione dei docenti con
+ricerca-azione sulla gestione dei comportamenti
+oppositivi e documentarne le buone pratiche.
+Sviluppo della competenza digitale
+ Ampliare le attività curricolari ed extra-curricolari di
+informatica e di pratica digitale per potenziare
+competenze di cittadinanza come da progetti PON.
+Sviluppo dello spirito di iniziativa
+ Favorire l'incontro tra scuola-famiglia per la
+condivisione di azioni di inclusione.
+ Coordinare le azioni del gruppo GLI per la
+realizzazione di efficaci interventi di inclusione
+scolastica in raccordo con le agenzie del territorio.
+Sviluppo della competenza comunicativa
+nelle lingue comunitarie
+ Coinvolgere le classi in attività CLIL e promuovere la
+formazione linguistica con madrelingua.
+Risultati Scolastici
+Priorità
+● Valutazione proattiva
+Traguardi
+Migliorare gli esiti Invalsi.
+Contenere il numero di alunne e alunni con
+insufficienze ammessi alla classe successiva.
+Priorità
+● Omogeneità valutativa tra ordini di scuola
+Traguardi
+Armonizzare le valutazioni contenendo gli scostamenti
+tra competenze nel confronto longitudinale Primaria –
+Secondaria di I grado.
+Competenze Chiave Europee
+Priorità
+● Sviluppo delle competenze sociali e civiche
+Traguardi
+Innalzare il livello delle competenze di cittadinanza
+secondo gli indicatori previsti nella Certificazione delle
+competenze.
 
 ---
 
 ## Pagina 41
 
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 41
-3. Miglioramento 2016-2019
-Documento sostanziale ed integrante il PTOF, previsto dal comma 14 della legge 107, è il Piano di Miglioramento (PDM)
-dell’istituzione scolastica, ottenuto partendo dal Rapporto di Autovalutazione (RAV). Il PDM ha una naturale
-corrispondenza con i contenuti del piano dell’offerta formativa, difatti, le scelte progettuali e i relativi obiettivi formativi
-sono speculari agli obiettivi di processo individuati nel RAV.
-L’opportunità di elaborare un Piano nasce dall’idea di considerare il processo di miglioramento in un’ottica strategica, dove
-esso consente di coordinare un insieme di interventi coerenti e collegati tra loro ottimizzando tempi e risorse. Pianificare
-significa, dunque, individuare  le soluzioni ai vari tipi di problema e selezionare le azioni migliori sulla base di criteri di
-raffronto tra costi e benefici, da un lato, e di capacità di realizzazione dall’altro. In effetti, una sola criticità, può condizionare
-a cascata il buon risultato di più performance. Tuttavia, è possibile che determinate attività non possano essere realizzate
-contemporaneamente, anche a causa di insufficienti risorse finanziarie e/o  organizzative, oppure che siano concatenate in
-modo sequenziale, ne deriva quindi l’esigenza di programmare il loro coordinamento temporale, in modo tale da ottenere
-con tempestività i risultati attesi e minimizzare lo spreco di risorse.
-Nell’ambito delle attività dell’Istituto “Giuseppe Parini” è prevista la sistematica raccolta ed elaborazione statistica dei dati
-significativi sull’andamento del sistema di gestione di tutte le attività, dei processi e dei servizi erogati. L’elaborazione dei dati
-avviene anche attraverso rappresentazioni grafiche (su sistema cartesiano, aerogrammi e istogrammi) in grado di mostrare
-con evidenza visiva e quindi con maggiore efficacia le caratteristiche dei dati raccolti.
-I dati raccolti e le risultanze dei controlli effettuati consentono di visualizzare le aree più carenti e/o suscettibili di azioni di
-miglioramento.
-I processi relativi alle varie tipologie di servizio saranno considerati qualitativamente efficaci sulla base del rapporto tra i
-risultati ottenuti e quanto definito negli indicatori.
-L’analisi dei dati prodotti consente l’individuazione di aree di miglioramento continuo. Tale attività si esplica principalmente
-nella fase di riesame da parte della Direzione. I dati raccolti ed elaborati sono la base per la valutazione dell’efficacia del
-sistema, dei processi e dei servizi, nonché per la verifica del conseguimento degli obiettivi precedentemente definiti e
-consente la revisione sistematica delle strategie, della politica e degli obiettivi.
-La formalizzazione delle azioni di miglioramento da intraprendere è definita in apposito “Piano di miglioramento
-continuo”.
-3.1 La mappatura dei processi
-Il servizio erogato dall’Istituto Paritario “G, Parini” persegue l’obiettivo di promuovere il pieno sviluppo della persona e del
-senso di responsabilità attraverso l’acquisizione degli alfabeti di base della cultura per poi divenire cittadini attivi, consapevoli
-e capaci di apprendere lungo l’intero arco della vita (dalle “Indicazioni per il curricolo”  settembre 2007). Il processo  di
-realizzazione dell’obiettivo finale avviene attraverso l’ordine logico-temporale di pianificazione del sistema insegnamento-
-apprendimento come si evince dalla mappatura dei processi allegata di seguito.
+
+## 4.2 Il Fabbisogno Dell’Istituto
+
+La definizione del fabbisogno delle risorse umane ordinarie e del personale di supporto, atto a garantire
+il potenziamento dell’Offerta Formativa, rappresenta sicuramente un elemento centrale nell’ambito
+della programmazione scolastica, allo scopo di favorire l’effettiva attuazione della progettazione
+d’Istituto, nella piena assunzione della responsabilità educativa, formativa e d’istruzione.
+Occorre infatti rispondere alla crescente domanda di qualità e di appropriatezza delle occasioni di
+insegnamento-apprendimento, proveniente dall’utenza esterna, contemperando la stessa con la
+necessità di valorizzare le diverse professionalità coinvolte.
+L’Istituto Comprensivo definisce annualmente, in termini quantitativi e qualitativi, il fabbisogno di
+organico (di Diritto, di Fatto e di Potenziamento) in relazione al proprio modello organizzativo, alle
+finalità generali che persegue e alle attività che realizza, rispettando i criteri di richiesta e di allocazione
+del personale, secondo le Direttive emanate dagli Organi competenti.
+Inoltre si prevede il Semiesonero del Primo Collaboratore del Dirigente Scolastico – Vicepreside, per un
+totale di 9 ore sulla Classe di concorso AB25-Insegnamento della Lingua Inglese presso la Scuola
+Secondaria di I grado, allo scopo di formalizzare e implementare l’attività di supporto al coordinamento
+organizzativo dell’Istituto.
+Per quanto riguarda il fabbisogno del personale Amministrativo, Tecnico e Ausiliario si può confermare
+la necessità di 5 posti di Assistente Amministrativo, ossia quelli già assegnati all’Istituto per l’anno
+scolastico 2018-2019, per coadiuvare l’azione burocratica, contabile e gestionale del Direttore dei
+Servizi Generali Amministrativi e del Dirigente Scolastico, garantendo il funzionamento efficace ed
+efficiente della Segreteria dell’Istituto.
+Con riferimento specifico al profilo di Collaboratore Scolastico, si ritiene opportuno sollecitare
+l’incremento di una unità del profilo in parola, fino a raggiungere un totale di 14 posti in Organico di
+Diritto, considerando la tendenza media del numero delle classi, l’aumento delle alunne e degli alunni
+disabili e l’intenzione di ottimizzare l’uso di tutti i locali scolastici, sia in termini di spazio che di tempo,
+al fine di garantire il potenziamento delle occasioni educative e formative in orario extrascolastico.
+È opportuno prevedere l’assegnazione all’Istituto di un Assistente Tecnico con i compiti di conduzione
+tecnica dei laboratori, di cui deve garantire la funzionalità e l’efficienza, di manutenzione ordinaria delle
+attrezzature e degli strumenti di laboratorio e di gestione delle reti informatiche.
+Nell’ambito del Piano Nazionale Scuola Digitale (PNSD) previsto dalla Legge 107/2015, il Dirigente Scolastico ha
+individuato, all’interno dell’organico a tempo indeterminato, la figura dell’Animatore Digitale, il quale avrà un ruolo
+strategico nella diffusione dell’innovazione digitale a scuola.
+Il suo profilo è destinato:
+ alla formazione interna;
+ al coinvolgimento della comunità scolastica nel processo di digitalizzazione;
+ alla creazione di soluzioni metodologiche e tecnologiche innovative.
+Piano Nazionale Scuola Digitale
+commi 56-58-59-60-61-62 dell’art. 1 LEGGE 13 luglio 2015, n. 107
+Per supportare l’attuazione della Legge 107/2015, “al fine di sviluppare e di migliorare le competenze digitali degli
+studenti e di rendere la tecnologia digitale uno strumento didattico di costruzione delle competenze in generale, il
+Ministero dell’istruzione, dell’università e della ricerca adotta il Piano nazionale per la scuola digitale”.
 
 ---
 
 ## Pagina 42
 
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
 42
 
-## Mappatura Dei Processi4
-
-4 La mappatura dei processi è stata redatta in conformità alle normative attuali in merito al Rapporto di Autovalutazione (RAV) come da direttiva ministeriale (DPR 28 marzo 2013, n. 80). In base a tale decreto le istituzioni
-scolastiche (statali e paritarie) sono chiamate a sviluppare - nel corrente anno scolastico – un’attività di analisi e di valutazione interna partendo da dati ed informazioni secondo il percorso delineato dal Rapporto di
-autovalutazione (RAV).
-
-## Contesto E
-
-
-## Risorse
-
-- Popolazione
-scolastica
-- Territorio e capitale
-sociale
-- Risorse economiche
-e materiali
-- Risorse professionali
-
-## Esiti
-
-- Risultati scolastici
-- Risultati nelle prove
-standardizzate
-- Competenza chiave
-di cittadinanza
-- Risultati a distanza
-Curricolo
-Progettazione
-Valutazione
-Ambiente
-di apprendimento
-Inclusione e
-differenziazione
-Continuità e
-orientamento
-
-## Orientamento Strategico
-
-
-## E  Organizzazione Della
-
-
-## Scuola
-
-
-## Sviluppo E
-
-
-## Valorizzazione Delle
-
-
-## Risorse Umane
-
-
-## Integrazione Con Il
-
-
-## Territorio E Rapporti
-
-
-## Con Le Famiglie
-
-
-## Individuazione
-
-
-## Delle Priorità
-
-
-## Autovalutazione
-
-
-## Obiettivi Di
-
-
-## Processo
-
-
----
-
-## Pagina 43
-
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
-43
-Area di
-processo
-Descrizione dell’obiettivo
-Responsabili per la
-definizione del piano di
-attuazione
-Tempi previsti per
-l’attuazione
-Potenziamento dell’attività di formazione dei docenti per la definizione dei PDP
-GLI
-Ottobre di ogni A.S.
-Creazione di una rete di collaborazione con altre realtà scolastiche e territoriali (Musei, Università, ecc…)
-Commissione PTOF
-Responsabile progetti
-Ottobre-Novembre
-di ogni A.S.
-Organizzazione continuativa di A.S.L. e attivazione di convenzioni con aziende, enti locali e università del territorio.
-Commissione A.S.L.
-Tutors interni
-Giugno di ogni A.S.
-per l’anno successivo
-Realizzazione di attività di progetto a sostegno dell’insegnamento di Cittadinanza e Costituzione (competenze chiave di
-cittadinanza).
-Commissione PTOF
-Giugno di ogni AS.
-Selezione e partecipazione ad almeno un bando di progetto (regionale/europeo) per incrementare le attività e i
-finanziamenti.
-CD/Direzione
-Responsabile progetti
-Giugno – Novembre
-di ogni A.S.
-Adozione di griglie di valutazione specifiche per diverse tipologia di prove (ove mancanti).
-Dipartimenti
-Ottobre 2016
-Miglioramento gestione dati prove INVALSI
-
-## V.C.D.
-
-Novembre 2016
-Elaborazione di prove strutturate comuni alle classi parallele di indirizzi diversi (in alcune discipline)
-Dipartimenti
-Dicembre di ogni A.S.
-Implementazione di progetti/incontri/corsi per lo sviluppo delle competenze chiave di cittadinanza con l’elaborazione
-di una griglia di valutazione condivisa.
-Dipartimenti
-Ottobre di ogni A.S.
-Strutturazione ed organizzazione dell’ Open Space di condivisione (aula studio/lettura) che consenta agli studenti di
-trovarsi per studiare, effettuare ricerche, confrontarsi al di fuori dell’orario scolastico.
-DG
-Responsabile ITC
-DD
-Giugno 2016
-Elaborazione di un piano annuale per l’inclusività (P.A.I.) da inserire nel PTOF
-GLI
-Ottobre di ogni A.S.
-Organizzazione di incontri tra docenti referenti per l’orientamento in entrata delle scuole secondarie di I grado e i
-nostri docenti R.O.R.E.
-Responsabili R.OR.E
-Novembre di ogni
-
-## A.S.
-
-
----
-
-## Pagina 44
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
-44
-3.2 Il P.d.M. - Piano di Miglioramento
-Il Nucleo Interno di Valutazione (N.I.V.) ha avviato le procedure per stilare il Piano di  Miglioramento (PdM) con le
-indicazioni approvate dal Rapporto di Autovalutazione (RAV).
-Il PdM ha la finalità di invitare gli istituti a stabilire e condividere, al loro interno come all'esterno, dati relativi a procedure,
-risorse necessarie, costi e monitoraggio previsti per il raggiungimento degli obiettivi di processo e delle priorità, riguardanti
-gli esiti degli studenti, individuati nel RAV.
-Il PdM ci invita quindi ad una continua considerazione degli obiettivi che l'Istituto si è proposto con la compilazione del
-RAV, il cui raggiungimento deve essere quindi necessariamente modulato e organizzato di continuo, in considerazione dei
-traguardi raggiunti e delle eventuali modifiche da fare.
-Si tratta di una procedura destinata ad essere portata avanti come pratica costante per l'intero anno scolastico, come del resto
-la procedura di autovalutazione insita nel RAV, che invita la scuola ad autovalutarsi, modellando e riprogettando i propri
-obiettivi anno dopo anno.
-Coerentemente con quanto indicato nel RAV, il PdM riguarda l'organizzazione e il monitoraggio delle operazioni avviate per
-raggiungere le seguenti priorità, selezionate, coerentemente con quanto disposto dal MIUR, per migliorare gli esiti degli
-studenti. Tali priorità non sono evidentemente le uniche su cui l'Istituto deve lavorare, ma costituiscono il punto di partenza
-per un più ampio processo di miglioramento a cui la scuola è chiamata a partecipare.
-Si indicano quindi le priorità selezionate dal NIV e condivise e approvate dal Collegio dei Docenti:
- Miglioramento della preparazione e monitoraggio delle prove standardizzate Invalsi;
- Sviluppo delle competenze chiave di cittadinanza nel primo biennio di studi;
- Miglioramento dell'efficacia dell'orientamento in uscita.
-Per raggiungere tali priorità, sempre nel contesto del RAV (sez. 5) sono stati individuati i seguenti obiettivi:
-
-Rendere più proficuo e continuo l'incontro con gli insegnanti delle scuole medie inferiori del territorio, per un
-più efficace orientamento in entrata dei nuovi iscritti.
-
-Inserire l'istituto in una o più reti di scuole per poter aspirare a partecipare a bandi ministeriali, progetti e
-finanziamenti.
-
-Migliorare e rendere più efficaci e complete le griglie di valutazione sia disciplinari che comportamentali, con
-un particolare riguardo allo sviluppo globale, anche relazionale ed emotivo dello studente.
-
-Migliorare la raccolta e la gestione dei dati INVALSI.
-
-Implementazione di unità didattiche dedicate allo sviluppo delle competenze chiave di cittadinanza, definite
-insieme ad una apposita griglia di valutazione.
-
-Stipula continuativa di rapporti di convenzione, tirocini e stage con enti, istituzioni e aziende del territorio,
-anche e soprattutto ai fini dell'organizzazione dell'Alternanza Scuola Lavoro, caldeggiata dalla legge 107/2015.
-
-Elaborazione di prove strutturate e condivise per classi parallele.
-
-Ristrutturazione dell'ambiente di apprendimento in modo da migliorare il servizio di biblioteca e organizzare
-una sala di lettura e studio ad uso di docenti e alunni e aperta anche in orario pomeridiano.
-
----
-
-## Pagina 45
-
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
-45
-3.3 Formazione del personale
-L'attività di formazione, addestramento e aggiornamento riguarda tutto il Personale, con particolare attenzione alle funzioni
-coinvolte nelle attività specifiche che hanno influenza sulla qualità e al personale di nuova assunzione.
-Le modalità di gestione delle attività formative comprendenti l’individuazione dell’esigenza, la pianificazione, l’attuazione, la
-registrazione e la verifica di efficacia delle attività svolte può essere quindi distinta in tre momenti:
-1.
-Formazione organizzativa e tutoraggio personale di nuova assunzione.
-Può riguardare temi di carattere ed interesse generale comunque attinenti la realtà specifica, la gestione ed il funzionamento
-dell’Istituto “Giuseppe Parini”. La formazione deve comprendere la conoscenza specifica della didattica, dell’organizzazione
-interna dell’Istituto, della normativa vigente e della prassi amministrativa.
-2.
-Aggiornamento professionale del personale docente e  non docente.
-Riguarda tutte le aree professionali ed i settori di competenza dell’Istituto “Giuseppe Parini”.
-Deve essere costante e tempestivo al fine di garantire la formazione continua del personale consentendo di cogliere e
-conoscere le novità normative.
-L’aggiornamento professionale può essere individuale o collettivo.
-3.
-Aggiornamento e addestramento su competenze specifiche per incarichi aggiuntivi al proprio ruolo.
-L’aggiornamento o addestramento su competenze specifiche si riferisce:
-
-All’approfondimento di temi di interesse specifico mediante la partecipazione a incontri, convegni e congressi
-
-All’apprendimento di particolari tecniche e/o metodologie innovative
-
-Alla qualificazione degli addetti che svolgono un ruolo importante nella gestione e nella conduzione delle verifiche
-ispettive interne.
-Sulla base delle indicazioni contenute nella L.107/2015 comma 12, si ritiene indispensabile perseguire percorsi di
-formazione ed aggiornamento finalizzati all’arricchimento professionale, alla realizzazione di una scuola sempre più adeguata
-ai bisogni ed alle esigenze della società.
-L’obiettivo è quello di potenziare l’utilizzo dei laboratori e di avviare una didattica più orientata all’accertamento delle
-competenze, intese anche come soft skills richieste dalle aziende. Nel corso del triennio di riferimento al fine di dare piena
-attuazione al diritto/dovere di formazione del personale e tenendo conto:
-
-del R.A.V. prodotto e pubblicato;
-
-dell’analisi dei bisogni formativi di tutte le componenti espressi nell’ambito del Collegio dei Docenti;
-
-del dialogo continuo dei docenti con il NIV che si sta occupando del PdM previsto dalla normativa vigente;
-
-dei bisogni formativi del personale neo-assunto;
-
-dei bisogni formativi degli alunni;
-
-delle esigenze dell’Istituzione scolastica stessa;
-
-delle iniziative progettuali proposte e in attesa di approvazione.
-Si formulano le seguenti esigenze formative e di aggiornamento professionale:
-
-attività di formazione docenti nell’area informatica sulle competenze digitali (impiego del registro elettronico,
-utilizzo LIM e software per la gestione informatizzata delle attività didattiche;
-
-attività di formazione ed aggiornamento sui seguenti temi:
-
-## Area Didattica
-
--
-Approcci didattici innovativi (Alternanza Scuola Lavoro)
--
-Didattica laboratoriale
-
-## Area Istituzionale
-
--
-Riforma del sistema nazionale di istruzione/formazione - Legge 107/2015
--
-Autovalutazione/Piano di Miglioramento
-
----
-
-## Pagina 46
-
-
-## P.T.O.F. 2016 – 2019
-
-Calle de Lena, 3 - 30174 - MESTRE VENEZIA - info@istitutoparini.it - istitutoparini@pec.it - www.istitutoparini.it  -  041987455   041987060
-46
-
-## Area P.A.I. (Dsa/Bes)
-
--
-Dispersione scolastica e orientamento
--
-La didattica inclusiva: predisposizione PDP per allievi con DSA/BES
-
-## Area Valutazione
-
--
-L’attività didattica per competenze
--
-Le competenze chiave di cittadinanza
-
-## Area Lingue
-
--
-Lettorato di lingue
--
-Metodologia Clil
-
-Attività di formazione personale ATA sulle competenze informatiche per la gestione del sistema procedurale
-digitalizzato.
-
-Attività di formazione su tematiche di Sicurezza/Primo Soccorso.
-3.4 Promozione della partecipazione delle famiglie del territorio
-Le famiglie sono messe al corrente della situazione scolastica dei loro figli giornalmente tramite registro elettronico e in
-occasione:
-
-dei colloqui settimanali con i professori (previo appuntamento con prenotazione diretta on-line con credenziali
-rilasciate dalla Scuola.
-
-dei colloqui generali (tre volte all’anno)
-
-della comunicazione periodica degli esiti (nel pentamestre)
-
-della pagella di fine trimestre
-
-e in ogni altra occasione nella quale la Scuola ritenga opportuno informare la famiglia dell’andamento scolastico
-dell’alunno (profitto e comportamento).
-Aggiornato nel mese di ottobre 2016
-con delibera del Collegio dei Docenti del 25/10/2016
-
----
-
-## Pagina 47
-
-
-## Legale  Rappresentante
-
-Enrico PIZZOLI
-
-## Coordinatore  Didattico
-
-Franco MAZZUCCO
-
-## Dsga
-
-Enrico PIZZOLI
-
-## Consiglio
-
-
-## Di Istituto
-
-
-## Collegio  Docenti
-
-
-## Rspp
-
-Enrico PIZZOLI
-
-## Segreteria
-
-
-## Didattica
-
-Chiara BIZIO
-Elisabetta DE MARCHI
-
-## Segreteria
-
-
-## Amministrativa
-
-
-## Approvigionamento
-
-Rita MARABELLO
-Tessa TOFFANELLO
-
-## Ufficio Tecnico
-
-Andrea GREGUOLDO
-
-## Registro
-
-
-## Elettronico
-
-Andrea GREGUOLDO
-
-## Sito Web
-
-Andrea GREGUOLDO
-Riccardo TRIOLO
-
-## Collaboratori
-
-
-## Scolastici
-
-Francesca FAVARO
-Marisa MARCHI
-Annalisa PILON
-
-## Commissione Pai
-
-Piano Annuale per l’Inclusività
-Riccardo TRIOLO
-GLI - Coordinatori di Classe
-
-## Commissione Orientamento
-
-ENTRATA Anna Maria GIBELLI – Isabella BRUNELLO
-USCITA Maria Josè AMATO
-PTOF piano triennale dell’Offerta Formativa
-Enrico PIZZOLI - Franco MAZZUCCO - Riccardo TRIOLO
-Valeria POPULIN – Roberta DALLA POZZA – Filippo SCARSO
-Enrico LAZZARIN
-RAV
-Rapporto di
-Autovalutazione
-Valeria POPULIN
-
-## N.I.V. Nucleo  Di  Valutazione
-
-Enrico PIZZOLI        Franco MAZZUCCO   Valeria POPULIN
-Filippo SCARSO    Riccardo TRIOLO   Andrea GREGUOLDO   Chiara BIZIO
-PdM
-Piano di
-Miglioramento
-Valeria POPULIN
-SNV
-Sistema Nazionale di
-Valutazione
-Franco MAZZUCCO
-
-## Staff  Di  Presidenza
-
-Valeria POPULIN  Vice Coordinatore Didattico
-Riccardo TRIOLO
-Collaboratore
-
-## Commissione
-
-
-## Elettorale
-
-Enrico LAZZARIN
-Marco DOTTO
-
-## Consulta Degli
-
-
-## Studenti
-
-Beatrice CITTON
-Giacomo PIGOZZO
-
-## C O R S I
-
-D I
-
-## S T U D I O
-
-
-## Liceo Scientifico
-
-Coordinatori di Classe
-Cl. 1  D. MAGGIO
-Cl. 2  M. DOTTO
-Cl. 3  E. MEDICI
-Cl 4 M AMATO
-
-## Liceo Scientifico O.S.A.
-
-Coordinatori di Classe
-Cl. 1  D. MAGGIO
-Cl. 2  M. DOTTO
-Cl. 3  M. CATTELAN
-Cl 4 M AMATO
-LICEO SCIENTIFICO L.i.S.S.
-Coordinatori di Classe
-Cl. 1  D. MAGGIO
-Cl. 2  M. DOTTO
-Cl. 3  E. LAZZARIN
-Cl 4
-
-## Liceo Linguistico
-
-Coordinatori di Classe
-Cl. 1  D. MAGGIO
-Cl. 2  P. RUGGIU
-Cl. 3  M. FAVARETTO
-Cl 4 A M GIBELLI
-
-## Corsi Di Recupero
-
-Elisabetta DE MARCHI
-
-## Esami Di Idoneita’
-
-Elisabetta DE MARCHI
-
-## Recupero/Sostegno
-
-
-## Psico - Affettivo
-
-Enrico PIZZOLI - GLI
-
-## Recupero
-
-
-## Relazionale
-
-Valeria POPULIN
-Riccardo TRIOLO
-GLI
-
-## Rapporti Con Le Famiglie E Il
-
-
-## Territorio
-
-Enrico PIZZOLI - Franco MAZZUCCO – Valeria POPULIN
-
-## A.S.L.
-
-Patrizia RUGGIU -  Gabriella DULLIA – Margherita
-
-## Favaretto
-
-
-## Consulenza
-
-
-## Psicologica
-
-Alberto BOTTARO
-Federico BATTAGLINI
-
-## Accoglienza
-
-Enrico PIZZOLI
-Franco MAZZUCCO – Valeria POPULIN
-
-## Formazione
-
-Enrico PIZZOLI - Franco MAZZUCCO
-
-## Biblioteca
-
-DD
-
-## Sala Studio/Lettura
-
-DD
-
-## Redazione Web
-
-Riccardo TRIOLO
-
-## Progetti  Istituto
-
-Daniele MAGGIO
-Collettivo Studenti
-Rappresentanti Studenti
-Rappresentanti Genitori
-
-## Consiglio Di Classe
-
-
-## Consiglio Di Classe
-
-
-## Consiglio Di Classe
-
-
-## Consiglio Di Classe
-
-Collettivo Studenti
-Rappresentanti Studenti
-Rappresentanti Genitori
-Collettivo Studenti
-Rappresentanti Studenti
-Rappresentanti Genitori
-Collettivo Studenti
-Rappresentanti Studenti
-Rappresentanti Genitori
-
-## Progetti Sportivi
-
-Isabella BRUNELLO
-E
-i
-
-## Lazzarin
-
-
-## Viaggi/ Visite
-
-Margherita FAVARETTO
-CERTIFICAZIONI LINGUISTICHE DD Lingue
-SOGGIORNI ALL’ESTERO DD Lingue
-Comitato  di  valutazione
-
-## Laboratori M. Cattelan
-
-
-## Archivio
-
-Elisabetta DE MARCHI
-
-## Invalsi
-
-Valeria POPULIN
-Progettazione Curricolare
-2016/2019
-
----
-
-## Pagina 48
-
-
-## Mappa Dell’Offerta Formativa
-
+## Conclusione
+
+Con la stesura e la declinazione operativa del Piano Triennale dell’Offerta Formativa, il II Istituto
+Comprensivo di Palazzolo sull’Oglio intende garantire la promozione e la realizzazione di una “scuola
+di qualità”, ricca di stimoli e di occasioni culturali, intellettuali e di sviluppo, in cui tutte le risorse
+disponibili, interne ed esterne, siano valorizzate e ottimizzate, concorrendo in modo sinergico
+all’attuazione di un progetto educativo, formativo e d’istruzione efficace e coerente, che favorisca:
+ il conseguimento del successo formativo per tutti e la ricerca delle strategie e dei percorsi atti
+a valorizzare vocazioni e potenzialità di ciascuno;
+ il raggiungimento per tutti dei traguardi definiti dalla legge, nel rispetto dei ritmi personali, in
+modo che nessuno rimanga escluso;
+ la cura delle relazioni interpersonali interne ed esterne, del clima generale della scuola, del
+benessere di ogni singolo alunno e del gruppo classe;
+ la formazione della persona intesa nella sua completezza e nella complessità delle sue
+dimensioni, coniugando educazione e istruzione.
+“Se non puoi essere un pino sul monte, sii una saggina nella valle, ma sii la migliore, piccola
+saggina sulla sponda del ruscello.
+Se non puoi essere un albero, sii un cespuglio.
+Se non puoi essere un'autostrada, sii un sentiero.
+Se non puoi essere il sole, sii una stella.
+Sii sempre il meglio di ciò che sei.
+Cerca di scoprire il disegno che sei chiamato ad essere.
+Poi mettiti con passione a realizzarlo nella vita.”
+Martin Luther King
 
 ---
 

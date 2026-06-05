@@ -1,0 +1,312 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIEE8ES038",
+    "denominazione": "Ic E. Alessandrini",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Cesano Boscone",
+    "anno_ptof": "2025-2026/2027-2028",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Kennedy 6",
+    "cap": "20090",
+    "email": "miic8es004@istruzione.it",
+    "pec": "bgic812003@pec.istruzione.it",
+    "website": "www.icsalessandrinicesanob.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione 6 dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Associazione Genitori Mazzi",
+        "Agenzie del territorio",
+        "biblioteca",
+        "vivaio",
+        "parco Collodi",
+        "gruppo Azione del comune di Orio al Serio",
+        "Comune di Bergamo",
+        "AVIS",
+        "AIDO",
+        "Mittelschule Gohlis (Lipsia)",
+        "Spazio Informagiovani",
+        "Confartigianato",
+        "Confindustria Bergamo",
+        "ASD-UISP Malpensata",
+        "AsLiCo",
+        "Associazioni, Cooperative",
+        "ASST",
+        "Università di Bergamo",
+        "Bicocca di Milano"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Uscite sul territorio",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Visite a biblioteca, vivaio, parco Collodi",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Collaborazione con il comune",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Progetti con il gruppo Azione del comune",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Viaggi e visite d'istruzione",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Esplorazione del territorio, contatto con la realtà culturale",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Percorsi di potenziamento STEM, making, coding",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "A scuola di cittadinanza, visita uffici comunali",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza - Mobilità",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Consapevolezza regole strada, uso bicicletta",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza - Donazione",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Incontri con AVIS e AIDO",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza - Volontariato",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Collaborazione con S. Vincenzo",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza - Legalità",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Incontri sul bullismo e cyberbullismo",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza - Digitale",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Uso consapevole web e tecnologie",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Potenziamento lingue straniere",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Insegnamento madrelingua, laboratori",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Gemellaggio",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Scambio culturale con scuola tedesca",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Sport in cartella",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Sviluppo competenze motorie",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio sportivo pomeridiano",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive individuali e di squadra",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio artistico",
+      "categoria_principale": "Espressione Artistica",
+      "descrizione_e_metodologia": "Espressione emozioni",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Espressione Artistica",
+      "descrizione_e_metodologia": "Scoperta di sé e relazioni",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Animazione della lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Collaborazione con biblioteche",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "MAZZI ON-LINE",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Giornale degli studenti",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alfabetizzazione, mediazione linguistica",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Consulenza pedagogica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Consulenza esperti psico-pedagogici",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Propedeutica musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esperienza creativa e collettiva",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Introduzione linguaggio musicale",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Visita scuola primaria",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Accoglienza alunni scuola infanzia in classi quarte primaria",
+      "target": "Alunni scuola infanzia"
+    },
+    {
+      "titolo_attivita": "Visita scuola secondaria",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Visita scuola secondaria con attività laboratoriali",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori sportivi",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Coinvolgimento alunni primaria in laboratori sportivi",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto cittadinanza digitale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progetto per sviluppo competenze digitali",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Stramazzi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corsa non competitiva per famiglie",
+      "target": "Alunni, famiglie, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Biciclettata",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Percorso in bicicletta per promuovere mobilità sostenibile",
+      "target": "Alunni, famiglie"
+    },
+    {
+      "titolo_attivita": "Teatro sotto le stelle",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Spettacoli teatrali gratuiti",
+      "target": "Comunità scolastica"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIEE8ES038\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola Primaria D. Alighieri (MIEE8ES038) per il triennio 2025-2026/2027-2028. L'istituto, situato nel territorio metropolitano di Cesano Boscone (Milano), regione Lombardia, si configura come una scuola statale con un'attenzione particolare all'orientamento, come evidenziato dalla presenza di una sezione dedicata (punteggio 3). L'analisi si concentra sulle finalità, gli obiettivi, le azioni e le attività messe in campo per supportare gli studenti nelle loro scelte formative e nel loro percorso di crescita personale. La scuola dimostra un forte impegno nel creare un sistema di orientamento integrato, che coinvolge docenti, studenti, genitori e una vasta rete di partner esterni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione specifica all'orientamento nel PTOF, sebbene con un punteggio di 3, indica una consapevolezza dell'importanza di questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto ampio e diversificato, con ben 20 partner nominati, tra cui **Associazione Genitori Mazzi**, diverse **agenzie del territorio**, la **biblioteca**, il **vivaio**, il **parco Collodi**, il **gruppo Azione del comune di Orio al Serio**, il **Comune di Bergamo**, **AVIS**, **AIDO**, la **Mittelschule Gohlis (Lipsia)**, **Spazio Informagiovani**, **Confartigianato**, **Confindustria Bergamo**, **ASD-UISP Malpensata**, **AsLiCo**, diverse **Associazioni, Cooperative**, l'**ASST**, l'**Università di Bergamo** e la **Bicocca di Milano**. Questo elevato numero di collaborazioni (punteggio 6) rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini** (punteggio 5), degli **interessi** (punteggio 5), del **progetto di vita** (punteggio 5), delle **transizioni formative** (punteggio 5) e delle **capacità orientative** per cogliere le **opportunità** (punteggio 5).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico** (punteggio 5), a garantire la continuità con il **territorio** (punteggio 5), a contrastare il fenomeno dei **NEET** (punteggio 3), a promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il coordinamento dei **servizi** (punteggio 5), il dialogo tra **docenti** e **studenti** (punteggio 5), il rapporto con i **genitori** (punteggio 5), il monitoraggio delle azioni intraprese (punteggio 4) e la creazione di un sistema integrato per l'inclusione e la gestione delle **fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 4), sull'utilizzo di metodologie **laboratoriali** (punteggio 5), sulla flessibilità degli **spazi** e dei **tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, con proposte **culturali** (punteggio 5), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 4) e **sportive** (punteggio 5).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** con enti e istituzioni del territorio, che offre agli studenti numerose opportunità di apprendimento e di orientamento. L'attenzione alle finalità dell'orientamento, che comprendono lo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita**, dimostra una visione olistica dell'educazione. L'offerta di attività opzionali e facoltative, diversificata e stimolante, contribuisce a personalizzare il percorso formativo di ciascun studente.\n\n### 4. Aree di Debolezza\n\nL'obiettivo di contrastare il fenomeno dei **NEET** (punteggio 3) risulta meno prioritario rispetto agli altri obiettivi, suggerendo la necessità di rafforzare le azioni specifiche in questo ambito. Il punteggio relativamente basso della sezione dedicata all'orientamento (3) potrebbe indicare la necessità di una maggiore integrazione dell'orientamento all'interno del curricolo scolastico.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra la definizione degli obiettivi e la loro effettiva implementazione. Un monitoraggio più accurato delle azioni intraprese e una valutazione dei risultati ottenuti consentirebbero di migliorare l'efficacia dell'orientamento e di garantire che tutti gli studenti abbiano accesso a un supporto adeguato per le loro scelte formative.\n\n### 6. Conclusioni\n\nIl PTOF della scuola Primaria D. Alighieri presenta un approccio all'orientamento ben strutturato e ricco di potenzialità. La vasta rete di **partnership**, le finalità ambiziose e l'offerta diversificata di attività opzionali rappresentano un solido punto di partenza per supportare gli studenti nel loro percorso di crescita e di orientamento. Tuttavia, è necessario rafforzare alcune aree di debolezza, come il contrasto al fenomeno dei **NEET** e l'integrazione dell'orientamento all'interno del curricolo scolastico, per garantire che l'offerta formativa sia sempre più efficace e rispondente alle esigenze degli studenti. Le attività registrate, come le **uscite sul territorio**, la **collaborazione con il comune**, i **viaggi e visite d'istruzione**, i percorsi **STEM**, l'**educazione alla cittadinanza** e le iniziative sportive e artistiche, testimoniano l'impegno della scuola nel fornire un'esperienza educativa completa e stimolante."
+}

@@ -1,0 +1,278 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ANIC843003",
+    "denominazione": "Osimo Bruno Da Osimo",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Osimo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via S. Lucia 10",
+    "cap": "60027",
+    "email": "anic843003@istruzione.it",
+    "pec": "anic843003@pec.istruzione.it",
+    "website": "www.brunodaosimo.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene l'orientamento sia presente nell'indice e declinato in diverse attività, manca una sezione organica e strutturata che ne esponga l'offerta formativa in modo compiuto."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Enti Locali"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 0
+      },
+      "opzionali_volontariato": {
+        "score": 0
+      },
+      "opzionali_sportive": {
+        "score": 0
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Veicolazione moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Moduli in inglese nel biennio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano.",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano.",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto di devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglie, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ANIC843003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Osimo Bruno Da Osimo** (codice **ANIC843003**) per il triennio **2019/20-2021/22**. L'istituto, di tipo **Liceo, Tecnico** e operante nel secondo grado, si colloca in un contesto **Centro** e **Non Metropolitano** del territorio di **Osimo** (provincia di **Ancona**, regione **Marche**). L'analisi si basa sui dati forniti, valutando la presenza, la strutturazione e l'efficacia delle iniziative orientative proposte. Sebbene l'orientamento sia presente in diverse attività, si evidenzia una mancanza di una sezione organica e strutturata che ne esponga compiutamente l'offerta formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'istituto riconosce l'importanza dell'orientamento, come dimostra la sua inclusione nell'indice del PTOF e la sua declinazione in diverse attività. Tuttavia, l'assenza di una sezione dedicata e strutturata rappresenta un punto critico.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** ampio e diversificato, comprendendo **AGROBIOS**, **Associazioni**, **Consulenti esterni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na**, **ASL** ed **Enti Locali**. Questo elevato numero di collaborazioni (ben 15) suggerisce un forte impegno nell'apertura verso il territorio e nella valorizzazione delle risorse esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita**, le **transizioni formative** e le **capacità orientative** degli studenti, offrendo loro strumenti per affrontare le sfide del futuro.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati includono la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. Tuttavia, alcuni obiettivi, come quello di contrastare i NEET e promuovere il lifelong learning, risultano meno prioritari rispetto agli altri.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi**, e sull'approccio **interdisciplinare**. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include moduli **culturali**, **laboratoriali ed espressive**. Manca un'offerta di attività **ludiche, ricreative, di volontariato** o **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'ampio network di **partnership** con enti esterni e nella varietà delle attività proposte, tra cui **Stage ASL**, **Certificazioni linguistiche**, **Microconferenze**, **Flipped Classroom**, **Service Learning (METEO)**, **Veicolazione moduli disciplinari in lingua**, **Conversazione inglese**, **Didattica digitale**, **PCTO presso Struttura Ospitante**, **Impresa Formativa Simulata (IFS)**, **Olimpiadi Di Astronomia**, **Cittadinanza E Costituzione**, **Gemellaggi**, **L2: Lingua Italiana Per Stranieri**, **Competenze Lingua Straniera: Francese**, **Teatro Antico E Moderno**, **Pon Fsre, Smart Class**, **BYOD**, **Coding e Robotica**, **Progetti territoriali integrati**, **Stage/Alternanza scuola-lavoro**, **Definizione PEI**, **Corsi di recupero** e **Debate**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Inoltre, l'offerta di attività opzionali risulta sbilanciata verso i moduli culturali e laboratoriali, trascurando le attività ludiche, ricreative, di volontariato e sportive.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta formativa orientativa più organica e completa, che integri le diverse attività esistenti in un quadro coerente e definito. È necessario ampliare l'offerta di attività opzionali, includendo moduli ludici, ricreativi, di volontariato e sportivi, per rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Osimo Bruno Da Osimo** dimostra un impegno significativo verso l'orientamento, evidenziato dalla chiarezza delle finalità, dall'ampio network di **partnership** e dalla varietà delle attività proposte. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario colmare il divario esistente strutturando una sezione dedicata all'interno del PTOF e ampliando l'offerta di attività opzionali. Questo consentirebbe all'istituto di fornire un supporto più completo e personalizzato agli studenti, aiutandoli a sviluppare le proprie **attitudini**, **interessi** e a costruire il proprio **progetto di vita**."
+}

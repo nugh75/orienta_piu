@@ -1,0 +1,241 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LUPL01500A",
+    "denominazione": "Liceo Linguistico Byron",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Lucca",
+    "anno_ptof": "2025-2028/2025",
+    "provincia": "Lucca",
+    "regione": "Toscana",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.Le S. Concordio 81",
+    "cap": "55100",
+    "email": "segreteria@esedrascuole.it",
+    "pec": "esedrascuole@pec.it",
+    "website": "www.esedrascuole.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Accademia Rimini Calcio VB",
+        "CTS",
+        "CTI",
+        "servizi di zona",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "Fondazione Karis"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre, sviluppo psico-fisico",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Espressione corporea, fiducia in sé stessi, spettacolo finale",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Istruttore minibasket, giochi motori, base motoria",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Sviluppo comunicazione, relazione, creatività, funzione simbolica",
+      "target": "3, 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria propedeutica al calcio, divertimento",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Consapevolezza fonologica, narrazione, gioco",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione argilla, espressione creativa",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Realizzazione oggetti, sviluppo creatività",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per presentare la scuola.",
+      "target": "Genitori, bambini, comunità"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a fattorie, musei, mercati, etc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa con maratonina, spettacoli e cene.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Promozione attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "learning by doing",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "Transizioni",
+      "descrizione_e_metodologia": "tra docenti",
+      "target": "alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LUPL01500A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Linguistico Byron** (LUPL01500A), relativo all'anno scolastico 2025-2028/2025. L'istituto, paritario, situato a **Lucca**, si rivolge a studenti del secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, l'offerta didattica orientativa e le attività opzionali. La valutazione complessiva evidenzia un impegno significativo nella costruzione di un sistema di orientamento, con alcuni aspetti che necessitano di ulteriore sviluppo.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** Il **Liceo Byron** dimostra una buona capacità di collaborare con diversi soggetti esterni. Sono stati individuati ben 13 partner, tra cui **Nido d’Infanzia Piccole tracce**, la **Scuola Primaria**, il **Comune di Riccione**, l’**ASL**, diverse associazioni sportive (**Federazione Italiana Pallacanestro di Rimini**, **Accademia Rimini Calcio VB**), enti di formazione (**CTS**, **CTI**), **servizi di zona**, **Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini**, **Diesse** e **Fondazione Karis**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con un punteggio di 3 per ciascuna area. Particolarmente rilevante è l'attenzione alle **transizioni formative**, con un punteggio di 4, che sottolinea l'importanza di accompagnare gli studenti nei passaggi tra i diversi ordini scolastici. La capacità di orientare verso le **opportunità** formative e lavorative risulta meno sviluppata, con un punteggio di 2.\n\n**2.4 Obiettivi:** Tra gli obiettivi dichiarati, si evidenzia un forte impegno per la **continuità territoriale**, con un punteggio di 4. Meno marcata è l'attenzione alla riduzione dell'**abbandono scolastico** e al contrasto al fenomeno **NEET**, entrambi con un punteggio di 1. L'obiettivo di promuovere il **lifelong learning** è stato valutato con un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, in particolare il **coordinamento dei servizi** e il **rapporto scuola-genitori**, entrambi con un punteggio di 4. Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** ricevono un punteggio inferiore (2), suggerendo la necessità di rafforzare questi aspetti. L'azione relativa all'integrazione di un **sistema integrato di inclusione e fragilità** è considerata adeguata, con un punteggio di 3.\n\n**2.6 Didattica Orientativa:** L'approccio didattico orientativo si basa su metodologie attive e coinvolgenti, come l'apprendimento dall'esperienza, la didattica laboratoriale, la flessibilità degli spazi e dei tempi e l'interdisciplinarità, tutte valutate con un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzionali **culturali** (punteggio 2), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 2) e **sportive** (punteggio 4). L'ampia gamma di attività rappresenta un'opportunità per gli studenti di esplorare i propri interessi e sviluppare le proprie competenze.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la solida rete di **partnership** attivate, la chiarezza delle **finalità** orientative, l'efficacia delle **azioni di sistema** per il coordinamento dei servizi e il coinvolgimento delle famiglie, e la varietà dell'offerta di **attività opzionali**. L'attenzione alle **transizioni formative** e alla **continuità territoriale** rappresenta un valore aggiunto. Le attività registrate, come \"**Amico sport**\", \"**Laboratorio di Danza creativa**\", \"**Madrelingua inglese**\" e \"**Uscite didattiche**\", testimoniano un impegno concreto nella realizzazione di interventi orientativi.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta una lacuna significativa. Inoltre, l'attenzione alla riduzione dell'**abbandono scolastico** e al contrasto al fenomeno **NEET** risulta meno sviluppata rispetto ad altri aspetti. Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** necessitano di essere potenziati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione di un'articolata strategia di orientamento, che dovrebbe essere esplicitata in una sezione dedicata del PTOF. È necessario rafforzare le azioni volte a prevenire l'**abbandono scolastico** e a favorire l'inserimento lavorativo degli studenti, attraverso un'offerta formativa più mirata e un maggiore coinvolgimento del territorio.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Linguistico Byron** dimostra un impegno significativo nella costruzione di un sistema di orientamento, basato su solide **partnership**, finalità chiare e azioni di sistema efficaci. Tuttavia, l'assenza di una sezione dedicata all'orientamento e la necessità di rafforzare alcuni aspetti, come la prevenzione dell'abbandono scolastico e il monitoraggio delle azioni, rappresentano aree di miglioramento. Un'integrazione di questi elementi contribuirebbe a rendere il PTOF più completo ed efficace nel supportare gli studenti nel loro percorso di crescita e di orientamento."
+}

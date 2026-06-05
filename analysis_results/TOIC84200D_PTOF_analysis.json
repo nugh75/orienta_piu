@@ -1,0 +1,387 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOIC84200D",
+    "denominazione": "I.C. Bricherasio",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Bricherasio",
+    "anno_ptof": "2025/2028",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Bollea 3",
+    "cap": "10060",
+    "email": "toic84200d@istruzione.it",
+    "pec": "toic84200d@pec.istruzione.it",
+    "website": "www.icbricherasio.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti locali",
+        "cooperative sociali",
+        "associazioni culturali",
+        "Avis",
+        "biblioteche comunali",
+        "ASL TO3",
+        "C.I.S.S. Pinerolo",
+        "ACEA",
+        "Fidas",
+        "APRI",
+        "Centro Bum",
+        "Centro Uliveto",
+        "Servizi socio-sanitari",
+        "Associazioni di settore",
+        "enti territoriali",
+        "RSA del territorio",
+        "associazioni locali",
+        "Rete PIN",
+        "Rete Territoriale Alunni Stranieri",
+        "Rete per l'Inclusione",
+        "Rete PerForma PA",
+        "Rete RNFS"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti sportivi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Uso palestre comunali, piscina",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetti cultura ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Collaborazione ACEA Pinerolo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetti musicali/teatrali",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Collaborazione associazioni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetti sportivi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Uso palestre comunali, piscina, palazzo del ghiaccio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Collaborazione con ACEA",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Collaborazione con ASL, CISS, APRI",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Monitoraggio dei risultati",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Incontri di classi parallele e dipartimenti per predisporre prove di verifica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progettazione inclusiva",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri del gruppo di lavoro intercultura con FS inclusione.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Revisione curricolo",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Incontri a livello di classi parallele e dipartimento.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Moduli orientativi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Elaborazione e attuazione di moduli orientativi (30 ore annuali).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Patentino del pedone",
+      "categoria_principale": "Educazione Stradale",
+      "descrizione_e_metodologia": "Progetto d'Istituto Sicuramente Sicuri",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Patentino del ciclista",
+      "categoria_principale": "Educazione Stradale",
+      "descrizione_e_metodologia": "Progetto d'Istituto Sicuramente Sicuri",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Raccolta differenziata",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Attività pratica",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Conoscenza Protezione Civile",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Progetto d'Istituto Sicuramente Sicuri",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Visite al Comune/associazioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate per conoscenza territorio",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Visite ad attività produttive",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite per conoscenza mondo del lavoro",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Volontariato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di volontariato con enti locali",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Laboratori peer tutoring",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Tecniche cooperative learning",
+      "target": "Classi I, II, III"
+    },
+    {
+      "titolo_attivita": "Teatro scuola Primaria",
+      "categoria_principale": "Artistico-Espressivo",
+      "descrizione_e_metodologia": "Percorso teatrale espressivo con giochi, improvvisazione e restituzione finale.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "MUSICA scuola Primaria",
+      "categoria_principale": "Artistico-Espressivo",
+      "descrizione_e_metodologia": "Laboratorio musicale tra ritmo, canto e ascolti con attenzione alla tradizione popolare.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "LINGUA INGLESE scuola Primaria",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Laboratorio d’inglese ludico e interattivo: canzoni, giochi, drammatizzazione.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Voices and Sounds - Scuola Secondaria di 1 grado",
+      "categoria_principale": "Artistico-Espressivo",
+      "descrizione_e_metodologia": "Laboratorio musicale centrato su canto corale e composizioni di gruppo.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Colori in movimento - Scuola Secondaria di 1 grado",
+      "categoria_principale": "Artistico-Espressivo",
+      "descrizione_e_metodologia": "Laboratorio artistico con tecniche pittoriche per realizzazione scenografie.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Teatrando Scuola Secondaria di 1 grado",
+      "categoria_principale": "Artistico-Espressivo",
+      "descrizione_e_metodologia": "Laboratorio teatrale con tecniche di improvvisazione e regia.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Interventi con esperti esterni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con RSA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite e attività con case di riposo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività con enti locali",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Partecipazione a eventi locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di lettura CAA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Lettura facilitata",
+      "target": "Studenti con bisogni educativi speciali"
+    },
+    {
+      "titolo_attivita": "Bullismo e cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Workshop e sensibilizzazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Coding, pensiero computazionale e robotica",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Manipolazione, coding unplugged, robot Bee-bot.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Coding, pensiero computazionale e robotica",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Tecnologie digitali, visual coding, software.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Miglioriamo le competenze linguistiche (Inglese)",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corsi con docente madrelingua.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Sicuramente Sicuri",
+      "categoria_principale": "Cittadinanza Responsabile",
+      "descrizione_e_metodologia": "Incontro con operatori sicurezza (Vigili Urbani, Vigili del Fuoco, Croce Verde).",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "e-Twinning",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Gemellaggio elettronico con Francia e paesi anglofoni.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corrispondenza in lingua francese",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi epistolari con classi francesi.",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Formazione inclusione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi sulla normativa, stesura documenti, pratiche didattiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Bullismo e cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Riconoscimento, prevenzione, normative, responsabilizzazione",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Intelligenza artificiale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Alfabetizzazione, normativa, pratiche didattiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sulla sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Dlgs 81/2008",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Formazione sulla privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Privacy e rischi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CORSO SULLA PRIVACY",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione on line",
+      "target": "Personale Amministrativo, Personale Collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOIC84200D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Bricherasio (TOIC84200D) per il triennio 2025/2028. L'istituto, di tipo comprensivo situato nel territorio metropolitano di Bricherasio, in provincia di Torino e regione Piemonte, dimostra un forte impegno verso l'orientamento, come evidenziato dai punteggi elevati ottenuti nelle diverse dimensioni valutate. Il PTOF dedica uno spazio specifico all'orientamento e si avvale di una rete di **partnership** molto ampia e diversificata, comprendente **enti locali**, **cooperative sociali**, **associazioni culturali**, **Avis**, **biblioteche comunali**, **ASL TO3**, **C.I.S.S. Pinerolo**, **ACEA**, **Fidas**, **APRI**, **Centro Bum**, **Centro Uliveto**, **servizi socio-sanitari**, **associazioni di settore**, **enti territoriali**, **RSA del territorio**, **associazioni locali**, **Rete PIN**, **Rete Territoriale Alunni Stranieri**, **Rete per l'Inclusione**, **Rete PerForma PA** e **Rete RNFS**. L'orientamento è finalizzato allo sviluppo di **attitudini**, **interessi**, **progetto di vita**, alla gestione delle **transizioni formative** e all'acquisizione di **capacità orientative** per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 3, indicando un'attenzione specifica a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto esteso, con ben 22 partner attivi, suggerendo una forte integrazione con il territorio e un approccio collaborativo all'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo, coprendo lo sviluppo di **attitudini**, **interessi**, la costruzione del **progetto di vita**, la gestione delle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future, tutte aree valutate con punteggio massimo (5).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità** con il territorio, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**, con punteggi elevati in tutte le aree.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono orientate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori** e al **monitoraggio delle azioni** intraprese, con un focus sull'integrazione e l'inclusione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e orientamento degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica, dalla didattica alle partnership, dagli obiettivi alle azioni di sistema. La vasta rete di **partnership** con enti del territorio rappresenta un valore aggiunto significativo, offrendo agli studenti opportunità concrete di contatto con il mondo del lavoro e del volontariato. L'attenzione alla prevenzione dell'**abbandono scolastico** e al contrasto del fenomeno **NEET** dimostra una sensibilità verso le problematiche giovanili.\n\n### 4. Aree di Debolezza\n\nNonostante i punteggi generalmente elevati, l'area della didattica **laboratoriale** (punteggio 3) potrebbe beneficiare di un ulteriore potenziamento, con l'introduzione di attività pratiche più mirate e innovative. Il monitoraggio delle azioni (punteggio 4) potrebbe essere reso più sistematico e strutturato.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un'offerta orientativa completa e ben strutturata. Tuttavia, per ottimizzare ulteriormente l'efficacia delle azioni intraprese, sarebbe opportuno rafforzare l'integrazione tra le diverse attività e i diversi attori coinvolti, garantendo una maggiore coerenza e sinergia.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Bricherasio dimostra un forte impegno verso l'orientamento, con una visione chiara e obiettivi ambiziosi. La vasta rete di **partnership**, la definizione delle finalità e degli obiettivi, le azioni di sistema e l'offerta didattica orientativa rappresentano i punti di forza del piano. Un ulteriore potenziamento delle attività **laboratoriali** e del **monitoraggio** delle azioni potrebbe contribuire a rendere l'offerta orientativa ancora più efficace e rispondente alle esigenze degli studenti e del territorio. Le attività registrate, come i **progetti sportivi**, **progetti cultura ambiente**, **progetti musicali/teatrali**, **progetti inclusione**, **moduli orientativi**, **visite al Comune/associazioni**, **volontariato**, e le numerose iniziative di **formazione** per i docenti, confermano l'impegno concreto dell'istituto nella realizzazione del PTOF."
+}

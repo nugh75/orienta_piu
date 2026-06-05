@@ -1,0 +1,235 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEEE833035",
+    "denominazione": "I.C. Quezzi",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019-2022",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Fratelli Cervi 1",
+    "cap": "16142",
+    "email": "geic833001@istruzione.it",
+    "pec": "pirh01000d@istruzione.it",
+    "website": "www.comprensivoquezzi.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Agenzia Formativa “Zefiro”, Agenzia formativa di Confesercenti toscana nord “CESCOT”, Università pubbliche e private, Enti Locali, Società della salute, Centro per l’impiego, Confcommercio, Assefi Azienda Speciale per lo Sviluppo, Federalberghi, Associazione cuochi pisani, AIS",
+        "istituzioni",
+        "imprese",
+        "associazioni",
+        "sinagoga",
+        "comunità musulmana di Pisa",
+        "Arcivescovo di Pisa",
+        "Tempio valdese",
+        "monastero di Pomaia",
+        "Oosterlicht college",
+        "ASL",
+        "enti territoriali",
+        "strutture pubbliche e private",
+        "CIPAT"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attivazione sezione enogastronomica presso Istituto Penitenziario Don Bosco",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Attivazione sezione enogastronomica con 35 alunni",
+      "target": "Studenti Istituto Penitenziario"
+    },
+    {
+      "titolo_attivita": "Sezione ospedaliera",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Scuola in ospedale presso Clinica Pediatrica",
+      "target": "Studenti ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Stage linguistico Cap D'Ail",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistiche, contatto con cultura francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Italy-Holland Exchange",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambio studenti con scuola olandese, competenze linguistiche e professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi tecniche primo soccorso",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Formazione tecniche primo soccorso, collaborazione con 118",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Le religioni: queste sconosciute",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lezioni fuori sede presso sinagoga, cimitero ebraico, comunità musulmana, tempio valdese, monastero di Pomaia.",
+      "target": "Alunni classi 3 Enogastronomia, Sala e Vendita, Pasticceria, Accoglienza Turistica"
+    },
+    {
+      "titolo_attivita": "Ero carcerato e mi avete visitato",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Allestimento pranzo secondo la kashrut ebraica con classi 3 Enogastronomia e Sala e Vendita.",
+      "target": "Alunni classi 3 Enogastronomia, Sala e Vendita"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici Matteotti (LAM)",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Laboratori artistici per alunni disabili, con diversità di lingua, DSA/BES, disagio socio-economico.",
+      "target": "Alunni con bisogni educativi speciali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi del gusto",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Partecipazione a concorsi internazionali, nazionali e regionali",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Concorso ‘La parola e il cibo’",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Partecipazione a concorsi",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Corso-Concorso Fisar",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Partecipazione a concorsi",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Formazione del personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Organizzata dalla scuola/rete, tramite agenzie accreditate.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Inclusione e Disabilità",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attivazione reti scuole/servizi per inclusione alunni BES.",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Digitalizzazione e Innovazione Tecnologica",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Formazione personale scuola sull'uso consapevole risorse digitali.",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corsi per alunni stranieri, livelli A1, A2, B1",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Laboratorio musico-teatrale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratorio didattico finalizzato all'inclusione",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Laboratorio di didattica metacognitiva",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratorio rivolto agli alunni DSA",
+      "target": "Alunni DSA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEEE833035\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **S.El. - G.Borsi -** (GEEE833035) per il triennio 2019-2022. L'istituto, situato nel territorio metropolitano di **Genova**, regione **Liguria**, si configura come una scuola statale con un'attenzione particolare all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. L'impegno verso la costruzione di un sistema di orientamento efficace si manifesta attraverso una rete di **partnership** consolidata e una varietà di attività mirate a sviluppare attitudini, interessi e progetti di vita degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una chiara e ben definita sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo indica un'attenzione strutturale e consapevole all'importanza di questo ambito.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di collaborazioni con diversi soggetti, tra cui **Agenzia Formativa “Zefiro”**, **CESCOT**, **Università pubbliche e private**, **Enti Locali**, **Società della salute**, **Centro per l’impiego**, **Confcommercio**, **Assefi Azienda Speciale per lo Sviluppo**, **Federalberghi**, **Associazione cuochi pisani**, **AIS**, oltre a **istituzioni**, **imprese**, **associazioni** religiose (sinagoga, comunità musulmana, Arcivescovo, Tempio valdese, monastero di Pomaia) e scuole estere come **Oosterlicht college**. La rete di collaborazioni, composta da 12 partner, risulta particolarmente ricca e diversificata, con un punteggio di 6.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono orientate allo sviluppo di **attitudini**, **interessi**, **progetto di vita** e alla preparazione alle **transizioni formative**, con un punteggio di 4 per ciascuna area. Si evidenzia un'attenzione alla crescita personale e alla consapevolezza delle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**. I primi tre obiettivi raggiungono un punteggio di 5, mentre l'ultimo si attesta a 3, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. L'azione di coordinamento dei servizi e il sistema integrato di inclusione e fragilità ottengono un punteggio di 6, mentre le altre due azioni si attestano a 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sulla laboratorialità, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con un punteggio di 3 per ciascuna area.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni culturali, laboratoriali ed espressive, ludiche, di volontariato e sportive. I punteggi variano da 1 a 3, indicando una diversificazione dell'offerta, ma con margini di sviluppo.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella solida rete di **partnership** con enti, imprese e istituzioni del territorio. Questa collaborazione permette di offrire agli studenti opportunità concrete di orientamento e di contatto con il mondo del lavoro. L'attenzione all'**inclusione** e alla valorizzazione delle fragilità, evidenziata dalle attività come **Laboratori artistici Matteotti (LAM)** e dai corsi per alunni **DSA** e stranieri, rappresenta un altro elemento distintivo. Attività come **Italy-Holland Exchange** e **Stage linguistico Cap D'Ail** promuovono l'internazionalizzazione e lo sviluppo di competenze linguistiche.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la promozione del **lifelong learning**, che ottiene un punteggio inferiore rispetto agli altri obiettivi. Inoltre, la didattica orientativa, pur essendo presente, potrebbe essere potenziata attraverso l'implementazione di metodologie innovative e l'utilizzo di tecnologie digitali. L'offerta di attività opzionali e facoltative appare meno strutturata rispetto ad altri ambiti.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità e gli obiettivi dichiarati e la loro effettiva implementazione può essere colmato attraverso un maggiore investimento nella formazione del personale docente e nel monitoraggio delle azioni intraprese. È necessario rafforzare l'integrazione tra le diverse attività di orientamento e garantire una maggiore partecipazione degli studenti e delle famiglie.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **S.El. - G.Borsi -** dimostra un impegno significativo verso l'orientamento, con una solida base di **partnership** e una varietà di attività mirate a supportare la crescita personale e professionale degli studenti. Pur presentando alcune aree di debolezza, il PTOF si configura come un documento programmatico valido e ben strutturato, in grado di rispondere alle esigenze del territorio e di promuovere un'offerta formativa di qualità. Attività come **Attivazione sezione enogastronomica presso Istituto Penitenziario Don Bosco**, **Sezione ospedaliera**, **Percorsi tecniche primo soccorso** e **Le religioni: queste sconosciute** dimostrano un approccio proattivo e innovativo all'orientamento."
+}

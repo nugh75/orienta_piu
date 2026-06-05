@@ -1,0 +1,219 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPC030001",
+    "denominazione": "Liceo Marco Minghetti",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Nazario Sauro 18",
+    "cap": "40121",
+    "email": "bopc030001@istruzione.it",
+    "pec": "bopc030001@pec.istruzione.it",
+    "website": "www.liceominghetti.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Classico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive per studenti",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Elementi di primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione dell'offerta formativa",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze lavorative",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione in presenza",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPC030001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Marco Minghetti** (BOPC030001) per il periodo 2019/20-2021/22. La scuola, situata a **Bologna** in **Emilia Romagna**, si configura come un istituto **statale** di istruzione secondaria di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata, partnership consolidate e una varietà di attività mirate a supportare gli studenti nelle loro scelte formative e professionali. Il PTOF dimostra una buona attenzione alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi, progettazione del percorso di vita, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ben sviluppato, che include **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta orientativa, consentendo agli studenti di entrare in contatto con realtà esterne e ampliare i propri orizzonti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono affrontate in modo completo, con punteggi elevati per lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e il supporto alle **transizioni formative**. Particolarmente curata è l'attenzione allo sviluppo delle **capacità orientative** per cogliere le **opportunità** offerte dal contesto.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un forte impegno per la **continuità territoriale**, mentre l'attenzione alla riduzione dell'**abbandono** e al contrasto al fenomeno **NEET** appare meno prioritaria. L'obiettivo di promuovere il **lifelong learning** riceve un punteggio discreto.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il coinvolgimento dei **genitori** e un attento **monitoraggio delle azioni** intraprese. L'integrazione con il **sistema inclusivo** e l'attenzione alle **fragilità** rappresentano un punto di forza.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**. L'utilizzo della **didattica laboratoriale** risulta meno strutturato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, offrendo agli studenti la possibilità di esplorare i propri interessi e talenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, la solida rete di **partnership**, l'attenzione alle finalità dell'orientamento e l'implementazione di azioni di sistema efficaci. L'offerta di attività opzionali e facoltative diversificata contribuisce a personalizzare il percorso formativo degli studenti. L'impegno per la didattica orientativa basata sull'esperienza e sulla flessibilità rappresenta un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riscontrate riguardano la minore priorità attribuita alla riduzione dell'**abbandono** e al contrasto al fenomeno **NEET**. L'utilizzo della **didattica laboratoriale** potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni mirate alla prevenzione dell'abbandono scolastico e all'inserimento nel mondo del lavoro. Un maggiore focus su queste tematiche consentirebbe di allineare l'offerta orientativa alle esigenze del territorio e di garantire una transizione più efficace per gli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Marco Minghetti** dimostra un impegno significativo verso l'orientamento, con una solida base teorica e una varietà di attività pratiche. Il potenziamento delle azioni mirate alla prevenzione dell'abbandono scolastico e all'inserimento nel mondo del lavoro rappresenterebbe un ulteriore passo avanti per garantire un'offerta orientativa completa ed efficace. Le attività registrate, come **Potenziamento linguistico**, **Potenziamento sportivo**, **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra**, **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Elementi di primo soccorso**, **Orientamento post-liceo**, **Open Day**, **PCTO**, **Formazione didattica inclusiva**, **Formazione utilizzo strumenti multimediali** e **Formazione sicurezza**, testimoniano un approccio proattivo e diversificato all'orientamento e alla formazione degli studenti."
+}

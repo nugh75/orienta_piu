@@ -1,0 +1,389 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CTTF03350N",
+    "denominazione": "I.S. G. Ferraris",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Acireale",
+    "anno_ptof": "2023-2025",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "ND",
+    "cap": "ND",
+    "email": "bais06400v@istruzione.it",
+    "pec": "bais06400v@pec.istruzione.it",
+    "website": "http//www.iissferraris.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Università di Bari",
+        "Politecnico di Bari",
+        "Società Trasporti Provinciali",
+        "Istat",
+        "SIS",
+        "AICA",
+        "COMAU",
+        "University of Cambridge International examinations",
+        "CISCO",
+        "Università degli Studi",
+        "Fondazione Bruno Visentini",
+        "ASL",
+        "Enti locali",
+        "Enti di formazione accreditati",
+        "Soggetti privati",
+        "Autonomie locali",
+        "Enti di ricerca",
+        "Associazioni/Cooperative",
+        "organizzazioni del terzo settore",
+        "Istituto Alberghiero di Molfetta",
+        "IP Santarella – De Lilla",
+        "ITT Panetti-Pitagora",
+        "IISS Leonardo da Vinci – Agherbino",
+        "Progetto in rete"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage aziendale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività di stage presso aziende locali per studenti ITT.",
+      "target": "Studenti ITT"
+    },
+    {
+      "titolo_attivita": "Visite Universitarie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate presso Università e Politecnici.",
+      "target": "Studenti Liceo e ITT"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica e Statistica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Gare di soluzione problemi, analisi dati, probabilità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Competizioni individuali e a squadre, problem solving",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica e Campionati Scienze Naturali",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni, approfondimento tematiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recupero/Potenziamento area scientifico-tecnologica",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Recupero abilità base, certificazioni ICT",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura Biomedica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Approfondimenti fisica biomedicale, laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curvatura Coding",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Realizzazione App Android",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura English Plus",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese con ora settimanale aggiuntiva. Certificazioni Cambridge B1, B2, C1.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus+ VET Mobility 4.0",
+      "categoria_principale": "Mobilità Internazionale",
+      "descrizione_e_metodologia": "Formazione e tirocini in Europa per studenti e personale scolastico (Elettronica, Meccatronica, Energia).",
+      "target": "Studenti, Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura - La scuola va a teatro",
+      "categoria_principale": "Attività Culturali",
+      "descrizione_e_metodologia": "Distribuzione libri, confronto, recensione, booktrailer, spettacoli teatrali su temi attuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Partecipazione a Olimpiadi Matematica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Lauree Scientifiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimento statistica, collaborazione Dipartimento Scienze Statistiche e ISTAT",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Psicologi nelle Scuole",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Sportello ascolto, colloqui individuali, momenti collettivi",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Il Cammino di Santiago",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Valorizzazione patrimonio culturale, artistico e paesaggistico",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "La Scuola va a Teatro",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Offerta spettacoli didattico-formativi",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a università e ITS",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di esperti",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Corso “IL PATENTINO DELLA ROBOTICA COMAU\"",
+      "categoria_principale": "STEM/Robotica",
+      "descrizione_e_metodologia": "Approccio innovativo alle discipline STEM, competenze digitali per il mondo del lavoro.",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Corso “MECCATRONICA CON ARDUINO\"",
+      "categoria_principale": "STEM/Meccatronica",
+      "descrizione_e_metodologia": "Formazione sulle applicazioni della meccatronica, robotica e programmazione.",
+      "target": "Studenti del triennio del corso di Meccatronica"
+    },
+    {
+      "titolo_attivita": "Corso “NDG LINUX ESSENTIALS\"",
+      "categoria_principale": "Informatica/Sistemi Operativi",
+      "descrizione_e_metodologia": "Competenze di base per lavorare in ambito Open Source su Linux.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “PYTHON ESSENTIALS\"",
+      "categoria_principale": "Informatica/Programmazione",
+      "descrizione_e_metodologia": "Conseguimento della Certificazione Python Institute PCEP.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “ARTIFICIAL INTELLIGENCE\"",
+      "categoria_principale": "Informatica/Intelligenza Artificiale",
+      "descrizione_e_metodologia": "Acquisizione delle competenze di base sull'intelligenza artificiale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “AUTOCAD 2D\"",
+      "categoria_principale": "Informatica/CAD",
+      "descrizione_e_metodologia": "Conseguimento della Certificazione Aica Ecdl Cad 2D.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “DIGITAL LITERACY\"",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Certificazione internazionale dell'alfabetizzazione digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “L’ARIA CHE TIRA\"",
+      "categoria_principale": "Scienze/Ambiente",
+      "descrizione_e_metodologia": "Analisi impatti risorse energetiche, efficienza energetica.",
+      "target": "Classi II, III, IV"
+    },
+    {
+      "titolo_attivita": "Corso “SCOPRIAMO I MATERIALI\"",
+      "categoria_principale": "Scienze/Materiali",
+      "descrizione_e_metodologia": "Sperimentazione diretta in laboratorio, interdisciplinarità e innovazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “MOBILITA’ SOSTENIBILE PER LA SMART CITY\"",
+      "categoria_principale": "Tecnologia/Sostenibilità",
+      "descrizione_e_metodologia": "Realizzazione di una stazione di ricarica per veicoli elettrici da fonti rinnovabili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "StandByMe 2.0",
+      "categoria_principale": "Educazione alla legalità",
+      "descrizione_e_metodologia": "Progetto per contrastare la violenza di genere online tramite sensibilizzazione e dialogo.",
+      "target": "Studenti secondaria di secondo grado"
+    },
+    {
+      "titolo_attivita": "Scopriamo i materiali",
+      "categoria_principale": "Scienze e Tecnologia",
+      "descrizione_e_metodologia": "Attività di laboratorio con ricercatori per sperimentazione diretta.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Treno della memoria",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso educativo sulla Shoah per promuovere la cittadinanza attiva.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Energie in cambiamento",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Attività per la transizione ecologica e culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione illuminazione esterna con lampade LED",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Installazione di lampade a basso consumo con modulo fotovoltaico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stazione di ricarica per veicoli elettrici",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Installazione stazione di ricarica per promuovere mobilità elettrica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Borsa di studio Golden Anniversary Ferraris Molfetta - eMinds",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Progetto per ridurre il gap tra scuola e mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fer.Menti culturali",
+      "categoria_principale": "Cultura e Società",
+      "descrizione_e_metodologia": "Sensibilizzazione su temi storico-sociali e valorizzazione del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con aziende del territorio",
+      "target": "Studenti specifici"
+    },
+    {
+      "titolo_attivita": "Percorsi PCTO con ARPA Puglia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Simulazione analisi e campionamento acque marine",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "STEAM MOOD",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Progettazione unità didattiche digitali",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CTTF03350N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Galileo Ferraris Corso Serale** di Acireale, identificato dal codice **CTTF03350N**. L'istituto, di tipo **Tecnico** e afferente al secondo grado, opera in un contesto territoriale **Metropolitano** nell'area delle **Isole** della regione **Sicilia**. L'analisi si basa sui dati forniti, evidenziando un impegno significativo verso l'orientamento, con punteggi elevati in tutte le aree valutate. Il PTOF dimostra una chiara attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza di un'attenzione strutturale all'indirizzo.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, ben 22, con realtà diverse quali **Università di Bari**, **Politecnico di Bari**, **Società Trasporti Provinciali**, **Istat**, **SIS**, **AICA**, **COMAU**, **University of Cambridge International examinations**, **CISCO**, **Università degli Studi**, **Fondazione Bruno Visentini**, **ASL**, **Enti locali**, **Enti di formazione accreditati**, **Soggetti privati**, **Autonomie locali**, **Enti di ricerca**, **Associazioni/Cooperative**, **organizzazioni del terzo settore**, **Istituto Alberghiero di Molfetta**, **IP Santarella – De Lilla**, **ITT Panetti-Pitagora**, **IISS Leonardo da Vinci – Agherbino** e un progetto in rete. Questo network di collaborazioni, valutato con un punteggio di 6, rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, la gestione delle transizioni formative e la capacità di cogliere le opportunità offerte dal territorio. Tutte queste aree hanno ottenuto un punteggio di 5, indicando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto al fenomeno NEET e sulla promozione del lifelong learning, con un punteggio di 5 per ciascuna area.\n\n**2.5 Azioni di Sistema:** L'istituto prevede azioni di coordinamento con i servizi territoriali, un dialogo costante tra docenti e studenti, un rapporto attivo con le famiglie e un sistema di monitoraggio delle azioni intraprese. Anche in questo caso, ogni aspetto ha ottenuto un punteggio di 5, evidenziando un approccio sistemico all'orientamento. L'attenzione al **sistema integrato inclusione-fragilità** è particolarmente degna di nota.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con un punteggio di 5 per ciascuna dimensione.\n\n**2.7 Offerta di Attività Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte valutate con un punteggio di 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua coerenza interna e la completezza dell'offerta orientativa. La presenza di una sezione dedicata, un'ampia rete di partnership, finalità e obiettivi ben definiti, azioni di sistema strutturate e una didattica orientativa innovativa costituiscono un solido fondamento per l'orientamento degli studenti. L'offerta di attività opzionali e facoltative amplia ulteriormente le opportunità formative. L'impegno verso la **transizione ecologica** e l'innovazione tecnologica, come dimostrato da progetti quali la realizzazione di stazioni di ricarica per veicoli elettrici, rappresenta un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nNon emergono aree di debolezza significative dai dati forniti. Tuttavia, sarebbe utile approfondire la modalità di misurazione dell'impatto delle attività orientative sulla riduzione dell'abbandono scolastico e sull'inserimento lavorativo degli studenti.\n\n### 5. Gap Analysis\n\nNonostante l'elevato punteggio in tutte le aree, è importante monitorare costantemente l'evoluzione del contesto socio-economico e le esigenze del territorio per adeguare l'offerta orientativa. Un'analisi più approfondita delle competenze richieste dal mercato del lavoro locale potrebbe consentire di affinare ulteriormente i percorsi formativi e le attività di orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Galileo Ferraris Corso Serale** dimostra un forte impegno verso l'orientamento, con una strategia ben definita e un'ampia gamma di attività e partnership. L'istituto si distingue per la sua attenzione alla completezza dell'offerta formativa, alla promozione del lifelong learning e all'innovazione tecnologica. La solida base teorica e pratica dell'orientamento, unita alla collaborazione con numerosi partner, rappresenta un elemento chiave per il successo degli studenti e la loro preparazione al futuro. Le attività come **Stage aziendale**, **Visite Universitarie**, **Olimpiadi di Matematica e Statistica**, **Progetto Erasmus+ VET Mobility 4.0** e i numerosi corsi di certificazione (es. **NDG LINUX ESSENTIALS**, **PYTHON ESSENTIALS**) sono particolarmente rilevanti."
+}

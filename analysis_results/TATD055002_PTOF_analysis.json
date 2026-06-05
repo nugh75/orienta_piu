@@ -1,0 +1,209 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TATD055002",
+    "denominazione": "S.Tommaso D'Aquino",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Taranto",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Taranto",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.Giovinazzi 39/V.D'Aquino 102",
+    "cap": "74100",
+    "email": "consulenteitcdaquino@gmail.com",
+    "pec": "progettosantommasodaquino@pec.it",
+    "website": "https//scuoladaquino.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Pediatra",
+        "Nutrizionista",
+        "Agenzia Formativa esterna"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche specifiche",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Svolto in aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente dedicati",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare e al gusto",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione Pediatra, responsabile Scienze, cucina",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite alla scuola dell'infanzia per bambini del nido",
+      "target": "Bambini del nido"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Incontri genitori",
+      "descrizione_e_metodologia": "Incontro con direzione, insegnanti e personale",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Incontri tra educatrici e insegnanti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Presentazione del bambino e formazione delle classi",
+      "target": "Educatrici e insegnanti"
+    },
+    {
+      "titolo_attivita": "Incontri online",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Presentazione del bambino a scuole primarie",
+      "target": "Insegnanti scuola dell'infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "LEAD",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività a distanza con mediazione genitori",
+      "target": "Bambini assenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TATD055002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **S.Tommaso D'Aquino** (TATD055002), per gli anni scolastici 2022/2023 – 2023/2024 – 2024/2025. La scuola, situata nel territorio non metropolitano di **Taranto** in **Puglia**, opera nel grado dell'Infanzia, Primaria e Secondaria di primo grado ed è di tipo **paritaria**. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività messe in campo per l'orientamento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita e dedicata all'orientamento, sebbene l'attenzione al tema sia comunque presente nelle altre aree.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione con diversi partner esterni, tra cui **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum**, un **pediatra**, un **nutrizionista** e un’**agenzia formativa esterna**. Sono state individuate un totale di 7 partnership, evidenziando un impegno nel coinvolgimento di figure professionali e istituzioni esterne a supporto dell'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi** e la progettazione del **progetto di vita** degli studenti, oltre a favorire le **transizioni formative**. L'attenzione alle **capacità orientative** e alle **opportunità** risulta meno sviluppata.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell’**abbandono** scolastico, sulla promozione della **continuità territoriale**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e un forte impegno verso un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza** degli studenti, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive** (con un punteggio elevato), **ludiche e ricreative**, **di volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella varietà delle **partnership** attivate, nella chiarezza delle **finalità** orientative e nell'impegno verso un approccio didattico basato sull'esperienza e sulla **laboratorialità**. L'attenzione all'**inclusione** e alla gestione delle **fragilità** rappresenta un elemento distintivo. Le attività proposte, come il **Laboratorio di Coding per l’Infanzia** e gli **Incontri di sostegno alla genitorialità**, dimostrano un'attenzione concreta alle esigenze degli studenti e delle famiglie.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, l'attenzione alle **capacità orientative** e alle **opportunità** risulta meno sviluppata rispetto ad altri aspetti. Gli obiettivi di riduzione dell'abbandono e contrasto ai NEET sembrano meno prioritari rispetto alla continuità territoriale e al lifelong learning.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di esplicitare maggiormente l'orientamento come area tematica autonoma all'interno del PTOF. È necessario rafforzare l'attenzione allo sviluppo delle **capacità orientative** degli studenti, fornendo loro strumenti concreti per affrontare le sfide del futuro e individuare le proprie **opportunità**.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **S.Tommaso D'Aquino** presenta un approccio all'orientamento solido e ben strutturato, supportato da una rete di **partnership** efficaci e da un'offerta didattica diversificata. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è consigliabile definire una sezione dedicata all'orientamento e rafforzare l'attenzione allo sviluppo delle **capacità orientative** degli studenti. Le attività come il **Laboratorio di Musica in movimento**, il **Laboratorio di Scienze**, il **Laboratorio di Educazione Motoria**, il **Laboratorio di Pittura**, il **Laboratorio di Lettura**, il **Laboratorio in lingua cinese** e il **Laboratorio di educazione alimentare e al gusto** rappresentano un valore aggiunto per l'offerta formativa e contribuiscono a creare un ambiente di apprendimento stimolante e inclusivo. Gli **Incontri tra educatrici e insegnanti** e gli **Incontri online** favoriscono la continuità didattica e la collaborazione tra i diversi ordini di scuola."
+}

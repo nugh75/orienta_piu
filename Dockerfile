@@ -5,6 +5,11 @@ WORKDIR /app
 # Tool di sistema necessari (make per task runner)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     make \
+    pandoc \
+    texlive-latex-base \
+    texlive-fonts-recommended \
+    texlive-extra-utils \
+    texlive-latex-extra \
     && rm -rf /var/lib/apt/lists/*
 
 # Dipendenze minime per la dashboard

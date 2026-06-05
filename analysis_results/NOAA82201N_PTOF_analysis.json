@@ -1,0 +1,218 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NOAA82201N",
+    "denominazione": "Belfanti - Castelletto Ticino",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Castelletto Sopra Ticino",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Novara",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Baraggia 47",
+    "cap": "28053",
+    "email": "noic82200r@istruzione.it",
+    "pec": "ND",
+    "website": "http//icbelfanti.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro su educazione alimentare",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione personale ATA gestione emergenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NOAA82201N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto “Il Girotondo” di Castelletto Sopra Ticino, con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo al periodo 2019/20-2021/22, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo elevato nelle diverse aree di valutazione. L'istituto, di ordine e grado Infanzia, opera in un contesto territoriale non metropolitano della regione Piemonte ed è di tipo statale. L'analisi delle attività registrate conferma un approccio proattivo nell'offrire opportunità di orientamento e formazione agli studenti e al personale scolastico.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, indicando una chiara priorità strategica in questo ambito.\n\n**2.2 Partnership:** L'istituto ha stabilito collaborazioni con diversi partner esterni, tra cui **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Queste partnership, pari a tre in totale, rappresentano un valore aggiunto per l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, la preparazione alle transizioni formative e l'acquisizione di capacità orientative per cogliere le opportunità. Tutte queste aree ricevono un punteggio elevato, dimostrando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (fenomeno NEET) e la promozione del lifelong learning. Anche in questo caso, i punteggi ottenuti sono soddisfacenti.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutte queste azioni sono valutate positivamente.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali (sebbene con un punteggio leggermente inferiore rispetto ad altre aree), sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. Questo contribuisce a personalizzare l'offerta formativa e a rispondere agli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, le consolidate partnership con enti esterni, la chiarezza delle finalità e degli obiettivi, l'implementazione di azioni di sistema efficaci e l'ampia offerta di attività opzionali. L'istituto dimostra un forte impegno nel fornire agli studenti un supporto completo per la loro crescita personale e professionale. Le attività registrate, come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d'istruzione**, offrono esperienze pratiche e stimolanti. Il **Ritiro di accoglienza** a Campovecchio e il **Progetto Accoglienza Studenti Stranieri** dimostrano attenzione all'inclusione.\n\n### 4. Aree di Debolezza\n\nL'unica area che potrebbe beneficiare di un maggiore sviluppo è la didattica labororiale, che ha ottenuto un punteggio leggermente inferiore rispetto ad altre aree. Potrebbe essere utile potenziare l'offerta di laboratori specifici per l'orientamento, in modo da offrire agli studenti opportunità di sperimentazione pratica e di sviluppo di competenze trasversali.\n\n### 5. Gap Analysis\n\nNon emergono gap significativi nell'analisi del PTOF. L'istituto sembra aver coperto in modo adeguato tutte le aree chiave dell'orientamento. Tuttavia, un monitoraggio costante delle attività e dei risultati ottenuti potrebbe consentire di identificare eventuali aree di miglioramento e di adattare l'offerta formativa alle esigenze degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto “Il Girotondo” presenta un approccio solido e ben strutturato all'orientamento. La presenza di una sezione dedicata, le partnership consolidate, le finalità chiare, gli obiettivi definiti, le azioni di sistema efficaci e l'ampia offerta di attività opzionali rappresentano un valore aggiunto per la comunità scolastica. L'istituto dimostra un forte impegno nel fornire agli studenti un supporto completo per la loro crescita personale e professionale, preparandoli ad affrontare le sfide del futuro. Le attività di **formazione docenti** e del **personale ATA** completano il quadro di un'attenzione diffusa alla qualità dell'offerta formativa."
+}

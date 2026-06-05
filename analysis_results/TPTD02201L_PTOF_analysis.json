@@ -1,0 +1,291 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TPTD02201L",
+    "denominazione": "I.I.S.S. \"Sciascia E Bufalino\" Erice",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Erice",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Trapani",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Cusumano - Casa Circondariale",
+    "cap": "91016",
+    "email": "tpis02200a@istruzione.it",
+    "pec": "tpis02200a@pec.istruzione.it",
+    "website": "www.gbferrigno.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Commerciale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Le attività di orientamento sono integrate in diverse sezioni del PTOF, ma non è presente una sezione dedicata specificamente all'orientamento con un capitolo ad hoc."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti locali",
+        "Polo Universitario trapanese",
+        "associazioni",
+        "imprese",
+        "scuole",
+        "università",
+        "CPIA Trapani",
+        "reti territoriali formali e informali",
+        "ASL",
+        "ECDL",
+        "EIPASS",
+        "Rete Scuola Domani",
+        "Enti di ricerca",
+        "Enti di formazione accreditati",
+        "Soggetti privati",
+        "Associazioni sportive",
+        "Associazioni",
+        "Autonomie locali"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Percorsi di apprendistato e co-progettazione con aziende"
+    },
+    {
+      "titolo_attivita": "Percorsi per le competenze trasversali e l’orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per sviluppo competenze"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni con imprese e associazioni",
+      "target": "Studenti ultimo anno"
+    },
+    {
+      "titolo_attivita": "Visite a scuole/università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazioni e attività esterne",
+      "target": "Studenti ultimo anno e famiglie"
+    },
+    {
+      "titolo_attivita": "Progettazione Didattica Condivisa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione curricoli, didattica innovativa",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Recupero Competenze Di Base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero competenze per alunni a rischio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attivazione Comitato Tecnico-Scientifico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Miglioramento immagine istituto, progettazione percorsi adeguati ai bisogni del territorio.",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Progetti dei servizi sociali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Co-progettazione, organizzazione e attuazione di interventi sociali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di accoglienza e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Definizione del Patto formativo individuale",
+      "target": "Tutti gli iscritti"
+    },
+    {
+      "titolo_attivita": "Prove di accertamento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Accertamento livello conoscenze, abilità e competenze",
+      "target": "Tutti gli iscritti"
+    },
+    {
+      "titolo_attivita": "Percorsi UDA",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Unità di apprendimento",
+      "target": "Tutti gli iscritti"
+    },
+    {
+      "titolo_attivita": "Domeniche Nel Borgo",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Educare alla conoscenza del patrimonio culturale e artistico",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "\"Two Is Better Than One\"",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Confronto con culture diverse, potenziamento lingue straniere",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Road To The Top",
+      "categoria_principale": "Sport e Benessere",
+      "descrizione_e_metodologia": "Incontri con campioni sportivi per promuovere stili di vita sani",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Impara L'Arte E Mettila Da Parte",
+      "categoria_principale": "Arte e Turismo",
+      "descrizione_e_metodologia": "Conoscenza e valorizzazione del patrimonio artistico",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero estivi",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi per studenti sospesi",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Attività di alternanza scuola-lavoro",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Stages in Italia e all'estero",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esami DELF, TRINITY, DELE",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Certificazioni Informatiche (ECDL, EIPASS)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza sui luoghi di lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività proposta dalla Rete Scuola Domani",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Gestione dei beni nei laboratori",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione on line",
+      "target": "Personale tecnico"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione di PCTO sul territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Patti formativi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progettazione di Patti formativi con riconoscimento di crediti",
+      "target": "Studenti Serale/Carceraria"
+    },
+    {
+      "titolo_attivita": "Progetti di recupero",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progetti di recupero delle competenze di base",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione viaggi d'istruzione e stage",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di consulenza",
+      "categoria_principale": "BES",
+      "descrizione_e_metodologia": "Sportello permanente sulla materia",
+      "target": "Alunni BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TPTD02201L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S.S. \\\"Sciascia E Bufalino\\\" - Carcere, codice scuola TPTD02201L, per il triennio 2019/20-2021/22. L'istituto, di tipo tecnico e situato in Sicilia, area geografica Isole, territorio non metropolitano, dimostra un impegno significativo nell'orientamento, sebbene non sia presente una sezione specificamente dedicata con un capitolo ad hoc. L'orientamento è integrato in diverse aree del PTOF, con un punteggio complessivo che riflette una buona attenzione alle finalità, agli obiettivi e alle azioni messe in atto. La scuola vanta un'ampia rete di **partnership** con enti locali, università, associazioni e imprese, che costituisce un elemento chiave per la realizzazione di percorsi di orientamento efficaci.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'assenza di una sezione dedicata all'orientamento rappresenta un punto di attenzione, nonostante l'integrazione dell'orientamento in altre aree del PTOF.\n\n**2.2 Partnership:** La scuola si distingue per un elevato numero di **partnership** (19), che includono **enti locali**, il **Polo Universitario trapanese**, diverse **associazioni**, **imprese**, **scuole**, **università**, il **CPIA Trapani**, **reti territoriali**, l'**ASL**, **ECDL**, **EIPASS**, la **Rete Scuola Domani**, **enti di ricerca**, **enti di formazione accreditati**, **soggetti privati**, **associazioni sportive** e **autonomie locali**. Questa vasta rete di collaborazioni offre numerose opportunità per l'implementazione di attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitando le **transizioni formative** e fornendo loro le **capacità orientative** per cogliere le **opportunità** offerte dal territorio. Tutti i campi relativi alle finalità hanno ottenuto un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. L'obiettivo di continuità territoriale risulta più marcato, con un punteggio di 4, mentre gli altri obiettivi raggiungono un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni ottengono un punteggio di 4, evidenziando un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Quest'ultimo aspetto è particolarmente valorizzato, con un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Le opzioni culturali, laboratoriali ed espressive e quelle di volontariato ottengono un punteggio di 3, mentre quelle ludiche e ricreative e sportive presentano un punteggio più basso (1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la vasta rete di **partnership** con il territorio, la chiarezza delle **finalità** e l'approccio sistemico alle **azioni**. L'utilizzo di metodologie didattiche innovative, come l'apprendimento basato sull'esperienza e l'approccio **interdisciplinare**, rappresenta un ulteriore elemento positivo. L'istituto implementa diverse attività, tra cui **PCTO**, **Percorsi per le competenze trasversali e l’orientamento**, **Visite a scuole/università** e **Progettazione Didattica Condivisa**.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, alcuni obiettivi, come la riduzione dell'**abbandono scolastico** e il contrasto al fenomeno dei **NEET**, potrebbero essere maggiormente enfatizzati. Le attività opzionali **ludiche e ricreative** e **sportive** sembrano meno sviluppate rispetto alle altre.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione specifica per l'orientamento all'interno del PTOF. Sebbene l'orientamento sia integrato in diverse aree, la creazione di un capitolo dedicato consentirebbe una maggiore coerenza e visibilità delle azioni intraprese. Un'ulteriore area di miglioramento riguarda la diversificazione dell'offerta di attività opzionali, con particolare attenzione a quelle **ludiche, ricreative e sportive**.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.I.S.S. \\\"Sciascia E Bufalino\\\" - Carcere dimostra un impegno significativo nell'orientamento, supportato da una solida rete di **partnership** e da un approccio sistemico alle azioni. L'integrazione dell'orientamento in diverse aree del PTOF è un punto di forza, ma la creazione di una sezione dedicata con un capitolo ad hoc potrebbe migliorare la coerenza e l'efficacia delle azioni intraprese. L'istituto dovrebbe inoltre concentrarsi sul potenziamento delle attività opzionali **ludiche, ricreative e sportive** per offrire agli studenti un'offerta formativa più completa e diversificata. L'implementazione di attività come **PCTO**, **Patti formativi** e **Progetti di recupero** dimostra un'attenzione particolare alle esigenze degli studenti."
+}

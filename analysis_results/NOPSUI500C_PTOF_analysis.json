@@ -1,0 +1,252 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NOPSUI500C",
+    "denominazione": "Liceo Scientifico Giacomo Leopardi",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Novara",
+    "anno_ptof": "2022/2025",
+    "provincia": "Novara",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Costantino Porta 25",
+    "cap": "28100",
+    "email": "comno.csi@virgilio.it",
+    "pec": "sellasrl@legalmail.it",
+    "website": "www.scuolenovara.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Comune di Trieste",
+        "Università degli Studi di Trieste",
+        "FISM",
+        "Fondazione Teatro Lirico “Giuseppe Verdi”",
+        "Croce Rossa Italiana",
+        "Cambridge English Qualifications",
+        "Università Popolare di Trieste",
+        "Parrocchia di San Giusto",
+        "Parrocchia di San Giacomo",
+        "Parrocchia di Notredame de Sion",
+        "IV Circoscrizione/Comune di Trieste",
+        "Fondazione Luchetta Ota D’Angelo Hrovatin",
+        "British Beatles Fan Club"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Chitarra ritmica e musica d'insieme",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento chitarra e musica d'insieme",
+      "target": "Classe quinta"
+    },
+    {
+      "titolo_attivita": "Chitarra elettrica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento chitarra elettrica",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Basso elettrico",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento basso elettrico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Attività motoria",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento a varie discipline sportive",
+      "target": "Classi I, II, III, IV e V"
+    },
+    {
+      "titolo_attivita": "Teatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Improvvisazione, scenette, lettura espressiva",
+      "target": "Tutte le classi della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Trasversalità tra le discipline",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori di musica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Strumentario Orff, tastiere, chitarre, batterie, impianto voci",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori di arte e immagine",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "L.I.M. e materiale per disegno, pittura, collage",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori di inglese",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica immersiva, materiale ludico-didattico",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori di informatica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "PC con software e internet",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Certificazione Lingua Inglese",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Esame di inglese per ragazzi della classe V, in collaborazione con Cambridge English Qualifications.",
+      "target": "Classe V"
+    },
+    {
+      "titolo_attivita": "Frutta e Verdura nelle scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Distribuzione di frutta e verdura, visite a fattorie didattiche, laboratori sensoriali.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Latte nelle scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Degustazioni guidate di latte e prodotti lattiero caseari.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Io leggo perché",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Promozione alla lettura e potenziamento biblioteche scolastiche.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corso di propedeutica musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corso in collaborazione con l'Università Popolare di Trieste",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di psicomotricità",
+      "categoria_principale": "Psicomotricità",
+      "descrizione_e_metodologia": "Corso tenuto da Ruzzier Elena",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di arte",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Corso tenuto da Totis Laura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di danza",
+      "categoria_principale": "Danza",
+      "descrizione_e_metodologia": "Corso in collaborazione con l'Università Popolare di Trieste, tenuto da Violin Eleonora",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi interne (palla avvelenata, pallavolo)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Tornei sportivi per classi, premiazione e medaglie",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Coro Scolastico e Orchestra",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio di canto e musica d'insieme, esibizioni interne ed esterne",
+      "target": "Classi I-V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NOPSUI500C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Giacomo Leopardi** (NOPSUI500C) per il triennio 2022/2025, con particolare attenzione alla dimensione dell'orientamento. La scuola, situata a Novara in Piemonte, opera in un territorio non metropolitano ed è di tipo paritaria, offrendo istruzione per l'Infanzia, Primaria e Secondaria di II grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni del sistema, l'offerta didattica orientativa e le attività opzionali/facoltative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di partnership, con un punteggio di 6 e un totale di 15 partner nominati. Tra questi figurano il **Comune di Trieste**, l'**Università degli Studi di Trieste**, la **FISM**, la **Fondazione Teatro Lirico “Giuseppe Verdi”**, la **Croce Rossa Italiana**, **Cambridge English Qualifications**, l'**Università Popolare di Trieste**, diverse **Parrocchie** e la **Fondazione Luchetta Ota D’Angelo Hrovatin**, oltre al **British Beatles Fan Club**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF, relative allo sviluppo di attitudini, interessi e progetto di vita, ottengono un punteggio di 5 ciascuna. Tuttavia, le finalità legate alle transizioni formative e allo sviluppo di capacità orientative sulle opportunità future risultano meno sviluppate, con punteggi rispettivamente di 1 e 3.\n\n**2.4 Obiettivi:** L'obiettivo di ridurre l'abbandono scolastico riceve un punteggio di 3, mentre quello di garantire la continuità territoriale ottiene un punteggio più elevato, pari a 5. Gli obiettivi di contrastare la dispersione scolastica (neet) e promuovere il lifelong learning sono meno enfatizzati, con punteggi pari a 0 e 3 rispettivamente.\n\n**2.5 Azioni del Sistema:** Il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'azione di monitoraggio delle azioni ottengono punteggi variabili tra 3 e 6. L'azione relativa al sistema integrato di inclusione e fragilità raggiunge un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica basata sull'esperienza degli studenti e l'approccio interdisciplinare sono ben valutati (punteggio 5), mentre la didattica laboratoriale e la flessibilità degli spazi e dei tempi necessitano di maggiore attenzione, con punteggi pari a 3.\n\n**2.7 Opzionali e Facoltative:** Le opzionali di tipo laboratoriale ed espressivo e quelle sportive ottengono un punteggio elevato (6), mentre le opzionali culturali, ludico-ricreative e di volontariato presentano punteggi inferiori (3, 3 e 2 rispettivamente).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricca rete di **partnership** attivate, che offrono agli studenti opportunità di apprendimento e orientamento diversificate. L'attenzione allo sviluppo di **attitudini**, **interessi** e **progetto di vita** rappresenta un altro elemento positivo. L'offerta di **attività opzionali** in ambiti come la **musica** (chitarra, basso, coro, orchestra), lo **sport** e l'**arte** contribuisce ad ampliare l'offerta formativa e a soddisfare le diverse esigenze degli studenti. L'impegno nell'**educazione civica** e nella **promozione della lettura** sono ulteriori elementi da sottolineare.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'**orientamento** nel PTOF rappresenta una lacuna significativa. Le finalità relative alle **transizioni formative** e allo sviluppo di **capacità orientative** sulle opportunità future necessitano di maggiore attenzione. L'obiettivo di contrastare il fenomeno dei **neet** non è esplicitamente affrontato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strategia organica e strutturata per l'orientamento, che integri le diverse attività e partnership in un percorso coerente e mirato. È necessario definire obiettivi specifici per le transizioni formative e lo sviluppo di competenze orientative, nonché implementare azioni concrete per contrastare la dispersione scolastica e promuovere il lifelong learning.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico Giacomo Leopardi** presenta un quadro complessivamente positivo, caratterizzato da un forte impegno nella creazione di partnership e nell'offerta di attività diversificate. Tuttavia, per potenziare l'efficacia dell'azione orientativa, è necessario colmare le lacune individuate, definendo una sezione dedicata all'orientamento, rafforzando le finalità e gli obiettivi specifici, e implementando azioni mirate per supportare gli studenti nelle loro scelte formative e professionali."
+}

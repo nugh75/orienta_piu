@@ -1,0 +1,180 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ANIS01300B",
+    "denominazione": "I.I.S. \"Podesti - Calzecchi Onesti",
+    "tipo_scuola": "Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Ancona",
+    "anno_ptof": "2025-2028",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Strada Di Passo Varano 17",
+    "cap": "60131",
+    "email": "anis01300b@istruzione.it",
+    "pec": "anis01300b@pec.istruzione.it",
+    "website": "www.podestionesti.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF. Le attività di orientamento sono integrate in altre aree del documento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "San Michele",
+        "Microcitemico A. Cao",
+        "Enti locali",
+        "associazioni di volontariato",
+        "CTM",
+        "ARST",
+        "Cooperativa “La Clessidra”"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti e laboratori per BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Monitoraggio PEI/PDP, attività personalizzate",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "PDP per alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e monitoraggio PDP",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola in Ospedale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Istruzione domiciliare e DDI",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Festival letterari, rassegne teatrali, laboratori scientifici e artistici",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a eventi esterni e collaborazioni",
+      "target": "Alunni ospedalizzati e compagni di classe"
+    },
+    {
+      "titolo_attivita": "Attività ludiche ed espressive",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Instaurare una relazione positiva con i bambini",
+      "target": "Tutti i minori ricoverati"
+    },
+    {
+      "titolo_attivita": "Mentoring strutturato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Studenti delle superiori come testimoni attivi nelle medie.",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Festival scolastico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Festival di quartiere e passeggiate culturali.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Educazione alla cittadinanza, legalità e democrazia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti musicali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività veicolate dalla musica per promuovere collaborazione, creatività, gestione emozioni, appartenenza, abilità manuali e comportamenti positivi.",
+      "target": "Primaria e Secondaria di Primo Grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ANIS01300B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. \"Podesti - Calzecchi Onesti\" (ANIS01300B) per il periodo 2025-2028. L'istituto, situato ad **Ancona** nelle **Marche**, è una scuola **statale** che offre un percorso formativo di **II Grado**, oltre a servizi per l'**Infanzia** e la **Primaria**, e un'offerta di istruzione **Professionale**. Sebbene non sia presente una sezione specificamente dedicata all'orientamento nel PTOF, le attività in tal senso sono integrate in altre aree del documento. L'analisi si concentra sulle finalità, gli obiettivi, le azioni e le attività messe in atto per supportare l'orientamento degli studenti, con particolare attenzione all'inclusione e alla transizione formativa.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nCome evidenziato, il PTOF non prevede una sezione dedicata all'orientamento, ma integra le attività in ambiti più ampi. Questo approccio richiede una mappatura attenta per garantire la coerenza e l'efficacia delle iniziative.\n\n#### 2.2 Partnership\n\nL'istituto dimostra un buon livello di collaborazione con il territorio, come testimoniato dai **7 partner** nominati, tra cui **San Michele**, **Microcitemico A. Cao**, **Enti locali**, **associazioni di volontariato**, **CTM**, **ARST** e la **Cooperativa “La Clessidra”**. Queste partnership rappresentano un valore aggiunto per l'offerta orientamentale, offrendo agli studenti opportunità di contatto con il mondo del lavoro e del volontariato.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento, come definite nel PTOF, coprono diverse aree cruciali: lo sviluppo di **attitudini**, **interessi** e la costruzione di un **progetto di vita**, il supporto alle **transizioni formative** e lo sviluppo delle **capacità orientative** per cogliere le **opportunità** offerte dal contesto. Il punteggio di 3 su 5 per ciascuna di queste finalità suggerisce un impegno costante, ma con margini di miglioramento nella definizione di indicatori specifici e misurabili.\n\n#### 2.4 Obiettivi\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico** e sul rafforzamento del legame con il **territorio**. L'attenzione alla **continuità territoriale** è particolarmente apprezzabile. L'obiettivo di contrastare il fenomeno **NEET** risulta meno prioritario, con un punteggio di 2, mentre l'impegno per il **lifelong learning** è considerato adeguato (punteggio 3).\n\n#### 2.5 Azioni di Sistema\n\nIl PTOF prevede azioni di sistema efficaci, come il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**, che dimostra un'attenzione particolare alle esigenze degli studenti più vulnerabili.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa su approcci innovativi, come l'apprendimento **da esperienza degli studenti** e la valorizzazione della **flessibilità degli spazi e dei tempi**. L'utilizzo della didattica **interdisciplinare** contribuisce a creare un ambiente di apprendimento stimolante e coinvolgente. La didattica **laboratoriale** risulta meno sviluppata, con un punteggio di 2.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Questo permette agli studenti di esplorare i propri interessi e di sviluppare le proprie passioni.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella forte attenzione all'inclusione, nella collaborazione con il territorio e nella diversificazione dell'offerta didattica. Le attività come **Progetti e laboratori per BES**, **PDP per alunni stranieri**, **Scuola in Ospedale** e **Mentoring strutturato** dimostrano un impegno concreto nel supportare gli studenti con bisogni educativi speciali e nel promuovere l'integrazione.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, alcuni obiettivi, come quello di contrastare il fenomeno NEET, sembrano meno prioritari rispetto ad altri. La didattica laboratoriale potrebbe essere ulteriormente sviluppata per offrire agli studenti opportunità di apprendimento pratico e esperienziale.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rendere più esplicita e strutturata l'offerta orientamentale, definendo indicatori specifici e misurabili per valutare l'efficacia delle azioni intraprese. È inoltre necessario rafforzare l'attenzione alla prevenzione della dispersione scolastica e al contrasto del fenomeno NEET.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.I.S. \"Podesti - Calzecchi Onesti\" presenta un approccio all'orientamento integrato e multidimensionale. Pur non disponendo di una sezione dedicata, l'istituto dimostra un impegno costante nel supportare gli studenti nel loro percorso formativo e nella transizione verso il mondo del lavoro. Per migliorare l'efficacia dell'azione orientamentale, si raccomanda di definire una strategia più strutturata e di monitorare attentamente i risultati ottenuti. Le attività come il **Festival scolastico**, l'**Educazione civica** e i **Progetti musicali** rappresentano un valido punto di partenza per costruire un futuro orientamento più efficace e mirato."
+}

@@ -1,0 +1,267 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GE1A00900E",
+    "denominazione": "San Pietro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Cesare Battisti 6",
+    "cap": "16145",
+    "email": "tsic80300d@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.comune.genova.it/i cittdini/scuola e",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Unità di valutazione multidisciplinare",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Patto di corresponsabilità",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Revisione e aggiornamento del patto",
+      "target": "Famiglie e scuola"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curriculare",
+      "descrizione_e_metodologia": "Insegnamento trasversale, 33 ore annuali, contitolarità docenti",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni che passano dalla scuola dell'infanzia/primaria alla secondaria"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": null,
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro online tra docenti degli anni ponte",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire conoscenza specificità segmenti scolastici, passaggio informazioni alunni BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Revisione e operativizzazione del Curricolo d’Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Lavoro sistematico dipartimenti verticali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni che passano alla primaria/secondaria",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GE1A00900E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **San Pietro** di Genova, con codice **GE1A00900E**, relativo all'anno **2019/20-2021/22**. L'istituto, di tipo **Infanzia**, e con status **Paritaria**, dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. L'impegno verso la costruzione di **progetto di vita** e la gestione delle **transizioni formative** sono particolarmente rilevanti, così come la volontà di ridurre l'**abbandono** scolastico e promuovere il **lifelong learning**. La scuola si colloca in un contesto **metropolitano** della regione **Liguria**, e si avvale di una rete di **partnership** diversificata e attiva.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, a testimonianza di un'attenzione strutturata a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni con diversi soggetti, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, **musei**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, l'**Unità di valutazione multidisciplinare**, **Altre scuole**, **Altre associazioni o cooperative**, le **Autonomie locali** e l'**ASL**. Questo network di **partnership** (ben 16) rappresenta una risorsa preziosa per ampliare l'offerta formativa e garantire un supporto completo agli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini**, **interessi** e, soprattutto, del **progetto di vita** degli studenti. L'attenzione alle **transizioni formative** è particolarmente forte, con un punteggio di 5, evidenziando l'impegno nel supportare gli alunni nei passaggi tra i diversi gradi di istruzione.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono** scolastico e al rafforzamento della continuità territoriale, entrambi con un punteggio di 4. L'obiettivo di contrastare il fenomeno dei **NEET** risulta meno prioritario, con un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF sono focalizzate sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul **rapporto scuola-genitori** e sull'implementazione di un **sistema integrato di inclusione e fragilità**, tutte con punteggi elevati. Il **monitoraggio delle azioni** è considerato importante, ma con un punteggio leggermente inferiore (3).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori** e sulla flessibilità degli spazi e dei tempi, con punteggi uniformi di 3 per ciascuna dimensione. L'approccio **interdisciplinare** completa il quadro.\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nell'attenzione alla costruzione del **progetto di vita** degli studenti e nella gestione delle **transizioni formative**. L'impegno verso l'inclusione e la collaborazione con le famiglie rappresenta un ulteriore elemento positivo. Le attività registrate, come **Attività di ampliamento curricolare** e il **Patto di corresponsabilità**, dimostrano un approccio proattivo e partecipativo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno dei **NEET**, che ottiene un punteggio inferiore rispetto agli altri obiettivi. Il **monitoraggio delle azioni** potrebbe essere potenziato per garantire una maggiore efficacia degli interventi.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra una solida base per l'orientamento, ma potrebbe beneficiare di un maggiore focus sulla prevenzione della dispersione scolastica e sull'inserimento nel mondo del lavoro, soprattutto in relazione al contesto territoriale. Un'analisi più approfondita delle competenze richieste dal mercato del lavoro locale potrebbe contribuire a definire obiettivi più specifici e mirati.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **San Pietro** di Genova presenta un approccio completo e strutturato all'orientamento, con una forte attenzione alla crescita personale e professionale degli studenti. La rete di **partnership** consolidata e l'impegno verso l'inclusione rappresentano elementi distintivi. Pur riconoscendo alcune aree di miglioramento, il PTOF si configura come uno strumento efficace per guidare l'istituto verso il raggiungimento dei propri obiettivi educativi. Le attività registrate, come il **Programma Continuità**, **Weissingioco** e l'**Insegnamento di Educazione Civica**, testimoniano l'impegno concreto della scuola nell'implementazione del PTOF."
+}

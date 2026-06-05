@@ -1,0 +1,245 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SSIC84500E",
+    "denominazione": "Istituto Comprensivo N.3Alghero",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Alghero",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Sassari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via M. Manca 1/B",
+    "cap": "07041",
+    "email": "ssic84500e@istruzione.it",
+    "pec": "ssic84500e@pec.istruzione.it",
+    "website": "www.istitutocomprensivo3alghero.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è integrato nelle attività curriculari, ma non è presente una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Archivio di Stato/ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per studenti e diplomati su nuove tecnologie.",
+      "target": "Studenti e diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'Avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo di workstation EXOCAD, scanner, stampante 3D.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Frequenza laboratori PCTO durante le vacanze estive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie.",
+      "target": "Studenti PCTO"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SSIC84500E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Comprensivo N.3 Alghero** (SSIC84500E) per il triennio 2023/24-2024/25-2025/26. L'istituto, di tipo **Professionale** e afferente all'**ordine di grado II Grado**, opera in un contesto territoriale **non metropolitano** nelle **Isole** della regione **Sardegna**. L'analisi si basa sui dati forniti, valutando l'integrazione dell'orientamento nelle attività scolastiche, le partnership instaurate, gli obiettivi prefissati e le azioni implementate. Il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi elevati nelle finalità e nelle azioni di sistema, sebbene manchi una sezione dedicata specificamente all'orientamento come capitolo a sé stante.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento è integrato nelle attività curriculari, ottenendo un punteggio di 3 su una scala non specificata. Tuttavia, l'assenza di una sezione dedicata con un capitolo specifico rappresenta una limitazione.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato**, **ISRAT**, e diverse **aziende accreditate** e **aziende di settore**, per un totale di 6 collaborazioni.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi massimi (5) per tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF mostrano una buona coerenza con le finalità. L'istituto punta a **ridurre l'abbandono** scolastico (punteggio 3), a favorire la **continuità territoriale** (punteggio 5), a **contrastare il fenomeno NEET** (punteggio 5) e a promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono considerate efficaci, con punteggi elevati per il **coordinamento dei servizi** (6) e il supporto agli studenti con **sistema integrato di inclusione e fragilità** (6). Buoni risultati anche per il **dialogo tra docenti e studenti** (4) e il **rapporto scuola-genitori** (4), mentre il **monitoraggio delle azioni** risulta meno strutturato (3).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con un buon punteggio per l'apprendimento **da esperienza degli studenti** (5) e per la didattica **laboratoriale** (5). La **flessibilità degli spazi e dei tempi** (3) e l'approccio **interdisciplinare** (4) presentano margini di miglioramento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi variabili. Le opzionali **culturali** (3) e **ludiche-ricreative** (2) ricevono valutazioni inferiori rispetto a quelle **laboratoriali-espressive** (4) e di **volontariato** (4), mentre le opzionali **sportive** (2) sembrano meno sviluppate.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella chiarezza delle finalità, nella solidità delle partnership con il territorio e nell'efficacia delle azioni di sistema, in particolare per quanto riguarda l'inclusione e il coordinamento dei servizi. L'istituto dimostra un forte impegno nell'offrire opportunità pratiche agli studenti, come i periodi di **PCTO** e le visite aziendali. L'attenzione alla didattica laboratoriale e all'apprendimento esperienziale rappresenta un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF, nonostante l'integrazione nelle attività curriculari, costituisce un'area di debolezza. Anche il monitoraggio delle azioni implementate e la flessibilità degli spazi e dei tempi didattici necessitano di un maggiore approfondimento. L'offerta di opzionali ludico-ricreative e sportive potrebbe essere ampliata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella formalizzazione dell'orientamento come area tematica autonoma all'interno del PTOF. Sebbene le attività e le partnership siano solide, la mancanza di una sezione dedicata potrebbe limitare la visibilità e la coerenza dell'azione orientativa. Un'analisi più approfondita del monitoraggio delle azioni e della flessibilità didattica potrebbe contribuire a ottimizzare l'efficacia delle iniziative.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo N.3 Alghero presenta un approccio proattivo all'orientamento, con un forte legame con il territorio e un'attenzione particolare all'inclusione. L'istituto si distingue per la qualità delle partnership e per l'offerta di attività pratiche come il **PCTO**, i laboratori e le visite aziendali. Per rafforzare ulteriormente l'azione orientativa, si raccomanda di valutare l'inserimento di una sezione dedicata all'orientamento all'interno del PTOF, di potenziare il monitoraggio delle azioni implementate e di ampliare l'offerta di attività opzionali. Le attività registrate, come la **digitalizzazione e archiviazione documentale** presso l'**Archivio di Stato/ISRAT**, la creazione di **audiolibri** per studenti con DSA, e i laboratori avanzati di **odontotecnica**, dimostrano un impegno concreto verso l'innovazione e l'inclusione."
+}

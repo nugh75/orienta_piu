@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCIC841003",
+    "denominazione": "Ic Corrado Alvaro-P. Megali",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Melito Di Porto Salvo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Filippo Turati N? 44",
+    "cap": "89063",
+    "email": "rcic841003@istruzione.it",
+    "pec": "rcic841003@pec.istruzione.it",
+    "website": "https//icalvaromelito.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, bensì attività sparse all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursione in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitale europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Seconda anno"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Terza anno"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Quarta anno"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Quinta anno"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCIC841003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic Corrado Alvaro-P. Megali** (RCIC841003) per il triennio 2019/20-2021/22. L'istituto, situato nel territorio metropolitano di **Melito Di Porto Salvo** in **Calabria**, è un liceo e istituto tecnico di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata, ma piuttosto un insieme di attività sparse all'interno del documento. Il PTOF dimostra una buona attenzione alle finalità dell'orientamento, agli obiettivi di riduzione dell'abbandono scolastico e al potenziamento delle capacità orientative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che non è presente una sezione dedicata specificamente all'orientamento nel PTOF, bensì attività sparse all'interno del documento. Questo aspetto potrebbe limitare la visibilità e la coerenza delle iniziative orientative.\n\n**2.2 Partnership:**\n\nL'istituto dimostra una buona capacità di collaborare con diversi partner esterni. Sono stati nominati **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per un totale di quattro partnership. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:**\n\nIl PTOF attribuisce un punteggio elevato (4) a tutte le finalità dell'orientamento considerate: sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative per cogliere le opportunità. Questo indica una chiara consapevolezza dell'importanza di un orientamento completo e multidimensionale.\n\n**2.4 Obiettivi:**\n\nGli obiettivi definiti nel PTOF sono mirati a ridurre l'abbandono scolastico, garantire la continuità territoriale, contrastare il fenomeno dei NEET e promuovere il lifelong learning. A ciascuno di questi obiettivi è stato attribuito un punteggio di 3, suggerendo un impegno concreto per affrontare le sfide del contesto socio-economico locale.\n\n**2.5 Azioni di Sistema:**\n\nIl PTOF prevede azioni di sistema efficaci, come il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. A ciascuna di queste azioni è stato assegnato un punteggio di 4, evidenziando un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su metodologie innovative, come l'apprendimento dall'esperienza degli studenti, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità. Il punteggio di 4 attribuito a queste metodologie conferma l'impegno dell'istituto verso un approccio didattico centrato sullo studente. La didattica laboratoriale, invece, riceve un punteggio di 2, suggerendo un'area di miglioramento.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di opzionali e attività facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. A ciascuna di queste opzioni è stato attribuito un punteggio di 4, dimostrando un'attenzione particolare all'ampliamento dell'offerta formativa e alla valorizzazione degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la chiara definizione delle finalità, l'impegno verso azioni di sistema efficaci, l'utilizzo di metodologie didattiche innovative e l'ampia offerta di opzionali e attività facoltative. La collaborazione con partner esterni, come la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, rappresenta un valore aggiunto per l'offerta formativa. Le attività registrate, come **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Primo soccorso** e **Orientamento post-liceo**, dimostrano un impegno concreto verso la crescita personale e professionale degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, la didattica laboratoriale potrebbe essere potenziata per offrire agli studenti maggiori opportunità di apprendimento pratico e sperimentale.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una struttura organizzativa dedicata all'orientamento. Sebbene le attività siano presenti e ben definite, la loro frammentazione potrebbe limitare l'efficacia complessiva dell'intervento. Un'ulteriore area di miglioramento riguarda la didattica laboratoriale, che potrebbe essere potenziata attraverso l'acquisizione di nuove attrezzature e la formazione dei docenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Ic Corrado Alvaro-P. Megali** dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. La creazione di una sezione dedicata all'orientamento e il potenziamento della didattica laboratoriale potrebbero contribuire a rafforzare l'efficacia delle iniziative intraprese e a garantire agli studenti un percorso formativo completo e coerente con le loro aspirazioni e potenzialità. Le attività di **PCTO**, come lo **Stage in Inghilterra** e il **Viaggio d'istruzione**, rappresentano un'opportunità preziosa per gli studenti di acquisire competenze trasversali e di orientarsi verso il mondo del lavoro."
+}

@@ -20,7 +20,10 @@ from data_utils import (
     render_footer,
     load_summary_data,
     get_index_column,
-    DIMENSIONS
+    DIMENSIONS,
+    TIPI_SCUOLA,
+    filter_by_type,
+    get_unique_types
 )
 from page_control import setup_page, is_admin_logged_in
 
@@ -43,21 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === CONSTANTS ===
-TIPI_SCUOLA = [
-    "Infanzia",
-    "Primaria",
-    "I Grado",
-    "Liceo",
-    "Tecnico",
-    "Professionale"
-]
-
-ORDINI_GRADO = [
-    "Infanzia",
-    "Primaria",
-    "Secondaria I Grado",
-    "Secondaria II Grado"
-]
+ORDINI_CANONICI = ["Infanzia", "Primaria", "I Grado", "II Grado"]
 
 GESTIONE_SCUOLA = [
     "Statale",
@@ -158,13 +147,13 @@ def filter_dataframe(df, aree_geo=None, regioni=None, province=None,
         mask &= df['provincia'].isin(province)
 
     if tipi_scuola and len(tipi_scuola) > 0:
-        pattern = '|'.join(tipi_scuola)
-        mask &= df['tipo_scuola'].str.contains(pattern, case=False, na=False)
+        df = filter_by_type(df, tipi_scuola, 'tipo_scuola')
+        mask = pd.Series(True, index=df.index)  # Reset mask as df is filtered
 
     if ordini_grado and len(ordini_grado) > 0:
-        pattern = '|'.join(ordini_grado)
         if 'ordine_grado' in df.columns:
-            mask &= df['ordine_grado'].str.contains(pattern, case=False, na=False)
+            df = filter_by_type(df, ordini_grado, 'ordine_grado')
+            mask = pd.Series(True, index=df.index) # Reset mask as df is filtered
 
     if gestione and len(gestione) > 0:
         mask &= df['statale_paritaria'].isin(gestione)
@@ -355,26 +344,34 @@ with col_f3:
 col_f4, col_f5, col_f6 = st.columns(3)
 
 with col_f4:
-    tipi_disponibili = sorted(set(
-        t.strip() for t in df['tipo_scuola'].dropna().str.split(',').explode()
-        if t.strip()
-    ))
+    # Escludiamo solo "II Grado" dai tipi, mantenendo gli altri richiesti
+    all_types = get_unique_types(df)
+    tipi_disponibili = [t for t in all_types if t != "II Grado"]
     sel_tipi = st.multiselect("🏫 Tipo Scuola", tipi_disponibili, key="filter_tipi")
 
 with col_f5:
-    sel_ordini = st.multiselect("📖 Ordine/Grado", ORDINI_GRADO, key="filter_ordini")
+    ordini_disponibili = sorted(set(
+        o.strip() for o in df['ordine_grado'].dropna().str.split(',').explode()
+        if o.strip()
+    ))
+    # Fallback su costanti se deserto
+    if not ordini_disponibili:
+        ordini_disponibili = ORDINI_CANONICI
+        
+    sel_ordini = st.multiselect("📖 Ordine/Grado", ordini_disponibili, key="filter_ordini")
 
 with col_f6:
     sel_gestione = st.multiselect("⚖️ Gestione", GESTIONE_SCUOLA, key="filter_gestione")
 
 # Terza riga: Range indice
-with st.expander("➕ Filtro Indice Completezza", expanded=False):
+with st.expander("➕ Filtro Indice IIPO", expanded=False):
+    st.caption("Indice di Informatività delle Pratiche di Orientamento (IIPO)")
     idx_vals = pd.to_numeric(df[INDEX_COL], errors='coerce').dropna()
     if len(idx_vals) > 0:
         min_idx = float(idx_vals.min())
         max_idx = float(idx_vals.max())
         sel_index_range = st.slider(
-            "Range Indice Completezza (1-7)",
+            "Range Indice IIPO (1-7)",
             min_value=1.0,
             max_value=7.0,
             value=(max(1.0, min_idx), min(7.0, max_idx)),
@@ -451,7 +448,7 @@ with kpi_cols[0]:
     st.metric("🏫 Scuole Selezionate", f"{n_scuole:,}")
 with kpi_cols[1]:
     delta_color = "normal" if diff_from_national >= 0 else "inverse"
-    st.metric("📈 Media Indice", f"{mean_index:.2f}/7", f"{diff_from_national:+.2f} vs naz.", delta_color=delta_color)
+    st.metric("📈 Media Indice IIPO", f"{mean_index:.2f}/7", f"{diff_from_national:+.2f} vs naz.", delta_color=delta_color)
 with kpi_cols[2]:
     st.metric("📌 Mediana", f"{median_index:.2f}/7")
 with kpi_cols[3]:
@@ -766,7 +763,7 @@ if is_admin_logged_in():
         
         # === TAB 2: IMPATTO SUI DATI ===
         with admin_tab2:
-            st.subheader("Confronto Indice Originale vs Pesato")
+            st.subheader("Confronto Indice IIPO Originale vs Pesato")
             
             # Calcola statistiche
             if 'ptof_idpo' in df.columns and 'weighted_index' in df.columns:
@@ -801,10 +798,10 @@ if is_admin_logged_in():
                     y='weighted_index',
                     hover_data=['denominazione', 'regione', 'tipo_scuola'],
                     labels={
-                        'ptof_idpo': 'Indice Originale',
-                        'weighted_index': 'Indice Pesato'
+                        'ptof_idpo': 'Indice IIPO Originale',
+                        'weighted_index': 'Indice IIPO Pesato'
                     },
-                    title="Confronto Indice Originale vs Pesato",
+                    title="Confronto Indice IIPO Originale vs Pesato",
                     color_discrete_sequence=['#3498db']
                 )
                 

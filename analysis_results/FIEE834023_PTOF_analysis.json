@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIEE834023",
+    "denominazione": "Rossella Casini",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Scandicci",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Delle Corbinaie12-1",
+    "cap": "50018",
+    "email": "fiic83400x@istruzione.it",
+    "pec": "ND",
+    "website": "www.icrossellacasini.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma solo attività sparse nel testo."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Formazione di Scuola/Rete",
+      "target": "docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione",
+      "target": "docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIEE834023\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Donatello Gabbrielli\" (ID FIEE834023) per il triennio 2019/20-2021/22. L'analisi evidenzia un approccio all'orientamento diffuso, integrato in diverse attività piuttosto che concentrato in una sezione specifica. Si riscontra un buon livello di attenzione alle finalità dell'orientamento, con particolare riguardo allo sviluppo di attitudini, interessi, progettazione del futuro e capacità di cogliere le opportunità. Le partnership con **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC** rappresentano un valore aggiunto per l'offerta formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non presenta una sezione specificamente dedicata all'orientamento, ma piuttosto un insieme di attività sparse nel testo.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione con il territorio, come evidenziato dalle partnership attive. Sono presenti collaborazioni con diversi soggetti, per un totale di 3 partner nominati.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate in modo completo, con punteggi elevati per lo sviluppo di attitudini, interessi, la progettazione del percorso di vita e la preparazione alle transizioni formative, nonché per il potenziamento delle capacità orientative e la comprensione delle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mirano a ridurre l'abbandono scolastico, a favorire la continuità con il territorio, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning, ottenendo un punteggio di 3 per ciascuna area.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni intraprese e un sistema integrato di inclusione e attenzione alle fragilità, tutte valutate positivamente.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, tutte valutate positivamente.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità dell'orientamento, nella varietà delle attività proposte, nella collaborazione con partner esterni e nell'attenzione all'inclusione e alla personalizzazione dei percorsi formativi. Le attività di **PCTO** come lo **Stage sportivo sulla neve**, lo **Stage di vela** e l'**Escursionismo alpino** offrono esperienze pratiche significative. L'organizzazione di attività come il **Ritiro di accoglienza** per gli studenti di prima e l'**Orientamento post-liceo** per gli studenti di quinta dimostrano un impegno costante nel supportare gli studenti in tutte le fasi del loro percorso scolastico.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene le attività siano presenti e ben distribuite, una sezione specifica potrebbe favorire una maggiore coerenza e visibilità dell'impegno della scuola in questo ambito. L'utilizzo di metodologie didattiche laboratoriali, pur presenti, potrebbe essere ulteriormente potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare meglio l'offerta orientativa, integrando le diverse attività in un quadro più coerente e definito. Un'ulteriore attenzione allo sviluppo di competenze trasversali e all'orientamento professionale, attraverso attività di **PCTO** mirate, potrebbe colmare le lacune esistenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Donatello Gabbrielli\" dimostra un impegno significativo verso l'orientamento, sebbene manchi una sua esplicita strutturazione. La varietà delle attività proposte, la collaborazione con partner esterni e l'attenzione alle finalità dell'orientamento rappresentano elementi positivi. Per migliorare ulteriormente l'offerta formativa, si suggerisce di definire una sezione dedicata all'orientamento nel PTOF, di potenziare l'utilizzo di metodologie didattiche laboratoriali e di rafforzare l'integrazione delle attività di orientamento nel curricolo scolastico. La formazione continua dei docenti, come evidenziato dalle attività di **Formazione didattica inclusiva**, **Formazione utilizzo strumenti multimediali** e **Formazione sicurezza**, rappresenta un elemento chiave per garantire la qualità dell'offerta formativa."
+}

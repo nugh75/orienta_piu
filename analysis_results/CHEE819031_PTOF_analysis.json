@@ -1,0 +1,274 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CHEE819031",
+    "denominazione": "I.C. Bucchianico",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Bucchianico",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Chieti",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via S.Chiara",
+    "cap": "66011",
+    "email": "chic81900r@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.istitutobucchianico.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Definizione di un sistema di orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti con enti locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Interventi educativi e didattici per inclusione e prevenzione difficoltà",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria, secondaria"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Espressione e comunicazione",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2, percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per scelta scolastica/professionale.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti integrati a livello di singola scuola",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti con associazioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con privato sociale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro on-line tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio informazioni alunni BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lavoro dipartimenti verticali",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Revisione curricolo d'istituto",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CHEE819031\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Bucchianico Capoluogo (codice scuola CHEE819031) con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo all'anno 2019/20-2021/22, evidenzia un impegno significativo verso la costruzione di un **sistema di orientamento** ben definito, come testimoniato dal punteggio di 3 attribuito alla presenza di una sezione dedicata. L'istituto dimostra una forte attenzione alla collaborazione con il territorio, stringendo **partnership** con un ampio ventaglio di soggetti, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **musei**, l'**Archivio di Stato**, diversi **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione **\"Giardino Felice\"**, la Cooperativa **(SIS Giotti)**, altre **scuole**, **autonomie locali** e l'**ASL**. L'istituto pone l'accento sullo sviluppo delle **attitudini**, degli **interessi** e, in particolare, del **progetto di vita** degli studenti, nonché sulla preparazione alle **transizioni formative**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento:** L'istituto ha dedicato una sezione specifica all'orientamento, ottenendo un punteggio di 3, il che indica un'attenzione strutturata a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** La rete di **partnership** è particolarmente ampia e diversificata, con ben 18 partner nominati, suggerendo un forte radicamento nel territorio e una volontà di integrare l'offerta formativa con le risorse locali.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini** e degli **interessi** degli studenti, la preparazione al **progetto di vita** e il supporto alle **transizioni formative**. L'istituto attribuisce particolare importanza alla capacità di orientarsi nelle **opportunità** offerte dal contesto socio-economico.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico, la promozione della continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e lo sviluppo del **lifelong learning**.\n\n**2.5 Azioni Sistema:** Le azioni previste per implementare il sistema di orientamento comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla flessibilità degli **spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali Facoltative:** L'offerta di **opzionali** comprende attività **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara definizione di un **sistema di orientamento**, nella vasta rete di **partnership** con il territorio, nella completezza delle **finalità** e nella diversificazione delle **azioni** previste. L'istituto dimostra una forte attenzione all'inclusione e alla personalizzazione dell'offerta formativa, come evidenziato dal punteggio elevato attribuito all'azione relativa al **sistema integrato di inclusione e fragilità**. Le attività registrate, come le **\"Attività di ampliamento curricolare\"** e la **\"Collaborazione con associazioni del territorio\"**, confermano l'impegno concreto dell'istituto nella realizzazione del PTOF.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la scarsa attenzione alla lotta contro il fenomeno dei **NEET** e allo sviluppo del **lifelong learning**, come evidenziato dai punteggi inferiori attribuiti agli obiettivi corrispondenti. Il **monitoraggio delle azioni** risulta essere un aspetto meno sviluppato, con un punteggio di 2. Anche la didattica **laboratoriale** e la flessibilità degli **spazi e dei tempi** potrebbero essere ulteriormente potenziate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a contrastare la dispersione scolastica e a promuovere l'inserimento nel mondo del lavoro. È necessario implementare strategie più efficaci per monitorare l'andamento delle attività e per valutare l'impatto delle azioni intraprese. L'istituto potrebbe inoltre investire maggiormente nello sviluppo di competenze digitali e nella promozione del **lifelong learning**.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Bucchianico Capoluogo rappresenta un documento solido e ben strutturato, che evidenzia un forte impegno verso la qualità dell'offerta formativa e l'orientamento degli studenti. La vasta rete di **partnership** e la diversificazione delle **attività** rappresentano un valore aggiunto significativo. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per il raggiungimento degli obiettivi prefissati e per la costruzione di un futuro migliore per gli studenti. Attività come il **\"Programma Benessere\"**, il **\"Programma Continuità\"** e **\"Orientamento In Uscita Classi Terze\"** dimostrano un approccio olistico all'educazione e all'orientamento."
+}

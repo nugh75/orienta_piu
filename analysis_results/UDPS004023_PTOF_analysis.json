@@ -1,0 +1,294 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDPS004023",
+    "denominazione": "Istituto Superiore \"E.Mattei\" Latisana",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Lignano Sabbiadoro",
+    "anno_ptof": "2022-2025",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mezzasacca N. 1",
+    "cap": "33054",
+    "email": "ND",
+    "pec": "ND",
+    "website": "www.isislatisana.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Ipsia",
+        "Liceo Marconi - Pesaro",
+        "Università di Camerino",
+        "Università di Ancona",
+        "Università di Roma",
+        "FISO",
+        "Club di Dibattito We Debate",
+        "Comune di San Benedetto del Tronto",
+        "Associazioni culturali",
+        "Associazione VisionAria",
+        "ASUR Marche AV n.5",
+        "LILT Ascoli Piceno",
+        "Enti e Aziende del territorio"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Eco-Schools",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Certificazione Eco-Schools, Bandiera Verde",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Insegnamento trasversale Educazione Civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Iniziative aggregative, esperti",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Inclusione scolastica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi di sostegno",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Progetti di Prevenzione - Educazione alla salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Orientamento in ingresso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di accoglienza",
+      "target": "Nuovi studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite università",
+      "target": "Studenti ultimo anno"
+    },
+    {
+      "titolo_attivita": "Scambi culturali Erasmus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studentesca",
+      "target": "Studenti selezionati"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività coerenti con le azioni PCTO",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sport e benessere",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione sport e benessere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orienteering",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività di Orienteering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Club dei lettori",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Progetto \"Officina Lesca\"",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di scrittura creativa",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Promozione culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello didattico",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Recupero e sostegno in orario extracurricolare",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Club dei Lettori",
+      "categoria_principale": "Attività Culturale",
+      "descrizione_e_metodologia": "Lettura condivisa e analisi psicologica dei testi",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Club di Dibattito",
+      "categoria_principale": "Attività Culturale",
+      "descrizione_e_metodologia": "Sviluppo competenze di dibattito",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Cinema e Teatro",
+      "categoria_principale": "Attività Culturale",
+      "descrizione_e_metodologia": "Visite a festival e laboratori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campagna Nastro Rosa",
+      "categoria_principale": "Salute e Benessere",
+      "descrizione_e_metodologia": "Interventi informativo-educativi su tumore alla mammella (autopalpazione, diagnosi precoce).",
+      "target": "Studentesse classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione Cyberbullismo",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Prevenzione e contrasto del cyberbullismo, cultura della legalità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in Ingresso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Illustrazione offerta formativa, valutazione talenti, comunicazione digitale.",
+      "target": "Futuri studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Orientamento in Uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Conoscenza di sé, offerte formative, sbocchi occupazionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte per gruppi di livello",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi a classi aperte, peer to peer, CLIL, Debate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Chimica, scienze, fisica, informatica, multimediali, innovativo, sportivo, mobile",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello didattico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto ai progetti, recupero, potenziamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esonero dei collaboratori",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Esonero dei collaboratori",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica innovativa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Didattica innovativa",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Innovazione didattica, digitalizzazione, inclusione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione ATA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione giuridico-amministrativa, sicurezza",
+      "target": "ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDPS004023\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Ad Indirizzo Sportivo** di Lignano Sabbiadoro (UDPS004023) per il triennio 2022-2025. L'istituto, di ordine II grado e situato in un contesto non metropolitano del Friuli-Venezia Giulia, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. La scuola si distingue per una rete di **partnership** consolidata e per un'attenzione particolare alle finalità orientative, che includono lo sviluppo di attitudini, interessi, progettazione del futuro e supporto alle transizioni formative. Sebbene siano presenti alcune aree di miglioramento, il PTOF evidenzia un approccio proattivo e strutturato all'orientamento, integrato nella didattica e nelle attività extracurriculari.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è un elemento positivo, con un punteggio di 7 che indica un'attenzione specifica a questa area.\n\n**2.2 Partnership:** Il liceo vanta un network di **partnership** ampio e diversificato, comprendendo istituzioni come **Ipsia**, **Liceo Marconi - Pesaro**, **Università di Camerino**, **Università di Ancona**, **Università di Roma**, **FISO**, **Club di Dibattito We Debate**, **Comune di San Benedetto del Tronto**, diverse **associazioni culturali**, **Associazione VisionAria**, **ASUR Marche AV n.5**, **LILT Ascoli Piceno**, e **Enti e Aziende del territorio**. Questo network, composto da 12 partner, offre opportunità di collaborazione e arricchimento per le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Tutti gli aspetti ricevono un punteggio di 5, ad eccezione delle capacità orientative che raggiungono un punteggio di 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono orientati alla riduzione dell'**abbandono** scolastico (punteggio 2), alla continuità territoriale (punteggio 4), al contrasto al fenomeno **NEET** (punteggio 3) e alla promozione del **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. Tutti questi aspetti ottengono un punteggio di 4, ad eccezione del sistema integrato di inclusione e fragilità che riceve un punteggio di 2.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Questi elementi ricevono punteggi compresi tra 3 e 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con punteggi compresi tra 3 e 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e la solida rete di **partnership** con università, enti locali e associazioni. L'istituto offre un'ampia gamma di attività, tra cui **Progetto Eco-Schools**, l'insegnamento trasversale di **Educazione Civica**, interventi di **inclusione scolastica**, progetti di **prevenzione** e **educazione alla salute**, e attività di **orientamento in ingresso** e **in uscita**. L'offerta formativa è arricchita da **scambi culturali Erasmus**, attività **PCTO**, iniziative sportive come **Orienteering** e **Sport e benessere**, e attività culturali come il **Club dei lettori**, il **Laboratorio di scrittura creativa**, il **Club di Dibattito** e visite a festival e teatri.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza riguarda gli obiettivi di riduzione dell'**abbandono** scolastico, che ottiene un punteggio basso (2). Anche il sistema integrato di inclusione e fragilità necessita di maggiore attenzione (punteggio 2). L'azione di contrasto al fenomeno **NEET** (punteggio 3) potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a prevenire l'**abbandono** scolastico e a garantire un'inclusione efficace degli studenti con fragilità. È necessario implementare strategie mirate per contrastare il fenomeno **NEET** e per promuovere un'offerta formativa più rispondente alle esigenze del territorio.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico Ad Indirizzo Sportivo** di Lignano Sabbiadoro dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'ampia gamma di attività. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per lo sviluppo di un sistema di orientamento efficace e integrato, in grado di supportare gli studenti nella loro crescita personale e professionale. L'attenzione alla **sostenibilità** (tramite il **Progetto Eco-Schools**), alla **cittadinanza** (con l'insegnamento dell'**Educazione Civica**) e alla **salute** (con i progetti di prevenzione) contribuisce a formare cittadini consapevoli e responsabili."
+}

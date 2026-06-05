@@ -1,0 +1,39 @@
+# Analisi del PTOF TOPC06000D
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo G.F. Porporato (TOPC06000D) per il triennio 2020-2023. La scuola, situata nel territorio metropolitano di Pinerolo (Torino, Piemonte), è un istituto statale di secondo grado. L'analisi si basa sui dati forniti, valutando diversi aspetti dell'azione orientativa, dagli obiettivi alle azioni concrete implementate. In generale, il PTOF mostra un'attenzione all'orientamento, con un punteggio medio di 3 su diverse dimensioni, suggerendo un approccio strutturato ma con margini di miglioramento.
+
+### 2. Analisi Dimensionale
+
+**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5 e beneficiando di una "Guida rapida PTOF".
+
+**2.2 Partnership:** L'istituto ha stabilito una partnership, sebbene l'elenco dei partner nominati sia vuoto. Il numero di partnership è pari a 1, con un punteggio di 3.
+
+**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** degli studenti, alla progettazione del **progetto di vita** e alla facilitazione delle **transizioni formative**. Si pone l'accento anche sullo sviluppo delle **capacità orientative** per affrontare le opportunità future. Tutte queste finalità ricevono un punteggio di 3.
+
+**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a garantire la continuità con il **territorio**, a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**. Anche in questo caso, ogni obiettivo ottiene un punteggio di 3.
+
+**2.5 Azioni di Sistema:** Il sistema di orientamento si basa sul coordinamento dei **servizi**, sul dialogo tra **docenti** e **studenti**, sul rapporto con i **genitori** e sul monitoraggio delle azioni intraprese. Un'attenzione particolare è rivolta all'integrazione tra **inclusione** e gestione delle **fragilità**. Ogni azione riceve un punteggio di 3.
+
+**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'utilizzo delle esperienze degli **studenti**, sulla flessibilità degli **spazi** e dei **tempi** e sull'approccio **interdisciplinare**. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato, con un punteggio di 1.
+
+**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, tutte con un punteggio di 3.
+
+### 3. Punti di Forza
+
+Il principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, ben strutturata e supportata da una guida operativa. L'attenzione alle finalità formative, agli obiettivi di riduzione dell'abbandono e di promozione del lifelong learning, e alle azioni di sistema, dimostra un approccio olistico all'orientamento. L'ampia offerta di opzionali e attività facoltative rappresenta un ulteriore elemento positivo.
+
+### 4. Aree di Debolezza
+
+L'area di debolezza principale risiede nella scarsa implementazione della didattica laboratoriale, che ottiene un punteggio di 1. Inoltre, la mancanza di specificazione dei partner nominati nelle partnership potrebbe limitare l'efficacia delle azioni orientative. I punteggi mediamente bassi (3) in diverse dimensioni suggeriscono che, pur essendo presenti le basi, è necessario un ulteriore sforzo per potenziare l'azione orientativa.
+
+### 5. Gap Analysis
+
+Il gap principale riguarda la necessità di potenziare la didattica laboratoriale, integrando maggiormente attività pratiche e esperienziali nel percorso orientativo. È inoltre importante definire con precisione i partner coinvolti nelle attività di orientamento, stabilendo accordi di collaborazione concreti. Infine, sarebbe auspicabile un monitoraggio più accurato delle azioni intraprese, al fine di valutarne l'efficacia e apportare eventuali correzioni.
+
+### 6. Conclusioni
+
+Il PTOF del Liceo G.F. Porporato presenta un'impostazione solida per quanto riguarda l'orientamento, con una sezione dedicata, finalità chiare, obiettivi definiti e azioni di sistema strutturate. Tuttavia, per raggiungere un livello di eccellenza, è necessario potenziare la didattica laboratoriale, definire i partner coinvolti e implementare un sistema di monitoraggio efficace. Un'attenzione costante a questi aspetti consentirà alla scuola di offrire un servizio di orientamento sempre più completo e adeguato alle esigenze degli studenti.

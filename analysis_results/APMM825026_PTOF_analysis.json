@@ -1,0 +1,199 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "APMM825026",
+    "denominazione": "Falerone Isc",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Montappone",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Fermo",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Viii Marzo",
+    "cap": "63020",
+    "email": "apic825004@istruzione.it",
+    "pec": "ND",
+    "website": "https//icsfalerone.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore"
+      ],
+      "partnership_count": 2
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 0
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 2
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursione in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze in enti esterni e simulazioni interne",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Iniziative",
+      "descrizione_e_metodologia": "Interventi per facilitare l'inserimento",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Sportello D'Ascolto",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto psicologico e tutoraggio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF APMM825026\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto I Grado \"Montappone \\\"Collodi\\\"\" (APMM825026) per il triennio 2019/20-2021/22. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni del sistema, la didattica orientativa e le attività opzionali. Il PTOF dimostra un impegno nell'orientamento, con una sezione dedicata ben definita e un'attenzione particolare alle attività pratiche e alle esperienze dirette per gli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che indica un'attenzione significativa a questo aspetto.\n\n**2.2 Partnership:** L'istituto collabora con **enti ed istituzioni** e **Enti operanti nel terzo settore**, per un totale di 2 partnership. Il punteggio di 3 suggerisce un livello di collaborazione discreto, ma con margini di miglioramento per ampliare la rete di contatti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con un punteggio di 4 per quest'ultimo. Anche le finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità ricevono un punteggio di 3.\n\n**2.4 Obiettivi:** L'obiettivo di **ridurre l'abbandono** scolastico e di garantire la **continuità territoriale** ricevono un punteggio di 2 e 3 rispettivamente. Manca un focus specifico sul contrasto al fenomeno **NEET** (punteggio 0), mentre l'obiettivo del **lifelong learning** è presente ma con un punteggio limitato (2).\n\n**2.5 Azioni del Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi** (punteggio 2), **dialogo tra docenti e studenti** (punteggio 4), e un buon rapporto con i **genitori** (punteggio 3). Il **monitoraggio delle azioni** è presente ma con un punteggio di 2, mentre l'integrazione con i sistemi di **inclusione e fragilità** risulta assente (punteggio 0).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 3), ma risulta meno sviluppata per quanto riguarda la **didattica laboratoriale** (punteggio 1) e la **flessibilità degli spazi e dei tempi** (punteggio 2). L'approccio **interdisciplinare** è presente, ma con un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** e **laboratoriali/espressive** (punteggio 2 per entrambe), mentre quelle **ludiche/ricreative** e di **volontariato** sono meno sviluppate (punteggio 1). Le attività **sportive** ricevono un punteggio più alto (3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'attenzione al dialogo tra docenti e studenti, e nell'offerta di attività pratiche come **stage sportivi** (vela, sci, escursionismo) e **stage in Inghilterra**. L'istituto offre anche servizi di supporto come lo **Sportello D'Ascolto** e il **Progetto Accoglienza**, dimostrando un'attenzione al benessere degli studenti. La formazione del personale docente, in particolare su temi di inclusione e utilizzo di strumenti multimediali, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano la mancanza di un focus specifico sul contrasto al fenomeno **NEET**, lo sviluppo limitato della didattica laboratoriale e della flessibilità degli spazi e dei tempi, e l'assenza di un sistema integrato per l'inclusione e la gestione delle fragilità. Il monitoraggio delle azioni orientative potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di integrare maggiormente l'orientamento con le politiche attive per il lavoro e la prevenzione della dispersione scolastica. È necessario ampliare l'offerta di attività laboratoriali e interdisciplinari, e sviluppare un sistema di monitoraggio efficace per valutare l'impatto delle azioni orientative. L'istituto dovrebbe inoltre rafforzare le partnership con il territorio per offrire agli studenti opportunità di stage e di orientamento al mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \"Montappone \\\"Collodi\\\"\" dimostra un impegno significativo nell'orientamento, con una sezione dedicata ben definita e un'offerta di attività pratiche e di supporto agli studenti. Tuttavia, è necessario colmare le lacune individuate, in particolare per quanto riguarda la prevenzione della dispersione scolastica, lo sviluppo di attività laboratoriali e l'integrazione con i servizi territoriali. Un'attenta revisione e un potenziamento delle azioni orientative consentiranno all'istituto di offrire agli studenti un percorso formativo completo e di successo."
+}

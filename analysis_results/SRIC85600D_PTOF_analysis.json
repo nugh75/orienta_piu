@@ -1,0 +1,306 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SRIC85600D",
+    "denominazione": "Ii I.C. \"G. Melodia\" Noto",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Noto",
+    "anno_ptof": "2022-2025",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giordano Bruno 22",
+    "cap": "96017",
+    "email": "sric85600d@istruzione.it",
+    "pec": "sric85600d@pec.istruzione.it",
+    "website": "www.melodianoto.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Consorzio Universitario (CUMO)",
+        "associazioni culturali",
+        "associazioni sportive",
+        "Comune",
+        "Legambiente",
+        "Rotary",
+        "Enti Locali",
+        "Istituzioni",
+        "Forze dell’ordine",
+        "Associazioni cittadine",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Università di Catania",
+        "Università di Messina",
+        "Università di Enna",
+        "ASL"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto \"Nuoto anch'io\"",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività di nuoto per gli studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Madrelingua Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Insegnamento madrelingua inglese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Condivisione di materiali e documentazione di buone pratiche didattiche",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Scambio di esperienze, condivisione di lavori, riflessione sulle pratiche didattiche.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Ottimizzare i criteri di formazione delle classi",
+      "categoria_principale": "Organizzazione Scolastica",
+      "descrizione_e_metodologia": "Approvazione criteri, griglie di classificazione, commissione per formazione classi eterogenee.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi individuali di rafforzamento",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Mentoring, sostegno competenze, coaching motivazionale",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi per il potenziamento",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Piccoli gruppi, attenzione e impegno",
+      "target": "Alunni con fragilità motivazionali"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento delle famiglie",
+      "categoria_principale": "Genitorialità",
+      "descrizione_e_metodologia": "Interventi sui genitori",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Percorsi formativi laboratoriali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Gruppi di almeno 9 studenti, orario extracurriculare",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto Tutela Ambientale",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Piantumazione alberi, percorso ludico-pratico",
+      "target": "Alunni Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetti di Legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Confronto con figure storiche, condivisione regolamento",
+      "target": "Alunni Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "MELODIA CON LE STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo strumenti digitali, laboratori",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo (Classe I)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Carta d'identità, visite, progetti coding",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo (Classe II)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Orto urbano, laboratori artigiani",
+      "target": "Classe II"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo (Classe III)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Riflessione cambiamenti, scambi competenze",
+      "target": "Classe III"
+    },
+    {
+      "titolo_attivita": "Danzando Cantando",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Promuovere l'arte del movimento e della musica come strumenti di crescita personale e collettiva",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Pensa e crea con le STEM",
+      "categoria_principale": "Scienze e Tecnologia",
+      "descrizione_e_metodologia": "Progetto dedicato alle classi V di scuola Primaria e a tutte le classi di Secondaria",
+      "target": "Classi V Primaria, Classi Secondaria"
+    },
+    {
+      "titolo_attivita": "Il giardino inclusivo",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Realizzazione di un orto urbano didattico e area per la piantumazione di specie arboree",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Nuoto anch'io",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire cooperazione e integrazione alunni disabili",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Adotta uno spazio verde",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Partecipazione ad attività di condivisione",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione SICUREZZA E SALUTE Sui Luoghi Di Lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Addetto Antincendio, Primo soccorso, ASPP",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Autismo: metodologie e strategie didattiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Acquisizione conoscenze disturbi dello spettro autistico",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Formazione digitale - ICT",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Didattica e nuove tecnologie, Registro Elettronico",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Formazione METODOLOGIE E Strategie Per I BES",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Strategie d'intervento per inclusione e disabilità",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Formazione COMPETENZE Linguistiche In Lingua Inglese",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Abilità linguistico-comunicative per scuola primaria",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "La valutazione nel sistema scolastico",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Valutazione formativa e autovalutazione",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "DIDATTICA PER Competenze E Innovazione Metodologica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Strategie didattiche innovative e motivazione",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Formazione SICUREZZA E SALUTE SUI LUOGHI DI LAVORO",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Gestione emergenza e primo soccorso",
+      "target": "Personale amministrativo e collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Nuova Passweb nella Scuola",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Gestione verifica posizioni assicurative",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SRIC85600D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. “G. Melodia” Noto (SRIC85600D) per il triennio 2022-2025. L'istituto, comprensivo e situato in un territorio non metropolitano della Sicilia, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni valutate. L'attenzione è rivolta alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa e alla promozione del lifelong learning. La scuola si avvale di una vasta rete di **partnership** con università, enti locali, associazioni e imprese, per arricchire l'offerta formativa e facilitare le transizioni formative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, un elemento cruciale per la pianificazione strategica dell'istituto.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni, con ben 19 partner nominati, tra cui il **Consorzio Universitario (CUMO)**, diverse **associazioni culturali** e **sportive**, il **Comune**, **Legambiente**, il **Rotary**, **Enti Locali**, **Istituzioni**, **Forze dell’ordine**, **Associazioni cittadine**, **musei**, **istituti pubblici** e **privati**, **organizzazioni del terzo settore**, **imprese**, le **Università di Catania**, **Messina** ed **Enna**, e l'**ASL**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con un focus sulle attitudini, gli interessi e le capacità orientative degli studenti. L'attenzione al **progetto di vita** risulta leggermente inferiore rispetto agli altri aspetti, ma comunque presente. Si evidenzia l'importanza delle **transizioni formative** come momento chiave per l'orientamento.\n\n**2.4 Obiettivi:** L'istituto pone particolare enfasi sulla riduzione dell'**abbandono scolastico** e sulla continuità territoriale. Il contrasto al fenomeno **NEET** e la promozione del **lifelong learning** sono anch'essi obiettivi importanti, sebbene con un punteggio leggermente inferiore.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema sono ben strutturate, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori e all'implementazione di un sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni risulta un aspetto meno sviluppato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con proposte culturali, laboratoriali, ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle finalità e degli obiettivi, nella solidità delle azioni di sistema e nella varietà dell'offerta didattica e opzionale. L'impegno verso l'inclusione e la riduzione dell'abbandono scolastico rappresenta un elemento distintivo. Attività come **“Nuoto anch'io”** e **“MELODIA CON LE STEM”** dimostrano un approccio pratico e coinvolgente.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il monitoraggio delle azioni intraprese, che necessita di un maggiore approfondimento. L'attenzione al **progetto di vita** degli studenti potrebbe essere ulteriormente sviluppata.\n\n### 5. Gap Analysis\n\nIl divario tra gli obiettivi dichiarati e la loro effettiva implementazione potrebbe essere colmato attraverso un monitoraggio più sistematico delle azioni e una maggiore attenzione alla personalizzazione dei percorsi orientativi, tenendo conto delle specifiche esigenze e aspirazioni di ciascun studente.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. “G. Melodia” Noto presenta un approccio solido e ben strutturato all'orientamento. La scuola dimostra un forte impegno verso la crescita personale e professionale degli studenti, attraverso una vasta gamma di attività, una solida rete di **partnership** e un'attenzione particolare all'inclusione e alla riduzione della dispersione scolastica. Le attività di **formazione docenti** su temi come l'autismo, le competenze digitali e i BES, unitamente a progetti come **“Il giardino inclusivo”** e **“Adotta uno spazio verde”**, evidenziano un approccio olistico all'educazione. L'istituto è ben posizionato per raggiungere gli obiettivi prefissati e contribuire alla formazione di cittadini consapevoli e responsabili."
+}

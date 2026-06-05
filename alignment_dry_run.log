@@ -1,0 +1,109 @@
+============================================================
+🏫 Allineamento Metadati MIUR
+============================================================
+📂 Caricamento SCUANAGRAFESTAT20252620250901.csv...
+   ✅ 7860 scuole statali (record principali)
+   📋 IS risolti dai plessi: 1407, IS non risolti: 0
+📂 Caricamento SCUANAGRAFEPAR20252620250901.csv...
+   ✅ 11505 scuole paritarie
+
+📊 Totale scuole MIUR caricate: 19365
+
+🔍 DRY RUN - 📋 Allineamento analysis_summary.csv...
+   Scuole totali: 2095
+   Trovate in MIUR: 1030
+   Non in MIUR: 1065
+   Con modifiche: 398
+
+   Modifiche per campo:
+     denominazione: 237 modifiche
+     regione: 118 modifiche
+     tipo_scuola: 110 modifiche
+
+   Dettaglio (prime 30):
+   📌 APPS02000E (B. Rosetti)
+      denominazione: '"B. Rosetti"' → 'B. Rosetti'
+   📌 NAIS00700X (I.S.- Ipct Munthe Anacapri)
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Professionale'
+   📌 IM1A003003 (Fond.Dante Alighieri Per Istruzione-Alme)
+      denominazione: '"Fond.Dante Alighieri Per Istruzione-Almerini"' → 'Fond.Dante Alighieri Per Istruzione-Almerini'
+   📌 CBPM040008 (Liceo Statale "G. M.Galanti)
+      denominazione: 'Liceo Statale "G. M.Galanti"' → 'Liceo Statale "G. M.Galanti'
+   📌 APPSR5500N (Liceo Scientifico Opz. Scienze Applicate)
+      denominazione: 'Liceo Scientifico Opz. Scienze Applicate "Giovanni Paolo Ii"' → 'Liceo Scientifico Opz. Scienze Applicate "Giovanni Paolo Ii'
+   📌 BG1A22800R (Scuola Materna "San Nicolo)
+      denominazione: 'Scuola Materna "San Nicolo"' → 'Scuola Materna "San Nicolo'
+   📌 BAIS05300C (I.I.S.S. "Luigi Russo)
+      denominazione: 'I.I.S.S. "Luigi Russo"' → 'I.I.S.S. "Luigi Russo'
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Professionale'
+   📌 FI1A05800V (Preziosissimo Sangue)
+      denominazione: '"Preziosissimo Sangue"' → 'Preziosissimo Sangue'
+   📌 UDIC86100G (Lestizza-Talmassons-Mortegliano-Castions)
+      regione: 'Friuli-Venezia G.' → 'Friuli-Venezia Giulia'
+   📌 TEIS01100D (I.I.S. Crocetti V. Cerulli)
+      tipo_scuola: 'Istituto Superiore' → 'Tecnico, Professionale'
+   📌 RMIS09700A (Confalonieri-De Chirico)
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Tecnico, Professionale'
+   📌 TARF2M500U (Ist.Prof.Le Ind.Socio Sanitari "Plateja)
+      denominazione: 'Ist.Prof.Le Ind.Socio Sanitari "Plateja"' → 'Ist.Prof.Le Ind.Socio Sanitari "Plateja'
+   📌 GO1E002006 (Scuola Primaria Paritaria Waldorf Silvan)
+      regione: 'Friuli-Venezia G.' → 'Friuli-Venezia Giulia'
+   📌 FIIS00300C (Iis "A. Checchi)
+      denominazione: 'Iis "A. Checchi"' → 'Iis "A. Checchi'
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Tecnico, Professionale'
+   📌 VEIS00200G (G. Veronese - G. Marconi)
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Professionale'
+   📌 TPTD075004 (Istit.Tecnico - Settore Economico - Indi)
+      denominazione: 'Istit.Tecnico - Settore Economico - Indirizzo Afm"E.Montale"' → 'Istit.Tecnico - Settore Economico - Indirizzo Afm"E.Montale'
+   📌 MTIS01400C (I.I.S. "A. Turi - I. Morra" Matera)
+      tipo_scuola: 'Istituto Superiore' → 'Tecnico, Professionale'
+   📌 RETD09000V (Scaruffi Levi Tricolore)
+      regione: 'Emilia Romagna' → 'Emilia-Romagna'
+   📌 BL1E00200B (Scuola Primaria "Agosti)
+      denominazione: 'Scuola Primaria "Agosti"' → 'Scuola Primaria "Agosti'
+   📌 AQ1A04400E (Scuola Dell'Infanzia "Diventargrande)
+      denominazione: 'Scuola Dell'Infanzia "Diventargrande"' → 'Scuola Dell'Infanzia "Diventargrande'
+   📌 CLIS01800N (I.I.S. "Eschilo)
+      denominazione: 'I.I.S. "Eschilo"' → 'I.I.S. "Eschilo'
+      tipo_scuola: 'Istituto Superiore' → 'Liceo'
+   📌 ANIS02100A (Galileo Galilei)
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Tecnico'
+   📌 LEIS04700X (I.I.S.S. "Cezzi-De Castro-Moro)
+      denominazione: 'I.I.S.S. "Cezzi-De Castro-Moro"' → 'I.I.S.S. "Cezzi-De Castro-Moro'
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Tecnico'
+   📌 GETH020002 (I.T.T.L. "Nautico San Giorgio)
+      denominazione: 'I.T.T.L. "Nautico San Giorgio"' → 'I.T.T.L. "Nautico San Giorgio'
+   📌 MOIC84900D (2 I.C. Ravarino)
+      regione: 'Emilia Romagna' → 'Emilia-Romagna'
+   📌 BO1MUE500U (Scuola Secondaria Di 1 Grado "Alessandro)
+      denominazione: 'Scuola Secondaria Di 1 Grado "Alessandro Manzoni"' → 'Scuola Secondaria Di 1 Grado "Alessandro Manzoni'
+      regione: 'Emilia Romagna' → 'Emilia-Romagna'
+   📌 TS1A02600L (Scuola Infanzia Paritaria Istituto Sacro)
+      regione: 'Friuli-Venezia G.' → 'Friuli-Venezia Giulia'
+   📌 BO1M00800V (Istituto Maria Ausiliatrice)
+      regione: 'Emilia Romagna' → 'Emilia-Romagna'
+   📌 AQIC82500P (I.C. "San Giovanni Bosco)
+      denominazione: 'I.C. "San Giovanni Bosco"' → 'I.C. "San Giovanni Bosco'
+   📌 NAIS134005 (Iss "Manlio Rossi Doria)
+      denominazione: 'Iss "Manlio Rossi Doria"' → 'Iss "Manlio Rossi Doria'
+      tipo_scuola: 'Istituto Superiore' → 'Tecnico, Professionale'
+
+🔍 DRY RUN - 📋 Allineamento 2095 file JSON...
+   File totali: 2095
+   Trovati in MIUR: 1030
+   Non in MIUR: 1065
+   Aggiornati: 398
+
+   Modifiche per campo:
+     denominazione: 237
+     regione: 118
+     tipo_scuola: 110
+
+============================================================
+📊 RIEPILOGO
+============================================================
+   CSV: 398/2095 scuole aggiornate
+   JSON: 398/2095 file aggiornati
+
+   ⚠️  DRY RUN: nessuna modifica effettuata
+   Per applicare, eseguire senza --dry-run

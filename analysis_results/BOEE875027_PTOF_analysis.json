@@ -1,0 +1,183 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOEE875027",
+    "denominazione": "I.C. Centro",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Casalecchio Di Reno",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dello Sport 1",
+    "cap": "40033",
+    "email": "boic875004@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccentro.org/",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma l'argomento è affrontato all'interno di altri paragrafi."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Cooperative Marta, Nisida, La Quercia",
+        "enti locali",
+        "forze di polizia",
+        "biblioteca comprensoriale",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Scuole secondarie di secondo grado",
+        "Università"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti didattico-educativi con Cooperative",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Collaborazione con Cooperative Marta, Nisida, La Quercia per progetti specifici",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Supporto di associazioni sportive locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano L2",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Corsi e laboratori per studenti di cittadinanza o lingua non italiana.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Sistema di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Definizione di un sistema di orientamento per individuare interessi e attitudini.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali, mobilità studentesca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto La scuola in Valchiavenna",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Sviluppo competenze linguistiche e marketing",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo per l'Accoglienza Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Accoglienza e integrazione alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Attività di tutoraggio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di formatore",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOEE875027\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Centro Cas “G. Garibaldi” (BOEE875027) per il triennio 2022-2025. La scuola, di ordine e grado primario, situata nel territorio metropolitano di Casalecchio di Reno (Bologna), Emilia Romagna, è un istituto statale. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento, le partnership, gli obiettivi, le azioni messe in atto e le attività correlate. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, il tema è affrontato in maniera trasversale all'interno del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica che non è presente una sezione dedicata specificamente all'orientamento, tuttavia l'argomento viene trattato all'interno di altri paragrafi del PTOF.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di partnership con diversi soggetti esterni. Tra i partner nominati figurano **Cooperative Marta, Nisida, La Quercia**, **enti locali**, **forze di polizia**, la **biblioteca comprensoriale**, **servizi socio-sanitari**, **associazioni di settore**, **organizzazioni del terzo settore**, **imprese**, **Scuole secondarie di secondo grado** e l’**Università**. Il numero di partnership attive è stimato in 5.\n\n**2.3 Finalità:** Le finalità dell'orientamento, come delineate nel PTOF, sono ben definite. Si attribuisce un punteggio elevato alla finalità di supportare lo sviluppo delle **attitudini** e degli **interessi** degli studenti, nonché alla progettazione del loro **progetto di vita**. Buono il punteggio relativo alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi. Si punta a **ridurre l'abbandono** scolastico, a garantire la **continuità** tra i diversi ordini di scuola e a promuovere il **lifelong learning**. L'obiettivo di **contrastare il fenomeno NEET** risulta meno prioritario, con un punteggio inferiore.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono considerate efficaci. Particolarmente rilevante è il **coordinamento dei servizi** territoriali, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Viene inoltre sottolineata l'importanza di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci diversificati. Si attribuisce un punteggio medio all'utilizzo di metodologie basate sull'**esperienza degli studenti** e alla **flessibilità degli spazi e dei tempi**. L'approccio **interdisciplinare** risulta più consolidato. La didattica **laboratoriale** è meno presente.\n\n**2.7 Offerta di Attività Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **sportive** e di **volontariato**. Le attività **ludiche e ricreative** sono meno sviluppate.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella forte attenzione alle finalità di sviluppo personale degli studenti, nella creazione di un sistema di partnership consolidato con diversi soggetti del territorio e nell'implementazione di azioni di sistema efficaci. L'impegno nell'inclusione e nel supporto alle fragilità rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata specificamente all'orientamento e la scarsa attenzione alla didattica laboratoriale rappresentano le principali aree di debolezza. L'obiettivo di contrastare il fenomeno NEET potrebbe essere maggiormente enfatizzato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta formativa più mirata e specifica in materia di orientamento, con la creazione di una sezione dedicata all'interno del PTOF. È inoltre auspicabile un maggiore investimento nella didattica laboratoriale e nello sviluppo di attività volte a contrastare il fenomeno NEET.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Centro Cas “G. Garibaldi” dimostra un impegno significativo verso l'orientamento, sebbene questo sia affrontato in maniera trasversale. La scuola può rafforzare ulteriormente la sua offerta formativa strutturando un'offerta più specifica e mirata, con la creazione di una sezione dedicata all'orientamento e un maggiore investimento nella didattica laboratoriale. Le attività registrate, come i progetti con le **Cooperative**, i corsi di **italiano L2**, il progetto **Erasmus+** e il **Protocollo per l'Accoglienza Alunni Stranieri**, testimoniano l'impegno dell'istituto nell'offrire opportunità formative diversificate e inclusive."
+}

@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FRPSD0500E",
+    "denominazione": "Liceo Scientifico Leoniano",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Anagni",
+    "anno_ptof": "2022-2025",
+    "provincia": "Frosinone",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza Dante 5",
+    "cap": "03012",
+    "email": "leoniano@inwind.it",
+    "pec": "ceps02000t@pec.istruzione.it",
+    "website": "https://www.portaleargo.it/albopretoriopf3/frontend/atto.xhtml?codcli=ss16846&idatto=1626348&pag=1",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "associazioni di categoria",
+        "imprese locali",
+        "Scuola secondaria di primo grado \"G. Pascoli\"",
+        "I.C. \"A. De Curtis\"",
+        "I.C. \"D. Cimarosa\"",
+        "I.C. “Basile Don Milani” di Parete",
+        "Università",
+        "Imprese",
+        "Enti del terzo settore",
+        "Consorzio ELIS",
+        "Università della Campania Luigi Vanvitelli",
+        "Federico II",
+        "Suor Orsola Benincasa",
+        "Parthenope",
+        "LUISS",
+        "Alma Mater Studiorum",
+        "Scuola Normale Superiore",
+        "Camera di Commercio",
+        "Banca D’Italia",
+        "Unicredit",
+        "Confcommercio",
+        "Carabinieri",
+        "Guardia di Finanza",
+        "Esercito",
+        "Aeronautica",
+        "Marina militare"
+      ],
+      "partnership_count": 26
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni e accordi con imprese locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione rubriche valutative condivise, test d’ingresso, percorsi di orientamento",
+      "target": "Docenti, studenti, genitori"
+    },
+    {
+      "titolo_attivita": "PCTO Ingegneria e Architettura",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage in aziende del settore",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO Scienze della Vita",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Laboratori e visite guidate",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO Giuridico-Economico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Simulazioni e incontri con professionisti",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Summer job",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienza di lavoro/studio/volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Learning week",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "40h annuali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Appuntamenti con il medico",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontro seminariale su anatomia, fisiologia e biomeccanica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi disciplinari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni per applicare competenze e confrontarsi con altri istituti.",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Peer to peer education",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Mentoring tra studenti per supporto e recupero competenze.",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti specifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FRPSD0500E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Leoniano** (FRPSD0500E) per il triennio 2022-2025. La scuola, paritaria, situata ad **Anagni** in provincia di **Frosinone** e regione **Lazio**, dimostra un'attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata, sebbene con un punteggio di valutazione pari a 7. L'istituto si impegna a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità orientative necessarie per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, valutata con un punteggio di 7, indicando un impegno formale in questa area.\n\n**2.2 Partnership:** Il **Liceo Scientifico Leoniano** vanta un'ampia rete di partnership, comprendendo **associazioni di categoria**, **imprese locali**, diversi istituti scolastici di primo grado (**Scuola secondaria di primo grado “G. Pascoli”**, **I.C. “A. De Curtis”**, **I.C. “D. Cimarosa”**, **I.C. “Basile Don Milani” di Parete**), diverse **Università** (**Università della Campania Luigi Vanvitelli**, **Federico II**, **Suor Orsola Benincasa**, **Parthenope**, **LUISS**, **Alma Mater Studiorum**, **Scuola Normale Superiore**), **Enti del terzo settore**, il **Consorzio ELIS**, e importanti istituzioni come **Camera di Commercio**, **Banca D’Italia**, **Unicredit**, **Confcommercio**, e rappresentanze delle forze armate (**Carabinieri**, **Guardia di Finanza**, **Esercito**, **Aeronautica**, **Marina militare**). Il numero di partner attivi è considerevole, pari a 26.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con un punteggio di 6 per ciascuna delle aree considerate: sviluppo delle attitudini, degli interessi, del progetto di vita, facilitazione delle transizioni formative e sviluppo delle capacità orientative per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning, ottenendo un punteggio di 5 per ciascuna di queste direttrici.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità, tutte valutate con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, con un punteggio di 6, ma presenta alcune lacune nella didattica laboratoriale (punteggio di 3). La flessibilità degli spazi e dei tempi, così come l'approccio interdisciplinare, sono considerati punti di forza, con un punteggio di 6 per entrambi.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende attività culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte valutate con un punteggio di 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate dal **Liceo Scientifico Leoniano**, che offre agli studenti numerose opportunità di contatto con il mondo del lavoro e del sapere. L'impegno a sviluppare le finalità dell'orientamento e a perseguire obiettivi mirati, come la riduzione dell'abbandono scolastico e il contrasto al fenomeno dei NEET, rappresenta un altro elemento positivo. L'attività di **PCTO** è ben strutturata e diversificata, con progetti specifici per diversi indirizzi.\n\n### 4. Aree di Debolezza\n\nL'area più debole del PTOF sembra essere la didattica laboratoriale, che ottiene un punteggio di 3. Questo suggerisce la necessità di potenziare le attività pratiche e sperimentali, al fine di rendere l'apprendimento più coinvolgente e significativo per gli studenti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di colmare la lacuna nella didattica laboratoriale, implementando attività pratiche che integrino e rafforzino le conoscenze teoriche acquisite. Un'ulteriore area di miglioramento potrebbe riguardare la sezione dedicata all'orientamento, che, pur essendo presente, necessita di un approfondimento e di una maggiore integrazione con le altre dimensioni del PTOF.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Scientifico Leoniano** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di partnership e da obiettivi ben definiti. Tuttavia, è necessario potenziare la didattica laboratoriale e approfondire la sezione dedicata all'orientamento, al fine di garantire un'offerta formativa completa ed efficace per tutti gli studenti. Attività come il **Curricolo verticale**, la **Learning week**, gli **Appuntamenti con il medico**, le **Olimpiadi disciplinari**, il **Peer to peer education**, l'**Educazione Civica** e il **Summer job** contribuiscono a creare un ambiente scolastico stimolante e orientato al futuro."
+}

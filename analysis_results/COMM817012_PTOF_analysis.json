@@ -1,0 +1,370 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "COMM817012",
+    "denominazione": "I.C. Tavernerio",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Tavernerio",
+    "anno_ptof": "2022-2025",
+    "provincia": "Como",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Risorgimento N. 22",
+    "cap": "22038",
+    "email": "coic817001@istruzione.it",
+    "pec": "coic817001@pec.istruzione.it",
+    "website": "www.ictavernerio.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Associazioni sportive",
+        "Associazioni culturali",
+        "Enti locali",
+        "Rete di scuole dell'Erbese",
+        "Rete delle Scuole che promuovono la Salute",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "ATS",
+        "REGIONE LOMBARDIA",
+        "ALI",
+        "SIL",
+        "AIB",
+        "Centro Neuropsichiatrico di Villa Santa Maria",
+        "Polizia Urbana",
+        "Agenzia del territorio",
+        "Corecom Lombardia",
+        "Istituto Residenziale V. S. M.",
+        "Liceo Carlo Porta di Erba",
+        "Università Cattolica del Sacro Cuore di Milano/Università Bicocca",
+        "istituzioni scolastiche",
+        "Agenzie territoriali",
+        "ASL"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti educativi con associazioni locali",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazioni con associazioni sportive, culturali e ambientali per attività didattiche.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a reti scolastiche",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Adesione a reti di scuole per scambio di buone pratiche e progetti comuni.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Aggiornamento curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Revisione e aggiornamento del curricolo d'istituto",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Analisi prove standardizzate",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Formalizzazione e implementazione sistema di analisi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio competenze trasversali",
+      "categoria_principale": "Competenze",
+      "descrizione_e_metodologia": "Rilevazione sistematica e monitoraggio",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Potenziamento didattica laboratoriale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CERTIFICAZIONE CAMBRIDGE",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Corsi pomeridiani per certificazioni Cambridge Starters, KET e PET.",
+      "target": "Alunni Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "LABORATORIO SPAGNOLO",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Laboratori pomeridiani di spagnolo.",
+      "target": "Alunni Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "LIFE SKILLS TRAINING SCUOLA SECONDARIA",
+      "categoria_principale": "Benessere & Inclusione Sociale",
+      "descrizione_e_metodologia": "Riflessione guidata su competenze trasversali tramite unità didattiche.",
+      "target": "Alunni Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "LIFE SKILLS TRAINING SCUOLA PRIMARIA",
+      "categoria_principale": "Benessere & Inclusione Sociale",
+      "descrizione_e_metodologia": "Percorso Life Skills Training per classi terze elementari.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Benessere Classi IV e V Primaria",
+      "categoria_principale": "Benessere & Inclusione Sociale",
+      "descrizione_e_metodologia": "Cammino di conoscenza per consapevolezza di sé.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Gruppo Sportivo",
+      "categoria_principale": "Attività Sportive",
+      "descrizione_e_metodologia": "Attività interne, tornei e partecipazione a giochi sportivi studenteschi.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Accorciamo Le Distanze",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accompagnamento alunni diversamente abili del Centro Neuropsichiatrico.",
+      "target": "Alunni con disabilità e studenti normodotati"
+    },
+    {
+      "titolo_attivita": "Istruzione Domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Intervento a domicilio per studenti con gravi patologie.",
+      "target": "Alunni impossibilitati a frequentare la scuola"
+    },
+    {
+      "titolo_attivita": "CONSIGLIO COMUNALE DEI RAGAZZI E DELLE RAGAZZE",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Struttura per interessi dei giovani, formulazione proposte.",
+      "target": "Alunni Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Continuità/Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di continuità tra ordini di scuola e orientamento alla secondaria II grado.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Verticale Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Progetto sociale per avvicinare i giovani alla lettura.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Scacchi",
+      "categoria_principale": "Attività Didattiche",
+      "descrizione_e_metodologia": "Introduzione degli scacchi come strumento educativo.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PIANO SCUOLE",
+      "categoria_principale": "Infrastrutture Digitali",
+      "descrizione_e_metodologia": "Collegamento fibra ottica 1 GBPS",
+      "target": "Studenti, Personale Scolastico"
+    },
+    {
+      "titolo_attivita": "B.Y.O.D.",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "BYOD con patto di responsabilità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "REGISTRO ELETTRONICO",
+      "categoria_principale": "Amministrazione Digitale",
+      "descrizione_e_metodologia": "Formazione registro elettronico",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "GCLASSROOM",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Piattaforma Google Workspace",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "SCUOLA DIGITALE Axios",
+      "categoria_principale": "Amministrazione Digitale",
+      "descrizione_e_metodologia": "Software segreteria scolastica",
+      "target": "Personale Scolastico"
+    },
+    {
+      "titolo_attivita": "Laboratori STEM",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Potenziamento laboratori scienze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CLASS VR",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Realtà virtuale in classe",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "MyEDU",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Piattaforma risorse formative",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CODING e ROBOTICA",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Robotica e coding",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consigli Comunali dei Ragazzi e delle Ragazze",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Coinvolgimento studenti nella gestione del comune",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Percorsi educativi con Polizia Locale",
+      "target": "Alunni scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Visite a fattorie didattiche",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Esplorazione del territorio",
+      "target": "Alunni scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Accorciamo 1 e 2",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Collaborazione tra plessi",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti ponte",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Inserimento alunni con affiancamento docenti",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Formazione Life Skill Training",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorsi di formazione per scuola primaria e secondaria",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi base e aggiornamento su sicurezza, primo soccorso, antincendio",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Contatti con le famiglie degli alunni delle classi seconde per prime attività di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con le famiglie",
+      "target": "Alunni classi seconde e famiglie"
+    },
+    {
+      "titolo_attivita": "Monitoraggio esiti primo anno scuola superiore con riferimento al consiglio orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Monitoraggio dati",
+      "target": "Alunni primo anno scuola superiore"
+    },
+    {
+      "titolo_attivita": "Progetti didattico-educativi a prevalente tematica inclusiva",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività individualizzate e di piccolo gruppo",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Progetti integrati a livello di singola scuola",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Rapporti con privato sociale e volontariato",
+      "target": "Tutta la comunità scolastica"
+    }
+  ],
+  "narrative": "# Analisi del PTOF COMM817012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola S.M.S. \"Don Milani\" di Tavernerio, codice COMM817012, per il triennio 2022-2025. L'istituto, di I grado, situato in Lombardia, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni valutate. L'attenzione si concentra sullo sviluppo di attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità. La scuola si impegna a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno NEET e a promuovere il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo il punteggio massimo di 5, a testimonianza di un'attenzione prioritaria a questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di **partnership** con diversi soggetti, tra cui **associazioni sportive**, **associazioni culturali**, **enti locali**, la **Rete di scuole dell'Erbese**, la **Rete delle Scuole che promuovono la Salute**, **ATS**, **REGIONE LOMBARDIA**, **ALI**, **SIL**, **AIB**, il **Centro Neuropsichiatrico di Villa Santa Maria**, la **Polizia Urbana**, l'**Agenzia del territorio**, la **Corecom Lombardia**, l'**Istituto Residenziale V. S. M.**, il **Liceo Carlo Porta di Erba**, l'**Università Cattolica del Sacro Cuore di Milano/Università Bicocca**, **istituzioni scolastiche**, **Agenzie territoriali** e **ASL**. Il numero di partner (22) indica un forte radicamento nel territorio e una volontà di collaborare per offrire agli studenti un'ampia gamma di opportunità.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, la capacità di progettare il proprio futuro e a facilitare le **transizioni formative**, fornendo agli studenti gli strumenti per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, il mantenimento della **continuità territoriale**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali**, **laboratoriali espressive** (con un punteggio elevato di 5), **ludiche ricreative**, di **volontariato**, e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** con il territorio, nella chiarezza delle finalità e degli obiettivi, nell'attenzione all'inclusione e nella varietà delle attività didattiche e opzionali offerte. L'impegno verso la didattica laboratoriale e l'utilizzo di metodologie innovative rappresentano un valore aggiunto. Attività come \"**Progetti educativi con associazioni locali**\", \"**Partecipazione a reti scolastiche**\" e \"**Accorciamo Le Distanze**\" dimostrano un approccio proattivo e collaborativo.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero essere ulteriormente rafforzate. Il monitoraggio delle azioni, pur presente, ottiene un punteggio leggermente inferiore rispetto ad altre dimensioni, suggerendo la necessità di implementare sistemi di valutazione più efficaci. Anche la prevenzione del fenomeno **NEET**, sebbene presente tra gli obiettivi, potrebbe beneficiare di azioni più mirate e specifiche.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi ambiziosi in azioni concrete e misurabili. Un monitoraggio più accurato delle attività e dei risultati ottenuti permetterebbe di valutare l'efficacia delle strategie implementate e di apportare eventuali correzioni in corso d'opera.\n\n### 6. Conclusioni\n\nIl PTOF della S.M.S. \"Don Milani\" di Tavernerio dimostra un forte impegno verso l'orientamento e la crescita degli studenti. La scuola si distingue per la sua capacità di creare una rete di **partnership** solida e per l'offerta di un'ampia gamma di attività didattiche e opzionali. Pur presentando alcune aree di miglioramento, il PTOF rappresenta un documento solido e ben strutturato, in grado di guidare l'istituto verso il raggiungimento degli obiettivi prefissati. L'implementazione di progetti come \"**PIANO SCUOLE**\", \"**B.Y.O.D.**\" e \"**Laboratori STEM**\" evidenzia un'attenzione all'innovazione e all'utilizzo delle nuove tecnologie a supporto dell'apprendimento."
+}

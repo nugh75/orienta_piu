@@ -1,0 +1,201 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GE1A076009",
+    "denominazione": "Villa Letizia",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2025-2028",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Buffa 2",
+    "cap": "16158",
+    "email": "elementari@karis.it",
+    "pec": "ND",
+    "website": "www.karis.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Fondazione Karis",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Doposcuola Pomerì",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Pranzo, compiti, attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Introduzione alla robotica e al coding.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Approfondimento storico, artistico e musicale del Natale.",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi Scolastici",
+      "descrizione_e_metodologia": "Celebrazione dei risultati scolastici con performance artistiche e musicali.",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Promozione della Scuola",
+      "descrizione_e_metodologia": "Giornate di apertura al pubblico per presentare l'offerta formativa.",
+      "target": "Futuri studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto educazione sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziamento comportamenti corretti sulla strada.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Attività extrascolastiche",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e di convivenza in Appennino.",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà Internazionale",
+      "descrizione_e_metodologia": "Sostegno a bambini e ragazzi tramite AVSI.",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta alimenti per famiglie bisognose.",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto promozione lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Stimolare l'interesse per la lettura.",
+      "target": "Alunni scuole primarie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GE1A076009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) relativo alla scuola dell'infanzia **Villa Letizia** (GE1A076009) per il periodo 2025-2028. L'istituto, paritario, situato nel territorio metropolitano di Genova, Liguria, dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. L'analisi si basa sui dati forniti, valutando le diverse dimensioni dell'orientamento e identificando punti di forza, debolezze e gap da colmare.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a zero.\n\n**2.2 Partnership:** La scuola vanta un buon livello di collaborazione con diversi partner esterni, ottenendo un punteggio di 2. Tra questi, spiccano **Karis Foundation**, **Fondazione Karis**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Queste partnership rappresentano un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi elevati per lo sviluppo di attitudini, interessi e del progetto di vita degli studenti (punteggio 3 per ciascuna area). Anche la capacità di orientare verso opportunità future risulta solida (punteggio 3), mentre le finalità legate alle transizioni formative presentano un punteggio leggermente inferiore (2).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientamento sono diversificati. L'obiettivo di ridurre l'abbandono scolastico e quello di contrastare il fenomeno NEET ricevono un punteggio di 1, suggerendo un'area di potenziale sviluppo. Più solide sono le finalità legate alla continuità territoriale (punteggio 3) e al lifelong learning (punteggio 2).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con punteggi di 3 per il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni, invece, ottiene un punteggio di 2, indicando la necessità di rafforzare questo aspetto.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi e coinvolgenti, con un punteggio di 4 per l'apprendimento basato sull'esperienza degli studenti. Anche la didattica laboratoriale e interdisciplinare ottengono un buon punteggio (3), mentre la flessibilità degli spazi e dei tempi risulta meno sviluppata (punteggio 2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è variegata, con punteggi di 3 per i laboratori espressivi. Le opzionali culturali, ludiche, di volontariato e sportive ottengono un punteggio di 2, suggerendo un margine di miglioramento per ampliare l'offerta.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono rappresentati dalle solide finalità dell'orientamento, dalle efficaci azioni di sistema e dall'approccio didattico innovativo, basato sull'esperienza e sulla laboratorialità. Le partnership con **Karis Foundation**, **AVSI** e altre organizzazioni contribuiscono ad arricchire l'offerta formativa e a fornire opportunità concrete agli studenti. Le attività come **Doposcuola Pomerì**, **Progetto Clil**, **Laboratori esperienziali di matematica**, **Progetto di robotica e coding** e **Progetto educazione sicurezza stradale** dimostrano un impegno concreto verso l'innovazione e la qualità dell'offerta.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna significativa. Anche gli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno NEET necessitano di maggiore attenzione. Il monitoraggio delle azioni di orientamento e la flessibilità degli spazi e dei tempi didattici sono aree che richiedono un ulteriore sviluppo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduca in una sezione dedicata all'interno del PTOF. È necessario definire indicatori specifici per misurare l'efficacia delle azioni di orientamento e rafforzare il monitoraggio dei risultati. Inoltre, è importante ampliare l'offerta di attività opzionali e facoltative, in particolare quelle volte a prevenire l'abbandono scolastico e a favorire l'inserimento nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Villa Letizia** presenta un buon potenziale in ambito orientamento, grazie alle solide finalità, alle efficaci azioni di sistema e all'approccio didattico innovativo. Tuttavia, è necessario colmare le lacune individuate, in particolare l'assenza di una sezione dedicata all'orientamento e la necessità di rafforzare il monitoraggio delle azioni. Un impegno mirato in queste aree consentirà alla scuola di offrire un servizio di orientamento sempre più efficace e di supportare al meglio gli studenti nel loro percorso di crescita e di sviluppo. Attività come **Adozioni a distanza**, **Donacibo** e **Progetto promozione lettura** dimostrano un forte impegno sociale e contribuiscono alla formazione di cittadini consapevoli e responsabili."
+}

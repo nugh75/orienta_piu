@@ -1,0 +1,304 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIIC81300V",
+    "denominazione": "Amerigo Vespucci",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Firenze",
+    "anno_ptof": "2019-2021",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Sgambati 30",
+    "cap": "50127",
+    "email": "fiic81300v@istruzione.it",
+    "pec": "fiic81300v@pec.istruzione.it",
+    "website": "https//www.icamerigovespucci.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Pantagruel Cooperativa Sociale",
+        "Impresa Sociale Con I Bambini",
+        "Associazione Officine Psicologiche",
+        "Associazione Culturale Mnemosine",
+        "Sistema Bibliotecario Vibonese",
+        "Liceo Scientifico Berto Vibo Valentia",
+        "Liceo Statale Capialbi Vibo Valentia",
+        "Comune di Vibo Valentia",
+        "Indire",
+        "Scie- scuola e cultura italiana all’estero",
+        "Altre scuole"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio Musicale Creativo",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Laboratorio per stimolare la creatività attraverso la musica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Cucina Internazionale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Esplorazione di culture diverse attraverso la cucina.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Igiene Personale E Cura Della Persona",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Promozione di abitudini igieniche corrette.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Biblioteca Multietnica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e scoperta di culture diverse.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fantaviaggiando",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Viaggi immaginari per esplorare il mondo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizi Socio-Sanitari E Di Orientamento",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Supporto socio-sanitario e orientamento scolastico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "T.E.R.R.A",
+      "categoria_principale": "Contrasto alla povertà educativa",
+      "descrizione_e_metodologia": "Progetto di inclusione sociale tramite Comunità Educante e identità socio-culturale",
+      "target": "Studenti 11-17 anni a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Rete Otis - Progetto Oltreconfini",
+      "categoria_principale": "Educazione alla teatralità",
+      "descrizione_e_metodologia": "Laboratori teatrali e interscambio internazionale",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "SOS Sostenibilità: percorsi didattici di Educazione allo Sviluppo Sostenibile",
+      "categoria_principale": "Educazione alla Sostenibilità",
+      "descrizione_e_metodologia": "Percorsi curriculari verticali per lo sviluppo delle competenze sociali e civiche attraverso lo studio dei goal dell’Agenda 2030.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Attiva, Globale e Digitale",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Percorsi per sviluppare competenze di cittadinanza digitale, partecipazione attiva e pensiero critico.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Filosofando Con Harry Potter",
+      "categoria_principale": "Progetto Interdisciplinare",
+      "descrizione_e_metodologia": "Lettura filosofica del mondo di J.K. Rowling per sviluppare competenze critiche e pro-sociali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un Nuovo Orizzonte Oltre Il \"Covid\"",
+      "categoria_principale": "Didattica a Distanza",
+      "descrizione_e_metodologia": "Intervento per affrontare il rientro a scuola dopo la pandemia, gestendo vissuti ed emozioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "\"Tratta Bene L’Ambiente\"",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Sensibilizzazione al rispetto e alla protezione dell'ambiente.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "\"Children For Future\"",
+      "categoria_principale": "Agenda 2030",
+      "descrizione_e_metodologia": "Riflessione sui cambiamenti climatici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Vibo On Air",
+      "categoria_principale": "Media Literacy",
+      "descrizione_e_metodologia": "Creazione di una web radio scolastica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Leggere Contro Le Mafie",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Lettura e approfondimento di testi sulla lotta alle mafie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La Magia dell'Apprendimento",
+      "categoria_principale": "Progetto Innovazione",
+      "descrizione_e_metodologia": "Didattica attiva, debate, cooperative learning, flipped learning, Service Learning",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "La Magia dei Colori",
+      "categoria_principale": "Arte e Natura",
+      "descrizione_e_metodologia": "Gioco, esplorazione, ricerca, osservazione, attività laboratoriali",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Qui Pianeta Terra",
+      "categoria_principale": "Educazione alla Sostenibilità",
+      "descrizione_e_metodologia": "Percorso trasversale, diritti umani, beni comuni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Valutazione narrativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Raccontare e documentare il percorso di apprendimento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori inclusivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori per coinvolgere tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Favorire il passaggio tra i diversi ordini di scuola.",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Formulazione del PAI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sostenere l'alunno, dotandolo di competenze.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Visite alla scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Micro esperienze laboratoriali.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "La fiaba",
+      "categoria_principale": "Espressione e creatività",
+      "descrizione_e_metodologia": "Utilizzo della fiaba per esprimere emozioni e fantasia.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Piccoli Artisti Crescono",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Avvicinamento all'arte tramite sperimentazione di colori e tecniche.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Alla scoperta dei colori",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Esplorazione dei colori, mescolanze e tecniche pittoriche.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Progetto Tutti uguali, tutti diversi con la lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Realizzazione Punto Lettura scuola infanzia Portosalvo, incontri di lettura, laboratori",
+      "target": "Bambini scuola infanzia"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione, formazione di scuola/rete",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIIC81300V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo **Amerigo Vespucci** (FIIC81300V) per il triennio 2019-2021. L'istituto, situato nel territorio metropolitano di **Firenze**, offre un percorso formativo comprensivo che abbraccia i gradi della scuola dell'infanzia, primaria, secondaria di primo grado, oltre a percorsi professionali e tecnici. La valutazione evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben strutturata e un'ampia rete di **partnership** attivate. I punteggi ottenuti nelle diverse dimensioni analizzate indicano una solida base su cui costruire ulteriori sviluppi.\n\n### 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento nel PTOF è presente e ben definita, ottenendo un punteggio massimo di 5. L'istituto dimostra una forte attenzione alle **finalità** dell'orientamento, con punteggi elevati (5) per quanto riguarda lo sviluppo di attitudini, interessi, progettazione del **progetto di vita**, supporto alle **transizioni formative** e sviluppo delle capacità orientative per cogliere le opportunità. Gli **obiettivi** delineati sono ambiziosi, con particolare attenzione alla riduzione dell'**abbandono scolastico**, alla continuità territoriale e al **lifelong learning**. L'obiettivo di contrastare il fenomeno dei **NEET** risulta leggermente meno prioritario, con un punteggio di 3.\n\nLe **azioni** intraprese dal sistema scolastico sono generalmente efficaci, con un buon coordinamento dei servizi (punteggio 4), un dialogo aperto tra docenti e studenti (punteggio 5), un rapporto costruttivo con le famiglie (punteggio 5) e un sistema integrato per l'inclusione e la gestione delle fragilità (punteggio 5). Il monitoraggio delle azioni, pur presente, potrebbe essere ulteriormente potenziato (punteggio 4).\n\nLa **didattica orientativa** si basa su approcci innovativi, come l'apprendimento dall'esperienza degli studenti (punteggio 5), la flessibilità degli spazi e dei tempi (punteggio 5) e l'interdisciplinarità (punteggio 5). L'utilizzo della didattica laboratoriale, sebbene presente, potrebbe essere ampliato (punteggio 3). L'offerta di **attività opzionali e facoltative** è ampia e diversificata, spaziando da attività culturali e artistiche a iniziative sportive e di volontariato, tutte con punteggio 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella presenza di una sezione dedicata, nella solida rete di **partnership** con enti e istituzioni quali **Pantagruel Cooperativa Sociale**, **Impresa Sociale Con I Bambini**, **Associazione Officine Psicologiche**, **Associazione Culturale Mnemosine**, **Sistema Bibliotecario Vibonese**, **Liceo Scientifico Berto Vibo Valentia**, **Liceo Statale Capialbi Vibo Valentia**, **Comune di Vibo Valentia**, **Indire**, **Scie** e altre scuole. L'istituto dimostra un forte impegno verso lo sviluppo delle competenze orientative degli studenti, con un'attenzione particolare alla prevenzione dell'abbandono scolastico e alla promozione del lifelong learning. L'ampia gamma di **attività** proposte, tra cui **Laboratorio Musicale Creativo**, **Laboratorio Di Cucina Internazionale**, **Laboratorio Igiene Personale E Cura Della Persona**, **Laboratorio Biblioteca Multietnica**, **Fantaviaggiando**, **Servizi Socio-Sanitari E Di Orientamento**, **T.E.R.R.A**, **Rete Otis - Progetto Oltreconfini**, **SOS Sostenibilità**, **Cittadinanza Attiva, Globale e Digitale**, **Filosofando Con Harry Potter**, **Un Nuovo Orizzonte Oltre Il \\\"Covid\\\"\", “Tratta Bene L’Ambiente”**, **“Children For Future”**, **Vibo On Air**, **Leggere Contro Le Mafie**, **La Magia dell'Apprendimento**, **La Magia dei Colori**, **Qui Pianeta Terra**, **Valutazione narrativa**, **Laboratori inclusivi**, **Progetti di continuità**, **Formulazione del PAI**, **Visite alla scuola superiore**, **La fiaba**, **Piccoli Artisti Crescono**, **Alla scoperta dei colori**, **Progetto Tutti uguali, tutti diversi con la lettura** e **Formazione docenti**, testimonia un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree del PTOF potrebbero essere ulteriormente potenziate. In particolare, l'obiettivo di contrastare il fenomeno dei **NEET** appare meno prioritario rispetto agli altri obiettivi delineati. L'utilizzo della didattica laboratoriale, sebbene presente, potrebbe essere ampliato per favorire un apprendimento più attivo e coinvolgente. Il monitoraggio delle azioni intraprese potrebbe essere reso più sistematico ed efficace.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre gli obiettivi ambiziosi in azioni concrete e misurabili. Sebbene il PTOF delinei una visione chiara dell'orientamento, è fondamentale definire indicatori specifici per valutare l'efficacia delle azioni intraprese e monitorare i progressi compiuti. Inoltre, è importante rafforzare la collaborazione tra i diversi attori coinvolti nel processo di orientamento, al fine di garantire un approccio integrato e coerente.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo **Amerigo Vespucci** presenta un'impostazione solida e ben strutturata per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'ampia gamma di **attività** proposte testimoniano un impegno significativo verso lo sviluppo delle competenze orientative degli studenti. Pur riconoscendo alcune aree di debolezza, il PTOF rappresenta un valido punto di partenza per costruire un futuro scolastico più inclusivo, equo e orientato al successo."
+}

@@ -1,0 +1,373 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TEAA82301C",
+    "denominazione": "I.C. Campli-Civitella Tronto",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Campli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Teramo",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Carrese",
+    "cap": "64012",
+    "email": "teic82300g@istruzione.it",
+    "pec": "pvps05000q@pec.istruzione.it",
+    "website": "www.iccampli.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università degli Studi di Pavia",
+        "Ospedali",
+        "Ordine dei Medici",
+        "OPI Pavia",
+        "Strutture ospedaliere cittadine",
+        "Banca Intesasanpaolo",
+        "Provincia pavese",
+        "Gran Sasso Science Institute",
+        "Istituto Nazionale di Fisica Nucleare",
+        "Fondazione I.R.C.C.S. Policlinico San Matteo",
+        "FAI",
+        "Altre scuole",
+        "Altre associazioni",
+        "Google suite"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Power (ora aggiuntiva Fisica)",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ora aggiuntiva di Fisica in tutte le classi del primo biennio",
+      "target": "Studenti primo biennio"
+    },
+    {
+      "titolo_attivita": "Percorso Biomedicale Ippocrate",
+      "categoria_principale": "Percorsi",
+      "descrizione_e_metodologia": "Potenziamento Scienze Naturali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Percorsi",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a cliniche, laboratori, servizi ai pazienti, studi specialistici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite documentative guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso strutture sanitarie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni di medici specialisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezioni tenute da medici specialisti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Z-lab Banca Intesasanpaolo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alfabetizzazione economica e finanziaria, sviluppo soft skill.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un'esperienza alla Provincia pavese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Redazione quotidiano locale, lavoro di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Starbook",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Gestione libreria, lavoro di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Lettura critica libro divulgazione scientifica, recensione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Percorsi",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "FAI: apprendisti ciceroni",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate a beni architettonici pavesi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di fisica articolate in più fasi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "giochi di Anacleto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Esperienza pratica di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi dell'Italiano",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di lingua italiana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di matematica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi delle Scienze Naturali",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di Scienze Naturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto volley Copernico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di pallavolo tra le classi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scienze Under 18",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Manifestazione con exhibit scientifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "History Walks",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate in inglese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Unitest",
+      "categoria_principale": "Preparazione Universitaria",
+      "descrizione_e_metodologia": "Attività di preparazione ai test d'ammissione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura e recensione di opere scientifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano Lauree Scientifiche",
+      "categoria_principale": "Collaborazione Universitaria",
+      "descrizione_e_metodologia": "Attività laboratoriali e seminari con l'Università di Pavia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scaccopernico",
+      "categoria_principale": "Giochi",
+      "descrizione_e_metodologia": "Insegnamento degli scacchi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Copeteatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Laboratorio teatrale e partecipazione a spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Radio Cope",
+      "categoria_principale": "Media",
+      "descrizione_e_metodologia": "Gestione di una radio scolastica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Show and tell",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Visite guidate al museo e storytelling",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Qui Copernico",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Redazione di articoli per il quotidiano locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scatti di civiltà",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Fotografie di azioni virtuose/irrispettose",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Leggere con arte",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura di libri e realizzazione di manufatti artistici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Basket 3vs3",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di basket 3vs3",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Trofeo Maggi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di calcio a 5",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti acqua",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Uscite didattiche sul fiume Ticino",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Google Suite",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Webinar e tutorial per docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rafting",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Esplorazione del Parco del Ticino, attività di gruppo, pratica del rafting.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Badminton",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Teoria e pratica del Badminton; costruzione di campi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola di sci",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività di avviamento o perfezionamento allo sci.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Camposcuola all'isola d'Elba",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Camposcuola di più giorni con attività di educazione ambientale, motoria e civica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Apertura della biblioteca al pubblico, gestione del materiale librario.",
+      "target": "Altro"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TEAA82301C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Campli Capoluogo**, scuola dell'infanzia statale situata nel territorio non metropolitano della provincia di Teramo, regione Abruzzo. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF 2022-2025 dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben strutturata e un punteggio di 7. La scuola si distingue per una rete di **partnership** ampia e diversificata, che include università, ospedali, enti locali e aziende. Le finalità dell'orientamento sono ben definite, focalizzandosi sullo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, come evidenziato dal punteggio di 7.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** considerevole, composto da 13 partner tra cui **Università degli Studi di Pavia**, **Ospedali**, **Ordine dei Medici**, **FAI**, **Google suite** e diverse altre associazioni e scuole. Questa rete rappresenta una risorsa preziosa per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo, coprendo aspetti cruciali come lo sviluppo di attitudini, interessi, la costruzione del **progetto di vita**, la gestione delle **transizioni formative** e l'acquisizione di capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 5, indicando un buon livello di attenzione a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (NEET) e la promozione del **lifelong learning**. I punteggi variano da 3 a 4, suggerendo un'attenzione differenziata a questi obiettivi.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'orientamento sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e all'integrazione di interventi per l'inclusione e la gestione delle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 5, dimostrando un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. I punteggi variano da 3 a 5, indicando un buon livello di integrazione dell'orientamento nella pratica didattica.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali e laboratoriali espressive con un punteggio di 4, mentre quelle ludico-ricreative, di volontariato e sportive ricevono un punteggio di 1, suggerendo un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, supportata da una solida rete di **partnership**. L'istituto dimostra un'attenzione particolare alle finalità dell'orientamento, coprendo un ampio spettro di aspetti cruciali per lo sviluppo degli studenti. Le azioni di sistema sono ben definite e integrate nella pratica didattica, garantendo un approccio olistico all'orientamento. L'ampia gamma di attività proposte, come **Percorsi Biomedicale Ippocrate**, **Liceo Cambridge**, **PCTO** con **Z-lab Banca Intesasanpaolo** e **Visite documentative guidate**, arricchisce l'offerta formativa e offre agli studenti diverse opportunità di esplorazione e crescita.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza risiede nella scarsa offerta di attività opzionali ludico-ricreative, di volontariato e sportive. I punteggi relativi agli obiettivi di contrasto alla dispersione scolastica (NEET) sono inferiori rispetto agli altri, suggerendo la necessità di rafforzare gli interventi in questo ambito.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda l'integrazione di attività opzionali che promuovano il benessere psicofisico degli studenti e l'impegno sociale. Inoltre, è necessario potenziare le azioni mirate a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Campli Capoluogo** presenta un'impostazione solida e ben strutturata per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'attenzione alle finalità e alle azioni di sistema rappresentano punti di forza significativi. Per migliorare ulteriormente l'efficacia dell'orientamento, è consigliabile ampliare l'offerta di attività opzionali e potenziare gli interventi mirati a contrastare la dispersione scolastica. L'istituto dimostra un impegno concreto verso lo sviluppo integrale degli studenti, preparandoli ad affrontare le sfide del futuro con consapevolezza e competenza."
+}

@@ -1,0 +1,362 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMPS65000Q",
+    "denominazione": "Liceo Statale Democrito",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "Non specificato",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Prassilla N.79",
+    "cap": "00124",
+    "email": "rmps65000q@istruzione.it",
+    "pec": "rmps65000q@pec.istruzione.it",
+    "website": "https//www.liceodemocrito.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Territorio",
+        "Utenza",
+        "ASL",
+        "Associazioni attive nella prevenzione",
+        "Lega Navale Italiana",
+        "Circolo Velico Lucano",
+        "WWF",
+        "Gruppo Archeologico Krotoniate",
+        "Radio Studio 97 Wesud",
+        "Esperia Tv Rt Calabria",
+        "scuole medie di Crotone e provincia",
+        "università",
+        "COSP",
+        "UST",
+        "Ordini Professionali",
+        "Camera di Commercio",
+        "Confartigianato",
+        "Forze Armate",
+        "Museo Archeologico Nazionale",
+        "Area Marina Protetta",
+        "Calabria Sviluppo e Formazione",
+        "Regione Calabria",
+        "Arpacal",
+        "Università degli Studi della Calabria",
+        "Università Magna Grecia di Catanzaro",
+        "Crotone Calcio",
+        "Club Velico"
+      ],
+      "partnership_count": 26
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Scambi culturali",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Incontri con altre scuole",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate e viaggi d'istruzione",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il quotidiano in classe",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti II biennio, V anno"
+    },
+    {
+      "titolo_attivita": "Gutenberg",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Teatro-Lab",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio, V anno"
+    },
+    {
+      "titolo_attivita": "Senato e ambiente",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Erasmus+",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Diritti Umani",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Io ho cura",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Un giorno in senato",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti II biennio, V anno"
+    },
+    {
+      "titolo_attivita": "Giochi di Natale",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Ippocrate",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti  I  biennio"
+    },
+    {
+      "titolo_attivita": "Intercultura",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "Scientifica",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti II biennio, V anno"
+    },
+    {
+      "titolo_attivita": "Le pietre che narrano … La conoscenza itinerante",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti  II  biennio"
+    },
+    {
+      "titolo_attivita": "Bridge a scuola",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti  I  biennio"
+    },
+    {
+      "titolo_attivita": "MAD for Science",
+      "categoria_principale": "Scientifica",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "UNI tutor",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio,V anno"
+    },
+    {
+      "titolo_attivita": "Vivi la montagna",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio, V anno"
+    },
+    {
+      "titolo_attivita": "Vivi  il mare",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attivazione laboratori pomeridiani",
+      "target": "Studenti I e II biennio, V anno"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole medie",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Presentazione dell'offerta formativa",
+      "target": "Alunni di terza media e genitori"
+    },
+    {
+      "titolo_attivita": "Visita all'istituto",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Tour guidato delle strutture",
+      "target": "Alunni di terza media e genitori"
+    },
+    {
+      "titolo_attivita": "Predisposizione materiale informativo PTOF",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Creazione di materiale informativo per far conoscere il PTOF",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Stand presentazione offerta formativa",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Allestimento stand per presentazione offerta formativa scuole medie",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Open Days",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione giornate di presentazione della scuola",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Partecipazione a conferenze scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerta liceo a scuole medie",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Un giorno al Filolao (ministage)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Inserimento temporaneo studenti medie nelle classi del liceo",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Supporto tecnico iscrizioni online",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Assistenza tecnica alle famiglie per le iscrizioni online",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Incontri con università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri presso università in orario curricolare/extracurricolare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con ex-studenti impegnati in università/lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua straniera",
+      "categoria_principale": "Formazione linguistica",
+      "descrizione_e_metodologia": "Corsi di lingua straniera con certificazioni Trinity, Cambridge",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di informatica",
+      "categoria_principale": "Formazione digitale",
+      "descrizione_e_metodologia": "Ecdl, CISCO ed equipollenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di musica e arte",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Partecipazione a rappresentazioni teatrali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti PON",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Progetti realizzati a scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage in Italia e all'estero",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMPS65000Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Statale Democrito** (RMPS65000Q), situato a Roma. L'istituto, di ordine II grado, mostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 7 su una scala non specificata. L'analisi rivela una vasta gamma di partnership attivate, finalità ben definite e un sistema di azioni strutturato. L'offerta didattica orientativa è diversificata, con particolare attenzione alle attività esperienziali e interdisciplinari, e si avvale di opzionali culturali, laboratoriali, sportive e di volontariato. Il registro delle attività conferma un'ampia offerta di iniziative, che spaziano da scambi culturali a progetti **PCTO**, passando per laboratori tematici e attività di orientamento in entrata e in uscita.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, con un punteggio di 7 che suggerisce un'attenzione prioritaria a questo aspetto.\n\n**2.2 Partnership:** Il liceo vanta un network di **26 partner**, tra cui enti del **territorio**, l'**utenza**, l'**ASL**, associazioni, istituzioni come la **Lega Navale Italiana**, il **WWF**, università, ordini professionali e la **Camera di Commercio**. Questa rete diversificata offre opportunità di collaborazione e arricchimento per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, alla facilitazione delle **transizioni formative** e al potenziamento delle loro **capacità orientative** rispetto alle opportunità disponibili. Tutti gli aspetti valutati hanno ottenuto un punteggio di 5, indicando una coerenza e completezza nella definizione degli obiettivi.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la promozione della continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e lo sviluppo del **lifelong learning**. L'obiettivo di ridurre l'abbandono scolastico ha ottenuto un punteggio di 4, mentre gli altri hanno raggiunto un punteggio di 5, suggerendo un'attenzione particolare alla connessione tra scuola e mondo del lavoro.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori, sul monitoraggio delle azioni e sull'integrazione di interventi di inclusione e supporto alla fragilità. Ogni azione ha ottenuto un punteggio di 5, ad eccezione del sistema integrato di inclusione e fragilità che ha ottenuto un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Tutti gli aspetti valutati hanno ottenuto un punteggio di 5, evidenziando un approccio didattico innovativo e centrato sullo studente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende iniziative culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. Le opzionali laboratoriali e sportive hanno ottenuto un punteggio di 6, mentre le altre hanno raggiunto un punteggio di 5, suggerendo un'attenzione particolare alle attività pratiche e sportive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica. La vasta rete di **partnership** con enti del territorio e istituzioni, l'ampia offerta di attività, tra cui **scambi culturali**, **visite guidate**, **PCTO**, laboratori tematici come **Gutenberg**, **Teatro-Lab**, **Senato e ambiente**, e iniziative di orientamento in entrata e in uscita, costituiscono un valore aggiunto significativo. L'impegno verso l'inclusione e il supporto alla fragilità, seppur con un punteggio leggermente inferiore rispetto ad altri aspetti, rappresenta un elemento distintivo.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree necessitano di maggiore attenzione. Il punteggio relativamente basso dell'obiettivo di ridurre l'**abbandono scolastico** (4) suggerisce la necessità di implementare strategie mirate per prevenire la dispersione scolastica. Analogamente, il punteggio leggermente inferiore del sistema integrato di inclusione e fragilità (4) indica la necessità di rafforzare i servizi di supporto agli studenti con difficoltà.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre gli obiettivi ambiziosi del PTOF in azioni concrete e misurabili. Sebbene la sezione dedicata all'orientamento sia ben strutturata e l'offerta di attività sia ampia, è fondamentale monitorare l'efficacia di tali iniziative e valutare l'impatto sugli studenti. Un'analisi più approfondita dei dati relativi all'abbandono scolastico e alla dispersione formativa potrebbe fornire indicazioni utili per definire interventi mirati.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Statale Democrito** dimostra un forte impegno verso l'orientamento, con una sezione dedicata ben strutturata, una vasta rete di **partnership** e un'ampia offerta di attività. Pur presentando alcune aree di debolezza, l'istituto ha le potenzialità per diventare un punto di riferimento per l'orientamento nel territorio. Un monitoraggio costante delle azioni intraprese e una valutazione accurata dei risultati ottenuti consentiranno di migliorare ulteriormente l'efficacia del PTOF e di garantire a tutti gli studenti un percorso formativo completo e soddisfacente."
+}

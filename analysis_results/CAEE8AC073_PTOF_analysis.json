@@ -1,0 +1,495 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAEE8AC073",
+    "denominazione": "I.C. Nurri",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Villanova Tulo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Sud Sardegna",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Aie 1",
+    "cap": "08030",
+    "email": "caic8ac00p@istruzione.it",
+    "pec": "mbic8dn006@pec.istruzione.it",
+    "website": "comprensivonurri.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Società e centri sportivi",
+        "Case per anziani",
+        "Biblioteca",
+        "Avis",
+        "Parrocchia",
+        "Oratorio",
+        "Gruppo Astrofili",
+        "Circolo Amici dell’arte",
+        "Corpo Musicale",
+        "Alpini",
+        "Pro Loco",
+        "CRI",
+        "Polizia Locale",
+        "Caritas",
+        "Villasanta Attiva",
+        "Consultorio di Monza",
+        "Banco Alimentare",
+        "ATS",
+        "Università milanesi",
+        "Scuole secondarie di secondo grado",
+        "Provincia di Monza e Brianza",
+        "Asso lombarda",
+        "Associazioni Industriali",
+        "Cooperativa La Speranza",
+        "Associazione Genitori",
+        "Ammistrazione comunale",
+        "Università Bicocca",
+        "associazioni di volontariato",
+        "enti istituzionali",
+        "Amici della speranza",
+        "agenzie del territorio",
+        "Altre scuole",
+        "Enti di formazione accreditati",
+        "Autonomie locali",
+        "Università",
+        "Altre associazioni/cooperative",
+        "Soggetti privati",
+        "ATS Monza",
+        "Agicom",
+        "Scuola capofila"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di raccordo generazionale (festa dei nonni)",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Collaborazione con case per anziani per eventi intergenerazionali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto intercultura",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di facilitazione linguistica e mediazione culturale.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Collaborazione con Polizia Locale.",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Realizzazione Prove Comuni di Italiano e Matematica",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Prove per classi prime, terze, quarte primaria e seconde secondaria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Sulla Lettura Degli Esiti Delle Prove Invalsi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione docenti con risorse Invalsi.open",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Promozione Di Percorsi Di Ricerca Azione",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Percorsi di ricerca-azione per innovazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani elettivi",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Didattica laboratoriale a classi aperte",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "IBI – BEI ed Eccellenza CLIL",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Apprendimento lingua inglese, approccio interdisciplinare",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Da “Prim’aria” al DELF A2",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Certificazione linguistica francese",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Collaborazione con Polizia Locale.",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Unicità e diversità: alunni BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri, mediazione, strumenti compensativi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Inclusione alunni diversamente abili",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Orchestra stabile e potenziamento musicale",
+      "categoria_principale": "Didattica laboratoriale",
+      "descrizione_e_metodologia": "Attività musicale",
+      "target": "Secondaria, Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "coordina attività per alunni anni-ponte",
+      "target": "Alunni che cambiano ordine di scuola"
+    },
+    {
+      "titolo_attivita": "Progetto Visite Guidate, Viaggi D’Istruzione",
+      "categoria_principale": "Didattica esperienziale",
+      "descrizione_e_metodologia": "Visite guidate per ampliare l'offerta formativa",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Prolungamento Orario (Dopo-Scuola)",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Supporto studio alunni con difficoltà",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto Intersezioni",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri con esperti e psicologi del Consultorio Familiare di Monza.",
+      "target": "Secondaria Di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Io Ho Scelto...La Legalita'",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Coinvolgimento alunni nel mantenimento di un corretto clima di classe.",
+      "target": "Secondaria Di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Conoscenza offerta formativa scuole superiori, incontri con famiglie.",
+      "target": "Secondaria Di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Gare Matematiche",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Partecipazione a competizioni nazionali (PRISTEM, Kangourou Italia).",
+      "target": "Secondaria Di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Aria Di Primavera (Educazione All'Affettivita')",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Incontri con esperti e psicologi del Consultorio Familiare di Monza.",
+      "target": "Secondaria Di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Sognando A Libri Aperti",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Attività laboratoriali per la produzione di elaborati di scrittura creativa.",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Sapori E Saperi: Orto Didattico",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Semina, cura e compostaggio per apprendere principi di educazione ambientale.",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Visita Guidata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visita guidata",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto Gioca-Yoga",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Yoga per bambini in piccoli gruppi.",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Progetto Prova",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Prova",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto di formazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Promozione innovazione, ICT, pensiero computazionale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete Ali Per L'Infanzia E L'Adolescenza",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Contrasto maltrattamenti, abusi, bullismo",
+      "target": "Docenti, studenti, famiglie"
+    },
+    {
+      "titolo_attivita": "Convenzione Università Bicocca",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Lezioni universitarie, analisi dati Antartide, tirocinio",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione Ka1",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione internazionale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Convenzioni scuole superiori",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Benessere Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Estensione percorso benessere digitale, certificazione competenze",
+      "target": "Docenti, studenti, famiglie"
+    },
+    {
+      "titolo_attivita": "Convenzione Università Cattolica",
+      "categoria_principale": "Tirocinio",
+      "descrizione_e_metodologia": "Accoglienza tirocinanti Scienze della Formazione Primaria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione Università Bergamo",
+      "categoria_principale": "Tirocinio",
+      "descrizione_e_metodologia": "Accoglienza tirocinanti Lingue Straniere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Salute e Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione D.Lgs 81/2008",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "Innovazione Pedagogica Plurilingue",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Apprendimento online e in presenza",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Piano Formazione Personale Docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione in presenza/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Somministrazione Farmaci",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione farmaci salva-vita",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica CLIL",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Realizzazione prodotti condivisi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Alfabetizzazione informatica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Caffè Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Auto-formazione tecnologie",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Piattaforme Digitali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione Office 365",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Rilevazione rischi, condizioni igienico-ambientali",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Diritto Alla Privacy",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Gestione relazioni interne ed esterne",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Misure Covid",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Prevenzione diffusione epidemia",
+      "target": "Tutto il personale ATA"
+    },
+    {
+      "titolo_attivita": "Autonomia Scolastica",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Obiettivi, strumenti, funzioni autonomia",
+      "target": "Tutto il personale ATA"
+    },
+    {
+      "titolo_attivita": "Lavoro Agile",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Sicurezza informatica e privacy",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione Cessazione Attività",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": null,
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "Contratti e Procedure",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": null,
+      "target": "Dsga"
+    },
+    {
+      "titolo_attivita": "Jolly Phonics",
+      "categoria_principale": "Lingua Inglese",
+      "descrizione_e_metodologia": "Metodo Jolly Phonics, approccio empatico",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Docenti Non Specializzati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Inclusione alunni con disabilità, presa in carico",
+      "target": "Docenti non specializzati"
+    },
+    {
+      "titolo_attivita": "Implementazione Segreria Digitale",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Processi di innovazione",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Somministrazione Farmaci Salva-Vita",
+      "categoria_principale": "Primo Soccorso",
+      "descrizione_e_metodologia": "Gestione emergenza, primo soccorso",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Disostruzione Pediatrica",
+      "categoria_principale": "Primo Soccorso",
+      "descrizione_e_metodologia": "Gestione emergenza, primo soccorso",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Supporto studenti DVA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Strumenti per mantenere il contatto con compagni e docenti",
+      "target": "Studenti DVA"
+    },
+    {
+      "titolo_attivita": "DDI per studenti fragili",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Possibilità di frequentare in presenza",
+      "target": "Studenti con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAEE8AC073\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria Villanovatulo** (CAEE8AC073) per il periodo 2019/20-2021/22. L'istituto, situato in Sardegna, si configura come scuola statale primaria in un territorio non metropolitano. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la coerenza, l'efficacia potenziale e le aree di miglioramento. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia rete di **partnership** attivate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, indicando una chiara attenzione a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** La scuola vanta un'estesa rete di collaborazioni con ben 30 **partner**, tra cui **società e centri sportivi**, **case per anziani**, **biblioteche**, **associazioni di volontariato**, **enti istituzionali** e **università**. Questa ricchezza di connessioni territoriali rappresenta un valore aggiunto per l'offerta orientativa, offrendo agli studenti opportunità di contatto con il mondo del lavoro e del terzo settore.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'ampliamento delle **capacità orientative** rispetto alle opportunità disponibili. Tutti gli aspetti valutati ottengono un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la promozione della continuità territoriale e il potenziamento del **lifelong learning**. L'obiettivo di contrastare i **neet** risulta meno prioritario, con un punteggio di 1.\n\n**2.5 Azioni Sistema:** Le azioni previste per implementare l'orientamento si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte le azioni valutate ottengono un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali, pur presente, risulta meno sviluppato, con un punteggio di 3.\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali si concentra su ambiti culturali, ma risulta meno articolata in ambito laboratoriale, ludico-ricreativo, di volontariato e sportivo, con punteggi generalmente bassi (da 1 a 3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** attivate, che offrono agli studenti un'ampia gamma di opportunità di contatto con il territorio e il mondo del lavoro. La presenza di una sezione dedicata all'orientamento e la chiarezza delle finalità e degli obiettivi rappresentano ulteriori elementi positivi. L'impegno verso l'inclusione e la creazione di un sistema integrato per la gestione delle fragilità è degno di nota. Le attività registrate, come il **Progetto di raccordo generazionale (festa dei nonni)**, il **Progetto intercultura** e l'**Educazione stradale**, dimostrano un approccio pratico e concreto all'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'offerta di attività opzionali, che risulta poco diversificata e meno sviluppata in ambiti come quello laboratoriale, ludico-ricreativo e del volontariato. L'obiettivo di contrastare i **neet** appare meno prioritario rispetto agli altri. L'utilizzo di metodologie didattiche laboratoriali, pur presente, potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di ampliare l'offerta di attività opzionali, rendendola più rispondente agli interessi e alle attitudini degli studenti. È inoltre auspicabile un maggiore focus sulla prevenzione della dispersione scolastica e sull'inserimento nel mondo del lavoro, con un potenziamento dell'obiettivo di contrastare i **neet**.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Primaria Villanovatulo** presenta un approccio solido e ben strutturato all'orientamento, supportato da una vasta rete di **partnership** e da una chiara definizione delle finalità e degli obiettivi. Pur presentando alcune aree di debolezza, il PTOF dimostra un impegno significativo verso la crescita personale e professionale degli studenti, offrendo loro strumenti e opportunità per affrontare le sfide del futuro. L'implementazione delle azioni previste e un costante monitoraggio dei risultati consentiranno di raggiungere gli obiettivi prefissati e di migliorare ulteriormente l'offerta orientativa dell'istituto."
+}

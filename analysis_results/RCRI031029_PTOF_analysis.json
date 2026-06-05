@@ -1,0 +1,323 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCRI031029",
+    "denominazione": "Polo Tec.Prof. Marconi-Ipsia Art-Zanotti",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Siderno",
+    "anno_ptof": "2022/2023 - 2023/2024 - 2024/2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via G. Mazzini 2",
+    "cap": "89048",
+    "email": "scuola@liceovalsalice.it",
+    "pec": "ND",
+    "website": "www.ipalbturvillasg.gov.it",
+    "tipo_scuola_dettaglio": "Ist Prof Industria E Artigianato"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Pastorale giovanile ispettoriale e diocesana",
+        "Polizia Municipale",
+        "CNOS Scuola",
+        "FIDAE",
+        "parrocchie della zona collinare",
+        "comunità religiose"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Esercizi Spirituali",
+      "categoria_principale": "Educazione alla fede",
+      "descrizione_e_metodologia": "Accompagnamento della classe agli esercizi spirituali",
+      "target": "Tutta la classe"
+    },
+    {
+      "titolo_attivita": "Progetto 'il giovane educa il giovane'",
+      "categoria_principale": "Tutoraggio",
+      "descrizione_e_metodologia": "Allievi liceo supportano studenti",
+      "target": "Studenti liceo e scuola media"
+    },
+    {
+      "titolo_attivita": "Laboratorio di lettura e scrittura",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Metodologia laboratoriale ispirata al gruppo Italian Writing Teachers",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Studio di una materia curricolare in lingua inglese",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Conversazione in inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Lavoro in piccoli gruppi con insegnante madrelingua",
+      "target": "Sezioni A, B e C"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Preparazione a KET e PET",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Kangourou della Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Esercitazioni facoltative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione interculturale",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Conoscenza culture diverse, superamento pregiudizi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione all'affettività",
+      "categoria_principale": "Educazione personale e sociale",
+      "descrizione_e_metodologia": "Riflessione identità, relazioni, sessualità",
+      "target": "Studenti prima media"
+    },
+    {
+      "titolo_attivita": "Educazione all'ambiente",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Sensibilizzazione tutela ambiente, stili di vita sostenibili",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Scelte consapevoli, stili di vita sani",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di educazione alla fede",
+      "categoria_principale": "Educazione religiosa",
+      "descrizione_e_metodologia": "Crescita integrale persona, valori cristiani",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Imparo il MIO Metodo di Studio",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Migliorare capacità organizzative, elaborazione, riflessione metacognitiva, strategie di studio.",
+      "target": "Allievi con BES o difficoltà scolastiche"
+    },
+    {
+      "titolo_attivita": "Percorsi con Polizia Municipale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Crescita responsabile, legalità, rischi nuove tecnologie",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Consiglio orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formulazione del consiglio orientativo per gli allievi di terza media.",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Percorso di riflessione sui propri interessi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Schede predisposte e materiali forniti durante ore di animazione settimanali.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Attività “Orienta la tua estate”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Dialogo e confronto con la famiglia, visione materiali Salone dell'Orientamento.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Presentazione indirizzi scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione di licei e istituti tecnici presenti sul territorio.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Diffusione materiale informativo sugli Open day.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Lezioni docenti scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Possibilità di organizzare lezioni tenute da docenti di scuola superiore.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Salone dell'Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione al Salone dell'Orientamento organizzato dal Comune di Torino.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Orientamento con COSPES",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di orientamento condotte in classe e con le famiglie da orientatrici del COSPES.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Conversazione INGLESE",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Ciclo di 20 incontri con docente madrelingua.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Corso di FRANCESE",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Ciclo di lezioni per un primo approccio alla lingua con docente madrelingua.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Avviamento lingue classiche",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Incontri specifici sul latino e greco.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio ARTIGIANALE",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Costruzione artigianale di oggetti con materiali diversi.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Uso del pc, dialogo, confronto, condivisione di esperienze.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "CLUB “AMICI DEL MUSEO”",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Attività di laboratorio, esperimenti, incontri con scienziati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "“SU IL SIPARIO” - Laboratorio teatrale",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Abilità interpretative, lavoro di gruppo, allestimento spettacolo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "#Tantastoffa",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Musica, canto, arte, danza, preparazione eventi scolastici.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Attività Sportive",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Basket, pallavolo, scherma, calcetto, arrampicata, rugby, judo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Valsalice Estate",
+      "categoria_principale": "Attività estive",
+      "descrizione_e_metodologia": "Attività estive per ragazzi dalle 4^ elementare alla 2^ media, con uscite e supporto compiti.",
+      "target": "Studenti elementari e medie"
+    },
+    {
+      "titolo_attivita": "Sabato nel SOCIALE",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Accompagnamento genitori e allievi alla scoperta realtà di volontariato.",
+      "target": "Genitori e studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCRI031029\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**I.P.S.I.Artigianato Siderno** (RCRI031029) per il triennio 2022/2023 - 2023/2024 - 2024/2025. L'istituto, situato in **Calabria** e operante nell'area **metropolitana** del comune di **Siderno**, si configura come una scuola **statale** che offre percorsi di istruzione di I e II grado, includendo Liceo e Professionale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo indica una chiara attenzione e strutturazione dell'offerta orientativa all'interno del piano complessivo.\n\n**2.2 Partnership:** L'istituto ha stabilito collaborazioni con diversi soggetti esterni, tra cui **Pastorale giovanile ispettoriale e diocesana**, **Polizia Municipale**, **CNOS Scuola**, **FIDAE**, **parrocchie della zona collinare** e **comunità religiose**, per un totale di 7 partner. Il punteggio di 3 suggerisce un buon livello di collaborazione, sebbene ci sia spazio per un ulteriore consolidamento e ampliamento delle partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, un progetto di **vita**, la facilitazione delle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio elevato, indicando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. I punteggi variano da 2 a 4, suggerendo che alcuni obiettivi necessitano di maggiore attenzione e strategie più efficaci.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. I punteggi, compresi tra 3 e 5, indicano un buon livello di implementazione, con margini di miglioramento nel monitoraggio.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. I punteggi elevati, tra 3 e 6, evidenziano un approccio didattico innovativo e centrato sullo studente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende iniziative **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi, compresi tra 3 e 4, suggeriscono una buona varietà di offerte, ma con possibilità di personalizzazione e ampliamento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella chiarezza delle finalità, nell'approccio didattico innovativo e nella varietà delle attività proposte. L'impegno verso lo sviluppo integrale dello studente, attraverso la valorizzazione di attitudini, interessi e la promozione del lifelong learning, rappresenta un elemento distintivo. L'attività \"**Progetto 'il giovane educa il giovane**\" è un esempio di iniziativa efficace di tutoraggio.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il raggiungimento degli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno NEET, che richiedono strategie più mirate ed efficaci. Il monitoraggio delle azioni implementate potrebbe essere potenziato per valutare l'impatto delle iniziative e apportare eventuali correzioni.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella traduzione degli obiettivi ambiziosi in risultati concreti. Pur essendo presente una solida base teorica e un'ampia offerta di attività, è necessario un maggiore focus sull'efficacia delle azioni implementate e sulla misurazione dei risultati ottenuti. L'attività \"**Consiglio orientativo**\" per gli studenti di terza media è un passo importante, ma necessita di essere integrata con un sistema di monitoraggio a lungo termine.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**I.P.S.I.Artigianato Siderno** dimostra un forte impegno verso l'orientamento, con una solida base teorica e un'ampia offerta di attività. Per massimizzare l'efficacia dell'azione orientativa, è necessario concentrarsi sul raggiungimento degli obiettivi prefissati, potenziando il monitoraggio delle azioni implementate e valutando l'impatto delle iniziative sulla riduzione dell'abbandono scolastico e sul contrasto al fenomeno NEET. Attività come \"**Educazione interculturale**\", \"**Imparo il MIO Metodo di Studio**\" e la partecipazione al \"**Salone dell'Orientamento**\" rappresentano buone pratiche da consolidare e ampliare."
+}

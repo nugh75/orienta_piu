@@ -1,0 +1,312 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEIC853006",
+    "denominazione": "I.C. Castelletto",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Firenze 1",
+    "cap": "16136",
+    "email": "geic853006@istruzione.it",
+    "pec": "geic853006@pec.istruzione.it",
+    "website": "www.iccastelletto.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente solo nell'indice, non esiste una sezione dedicata con contenuti specifici."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Scuole In Magna Grecia",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages in ASL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Inglese e Francese (B1-C1)",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli disciplinari in lingua inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corso laboratoriale nuove tecnologie",
+      "categoria_principale": "Tecnologie",
+      "descrizione_e_metodologia": "Apprendimento nuove tecnologie integrate alla didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Scrittura e esposizione incisiva e persuasiva",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Counseling",
+      "categoria_principale": "Empowerment",
+      "descrizione_e_metodologia": "Potenziamento capacità personali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"Oltre le discipline\"",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Pratica laboratoriale, realizzazione prodotti multimediali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Apprendimento coniugato con servizio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incloding",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Inclusione tramite coding e robotica educativa.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi di alternanza con aziende e strutture esterne.",
+      "target": "Studenti del secondo biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Attività di coding e robotica educativa",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici, musicali, teatrali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche e creative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Definizione PAI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione Piani Educativi Individualizzati",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Definizione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione Piani Didattici Personalizzati",
+      "target": "Studenti con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIC853006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Castelletto (GEIC853006) con particolare attenzione alla dimensione dell'orientamento. Il documento, relativo al periodo 2019/20-2021/22, evidenzia un impegno significativo verso la partnership con diversi enti e organizzazioni, tra cui **Scuole In Magna Grecia**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e **ASL**. L'istituto si propone di sviluppare le attitudini, gli interessi, il progetto di vita, le transizioni formative e le capacità orientative degli studenti, con un focus sulla riduzione dell'abbandono scolastico e il potenziamento della continuità territoriale. Sebbene sia presente una sezione dedicata all'orientamento nell'indice del PTOF, questa non è esplicitamente sviluppata con contenuti specifici.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela che, nonostante la presenza di una sezione dedicata all'orientamento nell'indice del PTOF, non esiste una sezione con contenuti specifici e dettagliati.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione esterna, come evidenziato dai 7 partner nominati. Queste partnership rappresentano un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono ben definite e ambiziose, coprendo aspetti cruciali come lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative legate alle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono mirati, con particolare attenzione alla riduzione dell'abbandono scolastico e al mantenimento della continuità territoriale. Tuttavia, gli obiettivi di contrasto alla dispersione scolastica e di promozione del lifelong learning appaiono meno sviluppati.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza degli studenti, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità. L'utilizzo della didattica laboratoriale risulta meno enfatizzato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, offrendo agli studenti opportunità di approfondimento e di sviluppo personale.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità, nella diversificazione delle attività opzionali, nella solida rete di partnership e nell'impegno verso approcci didattici innovativi come il **service learning** e la **flipped classroom**. L'istituto si distingue per l'offerta di **certificazioni linguistiche** in inglese e francese, e per l'attenzione all'inclusione, con attività specifiche come **Incloding** che integra coding e robotica educativa. L'impegno verso l'orientamento è testimoniato dalle attività di **PCTO** e dai progetti territoriali integrati.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la mancanza di una sezione dedicata e sviluppata all'orientamento all'interno del PTOF, nonostante la sua presenza nell'indice. Inoltre, alcuni obiettivi, come il contrasto al fenomeno NEET e la promozione del lifelong learning, appaiono meno definiti rispetto ad altri.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di concretizzare l'impegno verso l'orientamento attraverso la creazione di una sezione specifica nel PTOF, con contenuti dettagliati e azioni mirate. È inoltre auspicabile un maggiore approfondimento degli obiettivi relativi al contrasto alla dispersione scolastica e alla promozione dell'apprendimento permanente.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Castelletto dimostra un impegno significativo verso l'orientamento e l'innovazione didattica. La scuola si avvale di una solida rete di partnership e offre agli studenti una vasta gamma di attività opzionali e progetti. Tuttavia, per massimizzare l'efficacia del PTOF, è necessario colmare il divario relativo alla sezione dedicata all'orientamento e approfondire alcuni obiettivi specifici. L'implementazione di queste azioni consentirebbe all'istituto di rafforzare ulteriormente il proprio ruolo nel supportare gli studenti nel loro percorso di crescita e di orientamento professionale."
+}

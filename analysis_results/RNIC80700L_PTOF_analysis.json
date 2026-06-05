@@ -1,0 +1,172 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RNIC80700L",
+    "denominazione": "Misano Adriatico",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Misano Adriatico",
+    "anno_ptof": "Non specificato",
+    "provincia": "Rimini",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Don Lorenzo Milani 12",
+    "cap": "47843",
+    "email": "rnic80700l@istruzione.it",
+    "pec": "rnic80700l@pec.istruzione.it",
+    "website": "www.icmisano.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "L'orientamento è trattato all'interno del curricolo di Educazione Civica, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Hera"
+      ],
+      "partnership_count": 1
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "sviluppo integrale di ogni persona",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppare tutte quelle competenze culturali e sociali",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": "Progetto di continuità",
+        "evidence_location": "Pagina 9"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 1
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività teatrali per lo sviluppo dell'identità e dell'espressione personale.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Laboratori teatrali, rappresentazioni",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo dell'identità, espressione personale, socializzazione",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Progetto Teatro",
+      "evidence_location": "Pagina 8, 9, 10, 11"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Promozione della lettura e sviluppo dell'amore per i libri.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Letture, laboratori, visite in biblioteca",
+      "5w_dove": "Scuola, biblioteca",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo del linguaggio, pensiero critico, ampliamento culturale",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Progetto Lettura",
+      "evidence_location": "Pagina 8, 9, 10, 11"
+    },
+    {
+      "titolo_attivita": "Progetto BenFare-BenEssere",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Educazione alla convivenza civile, alla salute e al rispetto dell'ambiente.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Attività pratiche, laboratori, uscite didattiche",
+      "5w_dove": "Scuola, territorio",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promozione della cittadinanza attiva, della salute e del rispetto per l'ambiente",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Progetto BenFare-BenEssere",
+      "evidence_location": "Pagina 8, 9, 10, 11"
+    }
+  ],
+  "narrative": "## Analisi del PTOF RNIC80700L\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Comprensivo Statale Misano Adriatico delinea un approccio all'orientamento prevalentemente integrato nel curricolo di Educazione Civica. Pur non prevedendo una sezione dedicata specificamente all'orientamento, sono presenti diverse attività e progetti che mirano allo sviluppo di competenze trasversali e alla consapevolezza del ruolo sociale degli studenti. Il livello di strutturazione dell'orientamento appare sufficiente come base di partenza, ma necessita di un'implementazione più sistematica e mirata.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nL'assenza di una sezione dedicata all'orientamento costituisce una criticità significativa, limitando la visibilità e la specificità di questo ambito. L'approccio trasversale, pur valido, rischia di disperdere gli sforzi e di non garantire una continuità nell'offerta formativa.\n\n#### 2.2 Partnership e Reti\nLa partnership con Hera, focalizzata su tematiche ambientali, rappresenta un buon punto di partenza. Tuttavia, l'offerta formativa potrebbe essere arricchita dall'ampliamento delle collaborazioni con aziende, enti locali e associazioni del territorio, offrendo agli studenti opportunità di orientamento più concrete e legate al contesto socio-economico locale.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'azione educativa sono orientate allo sviluppo integrale della persona, con particolare attenzione alle competenze culturali e sociali. Tuttavia, l'esplicitazione di obiettivi specifici e misurabili legati all'orientamento, come la riduzione dell'abbandono scolastico o il miglioramento delle transizioni formative, risulta limitata e poco definita.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di sistema per l'orientamento appaiono poco strutturate. Il coordinamento tra i diversi servizi scolastici, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie sono elementi importanti, ma necessitano di una maggiore pianificazione, monitoraggio e valutazione.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa su metodologie attive e laboratoriali, che favoriscono l'apprendimento esperienziale e lo sviluppo di competenze pratiche. L'interdisciplinarità rappresenta un punto di forza, consentendo di collegare i diversi ambiti disciplinari e di affrontare le tematiche dell'orientamento in modo integrato.\n\n#### 2.6 Opportunità Formative\nL'offerta di attività opzionali e facoltative, come laboratori artistici, attività sportive e progetti di volontariato, contribuisce ad ampliare l'offerta formativa e a rispondere agli interessi e alle attitudini degli studenti.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Progetto Teatro\nIl **Progetto Teatro** coinvolge tutte le classi e si propone di sviluppare l'identità personale, l'espressione creativa e la socializzazione attraverso laboratori teatrali e rappresentazioni. Le attività si svolgono all'interno della scuola durante l'anno scolastico, con l'obiettivo di favorire la crescita emotiva e relazionale degli studenti.\n\n#### 2.7.2 Progetto Lettura\nIl **Progetto Lettura** mira a promuovere l'amore per i libri e lo sviluppo del pensiero critico attraverso letture, laboratori e visite in biblioteca. Le attività coinvolgono tutte le classi e si svolgono all'interno della scuola e della biblioteca comunale durante l'anno scolastico.\n\n#### 2.7.3 Progetto BenFare-BenEssere\nIl **Progetto BenFare-BenEssere** si concentra sull'educazione alla convivenza civile, alla salute e al rispetto dell'ambiente. Le attività pratiche, i laboratori e le uscite didattiche coinvolgono tutte le classi e si svolgono all'interno della scuola e sul territorio durante l'anno scolastico.\n\n### 3. Punti di Forza\nIl PTOF presenta una solida base per lo sviluppo di competenze trasversali e la promozione della cittadinanza attiva. Le metodologie didattiche attive e laboratoriali, l'interdisciplinarità e l'offerta di attività opzionali rappresentano punti di forza significativi.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento, la limitata esplicitazione di obiettivi specifici e la scarsa strutturazione delle azioni di sistema rappresentano le principali aree di debolezza che necessitano di attenzione.\n\n### 5. Gap Analysis\nÈ necessario definire una strategia di orientamento più chiara e strutturata, con obiettivi specifici, azioni concrete e indicatori di monitoraggio. L'ampliamento delle partnership con il territorio e la promozione di attività di orientamento più mirate potrebbero contribuire a colmare il gap esistente.\n\n### 6. Conclusioni\nIl PTOF dell'Istituto Comprensivo Statale Misano Adriatico presenta un orientamento integrato nel curricolo, ma con margini di miglioramento per una maggiore strutturazione e sistematicità. L'implementazione di una strategia di orientamento più definita e mirata potrebbe potenziare l'offerta formativa e supportare gli studenti nelle loro scelte future, garantendo una transizione formativa più efficace e consapevole."
+}

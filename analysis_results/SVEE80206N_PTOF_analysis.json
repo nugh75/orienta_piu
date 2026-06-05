@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SVEE80206N",
+    "denominazione": "I. C. Millesimo",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Cengio",
+    "anno_ptof": "2025/2026 – 2026/2027 – 2027/2028",
+    "provincia": "Savona",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Delle Scuole",
+    "cap": "17056",
+    "email": "svic80200a@istruzione.it",
+    "pec": "ND",
+    "website": "www.scuolemillesimo.eu",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma attività di orientamento sono integrate in altri progetti."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Comune",
+        "Enti Locali",
+        "ENAIP",
+        "Enti e Associazioni locali"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Benvenuti a scuola",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Laboratori di accoglienza",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Man mano... continuiamo a crescere",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Laboratori per la continuità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Costruire la propria vita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori di orientamento",
+      "target": "Alunni Secondaria"
+    },
+    {
+      "titolo_attivita": "Io, tu, noi",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Laboratori educazione cittadinanza",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Ti regalo una regola",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Laboratori educazione stradale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Sportiva-mente",
+      "categoria_principale": "Psicomotricità",
+      "descrizione_e_metodologia": "Laboratori psicomotricità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Un libro per amico",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Fare scienza",
+      "categoria_principale": "Scienza",
+      "descrizione_e_metodologia": "Laboratori scienza",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Valorizzo i miei talenti",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Laboratori espressione creativa",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Si può dare di più",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Laboratori potenziamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Consolidamento e recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero italiano, matematica",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto 3: A Scuola con le NT",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione ambienti apprendimento, formazione docenti, didattica laboratori, STEM",
+      "target": "Tutti gli alunni e docenti"
+    },
+    {
+      "titolo_attivita": "Progetto 4: Valorizziamo la montagna",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Potenziamento orario e sdoppiamento pluriclassi",
+      "target": "Alunni primaria di Valduggia e Cellio con Breia"
+    },
+    {
+      "titolo_attivita": "Servizio pre e post scuola",
+      "categoria_principale": "Extrascolastica",
+      "descrizione_e_metodologia": "Servizio offerto in collaborazione con enti locali",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SVEE80206N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Primaria Di Cengio Colombardo** (codice scuola **SVEE80206N**) per il triennio **2025/2026 – 2026/2027 – 2027/2028**. L'istituto, situato in **Liguria**, provincia di **Savona**, comune di **Cengio**, è una scuola **statale** di ordine **Primaria** e opera in un contesto **non metropolitano**. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività proposte in relazione all'orientamento scolastico e professionale. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, diverse attività e progetti integrano elementi orientativi.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non prevede una sezione esplicitamente dedicata all'orientamento, tuttavia, l'orientamento è integrato in altri progetti scolastici.\n\n**2.2 Partnership:**\n\nLa scuola vanta un buon livello di partnership, con un punteggio di 3, collaborando con il **Comune**, **Enti Locali**, **ENAIP** e diverse **Enti e Associazioni locali**. Queste collaborazioni possono fornire risorse e competenze utili per attività di orientamento.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento, come declinate nel PTOF, sono considerate positive. Si riscontra un punteggio elevato (4) per lo sviluppo di **attitudini**, **interessi** e per la progettazione del **progetto di vita** degli studenti. Un punteggio leggermente inferiore (3) è attribuito alla preparazione per le **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in relazione all'orientamento sono mirati. Si punta a **ridurre l'abbandono** scolastico (punteggio 4), a favorire la **continuità territoriale** (punteggio 3), a **contrastare il fenomeno NEET** (punteggio 3) e a promuovere il **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per supportare l'orientamento includono il **coordinamento dei servizi** (punteggio 3), il **dialogo tra docenti e studenti** (punteggio 4), il **rapporto scuola-genitori** (punteggio 4), il **monitoraggio delle azioni** (punteggio 3) e un sistema integrato per l'**inclusione e la gestione delle fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento **da esperienza** degli studenti (punteggio 4), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'approccio **interdisciplinare** (punteggio 3).\n\n**2.7 Offerta di Attività Opzionali:**\n\nL'offerta di attività opzionali include opzioni **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 3) e **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nell'attenzione allo sviluppo delle **attitudini** e degli **interessi** degli studenti, nel forte legame con il territorio attraverso le **partnership** con enti locali e nell'impegno a creare un ambiente scolastico inclusivo e supportivo. L'attività **\"Costruire la propria vita\"** è specificamente dedicata all'orientamento degli studenti della scuola secondaria. L'integrazione dell'orientamento in progetti trasversali e l'utilizzo di metodologie didattiche attive, come i **laboratori**, rappresentano un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF potrebbe limitare la visibilità e la sistematicità delle azioni in questo ambito. I punteggi leggermente inferiori relativi alle **transizioni formative** e allo sviluppo delle **capacità orientative** suggeriscono la necessità di rafforzare questi aspetti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una pianificazione strategica esplicita per l'orientamento. Sebbene le attività e i progetti esistenti siano validi, una sezione dedicata consentirebbe di definire obiettivi più specifici, di monitorare i risultati in modo più efficace e di garantire una maggiore coerenza tra le diverse iniziative.\n\n### 6. Conclusioni\n\nIl PTOF della **Primaria Di Cengio Colombardo** dimostra un'attenzione all'orientamento, sebbene non esplicitamente formalizzata in una sezione dedicata. Le **partnership** attive, le finalità orientate allo sviluppo personale e professionale degli studenti e l'offerta di attività diversificate rappresentano elementi positivi. Per migliorare l'efficacia dell'orientamento, si suggerisce di considerare l'inserimento di una sezione specifica nel PTOF, definendo obiettivi misurabili e azioni mirate per supportare le **transizioni formative** e lo sviluppo delle **capacità orientative** degli studenti. Attività come **\"Benvenuti a scuola\"**, **\"Man mano... continuiamo a crescere\"**, **\"Io, tu, noi\"**, **\"Ti regalo una regola\"**, **\"Sportiva-mente\"**, **\"Un libro per amico\"**, **\"Fare scienza\"**, **\"Valorizzo i miei talenti\"**, **\"Si può dare di più\"**, **\"Consolidamento e recupero\"**, **\"Progetto 3: A Scuola con le NT\"**, **\"Progetto 4: Valorizziamo la montagna\"** e il **\"Servizio pre e post scuola\"** contribuiscono a creare un ambiente scolastico stimolante e orientato alla crescita degli alunni."
+}

@@ -207,7 +207,7 @@ class BaseReporter(ABC):
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         header = f"""---
-generated_at: {datetime.now().isoformat()}
+generated_at: {datetime.now().strftime("%Y-%m-%d %H:%M")}
 provider: {self.provider.name}
 report_type: {self.report_type}
 """

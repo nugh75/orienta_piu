@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AVPC040003",
+    "denominazione": "Lc Cl.Annesso Conv.Naz.Colletta",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Avellino",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Avellino",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Vittorio Emanuele 298",
+    "cap": "83100",
+    "email": "avpc040003@istruzione.it",
+    "pec": "avvc01000e@pec.istruzione.it",
+    "website": "www.convittocolletta.edu.it/",
+    "tipo_scuola_dettaglio": "Liceo Classico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene siano presenti diverse attività di orientamento, manca una sezione dedicata e coerente che le integri in un piano strategico. Le attività risultano frammentate."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive per studenti",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Campione (Lago di Garda)",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Stage di escursionismo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alpino",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Capitali Europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AVPC040003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Lc Cl.Annesso Conv.Naz.Colletta** (AVPC040003) per il triennio 2019/20-2021/22. L'istituto, un **Liceo** situato ad **Avellino**, in **Campania**, si configura come una scuola **statale** operante in un contesto territoriale **non metropolitano**. La valutazione evidenzia un impegno significativo nell'offerta di attività orientative, sebbene la loro integrazione in un piano strategico complessivo appaia frammentata. Si riscontra una buona attenzione alle finalità dell'orientamento, con particolare riguardo alle attitudini, interessi, progettazione della vita, transizioni formative e sviluppo di capacità orientative per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata**\n\nL'analisi rivela che, nonostante la presenza di diverse attività di orientamento, manca una sezione dedicata e coerente che le integri in un piano strategico unitario. Le attività risultano pertanto frammentate e non pienamente coordinate.\n\n**2.2 Partnership**\n\nL'istituto dimostra una buona capacità di instaurare **partnership** con diversi soggetti, tra cui **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Il numero di partner coinvolti è pari a quattro, indicando un'apertura alla collaborazione esterna.\n\n**2.3 Finalità**\n\nLe finalità dell'orientamento sono ben definite e affrontano aspetti cruciali come lo sviluppo delle **attitudini**, degli **interessi**, la progettazione del **progetto di vita**, la gestione delle **transizioni formative** e lo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi**\n\nGli obiettivi prefissati mirano a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale**, **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema**\n\nL'istituto implementa azioni di sistema efficaci, quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa**\n\nLa didattica orientativa si caratterizza per l'utilizzo di metodologie innovative, come l'apprendimento basato sull'**esperienza degli studenti**, la **didattica laboratoriale**, la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative**\n\nL'offerta formativa include opzionali di diversa natura, quali **opzionali culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di scelta per gli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella definizione chiara delle finalità, nell'implementazione di azioni di sistema efficaci e nell'utilizzo di metodologie didattiche innovative. La presenza di diverse **partnership** con enti esterni rappresenta un valore aggiunto per l'offerta formativa. L'ampia gamma di **attività opzionali** contribuisce a personalizzare il percorso di ciascun studente.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la mancanza di una sezione dedicata e coerente all'orientamento, che integri le diverse attività in un piano strategico unitario. Questa frammentazione potrebbe limitare l'efficacia complessiva dell'azione orientativa.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un piano di orientamento più organico e strategico, che definisca obiettivi specifici, azioni concrete e indicatori di monitoraggio. È auspicabile una maggiore integrazione tra le diverse attività di orientamento e una più efficace comunicazione con gli studenti, le famiglie e i partner esterni.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Lc Cl.Annesso Conv.Naz.Colletta** dimostra un impegno significativo nell'ambito dell'orientamento, con una buona offerta di attività e una chiara definizione delle finalità. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario superare la frammentazione delle attività e strutturare un piano strategico unitario e coerente. L'istituto può fare leva sui suoi punti di forza, quali le **partnership** consolidate e le metodologie didattiche innovative, per colmare le aree di debolezza e raggiungere gli obiettivi prefissati. Le attività come **Ritiro di accoglienza**, **Educazione alimentare**, **Primo soccorso** e **Orientamento post-liceo** rappresentano un valido supporto per gli studenti."
+}

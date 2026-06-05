@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAIS02300D",
+    "denominazione": "I.I.S. \"Buccari-Marconi\" Cagliari",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Cagliari",
+    "anno_ptof": "2022-2025",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Colombo 60 Cagliari",
+    "cap": "09125",
+    "email": "cais02300d@istruzione.it",
+    "pec": "cais02300d@pec.istruzione.it",
+    "website": "www.buccarimarconi.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presente analisi contesto e bisogni"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Marina militare",
+        "Regione Autonoma della Sardegna",
+        "Compagnie navali Moby e Grimaldi",
+        "aziende di Logistica"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi serali per studenti lavoratori",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Offerta di corsi serali in Elettronica, Informatica e Trasporti/Logistica",
+      "target": "Studenti lavoratori"
+    },
+    {
+      "titolo_attivita": "Certificazioni ISO 9001",
+      "categoria_principale": "Qualità",
+      "descrizione_e_metodologia": "Certificazione ISO 9001:2015 per la gestione scolastica",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "PAESAGGI DI APPRENDIMENTO",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Trasformazione spazi in aule tematiche (DADA)",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Future Labs",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Acquisizione strumenti digitali per competenze future",
+      "target": "Studenti indirizzi IT e Trasporti"
+    },
+    {
+      "titolo_attivita": "Fuoriclasse",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Tutoring, orientamento, recupero competenze",
+      "target": "Studenti a rischio abbandono"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione personale scolastico su strumenti digitali",
+      "target": "Docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "Rugby e Pallamano a scuola",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportiva curricolare ed extracurricolare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi sportivi all'aria aperta",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Convenzione con Campi Ossigeno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuole in cammino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Trekking urbano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Save the Sea",
+      "categoria_principale": "Ambientale",
+      "descrizione_e_metodologia": "Raccolta ed analisi microplastiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "My face my book",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Incontri con scrittori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di Inglese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Certificazione Cambridge",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Nuovo Cinema Marconi",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Proiezione e analisi film",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello didattico di matematica",
+      "categoria_principale": "Didattico",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica Alta fedeltà",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Ascolto e analisi musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Zaurac",
+      "categoria_principale": "Nautico",
+      "descrizione_e_metodologia": "Corso arti marinaresche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificato Internazionale di Alfabetizzazione digitale",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Corsi tenuti da esperto informatico con tutor interno.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Zaurac - Tecniche e Arti Marinaresche",
+      "categoria_principale": "Attività Laboratoriali",
+      "descrizione_e_metodologia": "Corso pratico con la barca 'Su Entu'.",
+      "target": "Classi prime"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAIS02300D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. “Buccari-Marconi” di Cagliari (CAIS02300D), con particolare attenzione alla dimensione dell'orientamento. L'istituto, di tipo tecnico e operante nel secondo grado, si colloca in un contesto metropolitano dell'area geografica delle Isole, nella regione Sardegna. Il PTOF 2022-2025 dimostra una solida attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni valutate. L'istituto si impegna a fornire un supporto completo agli studenti, mirando a ridurre l'abbandono scolastico, favorire la continuità territoriale, contrastare il fenomeno NEET e promuovere il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Analisi del Contesto e dei Bisogni:** Il PTOF presenta un'analisi del contesto e dei bisogni ben strutturata, ottenendo un punteggio di 4. Questo suggerisce una comprensione approfondita delle sfide e delle opportunità presenti nel territorio e nella comunità scolastica.\n\n**2.2 Partnership:** L'istituto vanta un network di partnership consolidato, con un punteggio di 7. Tra i partner figurano la **Marina militare**, la **Regione Autonoma della Sardegna**, le compagnie navali **Moby** e **Grimaldi**, e diverse **aziende di Logistica**. Questa collaborazione esterna rappresenta un valore aggiunto significativo per l'offerta formativa e per l'orientamento degli studenti verso il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative per cogliere le opportunità. Ogni aspetto ha ottenuto un punteggio di 5, indicando un approccio olistico e completo.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto al fenomeno NEET e sulla promozione del lifelong learning. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 5, dimostrando una chiara visione strategica.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema mirate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e supporto alle fragilità. Ogni azione ha ottenuto un punteggio di 5, evidenziando un approccio sistemico e collaborativo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sulla laboratorialità, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. Ogni aspetto ha ottenuto un punteggio di 5, sottolineando l'importanza di un approccio didattico innovativo e coinvolgente.\n\n**2.7 Offerta di Attività Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. I punteggi variano da 3 a 5, con un focus particolare sulle attività sportive che ottengono il punteggio massimo.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di partnership con enti e aziende del territorio, nella chiarezza delle finalità e degli obiettivi, nell'approccio sistemico e collaborativo, e nell'attenzione all'innovazione didattica. Le attività come **Corsi serali per studenti lavoratori**, **Certificazioni ISO 9001**, **PAESAGGI DI APPRENDIMENTO**, **Future Labs** e **Fuoriclasse** dimostrano un impegno concreto verso la qualità dell'offerta formativa e il supporto agli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente l'offerta di attività opzionali e facoltative, in particolare quelle ludiche, ricreative e di volontariato, che ottengono punteggi inferiori rispetto alle altre dimensioni. Questo suggerisce la necessità di potenziare queste attività per offrire agli studenti un'esperienza formativa più completa e diversificata.\n\n### 5. Gap Analysis\n\nIl gap analysis evidenzia la necessità di rafforzare l'offerta di attività opzionali e facoltative, in particolare quelle che promuovono la socializzazione, la creatività e l'impegno civico. Inoltre, sarebbe opportuno intensificare la collaborazione con il territorio per ampliare le opportunità di stage e di inserimento lavorativo per gli studenti. Attività come **Save the Sea**, **My face my book**, **Corsi di Inglese**, **Nuovo Cinema Marconi** e **Progetto Zaurac** rappresentano un buon punto di partenza, ma necessitano di essere ulteriormente sviluppate e integrate nel curriculum scolastico.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. “Buccari-Marconi” di Cagliari presenta un'impostazione solida e coerente in materia di orientamento. L'istituto dimostra un forte impegno verso la qualità dell'offerta formativa, il supporto agli studenti e la collaborazione con il territorio. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per il raggiungimento degli obiettivi prefissati e per la realizzazione di un'esperienza formativa significativa per tutti gli studenti. L'implementazione di attività come **Sportello didattico di matematica**, **Musica Alta fedeltà**, **Certificato Internazionale di Alfabetizzazione digitale** e **Progetto Zaurac - Tecniche e Arti Marinaresche** contribuisce a creare un ambiente scolastico stimolante e orientato al futuro."
+}

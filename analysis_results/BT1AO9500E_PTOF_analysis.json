@@ -1,0 +1,240 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BT1AO9500E",
+    "denominazione": "La Citta' Della Gioia Società Cooperativa Sociale",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Canosa Di Puglia",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Barletta-Andria-Trani",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via A. De Gasperi Cn",
+    "cap": "76012",
+    "email": "info@istitutogaussasti.it",
+    "pec": "lacittadellagioia@legalmail.it",
+    "website": "https://www.nobilmetal.it/it-",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici sui materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Calcolo proporzioni, sanzioni, costi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica odontotecnica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività posturali e benessere",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Corsi su mappe mentali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Uso di tecnologie CAD, scanner 3D",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BT1AO9500E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della scuola \"La Citta' Della Gioia Società Cooperativa Sociale\" (ID scuola BT1AO9500E), un istituto di grado **Infanzia** situato nel territorio non metropolitano di **Canosa Di Puglia** (provincia di **Barletta-Andria-Trani**, regione **Puglia**). L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la struttura, gli obiettivi, le azioni e le attività implementate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un punteggio complessivo elevato nelle finalità e negli obiettivi. L'istituto si distingue per la forte collaborazione con il territorio e le imprese locali, offrendo agli studenti opportunità di **PCTO** e di contatto con il mondo del lavoro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, evidenziando l'importanza attribuita a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** La scuola vanta un solido network di **partnership**, che include **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, e diverse **aziende accreditate** e di settore. Questo elevato numero di collaborazioni (4 partner nominati) testimonia l'impegno dell'istituto nel creare un ponte tra scuola e mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita**, le **transizioni formative** e le **capacità orientative** degli studenti, fornendo loro gli strumenti necessari per affrontare le sfide del futuro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e includono la riduzione dell'**abbandono** scolastico, la promozione della continuità territoriale, il contrasto al fenomeno dei **NEET** e lo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa un sistema di azioni coordinate che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua coerenza interna e l'integrazione dell'orientamento in tutte le dimensioni del processo educativo. La forte collaborazione con il territorio e le imprese locali, in particolare con **Nobil Metal S.p.A.** e l'**Archivio di Stato di Asti**, offre agli studenti opportunità concrete di **PCTO** e di contatto con il mondo del lavoro. L'attenzione all'inclusione e alla valorizzazione delle fragilità, con attività come la **Creazione audiolibri** per studenti con **DSA**, rappresenta un ulteriore elemento distintivo. La formazione dei docenti, con corsi sulle **Mappe Mentali**, dimostra l'impegno dell'istituto nel migliorare la qualità dell'offerta formativa.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero essere ulteriormente sviluppate. Le opzionali **ludiche, ricreative, di volontariato e sportive** ricevono un punteggio leggermente inferiore rispetto alle altre, suggerendo la necessità di potenziare questa dimensione dell'offerta formativa. L'obiettivo di contrastare il fenomeno dei **NEET** ha ottenuto un punteggio di 3, indicando che potrebbe essere necessario definire strategie più efficaci per prevenire la dispersione scolastica e favorire l'inserimento lavorativo.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra un'eccellente preparazione per quanto riguarda l'orientamento scolastico e professionale. Tuttavia, un'analisi più approfondita potrebbe rivelare la necessità di rafforzare le attività di orientamento verso le professioni emergenti e le nuove tecnologie. Inoltre, sarebbe opportuno implementare un sistema di monitoraggio più efficace per valutare l'impatto delle attività di orientamento sui risultati degli studenti e sull'inserimento lavorativo.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola \"La Citta' Della Gioia Società Cooperativa Sociale\" rappresenta un documento solido e ben strutturato, che pone l'orientamento al centro del processo educativo. La forte collaborazione con il territorio, l'attenzione all'inclusione e la valorizzazione delle fragilità, insieme all'impegno per la formazione dei docenti, costituiscono i punti di forza di questo PTOF. Pur riconoscendo alcune aree di miglioramento, si può affermare che l'istituto è ben posizionato per affrontare le sfide del futuro e per offrire ai propri studenti un'istruzione di qualità e un orientamento efficace. Le attività come il **PCTO**, i **laboratori** tematici e il **Servizio di Sostegno Educativo** sono elementi chiave per garantire il successo formativo e professionale degli studenti."
+}

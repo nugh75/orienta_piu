@@ -1,0 +1,299 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAPC095002",
+    "denominazione": "Ente Religioso Istituto Salesiano Sacro Cuore",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Napoli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via A. Scarlatti 29",
+    "cap": "80129",
+    "email": "segreteria@salesianivomero.it",
+    "pec": "ltps060002@pec.istruzione.it",
+    "website": "http//www.salesianivomero.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non esiste una sezione dedicata all'orientamento nel testo. L'orientamento è menzionato all'interno di altre sezioni (attività PCTO, ampliamento offerta formativa) ma non esiste un capitolo specifico con questo titolo."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Associazioni",
+        "Enti",
+        "Università",
+        "Aziende",
+        "IB Maragall Barcellona",
+        "Huntcliff school",
+        "Wasaskolan",
+        "Maerlant Atheneum",
+        "Colegio Sagrado Corazon",
+        "Aprilia Ecologica",
+        "società sportive"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Educativo Europeo Comenius “Heaven on Earth: leisure time activities\"",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambio lavori, visite, mostra, incontro a Barcellona",
+      "target": "Docenti e alunni"
+    },
+    {
+      "titolo_attivita": "Scambio culturale Italia-Belgio",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambio lavori, visite guidate, presentazioni in inglese",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Scambio culturale Italia-Spagna",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambio lavori, visite guidate, presentazioni in inglese",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochi Kangarou della lingua inglese",
+      "categoria_principale": "Certificazioni linguistiche",
+      "descrizione_e_metodologia": "Selezione finale nazionale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Partecipazione a “Per un pugno di libri”",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Trasmissione televisiva",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corsi ed esami per certificazioni Trinity",
+      "categoria_principale": "Certificazioni linguistiche",
+      "descrizione_e_metodologia": "Corsi di preparazione",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi in presenza da docenti in orario curricolare/extracurricolare",
+      "target": "Studenti liceo linguistico e altri"
+    },
+    {
+      "titolo_attivita": "Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità per apprendimento del personale scolastico",
+      "target": "Docenti, DS, ATA"
+    },
+    {
+      "titolo_attivita": "Centro Sportivo Scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione attività motorie e sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Salute e benessere",
+      "descrizione_e_metodologia": "Interventi con specialisti (enti locali, nutrizionisti, psicologi)",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Attività per sviluppo rispetto diritti umani e valori civili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Insegnamento trasversale con 33 ore annuali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sperimentazione 'senza voto'",
+      "categoria_principale": "Didattica innovativa",
+      "descrizione_e_metodologia": "Trasformazione lezione con attività laboratoriali e tutoraggio",
+      "target": "Classe 1V Scienze Umane"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Presentazione offerta formativa da studenti e docenti",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Attività di informazione",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Docenti e alunni presentano offerta formativa",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Corso di lingua",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Corso di lingua per studenti scuole medie",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Presentazione scuola",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Video e presentazione degli indirizzi",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "One, two, tree!",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Messa a dimora di alberi",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Lab & Lab",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Acquisizione dotazioni digitali e arredi innovativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi Next",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Dotazione strumenti digitali per apprendimento STEM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi curricolari integrati in contesti operativi",
+      "target": "Studenti biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "Visite d'istruzione",
+      "categoria_principale": "Amplamento culturale",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse letterario, storico, scientifico, artistico.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali",
+      "categoria_principale": "Amplamento culturale",
+      "descrizione_e_metodologia": "Partecipazione a spettacoli teatrali su opere storiche e letterarie.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Cicli di conferenze",
+      "categoria_principale": "Amplamento culturale",
+      "descrizione_e_metodologia": "Conferenze tenute da esperti esterni su diverse tematiche.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite a musei e biblioteche",
+      "categoria_principale": "Amplamento culturale",
+      "descrizione_e_metodologia": "Visite a musei, biblioteche, centri culturali e istituzionali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma sperimentale per studenti atleti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso Formativo Personalizzato (PFP), tecnologie digitali, coordinamento scuola-società sportive",
+      "target": "Studenti atleti"
+    },
+    {
+      "titolo_attivita": "Mobilità studentesca",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Riconoscimento crediti PCTO per periodi di studio all'estero",
+      "target": "Studenti in mobilità"
+    },
+    {
+      "titolo_attivita": "Carriera Alias",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Assegnazione identità anagrafica provvisoria per studenti in transizione di genere",
+      "target": "Studenti in transizione di genere"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAPC095002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Salesiano Sacro Cuore di Napoli (NAPC095002), relativo al triennio 2022-2025. L'istituto, di tipo Liceo e Professionale per il secondo grado, opera in un contesto territoriale metropolitano della regione Campania. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, l'approccio didattico e le attività opzionali. Sebbene l'orientamento sia presente in diverse aree del PTOF, non esiste una sezione specificamente dedicata a questo tema.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi evidenzia l'assenza di una sezione dedicata all'orientamento nel testo del PTOF. L'orientamento è integrato in altre sezioni, come le attività di **PCTO** e l'ampliamento dell'offerta formativa.\n\n**2.2 Partnership:**\n\nL'istituto dimostra un'ampia rete di partnership, coinvolgendo **Amministrazione Comunale**, **Associazioni**, **Enti**, **Università**, **Aziende** e diverse istituzioni scolastiche internazionali come **IB Maragall Barcellona**, **Huntcliff school**, **Wasaskolan**, **Maerlant Atheneum** e **Colegio Sagrado Corazon**. Sono presenti anche collaborazioni con **Aprilia Ecologica** e **società sportive**, per un totale di 12 partner.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono ben definite e raggiungono punteggi elevati in tutte le aree considerate. Si punta allo sviluppo delle **attitudini**, degli **interessi** e alla progettazione del **progetto di vita** degli studenti, oltre a favorire le **transizioni formative** e a sviluppare le **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi delineati nel PTOF includono la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Tuttavia, i punteggi ottenuti per questi obiettivi sono leggermente inferiori rispetto alle finalità, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Viene inoltre sottolineata l'importanza di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico orientativo si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata e comprende opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità orientative, nella vasta rete di partnership e nella diversificazione dell'offerta formativa, con particolare attenzione alle attività pratiche e all'internazionalizzazione. L'istituto dimostra un impegno concreto nell'ampliamento dell'offerta formativa attraverso attività come **Erasmus+**, **visite d'istruzione**, **spettacoli teatrali** e **cicli di conferenze**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento nel PTOF. Sebbene l'orientamento sia presente in diverse aree, la mancanza di un capitolo specifico potrebbe limitare la sua visibilità e la sua integrazione strategica nel piano complessivo.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare un'azione orientativa più esplicita e coordinata, con obiettivi misurabili e indicatori di performance. L'istituto potrebbe beneficiare di un maggiore focus sulla prevenzione del **disagio scolastico** e sulla promozione di percorsi personalizzati per gli studenti, in particolare per quelli a rischio di abbandono.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Salesiano Sacro Cuore di Napoli presenta un approccio orientativo solido e ben strutturato, supportato da una vasta rete di partnership e da un'offerta formativa diversificata. Tuttavia, per ottimizzare l'efficacia dell'azione orientativa, si raccomanda di integrare una sezione dedicata all'orientamento nel PTOF, definendo obiettivi specifici, indicatori di performance e strategie di monitoraggio. L'istituto dovrebbe inoltre rafforzare le azioni di prevenzione del disagio scolastico e promuovere percorsi personalizzati per gli studenti, in linea con le finalità e gli obiettivi delineati nel PTOF. Attività come **PCTO**, **Carriera Alias** e il programma sperimentale per **studenti atleti** dimostrano un'attenzione all'inclusione e alla personalizzazione dei percorsi formativi."
+}

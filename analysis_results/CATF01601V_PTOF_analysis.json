@@ -1,0 +1,346 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CATF01601V",
+    "denominazione": "I.I.S.\"P. Levi\" Quartu S.E.",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Quartu Sant'Elena",
+    "anno_ptof": null,
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Pitz'E Serra Quartu S.E.",
+    "cap": "09045",
+    "email": "cais01600a@istruzione.it",
+    "pec": "cais01600a@pec.istruzione.it",
+    "website": "www.itclevi.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti territoriali",
+        "enti pubblici",
+        "enti privati",
+        "Scienza Società e Scienza",
+        "INFN",
+        "CRS4",
+        "Università degli Studi di Cagliari",
+        "Istituto Italiano dei Castelli",
+        "Unica Radio",
+        "Fondazione Treccani Roma",
+        "Ente CORECOM Sardegna",
+        "Associazione Donna Ceteris",
+        "Asd Arcipelaghi",
+        "Girasole delle Somasche Ets",
+        "Fondazione Carlo Enrico Giulini ETS",
+        "Malik E.T.S.",
+        "Ufficio Scolastico Regionale per la Sardegna",
+        "Centro per la Giustizia Minorile per la Sardegna",
+        "Comune di Quartu Sant’Elena",
+        "La carovana società cooperativa sociale",
+        "Costa Crociere Foundation",
+        "Fondazione di Sardegna",
+        "Polizia Stradale di Cagliari"
+      ],
+      "partnership_count": 23
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi per la Formazione scuola lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze extrascolastiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Programma MIM-CONI",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Supporto studenti-atleti",
+      "target": "Studenti-atleti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e tirocini per collegamento con mondo del lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite guidate presso aziende del settore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Seminari con esperti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti del settore",
+      "target": "Studenti degli ultimi anni"
+    },
+    {
+      "titolo_attivita": "Gioco di squadra",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Percorso sportivo ed educativo contro stereotipi, discriminazioni e violenza di genere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Donne al timone, la giusta rotta",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Aumentare la sensibilità e la consapevolezza sulla violenza di genere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "DesTEENazione – Desideri in Azione",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Promuovere benessere e autonomia adolescenti",
+      "target": "Adolescenti"
+    },
+    {
+      "titolo_attivita": "BIP! (Benessere Inclusione Partecipazione)",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Combattere povertà educativa",
+      "target": "Adolescenti"
+    },
+    {
+      "titolo_attivita": "Aiutiamoci: Affettività",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Controllo emozioni, elaborazione momenti negativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recuperiamo: scrittura creativa",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Valorizzare creatività e espressione del sé",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Digitiamo; giornalismo",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Radio web per comunicazione attività studentesche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La mia vita non dipende",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Strumenti per stili di vita sani e prevenzione dipendenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Inclusivo in Kayak 2025-2026",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Favorire legami e abilità personali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Difesa Personale",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Allenamento corpo e gestione emozioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Racchette in classe",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promuovere cultura sportiva",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "School Games VI Edizione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire inclusione e benessere scolastico",
+      "target": "Studenti BES"
+    },
+    {
+      "titolo_attivita": "Musica insieme",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Laboratorio musicale extracurriculare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto studente-atleta MIM",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Conciliare studio e sport",
+      "target": "Studenti atleti"
+    },
+    {
+      "titolo_attivita": "Martina Lions",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Informazione sulle malattie tumorali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Disturbo da uso di sostanze (DSU)",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Informazione sugli effetti delle sostanze psicoattive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "SUNTeL",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Consapevolezza sui tumori cutanei",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Star bene a scuola con il diabete",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Rispondere ai bisogni di studenti diabetici",
+      "target": "Studenti diabetici"
+    },
+    {
+      "titolo_attivita": "OPEN Coesione",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Didattica interdisciplinare e monitoraggio civico dei finanziamenti pubblici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Social Radio I love Radio Prof",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Web-radio per sconfiggere l'isolamento, apprendimento in situazione, podcasting.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Carnevale Internazionale dei Ragazzi",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Partecipazione con format \"I LOVE RADIO PROF\".",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Gianni Massa",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Vincita del 1° Premio sul tema: L’insularità nella Costituzione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso sui bombardamenti a Cagliari",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Analisi testi, visite guidate, rappresentazioni teatrali, archivio storico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Guida attiva per la comunità",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Attività formative, laboratoriali, esperienza diretta, guide turistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Dalla Pagina alla Realtà",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Collegamento narrazione letteraria con esperienze di vita reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Storia applicata e Immersiva",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Laboratorio interdisciplinare, manufatti, mostra immersiva, concerto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "DELE, KET, PET, FIRST, DELF, FIT",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Twinning",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Scambi linguistici, produzione materiali multimediali, collaborazione scuole Sardegna/Asturie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto START",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Bilancio competenze, orientamento alla professione, all'imprenditorialità",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CATF01601V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.I. “P. Levi” (CATF01601V), istituto tecnico di secondo grado situato a Quartu Sant'Elena, in Sardegna. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio di 7 su una scala non specificata. L'istituto si distingue per un'ampia rete di **partnership** con enti territoriali, pubblici, privati, università e fondazioni, che costituisce un solido supporto per le attività di orientamento e PCTO. Le finalità dell'orientamento sono ben definite, mirando a sviluppare attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, come evidenziato dal punteggio di 7. Questo indica una chiara attenzione strategica verso questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un network di **23 partner**, tra cui **enti territoriali**, **enti pubblici**, **enti privati**, **Scienza Società e Scienza**, **INFN**, **CRS4**, **Università degli Studi di Cagliari**, **Istituto Italiano dei Castelli**, **Unica Radio**, **Fondazione Treccani Roma**, **Ente CORECOM Sardegna**, **Associazione Donna Ceteris**, **Asd Arcipelaghi**, **Girasole delle Somasche Ets**, **Fondazione Carlo Enrico Giulini ETS**, **Malik E.T.S.**, **Ufficio Scolastico Regionale per la Sardegna**, **Centro per la Giustizia Minorile per la Sardegna**, **Comune di Quartu Sant’Elena**, **La carovana società cooperativa sociale**, **Costa Crociere Foundation**, **Fondazione di Sardegna** e **Polizia Stradale di Cagliari**. Questa vasta rete di collaborazioni rappresenta una risorsa preziosa per arricchire l'offerta formativa e fornire agli studenti opportunità concrete di orientamento e collegamento con il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben delineate e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità. Tutti questi aspetti ricevono un punteggio di 5, indicando un'attenzione equilibrata a diversi aspetti cruciali.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 5), la continuità con il **territorio** (punteggio 5), il contrasto al fenomeno **NEET** (punteggio 3) e la promozione del **lifelong learning** (punteggio 5). L'obiettivo di contrastare i NEET risulta leggermente meno prioritario rispetto agli altri.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte queste azioni ottengono un punteggio di 5, suggerendo un approccio sistemico e integrato all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 6), sull'utilizzo di laboratori (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio interdisciplinare (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte culturali (punteggio 5), laboratoriali ed espressive (punteggio 5), ludiche e ricreative (punteggio 2), di volontariato (punteggio 2), e sportive (punteggio 4). Le attività ludico-ricreative e di volontariato sembrano meno sviluppate rispetto alle altre.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con numerosi enti e istituzioni, che offre agli studenti un'ampia gamma di opportunità di orientamento e collegamento con il mondo del lavoro. La presenza di una sezione dedicata all'orientamento e la definizione chiara delle finalità e degli obiettivi rappresentano ulteriori elementi positivi. L'impegno verso un approccio didattico basato sull'esperienza e sull'interdisciplinarità contribuisce a rendere l'orientamento più efficace e coinvolgente.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la minore priorità attribuita al contrasto del fenomeno **NEET**, come evidenziato dal punteggio di 3. Inoltre, l'offerta di attività opzionali ludico-ricreative e di volontariato appare meno sviluppata rispetto alle altre proposte. La flessibilità degli spazi e dei tempi nella didattica orientativa, pur presente, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl PTOF potrebbe beneficiare di un'analisi più approfondita delle cause dell'abbandono scolastico e di strategie mirate per contrastare il fenomeno **NEET**. Sarebbe opportuno ampliare l'offerta di attività opzionali ludico-ricreative e di volontariato, per rispondere a una gamma più ampia di interessi e bisogni degli studenti. Infine, un maggiore investimento nella flessibilità degli spazi e dei tempi potrebbe favorire l'implementazione di approcci didattici più innovativi e personalizzati.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.T.I. “P. Levi” dimostra un forte impegno verso l'orientamento, con una solida base di partenza rappresentata dalla vasta rete di **partnership** e dalla chiarezza delle finalità e degli obiettivi. Pur presentando alcune aree di debolezza, il PTOF offre un quadro complessivamente positivo e promettente per lo sviluppo di un'efficace azione orientativa a favore degli studenti. Le attività registrate, come **Percorsi per la Formazione scuola lavoro**, **Alternanza scuola-lavoro**, **Visite aziendali** e i numerosi progetti di **prevenzione** e **benessere**, testimoniano un impegno concreto verso la crescita e lo sviluppo degli studenti."
+}

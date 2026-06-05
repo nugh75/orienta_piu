@@ -1,0 +1,266 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDAA85905L",
+    "denominazione": "Palazzolo - Rivignano Teor",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Pocenia",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Venezia 118",
+    "cap": "33050",
+    "email": "tsic80300d@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.6icudine.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Unità di valutazione multidisciplinare",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Patto di corresponsabilità",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Revisione e aggiornamento del patto",
+      "target": "Famiglie, docenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curriculare",
+      "descrizione_e_metodologia": "33 ore annuali, trasversale e interdisciplinare, affidato a tutti i docenti",
+      "target": "Tutti i gradi di istruzione"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria e secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale con esperti.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2, percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni classi terze scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro online tra docenti degli anni ponte",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire la conoscenza delle specificità dei diversi segmenti scolastici e il passaggio di informazioni sugli alunni con BES.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lavoro sistematico per dipartimenti verticali",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Revisione periodica e operativizzazione del Curricolo d’Istituto.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari al passaggio tra gradi di scuola.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Educazione Interculturale",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDAA85905L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia Pocenia/Torsa** (UDAA85905L), con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo al periodo 2019/20-2021/22, evidenzia un impegno significativo verso la costruzione di un sistema di orientamento ben strutturato, come dimostra la presenza di una sezione dedicata e un punteggio di 3 su una scala non specificata. La scuola, situata nel territorio non metropolitano del **Friuli-Venezia Giulia** e afferente alla provincia di **Udine**, si distingue per una forte rete di **partnership** con diversi attori del territorio, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, **musei**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, **Legambiente**, l'**IRCCS Burlo Garofolo**, l'**Unità di valutazione multidisciplinare**, **Altre scuole**, **Altre associazioni**, **Autonomie locali** e l'**ASL**. Questo tessuto relazionale rappresenta un valore aggiunto per l'implementazione di azioni di orientamento efficaci.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede esplicitamente una sezione dedicata all'orientamento, confermando l'importanza attribuita a questa dimensione.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di partnership (16), suggerendo una solida capacità di collaborare con enti e istituzioni esterne per potenziare l'offerta formativa e le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** degli studenti, alla progettazione del **progetto di vita** e alla facilitazione delle **transizioni formative**. Particolare attenzione è rivolta allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la promozione della continuità territoriale, il contrasto alla dispersione scolastica e l'incentivo al **lifelong learning**. L'obiettivo di contrastare i **NEET** risulta meno prioritario, con un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Le azioni previste mirano al coordinamento dei servizi, al dialogo tra docenti e studenti, al rafforzamento del rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando le opportunità di scelta per gli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** con il territorio e nell'attenzione alle **transizioni formative**. L'impegno verso l'inclusione e il supporto agli studenti con fragilità rappresenta un ulteriore elemento positivo. Le attività registrate, come le **Visite guidate** e gli **incontri con professionisti** nell'ambito dell'ampliamento curricolare, dimostrano un approccio pratico all'orientamento. Il **Patto di corresponsabilità** e il **Monitoraggio Didattica Digitale Integrata** evidenziano l'attenzione alla comunicazione e alla valutazione.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la minore priorità attribuita al contrasto dei **NEET**, come evidenziato dal punteggio inferiore rispetto agli altri obiettivi. Potrebbe essere utile rafforzare le azioni specifiche volte a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario monitorare costantemente l'efficacia delle azioni intraprese e valutare l'impatto delle **partnership** sulla qualità dell'orientamento offerto. Un'analisi più approfondita dei dati relativi all'abbandono scolastico e alla dispersione formativa potrebbe rivelare eventuali gap da colmare.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia Pocenia/Torsa** presenta un quadro complessivamente positivo per quanto riguarda la dimensione dell'orientamento. La presenza di una sezione dedicata, la solida rete di **partnership** e l'attenzione alle **transizioni formative** rappresentano elementi distintivi. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra un impegno concreto verso la costruzione di un sistema di orientamento efficace e in linea con le esigenze del territorio. L'implementazione delle attività registrate, come il **Programma Continuità**, il **Weissingioco**, **Il Gioco Del Teatro**, **Intercultura E Integrazione Alunni Stranieri**, **Scuola Amica, CCRR**, **Orientamento In Uscita Classi Terze Scuola Secondaria**, **Momenti di lavoro online tra docenti degli anni ponte**, **Lavoro sistematico per dipartimenti verticali**, **Accoglienza alunni**, **Progetto di istituto per l'inclusione**, **Progetto di istituto di educazione interculturale**, **Formazione del personale** e le **Attività didattiche**, contribuisce a creare un ambiente scolastico stimolante e orientato allo sviluppo integrale degli studenti."
+}

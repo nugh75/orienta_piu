@@ -1,0 +1,161 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GETF01801G",
+    "denominazione": "Istituto Majorana/Giorgi",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2025-2028",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via S.Allende 41",
+    "cap": "16138",
+    "email": "geis018003@istruzione.it",
+    "pec": "ND",
+    "website": "www.majorana-giorgi.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato in diversi punti, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "ITS",
+        "enti di ricerca del territorio ligure",
+        "imprese",
+        "enti e associazioni del territorio"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzazione delle potenzialità e degli stili di apprendimento",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "valorizzazione delle potenzialità",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "orientamento in uscita",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "orientamento",
+        "evidence_location": "Pagina 2"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage qualificanti",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage con imprese e ITS",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze pratiche in azienda",
+      "5w_dove": "Aziende e ITS del territorio ligure",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Legame con il mondo del lavoro, orientamento in uscita",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "tramite rapporti con le imprese sia al fine di proporre stage qualificanti agli studenti, sia in prospettiva di orientamento in uscita.",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Incontri con i genitori",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Incontri per illustrare il regolamento e stabilire canali di comunicazione",
+      "5w_chi": "Genitori degli studenti di prima",
+      "5w_cosa": "Illustrazione del regolamento e comunicazione",
+      "5w_dove": "Istituto",
+      "5w_quando": "Inizio anno scolastico",
+      "5w_perche": "Collaborazione scuola-famiglia",
+      "ore_dichiarate": "ND",
+      "target": "Genitori",
+      "evidence_quote": "In particolare si organizzeranno incontri con i genitori delle classi prime per illustrare le procedure contenute del Regolamento di Istituto e stabilire canali diretti di comunicazione con la vicepresidenza",
+      "evidence_location": "Pagina 2"
+    }
+  ],
+  "narrative": "## Analisi del PTOF GEIS018003\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto \"Majorana - Giorgi\" evidenzia un approccio all'orientamento integrato nelle diverse aree del documento, piuttosto che strutturato in una sezione specifica. L'orientamento è concepito principalmente come un supporto alla transizione post-diploma e all'inserimento nel mondo del lavoro, con un'enfasi sulle competenze tecniche e professionali. La collaborazione con ITS e imprese locali costituisce un elemento positivo, sebbene manchi una visione più olistica che consideri lo sviluppo personale, le attitudini degli studenti e un'esplicita attenzione al loro progetto di vita.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nL'assenza di una sezione dedicata all'orientamento rappresenta una criticità significativa, in quanto limita la chiarezza e la sistematicità delle azioni intraprese. L'orientamento è affrontato in modo frammentario all'interno di altri capitoli, rendendo difficile una valutazione complessiva dell'offerta formativa in questo ambito.\n\n#### 2.2 Partnership e Reti\nLe partnership con ITS e imprese sono un punto di forza del PTOF, offrendo agli studenti opportunità concrete di orientamento professionale e di contatto con il mondo del lavoro. La ricerca di collaborazioni con enti di ricerca del territorio ligure è un'iniziativa apprezzabile, che può ampliare ulteriormente le opportunità di apprendimento sul campo. Tuttavia, sarebbe opportuno definire accordi più strutturati e implementare un sistema di monitoraggio dei risultati per valutarne l'efficacia.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono prevalentemente orientate alla valorizzazione delle potenzialità degli studenti e alla loro preparazione per il mondo del lavoro. Si rileva una mancanza di attenzione esplicita allo sviluppo del progetto di vita e alla consapevolezza delle proprie attitudini e interessi. Gli obiettivi, pur essendo definiti, potrebbero essere resi più specifici, misurabili e allineati alle finalità dichiarate.\n\n#### 2.4 Governance e Azioni di Sistema\nIl coinvolgimento dei docenti e dei genitori è considerato un elemento importante per l'orientamento degli studenti. Tuttavia, manca un coordinamento sistematico delle azioni e un monitoraggio dei risultati ottenuti. L'integrazione dell'orientamento con le attività di inclusione e di contrasto alla dispersione scolastica è un aspetto positivo, ma necessita di essere ulteriormente sviluppato.\n\n#### 2.5 Didattica Orientativa\nLa didattica laboratoriale è valorizzata come strumento per sviluppare competenze pratiche e professionali. Tuttavia, non emerge un'attenzione specifica all'utilizzo di metodologie didattiche innovative per l'orientamento, come il portfolio delle competenze o la simulazione di colloqui di lavoro. L'enfasi sulle attività laboratoriali, sebbene positiva, non si traduce automaticamente in un'offerta formativa orientativa efficace.\n\n#### 2.6 Opportunità Formative\nLe opportunità formative opzionali sono limitate e non sembrano essere specificamente orientate allo sviluppo di competenze trasversali o alla scoperta delle proprie attitudini. Sarebbe auspicabile ampliare l'offerta di attività opzionali, includendo percorsi dedicati all'orientamento e alla crescita personale.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Stage qualificanti\nGli stage qualificanti rappresentano un'opportunità preziosa per gli studenti di entrare in contatto con il mondo del lavoro e di acquisire competenze professionali. La collaborazione con le imprese e gli ITS è fondamentale per garantire la qualità degli stage e la loro rilevanza per il futuro lavorativo degli studenti.\n\n#### 2.7.2 Incontri con i genitori\nGli incontri con i genitori sono un'occasione importante per stabilire un dialogo costruttivo e per coinvolgerli nel processo educativo dei figli. La comunicazione tempestiva e trasparente delle informazioni è essenziale per creare un clima di fiducia e collaborazione.\n\n### 3. Punti di Forza\nIl principale punto di forza è la presenza di partnership con ITS e imprese, che offrono agli studenti opportunità concrete di orientamento professionale.\n\n### 4. Aree di Debolezza\nLa mancanza di una sezione dedicata all'orientamento e di un coordinamento sistematico delle azioni rappresentano le principali aree di debolezza.\n\n### 5. Gap Analysis\nÈ necessario definire una strategia di orientamento più strutturata e integrata, che tenga conto delle esigenze e delle aspirazioni degli studenti e che coinvolga tutti gli attori del sistema scolastico. Si evidenzia la necessità di potenziare l'offerta di attività opzionali dedicate all'orientamento e di implementare metodologie didattiche innovative per lo sviluppo delle competenze trasversali.\n\n### 6. Conclusioni\nL'orientamento nel PTOF dell'Istituto \"Majorana - Giorgi\" è un aspetto importante, ma necessita di essere potenziato e sistemato per garantire agli studenti una preparazione adeguata per il futuro. Un approccio più olistico, che consideri lo sviluppo personale, le attitudini degli studenti e l'integrazione con le attività di inclusione, potrebbe contribuire a migliorare l'efficacia dell'offerta formativa in questo ambito."
+}

@@ -1,0 +1,341 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZPS02901D",
+    "denominazione": "I.O. \"E. Majorana\" Genzano Di Lucania",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Genzano Di Lucania",
+    "anno_ptof": "2024-2028",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Pennella",
+    "cap": "85013",
+    "email": "pzis029003@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.majorangenzano.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Addio Pizzo",
+        "Libera",
+        "Centro Studi Pio La Torre",
+        "Caritas",
+        "Mensa dei Poveri",
+        "Ateneo Palermitano (Dipartimento Ingegneria Chimica e Informatica)",
+        "INGV",
+        "CONI",
+        "Lega Serie A",
+        "Comitato Italiano Paralimpico (CIP)",
+        "Sport e Salute S.p.A.",
+        "Enti locali",
+        "associazioni",
+        "terzo settore",
+        "imprese",
+        "Università",
+        "Enti di Ricerca",
+        "Forze dell’Ordine",
+        "Ministero dell’istruzione e del merito",
+        "Ufficio Scolastico Regionale per la Sicilia",
+        "Azienda Sanitaria Locale",
+        "Servizi territoriali",
+        "Istituzioni",
+        "Enti",
+        "NetSense S.R.L.",
+        "FIN",
+        "FIPAV",
+        "FIR",
+        "FISPIC",
+        "FIV"
+      ],
+      "partnership_count": 23
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 7
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazioni con enti, associazioni, università e imprese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partenariati Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali e formativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Iniziative cittadinanza attiva e legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Collaborazioni con associazioni come Addio Pizzo e Libera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi finanziati dal PNRR",
+      "categoria_principale": "Recupero Dispersione",
+      "descrizione_e_metodologia": "Percorsi di istruzione domiciliare",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Studenti-Atleti",
+      "categoria_principale": "Eccellenze",
+      "descrizione_e_metodologia": "Supporto agli studenti impegnati nello sport agonistico",
+      "target": "Studenti-Atleti"
+    },
+    {
+      "titolo_attivita": "Formazione Scuola-Lavoro (FSL)",
+      "categoria_principale": "PCTO/FSL",
+      "descrizione_e_metodologia": "Percorsi in azienda con tutor scolastico e aziendale.",
+      "target": "Studenti biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e docenti all'estero.",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Iniziative cittadinanza attiva e legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Collaborazioni con associazioni come Addio Pizzo e Libera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di primo soccorso",
+      "categoria_principale": "formazione",
+      "descrizione_e_metodologia": "Corsi pratici e teorici",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "corsi sicurezza PCTO",
+      "categoria_principale": "formazione",
+      "descrizione_e_metodologia": "Formazione propedeutica",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "formazione rappresentanze studentesche",
+      "categoria_principale": "formazione",
+      "descrizione_e_metodologia": "Corsi dedicati",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "LABORATORIO DI CODING E ROBOTICA II ed.",
+      "categoria_principale": "PCTO/Orientamento",
+      "descrizione_e_metodologia": "Laboratorio pratico di coding e robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Segnaletica Interna Di Istituto",
+      "categoria_principale": "PCTO/Orientamento",
+      "descrizione_e_metodologia": "Realizzazione segnaletica interna",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Insieme Per L’Inclusione",
+      "categoria_principale": "PCTO/Orientamento",
+      "descrizione_e_metodologia": "Progetto sull'inclusione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Di Un Sistema Di Trasmissione",
+      "categoria_principale": "PCTO/Orientamento",
+      "descrizione_e_metodologia": "Progetto sistema trasmissione radio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate ad aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progettare per competenze",
+      "categoria_principale": "Didattica per competenze",
+      "descrizione_e_metodologia": "Corso di formazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CLIL Content and Language Integrated Language",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di lingua inglese",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Coding e pensiero computazionale",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Corso di formazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Flipped classroom e cooperative learning",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Corso di formazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Bullismo e cyber bullismo",
+      "categoria_principale": "Coesione sociale",
+      "descrizione_e_metodologia": "Protocollo di prevenzione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Informativa sulla privacy",
+      "categoria_principale": "Privacy e sicurezza dati",
+      "descrizione_e_metodologia": "Visione dell'informativa e sottoscrizione dichiarazione liberatoria",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Netiquette",
+      "categoria_principale": "Cittadinanza digitale",
+      "descrizione_e_metodologia": "Sottoscrizione del patto di Netiquette",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Patto educativo di corresponsabilità",
+      "categoria_principale": "Prevenzione bullismo e DDI",
+      "descrizione_e_metodologia": "Sottoscrizione del patto",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza DDI",
+      "categoria_principale": "Sicurezza sul lavoro",
+      "descrizione_e_metodologia": "Nota informativa per docenti e RSPP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite ad aziende locali",
+      "target": "Studenti biennio"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Istruzione Domiciliare",
+      "categoria_principale": "Istruzione Speciale",
+      "descrizione_e_metodologia": "Progetto di istruzione domiciliare con ore curricolari e fuori orario.",
+      "target": "Alunni con bisogni educativi speciali"
+    },
+    {
+      "titolo_attivita": "Incontri periodici con l’equipe medica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri periodici per alunni disabili",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Attività educativo-riabilitative",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività individuali o a piccolo gruppo",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Inserimento nel mondo del lavoro",
+      "target": "Studenti certificati e con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZPS02901D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo \\\"Majorana\\\" Genzano Di Lucania** (PZPS02901D) per il periodo 2024-2028. La scuola, situata in **Basilicata** e operante nel territorio **non metropolitano**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. L'istituto si distingue per una vasta rete di **partnership** con enti locali, associazioni, università e imprese, che costituisce un solido fondamento per le attività di orientamento e transizione degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **23 partner**, tra cui **Addio Pizzo**, **Libera**, **Centro Studi Pio La Torre**, **Caritas**, **Mensa dei Poveri**, **Ateneo Palermitano**, **INGV**, **CONI**, **Lega Serie A**, **Comitato Italiano Paralimpico (CIP)**, **Sport e Salute S.p.A.**, oltre a enti locali, terzo settore, imprese, università, enti di ricerca, forze dell’ordine e istituzioni. Questo ampio ventaglio di collaborazioni offre agli studenti diverse opportunità di contatto con il mondo del lavoro e del volontariato.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi** e la progettazione del **progetto di vita** degli studenti, con particolare attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal territorio. I punteggi ottenuti (5 per attitudini e interessi, 7 per le restanti) indicano un'attenzione equilibrata a tutti gli aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono scolastico**, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I punteggi ottenuti (6 per ridurre l'abbandono e la continuità territoriale, 5 per contrastare i NEET, 7 per il lifelong learning) suggeriscono un focus particolare sull'apprendimento permanente.\n\n**2.5 Azioni di Sistema:** Le azioni previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. I punteggi (6 per coordinamento e monitoraggio, 7 per le restanti) evidenziano un approccio sistemico e collaborativo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. I punteggi uniformemente pari a 6 indicano una buona implementazione di queste metodologie.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale, ludico-ricreativo, di **volontariato** e sportivo. Il punteggio più alto (7) è attribuito alle opzionali di volontariato, sottolineando l'importanza attribuita alla cittadinanza attiva.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** con enti e istituzioni del territorio, che offre agli studenti numerose opportunità di orientamento e di contatto con il mondo del lavoro. L'attenzione alle finalità di **progetto di vita** e alle **transizioni formative**, unitamente all'impegno per il **lifelong learning**, costituiscono ulteriori elementi di valore. L'integrazione di azioni di sistema e l'utilizzo di metodologie didattiche innovative completano il quadro dei punti di forza.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, si rileva una minore attenzione alla lotta contro il fenomeno dei **NEET**, come evidenziato dal punteggio più basso in questa dimensione. Potrebbe essere utile rafforzare le azioni specifiche volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani.\n\n### 5. Gap Analysis\n\nIl divario tra l'ampia offerta di **partnership** e il punteggio relativamente basso nella lotta ai **NEET** suggerisce la necessità di tradurre le collaborazioni in azioni concrete volte a favorire l'occupabilità degli studenti. Un maggiore focus sull'orientamento professionale e sullo sviluppo di competenze richieste dal mercato del lavoro potrebbe colmare questo divario.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo \\\"Majorana\\\" Genzano Di Lucania** presenta una solida base per l'implementazione di un efficace sistema di orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership**, le finalità ben definite e le azioni di sistema integrate costituiscono elementi di forza. Un maggiore impegno nella lotta ai **NEET** e un focus sull'orientamento professionale potrebbero ulteriormente migliorare l'efficacia del PTOF e garantire agli studenti un futuro di successo. Le attività registrate, come i percorsi **PCTO**, i **partenariati Erasmus+**, le iniziative di **cittadinanza attiva e legalità**, i corsi **PNRR** e il supporto agli **studenti-atleti**, dimostrano un impegno concreto nella realizzazione degli obiettivi prefissati."
+}

@@ -1,0 +1,241 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAAA87803C",
+    "denominazione": "Dolianova",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Donori",
+    "anno_ptof": "2022-2025",
+    "provincia": "Sud Sardegna",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Loc. Su Zurru",
+    "cap": "09040",
+    "email": "caic87800d@istruzione.it",
+    "pec": "caic87800d@pec.istruzione.it",
+    "website": "www.comprensivodolianova.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "CONI",
+        "ASL",
+        "Enti locali",
+        "Amministrazioni",
+        "forze dell’ordine",
+        "servizio sanitario",
+        "associazioni locali",
+        "consultori"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Accoglienza",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Incontri con genitori, attività per alunni nuovi e frequenti",
+      "target": "Genitori, Alunni"
+    },
+    {
+      "titolo_attivita": "Continuità",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Collaborazione tra ordini di scuola, scambio informazioni",
+      "target": "Alunni, Insegnanti"
+    },
+    {
+      "titolo_attivita": "Intercultura",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Alfabetizzazione, mediatori linguistici",
+      "target": "Alunni stranieri, Famiglie"
+    },
+    {
+      "titolo_attivita": "Benessere e Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Gruppo di lavoro inclusione, monitoraggio DSA, sportello psicologia",
+      "target": "Alunni con BES, Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto triennale, conoscenza sé, Open day",
+      "target": "Alunni, Genitori"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Prevenzione bullismo, educazione stradale, sicurezza",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Educazione all’affettività",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri con i consultori",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Collaborazione con forze dell'ordine",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Lotta all’abuso di sostanze stupefacenti",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Collaborazione con associazioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Il cinema in classe",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Proiezione e discussione di film",
+      "target": "1^A"
+    },
+    {
+      "titolo_attivita": "Bibliotecando e cittadinando",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite guidate e laboratori",
+      "target": "3^A"
+    },
+    {
+      "titolo_attivita": "La scuola nel bosco",
+      "categoria_principale": "Ambientale",
+      "descrizione_e_metodologia": "Esplorazione e attività didattiche",
+      "target": "1^C"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Transizione",
+      "descrizione_e_metodologia": "Attività congiunte infanzia/primaria",
+      "target": "1^D, 1^F"
+    },
+    {
+      "titolo_attivita": "Generazione Volley",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Incontri e allenamenti",
+      "target": "1^A, 1^B, 1^C, 1^F"
+    },
+    {
+      "titolo_attivita": "Progetto Musicale: voce-ritmo-musica e movimento",
+      "categoria_principale": "Espressiva",
+      "descrizione_e_metodologia": "Laboratori musicali",
+      "target": "Tutte le sezioni Infanzia"
+    },
+    {
+      "titolo_attivita": "Cancro io ti boccio",
+      "categoria_principale": "Sanitaria",
+      "descrizione_e_metodologia": "Sensibilizzazione",
+      "target": "Tutte le classi Secondaria"
+    },
+    {
+      "titolo_attivita": "Campionati internazionali di giochi matematici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Competizioni matematiche",
+      "target": "3^A, 3^B"
+    },
+    {
+      "titolo_attivita": "Avviamento al latino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lezioni introduttive",
+      "target": "3^A"
+    },
+    {
+      "titolo_attivita": "Eureka: La scienza in gioco",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Esperimenti scientifici",
+      "target": "2^A, 2^B, 3^A, 4^C, 4^F, 2^C, 2^F, 3^B, 3^C"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAAA87803C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo di Donori (Sud Sardegna), identificato dal codice CAAA87803C, con particolare attenzione alla dimensione dell'orientamento. Il PTOF 2022-2025 evidenzia un impegno significativo verso l'orientamento, come dimostra la presenza di una sezione dedicata e un punteggio medio elevato nelle diverse aree di valutazione. L'istituto mostra una buona capacità di collaborare con diversi **partner** esterni, tra cui **CONI**, **ASL**, **enti locali**, **forze dell’ordine** e **associazioni locali**, per arricchire l'offerta formativa e supportare gli studenti nel loro percorso di crescita. Le finalità dell'orientamento sono ben definite, con particolare attenzione allo sviluppo delle **attitudini**, degli **interessi** e alla costruzione di un **progetto di vita** per gli alunni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando un'attenzione strutturata a questo aspetto.\n\n**2.2 Partnership:** L'istituto vanta una rete di **partnership** consolidata, comprendendo ben 8 collaborazioni con enti e istituzioni del territorio. Questa sinergia permette di ampliare l'offerta formativa e offrire agli studenti opportunità di confronto e crescita.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate con un punteggio elevato (6) in termini di sviluppo di **attitudini**, **interessi** e costruzione del **progetto di vita** degli studenti. Meno marcata, con un punteggio di 3, l'attenzione alle **transizioni formative**, mentre la capacità di orientare verso le **opportunità** future riceve un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientamento si concentrano sulla riduzione dell'**abbandono** scolastico (4), sulla continuità territoriale (4), sul contrasto al fenomeno **NEET** (3) e sulla promozione del **lifelong learning** (4).\n\n**2.5 Azioni di Sistema:** Le azioni messe in atto per supportare l'orientamento sono considerate efficaci, con punteggi elevati per il **coordinamento dei servizi** (6), il **dialogo tra docenti e studenti** (5), il **rapporto scuola-genitori** (6), il **monitoraggio delle azioni** (5) e la creazione di un **sistema integrato di inclusione e fragilità** (6).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (5), sull'utilizzo di metodologie **laboratoriali** (3), sulla **flessibilità degli spazi e dei tempi** (4) e sull'approccio **interdisciplinare** (6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (4), **laboratoriali ed espressive** (5), **ludiche e ricreative** (4), **sportive** (5), mentre il **volontariato** risulta meno sviluppato (1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership** con enti esterni e nella chiarezza delle finalità e degli obiettivi. L'istituto dimostra una buona capacità di integrare l'orientamento all'interno del sistema scolastico, attraverso azioni di **coordinamento**, **dialogo** e **monitoraggio**. L'offerta didattica orientativa è diversificata e si basa su metodologie innovative, come l'apprendimento dall'esperienza e l'approccio interdisciplinare.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente l'attenzione alle **transizioni formative** e allo sviluppo di competenze specifiche per il contrasto al fenomeno **NEET**. L'offerta di attività opzionali legate al **volontariato** appare limitata. Inoltre, l'utilizzo di metodologie **laboratoriali** nell'ambito dell'orientamento potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a facilitare le **transizioni formative** degli studenti, in particolare verso l'istruzione secondaria di secondo grado e il mondo del lavoro. È necessario ampliare l'offerta di attività opzionali legate al **volontariato** e promuovere una maggiore integrazione tra l'orientamento e le attività **laboratoriali**.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF CAAA87803C presenta un approccio strutturato e consapevole all'orientamento, con numerosi punti di forza e alcune aree di miglioramento. L'istituto dimostra un impegno significativo verso lo sviluppo delle competenze e delle potenzialità degli studenti, attraverso una rete di **partnership** consolidata e un'offerta formativa diversificata. Il PTOF rappresenta un valido strumento per guidare l'azione educativa dell'istituto e garantire un futuro di successo per i suoi alunni. Le attività registrate, come **Accoglienza**, **Continuità**, **Intercultura**, **Benessere e Inclusione**, **Orientamento**, **Educazione civica**, **Educazione all’affettività**, **Educazione stradale**, **Lotta all’abuso di sostanze stupefacenti**, **Il cinema in classe**, **Bibliotecando e cittadinando**, **La scuola nel bosco**, **Progetto continuità**, **Generazione Volley**, **Progetto Musicale: voce-ritmo-musica e movimento**, **Cancro io ti boccio**, **Campionati internazionali di giochi matematici**, **Avviamento al latino** ed **Eureka: La scienza in gioco**, dimostrano un impegno concreto nella realizzazione degli obiettivi prefissati."
+}

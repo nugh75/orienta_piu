@@ -1,0 +1,419 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1A54700X",
+    "denominazione": "Maria Immacolata",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Pomezia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale",
+    "indirizzo": "Via Pier Crescenzi 11",
+    "cap": "00071",
+    "email": "maricesaretti@libero.it",
+    "statale_paritaria": "Paritaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nell'indice"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Parrocchia Anime Sante",
+        "Parrocchia Sacro Cuore",
+        "Musei",
+        "Istituti pubblici e privati",
+        "Associazioni di settore",
+        "Lega Navale Italiana",
+        "Comune di Alcamo",
+        "ASL",
+        "Istituto Mattarella - Dolci",
+        "Università",
+        "Cooperative",
+        "Associazioni",
+        "Società sportive",
+        "Trinity College London",
+        "Opera Nazionale Montessori"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di lingua straniera (inglese, spagnolo)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi antimeridiani e pomeridiani, gemellaggi",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Attività oratorio e associazioni sportive",
+      "categoria_principale": "Educazione fisica e sociale",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Percorso di recupero delle competenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività laboratoriali ed esperienziali, mobilità europea",
+      "target": "Studenti primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Percorso di consolidamento competenze trasversali",
+      "categoria_principale": "Competenze Trasversali",
+      "descrizione_e_metodologia": "Attività pratico-laboratoriali, mobilità europea",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività laboratoriali Agenda 2030",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendimento e potenziamento lingue",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Percorso formativo multiculturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consolidamento competenze digitali",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Implementazione didattica curriculare",
+      "target": "Docenti e Studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione percorsi didattici orientanti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio risultati a distanza",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi individualizzati con docenti, psicologi, assistenti sociali.",
+      "target": "Discenti con fragilità"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero competenze base in Italiano, Inglese e Matematica.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento per le famiglie",
+      "categoria_principale": "Coinvolgimento genitori",
+      "descrizione_e_metodologia": "Rappresentazione teatrale con genitori e alunni.",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento",
+      "categoria_principale": "Competenze trasversali",
+      "descrizione_e_metodologia": "Attività pratico-laboratoriali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Attività tecnica del Team per la prevenzione della dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Progettazione e gestione interventi con enti esterni.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Metodologie di approccio alle prove \"Computer based\"",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Sviluppa competenze digitali, organizzative e logiche.",
+      "target": "Classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto di potenziamento Lingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Apprendimento e miglioramento delle abilità linguistiche.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento alla pratica sportiva. Valorizza il rispetto delle regole.",
+      "target": "Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Vivere è stupefacente",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Prevenzione dell’uso della droga in età scolare.",
+      "target": "Classi terze Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Scuola Amica Unicef",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività educative su rispetto per se stessi, gli altri e l'ambiente.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero competenze base in Italiano, Inglese e Matematica.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività laboratoriali Agenda 2030",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso a indirizzo musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento strumenti: Arpa, Percussioni, Oboe, Fisarmonica. Lezioni individuali e d'insieme.",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Matematica e scienza dei dati con le tecnologie digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Workshop, analisi dati aperti",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Insegnare le scienze con la didattica digitale e la realtà aumentata",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori, tematiche scienze",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Disegnare e produrre oggetti con le tecnologie digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori, attività interdisciplinari",
+      "target": "Docenti scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Insegnare le STEAM in chiave interdisciplinare",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Ricerca-azione",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Inclusione e personalizzazione nell’insegnamento delle STEAM",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori, workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Frutta nelle scuole",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Programma di educazione alimentare",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Aiutami a fare da solo",
+      "categoria_principale": "Rete di scuole",
+      "descrizione_e_metodologia": "Cooperazione, condivisione risorse",
+      "target": "Scuole pubbliche siciliane"
+    },
+    {
+      "titolo_attivita": "Suoniamo con i musicisti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni in compresenza con docenti e musicisti, corso pomeridiano di avviamento strumentale.",
+      "target": "Classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Esami Trinity di musica",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esami di musica Classica & Jazz.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività teatrali",
+      "categoria_principale": "Coinvolgimento genitori",
+      "descrizione_e_metodologia": "Coinvolgimento genitori nella vita scolastica",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi pomeridiani di Francese e Tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Differenziazione didattica Montessori",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Formazione di Scuola/Rete",
+      "target": "Docenti di scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Educazione al gesto grafico",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti di scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Il metodo Bortolato",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti di scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione all'estero",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti impegnati nella realizzazione delle innovazioni"
+    },
+    {
+      "titolo_attivita": "Job shadowing all'estero",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Social networking",
+      "target": "Docenti impegnati nella realizzazione delle innovazioni"
+    },
+    {
+      "titolo_attivita": "Informazione e formazione in materia di igiene e sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Conoscenza del Piano di Gestione dell’Emergenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Aggiornamento competenze Primo soccorso e Prevenzione incendi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Somministrazione di farmaci a scuola",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso da remoto",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "La Transizione Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di Gamification",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Sviluppo modelli innovativi didattica digitale integrata",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Corso di differenziazione didattica Montessori",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti di scuola dell’infanzia e della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Disgrafia, istruzioni per l’uso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso da remoto",
+      "target": "Docenti di scuola primaria e scuola dell’infanzia"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Transizione ecologica e culturale",
+      "descrizione_e_metodologia": "Didattica attiva, laboratoriali, montessoriane. Riflessione obiettivi Agenda 2030",
+      "target": "Studenti"
+    }
+  ]
+}

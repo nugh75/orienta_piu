@@ -1,0 +1,196 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NA1A539002",
+    "denominazione": "L'Albero Azzurro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Casalnuovo Di Napoli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Raffaello 7",
+    "cap": "80013",
+    "email": "luisadicitore@virgilio.it",
+    "pec": "s.i.c.i.@pec.it",
+    "website": "www.lalbazzu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Comune di Padova",
+        "Regione Veneto",
+        "Università",
+        "associazioni culturali",
+        "forze dell’ordine",
+        "commercianti locali",
+        "famiglie",
+        "Caritas",
+        "Associazioni Sindacali",
+        "Camera di Commercio",
+        "UNIVERSITA' DI PADOVA E DI VENEZIA"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzato in collaborazione con industrie e aziende locali, in accordo con i genitori.",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "CLIL (Content and Language Integrated Learning)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Insegnamento di materie non linguistiche in lingua straniera (inglese, cinese).",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorni studio all'estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Organizzazione di soggiorni studio nei paesi delle lingue studiate.",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Robotica Educativa",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Costruzione e programmazione robot EV3 LEGO Mindstorms. Partecipazione gare First Lego League.",
+      "target": "Biennio"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara di Istituto, Gara Locale, Gara Nazionale.",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Soluzione di problemi matematici.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Matematica Cinese",
+      "categoria_principale": "Materie curriculari",
+      "descrizione_e_metodologia": "Sviluppo pensiero matematico, applicazione conoscenze, competizioni.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage presso aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua italiana L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto linguistico per studenti stranieri",
+      "target": "Studenti NAI"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione tecnica, didattica, registro elettronico, LIM, PCTO, PAI, GDPR",
+      "target": "Personale docente e ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NA1A539002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"L'Albero Azzurro\", scuola dell'infanzia paritaria situata a Casalnuovo Di Napoli (NA), per il triennio 2022-2025. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutandone la presenza, la coerenza e l'efficacia delle azioni previste. Il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione dedicata e un punteggio complessivo elevato nelle finalità e nelle azioni previste. L'istituto si impegna a costruire un sistema di orientamento che coinvolga diversi attori del territorio e che sia finalizzato allo sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF dedica uno spazio specifico all'orientamento, ottenendo un punteggio di 2, indicando un impegno formale in questa direzione.\n\n**2.2 Partnership:** L'istituto \"L'Albero Azzurro\" vanta un solido network di partnership, comprendente il **Comune di Padova**, la **Regione Veneto**, diverse **Università** (tra cui l'**UNIVERSITA' DI PADOVA E DI VENEZIA**), **associazioni culturali**, **forze dell’ordine**, **commercianti locali**, **famiglie**, **Caritas**, **Associazioni Sindacali** e la **Camera di Commercio**. Questo elevato numero di partner (11) suggerisce una forte integrazione con il territorio e una ricchezza di risorse per le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi massimi (4) per lo sviluppo di **attitudini**, **interessi**, **progetti di vita** e per il supporto alle **transizioni formative**, nonché per lo sviluppo delle **capacità orientative** necessarie per cogliere le **opportunità**.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono** scolastico e di favorire la continuità con il territorio, ottenendo punteggi elevati (4). Gli obiettivi di contrastare la dispersione scolastica e di promuovere il **lifelong learning** ricevono un punteggio inferiore (2), suggerendo un potenziale margine di miglioramento in queste aree.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF sono orientate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori**, al **monitoraggio delle azioni** e alla creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni ottengono punteggi elevati (3 o 4), evidenziando un approccio sistemico e integrato all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di **laboratori**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**. Queste metodologie didattiche ottengono punteggi buoni (3 o 4), dimostrando un impegno per un approccio attivo e coinvolgente all'orientamento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con punteggio 3, ampliando le possibilità di scelta per gli studenti e favorendo lo sviluppo dei loro interessi.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua attenzione all'orientamento, supportata da una solida rete di **partnership** e da finalità e azioni ben definite. L'istituto si impegna a fornire un supporto completo agli studenti, dallo sviluppo delle loro attitudini e interessi alla preparazione alle transizioni formative e all'inserimento nel mondo del lavoro. Le attività pratiche come **PCTO** e le **visite aziendali** sono particolarmente rilevanti in questo senso. La varietà delle attività proposte, che spaziano dalla **robotica educativa** ai **campionati di fisica** e alle **olimpiadi di matematica**, contribuisce a stimolare l'interesse degli studenti e a sviluppare le loro competenze.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di contrasto alla dispersione scolastica e di promozione del **lifelong learning**, che ottengono punteggi inferiori rispetto alle altre dimensioni. Questo suggerisce la necessità di rafforzare le azioni volte a prevenire l'abbandono scolastico e a promuovere l'apprendimento continuo lungo tutto l'arco della vita.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre gli obiettivi di contrasto alla dispersione scolastica e di promozione del **lifelong learning** in azioni concrete e misurabili. È importante definire indicatori specifici per monitorare i progressi in queste aree e valutare l'efficacia delle azioni implementate.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto \"L'Albero Azzurro\" presenta un'impostazione solida e coerente in materia di orientamento. L'istituto si impegna a fornire un supporto completo agli studenti, coinvolgendo diversi attori del territorio e offrendo una varietà di attività stimolanti e formative. Pur presentando alcune aree di debolezza, il PTOF dimostra un forte potenziale per raggiungere gli obiettivi prefissati e per contribuire al successo scolastico e professionale degli studenti."
+}

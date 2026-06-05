@@ -1,0 +1,438 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOIS017008",
+    "denominazione": "I.I.S. Enrico Mattei",
+    "tipo_scuola": "Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "San Lazzaro Di Savena",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Delle Rimembranze 26",
+    "cap": "40068",
+    "email": "bois017008@istruzione.it",
+    "pec": "bois017008@pec.istruzione.it",
+    "website": "www.istitutomattei.bo.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione dedicata all'integrazione con il territorio"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Lions Matelica",
+        "Comunità Montana",
+        "Regione Marche",
+        "Università degli Studi di Camerino",
+        "Lions Club di Matelica",
+        "ANMIG Matelica",
+        "C.R.I. Matelica",
+        "Questura di Macerata",
+        "Associazioni",
+        "Amministrazione Comunale",
+        "Protezione Civile",
+        "Croce Rossa",
+        "Associazioni di volontariato",
+        "Amnesty Kids",
+        "Legambiente",
+        "Azione contro la fame",
+        "ASUR",
+        "ANPI",
+        "CPIA",
+        "Università di Urbino",
+        "Fondazione Reggio Children",
+        "Associazione GErMINA ODV",
+        "CTS",
+        "Keypass srl",
+        "Ufficio Scolastico Regionale"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi sulle competenze di cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Realizzazione di unità di apprendimento per lo sviluppo delle competenze digitali e di cittadinanza.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di ambienti di apprendimento innovativi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Promuovere didattica esperienziale e attività cooperative.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi KET",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Certificazione KET per scuola secondaria I grado",
+      "target": "Studenti scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Percorsi Coding",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Percorsi coding per infanzia e primaria",
+      "target": "Studenti scuola infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Patente ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Percorsi per il conseguimento della patente ICDL",
+      "target": "Studenti scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Formazione docenti G-Suite",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Alfabetizzazione informatica G-Suite",
+      "target": "Studenti scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di mentoring e orientamento per classi prime e terze",
+      "target": "Studenti classi prime e terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto MURALES",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività laboratoriali per studenti classi terze",
+      "target": "Studenti classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto LA STORIA SIAMO NOI",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività coreutico-musicali per studenti classi terze",
+      "target": "Studenti classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Percorsi sulle competenze di cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Realizzazione di unità di apprendimento per lo sviluppo delle competenze digitali e di cittadinanza.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di ambienti di apprendimento innovativi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Promuovere didattica esperienziale e attività cooperative.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Musical...mente insieme seppur divisi",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Utilizzo della musica per favorire l'integrazione e l'inclusione",
+      "target": "Classi quarte primaria"
+    },
+    {
+      "titolo_attivita": "Visita sede ANMIG",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Conoscenza dei costi umani della guerra",
+      "target": "Classi terze secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Opera domani",
+      "categoria_principale": "Educazione Musicale",
+      "descrizione_e_metodologia": "Partecipazione attiva a spettacolo lirico",
+      "target": "Classi prime secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Alla scoperta della lingua e tradizioni",
+      "categoria_principale": "Lingua e Cultura",
+      "descrizione_e_metodologia": "Discussione usanze contadine e dialetti",
+      "target": "Classi prime secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Consiglio comunale dei ragazzi",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Formazione civica e partecipazione",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto MURALES",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività laboratoriali per studenti classi terze",
+      "target": "Studenti classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto LA STORIA SIAMO NOI",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività coreutico-musicali per studenti classi terze",
+      "target": "Studenti classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività formative organizzate dall'Ambito Regionale n. 8",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche con associazioni sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Progetti in collaborazione con enti di ricerca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendimento cooperativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Strategie didattiche inclusive",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Tutoring",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto tra pari",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Recupero linguistico",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Mediatori linguistici e laboratori",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Progetti screening",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Rilevazione precoce difficoltà",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori metafonologici",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Potenziamento competenze",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "N/A",
+      "categoria_principale": "N/A",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Amnesty Kids",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Progetto sui diritti umani",
+      "target": "Scuola Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Orientamento allo sport e fair play",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornata dello sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive e di gioco",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "A scuola con l'Avis",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Informazione sulla donazione del sangue",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "\"Aria di festa\"",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa di fine anno per bambini di 6 anni",
+      "target": "Bambini di 6 anni"
+    },
+    {
+      "titolo_attivita": "\"Ti prendo per mano\"",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività per bambini con bisogni speciali",
+      "target": "Bambini con bisogni speciali"
+    },
+    {
+      "titolo_attivita": "Potenziamento linguistico: \"giochiamo con le parole\"",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Attività ludiche per potenziare le competenze linguistiche",
+      "target": "Bambini 3-5 anni"
+    },
+    {
+      "titolo_attivita": "Musicando",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Percorso esperienziale e ritmico-motorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Magia di luci, ombre, colori ed emozioni!",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Esplorazione di luci e ombre",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "#Io leggo perché",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Raccolta libri per la biblioteca scolastica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Storie di Storia",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Ricostruzione storica e testimonianze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Storie tra le città invisibili",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Analisi del testo di Calvino e produzione creativa",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Realizzazione libro per classi quinte primaria",
+      "categoria_principale": "Arte e Lettere",
+      "descrizione_e_metodologia": "Scrittura, illustrazione e costruzione fisica di un libro da donare",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ecocalendario",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Creazione di calendario con materiali riciclati",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Puliamo il Mondo",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Pulizia aree verdi e pubbliche",
+      "target": "Studenti e personale scolastico"
+    },
+    {
+      "titolo_attivita": "Colori in Testa",
+      "categoria_principale": "Arte e Ambiente",
+      "descrizione_e_metodologia": "Decorazione cappellino con colori naturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Rete Infanzia \"Insieme si può\"",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, formazione di scuola/rete, supervisione pedagogisti",
+      "target": "Docenti Scuola Infanzia"
+    },
+    {
+      "titolo_attivita": "Formazione su didattica cooperativa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, comunità di pratiche",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza Dlgs 81/08",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione in presenza",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Formazione tutor neoassunti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, formazione di scuola/rete",
+      "target": "Docenti neoassunti"
+    },
+    {
+      "titolo_attivita": "Attività formative di tutoraggio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Tutoraggio con Università",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione competenze linguistiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, mappatura competenze",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOIS017008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. Enrico Mattei (BOIS017008) per il periodo 2022-2025, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio metropolitano di San Lazzaro di Savena (Bologna), offre un percorso formativo che comprende i gradi di istruzione Infanzia, Primaria, Secondaria I grado e Tecnico. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con un punteggio medio elevato nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:** Il PTOF prevede una sezione dedicata all'orientamento, ottenendo un punteggio di 4, con una nota che evidenzia l'attenzione all'integrazione con il territorio. Questo suggerisce una consapevolezza dell'importanza di collegare l'offerta formativa con le esigenze del contesto locale.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership, coinvolgendo ben 24 partner tra cui **Lions Matelica**, **Comunità Montana**, **Regione Marche**, **Università degli Studi di Camerino**, **ANMIG Matelica**, **C.R.I. Matelica**, **Questura di Macerata**, e numerose associazioni, enti e istituzioni. Questo elevato numero di collaborazioni (punteggio 7) indica una forte capacità di creare sinergie con il mondo esterno a beneficio degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, il supporto alle transizioni formative e l'ampliamento delle opportunità. Ogni finalità ha ottenuto un punteggio di 5, dimostrando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'abbandono scolastico, a favorire la continuità con il territorio, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning. I punteggi variano tra 4 e 6, suggerendo un focus maggiore sulla riduzione dell'abbandono e sulla continuità territoriale.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. I punteggi oscillano tra 4 e 6, evidenziando un impegno nella creazione di un sistema di supporto completo.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. I punteggi variano tra 3 e 5, suggerendo un buon livello di innovazione didattica.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. I punteggi variano tra 3 e 5, indicando una diversificazione dell'offerta, sebbene con margini di miglioramento per le attività ludico-ricreative e sportive.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, l'ampia rete di partnership attivate, la chiarezza delle finalità e degli obiettivi, l'impegno nella creazione di un sistema di supporto completo e l'approccio didattico innovativo. Le numerose attività registrate, come **Percorsi sulle competenze di cittadinanza**, **Realizzazione di ambienti di apprendimento innovativi**, **Percorsi KET**, **Percorsi Coding**, e **Mentoring e orientamento**, testimoniano un'offerta ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la necessità di potenziare le attività ludico-ricreative e sportive nell'ambito dell'offerta opzionale, e di rafforzare il monitoraggio delle azioni implementate. Inoltre, l'obiettivo di contrastare il fenomeno dei NEET potrebbe essere ulteriormente sviluppato.\n\n### 5. Gap Analysis\n\nIl gap tra gli obiettivi prefissati e le azioni implementate appare contenuto, ma è necessario monitorare costantemente l'efficacia delle azioni per garantire il raggiungimento dei risultati attesi. Un'analisi più approfondita dei dati relativi all'abbandono scolastico e all'inserimento lavorativo degli ex studenti potrebbe fornire indicazioni utili per migliorare l'efficacia delle strategie di orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. Enrico Mattei dimostra un forte impegno verso l'orientamento, con un'ampia rete di partnership, finalità e obiettivi ben definiti, un approccio didattico innovativo e un'offerta diversificata di attività. Pur con alcune aree di miglioramento, il PTOF rappresenta un valido strumento per supportare gli studenti nella progettazione del loro futuro e per favorire la loro integrazione nel mondo del lavoro e nella società. L'istituto si distingue per l'attenzione all'integrazione con il territorio e per la promozione di attività come **Amnesty Kids**, **Centro sportivo scolastico**, e **Formazione Rete Infanzia \"Insieme si può\"**, che contribuiscono a formare cittadini consapevoli e responsabili."
+}

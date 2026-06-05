@@ -1,0 +1,281 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SRTHA6500C",
+    "denominazione": "Guglielmo Marconi",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Augusta",
+    "anno_ptof": "2022-2025",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via F.De Roberto 109",
+    "cap": "96011",
+    "email": "istitutomarconiaugusta@gmail.com",
+    "pec": "ltps060002@pec.istruzione.it",
+    "website": "https://liceoaprilia.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sebbene siano presenti attività riconducibili all'orientamento, manca una sezione specificamente dedicata e identificabile come tale nel documento. Le iniziative sono integrate in diverse aree tematiche."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Enti Locali",
+        "ASL",
+        "Università",
+        "associazioni di categoria",
+        "imprese",
+        "IB Maragall Barcellona",
+        "Huntcliff school",
+        "Wasaskolan",
+        "Maerlant Atheneum",
+        "Colegio Sagrado Corazon",
+        "musei",
+        "istituti pubblici e privati"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO (Alternanza Scuola-Lavoro)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in aziende e enti",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti e visite",
+      "target": "Studenti ultimo anno"
+    },
+    {
+      "titolo_attivita": "Progetto Educativo Europeo Comenius “Heaven on Earth: leisure time activities”",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi tra scuole, mostre, visite, presentazioni in inglese.",
+      "target": "Docenti e alunni"
+    },
+    {
+      "titolo_attivita": "Scambio culturale Italia-Belgio",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Visite guidate, presentazioni in inglese.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochi Kangarou della lingua inglese",
+      "categoria_principale": "Potenziamento linguistico",
+      "descrizione_e_metodologia": "Selezione alunni alle finali nazionali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Partecipazione a “Per un pugno di libri”",
+      "categoria_principale": "Promozione lettura",
+      "descrizione_e_metodologia": "Trasmissione televisiva.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Scambio culturale Italia-Spagna",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Visite guidate, presentazioni in inglese.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazioni linguistiche (DELE, DELF, Cambridge)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi in presenza da docenti in orario curricolare/extracurricolare.",
+      "target": "Studenti liceo linguistico e altri indirizzi"
+    },
+    {
+      "titolo_attivita": "Programma Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità per apprendimento del personale scolastico.",
+      "target": "Docenti, DS, ATA"
+    },
+    {
+      "titolo_attivita": "Centro Sportivo Scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione attività motorie e sportive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Salute e benessere",
+      "descrizione_e_metodologia": "Incontri con specialisti (enti locali, nutrizionisti, psicologi).",
+      "target": "Studenti, personale scolastico, famiglie"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Attività per sviluppo rispetto diritti umani, tolleranza, solidarietà.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Integrazione curricolo con focus su Costituzione, sviluppo sostenibile, cittadinanza digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Presentazione dell’offerta formativa",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Visite scuole medie",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Informazione offerta formativa",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Progetto One, two, tree!",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Messa a dimora di alberi",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Progetto sperimentale studenti-atleti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso formativo personalizzato (PFP) in collaborazione con società sportive.",
+      "target": "Studenti-atleti"
+    },
+    {
+      "titolo_attivita": "Mobilità studentesca",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Riconoscimento crediti formativi per esperienze all'estero.",
+      "target": "Studenti in mobilità"
+    },
+    {
+      "titolo_attivita": "Carriera Alias",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Assegnazione identità provvisoria per studenti in transizione di genere.",
+      "target": "Studenti in transizione di genere"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi curricolari integrati, stage e tirocini formativi",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "Progetti autogestiti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Proposte di progetti da parte degli studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite d'istruzione",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse storico, artistico e scientifico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a spettacoli teatrali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Cicli di conferenze",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Conferenze tenute da esperti esterni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visita a musei",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visita a musei e biblioteche",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SRTHA6500C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto \"Guglielmo Marconi\" di Augusta (SRTHA6500C), relativo al periodo 2022-2025. La scuola, un Liceo e Professionale di II grado situato in un territorio non metropolitano delle Isole, presenta una solida attenzione alle finalità dell'orientamento, coprendo aspetti quali attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative per cogliere le opportunità. L'istituto dimostra un impegno significativo nel coordinamento dei servizi, nel dialogo tra docenti e studenti, nel rapporto con le famiglie e nel monitoraggio delle azioni intraprese. Pur mancando una sezione specificamente dedicata all'orientamento, le attività sono integrate in diverse aree tematiche del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti numerose attività riconducibili all'orientamento, il PTOF non prevede una sezione esplicitamente dedicata e identificabile come tale. Le iniziative sono integrate in diverse aree tematiche, ottenendo un punteggio di 4.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, che include **Enti Locali**, **ASL**, **Università**, **associazioni di categoria**, **imprese**, oltre a collaborazioni internazionali con istituti come **IB Maragall Barcellona**, **Huntcliff school**, **Wasaskolan**, **Maerlant Atheneum**, **Colegio Sagrado Corazon**, **musei** e altri **istituti pubblici e privati**. Il numero di partner coinvolti, pari a 12, suggerisce un forte radicamento territoriale e una propensione all'apertura verso il mondo esterno, con un punteggio di 3.\n\n**2.3 Finalità:** Il PTOF dimostra una chiara attenzione alle finalità dell'orientamento, ottenendo il punteggio massimo (5) per ciascuna delle aree considerate: sviluppo di attitudini, interessi, costruzione del progetto di vita, supporto alle transizioni formative e potenziamento delle capacità orientative per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi definiti nel PTOF sono ambiziosi e pertinenti. L'istituto mira a ridurre l'abbandono scolastico (punteggio 4), a favorire la continuità territoriale (punteggio 5), a contrastare il fenomeno dei NEET (punteggio 4) e a promuovere il lifelong learning (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF sono ben strutturate e orientate al miglioramento dell'offerta formativa. Particolarmente rilevanti sono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità, tutte aree che ottengono un punteggio di 6.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza degli studenti (punteggio 5), la flessibilità degli spazi e dei tempi (punteggio 5) e l'interdisciplinarità (punteggio 5). L'utilizzo della didattica laboratoriale, tuttavia, risulta meno sviluppato (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzionali culturali (punteggio 4), laboratoriali ed espressive (punteggio 5), ludiche e ricreative (punteggio 4), di volontariato (punteggio 5) e sportive (punteggio 4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità, nella solidità delle azioni di sistema e nella varietà delle attività proposte. L'ampio ventaglio di partnership, sia a livello locale che internazionale, rappresenta un valore aggiunto significativo. L'istituto dimostra un forte impegno nell'inclusione e nel supporto agli studenti con fragilità. Attività come il **PCTO (Alternanza Scuola-Lavoro)**, i **Progetti di orientamento universitario** e il **Programma Erasmus+** sono particolarmente degne di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione specificamente dedicata all'orientamento all'interno del PTOF. Sebbene le attività siano integrate in diverse aree tematiche, una sezione dedicata permetterebbe di dare maggiore visibilità e coerenza all'impegno dell'istituto in questo ambito. Anche la didattica laboratoriale potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di formalizzare una sezione dedicata all'orientamento nel PTOF, definendo obiettivi specifici, indicatori di performance e azioni mirate. Sarebbe inoltre opportuno potenziare la didattica laboratoriale, offrendo agli studenti maggiori opportunità di sperimentazione e applicazione pratica delle conoscenze acquisite.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto \"Guglielmo Marconi\" presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. L'istituto dimostra un forte impegno nel supportare gli studenti nel loro percorso di crescita e nella scelta del proprio futuro. La formalizzazione di una sezione dedicata all'orientamento e il potenziamento della didattica laboratoriale rappresenterebbero un ulteriore passo avanti verso il miglioramento dell'offerta formativa e il raggiungimento degli obiettivi prefissati. Attività come **Carriera Alias** e **Progetto sperimentale studenti-atleti** dimostrano un'attenzione particolare all'inclusione e alla personalizzazione dei percorsi formativi."
+}

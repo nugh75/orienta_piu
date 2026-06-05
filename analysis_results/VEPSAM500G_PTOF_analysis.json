@@ -1,0 +1,195 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEPSAM500G",
+    "denominazione": "Liceo Scientifico S.Caterina Da Siena",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Venezia",
+    "anno_ptof": "2019/2020 - 2021/2022",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via G. Tassini 17",
+    "cap": "30173",
+    "email": "scuolesantacaterina@fondazionegroggia.org",
+    "pec": "fondazionegroggia@pec.it",
+    "website": "www.fondazionegroggia.org",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Biblioteca Civica Fausto Sabeo",
+        "Pinacoteca Repossi",
+        "Teatro Sociale di Brescia",
+        "Chiari nuoto",
+        "Centro Salesiano Cospes di Milano",
+        "Bell Beyond",
+        "Enti pubblici",
+        "privati",
+        "Polisportiva Giovanile Salesiana",
+        "Piccola Accademia di Musica San Bernardino"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 2
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto continuità con le scuole dell’infanzia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e guida dei nuovi alunni",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita guidata alla scuola",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Inglese Summer Camp",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Campo estivo in lingua inglese",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corso di nuoto",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso di nuoto con istruttori",
+      "target": "Classi terze, quarte, quinte"
+    },
+    {
+      "titolo_attivita": "Corsa campestre",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Manifestazione autunnale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "laboratorio sulla sicurezza",
+      "categoria_principale": "sicurezza",
+      "descrizione_e_metodologia": "laboratorio",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "laboratorio di educazione alimentare",
+      "categoria_principale": "salute",
+      "descrizione_e_metodologia": "laboratorio",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "laboratorio di educazione all’affettività",
+      "categoria_principale": "benessere",
+      "descrizione_e_metodologia": "laboratorio",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "laboratorio di lettura",
+      "categoria_principale": "lingua",
+      "descrizione_e_metodologia": "laboratorio",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "attività sportive",
+      "categoria_principale": "sport",
+      "descrizione_e_metodologia": "attività extrascolastiche",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "studio di strumenti musicali",
+      "categoria_principale": "musica",
+      "descrizione_e_metodologia": "attività extrascolastiche",
+      "target": "alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VEPSAM500G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico S.Caterina Da Siena** (VEPSAM500G), relativo al triennio 2019/2020 - 2021/2022. L'istituto, situato a **Venezia** e operante nell'area geografica del **Nord Est**, si configura come una scuola **paritaria** di **II Grado**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita e dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** Il liceo dimostra un buon livello di collaborazione con il territorio, come attestato dal punteggio di 3. Sono attivi accordi con diversi soggetti, tra cui **Biblioteca Civica Fausto Sabeo**, **Pinacoteca Repossi**, **Teatro Sociale di Brescia**, **Chiari nuoto**, **Centro Salesiano Cospes di Milano**, **Bell Beyond**, **Enti pubblici** e **privati**, **Polisportiva Giovanile Salesiana** e **Piccola Accademia di Musica San Bernardino**. Si contano ben 10 partner nominati.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano ben definite, con un punteggio di 3 per le attitudini, gli interessi e il progetto di vita degli studenti. Tuttavia, le finalità relative alle transizioni formative e allo sviluppo delle capacità orientative per cogliere le opportunità risultano meno sviluppate, con un punteggio di 1 per entrambe.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono moderatamente ambiziosi. Il punteggio è pari a 1 per la riduzione dell'abbandono scolastico e il contrasto al fenomeno NEET, mentre sale a 2 per la continuità territoriale e la promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni messe in campo per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. Il punteggio complessivo è di 2 per le prime tre azioni e di 3 per le ultime due, suggerendo una maggiore attenzione all'aspetto inclusivo.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'esperienza degli studenti, con un punteggio di 2. La didattica laboratoriale e la flessibilità degli spazi e dei tempi raggiungono un punteggio di 1 e 2 rispettivamente, mentre l'interdisciplinarità ottiene un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e ricca, con un punteggio di 3 per le opzionali culturali, laboratoriali ed espressive, e sportive. Le opzionali ludiche e ricreative, così come quelle legate al volontariato, ottengono un punteggio di 2.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** attivate con il territorio, che offre agli studenti opportunità di arricchimento e di orientamento in diversi ambiti. L'attenzione alle finalità legate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, unitamente all'impegno per l'inclusione e il supporto alle fragilità, rappresentano ulteriori elementi positivi. L'offerta di attività opzionali diversificata contribuisce a stimolare le passioni e i talenti degli studenti. Le attività registrate, come il **Progetto continuità con le scuole dell’infanzia** e l’**Open day**, sono coerenti con gli obiettivi di orientamento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta una lacuna significativa. Gli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno NEET appaiono poco ambiziosi, così come le finalità relative alle transizioni formative e allo sviluppo delle capacità orientative per cogliere le opportunità.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e strutturata dell'orientamento, che si traduce in una frammentazione delle azioni e in una scarsa integrazione tra le diverse dimensioni del PTOF. È necessario definire obiettivi più ambiziosi e finalità più specifiche, nonché implementare azioni mirate per supportare le transizioni formative e lo sviluppo delle capacità orientative degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico S.Caterina Da Siena** presenta elementi di forza, in particolare per quanto riguarda le partnership attivate e l'offerta di attività opzionali. Tuttavia, è necessario colmare le lacune esistenti, definendo una sezione dedicata all'orientamento, formulando obiettivi più ambiziosi e implementando azioni mirate per supportare le transizioni formative e lo sviluppo delle capacità orientative degli studenti. L'integrazione dell'orientamento all'interno di un sistema più ampio e coerente consentirebbe di massimizzare l'efficacia delle azioni intraprese e di garantire un futuro migliore per gli studenti. Attività come l’**Inglese Summer Camp**, il **Corso di nuoto**, la **Corsa campestre** e i vari **laboratori** (sicurezza, alimentazione, affettività, lettura) contribuiscono ad un’offerta formativa completa, ma necessitano di essere esplicitamente collegate ad un piano di orientamento più strutturato."
+}

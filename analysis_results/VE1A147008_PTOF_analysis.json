@@ -1,0 +1,344 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VE1A147008",
+    "denominazione": "Madonna Della Provvidenza",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Scorze'",
+    "anno_ptof": "2025-2028",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Roma120",
+    "cap": "30037",
+    "email": "sm.provvidenzascorz@libero.it",
+    "pec": "madonnaprovvidenzascorze@pec.fismvenezia.it",
+    "website": "www.scuolamaternascorze.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Assenza di una sezione dedicata all'orientamento; le attività sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Forze Armate",
+        "Forze dell'Ordine",
+        "Museo archeologico nazionale",
+        "Associazioni sportive",
+        "ASL",
+        "specialisti del territorio",
+        "servizi sociali",
+        "enti esterni",
+        "Istituzioni",
+        "Agenzie di viaggio",
+        "strutture pubbliche",
+        "convenzionate",
+        "private",
+        "UONPIA",
+        "Autorità garante per l’infanzia e l’adolescenza"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Organizzazione e coordinamento di visite sul territorio",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di integrazione interculturale",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Promozione di progetti di integrazione interculturale",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Lab. Teatrale",
+      "categoria_principale": "Espressione",
+      "descrizione_e_metodologia": "Attività teatrali",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita a Fattorie didattiche (Villaggio del Fanciullo, Fiocco di Neve, Gattopuzzo)",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caserma Vigili del Fuoco",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita alla Caserma Vigili del Fuoco",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Porto, mercato, centro storico",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita a Porto, mercato, centro storico",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Teatro Traiano",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita al Teatro Traiano",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Cinema",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita al Cinema",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Eventuali iniziative",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Eventuali iniziative organizzate da Comune, Enti locali, Biblioteca Comunale",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Ninfa e Sermoneta",
+      "categoria_principale": "Viaggio d'Istruzione",
+      "descrizione_e_metodologia": "Visita a Ninfa e Sermoneta",
+      "target": "Secondaria IA, IB, ID, IE, IL"
+    },
+    {
+      "titolo_attivita": "Tarquinia-Piani Degli Alpaca",
+      "categoria_principale": "Viaggio d'Istruzione",
+      "descrizione_e_metodologia": "Visita a Tarquinia-Piani Degli Alpaca",
+      "target": "Secondaria IC, IM"
+    },
+    {
+      "titolo_attivita": "Perugia-Trasimeno",
+      "categoria_principale": "Viaggio d'Istruzione",
+      "descrizione_e_metodologia": "Visita a Perugia-Trasimeno",
+      "target": "Secondaria IIA, IIB, IIC, IID, IIE, IIL, IIM"
+    },
+    {
+      "titolo_attivita": "Lucca-Pisa",
+      "categoria_principale": "Viaggio d'Istruzione",
+      "descrizione_e_metodologia": "Visita a Lucca-Pisa",
+      "target": "Secondaria IIIA, IIIB, IIIC, IID, IIIE, IIIF, IIIL, IIM"
+    },
+    {
+      "titolo_attivita": "Museo Civico e Bosco di Allumiere",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita al Museo Civico e Bosco di Allumiere",
+      "target": "Secondaria IA, IB, IC, ID, IE, IL, IM"
+    },
+    {
+      "titolo_attivita": "Caprarola-Villa Farnese",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita a Caprarola-Villa Farnese",
+      "target": "Secondaria IIA, IIB, IIC, IID, IIE, IIL, IIM"
+    },
+    {
+      "titolo_attivita": "Museo Piana Delle Orme-Circeo",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita al Museo Piana Delle Orme-Circeo",
+      "target": "Secondaria IIIA, IIIB, IIIC, IID, IIIE, IIIF, IIIL, IIM"
+    },
+    {
+      "titolo_attivita": "Laboratori di coding",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo del linguaggio Scratch",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione al torneo organizzato dall'Università Bocconi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio giornalino 'Apo'",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Laboratorio gratuito",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Laboratorio gratuito",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esplorazione fenomeni scientifici",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Osservazione, classificazione, esposizione",
+      "target": "Alunni classe quinta"
+    },
+    {
+      "titolo_attivita": "Realizzazione oggetti in cartoncino",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Pianificazione, fabbricazione, documentazione",
+      "target": "Alunni classe quinta"
+    },
+    {
+      "titolo_attivita": "Orientamento nello spazio",
+      "categoria_principale": "Geografia",
+      "descrizione_e_metodologia": "Uso bussola, carte geografiche",
+      "target": "Alunni classe quinta"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Definizione modalità DDI, strumenti, orario, valutazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio situazione familiare",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Contatto telefonico per verifica risorse e supporto tecnico",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Comodato d'uso sussidi didattici",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Concessione in comodato di strumenti tecnologici",
+      "target": "Alunni che usano sussidi a scuola"
+    },
+    {
+      "titolo_attivita": "Integrazione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Documentazione dettagliata materiali, interazioni, verifiche",
+      "target": "Alunni con PEI"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Incontri tra docenti delle scuole di provenienza e di destinazione",
+      "target": "Alunni in passaggio"
+    },
+    {
+      "titolo_attivita": "Progetto continuità BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività didattiche per prevenire difficoltà di apprendimento",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Incontri disciplinari",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Incontri su matematica, scienze, musica, L2",
+      "target": "Alunni in passaggio"
+    },
+    {
+      "titolo_attivita": "Formazione specifica del personale scolastico",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, seminari, aggiornamenti",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Formazione delle famiglie",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri, workshop, materiali informativi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Giornate di sensibilizzazione sul bullismo e cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Visione filmati, incontri con esperti, dibattiti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri informativi per i genitori",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Presentazione del tema e strumenti di segnalazione",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Formazione docenti e personale ATA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi dedicati alla prevenzione del bullismo",
+      "target": "Docenti e ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VE1A147008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia \"Madonna Della Provvidenza\" (VE1A147008) per il triennio 2025-2028. La scuola, paritaria, situata nel comune di Scorze' (Venezia), in Veneto, dimostra un impegno significativo verso la costruzione di un sistema di orientamento, sebbene non presenti una sezione specificamente dedicata, integrando le attività in altre aree del PTOF. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sull'esame delle attività registrate, con l'obiettivo di identificare punti di forza, aree di debolezza e possibili gap.\n\n### 2. Analisi Dimensionale\n\nLa valutazione delle finalità dell'orientamento evidenzia un punteggio elevato (4) per tutte le aree considerate: attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità. Questo suggerisce una chiara consapevolezza dell'importanza di supportare gli alunni nello sviluppo di queste competenze. Gli obiettivi, invece, mostrano una variabilità, con punteggi di 3 per la riduzione dell'abbandono e il contrasto alla dispersione scolastica (NEET), e punteggi più alti (4) per la continuità territoriale e il lifelong learning. Le azioni del sistema di orientamento sono valutate positivamente, con punteggi massimi (5) per il coordinamento dei servizi e il rapporto scuola-genitori, e punteggi elevati (4) per il dialogo tra docenti e studenti, il monitoraggio delle azioni e l'integrazione dell'inclusione e della fragilità.\n\nLa didattica orientativa si avvale di metodologie efficaci, come l'apprendimento basato sull'esperienza, la didattica laboratoriale, la flessibilità degli spazi e dei tempi, e l'approccio interdisciplinare, tutte valutate con un punteggio di 4. Le opzionali e le attività facoltative offrono un ventaglio di opportunità, con punteggi di 4 per le opzionali culturali e laboratoriali espressive, e punteggi leggermente inferiori (3) per quelle ludico-ricreative, di volontariato e sportive.\n\n#### 2.1 Orientamento Sezione Dedicata\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF è un elemento da considerare, sebbene le attività siano integrate in altre aree.\n\n#### 2.2 Partnership\n\nLa scuola vanta un ampio ventaglio di partnership, con ben 15 partner nominati, tra cui **Forze Armate**, **Forze dell'Ordine**, **Museo archeologico nazionale**, **Associazioni sportive**, **ASL**, **specialisti del territorio**, **servizi sociali**, **Istituzioni**, **Agenzie di viaggio**, **strutture pubbliche**, **convenzionate** e **private**, **UONPIA** e l'**Autorità garante per l’infanzia e l’adolescenza**.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli alunni, facilitando le **transizioni formative** e potenziando le loro **capacità orientative** verso le opportunità.\n\n#### 2.4 Obiettivi\n\nGli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la garanzia della **continuità territoriale**, il contrasto alla dispersione scolastica (fenomeno **NEET**) e la promozione del **lifelong learning**.\n\n#### 2.5 Azioni Sistema\n\nLe azioni implementate per supportare l'orientamento si concentrano sul **coordinamento dei servizi**, il **dialogo** tra docenti e studenti, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio** delle azioni e l'implementazione di un sistema integrato di **inclusione** e supporto alla **fragilità**.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa sull'apprendimento **da esperienza**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità** degli spazi e dei tempi, e sull'approccio **interdisciplinare**.\n\n#### 2.7 Opzionali Facoltative\n\nL'offerta formativa include opzionali **culturali**, **laboratoriali espressive**, **ludico-ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella chiarezza delle finalità dell'orientamento, nell'efficacia delle azioni implementate, in particolare nel coordinamento dei servizi e nel rapporto scuola-genitori, e nella varietà delle metodologie didattiche utilizzate. L'ampio ventaglio di partnership rappresenta un valore aggiunto significativo, offrendo agli alunni opportunità di arricchimento e di contatto con il territorio.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza, in quanto potrebbe limitare la visibilità e la coerenza delle attività. Inoltre, i punteggi inferiori per alcuni obiettivi (riduzione dell'abbandono e contrasto al fenomeno NEET) suggeriscono la necessità di rafforzare le strategie in queste aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta di orientamento più esplicita e integrata, con una sezione dedicata nel PTOF che delinei chiaramente le strategie, le azioni e gli indicatori di successo. È inoltre auspicabile un maggiore focus sulla prevenzione dell'abbandono scolastico e sul contrasto alla dispersione formativa.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Madonna Della Provvidenza\" dimostra un impegno significativo verso l'orientamento, con un approccio olistico che coinvolge tutti gli attori della comunità scolastica. Pur riconoscendo l'assenza di una sezione dedicata, le attività implementate e le partnership consolidate rappresentano un solido punto di partenza per lo sviluppo di un sistema di orientamento efficace e in linea con le esigenze degli alunni e del territorio. L'integrazione di una sezione specifica nel PTOF e il rafforzamento delle strategie per la prevenzione dell'abbandono scolastico potrebbero contribuire a migliorare ulteriormente l'offerta formativa e a garantire un futuro di successo per tutti gli alunni. Le attività registrate, come le **visite guidate**, i **progetti di integrazione interculturale**, i **lab. teatrali**, le **uscite didattiche** e i **laboratori di coding**, testimoniano un impegno concreto verso la crescita e lo sviluppo degli alunni."
+}

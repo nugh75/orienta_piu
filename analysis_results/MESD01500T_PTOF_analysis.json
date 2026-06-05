@@ -1,0 +1,200 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MESD01500T",
+    "denominazione": "Liceo Artistico Regionale Ciro Michel Esposito",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Santo Stefano Di Camastra",
+    "anno_ptof": "2025-2028",
+    "provincia": "Messina",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Paolo Perez 98",
+    "cap": "98077",
+    "email": "segreteria@larsantostefano.it",
+    "pec": "larsantostefano@pec.it",
+    "website": "liceoartisticosantostefanodicamastra.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento scolastico e professionale. Si evidenzia un focus su educazione civica e cittadinanza attiva, ma manca una specifica declinazione dell'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della metodologia CLIL in scienze con madrelingua.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Laboratori per apprendimento pratico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Varie",
+      "descrizione_e_metodologia": "Visite a musei, mostre, etc.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività di robotica e coding.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Viaggio nella tradizione attraverso arte, storia, musica",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi Scolastici",
+      "descrizione_e_metodologia": "Celebrazione con alunni, insegnanti e genitori",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Promozione Scuola",
+      "descrizione_e_metodologia": "Apertura della scuola a genitori e potenziali iscritti",
+      "target": "Genitori e comunità"
+    },
+    {
+      "titolo_attivita": "Progetto educazione sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati nel traffico",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Attività extrascolastiche",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e convivenza",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Sostegno a bambini tramite AVSI",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta alimenti per famiglie bisognose",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto promozione lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Stimolare interesse e piacere per la lettura",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MESD01500T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Artistico Regionale Ciro Michel Esposito** (MESD01500T) per il triennio 2025-2028. L'istituto, situato a **Santo Stefano Di Camastra** in provincia di **Messina**, si configura come una scuola **paritaria** che opera nell'ambito del sistema scolastico **secondo grado**. L'analisi evidenzia un impegno generale verso la crescita degli studenti, con un focus su **educazione civica** e **cittadinanza attiva**, ma con una carenza di una specifica e strutturata sezione dedicata all'orientamento scolastico e professionale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 1. Questo rappresenta una lacuna significativa nella pianificazione strategica dell'istituto.\n\n**2.2 Partnership:** L'istituto dimostra una buona capacità di collaborare con enti esterni, come **Karis Foundation**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**, per un totale di 3 partnership.\n\n**2.3 Finalità:** Le finalità del PTOF sono ben definite e ambiziose, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi** e per la progettazione del **progetto di vita** degli studenti. Punteggi leggermente inferiori (3) sono stati attribuiti alle finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF mostrano un impegno variabile. La riduzione dell'**abbandono scolastico** ottiene un punteggio di 2, mentre la continuità con il **territorio** raggiunge un punteggio di 3. Il contrasto al fenomeno **NEET** è l'obiettivo meno prioritario (1), seguito dal **lifelong learning** con un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF sono considerate efficaci in ambiti come il rapporto **scuola-genitori** (4) e il **dialogo docenti-studenti** (3). Il **coordinamento dei servizi** e il sistema integrato per **inclusione e fragilità** ottengono un punteggio di 3, mentre il **monitoraggio delle azioni** risulta meno strutturato (2).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci esperienziali (3), **laboratoriali** (4) e **interdisciplinari** (3). La **flessibilità degli spazi e dei tempi** risulta meno sviluppata (2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi di 3 per le opzionali **culturali** e **sportive**, 4 per quelle **laboratoriali ed espressive** e 2 per quelle **ludiche-ricreative** e di **volontariato**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la chiara definizione delle finalità educative, che pongono al centro lo sviluppo integrale dello studente. L'istituto dimostra inoltre una buona capacità di attivare **partnership** con enti esterni e di promuovere una didattica basata sull'esperienza e sulla laboratorialità. Attività come il **Progetto Clil**, i **Laboratori esperienziali**, le **Uscite didattiche e viaggi d'istruzione** e il **Progetto di robotica e coding** sono esempi concreti di questo approccio.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento scolastico e professionale rappresenta la principale area di debolezza del PTOF. Questo si riflette in punteggi inferiori per gli obiettivi relativi alla transizione formativa e allo sviluppo delle capacità orientative. Inoltre, il monitoraggio delle azioni e la flessibilità degli spazi e dei tempi didattici necessitano di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strategia organica per l'orientamento, che integri le finalità educative con obiettivi specifici e azioni concrete. È necessario colmare questa lacuna attraverso la definizione di un piano di orientamento che preveda attività di informazione, esplorazione, valutazione e accompagnamento per gli studenti, in linea con le loro attitudini, interessi e aspirazioni.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Artistico Regionale Ciro Michel Esposito** presenta un quadro complessivamente positivo, con un forte impegno verso la crescita degli studenti e una buona capacità di collaborare con il territorio. Tuttavia, l'assenza di una sezione dedicata all'orientamento rappresenta un limite significativo che deve essere affrontato nel prossimo ciclo di programmazione. L'integrazione di un piano di orientamento strutturato e la valorizzazione delle attività già esistenti, come il **Progetto educazione sicurezza stradale**, i **Progetti tecnologia e informatica**, il **Campo estivo**, le attività di **Adozioni a distanza** e **Donacibo**, e il **Progetto promozione lettura**, potrebbero contribuire a migliorare l'efficacia del PTOF e a garantire un futuro migliore per gli studenti."
+}

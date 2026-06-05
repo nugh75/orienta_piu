@@ -1,0 +1,295 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GERI07003T",
+    "denominazione": "I.P.S. I.S. Gaslini/Meucci",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazzale Marassi 2",
+    "cap": "16139",
+    "email": "pdis018003@istruzione.it",
+    "pec": "pdis018003@pec.istruzione.it",
+    "website": "www.ipsiagaslinimeucci.it",
+    "tipo_scuola_dettaglio": "Ist Prof Industria E Artigianato"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Confindustria",
+        "Aziende del territorio",
+        "ASSINDUSTRIA Veneto",
+        "Ulss 6",
+        "SoPHIA Management",
+        "aziende",
+        "enti pubblici",
+        "studi professionali",
+        "Comune di Cittadella",
+        "Confindustria Cittadella",
+        "Rete ATENA",
+        "CTI INCLUSIONE 2.0",
+        "Altre scuole",
+        "Enti di formazione accreditati"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Studio assistito pomeridiano",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto allo studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Peer to Peer",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività tra pari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage in aziende del territorio",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Incontri con imprenditori",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri a scuola con imprenditori",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Laboratori didattici",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Laboratori a scuola",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Supporto Scolastico",
+      "descrizione_e_metodologia": "Attività di studio autonomo con supporto docenti",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Giornate dell'Arte",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratori artistici e creativi",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Progetto Serigrafia",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratorio di stampa serigrafica",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Olimpiadi dei Talenti in Meccatronica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Partecipazione a competizioni di meccatronica",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Progetto ETRA",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Percorsi su acqua, energia e rifiuti",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "PROGETTO LIFE BRENTA 2030",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Percorsi su energie, rifiuti, cambiamenti climatici. Lezioni, laboratori, visite (se possibile).",
+      "target": "Classi partecipanti indirizzo ambientale"
+    },
+    {
+      "titolo_attivita": "Quotidiano In Classe",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Lettura e analisi quotidiani, sviluppo pensiero critico.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lettorato In Lingua Inglese",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Conversazione con madrelingua, interazione, tematiche interculturali.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Attivamente",
+      "categoria_principale": "Educazione Multidisciplinare",
+      "descrizione_e_metodologia": "Musica, teatro, arte, scienza, ambiente, cittadinanza, salute, diversità, tecnologia, ricerca.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto MXNS",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita aziendale, conferenze, testimonianze, laboratori.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Servizio Civile Nazionale",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Presentazione opportunità, testimonianze volontari.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Cittadinanza Europea",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Analisi istituzioni europee, trattati, politiche.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Corsi di tennis",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Eventuali attività proposte da enti e federazioni sportive",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "CISCO “IT Essentials",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corsi di formazione Cisco Networking Academy",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Benessere a Scuola e Sportello CIC",
+      "categoria_principale": "Psicologia",
+      "descrizione_e_metodologia": "Servizio di ascolto e supporto psicologico",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Preparazione per certificazioni Cambridge B1/B2",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Orientamento in Uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a università e ITS",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Protocollo accoglienza alunni stranieri",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Definizione prassi condivise per iscrizione, comunicazione, didattica e rapporti con il territorio.",
+      "target": "Alunni stranieri, docenti, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corsi di Aggiornamento Sicurezza",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione ai sensi del D.lgs 81/2008",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Multimediale (Classe 2.0)",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Utilizzo di strumenti multimediali per l'apprendimento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Registro Elettronico",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Aggiornamento sull'utilizzo del registro elettronico",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corsi di livello A1 e A2 per studenti stranieri",
+      "target": "Studenti stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GERI07003T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Casa Circ. Di Marassi Meucci/Gaslini** (codice scuola **GERI07003T**) per il triennio **2022-2025**. La scuola, di tipo **Liceo, Professionale, Tecnico** e situata nel territorio **Metropolitano** di **Genova**, regione **Liguria**, dimostra un forte impegno nell'orientamento, come evidenziato dai punteggi elevati nelle diverse dimensioni valutate. L'istituto si distingue per una solida rete di **partnership** con il mondo del lavoro e per un'attenzione particolare alle finalità dell'orientamento, quali lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, la gestione delle **transizioni formative** e la consapevolezza delle **opportunità** offerte dal territorio.\n\n### 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento è presente e ben definita (punteggio 3). L'istituto vanta un elevato numero di **partnership** (14), tra cui **Confindustria**, **aziende del territorio**, **ASSINDUSTRIA Veneto**, **Ulss 6**, **SoPHIA Management**, **enti pubblici**, **studi professionali**, **Comune di Cittadella**, **Confindustria Cittadella**, **Rete ATENA**, **CTI INCLUSIONE 2.0**, **altre scuole** ed **enti di formazione accreditati**. Le finalità dell'orientamento sono considerate in modo completo, con punteggi massimi per lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, la gestione delle **transizioni formative** e la consapevolezza delle **opportunità**. Gli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Le azioni del sistema sono orientate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rapporto con i **genitori**, al **monitoraggio delle azioni** e all'integrazione dell'**inclusione** e della gestione delle **fragilità**. La didattica orientativa si basa sull'esperienza degli **studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'offerta di **opzionali** comprende attività **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi leggermente inferiori (4) rispetto alle altre dimensioni.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la forte integrazione dell'orientamento all'interno del curriculum scolastico e la vasta rete di **partnership** con il mondo del lavoro e le istituzioni locali. L'offerta di attività è ampia e diversificata, comprendendo **stage aziendali**, **incontri con imprenditori**, **laboratori didattici**, attività di **supporto allo studio** e iniziative di **peer to peer**. Particolarmente rilevante è l'attenzione all'**educazione ambientale** con progetti come **ETRA** e **PROGETTO LIFE BRENTA 2030**, all'**educazione alla cittadinanza** con **Quotidiano In Classe** e **Educazione Alla Cittadinanza Europea**, e al **potenziamento linguistico** con il **Lettorato In Lingua Inglese**.\n\n### 4. Aree di Debolezza\n\nNonostante l'impegno complessivo, le **opzionali** presentano punteggi leggermente inferiori rispetto alle altre dimensioni, suggerendo la necessità di potenziare l'offerta in questo ambito. Sebbene presenti, le attività di **sport** e **informatica** (come **CISCO “IT Essentials**\") sembrano meno integrate rispetto ad altre aree tematiche.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra una solida base per l'orientamento, ma potrebbe beneficiare di una maggiore attenzione alla personalizzazione dei percorsi, tenendo conto delle specifiche esigenze e aspirazioni di ciascun **studente**. Un'ulteriore integrazione delle attività di orientamento con le **competenze digitali** e le nuove tecnologie potrebbe migliorare l'efficacia dell'offerta formativa.\n\n### 6. Conclusioni\n\nIl PTOF della **Casa Circ. Di Marassi Meucci/Gaslini** presenta un approccio completo e strutturato all'orientamento, con un forte coinvolgimento del territorio e una vasta gamma di attività. L'istituto si distingue per la sua capacità di rispondere alle esigenze degli **studenti** e di prepararli alle sfide del futuro. L'implementazione di alcune raccomandazioni, come il potenziamento delle **opzionali** e la personalizzazione dei percorsi, potrebbe ulteriormente migliorare l'efficacia del PTOF e consolidare il ruolo della scuola come punto di riferimento per l'orientamento nel territorio."
+}

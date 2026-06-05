@@ -194,6 +194,41 @@ REGIONE_TO_AREA = {
     "Sardegna": "Isole",
 }
 
+# Normalizzazione nomi regione (varianti MIUR → forma canonica)
+REGIONE_NORMALIZE = {
+    "FRIULI-VENEZIA G.": "Friuli-Venezia Giulia",
+    "Friuli-Venezia G.": "Friuli-Venezia Giulia",
+    "FRIULI VENEZIA GIULIA": "Friuli-Venezia Giulia",
+    "Friuli Venezia Giulia": "Friuli-Venezia Giulia",
+    "EMILIA ROMAGNA": "Emilia-Romagna",
+    "Emilia Romagna": "Emilia-Romagna",
+    "VALLE D'AOSTA": "Valle d'Aosta",
+    "Valle D'Aosta": "Valle d'Aosta",
+    "TRENTINO-ALTO ADIGE": "Trentino-Alto Adige",
+    "Trentino-Alto Adige": "Trentino-Alto Adige",
+    "Trentino Alto Adige": "Trentino-Alto Adige",
+}
+
+
+def normalize_regione(regione: str) -> str:
+    """
+    Normalizza il nome della regione alla forma canonica.
+    Gestisce le varianti MIUR (es. 'FRIULI-VENEZIA G.' → 'Friuli-Venezia Giulia').
+    """
+    if not regione or regione in ("ND", "", None):
+        return "ND"
+    regione = regione.strip()
+    # Match esatto nel mapping di normalizzazione
+    if regione in REGIONE_NORMALIZE:
+        return REGIONE_NORMALIZE[regione]
+    # Match case-insensitive
+    regione_upper = regione.upper()
+    for key, val in REGIONE_NORMALIZE.items():
+        if key.upper() == regione_upper:
+            return val
+    # Se è già in forma title-case corretta, restituiscila
+    return regione.title() if regione.isupper() else regione
+
 
 # ============================================================================
 # FUNZIONI HELPER

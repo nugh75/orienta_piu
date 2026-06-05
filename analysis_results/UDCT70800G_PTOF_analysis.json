@@ -1,0 +1,299 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDCT70800G",
+    "denominazione": "Cpia 1 Udine",
+    "tipo_scuola": "CPIA",
+    "ordine_grado": "Altro",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Palmanova",
+    "anno_ptof": "2022/2023- 2024/2025",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dante 3",
+    "cap": "33057",
+    "email": "bnic85400a@istruzione.it",
+    "pec": "ND",
+    "website": "https//cpiaudine.edu.it/",
+    "tipo_scuola_dettaglio": "Centro Territoriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "associazioni",
+        "EE. LL.",
+        "Ufficio di Piano",
+        "Protezione Civile",
+        "Misericordia",
+        "associazioni artistiche-culturali",
+        "associazioni sportive",
+        "Parrocchie",
+        "Ufficio di Piano Ambito B3",
+        "ASL",
+        "Comune",
+        "Museo del Sannio Caudino",
+        "Istituti Superiori",
+        "Biblioteche",
+        "Aziende"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di recupero in Italiano, Matematica e Inglese",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività di recupero per alunni con difficoltà",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto di Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Insegnamento del francese",
+      "target": "Alunni classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di Latino",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Insegnamento del latino",
+      "target": "Alunni classi terze secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola e Territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Attività extracurricolare",
+      "target": "Alunni primaria"
+    },
+    {
+      "titolo_attivita": "Scuola InCanto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori musicali",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di Accoglienza, Continuità e Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Scambio info tra docenti, visite scuole, incontri informativi",
+      "target": "Alunni-Genitori-Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Legalita’ E Cittadinanza Attiva”",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Laboratori didattici, incontri con soggetti esterni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Sicurezza A Scuola”",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Informazione, formazione, individuazione figure sensibili",
+      "target": "Alunni-Docenti-Personale ATA"
+    },
+    {
+      "titolo_attivita": "Progetto “Scuola E Territorio”",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Laboratori didattici, incontri con soggetti esterni, uscite",
+      "target": "Alunni, Famiglie, Stakeholders"
+    },
+    {
+      "titolo_attivita": "Progetto “Happy English”",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Attività di laboratorio, giochi, canzoni",
+      "target": "Alunni di cinque anni"
+    },
+    {
+      "titolo_attivita": "Progetto “Musica E Movimento”",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività laboratoriali di musica e movimento",
+      "target": "Alunni di 5 anni"
+    },
+    {
+      "titolo_attivita": "Progetto “Playng Music Approccio Allo Strumento Musicale”",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività laboratoriali, pratica strumenti musicali",
+      "target": "Alunni classi quinte primaria/scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto “Frutta - Latte Nelle Scuole”",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Degustazioni guidate, distribuzione prodotti",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Italiano”",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Attività laboratoriali, ricerche, esercizi",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Incanto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività canore nell'ambito di un'opera lirica",
+      "target": "Gruppi di alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Giochi Matematici”",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Lezioni pomeridiane, allenamenti, simulazioni",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto “Latino”",
+      "categoria_principale": "Latino",
+      "descrizione_e_metodologia": "Analisi strutture grammaticali, traduzioni",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto “Inglese”",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Recupero conoscenze, attività mirate",
+      "target": "Alunni classi quinte primaria/terze secondaria"
+    },
+    {
+      "titolo_attivita": "Visite guidate al Museo del Sannio Caudino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite guidate e laboratori didattici",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tirocinio presso I.I.S. Fermi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Interventi mirati all’interno delle classi",
+      "categoria_principale": "Autostima",
+      "descrizione_e_metodologia": "Attività volte al miglioramento dell’autostima e della disponibilità ad apprendere",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Consulenza didattica",
+      "categoria_principale": "DSA",
+      "descrizione_e_metodologia": "Consulenza per situazioni con sospetti casi di DSA",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive finalizzate alle gare",
+      "target": "Gruppi di alunni"
+    },
+    {
+      "titolo_attivita": "Sulle note di Mariele",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori musicali e corsi di formazione per docenti",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Performance di musica classica in teatri",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Scuola In Canto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esecuzione di arie d'opera con il Teatro San Carlo",
+      "target": "Scuola Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvio alla pratica strumentale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Studenti del Liceo Musicale 'Lombardi' come tutor",
+      "target": "Scuola Primaria e Secondaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDCT70800G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Centro Terr.Le Perm.Te Palmanova** (UDCT70800G), relativo all'anno scolastico 2022/2023-2024/2025. La scuola, di ordine e grado comprensivo, situata nel territorio non metropolitano di Palmanova (Udine), in Friuli-Venezia Giulia, si configura come un istituto statale che pone particolare attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata. L'analisi si concentra sulla valutazione delle azioni e degli obiettivi relativi all'orientamento, al fine di identificare punti di forza, aree di debolezza e possibili gap.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 2, il che suggerisce un'attenzione formale all'aspetto.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di partnership con un ampio ventaglio di soggetti esterni, tra cui **musei**, **istituti pubblici e privati**, **associazioni**, **EE. LL.**, l'**Ufficio di Piano**, la **Protezione Civile**, la **Misericordia**, **associazioni artistiche-culturali e sportive**, **Parrocchie**, l'**Ufficio di Piano Ambito B3**, l'**ASL**, il **Comune**, il **Museo del Sannio Caudino**, **Istituti Superiori**, **Biblioteche** e **Aziende**. Questo elevato numero di collaborazioni (15 partner) indica una solida rete di supporto per le attività di orientamento e un'apertura al territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** (punteggio 4), gli **interessi** (punteggio 3), il **progetto di vita** (punteggio 5), le **transizioni formative** (punteggio 4) e le **capacità orientative** per cogliere le opportunità (punteggio 4).\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 4), la promozione della continuità territoriale (punteggio 5), il contrasto al fenomeno dei **NEET** (punteggio 2) e lo sviluppo del **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono orientate al **coordinamento dei servizi** (punteggio 5), al **dialogo tra docenti e studenti** (punteggio 4), al rafforzamento del **rapporto scuola-genitori** (punteggio 5), al **monitoraggio delle azioni** (punteggio 2) e alla creazione di un **sistema integrato di inclusione e supporto alle fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 4), sull'utilizzo di **laboratori** (punteggio 2), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'approccio **interdisciplinare** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 3) e **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate, che offrono agli studenti numerose opportunità di contatto con il mondo del lavoro e del territorio. L'attenzione alle **finalità** dell'orientamento, in particolare alla costruzione del **progetto di vita** degli studenti, e la solida base delle **azioni di sistema**, come il coordinamento dei servizi e il rapporto scuola-genitori, rappresentano ulteriori elementi positivi. L'impegno per il **lifelong learning** e la continuità territoriale sono anch'essi degni di nota.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza riscontrata è la scarsa attenzione al **monitoraggio delle azioni** (punteggio 2), che potrebbe compromettere l'efficacia delle iniziative intraprese. Anche l'obiettivo di contrastare il fenomeno dei **NEET** (punteggio 2) appare meno prioritario rispetto agli altri. L'utilizzo dei **laboratori** nella didattica orientativa (punteggio 2) potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di implementare un sistema di monitoraggio più efficace per valutare l'impatto delle azioni di orientamento e apportare eventuali correzioni. Inoltre, sarebbe opportuno rafforzare le iniziative volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani, con particolare attenzione al contrasto del fenomeno dei **NEET**.\n\n### 6. Conclusioni\n\nIl PTOF del **Centro Terr.Le Perm.Te Palmanova** presenta un approccio all'orientamento ben strutturato e orientato al territorio. La vasta rete di **partnership** e l'attenzione alle **finalità** e agli **obiettivi** dell'orientamento rappresentano punti di forza significativi. Tuttavia, è necessario potenziare il **monitoraggio delle azioni** e rafforzare le iniziative volte a contrastare la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani. Le numerose attività proposte, come **Progetto di recupero in Italiano, Matematica e Inglese**, **Progetto di Francese**, **Progetto Scuola e Territorio**, **Scuola InCanto** e **Progetto di Accoglienza, Continuità e Orientamento**, dimostrano un impegno concreto nella realizzazione di un'offerta formativa completa e orientata al futuro degli studenti."
+}

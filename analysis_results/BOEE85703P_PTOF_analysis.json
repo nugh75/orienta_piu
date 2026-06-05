@@ -1,0 +1,373 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOEE85703P",
+    "denominazione": "I.C. N.13 Bologna",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cesare Pavese 15",
+    "cap": "40141",
+    "email": "pvps05000q@istruzione.it",
+    "pec": "pvps05000q@pec.istruzione.it",
+    "website": "www.ic13bo.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata e chiaramente definita. Le iniziative sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Università degli Studi di Pavia",
+        "Ospedali",
+        "Ordine dei Medici",
+        "OPI Pavia",
+        "Strutture ospedaliere cittadine",
+        "Banca Intesasanpaolo",
+        "Provincia pavese",
+        "Gran Sasso Science Institute",
+        "Istituto Nazionale di Fisica Nucleare",
+        "Fondazione I.R.C.C.S. Policlinico San Matteo",
+        "FAI",
+        "Altre scuole",
+        "Altre associazioni"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Le attività didattiche presentate si concentrano principalmente su lezioni frontali e attività pratiche generali, con una limitata specificità verso laboratori dedicati all'orientamento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Power",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ora aggiuntiva di Fisica",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Percorso Biomedicale Ippocrate",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Potenziamento Scienze Naturali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Start up your life",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Alfabetizzazione economica e finanziaria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Eni learning",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Video lezioni su dinamiche aziendali ed energia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "ATS incidenti sul lavoro",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Creazione prodotti sensibilizzazione sicurezza lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Z-lab Banca Intesasanpaolo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alfabetizzazione economica e finanziaria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un'esperienza alla Provincia pavese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Redazione quotidiano locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Starbook",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Potenziamento Scienze Naturali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "FAI: apprendisti ciceroni",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate a beni architettonici pavesi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di fisica articolate in più fasi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "giochi di Anacleto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Esperienza pratica di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi dell'Italiano",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di lingua italiana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di matematica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi delle Scienze Naturali",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di scienze naturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto volley Copernico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di pallavolo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scienze Under 18",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Manifestazione con exhibit scientifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "History Walks",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate in inglese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Unitest",
+      "categoria_principale": "Preparazione Universitaria",
+      "descrizione_e_metodologia": "Attività di preparazione ai test d'ammissione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura e recensione di opere scientifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano Lauree Scientifiche",
+      "categoria_principale": "Collaborazione Università",
+      "descrizione_e_metodologia": "Attività laboratoriali e seminari",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Scaccopernico",
+      "categoria_principale": "Giochi",
+      "descrizione_e_metodologia": "Insegnamento degli scacchi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Copeteatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Laboratorio teatrale e partecipazione a spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Radio Cope",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Gestione di una radio scolastica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Show and tell",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Visite guidate e storytelling",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Qui Copernico",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Redazione di articoli per il quotidiano locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scatti di civiltà",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Fotografie di azioni virtuose/irrispettose",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Leggere con arte",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura di libri e realizzazione di manufatti artistici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Basket 3vs3",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di basket",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Trofeo Maggi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di calcio a 5",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti acqua",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Uscite didattiche sul fiume Ticino",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Google Suite",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Webinar e tutorial per docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività per studenti meno esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rafting",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Esplorazione del Parco del Ticino, attività di gruppo, pratica del rafting.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Badminton",
+      "categoria_principale": "Benessere, salute e sport",
+      "descrizione_e_metodologia": "Teoria e pratica del Badminton, costruzione campi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sci",
+      "categoria_principale": "Benessere, salute e sport",
+      "descrizione_e_metodologia": "Attività di avviamento/perfezionamento sci.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Camposcuola Isola d'Elba",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Esperienze dirette: botanica, geologia, ecologia, trekking.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Classi aperte parallele",
+      "categoria_principale": "Altro",
+      "descrizione_e_metodologia": "Altro",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Apertura biblioteca, gestione materiale librario.",
+      "target": "Altro"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOEE85703P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **Cesare Pavese** (BOEE85703P), per il triennio 2022-2025. La scuola, situata nel territorio metropolitano di Bologna, in Emilia Romagna, si configura come un istituto statale. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non formalizzato in una sezione dedicata e chiaramente definita all'interno del PTOF. Le attività sono integrate in diverse aree del piano, con un punteggio complessivo di 4 su una scala non specificata. La scuola dimostra una buona capacità di attivare partnership con diversi enti e istituzioni, e di definire finalità orientative che toccano ambiti come attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'assenza di una sezione dedicata all'orientamento rappresenta un elemento di criticità, nonostante la presenza di diverse iniziative in tal senso.\n\n**2.2 Partnership:** La scuola vanta un network di **12 partner**, tra cui **Università degli Studi di Pavia**, diversi **ospedali** e l'**Ordine dei Medici**, il **FAI**, e altre scuole e associazioni. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e coprono diverse aree, tra cui lo sviluppo di **attitudini**, **interessi**, la costruzione del **progetto di vita**, il supporto alle **transizioni formative** e lo sviluppo di **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi orientativi si concentrano sulla riduzione dell'**abbandono scolastico**, il mantenimento del legame con il **territorio**, il contrasto alla dispersione scolastica e la promozione del **lifelong learning**. Tuttavia, il punteggio di 3 per ciascun obiettivo suggerisce un'area di miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono solide e includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il coinvolgimento dei **genitori**, il **monitoraggio delle azioni** intraprese e l'integrazione con il sistema di **inclusione** e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** e sulla **flessibilità degli spazi e dei tempi**. Tuttavia, l'attività laboratoriale specifica per l'orientamento risulta meno sviluppata, con un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative copre diverse aree, tra cui cultura, laboratori espressivi, attività ludiche, **volontariato** e sport, con un punteggio di 3 per ciascuna.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella presenza di un ampio ventaglio di attività, nella solida rete di **partnership** con enti esterni, nella chiarezza delle **finalità** orientative e nella robustezza delle **azioni di sistema**. L'impegno verso l'inclusione e il supporto agli studenti con fragilità è particolarmente apprezzabile. Attività come **Start up your life** e **Z-lab Banca Intesasanpaolo** dimostrano un'attenzione all'alfabetizzazione economica e finanziaria.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Inoltre, la didattica laboratoriale specificamente orientata risulta meno sviluppata rispetto ad altre metodologie. Gli obiettivi orientativi, pur ben definiti, necessitano di un maggiore focus per essere pienamente raggiunti.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di formalizzare l'orientamento all'interno del PTOF, creando una sezione dedicata che raccolga e coordini tutte le iniziative in questo ambito. È inoltre necessario potenziare le attività didattiche di tipo laboratoriale, offrendo agli studenti esperienze pratiche e concrete che li aiutino a scoprire le proprie attitudini e interessi.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Cesare Pavese** dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. Formalizzando l'orientamento all'interno del PTOF e potenziando le attività didattiche di tipo laboratoriale, la scuola potrà massimizzare l'efficacia delle proprie iniziative e offrire agli studenti un supporto ancora più completo e mirato nella costruzione del loro futuro. L'ampia gamma di attività proposte, tra cui **Olimpiadi della Fisica**, **FAI: apprendisti ciceroni** e **Progetto volley Copernico**, evidenzia una scuola dinamica e attenta alle esigenze dei propri studenti."
+}

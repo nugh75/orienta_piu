@@ -1,0 +1,195 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDPS01500B",
+    "denominazione": "Liceo Scientifico Paritario \"Bertoni Gaspare",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Udine",
+    "anno_ptof": "2025-2028",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Viale Cadore 59",
+    "cap": "33100",
+    "email": "bertoni@bertoni-udine.it",
+    "pec": "bertoni@bertoni-udine.it",
+    "website": "www.bertoni-udine.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. L'istituto si concentra sulla formazione umana, culturale e sociale, ma manca un'area specifica o un programma dedicato all'orientamento scolastico e professionale."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Fondazione Karis",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo lingua inglese come veicolo per apprendimento contenuti",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Laboratori di robotica e coding",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite guidate, uscite didattiche",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Viaggio nella tradizione attraverso poesia, storia, musica e arte.",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi e Celebrazioni",
+      "descrizione_e_metodologia": "Celebrazione dell'anno scolastico con performance artistiche e musicali.",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione e Promozione",
+      "descrizione_e_metodologia": "Apertura della scuola per far conoscere l'ambiente educativo.",
+      "target": "Genitori e potenziali studenti"
+    },
+    {
+      "titolo_attivita": "Progetto di educazione alla sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati per la sicurezza stradale.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di tecnologia e informatica",
+      "categoria_principale": "Tecnologia e Informatica",
+      "descrizione_e_metodologia": "Sviluppo del pensiero computazionale attraverso coding.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Attività extrascolastiche",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e di convivenza in Appennino.",
+      "target": "Alunni delle scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà e Cooperazione",
+      "descrizione_e_metodologia": "Sostegno a distanza di bambini tramite AVSI.",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà e Cooperazione",
+      "descrizione_e_metodologia": "Raccolta di generi alimentari per famiglie bisognose.",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto per la promozione della lettura",
+      "categoria_principale": "Letteratura e Lingue",
+      "descrizione_e_metodologia": "Avviare, potenziare e consolidare il piacere della lettura.",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDPS01500B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Paritario \\\"Bertoni Gaspare\\\"** (UDPS01500B) per il periodo 2025-2028. L'istituto, situato a **Udine** in **Friuli-Venezia Giulia**, opera in un contesto territoriale **non metropolitano** e si rivolge a studenti del **II Grado**. L'analisi evidenzia un impegno significativo nella formazione umana, culturale e sociale degli studenti, ma una relativa mancanza di una specifica strutturazione dedicata all'orientamento scolastico e professionale. Pur riconoscendo l'importanza delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, l'istituto mostra un punteggio inferiore nella definizione di azioni concrete per le **transizioni formative** e lo sviluppo delle **capacità orientative** rispetto alle opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, un aspetto che rappresenta un punto critico.\n\n**2.2 Partnership:** L'istituto vanta collaborazioni con importanti realtà del territorio, tra cui **Karis Foundation**, **Fondazione Karis**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**, per un totale di 4 partnership. Queste collaborazioni potrebbero essere potenziate per integrare specifiche attività di orientamento.\n\n**2.3 Finalità:** Le finalità del PTOF sono fortemente orientate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, ottenendo punteggi massimi in queste aree. Tuttavia, l'attenzione alle **transizioni formative** risulta meno sviluppata, così come lo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono** scolastico e favorire la continuità territoriale, con punteggi rispettivamente di 2 e 3. L'attenzione alla lotta contro il fenomeno **NEET** è assente, mentre l'impegno per il **lifelong learning** è moderato.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. Particolare attenzione è rivolta al sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori e sull'interdisciplinarità. La flessibilità degli spazi e dei tempi è presente, ma con un punteggio moderato.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, offrendo agli studenti diverse opportunità di approfondimento e scoperta.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nell'attenzione allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, nonché nella presenza di partnership consolidate con realtà del territorio. Le attività come **Progetto Clil**, **Progetto di robotica e coding** e **Progetto per la promozione della lettura** dimostrano un impegno verso l'innovazione didattica e l'ampliamento delle competenze degli studenti. L'organizzazione di eventi come l'**Open Day** e la **Festa di fine anno** favorisce la comunicazione e la coesione della comunità scolastica.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento nel PTOF. Questo si traduce in una scarsa definizione di azioni concrete per supportare gli studenti nelle **transizioni formative** e nello sviluppo delle **capacità orientative** necessarie per affrontare il mondo del lavoro e le scelte future. L'obiettivo di contrastare il fenomeno **NEET** è inesistente.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strategia organica per l'orientamento. Sebbene il PTOF riconosca l'importanza di sviluppare le **attitudini** e gli **interessi** degli studenti, non prevede un percorso strutturato per tradurre queste potenzialità in scelte consapevoli e realistiche. È necessario colmare questo gap attraverso la definizione di obiettivi specifici, azioni mirate e indicatori di monitoraggio.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico Paritario \\\"Bertoni Gaspare\\\"** presenta un quadro complessivamente positivo, con un forte impegno verso la formazione integrale degli studenti e la collaborazione con il territorio. Tuttavia, per migliorare l'efficacia del piano, è fondamentale integrare una sezione dedicata all'orientamento, definendo obiettivi specifici, azioni concrete e indicatori di monitoraggio. Un maggiore focus sulle **transizioni formative** e sullo sviluppo delle **capacità orientative** consentirebbe agli studenti di affrontare con maggiore consapevolezza le sfide del futuro e di costruire un **progetto di vita** soddisfacente."
+}

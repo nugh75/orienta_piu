@@ -1,0 +1,364 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOEE84902B",
+    "denominazione": "I.C. Settimo Vittone",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Andrate",
+    "anno_ptof": "2016/17",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Reg. S. Maria 38",
+    "cap": "10010",
+    "email": "toic849008@istruzione.it",
+    "pec": "ND",
+    "website": "www.icsettimovittone.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "scuole medie",
+        "Città Metropolitana",
+        "FAI",
+        "Istituti Comprensivi",
+        "Università",
+        "Associazioni professionali",
+        "ASL",
+        "Associazioni ambientali",
+        "Unione industriale",
+        "Avis",
+        "Osservatorio astronomico",
+        "Finanza",
+        "Polizia",
+        "Carabinieri",
+        "Croce Rossa",
+        "ANPAS",
+        "AIACE",
+        "Regione Piemonte",
+        "Comune di Chieri",
+        "Cambridge English Italia",
+        "WEP",
+        "Intercultura",
+        "St. Joseph College (Melbourne)",
+        "USR",
+        "Ciofs S. Teresa",
+        "Fondazione Sodalitas",
+        "Assolombarda",
+        "Politecnico di Milano",
+        "Il Punto Macrobiotico di Chieri"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate FAI",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate",
+      "target": "Studenti indirizzo Turismo"
+    },
+    {
+      "titolo_attivita": "Progetto Pillole di Economia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto didattico sull'economia",
+      "target": "Studenti indirizzo Amministrazione"
+    },
+    {
+      "titolo_attivita": "Attività in serra",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività pratiche in serra",
+      "target": "Studenti indirizzo Agrario"
+    },
+    {
+      "titolo_attivita": "Presentazione dell’Istituto e dell’offerta formativa alle scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri nelle scuole medie del territorio",
+      "target": "Studenti delle scuole medie"
+    },
+    {
+      "titolo_attivita": "Visita dell’Istituto su richiesta",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open day e visite guidate",
+      "target": "Studenti e genitori"
+    },
+    {
+      "titolo_attivita": "Partecipazione ai Saloni dell’Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stand informativo",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Sportello d’ascolto",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Consulenza psicologica a studenti e famiglie",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Io volontario… e tu?",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Collaborazione con associazioni del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Impariamo a consumare meno",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Monitoraggio parametri ambientali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi di istruzione",
+      "categoria_principale": "Visite culturali",
+      "descrizione_e_metodologia": "Visite a città d'arte o località storiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Presentazione opzioni Istituto",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Avvalersi del servizio Orientarsi",
+      "target": "Alunni neoarrivati"
+    },
+    {
+      "titolo_attivita": "Corso di Italiano di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Parallelamente ai corsi IDEI",
+      "target": "Alunni non promossi"
+    },
+    {
+      "titolo_attivita": "Progetti Certificazioni Linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi di inglese con docenti madrelingua, test d'ingresso, esami Cambridge/Trinity",
+      "target": "Tutti gli studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Giornata Europea delle Lingue",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Quiz, giochi, banchetto informativo, incontro con esperti",
+      "target": "Studenti, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Progetto Teacher's Assistant",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Assistente madrelingua canadese, lezioni interattive",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Progetto Tirocinante",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Guida turistica in inglese con supporto tirocinante",
+      "target": "Studenti 4°/5° Turismo"
+    },
+    {
+      "titolo_attivita": "Juvenes Translatores",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Concorso traduzione inglese/francese-italiano",
+      "target": "Studenti 17 anni"
+    },
+    {
+      "titolo_attivita": "Kangourou della Lingua Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Gioco-concorso inglese, fasi di selezione",
+      "target": "Studenti biennio/triennio"
+    },
+    {
+      "titolo_attivita": "Progetto Mobilità Individuale",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorno studio in Australia",
+      "target": "Studenti classi quarte"
+    },
+    {
+      "titolo_attivita": "Soggiorno Studio in Francia",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Soggiorno studio a Cannes",
+      "target": "Studenti che studiano francese"
+    },
+    {
+      "titolo_attivita": "Progetto WEB4CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppo metodologia CLIL, condivisione materiali digitali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Building Up",
+      "categoria_principale": "Tecnico",
+      "descrizione_e_metodologia": "Potenziamento inglese tecnico con insegnanti madrelingua",
+      "target": "Studenti 4° Costruzione, Ambiente e Territorio"
+    },
+    {
+      "titolo_attivita": "Educazione alla Salute",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni/conferenze/laboratori con esperti esterni",
+      "target": "Tutti gli allievi"
+    },
+    {
+      "titolo_attivita": "Progetti Accoglienza, Integrazione, Sostegno e Recupero",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza studenti, supporto DSA/BES",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza in agricoltura",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Lezioni teorico-applicative esperti ASL",
+      "target": "Classi terze indirizzo professionale"
+    },
+    {
+      "titolo_attivita": "Apicoltura",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Creazione apiario, produzione miele",
+      "target": "Classi terze indirizzo tecnico"
+    },
+    {
+      "titolo_attivita": "Valutazione morfologica bovini",
+      "categoria_principale": "Visita guidata",
+      "descrizione_e_metodologia": "Simulazioni in stalla, fiere zootecniche",
+      "target": "Classi terze indirizzo tecnico"
+    },
+    {
+      "titolo_attivita": "Costruire la propria professionalità",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Simulazione impresa, video",
+      "target": "Classi quinte indirizzo professionale"
+    },
+    {
+      "titolo_attivita": "Sicurezza e contabilita' nelle imprese",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, esperti aziendali",
+      "target": "Classi quarte indirizzo professionale"
+    },
+    {
+      "titolo_attivita": "Portale Turistico - Scuola Tap Tour",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Costruzione portale info turistiche",
+      "target": "Classi terze e quarte Turismo"
+    },
+    {
+      "titolo_attivita": "Un Sito Per L’Economia",
+      "categoria_principale": "Amministrazione, Finanza e Marketing",
+      "descrizione_e_metodologia": "Progettazione e realizzazione sito web",
+      "target": "Classi quarte AFM"
+    },
+    {
+      "titolo_attivita": "Orto Per L’Africa",
+      "categoria_principale": "Agricoltura",
+      "descrizione_e_metodologia": "Coltivazione e scambio interculturale",
+      "target": "Allievi diversabili"
+    },
+    {
+      "titolo_attivita": "Sing and Learn",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Canto canzoni in inglese",
+      "target": "Allievi diversabili"
+    },
+    {
+      "titolo_attivita": "Progettazione curricoli",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Incontri di progettazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con scuole medie",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOEE84902B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Settimo Vittone-Andrate (TOEE84902B), relativo all'anno 2016/17. L'istituto, di tipo Primaria situato nel territorio metropolitano della provincia di Torino e regione Piemonte, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'ampia rete di **partnership** e la varietà delle attività proposte suggeriscono un approccio proattivo e collaborativo per supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 4, il che indica una chiara attenzione a questa area cruciale.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di collaborazioni, con ben 30 **partner** nominati, tra cui **scuole medie**, **Città Metropolitana**, **FAI**, diverse **Istituti Comprensivi** e **Università**, ma anche **Associazioni professionali**, **ASL**, **Associazioni ambientali**, **Unione industriale**, **Avis**, **Osservatorio astronomico**, enti finanziari, forze dell'ordine (**Polizia**, **Carabinieri**), associazioni di volontariato (**Croce Rossa**, **ANPAS**, **AIACE**), la **Regione Piemonte**, il **Comune di Chieri**, e realtà internazionali come **Cambridge English Italia**, **WEP**, **Intercultura**, **St. Joseph College (Melbourne)**, oltre a enti di formazione come **USR**, **Ciofs S. Teresa**, **Fondazione Sodalitas**, **Assolombarda**, **Politecnico di Milano** e **Il Punto Macrobiotico di Chieri**. Questo elevato numero di collaborazioni, con un punteggio di 7, testimonia la capacità dell'istituto di creare sinergie con il territorio e di offrire agli studenti opportunità di contatto con il mondo del lavoro e della formazione.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi di 6 per lo sviluppo di **attitudini**, **interessi** e per la progettazione del **progetto di vita**, nonché per lo sviluppo delle **capacità orientative** e la comprensione delle **opportunità**. Il punteggio di 4 per le **transizioni formative** suggerisce un'area di potenziale miglioramento.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico, garantire la **continuità territoriale**, contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning**, con punteggi generalmente buoni (6), ad eccezione del contrasto ai NEET, che ottiene un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni**, tutte con un punteggio di 6. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**, con punteggi di 6. La didattica **laboratoriale** ottiene un punteggio inferiore (3), suggerendo la necessità di potenziare questa componente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** e **laboratoriali-espressive** (punteggio 5), mentre quelle **ludico-ricreative** e **sportive** sono meno sviluppate (punteggio 1 e 3 rispettivamente). Le opzioni di **volontariato** ottengono un punteggio di 4.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono l'ampia rete di **partnership**, la presenza di una sezione dedicata, la chiarezza delle **finalità** e degli **obiettivi**, e l'impegno verso un approccio didattico basato sull'esperienza e sulla flessibilità. Le numerose attività registrate, come le **Visite guidate FAI**, il progetto **Pillole di Economia**, le attività in **serra**, la **Presentazione dell’Istituto** alle scuole medie, lo **Sportello d’ascolto** e i **Viaggi di istruzione**, dimostrano un'offerta diversificata e mirata.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riscontrate riguardano la didattica **laboratoriale**, la necessità di rafforzare le azioni per contrastare il fenomeno dei **NEET** e lo sviluppo delle **transizioni formative**. L'offerta di attività opzionali **ludico-ricreative** e **sportive** appare limitata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le buone intenzioni espresse nel PTOF in azioni concrete e misurabili, in particolare per quanto riguarda la prevenzione dell'abbandono scolastico e l'inserimento nel mondo del lavoro. È necessario potenziare la didattica laboratoriale e ampliare l'offerta di attività opzionali, in modo da rispondere in modo più efficace alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Settimo Vittone-Andrate dimostra un impegno significativo verso l'orientamento, con una solida base di partenza e un'ampia rete di collaborazioni. Superando le aree di debolezza individuate e colmando i gap esistenti, l'istituto potrà rafforzare ulteriormente la sua offerta formativa e garantire agli studenti un percorso di crescita completo e consapevole. Le attività come **Progetti Certificazioni Linguistiche**, **Progetto Mobilità Individuale** e **Progettazione curricoli** rappresentano un valore aggiunto per la comunità scolastica."
+}

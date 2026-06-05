@@ -1,0 +1,64 @@
+============================================================
+🏫 Allineamento Metadati MIUR
+============================================================
+📂 Caricamento SCUANAGRAFESTAT20252620250901.csv...
+   ✅ 7860 scuole statali (record principali)
+   📋 IS risolti dai plessi: 1407, IS non risolti: 0
+📂 Caricamento SCUANAGRAFEPAR20252620250901.csv...
+   ✅ 11505 scuole paritarie
+
+📊 Totale scuole MIUR caricate: 19365
+
+📋 Allineamento analysis_summary.csv...
+   Scuole totali: 2095
+   Trovate in MIUR: 1030
+   Non in MIUR: 1065
+   Con modifiche: 398
+
+   Modifiche per campo:
+     denominazione: 237 modifiche
+     regione: 118 modifiche
+     tipo_scuola: 110 modifiche
+
+   Dettaglio (prime 10):
+   📌 APPS02000E (B. Rosetti)
+      denominazione: '"B. Rosetti"' → 'B. Rosetti'
+   📌 NAIS00700X (I.S.- Ipct Munthe Anacapri)
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Professionale'
+   📌 IM1A003003 (Fond.Dante Alighieri Per Istruzione-Alme)
+      denominazione: '"Fond.Dante Alighieri Per Istruzione-Almerini"' → 'Fond.Dante Alighieri Per Istruzione-Almerini'
+   📌 CBPM040008 (Liceo Statale "G. M.Galanti)
+      denominazione: 'Liceo Statale "G. M.Galanti"' → 'Liceo Statale "G. M.Galanti'
+   📌 APPSR5500N (Liceo Scientifico Opz. Scienze Applicate)
+      denominazione: 'Liceo Scientifico Opz. Scienze Applicate "Giovanni Paolo Ii"' → 'Liceo Scientifico Opz. Scienze Applicate "Giovanni Paolo Ii'
+   📌 BG1A22800R (Scuola Materna "San Nicolo)
+      denominazione: 'Scuola Materna "San Nicolo"' → 'Scuola Materna "San Nicolo'
+   📌 BAIS05300C (I.I.S.S. "Luigi Russo)
+      denominazione: 'I.I.S.S. "Luigi Russo"' → 'I.I.S.S. "Luigi Russo'
+      tipo_scuola: 'Istituto Superiore' → 'Liceo, Professionale'
+   📌 FI1A05800V (Preziosissimo Sangue)
+      denominazione: '"Preziosissimo Sangue"' → 'Preziosissimo Sangue'
+   📌 UDIC86100G (Lestizza-Talmassons-Mortegliano-Castions)
+      regione: 'Friuli-Venezia G.' → 'Friuli-Venezia Giulia'
+   📌 TEIS01100D (I.I.S. Crocetti V. Cerulli)
+      tipo_scuola: 'Istituto Superiore' → 'Tecnico, Professionale'
+
+   💾 Backup: analysis_summary.csv.bak.miur_align.20260213_220317
+   ✅ CSV aggiornato con 398 modifiche
+
+📋 Allineamento 2095 file JSON...
+   File totali: 2095
+   Trovati in MIUR: 1030
+   Non in MIUR: 1065
+   Aggiornati: 398
+
+   Modifiche per campo:
+     denominazione: 237
+     regione: 118
+     tipo_scuola: 110
+
+============================================================
+📊 RIEPILOGO
+============================================================
+   CSV: 398/2095 scuole aggiornate
+   JSON: 398/2095 file aggiornati

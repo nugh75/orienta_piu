@@ -1,0 +1,268 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VIEE879041",
+    "denominazione": "I.C. \" Goffredo Parise",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Arzignano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Vicenza",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Maffei 4",
+    "cap": "36071",
+    "email": "viic87900q@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.icparise.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente e descritta"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi/criticità DDI 2020/21 rispetto a 2019/20",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa e mediazione",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per l'autonomia e l'orientamento",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, supporto compiti",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Prevenzione e benessere",
+      "descrizione_e_metodologia": "Interventi educativi, formazione docenti, supporto psicologico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria e secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale con esperti.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2 e percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni classi terze scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro online tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire conoscenza specificità segmenti scolastici, passaggio informazioni alunni BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Revisione Curricolo d'Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Lavoro dipartimenti verticali, condivisione prospettiva pedagogica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VIEE879041\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Castello A.Giuriolo\" di Arzignano (VI), codice meccanografico VIEE879041, relativo al periodo 2019/20-2021/22. L'analisi si concentra in particolare sull'area dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Il PTOF evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un'ampia rete di collaborazioni con diversi soggetti del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una presenza e descrizione adeguata.\n\n**2.2 Partnership:** L'istituto vanta un solido sistema di partnership, con ben 16 partner nominati, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **Musei**, l'**Archivio di Stato**, diversi **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, altre scuole, **autonomie locali**, l'**ASL**, l'associazione \"**Giardino Felice**\" e la cooperativa **SIS Giotti**. Questo ampio ventaglio di collaborazioni suggerisce un forte radicamento nel territorio e una volontà di coinvolgere attivamente la comunità nel processo educativo.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con punteggi di 3 per entrambe le aree. Si riscontra un maggiore impegno verso il supporto al **progetto di vita** degli alunni (punteggio 4) e alla gestione delle **transizioni formative** (punteggio 5). L'area delle **capacità orientative** e delle **opportunità** risulta meno sviluppata (punteggio 2).\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono scolastico** (punteggio 4) e di favorire la continuità con il **territorio** (punteggio 5). L'attenzione verso il contrasto al fenomeno **NEET** è meno marcata (punteggio 1), mentre l'impegno per il **lifelong learning** è considerato adeguato (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento si concentrano sul **coordinamento dei servizi** (punteggio 4), sul **dialogo tra docenti e studenti** (punteggio 4), sul **rapporto scuola-genitori** (punteggio 4) e sull'implementazione di un **sistema integrato di inclusione e fragilità** (punteggio 4). Il **monitoraggio delle azioni** è considerato un aspetto da migliorare (punteggio 3).\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di metodologie **laboratoriali** (punteggio 2), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'**interdisciplinarità** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali si concentra su laboratori **espressivi** (punteggio 4) e attività **ludico-ricreative** (punteggio 3), mentre le opzionali **culturali** e di **volontariato** sono meno presenti (punteggio 1). Le attività **sportive** ricevono un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate con il territorio, che offre agli studenti numerose opportunità di contatto con il mondo del lavoro e della cultura. L'attenzione alle **transizioni formative** e al **progetto di vita** degli alunni rappresenta un altro elemento positivo. L'istituto dimostra un forte impegno verso l'inclusione e la valorizzazione delle competenze di tutti gli studenti.\n\n### 4. Aree di Debolezza\n\nL'area delle **capacità orientative** e delle **opportunità** risulta meno sviluppata, suggerendo la necessità di potenziare le competenze degli studenti nella valutazione delle proprie attitudini e nella ricerca di informazioni sul mondo del lavoro. L'attenzione verso il contrasto al fenomeno **NEET** è limitata, e l'offerta di attività opzionali **culturali** e di **volontariato** potrebbe essere ampliata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità orientative in azioni concrete volte a sviluppare le **capacità orientative** degli studenti e a fornire loro gli strumenti necessari per affrontare le sfide del mondo del lavoro. È necessario potenziare le attività di **orientamento in uscita** e favorire la collaborazione con le aziende del territorio per offrire agli studenti opportunità di **stage** e **tirocinio**.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo \"Castello A.Giuriolo\" presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la solida rete di partnership e l'attenzione alle finalità formative rappresentano punti di forza significativi. Tuttavia, è necessario colmare le lacune individuate, potenziando le **capacità orientative** degli studenti e ampliando l'offerta di attività opzionali, per garantire un servizio di orientamento completo ed efficace. Le attività registrate, come \"**Attività di ampliamento curricolare**\", \"**Collaborazione con associazioni del territorio**\", \"**Monitoraggio Didattica Digitale Integrata**\", \"**Anagrafe Competenze Docenti e Personale ATA**\", \"**Monitoraggio Risultati Alunni**\", \"**Revisione Regolamento di Disciplina**\", \"**Servizio Integrativo Scolastico (S.I.S.)**\", \"**Laboratori pomeridiani**\", \"**Programma Benessere**\", \"**Programma Continuità**\", \"**Weissingioco**\", \"**Il Gioco Del Teatro**\", \"**Intercultura E Integrazione Alunni Stranieri**\", \"**Scuola Amica, CCRR**\", \"**Orientamento In Uscita Classi Terze Scuola Secondaria**\", \"**Formazione del personale**\", \"**Attività didattiche**\", \"**Progetto di istituto per l'inclusione**\", \"**Progetto di istituto di educazione interculturale**\", \"**Momenti di lavoro online tra docenti**\", \"**Revisione Curricolo d'Istituto**\" e \"**Accoglienza alunni**\", dimostrano un impegno costante e diversificato verso il raggiungimento degli obiettivi prefissati."
+}

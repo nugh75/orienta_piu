@@ -1,0 +1,200 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SVCT70000G",
+    "denominazione": "Cpia Savona",
+    "tipo_scuola": "CPIA",
+    "ordine_grado": "Altro",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Finale Ligure",
+    "anno_ptof": "2022-2025",
+    "provincia": "Savona",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Celesia 2",
+    "cap": "17024",
+    "email": "svmm062003@istruzione.it",
+    "pec": "ND",
+    "website": "www.cpiasavona.edu.it",
+    "tipo_scuola_dettaglio": "Centro Territoriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione esplicitamente dedicata all'orientamento. Le attività di orientamento sono integrate in altre aree del PTOF, come il PCTO, senza una struttura coerente e specifica."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Slowfood",
+        "Coldiretti",
+        "Legambiente",
+        "botteghe equo solidali",
+        "Coop",
+        "Polizia Postale",
+        "Associazione Zonta International",
+        "Associazione Il Canto della Terra",
+        "AVIS",
+        "AIRC",
+        "Scuola Internazionale di cucina di Gualtiero Marchesi",
+        "Università degli studi di Scienze gastronomiche a Pollenzo",
+        "Cast Alimenti",
+        "Costa Crociere",
+        "ITS",
+        "Centri per l’Impiego",
+        "Confcommercio",
+        "Università di Genova",
+        "Poli di Savoa e Imperia",
+        "Forze Armate",
+        "A.Li.Sa."
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Formativo Individuale (PFI)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Bilancio personale, aggiornamento durante il percorso scolastico, tutoraggio.",
+      "target": "Studenti del primo anno"
+    },
+    {
+      "titolo_attivita": "UDA (Unità Didattiche di Apprendimento)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Compiti di realtà, lavoro in team, valutazione per competenze.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Progetto 'Cittadini 3.0'",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività per promuovere la partecipazione civica e digitale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Finale Giovani",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Incontri con associazioni di volontariato locali.",
+      "target": "Giovani finalesi"
+    },
+    {
+      "titolo_attivita": "Progetto 'Una torta per Janira'",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Vendita di torte per raccogliere fondi per borse di studio.",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Visite a scuola, partecipazione a lezioni, materiale informativo online.",
+      "target": "Studenti scuole medie inferiori"
+    },
+    {
+      "titolo_attivita": "Stage Aziendale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodo di stage in aziende del settore Ho.Re.Ca o impianti tecnici.",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Uscite Didattiche",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Partecipazione a manifestazioni, fiere, conferenze.",
+      "target": "Studenti classe quinta"
+    },
+    {
+      "titolo_attivita": "Formazione personale ATA - dematerializzazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione per potenziare l'informatizzazione dei servizi",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione personale collaboratore scolastico - inclusione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione su assistenza di base e aspetti organizzativi",
+      "target": "Personale collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SVCT70000G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Ctp Finale Ligure** (SVCT70000G) per il triennio 2022-2025. La scuola, di tipo **Professionale, Tecnico** e afferente al secondo grado, opera in un contesto territoriale **non metropolitano** nella regione **Liguria**. L'analisi evidenzia un impegno diffuso verso l'orientamento, sebbene non strutturato in una sezione dedicata specifica all'interno del PTOF. Le attività sono integrate in altre aree, come il **PCTO**, e si concentrano sullo sviluppo di attitudini, interessi, progettazione del futuro e preparazione alle transizioni formative.\n\n### 2. Analisi Dimensionale\n\nLa valutazione delle diverse dimensioni dell'orientamento presenti nel PTOF mostra un quadro complessivamente positivo. Per quanto riguarda l'orientamento, sebbene non esista una sezione dedicata, il punteggio attribuito è di 3, indicando una presenza di attività integrate. Le **partnership** rappresentano un punto di forza significativo, con un elevato numero di collaborazioni attive (19), tra cui **Slowfood**, **Coldiretti**, **Legambiente**, **Costa Crociere** e diversi **ITS**. Le finalità dell'orientamento, relative allo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità di cogliere le opportunità, ricevono tutte un punteggio di 6, suggerendo una chiara definizione degli obiettivi. Anche gli obiettivi specifici, come la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione giovanile (**neet**) e la promozione del **lifelong learning**, ottengono punteggi elevati (5 o 6). Le azioni del sistema, che includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione dell'inclusione e della fragilità, sono valutate positivamente (5 o 6). La didattica orientativa, basata sull'esperienza degli studenti, sulla laboratorialità, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, riceve punteggi di 5 o 6. Infine, le attività opzionali e facoltative, di tipo culturale, laboratoriale, ludico-ricreativo, di volontariato e sportivo, sono considerate un valore aggiunto, con punteggi di 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella ricchezza delle **partnership** attivate, che offrono agli studenti opportunità concrete di contatto con il mondo del lavoro e del volontariato. L'integrazione delle attività di orientamento all'interno di progetti trasversali, come l'**UDA** e il **PCTO**, permette di affrontare le tematiche dell'orientamento in modo organico e coerente con il curriculum scolastico. Attività come il **Progetto Formativo Individuale (PFI)**, il progetto '**Cittadini 3.0**', '**Progetto Finale Giovani**' e '**Una torta per Janira**' dimostrano un impegno concreto verso la crescita personale e sociale degli studenti. L'organizzazione di **Open Day** per l'orientamento in entrata è un'iniziativa importante per attrarre nuovi studenti e presentare l'offerta formativa della scuola.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione esplicitamente dedicata all'orientamento all'interno del PTOF. Questo comporta una frammentazione delle attività e una difficoltà nel monitorare e valutare l'efficacia complessiva dell'azione orientativa. Sebbene le attività siano ben distribuite nelle diverse aree del PTOF, manca una visione strategica e coordinata che ne potenzi l'impatto.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è l'istituzione di una sezione specifica per l'orientamento nel PTOF, con obiettivi, azioni e indicatori di performance chiaramente definiti. È necessario sviluppare un sistema di monitoraggio e valutazione che permetta di misurare l'efficacia delle attività di orientamento e di apportare eventuali correzioni in itinere. Potrebbe essere utile potenziare la collaborazione con i **Centri per l’Impiego** e le **Università** per favorire l'inserimento lavorativo e la prosecuzione degli studi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF del Ctp Finale Ligure dimostra un impegno significativo verso l'orientamento, sebbene questo non sia esplicitamente strutturato in una sezione dedicata. La ricchezza delle **partnership** e l'integrazione delle attività di orientamento all'interno del curriculum scolastico rappresentano punti di forza importanti. Per migliorare l'efficacia dell'azione orientativa, è necessario colmare il divario esistente attraverso l'istituzione di una sezione specifica nel PTOF e lo sviluppo di un sistema di monitoraggio e valutazione adeguato. L'attenzione alla formazione del personale, come dimostrato dai corsi per **ATA** e **collaboratori scolastici**, è un elemento positivo che contribuisce a creare un ambiente scolastico inclusivo e orientato al successo degli studenti."
+}

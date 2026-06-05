@@ -1,0 +1,370 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CBPM01000C",
+    "denominazione": "Ist. Omnicomprensivo - Giulio Rivera",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Guglionesi",
+    "anno_ptof": "2022/2023",
+    "provincia": "Campobasso",
+    "regione": "Molise",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via C. Colombo 6",
+    "cap": "86034",
+    "email": "cbpm01000c@istruzione.it",
+    "pec": "cbpm01000c@pec.istruzione.it",
+    "website": "www.omnicomprensivoguglionesi.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Magistrale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune",
+        "Provincia",
+        "Regione",
+        "Università",
+        "Curia vescovile",
+        "Azienda soggiorno e turismo",
+        "Associazioni culturali",
+        "Associazioni sportive",
+        "Associazioni di volontariato",
+        "Agenzie editoriali",
+        "Invalsi",
+        "Indire",
+        "AVIS",
+        "Carabinieri",
+        "Cnr-Ismar",
+        "ASREM",
+        "Enti locali",
+        "Università degli Studi del Molise",
+        "associazioni del territorio",
+        "Comitato Italiano Paralimpico",
+        "INDIRE",
+        "Scuole aderenti al Movimento Avanguardie Educative",
+        "Associazione Italiana Dislessia"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di ampliamento dell'offerta formativa",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Enti Locali e associazioni per potenziare competenze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a bandi nazionali ed europei",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Ricerca e partecipazione a bandi per progetti di inclusione, orientamento, PCTO",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero Invalsi",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Corsi preparatori alle prove Invalsi",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Gruppi di livello",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Approccio sistematico alle prove",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Simulazioni Invalsi",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Esercitazioni sulla piattaforma Invalsi",
+      "target": "Secondaria I e II grado"
+    },
+    {
+      "titolo_attivita": "Formazione Invalsi/Indire",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Partecipazione a eventi formativi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Della Persona Nello Stato",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Verifiche dopo ore di autonomia didattica",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Verifiche dopo ore di autonomia didattica",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Scuola Ad Indirizzo Musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corsi di pratica strumentale, orchestra",
+      "target": "Studenti indirizzo musicale"
+    },
+    {
+      "titolo_attivita": "Partecipazione a bandi nazionali ed europei",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Ricerca e partecipazione a bandi per progetti di inclusione, orientamento, PCTO",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Incontro formativo sicurezza stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Incontro formativo",
+      "target": "Liceo"
+    },
+    {
+      "titolo_attivita": "Un albero per il futuro",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Messa a dimora specie vegetali",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Sensibilizzazione donazione sangue",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Progetto AVIS Giovani",
+      "target": "Liceo"
+    },
+    {
+      "titolo_attivita": "AIRC nelle scuole",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Strumenti didattici e momenti formativi",
+      "target": "Liceo"
+    },
+    {
+      "titolo_attivita": "Arte In Movimento: Laboratorio Di Espressione Artistica E Yoga Per Bambini",
+      "categoria_principale": "Artistico-Espressiva",
+      "descrizione_e_metodologia": "Laboratori didattici con parte teorica e pratica artistico-manuale.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Orchestra",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Arrangiamenti originali, concerti annuali, collaborazione con classi primarie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Teatrale",
+      "categoria_principale": "Teatrale",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di spettacoli, scenografie, lettura animata.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Corsi di preparazione per certificazioni Trinity, Cambridge, DELF, DELE.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campionati Studenteschi",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Partecipazione a campionati studenteschi in diverse discipline.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stages Linguistici",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Stage all'estero in Inghilterra, Francia e Spagna.",
+      "target": "Studenti Liceo"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici del Mediterraneo",
+      "categoria_principale": "Competenze matematico-logiche",
+      "descrizione_e_metodologia": "Competizione sana, sviluppo atteggiamenti positivi verso la matematica.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Sviluppo capacità di argomentazione, dibattito regolamentato.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Facciamo STEM",
+      "categoria_principale": "Competenze scientifiche e tecnologiche",
+      "descrizione_e_metodologia": "Potenziamento apprendimento STEM, accrescimento interesse.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Laboratorio Artistico Creativo",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Fasi teorica, progettazione, realizzazione di elaborato artistico parietale.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Scrittori di Classe",
+      "categoria_principale": "Lingua Italiana",
+      "descrizione_e_metodologia": "Salvaguardia del mare e degli oceani, collaborazione con Cnr-Ismar.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Atelier Creativo",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Laboratorio per robotica, elettronica, pensiero computazionale.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "TEAL",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Technology Enhanced Active Learning.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Laboratori di sostenibilità (Edugreen)",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Realizzazione/risistemazione orti didattici, giardini innovativi e sostenibili.",
+      "target": "Studenti del primo ciclo"
+    },
+    {
+      "titolo_attivita": "Laboratori Green, Sostenibili e Innovativi",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Realizzazione ambienti laboratoriali per la transizione ecologica nel secondo ciclo.",
+      "target": "Studenti del secondo ciclo"
+    },
+    {
+      "titolo_attivita": "Cablaggio reti LAN/W-Lan",
+      "categoria_principale": "Infrastrutture digitali",
+      "descrizione_e_metodologia": "Realizzazione reti locali cablate e wireless.",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Scenari innovativi competenze digitali",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Didattica per competenze, tecnologie digitali, problem solving.",
+      "target": "Studenti primo e secondo ciclo"
+    },
+    {
+      "titolo_attivita": "Formazione digitale personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione interna, peer learning, utilizzo Gsuite.",
+      "target": "Docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "EIPASS",
+      "categoria_principale": "Certificazione competenze",
+      "descrizione_e_metodologia": "Moduli d'esame, attestato spendibile in ambito scolastico, universitario e lavorativo.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "e-TWINNING",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Gemellaggi elettronici con scuole europee, piattaforma online, lingua veicolare.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita/entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Autovalutazione, individuazione risorse e vincoli.",
+      "target": "Classi quarte/quinte Liceo, classi terze scuola secondaria primo grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento, Recupero e Promozione Eccellenze",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Supporto individualizzato, peer tutoring, corsi pomeridiani, sportello didattico.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetti PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di PCTO per l'orientamento professionale",
+      "target": "Studenti Secondaria II grado"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti per l'integrazione e il recupero",
+      "target": "Alunni con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CBPM01000C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Omnicomprensivo - Giulio Rivera** di Guglionesi (CBPM01000C), relativo all'anno scolastico 2022/2023. L'istituto, comprensivo, situato in un territorio non metropolitano del Molise, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. L'ampia rete di **partnership** con enti locali, regionali, universitari e associazioni del territorio costituisce un solido fondamento per la realizzazione di attività orientative efficaci. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi, del progetto di vita e delle capacità orientative degli studenti, con l'obiettivo di ridurre l'abbandono scolastico, favorire la continuità territoriale e contrastare il fenomeno NEET.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, con un punteggio di 3, indicando una chiara attenzione a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** L'istituto vanta un'ampia e diversificata rete di **partnership**, comprendendo **Comune**, **Provincia**, **Regione**, **Università degli Studi del Molise**, **Curia vescovile**, **Azienda soggiorno e turismo**, diverse **associazioni culturali** e **sportive**, **AVIS**, **Carabinieri**, **Cnr-Ismar**, **ASREM**, e numerosi altri enti e istituzioni. Questa collaborazione estesa, con un conteggio di 22 partner, rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi, il progetto di vita e le capacità orientative degli studenti, facilitando le loro transizioni formative. Ogni finalità ha ottenuto un punteggio di 4, dimostrando un approccio equilibrato e completo.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e pertinenti. L'istituto si propone di ridurre l'abbandono scolastico e favorire la continuità territoriale con punteggio massimo (5), mentre gli obiettivi di contrastare il fenomeno NEET e promuovere il lifelong learning ottengono un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. L'azione più rilevante è il sistema integrato di inclusione e fragilità, che ottiene un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci esperienziali, laboratoriali, flessibili e interdisciplinari, con punteggi compresi tra 3 e 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali espressive, ludiche ricreative, di volontariato e sportive. Le opzionali laboratoriali espressive e sportive ottengono un punteggio di 5, evidenziando un'offerta particolarmente ricca in questi ambiti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** con il territorio, nella chiarezza delle finalità e degli obiettivi, e nell'attenzione all'inclusione e alla fragilità. Le attività registrate, come i \"**Progetti di ampliamento dell'offerta formativa**\", la \"**Partecipazione a bandi nazionali ed europei**\", e i \"**Corsi di recupero Invalsi**\", dimostrano un impegno concreto nella realizzazione di interventi orientativi mirati. L'offerta di attività opzionali, in particolare quelle laboratoriali espressive e sportive, rappresenta un valore aggiunto per gli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di contrastare il fenomeno NEET e promuovere il lifelong learning, che ottengono un punteggio inferiore rispetto agli altri obiettivi. Anche l'azione di monitoraggio delle azioni intraprese potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a contrastare il fenomeno NEET e a promuovere il lifelong learning, attraverso l'implementazione di strategie specifiche e misurabili. Inoltre, è opportuno potenziare il sistema di monitoraggio delle azioni orientative, al fine di valutarne l'efficacia e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Omnicomprensivo - Giulio Rivera** presenta un'impostazione solida e coerente in materia di orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership**, la chiarezza delle finalità e degli obiettivi, e l'attenzione all'inclusione rappresentano punti di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra un impegno concreto nella realizzazione di interventi orientativi efficaci, finalizzati a supportare gli studenti nel loro percorso di crescita e a favorire il loro inserimento nel mondo del lavoro e nella società. Le numerose attività registrate, tra cui \"**Scuola Ad Indirizzo Musicale**\", \"**Cittadinanza Digitale**\", \"**Debate**\", \"**Laboratori di sostenibilità (Edugreen)**\" e \"**Certificazioni Linguistiche**\", testimoniano la ricchezza e la diversificazione dell'offerta formativa dell'istituto."
+}

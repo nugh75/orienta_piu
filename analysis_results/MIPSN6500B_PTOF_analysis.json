@@ -1,0 +1,322 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIPSN6500B",
+    "denominazione": "Liceo Scientifico Opzione Scienze Applicate Maria Immacolata",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Gorgonzola",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Diaz 1",
+    "cap": "20064",
+    "email": "segreteria@imigorgonzola.it",
+    "pec": "imigorgonzola@pec.net",
+    "website": "www.imigorgonzola.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti Locali",
+        "realtà produttiva del territorio",
+        "università",
+        "Associazioni di Categoria",
+        "Famiglie",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "associazioni di settore",
+        "enti locali",
+        "terzo settore",
+        "imprese"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO - Percorsi per le Competenze Trasversali e per l'Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti in collaborazione con enti locali"
+    },
+    {
+      "titolo_attivita": "Incontri di orientamento con le scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ricezione richieste nuovi utenti",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Informazioni di ritorno dall'orientamento in entrata",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi soddisfazione utenti",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Miglioramento preparazione prove INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Monitoraggio e preparazione specifica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sviluppo competenze cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Unità didattiche dedicate",
+      "target": "Studenti del biennio"
+    },
+    {
+      "titolo_attivita": "Miglioramento orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni, tirocini, stage",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Lavoriamo per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività per lo sviluppo di competenze chiave",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alternanza scuola lavoro, periodi di studio e pratica.",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite aziendali, tirocini, lezioni in aula",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Studio Guidato",
+      "categoria_principale": "Supporto Didattico",
+      "descrizione_e_metodologia": "Supporto individuale per metodo di studio",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Doppio diploma Italia – USA",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorso di studio per ottenere un diploma statunitense",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Organizzazione di incontri con referenti universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giornate di scuola aperta",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Organizzazione di giornate di scuola aperta",
+      "target": "Studenti delle scuole medie inferiori"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Sensibilizzazione sull'uso responsabile delle tecnologie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendisti Ciceroni",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Valorizzazione del patrimonio artistico locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A lezione di terremoto",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Prevenzione dai danni sismici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fondamenti di primo soccorso",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione sulle procedure di primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alla scoperta di Venezia",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Uscite didattiche con guide turistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Book Club",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Lettura e discussione di libri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di fumetto",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Apprendimento delle tecniche del fumetto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studenti e giudici di campo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Collaborazione con Umana Reyer Venezia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "ESA Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso di formazione marinaresca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Basic Life Support",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione sulle procedure di rianimazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "L'aula sul mare",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso di vela",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Informazione-formazione su genitorialità e psicopedagogia dell'età evolutiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri informativi e formativi per genitori.",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento in progetti di inclusione",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Partecipazione a progetti specifici per l'inclusione.",
+      "target": "Studenti, Famiglie, Docenti"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento in attività di promozione della comunità educante",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Organizzazione di eventi per la comunità scolastica.",
+      "target": "Studenti, Famiglie, Docenti"
+    },
+    {
+      "titolo_attivita": "Soccorritore Acquatico- Bagnino di salvataggio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività certificata con brevetto lavorativo valido su tutto il territorio dell’Unione Europea.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Arrampicata Sportiva",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportiva di arrampicata indoor (parete artificiale).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Workshop Di Danza Aerea",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Nozioni generali di acrobatica e danza aerea.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tennis",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Tecnica e didattica dei fondamentali di gioco Tennis",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "GET UP",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Progetto per l'autonomia e la cittadinanza attiva.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIPSN6500B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Opzione Scienze Applicate Maria Immacolata** (MIPSN6500B) per il periodo 2022-2025. L'istituto, situato a **Gorgonzola** in provincia di **Milano** e regione **Lombardia**, si configura come una scuola **paritaria** di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una presenza strutturata di iniziative e una forte attenzione alla collaborazione con diversi partner del territorio. Il PTOF dimostra un'attenzione particolare alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi, progettazione del percorso di vita, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 5.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, collaborando con **Enti Locali**, **realtà produttiva del territorio**, **università**, **Associazioni di Categoria**, **Famiglie**, **musei**, **istituti pubblici**, **istituti privati**, **associazioni di settore**, **enti locali**, **terzo settore** e **imprese**. Questo network di collaborazioni, composto da 12 partner, rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e affrontano aspetti cruciali come lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, la gestione delle transizioni formative e l'acquisizione di capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 5, indicando un'attenzione completa a tutti gli aspetti rilevanti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione NEET e la promozione del lifelong learning. Sebbene i punteggi ottenuti (4 per ciascun obiettivo) siano buoni, suggeriscono un margine di miglioramento nella definizione di strategie specifiche per il raggiungimento di tali obiettivi.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su azioni di coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni intraprese e un sistema integrato di inclusione e attenzione alle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 5, evidenziando un approccio sistemico e olistico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si avvale di metodologie esperienziali, laboratoriali, flessibili in termini di spazi e tempi, e interdisciplinari. L'approccio esperienziale e interdisciplinare risulta particolarmente efficace, mentre le metodologie laboratoriali e la flessibilità degli spazi e dei tempi presentano un punteggio leggermente inferiore (4), suggerendo la necessità di potenziare questi aspetti.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le attività sportive spiccano con un punteggio di 5, mentre le altre opzioni presentano punteggi variabili tra 3 e 4, indicando la possibilità di diversificare ulteriormente l'offerta.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampio network di partnership, nella chiarezza delle finalità e nell'approccio sistemico alle azioni di orientamento. L'utilizzo di metodologie didattiche esperienziali e interdisciplinari, unitamente all'offerta di attività sportive, costituisce un ulteriore elemento di valore. Le attività registrate, come il **PCTO - Percorsi per le Competenze Trasversali e per l'Orientamento**, gli **Incontri di orientamento con le scuole medie** e il **Miglioramento orientamento in uscita**, dimostrano un impegno concreto nell'implementazione delle strategie orientative.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la definizione di obiettivi specifici per la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione NEET e la promozione del lifelong learning. Inoltre, le metodologie didattiche laboratoriali e la flessibilità degli spazi e dei tempi potrebbero essere ulteriormente potenziate. L'offerta di attività opzionali, pur diversificata, potrebbe essere ampliata per rispondere a una gamma più ampia di interessi e attitudini degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi generali in azioni concrete e misurabili. È auspicabile una maggiore definizione di indicatori di performance per monitorare l'efficacia delle iniziative orientative e valutare il raggiungimento degli obiettivi prefissati. Inoltre, sarebbe opportuno potenziare le attività laboratoriali e la flessibilità degli spazi e dei tempi, al fine di favorire un apprendimento più attivo e personalizzato.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Scientifico Opzione Scienze Applicate Maria Immacolata** presenta un solido impianto teorico e un impegno concreto nell'ambito dell'orientamento. La presenza di una sezione dedicata, l'ampio network di partnership e l'utilizzo di metodologie didattiche innovative costituiscono elementi di forza. Tuttavia, è necessario definire obiettivi specifici e misurabili, potenziare le attività laboratoriali e ampliare l'offerta di attività opzionali per garantire un servizio di orientamento completo ed efficace. Le attività registrate, come il **PCTO**, le **Giornate di scuola aperta** e i progetti di **sicurezza informatica**, testimoniano l'impegno dell'istituto nel fornire un supporto adeguato agli studenti nel loro percorso di crescita e orientamento."
+}

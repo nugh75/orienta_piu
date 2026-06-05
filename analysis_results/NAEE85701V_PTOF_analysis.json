@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAEE85701V",
+    "denominazione": "Volla - I.C. Serao",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Volla",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Famiglietti",
+    "cap": "80040",
+    "email": "naic85700r@istruzione.it",
+    "pec": "ND",
+    "website": "www.icserao.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento, ma piuttosto attività di orientamento integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitale europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione in presenza",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro",
+      "target": "Studenti delle classi quarte e quinte"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAEE85701V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Serao di Volla (NAEE85701V), relativo al periodo 2019/20-2021/22. La scuola, di ordine e grado primario, situata in un contesto territoriale metropolitano della regione Campania, dimostra un impegno significativo nell'integrazione di attività di orientamento, sebbene non presenti una sezione specificamente dedicata, ma piuttosto un approccio diffuso in diverse aree del PTOF. L'istituto si distingue per una forte rete di **partnership** con enti ed istituzioni, enti del terzo settore, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Le finalità dell'orientamento sono ben definite e mirano a sviluppare attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia che, pur non essendoci una sezione specifica, l'orientamento è integrato in altre aree del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un elevato livello di collaborazione con il territorio, come dimostrato dal punteggio di 5 e dalla presenza di 4 partner nominati.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate complete e ben definite, con un punteggio massimo di 5 per ciascuna delle aree considerate: attitudini, interessi, progetto di vita, transizioni formative e capacità di orientarsi nelle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF presentano una variabilità di risultati. L'obiettivo di ridurre l'abbandono scolastico ottiene un punteggio di 1, mentre gli obiettivi di garantire la continuità territoriale, contrastare la dispersione scolastica e promuovere il lifelong learning raggiungono un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con un punteggio di 5 per ciascuna delle aree analizzate: coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con un punteggio di 5 per l'utilizzo di esperienze dirette degli studenti, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità. La didattica laboratoriale, invece, ottiene un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, con un punteggio di 5 per le opzionali culturali, laboratoriali-espressive, ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella forte integrazione delle attività nelle diverse aree del piano, nella consolidata rete di **partnership** con enti ed istituzioni del territorio, e nell'ampia offerta di attività opzionali e facoltative. L'attenzione alle finalità dell'orientamento, che coprono un ampio spettro di esigenze formative, rappresenta un ulteriore elemento positivo. Le attività pratiche come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d’istruzione** offrono agli studenti opportunità concrete di esplorazione e scoperta.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento potrebbe limitare la visibilità e la coerenza delle azioni intraprese. L'obiettivo di ridurre l'abbandono scolastico, con un punteggio di 1, suggerisce la necessità di un maggiore impegno in questa direzione. La didattica laboratoriale, con un punteggio di 2, potrebbe essere potenziata per offrire agli studenti esperienze pratiche più significative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una strutturazione più esplicita delle attività di orientamento all'interno del PTOF. Sebbene l'orientamento sia presente in diverse aree, una sezione dedicata permetterebbe di definire obiettivi specifici, monitorare i risultati e garantire una maggiore coerenza delle azioni intraprese. È necessario un maggiore focus sulla prevenzione dell'abbandono scolastico e un potenziamento della didattica laboratoriale.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Serao di Volla dimostra un impegno significativo nell'integrazione dell'orientamento, sebbene con alcune aree di miglioramento. La scuola si distingue per la sua rete di **partnership**, le finalità ben definite e l'ampia offerta di attività opzionali. Per ottimizzare l'efficacia dell'orientamento, si raccomanda di valutare la creazione di una sezione dedicata all'interno del PTOF, di rafforzare l'impegno nella prevenzione dell'abbandono scolastico e di potenziare la didattica laboratoriale. Attività come il **Ritiro di accoglienza**, l'**Educazione alimentare**, l'incontro sulla **tossicodipendenza**, il corso di **Primo soccorso** e l'**Orientamento post-liceo** sono esempi di iniziative valide che contribuiscono alla crescita e alla consapevolezza degli studenti. La formazione del personale docente, con attività come la **Formazione didattica inclusiva**, la **Formazione utilizzo strumenti multimediali** e la **Formazione sicurezza**, è un elemento cruciale per garantire la qualità dell'offerta formativa. L'**Open day** e i percorsi **PCTO** completano il quadro delle azioni orientative messe in atto dall'istituto."
+}

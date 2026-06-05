@@ -1,0 +1,566 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RGIC80700B",
+    "denominazione": "Leonardo Da Vinci",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Ispica",
+    "anno_ptof": "2022-2025",
+    "provincia": "Ragusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Umberto 88",
+    "cap": "97014",
+    "email": "rgic80700b@istruzione.it",
+    "pec": "rgic80700b@pec.istruzione.it",
+    "website": "www.istitutovinci-ispica.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Comune",
+        "Provincia",
+        "Regione",
+        "CONI",
+        "Federazioni sportive e culturali",
+        "Associazioni",
+        "Enti ed Istituzioni territoriali",
+        "Circolo Sikelon",
+        "Legambiente",
+        "istituto d'istruzione superiore \"Galileo-Campailla\"",
+        "Etwinning",
+        "Erasmus",
+        "Pro Loco Spaccaforno",
+        "Istituto Polo I.C.",
+        "ASL"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività musicali",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canto nella scuola dell'Infanzia e Primaria, strumento musicale nella Secondaria",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PROVE COMUNI MODELLO INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Prove INVALSI per classi parallele, esercitazioni periodiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "IO, GLI ALTRI E L’AMBIENTE",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Progetti di Service Learning, Educazione Civica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Multisensoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Educare all’Ascolto, all’Osservazione e all’Individuazione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Musica ed Arte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Chiavi di accesso ad un processo di apprendimento multifunzionale",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Atelier Creativo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Incontrare manualità, creatività e tecnologie",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Metodologia STEM",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Coding, Giochi Matematici del Mediterraneo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Yoga",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Favorire lo sviluppo psicofisico",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetti ETwinning",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Aprire le porte del mondo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Teatro e lettura espressiva",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Stimolare creatività e comunicazione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Insegnamento lingua inglese",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Italiano L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorso per alunni non italofoni",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Recupero BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorso per alunni con Bisogni Educativi Speciali",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso di educazione alla legalità",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Solidarietà e dono",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Progetto di solidarietà",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Educazione all'Affettività",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso di educazione all'affettività",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Service Learning",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Avvio al Latino",
+      "categoria_principale": "Approfondimento",
+      "descrizione_e_metodologia": "Percorso di avviamento al latino",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Certificazione DELF",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Certificazione linguistica francese",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Propedeutica Musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Orientamento strumenti musicali",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "ON JOUE EN FRANҪAIS",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Insegnamento ludico lingua francese",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Esercitazione prove standardizzate",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Ioleggoperché",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Incentivare il piacere della lettura",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Adozione a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta fondi per ragazza in Congo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "STAFFETTA DI SCRITTURA CREATIVA BIMED",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Letture, stesura capitoli, riflessione, sviluppo pensiero critico.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "INSABBIATA 2024 - WORKSHOP",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Preparazione bozzetti, colorazione sabbia, attività grafico-pittoriche.",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "GIOCHI MATEMATICI DEL MEDITERRANEO",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Giochi matematici, competizione, sviluppo pensiero logico.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "AVVIO AL LATINO",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Lezione teorica, analisi e traduzione frasi.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "ITALIANO FACILE",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Prima alfabetizzazione/recupero lingua italiana.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "\"CITTADINANZA ATTIVA\"",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Educazione legalità, cittadinanza responsabile.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "RECICLO CREATIVO E MERCATINO DI NATALE",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Raccolta materiale, presepi, realizzazione prodotti, mercatino.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "PROGETTO DELF",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Ascolto, comprensione, produzione scritta, interazione orale.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "SOLIDARIETA’ E DONO",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Adesione iniziative ricerca, adozione a distanza, aiuto concreto.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "A SCUOLA CON CURA, RISPETTIAMO LA NATURA!",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Passeggiate, festa dell'albero, coltivazione, laboratori.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "SANT'ANTONIO GREEN",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Educazione sostenibilità ambientale, riqualificazione beni comuni.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "PRESEPE DEI PICCOLI",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Rievocazione Natività, contesto storico, figuranti in costume.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "ENGLISH WITH FUN",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Apprendimento lingua inglese con musica e rime.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Avventure In Movimento",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Esplorazione, fantasia, azione senso-motoria.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Multicultural Europe: Tell About Your Country",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Conoscenza territorio, tradizioni, confronto con altri paesi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "LET'S GO! LET'S TAKE CARE",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Percorso di educazione-formazione per l'adozione di corretti stili di vita",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "DIAMO UNA MANO ........... DI COLORE",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Realizzazione di murales per valorizzare gli spazi scolastici",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "SULLE ALI DELLA FANTASIA",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Stimolazione della creatività e collaborazione attraverso fiabe",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "PROGETTO STEAM",
+      "categoria_principale": "Scienze e tecnologia",
+      "descrizione_e_metodologia": "Percorso laboratoriali per lo sviluppo del pensiero scientifico",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "PROGETTO BIBLIOTECA",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Utilizzo di sussidi didattici e materiale bibliografico",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "PROGETTO POTENZIAMENTO",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività per alunni di cittadinanza non italiana, BES e supporto docenti",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "ETWINNING PROJECT \"STORIES FROM THE SKY\"",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi con scuole europee su temi del cielo",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "CLIL4RAINBOWCREW-C4RC",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Attività ludiche in inglese",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "CLIL FOR CHILDREN",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Giochi e attività in inglese",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "\"AFFETTO\" SERRA",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Coltivazione di un orto nella serra scolastica",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "YOGA PER CRESCERE",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Esercizi di yoga per lo sviluppo psicofisico",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "\"I LIBRI SONO ALI CHE AIUTANO A VOLARE\"",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Percorso di lettura tra scuola dell'infanzia e primaria",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "STEAM Sant' Antonio",
+      "categoria_principale": "Scienze e tecnologia",
+      "descrizione_e_metodologia": "Utilizzo di attrezzature e kit Steam",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "I PROBLEMI AL CENTRO",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Promozione di un atteggiamento positivo verso la matematica",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Per Una Nuova Idea Di Bambino....Sperimentare Il REGGIO APPROACH",
+      "categoria_principale": "Pedagogia",
+      "descrizione_e_metodologia": "Approccio educativo basato sull'immagine del bambino",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "\"Sentire l'inglese.....it's fun\"",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Familiarizzazione con la lingua inglese",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "1-2-3 Orientati Insieme A Me. Piccoli Passi DALL'UNPLUGGED ROBOTICA",
+      "categoria_principale": "Scienze e tecnologia",
+      "descrizione_e_metodologia": "Coding attraverso giochi unplugged",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "\"Nontiscordardimè/Natura da...Conoscere...Esplorare...Rispettare\"",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Osservazione e sperimentazione dei fenomeni naturali",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "RECUPERO E POTENZIAMENTO",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi di recupero, consolidamento e potenziamento",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Philosophy 4 Children. L'ospedale delle bambole.",
+      "categoria_principale": "Pensiero critico",
+      "descrizione_e_metodologia": "Dialoghi filosofici su temi etici",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Presepe dei PIccoli.",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Rievocazione della natività",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "AL GALOPPO-PARTITA DEL CUORE II EDIZIONE",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Ippoterapia e sport",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "ORTO DIDATTICO SANT'ANTONIO",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Coltivazione di un orto scolastico",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "COLORARTE",
+      "categoria_principale": "Educazione ambientale e alimentare",
+      "descrizione_e_metodologia": "Percorso per acquisire principi educazione ambientale e alimentare",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio di pittura",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Realizzazione tele individuali e murales",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "I READ IN ENGLISH",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Approccio alla pronuncia e lettura in inglese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "CONTINUITA' INFANZIA-PRIMARIA",
+      "categoria_principale": "Transizione scuola",
+      "descrizione_e_metodologia": "Lettura animata con tema del viaggio",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "IN PIEDI SIGNORI DAVANTI AD UNA DONNA",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Collaborazione e performance teatrale",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Educazione Psicomotoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Gioco guidato, simbolico, percezione",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "ACQUATICITA' GIOCHI E SICUREZZA",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Attività motoria in acqua",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "GIOCHI DELLA GIOVENTU'",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Proposta attività sportive",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Formazione Coding/Lego Spike",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Corso di formazione sull'uso della piattaforma Scratch",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Google for Education",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Formazione su Google presentazione, docs, moduli e sites",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RGIC80700B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Leonardo Da Vinci** (RGIC80700B) per il triennio 2022-2025. L'istituto, situato nel comune di **Ispica** (provincia di **Ragusa**, regione **Sicilia**), è un comprensivo che offre istruzione di I Grado, Infanzia, Primaria e Tecnico. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la struttura, gli obiettivi, le azioni e le attività implementate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio di 7. La scuola si distingue per una rete di **partnership** consolidata e per un'offerta didattica diversificata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, evidenziando l'importanza attribuita a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership** con enti locali, regionali e nazionali, tra cui il **Comune**, la **Provincia**, la **Regione**, il **CONI**, diverse **Federazioni sportive e culturali**, **Associazioni**, **Enti ed Istituzioni territoriali**, il **Circolo Sikelon**, **Legambiente**, l'istituto d'istruzione superiore **\"Galileo-Campailla\"**, **Etwinning**, **Erasmus**, la **Pro Loco Spaccaforno**, l'**Istituto Polo I.C.** e l'**ASL**. Questo network di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per le opportunità di orientamento offerte agli studenti. Sono state individuate 14 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, alla progettazione del loro **progetto di vita** e alla facilitazione delle **transizioni formative**. Si pone particolare attenzione allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi principali del PTOF sono la riduzione dell'**abbandono** scolastico, il mantenimento del legame con il **territorio**, il contrasto alla dispersione dei **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali **culturali** e **laboratoriali espressive** ben strutturate. Meno sviluppate risultano le opzionali **ludiche-ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, supportata da una solida rete di **partnership**. L'istituto dimostra un impegno concreto nella promozione di attività didattiche innovative, come la metodologia **STEM**, i progetti **Etwinning** e l'utilizzo del **CLIL**. L'ampia gamma di attività proposte, tra cui **attività musicali**, prove **INVALSI**, progetti di **educazione civica** come \"**IO, GLI ALTRI E L’AMBIENTE**\", e iniziative di **benessere** come lo **Yoga**, testimonia una visione olistica dell'educazione.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza risiede nella minore attenzione dedicata alle opzionali **ludiche-ricreative**, di **volontariato** e **sportive**, che potrebbero arricchire ulteriormente l'offerta formativa. L'obiettivo di contrastare i **NEET** ha ottenuto un punteggio inferiore rispetto agli altri, suggerendo la necessità di potenziare le azioni specifiche in questo ambito.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di bilanciare l'offerta formativa, potenziando le attività opzionali meno sviluppate. Inoltre, è importante rafforzare le azioni mirate al contrasto della dispersione scolastica e alla prevenzione del fenomeno dei **NEET**. Un monitoraggio costante delle attività e una valutazione dei risultati ottenuti permetterebbero di colmare eventuali lacune e di migliorare l'efficacia del PTOF.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Leonardo Da Vinci** (RGIC80700B) presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la solida rete di **partnership** e l'ampia gamma di attività proposte costituiscono un solido punto di partenza per il raggiungimento degli obiettivi prefissati. Un'attenzione particolare alle aree di debolezza e un monitoraggio costante dei risultati permetterebbero di ottimizzare l'offerta formativa e di garantire un futuro migliore per gli studenti."
+}

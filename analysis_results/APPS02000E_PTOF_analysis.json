@@ -1,0 +1,264 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "APPS02000E",
+    "denominazione": "B. Rosetti",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "San Benedetto Del Tronto",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Ascoli Piceno",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale De Gasperi 141",
+    "cap": "63074",
+    "email": "apps02000e@istruzione.it",
+    "pec": "apps02000e@pec.istruzione.it",
+    "website": "www.liceorosetti.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è integrato nelle attività curriculari e PCTO, ma non è presente una sezione dedicata con un capitolo specifico nel PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici sui materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesto professionale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD/CAM",
+      "target": "Studenti e diplomati"
+    },
+    {
+      "titolo_attivita": "Formazione docenti TIC",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso mappe mentali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio di gruppo",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attività extra curriculari",
+      "target": "Studenti con giudizi sospesi"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Valutazione obiettivi PCTO",
+      "target": "Studenti, tutor, famiglie"
+    },
+    {
+      "titolo_attivita": "Elenco diplomati",
+      "categoria_principale": "Networking",
+      "descrizione_e_metodologia": "Creazione elenco diplomati",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Moduli teorico-pratici",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF APPS02000E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo “B. Rosetti” (APPS02000E) per il triennio 2023/24-2024/25-2025/26. La scuola, situata a San Benedetto Del Tronto, in provincia di Ascoli Piceno e regione Marche, è un istituto statale di secondo grado. L'analisi evidenzia un approccio all'orientamento ben integrato nelle attività curriculari e nei Percorsi per le Competenze Trasversali e per l'Orientamento (PCTO), sebbene manchi una sezione dedicata specificamente all'orientamento all'interno del PTOF. L'istituto dimostra un forte impegno nel supportare gli studenti nello sviluppo di attitudini, interessi, progettazione del proprio futuro e nella transizione formativa, oltre a fornire loro le capacità necessarie per cogliere le opportunità offerte dal mondo del lavoro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento, pur essendo un elemento centrale, non è esplicitamente trattato in un capitolo dedicato all'interno del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** Il liceo vanta un solido network di **partnership** con il territorio, ottenendo un punteggio di 5. Tra i partner figurano **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un’**azienda leader del settore audiovisivi**, diverse **aziende accreditate** e altre **aziende di settore**. Il numero di partnership attive è pari a 4.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le **opportunità** offerte dal contesto socio-economico, con un punteggio massimo di 5 per ciascuna finalità.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale** degli studenti, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**, raggiungendo un punteggio di 5 per ciascun obiettivo.\n\n**2.5 Azioni di Sistema:** L'istituto implementa un sistema di azioni coordinate che includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**, ottenendo un punteggio di 6 per ciascuna azione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**, con un punteggio di 5 per ciascuna dimensione.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra 3 e 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è l'integrazione dell'orientamento nelle attività quotidiane della scuola, in particolare attraverso i **PCTO** e le attività curriculari. La rete di **partnership** con aziende e istituzioni del territorio è un altro elemento distintivo, offrendo agli studenti opportunità concrete di orientamento e di contatto con il mondo del lavoro. L'impegno verso l'inclusione e il supporto agli studenti con **BES**, **DSA** e fragilità è particolarmente apprezzabile. L'offerta di **laboratori** diversificati, come quelli di gnatologia, diritto e disegno tecnico, arricchisce l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia presente in modo trasversale, una sezione specifica permetterebbe di definire in modo più chiaro le strategie, gli obiettivi e le azioni da intraprendere. L'offerta di attività opzionali e facoltative potrebbe essere ulteriormente ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento all'interno del PTOF. L'istituto dovrebbe considerare l'inserimento di un capitolo specifico dedicato all'orientamento, con una descrizione dettagliata delle strategie, degli obiettivi, delle azioni e dei criteri di valutazione. Questo consentirebbe di rendere l'orientamento più visibile e di garantire una maggiore coerenza tra le diverse attività e iniziative.\n\n### 6. Conclusioni\n\nIl PTOF del Liceo “B. Rosetti” dimostra un forte impegno verso l'orientamento, sebbene manchi una sua esplicita formalizzazione. L'istituto vanta un solido network di **partnership**, una chiara definizione delle **finalità** e degli **obiettivi**, e un sistema di **azioni** coordinate per supportare gli studenti nel loro percorso formativo e professionale. L'integrazione dell'orientamento nelle attività curriculari e nei **PCTO**, insieme all'offerta di **laboratori** diversificati, rappresenta un valore aggiunto per gli studenti. L'inserimento di una sezione dedicata all'orientamento all'interno del PTOF contribuirebbe a rafforzare ulteriormente l'impegno dell'istituto verso questo importante aspetto dell'offerta formativa."
+}

@@ -1,0 +1,192 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZTA04000L",
+    "denominazione": "I.T.T. Villa D'Agri - I.O. Marsicovetere",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Marsicovetere",
+    "anno_ptof": "2025-2028",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Traversa Istituto 1",
+    "cap": "85050",
+    "email": "pzta04000l@istruzione.it",
+    "pec": "pzic82600b@pec.istruzione.it",
+    "website": "www.scuolemarsicovetere.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Agrario"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezioni Primavera e continuità"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Istituto Comprensivo Ilaria Alpi",
+        "ULSS 3",
+        "Parrocchia S. Andrea",
+        "Associazioni del territorio",
+        "Casa Editrice Sassi",
+        "Polizia Locale Venezia",
+        "Biblioteca Municipalità",
+        "famiglie",
+        "enti",
+        "servizi sul territorio",
+        "FISM della provincia di Venezia",
+        "Polizia Locale di Venezia",
+        "Polisportiva Terraglio"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Giardino",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Realizzato da genitori, volontari e aziende del territorio.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Insieme in Biblioteca",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Progetto con la Biblioteca della Municipalità",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corso di inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Otto lezioni, livello europeo C2",
+      "target": "Infanzia, bambini medi e grandi"
+    },
+    {
+      "titolo_attivita": "Corso di acquaticità",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Otto lezioni in piscina con accompagnamento",
+      "target": "Bambini 2-6 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Espressione artistica",
+      "descrizione_e_metodologia": "Otto incontri per educare alla musica",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Visite alla scuola primaria",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Bambini ospitati nelle classi primarie per attività congiunte.",
+      "target": "Bambini della scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratori con Sezione Primavera",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Laboratori gestiti dalle insegnanti per favorire l'integrazione.",
+      "target": "Bambini Sezione Primavera e Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "attività grafico-pittorica",
+      "categoria_principale": "creatività",
+      "descrizione_e_metodologia": "uso dei colori per esprimere emozioni",
+      "target": "bambini"
+    },
+    {
+      "titolo_attivita": "attività manipolativa",
+      "categoria_principale": "motricità",
+      "descrizione_e_metodologia": "sviluppo motricità fine",
+      "target": "bambini"
+    },
+    {
+      "titolo_attivita": "comunicazione verbale e non verbale",
+      "categoria_principale": "linguaggio",
+      "descrizione_e_metodologia": "esprimere bisogni ed emozioni",
+      "target": "bambini"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) della Scuola dell’Infanzia Maria Immacolata-L’Arca, per il triennio 2025-2028, definisce le linee guida per lo sviluppo del servizio educativo, in coerenza con le normative vigenti e le esigenze del contesto territoriale. Il presente documento analizza la struttura del PTOF, evidenziando punti di forza, aree di miglioramento e possibili strategie di intervento.\n\n## 2. Analisi Dimensionale\n\nL'analisi del PTOF rivela un'attenzione particolare alla continuità didattica, espressa attraverso la collaborazione con la scuola primaria e la sezione primavera. Le partnership con enti locali, associazioni e servizi del territorio sono consolidate e rappresentano un valore aggiunto per l'offerta formativa. Tuttavia, la sezione dedicata all'orientamento risulta poco sviluppata, limitandosi a menzionare la continuità con la scuola primaria. L'inclusione, pur presente come principio guida, necessita di una maggiore esplicitazione e di un'analisi più approfondita delle strategie messe in atto per rispondere alle esigenze di tutti i bambini.\n\n## 3. Punti di Forza\n\nIl PTOF si distingue per la ricchezza delle attività proposte, che spaziano dall'ambito territoriale e culturale a quello linguistico e motorio. La collaborazione con le famiglie e i servizi del territorio è un elemento chiave per garantire un'offerta educativa integrata e personalizzata. L'impegno nella realizzazione di progetti innovativi, come il 'Progetto Giardino' e 'Insieme in Biblioteca', testimonia la volontà di promuovere l'apprendimento attraverso l'esperienza diretta e la partecipazione attiva dei bambini.\n\n## 4. Debolezze\n\nUn punto critico del PTOF è la scarsa attenzione all'orientamento, che non viene affrontato come un processo educativo strutturato e finalizzato allo sviluppo delle competenze necessarie per affrontare le transizioni formative. Inoltre, il sistema di monitoraggio delle azioni risulta poco definito, rendendo difficile la valutazione dell'efficacia degli interventi. Infine, la sezione relativa all'inclusione necessita di una maggiore approfondimento, con particolare riferimento alle strategie per l'individuazione e il supporto dei bambini con bisogni educativi speciali.\n\n## 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare l'area dell'orientamento, definendo obiettivi specifici, azioni concrete e strumenti di valutazione adeguati. È inoltre necessario implementare un sistema di monitoraggio efficace, che consenta di raccogliere dati e informazioni utili per migliorare la qualità dell'offerta formativa. Infine, si raccomanda di approfondire l'analisi dell'inclusione, con particolare attenzione alla progettazione di interventi personalizzati e alla collaborazione con le famiglie e i servizi specialistici.\n\n## 6. Conclusioni\n\nIl PTOF della Scuola dell’Infanzia Maria Immacolata-L’Arca rappresenta un documento valido e completo, che definisce una chiara visione del servizio educativo per il triennio 2025-2028. Tuttavia, per raggiungere una maggiore efficacia, è necessario intervenire sulle aree di miglioramento individuate, potenziando l'orientamento, implementando un sistema di monitoraggio efficace e approfondendo l'analisi dell'inclusione. Queste azioni consentiranno di garantire un'offerta formativa sempre più rispondente alle esigenze dei bambini e del territorio."
+}

@@ -1,0 +1,245 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TRAA82103E",
+    "denominazione": "I.C. Narni Centro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Narni",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Terni",
+    "regione": "Umbria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Strada Curva Dell'Edera 17",
+    "cap": "05035",
+    "email": "tric82100g@istruzione.it",
+    "pec": "ND",
+    "website": "www.icnarnicentro.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è integrato in diverse attività, ma non è presente una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende di settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "Utilizzo di ChatGPT per la personalizzazione dello studio",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Supporto allo studio, pensiero critico, competenze digitali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Implementazione di Genially per contenuti interattivi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Creazione di presentazioni, infografiche, gamification",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Apprendimento delle mappe mentali",
+      "categoria_principale": "Metodologie di Studio",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali come strumento di studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazione di materiali e simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione di contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici sui materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Esercitazioni scrittura reportage.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettura testi tecnici inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Analisi testi tecnici e conversazioni simulate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche e calcolo percentuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti semplificati fisica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Fenomeni fisici connessi ai materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali e giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi su materiale didattico informatico (Mappe Mentali).",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD, scanner 3D, stampanti 3D.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TRAA82103E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo Narni Centro (scuola dell'infanzia), codice TRAA82103E, per gli anni 2023/24-2024/25-2025/26. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento, le partnership, gli obiettivi, le azioni implementate e le attività proposte. Il PTOF dimostra un impegno significativo verso l'orientamento, integrato in diverse aree dell'offerta formativa, sebbene non sia presente una sezione dedicata specificamente ad esso.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento è integrato in diverse attività scolastiche, ottenendo un punteggio di 3 su una scala di valutazione. Tuttavia, manca un capitolo specifico all'interno del PTOF interamente dedicato a questa tematica.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT** e un'**azienda leader del settore audiovisivi**, oltre a diverse **aziende di settore**. Sono state individuate 5 collaborazioni esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e considerate importanti. Si riscontrano punteggi elevati per la promozione del **progetto di vita** (5), seguiti da buoni risultati per lo sviluppo di **attitudini** (4), **interessi** (4), la preparazione alle **transizioni formative** (4) e lo sviluppo delle **capacità orientative** e la comprensione delle **opportunità** (4).\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mostrano un'attenzione alla riduzione dell'**abbandono scolastico** (3), alla continuità territoriale (4), al contrasto alla dispersione scolastica e al fenomeno **NEET** (3) e alla promozione del **lifelong learning** (4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi (3), il dialogo tra docenti e studenti (5), il rapporto scuola-genitori (4), il monitoraggio delle azioni intraprese (3) e l'implementazione di un sistema integrato per l'inclusione e la gestione delle fragilità (4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con punteggi elevati per l'apprendimento dall'esperienza degli studenti (5) e per l'utilizzo di metodologie **laboratoriali** (6). La flessibilità degli spazi e dei tempi (3) e l'approccio **interdisciplinare** (4) ricevono valutazioni positive.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (3), **laboratoriali ed espressive** (4), **ludiche e ricreative** (2), di **volontariato** (3) e **sportive** (2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella solida rete di **partnership** con il territorio, nell'attenzione alle finalità educative e nello sviluppo di metodologie didattiche innovative, in particolare quelle **laboratoriali** e basate sull'esperienza diretta degli studenti. L'impegno per l'inclusione e la gestione delle fragilità rappresenta un ulteriore elemento positivo. L'attività di **dialogo tra docenti e studenti** è particolarmente apprezzabile.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo rende meno evidente la coerenza e la sistematicità delle azioni intraprese. Alcune aree, come la flessibilità degli spazi e dei tempi e l'offerta di attività opzionali **ludiche e ricreative** e **sportive**, potrebbero essere ulteriormente sviluppate.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare l'orientamento come un'area tematica specifica all'interno del PTOF, con obiettivi, azioni e indicatori di valutazione chiaramente definiti. Questo consentirebbe di monitorare in modo più efficace l'impatto delle attività di orientamento e di garantire una maggiore coerenza con gli obiettivi generali del PTOF.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo Narni Centro dimostra un impegno significativo verso l'orientamento, con una serie di attività e partnership che contribuiscono a sviluppare le competenze e le capacità degli studenti. Tuttavia, per massimizzare l'efficacia dell'orientamento, è necessario strutturarlo come un'area tematica specifica all'interno del PTOF, con obiettivi, azioni e indicatori di valutazione chiaramente definiti. Le attività come **PCTO**, la **digitalizzazione e archiviazione documentale** presso l'Archivio di Stato e ISRAT, la realizzazione di **audiolibri** e l'utilizzo di strumenti innovativi come **ChatGPT** e **Genially** rappresentano un valore aggiunto per l'offerta formativa."
+}

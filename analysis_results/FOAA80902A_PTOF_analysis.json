@@ -1,0 +1,240 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FOAA80902A",
+    "denominazione": "Ic Civitella Di Romagna",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Galeata",
+    "anno_ptof": "2021-2025",
+    "provincia": "Forli'-Cesena",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Togliatti N.14",
+    "cap": "47010",
+    "email": "foic80900c@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccivitelladiromagna.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Pastorale giovanile ispettoriale e diocesana",
+        "Polizia Municipale",
+        "COSPES di Torino",
+        "Città di Torino",
+        "parrocchie della zona collinare",
+        "comunità religiose",
+        "Ex Allievi"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Esercizi Spirituali",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Accompagnamento della classe agli Esercizi Spirituali",
+      "target": "Tutta la classe"
+    },
+    {
+      "titolo_attivita": "Progetto 'il giovane educa il giovane'",
+      "categoria_principale": "Tutoraggio",
+      "descrizione_e_metodologia": "Allievi liceo supportano studenti",
+      "target": "Studenti della scuola secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di lettura e scrittura",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Metodologia laboratoriale ispirata al gruppo Italian Writing Teachers",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Studio di altre materie curricolari in lingua inglese",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Conversazione in inglese",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Lavoro in piccoli gruppi con insegnanti madrelingua",
+      "target": "Sezioni A, B e C"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Inglese/Francese",
+      "descrizione_e_metodologia": "Preparazione a esami KET, PET, DELF",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Teatro in lingua",
+      "categoria_principale": "Inglese/Francese",
+      "descrizione_e_metodologia": "Assistenza a rappresentazioni teatrali",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Kangourou della Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Esercitazioni facoltative",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Animazione settimanale",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Ora settimanale dedicata a tematiche formative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Ritiri spirituali",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Giornate formative con attività di riflessione e preghiera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Imparo il MIO Metodo di Studio",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Corso extracurricolare per migliorare le capacità organizzative e il metodo di studio",
+      "target": "Allievi con BES o difficoltà scolastiche"
+    },
+    {
+      "titolo_attivita": "Incontri con la Polizia Municipale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi su legalità, sicurezza e rispetto reciproco",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di riflessione sui propri interessi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Schede predisposte e materiali forniti durante le ore di animazione settimanali.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Attività “Orienta la tua estate”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stimolare la riflessione e il dialogo con la famiglia, fruizione di opuscolo.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Presentazione indirizzi scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione di licei e istituti tecnici presenti sul territorio.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Visita Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Diffusione materiale informativo e organizzazione visite.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Valsalice Estate",
+      "categoria_principale": "Attività estive",
+      "descrizione_e_metodologia": "Attività estive per ragazzi dalle 4^ elementare alla 2^ media, con uscite e compiti estivi.",
+      "target": "Studenti elementari e medie"
+    },
+    {
+      "titolo_attivita": "Sabato nel SOCIALE",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Accompagnamento genitori e allievi alla scoperta di realtà di volontariato.",
+      "target": "Genitori e studenti"
+    },
+    {
+      "titolo_attivita": "Consiglio orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formulazione del consiglio orientativo per gli allievi di terza media.",
+      "target": "Alunni di terza media"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FOAA80902A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia **Galeata Salvo D'Acquisto** (FOAA80902A), relativo al periodo 2021-2025. La scuola, statale e situata nel territorio non metropolitano di Galeata, in provincia di Forlì-Cesena e regione Emilia Romagna, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi, del progetto di vita e delle capacità orientative degli studenti, con l'obiettivo di ridurre l'abbandono scolastico e promuovere il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza di una chiara strutturazione e attenzione a questo ambito.\n\n**2.2 Partnership:** La scuola collabora con diversi partner esterni, tra cui **Pastorale giovanile ispettoriale e diocesana**, **Polizia Municipale**, **COSPES di Torino**, **Città di Torino**, **parrocchie della zona collinare**, **comunità religiose** ed **Ex Allievi**. Il numero di partnership attive è pari a 7, indicando una buona rete di collaborazione esterna.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, il supporto alle transizioni formative e il potenziamento delle capacità orientative per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 4, dimostrando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno NEET) e sulla promozione del lifelong learning. Gli obiettivi di continuità territoriale e lifelong learning risultano più prioritari, con un punteggio di 3, mentre quelli relativi alla riduzione dell'abbandono e al contrasto ai NEET ottengono un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Le azioni messe in atto per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Il coordinamento dei servizi e il rapporto scuola-genitori ottengono un punteggio di 3, mentre il dialogo tra docenti e studenti e il sistema integrato di inclusione e supporto alle fragilità raggiungono un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Tutte queste dimensioni ottengono un punteggio di 4, evidenziando un approccio didattico innovativo e centrato sullo studente.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo. Le opzionali culturali, ludiche e sportive ottengono un punteggio di 3, mentre quelle laboratoriali-espressive e di volontariato raggiungono un punteggio di 4.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella chiarezza delle finalità, nell'approccio didattico innovativo e centrato sullo studente, e nella buona rete di partnership con enti e istituzioni esterne. L'impegno verso lo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti è particolarmente apprezzabile. Attività come **Imparo il MIO Metodo di Studio** e **Percorso di riflessione sui propri interessi** dimostrano un'attenzione concreta alle esigenze degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la definizione degli obiettivi, in particolare quelli relativi alla riduzione dell'abbandono scolastico e al contrasto al fenomeno NEET, che ottengono un punteggio inferiore rispetto agli altri. Potrebbe essere necessario definire azioni più specifiche e mirate per affrontare queste problematiche.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi generali in azioni concrete e misurabili, soprattutto per quanto riguarda la riduzione dell'abbandono scolastico e il contrasto alla dispersione. È importante definire indicatori di performance specifici per monitorare l'efficacia delle azioni intraprese e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola **Galeata Salvo D'Acquisto** dimostra un forte impegno verso l'orientamento, con una chiara strutturazione, finalità ben definite e un approccio didattico innovativo. La rete di partnership e l'offerta di attività extracurricolari, come **Esercizi Spirituali**, **Progetto 'il giovane educa il giovane'**, **Valsalice Estate** e **Sabato nel SOCIALE**, contribuiscono a creare un ambiente stimolante e favorevole allo sviluppo delle competenze orientative degli studenti. Pur esistendo alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per migliorare ulteriormente l'offerta formativa e garantire un futuro di successo per tutti gli studenti. L'attività **Consiglio orientativo** per gli alunni di terza media rappresenta un momento cruciale per la transizione verso la scuola superiore."
+}

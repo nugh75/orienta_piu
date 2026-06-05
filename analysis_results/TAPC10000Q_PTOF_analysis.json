@@ -1,0 +1,224 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TAPC10000Q",
+    "denominazione": "Liceo \"Archita",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Taranto",
+    "anno_ptof": "2016",
+    "provincia": "Taranto",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Umberto I 106/B",
+    "cap": "74123",
+    "email": "tapc10000q@istruzione.it",
+    "pec": "tapc10000q@pec.istruzione.it",
+    "website": "www.liceoarchita.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Classico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Istituto musicale pareggiato “G. Paisiello\"",
+        "Istituti comprensivi Frascolla, Manzoni – De Amicis",
+        "orchestra ICO della Magna Grecia",
+        "AICC Taranto",
+        "Università degli studi Aldo Moro di Bari",
+        "associazione Intercultura",
+        "FAI",
+        "Libera",
+        "Telethon",
+        "AIDO",
+        "AIRC",
+        "ANT",
+        "AIL",
+        "CROCE ROSSA",
+        "Associazioni musicali"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di alternanza scuola-lavoro, usufruendo di fondi PON e POR",
+      "target": "Studenti del secondo ciclo"
+    },
+    {
+      "titolo_attivita": "Corsi di potenziamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione a concorsi, certamina, olimpiadi",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Corsi di certificazione linguistica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "PET, FIRST, IELTS, DELE, DELF",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programmi di studio all'estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi e ospitalità studenti",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Incontri con l’autore",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Partecipazione a eventi di divulgazione e promozione della lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Architeatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Realizzazione di progetti teatrali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musicarchita",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Realizzazione di progetti musicali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Cinema",
+      "descrizione_e_metodologia": "Visione e analisi di film",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di scrittura creativa",
+      "categoria_principale": "Scrittura",
+      "descrizione_e_metodologia": "Esercitazioni di scrittura creativa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "In mytho veritas",
+      "categoria_principale": "Scrittura",
+      "descrizione_e_metodologia": "Gara di scrittura creativa",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Recupero e potenziamento matematica, fisica, scienze",
+      "target": "A049, A060"
+    },
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Recupero e potenziamento italiano, latino, greco, inglese",
+      "target": "A052, A346"
+    },
+    {
+      "titolo_attivita": "Potenziamento umanistico",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Educazione legalità, cittadinanza, orientamento",
+      "target": "A037, A019"
+    },
+    {
+      "titolo_attivita": "Potenziamento artistico-musicale",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Educazione ai linguaggi non verbali",
+      "target": "A031"
+    },
+    {
+      "titolo_attivita": "Formazione personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Progettazione, valutazione, inclusione, competenze digitali, sicurezza",
+      "target": "Docenti/ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TAPC10000Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo \\\"Archita\\\"** (TAPC10000Q), relativo all'anno 2016. La scuola, situata a **Taranto** in **Puglia**, è un istituto **statale** di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali e facoltative. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con un punteggio medio di 3 su 5 nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Presenza di una Sezione Dedicata:** Il PTOF prevede esplicitamente una sezione dedicata all'orientamento, ottenendo un punteggio di 3. Questo indica un impegno formale della scuola nel trattare la tematica in modo strutturato.\n\n**2.2 Partnership:** La scuola ha sviluppato un network di **14 partner**, tra cui istituzioni musicali come l'**Istituto musicale pareggiato “G. Paisiello”**, istituti comprensivi (**Frascolla, Manzoni – De Amicis**), l'**orchestra ICO della Magna Grecia**, associazioni (**AICC Taranto, Intercultura, FAI, Libera, Telethon, AIDO, AIRC, ANT, AIL, CROCE ROSSA**) e l'**Università degli studi Aldo Moro di Bari**. Questa rete di collaborazioni, valutata con un punteggio di 4, rappresenta un valore aggiunto per l'offerta orientativa, ampliando le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 3, evidenziando un approccio completo e multidimensionale.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 3, dimostrando una chiara definizione delle priorità.\n\n**2.5 Azioni di Sistema:** Le azioni implementate comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Ogni azione ha ricevuto un punteggio di 3, suggerendo un approccio sistemico e collaborativo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'utilizzo della didattica basata sull'esperienza studentesca e la flessibilità degli spazi e dei tempi ottengono un punteggio di 3, mentre la didattica laboratoriale un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni culturali, laboratoriali ed espressive (punteggio 4), ludiche e ricreative, di volontariato e sportive (tutte con punteggio 3). Questa varietà contribuisce ad arricchire l'offerta formativa e a rispondere alle diverse esigenze e interessi degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, la solida rete di **partnership** con enti e istituzioni del territorio, la chiarezza delle **finalità** e degli **obiettivi** e l'approccio sistemico alle azioni. L'offerta di attività opzionali e facoltative, in particolare quelle **laboratoriali ed espressive**, rappresenta un ulteriore elemento di valore. Le attività registrate come **Alternanza scuola-lavoro**, **Corsi di certificazione linguistica** e i vari **potenziamenti** (scientifico, linguistico, umanistico, artistico-musicale) dimostrano un impegno concreto nell'offrire opportunità formative diversificate.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella didattica laboratoriale, che ha ottenuto un punteggio inferiore rispetto alle altre dimensioni. Potrebbe essere necessario potenziare l'utilizzo di metodologie didattiche innovative e laboratoriali per rendere l'orientamento più efficace e coinvolgente.\n\n### 5. Gap Analysis\n\nNonostante l'impegno dimostrato, è possibile individuare un gap tra la definizione delle finalità e degli obiettivi e la loro effettiva misurazione e valutazione. Il PTOF potrebbe beneficiare di un sistema di monitoraggio più strutturato e di indicatori specifici per valutare l'impatto delle azioni orientative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo \\\"Archita\\\"** presenta un'offerta orientativa solida e ben strutturata. La scuola dimostra un'attenzione significativa alla crescita personale e professionale degli studenti, attraverso una rete di **partnership** consolidata, una definizione chiara delle **finalità** e degli **obiettivi** e un'offerta formativa diversificata. Pur riconoscendo alcune aree di miglioramento, il PTOF rappresenta un valido strumento per guidare gli studenti nelle loro scelte future e per promuovere un'istruzione di qualità."
+}

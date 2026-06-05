@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PTMM824014",
+    "denominazione": "Rita Levi Montalcini",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Uzzano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Pistoia",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Prov. Le Lucchese 120",
+    "cap": "51017",
+    "email": "ptic824003@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmontalcinipescia.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF. L'orientamento è presente come attività sparse all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti potenziali"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Esperienze lavorative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PTMM824014\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I Grado P.Levi...Per Ricordare (codice scuola PTMM824014) per il triennio 2019/20-2021/22. L'istituto, situato nel comune di Uzzano, in provincia di Pistoia e regione Toscana, è una scuola statale di I Grado. L'analisi evidenzia una presenza diffusa di attività orientative, sebbene non sia presente una sezione specificamente dedicata all'orientamento nel PTOF. Le finalità orientative sono ben definite, così come gli obiettivi e le azioni intraprese dal sistema scolastico. L'offerta didattica e le attività opzionali/facoltative supportano l'orientamento degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che il PTOF non include una sezione dedicata specificamente all'orientamento. Tuttavia, l'orientamento è integrato in diverse attività e iniziative all'interno del documento.\n\n**2.2 Partnership:**\n\nLa scuola dimostra un buon livello di collaborazione con diversi partner esterni, tra cui **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Sono state individuate quattro partnership, suggerendo un impegno attivo nel coinvolgimento di attori esterni per arricchire l'offerta formativa e orientativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono chiaramente definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio elevato, indicando una forte attenzione alla crescita personale e professionale degli studenti.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sulla promozione del **lifelong learning**. Questi obiettivi, pur importanti, presentano un punteggio leggermente inferiore rispetto alle finalità, suggerendo la necessità di un monitoraggio più accurato dei risultati ottenuti.\n\n**2.5 Azioni di Sistema:**\n\nIl sistema scolastico implementa diverse azioni per supportare l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**, che dimostra un'attenzione alla diversità e alle esigenze specifiche di ogni studente.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento attraverso l'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Questi elementi contribuiscono a rendere l'apprendimento più coinvolgente e significativo per gli studenti.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Questa varietà permette agli studenti di esplorare i propri interessi e talenti, favorendo la scoperta del proprio percorso di vita.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella chiarezza delle finalità, nella varietà delle attività proposte e nella collaborazione con partner esterni. L'integrazione dell'orientamento nelle diverse dimensioni del PTOF, sebbene non esplicitamente formalizzata in una sezione dedicata, dimostra un approccio olistico alla crescita degli studenti. Le attività di PCTO, come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d’istruzione**, offrono agli studenti opportunità concrete di esplorazione e apprendimento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia presente in diverse attività, una sezione specifica permetterebbe di definire in modo più chiaro le strategie, gli obiettivi e gli indicatori di successo. Inoltre, i punteggi leggermente inferiori relativi agli obiettivi suggeriscono la necessità di un monitoraggio più accurato dei risultati ottenuti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, formalizzata in una sezione dedicata del PTOF. Questo potrebbe portare a una frammentazione delle iniziative e a una difficoltà nel valutare l'efficacia complessiva dell'azione orientativa.\n\n### 6. Conclusioni\n\nIl PTOF dell'I Grado P.Levi...Per Ricordare dimostra un impegno significativo verso l'orientamento degli studenti. Nonostante l'assenza di una sezione dedicata, le finalità, gli obiettivi e le azioni intraprese sono ben definiti e supportati da una varietà di attività e partnership. Per migliorare ulteriormente l'efficacia dell'azione orientativa, si raccomanda di valutare l'inserimento di una sezione specifica nel PTOF, che definisca in modo chiaro le strategie, gli obiettivi e gli indicatori di successo. Attività come il **Ritiro di accoglienza**, l'**Educazione alimentare**, la formazione sulla **tossicodipendenza**, il corso di **Primo soccorso** e gli incontri di **Orientamento post-liceo** sono elementi preziosi che contribuiscono alla formazione completa degli studenti. La formazione continua dei docenti, come la **Formazione didattica inclusiva**, l'utilizzo di **strumenti multimediali** e la **Formazione sicurezza** per il personale amministrativo, completa il quadro di un'istituzione scolastica attenta alla qualità dell'offerta formativa."
+}

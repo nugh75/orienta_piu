@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BA1A01100L",
+    "denominazione": "Saverio Lioce",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Bari",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bari",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Modugno",
+    "cap": "70100",
+    "email": "scuola.infanzia.saveriolioce@comune.bari.it",
+    "pec": "circoloinfanzia3.comunebari@pec.rupar.puglia.it",
+    "website": "ND",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "FISM",
+        "neuropsichiatria di Bonate Sotto",
+        "cooperative del territorio",
+        "ATS",
+        "Amministrazione comunale",
+        "Biblioteca comunale",
+        "Caritas parrocchiale",
+        "Oratorio",
+        "Polizia Locale",
+        "Associazione anziani",
+        "Adasm-fism",
+        "Ufficio Diocesano per la Pastorale Scolastica",
+        "Bicocca",
+        "psicologa della struttura"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 2
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio Scientifico",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Esplorazione, sperimentazione, indagine",
+      "target": "Bambini 3 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione alla Teatralità",
+      "categoria_principale": "Teatrale",
+      "descrizione_e_metodologia": "Consapevolezza del sé, movimento, voce",
+      "target": "Bambini 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale e di Ascolto",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Ascolto, movimento, sperimentazione",
+      "target": "Bambini 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio del Riciclo",
+      "categoria_principale": "Ambientale",
+      "descrizione_e_metodologia": "Riutilizzo materiali, creatività",
+      "target": "Bambini 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Linguistico: La Costruzione del Libro",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Narrazione, creazione libro",
+      "target": "Bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Logico-Matematico",
+      "categoria_principale": "Logico-Matematico",
+      "descrizione_e_metodologia": "Sperimentazione, gioco, ragionamento",
+      "target": "Bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Incontri con specialisti (neuropsichiatri, logopedisti, psicomotricisti)",
+      "categoria_principale": "Supporto e consulenza",
+      "descrizione_e_metodologia": "Calendarizzazione di incontri con specialisti per bambini certificati.",
+      "target": "Bambini certificati"
+    },
+    {
+      "titolo_attivita": "Progetto per minori certificati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto coordinato da diverse figure (coordinatrice, docenti, assistente sociale, cooperativa).",
+      "target": "Bambini con disabilità certificate"
+    },
+    {
+      "titolo_attivita": "Passaggio informazioni scuola infanzia-primaria",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Raccordo e condivisione strategie formative.",
+      "target": "Bambini che passano alla scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetti condivisi con la biblioteca comunale",
+      "categoria_principale": "Lettura e scrittura",
+      "descrizione_e_metodologia": "Avvicinare i bambini al mondo della lettura",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Caritas parrocchiale",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Aiuto alle famiglie con fragilità economica",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti di religione con l'Oratorio",
+      "categoria_principale": "Educazione religiosa",
+      "descrizione_e_metodologia": "Attività durante l'Avvento e la Pasqua",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Formazione e aggiornamento docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi MIUR, USR, ADASM-FISM, Ufficio Diocesano, risorse interne",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Ricerca-azione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Collaborazione con ricercatrici Bicocca e psicologa",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BA1A01100L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia **Saverio Lioce** di Bari, relativa al triennio 2022-2025. La scuola, paritaria, situata in un contesto metropolitano della regione Puglia, dimostra un impegno significativo nella costruzione di una rete di **partnership** con diversi soggetti del territorio. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, l'analisi rivela una solida attenzione allo sviluppo delle attitudini, degli interessi e dei progetti di vita dei bambini, nonché alla loro preparazione per le successive transizioni formative. L'attenzione all'inclusione e alla continuità territoriale emerge come un elemento centrale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione dedicata specificamente all'orientamento, come evidenziato dal punteggio pari a zero.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di collaborazioni con enti e associazioni del territorio, tra cui **FISM**, la **neuropsichiatria di Bonate Sotto**, diverse **cooperative**, l'**ATS**, l'**Amministrazione comunale**, la **Biblioteca comunale**, la **Caritas parrocchiale**, l'**Oratorio**, la **Polizia Locale**, l'**Associazione anziani**, **Adasm-fism**, l'**Ufficio Diocesano per la Pastorale Scolastica**, **Bicocca** e la **psicologa della struttura**. Questo elevato numero di partnership (14) suggerisce una forte apertura verso il contesto esterno e la volontà di creare un sistema integrato di supporto per i bambini e le famiglie.\n\n**2.3 Finalità:** Il PTOF attribuisce un punteggio elevato (3) allo sviluppo delle **attitudini**, degli **interessi** e dei **progetti di vita** dei bambini, nonché alla preparazione per le **transizioni formative**. L'attenzione alle **capacità orientative** e alle opportunità risulta meno sviluppata, con un punteggio pari a 1.\n\n**2.4 Obiettivi:** L'obiettivo di ridurre l'abbandono scolastico non risulta prioritario (punteggio 0), mentre la scuola si impegna a garantire la **continuità territoriale** (punteggio 3) e, in misura minore, a promuovere il **lifelong learning** (punteggio 1).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi** (punteggio 3), di **dialogo tra docenti e studenti** (punteggio 2), di **rapporto scuola-genitori** (punteggio 3) e di **monitoraggio delle azioni** (punteggio 1). Particolarmente rilevante è l'impegno nella creazione di un **sistema integrato di inclusione e fragilità** (punteggio 3).\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 2) e sull'approccio **interdisciplinare** (punteggio 2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include iniziative **culturali** (punteggio 1), **laboratoriali ed espressive** (punteggio 3), **ludiche e ricreative** (punteggio 1), di **volontariato** (punteggio 1) e **sportive** (punteggio 1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nell'attenzione allo sviluppo delle **attitudini**, degli **interessi** e dei **progetti di vita** dei bambini, e nell'impegno per l'inclusione e la continuità territoriale. Le attività laboratoriali, come il **Laboratorio Scientifico**, il **Laboratorio di Educazione alla Teatralità**, il **Laboratorio Musicale e di Ascolto**, il **Laboratorio del Riciclo**, il **Laboratorio Linguistico: La Costruzione del Libro** e il **Laboratorio Logico-Matematico**, offrono opportunità di apprendimento esperienziale e stimolante. L'organizzazione di **incontri con specialisti** e la realizzazione di **progetti per minori certificati** dimostrano un'attenzione particolare alle esigenze dei bambini con disabilità.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un punto di debolezza. L'obiettivo di ridurre l'abbandono scolastico non sembra essere una priorità, e l'attenzione alle **capacità orientative** e alle opportunità risulta meno sviluppata. Il monitoraggio delle azioni previste appare poco strutturato.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di esplicitare in modo più chiaro le finalità e gli obiettivi dell'orientamento all'interno del PTOF. Sarebbe opportuno definire indicatori specifici per misurare l'efficacia delle azioni intraprese e monitorare i risultati ottenuti. Inoltre, è necessario rafforzare l'attenzione alla prevenzione dell'abbandono scolastico e alla promozione del **lifelong learning**.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Saverio Lioce** presenta un quadro complessivamente positivo, caratterizzato da un forte impegno per l'inclusione, la continuità territoriale e lo sviluppo delle potenzialità dei bambini. Pur riconoscendo l'assenza di una sezione dedicata all'orientamento, l'analisi rivela una solida attenzione alle finalità e agli obiettivi che sottendono un approccio orientativo. L'implementazione di azioni mirate a colmare le aree di debolezza identificate consentirebbe di rafforzare ulteriormente l'efficacia del PTOF e di garantire ai bambini un percorso formativo completo e stimolante."
+}

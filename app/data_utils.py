@@ -6,9 +6,11 @@ TIPI_SCUOLA = [
     "Infanzia",
     "Primaria",
     "I Grado",
+    "Comprensivo",
     "Liceo",
     "Tecnico",
-    "Professionale"
+    "Professionale",
+    "Convitto"
 ]
 
 GESTIONE_SCUOLA = [

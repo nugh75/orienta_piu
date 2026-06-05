@@ -1,0 +1,240 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PGIC83100E",
+    "denominazione": "I.C. Foligno 5",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Foligno",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Perugia",
+    "regione": "Umbria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Don Angelo Messini 5",
+    "cap": "06030",
+    "email": "pgic83100e@istruzione.it",
+    "pec": "pgic83100e@pec.istruzione.it",
+    "website": "https//icfoligno5.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento, ma non una sezione dedicata specifica."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Proporzioni, percentuali, sanzioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi aggiornamento diplomati",
+      "categoria_principale": "Formazione continua",
+      "descrizione_e_metodologia": "Corsi di aggiornamento per ex-alunni.",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo di tecnologie CAD/CAM e stampa 3D.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PGIC83100E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Foligno 5 (PGIC83100E), per il triennio 2023/24-2024/25-2025/26. La scuola, di tipo professionale e di secondo grado, situata nel territorio non metropolitano di Foligno, in Umbria, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata. L'istituto si distingue per la forte collaborazione con il territorio e le imprese, con un punteggio elevato nelle finalità orientative e negli obiettivi di riduzione dell'abbandono scolastico e di contrasto alla dispersione formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti attività di orientamento, il PTOF non prevede una sezione dedicata specificamente a questa tematica, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT**, un’**azienda leader del settore audiovisivi**, diverse **aziende accreditate** e altre **aziende di settore**. Il numero di partner coinvolti è pari a 4.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi**, **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono altrettanto lodevoli, con punteggi massimi (5) per la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto ai **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono valutate positivamente, con punteggi elevati (6) per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e l'integrazione con il **sistema inclusivo** per la fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con punteggi massimi (5) per l'apprendimento **da esperienze degli studenti**, la **didattica laboratoriale**, la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative presenta alcune differenze. Le opzionali **culturali** ottengono un punteggio di 3, quelle **laboratoriali ed espressive** un 4, mentre quelle **ludiche e ricreative** e **sportive** un punteggio più basso (2). Le opzionali dedicate al **volontariato** raggiungono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella forte connessione con il territorio, testimoniata dalle numerose partnership con aziende e istituzioni locali. L'istituto dimostra un chiaro impegno verso la prevenzione dell'abbandono scolastico e la promozione del lifelong learning. L'approccio didattico orientativo, basato sull'esperienza, la laboratorialità e l'interdisciplinarità, è particolarmente apprezzabile. L'offerta di attività come **PCTO** e laboratori specifici, come quelli di gnatologia, diritto e fisica, contribuisce a fornire agli studenti competenze pratiche e ad ampliare i loro orizzonti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene le attività siano presenti e ben strutturate, una sezione specifica permetterebbe di dare maggiore visibilità e coerenza all'impegno dell'istituto in questo ambito. L'offerta di opzionali ludiche, ricreative e sportive potrebbe essere potenziata per offrire agli studenti una gamma più ampia di opportunità.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento come area tematica autonoma all'interno del PTOF. L'istituto potrebbe colmare questo gap creando una sezione dedicata, definendo obiettivi specifici e indicatori di performance per misurare l'efficacia delle attività di orientamento. Un'ulteriore area di miglioramento riguarda l'ampliamento dell'offerta di opzionali, in particolare quelle ludiche, ricreative e sportive.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Foligno 5 dimostra un impegno significativo verso l'orientamento, supportato da solide partnership, finalità ambiziose e un approccio didattico innovativo. Nonostante l'assenza di una sezione dedicata, l'istituto riesce a offrire agli studenti un'ampia gamma di opportunità per sviluppare le proprie attitudini, interessi e competenze, preparandoli al mondo del lavoro e alla vita adulta. L'implementazione di una sezione dedicata all'orientamento e l'ampliamento dell'offerta di opzionali potrebbero ulteriormente rafforzare l'efficacia del PTOF e consolidare il ruolo dell'istituto come punto di riferimento per l'orientamento nel territorio. Attività come il **Servizio di Sostegno Educativo** e i **Corsi aggiornamento diplomati** dimostrano un’attenzione particolare all’inclusione e alla formazione continua."
+}

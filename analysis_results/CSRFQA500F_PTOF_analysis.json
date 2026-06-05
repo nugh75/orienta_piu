@@ -1,0 +1,232 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSRFQA500F",
+    "denominazione": "Antonio Gabriele",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Tortora",
+    "anno_ptof": "2022/2025",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Panoramica Al Porto Snc",
+    "cap": "87020",
+    "email": "i.p.sociosanitariotortora@gmail.com",
+    "pec": "evolutiotempore@apogeopec.it",
+    "website": "www.sociosanitariotortora.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Società Cooperativa “Evolutio Tempore”, Confcooperative Calabria",
+        "Croce Rossa Italiana",
+        "ASP Cosenza",
+        "Airc",
+        "università telematica Giustino Fortunato"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Tirocinio",
+      "categoria_principale": "Pratica",
+      "descrizione_e_metodologia": "Esperienze di stage con servizi specifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi d'istruzione",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite a musei e mostre",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze in aziende",
+      "target": "Studenti ultimi tre anni"
+    },
+    {
+      "titolo_attivita": "Future skills: Soft e hard skills",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ciclo di 8 incontri seminariali online mensili",
+      "target": "Classi III, IV e V"
+    },
+    {
+      "titolo_attivita": "Presentazione scuola media",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Presentazione scuola presso scuole medie",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Giornata di conoscenza della scuola",
+      "target": "Studenti, docenti e genitori"
+    },
+    {
+      "titolo_attivita": "Visite universitarie",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Visite presso sedi universitarie",
+      "target": "Studenti classi IV e V"
+    },
+    {
+      "titolo_attivita": "Educazione Ambientale",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione e cura dell'ambiente",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Ai Sentimenti Ed Alla Pace",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Promozione del benessere e della convivenza pacifica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Legalità",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Promozione del rispetto delle regole e della legalità",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Il Gioco",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Utilizzo del gioco come strumento educativo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso strutture socio-sanitarie del territorio",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di professionisti del settore",
+      "target": "Classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento Interdisciplinare",
+      "categoria_principale": "Interdisciplinare",
+      "descrizione_e_metodologia": "Svolgimento di n. Unità di Apprendimento",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di Educazione alla salute",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Attività educative di lotta al tabagismo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi d'Istruzione e Uscite Didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso strutture sanitarie e sociali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi per le Competenze Trasversali e per l’Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di simulazione e role-playing",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti del settore",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSRFQA500F\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto “Antonio Gabriele” (CSRFQA500F), relativo all'anno scolastico 2022/2025. La scuola, situata a Tortora in provincia di Cosenza, è un istituto di secondo grado, paritario, che opera in un contesto territoriale non metropolitano della regione Calabria. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata, una rete di **partnership** consolidata e un'attenzione particolare allo sviluppo di **attitudini**, **interessi** e alla costruzione di un **progetto di vita** per gli studenti. Sebbene siano presenti alcune aree di miglioramento, il PTOF dimostra una solida base per un'efficace azione orientativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una chiara attenzione a questa tematica.\n\n**2.2 Partnership:** L'istituto ha sviluppato una rete di **partnership** con diversi soggetti esterni, tra cui la **Società Cooperativa “Evolutio Tempore”**, **Confcooperative Calabria**, la **Croce Rossa Italiana**, l’**ASP Cosenza**, **Airc** e l’**università telematica Giustino Fortunato**. Questo network, composto da 6 partner, rappresenta un valore aggiunto per l'offerta orientativa, offrendo agli studenti opportunità di confronto e di esperienza diretta con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** e gli **interessi** degli studenti, supportandoli nella costruzione del loro **progetto di vita**. Particolare attenzione è rivolta alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future. I punteggi ottenuti (6 per attitudini, interessi e progetto di vita, 4 per transizioni formative e 5 per capacità orientative) confermano l'importanza attribuita a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico**, il mantenimento di un legame con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. I punteggi ottenuti (3 per riduzione abbandono e contrasto NEET, 4 per continuità territoriale e 5 per lifelong learning) suggeriscono un impegno costante, seppur con margini di miglioramento in alcune aree.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede diverse azioni di sistema per supportare l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. L'importanza attribuita al dialogo e al coinvolgimento delle famiglie è particolarmente apprezzabile.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**, sebbene con punteggi di 2 per ciascuna, suggerendo un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella solida rete di **partnership** con enti e aziende del territorio, nella chiarezza delle **finalità** e nella varietà delle **attività** proposte. L'impegno verso lo sviluppo delle **competenze trasversali** e l'attenzione all'inclusione rappresentano ulteriori elementi positivi. Le attività di **PCTO**, **tirocinio**, **visite aziendali** e gli incontri con **professionisti** offrono agli studenti opportunità concrete di orientamento.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la necessità di potenziare l'offerta di attività opzionali e facoltative, il monitoraggio delle azioni intraprese e l'attenzione alle **transizioni formative**. I punteggi relativamente bassi in queste aree suggeriscono la necessità di un maggiore investimento in termini di risorse e di progettazione.\n\n### 5. Gap Analysis\n\nIl gap tra l'impegno teorico e la sua concreta implementazione è minimo, ma presente. Sebbene il PTOF delinei una strategia orientativa completa, è necessario rafforzare il **monitoraggio** delle attività e la valutazione dei risultati per garantire l'efficacia dell'intervento. Inoltre, è opportuno ampliare l'offerta di attività opzionali e facoltative per rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto “Antonio Gabriele” presenta un approccio all'orientamento ben strutturato e coerente con le esigenze del contesto territoriale. La presenza di una sezione dedicata, la rete di **partnership** consolidata e l'attenzione alle **finalità** educative rappresentano punti di forza significativi. Pur con alcune aree di miglioramento, il PTOF dimostra un impegno concreto verso l'orientamento e la preparazione degli studenti al futuro."
+}

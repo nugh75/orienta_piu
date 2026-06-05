@@ -1,0 +1,315 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTIC81100R",
+    "denominazione": "I. Omnicomprensivo-Stigliano",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Stigliano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Berardi 9",
+    "cap": "75018",
+    "email": "mtic81100r@istruzione.it",
+    "pec": "mtic81100r@pec.istruzione.it",
+    "website": "www.icstigliano.gov.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "amministrazione locale",
+        "Associazioni",
+        "forze dell’ordine",
+        "CUS",
+        "ASP",
+        "Protezione civile",
+        "organizzazioni del terzo settore",
+        "magistrati",
+        "istituzioni",
+        "forze di polizia",
+        "arma dei carabinieri",
+        "CONI",
+        "Rotary Acicastello",
+        "Esterno",
+        "Servizi socio-sanitari",
+        "Associazione I-Sports Catania",
+        "Associazione Scacchistica Don Pietro Carrera Catania",
+        "Trinity College London",
+        "Etna Sycula",
+        "ISS Redi di Paternò",
+        "Università KORE di Enna",
+        "British School di Catania"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di avviamento alla pratica musicale",
+      "categoria_principale": "Amplamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi curati dai professori di strumento per alunni della scuola primaria.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola e legalità",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promosso dal CUS",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Centro Sportivo Scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Organizzazione attività sportive",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua spagnola",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Laboratorio per sviluppo competenze linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche, visite e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a scuole secondarie di II grado, Open Day",
+      "target": "Classi III"
+    },
+    {
+      "titolo_attivita": "Incontri con i magistrati",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Lezioni sul tema della legalità",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Incontri con le forze di polizia",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Incontri con rappresentanti delle forze dell'ordine",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Arte di crescere",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Dall'Arte all'Immagine",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Dalla cultura alla cultura",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Progetti per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Giochi matematici del Mediterraneo 2024",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Lingua Inglese",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Docenti madrelingua",
+      "target": "Infanzia, Primaria, Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Scacchi a Scuola",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Associazione Don Pietro Carrera",
+      "target": "Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratori mare e costa",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Ascolto racconti, sperimentazione, progetti fotografici, pulizia litorale",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Registro elettronico",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Piattaforma online per dati scolastici e comunicazione scuola-famiglia",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Cablaggio edifici scolastici",
+      "categoria_principale": "Infrastrutture digitali",
+      "descrizione_e_metodologia": "Realizzazione reti LAN/W-Lan",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Piattaforma G-Suite",
+      "categoria_principale": "Didattica digitale",
+      "descrizione_e_metodologia": "Approfondimento disciplinare, riunioni collegiali",
+      "target": "Studenti dalla classe terza primaria"
+    },
+    {
+      "titolo_attivita": "Assistente tecnico",
+      "categoria_principale": "Supporto tecnico",
+      "descrizione_e_metodologia": "Supporto strumentazione informatica, DAD, progetti",
+      "target": "Tutte le scuole"
+    },
+    {
+      "titolo_attivita": "Formazione innovazione didattica",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Animazione digitale, sperimentazione soluzioni innovative",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Predisposizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI in collaborazione con docenti e famiglia",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Redazione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PDP in collaborazione con docenti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Visite didattiche e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Pianificazione e realizzazione di uscite didattiche per ampliare l'esperienza degli alunni.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri tra diversi ordini di scuola per facilitare la transizione.",
+      "target": "Alunni delle classi ponte"
+    },
+    {
+      "titolo_attivita": "Attivazione procedure dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Individuazione precoce e intervento per prevenire la dispersione scolastica.",
+      "target": "Alunni a rischio"
+    },
+    {
+      "titolo_attivita": "Scuola Sicura",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Individuazione medico competente e RSPP",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Tirocinio Scienze della Formazione Primaria",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Collaborazione con Università KORE di Enna",
+      "target": "Studenti universitari"
+    },
+    {
+      "titolo_attivita": "Certificazioni Cambridge",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Pre e Post Scuola",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Servizio offerto da Associazione I-Sports",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Scacchi a scuola",
+      "categoria_principale": "Attività",
+      "descrizione_e_metodologia": "Pratica degli scacchi",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTIC81100R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I. Omnicomprensivo-Stigliano (MTIC81100R) per il triennio 2022-2025. L'istituto, di tipo comprensivo e situato nel territorio non metropolitano della regione Basilicata, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio-alto nelle diverse dimensioni valutate. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi e delle capacità orientative degli studenti, con l'obiettivo di ridurre l'abbandono scolastico e favorire la continuità territoriale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza di una chiara centralità dell'azione orientativa all'interno del piano scolastico.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, comprendendo ben 22 collaborazioni con diversi soggetti tra cui l'**amministrazione locale**, **Associazioni**, **forze dell’ordine**, il **CUS**, l'**ASP**, la **Protezione civile**, **organizzazioni del terzo settore**, **magistrati**, **istituzioni**, **forze di polizia**, l'**arma dei carabinieri**, il **CONI**, il **Rotary Acicastello**, enti **Esterni**, **Servizi socio-sanitari**, l'**Associazione I-Sports Catania**, l'**Associazione Scacchistica Don Pietro Carrera Catania**, la **Trinity College London**, **Etna Sycula**, l'**ISS Redi di Paternò**, l'**Università KORE di Enna** e la **British School di Catania**. Questa vasta rete di collaborazioni rappresenta un importante punto di forza per l'implementazione di attività orientative efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** e **interessi** degli studenti (punteggio 4), e un'attenzione, seppur meno marcata (punteggio 3), al supporto al **progetto di vita** e alle **transizioni formative**. Si evidenzia un buon livello di attenzione allo sviluppo delle **capacità orientative** per cogliere le opportunità (punteggio 4).\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico (punteggio 4), di garantire la **continuità territoriale** (punteggio 3), con un impegno minore nel **contrastare il fenomeno NEET** (punteggio 2) e nel promuovere il **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con punteggi elevati per il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 4), il **rapporto scuola-genitori** (punteggio 4) e l'implementazione di un **sistema integrato di inclusione e fragilità** (punteggio 4). Il monitoraggio delle azioni, pur presente, risulta meno strutturato (punteggio 3).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci diversificati, con un'attenzione alla didattica esperienziale (punteggio 3), a quella laboratoriale (punteggio 3) e all'interdisciplinarità (punteggio 4). La flessibilità degli spazi e dei tempi didattici è considerata un aspetto importante, ma con un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi elevati per le attività **laboratoriali ed espressive** (punteggio 5), un buon livello per quelle **sportive** (punteggio 4) e un'attenzione, seppur minore, alle attività **culturali** e **ludico-ricreative** (punteggio 3). Le attività di **volontariato** risultano meno sviluppate (punteggio 2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, la vasta rete di **partnership** con enti e associazioni del territorio, l'attenzione allo sviluppo delle **attitudini** e degli **interessi** degli studenti, e l'implementazione di azioni di sistema efficaci per il coordinamento dei servizi e il dialogo con le famiglie. L'offerta di attività opzionali, in particolare quelle **laboratoriali**, rappresenta un ulteriore punto di forza. Le attività registrate, come i corsi di musica, i progetti di **legalità** promossi dal **CUS**, le visite a scuole secondarie di II grado e i laboratori di **lingua spagnola**, arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente l'attenzione al contrasto del fenomeno **NEET** e alla promozione del **lifelong learning**, che necessitano di un maggiore approfondimento. Il monitoraggio delle azioni orientative potrebbe essere potenziato per garantire una valutazione più efficace dei risultati. Anche le attività di **volontariato** potrebbero essere maggiormente sviluppate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi orientativi in azioni concrete e misurabili, con un focus specifico sulla prevenzione della dispersione scolastica e sull'inserimento nel mondo del lavoro. È necessario rafforzare la collaborazione con il territorio per offrire agli studenti opportunità di **tirocinio** e di contatto con il mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'I. Omnicomprensivo-Stigliano dimostra un impegno significativo verso l'orientamento, con una solida base di partenza e un'ampia rete di collaborazioni. Per raggiungere risultati ancora più efficaci, è necessario concentrarsi sul potenziamento delle aree di debolezza e sulla definizione di azioni concrete e misurabili per il raggiungimento degli obiettivi prefissati. L'implementazione di progetti di **digitalizzazione**, come il **registro elettronico** e l'utilizzo della piattaforma **G-Suite**, e l'attenzione all'**inclusione** con la predisposizione di **PEI** e **PDP**, rappresentano elementi positivi che contribuiscono a creare un ambiente scolastico accogliente e stimolante per tutti gli studenti."
+}

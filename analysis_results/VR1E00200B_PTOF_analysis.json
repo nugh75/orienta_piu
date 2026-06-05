@@ -1,0 +1,160 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VR1E00200B",
+    "denominazione": "Scuola Primaria Leonardi",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Verona",
+    "anno_ptof": "Non specificato",
+    "provincia": "Verona",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via S. Cosimo 3",
+    "cap": "37121",
+    "email": "primaria.leonardi@gmail.com",
+    "pec": "congregazionefigliedigesu@pec.it",
+    "website": "www.leonardiscuole.org",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento non ha una sezione dedicata, ma è menzionato in diversi punti del documento, in particolare nella cura della persona e nello sviluppo delle competenze."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Territorio",
+        "ULSS locale",
+        "Ufficio Scolastico Provinciale di Verona"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "valorizzare ciascun ragazzo così da renderlo capace di realizzarsi come persona felice",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "rapporta alle particolari esigenze degli alunni",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "persona felice e cittadino costruttivo",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": "preparazione efficace in vista della prosecuzione degli studi nella Scuola Secondaria di Secondo Grado",
+        "evidence_location": "Pagina 4"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "orientando a questa finalità generale l’impegno di tutte le figure educative",
+        "evidence_location": "Pagina 3"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Inglese potenziato",
+      "categoria_principale": "Corso opzionale",
+      "descrizione_e_metodologia": "Offerta di un corso di inglese potenziato per gli alunni interessati.",
+      "5w_chi": "Alunni interessati",
+      "5w_cosa": "Corso di inglese potenziato",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'orario scolastico",
+      "5w_perche": "Offrire un'opportunità di approfondimento della lingua inglese",
+      "ore_dichiarate": "5",
+      "target": "Alunni",
+      "evidence_quote": "Inglese potenziato",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "English Conversation",
+      "categoria_principale": "Corso opzionale",
+      "descrizione_e_metodologia": "Lezioni di conversazione in inglese con un docente madrelingua.",
+      "5w_chi": "Alunni interessati",
+      "5w_cosa": "Lezioni di conversazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Pomeriggio",
+      "5w_perche": "Migliorare le competenze comunicative in inglese",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "English conversation con docente di madrelingua",
+      "evidence_location": "Pagina 4"
+    }
+  ],
+  "narrative": "## Analisi del PTOF VR1E00200B\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Leonardi delinea un approccio all'orientamento incentrato sullo sviluppo integrale della persona e sull'acquisizione di competenze chiave. Pur mancando una sezione specificamente dedicata all'orientamento, il documento evidenzia un impegno a supportare gli studenti nel loro percorso formativo e nella preparazione al futuro. Il livello di maturità dell'orientamento può essere considerato discreto, con un focus sulla cura della persona e sullo sviluppo delle competenze trasversali, ma necessita di maggiore strutturazione.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nCome evidenziato, il PTOF non prevede una sezione dedicata all'orientamento. Sebbene i principi e le azioni siano integrati in altre parti del documento, una sezione specifica offrirebbe maggiore chiarezza e visibilità a questo aspetto cruciale.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con il territorio, l'ULSS locale e l'Ufficio Scolastico Provinciale di Verona, creando una rete di supporto per gli studenti e favorendo l'integrazione della scuola nel contesto locale. Queste partnership sono un punto di forza, ma sarebbe utile documentare più dettagliatamente le modalità di collaborazione e i risultati ottenuti.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità della scuola sono orientate allo sviluppo integrale della persona, con attenzione alle attitudini, agli interessi e al progetto di vita degli studenti. Gli obiettivi sono chiari e ben definiti, mirando a promuovere la crescita personale, sociale e culturale. L'enfasi sul lifelong learning è apprezzabile, ma andrebbe tradotta in azioni concrete.\n\n#### 2.4 Governance e Azioni di Sistema\nLa scuola attribuisce importanza al coordinamento dei servizi, al dialogo tra docenti e studenti e al rapporto scuola-famiglia. Queste azioni sono fondamentali per un ambiente scolastico positivo e un supporto efficace agli studenti. Il monitoraggio delle azioni è presente, ma necessita di essere potenziato per valutarne l'efficacia e apportare eventuali correzioni.\n\n#### 2.5 Didattica Orientativa\nLa didattica mira a valorizzare le esperienze degli studenti e a promuovere l'interdisciplinarità. Le attività laboratoriali, pur menzionate, non sono sufficientemente dettagliate nel documento e necessitano di una maggiore specificazione per dimostrare un impatto concreto sull'orientamento.\n\n#### 2.6 Opportunità Formative\nLa scuola offre una varietà di attività opzionali, tra cui corsi di lingua, laboratori artistici e attività sportive. Queste opportunità permettono agli studenti di approfondire i propri interessi e sviluppare le proprie passioni, contribuendo alla loro crescita personale.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Inglese potenziato\nL'offerta del corso di Inglese potenziato rappresenta un'opportunità per gli studenti interessati ad approfondire le proprie competenze linguistiche, fornendo loro strumenti utili per gli studi successivi.\n\n#### 2.7.2 English Conversation\nLe lezioni di English Conversation con un docente madrelingua offrono agli studenti la possibilità di migliorare le proprie competenze comunicative in inglese in un ambiente stimolante.\n\n### 3. Punti di Forza\nI principali punti di forza del PTOF sono l'attenzione allo sviluppo integrale della persona, la valorizzazione delle competenze trasversali e la collaborazione con il territorio. La scuola offre opportunità formative diversificate e si impegna a creare un ambiente scolastico positivo e inclusivo.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento e il monitoraggio limitato delle azioni rappresentano le principali aree di debolezza. Inoltre, la descrizione delle attività didattiche laboratoriali risulta insufficiente. \n\n### 5. Gap Analysis\nIl PTOF potrebbe beneficiare di una maggiore attenzione alla transizione verso la scuola secondaria di secondo grado e alla preparazione degli studenti per il mondo del lavoro. Sarebbe utile sviluppare progetti specifici per l'orientamento professionale e l'acquisizione di competenze richieste dal mercato del lavoro. È inoltre necessario approfondire l'analisi delle strategie di inclusione degli studenti con bisogni educativi speciali, come descritto a pagina 6 del PTOF.\n\n### 6. Conclusioni\nIl PTOF dell'Istituto Leonardi presenta un approccio all'orientamento solido, sebbene manchi una sezione dedicata. La scuola si impegna a supportare gli studenti nel loro percorso formativo e nella preparazione al futuro, offrendo opportunità formative e promuovendo la collaborazione con il territorio. Per migliorare l'efficacia del PTOF, è necessario strutturare meglio l'offerta formativa, potenziare il monitoraggio delle azioni e approfondire l'analisi delle strategie di inclusione."
+}

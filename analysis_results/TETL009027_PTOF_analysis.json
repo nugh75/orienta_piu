@@ -1,0 +1,262 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TETL009027",
+    "denominazione": "Iis Alessandrini-Marino-Pascal-Comi-Fort",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Teramo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Teramo",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cona",
+    "cap": "64100",
+    "email": "tsic80300d@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.iiscrocetticerulli.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Per Geometri"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente e descritta"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "Unità di valutazione multidisciplinare",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti. Le visite sono finalizzate alla scoperta di diversi ambiti lavorativi, mentre gli incontri con professionisti offrono testimonianze dirette e spunti di riflessione.",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI attraverso questionari a docenti, genitori e studenti, e successive analisi dei dati raccolti per migliorare l'efficacia della didattica a distanza.",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne attraverso colloqui individuali e compilazione di schede specifiche, al fine di ottimizzare l'assegnazione delle risorse e favorire la collaborazione tra i membri del personale scolastico.",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti attraverso le valutazioni formative e sommative, al fine di individuare punti di forza e di debolezza degli studenti e di definire interventi mirati per migliorare il loro rendimento scolastico.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa, con coinvolgimento di docenti, genitori e studenti nella definizione di nuove regole e procedure per la gestione dei conflitti.",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21). Il servizio offre un supporto educativo e assistenziale agli alunni, facilitando la conciliazione tra vita familiare e scolastica.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\", focalizzate su arte, musica, teatro e altre discipline creative, per stimolare la manualità, l'espressione personale e la socializzazione.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curriculare",
+      "descrizione_e_metodologia": "33 ore annuali, trasversale e interdisciplinare, affidato a tutti i docenti. L'insegnamento mira a sviluppare la consapevolezza civica, il senso di responsabilità e la partecipazione attiva alla vita democratica.",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari, volti a facilitare il passaggio tra i diversi ordini di scuola e a garantire la continuità del loro percorso educativo.",
+      "target": "Alunni che passano tra i diversi ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano attraverso attività ludiche e sportive, promuovendo l'importanza dell'esercizio fisico e di una corretta alimentazione.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale con esperti, per stimolare la creatività, l'espressione corporea e la capacità di lavorare in gruppo.",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2 e percorsi multidisciplinari, per favorire l'apprendimento della lingua italiana e l'integrazione degli alunni stranieri nel contesto scolastico e sociale.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi e delle Ragazze, per promuovere la partecipazione attiva degli studenti alla vita democratica e la loro consapevolezza dei diritti e dei doveri dei cittadini.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale, attraverso colloqui individuali, visite guidate, incontri con professionisti e partecipazione a fiere dell'orientamento.",
+      "target": "Alunni delle classi terze"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro on-line tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire conoscenza specificità segmenti scolastici, passaggio informazioni alunni BES, attraverso piattaforme di collaborazione online e condivisione di documenti e materiali didattici.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Revisione Curricolo d’Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Lavoro dipartimenti verticali per rendere operativo il curricolo, definendo obiettivi, contenuti, metodologie e criteri di valutazione per ciascuna disciplina.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari, attraverso attività di gioco, socializzazione e supporto individuale, per facilitare il loro inserimento nella scuola.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete, per aggiornare le competenze dei docenti e promuovere la condivisione di buone pratiche.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Le attività didattiche si svolgono in aula e in laboratori, utilizzando metodologie attive e partecipative per favorire l'apprendimento degli studenti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà, attraverso la predisposizione di piani didattici personalizzati, l'utilizzo di strumenti compensativi e dispensativi e la collaborazione con specialisti esterni.",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri, attraverso la promozione della conoscenza delle diverse culture, l'organizzazione di attività interculturali e la mediazione linguistico-culturale.",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TETL009027\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.T. Forti di Teramo (scuola Tecnica di II Grado, area geografica Sud, territorio non metropolitano), relativo all'anno 2019/20-2021/22. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate. L'istituto si distingue per la ricchezza delle **partnership** attivate e per l'attenzione rivolta alle **transizioni formative** degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:** Il PTOF prevede una sezione dedicata all'orientamento, che risulta essere presente e ben descritta, come evidenziato dal punteggio di 3.\n\n**2.2 Partnership:** L'istituto ha sviluppato un ampio network di **partnership** con diversi soggetti esterni, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **musei**, l'**Archivio di Stato**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione “**Giardino Felice**”, la Cooperativa (SIS Giotti), l'**Unità di valutazione multidisciplinare**, **autonomie locali** e l'**ASL**. Questo elevato numero di collaborazioni (16 partner) testimonia l'impegno dell'istituto a creare un sistema di orientamento integrato e a offrire agli studenti opportunità di contatto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con particolare attenzione alle **transizioni formative**. La capacità di orientare gli studenti verso le **opportunità** formative e professionali risulta essere l'aspetto meno sviluppato, come indicato dal punteggio di 1.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità territoriale, sul contrasto al fenomeno dei **NEET** e sullo sviluppo del **lifelong learning**. L'obiettivo di garantire la continuità con il territorio risulta essere particolarmente prioritario, come evidenziato dal punteggio di 5.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'utilizzo di esperienze dirette degli studenti, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, sportive e di volontariato.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla presenza di una sezione dedicata, dalla ricchezza delle **partnership** attivate, dall'attenzione rivolta alle **transizioni formative** e alla riduzione dell'**abbandono scolastico**, nonché dalla promozione della continuità territoriale. L'istituto dimostra una buona capacità di integrare l'orientamento nelle diverse dimensioni del PTOF e di coinvolgere diversi attori del territorio.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la capacità di orientare gli studenti verso le **opportunità** formative e professionali. È necessario potenziare le azioni volte a fornire agli studenti informazioni e strumenti utili per la scelta del percorso di studi o professionale più adatto alle loro attitudini e interessi.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità orientative in azioni concrete volte a migliorare l'orientamento verso le opportunità. Un'analisi più approfondita delle esigenze del territorio e del mercato del lavoro potrebbe contribuire a definire interventi più mirati ed efficaci.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.T.T. Forti di Teramo presenta un approccio all'orientamento solido e ben strutturato. L'istituto si distingue per l'impegno verso la creazione di un sistema di orientamento integrato e per la collaborazione con diversi soggetti esterni. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra un'elevata attenzione alla crescita personale e professionale degli studenti e alla loro preparazione per il futuro. Le attività registrate, come le **visite guidate**, il **monitoraggio della didattica digitale integrata**, l'**anagrafe delle competenze docenti**, il **monitoraggio dei risultati degli alunni**, la **revisione del regolamento di disciplina**, il **servizio integrativo scolastico**, i **laboratori pomeridiani**, l'**insegnamento di educazione civica**, il **programma di continuità**, **Weissingioco**, **Il Gioco del Teatro**, **Intercultura e Integrazione Alunni Stranieri**, **Scuola Amica**, **Orientamento in Uscita**, **Momenti di lavoro on-line tra docenti**, **Revisione Curricolo d’Istituto**, **Accoglienza alunni**, **Formazione del personale**, **Attività didattiche**, **Progetto di istituto per l'inclusione** e **Progetto di istituto di educazione interculturale** testimoniano un'offerta formativa ricca e diversificata."
+}

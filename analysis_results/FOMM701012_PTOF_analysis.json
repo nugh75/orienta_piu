@@ -1,0 +1,266 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FOMM701012",
+    "denominazione": "Cpia Forli'-Cesena S. Sirotti",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Forli'",
+    "anno_ptof": "2019/2020,2020/2021,2022/2023,2023/2024,2024/2025",
+    "provincia": "Forli'-Cesena",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Della Rocca",
+    "cap": "47100",
+    "email": "fomm09500n@istruzione.it",
+    "pec": "istitutisantamaria@legalmail.it",
+    "website": "https//www.cpiaforlicesena.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sebbene siano presenti diverse attività di orientamento, manca una sezione dedicata specificamente all'orientamento con un capitolo a sé stante. Le iniziative sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Enti locali",
+        "realtà istituzionali",
+        "associazioni dei genitori",
+        "Imprese",
+        "Professionisti",
+        "Ordini",
+        "Associazioni",
+        "Enti del terzo settore",
+        "Università"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto psicologico",
+      "target": "Alunni, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto alunni BES",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento umanistico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi pomeridiani",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento socio economico e per la legalità",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento motorio",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro concordato tra docenti, verifica comune",
+      "target": "Studenti con debiti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Strumento quotidiano con potenziale comunicativo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro per moduli, apprendimento personalizzato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica Individualizzata",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero individuale, feedback formativo",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Didattica Personalizzata",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Calibrazione offerta didattica, valorizzazione punti di forza",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti esterni del polo CAMPUS di Portici tramite piattaforma MEET",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodi di studio e pratica in azienda",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esplicitare finalità, metodi, traguardi per rendere gli studenti protagonisti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Analisi epistemica disciplinare",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Individuazione nuclei fondanti delle discipline",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le Competenze Trasversali e l'Orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione formativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Valutazione come strumento di crescita",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "UDA con valenza orientante",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi multidisciplinari su temi trasversali",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FOMM701012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Casa Circondariale\" (ID scuola: FOMM701012), relativo agli anni 2019/2020, 2020/2021, 2022/2023, 2023/2024 e 2024/2025. L'istituto, di I grado, situato nel territorio non metropolitano di Forlì', in Emilia Romagna, è di tipo statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. La valutazione complessiva indica un impegno significativo verso l'orientamento, sebbene con margini di miglioramento nella strutturazione e nell'integrazione delle diverse iniziative.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nL'istituto riconosce l'importanza dell'orientamento, tuttavia, manca una sezione specificamente dedicata all'orientamento all'interno del PTOF, con un capitolo a sé stante. Le attività di orientamento sono integrate in altre aree del piano, ottenendo un punteggio di 4.\n\n#### 2.2 Partnership\n\nL'istituto dimostra una buona capacità di collaborare con diversi partner esterni, tra cui **enti locali**, **realtà istituzionali**, **associazioni dei genitori**, **imprese**, **professionisti**, **ordini**, **associazioni**, **enti del terzo settore** e **università**. Sono state individuate 5 partnership attive, con un punteggio di 4.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** (punteggio 6), gli **interessi** (punteggio 6), il **progetto di vita** (punteggio 7), le **transizioni formative** (punteggio 5) e la capacità di cogliere le **opportunità** (punteggio 6) offerte dal territorio e dal mondo del lavoro.\n\n#### 2.4 Obiettivi\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico** (punteggio 6), sulla continuità territoriale (punteggio 5), sul contrasto al fenomeno dei **NEET** (punteggio 5) e sulla promozione del **lifelong learning** (punteggio 7).\n\n#### 2.5 Azioni di Sistema\n\nLe azioni implementate per supportare l'orientamento includono il coordinamento dei servizi (punteggio 5), il dialogo tra docenti e studenti (punteggio 6), il rapporto scuola-genitori (punteggio 6), il monitoraggio delle azioni intraprese (punteggio 5) e la creazione di un sistema integrato di inclusione e supporto alle fragilità (punteggio 5).\n\n#### 2.6 Didattica Orientativa\n\nL'approccio didattico all'orientamento si basa sull'utilizzo di esperienze dirette degli studenti (punteggio 7), sulla didattica laboratoriale (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 5) e sull'interdisciplinarità (punteggio 6).\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative comprende opzionali culturali (punteggio 3), laboratoriali ed espressive (punteggio 4), ludiche e ricreative (punteggio 3), di volontariato (punteggio 4) e sportive (punteggio 3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella chiarezza delle finalità e degli obiettivi, nella buona rete di partnership attivate e nell'approccio didattico orientato all'esperienza e all'interdisciplinarità. Attività come il **Progetto accoglienza classi prime**, lo **Sportello psicologico**, lo **Sportello BES**, i **potenziamenti** (scientifico, laboratoriale, umanistico, linguistico, socio economico e per la legalità, motorio) e l'implementazione di **UDA con valenza orientante** rappresentano un valore aggiunto per gli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Inoltre, l'offerta di attività opzionali e facoltative risulta meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare in modo più organico l'offerta formativa in materia di orientamento, creando una sezione dedicata all'interno del PTOF e ampliando l'offerta di attività opzionali e facoltative. È auspicabile un maggiore coinvolgimento dei partner esterni nella progettazione e realizzazione delle attività di orientamento, con particolare attenzione al **Job Placement** e all'**Alternanza Scuola-Lavoro**.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Casa Circondariale\" dimostra un impegno significativo verso l'orientamento, con una chiara definizione delle finalità, degli obiettivi e delle azioni da intraprendere. Tuttavia, per massimizzare l'efficacia delle iniziative, è necessario strutturare in modo più organico l'offerta formativa, creando una sezione dedicata all'orientamento all'interno del PTOF e ampliando l'offerta di attività opzionali e facoltative. L'integrazione di metodologie innovative come la **didattica per competenze**, la **valutazione formativa** e l'utilizzo della **LIM** può contribuire a rendere l'orientamento più efficace e coinvolgente per gli studenti."
+}

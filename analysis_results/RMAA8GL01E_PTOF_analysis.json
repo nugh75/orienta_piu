@@ -1,0 +1,255 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMAA8GL01E",
+    "denominazione": "I.C. Via Soriso",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2025/2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Soriso 41",
+    "cap": "00166",
+    "email": "rmic8gl00n@istruzione.it",
+    "pec": "ND",
+    "website": "www.icviasoriso.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      },
+      "finalita_ridurre_abbandono": {
+        "score": 1
+      },
+      "finalita_continuita_territorio": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto pomeridiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Gruppo Visione Giovani",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezioni informative e di confronto con la polizia su temi quali abuso alcol, dipendenze, violenza, furti.",
+      "target": "Studenti I e II Liceo"
+    },
+    {
+      "titolo_attivita": "MiOriento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Introduzione al percorso 'MiOriento' tramite fascicolo digitale.",
+      "target": "Studenti Classe I"
+    },
+    {
+      "titolo_attivita": "MiAssumo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Avvio del percorso sulla piattaforma MiAssumo.",
+      "target": "Studenti Classe II"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso con Banca d'Italia (20 ore).",
+      "target": "Studenti Classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Apertura e attivazione del Curriculum dello Studente Ministeriale.",
+      "target": "Studenti Classe IV"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con ente esterno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale: progetto Gruppo Visione Giovani",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetto con forze dell'ordine",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con ente di volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione alla “Settimana della lingua italiana nel mondo”,",
+      "categoria_principale": "Attività culturale",
+      "descrizione_e_metodologia": "Laboratori e conferenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Visite didattiche",
+      "descrizione_e_metodologia": "Visite a luoghi d'arte",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a spettacoli teatrali",
+      "categoria_principale": "Attività culturale",
+      "descrizione_e_metodologia": "Visione di spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri formativi sui temi della cittadinanza digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Seminari e workshop",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento- personale e alla scelta universitaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui individuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Installazione, programmazione, assemblaggio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, monitoraggio PDP",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetti DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coordinamento progetti, raccordo specialisti",
+      "target": "Alunni BES/DSA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMAA8GL01E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia \"Papa Wojtyla\" (RMAA8GL01E) per il triennio 2025/2028. La scuola, situata a Roma, si configura come un istituto statale con una forte attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'istituto dimostra un impegno significativo nella costruzione di un sistema di orientamento che coinvolge diversi attori, sia interni che esterni, con l'obiettivo di supportare gli studenti nel loro percorso di crescita personale e professionale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di partnership, ben 15, che spaziano da enti locali come **LAC** e **Museo in Erba**, a istituzioni di sicurezza come la **Polizia Cantonale** e di assistenza come la **Croce Rossa**. La collaborazione si estende anche al mondo universitario con **Università Bocconi**, **Università della Svizzera Italiana**, **Accademia di Architettura di Mendrisio**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Savannah College of Art and Design**, **European Business School di Londra**, **Webster American College**, **Edimburgh University** e **Luiss Roma**.  È inoltre presente un rapporto con **specialisti esterni** quali logopedisti, ergoterapisti, psicologi e neuropsichiatri. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi e la progettazione del percorso di vita degli studenti. Particolare attenzione è rivolta alle transizioni formative e alla capacità di cogliere le opportunità offerte dal territorio. Tuttavia, l'attenzione alla riduzione dell'abbandono scolastico e alla continuità territoriale risulta meno marcata.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno NEET) e sulla promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare il sistema di orientamento sono solide e includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e un sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni, invece, sembra meno strutturato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali appare meno diffuso.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è ampia e diversificata, comprendendo opzionali culturali, laboratoriali espressive, ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella ricchezza e nella varietà delle **partnership** instaurate dalla scuola. Questa rete di collaborazioni consente di offrire agli studenti un'ampia gamma di opportunità di orientamento e di metterli in contatto con diversi professionisti e realtà del mondo del lavoro. L'impegno nella didattica orientativa basata sull'esperienza e sulla flessibilità rappresenta un altro elemento positivo. L'offerta di attività opzionali diversificate contribuisce a stimolare gli interessi e le attitudini degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la scarsa attenzione alla riduzione dell'abbandono scolastico e alla continuità territoriale, sia tra le finalità che tra gli obiettivi. Il monitoraggio delle azioni intraprese per l'orientamento sembra inoltre poco strutturato. L'utilizzo di metodologie didattiche laboratoriali potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare le azioni volte a prevenire l'abbandono scolastico e a garantire una maggiore continuità tra i diversi ordini di scuola e il territorio. È necessario implementare un sistema di monitoraggio più efficace per valutare l'impatto delle azioni intraprese e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola \"Papa Wojtyla\" presenta un'impostazione solida e ben strutturata per quanto riguarda l'orientamento. La ricchezza delle partnership, l'impegno nella didattica orientativa e l'ampia offerta di attività opzionali rappresentano punti di forza significativi. Tuttavia, è necessario rafforzare le azioni volte a prevenire l'abbandono scolastico e a garantire una maggiore continuità territoriale, nonché implementare un sistema di monitoraggio più efficace. L'istituto dimostra una chiara volontà di fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e costruire il proprio percorso di vita."
+}

@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TS1A01400A",
+    "denominazione": "Scuola Infanzia Paritaria Comunale Il Tempo Magico",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Trieste",
+    "anno_ptof": "2025/28",
+    "provincia": "Trieste",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Vasari N. 23",
+    "cap": "34100",
+    "email": "liviana.zanchettin@comune.trieste.it",
+    "pec": "comune.trieste@certgov.fvg.it",
+    "website": "www.retecivica.trieste.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente un capitolo specifico dedicato all'orientamento, bensì una sezione all'interno di altre attività."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Scuole Medie di provenienza",
+        "Scuole superiori",
+        "Professionisti",
+        "Enti territoriali"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 7
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 7
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Attività pomeridiana, integrazione approccio sperimentale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Pubblicazione online, allargare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Potenziare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Migliorare proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Incrementare attività senso critico ed estetico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day con gli studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Gli allievi presentano la scuola e le attività",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Metodo di Studio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo strumenti studio tradizionali e nuove tecnologie",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Allestimento spettacolo teatrale",
+      "target": "Alunni classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5).",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio propedeutico allo studio del latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni di terza media individuati dai docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagelle, uscita in montagna.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Corsi di apprendimento uso PC",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Software per mappe concettuali, schemi, programmazione",
+      "target": "Alunni classe prima"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica di base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classe seconda"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classe terza"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e a seguito di convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Rivolti a tutti gli alunni",
+      "target": "Tutti gli alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TS1A01400A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia Paritaria Comunale Il Tempo Magico** di Trieste, relativo all'anno scolastico **2025/28**. La scuola, di tipo **Infanzia** e situata in un contesto **non metropolitano**, dimostra un'attenzione significativa alle finalità dell'orientamento, con punteggi massimi in ambiti quali attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative. L'impegno verso il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie e l'utilizzo di didattiche esperienziali e interdisciplinari rappresentano elementi distintivi. Sebbene non sia presente un capitolo specificamente dedicato all'orientamento, ma piuttosto una sezione integrata in altre attività, l'istituto mostra una buona predisposizione a sviluppare percorsi efficaci.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento non è trattato in un capitolo a sé stante, ma è integrato in altre attività scolastiche, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola collabora con diverse realtà esterne, tra cui **Scuole Medie di provenienza**, **Scuole superiori**, **Professionisti** ed **Enti territoriali**, per un totale di 3 partnership. Il punteggio attribuito è di 2.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate in modo completo, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi**, **progetto di vita**, la gestione delle **transizioni formative** e il potenziamento delle **capacità orientative** rispetto alle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in relazione all'orientamento includono la riduzione dell'**abbandono scolastico** (punteggio 4), la continuità territoriale (punteggio 4), il contrasto alla dispersione scolastica e NEET (punteggio 3) e la promozione del **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento sono solide, con punteggi massimi (5) per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti** e il **rapporto scuola-genitori**. Il **monitoraggio delle azioni** e l'implementazione di un **sistema integrato di inclusione e fragilità** ottengono un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci efficaci, come l'apprendimento dall'esperienza degli studenti (punteggio 5), l'utilizzo di **laboratori** (punteggio 5), la flessibilità degli spazi e dei tempi (punteggio 4) e l'**interdisciplinarità** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi elevati (7) per le opzioni **culturali**, **laboratoriali espressive** e **sportive**. Le attività **ludico-ricreative** e di **volontariato** ricevono punteggi inferiori (3 e 2 rispettivamente).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'impegno verso la collaborazione con il territorio e nella qualità delle azioni didattiche. L'offerta di attività extracurricolari, come il **Laboratorio scientifico**, il **Giornalino d'istituto**, i **Concorsi/Progetti interdisciplinari** e il **Piano delle Arti**, contribuisce a stimolare l'interesse e la partecipazione degli studenti. L'iniziativa **Open day con gli studenti** è un esempio virtuoso di coinvolgimento attivo degli alunni nella presentazione della scuola.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specifica dedicata all'orientamento rappresenta un'area di debolezza, sebbene l'integrazione in altre attività possa compensare parzialmente questa mancanza. Il punteggio relativamente basso per le attività di volontariato suggerisce la necessità di potenziare questa dimensione dell'offerta formativa.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la formalizzazione di un piano di orientamento strutturato, con obiettivi specifici, indicatori di performance e modalità di valutazione. Sebbene le attività proposte siano valide, manca una visione strategica complessiva che ne coordini l'implementazione e ne misuri l'impatto.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia Paritaria Comunale Il Tempo Magico** dimostra un'attenzione significativa all'orientamento, con un forte impegno verso lo sviluppo delle competenze e delle potenzialità degli studenti. Pur riconoscendo l'efficacia delle azioni intraprese, si suggerisce di valutare la possibilità di creare una sezione dedicata all'orientamento, al fine di rafforzare la coerenza e l'efficacia del piano triennale. L'implementazione di un sistema di monitoraggio e valutazione permetterebbe di misurare l'impatto delle attività e di apportare eventuali correzioni in itinere. Le attività come il **Progetto Continuità**, i **Corsi di apprendimento uso PC** e i **Laboratori specifici** per alunni con BES sono particolarmente degne di nota."
+}

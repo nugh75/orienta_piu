@@ -1,0 +1,343 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PRIC83000Q",
+    "denominazione": "I.C. \"Giovannino Guareschi",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "San Secondo Parmense",
+    "anno_ptof": "2022-2025",
+    "provincia": "Parma",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "P.Le Bernini 11",
+    "cap": "43017",
+    "email": "pric83000q@istruzione.it",
+    "pec": "pric83000q@pec.istruzione.it",
+    "website": "www.icgiovanninoguareschi.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma piuttosto una serie di attività sparse che affrontano tematiche orientative."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Comuni di San Secondo P.se, Soragna e Roccabianca",
+        "associazioni di volontariato",
+        "scuola secondaria di secondo grado",
+        "associazioni del terzo settore",
+        "enti locali",
+        "Università",
+        "Enti di ricerca",
+        "Associazioni",
+        "Cooperative",
+        "ASL",
+        "Servizi Sociali",
+        "Liceo Sanvitale di Parma",
+        "Cooperativa Ortofrutticola Mantovana",
+        "CUS Parma A.S.D."
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Momenti di confronto tra docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Confronto periodico su progettazione, metodologie e criteri di valutazione.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione sulle nuove strategie/metodologie didattiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per docenti su didattica attiva e innovativa.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Creazione di aule innovative",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Realizzazione di aule innovative con fondi PNRR.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione sulla didattica dell'Italiano in L2",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione docenti per alunni non italofoni.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Coinvolgimento di associazioni per supporto agli alunni.",
+      "target": "Studenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Gioco imparando",
+      "categoria_principale": "Potenziamento linguistico",
+      "descrizione_e_metodologia": "Giochi attentivi e metafonologici, attività verbali, esercizi motori.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuole che promuovono la salute",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Piantumazione albero, attività nel frutteto, Taiji, formazione insegnanti.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "My English Time",
+      "categoria_principale": "Potenziamento linguistico",
+      "descrizione_e_metodologia": "Attività laboratoriali, giochi, visione film in inglese.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Divento Un Grande Po",
+      "categoria_principale": "Lingue e Cultura",
+      "descrizione_e_metodologia": "Formazione docenti, attività laboratoriali, produzione elaborato, concorso, evento finale.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "San Secondo in scena",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Attività teatrali: comprensione testo, linguaggio mimico, esposizione pubblica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Noi amiamo la matematica",
+      "categoria_principale": "Matematica e Scienze",
+      "descrizione_e_metodologia": "Laboratori sul calcolo, problemi, geometria con esperta googol.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scrittura creativa tra giochi e fantasia",
+      "categoria_principale": "Lingue e Cultura",
+      "descrizione_e_metodologia": "Percorso laboratoriale per sperimentare tecniche di scrittura creativa.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Il Tempo ritrovato – Il nostro giardino",
+      "categoria_principale": "Cittadinanza e Ambiente",
+      "descrizione_e_metodologia": "Abbellimento spazi scolastici con piantine e insegne poetiche.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Orientamente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Test sull’orientamento, costruzione schemi logico-sequenziali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola a 360°",
+      "categoria_principale": "Cittadinanza e Ambiente",
+      "descrizione_e_metodologia": "Incontri sereni e costruttivi tra alunni.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Energie per la scuola",
+      "categoria_principale": "Cittadinanza e Ambiente",
+      "descrizione_e_metodologia": "Incontri con esperti ingegneri su sostenibilità e risparmio energetico.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Piano per la didattica digitale integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Utilizzo piattaforme Google Suite, Registro Elettronico. Attività sincrone e asincrone.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione con I.C. Albertelli-Newton",
+      "categoria_principale": "Rete",
+      "descrizione_e_metodologia": "Progetti finanziati per la qualificazione delle scuole dell'infanzia",
+      "target": "Scuole dell'infanzia"
+    },
+    {
+      "titolo_attivita": "LTO FOOD FARM 4.0",
+      "categoria_principale": "Rete",
+      "descrizione_e_metodologia": "Laboratori territoriali per l'occupabilità",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Programma Frutta e Verdure nelle scuole",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Fornitura e distribuzione gratuita di prodotti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con psicologo, ciclo di colloqui",
+      "target": "Alunni Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Attività di prima alfabetizzazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Insegnamento italiano L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Programma Frutta e Verdura a scuola",
+      "categoria_principale": "Salute e Benessere",
+      "descrizione_e_metodologia": "Ricezione, distribuzione, stoccaggio e assistenza al consumo di frutta e verdura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giocampus Scuola",
+      "categoria_principale": "Progetto Educativo",
+      "descrizione_e_metodologia": "Progetto educativo sperimentale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rete Amministrativa",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Rete con Liceo Sanvitale di Parma",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "C.I.A.O con l'Italiano Andare Oltre",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sulla sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Tutti gli aspetti della sicurezza",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sulla Privacy-Regolamento (Ue) 2016/679",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Aggiornamento sulla privacy",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Formazione Gestione nuovo sito web",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso di formazione",
+      "target": "Referenti sito web"
+    },
+    {
+      "titolo_attivita": "Formazione sulla piattaforma per la didattica a distanza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori e workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Scuola-Lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Confronto tra docenti e mondo del lavoro",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sulla sicurezza (ATA)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Primo soccorso, antincendio",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione sulla Privacy (ATA)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Gestione relazioni interne ed esterne",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione documentazione e protocollo (ATA)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Procedure amministrative",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione contratti e procedure (ATA)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Procedure amministrative",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PRIC83000Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. “Giovannino Guareschi” (PRIC83000Q) per il triennio 2022-2025. L'istituto, situato nel territorio non metropolitano di San Secondo Parmense, in Emilia Romagna, opera su diversi ordini di grado: Infanzia, Primaria e Secondaria di Primo Grado. L'analisi evidenzia un impegno diffuso verso l'orientamento, sebbene non formalizzato in una sezione dedicata specifica, ma piuttosto integrato in diverse attività e partnership. Il PTOF dimostra una buona attenzione alle finalità dell'orientamento, in particolare per quanto riguarda le transizioni formative e lo sviluppo delle capacità orientative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica che non è presente una sezione specificamente dedicata all'orientamento nel PTOF, ma piuttosto un insieme di attività sparse che affrontano tematiche orientative.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, coinvolgendo **Comuni di San Secondo P.se, Soragna e Roccabianca**, **associazioni di volontariato**, **scuola secondaria di secondo grado**, **associazioni del terzo settore**, **enti locali**, **Università**, **Enti di ricerca**, **Associazioni**, **Cooperative**, **ASL**, **Servizi Sociali**, il **Liceo Sanvitale di Parma**, la **Cooperativa Ortofrutticola Mantovana** e il **CUS Parma A.S.D.**, per un totale di 14 partner. Queste collaborazioni rappresentano un valore aggiunto per l'offerta orientativa, offrendo agli studenti opportunità di contatto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate con un punteggio di 3 su 5 per quanto riguarda attitudini, interessi e progetto di vita, mentre raggiungono un punteggio di 4 su 5 per le transizioni formative e le capacità orientative legate alle opportunità. Questo suggerisce una maggiore attenzione alla preparazione degli studenti per il passaggio tra i diversi gradi di istruzione e all'acquisizione di competenze utili per affrontare le sfide del futuro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ben definiti. L'obiettivo di ridurre l'abbandono scolastico e di garantire la continuità territoriale ottengono un punteggio di 4 su 5, mentre l'obiettivo di contrastare il fenomeno NEET e di promuovere il lifelong learning raggiungono rispettivamente un punteggio di 2 e 3 su 5.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate positive, con punteggi di 4 su 5 per il coordinamento dei servizi e il rapporto scuola-genitori. Anche il dialogo tra docenti e studenti ottiene un punteggio di 3 su 5, così come il monitoraggio delle azioni e l'integrazione con i sistemi di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza degli studenti e l'interdisciplinarità, che ottengono un punteggio di 4 su 5. Anche la didattica laboratoriale e la flessibilità degli spazi e dei tempi sono considerate positive, con un punteggio di 3 su 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata. Le opzionali di tipo laboratoriale ed espressivo ottengono il punteggio massimo di 5 su 5, mentre quelle culturali, ludiche, di volontariato e sportive ricevono un punteggio di 2 su 5.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** con enti locali, associazioni e istituzioni, che offre agli studenti numerose opportunità di contatto con il mondo esterno. L'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** è un altro elemento positivo, così come l'impegno verso una didattica innovativa e basata sull'esperienza. Le attività come \"**Momenti di confronto tra docenti**\", \"**Corsi di formazione sulle nuove strategie/metodologie didattiche**\", \"**Collaborazione con associazioni del territorio**\" e \"**Progetti di orientamento**\" sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** potrebbero essere rafforzati. L'offerta di opzionali e attività facoltative, pur diversificata, potrebbe essere ampliata per includere più attività di tipo culturale, ludico, di volontariato e sportivo.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduce in un insieme di attività sparse e non coordinate. È necessario definire un piano d'azione specifico per l'orientamento, con obiettivi misurabili e indicatori di performance. Inoltre, è importante potenziare le attività di orientamento rivolte agli studenti più vulnerabili, come quelli a rischio di abbandono scolastico o con difficoltà di apprendimento.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. “Giovannino Guareschi” dimostra un impegno significativo verso l'orientamento, sebbene questo non sia formalizzato in una sezione dedicata. La vasta rete di partnership, l'attenzione alle transizioni formative e l'impegno verso una didattica innovativa rappresentano i punti di forza del PTOF. Per migliorare l'efficacia dell'orientamento, è necessario definire un piano d'azione specifico, con obiettivi misurabili e indicatori di performance, e potenziare le attività rivolte agli studenti più vulnerabili. Attività come \"**Piano per la didattica digitale integrata**\", \"**LTO FOOD FARM 4.0**\" e \"**Programma Frutta e Verdure nelle scuole**\" contribuiscono a creare un ambiente scolastico stimolante e orientato al futuro."
+}

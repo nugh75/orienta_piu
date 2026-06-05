@@ -1,0 +1,323 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIIC86300X",
+    "denominazione": "Rignano-Incisa Valdarno",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Rignano Sull'Arno",
+    "anno_ptof": "2022/23 - 2024/25",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Della Pieve 58/C",
+    "cap": "50067",
+    "email": "fiic86300x@istruzione.it",
+    "pec": "fiic86300x@pec.istruzione.it",
+    "website": "www.scuolerignanoincisa.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione esplicita sull'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Pastorale giovanile ispettoriale e diocesana",
+        "Polizia Municipale",
+        "Città di Torino",
+        "COSPES di Torino",
+        "CNOS Scuola",
+        "FIDAE"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Esercizi Spirituali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Accompagnamento della classe agli esercizi spirituali o ritiri periodici.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Progetto 'il giovane educa il giovane'",
+      "categoria_principale": "Tutoraggio",
+      "descrizione_e_metodologia": "Allievi del liceo collaborano in attività ricreative, culturali e formative.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di lettura e scrittura",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Metodologia laboratoriale ispirata a Italian Writing Teachers",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Studio di altre materie in lingua inglese",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Conversazione in inglese",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Lavoro in piccoli gruppi con insegnanti madrelingua",
+      "target": "Sezioni A, B e C"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Inglese/Francese",
+      "descrizione_e_metodologia": "Preparazione a KET, PET, DELF",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Teatro in lingua",
+      "categoria_principale": "Inglese/Francese",
+      "descrizione_e_metodologia": "Assistenza a rappresentazioni teatrali",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Kangourou della Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Esercitazioni facoltative",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Buongiorno",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Preghiera e riflessione educativa",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Animazione Settimanale",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Ora dedicata a tematiche formative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Ritiri Spirituali",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Giornate formative con attività",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gruppi Formativi",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Incontri settimanali",
+      "target": "Studenti volontari"
+    },
+    {
+      "titolo_attivita": "Celebrazioni e Feste",
+      "categoria_principale": "Educazione alla Fede",
+      "descrizione_e_metodologia": "Eventi di condivisione",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Imparo il MIO Metodo di Studio",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Migliorare capacità organizzative, elaborazione, riflessione metacognitiva, strategie di studio.",
+      "target": "Allievi con BES o difficoltà scolastiche"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Nucleo di Prossimità Polizia Municipale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi su convivenza civile, sicurezza, rispetto reciproco.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di riflessione sui propri interessi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Schede predisposte e materiali forniti durante le ore di animazione settimanali.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Attività “Orienta la tua estate”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Dialogo e confronto con la famiglia, visione di materiali dal Salone dell’orientamento.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Presentazione indirizzi scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione di licei e istituti tecnici presenti sul territorio.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Diffusione di materiale informativo sugli Open day.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Lezioni tenute da docenti di scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di lezioni tenute da docenti di scuola superiore.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Salone dell'Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione al Salone dell'Orientamento organizzato dal Comune di Torino.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Orientamento con COSPES",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di orientamento condotte in classe e con le famiglie da orientatrici del COSPES.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Conversazione INGLESE",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Ciclo di 20 incontri con docente madrelingua.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Corso di FRANCESE e CONVERSAZIONE",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Ciclo di lezioni con docente madrelingua.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Avviamento allo studio delle lingue classiche",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Incontri specifici sul Latino e Greco.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio ARTIGIANALE",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Costruzione di oggetti con materiali diversi.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Uso del pc, dialogo, confronto, condivisione di esperienze.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "CLUB “AMICI DEL MUSEO”",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Attività di laboratorio, esperimenti, incontri con scienziati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "“SU IL SIPARIO” - Laboratorio teatrale",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Abilità interpretative, lavoro di gruppo, allestimento spettacolo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "#Tantastoffa",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Musica, canto, arte, danza, preparazione eventi scolastici.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Attività Sportive",
+      "categoria_principale": "Attività Complementari",
+      "descrizione_e_metodologia": "Basket, pallavolo, scherma, calcetto, arrampicata, rugby, judo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Valsalice Estate",
+      "categoria_principale": "Attività estive",
+      "descrizione_e_metodologia": "Attività estive per ragazzi dalle 4^ elementare alla 2^ media",
+      "target": "Studenti elementari e medie"
+    },
+    {
+      "titolo_attivita": "Sabato nel SOCIALE",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Accompagnamento genitori e allievi alla scoperta realtà di volontariato",
+      "target": "Genitori e studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIIC86300X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto I Grado, Liceo, Professionale di Rignano-Incisa Valdarno (FIIC86300X) per il triennio 2022/23 - 2024/25. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione esplicita e un punteggio di valutazione pari a 7.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione esplicita dedicata all'orientamento è un elemento positivo, evidenziando l'importanza attribuita a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** L'istituto ha stabilito partnership con sei soggetti esterni, tra cui la **Pastorale giovanile ispettoriale e diocesana**, la **Polizia Municipale**, la **Città di Torino**, **COSPES di Torino**, **CNOS Scuola** e **FIDAE**. Queste collaborazioni, sebbene presenti, ricevono un punteggio di 3, suggerendo un potenziale per un ulteriore sviluppo e integrazione.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, del progetto di vita, delle transizioni formative e delle capacità orientative per cogliere le opportunità. I punteggi ottenuti per ciascuna finalità (5 per attitudini e interessi, 6 per il progetto di vita, 4 per le transizioni formative e 5 per le capacità orientative) indicano un buon livello di attenzione a tutti gli aspetti chiave.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno NEET) e sulla promozione del lifelong learning. I punteggi ottenuti (3 per la riduzione dell'abbandono e la continuità territoriale, 2 per il contrasto ai NEET e 4 per il lifelong learning) suggeriscono che alcuni obiettivi necessitano di maggiore attenzione e di strategie più efficaci.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità. I punteggi (4 per il coordinamento dei servizi, 6 per il dialogo docenti-studenti, 5 per il rapporto scuola-genitori, 3 per il monitoraggio e 4 per l'inclusione) indicano un buon livello di implementazione, con margini di miglioramento nel monitoraggio.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'esperienza degli studenti, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. I punteggi (6 per la didattica da esperienza, 5 per la didattica laboratoriale e la flessibilità, 6 per l'interdisciplinarità) evidenziano un approccio didattico solido e orientato alla pratica.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. I punteggi (4 per le opzionali culturali e di volontariato, 3 per quelle ludiche e sportive, 4 per quelle laboratoriali) suggeriscono una buona varietà di offerta, con un potenziale per un ulteriore ampliamento.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'approccio didattico basato sull'esperienza e sulla laboratorialità, nella definizione delle finalità e nella varietà dell'offerta di attività opzionali. L'attività **\"Percorso di riflessione sui propri interessi\"** per le classi seconde e le attività di orientamento con **COSPES** per le classi terze sono particolarmente degne di nota.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il raggiungimento degli obiettivi di riduzione dell'abbandono scolastico e di contrasto al fenomeno NEET, nonché il monitoraggio delle azioni intraprese. Anche le partnership, pur presenti, potrebbero essere ulteriormente sviluppate e integrate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi in azioni concrete e misurabili, con un focus specifico sulla riduzione dell'abbandono scolastico e sul contrasto alla dispersione. È inoltre necessario rafforzare il monitoraggio delle azioni intraprese e sviluppare ulteriormente le partnership con il territorio.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto di Rignano-Incisa Valdarno dimostra un impegno significativo verso l'orientamento, con una solida base teorica e un approccio didattico innovativo. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario concentrarsi sul raggiungimento degli obiettivi, sul monitoraggio delle attività e sullo sviluppo delle partnership. Attività come **\"Esercizi Spirituali\"**, **\"Progetto 'il giovane educa il giovane'\"** e **\"Laboratorio di lettura e scrittura\"** contribuiscono a creare un ambiente formativo completo e stimolante. L'offerta di attività complementari, come **\"Conversazione INGLESE\"** e **\"CLUB “AMICI DEL MUSEO”\"**, arricchisce ulteriormente l'esperienza degli studenti."
+}

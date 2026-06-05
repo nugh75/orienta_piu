@@ -1,0 +1,297 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MECT70300C",
+    "denominazione": "Cpia - Messina",
+    "tipo_scuola": "CPIA",
+    "ordine_grado": "Altro",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Patti",
+    "anno_ptof": "2022-2025",
+    "provincia": "Messina",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mazzini",
+    "cap": "ND",
+    "email": "memm574003@istruzione.it",
+    "pec": "ctmm151004@pec.istruzione.it",
+    "website": "www.cpiamessina.edu.it",
+    "tipo_scuola_dettaglio": "Centro Territoriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Nonostante la presenza di attività di orientamento, non risulta esplicitamente definita una sezione dedicata e strutturata nel PTOF."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Associazioni",
+        "Strutture sportive",
+        "Comunità alloggio",
+        "Assessorati Regionali",
+        "Enti locali",
+        "aziende private",
+        "Istituzioni scolastiche di secondo livello",
+        "Università di Siena",
+        "Università di Messina",
+        "Università di Palermo",
+        "Università di Catania",
+        "USSM Catania",
+        "Distretti sanitari locali",
+        "Associazioni sindacali",
+        "Ordini professionali",
+        "Soggetti pubblici e privati"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 6
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 6
+      },
+      "opzionali_volontariato": {
+        "score": 6
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di alfabetizzazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Lezioni frontali e laboratoriali",
+      "target": "Immigrati"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano L2",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Lezioni frontali e laboratoriali",
+      "target": "Immigrati"
+    },
+    {
+      "titolo_attivita": "Preparazione esami",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Esercitazioni e simulazioni",
+      "target": "Adulti"
+    },
+    {
+      "titolo_attivita": "Corsi IeFP",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Corsi di qualifica professionale",
+      "target": "Adulti e giovani adulti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio PFI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Monitoraggio studenti con patto formativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "I recycle and you?",
+      "categoria_principale": "Amplamento Curricolare",
+      "descrizione_e_metodologia": "Lab",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Protocolli con enti locali",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Attivazione protocolli con enti locali, associazioni, mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Raccordo percorsi I e II livello",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Raccordo tra percorsi I e II livello per il conseguimento del diploma.",
+      "target": "Studenti I livello"
+    },
+    {
+      "titolo_attivita": "Percorsi di alfabetizzazione e apprendimento della lingua italiana",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Ore dedicate a livelli A1 e A2, con focus su ascolto, lettura, interazione orale/scritta, produzione orale/scritta.",
+      "target": "Studenti di livello A1 e A2"
+    },
+    {
+      "titolo_attivita": "Attività di Fad",
+      "categoria_principale": "Didattica a Distanza",
+      "descrizione_e_metodologia": "Utilizzo piattaforma Google Workspace, compiti di ricerca web, verifica in presenza.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Finanziaria",
+      "categoria_principale": "Competenze",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Teatro In Classe",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Acqua: Un Bene Prezioso",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cinemambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ecologia E Ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tradizioni Popolari",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mens Sana In Corpore Sano",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Pluriennale, studenti del CPIA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende locali per scoperta professioni",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze dirette di professionisti su percorsi formativi",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Progettare azioni e interventi per l’orientamento scolastico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di attività di orientamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Organizzazione attività di orientamento con Scuole Secondarie di II grado",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri e collaborazioni con scuole superiori",
+      "target": "Alunni e scuole"
+    },
+    {
+      "titolo_attivita": "Attività di collegamento con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Insegnamento materie di base da parte docenti CPIA e materie d'indirizzo da scuole superiori.",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Protocolli con distretti sanitari",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Protocolli SIA per inclusione sociale.",
+      "target": "Studenti fragili"
+    },
+    {
+      "titolo_attivita": "Formazione docenti Erasmus+",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione all'estero e disseminazione.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione PNSD",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Implementazione didattica digitale integrata.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MECT70300C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **CPIA Messina P.E. Patti** per il periodo 2022-2025. La scuola, di tipo **Professionale, Tecnico** e afferente al secondo grado, opera in un contesto **metropolitano** dell'area **Isole** della regione **Sicilia**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nNonostante la presenza di attività orientative, il PTOF non presenta una sezione dedicata e strutturata all'orientamento, ottenendo un punteggio di 3. Questo suggerisce la necessità di una maggiore formalizzazione e integrazione delle attività di orientamento all'interno del piano strategico complessivo.\n\n**2.2 Partnership:**\n\nIl CPIA Messina P.E. Patti vanta un'ampia rete di partnership, con un punteggio di 6. I partner includono **associazioni**, **strutture sportive**, **comunità alloggio**, **assessorati regionali**, **enti locali**, **aziende private**, **istituzioni scolastiche di secondo livello** e diverse **università** (Siena, Messina, Palermo, Catania) oltre a **USSM Catania**, **distretti sanitari locali**, **associazioni sindacali**, **ordini professionali** e una vasta gamma di **soggetti pubblici e privati**. La presenza di 11 partner diversi indica un forte radicamento territoriale e una collaborazione attiva con diversi attori del contesto socio-economico.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità offerte dal territorio, tutte con un punteggio di 6.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**, tutti con un punteggio di 6.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni implementate per supportare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**, tutte con un punteggio di 6.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico all'orientamento si basa sull'esperienza degli studenti, sulla didattica **laboratoriale**, sulla **flessibilità degli spazi e dei tempi** e sull'**interdisciplinarità**, con punteggi variabili (6 per le prime tre, 3 per la didattica laboratoriale).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata, includendo opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 6.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la vasta rete di **partnership** attivate, la chiarezza delle **finalità** e degli **obiettivi** prefissati, l'implementazione di azioni di sistema mirate e l'offerta di un'ampia gamma di attività opzionali. Le attività registrate, come i corsi di **alfabetizzazione** e **italiano L2** per **immigrati**, i corsi **IeFP** per **adulti** e i protocolli con **enti locali**, dimostrano un impegno concreto verso l'inclusione e l'orientamento professionale. L'attenzione alla **sicurezza** con **Educazione Stradale**, al **benessere** con **Educazione Alla Salute** e **Mens Sana In Corpore Sano**, e alle **competenze** con **Educazione Finanziaria** arricchisce l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Inoltre, la didattica **laboratoriale** risulta meno sviluppata rispetto ad altri approcci didattici.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare e integrare l'orientamento all'interno del PTOF, definendo una sezione dedicata con obiettivi specifici, indicatori di performance e un piano di monitoraggio. È inoltre auspicabile un potenziamento delle attività di didattica **laboratoriale**, con l'obiettivo di favorire l'apprendimento esperienziale e lo sviluppo di competenze pratiche.\n\n### 6. Conclusioni\n\nIl PTOF del CPIA Messina P.E. Patti dimostra un impegno significativo verso l'orientamento, supportato da una vasta rete di **partnership** e da un'offerta formativa diversificata. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario formalizzare l'orientamento all'interno del PTOF, definendo una sezione dedicata e potenziando la didattica **laboratoriale**. Le attività registrate, come le **visite aziendali**, gli **incontri con professionisti** e i protocolli con i **distretti sanitari**, rappresentano un valido punto di partenza per lo sviluppo di un sistema di orientamento integrato e efficace."
+}

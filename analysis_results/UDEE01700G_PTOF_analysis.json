@@ -1,0 +1,271 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDEE01700G",
+    "denominazione": "Convitto Cividale-Ic San Pietro",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Cividale Del Friuli",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "P.Tta Chiarottini 8",
+    "cap": "33043",
+    "email": "udee01700g@istruzione.it",
+    "pec": "udvc01000c@pec.istruzione.it",
+    "website": "https://www.icfoscolo.org/",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente, ma non dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione per la Scuola Compagnia San Paolo",
+        "Dipartimento di Scienze Aziendali dell’Università di Bologna",
+        "ASL",
+        "Associazioni",
+        "Fondazione Agnelli",
+        "CNOS-FAP",
+        "Alliance Française",
+        "Goethe Institut",
+        "CUS Torino",
+        "Società Scacchistica Torinese",
+        "scuola dell’infanzia",
+        "servizi sociali",
+        "istituti superiori",
+        "Altre scuole",
+        "Università",
+        "Enti di ricerca",
+        "Enti di formazione accreditati",
+        "Autonomie locali",
+        "Associazioni imprese",
+        "Soggetti privati"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "BILANCIO SOCIALE E STAKEHOLDER ENGAGEMENT",
+      "categoria_principale": "Ricerca-Azione",
+      "descrizione_e_metodologia": "Percorso di formazione e ricerca con Università di Bologna e Fondazione Compagnia San Paolo.",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "P4C",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Pratica filosofica",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Rieducazione equestre",
+      "categoria_principale": "Attività motoria",
+      "descrizione_e_metodologia": "Attività con i cavalli",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "PROVACI ANCORA, SAM",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto di supporto",
+      "target": "Scuola Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla mondialità",
+      "categoria_principale": "Educazione interculturale",
+      "descrizione_e_metodologia": "Arsenale della Pace",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Soggiorno ad Alpette",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Attività CLIL",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Gruppo Sportivo pomeridiano CUS Torino",
+      "categoria_principale": "Attività sportive",
+      "descrizione_e_metodologia": "Calcio, hip hop, volley, basket, atletica",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto continuità con le scuole dell’infanzia",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incontri sistematici tra docenti per scambio informazioni e progettazione congiunta attività didattiche.",
+      "target": "Alunni scuola dell'infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Progetto formazione classi prime scuola primaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Promozione continuità con scuola infanzia, formazione classi eterogenee.",
+      "target": "Alunni classi prime primaria"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento scolastico in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Somministrazione test Arianna, consegna consiglio orientativo, monitoraggio istituti superiori.",
+      "target": "Alunni classe quinta primaria"
+    },
+    {
+      "titolo_attivita": "Staffetta di scrittura creativa",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione musicale",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione Eipass",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Foscolo Digitale",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Riconnessioni",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Anno Di Prova",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Ricerca-azione, Peer review",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "L'Apprendimento Della Letto-Scrittura",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Compilazione Del Pei Su Base Icf",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Compilazione Pdp E Dgr",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Lezione frontale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Per Competenze E Valutazione Per Competenze",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Workshop, Ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "E-Clil",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incentivare La Comunicazione Interculturale",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDEE01700G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Convitto Cividale-Ic San Pietro** (UDEE01700G), relativo all'anno scolastico 2019/20-2021/22. L'istituto, di tipo **Primaria** e situato nel territorio **Non Metropolitano** del **Friuli-Venezia Giulia**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata, sebbene non completamente dettagliata. L'analisi si concentra sulle diverse dimensioni dell'orientamento, identificando punti di forza, aree di debolezza e possibili gap da colmare. La scuola statale mostra una forte propensione alla collaborazione con numerosi partner esterni, offrendo un ventaglio di opportunità per gli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un segnale positivo, sebbene la sua completezza possa essere migliorata.\n\n**2.2 Partnership:** L'istituto vanta un ampio spettro di collaborazioni con diversi soggetti, tra cui **Fondazione per la Scuola Compagnia San Paolo**, **Dipartimento di Scienze Aziendali dell’Università di Bologna**, **ASL**, diverse **Associazioni**, **Fondazione Agnelli**, **CNOS-FAP**, **Alliance Française**, **Goethe Institut**, **CUS Torino**, **Società Scacchistica Torinese**, scuole dell’infanzia, servizi sociali, istituti superiori, università, enti di ricerca, enti di formazione accreditati, autonomie locali, associazioni imprese e soggetti privati. Questa rete di partnership rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** e le **capacità orientative** degli studenti, facilitando le loro **transizioni formative**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla promozione della continuità territoriale e sullo sviluppo del **lifelong learning**. L'attenzione al contrasto alla dispersione scolastica e alla continuità con il territorio sono elementi di rilievo, mentre l'obiettivo di contrastare il fenomeno NEET appare meno sviluppato.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema efficaci, come il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. Il monitoraggio delle azioni intraprese, pur presente, potrebbe essere potenziato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, quali l'apprendimento esperienziale, la didattica laboratoriale, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, offrendo agli studenti opportunità di approfondimento e di scoperta dei propri interessi.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** con enti e istituzioni esterne, nella chiarezza delle **finalità** e nella diversificazione delle attività proposte, sia curricolari che extra-curricolari. L'impegno verso l'inclusione e il supporto alle fragilità, unitamente alla promozione del **lifelong learning**, rappresentano ulteriori elementi di valore. Le attività come **Progetto continuità con le scuole dell’infanzia** e **Progetto orientamento scolastico in uscita** sono ben strutturate.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di dettaglio della sezione dedicata all'orientamento. L'obiettivo di contrastare il fenomeno **NEET** appare meno sviluppato rispetto agli altri. Il monitoraggio delle azioni intraprese potrebbe essere potenziato per garantire una maggiore efficacia dell'intervento. Alcune descrizioni delle attività, come **Staffetta di scrittura creativa** e **Certificazione musicale**, risultano incomplete.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di approfondire la sezione dedicata all'orientamento nel PTOF, fornendo maggiori dettagli sulle strategie, le azioni e gli strumenti utilizzati. È inoltre auspicabile un maggiore focus sul contrasto al fenomeno **NEET** e un potenziamento del sistema di monitoraggio delle attività.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Convitto Cividale-Ic San Pietro** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta formativa diversificata. Pur presentando alcune aree di debolezza, l'istituto possiede le potenzialità per sviluppare ulteriormente l'orientamento, fornendo agli studenti gli strumenti necessari per affrontare le sfide del futuro e costruire il proprio **progetto di vita**. L'implementazione di azioni mirate a colmare i gap identificati consentirà di migliorare l'efficacia dell'intervento orientativo e di garantire un servizio sempre più completo e personalizzato."
+}

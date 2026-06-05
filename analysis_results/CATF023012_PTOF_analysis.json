@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CATF023012",
+    "denominazione": "I.I.S. \"Buccari-Marconi\" Cagliari",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Cagliari",
+    "anno_ptof": "2019-2022",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via V. Pisano 7 Cagliari",
+    "cap": "09134",
+    "email": "cais02300d@istruzione.it",
+    "pec": "ctis04300b@pec.istruzione.it",
+    "website": "www.buccarimarconi.gov.it/",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "PTOF dedica sezioni all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Politecnico JinYu",
+        "Experimental Middle School He Bei",
+        "Università di Catania",
+        "C.O.N.I.",
+        "Comune di San Gregorio",
+        "O.P.E.",
+        "V.I.S. Village For International Solidarity",
+        "Comune di Catania",
+        "Anfass Onlus",
+        "SAC",
+        "Scuola Edile Catania",
+        "Consorzio Nazionale per la Formazione",
+        "Fondazione Mondo Digitale",
+        "Volley-Valley",
+        "Rete FIBRA 4.0",
+        "Rete TAM",
+        "ASP",
+        "pedagogisti",
+        "educatori",
+        "associazioni"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Scambi culturali con Cina",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi con Politecnico JinYu e Experimental Middle School",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti del settore",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Certificazione sportiva",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Protocollo d'intesa con Università di Catania e C.O.N.I. Pratica sportiva 3 ore settimanali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Istruzione per adulti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorso di istruzione di secondo livello per indirizzo Costruzioni, Ambiente e Territorio.",
+      "target": "Adulti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetti sull'imprenditorialità, stage in aziende, simulazione di impresa.",
+      "target": "Studenti del secondo biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Abilità funzionali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Laboratori curriculari per sviluppo capacità, con focus su sicurezza, manualità, motricità, musica.",
+      "target": "Alunni con programmazione differenziata e BES"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite guidate e partecipazione a eventi rilevanti per il percorso di studi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Stage presso Scuola Edile Catania",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage pratico per studenti indirizzo Costruzioni",
+      "target": "Studenti classi 3, 4, 5 Costruzioni"
+    },
+    {
+      "titolo_attivita": "Simulatore impresa formativa",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Utilizzo piattaforma e-learning",
+      "target": "Tutto il personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto Nonni su Internet",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Alfabetizzazione digitale over 60",
+      "target": "Comunità locale"
+    },
+    {
+      "titolo_attivita": "Rete Goal",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Condivisione informazioni e materiali",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Convenzione CONI",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corsi sportivi con crediti formativi",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CATF023012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.I. \"Guglielmo Marconi\" (CATF023012) per il triennio 2019-2022. La scuola, di tipo tecnico e situata nel territorio metropolitano di Cagliari, Sardegna, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7 su 10. L'istituto si distingue per una rete di **partnership** estesa e diversificata, con un totale di 19 partner, e per un'attenzione particolare alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF dedica effettivamente sezioni specifiche all'orientamento, ottenendo un punteggio di 7, il che suggerisce un'integrazione strutturale dell'orientamento all'interno della programmazione scolastica.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni, tra cui **Politecnico JinYu**, **Experimental Middle School He Bei**, **Università di Catania**, **C.O.N.I.**, diversi comuni (San Gregorio, Catania) e organizzazioni come **O.P.E.**, **V.I.S.**, **Anfass Onlus**, **SAC**, **Scuola Edile Catania**, **Consorzio Nazionale per la Formazione**, **Fondazione Mondo Digitale**, **Volley-Valley**, **Rete FIBRA 4.0**, **Rete TAM**, **ASP**, oltre a **pedagogisti**, **educatori** e varie **associazioni**. Questa ricchezza di partner indica un approccio collaborativo all'orientamento e alla formazione.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano orientate allo sviluppo di **attitudini** e **interessi** degli studenti (punteggio 5), alla preparazione al **progetto di vita** (punteggio 3), al supporto delle **transizioni formative** (punteggio 5) e al potenziamento delle **capacità orientative** per cogliere le opportunità (punteggio 5).\n\n**2.4 Obiettivi:** Gli obiettivi strategici del PTOF includono la riduzione dell'**abbandono** scolastico, il rafforzamento della continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**, tutti con un punteggio di 5, dimostrando un allineamento con le priorità nazionali e regionali.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità, tutte valutate positivamente con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 5), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 5) e sull'approccio interdisciplinare (punteggio 5).\n\n**2.7 Offerta di Attività Opzionali:** L'offerta di attività opzionali è diversificata e comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con un punteggio di 5, suggerendo un'attenzione alla completezza dell'offerta formativa.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** che consente alla scuola di offrire agli studenti opportunità di confronto con il mondo del lavoro e di approfondimento delle proprie attitudini e interessi. L'impegno verso la riduzione dell'**abbandono** scolastico e il contrasto alla dispersione dei **NEET** rappresenta un altro elemento positivo. L'offerta didattica, basata sull'esperienza e sulla flessibilità, e la varietà di attività opzionali contribuiscono a creare un ambiente di apprendimento stimolante e personalizzato. Attività come gli **scambi culturali con la Cina** e la **certificazione sportiva** arricchiscono ulteriormente l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la finalità relativa al **progetto di vita**, che ottiene un punteggio inferiore (3). Questo suggerisce che la scuola potrebbe dedicare maggiore attenzione alla preparazione degli studenti ad affrontare le sfide della vita adulta e a definire i propri obiettivi personali. Anche l'utilizzo di laboratori specifici per l'orientamento, pur presente, potrebbe essere potenziato (punteggio 3).\n\n### 5. Gap Analysis\n\nIl divario tra le finalità orientate al **progetto di vita** e le altre finalità più consolidate indica la necessità di rafforzare le attività volte a supportare gli studenti nella definizione dei propri obiettivi personali e professionali. Potrebbe essere utile introdurre percorsi di **counseling** individualizzato o di gruppo, o organizzare incontri con testimoni privilegiati che possano condividere le proprie esperienze di vita.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.T.I. \"Guglielmo Marconi\" dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta formativa diversificata. Pur presentando alcune aree di debolezza, la scuola ha le potenzialità per migliorare ulteriormente l'efficacia delle proprie azioni e per offrire agli studenti un supporto completo e personalizzato nella definizione del proprio futuro. Attività come le **visite aziendali**, gli **incontri con professionisti**, l'**alternanza scuola-lavoro** e i progetti come **\"Progetto Nonni su Internet\"** e **\"Rete Goal\"** rappresentano un valore aggiunto per la comunità scolastica e per il territorio."
+}

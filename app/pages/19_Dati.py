@@ -13,7 +13,12 @@ from src.utils.backup_system import (
     create_backup, list_backups, restore_backup,
     create_backup_zip, restore_from_zip, delete_backup
 )
-from data_utils import render_footer
+from data_utils import (
+    render_footer,
+    TIPI_SCUOLA,
+    filter_by_type,
+    get_unique_types
+)
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Gestione Dati", page_icon="🧭", layout="wide")
@@ -211,11 +216,11 @@ with tab_explore:
             with filter_cols[1]:
                 # Tipo scuola filter
                 if 'tipo_scuola' in df.columns:
-                    types = ['Tutti'] + sorted(df['tipo_scuola'].dropna().unique().tolist())
-                    selected_type = st.selectbox("Tipo Scuola", types, key="filter_type")
-                    if selected_type != 'Tutti':
-                        df_filtered = df_filtered[df_filtered['tipo_scuola'] == selected_type]
-                        active_filters.append(f"Tipo: {selected_type}")
+                    types = get_unique_types(df)
+                    selected_types = st.multiselect("Tipo Scuola", types, key="filter_type")
+                    if selected_types:
+                        df_filtered = filter_by_type(df_filtered, selected_types, 'tipo_scuola')
+                        active_filters.append(f"Tipo: {', '.join(selected_types)}")
             
             with filter_cols[2]:
                 # Statale/Paritaria filter

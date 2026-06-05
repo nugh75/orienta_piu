@@ -1,0 +1,324 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FEIS01400G",
+    "denominazione": "Ist.Istruzione Superiore \"F.Lli Taddia",
+    "tipo_scuola": "Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Cento",
+    "anno_ptof": "2025-2028",
+    "provincia": "Ferrara",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Baruffaldi 10",
+    "cap": "44042",
+    "email": "feis01400g@istruzione.it",
+    "pec": "feis01400g@pec.istruzione.it",
+    "website": "www.ipsia100.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Confindustria",
+        "Enti di formazione professionale",
+        "ITS",
+        "Scuole 4.0",
+        "Fondazione Cassa di Risparmio di Cento",
+        "enti locali",
+        "associazioni culturali",
+        "esperti",
+        "Fondazioni ITS",
+        "Consorzio Istituti Professionali",
+        "Università",
+        "Enti di formazione accreditati",
+        "Associazioni delle imprese",
+        "Altre scuole",
+        "Fondazione Its Territorio Energia Costruire Ferrara",
+        "SRL Sistemi Tecnologici Intelligenti",
+        "Mechvib Engineering",
+        "Futura Società Consortile Srl",
+        "Centoform Srl",
+        "C.P.I.A. Ferrara",
+        "Comune Di Cento",
+        "Ad Tecnologie Srl",
+        "Apicom Spa",
+        "Fluid-A Srl",
+        "Sonepar Italia Spa"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage",
+      "categoria_principale": "Formazione Lavoro",
+      "descrizione_e_metodologia": "Attività di stage presso ditte del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti IFTS/ITS",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Realizzazione di progetti in sinergia con enti di formazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CLASSI APERTE",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica flessibile a classi aperte per livelli di competenza.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "RADDOPPIAMO O CI SDOPPIAMO",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica in compresenza per il potenziamento linguistico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "COMPETENZE IN CHIARO",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Progettazione e sperimentazione di un sistema condiviso di valutazione delle Competenze Chiave Europee.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "RUBRICHE DI ISTITUTO PER LA VALUTAZIONE DELLE COMPETENZE",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Realizza e sperimenta rubriche valutative comuni per le Competenze Chiave Europee.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "INTEGRAZIONE TRA VALUTAZIONE INTERNA E DATI DELLE PROVE STANDARDIZZATE",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi integrata dei risultati delle prove INVALSI con la valutazione interna.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto: SE FACCIO IMPARO",
+      "categoria_principale": "Prevenzione dispersione scolastica",
+      "descrizione_e_metodologia": "Percorsi di mentoring, riorientamento, supporto studenti fragili",
+      "target": "Studenti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Progetto: SE FACCIO IMPARO 2",
+      "categoria_principale": "Prevenzione dispersione scolastica",
+      "descrizione_e_metodologia": "Percorsi di mentoring, riorientamento, supporto studenti fragili",
+      "target": "Studenti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione digitale",
+      "descrizione_e_metodologia": "Formazione personale scolastico su tecnologie digitali",
+      "target": "Docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "InFormazione Digitale",
+      "categoria_principale": "Formazione digitale",
+      "descrizione_e_metodologia": "Formazione personale scolastico su tecnologie digitali",
+      "target": "Docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "NUOVE COMPETENZE, NUOVI LINGUAGGI",
+      "categoria_principale": "STEM e multilinguismo",
+      "descrizione_e_metodologia": "Potenziamento competenze STEM, digitali e linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "MOBILITA' STUDENTESCA ERASMUS",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità all'estero per tirocinio e crescita personale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CANDIDATURA A PROGETTI ERASMUS +",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Progetti di mobilità studentesca per alternanza scuola-lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO (FSL) ESTERO A NANTES",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza di alternanza scuola-lavoro in Francia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "COLLABORAZIONE CON Intercultura",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Sensibilizzazione alla dimensione internazionale e scambi culturali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Officina delle Scienze: Innovazione Digitale e Sperimentazione STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Progetti 'Missione possibile' e 'Matematica senza paura'.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti in collaborazione con aziende del territorio",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate presso aziende locali",
+      "target": "Studenti biennio e triennio"
+    },
+    {
+      "titolo_attivita": "Progetti di filiera",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Rete di agenzie formative per percorsi personalizzati e supporto agli studenti",
+      "target": "Studenti, famiglie, docenti"
+    },
+    {
+      "titolo_attivita": "PFIs",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e aggiornamento dei Piani Formativi Individuali",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "IFTS - Tecnico per il disegno meccanico e la progettazione industriale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche, orientamento, contrasto alla dispersione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "IFTS - Tecnico della programmazione, configurazione e collaudo di sistemi PLC e IoT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche, orientamento, contrasto alla dispersione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "“TRANSIZIONE SCUOLA\"",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche, orientamento, contrasto alla dispersione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "SCUOLE CHE PROMUOVONO SALUTE",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Formazione, attività didattiche, cittadinanza attiva",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Educazione alla legalità",
+      "descrizione_e_metodologia": "Analisi di casi studio e dibattiti",
+      "target": "Classi I e II"
+    },
+    {
+      "titolo_attivita": "Educazione finanziaria",
+      "categoria_principale": "Orientamento professionale",
+      "descrizione_e_metodologia": "Simulazioni e workshop",
+      "target": "Classi III, IV e V"
+    },
+    {
+      "titolo_attivita": "Cittadinanza digitale",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Laboratori pratici e discussioni",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Unità formativa di scuola su inclusione, didattica digitale, personalizzazione e curricolo",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Apprendistato",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze on the job durante tutto l'anno solare",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FEIS01400G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto di Istruzione Superiore “F.lli Taddia” (FEIS01400G) per il periodo 2025-2028. L'istituto, situato a Cento in provincia di Ferrara e regione Emilia Romagna, è un liceo, professionale e tecnico di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Presenza di Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 4, indicando un'attenzione strutturata a questa area.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con un punteggio di 5 e la collaborazione di ben 15 partner, tra cui **Confindustria**, **ITS**, **Fondazione Cassa di Risparmio di Cento**, **enti locali**, **associazioni culturali**, **Università** e diverse aziende come **SRL Sistemi Tecnologici Intelligenti** e **Fluid-A Srl**. Questa fitta rete di collaborazioni rappresenta un elemento cruciale per l'efficacia delle attività di orientamento e per l'inserimento lavorativo degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi** degli studenti, la progettazione del loro **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle loro **capacità orientative** e delle opportunità disponibili. Ogni finalità ha ottenuto punteggi elevati, tra 5 e 6, sottolineando la completezza dell'approccio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a garantire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I punteggi ottenuti variano tra 4 e 5, evidenziando un impegno concreto verso questi traguardi.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 5, dimostrando un approccio sistemico e integrato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. I punteggi variano tra 3 e 5, suggerendo un buon livello di implementazione, con margini di miglioramento nell'ambito della didattica laboratoriale.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. I punteggi ottenuti sono più bassi, tra 1 e 3, indicando un'area che necessita di maggiore attenzione e sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, l'ampia rete di **partnership** con aziende, enti di formazione e università, la chiarezza delle **finalità** e degli **obiettivi**, l'implementazione di azioni di sistema efficaci e l'approccio didattico basato sull'esperienza e sulla flessibilità. Le attività registrate, come gli **Stage**, i progetti **IFTS/ITS**, le **CLASSI APERTE** e i progetti di prevenzione della dispersione scolastica (**SE FACCIO IMPARO**), testimoniano l'impegno concreto dell'istituto.\n\n### 4. Aree di Debolezza\n\nL'area di maggiore debolezza sembra essere l'offerta di attività opzionali e facoltative, che necessita di un ampliamento e di una maggiore diversificazione. Anche la didattica laboratoriale potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di bilanciare l'offerta di attività opzionali e facoltative, rendendola più attrattiva e rispondente agli interessi degli studenti. È inoltre auspicabile un maggiore investimento nella didattica laboratoriale, per favorire l'apprendimento pratico e lo sviluppo di competenze specifiche.\n\n### 6. Conclusioni\n\nIl PTOF FEIS01400G dimostra un forte impegno verso l'orientamento, con una solida base di partenza e un'ampia rete di collaborazioni. L'istituto è ben posizionato per raggiungere gli obiettivi prefissati e per offrire agli studenti un supporto efficace nella progettazione del loro futuro. Concentrando gli sforzi sul potenziamento delle attività opzionali e della didattica laboratoriale, l'istituto potrà ulteriormente migliorare la qualità dell'offerta formativa e garantire un orientamento completo e personalizzato per tutti gli studenti. L'attenzione a progetti come **NUOVE COMPETENZE, NUOVI LINGUAGGI**, **MOBILITA' STUDENTESCA ERASMUS** e le iniziative di **PCTO** evidenzia un approccio moderno e proattivo all'orientamento."
+}

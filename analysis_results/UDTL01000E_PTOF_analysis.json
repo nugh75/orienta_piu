@@ -1,0 +1,245 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDTL01000E",
+    "denominazione": "Itg \"G.G. Marinoni\" Udine",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Udine",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Mons. Nogara 2",
+    "cap": "33100",
+    "email": "udtl01000e@istruzione.it",
+    "pec": "udtl01000e@pec.istruzione.it",
+    "website": "www.itgmarinoni.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Per Geometri"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è integrato nelle attività curriculari, ma non è presente una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende di settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "Utilizzo di ChatGPT per la personalizzazione dello studio",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Supporto allo studio, pensiero critico, competenze digitali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Implementazione di Genially per contenuti interattivi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Creazione di presentazioni, infografiche, gamification",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sull'uso delle mappe mentali",
+      "categoria_principale": "Metodologie di Studio",
+      "descrizione_e_metodologia": "8-10 ore di formazione annuale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettura testi tecnici inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ascolto contenuti, conversazioni simulate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche, proporzioni, percentuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica odontotecnica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi su materiale didattico informatico (Mappe Mentali).",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico Avanzato",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD/CAM (EXOCAD, scanner, stampante 3D).",
+      "target": "Studenti e diplomati"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDTL01000E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Itg \\\"G.G. Marinoni\\\" Udine** (UDTL01000E) per il triennio 2023/24-2024/25-2025/26. L'istituto, di tipo **Tecnico** e afferente al secondo grado, opera in un contesto **non metropolitano** del **Friuli-Venezia Giulia**. L'analisi si basa sui dati forniti, valutando l'integrazione dell'orientamento nel curriculum, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, le metodologie didattiche adottate e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con punteggi elevati in diverse aree chiave.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene l'orientamento sia integrato nelle attività curriculari, il PTOF non prevede una sezione dedicata con un capitolo specifico, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT** e un’**azienda leader del settore audiovisivi**, oltre a diverse **aziende di settore**. Sono state individuate 5 partnership attive.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità, ottenendo un punteggio massimo di 5 per ciascuna finalità.\n\n**2.4 Obiettivi:** Il PTOF si pone obiettivi ambiziosi, tra cui la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**, con un punteggio di 5 per ciascun obiettivo.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con un punteggio di 6 per ciascuna area: **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, quali l'apprendimento dall'esperienza degli studenti, la didattica laboratoriale, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità, con un punteggio di 5 per ciascuna area.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzionali **culturali** e **laboratoriali espressive** con un punteggio di 4, mentre le opzionali **ludiche ricreative**, di **volontariato** e **sportive** ricevono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella forte attenzione alle partnership con il mondo del lavoro e del territorio, nella chiarezza delle finalità e degli obiettivi, nell'efficacia delle azioni di sistema e nell'adozione di metodologie didattiche innovative. Le attività pratiche, come il **PCTO**, e l'impegno per l'inclusione, con iniziative come la realizzazione di **audiolibri** per studenti con **DSA**, rappresentano un valore aggiunto significativo. L'introduzione di strumenti digitali come **ChatGPT** e **Genially** dimostra un'apertura all'innovazione didattica.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia integrato nelle attività curriculari, una sezione specifica consentirebbe una maggiore visibilità e un'organizzazione più strutturata delle iniziative. L'offerta di attività opzionali, in particolare quelle ludiche, ricreative, di volontariato e sportive, potrebbe essere ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la formalizzazione dell'orientamento all'interno del PTOF. L'istituto potrebbe beneficiare dalla creazione di un capitolo specifico dedicato all'orientamento, con una descrizione dettagliata delle strategie, delle azioni e degli indicatori di successo. Inoltre, sarebbe opportuno potenziare l'offerta di attività opzionali, al fine di soddisfare le diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Itg \\\"G.G. Marinoni\\\" Udine dimostra un impegno significativo verso l'orientamento, con punteggi elevati in diverse aree chiave. Le partnership attivate, le finalità ben definite, gli obiettivi ambiziosi, le azioni di sistema efficaci e le metodologie didattiche innovative rappresentano un solido punto di partenza. La formalizzazione dell'orientamento all'interno del PTOF e il potenziamento dell'offerta di attività opzionali potrebbero contribuire a migliorare ulteriormente l'efficacia delle iniziative e a garantire un futuro di successo per gli studenti. Attività come il **PCTO presso Archivio di Stato di Asti e ISRAT**, i **laboratori** tematici (gnatologia, diritto, materiali dentali, ecc.), e l'utilizzo di tecnologie avanzate come quelle del **Laboratorio Odontotecnico Avanzato** (CAD/CAM) sono elementi distintivi dell'offerta formativa."
+}

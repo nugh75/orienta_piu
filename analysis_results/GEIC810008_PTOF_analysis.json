@@ -1,0 +1,188 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEIC810008",
+    "denominazione": "I.C. Casarza Ligure",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Casarza Ligure",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Castello16",
+    "cap": "16030",
+    "email": "geic810008@istruzione.it",
+    "pec": "geic810008@pec.istruzione.it",
+    "website": "ND",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Non è presente una sezione dedicata all'orientamento. L'orientamento è affrontato in diverse parti del documento, ma manca un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Slowfood",
+        "Coldiretti",
+        "Legambiente",
+        "botteghe equo solidali",
+        "Coop",
+        "Polizia Postale",
+        "Associazione Zonta International",
+        "Associazione Il Canto della Terra",
+        "A.V.I.S",
+        "Visual School",
+        "Scuola Internazionale di cucina di Gualtiero Marchesi",
+        "Università degli studi di Scienze gastronomiche a Pollenzo",
+        "Cast Alimenti",
+        "Costa Crociere",
+        "ITS",
+        "Centri per l’Impiego",
+        "Confcommercio",
+        "Università di Genova",
+        "Poli di Savoa e Imperia",
+        "Forze Armate",
+        "A.Li.Sa."
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Formativo Individuale (PFI)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Bilancio personale, aggiornamento durante il percorso scolastico, tutoraggio.",
+      "target": "Studenti del primo anno"
+    },
+    {
+      "titolo_attivita": "UDA (Unità Didattiche di Apprendimento)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Compiti di realtà, lavoro in team, valutazione per competenze.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Progetto 'Cittadini 3.0'",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività sul mondo attuale e l'umanità, partecipazione sociale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "#ti regalo una storia",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Donazione di storie al reparto di pediatria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Finale Giovani",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Incontri con associazioni di volontariato.",
+      "target": "Giovani finalesi"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Visite a scuola, partecipazione a lezioni, materiale informativo online",
+      "target": "Studenti scuole medie inferiori"
+    },
+    {
+      "titolo_attivita": "Stage Aziendale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodo di stage in aziende del settore Ho.Re.Ca o impianti tecnici",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Uscite Didattiche",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Partecipazione a manifestazioni, fiere, conferenze",
+      "target": "Studenti classe quinta"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIC810008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Casarza Ligure (GEIC810008) per il periodo 2022-2025. La scuola, di tipo Professionale e Tecnico, afferente all'ordine di grado II Grado, si colloca in un contesto territoriale metropolitano della regione Liguria. L'analisi evidenzia un impegno diffuso verso l'orientamento, sebbene non formalizzato in una sezione autonoma del PTOF. L'istituto dimostra una forte attenzione alla costruzione del **progetto di vita** degli studenti, allo sviluppo delle loro **attitudini** e **interessi**, alla preparazione per le **transizioni formative** e all'acquisizione di **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela l'assenza di una sezione specificamente dedicata all'orientamento nel PTOF. Sebbene l'orientamento sia affrontato in diverse parti del documento, manca un capitolo dedicato che ne raccolga in modo organico le strategie e le azioni.\n\n**2.2 Partnership:**\n\nUn punto di forza significativo è rappresentato dalla vasta rete di **partnership** attivate dalla scuola. Ben 21 partner sono coinvolti, tra cui **Slowfood**, **Coldiretti**, **Legambiente**, **Coop**, **Polizia Postale**, diverse associazioni (come **Zonta International** e **Il Canto della Terra**), enti di formazione come **Visual School** e la **Scuola Internazionale di cucina di Gualtiero Marchesi**, istituzioni universitarie come l'**Università degli studi di Scienze gastronomiche a Pollenzo** e l'**Università di Genova**, aziende del settore (**Costa Crociere**, **ITS**, **Cast Alimenti**) e centri per l’impiego. Questa ricca rete di collaborazioni offre agli studenti numerose opportunità di contatto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi** degli studenti, la costruzione del loro **progetto di vita**, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 6, indicando un elevato livello di attenzione da parte della scuola.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale** del percorso formativo, a **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e di continuità territoriale ottengono un punteggio di 6, mentre quelli relativi al contrasto del fenomeno NEET e al lifelong learning raggiungono un punteggio di 5.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste sono orientate al **coordinamento dei servizi** scolastici, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori**, al **monitoraggio delle azioni** intraprese e alla creazione di un **sistema integrato di inclusione e fragilità**. Anche in questo caso, la maggior parte delle azioni ottiene un punteggio di 6, mentre il monitoraggio delle azioni e il sistema integrato di inclusione e fragilità raggiungono un punteggio di 5.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'utilizzo di esperienze dirette degli studenti, sull'importanza dei **laboratori** e sulla flessibilità degli spazi e dei tempi. L'approccio didattico da esperienza studentesca ottiene un punteggio di 6, mentre la didattica laboratoriale un punteggio di 3, suggerendo un'area di miglioramento. La flessibilità degli spazi e dei tempi, così come l'approccio interdisciplinare, ottengono un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende proposte **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Tutte queste opzioni ottengono un punteggio di 5, indicando una buona varietà di scelta per gli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** attivate, la chiarezza delle **finalità** e degli **obiettivi**, l'attenzione alla didattica esperienziale e l'offerta diversificata di attività opzionali. L'attività **Stage Aziendale** e le **Uscite Didattiche** rappresentano opportunità concrete di orientamento al mondo del lavoro. Il **Progetto Formativo Individuale (PFI)** e le **UDA (Unità Didattiche di Apprendimento)** sono strumenti efficaci per personalizzare il percorso formativo degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. La didattica laboratoriale, con un punteggio di 3, rappresenta un altro aspetto da rafforzare.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che potrebbe essere raggiunta attraverso la creazione di una sezione dedicata nel PTOF. È necessario potenziare la didattica laboratoriale, integrando maggiormente le competenze pratiche nel percorso formativo.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Casarza Ligure dimostra un impegno significativo verso l'orientamento, sebbene questo non sia esplicitamente formalizzato in una sezione autonoma. La ricca rete di **partnership**, la chiarezza delle **finalità** e degli **obiettivi**, e l'offerta diversificata di attività rappresentano punti di forza importanti. Per migliorare l'efficacia dell'azione orientativa, si raccomanda di creare una sezione dedicata nel PTOF e di potenziare la didattica laboratoriale. Progetti come **#ti regalo una storia** e **Progetto Finale Giovani** dimostrano l'impegno dell'istituto verso la cittadinanza attiva e il **volontariato**. L'attività di **Open Day** è fondamentale per l'orientamento in entrata."
+}

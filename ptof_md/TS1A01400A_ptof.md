@@ -1,0 +1,4227 @@
+# Contenuto PTOF: TS1A01400A_PTOF.pdf
+
+## Pagina 1
+
+
+## ‭Ptof‬‭Piano Triennale Offerta Formativa‬
+
+‭2025/2028‬
+
+---
+
+## Pagina 2
+
+‭1‬
+
+---
+
+## Pagina 3
+
+‭Indice‬
+‭Indice‬
+‭1‬
+‭La scuola e il suo contesto‬
+‭3‬
+‭Il nome della scuola e la sua localizzazione‬
+‭3‬
+‭Domanda formativa delle famiglie e del territorio‬
+‭3‬
+‭Analisi dell’utenza‬
+‭3‬
+‭Analisi dei bisogni: osservazione‬
+‭4‬
+‭Analisi dei bisogni: strumenti utilizzati‬
+‭4‬
+‭Caratteristiche principali della scuola: identità e missione‬
+‭4‬
+‭Idee guida a cui si ispira la scuola‬
+‭5‬
+‭Nuclei fondanti del progetto educativo d’istituto‬
+‭5‬
+‭Ricognizione attrezzature e infrastrutture materiali‬
+‭6‬
+‭Le risorse materiali‬
+‭6‬
+‭Altri servizi offerti dalla scuola‬
+‭7‬
+‭Le risorse finanziarie‬
+‭8‬
+‭Le risorse umane e professionali: la Comunità educativa‬
+‭8‬
+‭Componenti‬
+‭8‬
+‭Il personale direttivo‬
+‭9‬
+‭Organizzazione e collaborazioni sul territorio‬
+‭9‬
+‭Strutture di partecipazione‬
+‭9‬
+‭Relazione educativa e ambiente di apprendimento‬
+‭10‬
+‭Le scelte strategiche‬
+‭11‬
+‭Valutazione di sistema e autoanalisi d’istituto‬
+‭11‬
+‭Priorità strategiche‬
+‭11‬
+‭Obiettivi formativi prioritari‬
+‭14‬
+‭Piani di miglioramento‬
+‭14‬
+‭Principali elementi di innovazione‬
+‭15‬
+‭Aspetti innovativi delle discipline‬
+‭15‬
+‭Aspetti innovativi strutturali‬
+‭17‬
+‭Offerta formativa‬
+‭19‬
+‭Profilo educativo culturale e professionale‬
+‭19‬
+‭Traguardi in uscita e competenze attese‬
+‭20‬
+‭Insegnamenti e quadri orario‬
+‭21‬
+‭Linee guida del processo formativo: il curricolo‬
+‭25‬
+‭Il curricolo per le competenze trasversali‬
+‭25‬
+‭Il curricolo per le competenze disciplinari‬
+‭26‬
+‭Iniziative di ampliamento curricolare‬
+‭27‬
+‭Scelte organizzative e didattiche‬
+‭27‬
+‭Progetti d’istituto‬
+‭27‬
+‭Attività formative, spirituali e ricreative‬
+‭30‬
+‭Piano di formazione del personale docente‬
+‭32‬
+‭Attività previste in relazione al PNSD‬
+‭32‬
+‭Valutazione degli apprendimenti‬
+‭33‬
+‭Caratteristiche della valutazione didattico-educativa‬
+‭33‬
+‭Criteri e materiali per la valutazione‬
+‭33‬
+‭Documenti di valutazione e loro consegna ai genitori‬
+‭39‬
+‭Azioni della scuola per l’inclusione scolastica‬
+‭39‬
+‭Didattica inclusiva‬
+‭40‬
+‭2‬
+
+---
+
+## Pagina 4
+
+‭Piani personalizzati‬
+‭40‬
+‭Piano per la Didattica Digitale Integrata‬
+‭41‬
+‭Rapporto scuola famiglia‬
+‭41‬
+‭La famiglia nella scuola‬
+‭41‬
+‭Rappresentanti genitori‬
+‭41‬
+‭Colloqui genitori-docenti‬
+‭41‬
+‭Incontri formativi per i genitori‬
+‭42‬
+‭Comunicazioni con la famiglia‬
+‭42‬
+‭Aspettative dei genitori e degli studenti nei confronti della scuola‬
+‭42‬
+‭Aspettative della scuola nei confronti delle famiglie‬
+‭42‬
+‭Aspettative della scuola nei confronti dei singoli studenti‬
+‭43‬
+‭Organizzazione uffici e modalità di rapporto con l’utenza‬
+‭43‬
+‭Approvazione‬
+‭43‬
+‭Riferimenti principali‬
+‭44‬
+‭Lista allegati‬
+‭44‬
+‭3‬
+
+---
+
+## Pagina 5
+
+‭La scuola e il suo contesto‬
+‭Il nome della scuola e la sua localizzazione‬
+‭La‬‭scuola‬‭secondaria‬‭di‬‭i‬‭grado‬‭“Don‬‭Bosco”‬‭PARITARIA‬‭è‬‭legalmente‬‭riconosciuta‬‭con‬‭DM‬‭15‬‭Giugno‬‭1932‬‭n.‬‭6905‬
+‭e Paritaria con DM 1/02/2002 n. 2789/21 secondo la Legge n°62 del 10/03/2000.‬
+‭Ha‬ ‭sede‬ ‭nell'Istituto‬ ‭Scuole‬ ‭Professionali‬‭Salesiane,‬‭fondato‬‭da‬‭Don‬‭Bosco‬‭a‬‭San‬‭Benigno‬‭Canavese‬‭nel‬‭1879,‬
+‭utilizzando i locali dell'antica abbazia di Fruttuaria, ristrutturati dal cardinale delle Lanze.‬
+‭Breve‬‭profilo‬‭storico.‬‭Il‬‭palazzo‬‭fatto‬‭costruire‬‭dal‬‭cardinale‬‭Amedeo‬‭delle‬‭Lanze‬‭era‬‭disabitato.‬‭Il‬‭comune‬‭offrì‬‭a‬
+‭Don‬‭Bosco,‬‭che‬‭accettò:‬‭«Intendo‬‭destinarlo‬‭a‬‭pubblica‬‭utilità,‬‭come‬‭le‬‭altre‬‭case‬‭che‬‭da‬‭me‬‭dipendono».‬‭La‬‭casa‬‭fu‬
+‭inaugurata‬‭nell'estate‬‭del‬‭1879.‬‭All'inizio‬‭fu‬‭sede‬‭per‬‭i‬‭novizi,‬‭ma‬‭già‬‭nell'autunno‬‭sorsero‬‭anche‬‭i‬‭laboratori,‬‭umili‬‭e‬
+‭rudimentali:‬‭sarti,‬‭falegnami,‬‭fabbri‬‭e‬‭legatori.‬‭Era‬‭l'inizio‬‭dell'attività‬‭caratteristica‬‭di‬‭San‬‭Benigno.‬‭Ci‬‭furono‬‭varie‬
+‭trasformazioni,‬‭ma‬‭la‬‭casa‬‭si‬‭mantenne‬‭sempre‬‭nella‬‭linea‬‭del‬‭lavoro.‬‭Per‬‭vari‬‭decenni‬‭ci‬‭furono‬‭i‬‭tipografi‬‭ed‬‭anche‬
+‭una‬ ‭specie‬ ‭di‬ ‭scuola‬ ‭agricola‬ ‭al‬ ‭"Molino".‬ ‭Sempre‬ ‭al‬ ‭Molino‬ ‭funzionò‬ ‭una‬ ‭rudimentale‬ ‭centrale‬ ‭elettrica‬ ‭che‬
+‭assicurò‬‭l'illuminazione‬‭a‬‭tutto‬‭il‬‭paese.‬‭Nel‬‭1904‬‭si‬‭aprivano‬‭le‬‭scuole‬‭serali‬‭e‬‭l'oratorio‬‭festivo.‬‭In‬‭tempi‬‭più‬‭vicini‬
+‭fu‬ ‭fiorente‬ ‭l'avviamento‬ ‭professionale,‬ ‭che‬ ‭in‬ ‭seguito‬ ‭si‬ ‭trasformò‬ ‭in‬ ‭Scuola‬ ‭Media‬ ‭e‬ ‭Centro‬ ‭di‬ ‭Formazione‬
+‭Professionale (C.F.P.).‬
+‭La‬ ‭Scuola‬ ‭Media‬ ‭si‬ ‭presenta‬ ‭come‬ ‭scuola‬ ‭libera‬ ‭di‬ ‭ispirazione‬ ‭cristiana,‬ ‭al‬ ‭servizio‬ ‭della‬ ‭comunità‬ ‭civile‬ ‭ed‬
+‭ecclesiale di San Benigno e del territorio circostante canavesano.‬
+‭Domanda formativa delle famiglie e del territorio‬
+‭Nei confronti della Scuola, la domanda formativa che emerge dalle famiglie è diversificata ed eterogenea.‬
+‭Le‬‭famiglie‬‭scelgono‬‭la‬‭Scuola‬‭secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭perché‬‭trovano‬‭un‬‭sereno‬‭ambiente‬
+‭formativo‬ ‭ed‬ ‭educativo,‬ ‭si‬ ‭attendono‬ ‭un'offerta‬ ‭formativa‬ ‭valida‬ ‭e‬ ‭diversificata‬ ‭(anche‬ ‭in‬ ‭funzione‬ ‭del‬
+‭proseguimento degli studi) e relativi servizi integrativi.‬
+‭La‬‭scelta‬‭di‬‭iscriversi‬‭alla‬‭Scuola‬‭secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭è‬‭inoltre‬‭dovuta‬‭alla‬‭opportunità‬‭di‬
+‭usufruire del tempo prolungato, delle attività di recupero e di studio personalizzato, delle iniziative extra-didattiche.‬
+‭Le‬ ‭famiglie‬ ‭e‬ ‭con‬ ‭esse‬ ‭anche‬ ‭gli‬ ‭allievi‬ ‭apprezzano‬ ‭la‬ ‭formazione‬ ‭religiosa‬ ‭a‬ ‭partire‬ ‭dal‬ ‭fatto‬ ‭che‬ ‭il‬‭sistema‬
+‭preventivo salesiano prevede una particolare attenzione alle problematiche e agli interessi degli adolescenti.‬
+‭Analisi dell’utenza‬
+‭La‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭accoglie‬‭alunni‬‭provenienti‬‭non‬‭solo‬‭da‬‭San‬‭Benigno‬‭C.se,‬
+‭sede‬ ‭della‬ ‭scuola‬ ‭stessa,‬ ‭ma‬ ‭da‬ ‭più‬ ‭comuni‬ ‭limitrofi.‬ ‭Il‬ ‭pubblico‬ ‭a‬ ‭cui‬ ‭si‬ ‭rivolge‬ ‭viene‬ ‭ad‬ ‭essere‬ ‭quindi‬
+‭estremamente eterogeneo per quanto riguarda  territorio, estrazione sociale e quindi bisogni delle famiglie.‬
+‭A‬ ‭partire‬ ‭dall’a.s‬ ‭2018/19‬ ‭è‬‭stata‬‭aperta‬‭una‬‭terza‬‭sezione,‬‭la‬‭C,‬‭oltre‬‭alle‬‭due‬‭sezioni‬‭A‬‭e‬‭B‬‭precedentemente‬
+‭presenti; attualmente, i tre corsi di studio sono articolati dunque su tre sezioni complete.‬
+‭In‬‭quanto‬‭scuola‬‭secondaria‬‭di‬‭I‬‭grado‬ ‭si‬‭rivolge‬‭alla‬‭delicata‬‭fascia‬‭del‬‭preadolescente;‬‭le‬‭dinamiche‬‭messe‬‭in‬‭atto‬
+‭in questa fase dello sviluppo possono essere riassunte a due livelli:‬
+‭●‬
+‭a‬‭livello‬‭cognitivo‬‭il‬‭preadolescente‬‭comincia‬‭lentamente‬‭ad‬‭elaborare‬‭il‬‭ragionamento‬‭logico‬‭-‬‭formale,‬‭fino‬
+‭a‬ ‭questo‬ ‭momento‬ ‭rimasto‬ ‭ancora‬ ‭al‬ ‭“concreto”.‬ ‭Si‬ ‭stacca‬ ‭così‬ ‭pian‬ ‭piano‬ ‭dalla‬ ‭concretezza,‬ ‭dal‬
+‭particolare‬‭e‬‭comincia‬‭ad‬‭unire‬‭insieme‬‭concetti‬‭diversi,‬‭a‬‭tirarne‬‭conclusioni‬‭“logiche”,‬‭legate‬‭cioè‬‭da‬‭nessi‬
+‭causali,‬ ‭analogici‬ ‭ecc....‬ ‭Questo‬ ‭delicato‬ ‭passaggio‬ ‭è‬ ‭necessariamente‬ ‭tenuto‬ ‭presente‬ ‭in‬ ‭tutto‬ ‭il‬‭fare‬
+‭didattico per non forzare il discente verso ragionamenti che non è ancora in grado di fare‬
+‭●‬
+‭a‬ ‭livello‬ ‭emotivo‬ ‭e‬ ‭relazionale‬ ‭il‬ ‭preadolescente‬ ‭allarga‬ ‭in‬ ‭modo‬ ‭evidente‬ ‭il‬ ‭suo‬ ‭schema‬ ‭corporeo‬ ‭e‬
+‭psichico,‬‭con‬‭un‬‭aumento‬‭di‬‭interesse‬‭verso‬‭tutto‬‭ciò‬‭che‬‭è‬‭extra-familiare;‬‭lo‬‭sganciamento‬‭dalle‬‭figure‬
+‭protettive‬‭e‬‭il‬‭graduale‬‭avvio‬‭all'autonomia‬‭passano‬‭attraverso‬ ‭momenti‬‭di‬‭crisi‬‭che‬‭non‬‭devono‬‭essere‬
+‭temuti‬‭dall’insegnante,‬‭ma‬‭compresi‬‭e‬‭analizzati‬‭di‬‭volta‬‭in‬‭volta.‬‭Il‬‭docente‬‭deve‬‭sempre‬‭ricordarsi‬‭che‬‭lo‬
+‭sganciarsi‬‭dalla‬‭dipendenza‬‭del‬‭genitore‬‭significa‬‭anche‬‭cercare‬‭nuovi‬‭modelli‬‭di‬‭adulto‬‭in‬‭cui‬‭identificarsi;‬
+‭ciò‬‭comporta‬‭da‬‭un‬‭lato‬‭la‬‭necessità‬‭di‬‭fornire‬‭al‬‭ragazzo‬‭strumenti‬‭validi‬‭con‬‭cui‬‭difendersi‬‭da‬‭modelli‬‭di‬
+‭comportamento‬‭errati‬‭e‬‭da‬‭un‬‭altro‬‭la‬‭presa‬‭di‬‭coscienza‬‭di‬‭essere‬‭-‬‭nel‬‭bene‬‭e‬‭nel‬‭male‬‭-‬‭uno‬‭dei‬‭modelli‬
+‭alternativi‬‭con‬‭cui‬‭il‬‭preadolescente‬‭viene‬‭in‬‭contatto.‬‭Emozionalmente‬‭il‬‭preadolescente‬‭rimane‬‭fragile‬‭e‬
+‭combattuto‬‭tra‬‭l’infantile‬‭e‬‭la‬‭nuova‬‭direzione‬‭di‬‭crescita,‬‭sta‬‭interiorizzando‬‭una‬‭nuova‬‭dimensione‬‭sociale‬
+‭fatta‬‭di‬‭diritti‬‭e‬‭doveri‬‭a‬‭lui‬‭nuovi‬‭e‬‭l’insegnante‬‭/‬‭educatore‬‭deve‬‭accompagnarlo‬‭in‬‭questo‬‭tumultuoso‬
+‭passaggio.‬
+‭4‬
+
+---
+
+## Pagina 6
+
+‭La‬‭prospettiva‬‭scelta‬‭da‬‭tutto‬‭il‬‭personale‬‭educativo‬‭della‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭pone‬
+‭al‬‭centro‬‭del‬‭suo‬‭agire‬‭l’alunno‬‭come‬‭soggetto‬‭in‬‭evoluzione‬‭verso‬‭una‬‭crescita‬‭integrale‬‭in‬‭tutte‬‭le‬‭componenti‬
+‭della‬ ‭personalità.‬ ‭Porre‬ ‭l’alunno‬ ‭al‬ ‭centro‬ ‭e‬ ‭come‬ ‭punto‬ ‭di‬ ‭partenza‬ ‭per‬ ‭ogni‬ ‭intervento‬ ‭didattico‬ ‭significa‬
+‭innanzitutto‬‭analizzare‬‭i‬‭suoi‬‭bisogni,‬‭siano‬‭essi‬‭di‬‭carattere‬‭cognitivo,‬‭affettivo‬‭o‬‭psicomotorio,‬‭nonché‬‭di‬‭natura‬
+‭spirituale.‬
+‭Analisi dei bisogni: osservazione‬
+‭Nell’agire‬‭didattico,‬‭per‬‭individuare‬‭i‬‭bisogni‬‭prioritari‬‭degli‬‭allievi‬‭si‬‭parte‬‭da‬‭un’attenta‬‭analisi‬‭della‬‭situazione‬‭di‬
+‭partenza, per quanto riguarda:‬
+‭●‬
+‭le attitudini, ossia le potenzialità innate da sviluppare al meglio‬
+‭●‬
+‭le‬‭preferenze‬‭e‬‭le‬‭motivazioni,‬‭di‬‭origine‬‭prevalentemente‬‭affettiva‬‭ma‬‭non‬‭per‬‭questo‬‭meno‬‭incisive‬‭nel‬
+‭processo di apprendimento che l’alunno si trova a seguire‬
+‭●‬
+‭gli‬ ‭stili‬ ‭cognitivi,‬ ‭ossia‬ ‭le‬ ‭differenze‬ ‭per‬ ‭quanto‬ ‭concerne‬ ‭le‬ ‭modalità‬ ‭personali‬ ‭di‬ ‭elaborazione‬
+‭dell’informazione e di scelta di strategie‬
+‭●‬
+‭i valori ereditati sia dall’ambiente familiare sia dal contesto sociale generazione‬
+‭●‬
+‭il‬ ‭vissuto‬ ‭scolastico‬ ‭precedente‬ ‭(diversificato‬ ‭per‬ ‭l’eterogeneità‬ ‭della‬ ‭popolazione‬ ‭scolastica‬ ‭e‬ ‭quindi‬
+‭bisognoso di particolare cura)‬
+‭●‬
+‭le eventuali ansie, paure o problematiche connesse alla nuova realtà della scuola media.‬
+‭Tali‬‭bisogni,‬‭proprio‬‭perché‬‭scaturiti‬‭da‬‭un’analisi‬‭della‬‭personalità‬‭dell’allievo‬‭nella‬‭sua‬‭globalità,‬‭non‬‭sono‬‭solo‬‭di‬
+‭natura cognitiva ma formativi ed educativi, affettivi e psicomotori, da concretizzarsi in obiettivi.‬
+‭Analisi dei bisogni: strumenti utilizzati‬
+‭Tutti gli elementi sopra citati vengono debitamente analizzati collegialmente tramite:‬
+‭●‬
+‭test di ingresso, sociometrici o di carattere informale‬
+‭●‬
+‭colloqui con le famiglie‬
+‭●‬
+‭osservazione sistematica degli alunni‬
+‭●‬
+‭occasioni‬‭di‬‭incontro‬‭con‬‭gli‬‭allievi‬‭e‬‭le‬‭famiglie,‬‭vissuti‬‭alla‬‭luce‬‭del‬‭clima‬‭di‬‭amicizia‬‭fraterna‬‭tipico‬‭delle‬
+‭istituzioni salesiane.‬
+‭Tutte le materie concorrono in ugual misura al soddisfacimento di tali bisogni.‬
+‭La‬ ‭Scuola‬ ‭Secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”‬ ‭Paritaria‬ ‭integra‬ ‭l’attività‬ ‭didattica‬ ‭svolta‬ ‭con‬ ‭alcune‬ ‭iniziative‬
+‭aggiuntive:‬
+‭●‬
+‭progetti interdisciplinari‬
+‭●‬
+‭studio assistito‬
+‭●‬
+‭laboratori tecnici, artistici ed espressivi‬
+‭●‬
+‭assistenza‬‭e‬‭supporto‬‭continui‬‭ai‬‭ragazzi‬‭e‬‭alle‬‭loro‬‭famiglie,‬‭anche‬‭attraverso‬‭la‬‭costante‬‭disponibilità‬‭da‬
+‭parte del coordinatore alla fede (catechista).‬
+‭●‬
+‭particolare cura ai momenti di ricreazione in cortile.‬
+‭Caratteristiche principali della scuola: identità e missione‬
+‭La Scuola Secondaria di I grado “Don Bosco” Paritaria:‬
+‭●‬
+‭offre,‬‭mediante‬‭tutte‬‭le‬‭attività,‬‭un’educazione‬‭integrale‬‭e‬‭aiuta‬‭ogni‬‭allievo‬‭a‬‭maturare‬‭affettivamente‬‭come‬
+‭persona, curando intelligenza, volontà, socialità;‬
+‭●‬
+‭stimola‬‭ogni‬‭allievo‬‭a‬‭dotarsi‬‭di‬‭un‬‭adeguato‬‭e‬‭valido‬‭metodo‬‭di‬‭studio,‬‭ad‬‭assimilare‬‭i‬‭contenuti‬‭culturali‬
+‭fondamentali,‬ ‭a‬ ‭saper‬ ‭apprezzare‬ ‭gli‬‭autentici‬‭valori‬‭umani,‬‭assumendo‬‭gradualmente‬‭responsabilità‬‭di‬
+‭decisioni, ad instaurare rapporti sereni di accettazione e di collaborazione con gli altri;‬
+‭●‬
+‭valorizza‬‭il‬‭clima‬‭di‬‭amicizia,‬‭fa‬‭perno‬‭sulla‬‭motivazione‬‭ed‬‭ha‬‭come‬‭punto‬‭di‬‭riferimento‬‭la‬‭Parola‬‭di‬‭Dio‬
+‭mediante il Sistema Preventivo;‬
+‭●‬
+‭fa‬‭proprio‬‭lo‬‭stile‬‭dell’Animazione:‬‭evita‬‭le‬‭imposizioni,‬‭rende‬‭l’allievo‬‭protagonista‬‭della‬‭propria‬‭crescita,‬
+‭instaura un ambiente sereno improntato a fiducia e familiarità, esige la professionalità e il rispetto dei ruoli;‬
+‭●‬
+‭fa‬‭riferimento‬‭costante‬‭all’Assistenza,‬‭intesa‬‭come‬‭“spazio‬‭didattico-educativo”‬‭che‬‭offre‬‭sostegno,‬‭aiuto‬‭e‬
+‭crea relazioni di confidenza e familiarità.‬
+‭5‬
+
+---
+
+## Pagina 7
+
+‭Idee guida a cui si ispira la scuola‬
+‭L'attività‬‭educativa‬‭della‬‭nostra‬‭scuola‬‭si‬‭ispira‬‭alla‬‭tradizione‬‭culturale‬‭e‬‭formativa‬‭della‬‭Congregazione‬‭Salesiana,‬
+‭che‬‭ha‬‭dato‬‭e‬‭continua‬‭a‬‭dare‬‭un‬‭apporto‬‭significativo‬‭alla‬‭popolazione‬‭e‬‭al‬‭territorio,‬‭attuando‬‭quanto‬‭disposto‬
+‭nella Costituzione Italiana, in particolare negli articoli 3, 30, 33, 34.‬
+‭In sintesi le finalità e gli obiettivi che ispirano il PTOF:‬
+‭●‬
+‭scuola che riconosce la centralità dell’adolescente‬
+‭○‬
+‭personalizzazione del rapporto con l’allievo‬
+‭○‬
+‭motivazione‬ ‭allo‬ ‭studio‬ ‭come‬ ‭mezzo‬ ‭per‬ ‭imparare‬ ‭a‬ ‭studiare,‬ ‭prevenire‬ ‭il‬ ‭disagio‬ ‭e‬ ‭la‬ ‭dispersione‬
+‭scolastica‬
+‭○‬
+‭sviluppo di sé e consapevolezza del proprio essere‬
+‭●‬
+‭scuola a servizio delle famiglie‬
+‭○‬
+‭supporto della scuola al ruolo educativo delle famiglie‬
+‭○‬
+‭offerte flessibili alle diverse esigenze delle famiglie‬
+‭○‬
+‭coinvolgimento dei genitori nelle attività parascolastiche‬
+‭●‬
+‭scuola integrata con il territorio e con la società‬
+‭○‬
+‭intensificare il rapporto con le amministrazioni locali‬
+‭○‬
+‭sviluppare nell’adolescente il senso di “appartenenza” all’interno della società‬
+‭○‬
+‭esperienza formativa di “Boscolandia”‬
+‭Nuclei fondanti del progetto educativo d’istituto‬
+‭La‬ ‭Scuola‬ ‭Secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”‬ ‭Paritaria‬ ‭si‬ ‭ispira‬ ‭all'ideale‬ ‭dell'umanesimo‬ ‭cristiano,‬‭al‬‭metodo‬
+‭educativo‬ ‭di‬ ‭Don‬ ‭Bosco‬ ‭e‬ ‭ai‬ ‭nuclei‬‭fondanti‬‭previsti‬‭dalle‬‭Indicazioni‬‭Nazionali‬‭per‬‭la‬‭formazione‬‭del‬‭cittadino‬
+‭europeo‬ ‭nell’ambito‬ ‭dell’apprendimento‬ ‭permanente‬ ‭(Centralità‬ ‭della‬ ‭persona,‬ ‭Nuova‬ ‭cittadinanza,‬ ‭Nuovo‬
+‭umanesimo).‬ ‭Pertanto‬ ‭il‬ ‭progetto‬ ‭educativo‬ ‭dell’istituto‬ ‭contribuisce‬‭alla‬‭costruzione‬‭integrale‬‭della‬‭persona‬‭in‬
+‭piena‬ ‭sintonia‬ ‭con‬ ‭i‬ ‭principi‬ ‭di‬ ‭libertà,‬ ‭uguaglianza‬ ‭e‬ ‭solidarietà‬ ‭della‬ ‭Costituzione;‬ ‭ciò‬ ‭implica‬ ‭un'educazione‬
+‭finalizzata‬‭alla‬‭crescita‬‭dell'alunno‬‭in‬‭tutte‬‭le‬‭sue‬‭dimensioni‬‭con‬‭particolare‬‭riferimento‬‭ai‬‭valori‬‭spirituali‬‭aperti‬‭alla‬
+‭trascendenza ed al messaggio evangelico di libertà e carità.‬
+‭Scendendo in dettagli l'azione educativa salesiana si rivolge ai seguenti valori:‬
+‭Valori personali‬
+‭●‬
+‭Formare persone di sano senso critico e capaci di realizzare scelte responsabili‬
+‭●‬
+‭Permettere‬‭di‬‭scoprire‬‭il‬‭vero‬‭senso‬‭della‬‭libertà,‬‭come‬‭capacità‬‭di‬‭costruire‬‭la‬‭propria‬‭vita‬‭nella‬‭verità,‬‭nel‬
+‭rispetto, nella giustizia e nell'amore‬
+‭●‬
+‭Stimolare‬‭il‬‭senso‬‭della‬‭creatività,‬‭inteso‬‭come‬‭bisogno‬‭umano‬‭di‬‭continuo‬‭rinnovamento‬‭interiore‬‭e‬‭come‬‭vivo‬
+‭desiderio di migliorare la realtà circostante‬
+‭●‬
+‭Promuovere la maturità affettiva, come base per la crescita di una persona coerente‬
+‭Valori sociali‬
+‭●‬
+‭Spronare‬ ‭i‬ ‭giovani‬ ‭ad‬ ‭essere‬ ‭comunicativi,‬ ‭cioè‬ ‭disposti‬ ‭ad‬ ‭usare‬ ‭saggiamente‬‭la‬‭parola,‬‭come‬‭mezzo‬‭di‬
+‭espressione del sentimento e del pensiero per un miglior inserimento nel gruppo sociale‬
+‭●‬
+‭Orientare‬ ‭le‬ ‭scelte‬ ‭vocazionali‬ ‭e‬ ‭professionali,‬ ‭scoprendo‬ ‭e‬ ‭coltivando‬ ‭attitudini,‬ ‭valorizzando‬ ‭qualità‬ ‭e‬
+‭suscitando interessi‬
+‭●‬
+‭Responsabilizzare ad un impegno personale e collettivo al servizio della società‬
+‭●‬
+‭Educare‬‭al‬‭pluralismo‬‭ideologico‬‭e‬‭culturale‬‭con‬‭un‬‭atteggiamento‬‭di‬‭comprensione,‬‭rispetto‬‭e‬‭dialogo‬‭con‬
+‭tutti‬
+‭Valori religiosi‬
+‭6‬
+
+---
+
+## Pagina 8
+
+‭●‬
+‭Aiutare‬ ‭a‬ ‭riconoscere‬‭e‬‭valutare‬‭da‬‭una‬‭prospettiva‬‭cristiana‬‭le‬‭problematiche‬‭del‬‭mondo‬‭moderno‬‭per‬‭un‬
+‭inserimento responsabile e coerente nella società‬
+‭●‬
+‭Alimentare‬‭lo‬‭sviluppo‬‭e‬‭la‬‭crescita‬‭progressiva‬‭dei‬‭valori‬‭cristiani,‬‭offrendo‬‭una‬‭formazione‬‭seria,‬‭adatta‬‭all'età‬
+‭e alle esigenze degli alunni‬
+‭●‬
+‭Vivere‬‭le‬‭situazioni‬‭della‬‭vita,‬‭i‬‭suoi‬‭orizzonti‬‭culturali,‬‭i‬‭suoi‬‭contrasti‬‭e‬‭le‬‭sue‬‭tensioni‬ ‭alla‬‭luce‬‭del‬‭messaggio‬
+‭evangelico.‬
+‭Ricognizione attrezzature e infrastrutture materiali‬
+‭Le risorse materiali‬
+‭La‬‭nostra‬‭Scuola‬‭è‬‭dotata‬‭di‬‭locali,‬‭arredi‬‭e‬‭attrezzature‬‭didattiche‬‭adeguate‬‭alla‬‭Scuola‬‭Secondaria‬‭di‬‭Primo‬‭grado‬
+‭e conformi alle norme vigenti (ai sensi della lettera b, comma 4, articolo unico, legge n. 62/2000).‬
+‭Per‬ ‭quanto‬ ‭concerne‬ ‭la‬ ‭preparazione‬ ‭degli‬ ‭alimenti‬ ‭destinati‬ ‭alla‬ ‭mensa‬ ‭scolastica,‬ ‭si‬ ‭applica‬ ‭il‬ ‭sistema‬ ‭di‬
+‭autocontrollo H.A.C.C.P. per garantire l’igiene dei cibi (D.L. n. 155 del 13.06.97).‬
+‭Le strutture edilizie‬
+‭La‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭ha‬‭sede‬‭nell’Istituto‬‭Scuole‬‭Professionali‬‭Salesiane‬‭di‬‭San‬
+‭Benigno‬ ‭C.se.‬ ‭Il‬‭complesso‬‭originario‬‭era‬‭formato‬‭da‬‭una‬‭struttura‬‭iniziata‬‭nel‬‭1003‬‭per‬‭opera‬‭di‬‭Guglielmo‬‭da‬
+‭Volpiano‬‭che‬‭costituì‬‭l’Abbazia‬‭di‬‭Fruttuaria.‬‭L’edificio‬‭è‬‭stato‬‭interessato‬‭da‬‭vari‬‭rimaneggiamenti‬‭ed‬‭ampliamenti‬
+‭nel‬ ‭corso‬ ‭degli‬ ‭anni‬ ‭per‬ ‭adeguarlo‬‭agli‬‭scopi‬‭per‬‭cui‬‭è‬‭stato‬‭utilizzato‬‭alla‬‭Comunità‬‭Salesiana.‬‭Un‬‭importante‬
+‭intervento‬‭è‬‭stato‬‭realizzato‬‭nell’anno‬‭2016.‬‭La‬‭scuola‬‭media‬‭occupa‬‭attualmente‬‭l’ala‬‭Sud‬‭-‬‭Ovest‬‭dell’edificio,‬‭al‬
+‭primo‬‭e‬‭secondo‬‭piano;‬‭antistante‬‭a‬‭questa‬‭zona‬‭si‬‭aprono‬‭le‬‭aree‬‭destinate‬‭alle‬‭attività‬‭sportive‬‭e‬‭ricreative,‬‭aree‬
+‭che‬‭coprono‬‭più‬‭del‬‭60‬‭%‬ ‭dell’area‬‭totale.‬‭Tali‬‭interventi‬‭consentono‬‭un‬‭impiego‬‭e‬‭un‬‭adattamento‬‭innovativo‬‭e‬
+‭"creativo" dei luoghi e delle strutture della scuola.‬
+‭Nel‬‭corso‬‭dell’estate‬‭2020‬‭è‬‭stato‬‭completato‬‭un‬‭nuovo‬‭ingresso,‬‭che‬‭permette‬‭di‬‭rispettare‬‭le‬‭nuove‬‭disposizioni‬
+‭ministeriali‬‭in‬‭materia‬‭di‬‭prevenzione‬‭e‬‭contrasto‬‭di‬‭diffusione‬‭del‬‭virus‬‭SARS-COV-2‬‭in‬‭quanto‬‭amplia‬‭il‬‭numero‬
+‭degli‬‭accessi‬‭alla‬‭struttura‬‭e,‬‭con‬‭un‬‭lungo‬‭camminatoio,‬‭consente‬‭di‬‭far‬‭rispettare‬ ‭il‬‭necessario‬‭distanziamento‬
+‭sociale tra gli allievi in entrata.‬
+‭Nel‬‭mese‬‭di‬‭settembre‬‭2020‬‭è‬‭stato‬‭inoltre‬‭completato‬‭l’allestimento‬‭di‬‭un‬‭nuovo‬‭ambiente‬‭per‬‭lo‬‭Studio‬‭assistito‬
+‭destinato‬‭alle‬‭classi‬‭prime,‬‭dotato‬‭di‬‭nuovi‬‭banche‬‭singoli‬‭e‬‭di‬‭armadietti‬‭per‬‭il‬‭deposito‬‭dei‬‭libri‬‭scolastici,‬‭sempre‬
+‭nel rispetto delle distanze previste dalla legge.‬
+‭G‬‭li ambienti disponibili‬
+‭La scuola dispone dei seguenti ambienti:‬
+‭●‬
+‭direzione‬
+‭●‬
+‭presidenza‬
+‭●‬
+‭segreteria didattica‬
+‭●‬
+‭segreteria amministrativa‬
+‭●‬
+‭amministrazione‬
+‭●‬
+‭portineria‬
+‭●‬
+‭una sala ex-allievi utilizzabile per i colloqui‬
+‭●‬
+‭ampio locale adibito a sala giochi‬
+‭●‬
+‭locale attrezzato con distributori automatici di bevande calde / fredde e snacks‬
+‭●‬
+‭cucina e sala mensa‬
+‭●‬
+‭salone incontri‬
+‭●‬
+‭palestra‬‭attrezzata‬‭con‬‭pertiche,‬‭anelli,‬‭spalliere,‬‭scala‬‭orizzontale‬‭e‬‭attrezzi‬‭mobili‬‭come‬‭materassi,‬‭porte‬‭da‬
+‭calcio,, pesi e corde; può anche essere utilizzata come sala multiuso per spettacoli durante l’anno scolastico‬
+‭●‬
+‭Laboratorio‬‭di‬‭musica‬‭attrezzato‬‭con‬‭3‬‭pianoforti‬‭digitali,‬‭6‬‭workstation,‬‭3‬‭batterie‬‭acustiche‬‭e‬‭3‬‭electric‬‭drum,‬
+‭impianto‬‭Lem‬‭con‬‭mixer‬‭a‬‭19‬‭canali‬‭e‬‭casse‬‭attive,‬‭chitarre‬‭acustiche‬‭ed‬‭elettriche,‬‭4‬‭fisarmoniche‬‭6‬‭violini,‬
+‭congas e percussioni varie‬
+‭●‬
+‭sala insegnanti con 3PC e fotocopiatrice‬
+‭●‬
+‭laboratorio di informatica con 30 PC‬
+‭●‬
+‭n.9 aule per le classi‬
+‭●‬
+‭n.1 aula conversazione‬
+‭●‬
+‭n.1 aula multiuso con banchi trapezoidali‬
+‭7‬
+
+---
+
+## Pagina 9
+
+‭●‬
+‭ufficio per colloqui online‬
+‭●‬
+‭sala studio per gli allievi delle tre classi di terza media‬
+‭●‬
+‭sala studio per gli allievi delle tre classi di seconda e delle tre di prima media‬
+‭●‬
+‭porticato per giochi al coperto‬
+‭●‬
+‭cortile per giochi all’aperto con la presenza di 3 canestri mobili‬
+‭●‬
+‭un campetto da pallavolo‬
+‭●‬
+‭due campetti da calcio a cinque in erba sintetica‬
+‭●‬
+‭servizi igienici maschili e femminili al primo e al secondo piano, al piano cortile e adiacente alla sala multiuso‬
+‭●‬
+‭spogliatoi maschili e femminili adiacenti alla palestra‬
+‭●‬
+‭chiesa utilizzata durante l’anno scolastico anche per le confessioni‬
+‭Altri servizi offerti dalla scuola‬
+‭ex Biblioteca‬
+‭A‬ ‭partire‬ ‭dall’anno‬ ‭scolastico‬ ‭2018/19‬ ‭l’ambiente‬ ‭tradizionalmente‬ ‭adibito‬ ‭a‬ ‭biblioteca‬ ‭è‬ ‭stato‬ ‭utilizzato‬ ‭per‬
+‭l’allestimento‬‭di‬‭un‬‭nuovo‬‭laboratorio‬‭informatico.‬ ‭Per‬‭questo‬‭motivo‬‭i‬‭materiali‬‭che‬‭si‬‭trovavano‬‭all’interno‬‭sono‬
+‭stati‬ ‭ubicati‬ ‭in‬ ‭spazi‬ ‭appositamente‬ ‭predisposti‬ ‭all’interno‬ ‭dell’istituto‬ ‭e‬ ‭resi‬ ‭accessibili‬ ‭ai‬ ‭vari‬ ‭fruitori‬ ‭previa‬
+‭richiesta‬ ‭e‬ ‭autorizzazione.‬ ‭Dall'anno‬ ‭scolastico‬ ‭2023/24‬ ‭questo‬ ‭ambiente‬ ‭ha‬ ‭nuovamente‬ ‭cambiato‬ ‭la‬ ‭sua‬
+‭destinazione‬ ‭d’uso‬ ‭diventando‬ ‭così‬ ‭un‬ ‭Aula‬ ‭di‬ ‭Conversazione‬ ‭dove‬ ‭i‬ ‭ragazzi‬ ‭svolgono‬ ‭le‬ ‭loro‬ ‭lezioni‬ ‭con‬ ‭la‬
+‭professoressa madrelingua inglese.‬
+‭Le risorse finanziarie‬
+‭Trasparenza amministrativa‬
+‭●‬
+‭Ai‬ ‭fini‬ ‭della‬ ‭trasparenza‬ ‭amministrativa,‬ ‭ai‬ ‭sensi‬ ‭dell’articolo‬ ‭1,‬ ‭comma‬ ‭4,‬ ‭lettera‬ ‭a),‬ ‭legge‬ ‭n.‬ ‭62/2000,‬
+‭precisiamo:‬
+‭●‬
+‭La gestione amministrativa della scuola è affidata al Consiglio della Casa Salesiana‬
+‭●‬
+‭Il‬‭riconoscimento‬‭legale‬‭della‬‭scuola‬‭è‬‭intestato‬‭a‬‭Scuole‬‭Professionali‬‭Salesiane‬‭“Don‬‭Bosco”,‬‭ente‬‭morale‬
+‭legalmente‬‭riconosciuto,‬‭con‬‭sede‬‭fiscale‬‭in‬‭P.zza‬‭Guglielmo‬‭da‬‭Volpiano,‬‭n.‬‭2‬‭in‬‭San‬‭Benigno‬‭C.‬‭se‬‭(Torino)‬‭P.‬
+
+## ‭Iva 00534420013‬
+
+‭●‬
+‭Le assunzioni del personale sono di competenza del Direttore pro-tempore della Casa Salesiana‬
+‭●‬
+‭Il‬‭Direttore‬‭della‬‭Casa‬‭detta‬‭le‬‭relative‬‭condizioni‬‭e‬‭la‬‭retribuzione‬‭seguendo‬‭la‬‭normativa‬‭vigente‬‭(contratto‬‭di‬
+‭lavoro AGIDAE 2010/12).‬
+‭●‬
+‭Il‬‭rendiconto‬‭amministrativo‬‭della‬‭scuola‬‭viene‬‭distinto‬‭da‬‭quello‬‭della‬‭comunità‬‭religiosa‬‭e‬‭delle‬‭altre‬‭attività‬
+‭dell’ente gestore, è pubblico e depositato in segreteria.‬
+‭Rette scolastiche‬
+‭La‬‭retta‬‭della‬‭nostra‬‭scuola‬‭viene‬‭commisurata‬‭alle‬‭necessità‬‭di‬‭bilancio.‬‭Essa‬‭è‬‭valutata‬‭nelle‬‭sue‬‭conseguenze‬
+‭apostoliche e sociali e calcolata sui costi reali di gestione, distinguendo tra attività didattica e mensa.‬
+‭La‬‭sua‬‭entità‬‭viene‬‭approvata‬‭annualmente‬‭dal‬‭Consiglio‬‭della‬‭comunità‬‭religiosa,‬‭sentito‬‭il‬‭parere‬‭del‬‭Consiglio‬‭di‬
+‭Istituto.‬
+‭L’Istituto attua le indicazioni di legge (205/2017 e successivi provvedimenti) riguardo la fatturazione elettronica.‬
+‭Contributi regionali e ministeriali‬
+‭La‬‭Legge‬‭Regionale‬‭n.‬‭49/85‬‭assegna‬‭a‬‭tutte‬‭le‬‭scuole‬‭di‬‭ogni‬‭ordine‬‭e‬‭grado,‬‭statali‬‭e‬‭non‬‭statali,‬‭un‬‭contributo‬‭per‬
+‭ogni‬‭allievo‬‭frequentante.‬‭Viene‬‭utilizzato‬‭per‬‭le‬‭attività‬‭e‬‭il‬‭materiale‬‭didattico‬‭(libri‬‭delle‬‭biblioteche‬‭scolastiche,‬
+‭enciclopedie e CD-Rom...).‬
+‭La‬ ‭scuola,‬ ‭in‬ ‭riferimento‬ ‭ai‬ ‭progetti‬ ‭della‬ ‭programmazione‬ ‭annuale,‬ ‭chiede‬ ‭di‬ ‭beneficiare‬ ‭dei‬ ‭contributi‬ ‭e‬ ‭dei‬
+‭finanziamenti‬ ‭che,‬ ‭sia‬ ‭il‬ ‭Ministero‬ ‭dell'Istruzione‬ ‭che‬ ‭la‬ ‭Regione‬ ‭Piemonte‬ ‭–‬ ‭Assessorato‬ ‭della‬ ‭Cultura‬ ‭ed‬
+‭Istruzione, mettono a disposizione di tutte le scuole.‬
+‭Dall’anno‬ ‭scolastico‬ ‭2023/24‬ ‭la‬ ‭scuola‬ ‭partecipa‬ ‭ai‬ ‭Bandi‬ ‭del‬ ‭PNRR.‬ ‭A‬ ‭inizio‬ ‭anno‬ ‭sono‬ ‭attive‬ ‭le‬ ‭due‬ ‭linee‬
+‭progettuali:‬
+‭1-‬‭Il‬‭decreto‬‭del‬‭Ministro‬‭dell’istruzione‬‭e‬‭del‬‭merito‬‭12‬‭aprile‬‭2023,‬‭n.‬‭65,‬‭destina‬‭quota‬‭parte‬‭delle‬‭risorse,‬‭pari‬‭a‬
+‭750‬‭milioni‬‭di‬‭euro,‬‭relativi‬‭alla‬‭linea‬‭di‬‭investimento‬‭3.1‬‭“Nuove‬‭competenze‬‭e‬‭nuovi‬‭linguaggi”‬‭della‬‭Missione‬‭4‬‭–‬
+‭Componente 1 – del Piano nazionale di ripresa e resilienza -‬
+‭2‬ ‭-‬ ‭Il‬ ‭Piano‬ ‭nazionale‬ ‭di‬ ‭ripresa‬ ‭e‬ ‭resilienza,‬ ‭di‬ ‭cui‬ ‭al‬ ‭regolamento‬ ‭(UE)‬ ‭n.‬ ‭2021/241‬ ‭del‬ ‭12‬ ‭febbraio‬ ‭2021‬ ‭e‬
+‭approvato con decisione di esecuzione del Consiglio del 13 luglio 2021;‬
+‭3 - INDID+ Sostegno agli Investimenti per la qualità DIDattica nelle scuole paritarie non commerciali.‬
+‭8‬
+
+---
+
+## Pagina 10
+
+‭Le risorse umane e professionali: la Comunità educativa‬
+‭Componenti‬
+‭Nella‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭la‬‭gestione‬‭delle‬‭risorse‬‭economiche,‬‭del‬‭personale,‬‭degli‬
+‭immobili‬‭e‬‭delle‬‭attrezzature‬‭viene‬‭fatta‬‭secondo‬‭il‬‭Progetto‬‭Educativo‬‭e‬‭con‬‭la‬‭dovuta‬‭trasparenza‬‭ai‬‭sensi‬‭delle‬
+‭disposizioni‬‭della‬‭legge‬‭n.‬‭62/2000,‬‭in‬‭modo‬‭da‬‭coinvolgere‬‭tutte‬‭le‬‭componenti‬‭della‬‭comunità‬‭educativa‬‭della‬
+‭Scuola.‬
+‭La‬ ‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭è‬‭gestita‬‭come‬‭soggetto‬‭non‬‭commerciale‬‭e‬‭senza‬‭fine‬‭di‬
+‭lucro.‬
+‭Scuole professionali salesiane‬
+‭Agli‬ ‭effetti‬ ‭fiscali‬ ‭l’attività‬ ‭della‬ ‭nostra‬ ‭Scuola‬ ‭rientra‬ ‭nell’ambito‬ ‭delle‬ ‭attività‬ ‭degli‬ ‭enti‬ ‭ecclesiastici.‬ ‭L’attività‬
+‭scolastica è esente IVA. (D.P.R. n°. 633, art. 10 del 26.10.1972  e art. 14 della legge n°. 537 del 24.12.1993 c/10).‬
+‭Di conseguenza la retta dell’allievo è considerata come corrispettivo e comprende più servizi.‬
+‭La‬‭comunità‬‭religiosa‬‭contribuisce‬‭in‬‭maniera‬‭consistente‬‭al‬‭pareggio‬‭del‬‭bilancio‬‭della‬‭nostra‬‭Scuola,‬‭con‬‭queste‬
+‭modalità:‬
+‭●‬
+‭con il lavoro dei propri membri‬
+‭●‬
+‭mettendo a disposizione ambienti e strutture‬
+‭●‬
+‭sollecitando‬ ‭il‬ ‭concorso‬ ‭della‬ ‭beneficenza‬ ‭pubblica‬ ‭e‬ ‭privata‬ ‭per‬ ‭dar‬ ‭modo‬ ‭di‬ ‭accogliere‬ ‭i‬ ‭giovani‬ ‭degli‬
+‭ambienti popolari.‬
+‭a.s. 2022/23‬
+‭Classi‬
+‭9‬
+‭Alunni‬
+‭224‬
+‭Insegnanti‬
+‭17‬
+‭a.s. 2023/24‬
+‭Classi‬
+‭9‬
+‭Alunni‬
+‭242‬
+‭Insegnanti‬
+‭18‬
+‭a.s. 2024/25‬
+‭Classi‬
+‭9‬
+‭Alunni‬
+‭254‬
+‭Insegnanti‬
+‭19‬
+‭Il personale direttivo‬
+‭All’interno‬‭della‬‭Comunità‬‭Educativa‬‭precedentemente‬‭enucleata,‬‭la‬‭gestione‬‭della‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬
+‭“Don Bosco” paritaria è affidata ad uno staff dirigenziale così composto:‬
+‭●‬
+‭PRESIDE (Coordinatore delle attività Educative e Didattiche CAED)‬
+‭9‬
+
+---
+
+## Pagina 11
+
+‭●‬
+
+## ‭Vice-Preside‬
+
+‭●‬
+
+## ‭Dsga: Segreteria Didattica /Amministrativa‬
+
+‭●‬
+
+## ‭Coordinatore Alla Fede‬
+
+‭Tale staff è coordinato dalla PRESIDE.  Il DIRETTORE vigila sul personale direttivo e non.‬
+‭Altre componenti‬
+‭All’interno della scuola collaborano diverse figure:‬
+‭●‬
+‭DIRETTORE: È il responsabile morale e giuridico dell’Opera e dei rapporti con i terzi.‬
+‭●‬
+‭PRESIDE:‬‭È‬‭il‬‭coordinatore‬‭delle‬‭attività‬‭didattiche‬‭ed‬‭educative‬‭con‬‭compiti‬‭di‬‭animazione,‬‭organizzazione‬‭e‬
+‭partecipazione.‬
+‭●‬
+‭VICE-PRESIDE:‬‭Aiuto‬‭alla‬‭Presidenza,‬‭la‬‭sostituisce‬‭in‬‭caso‬‭di‬‭necessità‬‭e‬‭ha‬‭dei‬‭compiti‬‭delegati.‬‭Contribuisce‬
+‭a‬‭creare‬‭un‬‭ambiente‬‭favorevole‬‭all’ordinato‬‭svolgimento‬‭delle‬‭attività‬‭prevenendo‬‭i‬‭disordini‬‭e‬‭abituando‬‭gli‬
+‭studenti ad un responsabile autocontrollo disciplinare‬
+‭●‬
+‭COORDINATORE‬‭ALLA‬‭FEDE:‬‭Organizza‬‭i‬‭momenti‬‭di‬‭preghiera,‬‭le‬‭celebrazioni,‬‭le‬‭giornate‬‭di‬‭ritiro‬‭e‬‭cerca‬‭di‬
+‭favorire‬ ‭la‬ ‭partecipazione‬ ‭dei‬ ‭giovani‬ ‭ai‬ ‭sacramenti‬ ‭della‬ ‭Riconciliazione‬ ‭e‬ ‭dell'Eucaristia.‬ ‭Propone‬ ‭un‬
+‭cammino di animazione spirituale.‬
+‭●‬
+‭COORDINATORE ECONOMICO/AMMINISTRATIVO: È l'incaricato degli aspetti economici e fiscali dell'opera.‬
+‭●‬
+‭DSGA:‬‭SEGRETERIA‬‭DIDATTICA‬‭/AMMINISTRATIVA:‬‭È‬‭la‬‭persona‬‭che‬‭cura,‬‭in‬‭collaborazione‬‭con‬‭il‬‭Preside,‬‭gli‬
+‭adempimenti istituzionali e parte dell’amministrazione della scuola.‬
+‭Un‬‭quadro‬‭dettagliato‬‭delle‬‭funzioni‬‭e‬‭responsabilità‬‭di‬‭ciascuna‬‭componente‬‭è‬‭presente‬‭nel‬‭Regolamento‬‭interno‬
+‭di istituto alla voce “Mansionario”.‬
+‭Organizzazione e collaborazioni sul territorio‬
+‭Strutture di partecipazione‬
+‭Le‬‭strutture‬‭di‬‭partecipazione‬‭mirano‬‭a‬‭creare‬‭le‬‭condizioni‬‭ideali‬‭per‬‭una‬‭sempre‬‭maggiore‬‭corresponsabilità‬‭della‬
+‭vita scolastica, incrementando la collaborazione fra docenti, alunni, genitori.‬
+‭Consiglio d'istituto‬
+‭Esplica funzioni di proposta e di verifica nel campo delle problematiche e delle metodologie dell'educazione.‬
+‭Fatte‬ ‭salve‬ ‭le‬ ‭competenze‬ ‭del‬ ‭Collegio‬ ‭dei‬ ‭Docenti‬ ‭e‬ ‭del‬ ‭Consiglio‬ ‭di‬ ‭Classe,‬ ‭interviene‬ ‭su‬ ‭quanto‬ ‭concerne‬
+‭l'organizzazione della vita e delle attività della scuola.‬
+‭In particolare ha‬‭potere deliberante‬‭circa:‬
+‭●‬
+‭l’adozione del Regolamento interno dell’Istituto‬
+‭●‬
+‭il bilancio preventivo ed il bilancio consuntivo‬
+‭●‬
+‭l’acquisto, il rinnovo e la conservazione delle attrezzature didattiche‬
+‭●‬
+‭l'adozione dei libri di testo‬
+‭●‬
+‭la promozione di contatti con altre scuole o istituti al fine di realizzare scambi di informazioni e di esperienze‬
+‭●‬
+‭l'adattamento del calendario alle specifiche esigenze locali‬
+‭●‬
+‭i‬ ‭criteri‬ ‭per‬ ‭la‬ ‭programmazione‬‭e‬‭l'attuazione‬‭delle‬‭attività‬‭scolastiche‬‭ed‬‭extrascolastiche,‬‭con‬‭particolare‬
+‭riguardo alle libere attività complementari, alle visite guidate e ai viaggi di istruzione‬
+‭●‬
+‭la‬‭partecipazione‬‭ad‬‭attività‬‭culturali,‬‭sportive‬‭e‬‭ricreative‬‭di‬‭particolare‬‭interesse‬‭educativo‬‭e‬‭in‬‭riferimento‬‭al‬
+‭territorio.‬
+‭Inoltre il Consiglio di Istituto:‬
+‭●‬
+‭indica‬‭i‬‭criteri‬‭generali‬‭relativi‬‭alla‬‭formazione‬‭delle‬‭classi,‬‭alla‬‭struttura‬‭generale‬‭dell'orario‬‭e‬‭delle‬‭altre‬‭attività‬
+‭scolastiche‬
+‭●‬
+‭esercita‬‭le funzioni in materia di sperimentazione‬‭e di aggiornamento‬
+‭●‬
+‭adotta‬‭il Piano dell’Offerta Formativa elaborato dal‬‭Collegio dei Docenti‬
+‭La durata in carica del Consiglio d'Istituto è di 3 anni scolastici.‬
+‭Collegio dei docenti‬
+‭Al‬‭Collegio‬‭dei‬‭Docenti‬‭compete‬‭la‬‭programmazione‬‭degli‬‭orientamenti‬‭educativi‬‭e‬‭didattici‬‭nei‬‭loro‬‭momenti‬‭di‬
+‭proposta, discussione, decisione e verifica.‬
+‭Risulta composto da tutti i docenti ed è presieduto dal Preside.‬
+‭Il Collegio dei Docenti ha‬‭potere deliberante‬‭in materia‬‭di:‬
+‭10‬
+
+---
+
+## Pagina 12
+
+‭●‬
+‭funzionamento didattico (in particolare cura la programmazione dell’azione educativa)‬
+‭●‬
+‭criteri di valutazione degli alunni ed approvazione di relativi strumenti‬
+‭●‬
+‭valutazione‬ ‭dell’andamento‬ ‭didattico‬ ‭in‬ ‭termini‬ ‭di‬ ‭efficienza‬ ‭e‬‭di‬‭efficacia‬‭in‬‭rapporto‬‭agli‬‭orientamenti‬‭ed‬
+‭obiettivi programmati.‬
+‭Il Collegio dei Docenti:‬
+‭●‬
+‭formula‬ ‭proposte‬ ‭riguardanti‬ ‭la‬ ‭struttura‬ ‭dell’orario‬ ‭delle‬ ‭lezioni‬ ‭e‬ ‭per‬ ‭lo‬ ‭svolgimento‬ ‭delle‬ ‭altre‬ ‭attività‬
+‭scolastiche, tenuto conto delle indicazioni e criteri generali indicati dal Consiglio di Istituto‬
+‭●‬
+‭adotta‬‭i libri di testo‬
+‭●‬
+‭propone‬‭iniziative di sperimentazione‬
+‭●‬
+‭promuove‬‭iniziative di aggiornamento dei docenti‬
+‭●‬
+‭esamina‬‭le strategie per poter avviare il recupero‬‭dei casi di scarso profitto o di irregolare comportamento‬
+‭●‬
+‭elegge‬‭i suoi rappresentanti al Consiglio di Istituto‬
+‭●‬
+‭elabora‬‭il Piano Triennale dell’Offerta Formativa,‬‭che annualmente viene rivisto e corretto.‬
+‭Consiglio di classe‬
+‭E'‬‭composto‬‭dai‬‭docenti,‬‭da‬‭4‬‭genitori‬‭e‬‭presieduto‬‭dal‬‭Preside‬‭o‬ ‭dal‬‭Vice-Preside‬‭o‬‭da‬‭uno‬‭dei‬‭docenti‬‭delegato‬‭dal‬
+‭Preside‬‭ed‬‭è‬‭un‬‭momento‬‭di‬‭analisi‬‭dei‬‭problemi‬‭della‬‭classe‬‭e‬‭di‬‭ricerca‬‭di‬‭soluzioni‬‭adeguate;‬‭per‬‭la‬‭valutazione‬
+‭periodica e finale degli alunni si riunisce senza la presenza dei genitori.‬
+‭Il Consiglio di Classe esercita le competenze in materia di programmazione, valutazione e sperimentazione.‬
+‭Assemblea di classe‬
+‭L'Assemblea‬‭di‬‭classe‬‭è‬‭composta‬‭da‬‭tutti‬‭i‬‭genitori‬‭di‬‭una‬‭classe,‬‭è‬‭luogo‬‭di‬‭approfondimento‬‭e‬‭di‬‭confronto‬‭sulle‬
+‭linee educative e di verifica di iniziative e problemi di ordine generale.‬
+‭E'‬‭convocata,‬‭previa‬‭approvazione‬‭dell'ordine‬‭del‬‭giorno,‬‭da‬‭parte‬‭del‬‭Preside‬‭o‬‭su‬‭richiesta‬‭scritta‬‭e‬‭motivata‬‭da‬‭un‬
+‭rappresentante‬‭di‬‭classe,‬‭sentito‬‭il‬‭parere‬‭del‬‭Consiglio‬‭di‬‭Classe.‬‭E’‬‭presieduta‬‭dal‬‭Preside‬‭o‬‭in‬‭sua‬‭assenza‬‭dal‬
+‭Coordinatore di classe.‬
+‭Gli‬ ‭orientamenti‬ ‭e‬‭le‬‭proposte‬‭sono‬‭portate‬‭alla‬‭discussione‬‭del‬‭Consiglio‬‭di‬‭Classe,‬‭del‬‭Collegio‬‭Docenti‬‭e‬‭del‬
+‭Consiglio di Istituto, che si pronunceranno al riguardo nei tempi e modalità stabilite.‬
+‭Relazione educativa e ambiente di apprendimento‬
+‭L'azione‬‭della‬‭comunità‬‭educante‬‭attraverso‬‭la‬‭sinergia‬‭scuola-famiglia-territorio‬‭risulta‬‭finalizzata‬‭alla‬‭realizzazione‬
+‭del‬‭benessere‬‭organizzativo‬‭ed‬‭emotivo‬‭per‬‭tutti‬‭coloro‬‭che‬‭vi‬‭operano,‬‭la‬‭cui‬‭promozione‬‭costituisce‬‭un‬‭criterio‬
+‭strategico generale ed identitario dell'Istituto.‬
+‭L’azione‬ ‭educativa‬ ‭dell’insegnante‬ ‭passa‬ ‭attraverso‬ ‭la‬ ‭relazione‬ ‭educativa.‬ ‭Secondo‬ ‭il‬ ‭modello‬ ‭del‬ ‭sistema‬
+‭preventivo‬‭(ragione,‬‭religione‬‭e‬‭amorevolezza)‬‭il‬‭docente‬‭cerca‬‭di‬‭accompagnare‬‭gli‬‭allievi‬‭in‬‭un‬‭percorso‬‭di‬‭crescita‬
+‭graduale, personalizzando l’approccio e costruendo un clima di lavoro sereno ed impegnato.‬
+‭L’interiorizzazione‬‭dei‬‭valori‬‭civili‬‭e‬‭cristiani‬‭da‬‭parte‬‭dei‬‭giovani‬‭è‬‭favorita‬‭dalla‬‭testimonianza‬‭dell’adulto,‬‭dalla‬‭sua‬
+‭disponibilità reale al dialogo e da un concreto nonché visibile collegamento tra i valori annunciati e la realtà vissuta.‬
+‭Le scelte strategiche‬
+‭Valutazione di sistema e autoanalisi d’istituto‬
+‭Il‬ ‭diritto‬ ‭allo‬ ‭studio‬ ‭è‬ ‭avvertito‬ ‭ormai‬ ‭come‬ ‭un‬ ‭ineludibile‬ ‭diritto‬ ‭che‬ ‭deve‬ ‭essere‬ ‭garantito‬ ‭a‬ ‭tutti.‬ ‭Questa‬
+‭espansione‬‭del‬‭fenomeno‬‭istruzione‬‭ha‬‭condotto‬‭ad‬‭una‬‭riconsiderazione‬‭del‬‭problema‬‭valutazione,‬‭alla‬‭luce‬‭delle‬
+‭nuove‬‭esigenze‬‭formative‬‭e‬‭delle‬‭diverse‬‭dinamiche‬‭sociali‬‭e‬ ‭culturali‬‭del‬‭territorio.‬‭Di‬‭qui‬‭la‬‭necessità‬‭di‬‭valutare‬‭la‬
+‭validità‬‭stessa‬‭del‬‭sistema‬‭scolastico,‬‭al‬‭fine‬‭di‬‭organizzare‬‭in‬‭maniera‬‭più‬‭efficace‬‭il‬‭servizio‬‭formativo,‬‭preparare‬
+‭al‬‭meglio‬‭i‬‭suoi‬‭dirigenti‬‭e‬‭i‬‭suoi‬‭insegnanti,‬‭strutturare‬‭in‬‭modo‬‭più‬‭funzionale.‬‭A‬‭tal‬‭fine‬‭la‬‭Scuola‬‭Secondaria‬‭di‬‭I‬
+‭grado‬‭“Don‬‭Bosco”‬‭Paritaria‬‭svolge‬‭un'attività‬‭di‬‭autovalutazione‬‭con‬‭costante‬‭monitoraggio‬‭documentata‬‭dal‬‭RAV‬
+‭(Rapporto‬‭di‬‭autovalutazione),‬‭secondo‬‭le‬‭linee‬‭guida‬‭predisposte‬‭dal‬‭Ministero‬‭dell'Istruzione‬‭integrando‬‭anche‬‭i‬
+‭seguenti strumenti specifici di osservazione:‬
+‭Test Invalsi‬
+‭La‬ ‭valutazione‬ ‭degli‬ ‭apprendimenti‬ ‭a‬ ‭carattere‬ ‭nazionale‬‭è‬‭affidata‬‭all’Istituto‬‭Nazionale‬‭per‬‭la‬‭Valutazione‬‭del‬
+‭Sistema di Istruzione (INVALSI).‬
+‭11‬
+
+---
+
+## Pagina 13
+
+‭L’INVALSI‬‭effettua‬‭rilevazioni‬‭nazionali‬‭attraverso‬‭prove‬‭standardizzate‬‭computer‬‭based,‬‭volte‬‭ad‬‭accertare‬‭i‬‭livelli‬
+‭generali‬‭e‬‭specifici‬‭di‬‭apprendimento‬‭conseguiti‬‭in‬‭Italiano,‬‭Matematica‬‭e‬‭Inglese‬‭in‬‭coerenza‬‭con‬‭le‬‭indicazioni‬‭del‬
+‭curricolo.‬‭Tali‬‭rilevazioni‬‭sono‬‭effettuate‬‭nella‬‭classe‬‭terza‬‭della‬‭scuola‬‭secondaria‬‭di‬‭primo‬‭grado,‬‭come‬‭previsto‬
+‭dall’articolo‬ ‭6,‬ ‭comma‬ ‭3,‬ ‭del‬ ‭decreto‬ ‭del‬ ‭Presidente‬ ‭della‬ ‭Repubblica‬ ‭28‬ ‭marzo‬ ‭2013,‬ ‭n.‬‭80,‬‭come‬‭modificato‬
+‭dall’articolo 26, comma 2, del decreto legislativo 31 dicembre 2009 n. 213.‬
+‭Le‬ ‭prove‬ ‭si‬ ‭svolgono‬ ‭entro‬ ‭il‬ ‭mese‬ ‭di‬ ‭aprile‬ ‭e‬ ‭la‬ ‭relativa‬ ‭partecipazione‬ ‭rappresenta‬ ‭requisito‬ ‭di‬ ‭ammissione‬
+‭all’esame‬‭conclusivo‬‭del‬‭primo‬‭ciclo‬‭di‬‭istruzione‬‭(a‬‭tale‬‭principio‬‭si‬‭è‬‭derogato‬‭negli‬‭anni‬‭dell’emergenza‬‭sanitaria‬
+‭dovuta‬‭al‬‭Covid-19).‬‭Per‬‭le‬‭alunne‬‭e‬‭gli‬‭alunni‬‭risultati‬‭assenti‬‭per‬‭gravi‬‭motivi‬‭documentati,‬‭valutati‬‭dal‬‭Consiglio‬‭di‬
+‭classe, è prevista una sessione suppletiva per l’espletamento delle prove.‬
+‭La‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭-‬‭Paritaria‬‭ha‬‭a‬‭disposizione,‬‭un’‬‭Aula‬‭di‬‭Informatica‬‭per‬‭lo‬‭svolgimento‬
+‭delle Prove Invalsi.‬
+‭I‬ ‭risultati‬ ‭raggiunti‬ ‭dagli‬ ‭alunni‬ ‭nelle‬ ‭rilevazioni‬ ‭nazionali‬ ‭sono‬‭fatti‬‭oggetto‬‭di‬‭analisi‬‭e‬‭discussione‬‭in‬‭sede‬‭di‬
+‭revisione‬‭finale‬‭dell’anno‬‭scolastico‬‭al‬‭fine‬‭di‬‭trarre‬‭indicazioni‬‭utili‬‭alla‬‭programmazione,‬‭progettazione‬‭ed‬‭eventuali‬
+‭modifiche‬‭della‬‭prassi‬‭didattica;‬‭i‬‭Consigli‬‭di‬‭classe‬‭analizzano‬‭inoltre‬‭i‬‭livelli‬‭di‬‭competenza‬‭emersi‬‭dalle‬‭prove‬‭con‬
+‭quelli attestati dalle valutazioni disciplinari condotte dai docenti e certificate in uscita dalla Scuola Media.‬
+‭Il‬‭Collegio‬‭dei‬‭docenti,‬‭sulla‬‭base‬‭dell’analisi‬‭dei‬‭dati‬‭messi‬‭a‬‭disposizione‬‭dal‬‭Ministero,‬‭cerca‬‭di‬‭riprogrammare‬
+‭l’azione didattica per il monitoraggio e il miglioramento dei risultati fatti registrare dagli allievi nelle Prove nazionali.‬
+‭Questionari di gradimento‬
+‭In‬ ‭adesione‬ ‭a‬ ‭quanto‬ ‭previsto‬ ‭relativamente‬ ‭alla‬ ‭valutazione‬ ‭del‬ ‭servizio,‬ ‭la‬ ‭scuola‬ ‭si‬ ‭impegna‬ ‭a‬ ‭verificare‬ ‭il‬
+‭feedback‬ ‭della‬ ‭propria‬ ‭azione‬ ‭educativa‬ ‭e‬ ‭didattica‬ ‭da‬ ‭parte‬ ‭degli‬ ‭alunni‬ ‭e‬ ‭delle‬ ‭famiglie‬ ‭attraverso‬ ‭la‬
+‭somministrazione‬‭di‬‭Questionari‬‭di‬‭gradimento,‬‭da‬‭approvare‬‭in‬‭sede‬‭di‬‭Collegio‬‭docenti‬‭e‬‭di‬‭Consiglio‬‭d'Istituto,‬‭i‬
+‭cui‬‭dati‬‭verranno‬‭utilizzati‬‭come‬‭punto‬‭di‬‭partenza‬‭per‬‭una‬‭riflessione‬‭e‬‭un‬‭aggiornamento‬‭costanti‬‭alla‬‭luce‬‭dei‬
+‭bisogni emersi.‬
+‭Detti‬‭questionari‬‭di‬‭feedback‬‭costituiscono‬‭una‬‭prassi‬‭che‬‭la‬‭scuola‬‭ha‬‭consolidato‬‭attraverso‬‭l’esperienza‬‭della‬
+‭DAD‬ ‭per‬ ‭avere‬ ‭un‬ ‭riscontro‬ ‭periodico‬ ‭circa‬ ‭la‬ ‭propria‬ ‭azione‬ ‭didattica‬ ‭e‬ ‭le‬ ‭iniziative/sperimentazioni‬
+‭progressivamente‬‭attuate‬‭e‬‭che‬‭ci‬‭si‬‭propone‬‭di‬‭continuare‬‭il‬‭monitoraggio‬‭sia‬‭in‬‭caso‬‭di‬‭nuovo‬‭lockdown‬‭che‬‭in‬
+‭altre occasioni in cui sia ritenuto fondamentale il punto di vista delle famiglie.‬
+‭Priorità strategiche‬
+‭In‬ ‭continuità‬ ‭con‬ ‭quanto‬ ‭delineato‬ ‭nel‬ ‭RAV‬ ‭d’Istituto‬‭dell’ultimo‬‭triennio,‬‭attraverso‬‭i‬‭successivi‬‭aggiornamenti,‬
+‭nell’ottica‬‭del‬‭miglioramento‬‭costante,‬‭La‬ ‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”-Paritaria‬‭stabilisce,‬‭per‬‭gli‬‭anni‬
+‭2022/25,‬‭di‬‭mantenere‬‭costanti‬‭le‬‭Priorità‬‭già‬‭stabilite,‬‭in‬‭quanto‬‭il‬‭generale‬‭sconvolgimento‬‭della‬‭vita‬‭scolastica‬‭e‬
+‭della‬‭didattica‬‭dovuti‬‭al‬‭Covid-19,‬‭all’avvento‬‭della‬‭Didattica‬‭a‬‭distanza‬‭e‬‭alcuni‬‭conseguenti‬‭cambiamenti‬‭che‬‭ne‬
+‭sono‬ ‭conseguiti‬ ‭hanno‬‭comportato‬‭una‬‭ricaduta‬‭in‬‭alcune‬‭abitudini,‬‭metodologie,‬‭strumenti‬‭la‬‭cui‬‭portata‬‭deve‬
+‭essere‬‭ancora‬‭oggetto‬‭di‬‭osservazione‬‭prima‬‭di‬‭poter‬‭rilanciare‬‭in‬‭direzione‬‭di‬‭obiettivi‬‭più‬‭ardui‬‭da‬‭programmare‬‭a‬
+‭lungo‬‭termine.‬‭Sia‬‭le‬‭prove‬‭valutative‬‭disciplinari,‬‭sia‬‭le‬‭prove‬‭comuni‬‭per‬‭classi‬‭parallele,‬‭sia‬‭le‬‭prove‬‭finali‬‭degli‬
+‭Esami‬‭di‬‭Stato‬‭si‬‭sono‬‭dovute‬‭adattare‬‭al‬‭nuovo‬‭contesto‬‭che‬‭ha‬‭segnato‬‭inevitabilmente‬‭una‬‭discontinuità‬‭rispetto‬
+‭al‬‭passato;‬‭per‬‭un‬‭bilancio‬‭reale‬‭degli‬‭esiti‬‭raggiunti‬‭dagli‬‭studenti‬‭è‬‭necessario‬‭un‬‭ulteriore‬‭periodo‬‭di‬‭osservazione‬
+‭dei‬‭loro‬‭processi‬‭di‬‭apprendimento,‬‭un‬‭ritorno‬‭a‬‭prove‬‭di‬‭valutazione‬‭più‬‭complete,‬‭approfondite,‬‭puntuali‬‭rispetto‬‭a‬
+‭quelle‬‭che‬‭inevitabilmente‬‭si‬‭sono‬‭potute‬‭proporre‬‭nell’ultimo‬‭biennio.‬‭Anche‬‭lo‬‭sviluppo‬‭delle‬‭competenze‬‭sociali‬‭è‬
+‭stato‬ ‭promuovibile‬ ‭solo‬ ‭in‬‭parte,‬‭in‬‭quanto‬‭alcune‬‭delle‬‭attività‬‭socializzanti,‬‭formative,‬‭spirituali‬‭caratterizzanti‬
+‭l’Istituto‬‭sono‬‭state‬‭sospese‬‭a‬‭causa‬‭delle‬‭norme‬‭per‬‭la‬‭sicurezza‬‭sanitaria;‬‭le‬‭attività‬‭di‬‭laboratorio‬‭sono‬‭state‬
+‭sempre‬‭proposte,‬‭ma‬‭in‬‭chiave‬‭ridotta‬‭rispetto‬‭al‬‭passato,‬‭per‬‭cui‬‭è‬‭necessario‬‭concedere‬‭agli‬‭allievi‬‭e‬‭ai‬‭docenti‬
+‭ancora‬ ‭un‬ ‭triennio‬ ‭per‬ ‭un‬ ‭bilancio‬ ‭reale‬ ‭dei‬ ‭progressi‬ ‭effettivamente‬ ‭svolti‬ ‭soprattutto‬ ‭sui‬ ‭punti‬ ‭di‬ ‭debolezza‬
+‭precedentemente delineati.‬
+‭Questo il quadro sintetico delle Priorità strategiche individuate per il 2022/25‬
+‭Priorità‬
+‭●‬
+‭Risultati scolastici:‬
+‭○‬
+‭Raggiungere‬ ‭migliori‬ ‭risultati‬ ‭negli‬ ‭Esami‬ ‭di‬ ‭Stato‬ ‭conclusivi‬ ‭del‬ ‭Primo‬ ‭ciclo‬ ‭di‬ ‭istruzione:‬
+‭aumentare‬‭la‬‭percentuale‬‭di‬‭voti‬‭finali‬‭superiore‬‭al‬‭7‬‭a‬‭quella‬‭precedente‬‭al‬‭Covid‬‭anche‬‭con‬‭un‬
+‭Esame di Stato completo delle prove scritte‬
+‭○‬
+‭Competenze‬‭chiave‬‭europee:‬‭Competenza‬‭Personale,‬‭Sociale‬‭e‬‭Capacità‬‭di‬‭Imparare‬‭a‬‭Imparare‬‭-‬
+‭Competenza‬ ‭in‬ ‭Materia‬ ‭di‬ ‭Cittadinanza,‬ ‭in‬ ‭particolare‬ ‭orientata‬ ‭a‬ ‭rendere‬ ‭gli‬ ‭alunni‬ ‭capaci‬ ‭di‬
+‭elaborare‬ ‭strategie‬ ‭per‬ ‭risolvere‬ ‭situazioni‬ ‭problematiche‬ ‭in‬ ‭base‬ ‭al‬ ‭contesto‬ ‭attraverso‬ ‭la‬
+‭comunicazione dei punti di vista e il rispetto delle regole.‬
+‭12‬
+
+---
+
+## Pagina 14
+
+‭Motivazione‬
+‭integrare il PTOF con il Progetto educativo salesiano.‬
+‭Traguardi‬
+‭●‬
+‭Potenziare la fascia media di livello in tutte le classi‬
+‭●‬
+‭Sviluppare‬ ‭le‬ ‭capacità‬ ‭di‬ ‭comunicazione,‬ ‭riflessione,‬ ‭relazione,‬ ‭decisione-azione,‬ ‭organizzazione‬ ‭e‬
+‭progettazione‬ ‭anche‬ ‭nello‬ ‭scenario‬ ‭post-Covid:‬ ‭ampliare‬ ‭il‬ ‭numero‬‭di‬‭allievi‬‭che‬‭si‬‭iscrivono‬‭ai‬‭Laboratori,‬
+‭raggiungere‬ ‭risultati‬ ‭positivi‬ ‭nelle‬ ‭prove‬ ‭di‬ ‭verifica‬ ‭intermedia‬‭e‬‭finale‬‭dei‬‭Laboratori,‬‭ampliare‬‭il‬‭numero‬‭e‬
+‭diversificare‬‭le‬‭iniziative‬‭extracurricolari‬‭(Progetti,‬‭Concorsi,‬‭Mostre,‬‭Eventi),‬‭valutazioni‬‭positive‬‭nei‬‭compiti‬‭di‬
+‭realtà per Educazione civica‬
+‭Area di processo‬
+‭●‬
+‭Curricolo, progettazione e valutazione‬
+‭●‬
+‭Ambiente di apprendimento‬
+‭●‬
+‭Inclusione e differenziazione‬
+‭●‬
+‭Continuità e orientamento‬
+‭●‬
+‭Orientamento strategico e organizzazione della scuola‬
+‭●‬
+‭Sviluppo e valorizzazione delle risorse umane‬
+‭●‬
+‭Integrazione con il territorio e rapporti con le famiglie‬
+‭Obiettivi di processo‬
+‭Area Curricolo, progettazione e valutazione‬
+‭Obiettivi di processo legati a Priorità e Traguardo 1:‬
+‭●‬
+‭Elaborare‬‭un‬‭curricolo‬‭verticale‬‭per‬‭lo‬‭sviluppo‬‭delle‬‭competenze‬‭trasversali‬‭(UDA‬‭specifiche‬‭per‬‭una‬‭delle‬‭otto‬
+‭competenze chiave europee)‬
+‭●‬
+‭Potenziare la lingua inglese incluse le attività di conversazione‬
+‭●‬
+‭Progettare modelli comuni per la stesura dei Piani di lavoro annuali‬
+‭●‬
+‭NUOVO:‬‭riprogettare‬‭gli‬‭incontri‬‭di‬‭programmazione‬‭per‬‭discipline/ambiti‬‭disciplinari‬‭per‬‭rivedere‬‭alcuni‬‭aspetti‬
+‭del curricolo alla luce dell’esperienza della DAD e dei nuovi scenari didattici emersi.‬
+‭Obiettivi di processo legati a Priorità e Traguardo 2:‬
+‭●‬
+‭Potenziare‬‭nella‬‭didattica‬‭la‬‭trattazione‬‭di‬‭temi‬‭multidisciplinari,‬‭che‬‭riguardino‬‭i‬‭diritti‬‭umani‬‭e‬‭i‬‭valori‬‭legati‬
+‭alla convivenza civile‬
+‭●‬
+‭Promuovere‬‭metodologie‬‭didattiche‬‭in‬‭cui‬‭il‬‭ruolo‬‭degli‬‭allievi‬‭sia‬‭il‬‭più‬‭possibile‬‭attivo‬‭e‬‭cooperativo‬‭(anche‬‭in‬
+‭ambiente virtuale)‬
+‭Area Ambiente di apprendimento‬
+‭Obiettivi di processo legati a Priorità e Traguardo 1:‬
+‭●‬
+‭NUOVO: Integrare nell’orario curricolare attività per classi aperte o gruppi di livello per attività interdisciplinare‬
+‭Obiettivi di processo legati a Priorità e Traguardo 2:‬
+‭●‬
+‭Potenziare nelle attività laboratoriali forme di monitoraggio/tutoraggio per gli allievi più problematici‬
+‭●‬
+‭Organizzare mostre/eventi con prodotti realizzati dagli alunni anche in ambiente virtuale‬
+‭●‬
+‭Sensibilizzare‬‭gli‬‭allievi‬‭a‬‭tematiche‬‭di‬‭attualità‬‭attraverso‬‭l’incontro‬‭con‬‭esperti/testimoni‬‭che‬‭raccontino‬‭i‬‭loro‬
+‭progetti o attività‬
+‭●‬
+‭NUOVO:‬‭tendere‬‭il‬‭più‬‭possibile‬‭equilibrato‬‭nei‬‭gruppi‬‭di‬‭studio‬‭guidato‬‭pomeridiano‬‭il‬‭rapporto‬‭tra‬‭attività‬‭di‬
+‭recupero e potenziamento‬
+‭●‬
+‭Potenziare le attività di raccordo tra il curricolo di Ed. civica e il vivere la scuola come comunità‬
+‭NUOVO: Area inclusione e differenziazione:‬
+‭Obiettivi di processo legati a Priorità e traguardo 1‬
+‭●‬
+‭Elaborare‬‭nuovi‬‭criteri‬‭e‬‭strumenti‬‭di‬‭valutazione‬‭per‬‭valorizzare‬‭maggiormente‬‭il‬‭processo‬‭e‬‭non‬‭il‬‭prodotto‬
+‭degli alunni con BES.‬
+‭Priorità e traguardo 2:‬
+‭●‬
+‭NUOVO:‬‭Promuovere‬‭un‬‭Progetto‬‭d’istituto‬‭sul‬‭tema‬‭Inclusione,‬‭da‬‭proporre‬‭a‬‭partire‬‭delle‬‭classi‬‭prime‬‭per‬
+‭informare‬‭e‬‭sensibilizzare‬‭alunni‬‭e‬‭genitori‬‭sulle‬‭dinamiche‬‭di‬‭apprendimento‬‭e‬‭relazionali‬‭inerenti‬‭i‬‭soggetti‬
+‭con BES.‬
+‭13‬
+
+---
+
+## Pagina 15
+
+‭NUOVO: Area Continuità e Orientamento:‬
+‭Priorità e traguardo  1:‬
+‭●‬
+‭Riuscire‬ ‭a‬ ‭individuare,‬ ‭nel‬ ‭curricolo,‬ ‭alcuni‬ ‭nodi‬ ‭disciplinari‬ ‭prioritari‬ ‭in‬ ‭ingresso‬ ‭nelle‬ ‭classi‬ ‭prime‬ ‭da‬
+‭comunicare alle famiglie dei nuovi allievi alla fine della classe quinta‬
+‭Priorità e traguardo 2:‬
+‭●‬
+‭Ricercare‬‭nuovi‬‭strumenti‬‭di‬‭Orientamento‬‭in‬‭uscita‬‭da‬‭proporre‬‭in‬‭presenza‬‭o‬‭in‬‭via‬‭telematica‬‭attraverso‬‭la‬
+‭collaborazione con Scuole/Enti presenti sul territorio.‬
+‭Nuovo: Area Orientamento strategico e organizzazione della scuola:‬
+‭Priorità e traguardo  1:‬
+‭●‬
+‭Variare l’offerta formativa dei laboratori e dei Corsi di studio pomeridiani‬
+‭●‬
+‭Adattare‬‭spazi,‬‭strumenti,‬‭risorse‬‭alla‬‭nuova‬‭realtà‬‭didattica‬‭della‬‭scuola‬‭che‬‭ha‬‭conosciuto‬‭negli‬‭ultimi‬‭anni‬‭un‬
+‭sensibile aumento delle iscrizioni‬
+‭Priorità e traguardo 2:‬
+‭Dare Continuità ai Progetti d’Istituto attualmente attivi‬
+‭Area Sviluppo e valorizzazione delle risorse umane‬
+‭Obiettivi di processo legati a Priorità e Traguardo 1:‬
+‭●‬
+‭Partecipazione dei docenti ad attività di formazione su tematiche didattico-educative coerenti con il PTOF‬
+‭●‬
+‭Potenziamento‬ ‭della‬ ‭collaborazione‬ ‭tra‬ ‭personale‬ ‭scolastico‬ ‭e‬ ‭altre‬ ‭figure‬ ‭di‬ ‭riferimento‬ ‭nelle‬ ‭attività‬ ‭di‬
+‭assistenza agli allievi in studio e in cortile‬
+‭Obiettivi di processo legati a Priorità e traguardo 2:‬
+‭●‬
+‭Realizzazione‬‭all’interno‬‭della‬‭scuola‬‭uno‬‭“sportello”‬‭periodico‬‭di‬‭ascolto‬‭per‬‭gli‬‭allievi‬‭valorizzando‬‭il‬‭personale‬
+‭presente o attraverso nuove collaborazioni‬
+‭Area Integrazione con il territorio e rapporti con le famiglie‬
+‭Priorità e traguardo 1:‬
+‭●‬
+‭Collaborazione‬‭con‬‭altre‬‭scuole‬‭o‬‭enti‬‭del‬‭Territorio‬‭per‬‭progetti‬‭comuni‬‭di‬‭potenziamento‬‭delle‬‭competenze‬
+‭degli allievi.‬
+‭Obiettivi di processo legati a Priorità e Traguardo 2:‬
+‭●‬
+‭Collaborazione con Enti e realtà locali per organizzare manifestazioni culturali‬
+‭●‬
+‭Coinvolgimento‬ ‭dei‬ ‭genitori‬‭disponibili‬‭in‬‭attività‬‭formative‬‭della‬‭scuola‬‭in‬‭cui‬‭mettano‬‭in‬‭atto‬‭competenze‬
+‭professionali e personali‬
+‭●‬
+‭Elaborazione di un nuovo Progetto di formazione per le famiglie con sede in Istituto su tematiche condivise‬
+‭Obiettivi formativi prioritari‬
+‭La‬‭Scuola‬‭Secondaria‬‭di‬‭primo‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria,‬‭nei‬‭limiti‬‭delle‬‭risorse‬‭disponibili,‬‭nel‬‭rispetto‬‭del‬‭monte‬
+‭orario‬‭degli‬‭insegnamenti‬ ‭e‬ ‭tenuto‬ ‭conto‬ ‭della‬‭quota‬‭di‬‭autonomia‬‭dei‬‭curricoli‬ ‭e‬ ‭degli‬ ‭spazi‬ ‭di‬ ‭flessibilita',‬
+‭nonche'‬‭in‬‭riferimento‬‭a‬ ‭iniziative‬ ‭di‬ ‭potenziamento‬ ‭dell'offerta‬‭formativa‬‭e‬‭delle‬‭attivita'‬‭progettuali,‬‭secondo‬
+‭quanto‬‭stabilito‬‭dall’art.‬‭1‬‭comma‬‭7‬‭legge‬‭107/15,‬‭individua‬‭come‬‭prioritari‬‭i‬‭seguenti‬‭obiettivi‬‭formativi,‬‭tra‬‭quelli‬
+‭enucleati nella legge:‬
+‭●‬
+‭valorizzazione‬‭e‬‭potenziamento‬‭delle‬‭competenze‬ ‭linguistiche,‬‭con‬‭particolare‬‭riferimento‬‭all'italiano‬‭nonche'‬
+‭alla‬‭lingua‬ ‭inglesee‬ ‭altre‬‭lingue‬ ‭dell'Unione‬ ‭europea,‬ ‭anche‬ ‭mediante‬ ‭l'utilizzo‬‭della‬‭metodologia‬‭Content‬
+‭language integrated learning;‬
+‭●‬
+‭potenziamento   delle   competenze   matematico-logiche e scientifiche;‬
+‭●‬
+‭sviluppo‬‭delle‬‭competenze‬‭in‬‭materia‬‭di‬‭cittadinanza‬‭attiva‬ ‭e‬‭democratica‬
+‭attraverso‬
+‭la‬
+‭valorizzazione‬
+‭dell'educazione‬‭interculturale‬‭e‬‭alla‬‭pace,‬‭il‬‭rispetto‬‭delle‬‭differenze‬‭e‬‭il‬‭dialogo‬‭tra‬ ‭le‬ ‭culture,‬ ‭il‬ ‭sostegno‬
+‭dell'assunzione‬
+‭di‬
+‭responsabilita'‬ ‭nonche'‬ ‭della‬ ‭solidarieta'‬ ‭e‬ ‭della‬
+‭cura‬ ‭dei‬ ‭beni‬ ‭comuni‬ ‭e‬ ‭della‬
+‭consapevolezza  dei  diritti  e  dei  doveri;‬
+‭●‬
+‭sviluppo‬ ‭di‬
+‭comportamenti‬
+‭responsabili‬
+‭ispirati‬ ‭alla‬‭conoscenza‬ ‭e‬ ‭al‬ ‭rispetto‬ ‭della‬ ‭legalita',‬ ‭della‬
+‭sostenibilita' ambientale, dei beni paesaggistici, del patrimonio e delle  attivita' culturali;‬
+‭●‬
+‭potenziamento  delle  metodologie   laboratoriali   e   delle attivita' di laboratorio‬
+‭14‬
+
+---
+
+## Pagina 16
+
+‭Piani di miglioramento‬
+‭Di‬ ‭seguito‬ ‭vengono‬ ‭indicate‬ ‭le‬ ‭azioni‬ ‭progettate‬ ‭da‬ ‭realizzare‬ ‭relativamente‬ ‭alle‬ ‭priorità‬ ‭e‬ ‭ai‬ ‭traguardi‬
+‭precedentemente‬‭delineati;‬‭rispetto‬‭al‬‭Piano‬‭di‬‭miglioramento‬‭triennale,‬‭quest’anno‬‭si‬‭insisterà‬‭ancora‬‭sulle‬‭azioni‬
+‭che‬‭maggiormente‬‭si‬‭ritengano‬‭compatibili‬‭con‬‭lo‬‭scenario‬‭generale‬‭dell’emergenza‬‭sanitaria,‬‭che‬‭pone‬‭vincoli‬‭dal‬
+‭punto‬ ‭di‬ ‭vista‬ ‭gestionale‬ ‭e‬ ‭organizzativo.‬ ‭Nella‬ ‭programmazione‬ ‭si‬ ‭lavorerà‬ ‭valutando‬ ‭soprattutto‬ ‭l’ipotesi‬ ‭di‬
+‭svolgere‬‭didattica‬‭in‬‭presenza;‬‭in‬‭caso‬‭di‬‭nuovo‬‭ricorso‬‭alla‬‭Didattica‬‭a‬‭distanza,‬‭si‬‭cercherà‬‭di‬‭riorientare‬‭le‬‭azioni‬
+‭suddette e si rendiconterà successivamente l’operato effettivo.‬
+‭Di‬ ‭seguito‬ ‭verranno‬ ‭indicate‬ ‭le‬ ‭varie‬ ‭attività‬ ‭programmate‬ ‭a‬ ‭inizio‬ ‭anno‬ ‭scolastico,‬ ‭nella‬ ‭fase‬ ‭finale‬ ‭dell’anno‬
+‭scolastico‬ ‭verrà‬ ‭realizzato‬‭un‬‭breve‬‭report‬‭con‬‭le‬‭attività‬‭effettivamente‬‭svolte‬‭o‬‭rimaneggiate‬‭rispetto‬‭a‬‭quelle‬
+‭programmate.‬
+‭Esiti degli studenti‬
+‭●‬
+‭Migliorare il rendimento scolastico degli alunni nel corso dell'anno‬
+‭●‬
+‭Raggiungere‬‭la‬‭percentuale‬‭almeno‬‭del‬‭50%‬‭per‬‭gli‬‭alunni‬‭licenziati‬‭con‬‭valutazione‬‭superiore‬‭al‬‭7‬‭(anche‬‭con‬‭il‬
+‭ritorno‬‭all’Esame‬‭di‬‭Stato‬‭tradizionale,‬‭completo‬‭di‬‭prove‬‭scritte),‬‭attuando‬‭strategie‬‭innovative‬‭e‬‭attività‬‭mirate‬
+‭per potenziare la fascia media di livello in tutte le classi‬
+‭●‬
+‭Potenziare‬‭gli‬‭incontri‬‭collegiali‬‭d'Istituto‬‭e‬‭per‬‭aree/ambiti‬‭disciplinari‬‭per‬‭un‬‭confronto‬‭e‬‭una‬‭revisione‬‭dei‬
+‭criteri di valutazione e la progettazione di materiali comuni per la programmazione‬
+‭●‬
+‭Tabulare e confrontare i risultati di prove comuni iniziali, intermedie e finali per disciplina‬
+‭●‬
+‭Tabulare‬‭e‬‭confrontare‬‭i‬‭risultati‬‭ottenuti‬‭nelle‬‭prove‬‭comuni‬‭iniziali,‬‭intermedie‬‭e‬‭finali‬‭nell’insieme‬‭di‬‭tutte‬‭le‬
+‭discipline, osservando l’andamento complessivo annuale di ogni classe‬
+‭●‬
+‭Tabulare‬‭e‬‭confrontare‬‭i‬‭risultati‬‭ottenuti‬‭nelle‬‭prove‬‭comuni‬‭iniziali,‬‭intermedie‬‭e‬‭finali‬‭nell’insieme‬‭di‬‭tutte‬‭le‬
+‭discipline, osservando l’andamento complessivo annuale delle classi della stessa sezione‬
+‭●‬
+‭Tabulare‬‭e‬‭confrontare‬‭i‬‭risultati‬‭ottenuti‬‭nelle‬‭prove‬‭comuni‬‭iniziali,‬‭intermedie‬‭e‬‭finali‬‭osservando‬‭l’andamento‬
+‭complessivo nel triennio delle singole classi e delle diverse sezioni dell’istituto‬
+‭●‬
+‭Confrontare‬‭per‬‭ogni‬‭disciplina‬‭i‬‭risultati‬‭ottenuti‬‭nelle‬‭prove‬‭comuni‬‭intermedie‬‭e‬‭finali‬‭con‬‭i‬‭risultati‬‭ottenuti‬
+‭nella valutazione degli allievi in sede di scrutinio intermedio (trimestre) e finale (pentamestre)‬
+‭Sviluppo delle competenze sociali e civiche‬
+‭●‬
+‭Competenza Personale, Sociale e Capacità di Imparare a Imparare‬
+‭●‬
+‭Competenza in Materia di Cittadinanza‬
+‭●‬
+‭Realizzare‬ ‭un‬ ‭laboratorio‬ ‭scientifico‬ ‭come‬ ‭attività‬ ‭opzionale‬ ‭pomeridiana,‬ ‭ma‬ ‭provare‬ ‭ad‬ ‭integrare‬
+‭maggiormente l’approccio sperimentale anche negli insegnamenti curricolari‬
+‭●‬
+‭Allargare la partecipazione degli allievi alla pubblicazione on line del giornalino d'istituto‬
+‭●‬
+‭Raggiungere‬ ‭uniformità‬ ‭ed‬ ‭equilibrio‬ ‭tra‬ ‭valutazione‬ ‭nelle‬ ‭competenze‬ ‭sociali‬ ‭e‬ ‭profilo‬ ‭didattico‬ ‭generale‬
+‭dell’allievo potenziandone i talenti‬
+‭●‬
+‭Potenziare la partecipazione a Concorsi/Progetti interdisciplinari‬
+‭●‬
+‭Migliorare la proposta di attività di ricerca e sperimentazione‬
+‭●‬
+‭Potenziare‬‭le‬‭attività‬‭inerenti‬‭lo‬‭sviluppo‬‭del‬‭senso‬‭critico‬‭ed‬‭estetico,‬‭incrementandole‬‭anche‬‭in‬‭adesione‬‭al‬
+‭“Piano delle Arti”‬
+‭Dopo‬‭una‬‭fase‬‭di‬‭progettazione‬‭delle‬‭iniziative‬‭individuate‬‭e‬‭condivise‬‭per‬‭il‬‭raggiungimento‬‭di‬‭tali‬‭obiettivi,‬‭in‬‭tale‬
+‭documento saranno oggetto di osservazione in particolare:‬
+‭●‬
+‭le‬ ‭attività‬ ‭laboratoriali,‬ ‭per‬ ‭la‬ ‭promozione‬ ‭della‬ ‭Competenza‬ ‭Personale,‬ ‭Sociale‬ ‭e‬ ‭Capacità‬ ‭di‬ ‭Imparare‬ ‭a‬
+‭Imparare‬ ‭-‬ ‭Competenza‬ ‭in‬ ‭Materia‬ ‭di‬ ‭Cittadinanza‬ ‭per‬ ‭assicurare‬ ‭la‬ ‭costruzione‬ ‭di‬ ‭un‬ ‭ambiente‬ ‭di‬
+‭apprendimento‬‭il‬‭più‬‭possibile‬‭sereno,‬‭proficuo,‬‭rispettoso‬‭delle‬‭specificità‬‭dei‬‭singoli,‬‭ideale‬‭per‬‭il‬‭recupero‬‭e‬
+‭l'approfondimento.‬
+‭●‬
+‭lo‬ ‭svolgimento‬ ‭di‬ ‭prove‬ ‭comuni‬ ‭iniziali,‬ ‭comuni‬ ‭e‬ ‭finali‬ ‭per‬ ‭disciplina‬ ‭e‬ ‭il‬ ‭raggiungimento‬ ‭in‬ ‭esse‬ ‭di‬ ‭una‬
+‭percentuale‬‭di‬‭voti‬‭superiori‬‭al‬‭7‬‭stabilita‬‭ad‬‭inizio‬‭anno‬‭e‬‭una‬‭sempre‬‭maggiore‬‭coerenza‬‭con‬‭la‬‭valutazione‬
+‭disciplinare..‬
+‭La‬‭compilazione‬‭del‬‭RAV‬‭da‬‭parte‬‭del‬‭Nucleo‬‭interno‬‭di‬‭valutazione‬‭offre‬‭interessanti‬‭spunti‬‭di‬‭riflessione‬‭condivisi‬
+‭con‬ ‭il‬ ‭Collegio‬‭docenti,‬‭che‬‭orientano‬‭le‬‭scelte‬‭organizzative‬‭e‬‭didattiche,‬‭nonché‬‭la‬‭progettazione‬‭delle‬‭attività‬
+‭presenti nel PTOF.‬
+‭Per‬ ‭la‬ ‭pianificazione‬ ‭delle‬ ‭azioni‬ ‭per‬ ‭ciascun‬ ‭obiettivo‬ ‭di‬ ‭processo‬ ‭individuato‬ ‭fare‬ ‭riferimento‬ ‭al‬ ‭Piano‬ ‭di‬
+‭miglioramento annuale.‬
+‭15‬
+
+---
+
+## Pagina 17
+
+‭Principali elementi di innovazione‬
+‭Aspetti innovativi delle discipline‬
+‭Inglese‬
+‭●‬
+‭Flipped‬ ‭classroom‬ ‭e‬ ‭role‬ ‭playing:‬ ‭l’allievo‬ ‭riveste‬ ‭il‬‭ruolo‬‭dell’insegnante‬‭e‬‭spiega,‬‭dopo‬‭aver‬‭analizzato‬‭in‬
+‭autonomia‬
+‭l’argomento‬ ‭(‬ ‭che‬ ‭può‬ ‭essere‬ ‭di‬ ‭grammatica‬ ‭o‬ ‭inerente‬ ‭le‬ ‭funzioni‬ ‭linguistiche)‬ ‭alla‬ ‭classe‬
+‭scegliendo‬‭anche‬‭gli‬‭esercizi‬‭da‬‭svolgere‬‭in‬‭classe‬‭e‬‭a‬‭casa.‬‭Questa‬ ‭attività‬‭viene‬‭anche‬‭svolta‬‭nel‬‭laboratorio‬
+‭di francese.‬
+‭●‬
+‭role playing: l’allievo veste i panni dei personaggi di un dialogo in varie situazioni.‬
+‭●‬
+‭debate (a gruppi o a coppie): su un tema si dibattono i pro e i contro, sostenendo la propria posizione.‬
+‭●‬
+‭ascolto:‬‭viene‬‭fatto‬‭ascoltare‬‭un‬‭brano‬‭sconosciuto‬‭(sia‬‭tratto‬‭dal‬‭libro‬‭di‬‭testo,‬‭sia‬‭fonti‬‭varie)‬‭e‬‭viene‬‭chiesto‬
+‭di‬‭scrivere‬‭il‬‭maggior‬‭numero‬‭di‬‭parole‬‭possibili.‬‭Poi‬‭si‬‭visiona‬‭il‬‭testo‬‭o‬‭il‬‭video‬‭e‬‭si‬‭procede‬‭al‬‭tradizionale‬
+‭esercizio di analisi di comprensione del testo/video.‬
+‭●‬
+‭scrittura: scrivere brevi testi (mail o storytelling in lingua) variando i tempi: al presente o al passato.‬
+‭Matematica‬
+‭●‬
+‭Flipped‬‭classroom:‬‭l’allievo‬‭approccia‬‭il‬‭nuovo‬‭argomento‬‭in‬‭autonomia,‬‭cercando‬‭di‬‭svolgere‬‭gli‬‭esercizi‬
+‭indicati‬ ‭e‬ ‭annotando‬ ‭dubbi‬ ‭e‬ ‭curiosità‬ ‭rintracciate‬ ‭durante‬ ‭lo‬ ‭studio.‬ ‭Durante‬ ‭la‬ ‭successiva‬ ‭lezione‬ ‭in‬
+‭classe,‬ ‭i‬ ‭ragazzi‬ ‭condividono‬ ‭a‬ ‭turno‬ ‭le‬ ‭loro‬ ‭conoscenze,‬ ‭propongono‬ ‭esempi‬ ‭per‬ ‭evidenziare‬ ‭la‬ ‭loro‬
+‭effettiva‬ ‭comprensione‬ ‭e‬ ‭pongono‬ ‭ai‬ ‭compagni‬ ‭domande‬ ‭specifiche‬ ‭per‬ ‭risolvere‬ ‭i‬ ‭dubbi‬ ‭emersi.‬
+‭L’insegnante‬ ‭propone‬ ‭esercizi‬ ‭di‬ ‭difficoltà‬ ‭crescente‬ ‭per‬ ‭permettere‬ ‭agli‬ ‭studenti‬ ‭di‬ ‭verificare‬ ‭la‬ ‭loro‬
+‭competenza.‬
+‭●‬
+‭Laboratorio‬ ‭matematico:‬ ‭gli‬ ‭allievi‬ ‭utilizzano‬ ‭materiali‬ ‭diversi‬ ‭per‬ ‭verificare‬ ‭concetti‬ ‭conosciuti‬ ‭(carta,‬
+‭stecche, spago, specchi, geopiano, software, …)‬
+‭●‬
+‭Giochi‬‭matematici‬‭ricreativi:‬‭viene‬‭proposto‬‭agli‬‭allievi‬‭l’utilizzo‬‭o‬‭la‬‭creazione‬‭di‬‭giochi‬‭che‬‭si‬‭basino‬‭su‬
+‭concetti matematici (tombola, domino, quadrati magici, indovinelli, …)‬
+‭●‬
+‭Dibattiti‬ ‭matematici:‬ ‭discussioni‬ ‭a‬ ‭partire‬ ‭da‬ ‭situazioni‬ ‭ignote‬ ‭proposte‬ ‭dall'insegnante‬ ‭per‬ ‭cercare‬ ‭di‬
+‭formulare ipotesi e progettare esperimenti/dimostrazioni‬
+‭●‬
+‭Jigsaw:‬‭l’insegnante‬‭divide‬‭la‬‭classe‬‭in‬‭gruppi‬‭e‬‭assegna‬‭a‬‭ciascun‬‭componente‬‭una‬‭parte‬‭dell’‬‭argomento‬
+‭da‬ ‭affrontare.‬ ‭Alla‬ ‭fine‬ ‭l’insegnante‬ ‭verifica‬ ‭l’apprendimento‬ ‭che‬ ‭è‬ ‭frutto‬ ‭di‬ ‭lavoro‬ ‭personale‬ ‭e‬ ‭di‬
+‭condivisione tra pari.‬
+‭●‬
+‭Problem solving: gli allievi affrontano problemi in situazioni nuove con conoscenze note‬
+‭●‬
+‭Dal‬ ‭reale‬ ‭al‬ ‭teorico‬ ‭(Stem/‬ ‭Stream):‬ ‭analisi‬ ‭di‬ ‭situazioni‬ ‭di‬ ‭vita‬ ‭quotidiana‬ ‭per‬ ‭cercare‬ ‭di‬ ‭scoprire‬
+‭applicazioni o concetti matematici‬
+‭●‬
+‭Educazione‬‭all’immagine:‬‭i‬‭ragazzi‬‭preparano‬‭cartelloni‬‭esplicativi‬‭sugli‬‭argomenti‬‭affrontati‬‭che‬‭vengono‬
+‭appesi in classe affinché risultino familiari (es. formule, …)‬
+‭●‬
+‭Storia‬ ‭della‬ ‭Matematica:‬ ‭lettura‬ ‭di‬ ‭episodi‬ ‭reali‬ ‭o‬ ‭leggendari‬ ‭di‬ ‭Matematici‬ ‭più‬ ‭o‬ ‭meno‬ ‭famosi‬ ‭e/o‬
+‭ricostruzione‬‭temporale‬‭delle‬‭conoscenze‬‭matematiche.‬‭Eventualmente‬‭ricostruzione‬‭del‬‭materiale‬‭che‬‭il‬
+‭matematico ha utilizzato a supporto della sua scoperta.‬
+‭●‬
+‭Nei‬‭panni‬‭di‬‭un‬‭Matematico:‬‭sorteggio‬‭del‬‭nome‬‭di‬‭un‬‭matematico/matematica‬‭del‬‭passato‬‭e‬‭studio‬‭di‬
+‭alcune sue scoperte o ricostruzione dei materiali che hanno supportato la sua dimostrazione.‬
+‭●‬
+‭Olimpiadi‬‭della‬‭Matematica:‬‭partecipazione‬‭a‬‭tornei‬‭interni‬‭ed‬‭esterni‬‭di‬‭gare‬‭matematiche‬‭(individuali‬‭o‬‭a‬
+‭squadre)‬
+‭●‬
+‭Salotto‬‭Matematico:‬‭potenziamento‬‭matematico‬‭per‬‭studenti‬‭che‬‭hanno‬‭intenzione‬‭di‬‭frequentare‬‭il‬‭liceo‬
+‭scientifico‬
+‭●‬
+‭Peer Tutoring: l’allievo con sicurezza operativa aiuta un compagno più fragile‬
+‭●‬
+‭Arte‬‭e‬‭Matematica:‬‭gli‬‭allievi‬‭producono‬‭di‬‭un’opera‬‭artistica‬‭originale‬‭per‬‭comunicare‬‭la‬‭propria‬‭idea‬‭di‬
+‭Matematica‬
+‭●‬
+‭Sbagliare‬‭è‬‭umano:‬‭al‬‭fine‬‭di‬‭eliminare‬‭la‬‭paura‬‭generalmente‬‭diffusa‬‭tra‬‭gli‬‭allievi‬‭di‬‭sbagliare‬‭risolvendo‬‭un‬
+‭esercizio,‬‭ogni‬‭studente‬‭condivide‬‭l’errore‬‭eventualmente‬‭commesso‬‭per‬‭promuovere‬‭l’autovalutazione‬‭e‬
+‭per chiedere ai compagni suggerimenti. L’insegnante propone esempi storici di errori famosi.‬
+‭●‬
+‭Utilizzo‬‭e‬‭svolgimento‬‭di‬‭esercizi/laboratori‬‭ideati‬‭da‬‭M@tabel,‬‭Pristem,‬‭Quaderni‬‭matematici‬‭UMI,‬‭OCSE‬‭-‬
+‭Pisa‬
+‭Animazione‬
+‭●‬
+‭Visione‬‭di‬‭filmati‬‭o‬‭lettura‬‭di‬‭articoli‬‭di‬‭giornale‬‭che‬‭stimolino‬‭il‬‭dibattito‬‭sui‬‭valori‬‭che‬‭identificano‬‭un‬‭“buon‬
+‭cristiano ed un onesto cittadino”‬
+‭●‬
+‭Organizzazione di momenti ricreativi e formativi per sviluppare l’inclusione e la relazione tra pari e non‬
+‭●‬
+‭Organizzazione di giornate o momenti di spiritualità‬
+‭16‬
+
+---
+
+## Pagina 18
+
+‭●‬
+‭Raccolta‬‭di‬‭generi‬‭di‬‭prima‬‭necessità‬‭o‬‭vendita‬‭di‬‭prodotti‬‭per‬‭sostenere‬‭le‬‭associazioni‬‭di‬‭volontariato‬
+‭locale‬
+‭●‬
+‭Incontro con testimoni esterni‬
+‭●‬
+‭Partecipazione ad eventi organizzati dalla Pastorale Giovanile Salesiana‬
+‭●‬
+‭Educazione‬‭ambientale:‬‭l’ambiente‬‭scolastico‬‭viene‬‭curato‬‭e‬‭preparato‬‭con‬‭cartelloni‬‭e‬‭oggettistica‬‭al‬‭fine‬
+‭di aiutare gli allievi a sentirsi parte integrante e attiva‬
+‭Nuove metodologie‬
+‭●‬
+‭Debate‬
+‭●‬
+‭Flipped‬ ‭classroom:‬ ‭gli‬ ‭allievi‬ ‭studiano‬ ‭in‬ ‭anticipo‬ ‭i‬ ‭contenuti‬ ‭(su‬ ‭supporti‬ ‭video‬ ‭o‬ ‭cartacei).‬ ‭In‬‭classe‬
+‭condividono‬‭le‬‭conoscenze‬‭e‬‭affrontano‬‭esercizi‬‭di‬‭difficoltà‬‭crescente‬‭per‬‭verificare‬‭la‬‭progressione‬‭del‬
+‭loro apprendimento.‬
+‭●‬
+‭Jigsaw:‬‭l’insegnante‬‭divide‬‭la‬‭classe‬‭in‬‭gruppi‬‭e‬‭assegna‬‭a‬‭ciascun‬‭componente‬‭una‬‭parte‬‭dell’‬‭argomento‬
+‭da‬‭affrontare.‬‭Si‬‭sceglie‬‭un‬‭leader‬‭che‬‭aiuti‬‭il‬‭gruppo‬‭a‬‭non‬‭perdere‬‭l’obiettivo‬‭generale.‬‭Ogni‬‭studente‬‭del‬
+‭gruppo‬‭può‬‭confrontarsi‬‭con‬‭il‬‭suo‬‭omologo‬‭negli‬‭altri‬‭gruppi‬‭e‬‭verificare‬‭di‬‭aver‬‭compreso‬‭la‬‭sua‬‭parte.‬
+‭Alla‬ ‭fine‬ ‭l’insegnante‬ ‭verifica‬ ‭l’apprendimento‬ ‭di‬ ‭ogni‬ ‭gruppo,‬ ‭che‬ ‭è‬ ‭frutto‬ ‭di‬ ‭lavoro‬ ‭personale‬ ‭e‬ ‭di‬
+‭condivisione tra pari.‬
+‭●‬
+‭Peer‬ ‭tutoring:‬ ‭lo‬ ‭studente‬ ‭più‬ ‭esperto‬ ‭in‬ ‭un‬ ‭particolare‬ ‭argomento‬ ‭assume‬ ‭il‬ ‭ruolo‬ ‭di‬ ‭tutor‬ ‭e‬ ‭aiuta‬ ‭il‬
+‭compagno‬ ‭più‬ ‭debole‬ ‭a‬ ‭comprendere‬ ‭l’argomento,‬ ‭prima‬ ‭con‬ ‭una‬ ‭breve‬ ‭spiegazione‬ ‭e‬ ‭in‬ ‭seguito‬
+‭sottoponendo al compagno domande o esercizi per implementare la sua conoscenza.‬
+‭●‬
+‭Problem‬ ‭solving:‬ ‭gli‬ ‭allievi‬ ‭cercano‬ ‭di‬ ‭risolvere,‬ ‭in‬ ‭ottica‬ ‭cooperativa,‬ ‭un‬ ‭problema‬ ‭nuovo‬ ‭proposto‬
+‭dall’insegnante,‬‭attingendo‬‭a‬‭vari‬‭strumenti‬‭e‬‭informazioni.‬‭Alla‬‭fine‬‭verifica‬‭la‬‭bontà‬‭della‬‭sua‬‭soluzione‬‭in‬
+‭termini scientifici.‬
+‭●‬
+‭pensiero‬ ‭Stem/‬ ‭Stream:‬ ‭gli‬ ‭allievi‬ ‭applicando‬ ‭le‬ ‭fasi‬ ‭del‬ ‭metodo‬ ‭scientifico‬ ‭cercano‬ ‭di‬ ‭descrivere‬ ‭e‬
+‭dimostrare‬ ‭un‬ ‭fenomeno‬‭proprio‬‭della‬‭loro‬‭realtà‬‭quotidiana.‬‭L’approccio‬‭è‬‭laboratoriale‬‭e‬‭sostenuto‬‭da‬
+‭letture specifiche‬
+‭Musica‬
+‭Nello‬ ‭studio‬ ‭della‬ ‭musica‬ ‭pratica‬ ‭si‬ ‭è‬ ‭voluto‬ ‭superare‬ ‭l'impostazione‬ ‭tradizionale‬ ‭che‬ ‭si‬ ‭è‬ ‭sempre‬ ‭basata‬
+‭sull'utilizzo‬‭di‬‭strumenti‬‭propedeutici‬‭(ORFF)‬‭preferendo‬‭introdurre‬‭l'apprendimento‬‭e‬‭l'uso‬‭di‬‭strumenti‬‭musicali‬
+‭autentici‬‭della‬‭tradizione‬‭musicale‬‭colta‬‭e‬‭di‬‭quella‬‭moderna.‬‭Gli‬‭studenti‬‭con‬‭preparazione‬‭strumentale‬‭pregressa‬
+‭trovano‬‭un‬‭ambiente‬‭adatto‬‭a‬‭spendere‬‭le‬‭loro‬‭competenze‬‭in‬‭modo‬‭pieno‬‭e‬‭stimolante‬‭mentre‬‭gli‬‭altri‬‭possono‬
+‭scoprire‬‭e‬‭coltivare‬‭il‬‭loro‬‭talento‬‭misurandosi‬‭direttamente‬‭con‬‭strumenti‬‭reali‬‭e‬‭riconoscibili.‬‭Il‬‭lavoro‬‭durante‬‭le‬
+‭ore‬ ‭curricolari‬ ‭si‬ ‭basa‬ ‭sull'assegnazione‬ ‭e‬ ‭l'esecuzione‬ ‭di‬ ‭brani‬ ‭d'orchestra‬ ‭appositamente‬ ‭arrangiati‬ ‭a‬ ‭scopi‬
+‭didattici‬‭ed‬‭è‬‭data‬‭la‬‭possibilità‬‭di‬‭affinare‬‭le‬‭proprie‬‭capacità‬‭durante‬‭i‬‭laboratori‬‭di‬‭studio‬‭pomeridiani.‬‭L'aula‬‭di‬
+‭musica è stata dotata di tutti i mezzi adatti a raggiungere lo scopo.‬
+‭Italiano‬
+‭Attività‬ ‭laboratoriale‬ ‭dedicata‬ ‭alla‬‭scrittura‬‭e‬‭alla‬‭lettura‬‭basata‬‭sul‬‭metodo‬‭del‬‭Writing‬‭and‬‭Reading‬‭workshop,‬
+‭metodologia‬‭americana‬‭nata‬‭intorno‬‭agli‬‭anni‬‭Settanta‬‭e‬‭importata‬‭in‬‭Italia‬‭da‬‭qualche‬‭anno‬‭(e‬‭che‬‭mira,‬‭in‬‭estrema‬
+‭sintesi,‬‭a‬‭focalizzare‬‭l’attenzione‬‭dell’allievo‬‭non‬‭tanto‬‭sul‬‭prodotto‬‭finito‬‭e‬‭sulla‬‭conseguente‬‭valutazione,‬‭quanto‬
+‭piuttosto‬ ‭sul‬ ‭processo‬ ‭che‬ ‭ha‬ ‭portato‬ ‭a‬ ‭quel‬‭prodotto‬‭e‬‭a‬‭un’attività‬‭di‬‭metacognizione‬‭che‬‭porti‬‭ogni‬‭singolo‬
+‭studente‬‭a‬‭riflettere‬‭su‬‭quanto‬‭fatto,‬‭sulle‬‭scelte‬‭compiute‬‭e‬‭su‬‭una‬‭possibile‬‭autovalutazione‬‭condotta‬‭attraverso‬
+‭griglie di valutazione condivise tra docenti e allievi).‬
+‭Aspetti innovativi strutturali‬
+‭Tecnologie nella didattica‬
+‭L'esperienza‬ ‭della‬ ‭DAD‬ ‭ha‬ ‭fornito‬ ‭alcune‬ ‭essenziali‬ ‭competenze‬ ‭digitali‬ ‭che‬ ‭sono‬ ‭andate‬ ‭ad‬ ‭integrare‬ ‭le‬
+‭metodologie‬ ‭didattiche‬ ‭già‬ ‭in‬ ‭essere.‬ ‭In‬ ‭particolare‬ ‭i‬ ‭docenti‬ ‭utilizzano‬ ‭i‬ ‭servizi‬ ‭di‬ ‭Google‬ ‭Workspace‬ ‭per‬ ‭la‬
+‭condivisione‬‭dei‬‭materiali,‬‭per‬‭centralizzare‬‭i‬‭repository‬‭sul‬‭drive‬‭e‬‭su‬‭classroom‬‭facilitando‬‭la‬‭distribuzione‬‭e‬‭la‬
+‭raccolta‬ ‭di‬ ‭schemi,‬‭mappe‬‭concettuali,‬‭lezioni‬‭di‬‭approfondimento‬‭e‬‭materiali‬‭per‬‭il‬‭recupero‬‭delle‬‭competenze‬
+‭aumentando contestualmente anche gli strumenti di inclusione.‬
+‭Sul‬ ‭versante‬ ‭rapporti‬ ‭scuola/famiglia,‬ ‭gli‬ ‭strumenti‬ ‭di‬ ‭comunicazione‬ ‭scelti‬ ‭per‬ ‭i‬ ‭colloqui‬ ‭a‬ ‭distanza,‬‭ove‬‭non‬
+‭diversamente‬‭richiesto‬‭dall'istituto,‬‭sono‬‭Google‬‭Chat‬‭e‬‭Google‬‭Meet.‬‭Questo‬‭sistema‬‭permette‬‭le‬‭comunicazioni‬
+‭senza‬‭la‬‭condivisione‬‭di‬‭dati‬‭privati‬‭come‬‭numeri‬‭di‬‭telefono‬‭o‬‭mail‬‭personali‬‭poiché‬‭è‬‭configurato‬‭per‬‭funzionare‬
+‭esclusivamente tramite gli account scolastici.‬
+‭17‬
+
+---
+
+## Pagina 19
+
+‭Gestione documenti condivisi‬
+‭L’Istituto‬‭ha‬‭sviluppato‬‭una‬‭serie‬‭di‬‭software‬‭proprietari,‬‭che‬‭sfruttano‬‭e‬‭ampliano‬‭le‬‭funzionalità‬‭della‬‭piattaforma‬
+‭cloud‬ ‭Google‬ ‭Workspace‬ ‭attraverso‬ ‭l’impiego‬ ‭programmatico‬ ‭di‬ ‭script,‬ ‭app‬ ‭e‬
+‭intelligenza‬ ‭artificiale‬ ‭per‬ ‭la‬
+‭condivisione‬ ‭di‬‭file‬‭e‬‭cartelle‬‭e‬‭per‬‭la‬‭creazione,‬‭la‬‭compilazione‬‭e‬‭l'archiviazione‬‭di‬‭tutti‬‭i‬‭documenti‬‭interni‬‭ed‬
+‭esterni :‬
+‭●‬
+‭Anagrafiche generali‬
+‭●‬
+‭Integrazioni con il registro elettronico‬
+‭●‬
+‭Anagrafiche di ruolo e assegnazione di cattedre‬
+‭●‬
+
+## ‭Pdp‬
+
+‭●‬
+‭Verbali delle riunioni‬
+‭●‬
+‭Documenti di sintesi‬
+‭●‬
+‭Programmazioni di classe e di materia‬
+‭●‬
+‭Relazioni di classe e di materia‬
+‭●‬
+‭Documenti interni relativi alla gestione del personale‬
+‭●‬
+‭Gestione delle elezioni d’istituto e iscrizione ai laboratori extracurricolari interni‬
+‭●‬
+‭Calendari di lavoro‬
+‭●‬
+‭Form di intervista e sondaggio‬
+‭La‬‭creazione‬‭dei‬‭documenti‬‭segue‬‭un‬‭rigido‬‭workflow‬‭che,‬‭partendo‬‭da‬‭dati‬‭centralizzati‬‭e‬‭verificati,‬‭fornisce‬‭in‬
+‭sicurezza‬‭gli‬‭stessi‬‭aggiornati‬‭e‬‭sicuri.‬‭La‬‭formattazione‬‭dei‬‭documenti‬‭è‬‭univoca‬‭e‬‭i‬‭documenti‬‭sono‬‭tutelati‬‭da‬
+‭manomissioni,‬‭divulgazioni‬‭colpose‬‭o‬‭dolose‬‭come‬‭da‬‭cancellazioni‬‭volontarie‬‭o‬‭involontarie.‬‭Tutte‬‭le‬‭operazioni‬
+‭sono‬‭sottoposte‬‭alle‬‭condizioni‬‭predeterminate‬‭dall’admin‬‭sugli‬‭account‬‭scolastici‬‭e‬‭aziendali‬‭e‬‭gestite‬‭dai‬‭livelli‬‭di‬
+‭accesso.‬
+‭Cittadinanza attiva/educazione salesiana‬
+‭L’identità‬‭cattolica‬‭della‬‭scuola‬‭salesiana‬‭si‬‭muove‬‭in‬‭sintonia‬‭con‬‭i‬‭valori‬‭della‬‭convivenza‬‭civile,‬‭rapportandosi‬‭con‬
+‭le‬ ‭nuove‬ ‭generazioni‬ ‭in‬ ‭modo‬ ‭da‬ ‭essere‬ ‭immersa‬ ‭nella‬ ‭contemporaneità‬ ‭ma‬ ‭tenendo‬ ‭ben‬ ‭saldi‬ ‭i‬ ‭principi‬ ‭del‬
+‭carisma;‬‭in‬‭questo‬‭modo‬‭si‬‭riesce‬‭a‬‭coinvolgere‬‭spesso‬‭in‬‭attività‬‭“comuni”‬‭anche‬‭allievi‬‭non‬‭sempre‬‭pienamente‬
+‭motivati‬‭agli‬‭aspetti‬‭meramente‬‭spirituali‬‭della‬‭vita‬‭della‬‭scuola‬‭e‬‭si‬‭assiste‬‭in‬‭seguito‬‭ad‬‭una‬‭loro‬‭maturazione‬
+‭personale che potrà essere da stimolo al proseguimento anche in un cammino di fede.‬
+‭Attività cooperative‬
+‭Sia‬ ‭al‬ ‭livello‬ ‭degli‬ ‭insegnamenti‬ ‭curricolari‬ ‭che‬ ‭nell’impostazione‬ ‭delle‬ ‭diverse‬ ‭attività‬ ‭previste‬ ‭dal‬ ‭Progetto‬
+‭d’Istituto‬‭si‬‭sollecitano‬‭gli‬‭allievi‬‭a‬‭lavorare‬‭in‬‭gruppo‬‭(anche‬‭in‬‭ambiente‬‭virtuale)‬‭in‬‭quanto‬‭uno‬‭dei‬‭principi‬‭cardine‬
+‭della‬‭scuola‬‭salesiana‬‭in‬‭particolare‬‭è‬‭far‬‭vivere‬‭la‬‭scuola‬‭come‬‭comunità‬‭ed‬‭unificare‬‭aula‬‭e‬‭cortile‬‭come‬‭luoghi‬‭di‬
+‭relazione in cui si cresce attraverso il contatto con gli altri, in un’ ottica di solidarietà, amicizia ed inclusività.‬
+‭Informatica e nuove tecnologie‬
+‭Oltre‬‭a‬‭quanto‬‭già‬‭segnalato‬‭nella‬‭sezione‬‭“Tecnologie‬‭nella‬‭Didattica”‬‭e‬‭come‬‭richiamato‬‭anche‬‭in‬‭altre‬‭parti‬‭del‬
+‭presente‬‭documento,‬‭la‬‭scuola‬‭ha‬‭adottato‬‭la‬‭piattaforma‬‭informatica‬‭Google‬‭Workspace‬‭(ex‬‭gsuite‬‭for‬‭education)‬
+‭che,‬‭con‬‭i‬‭servizi‬‭Gmail,‬‭Chat,‬‭Meet‬‭e‬‭Calendar,‬‭ha‬‭consentito‬‭di‬‭rimanere‬‭sempre‬‭in‬‭contatto‬‭con‬‭allievi‬‭e‬‭famiglie‬
+‭anche‬‭nei‬‭momenti‬‭del‬‭lockdown‬‭totale‬‭senza‬‭perdere‬‭mai‬‭la‬‭possibilità‬‭di‬‭fare‬‭lezione‬‭e‬‭di‬‭comunicare;‬‭anche‬‭nel‬
+‭momento‬ ‭del‬ ‭ritorno‬ ‭alla‬ ‭Didattica‬ ‭in‬ ‭presenza,‬ ‭tali‬ ‭sistemi‬ ‭sono‬ ‭ancora‬ ‭attivi‬ ‭e‬ ‭permettono‬ ‭di‬ ‭arricchire‬ ‭e‬
+‭diversificare‬‭la‬‭Didattica‬‭attraverso‬‭l’utilizzo‬‭pressoché‬‭quotidiano‬‭delle‬‭classi‬‭virtuali‬‭da‬‭parte‬‭di‬‭docenti‬‭e‬‭allievi‬‭e‬
+‭di‬‭velocizzare‬‭quando‬‭opportuno‬‭e‬‭necessario‬‭i‬‭contatti‬‭tra‬‭famiglie‬‭e‬‭docenti‬‭almeno‬‭per‬‭le‬‭comunicazioni‬‭meno‬
+‭impegnative.‬
+‭E’‬‭possibile‬‭svolgere‬‭on‬‭line‬‭(laddove‬‭questo‬‭venga‬‭naturalmente‬‭consentito‬‭dalla‬‭legislazione‬‭scolastica,‬‭anche‬
+‭valutando le possibilità offerte dal principio dell’autonomia):‬
+‭●‬
+‭le‬‭elezioni‬‭degli‬‭Organi‬‭collegiali‬‭(rinnovo‬‭della‬‭componente‬‭Rappresentanti‬‭dei‬‭Genitori‬‭in‬‭seno‬‭ai‬‭Consigli‬‭di‬
+‭classe e del Consiglio d’Istituto)‬
+‭●‬
+‭i colloqui individuali delle famiglie con i docenti‬
+‭●‬
+‭i colloqui dei docenti con strutture esterne/specialisti di riferimento‬
+‭●‬
+‭alcune riunioni degli Organi collegiali non possibili in presenza per motivi logistici‬
+‭●‬
+‭i colloqui per la Continuità con alcune scuole del territorio‬
+‭●‬
+‭questionari di gradimento per le famiglie‬
+‭●‬
+‭compilazione di form per l’adesione ai Laboratori‬
+‭Formazione integrale tra attività curricolari ed extracurricolari‬
+‭I‬‭docenti‬‭osservano‬‭l’allievo‬‭in‬‭un‬‭tempo‬‭scolastico‬‭“dilatato”‬‭che‬‭non‬‭risulta‬‭comprensivo‬‭soltanto‬‭dello‬‭spazio‬
+‭della‬ ‭lezione‬ ‭curricolare,‬ ‭ma‬ ‭si‬ ‭estende‬ ‭agli‬ ‭intervalli,‬ ‭ai‬ ‭Laboratori,‬ ‭ai‬ ‭gruppi-studio,‬ ‭allo‬ ‭studio‬ ‭assistito‬ ‭in‬
+‭18‬
+
+---
+
+## Pagina 20
+
+‭autonomia.‬‭Il‬‭Progetto‬‭educativo‬‭non‬‭è‬‭demandato‬‭ai‬‭docenti‬‭delle‬‭singole‬‭classi,‬‭ma‬‭coinvolge,‬‭nel‬‭rispetto‬‭dei‬
+‭ruoli, delle responsabilità, degli specifici compiti, tutte le figure di educatori presenti in Istituto.‬
+‭Le‬‭attività‬‭extracurricolari‬‭vengono‬‭progettate‬‭in‬‭modo‬‭coerente‬‭con‬‭i‬‭contenuti‬‭disciplinari,‬‭ma‬‭tenendo‬‭presente‬‭i‬
+‭diversi‬ ‭“talenti”‬‭che‬‭caratterizzano‬‭le‬‭personalità‬‭degli‬‭adolescenti,‬‭dando‬‭spazio‬‭anche‬‭ad‬‭aspetti‬‭poco‬‭tradizionali‬
+‭e‬‭meno‬‭esplorati‬‭delle‬‭dinamiche‬‭di‬‭apprendimento.‬‭L’adesione‬‭alle‬‭attività‬‭extracurricolari‬‭è‬‭frutto‬‭di‬‭una‬‭scelta‬
+‭opzionale,‬ ‭che‬ ‭pertanto‬ ‭presuppone‬ ‭maggiore‬ ‭motivazione‬ ‭da‬ ‭parte‬‭degli‬‭allievi‬‭e‬‭delle‬‭famiglie‬‭che‬‭in‬‭essa‬‭li‬
+‭supportano‬‭e‬‭ciò‬‭garantisce‬‭in‬‭genere‬‭un‬‭buon‬‭livello‬‭di‬‭interesse‬‭e‬‭partecipazione,‬‭specialmente‬‭se‬‭essi‬‭possono‬
+‭tradursi‬ ‭in‬ ‭“prodotti”‬ ‭o‬ ‭prestazioni‬ ‭autentiche‬ ‭da‬ ‭far‬ ‭fruire‬ ‭anche‬ ‭ad‬ ‭un‬ ‭pubblico‬ ‭esterno.‬ ‭A‬ ‭partire‬ ‭dall’anno‬
+‭scolastico 2024/25 per i partecipanti ai laboratori extracurriculari è richiesto un esiguo contributo econimico.‬
+‭Compiti di realtà‬
+‭Nelle‬‭giornate‬‭di‬‭Open‬‭day‬‭sono‬‭gli‬‭allievi‬‭ad‬‭essere‬‭i‬‭principali‬‭protagonisti‬‭nella‬‭presentazione‬‭della‬‭scuola‬‭e‬‭delle‬
+‭sue attività alle famiglie dei futuri allievi. Essi mettono in campo diverse competenze:‬
+‭●‬
+‭disciplinari:‬‭matematico-scientifiche‬‭(organizzazione‬‭di‬‭esperimenti‬‭in‬‭Laboratorio),‬‭musicali‬‭(prove‬‭pratiche‬‭di‬
+‭musica‬‭in‬‭band‬‭o‬‭in‬‭orchestra‬‭guidati‬‭dal‬‭docente‬‭o‬‭in‬‭autonomia),‬‭linguistiche‬‭(Laboratori‬‭di‬‭lettura,‬‭scenette‬
+‭in Lingua Inglese e Francese, conversazione orale in Inglese)‬
+‭●‬
+‭sociali‬‭e‬‭civiche:‬‭organizzazione‬‭di‬‭tour‬‭guidati‬‭nell’istituto‬‭come‬‭veri‬‭e‬‭propri‬‭“Ciceroni”,‬‭in‬‭cui‬‭mettersi‬‭alla‬
+‭prova‬ ‭nel‬‭parlare‬‭in‬‭pubblico,‬‭fornire‬‭spiegazioni‬‭pertinenti‬‭a‬‭domande‬‭poste‬‭sul‬‭momento,‬‭dividere‬‭ruoli‬‭e‬
+‭compiti all’interno del proprio gruppo per distribuire gli incarichi, assumere responsabilità personali‬
+‭Progetti‬
+‭Teatro‬
+‭Il‬ ‭Progetto,‬ ‭che‬ ‭si‬‭è‬‭attivato‬‭per‬‭l’a.s.‬‭2021/2022,‬‭si‬‭costituisce‬‭come‬‭un‬‭vero‬‭e‬‭proprio‬‭laboratorio,‬‭in‬‭cui‬‭ogni‬
+‭ragazzo‬‭diventa‬‭protagonista‬‭delle‬‭attività‬‭che‬‭verranno‬‭proposte.‬‭Aperto‬‭alle‬‭classi‬‭Seconde‬‭e‬‭Terze,‬‭il‬‭Progetto‬
+‭mirava‬‭all’allestimento‬‭di‬‭uno‬‭spettacolo‬‭durante‬‭il‬‭mese‬‭di‬‭gennaio‬‭2022.‬‭Il‬‭corso,‬‭che‬‭ha‬‭inizio‬‭nel‬‭mese‬‭di‬‭ottobre,‬
+‭si sviluppa in due parti:‬
+‭●‬
+‭la‬‭prima,‬‭dedicata‬‭alla‬‭conoscenza‬‭reciproca‬‭del‬‭gruppo‬‭e‬‭ai‬‭fondamenti‬‭del‬‭teatro‬‭(voce,‬‭improvvisazione,‬‭uso‬
+‭del corpo) attraverso una serie di esercizi propedeutici allo sviluppo delle abilità di base dell’attore;‬
+‭●‬
+‭la‬‭seconda,‬‭invece‬‭-‬‭e‬‭più‬‭cospicua,‬‭alla‬‭messa‬‭in‬‭scena‬‭dello‬‭spettacolo‬‭con‬‭le‬‭prove‬‭e‬‭la‬‭preparazione‬‭di‬‭tutto‬
+‭quanto servirà sul palcoscenico.‬
+‭Il‬ ‭percorso‬ ‭del‬‭laboratorio‬‭punta‬‭soprattutto‬‭all’acquisizione‬‭di‬‭migliori‬‭capacità‬‭espressive,‬‭sia‬‭verbali‬‭che‬‭non‬
+‭verbali,‬‭di‬‭una‬‭maggiore‬‭consapevolezza‬‭di‬‭sé‬‭e‬‭delle‬‭proprie‬‭relazioni‬‭con‬‭gli‬‭altri‬‭(consapevolezza‬‭necessaria‬‭alla‬
+‭comunicazione‬ ‭di‬ ‭idee,‬ ‭bisogni‬ ‭o‬ ‭desideri‬ ‭e‬ ‭nell’ottica‬ ‭di‬ ‭una‬ ‭sempre‬ ‭maggiore‬ ‭inclusività,‬ ‭intesa‬ ‭come‬
+‭riconoscimento‬ ‭dei‬ ‭pregi‬ ‭e‬ ‭delle‬ ‭fragilità‬ ‭degli‬ ‭altri),‬ ‭e‬ ‭al‬ ‭raggiungimento‬ ‭della‬ ‭capacità‬ ‭di‬ ‭collaborare‬ ‭ad‬ ‭un‬
+‭progetto collettivo in modo responsabile e rispettoso.‬
+‭Il‬‭Progetto,‬‭che‬‭è‬‭stato‬‭attivato‬‭nuovamente‬‭per‬‭l’a.s.‬‭2024/2025,‬‭si‬‭costituisce‬‭come‬‭un‬‭vero‬‭e‬‭proprio‬‭laboratorio,‬
+‭in cui ogni ragazzo diventa protagonista delle attività che verranno proposte. Aperto alle classi Seconde e Terze.‬
+‭L’accesso è stato limitato a un massimo di 20 partecipanti.‬
+‭Metodo‬ ‭di‬ ‭studio‬ ‭Il‬‭Laboratorio,‬‭indirizzato‬‭agli‬‭allievi‬‭delle‬‭classi‬‭prime,‬‭propone‬‭e‬‭approfondisce‬‭il‬‭corretto‬‭ed‬
+‭efficace‬ ‭utilizzo‬ ‭degli‬ ‭strumenti‬ ‭di‬ ‭studio‬ ‭sia‬ ‭di‬ ‭carattere‬ ‭più‬ ‭tradizionale‬ ‭che‬ ‭attraverso‬‭l’impiego‬‭delle‬‭nuove‬
+‭tecnologie.‬ ‭L’apprendimento‬ ‭di‬ ‭tecniche‬ ‭astratte‬ ‭ed‬ ‭operative‬ ‭consente‬ ‭agli‬ ‭studenti‬‭di‬‭ricercare‬‭e‬‭sviluppare‬‭i‬
+‭metodi‬‭di‬‭studio‬‭più‬‭adatti‬‭alle‬‭loro‬‭esigenze‬‭e‬‭inclinazioni‬‭in‬‭un‬‭clima‬‭sereno‬‭di‬‭sperimentazione‬‭e‬‭verifica‬‭delle‬
+‭proprie competenze.‬
+‭Risulta‬ ‭innovativo,‬ ‭oltre‬ ‭alla‬ ‭proposta‬ ‭didattica,‬ ‭sempre‬ ‭aggiornata‬ ‭rispetto‬ ‭a‬ ‭eventuali‬ ‭software‬ ‭operativi‬ ‭da‬
+‭presentare‬‭agli‬‭allievi,‬‭condurre‬‭una‬‭specifica‬‭attività‬‭di‬‭avviamento‬‭al‬‭metodo‬‭di‬‭studio‬‭in‬‭maniera‬‭trasversale‬‭alle‬
+‭varie‬‭sezioni‬‭delle‬‭classi‬‭prime,‬‭attraverso‬‭la‬‭turnazione‬‭di‬‭diversi‬‭docenti‬‭nonché‬‭delle‬‭discipline‬‭di‬‭applicazione;‬‭il‬
+‭percorso‬‭si‬‭completa‬‭con‬‭una‬‭prova‬‭valutata‬‭interdisciplinare‬‭che‬‭prevede‬‭l'utilizzo‬‭combinato‬‭di‬‭strumenti‬‭cartacei‬
+‭e multimediali.‬
+‭19‬
+
+---
+
+## Pagina 21
+
+‭Offerta formativa‬
+‭Profilo educativo culturale e professionale‬
+‭La‬ ‭Scuola‬ ‭Secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”‬ ‭Paritaria,‬ ‭ispirata‬ ‭al‬ ‭principio‬ ‭della‬ ‭centralità‬ ‭della‬ ‭persona‬ ‭che‬
+‭apprende,‬‭attribuisce‬‭grande‬‭importanza‬‭alla‬‭relazione‬‭educativa‬‭e‬‭ai‬‭metodi‬‭didattici‬‭capaci‬‭di‬‭attivare‬‭pienamente‬
+‭le‬‭energie‬‭e‬‭le‬‭potenzialità‬‭di‬‭ogni‬‭ragazzo,‬‭al‬‭fine‬‭di‬‭riportare‬‭i‬‭molti‬‭apprendimenti‬‭che‬‭il‬‭mondo‬‭oggi‬‭offre‬‭entro‬‭un‬
+‭unico‬‭percorso‬‭strutturante.‬‭Lo‬‭studente‬‭al‬‭termine‬‭del‬‭primo‬‭ciclo,‬‭attraverso‬‭gli‬‭apprendimenti‬‭sviluppati‬‭a‬‭scuola,‬
+‭lo‬‭studio‬‭personale,‬‭le‬‭esperienze‬‭educative‬‭vissute‬‭in‬‭famiglia‬‭e‬‭nella‬‭comunità,‬‭è‬‭in‬‭grado‬‭di‬‭iniziare‬‭ad‬‭affrontare‬
+‭in‬‭autonomia‬‭e‬‭con‬‭responsabilità‬‭le‬‭situazioni‬‭di‬‭vita‬‭tipiche‬‭della‬‭propria‬‭età‬‭riflettendo‬‭ed‬‭esprimendo‬‭la‬‭propria‬
+‭personalità in tutte le sue dimensioni.‬
+‭Il‬‭profilo‬‭educativo,‬‭culturale‬‭e‬‭professionale‬‭dello‬‭studente‬‭costituisce‬‭la‬‭bussola‬‭per‬‭la‬‭determinazione‬‭sia‬‭degli‬
+‭obiettivi‬ ‭generali‬ ‭del‬ ‭processo‬ ‭formativo‬ ‭sia‬ ‭degli‬ ‭obiettivi‬ ‭specifici‬ ‭di‬ ‭apprendimento‬ ‭dettati‬ ‭dalle‬ ‭Indicazioni‬
+‭nazionali‬ ‭e‬ ‭dal‬ ‭Progetto‬ ‭Educativo‬ ‭Nazionale‬ ‭delle‬ ‭Scuole‬ ‭Salesiane.‬ ‭Esso‬ ‭sottolinea‬ ‭come‬ ‭culturale‬ ‭e‬
+‭professionale‬‭siano‬‭strettamente‬‭integrati‬‭tra‬‭loro‬‭e‬‭come‬‭il‬‭sapere‬‭e‬‭il‬‭fare,‬‭appresi‬‭in‬‭ambiti‬‭formali‬‭(scuola)‬‭e/o‬
+‭informali,‬‭concorrano‬‭alla‬‭formazione‬‭integrale‬‭dell’alunno,‬‭nella‬‭misura‬‭in‬‭cui‬‭siano‬‭effettivamente‬‭diventati‬‭sue‬
+‭competenze‬‭personali.‬‭Tale‬‭profilo‬‭delinea‬‭infatti‬‭i‬‭tratti‬‭di‬‭ciò‬‭che‬‭un‬‭allievo‬‭è‬‭in‬‭quanto‬‭persona‬‭che‬‭vive‬‭nella‬
+‭società,‬‭all’interno‬‭della‬‭quale‬‭deve‬‭affrontare‬‭problemi‬‭e‬‭sfide.‬‭Nella‬‭scuola‬‭salesiana‬‭esso‬‭non‬‭può‬‭prescindere‬‭da‬
+‭una‬‭visione‬‭cristiana‬‭della‬‭persona,‬‭alla‬‭quale‬‭va‬‭assicurata‬‭una‬‭crescita‬‭nell’ambito‬‭dell’identità,‬‭degli‬‭strumenti‬
+‭culturali e della convivenza civile. Pertanto, nella scuola salesiana e cattolica esso intende promuovere:‬
+‭●‬
+‭l’aspirazione‬ ‭al‬ ‭trascendente‬ ‭come‬ ‭un‬ ‭orizzonte‬ ‭di‬ ‭senso‬ ‭a‬ ‭cui‬ ‭si‬ ‭cerca‬ ‭di‬ ‭indirizzare‬ ‭ogni‬ ‭adolescente,‬
+‭attraverso l’educazione al senso critico;‬
+‭●‬
+‭un’educazione‬ ‭della‬ ‭persona‬ ‭in‬‭modo‬‭armonico‬‭e‬‭completo;‬‭la‬‭tradizione‬‭salesiana‬‭ha‬‭infatti‬‭individuato‬‭4‬
+‭dimensioni‬ ‭del‬ ‭PEPS:‬ ‭la‬ ‭dimensione‬ ‭educativo-culturale,‬ ‭quella‬ ‭dell’evangelizzazione,‬ ‭quella‬ ‭associativa‬ ‭e‬
+‭quella vocazionale, efficaci soltanto se intrecciate fra loro in armonico e carismatico equilibrio;‬
+‭●‬
+‭lo‬‭sguardo‬‭ad‬‭un‬‭modello‬‭di‬‭uomo‬‭credente‬‭che‬‭si‬‭gioca‬‭in‬‭una‬‭relazione‬‭fondata‬‭sull’amore‬‭–‬‭dono‬‭e‬‭che‬
+‭abbia come punto di riferimento un modello cristologico e carismatico volto all’educazione dei giovani;‬
+‭●‬
+‭l’intreccio‬ ‭tra‬ ‭il‬ ‭profilo‬ ‭del‬ ‭buon‬ ‭cristiano‬ ‭e‬ ‭quello‬ ‭dell’onesto‬‭cittadino‬‭in‬‭una‬‭figura‬‭unitaria‬‭avente‬‭come‬
+‭obiettivo‬‭la‬‭santità,‬‭ossia‬‭la‬‭realizzazione‬‭di‬‭sé‬‭in‬‭modo‬‭integrale‬‭in‬‭un‬‭progetto‬‭scolastico‬‭che‬‭diventi‬‭proprio‬‭il‬
+‭punto‬‭di‬‭collegamento‬‭tra‬‭cultura‬‭insegnata/appresa/vissuta‬‭e‬‭fede‬‭annunciata-testimoniata/accolta/vissuta,‬
+‭in cui le due dimensioni siano complementari;‬
+‭●‬
+‭un‬‭progetto‬‭globale‬‭di‬‭educazione‬‭e‬‭di‬‭evangelizzazione‬‭dei‬‭giovani‬‭che,‬‭secondo‬‭l’intuizione‬‭di‬‭Don‬‭Bosco,‬
+‭renda‬ ‭la‬ ‭scuola‬ ‭“uno‬ ‭strumento‬ ‭indispensabile‬ ‭per‬ ‭l’educazione,‬ ‭luogo‬ ‭d’incontro‬ ‭tra‬ ‭cultura‬ ‭e‬ ‭fede,‬ ‭una‬
+‭mediazione‬‭culturale‬‭privilegiata‬‭di‬‭educazione,‬‭un’istituzione‬‭determinante‬‭nella‬‭formazione‬‭della‬‭personalità,‬
+‭perché trasmette una concezione del mondo, dell’uomo e della storia.”‬
+‭Gli‬‭obiettivi‬‭educativi‬‭generali‬‭che‬‭la‬‭scuola‬‭propone‬‭sono‬‭posti‬‭nell'ottica‬‭di‬‭una‬‭cittadinanza‬‭attiva‬‭e‬‭di‬‭un‬‭nuovo‬
+‭umanesimo in sempre più stretta unità con la cultura scientifica:‬
+‭●‬
+‭prevedere‬ ‭i‬ ‭bisogni‬ ‭formativi‬ ‭degli‬ ‭alunni,‬ ‭considerando‬ ‭da‬ ‭un‬ ‭lato‬ ‭quelli‬ ‭indotti‬ ‭dal‬ ‭tessuto‬ ‭sociale‬ ‭e‬
+‭relazionale‬‭in‬‭cui‬‭gli‬‭alunni‬‭vivono‬‭e‬‭dall'altro‬‭i‬‭bisogni‬‭propri‬‭della‬‭persona‬‭sotto‬‭il‬‭profilo‬‭psicologico‬‭(l'essere‬
+‭conosciuto e riconosciuto, valorizzato e sostenuto)‬
+‭●‬
+‭formare‬‭saldamente‬‭ogni‬‭persona‬‭sul‬‭piano‬‭cognitivo‬‭e‬‭culturale,‬‭promuovendo‬‭percorsi‬‭formativi‬‭sempre‬‭più‬
+‭rispondenti alle inclinazioni personali degli studenti‬
+‭●‬
+‭fornire supporti adeguati affinché ogni persona sviluppi un'identità consapevole ed aperta‬
+‭●‬
+‭valorizzare l'unicità e la singolarità dell'identità culturale di ogni studente‬
+‭●‬
+‭garantire‬‭il‬‭successo‬‭scolastico‬‭di‬‭tutti‬‭gli‬‭studenti,‬‭con‬‭una‬‭particolare‬‭attenzione‬‭alle‬‭varie‬‭forme‬‭di‬‭diversità,‬
+‭disabilità o svantaggio‬
+‭●‬
+‭porre lo studente al centro dell'azione educativa‬
+‭●‬
+‭ridurre la frammentazione delle discipline e integrarle in nuovi quadri d'insieme‬
+‭●‬
+‭garantire l’unitarietà dell'azione educativa (famiglia, territorio, continuità fra diversi ordini di scuola)‬
+‭●‬
+‭fornire le strategie per un'educazione permanente (imparare ad apprendere, imparare ad essere)‬
+‭●‬
+‭promuovere la capacità di cogliere gli aspetti essenziali dei problemi‬
+‭●‬
+‭proporre un'educazione che spinga l'alunno a far scelte autonome e propositive‬
+‭●‬
+‭promuovere‬‭la‬‭relazione‬‭con‬‭gli‬‭altri‬‭(con‬‭adulti‬‭e‬‭fra‬‭pari)‬‭in‬‭un‬‭contesto‬‭di‬‭convivialità‬‭intessuta‬‭di‬‭linguaggi‬
+‭affettivi ed emotivi‬
+‭●‬
+‭educare alla cittadinanza unitaria e plurale, tra microcosmo personale e macrocosmo dell'umanità‬
+‭●‬
+‭sostenere‬‭una‬‭nuova‬‭alleanza‬‭tra‬‭scienza,‬‭storia,‬‭discipline‬‭umanistiche,‬‭arti‬‭e‬‭tecnologie‬‭nella‬‭nascita‬‭di‬‭un‬
+‭nuovo umanesimo‬
+‭20‬
+
+---
+
+## Pagina 22
+
+‭Traguardi in uscita e competenze attese‬
+‭Nel‬‭Profilo‬‭sono‬‭descritte,‬‭in‬‭forma‬‭essenziale,‬‭le‬‭competenze‬‭riferite‬‭alle‬‭discipline‬‭di‬‭insegnamento‬‭e‬‭al‬‭pieno‬
+‭esercizio della cittadinanza che un ragazzo deve mostrare di possedere al termine del primo ciclo di istruzione:‬
+‭●‬
+‭ha consapevolezza delle proprie potenzialità e dei propri limiti‬
+‭●‬
+‭orienta‬ ‭le‬ ‭proprie‬ ‭scelte‬ ‭in‬ ‭modo‬ ‭consapevole,‬ ‭rispetta‬ ‭le‬ ‭regole‬ ‭condivise,‬ ‭collabora‬ ‭con‬ ‭gli‬ ‭altri‬ ‭per‬ ‭la‬
+‭costruzione del bene comune esprimendo le proprie personali opinioni e sensibilità‬
+‭●‬
+‭dimostra‬ ‭una‬ ‭padronanza‬ ‭della‬ ‭lingua‬ ‭italiana‬ ‭tale‬ ‭da‬ ‭consentirgli‬ ‭di‬ ‭comprendere‬ ‭enunciati‬ ‭e‬ ‭testi‬
+‭comunicando le proprie idee‬
+‭●‬
+‭nell’incontro‬‭con‬‭persone‬‭di‬‭diverse‬‭nazionalità‬‭è‬‭in‬‭grado‬‭di‬‭esprimersi‬‭a‬‭livello‬‭elementare‬‭in‬‭lingua‬‭inglese‬‭e‬
+‭di affrontare una comunicazione essenziale, in semplici situazioni di vita quotidiana‬
+‭●‬
+‭ha‬‭maturato‬‭conoscenze‬‭matematiche‬‭e‬‭scientifico-tecnologiche‬‭che‬‭gli‬‭consentono‬‭di‬‭analizzare‬‭dati‬‭e‬‭fatti‬
+‭della realtà‬
+‭●‬
+‭si orienta nello spazio e nel tempo dando espressione a curiosità e ricerca di senso‬
+‭●‬
+‭osserva ed interpreta ambienti, fatti, fenomeni, produzioni artistiche, musicali e teatrali‬
+‭●‬
+‭ha le competenze digitali per ricercare e analizzare dati ed informazioni‬
+‭●‬
+‭ha cura e rispetto di sé, come presupposto di un sano e corretto stile di vita‬
+‭●‬
+‭assimila il senso e la necessità del rispetto della convivenza civile‬
+‭●‬
+‭ha‬‭attenzione‬‭per‬‭le‬‭funzioni‬‭pubbliche‬‭alle‬‭quali‬‭partecipa‬‭nelle‬‭diverse‬‭forme‬‭in‬‭cui‬‭questo‬‭può‬‭avvenire‬‭e‬‭in‬
+‭apertura‬ ‭al‬ ‭territorio:‬ ‭momenti‬ ‭educativi‬ ‭formali‬ ‭e‬ ‭non‬ ‭formali,‬ ‭esposizione‬ ‭pubblica‬ ‭del‬ ‭proprio‬ ‭lavoro,‬
+‭occasioni‬‭rituali‬‭nelle‬‭comunità‬‭che‬‭frequenta,‬‭azioni‬‭di‬‭solidarietà,‬‭manifestazioni‬‭sportive‬‭non‬‭agonistiche,‬
+‭volontariato, ecc.‬
+‭Tale‬‭Profilo‬‭dello‬‭studente‬‭in‬‭uscita‬‭va‬‭integrato‬‭con‬‭i‬‭nuovi‬‭Traguardi‬‭previsti‬‭per‬‭l’Educazione‬‭civica‬‭nelle‬‭Linee‬
+‭Guida‬‭emanate‬‭dal‬‭MIUR‬‭il‬‭22‬‭Giugno‬‭2020‬‭(ALLEGATO‬‭B),‬‭riportati‬‭nel‬‭Curricolo‬‭di‬‭educazione‬‭Civica‬‭allegato‬‭al‬
+‭presente PTOF.‬
+‭Insegnamenti e quadri orario‬
+
+## ‭Calendario‬
+
+‭La‬‭programmazione‬‭per‬‭il‬‭triennio‬‭scolastico‬‭2022/25‬‭si‬‭basa‬‭sulle‬‭indicazioni‬‭ministeriali‬‭e‬‭regionali‬‭per‬‭quanto‬
+‭riguarda il numero di giorni previsti per le attività didattiche.‬
+‭Il‬ ‭calendario‬ ‭scolastico‬ ‭programmato‬ ‭garantisce‬ ‭il‬‭monte‬‭ore‬‭annuo‬‭previsto‬‭per‬‭ogni‬‭disciplina‬‭alla‬‭luce‬‭delle‬
+‭indicazioni‬ ‭fornite‬ ‭dal‬ ‭Decreto‬ ‭del‬ ‭Presidente‬ ‭della‬ ‭Repubblica‬ ‭20‬ ‭marzo‬ ‭2009‬‭n.‬‭89‬‭di‬‭un‬‭monte‬‭ore‬‭annuale‬
+‭obbligatorio di 990 ore suddivise in 32 unità settimanali. Fino all'a.s. 2016/17 queste erano così ripartite:‬
+
+## ‭Disciplina‬
+
+
+## ‭Monte Ore Sett‬
+
+‭Italiano‬‭(con Approfondimento in materie letterarie)‬
+‭6‬
+‭Storia‬
+‭2‬
+‭Geografia‬
+‭2‬
+‭Inglese‬
+‭5‬
+‭Matematica‬
+‭5‬
+‭Scienze‬
+‭2‬
+‭Tecnologia‬
+‭2‬
+‭Arte‬
+‭2‬
+‭Musica‬
+‭2‬
+‭Scienze motorie‬
+‭2‬
+‭Religione‬
+‭1‬
+‭Educazione civica‬
+‭1‬
+‭A‬ ‭partire‬ ‭dall’A.S.‬ ‭2020/2021‬ ‭è‬ ‭stata‬ ‭introdotta‬ ‭Educazione‬ ‭Civica‬ ‭come‬ ‭nuovo‬ ‭insegnamento.‬ ‭La‬ ‭cattedra‬ ‭si‬
+‭articola in una base di 33 ore annuali (circa 40 moduli) ripartite fra i docenti come da decreto ministeriale.‬
+‭21‬
+
+---
+
+## Pagina 23
+
+‭L’Animatore‬ ‭digitale‬ ‭svolgerà‬ ‭inoltre‬ ‭attività‬ ‭di‬ ‭educazione‬ ‭alla‬ ‭Cittadinanza‬ ‭digitale‬ ‭in‬ ‭tutte‬ ‭le‬ ‭classi;‬ ‭tutte‬ ‭le‬
+‭discipline‬ ‭concorreranno‬ ‭alla‬ ‭costruzione‬ ‭delle‬ ‭competenze‬ ‭da‬ ‭parte‬ ‭degli‬ ‭allievi,‬ ‭data‬ ‭la‬ ‭natura‬ ‭trasversale‬
+‭dell’insegnamento‬ ‭e‬ ‭andranno‬ ‭ad‬ ‭arricchire‬ ‭il‬ ‭monte‬ ‭ore‬ ‭obbligatorio‬ ‭previsto‬ ‭per‬ ‭la‬ ‭Materia,‬ ‭nell’ottica‬ ‭della‬
+‭flessibilità.‬
+‭Si‬‭faccia‬‭riferimento,‬‭per‬‭la‬‭tempistica‬‭e‬‭l’elenco‬‭dei‬‭contenuti,‬‭delle‬‭strategie,‬‭degli‬‭aspetti‬‭operativi,‬ ‭al‬‭Curricolo‬
+‭triennale‬‭di‬‭educazione‬‭civica‬‭contenuti‬‭nel‬‭Curricolo‬‭d’Istituto‬‭allegato‬‭al‬‭PTOF.‬‭Il‬‭Curricolo‬‭di‬‭Educazione‬‭civica‬‭è‬
+‭stato oggetto di revisione in apertura dell’a.s.2024/25.‬
+‭I‬ ‭giorni‬ ‭di‬ ‭lezione‬ ‭e‬ ‭di‬ ‭vacanza‬ ‭sono‬‭definiti‬‭annualmente‬‭sulla‬‭base‬‭del‬‭calendario‬‭regionale‬‭e‬‭delle‬‭proposte‬
+‭presentate e approvate dagli Organi competenti.‬
+‭Ogni anno scolastico si divide in due periodi: un trimestre e un pentamestre.‬
+‭Al‬ ‭termine‬ ‭di‬ ‭ogni‬ ‭periodo‬ ‭viene‬ ‭inviata‬
+‭alle‬ ‭famiglie‬ ‭la‬ ‭pagella‬ ‭con‬ ‭le‬ ‭relative‬ ‭valutazioni‬ ‭e‬ ‭nel‬ ‭corso‬ ‭del‬
+‭pentamestre,‬ ‭nel‬ ‭mese‬ ‭di‬ ‭marzo,‬ ‭viene‬ ‭presentato‬ ‭un‬ ‭pagellino‬ ‭informativo‬ ‭sull’andamento‬ ‭scolastico‬ ‭e‬
+‭comportamentale‬‭degli‬‭allievi.‬‭Per‬‭coloro‬‭che‬‭presentano‬‭gravi‬‭carenze‬‭sono‬‭previsti‬‭consigli‬‭di‬‭classe‬‭specifici‬‭e‬
+‭convocazioni‬‭via‬‭lettera‬‭del‬‭Coordinatore,‬‭per‬‭assicurare‬‭un‬‭monitoraggio‬‭costante‬‭della‬‭situazione,‬‭e‬‭per‬‭informare‬
+‭le famiglie.‬
+‭Il‬ ‭Collegio‬ ‭dei‬ ‭Docenti‬ ‭stabilisce‬ ‭momenti‬ ‭di‬ ‭sospensione‬‭della‬‭normale‬‭attività‬‭didattica‬‭o‬‭modificazioni‬‭della‬
+‭medesima‬‭in‬‭occasione‬‭delle‬‭principali‬‭feste‬‭Salesiane‬‭e‬‭dei‬‭momenti‬‭di‬‭animazione.‬‭Durante‬‭l’anno‬‭si‬‭ricordano‬
+‭alle‬ ‭famiglie‬ ‭le‬ ‭date‬ ‭dei‬ ‭vari‬ ‭appuntamenti‬ ‭con‬ ‭avvisi‬ ‭tempestivi‬ ‭da‬ ‭segnalarsi‬ ‭sul‬ ‭diario‬ ‭scolastico‬ ‭o‬‭per‬‭via‬
+‭telematica (email).‬
+
+## ‭Orario Settimanale‬
+
+‭Nel‬ ‭triennio‬ ‭scolastico‬ ‭2025/28‬ ‭l’orario‬ ‭settimanale‬ ‭delle‬ ‭lezioni‬ ‭sarà‬ ‭articolato‬ ‭su‬ ‭cinque‬ ‭giorni:‬ ‭nell’ottica‬
+‭dell’autonomia‬ ‭(Legge‬ ‭n°‬ ‭59‬ ‭del‬ ‭15/03/1997‬ ‭art.‬ ‭21,‬‭relativa‬‭all’autonomia‬‭degli‬‭istituti‬‭scolastici‬‭e‬‭successive‬
+‭disposizioni in materia) sono stati aggiunti un modulo di Matematica e  un modulo di Animazione.‬
+‭Pertanto dal lunedì al venerdì le lezioni si svolgeranno secondo la seguente scansione oraria:‬
+‭●‬
+‭mattino‬
+‭○‬
+‭sei moduli di lezioni di cui uno di 60 minuti e cinque di 50 minuti curriculari‬
+‭●‬
+‭pomeriggio‬
+‭○‬
+‭due moduli da 55 minuti di lezioni curriculari‬
+‭○‬
+‭due‬‭moduli‬‭da‬‭50‬‭minuti‬‭di‬‭laboratori‬‭o‬‭di‬‭studio‬‭assistito‬‭a‬‭scelta‬‭degli‬‭allievi;‬‭un‬‭modulo‬‭di‬‭45‬‭minuti‬
+‭di studio assistito.‬
+‭L’inizio‬ ‭delle‬ ‭lezioni‬ ‭è‬ ‭previsto‬ ‭alle‬ ‭ore‬ ‭08:00‬ ‭e‬ ‭il‬ ‭termine‬ ‭delle‬ ‭stesse‬ ‭alle‬ ‭ore‬ ‭13:35.‬ ‭Le‬ ‭lezioni‬ ‭curricolari‬
+‭pomeridiane‬‭iniziano‬‭alle‬‭ore‬‭14:40‬‭e‬‭terminano‬‭alle‬ ‭ore‬‭16:30.‬‭Gli‬‭studenti‬‭possono‬‭rimanere‬‭a‬‭scuola‬‭sino‬‭alle‬‭ore‬
+‭17:30‬ ‭usufruendo‬ ‭dello‬ ‭studio‬ ‭guidato‬‭e‬‭di‬‭attività‬‭laboratoriali.‬‭Il‬‭mercoledì‬‭le‬‭lezioni‬‭terminano‬‭alle‬‭ore‬‭13:35‬
+‭senza‬‭rientro‬‭pomeridiano.‬‭Nell’orario‬‭pre-apertura‬‭e‬‭post-chiusura‬‭della‬‭scuola,‬‭previa‬‭intesa‬‭con‬‭il‬‭responsabile,‬
+‭sarà‬‭prevista‬‭un’adeguata‬‭vigilanza.‬‭Per‬‭tutti‬‭i‬‭giorni‬‭ci‬‭sarà‬‭la‬‭possibilità‬‭di‬‭usufruire‬‭del‬‭servizio‬‭mensa,‬‭tranne‬‭il‬
+‭mercoledì.‬
+‭Per le Classi Prime, Seconde e Terze la scansione dell’orario giornaliero sarà così strutturata:‬
+
+## ‭Orario‬
+
+
+## ‭Lunedì‬
+
+
+## ‭Martedì‬
+
+
+## ‭Mercoledì‬
+
+
+## ‭Giovedì‬
+
+
+## ‭Venerdì‬
+
+‭08.05 - 09.05‬
+‭I ora‬
+‭I ora‬
+‭I ora‬
+‭I ora‬
+‭I ora‬
+‭09.05 - 09.55‬
+‭II ora‬
+‭II ora‬
+‭II ora‬
+‭II ora‬
+‭II ora‬
+‭09.55 - 10.45‬
+‭III ora‬
+‭III ora‬
+‭III ora‬
+‭III ora‬
+‭III ora‬
+‭10.45 - 11.05‬
+‭Intervallo‬
+‭Intervallo‬
+‭Intervallo‬
+‭Intervallo‬
+‭Intervallo‬
+‭11.05 - 11.55‬
+‭IV ora‬
+‭IV ora‬
+‭IV ora‬
+‭IV ora‬
+‭IV ora‬
+‭11.55 - 12.45‬
+‭V ora‬
+‭V ora‬
+‭V ora‬
+‭V ora‬
+‭V ora‬
+‭12.45 - 13.35‬
+‭VI ora‬
+‭VI ora‬
+‭VI ora‬
+‭VI ora‬
+‭VI ora‬
+‭13.35 - 14.40‬
+‭Mensa‬
+‭Mensa‬
+‭Mensa‬
+‭Mensa‬
+‭22‬
+
+---
+
+## Pagina 24
+
+‭14.40 - 15.35‬
+‭VII ora (I‬‭e‬‭II‬‭e‬‭)‬
+‭VII ora (III‬‭e‬‭)‬
+‭15.35 - 16.30‬
+‭VIII ora (I‬‭e‬‭II‬‭e‬‭)‬
+‭VIII ora (III‬‭e‬‭)‬
+‭16.30 - 16.45‬
+‭Intervallo‬
+‭Intervallo‬
+‭Intervallo‬
+‭Intervallo‬
+‭Il‬‭rientro‬‭pomeridiano‬‭sarà‬‭strutturato‬‭prevedendo,‬‭oltre‬‭ai‬‭due‬‭moduli‬‭orari‬‭di‬‭lezione‬‭curricolare‬‭a‬‭settimana‬‭per‬
+‭ogni classe, attività di laboratorio, di studio guidato, di recupero/potenziamento o di studio assistito dai docenti.‬
+‭Le‬‭classi‬‭prime‬‭inizieranno‬‭a‬‭frequentare‬‭i‬‭laboratori‬‭opzionali‬‭a‬‭partire‬‭dal‬‭mese‬‭di‬‭Gennaio,‬‭in‬‭quanto‬‭nel‬‭trimestre‬
+‭saranno‬‭impegnate‬‭nel‬‭laboratorio‬‭obbligatorio‬‭di‬‭Metodo‬‭di‬‭studio‬‭(descritto‬‭nei‬‭successivi‬‭paragrafi);‬‭le‬‭attività‬‭di‬
+‭laboratorio‬‭per‬‭le‬‭classi‬‭seconde‬‭e‬‭terze‬‭saranno‬‭di‬‭durata‬‭annuale‬‭o‬‭bimestrale,‬‭secondo‬‭una‬‭struttura‬‭ciclica‬‭che‬
+‭consentirebbe agli allievi una partecipazione più ampia e diversificata tra le varie attività.‬
+‭Le attività di laboratorio iniziano di norma nel mese di Ottobre di ogni anno scolastico.‬
+‭Le‬‭attività‬‭extra‬‭curricolari‬‭potranno‬‭subire‬‭variazioni‬‭in‬‭funzione‬‭della‬‭disponibilità‬‭dei‬‭docenti‬‭e‬‭delle‬‭esigenze‬
+‭formative che eventualmente emergeranno.‬
+‭Per‬ ‭le‬ ‭prime‬ ‭settimane‬ ‭di‬ ‭scuola‬ ‭sarà‬ ‭adottato‬ ‭un‬ ‭orario‬ ‭provvisorio‬ ‭per‬ ‭poter‬ ‭organizzare‬ ‭attività‬ ‭legate‬
+‭all’Accoglienza, specialmente per le classi prime.‬
+‭Queste‬‭iniziative‬‭concorrono‬‭tutte‬‭alla‬‭realizzazione‬‭di‬‭percorsi‬‭di‬‭lavoro‬‭il‬‭più‬‭possibile‬‭conformi‬‭alle‬‭diverse‬‭fasi‬
+‭evolutive‬‭di‬‭ogni‬‭allievo,‬‭nell’ottica‬‭di‬‭un‬‭lavoro‬‭collegiale‬‭che‬‭deve‬‭tendere‬‭da‬‭un‬‭lato‬‭ad‬‭una‬‭comune‬‭ispirazione‬
+‭culturale‬ ‭pedagogica,‬ ‭ma‬ ‭al‬ ‭contempo‬ ‭deve‬ ‭indirizzarsi‬ ‭sempre‬ ‭più‬ ‭verso‬ ‭la‬ ‭personalizzazione‬ ‭del‬ ‭percorso‬
+‭didattico.‬
+
+## ‭Rientro Pomeridiano A.S. 24/25‬
+
+‭Dall'a.s‬‭2024/25‬‭la‬‭pianificazione‬‭dei‬‭Laboratori‬‭è‬‭avvenuta‬‭già‬‭nella‬‭fase‬‭iniziale‬‭dell’anno‬‭scolastico,‬‭nell’ottica‬‭di‬
+‭raggiungere‬ ‭una‬ ‭maggiore‬ ‭efficienza‬ ‭organizzativa.‬ ‭L’iscrizione‬ ‭è‬ ‭avvenuta‬‭tramite‬‭piattaforma‬‭online‬‭collegata‬
+‭all’account‬‭scolastico‬‭degli‬‭alunni‬‭e‬‭la‬‭stesura‬‭dell’elenco‬‭degli‬‭iscritti‬‭definitivi‬‭ha‬‭seguito‬‭unicamente‬‭il‬‭criteri‬‭di‬
+‭reale‬‭fattibilità‬‭(minimo‬‭e‬‭massimo‬‭numero‬‭di‬‭allievi)‬‭e‬‭dell’ordine‬‭di‬‭arrivo‬‭delle‬‭prenotazioni.‬‭Il‬‭rientro‬‭pomeridiano‬
+‭è così strutturato:‬
+
+## ‭As 24/25 - Trimestre‬
+
+
+## ‭Lunedì‬
+
+‭14:40 - 15:35‬
+‭15:35 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Seconde‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Terze‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+‭laboratori‬
+‭*‬‭*‬
+
+## ‭Martedì‬
+
+‭14:40 - 15:30‬
+‭15:30 - 15:40‬
+‭15:40 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Metodo Di Studio*‬
+
+
+## ‭Metodo Di Studio*‬
+
+
+## ‭Seconde‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+
+## ‭Terze‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Giovedì‬
+
+‭14:40 - 15:35‬
+‭15:35 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Metodo Di Studio*‬
+
+
+## ‭Metodo Di Studio*‬
+
+
+## ‭Seconde‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Terze‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭23‬
+
+---
+
+## Pagina 25
+
+
+## ‭Venerdì‬
+
+‭14:40 - 15:30‬
+‭15:30 - 15:40‬
+‭15:40 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Seconde‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Terze‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+
+## ‭As 24/25 - Pentamestre‬
+
+
+## ‭Lunedì‬
+
+‭14:40 - 15:35‬
+‭15:35 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Seconde‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Terze‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+‭laboratori‬
+
+## ‭Martedì‬
+
+‭14:40 - 15:30‬
+‭15:30 - 15:40‬
+‭15:40 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+
+## ‭Seconde‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+
+## ‭Terze‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Giovedì‬
+
+‭14:40 - 15:35‬
+‭15:35 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Seconde‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Terze‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Lezione Curricolare‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Venerdì‬
+
+‭14:40 - 15:30‬
+‭15:30 - 15:40‬
+‭15:40 - 16:30‬
+‭16:30 - 16:45‬
+‭16:45 - 17:30‬
+
+## ‭Prime‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Seconde‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Terze‬
+
+
+## ‭Studio Assistito‬
+
+‭15:30-15:40‬
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+
+## ‭Intervallo‬
+
+
+## ‭Studio Assistito‬
+
+‭laboratori‬
+‭classi 3‬‭-DELLA PENNA ( latino-‬‭lunedì‬‭3an)‬
+‭classi 3‬‭-CAPORASO (scienze 3 -‬‭lunedì‬ ‭11/11-24/03)‬
+‭classi 1‬‭- VIVIANI (living around the world -‬‭martedì‬‭14/01- 01/04‬‭) - 15.35-16.30‬
+‭classi 1-2‬‭- RAVAZZI (circolo dei lettori -‬‭martedì‬ ‭14/01-27/05‬‭) - 15.35-16.30‬
+‭classi 2 - GERARDI‬‭(ceramica 2 --‬‭martedì‬ ‭05/11-17/12)‬
+‭classi 2 -‬‭BENINCASA (teatro 2-3 --‬‭martedì‬ ‭2an)‬
+‭classi 2 -‬‭DOTTO (cucina-‬‭martedì‬‭07/11-19/12)‬
+‭24‬
+
+---
+
+## Pagina 26
+
+‭classi 2 -‬‭CAPORASO (scienze -‬‭martedì‬‭- 7/11-30/01)‬
+‭classi 2 -‬‭BARBERO ( spagnolo -‬‭martedì‬ ‭7/11- 29/05)‬
+‭classi 3‬‭- SANTORO (spagnolo -‬‭martedì  14/01-27/05‬‭)-‬‭14.40-15.35‬
+‭classi 3‬‭- LONGOBARDI (circolo dei lettori -‬‭martedì‬ ‭14/01-27/05‬‭)- 14.40-15.35‬
+‭classi 3‬‭- NEGRO (food &cooking -‬‭martedì  11/03-29/04‬‭)-‬‭14.40-16.30‬
+‭classi 3‬‭- FERRATO (‬‭martedì‬‭ICDL 3 - an)‬
+‭classi 3‬‭- VIVIANI (‬‭martedì‬ ‭giapponese 3an)‬
+‭classi 1‬‭- DOTTO/FAVINI (cucina 1 -‬‭giovedì 16/01-06/03‬‭)‬‭- 14.40-16.30‬
+‭classi 1‬‭- CAPORASO (scienze -‬‭giovedì 6/02 - 10/04‬‭)‬‭- 14.40-15.35‬
+‭classi 1‬‭- BARBERO (spagnolo -‬‭gioved 16/01-29/05‬‭)-‬‭14.40-15.35‬
+‭classi 2‬‭- DI BIASE (robotica -‬‭gioved 16/01-29/05‬‭)-‬‭14.40-15.35‬
+‭classi 1‬‭- GERARDI (ceramica -‬‭venerdì 7/03-9/05‬‭)‬‭- 14.40-16.30‬
+‭classi 1‬‭- FERRERO (sport ragazzi 1 - -‬‭venerdì 28/03-30/05‬‭)‬‭- 15.35-16.30‬
+‭classi 1- 3 -‬‭COSETTA (‬‭venerdì‬‭lavori a maglia - 8/11-30/5)‬
+‭classi 1- 2- 3 -‬‭FERRERO (sport‬‭ragazze‬‭1-2-3 -‬‭venerdì‬‭17/01 14/03‬‭) - 14.40-15.35‬
+‭classi 1- 2- 3 -‬‭LOMBARDO illustrazione‬‭venerdì 17/01‬‭- 11/04‬‭)- 14.40-16.30‬
+‭classi 3‬‭- FERRERO (sport ragazzi 3 -‬ ‭venerdì 17/01‬‭14/03‬‭) 15.35-16.30‬
+‭classi 3‬‭- GERARDI (ceramica 3 -‬‭venerdì 17/01 - 28/02‬‭)-‬‭14.40-16.30‬
+‭classi 2‬‭-FERRERO (sport ragazzi 2‬‭venerdì‬ ‭- 8/11-13/12)‬
+‭Linee guida del processo formativo: il curricolo‬
+‭Il curricolo per le competenze trasversali‬
+‭“Per‬‭adattarsi‬‭in‬‭modo‬‭flessibile‬‭a‬‭un‬‭mondo‬‭in‬‭rapido‬‭mutamento‬‭e‬‭caratterizzato‬‭da‬‭forti‬‭interconnessioni,‬‭ciascun‬
+‭cittadino‬ ‭dovrà‬ ‭disporre‬ ‭di‬ ‭un’ampia‬ ‭gamma‬ ‭di‬ ‭competenze‬ ‭chiave,‬ ‭una‬ ‭combinazione‬ ‭di‬ ‭conoscenze,‬ ‭abilità‬ ‭e‬
+‭attitudini appropriate al contesto.”‬
+‭La‬‭nozione‬‭di‬‭competenze‬‭chiave‬‭serve‬‭a‬‭designare‬‭le‬‭competenze‬‭necessarie‬‭e‬‭indispensabili‬‭che‬‭permettono‬‭agli‬
+‭individui‬‭di‬‭prendere‬‭parte‬‭attiva‬‭in‬‭molteplici‬‭contesti‬‭sociali‬‭e‬‭contribuiscono‬‭alla‬‭riuscita‬‭della‬‭loro‬‭vita‬‭e‬‭al‬‭buon‬
+‭funzionamento‬ ‭della‬ ‭società;‬ ‭sono‬ ‭tali‬ ‭se‬ ‭forniscono‬ ‭le‬ ‭basi‬ ‭per‬ ‭un‬ ‭apprendimento‬ ‭che‬ ‭dura‬ ‭tutta‬ ‭la‬ ‭vita,‬
+‭consentendo‬‭di‬‭aggiornare‬‭costantemente‬‭conoscenze‬‭e‬‭abilità‬‭in‬‭modo‬‭da‬‭far‬‭fronte‬‭ai‬‭continui‬‭sviluppi‬‭e‬‭alle‬
+‭trasformazioni.‬
+‭La‬‭competenza‬‭è‬‭la‬‭capacità‬‭di‬‭rispondere‬‭a‬‭esigenze‬‭individuali‬‭e‬‭sociali,‬‭di‬‭svolgere‬‭efficacemente‬‭un’attività‬‭o‬‭un‬
+‭compito.‬‭Ogni‬‭competenza‬‭comporta‬‭dimensioni‬‭cognitive,‬‭abilità,‬‭attitudini,‬‭motivazione,‬‭valori,‬‭emozioni‬‭e‬‭altri‬
+‭fattori‬‭sociali‬‭e‬‭comportamentali;‬‭si‬‭acquisisce‬‭e‬‭si‬‭sviluppa‬‭in‬‭contesti‬‭educativi‬‭formali‬‭(la‬‭scuola),‬‭non‬‭formali‬
+‭(famiglia,‬ ‭lavoro,‬ ‭media,‬ ‭ecc..),‬ ‭informali‬ ‭(la‬ ‭vita‬ ‭sociale‬ ‭nel‬ ‭suo‬ ‭complesso)‬ ‭e‬ ‭dipende‬ ‭in‬ ‭grande‬ ‭misura‬
+‭dall’esistenza di un ambiente materiale, istituzionale e sociale che la favorisce.‬
+‭Nella‬ ‭definizione‬ ‭di‬ ‭questo‬ ‭curricolo‬ ‭per‬ ‭competenze‬ ‭trasversali‬ ‭si‬ ‭è‬ ‭cercato‬ ‭di‬ ‭individuare‬ ‭i‬‭saperi‬‭essenziali‬
+‭adeguati‬ ‭cognitivamente‬ ‭agli‬ ‭studenti‬ ‭delle‬ ‭varie‬ ‭età,‬ ‭mettendo‬ ‭al‬ ‭centro‬ ‭l’alunno‬ ‭e‬ ‭il‬ ‭suo‬ ‭apprendimento,‬
+‭valorizzando‬ ‭le‬ ‭discipline‬ ‭come‬ ‭strumenti‬ ‭di‬ ‭conoscenza‬ ‭e‬ ‭di‬ ‭progettare‬ ‭un‬ ‭percorso‬‭rispondente‬‭alle‬‭diverse‬
+‭esigenze‬ ‭per‬ ‭garantire‬ ‭la‬ ‭parità‬ ‭e‬ ‭l’accesso‬ ‭anche‬‭a‬‭coloro‬‭che,‬‭a‬‭causa‬‭di‬‭svantaggi‬‭educativi‬‭determinati‬‭da‬
+‭circostanze‬‭personali,‬‭sociali,‬‭culturali‬‭o‬‭economiche,‬‭hanno‬‭bisogno‬‭di‬‭un‬‭sostegno‬‭particolare‬‭per‬‭realizzare‬‭le‬
+‭loro potenzialità educative.‬
+‭Molte‬ ‭competenze‬ ‭si‬ ‭sovrappongono‬ ‭e‬ ‭sono‬ ‭correlate‬ ‭tra‬ ‭loro:‬ ‭aspetti‬ ‭essenziali‬ ‭a‬ ‭un‬ ‭ambito,‬ ‭favoriscono‬‭la‬
+‭competenza‬‭in‬‭un‬‭altro.‬‭La‬‭competenza‬‭fondamentale‬
+‭nelle‬‭abilità‬
+‭del‬‭linguaggio,‬‭della‬‭lettura,‬‭della‬‭scrittura,‬
+‭del‬‭calcolo,‬‭nelle‬‭tecnologie‬‭dell’informazione‬‭e‬‭della‬‭comunicazione‬‭e‬‭nell’imparare‬‭ad‬‭imparare‬‭è‬‭trasversale‬‭a‬
+‭tutte le attività di apprendimento.‬
+‭Una‬‭volta‬‭stabilito‬‭che‬‭le‬‭competenze‬‭essenziali‬‭sono‬‭necessarie‬‭per‬‭condurre‬‭una‬‭vita‬‭autonoma,‬‭responsabile‬‭e‬
+‭positiva,‬‭si‬‭individuano‬‭nel‬‭curricolo‬‭per‬‭discipline‬‭quali‬‭sono‬‭le‬‭competenze‬‭individuali‬‭da‬‭acquisire‬‭per‬‭soddisfare‬
+‭questa esigenza.‬
+‭Sono state individuate le:‬
+‭25‬
+
+---
+
+## Pagina 27
+
+‭●‬
+‭competenze‬‭sociali,‬‭(esistenziali,‬‭relazionali‬‭e‬‭procedurali)‬‭con‬‭attenzione‬‭all'educazione‬‭alla‬‭cittadinanza,‬
+‭basata‬ ‭sulla‬ ‭conoscenza‬ ‭dei‬ ‭propri‬ ‭diritti‬ ‭e‬ ‭doveri‬ ‭come‬ ‭membri‬ ‭di‬ ‭una‬ ‭comunità‬ ‭e‬ ‭sull’impegno‬ ‭ad‬
+‭esercitarla con la capacità di gestione costruttiva dei sentimenti;‬
+‭●‬
+‭competenze‬ ‭trasversali‬ ‭(non‬ ‭riferibili‬ ‭direttamente‬ ‭ad‬ ‭una‬ ‭specifica‬ ‭disciplina)‬ ‭quali‬ ‭comunicazione,‬
+‭pensiero‬ ‭critico,‬ ‭creatività,‬‭motivazione,‬‭iniziativa,‬‭capacità‬‭di‬‭risolvere‬‭problemi,‬‭valutazione‬‭del‬‭rischio,‬
+‭assunzione‬‭di‬‭decisioni,‬‭lavoro‬‭di‬‭gruppo‬‭e‬‭soprattutto‬‭“apprendere‬‭ad‬‭apprendere”,‬‭che‬‭rappresentano‬‭la‬
+‭base per lo sviluppo di qualsiasi altra competenza.‬
+‭Esse‬‭fanno‬‭riferimento‬‭alle‬‭seguenti‬ ‭Competenze‬‭Chiave‬‭Europee‬‭per‬‭l’apprendimento‬‭permanente,‬‭ridefinite‬‭dalla‬
+‭raccomandazione‬‭del‬‭Consiglio‬‭dell’Unione‬‭europea‬‭del‬‭22‬‭maggio‬‭2018‬‭come‬‭quelle‬‭di‬‭cui‬‭tutti‬‭hanno‬‭bisogno‬‭per‬
+‭la‬ ‭realizzazione‬ ‭e‬ ‭lo‬ ‭sviluppo‬ ‭personali,‬ ‭l'occupabilità,‬ ‭l'inclusione‬‭sociale,‬‭uno‬‭stile‬‭di‬‭vita‬‭sostenibile,‬‭una‬‭vita‬
+‭fruttuosa‬‭in‬‭società‬‭pacifiche,‬‭una‬‭gestione‬‭della‬‭vita‬‭attenta‬‭alla‬‭salute‬‭e‬‭la‬‭cittadinanza‬‭attiva‬‭e‬‭si‬‭sovrappongono‬
+‭interconnettendosi:‬ ‭gli‬ ‭aspetti‬ ‭essenziali‬ ‭per‬ ‭un‬ ‭determinato‬ ‭ambito‬ ‭favoriscono‬ ‭le‬ ‭competenze‬ ‭in‬ ‭un‬ ‭altro.‬
+‭Elementi‬‭quali‬‭il‬‭pensiero‬‭critico,‬‭la‬‭risoluzione‬‭di‬‭problemi,‬‭il‬‭lavoro‬‭di‬‭squadra,‬‭le‬‭abilità‬‭comunicative‬‭e‬‭negoziali,‬‭le‬
+‭abilità analitiche, la creatività e le abilità interculturali sottendono a tutte le competenze chiave‬
+
+## ‭Competenze Sociali‬
+
+‭Le prestazioni degli alunni sono graduate in relazione alle seguenti aree di competenza:‬
+‭●‬
+‭Competenze sociali esistenziali‬
+‭●‬
+‭Competenze sociali relazionali‬
+‭●‬
+‭Competenze sociali procedurali‬
+‭Esse‬‭prevedono‬‭che‬‭gli‬‭allievi‬‭siano‬‭in‬‭grado‬‭di‬‭assumere‬‭ruoli‬‭in‬‭una‬‭organizzazione,‬‭stabilire‬‭buone‬‭relazioni‬‭con‬
+‭gli‬‭altri,‬‭lavorare‬‭in‬‭gruppo‬‭e‬‭cooperare,‬ ‭perseguire‬‭un‬‭obiettivo‬‭comune,‬‭progettare,‬‭esercitare‬‭correttamente‬‭diritti‬
+‭e‬‭doveri‬‭rispettando‬‭le‬‭regole.‬‭Si‬‭tratta‬‭in‬‭sintesi‬‭una‬‭educazione‬‭alla‬‭cittadinanza,‬‭basata‬‭sulla‬‭conoscenza‬‭dei‬
+‭propri‬‭diritti‬‭e‬‭doveri‬‭come‬‭membri‬‭di‬‭una‬‭comunità,‬‭sull’impegno‬‭ad‬‭esercitarli‬‭e‬‭sull’attenzione‬‭alla‬‭“sostenibilità”‬
+‭come segno di solidarietà verso le generazioni future.‬
+‭Le‬‭competenze‬‭sociali‬‭richiedono‬‭naturalmente‬‭una‬‭capacità‬‭di‬‭esercitare‬‭la‬‭gestione‬‭del‬‭Sé‬‭e‬‭l’autocontrollo,‬‭una‬
+‭corretta‬ ‭relazione‬ ‭con‬ ‭se‬ ‭stessi,‬ ‭un’educazione‬ ‭a‬ ‭gestire‬ ‭e‬ ‭risolvere‬ ‭i‬ ‭conflitti.‬ ‭Gli‬ ‭allievi‬ ‭devono‬ ‭acquisire‬
+‭motivazione,‬‭capacità‬‭a‬‭coltivare‬‭attitudini,‬‭a‬‭difendere‬‭e‬‭affermare‬‭i‬‭propri‬‭diritti,‬‭interessi,‬‭responsabilità,‬‭limiti‬‭e‬
+‭bisogni.‬
+‭Le competenze sociali risultano così in linea con le Indicazioni Nazionali, articolate intorno ai nuclei fondanti:‬
+‭●‬
+‭Centralità della persona‬
+‭(comunicazione – riflessione-relazione)‬
+‭●‬
+‭Nuova cittadinanza‬
+‭(relazione - decisione – azione)‬
+‭●‬
+‭Nuovo umanesimo‬
+‭(organizzazione – progettazione)‬
+‭Il curricolo per le competenze disciplinari‬
+‭Nella‬‭sua‬‭dimensione‬‭verticale‬‭il‬‭curricolo‬‭scolastico‬‭organizza‬‭i‬‭saperi‬‭essenziali‬‭delle‬‭discipline‬‭coniugandoli‬‭con‬
+‭tutta‬ ‭una‬ ‭serie‬ ‭di‬ ‭competenze‬ ‭trasversali‬ ‭fondendo‬ ‭processi‬ ‭cognitivi‬ ‭disciplinari‬ ‭con‬ ‭quelli‬ ‭relazionali‬ ‭nella‬
+‭formazione‬ ‭integrale‬ ‭del‬ ‭cittadino‬ ‭europeo‬ ‭in‬ ‭grado‬ ‭di‬ ‭trasferire‬ ‭le‬ ‭conoscenze‬ ‭scolastiche‬ ‭in‬ ‭contesti‬ ‭reali‬
+‭nell'interazione emotivo - affettiva e nella comunicazione sociale.‬
+‭Competenza‬‭è‬‭la‬‭capacità‬‭di‬‭attivare‬‭i‬‭saperi‬‭posseduti‬‭con‬‭le‬‭abilità‬‭acquisite‬‭per‬‭affrontare‬‭positivamente‬‭compiti‬
+‭unitari‬‭e‬‭situazioni‬‭sfidanti‬‭in‬‭contesti‬‭nuovi.‬‭Un‬‭alunno‬‭è‬‭riconosciuto‬‭competente‬‭quando,‬‭facendo‬‭ricorso‬‭a‬‭tutte‬
+‭le‬‭capacità‬‭di‬‭cui‬‭dispone,‬‭utilizza‬‭le‬‭conoscenze‬‭e‬‭le‬‭abilità‬‭apprese‬‭per‬‭esprimere,‬‭interagire,‬‭risolvere‬‭problemi,‬
+‭riflettere, comprendere e maturare.‬
+‭Gli‬‭ASSI‬‭CULTURALI‬‭(dei‬‭linguaggi,‬‭matematico,‬‭scientifico-tecnologico,‬‭storico-sociale)‬‭"costituiscono‬‭il‬‭tessuto‬
+‭per‬ ‭la‬ ‭costituzione‬ ‭di‬ ‭percorsi‬ ‭di‬ ‭apprendimento":‬ ‭si‬ ‭tratta‬ ‭di‬ ‭contenitori‬ ‭all’interno‬ ‭dei‬ ‭quali‬ ‭si‬ ‭collocano‬ ‭e‬‭si‬
+‭raccordano le conoscenze, le abilità e le competenze del processo di apprendimento.‬
+‭Al‬‭termine‬‭dell'obbligo‬‭scolastico,‬‭gli‬‭alunni‬‭dovranno‬‭essere‬‭dunque‬‭in‬‭possesso‬‭di‬‭un‬‭pacchetto‬‭di‬‭competenze‬
+‭chiave‬ ‭idonee‬ ‭a‬ ‭consentire‬ ‭a‬ ‭tutti‬ ‭l'inserimento‬ ‭attivo‬ ‭e‬ ‭consapevole‬ ‭nella‬ ‭società‬ ‭di‬ ‭oggi,‬ ‭caratterizzata‬
+‭dall'esigenza‬ ‭di‬ ‭un‬ ‭apprendimento‬ ‭permanente.‬ ‭I‬ ‭livelli‬ ‭delle‬‭competenze‬‭essenziali‬‭precedentemente‬‭descritte‬
+‭sono graduate in base alle seguenti‬
+
+## ‭Aree Di Competenza‬
+
+‭●‬
+‭Comunicazione‬ ‭efficace:‬‭comprensione‬‭ed‬‭espressione‬‭con‬‭vari‬‭linguaggi‬‭(verbali,‬‭scritto‬‭e‬‭orale,‬‭lingue‬
+‭straniere,‬ ‭linguaggi‬ ‭non‬ ‭verbali‬ ‭dell’espressione‬ ‭corporea,‬ ‭artistica,‬‭musicale),‬‭riflessione‬‭su‬‭di‬‭essi‬‭per‬
+‭sviluppare‬‭le‬‭proprie‬‭conoscenze‬‭e‬‭potenzialità‬‭(ruolo‬‭attivo‬‭nella‬‭società),‬‭capacità‬‭di‬‭utilizzare‬‭la‬‭lingua,‬‭i‬
+‭26‬
+
+---
+
+## Pagina 28
+
+‭simboli, i testi e le nuove tecnologie della comunicazione in maniera interattiva‬
+‭●‬
+‭Gestione‬ ‭e‬ ‭utilizzo‬ ‭delle‬ ‭risorse‬ ‭intellettuali:‬ ‭capacità‬ ‭di‬ ‭elaborazione‬ ‭logica,‬ ‭di‬ ‭argomentazione,‬ ‭di‬
+‭elaborazione‬‭operativa,‬‭di‬‭utilizzare‬‭le‬‭conoscenze‬‭e‬‭le‬‭informazioni‬‭in‬‭maniera‬‭interattiva,‬‭di‬‭agire‬‭in‬‭un‬
+‭quadro d’insieme, in un contesto ampio‬
+‭Dette aree sono in relazione con le seguenti competenze “ essenziali” individuate:‬
+
+## ‭Ascoltare E‬
+
+
+## ‭Comprendere‬
+
+
+## ‭Mostrare Un Atteggiamento Attivo Nel Recepire I Messaggi Nei Diversi‬
+
+
+## ‭Registri, Codici O Contesti Di Comunicazione‬
+
+
+## ‭Comunicare‬
+
+
+## ‭Comunicare Idee, Sentimenti, Esperienze Utilizzando Diversi Registri In‬
+
+
+## ‭Diverse Situazioni‬
+
+
+## ‭Lavorare Con E Per‬
+
+
+## ‭Gli Altri‬
+
+
+## ‭Saper Socializzare Le Conoscenze E Le Strategie Per La Realizzazione Di‬
+
+
+## ‭Un Progetto Comune‬
+
+
+## ‭Fruire‬
+
+
+## ‭Capacità Di Ricezione Dei Messaggi Espliciti Ed Impliciti  Di Musica, Cinema,‬
+
+
+## ‭Teatro, Poesia, Letteratura E Dei Linguaggi Multimediali‬
+
+
+## ‭Produrre‬
+
+
+## ‭Scrittura E Rielaborazione Di Testi Chiari E Corretti, Rappresentazione Di‬
+
+
+## ‭Contenuti E Dati, Anche Attraverso I Linguaggi Specifici Delle Discipline.‬
+
+
+## ‭Raccogliere,‬
+
+
+## ‭Interpretare Ed‬
+
+
+## ‭Elaborare Dati‬
+
+
+## ‭Saper Utilizzare Dati Appresi In Diversi Contesti Componendo Nuove‬
+
+
+## ‭Procedure E Strategie E Ricavandone Concetti, Relazioni E Connessioni‬
+
+
+## ‭Impostare E Risolvere‬
+
+
+## ‭Problemi‬
+
+
+## ‭Saper Riconoscere Situazioni Problematiche E Applicare Procedimenti,‬
+
+
+## ‭Elaborazioni Di Strategie Risolutive, Sviluppando Le Capacità Logiche‬
+
+
+## ‭Sviluppare Un Metodo‬
+
+
+## ‭Di Studio‬
+
+
+## ‭Acquisire Autonomia Nell’Organizzazione Del Proprio Lavoro Ed Essere‬
+
+
+## ‭Capaci Di Rielaborare Informazioni E Conoscenze‬
+
+‭Tali competenze “essenziali” sono così declinate nelle tre annualità e costruite sulla base di conoscenze e abilità‬
+‭che si intende promuovere attraverso un curricolo d’Istituto trasversale così articolato:‬
+‭Nel suo assunto progettuale il curricolo deve essere:‬
+‭●‬
+‭temporalmente definito‬‭, indicando i suoi tempi di‬‭attuazione‬
+‭●‬
+‭definito metodologicamente‬‭, precisando quali forme‬‭didattiche funzionali all'apprendimento saranno utilizzate‬
+‭●‬
+‭circoscritto‬ ‭tecnologicamente‬‭,‬ ‭esplicitando‬ ‭le‬ ‭tecnologie‬ ‭che‬ ‭si‬ ‭intendono‬ ‭utilizzare,‬ ‭il‬ ‭loro‬ ‭peso‬ ‭nella‬
+‭didattica, il loro peso nella valutazione‬
+‭●‬
+‭trasmesso e condiviso verticalmente‬‭tra gli ordini‬‭di scuola all'interno dell'ambito territoriale‬
+‭●‬
+‭misurato‬‭nei suoi esiti e nel rapporto tra la sua‬‭progettazione e la sua realizzazione‬
+‭●‬
+‭valutato‬‭oggettivamente per i suoi esiti‬
+‭Iniziative di ampliamento curricolare‬
+‭Scelte organizzative e didattiche‬
+‭Per‬‭la‬‭realizzazione‬‭del‬‭Profilo‬‭e‬‭l'attuazione‬‭del‬‭Curricolo‬‭sono‬‭state‬‭operate‬‭le‬‭seguenti‬‭scelte‬‭a‬‭livello‬‭didattico‬‭ed‬
+‭organizzativo:‬
+‭●‬
+‭inserimento di ore di studio pomeridiane‬
+‭●‬
+‭potenziamento dell’uso degli strumenti informatici di base‬
+‭●‬
+‭potenziamento‬ ‭della‬ ‭Lingua‬ ‭inglese‬ ‭con‬ ‭possibilità‬ ‭di‬ ‭studiare‬ ‭anche‬ ‭una‬ ‭seconda‬ ‭lingua‬ ‭comunitaria‬
+‭(possibilità‬‭di‬‭conseguimento‬‭di‬‭certificazioni‬‭linguistiche‬‭esterne:‬‭KET‬‭e‬‭conversazione‬‭in‬‭Lingua‬‭inglese‬‭con‬
+‭insegnante‬ ‭madrelingua;‬ ‭a‬ ‭partire‬ ‭dalle‬ ‭classi‬ ‭prime‬ ‭dell'a.s.‬ ‭2017/18‬ ‭corso‬ ‭opzionale‬ ‭triennale‬‭di‬‭Lingua‬
+‭francese per il conseguimento del DELF e DELE dal 2023/24; viaggi studio)‬
+‭●‬
+‭potenziamento della matematica con un’ora di lezione in più in tutte le classi‬
+‭●‬
+‭corso di Latino primo livello per i ragazzi delle classi terze‬
+‭●‬
+‭corso‬ ‭per‬ ‭il‬ ‭conseguimento‬ ‭della‬ ‭certificazione‬ ‭ICDL‬ ‭essentials‬ ‭che‬ ‭prevede‬ ‭il‬ ‭superamento‬ ‭di‬ ‭due‬
+‭certificazioni separate: Computer essentials e Online essentials‬
+‭27‬
+
+---
+
+## Pagina 29
+
+‭●‬
+‭attività di “studio guidato”, monitorato dall’insegnante‬
+‭●‬
+‭attività di recupero e supporto destinate agli alunni con maggiori difficoltà‬
+‭●‬
+‭laboratori per approfondire o conoscere alcune discipline (musica e arte; dall’a.s 2019/20 anche Scienze)‬
+‭●‬
+‭laboratori di sport‬
+‭●‬
+‭partecipazione a Progetti‬
+‭●‬
+‭attività‬ ‭di‬ ‭animazione‬ ‭finalizzate‬ ‭alla‬ ‭scoperta‬ ‭dei‬ ‭principi‬ ‭di‬ ‭cittadinanza‬ ‭e‬ ‭delle‬‭dinamiche‬‭di‬‭gruppo,‬‭di‬
+‭amicizia,‬‭di‬‭relazione:‬ ‭l'uscita‬‭di‬‭3‬‭giorni‬‭in‬‭montagna‬‭per‬‭l'accoglienza‬‭degli‬‭alunni‬ ‭delle‬‭classi‬‭prime,‬‭uscite‬
+‭didattiche‬
+‭●‬
+‭attività a sostegno della crescita spirituale degli alunni (ritiri, incontri di formazione, gruppo Samuel)‬
+‭Uscite didattiche‬
+‭Ogni‬ ‭anno‬ ‭scolastico,‬ ‭il‬ ‭Consiglio‬ ‭di‬ ‭Classe‬ ‭valuta‬ ‭la‬ ‭possibilità‬ ‭di‬ ‭effettuare‬ ‭alcune‬ ‭uscite‬ ‭didattiche/viaggi‬
+‭d'istruzione,‬ ‭che‬ ‭completino‬ ‭e‬ ‭approfondiscano‬ ‭le‬ ‭tematiche‬ ‭trattate‬ ‭in‬ ‭classe.‬ ‭Queste‬ ‭proposte‬ ‭vengono‬ ‭poi‬
+‭sottoposte‬‭al‬‭parere‬‭deliberativo‬‭del‬‭Collegio‬‭Docenti‬‭e‬‭del‬‭Consiglio‬‭d’Istituto‬‭per‬‭l’approvazione.‬‭Durante‬‭l’anno‬
+‭scolastico‬‭le‬‭classi‬‭vengono‬‭accompagnate‬‭a‬‭visitare‬‭mostre‬‭permanenti‬‭ed‬‭esposizioni‬‭estemporanee‬‭realizzate‬
+‭sul‬‭territorio‬‭circostante;‬‭gli‬‭allievi‬‭hanno‬‭la‬‭possibilità‬‭di‬‭prendere‬‭parte‬‭a‬‭rappresentazioni‬‭teatrali,visitare‬‭parchi‬
+‭naturalistici‬ ‭o‬ ‭altri‬ ‭siti‬ ‭di‬ ‭interesse‬ ‭culturale,‬ ‭anche‬ ‭attraverso‬ ‭eventuali‬ ‭Laboratori‬ ‭didattici‬ ‭in‬ ‭loco.‬ ‭Le‬ ‭uscite‬
+‭didattiche,‬‭le‬‭visite‬‭e‬‭i‬‭viaggi‬‭d’istruzione‬‭rappresentano‬‭opportunità‬‭educative‬‭e‬‭didattiche‬‭da‬‭considerare‬‭come‬
+‭parti‬‭integranti‬‭del‬‭percorso‬‭formativo,‬‭legate‬‭alla‬‭programmazione‬‭delle‬‭classi,‬‭nel‬‭rispetto‬‭dei‬‭criteri‬‭stabiliti‬‭dal‬
+‭Regolamento di Istituto.‬
+‭Ogni uscita didattica prevede in genere tre momenti distinti e complementari:‬
+‭●‬
+‭preparazione in aula(attraverso input e un inquadramento generale)‬
+‭●‬
+‭effettuazione della visita‬
+‭●‬
+‭feedback‬‭(attraverso‬‭revisione‬‭di‬‭eventuali‬‭prodotti‬‭laboratoriali‬‭oppure‬‭elaborati‬‭successivi‬‭alla‬‭visita‬‭per‬
+‭consolidare l’argomento)‬
+‭Attraverso le uscite didattiche e i viaggi di istruzione si intende perseguire le seguenti finalità:‬
+‭●‬
+‭motivare allo studio anche attraverso attività pratiche e concrete;‬
+‭●‬
+‭conoscere,‬ ‭apprezzare‬ ‭e‬ ‭sviluppare‬ ‭un‬ ‭atteggiamento‬ ‭di‬ ‭rispetto‬ ‭nei‬ ‭confronti‬ ‭di‬ ‭habitat‬ ‭naturali,‬ ‭beni‬
+‭culturali, storici ed artistici;‬
+‭●‬
+‭favorire l’autonomia relazionale, comportamentale e la socializzazione;‬
+‭●‬
+‭offrire occasioni di  approfondimento di lingue e culture diverse.‬
+‭Vacanza studio‬
+‭Da‬ ‭alcuni‬ ‭anni‬ ‭l’Istituto‬ ‭propone‬ ‭alle‬ ‭famiglie‬ ‭un‬ ‭soggiorno‬ ‭all’estero‬ ‭della‬ ‭durata‬ ‭di‬ ‭due‬ ‭settimane,‬ ‭mirato‬ ‭a‬
+‭consolidare‬‭ed‬‭approfondire‬‭le‬‭conoscenze‬‭linguistiche‬‭degli‬‭studenti.‬‭Per‬‭l’organizzazione‬‭del‬‭periodo‬‭di‬‭studio,‬‭la‬
+‭scuola‬‭si‬‭avvale‬‭della‬‭collaborazione‬‭di‬‭una‬‭società‬‭leader‬‭nel‬‭settore,‬‭tour‬‭operator‬‭che‬‭opera‬‭nel‬‭Regno‬‭Unito‬‭e‬‭in‬
+‭Irlanda‬‭da‬‭oltre‬‭quarant’anni.‬‭Gli‬‭studenti‬‭sono‬‭alloggiati‬‭in‬‭moderni‬‭campus‬‭universitari,‬‭in‬‭edifici‬‭riservati‬‭a‬‭loro‬‭e‬‭a‬
+‭coetanei‬ ‭provenienti‬ ‭dal‬ ‭resto‬ ‭d’Europa.‬‭Essi‬‭sono‬‭accompagnati‬‭all’estero‬‭e‬‭costantemente‬‭seguiti‬‭da‬‭docenti‬
+‭della‬‭nostra‬‭scuola,‬‭affiancati‬‭nel‬‭college‬‭dagli‬‭activity‬‭leaders,‬‭studenti‬‭universitari‬‭inglesi‬‭che‬‭guidano‬‭i‬‭ragazzi‬
+‭nelle‬‭escursioni‬‭e‬‭nelle‬‭gite,‬‭animando,‬‭inoltre,‬‭sia‬‭le‬‭attività‬‭sportive‬‭che‬‭quelle‬‭serali.‬‭Le‬‭scuole‬‭organizzatrici‬‭dei‬
+‭corsi‬‭di‬‭lingua‬‭sono‬‭selezionate‬‭con‬‭il‬‭massimo‬‭rigore,‬‭sono‬‭riconosciute‬‭in‬‭Gran‬‭Bretagna‬‭dal‬‭British‬‭Council‬‭e‬
+‭sono‬ ‭membri‬ ‭English‬ ‭UK,‬ ‭mentre‬ ‭in‬ ‭Irlanda‬ ‭sono‬ ‭membri‬ ‭MEI‬ ‭RELSA.‬ ‭Ciò‬ ‭costituisce‬ ‭una‬ ‭garanzia‬ ‭per‬ ‭lo‬
+‭svolgimento‬ ‭dei‬ ‭programmi‬ ‭didattici.‬ ‭Tutti‬ ‭gli‬ ‭insegnanti‬ ‭sono‬ ‭rigorosamente‬ ‭di‬ ‭madrelingua‬ ‭e‬ ‭specializzati‬
+‭nell’insegnamento‬ ‭della‬ ‭lingua‬ ‭a‬‭studenti‬‭stranieri.‬‭Alla‬‭fine‬‭del‬‭corso‬‭di‬‭studio‬‭verrà‬‭rilasciato‬‭un‬‭certificato‬‭di‬
+‭frequenza.‬‭I‬‭corsi‬‭previsti‬‭sono‬‭fondati‬‭sull’approccio‬‭comunicativo‬‭e‬‭su‬‭un‬‭apprendimento‬‭linguistico‬‭realizzato‬‭a‬
+‭partire‬‭da‬‭interazioni‬‭autentiche,‬‭il‬‭cosiddetto‬‭Task‬‭Based‬‭Learning.‬‭La‬‭lezione‬‭si‬‭basa‬‭sulla‬‭realizzazione‬‭di‬‭un‬
+‭compito‬ ‭e‬‭i‬‭contenuti‬‭linguistici‬‭emergono‬‭dal‬‭lavoro‬‭degli‬‭studenti‬‭in‬‭classe.‬‭Il‬‭corso‬‭di‬‭formazione‬‭linguistica‬
+‭comprende 40 ore di lezioni di lingua nell’arco delle due settimane.‬
+‭Accanto‬‭alle‬‭ore‬‭di‬‭lezione‬‭del‬‭corso,‬‭gli‬‭studenti‬‭usufruiscono‬‭dei‬‭Chit‬‭Chat‬‭Club,‬‭gruppi‬‭di‬‭conversazione‬‭con‬
+‭studenti‬‭universitari‬‭madrelingua‬‭che‬‭consentono‬‭loro‬‭di‬‭apprendere‬‭in‬‭ambienti‬‭informali,‬‭sentendosi‬‭a‬‭proprio‬
+‭agio,‬‭senza‬‭essere‬‭valutati‬‭o‬‭giudicati.‬‭Così‬‭facendo‬‭viene‬‭favorito‬‭il‬‭flusso‬‭spontaneo‬‭della‬‭comunicazione‬‭e‬‭gli‬
+‭studenti‬‭si‬‭sentono‬‭più‬‭liberi‬‭di‬‭esprimersi‬‭nel‬‭processo‬‭di‬‭apprendimento.‬‭Si‬‭tratta‬‭di‬‭un’esperienza‬‭entusiasmante,‬
+‭un’opportunità che permette agli studenti di crescere, unendo all’aspetto linguistico quello culturale e personale.‬
+‭28‬
+
+---
+
+## Pagina 30
+
+‭Laboratorio metodo di studio‬
+‭Premesso‬‭che‬‭l’obiettivo‬‭primario‬‭cui‬‭tende‬‭l’operato‬‭dei‬‭docenti‬‭della‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬
+‭Paritaria‬‭può‬‭essere‬‭sintetizzato‬‭dalla‬‭formula‬‭“imparare‬‭ad‬‭imparare”,‬‭l’analisi‬‭del‬‭lavoro‬‭fatto‬‭in‬‭questi‬‭anni,‬‭il‬
+‭controllo‬‭attento‬‭dei‬‭risultati‬‭ottenuti‬‭e‬‭la‬‭verifica‬‭delle‬‭proposte‬‭attuate‬‭dal‬‭Collegio‬‭Docenti,‬‭ha‬‭evidenziato‬‭come‬
+‭sia‬‭importante‬‭per‬‭il‬‭preadolescente‬‭lavorare‬‭per‬‭costruirsi‬‭un‬‭proprio‬‭metodo‬‭di‬‭studio‬‭che‬‭lo‬‭accompagni,‬‭con‬
+‭tutte‬ ‭le‬ ‭variazioni‬ ‭del‬ ‭caso,‬ ‭negli‬ ‭anni‬ ‭a‬ ‭venire.‬ ‭Quindi‬ ‭non‬ ‭scuola‬ ‭come‬‭“trasferimento‬‭di‬‭nozioni”‬‭ma‬‭scuola‬
+‭operativa‬ ‭che‬ ‭mira‬ ‭al‬ ‭conseguimento‬‭di‬‭competenze‬‭spendibili‬‭nel‬‭proprio‬‭vissuto.‬‭Va‬‭da‬‭sé‬‭che‬‭la‬‭qualità‬‭dei‬
+‭contenuti‬‭da‬‭apprendere‬‭resta‬‭imprescindibile,‬‭ma‬‭ciò‬‭su‬‭cui‬‭si‬‭punta‬‭è‬‭il‬‭modo‬‭in‬‭cui‬‭questi‬‭contenuti‬‭vengono‬
+‭appresi e rielaborati personalmente. In riferimento ai seguenti aspetti:‬
+‭●‬
+‭le Indicazioni Nazionali per il curricolo sottolineano l’importanza di acquisire un personale metodo di studio‬
+‭●‬
+‭le‬ ‭famiglie‬ ‭richiedono‬ ‭in‬ ‭maniera‬ ‭sempre‬ ‭crescente‬ ‭di‬ ‭mantenere‬ ‭questa‬ ‭offerta‬ ‭formativa‬‭legata‬‭allo‬
+‭studio‬ ‭personale‬ ‭ed‬ ‭al‬ ‭metodo‬ ‭in‬ ‭quanto‬ ‭le‬ ‭grandi‬ ‭trasformazioni‬ ‭psico-fisiche‬ ‭cambiano‬ ‭gli‬ ‭stili‬ ‭di‬
+‭apprendimento e dunque anche il proprio stile di lavoro‬
+‭la Scuola Secondaria di I grado “Don Bosco” Paritaria vuole raggiungere due obiettivi:‬
+‭●‬
+‭garantire una personalizzazione del lavoro‬
+‭●‬
+‭guidare‬ ‭ciascun‬ ‭allievo‬ ‭–‬ ‭conformemente‬ ‭alle‬ ‭sue‬ ‭capacità‬ ‭e‬ ‭potenzialità‬ ‭–‬ ‭verso‬‭l'acquisizione‬‭di‬‭un‬
+‭personale metodo di studio.‬
+‭Pertanto‬‭è‬‭stato‬‭attivato‬‭per‬‭le‬‭classi‬‭prime‬‭un‬‭Laboratorio‬‭obbligatorio‬‭sul‬‭Metodo‬‭di‬‭studio‬‭(i‬‭cui‬‭contenuti‬‭sono‬
+‭esplicitati nei successivi paragrafi) che si svolge in orario pomeridiano nel corso del Trimestre.‬
+‭Studio pomeridiano assistito‬
+‭Anche‬ ‭per‬ ‭il‬ ‭triennio‬ ‭scolastico‬ ‭2025/28‬ ‭l’Istituto‬ ‭manterrà‬‭l’offerta‬‭di‬‭uno‬‭studio‬‭pomeridiano‬‭assistito‬‭con‬‭la‬
+‭presenza degli insegnanti ed educatrici negli appositi locali.‬
+‭Laboratori di recupero e di approfondimento‬
+‭Poiché‬ ‭l’insegnante‬ ‭ha‬ ‭la‬‭responsabilità‬‭di‬‭insegnare‬‭e‬‭aiutare‬‭gli‬‭allievi‬‭ad‬‭apprendere,‬‭oltre‬‭che‬‭coinvolgerli‬‭e‬
+‭motivarli,‬‭emerge‬‭la‬‭necessità‬‭di‬‭comprendere‬‭quali‬‭scelte‬‭didattiche‬‭possano‬‭creare‬‭ambienti‬‭di‬‭apprendimento‬
+‭motivanti‬‭e‬‭quali‬‭differenti‬‭modelli‬‭di‬‭insegnamento/apprendimento‬‭possono‬‭essere‬‭adottati,‬‭anche‬‭in‬‭relazione‬
+‭alla responsabilità che ha la scuola di prevenire il disagio e di recuperare gli svantaggi.‬
+‭Il‬ ‭lavoro‬ ‭di‬ ‭ciascun‬ ‭docente‬ ‭è‬ ‭dunque‬ ‭orientato‬ ‭alla‬ ‭personalizzazione‬ ‭degli‬ ‭interventi‬ ‭attraverso‬ ‭metodologie‬
+‭didattiche‬‭innovative.‬‭Le‬‭scelte‬‭didattiche‬‭per‬‭conseguire‬‭tali‬‭obiettivi‬‭sono‬‭molteplici:‬‭feedback‬‭educativi‬‭motivati,‬
+‭verifiche‬‭formative‬‭e‬‭sommative,‬‭cooperative‬‭learning,‬‭didattica‬‭laboratoriale‬‭e‬‭multimediale.‬‭Durante‬‭le‬‭attività‬‭di‬
+‭studio‬‭si‬‭prevedono‬‭lavori‬‭di‬‭carattere‬‭disciplinare‬‭che‬‭mirino‬‭al‬‭recupero,‬‭al‬‭consolidamento‬‭ed‬‭al‬‭potenziamento‬
+‭delle competenze di base.‬
+‭Le attività proposte in quest’area permettono all’alunno di:‬
+‭●‬
+‭prevenire o superare situazioni di disagio‬
+‭●‬
+‭incrementare l’interesse verso le diverse discipline‬
+‭●‬
+‭costruire e sviluppare la propria personalità‬
+‭●‬
+‭accrescere la propria autonomia‬
+‭Laboratori extracurriculari‬
+‭In‬ ‭orario‬ ‭extra‬ ‭curricolare‬ ‭si‬ ‭svolgono‬ ‭anche‬ ‭le‬ ‭attività‬ ‭dei‬ ‭Laboratori,‬‭che‬‭costituiscono‬‭uno‬‭dei‬‭punti‬‭cardine‬
+‭dell'offerta‬ ‭formativa‬ ‭della‬ ‭nostra‬ ‭scuola‬ ‭quali‬ ‭promotori‬ ‭della‬ ‭crescita‬ ‭integrale‬ ‭della‬ ‭persona‬ ‭e‬ ‭momento‬
+‭privilegiato‬ ‭per‬
+‭la‬ ‭valorizzazione‬ ‭dei‬ ‭talenti;‬ ‭essi‬ ‭sono‬ ‭stati‬ ‭indicati‬ ‭altresì‬ ‭nel‬ ‭RAV‬ ‭(sez.‬ ‭3A.‬ ‭1:‬ ‭Curricolo,‬
+‭Progettazione‬ ‭e‬ ‭valutazione‬ ‭e‬ ‭3A.2:‬ ‭Ambiente‬ ‭di‬ ‭apprendimento)‬ ‭e‬ ‭nei‬ ‭relativi‬ ‭Piani‬ ‭di‬‭Miglioramento‬‭(cfr.‬‭a.s‬
+‭2016/17;‬ ‭2017/18;‬ ‭2018/19)‬ ‭come‬ ‭strumenti‬ ‭attraverso‬ ‭i‬ ‭quali‬ ‭promuovere‬ ‭negli‬ ‭allievi‬ ‭lo‬ ‭sviluppo‬ ‭delle‬
+‭Competenze chiave di Cittadinanza e in particolare delle Competenze sociali e civiche.‬
+‭Classi Prime‬
+‭laboratorio‬
+‭descrizione‬
+‭29‬
+
+---
+
+## Pagina 31
+
+
+## ‭Living Around‬
+
+
+## ‭The World‬
+
+‭Approfondimento‬ ‭linguistico‬ ‭sulle‬ ‭attività‬ ‭di‬ ‭reading,‬ ‭listening,‬ ‭dialoghi‬ ‭e‬ ‭role‬ ‭playing‬ ‭con‬
+‭ambientazioni varie con esplorazione di usanze e costumi di alcuni paesi stranieri‬
+‭(max 20 partecipanti)‬
+
+## ‭Circolo Dei‬
+
+
+## ‭Lettori‬
+
+‭Lettura‬ ‭partecipata‬ ‭ad‬ ‭alta‬ ‭voce,‬ ‭analisi‬ ‭e‬ ‭interpretazione‬ ‭del‬‭romanzo‬‭“Mio‬‭fratello‬
+‭rincorre i dinosauri” di G. Mazzariol.‬
+‭Confronto con l’omonimo film diretto da S. Cipani‬ ‭(max 20 partecipanti)‬
+
+## ‭Scienze‬
+
+‭Laboratorio‬ ‭per‬ ‭appassionati‬ ‭di‬ ‭scienze‬ ‭con‬‭realizzazione‬‭di‬‭esperimenti‬‭del‬‭mondo‬
+‭della chimica, fisica e biologia‬
+‭(max 20 partecipanti)‬
+
+## ‭Spagnolo‬
+
+‭Corso‬‭di‬‭avvicinamento‬‭alla‬‭lingua‬‭spagnola,‬‭mediante‬‭attività‬‭di‬‭role-playing,‬‭letture‬‭ed‬
+‭esercizi in classe‬
+‭(max 20 partecipanti)‬
+
+## ‭Cucina‬
+
+‭Corso di avvicinamento alla pratica culinaria con preparazione di ricette varie‬
+‭(max 20 partecipanti)‬
+
+## ‭Delf‬
+
+‭Corso‬ ‭di‬ ‭francese‬ ‭in‬ ‭preparazione‬ ‭alla‬ ‭certificazione‬ ‭delle‬ ‭competenze‬‭richieste‬‭dal‬
+‭Quadro‬‭Comune‬‭Europeo‬‭di‬‭riferimento‬‭per‬‭la‬‭conoscenza‬‭delle‬‭lingue‬‭(QCER)‬‭livello‬
+
+## ‭A1.‬
+
+‭L’esame di certificazione sarà sostenuto al termine del triennio‬
+‭(max 20 partecipanti)‬
+
+## ‭Ceramica‬
+
+‭Realizzazione e pittura di manufatti in creta, terre e ogni materiale per la manipolazione‬
+‭(max 20 partecipanti)‬
+
+## ‭Coro‬
+
+‭Piccolo atelier “tecnico” di canto corale.‬
+‭I‬‭canti,‬‭che‬ ‭verteranno‬‭sul‬‭repertorio‬‭di‬‭liturgia‬‭giovanile‬‭e‬‭di‬‭vari‬‭gruppi‬‭canori,‬‭saranno‬
+‭presentati dal gruppo di coro in occasioni come SS. Messe e feste della scuola‬
+‭(max 30 partecipanti)‬
+‭SPORT ragazze‬
+‭Un'occasione‬‭per‬‭le‬‭ragazze‬‭per‬‭imparare,‬‭impegnarsi‬‭ed‬‭allo‬‭tempo‬‭stesso‬‭divertirsi‬
+‭scegliendo di impiegare il proprio tempo facendo sport‬
+‭(max 20 partecipanti)‬
+‭SPORT ragazzi‬
+‭Un'occasione‬ ‭per‬ ‭i‬ ‭ragazzi‬ ‭per‬ ‭imparare,‬ ‭impegnarsi‬ ‭ed‬ ‭allo‬ ‭tempo‬ ‭stesso‬‭divertirsi‬
+‭scegliendo di impiegare il proprio tempo facendo sport‬
+‭(max 20 partecipanti)‬
+
+## ‭Illustrazione‬
+
+‭Percorso personalizzato di illustrazione di un tema a scelta dell’allievo‬
+‭(max 15 partecipanti)‬
+
+## ‭Lavori A Maglia‬
+
+
+## ‭Con I Ferri‬
+
+‭Realizzazione di prodotti lavorati a maglia con i ferri (max 15‬‭partecipanti‬‭)‬
+‭Classi Seconde‬
+‭laboratorio‬
+‭descrizione‬
+
+## ‭Ceramica‬
+
+‭Realizzazione‬ ‭e‬ ‭pittura‬ ‭di‬ ‭manufatti‬ ‭in‬ ‭creta,‬ ‭terre‬ ‭e‬ ‭ogni‬ ‭materiale‬ ‭per‬ ‭la‬
+‭manipolazione‬
+‭(max 20 partecipanti)‬
+
+## ‭Teatro‬
+
+‭Corso di avvicinamento alla pratica teatrale con realizzazione di uno spettacolo finale‬
+‭(max 18 partecipanti)‬
+
+## ‭Circolo Dei‬
+
+
+## ‭Lettori‬
+
+‭Lettura‬‭partecipata‬‭ad‬‭alta‬‭voce,‬‭analisi‬‭e‬‭interpretazione‬‭del‬‭romanzo‬‭“Mio‬‭fratello‬
+‭rincorre i dinosauri” di G. Mazzariol.‬
+‭30‬
+
+---
+
+## Pagina 32
+
+‭Confronto con l’omonimo film diretto da S. Cipani‬ ‭(max 20 partecipanti)‬
+
+## ‭Scienze‬
+
+‭Laboratorio‬‭per‬‭appassionati‬‭di‬‭scienze‬‭con‬‭realizzazione‬‭di‬‭esperimenti‬‭del‬‭mondo‬
+‭della chimica, fisica e biologia‬
+‭(max 20 partecipanti)‬
+
+## ‭Cucina‬
+
+‭Corso di avvicinamento alla pratica culinaria con preparazione di ricette varie‬
+‭(max 20 partecipanti)‬
+
+## ‭Robotica‬
+
+‭Corso‬ ‭di‬ ‭utilizzo‬ ‭della‬ ‭scheda‬ ‭elettronica‬ ‭e‬ ‭della‬ ‭piattaforma‬ ‭Arduino‬
+‭(max‬ ‭20‬
+‭partecipanti)‬
+
+## ‭Spagnolo‬
+
+‭Corso‬‭di‬‭avvicinamento‬‭alla‬‭lingua‬‭spagnola,‬‭mediante‬‭attività‬‭di‬‭role-playing,‬‭letture‬
+‭ed esercizi in classe‬
+‭(max 20 partecipanti)‬
+
+## ‭Lavori A Maglia‬
+
+
+## ‭Con I Ferri‬
+
+‭Realizzazione di prodotti lavorati a maglia con i ferri‬
+‭(max 15 partecipanti)‬
+‭SPORT ragazze‬
+‭Un'occasione‬‭per‬‭le‬‭ragazze‬‭per‬‭imparare,‬‭impegnarsi‬‭ed‬‭allo‬‭tempo‬‭stesso‬‭divertirsi‬
+‭scegliendo di impiegare il proprio tempo facendo sport‬
+‭(max 20 partecipanti)‬
+‭SPORT ragazzi‬
+‭Un'occasione‬‭per‬‭imparare,‬‭impegnarsi‬‭ed‬‭allo‬‭tempo‬‭stesso‬‭divertirsi‬‭scegliendo‬‭di‬
+‭impiegare il proprio tempo facendo sport‬‭(max 20 partecipanti)‬
+
+## ‭Coro‬
+
+‭Piccolo atelier “tecnico” di canto corale.‬
+‭I‬ ‭canti,‬ ‭che‬
+‭verteranno‬ ‭sul‬ ‭repertorio‬ ‭di‬ ‭liturgia‬ ‭giovanile‬ ‭e‬ ‭di‬ ‭vari‬ ‭gruppi‬ ‭canori,‬
+‭saranno‬ ‭presentati‬ ‭dal‬ ‭gruppo‬ ‭di‬ ‭coro‬ ‭in‬ ‭occasioni‬ ‭come‬ ‭SS.‬ ‭Messe‬‭e‬‭feste‬‭della‬
+‭scuola‬
+‭(max 30 partecipanti)‬
+
+## ‭Illustrazione‬
+
+‭Percorso personalizzato di illustrazione di un tema a scelta dell’allievo‬
+‭(max 15 partecipanti)‬
+‭Classi Terze‬
+‭laboratorio‬
+‭descrizione‬
+
+## ‭Scienze‬
+
+‭Laboratorio‬‭per‬‭appassionati‬‭di‬‭scienze‬‭con‬‭realizzazione‬‭di‬‭esperimenti‬‭del‬‭mondo‬
+‭della chimica, fisica e biologia‬‭.‬
+‭(max 20 partecipanti)‬
+
+## ‭Latino‬
+
+‭Corso di avvicinamento al Latino.‬
+‭Laboratorio a chiamata‬
+
+## ‭Icdl‬
+
+‭Laboratorio‬ ‭di‬ ‭avvicinamento‬ ‭all’informatica‬ ‭tramite‬ ‭il‬ ‭conseguimento‬ ‭della‬
+‭certificazione ICDL (max 20 partecipanti)‬
+
+## ‭Spagnolo‬
+
+‭Corso‬‭di‬‭avvicinamento‬‭alla‬‭lingua‬‭spagnola,‬‭mediante‬‭attività‬‭di‬‭role-playing,‬‭letture‬
+‭ed esercizi in classe‬
+‭(max 20 partecipanti)‬
+
+## ‭Teatro‬
+
+‭Corso‬ ‭di‬ ‭avvicinamento‬ ‭alla‬ ‭pratica‬ ‭teatrale‬ ‭con‬ ‭realizzazione‬ ‭di‬ ‭uno‬ ‭spettacolo‬
+‭finale‬
+‭(max 18 partecipanti)‬
+
+## ‭Giapponese‬
+
+‭Corso‬‭di‬‭avvicinamento‬‭alla‬‭lingua‬‭e‬‭alla‬‭cultura‬‭giapponese‬‭con‬‭presentazione‬‭dei‬
+‭due‬‭alfabeti‬‭sillabici‬‭(katakana‬‭e‬‭hiragana)‬‭che‬‭insieme‬‭al‬‭sistema‬‭di‬‭ideogrammi‬
+‭(kanji) formano le basi della lingua giapponese (max 20 partecipanti)‬
+‭31‬
+
+---
+
+## Pagina 33
+
+
+## ‭Circolo Dei‬
+
+
+## ‭Lettori‬
+
+‭Lettura‬ ‭individuale‬ ‭di‬ ‭storie‬ ‭legate‬ ‭all’attualità‬ ‭che‬ ‭fanno‬ ‭riflettere‬ ‭su‬ ‭ciò‬ ‭che‬
+‭accadde‬‭nel‬‭mondo,‬‭al‬‭di‬‭fuori‬‭e‬‭dentro‬‭di‬‭noi.‬‭Un‬‭libro‬‭al‬‭mese‬‭su‬‭cui‬‭confrontarci‬‭e‬
+‭dal quale lasciarci ispirare‬‭(max 20 partecipanti)‬
+
+## ‭Food And Cooking‬
+
+‭Approfondimento‬ ‭del‬ ‭vocabolario‬ ‭inglese‬ ‭alberghiero‬ ‭e‬ ‭culinario,‬ ‭con‬ ‭pratica‬ ‭in‬
+‭cucina, dove si realizzeranno ricette internazionali e anglofone.‬
+‭Durante le lezioni in aula si parlerà in lingua.‬
+‭(max 20 partecipanti)‬
+
+## ‭Lavori A Maglia‬
+
+
+## ‭Con I Ferri‬
+
+‭Realizzazione di prodotti lavorati a maglia con i ferri‬
+‭(max 15‬‭partecipanti‬‭)‬
+‭SPORT ragazze‬
+‭Un'occasione‬‭per‬‭le‬‭ragazze‬‭per‬‭imparare,‬‭impegnarsi‬‭ed‬‭allo‬‭tempo‬‭stesso‬‭divertirsi‬
+‭scegliendo di impiegare il proprio tempo facendo sport‬‭(max 20 partecipanti)‬
+‭SPORT ragazzi‬
+‭Un'occasione‬‭per‬‭imparare,‬‭impegnarsi‬‭ed‬‭allo‬‭tempo‬‭stesso‬‭divertirsi‬‭scegliendo‬‭di‬
+‭impiegare il proprio tempo facendo sport‬‭(max 20 partecipanti)‬
+
+## ‭Coro‬
+
+‭Piccolo atelier “tecnico” di canto corale.‬
+‭I‬ ‭canti,‬ ‭che‬ ‭verteranno‬ ‭sul‬ ‭repertorio‬‭di‬‭liturgia‬‭giovanile‬‭e‬‭di‬‭vari‬‭gruppi‬‭canori,‬
+‭saranno‬‭presentati‬‭dal‬‭gruppo‬‭di‬‭coro‬‭in‬‭occasioni‬‭come‬‭SS.‬‭Messe‬‭e‬‭feste‬‭della‬
+‭scuola‬
+‭(max 30 partecipanti)‬
+
+## ‭Ceramica‬
+
+‭Realizzazione‬ ‭e‬ ‭pittura‬ ‭di‬ ‭manufatti‬ ‭in‬ ‭creta,‬ ‭terre‬ ‭e‬ ‭ogni‬ ‭materiale‬ ‭per‬ ‭la‬
+‭manipolazione‬‭(max 20 partecipanti)‬
+
+## ‭Illustrazione‬
+
+‭Percorso personalizzato di illustrazione di un tema a scelta dell’allievo‬
+‭(max 15 partecipanti)‬
+‭Laboratorio metodo di studio‬
+‭Il‬‭Laboratorio‬‭è‬‭indirizzato‬‭agli‬‭allievi‬‭delle‬‭classi‬‭prime‬‭allo‬‭scopo‬‭di‬‭guidarli‬‭nel‬‭corretto‬‭ed‬‭efficace‬‭utilizzo‬‭degli‬
+‭strumenti per lo studio cartacei e multimediali e alla ricerca delle proprie personali strategie di apprendimento.‬
+‭Il‬‭Laboratorio‬‭è‬‭stato‬‭pensato‬‭per‬‭agevolare‬‭l’ingresso‬‭degli‬‭allievi‬‭nella‬‭scuola‬‭secondaria‬‭di‬‭I‬‭grado,‬‭consentendo‬
+‭loro‬‭un‬‭più‬‭semplice‬‭e‬‭sicuro‬‭approccio‬‭a‬‭carichi‬‭di‬‭lavoro‬‭maggiori‬‭rispetto‬‭a‬‭quanto‬‭erano‬‭abituati‬‭a‬‭fare‬‭nella‬
+‭scuola primaria.‬
+‭I‬‭moduli‬‭sono‬‭concentrati‬‭nei‬‭primi‬‭tre‬‭mesi‬‭di‬‭scuola‬‭(generalmente‬‭da‬‭metà‬‭settembre‬‭a‬‭metà‬‭novembre),‬‭in‬‭cui‬
+‭sono previsti tre incontri alla settimana per ciascuna delle sezioni prime nelle rispettive aule.‬
+‭Le‬‭classi‬‭prime‬‭passeranno‬‭ad‬‭una‬‭fase‬‭di‬‭applicazione‬‭concreta,‬‭ma‬‭sempre‬‭guidata,‬‭del‬‭metodo,‬‭nel‬‭corso‬‭della‬
+‭quale‬‭eserciteranno‬‭i‬‭saperi‬‭pratici‬‭appresi‬‭durante‬‭il‬‭laboratorio‬‭per‬‭lo‬‭svolgimento‬‭dei‬‭compiti‬‭che,‬‭di‬‭volta‬‭in‬‭volta,‬
+‭saranno stati loro assegnati durante le ore curricolari.‬
+‭Scienza e tecnica (STEAM)‬
+‭Laboratorio di scienze‬
+‭Per‬‭il‬‭triennio‬‭25/28‬‭è‬‭stato‬‭attivato‬‭un‬‭Laboratorio‬‭di‬‭scienze‬‭,‬‭rivolto‬‭agli‬‭allievi‬‭di‬‭tutte‬‭le‬‭classi,‬‭e‬‭suddiviso‬‭in‬
+‭moduli di 50 minuti ciascuno.‬
+‭Il‬ ‭laboratorio‬ ‭è‬ ‭incentrato‬ ‭sulla‬ ‭pratica‬ ‭della‬ ‭chimica,‬ ‭della‬ ‭fisica‬ ‭e‬ ‭della‬ ‭biochimica‬ ‭e‬ ‭intende,‬ ‭attraverso‬ ‭gli‬
+‭esperimenti, avvicinare gli allievi al mondo e al metodo scientifico.‬
+‭Tramite‬‭l’osservazione‬‭e‬‭la‬‭comprensione‬‭di‬‭alcune‬‭reazioni‬‭chimiche‬‭e‬‭di‬‭fenomeni‬‭scientifici‬‭si‬‭evidenzieranno‬‭gli‬
+‭aspetti‬ ‭applicativi‬‭di‬‭conoscenze‬‭e‬‭competenze‬‭scientifiche‬‭permettendo‬‭agli‬‭studenti‬‭di‬‭sperimentare‬‭in‬‭prima‬
+‭persona e rielaborare le conoscenze trasferendole in ambito laboratoriale.‬
+‭32‬
+
+---
+
+## Pagina 34
+
+‭Laboratorio di robotica‬
+‭Viene‬‭proposto‬‭un‬‭nuovo‬‭laboratorio‬‭di‬‭Robotica‬‭per‬‭le‬‭classi‬‭seconde,‬‭dove‬‭verrà‬‭proposto‬‭l’‬‭utilizzo‬‭della‬‭scheda‬
+‭elettronica e della piattaforma Arduino‬
+‭Gli argomenti trattati sono:‬
+‭●‬
+‭elementi di elettronica Arduino‬
+‭●‬
+‭programmazione a blocchi Arduino IDE‬
+‭Durante‬‭gli‬‭incontri‬‭verranno‬‭accennati‬‭gli‬‭aspetti‬‭teorici‬‭della‬‭disciplina‬‭e,‬‭in‬‭misura‬‭prevalente,‬‭verranno‬‭affrontati‬
+‭gli‬‭aspetti‬‭pratici‬‭attraverso‬‭lo‬‭sviluppo‬‭di‬‭piccole‬‭parti‬‭di‬‭codice‬‭con‬‭software‬‭liberi,‬‭giochi‬‭o‬‭esercitazioni‬‭online.‬
+‭Nella‬‭parte‬‭finale‬‭dedicata‬‭alla‬‭robotica,‬‭le‬‭attività‬‭proseguiranno‬‭con‬‭l’assemblaggio,‬‭i‬‭test‬‭e‬‭la‬‭programmazione‬‭di‬
+‭alcuni robot didattici con componenti Arduino‬
+‭Certificazioni internazionali‬
+‭Corso per il conseguimento della certificazione ICDL‬
+‭ICDL rappresenta a livello nazionale e internazionale lo standard riconosciuto per la computer literacy.‬
+‭Lo‬‭scenario‬‭digitale‬‭a‬‭livello‬‭mondiale‬‭è‬‭in‬‭profonda‬‭ristrutturazione.‬‭La‬‭straordinaria‬‭diffusione‬‭di‬‭dispositivi‬‭mobili,‬
+‭la‬ ‭possibilità‬ ‭di‬ ‭utilizzare‬ ‭applicazioni‬ ‭remote‬ ‭e‬ ‭di‬‭memorizzare‬‭anche‬‭i‬‭propri‬‭dati‬‭in‬‭rete,‬‭l'uso‬‭“sociale”‬‭delle‬
+‭tecnologie hanno modificato le connotazioni dei principali attori del mercato e il loro modo di competere.‬
+‭In‬‭questo‬‭grande‬‭cambiamento‬‭il‬‭CEPIS‬‭(Council‬‭of‬‭European‬‭Professional‬‭Informatics‬‭Societies),‬‭a‬‭livello‬‭europeo,‬
+‭e‬ ‭le‬ ‭associazioni‬ ‭come‬ ‭AICA,‬ ‭a‬ ‭livello‬ ‭nazionale,‬ ‭che‬ ‭sono‬ ‭fra‬ ‭gli‬ ‭osservatori‬ ‭più‬ ‭attenti‬ ‭delle‬ ‭evoluzioni‬
+‭tecnologiche‬‭e‬‭del‬‭loro‬‭impatto‬‭sulla‬‭società,‬‭assumono‬‭un‬‭ruolo‬‭molto‬‭importante,‬‭supportando‬‭l'intera‬‭società‬
+‭nella comprensione e nell'adozione “saggia” delle tecnologie informatiche.‬
+‭La‬ ‭Fondazione‬ ‭ICDL‬ ‭si‬ ‭pone‬ ‭l'obiettivo‬ ‭di‬ ‭favorire‬ ‭un‬ ‭uso‬ ‭competente‬ ‭delle‬ ‭tecnologie‬ ‭informatiche‬ ‭in‬‭tutto‬‭il‬
+‭mondo,‬ ‭rafforzando‬ ‭gli‬ ‭individui,‬ ‭le‬ ‭organizzazioni‬ ‭e‬ ‭l'intera‬ ‭società‬ ‭attraverso‬ ‭la‬ ‭diffusione‬ ‭di‬ ‭programmi‬ ‭di‬
+‭certificazione‬ ‭di‬ ‭alto‬ ‭valore.‬ ‭Nel‬ ‭decennio‬ ‭scorso,‬ ‭l'oggetto‬ ‭principale‬ ‭di‬ ‭questo‬ ‭compito‬ ‭poteva‬ ‭abbastanza‬
+‭facilmente‬ ‭essere‬ ‭identificato‬ ‭nella‬ ‭conoscenza‬ ‭e‬ ‭nella‬ ‭capacità‬ ‭d'uso‬ ‭delle‬ ‭principali‬ ‭applicazioni‬ ‭d'ufficio‬
+‭(elaborazione‬ ‭testi,‬ ‭fogli‬ ‭elettronici,‬ ‭presentazioni‬ ‭ecc.).‬ ‭Le‬ ‭competenze‬ ‭digitali‬ ‭del‬ ‭futuro‬ ‭saranno‬‭sempre‬‭più‬
+‭variegate‬ ‭e‬ ‭flessibili‬ ‭di‬ ‭quelle‬ ‭attuali,‬ ‭riguarderanno‬ ‭la‬ ‭capacità‬ ‭di‬ ‭usare‬ ‭anche‬ ‭applicazioni‬ ‭semplici‬ ‭in‬ ‭modo‬
+‭disinvolto.‬
+‭La‬‭società‬‭moderna‬‭ci‬‭conduce‬‭necessariamente‬‭all'apprendimento‬‭continuo‬‭e‬‭del‬‭lavoro‬‭che,‬‭proprio‬‭grazie‬‭alle‬
+‭tecnologie‬‭mobili,‬‭non‬‭conosce‬‭più‬‭limiti‬‭precisi‬‭di‬‭spazio‬‭e‬‭di‬‭tempo.‬‭Anche‬‭le‬‭normative‬‭comunitarie‬‭e‬‭nazionali‬
+‭hanno‬ ‭recepito‬ ‭queste‬ ‭mutazioni.‬ ‭Il‬ ‭Quadro‬ ‭Europeo‬ ‭delle‬ ‭Qualifiche‬ ‭(EQF)‬ ‭è‬ ‭il‬ ‭riferimento‬ ‭per‬ ‭il‬ ‭mutuo‬
+‭riconoscimento‬‭delle‬‭competenze‬‭nell’area‬‭comunitaria‬‭e‬‭il‬‭Governo‬‭italiano‬‭ha‬‭recentemente‬‭definito‬‭le‬‭regole‬‭del‬
+‭sistema‬ ‭nazionale‬ ‭della‬ ‭certificazione‬ ‭di‬ ‭competenze,‬ ‭tra‬ ‭cui‬ ‭quelle‬ ‭digitali.‬ ‭L’Agenda‬ ‭Digitale,‬ ‭sostenuta‬ ‭dalla‬
+‭Commissione‬‭Europea,‬‭è‬‭una‬‭delle‬‭iniziative‬‭faro‬‭della‬‭strategia‬‭Horizon‬‭2020‬‭e‬‭punta‬‭ad‬‭avvalersi‬‭delle‬‭tecnologie‬
+‭digitali per favorire innovazione, imprenditorialità, sviluppo economico e integrazione sociale.‬
+‭Vantaggi del programma certificativo:‬
+‭●‬
+‭è un riconoscimento qualificato e certo‬
+‭●‬
+‭l’utilizzo‬‭delle‬‭nuove‬‭tecnologie‬‭informatiche‬‭è‬‭sempre‬‭più‬‭diffuso‬‭ed‬‭è‬ ‭spesso‬‭un‬‭prerequisito‬‭essenziale‬
+‭sia nel mondo del lavoro che nello studio‬
+‭●‬
+‭è‬ ‭riconosciuto‬ ‭come‬ ‭credito‬ ‭scolastico‬ ‭all'Università‬ ‭e‬ ‭in‬ ‭numerose‬ ‭facoltà‬ ‭ha‬ ‭il‬ ‭peso‬ ‭di‬ ‭un‬ ‭esame‬
+‭obbligatorio‬
+‭Corso per il conseguimento della certificazione KET (Cambridge Key English Test)‬
+‭A‬‭partire‬‭dall'a.s‬‭2019/2020,‬‭grazie‬‭all'adozione‬‭dell'orario‬‭che‬‭prevede‬‭il‬‭Potenziamento‬‭dello‬‭studio‬‭della‬‭Lingua‬
+‭Inglese,‬‭è‬‭offerta‬‭a‬‭tutti‬‭gli‬‭allievi‬‭in‬‭orario‬‭curricolare‬‭la‬‭preparazione‬‭necessaria‬‭a‬‭sostenere‬‭eventualmente‬‭alla‬
+‭fine‬‭del‬‭triennio‬‭la‬‭Certificazione‬‭KET.‬‭Ciononostante,‬‭solo‬‭gli‬‭allievi‬‭che‬‭avranno‬‭effettivamente‬‭maturato‬‭i‬‭giusti‬
+‭prerequisiti verranno invitati dall'insegnante a sostenere l'esame.‬
+‭Il‬‭Cambridge‬‭Key‬‭English‬‭Test‬‭(KET)‬‭corrisponde‬‭al‬‭livello‬‭A2‬‭del‬‭Quadro‬‭Comune‬‭Europeo‬‭di‬‭Riferimento‬‭per‬‭le‬
+‭Lingue‬‭del‬‭Consiglio‬‭d’Europa,‬‭riconosciuto‬‭a‬‭livello‬‭internazionale.‬‭Se‬‭il‬‭punteggio‬‭ottenuto‬‭risulta‬‭superiore‬‭al‬‭90%‬
+‭è addirittura possibile ottenere un livello B1, ulteriore stimolo per gli studenti.‬
+‭Il percorso didattico in preparazione dell’esame permette di:‬
+‭33‬
+
+---
+
+## Pagina 35
+
+‭●‬
+‭rafforzare le quattro abilità di lettura, scrittura, ascolto e comprensione in lingua inglese‬
+‭●‬
+‭migliorare‬ ‭nonché‬ ‭approfondire‬ ‭conoscenze‬ ‭lessicali‬ ‭e‬ ‭grammaticali‬ ‭acquisite‬ ‭durante‬ ‭il‬ ‭percorso‬
+‭scolastico‬
+‭●‬
+‭incoraggiare‬ ‭l’utilizzo‬ ‭della‬ ‭lingua‬ ‭inglese‬ ‭nella‬ ‭realtà‬ ‭quotidiana,‬ ‭sviluppando‬ ‭una‬ ‭maggiore‬ ‭sicurezza‬
+‭nell’esposizione orale, utile anche in vista dell’Esame di stato‬
+‭●‬
+‭certificare‬‭le‬‭competenze‬‭acquisite‬‭attraverso‬‭la‬‭valutazione‬‭di‬‭un‬‭ente‬‭esterno‬‭accreditato,‬‭riconosciuto‬‭a‬
+‭livello internazionale‬
+‭●‬
+‭sviluppare capacità di autovalutazione attraverso test da svolgere autonomamente‬
+‭●‬
+‭incoraggiare gli allievi a conseguire in futuro ulteriori certificazioni linguistiche‬
+‭●‬
+‭assicurare un aumento della motivazione e delle potenzialità degli alunni‬
+‭●‬
+‭valorizzare le eccellenze come da obiettivo del RAV‬
+‭La‬ ‭preparazione‬ ‭all’esame‬ ‭KET‬ ‭non‬ ‭richiede‬ ‭contributo‬ ‭economico‬ ‭da‬ ‭parte‬ ‭delle‬ ‭famiglie;‬ ‭queste‬ ‭devono‬
+‭corrispondere‬‭esclusivamente‬‭la‬‭quota‬‭relativa‬‭allo‬‭svolgimento‬‭dell'esame‬‭finale,‬‭che‬‭può‬‭subire‬‭leggere‬‭variazioni‬
+‭negli anni ed essere determinato sulla base della località in cui esso si svolge.‬
+‭Corso per il conseguimento della certificazione DELF (Diplôme d'Études en Langue Française)‬
+‭Il‬ ‭corso,‬ ‭opzionale,‬ ‭è‬ ‭di‬ ‭durata‬ ‭triennale‬ ‭e‬ ‭finalizzato‬ ‭al‬ ‭conseguimento‬ ‭della‬ ‭certificazione‬ ‭DELF,‬ ‭diploma‬
+‭riconosciuto‬ ‭a‬ ‭livello‬ ‭internazionale.‬ ‭Il‬ ‭percorso‬ ‭è‬ ‭partito‬‭con‬‭gli‬‭allievi‬‭delle‬‭classi‬‭prime‬‭dell’anno‬‭scolastico‬
+‭2017/18 e per l’a.s 2021/22 potrà essere proposto a tutte le classi.‬
+‭L’intento‬‭è‬‭ampliare‬‭ed‬‭approfondire‬‭la‬‭conoscenza‬‭della‬‭lingua‬‭e‬‭cultura‬‭francofona‬‭con‬‭lezioni‬‭pomeridiane‬‭su‬
+‭base‬ ‭volontaria.‬ ‭L’obiettivo‬ ‭è‬ ‭valorizzare‬ ‭al‬ ‭massimo‬ ‭lo‬‭studio‬‭della‬‭lingua‬‭straniera‬‭mediante‬‭attività‬‭varie‬‭per‬
+‭rendere partecipi gli allievi al loro apprendimento sfruttando lo spirito di iniziativa.‬
+‭Il‬‭Corso‬‭di‬‭Lingua‬‭francese‬‭rientra‬‭nelle‬‭attività‬‭a‬‭pagamento,‬‭in‬‭quanto‬‭ha‬‭un‬‭costo‬‭che‬‭viene‬‭stabilito‬‭sulla‬‭base‬
+‭del‬‭numero‬‭di‬‭lezioni‬‭previste‬‭e‬‭comunicato‬‭alle‬‭famiglie.‬‭Nell'a.s.‬‭2018/2019‬‭il‬‭costo‬‭del‬‭Corso‬‭Delf‬‭per‬‭le‬‭classi‬
+‭prime‬‭è‬‭stato‬‭di‬‭100‬‭euro‬‭(a‬‭cui‬‭si‬‭è‬‭aggiunta‬‭la‬‭spesa‬‭per‬‭l'acquisto‬‭del‬‭libro‬‭di‬‭testo),‬‭per‬‭le‬‭classi‬‭seconde‬‭di‬‭120‬
+‭euro.‬
+‭Nell’a.s.‬‭2019/20‬‭tali‬‭costi‬‭sono‬‭rimasti‬‭invariati,‬‭a‬‭fronte‬‭di‬‭moduli‬‭orari‬‭della‬‭durata‬‭di‬‭60‬‭minuti‬‭per‬‭le‬‭classi‬‭prime‬
+‭e di 110 minuti per le classi seconde e terze.‬
+‭Nell’a.s.‬‭2020/21‬‭il‬‭Corso‬‭Delf‬‭per‬‭le‬‭classi‬‭terze‬‭è‬‭stato‬‭programmato‬‭in‬‭un’unica‬‭lezione‬‭settimanale‬‭della‬‭durata‬
+‭di‬‭110‬‭minuti,‬‭mentre‬‭quello‬‭per‬‭le‬‭classi‬‭seconde‬‭resta‬‭articolato‬‭in‬‭due‬‭moduli‬‭settimanali‬‭della‬‭durata‬‭di‬‭60‬‭min‬
+‭ciascuno. Per le classi prime si propone invece un unico modulo settimanale della durata di 80 minuti.‬
+‭Nell’a.s.‬‭2021/22‬‭il‬‭Corso‬‭Delf‬‭per‬‭le‬‭classi‬‭terze‬‭è‬‭stato‬‭programmato‬‭in‬‭un’unica‬‭lezione‬‭settimanale‬‭della‬‭durata‬
+‭di‬ ‭110‬ ‭minuti.‬ ‭Quello‬ ‭per‬ ‭le‬ ‭classi‬ ‭seconde‬ ‭resta‬ ‭articolato‬ ‭in‬ ‭due‬ ‭moduli‬ ‭settimanali‬ ‭della‬ ‭durata‬ ‭di‬ ‭60‬ ‭min‬
+‭ciascuno, per le classi prime due moduli settimanali della durata di 50 minuti ciascuno.‬
+‭Corso per il conseguimento della certificazione DELE‬
+‭Il‬ ‭corso,‬ ‭opzionale,‬ ‭è‬ ‭di‬ ‭durata‬ ‭triennale‬ ‭e‬ ‭finalizzato‬ ‭al‬ ‭conseguimento‬ ‭della‬ ‭certificazione‬ ‭DELE,‬ ‭diploma‬
+‭riconosciuto‬ ‭a‬ ‭livello‬ ‭internazionale.‬ ‭Il‬ ‭percorso‬ ‭è‬ ‭partito‬‭con‬‭gli‬‭allievi‬‭delle‬‭classi‬‭prime‬‭dell’anno‬‭scolastico‬
+‭2023/24.‬
+‭L’intento‬‭è‬‭ampliare‬‭ed‬‭approfondire‬‭la‬‭conoscenza‬‭della‬‭lingua‬‭e‬‭cultura‬‭spagnola‬‭con‬‭lezioni‬‭pomeridiane‬‭su‬‭base‬
+‭volontaria.‬‭L’obiettivo‬‭è‬‭valorizzare‬‭al‬‭massimo‬‭lo‬‭studio‬‭della‬‭lingua‬‭straniera‬‭mediante‬‭attività‬‭varie‬‭per‬‭rendere‬
+‭partecipi gli allievi al loro apprendimento sfruttando lo spirito di iniziativa.‬
+‭Nell’a.s.‬‭2023/24‬‭il‬‭Corso‬‭Dele‬‭per‬‭le‬‭classi‬‭prime‬‭è‬‭stato‬‭programmato‬‭in‬‭un’unica‬‭lezione‬‭settimanale‬‭della‬‭durata‬
+‭di 55 minuti.‬
+‭Quello‬ ‭per‬ ‭le‬ ‭classi‬ ‭seconde‬ ‭e‬ ‭terze‬ ‭resta‬ ‭articolato‬ ‭in‬ ‭un‬ ‭modulo‬ ‭settimanale‬ ‭della‬ ‭durata‬‭di‬‭55‬‭min,‬‭mirato‬
+‭all’introduzione della lingua e cultura spagnola.‬
+‭Cultura musica arte e teatro‬
+‭I‬‭laboratori‬‭artistici‬‭ed‬‭espressivi‬‭si‬‭svolgono‬‭durante‬‭le‬‭ore‬‭di‬‭studio‬‭e‬‭sono‬‭tenuti‬‭direttamente‬‭dagli‬‭insegnanti‬
+‭delle‬‭discipline‬‭di‬‭riferimento‬‭o‬‭da‬‭professionisti.‬‭Hanno‬‭scopo‬‭educativo‬‭e‬‭didattico‬‭e‬‭aiutano‬‭gli‬‭alunni‬‭iscritti‬‭ad‬
+‭approcciarsi in modo diverso al teatro, alla musica, all’arte, allo sport.‬
+‭34‬
+
+---
+
+## Pagina 36
+
+‭Inoltre,‬‭essi‬‭rientrano‬‭nell'ambito‬‭delle‬‭attività‬‭di‬‭studio,‬‭approfondimento,‬‭fruizione‬‭e‬‭scambio‬‭in‬‭ambito‬‭artistico,‬
+‭musicale,‬ ‭cinematografico,‬ ‭linguistico‬ ‭e‬ ‭artigianale‬
+‭che‬ ‭la‬ ‭scuola‬ ‭ha‬ ‭inteso‬ ‭organizzare‬ ‭nell'ottica‬ ‭della‬
+‭"promozione della cultura umanistica", secondo le indicazioni del D.L. vo 60/2017.‬
+‭Laboratorio propedeutico allo studio del latino‬
+‭Il‬‭corso‬‭è‬‭rivolto‬‭agli‬‭alunni‬‭di‬‭terza‬‭media‬‭(individuati‬‭dai‬‭docenti‬‭di‬‭Lettere)‬‭che‬‭abbiano‬‭dimostrato‬‭di‬‭possedere‬‭i‬
+‭prerequisiti‬ ‭adeguati‬ ‭riguardo‬ ‭alla‬ ‭conoscenze,‬ ‭abilità‬ ‭e‬ ‭competenze‬ ‭relative‬ ‭allo‬ ‭studio‬ ‭delle‬ ‭funzioni‬ ‭e‬ ‭delle‬
+‭strutture‬‭della‬‭Lingua‬‭italiana,‬‭che‬‭intendano‬‭approfondirlo‬‭e‬‭che‬‭siano‬‭orientati‬‭a‬‭frequentare‬‭un‬‭corso‬‭di‬‭studi‬
+‭superiori‬‭che‬‭preveda‬‭tra‬‭le‬‭discipline‬‭la‬‭presenza‬‭del‬‭Latino.‬ ‭I‬‭contenuti‬‭trattati‬‭sono‬‭i‬‭seguenti:‬‭lessico‬‭italiano‬‭e‬
+‭lessico‬‭latino‬‭a‬‭confronto;‬‭la‬‭flessione‬‭del‬‭nome:‬‭la‬‭I‬‭e‬‭la‬‭II‬‭declinazione;‬‭la‬‭prima‬‭classe‬‭degli‬‭aggettivi;‬‭elementi‬‭di‬
+‭analisi‬‭logica‬‭della‬‭frase‬‭latina;‬‭la‬‭flessione‬‭del‬‭verbo:‬‭il‬‭presente‬‭indicativo‬‭attivo‬‭delle‬‭quattro‬‭coniugazioni‬‭e‬‭di‬
+‭sum;‬‭traduzione‬‭latino-italiano‬‭di‬‭frasi‬‭e‬‭semplici‬‭brani‬‭relativi‬‭al‬‭primo‬‭livello‬‭di‬‭apprendimento‬‭della‬‭Lingua‬‭latina;‬
+‭elementi‬‭di‬‭civiltà‬‭dell’antica‬‭Roma.‬‭E’‬‭prevista‬‭una‬‭valutazione‬‭formativa‬‭in‬‭itinere,‬‭per‬‭monitorare‬‭il‬‭percorso‬‭degli‬
+‭allievi‬ ‭in‬ ‭parallelo‬ ‭rispetto‬ ‭agli‬ ‭obiettivi‬ ‭previsti‬ ‭nell’educazione‬ ‭linguistica‬ ‭dell’Italiano;‬ ‭essa‬ ‭terrà‬ ‭conto‬ ‭del‬
+‭rendimento, della partecipazione e dell’interesse dimostrati, del livello di partenza, dei progressi compiuti.‬
+‭Laboratorio di arte‬
+‭Il‬ ‭laboratorio‬ ‭coinvolge‬ ‭gli‬ ‭alunni‬ ‭di‬ ‭tutte‬ ‭le‬ ‭classi‬ ‭per‬ ‭un‬ ‭modulo‬ ‭orario‬ ‭a‬ ‭settimana.‬ ‭Gli‬ ‭alunni‬ ‭sono‬ ‭guidati‬
+‭nell’ideazione,‬‭progettazione‬‭e‬‭realizzazione‬‭di‬‭elaborati‬‭ricercando‬‭soluzioni‬‭creative‬‭originali,‬‭ispirate‬‭anche‬‭dallo‬
+‭studio‬‭dell’arte‬‭e‬‭della‬‭comunicazione‬‭visiva.‬‭Gli‬‭alunni‬‭devono‬‭utilizzare‬‭consapevolmente‬‭gli‬‭strumenti,‬‭le‬‭tecniche‬
+‭di‬ ‭base‬ ‭(in‬ ‭modo‬ ‭particolare‬ ‭del‬‭disegno‬‭a‬‭mano‬‭libera),‬‭gestire‬‭con‬‭cura‬‭il‬‭materiale‬‭e‬‭mostrare‬‭la‬‭volontà‬‭di‬
+‭intraprendere tale corso presentando una proposta sulla base della quale verrà avviato e personalizzato il lavoro.‬
+‭Il laboratorio si propone sulla base del “genere” di illustrazione a cui gli alunni vorranno dedicarsi.‬
+‭Gli obiettivi potranno riguardare:‬
+‭●‬‭Lo‬‭sviluppo‬‭della‬‭capacità‬‭di‬‭osservare‬‭da‬‭più‬‭punti‬‭di‬‭vista‬‭l’oggetto‬‭da‬‭rappresentare‬‭sensibilizzando‬‭lo‬‭sguardo‬
+‭su aspetti come la texture, la luce e il colore.‬
+‭● Saper individuare la tecnica più adeguata di rappresentazione.‬
+‭●‬‭Nel‬‭caso‬‭dell’illustrazione‬‭relativa‬‭al‬‭contenuto‬‭di‬‭un‬‭testo‬‭saper‬‭adottare‬‭lo‬‭stile‬‭rappresentativo‬‭adeguato‬‭(che‬‭si‬
+‭tratti di un testo descrittivo scientifico oppure di un testo narrativo).‬
+‭●‬‭Acquisire‬‭un‬‭metodo‬‭progettuale‬‭che‬‭a‬‭seconda‬‭dei‬‭casi‬‭alterna‬‭schizzi‬‭preparatori,‬‭ricerche‬‭online,‬‭studio‬‭sia‬
+‭dello stile di disegno che di quello pittorico, studio del colore, ricerca dei supporti.‬
+‭Alla‬‭fine‬‭del‬‭laboratorio‬‭gli‬‭allievi‬‭saranno‬‭in‬‭grado‬‭di‬‭rielaborare‬‭creativamente‬‭materiali‬‭di‬‭uso‬‭comune,‬‭immagini‬
+‭fotografiche, scritte, elementi iconici e visivi per produrre nuove immagini.‬
+
+## ‭Laboratorio Di Sport‬
+
+‭Il‬‭laboratorio‬‭sportivo‬‭si‬‭rivolge‬‭a‬‭tutti‬‭quegli‬‭allievi‬‭che‬‭facendone‬‭richiesta‬‭desiderano,‬‭attraverso‬‭l'attività‬‭sportiva,‬
+‭integrare‬‭il‬‭loro‬‭percorso‬‭formativo‬‭educativo.‬‭Attraverso‬‭attività‬‭ludiche‬‭quali‬‭minibasket,‬‭pallamano,‬‭pallavolo‬ ‭e‬
+‭calcio‬‭a‬‭5‬‭ci‬‭si‬‭pone‬‭l'obiettivo‬‭di‬‭trasmettere‬‭attraverso‬‭il‬‭valore‬‭del‬‭divertimento‬‭la‬‭formazione‬‭della‬‭personalità‬
+‭degli‬‭allievi,‬‭il‬‭consolidamento‬‭delle‬‭amicizie,‬‭l'apprendimento‬‭di‬‭regole‬‭e‬‭degli‬‭aspetti‬‭tecnici‬‭delle‬‭varie‬‭discipline‬
+‭sportive,‬ ‭l'integrazione‬ ‭tra‬ ‭personalità‬ ‭diverse.‬ ‭Per‬ ‭garantire‬ ‭questo‬ ‭vengono‬ ‭creati‬ ‭gruppi‬ ‭distinti‬ ‭di‬ ‭allievi‬
+‭appartenenti a classi diverse.‬
+‭Gli‬‭ambienti‬‭utilizzati‬‭sono‬‭quelli‬‭interni‬‭all'istituto,‬‭quindi:‬‭campo‬‭da‬‭calcio,‬‭pallacanestro‬‭e‬‭pallavolo‬‭e‬‭i‬‭locali‬‭della‬
+‭palestra.‬‭Data‬‭la‬‭grande‬‭eterogeneità‬‭degli‬‭allievi‬‭che‬‭prendono‬‭parte‬‭a‬‭questo‬‭laboratorio‬‭le‬‭attività‬‭sono‬‭e‬‭devono‬
+‭essere‬ ‭diversificate‬ ‭e‬ ‭flessibili;‬ ‭una‬ ‭pianificazione‬ ‭troppo‬ ‭rigida‬ ‭interromperebbe‬ ‭l'elemento‬ ‭sorpresa‬ ‭e‬ ‭il‬
+‭divertimento verrebbe meno.‬
+‭Il laboratorio sportivo attraverso gli sport di squadra mira a:‬
+‭- potenziare la comunicazione e la socializzazione‬
+‭- migliorare l’espressività‬
+‭- sviluppare l’autostima‬
+‭- aumentare la collaborazione per raggiungere obiettivi comuni‬
+‭- conoscere i regolamenti e le tecniche degli sport trattati durante le lezioni.‬
+‭35‬
+
+---
+
+## Pagina 37
+
+‭Dall’a.s. 2024/25 è stato proposto anche un laboratorio di Sport per le ragazze.‬
+‭Progetti d’istituto‬
+‭Orientamento‬
+‭L'Orientamento‬ ‭ha‬ ‭carattere‬ ‭spiccatamente‬ ‭interdisciplinare‬ ‭e‬ ‭presuppone‬ ‭un‬ ‭insieme‬ ‭di‬ ‭interventi‬ ‭integrati‬ ‭e‬
+‭coordinati‬ ‭da‬ ‭parte‬ ‭di‬ ‭tutti‬ ‭i‬‭docenti.‬‭Fondamentale‬‭per‬‭il‬‭soggetto‬‭che‬‭deve‬‭compiere‬‭una‬‭scelta‬‭scolastica‬‭o‬
+‭professionale‬‭è‬‭avere‬‭prima‬‭di‬‭tutto‬‭una‬‭chiara‬‭ed‬‭obiettiva‬‭conoscenza‬‭del‬‭sé,‬‭per‬‭poi‬‭potersi‬‭rapportare‬‭in‬‭modo‬
+‭realistico all’ambiente circostante.‬
+‭In‬‭quest’ottica‬‭l’orientamento‬‭non‬‭è‬‭qualcosa‬‭di‬‭separato‬‭dal‬‭fare‬‭didattico‬‭perché‬‭è‬‭un‬‭processo‬‭di‬‭indagine‬‭della‬
+‭personalità‬‭e‬‭non‬‭solo‬‭un‬‭insieme‬‭di‬‭informazioni‬ ‭e/o‬ ‭di‬‭incontri‬‭sporadici.‬‭Si‬‭presuppone‬‭quindi‬‭l’integrazione‬‭di‬
+‭informazione e formazione.‬
+‭Gli obiettivi che la scuola si pone riguardano:‬
+‭●‬
+‭la‬‭maturazione‬‭umana‬‭intesa‬ ‭come‬‭crescita‬‭psicofisica‬‭dei‬‭ragazzi‬‭verso‬‭una‬‭libera‬‭ed‬‭autonoma‬‭gestione‬
+‭delle proprie scelte‬
+‭●‬
+‭la‬ ‭maturazione‬ ‭professionale‬ ‭intesa‬ ‭come‬ ‭corretta‬ ‭informazione‬ ‭sulle‬‭professioni‬‭e‬‭sul‬‭mondo‬‭del‬‭lavoro,‬
+‭sull’offerta‬‭del‬‭mondo‬‭della‬‭scuola‬‭superiore‬‭e‬‭sui‬‭legami‬‭di‬‭questa‬‭con‬‭le‬‭varie‬‭specializzazioni‬‭professionali‬‭e‬
+‭con l’università‬
+‭●‬
+‭la conoscenza realistica del proprio impegno e dei propri risultati‬
+‭●‬
+‭l’impostazione‬ ‭di‬ ‭un‬ ‭corretto‬ ‭processo‬ ‭motivazionale‬ ‭nelle‬ ‭decisioni‬ ‭per‬ ‭le‬ ‭scelte‬ ‭sia‬ ‭scolastiche‬ ‭che‬
+‭professionali future‬
+‭L’orientamento è un processo educativo molto importante nel percorso scolastico dell’individuo.‬
+‭Ogni‬ ‭singolo‬ ‭docente‬ ‭utilizza‬ ‭la‬ ‭propria‬ ‭disciplina‬ ‭in‬ ‭funzione‬ ‭dell’orientamento,‬ ‭effettuandone‬ ‭un’analisi‬
+‭e‬
+‭seguendo alcuni criteri indicatori della funzione sociale e formativa della stessa.‬
+‭Sono‬‭previsti‬‭dibattiti‬‭e‬‭interviste‬‭con‬‭Dirigenti‬‭scolastici,‬‭insegnanti‬‭e‬‭studenti‬‭delle‬‭scuole‬‭superiori,‬‭professionisti‬
+‭e visite guidate in diversi istituti scolastici.‬
+‭Il‬‭Consiglio‬‭di‬‭classe‬‭formula‬‭nelle‬‭classi‬‭terze‬‭un‬‭consiglio‬‭Orientativo‬‭per‬‭ogni‬‭allievo,‬‭al‬‭fine‬‭di‬‭indirizzarlo‬‭verso‬‭il‬
+‭percorso‬‭di‬‭Istruzione‬‭e‬‭formazione‬‭che‬‭gli‬‭sembri‬‭appropriato‬‭al‬‭suo‬‭profilo,‬‭sulla‬‭base‬‭delle‬‭competenze‬‭maturate‬
+‭e delle attitudini dimostrate nel corso della scuola media.‬
+‭Per‬‭il‬‭triennio‬‭2025/28‬‭le‬‭attività‬‭di‬‭visita‬‭e‬‭di‬‭accoglienza‬‭delle‬‭scuole‬‭ospiti‬‭si‬‭svolgeranno‬‭nelle‬‭forme‬‭compatibili‬
+‭con lo scenario normativo e sanitario che verrà a determinarsi al momento dell’iniziativa.‬
+‭Continuità‬
+‭Il‬ ‭Progetto‬ ‭Continuità‬ ‭è‬ ‭finalizzato‬ ‭alla‬ ‭formazione‬ ‭delle‬ ‭classi‬ ‭prime,‬ ‭affinché‬ ‭essi‬ ‭risultino‬ ‭il‬ ‭più‬ ‭possibile‬
+‭eterogenee‬‭al‬‭loro‬‭interno‬‭(sia‬‭dal‬‭punto‬‭di‬‭vista‬‭didattico‬‭che‬‭disciplinare)‬‭ed‬‭omogenee‬‭tra‬‭le‬‭sezioni‬‭dell'istituto.‬
+‭Esso ruota intorno a tre diversi nuclei, volti a sviluppare un particolare aspetto dell'Accoglienza:‬
+‭●‬
+‭continuità‬‭verticale:‬‭colloqui‬‭tra‬‭un‬‭docente‬‭della‬‭Scuola‬‭Media‬‭e‬‭gli‬‭insegnanti‬‭delle‬‭classi‬‭quinte‬‭delle‬‭Scuole‬
+‭primarie‬‭di‬‭provenienza‬‭degli‬‭allievi,‬‭durante‬‭l'ultimo‬‭periodo‬‭dell'anno‬‭scolastico‬‭precedente‬‭l'ingresso‬‭nella‬
+‭Scuola secondaria di primo grado, al fine di acquisire un profilo generale degli allievi in entrata‬
+‭●‬
+‭analisi pagella di fine ciclo della Scuola Primaria‬
+‭●‬
+‭uscita‬‭della‬‭"Tre‬‭giorni‬‭in‬‭montagna":‬‭soggiorno‬‭degli‬‭allievi,‬‭accompagnati‬‭dai‬‭docenti,‬‭presso‬‭una‬‭delle‬‭Case‬
+‭salesiane‬‭per‬‭attività‬‭di‬‭Accoglienza,‬‭giochi,‬‭momenti‬‭di‬‭riflessione‬‭spirituale‬‭e‬‭prima‬‭formazione‬‭ai‬‭valori‬ ‭di‬
+‭Don‬ ‭Bosco,‬ ‭con‬ ‭possibilità‬ ‭da‬ ‭parte‬ ‭dei‬ ‭docenti‬ ‭di‬ ‭osservare‬ ‭le‬ ‭diverse‬ ‭personalità‬ ‭e‬ ‭acquisire‬ ‭ulteriori‬
+‭elementi di conoscenza utili alla formazione delle classi‬
+‭●‬
+‭test‬ ‭d'ingresso:‬ ‭svolgimento‬ ‭di‬ ‭prove‬ ‭d'ingresso‬ ‭di‬ ‭Italiano‬ ‭e‬ ‭Matematica,‬ ‭per‬ ‭un‬ ‭orientamento‬ ‭circa‬ ‭le‬
+‭competenze in entrata e le fasce dei livelli di partenza degli allievi.‬
+‭Tutti‬‭gli‬‭elementi‬‭desunti‬‭dallo‬‭svolgimento‬‭delle‬‭attività‬‭costituiscono‬‭i‬‭criteri-guida‬‭per‬‭la‬‭formazione‬‭delle‬‭classi‬
+‭prime, che avviene alla fine della prima settimana di scuola dopo appositi incontri di una Commissione di lavoro.‬
+‭Si precisa dunque che, per la formazione delle classi prime, costituiscono criteri prioritari:‬
+‭●‬
+‭la presenza in una delle classi dell’Istituto di un fratello/sorella frequentante dell’allievo,‬
+‭●‬
+‭le valutazioni  dopo l’uscita di inizio anno ad opera dei docenti accompagnatori;‬
+‭●‬
+‭i‬‭risultati‬‭riportati‬‭dagli‬‭allievi‬‭nei‬‭test‬‭d’ingresso‬‭e‬‭dalla‬‭consultazione‬‭delle‬‭pagelle‬‭dei‬‭percorso‬‭scolastico‬
+‭precedente;‬
+‭●‬
+‭indicazioni emerse dai colloqui con il Direttore e con gli insegnanti della scuola primaria;‬
+‭36‬
+
+---
+
+## Pagina 38
+
+‭●‬
+‭la provenienza degli allievi.‬
+‭Da‬ ‭ultimo,‬ ‭solo‬ ‭se‬ ‭la‬ ‭Commissione‬ ‭riterrà‬ ‭soddisfatti‬ ‭tali‬ ‭criteri,‬ ‭potrà‬ ‭decidere‬‭di‬‭accogliere‬‭le‬‭richieste‬‭delle‬
+‭famiglie‬ ‭non‬ ‭in‬ ‭merito‬ ‭alla‬ ‭preferenza‬ ‭di‬ ‭una‬ ‭sezione,‬ ‭ma‬ ‭all’inserimento‬ ‭del‬ ‭proprio‬ ‭figlio/a‬ ‭insieme‬ ‭ad‬ ‭un‬
+‭determinato allievo/a.‬
+‭A‬‭partire‬‭dalle‬‭domande‬‭di‬‭iscrizione‬‭per‬‭l’a.s.‬‭2025/26‬‭avvengono‬‭tramite‬‭un‬‭sistema‬‭digitale‬‭Mastercom‬ ‭secondo‬
+‭le‬‭modalità‬‭e‬‭le‬‭tempistiche‬‭definite‬‭dalla‬‭normativa‬‭per‬‭le‬‭Scuole‬‭paritarie‬‭e‬ ‭in‬‭seguito‬‭ad‬‭un‬‭colloquio‬‭con‬‭il‬
+‭Direttore‬ ‭della‬ ‭casa.‬ ‭Nel‬‭caso‬‭in‬‭cui‬‭si‬‭verifichino‬‭iscrizioni‬‭in‬‭eccedenza‬‭rispetto‬‭al‬‭numero‬‭degli‬‭allievi‬‭che‬‭la‬
+‭scuola‬‭sia‬‭in‬‭grado‬‭di‬‭accogliere,‬‭costituisce‬‭criterio‬‭prioritario‬‭di‬‭accettazione‬‭dell’allievo‬‭in‬‭entrata‬‭la‬‭presenza‬‭di‬
+‭fratelli/sorelle‬ ‭allievi‬ ‭o‬ ‭ex-allievi‬ ‭della‬ ‭Scuola,‬ ‭la‬ ‭provenienza‬ ‭da‬ ‭altre‬ ‭scuole‬ ‭Paritarie‬ ‭cattoliche,‬ ‭la‬ ‭vicinanza‬
+‭territoriale al Comune di S. Benigno C.se.‬
+‭All’inizio‬‭dell’a.s.‬‭2022/23‬‭si‬‭è‬‭cercato‬‭di‬‭ritornare‬‭alla‬‭natura‬‭originaria‬‭del‬‭Progetto‬‭con‬‭la‬‭tradizionale‬‭uscita‬‭dei‬
+‭tre gioni in montagna.‬
+‭Teatro‬
+‭Il‬‭Progetto,‬‭che‬‭si‬‭attiva‬‭per‬‭l’a.s.‬‭2022/2023,‬‭si‬‭costituisce‬‭come‬‭un‬‭vero‬‭e‬‭proprio‬‭laboratorio,‬‭in‬‭cui‬‭ogni‬‭ragazzo‬
+‭diventa‬ ‭protagonista‬ ‭delle‬ ‭attività‬ ‭che‬ ‭verranno‬ ‭proposte.‬ ‭Aperto‬ ‭alle‬ ‭classi‬ ‭Seconde‬ ‭e‬‭Terze,‬‭il‬‭Progetto‬‭mira‬
+‭all’allestimento‬‭di‬‭uno‬‭spettacolo.‬‭Il‬‭corso,‬‭che‬‭ha‬‭visto‬‭uno‬‭stop‬‭nel‬‭2023/24,‬‭vede‬‭un‬‭nuovo‬‭inizio‬‭nel‬‭mese‬‭di‬
+‭novembre del 2024, si sviluppa in due parti:‬
+‭●‬
+‭la‬‭prima,‬‭dedicata‬‭alla‬‭conoscenza‬‭reciproca‬‭del‬‭gruppo‬‭e‬‭ai‬‭fondamenti‬‭del‬‭teatro‬‭(voce,‬‭improvvisazione,‬‭uso‬
+‭del corpo) attraverso una serie di esercizi propedeutici allo sviluppo delle abilità di base dell’attore;‬
+‭●‬
+‭la‬‭seconda,‬‭invece‬‭-‬‭e‬‭più‬‭cospicua,‬‭alla‬‭messa‬‭in‬‭scena‬‭dello‬‭spettacolo‬‭con‬‭le‬‭prove‬‭e‬‭la‬‭preparazione‬‭di‬‭tutto‬
+‭quanto servirà sul palcoscenico.‬
+‭Il‬ ‭percorso‬ ‭del‬‭laboratorio‬‭punta‬‭soprattutto‬‭all’acquisizione‬‭di‬‭migliori‬‭capacità‬‭espressive,‬‭sia‬‭verbali‬‭che‬‭non‬
+‭verbali,‬‭di‬‭una‬‭maggiore‬‭consapevolezza‬‭di‬‭sé‬‭e‬‭delle‬‭proprie‬‭relazioni‬‭con‬‭gli‬‭altri‬‭(consapevolezza‬‭necessaria‬‭alla‬
+‭comunicazione‬ ‭di‬ ‭idee,‬ ‭bisogni‬ ‭o‬ ‭desideri‬ ‭e‬ ‭nell’ottica‬ ‭di‬ ‭una‬ ‭sempre‬ ‭maggiore‬ ‭inclusività,‬ ‭intesa‬ ‭come‬
+‭riconoscimento‬ ‭dei‬ ‭pregi‬ ‭e‬ ‭delle‬ ‭fragilità‬ ‭degli‬ ‭altri),‬ ‭e‬ ‭al‬ ‭raggiungimento‬ ‭della‬ ‭capacità‬ ‭di‬ ‭collaborare‬ ‭ad‬ ‭un‬
+‭progetto‬‭collettivo‬‭in‬‭modo‬‭responsabile‬‭e‬‭rispettoso.‬‭L’accesso‬‭è‬‭stato‬‭limitato‬‭a‬‭un‬‭massimo‬‭di‬‭15‬‭partecipanti,‬
+‭selezionati‬ ‭attraverso‬ ‭un‬ ‭piccolo‬ ‭provino‬ ‭cui‬ ‭hanno‬ ‭preso‬ ‭parte,‬ ‭come‬ ‭commissione‬ ‭valutatrice,‬ ‭il‬ ‭docente‬
+‭incaricato del progetto, il Direttore dell’Istituto e un altro docente dell’Istituto.‬
+‭Attività formative, spirituali e ricreative‬
+‭Nell’ambito dell’attività formativa il Collegio dei Docenti ha concordato le seguenti attività:‬
+‭●‬
+‭un momento di animazione quotidiana prima dell’inizio delle attività scolastiche‬
+‭●‬
+‭tre giornate di ritiro spirituale scaglionate durante l’anno scolastico (inizio anno, Avvento e Quaresima)‬
+‭●‬
+‭Esercizi Spirituali di due giorni per le classi Terze a Maen‬
+‭●‬
+‭confessioni in momenti particolari dell’anno‬
+‭●‬
+‭festa di don Bosco e Maria Ausiliatrice‬
+‭●‬
+‭festa delle scuole medie salesiane (a cadenza triennale)‬
+‭Animazione‬
+‭Per‬‭favorire‬‭la‬‭crescita‬‭umana‬‭e‬‭cristiana‬‭degli‬‭allievi,‬‭l’animatore‬‭della‬‭classe‬‭giornalmente,‬‭attiva‬‭un‬‭momento‬‭di‬
+‭“animazione”,‬‭attraverso‬‭la‬‭visione‬‭di‬‭filmati,‬‭la‬‭narrazione‬‭di‬‭storie‬‭o‬‭eventi‬‭di‬‭cronaca‬‭che‬‭possano‬‭innescare‬‭una‬
+‭conversazione‬‭che‬‭stimola‬‭la‬‭riflessione‬‭degli‬‭alunni‬‭su‬‭argomenti‬‭di‬‭fede,‬‭ma‬‭anche‬‭su‬‭problematiche‬‭della‬‭classe‬
+‭o‬ ‭su‬ ‭questioni‬ ‭di‬ ‭attualità.‬ ‭Inoltre,‬ ‭particolare‬ ‭importanza‬ ‭sarà‬ ‭data‬ ‭a‬ ‭taluni‬ ‭momenti‬‭dell’anno‬‭liturgico‬‭quali:‬
+‭Avvento,‬ ‭Natale,‬ ‭Quaresima,‬ ‭Festa‬ ‭di‬ ‭Don‬ ‭Bosco.‬‭Le‬‭linee‬‭guida‬‭di‬‭questo‬‭momento‬‭sono‬‭contenute‬‭nel‬‭piano‬
+‭pastorale dell’Ispettoria Salesiana.‬
+‭Momenti di socializzazione‬
+‭Grande importanza rivestono nella nostra Scuola i momenti di ricreazione.‬
+‭In‬‭essi‬‭gli‬‭allievi‬‭possono‬‭esprimersi‬‭mediante‬‭il‬‭gioco,‬‭organizzato‬‭e‬‭no,‬‭nei‬‭cortili‬‭o‬‭nei‬‭locali‬‭a‬‭loro‬‭disposizione‬
+‭per vivere l'allegria, peculiarità del carisma salesiano.‬
+‭In‬‭questi‬‭spazi,‬‭intesi‬‭come‬‭“spazi‬‭didattico-educativi”,‬‭la‬‭presenza‬‭degli‬‭educatori‬‭e‬‭dei‬‭docenti‬‭è‬‭costante‬‭e‬‭attiva‬
+‭in sintonia con il Sistema Preventivo.‬
+‭Momenti di festa della comunità educativa‬
+‭37‬
+
+---
+
+## Pagina 39
+
+‭Nel‬ ‭corso‬ ‭dell’anno‬ ‭scolastico‬ ‭la‬ ‭Scuola‬ ‭propone‬ ‭i‬ ‭seguenti‬ ‭momenti‬ ‭di‬ ‭festa,‬ ‭a‬ ‭cui‬ ‭tutti‬ ‭i‬ ‭componenti‬ ‭della‬
+‭Comunità Educativa sono invitati:‬
+‭●‬
+‭Accoglienza‬
+‭●‬
+‭Festa di Natale‬
+‭●‬
+‭Festa di don Bosco‬
+‭●‬
+‭Festa di Maria Ausiliatrice‬
+‭●‬
+‭Festa di fine anno scolastico‬
+‭Queste‬‭occasioni‬‭favoriscono‬‭la‬‭reciproca‬‭conoscenza‬‭tra‬‭le‬‭famiglie,‬‭l’aggregazione‬‭tra‬‭gli‬‭alunni‬‭delle‬‭varie‬‭classi‬
+‭e‬‭la‬‭costruzione‬‭della‬‭scuola‬‭come‬‭comunità.‬‭Durante‬‭il‬‭periodo‬‭della‬‭pandemia,‬‭le‬‭suddette‬‭attività‬‭non‬‭sono‬‭state‬
+‭programmabili‬ ‭in‬ ‭modo‬‭rigido:‬‭le‬‭attività‬‭di‬‭Animazione‬‭quotidiana‬‭si‬‭sono‬‭svolte‬‭nelle‬‭aule‬‭o‬‭nella‬‭sala‬‭studio‬
+‭rispettando‬‭il‬‭principio‬‭del‬‭distanziamento‬‭e‬‭con‬‭l’uso‬‭dei‬‭DPI,‬‭le‬‭Celebrazioni‬‭eucaristiche‬‭si‬‭sono‬‭svolte‬‭per‬‭classi‬
+‭come pure le Confessioni.‬
+‭Attività ricreative‬
+‭Numerosi‬‭sono‬‭i‬‭momenti‬‭riservati‬‭alle‬‭attività‬‭ricreative‬‭all’interno‬‭di‬‭questo‬‭Istituto,‬‭finalizzati‬‭non‬‭solo‬‭allo‬‭svago,‬
+‭ma anche alla realizzazione del  piano educativo previsto dalla scuola.‬
+‭In‬‭tali‬‭attività‬‭viene‬‭dato‬‭ampio‬‭spazio‬‭al‬‭gioco‬‭libero,‬‭autogestito‬‭dai‬‭ragazzi‬‭e‬‭supervisionato‬‭da‬‭assistenti.‬‭Inoltre,‬
+‭periodicamente,‬‭sono‬‭organizzati‬‭giochi‬‭guidati,‬‭di‬‭squadra‬‭e‬‭tornei‬‭per‬‭stimolare‬‭la‬‭socializzazione‬‭e‬‭potenziare‬‭le‬
+‭capacità relazionali.‬
+‭Durante‬‭l’estate‬‭dell’a.s.2023/24‬‭è‬‭stata‬‭proposta‬‭agli‬‭allievi‬‭delle‬‭classi‬‭prime‬‭e‬‭seconde‬ ‭una‬‭settimana‬‭di‬‭Campo‬
+‭estivo presso la Casa Alpina di Les Combes.‬
+‭Piano di formazione del personale docente‬
+‭La‬ ‭scuola‬ ‭secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”-‬ ‭Paritaria‬ ‭si‬ ‭propone,‬ ‭per‬ ‭il‬ ‭triennio‬ ‭2025/28,‬‭di‬‭incrementare‬‭la‬
+‭partecipazione‬ ‭dei‬ ‭docenti‬ ‭ad‬ ‭attività‬ ‭di‬‭formazione‬‭sia‬‭su‬‭tematiche‬‭di‬‭interesse‬‭strettamente‬‭disciplinare‬‭sia‬
+‭inerenti‬‭le‬‭competenze‬‭trasversali,‬‭attraverso‬‭la‬‭frequenza‬‭di‬‭corsi‬‭di‬‭aggiornamento‬‭in‬‭presenza‬‭oppure‬‭on-line‬
+‭proposti da Enti di formazione.‬
+‭Data‬‭la‬‭rilevanza‬‭della‬‭condivisione‬‭da‬‭parte‬‭del‬‭personale‬‭docente‬‭del‬‭Progetto‬‭educativo‬‭d’istituto,‬‭costituito‬‭dal‬
+‭Progetto‬ ‭educativo‬ ‭Nazionale‬ ‭delle‬ ‭scuole‬ ‭salesiane,‬ ‭si‬ ‭promuove‬‭la‬‭partecipazione‬‭alle‬‭iniziative‬‭ispettoriali‬‭e‬
+‭locali‬‭eventualmente‬‭predisposte‬‭e‬‭finalizzate‬‭alla‬‭crescita‬‭della‬‭comunità‬‭educativa‬‭(incontri‬‭di‬‭formazione‬‭per‬‭i‬
+‭docenti‬‭neo-assunti‬‭e‬‭per‬‭quelli‬‭già‬‭in‬‭servizio‬‭presso‬‭l’istituzione,‬‭esercizi‬‭spirituali,‬‭ritiri‬‭in‬‭occasione‬‭delle‬‭festività‬
+‭natalizie e di Quaresima…).‬
+‭Il‬ ‭Personale‬ ‭direttivo‬ ‭partecipa‬ ‭altresì‬ ‭ad‬ ‭incontri‬ ‭periodici‬ ‭di‬ ‭aggiornamento,‬ ‭revisione‬ ‭e‬ ‭programmazione‬‭del‬
+‭lavoro‬ ‭in‬ ‭diversi‬ ‭momenti‬ ‭dell’anno‬ ‭scolastico‬ ‭con‬ ‭altri‬ ‭rappresentanti‬ ‭delle‬ ‭istituzioni‬ ‭salesiane‬ ‭su‬ ‭tematiche‬
+‭didattico-educative‬‭e‬‭di‬‭formazione‬‭spirituale.‬‭Esso‬‭aderisce‬‭al‬‭Piano‬‭di‬‭formazione‬‭per‬‭i‬‭docenti‬‭neoassunti‬‭negli‬
+‭ultimi‬‭anni‬‭stabilito‬‭a‬‭livello‬‭ispettoriale‬‭sul‬‭sistema‬‭preventivo,‬‭la‬‭figura‬‭di‬‭Don‬‭Bosco‬‭e‬‭le‬‭peculiarità‬‭del‬‭Progetto‬
+‭educativo salesiano.‬
+‭Dall’a.s.‬ ‭si‬ ‭da‬ ‭la‬ ‭possibilità‬ ‭ad‬ ‭alcuni‬ ‭docenti‬ ‭di‬ ‭partecipare‬ ‭a‬ ‭Didacta,‬ ‭al‬ ‭fine‬ ‭di‬ ‭una‬ ‭formazione‬ ‭dedicata‬
+‭all'innovazione‬ ‭didattica.‬ ‭Inoltre‬‭nell’a.s.‬‭24/25‬‭vediamo‬‭5‬‭docenti‬‭impegnati‬‭nel‬‭percorso‬‭per‬‭il‬‭conseguimento‬
+‭della certificazione linguistica B1( PNRR - Stem multilinguismo)‬
+‭L’istituto‬‭si‬‭riserva‬‭di‬‭accogliere‬‭proposte‬‭da‬‭parte‬‭dei‬‭docenti‬‭inerenti‬‭corsi‬‭di‬‭formazione‬‭da‬‭proporre‬‭in‬‭Collegio‬
+‭docenti e realizzare attraverso iniziative individuali o consulenze di esperti, compatibilmente alle risorse disponibili.‬
+‭Tematiche di interesse:‬
+‭●‬
+‭Disabilità e sostegno‬
+‭●‬
+‭Didattica inclusiva e Bisogni Educativi Speciali‬
+‭●‬
+‭Didattica digitale‬
+‭●‬
+‭Educazione Civica‬
+‭●‬
+‭Didattica innovativa‬
+‭Attività previste in relazione al PNSD‬
+‭Attraverso‬‭il‬‭Piano‬‭Nazionale‬‭Scuola‬‭Digitale‬‭(PNSD),‬‭il‬‭Ministero‬‭dell’Istruzione,‬‭dell’Università‬‭e‬‭della‬‭Ricerca‬‭ha‬
+‭lanciato‬‭una‬‭strategia‬‭complessiva‬‭di‬‭innovazione‬‭della‬‭scuola‬‭italiana‬‭e‬‭un‬‭nuovo‬‭posizionamento‬‭del‬‭suo‬‭sistema‬
+‭educativo nell’era digitale.‬
+‭38‬
+
+---
+
+## Pagina 40
+
+‭Si‬‭tratta‬‭prima‬‭di‬‭tutto‬‭di‬‭un’azione‬‭culturale,‬‭che‬‭parte‬‭da‬‭un’idea‬‭rinnovata‬‭di‬‭scuola,‬‭intesa‬‭come‬‭spazio‬‭aperto‬
+‭per‬‭l’apprendimento‬‭e‬‭non‬‭unicamente‬‭luogo‬‭fisico,‬‭e‬‭come‬‭piattaforma‬‭che‬‭metta‬‭gli‬‭studenti‬‭nelle‬‭condizioni‬‭di‬
+‭sviluppare‬‭le‬‭competenze‬‭per‬‭la‬‭vita.‬‭In‬‭questo‬‭paradigma,‬‭le‬‭tecnologie‬‭diventano‬‭abilitanti,‬‭quotidiane,‬‭ordinarie,‬‭al‬
+‭servizio‬ ‭dell’attività‬ ‭scolastica‬ ‭e‬ ‭ricongiungono‬ ‭tutti‬ ‭gli‬ ‭ambienti‬ ‭della‬ ‭scuola:‬ ‭classi,‬ ‭ambienti‬ ‭comuni,‬ ‭spazi‬
+‭laboratoriali,‬‭spazi‬‭individuali‬‭e‬‭spazi‬‭informali,‬‭con‬‭ricadute‬‭estese‬‭al‬‭territorio.‬‭Gli‬‭obiettivi‬‭non‬‭cambiano,‬‭sono‬
+‭quelli‬ ‭del‬ ‭sistema‬ ‭educativo:‬ ‭le‬ ‭competenze‬ ‭degli‬ ‭studenti,‬‭i‬‭loro‬‭apprendimenti,‬‭i‬‭loro‬‭risultati,‬‭e‬‭l’impatto‬‭che‬
+‭avranno‬ ‭nella‬ ‭società‬ ‭come‬ ‭individui,‬ ‭cittadini‬ ‭e‬‭professionisti;‬‭l’aggiornamento‬‭è‬‭nei‬‭contenuti‬‭e‬‭nei‬‭modi,‬‭per‬
+‭rispondere‬‭alle‬‭sfide‬‭di‬‭un‬‭mondo‬‭che‬‭cambia‬‭rapidamente,‬‭che‬‭richiede‬‭sempre‬‭di‬‭più‬‭agilità‬‭mentale,‬‭competenze‬
+‭trasversali e un ruolo attivo dei giovani.‬
+‭Alcune‬‭scelte‬‭della‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”-‬‭Paritaria‬‭hanno‬‭teso‬‭proprio‬‭al‬‭potenziamento‬‭delle‬
+‭tecnologie‬ ‭informatiche.‬ ‭L’introduzione‬ ‭degli‬ ‭strumenti‬ ‭informatici‬ ‭in‬ ‭ausilio‬ ‭o‬ ‭completamento‬ ‭della‬ ‭didattica,‬
+‭infatti,‬‭sviluppa‬‭la‬‭capacità‬‭di‬‭organizzare‬‭logicamente‬‭i‬‭concetti‬ ‭(dunque‬‭favorisce‬‭un‬‭apprendimento‬‭per‬‭mappe‬
+‭concettuali)‬ ‭e‬ ‭stimola‬ ‭l’acquisizione‬ ‭di‬ ‭una‬ ‭metodologia‬ ‭di‬ ‭lavoro‬ ‭procedurale‬ ‭e‬‭personale.‬‭Utilizzando‬‭i‬‭nuovi‬
+‭linguaggi‬‭digitali,‬‭tipici‬‭delle‬‭nuove‬‭generazioni,‬‭si‬‭osserva‬‭anche‬‭un‬‭aumento‬‭della‬‭motivazione‬‭personale‬‭e‬‭una‬
+‭migliore‬‭disposizione‬‭dei‬‭ragazzi‬‭allo‬‭studio‬‭e‬‭un‬‭aumento‬‭dell’autostima.‬‭Si‬‭stimolano,‬‭infine,‬‭anche‬‭l’attività‬‭del‬
+‭“fare insieme”, dell’esplorazione e della ricerca personale del sapere.‬
+‭La Scuola Secondaria di I grado “Don Bosco” Paritaria è dotata di:‬
+‭●‬
+‭Registro Elettronico Online‬
+‭●‬
+‭PC del docente e LIM (Lavagna Interattiva Multimediale) in ogni classe‬
+‭●‬
+‭Un laboratorio di informatica con 30 postazioni.‬
+‭●‬
+‭Piattaforma di condivisione documenti, archiviazione e condivisione Google Workspace‬
+‭●‬
+‭Impianto di proiezione multimediale nelle sale studio‬
+‭Attraverso‬ ‭il‬ ‭Registro‬ ‭Elettronico‬ ‭Mastrecom.‬ ‭Le‬ ‭famiglie‬ ‭hanno‬ ‭la‬ ‭possibilità‬ ‭di‬ ‭verificare‬ ‭in‬ ‭tempo‬ ‭reale‬ ‭gli‬
+‭argomenti‬ ‭delle‬ ‭lezioni,‬ ‭i‬ ‭compiti‬ ‭assegnati,‬ ‭le‬ ‭eventuali‬ ‭valutazioni‬ ‭inserite‬‭dai‬‭docenti,‬‭le‬‭uscite‬‭anticipate,‬‭le‬
+‭entrate‬ ‭in‬ ‭ritardo‬ ‭e‬ ‭le‬ ‭assenze,‬ ‭che‬ ‭il‬ ‭genitore‬ ‭deve‬‭giustificare‬‭direttamente.‬‭Lo‬‭strumento‬‭permette‬‭inoltre‬‭di‬
+‭gestire‬ ‭facilmente‬ ‭i‬ ‭colloqui‬ ‭con‬ ‭gli‬ ‭insegnanti,‬ ‭visualizzare‬ ‭circolari‬ ‭e/o‬ ‭avvisi‬‭e‬‭monitorare‬‭costantemente‬‭la‬
+‭regolare frequenza dei propri figli.‬
+‭Le‬ ‭proposte‬ ‭didattiche‬ ‭che‬ ‭impiegano‬ ‭le‬ ‭nuove‬ ‭tecnologie‬ ‭informatiche‬ ‭si‬ ‭sono‬ ‭consolidate‬ ‭nel‬ ‭tempo‬ ‭e‬
+‭permettono‬‭di‬‭attuare‬‭esperienze‬‭provviste‬‭di‬‭valore‬‭formativo‬‭per‬‭tutti‬‭gli‬‭allievi.‬‭Per‬‭questo‬‭le‬‭lezioni‬‭in‬‭classe‬
+‭sono‬‭spesso‬‭arricchite‬‭dall’uso‬‭della‬‭LIM,‬‭da‬‭attività‬‭multimediali‬‭e‬‭dall’uso‬‭di‬‭software‬‭specifici‬‭per‬‭l’elaborazione‬
+‭di‬‭mappe‬‭concettuali,‬‭schemi‬‭o‬‭appunti‬‭(VUE‬‭Maps,‬‭Geogebra,‬‭Suite‬‭Office,‬‭Google‬‭Documents,‬‭Google‬‭Earth,‬‭libri‬
+‭di testo che comprendano unità didattiche progettate per le LIM).‬
+‭Dalla‬‭classe‬‭prima‬‭gli‬‭alunni‬‭seguono‬‭corsi‬‭specifici‬‭per‬‭l'apprendimento‬‭dell'uso‬‭del‬‭PC‬‭come‬‭importante‬‭ausilio‬
+‭nello‬‭studio‬‭(software‬‭per‬‭la‬‭creazione‬‭di‬‭mappe‬‭concettuali,‬‭schemi‬‭o‬‭appunti‬‭personali)‬‭e‬‭nella‬‭programmazione‬
+‭delle‬ ‭proprie‬ ‭attività‬ ‭attraverso‬ ‭l’immissione‬ ‭obbligatoria‬ ‭nel‬ ‭corso‬ ‭del‬ ‭Metodo‬ ‭di‬ ‭Studio.‬ ‭La‬ ‭parte‬ ‭di‬
+‭alfabetizzazione‬ ‭informatica‬ ‭e‬ ‭il‬ ‭successivo‬ ‭sviluppo‬ ‭delle‬ ‭competenze‬ ‭avviene‬ ‭nei‬ ‭laboratori‬‭di‬‭informatica‬‭e‬
+‭prosegue‬‭per‬‭tutti‬‭i‬‭tre‬‭anni‬‭anni‬‭di‬‭frequenza‬‭anche‬‭attraverso‬‭l’elaborazione‬‭di‬‭lavori‬‭sui‬‭mezzi‬‭digitali‬‭richiesta‬‭da‬
+‭ogni‬‭disciplina.‬‭Alle‬‭classi‬‭seconde‬‭viene‬‭offerto‬‭un‬‭laboratorio‬‭di‬‭informatica‬‭di‬‭base‬‭(coding,‬‭hardware)mentre‬
+‭alle‬‭classi‬‭terze‬‭è‬‭proposto‬‭il‬‭laboratorio‬‭di‬‭informatica‬‭avanzata‬‭per‬‭il‬‭conseguimento‬‭della‬‭certificazione‬‭europea‬
+‭Nuova ECDL - Computer Essential..‬
+‭Valutazione degli apprendimenti‬
+‭Caratteristiche della valutazione didattico-educativa‬
+‭I‬‭momenti‬‭dedicati‬‭alla‬‭verifica‬‭sono‬‭parte‬‭integrante‬‭dell’attività‬‭didattica‬‭e‬‭svolgono‬‭una‬‭funzione‬‭di‬‭sostegno‬‭ed‬
+‭indirizzo‬‭del‬‭lavoro‬‭degli‬‭allievi‬‭dell’insegnante.‬‭I‬‭docenti‬‭affiancano‬‭ogni‬‭allievo‬‭nei‬‭suoi‬‭processi‬‭di‬‭apprendimento‬
+‭mantenendo‬‭anche‬‭in‬‭questo‬‭contesto‬‭il‬‭ruolo‬‭di‬‭guida,‬‭impegnata‬‭a‬‭valorizzare‬‭i‬‭saperi‬‭e‬‭i‬‭contributi‬‭degli‬‭allievi‬‭e‬
+‭la‬ ‭loro‬ ‭buona‬ ‭immagine‬ ‭di‬ ‭sé,‬ ‭come‬ ‭persone‬ ‭coinvolte‬ ‭nel‬‭processo‬‭di‬‭crescita‬‭cognitiva‬‭e‬‭socio-affettiva.‬‭Le‬
+‭verifiche‬‭possono‬‭essere‬‭utilizzate‬‭per‬‭misurare‬‭il‬‭livello‬‭della‬‭preparazione‬‭e‬‭delle‬‭abilità‬‭degli‬‭alunni‬‭e‬‭insieme‬‭la‬
+‭validità dell’intervento metodologico del docente.‬
+‭La‬ ‭valutazione‬ ‭deve‬ ‭essere‬ ‭intesa‬ ‭come‬‭ricerca‬‭di‬‭informazioni,‬‭guidata‬‭dalla‬‭necessità‬‭di‬‭assumere‬‭decisioni‬
+‭educative‬ ‭finalizzate‬ ‭e‬ ‭ben‬ ‭calibrate,‬ ‭in‬ ‭vista‬ ‭delle‬ ‭ulteriori‬ ‭esperienze‬ ‭degli‬ ‭alunni,‬ ‭finalizzata‬ ‭a‬ ‭promuovere‬
+‭conoscenze, competenze e atteggiamenti indicati negli obiettivi formativi.‬
+‭La valutazione pertanto può essere:‬
+‭●‬
+‭Diagnostica‬‭,‬‭come‬‭rilevazione‬‭della‬‭situazione‬‭di‬‭partenza‬‭e‬‭come‬‭verifica‬‭dei‬‭processi‬‭di‬‭apprendimento‬‭nei‬
+‭loro‬‭momenti‬‭chiave.‬‭In‬‭questa‬‭fase‬‭ci‬‭si‬‭avvale‬‭di‬‭test‬‭di‬‭ingresso‬‭finalizzati‬‭alla‬‭rilevazione‬‭delle‬‭conoscenze‬
+‭e competenze di carattere linguistico e matematico e dell’osservazione delle dinamiche relazionali tra gli allievi‬
+‭39‬
+
+---
+
+## Pagina 41
+
+‭●‬
+‭Formativa‬‭,‬‭come‬‭momento‬‭intermedio‬‭di‬‭controllo‬‭sistematico‬‭dei‬‭processi‬‭di‬‭apprendimento‬‭e‬‭di‬‭sviluppo‬
+‭personale‬ ‭nel‬ ‭loro‬ ‭divenire,‬ ‭momento‬ ‭che‬ ‭si‬ ‭avvale‬ ‭di‬ ‭guide,‬ ‭di‬ ‭osservazione,‬ ‭analisi‬ ‭degli‬ ‭errori,‬ ‭prove‬
+‭diagnostiche colloqui ecc.‬
+‭●‬
+‭Sommativa‬‭,‬ ‭come‬ ‭bilancio‬ ‭complessivo‬ ‭del‬ ‭livello‬ ‭di‬ ‭maturazione‬ ‭dell’alunno,‬ ‭desunto‬ ‭attraverso‬ ‭prove‬
+‭oggettive,‬‭saggi,‬‭prove‬‭orali,‬‭tenendo‬‭conto‬‭sia‬‭delle‬‭condizioni‬‭di‬‭partenza‬‭sia‬‭dei‬‭traguardi‬‭attesi,‬‭sempre‬‭nel‬
+‭rispetto delle molteplici componenti della personalità dell’alunno.‬
+‭Sia‬‭le‬‭prove‬‭di‬‭verifica‬‭sia‬‭il‬‭continuo‬‭coinvolgimento‬‭dei‬‭ragazzi‬‭nel‬‭processo‬‭di‬‭valutazione‬‭sollecitano‬‭la‬‭capacità‬
+‭metacognitiva‬‭degli‬‭alunni‬‭e‬‭li‬‭supportano‬‭nell'autovalutazione;‬‭ogni‬‭tipo‬‭di‬‭prova‬‭è‬‭strettamente‬‭collegata‬‭al‬‭tipo‬‭di‬
+‭misurazione e valutazione che si vuole effettuare.‬
+‭La‬ ‭valutazione‬ ‭non‬ ‭ha‬ ‭solo‬‭valore‬‭formativo‬‭ma‬‭anche‬‭orientativo,‬‭infatti‬‭rappresenta‬‭un‬‭mezzo‬‭per‬‭cercare‬‭di‬
+‭comprendere‬‭ed‬‭aiutare‬‭il‬‭discente‬‭a‬‭farsi‬‭un‬‭progetto‬‭di‬‭vita‬‭e‬‭dunque‬‭a‬‭favorire‬‭l’orientamento‬‭per‬‭la‬‭scelta‬‭degli‬
+‭studi successivi.‬
+‭Criteri e materiali per la valutazione‬
+‭A‬‭partire‬‭dall'a.s.‬‭2024/25,‬‭sulla‬‭base‬‭della‬‭legge‬‭n.‬‭150‬‭del‬‭1‬‭ottobre‬‭2024,‬‭la‬‭valutazione‬‭del‬‭comportamento‬‭degli‬
+‭alunni‬‭è‬‭espressa‬‭tramite‬‭un‬‭giudizio‬‭numerico‬‭formulato‬‭sulla‬‭base‬‭di‬‭una‬‭rubrica‬‭di‬‭valutazione,‬‭attraverso‬‭la‬
+‭sintesi di diversi indicatori e descrittori, desunti da quanto richiesto dalle Competenze chiave di cittadinanza.‬
+‭La‬ ‭promozione‬ ‭delle‬ ‭suddette‬ ‭competenze‬ ‭è‬ ‭parte‬ ‭integrante‬ ‭della‬ ‭vita‬ ‭scolastica‬ ‭e‬ ‭aspirazione‬ ‭primaria‬ ‭del‬
+‭Progetto‬ ‭educativo‬ ‭d’istituto;‬ ‭agli‬ ‭alunni‬ ‭si‬ ‭chiede‬ ‭soprattutto‬ ‭di‬ ‭maturare‬ ‭una‬ ‭coscienza‬‭civica‬‭e‬‭un‬‭senso‬‭di‬
+‭responsabilità‬ ‭nella‬ ‭gestione‬ ‭quotidiana‬ ‭del‬ ‭proprio‬ ‭impegno‬ ‭scolastico‬ ‭(cfr.‬ ‭RAV‬ ‭sez.‬ ‭3A.2:‬ ‭Ambiente‬ ‭di‬
+‭apprendimento).‬
+
+## ‭Voto‬
+
+
+## ‭Livello‬
+
+
+## ‭Indicatore‬
+
+‭5‬
+‭Livello non raggiunto‬
+
+## ‭Rispetto‬
+
+‭Non rispetta le regole anche se richiamato‬
+
+## ‭Cittadinanza‬
+
+‭Non‬‭mostra‬‭interesse‬‭verso‬‭esperienze‬‭e‬‭progetti‬‭comuni‬‭e‬‭non‬‭accetta‬‭le‬‭idee‬
+‭altrui nonostante l’intervento dell’adulto‬
+
+## ‭Responsabilità‬
+
+‭Non‬‭rispetta‬‭impegni‬‭e‬‭compiti‬‭assegnati.‬‭Non‬‭dimostra‬‭cura‬‭degli‬‭ambienti‬‭e‬
+‭dei materiali propri e/o altrui‬
+
+## ‭Impegno‬
+
+‭Non dimostra alcun impegno al contesto e al carico di studio‬
+
+## ‭Interesse‬
+
+‭Non partecipa al proprio apprendimento anche se sollecitato dall’adulto‬
+
+## ‭Autonomia I/Ii‬
+
+‭Non‬‭organizza‬‭il‬‭proprio‬‭apprendimento,‬‭neanche‬‭usando‬‭semplici‬‭strategie‬‭e‬
+‭sotto la guida di un adulto‬
+
+## ‭Autonomia Iii‬
+
+‭6‬
+‭Livello parziale‬
+
+## ‭Rispetto‬
+
+‭Non riesce ad adeguare il proprio comportamento al contesto‬
+
+## ‭Cittadinanza‬
+
+‭Non si sente parte del gruppo classe‬
+‭Mostra poco interesse verso esperienze e progetti comuni‬
+‭*Fatica ad accettare le idee altrui nonostante l’intervento dell’adulto‬
+‭*Non sempre riesce a gestire la conflittualità‬
+
+## ‭Responsabilità‬
+
+‭Nonostante le strategie di supporto non rispetta impegni e compiti assegnati‬
+‭*Generalmente rispetta gli ambienti e i materiali propri e/o altrui‬
+
+## ‭Impegno‬
+
+‭Non dimostra un impegno adeguato al contesto e al carico di studio‬
+
+## ‭Interesse‬
+
+‭Necessita di stimoli e incoraggiamento continui per il coinvolgimento‬
+‭Partecipa al proprio apprendimento solo se sollecitato dall’adulto‬
+‭*Non si impegna secondo le proprie capacità‬
+‭40‬
+
+---
+
+## Pagina 42
+
+
+## ‭Autonomia I/Ii‬
+
+‭Ha‬‭difficoltà‬‭ad‬‭organizzare‬‭il‬‭proprio‬‭apprendimento,‬‭usa‬‭semplici‬‭strategie‬‭di‬
+‭studio solo sotto la guida dell’adulto‬
+
+## ‭Autonomia Iii‬
+
+‭Ha‬‭difficoltà‬‭ad‬‭organizzare‬‭il‬‭proprio‬‭apprendimento,‬‭usa‬‭semplici‬‭strategie‬‭di‬
+‭studio solo sotto la guida dell’adulto‬
+‭7‬
+‭Livello base‬
+
+## ‭Rispetto‬
+
+‭Riconosce le regole della comunità ma non sempre le rispetta‬
+‭Riconosce le regole della comunità e le rispetta solo se guidato‬
+
+## ‭Cittadinanza‬
+
+‭È‬ ‭generalmente‬‭disponibile‬‭al‬‭confronto‬‭con‬‭gli‬‭altri,‬‭ma‬‭non‬‭sempre‬‭si‬‭sente‬
+‭parte del gruppo classe‬
+‭Non sempre è interessato a perseguire un obiettivo comune‬
+‭*Gestisce la conflittualità ricorrendo alla mediazione di un adulto‬
+
+## ‭Responsabilità‬
+
+‭Con adeguate strategie di supporto porta a termine impegni e compiti‬
+‭Generalmente‬ ‭rispetta‬ ‭le‬ ‭indicazioni‬ ‭ricevute‬‭nel‬‭portare‬‭a‬‭termine‬‭impegni‬‭e‬
+‭compiti‬
+‭*Non dimostra cura degli ambienti e dei materiali propri e/o altrui‬
+‭*Generalmente rispetta gli ambienti e i materiali propri e/o altrui‬
+
+## ‭Impegno‬
+
+‭Si impegna in modo superficiale e privo di continuità‬
+‭Si impegna in modo settoriale‬
+
+## ‭Interesse‬
+
+‭Partecipa sufficientemente al proprio apprendimento‬
+‭Non sempre accetta di essere aiutato‬
+‭*Si impegna secondo le proprie capacità‬
+
+## ‭Autonomia I/Ii‬
+
+‭Non sempre organizza in modo consapevole una strategia di studio efficace‬
+‭Organizza‬ ‭in‬ ‭modo‬ ‭essenziale‬ ‭il‬ ‭proprio‬ ‭apprendimento‬ ‭utilizzando‬ ‭semplici‬
+‭strategie di studio‬
+
+## ‭Autonomia Iii‬
+
+‭Non sempre organizza in modo consapevole una strategia di studio efficace‬
+‭Organizza‬‭il‬‭proprio‬‭apprendimento‬‭in‬‭modo‬‭generalmente‬‭autonomo,‬‭ma‬‭non‬
+‭sempre‬ ‭sceglie‬‭una‬‭strategia‬‭di‬‭studio‬‭adeguata‬‭alla‬‭situazione‬‭o‬‭al‬‭carico‬‭di‬
+‭studio‬
+‭8‬
+‭Livello intermedio‬
+
+## ‭Rispetto‬
+
+‭Riconosce e rispetta le regole della comunità‬
+‭Generalmente rispetta le regole della comunità‬
+
+## ‭Cittadinanza‬
+
+‭Si sente parte del gruppo classe‬
+‭È‬‭disponibile‬‭alla‬‭partecipazione‬‭e‬‭alla‬‭condivisione‬‭per‬‭raggiungere‬‭una‬‭meta‬
+‭comune‬
+‭Nonostante‬ ‭si‬ ‭senta‬ ‭parte‬ ‭del‬ ‭gruppo‬ ‭classe,‬ ‭non‬ ‭sempre‬ ‭è‬ ‭disponibile‬ ‭alla‬
+‭partecipazione e alla condivisione per raggiungere una meta comune‬
+
+## ‭Responsabilità‬
+
+‭Svolge impegni e compiti portandoli a termine secondo le indicazioni ricevute‬
+‭*Generalmente rispetta gli ambienti e i materiali propri e/o altrui‬
+
+## ‭Impegno‬
+
+‭Dimostra un impegno adeguato al contesto e al carico di studio‬
+
+## ‭Interesse‬
+
+‭Partecipa con interesse al proprio apprendimento‬
+‭Partecipa con discreto interesse al proprio apprendimento‬
+‭*È consapevole delle proprie capacità e le utilizza‬
+
+## ‭Autonomia‬
+
+‭Organizza‬‭il‬‭proprio‬‭apprendimento‬‭in‬‭modo‬‭generalmente‬‭autonomo,‬‭ma‬‭non‬
+‭sempre‬ ‭sceglie‬‭una‬‭strategia‬‭di‬‭studio‬‭adeguata‬‭alla‬‭situazione‬‭o‬‭al‬‭carico‬‭di‬
+‭studio‬
+‭41‬
+
+---
+
+## Pagina 43
+
+‭Organizza‬ ‭il‬ ‭proprio‬ ‭apprendimento‬ ‭in‬ ‭modo‬ ‭generalmente‬ ‭autonomo‬
+‭scegliendo tra diverse strategie di studio‬
+‭9‬
+‭Livello avanzato‬
+
+## ‭Rispetto‬
+
+‭Assume consapevolmente comportamenti corretti‬
+
+## ‭Cittadinanza‬
+
+‭Assume‬ ‭un‬ ‭ruolo‬ ‭attivo‬ ‭nei‬ ‭diversi‬ ‭contesti‬ ‭di‬ ‭vita‬ ‭scolastica‬ ‭lavorando‬ ‭per‬
+‭obiettivi comuni‬
+‭*Gestisce in modo positivo i conflitti, favorendone la risoluzione‬
+
+## ‭Responsabilità‬
+
+‭Assume‬ ‭responsabilmente‬ ‭impegni‬ ‭e‬ ‭compiti‬ ‭portandoli‬ ‭a‬ ‭termine‬ ‭in‬ ‭modo‬
+‭originale. Ha cura degli ambienti e dei materiali propri e/o altrui‬
+‭Svolge impegni e compiti portandoli a termine in modo autonomo e coerente‬
+
+## ‭Impegno‬
+
+‭Dimostra un impegno costante e trasversale alle discipline‬
+
+## ‭Interesse‬
+
+‭Si‬‭dimostra‬‭curioso‬‭e‬‭interessato‬‭al‬‭proprio‬‭apprendimento,‬‭che‬‭porta‬‭avanti‬‭in‬
+‭modo originale‬
+
+## ‭Autonomia‬
+
+‭Organizza‬ ‭in‬ ‭modo‬ ‭autonomo‬ ‭il‬ ‭proprio‬ ‭apprendimento‬ ‭elaborando‬ ‭diverse‬
+‭strategie di studio‬
+‭10‬
+‭Livello avanzato‬
+
+## ‭Rispetto‬
+
+‭Ha interiorizzato il valore di norme e regole‬
+
+## ‭Cittadinanza‬
+
+‭Assume‬ ‭un‬ ‭ruolo‬ ‭propositivo‬ ‭e‬ ‭attivo‬ ‭nei‬ ‭diversi‬ ‭contesti‬ ‭di‬ ‭vita‬ ‭scolastica‬
+‭valorizzando gli obiettivi comuni‬
+‭*È sempre disponibile al confronto con gli adulti e i compagni‬
+
+## ‭Responsabilità‬
+
+‭Assume‬ ‭responsabilmente‬ ‭impegni‬ ‭e‬ ‭compiti‬ ‭portandoli‬ ‭a‬ ‭termine‬ ‭in‬ ‭modo‬
+‭originale e esaustivo‬
+‭*Ha cura degli ambienti e dei materiali propri e/o altrui‬
+
+## ‭Impegno‬
+
+‭Dimostra un impegno costante e trasversale alle discipline‬
+
+## ‭Interesse‬
+
+‭Si‬‭dimostra‬‭curioso‬‭e‬‭interessato‬‭al‬‭proprio‬‭apprendimento,‬‭che‬‭porta‬‭avanti‬‭in‬
+‭modo originale‬
+
+## ‭*È‬
+
+‭consapevole‬
+‭delle‬
+‭proprie‬
+‭capacità‬
+‭e‬
+‭potenzialità,‬
+‭utilizzandole‬
+‭efficacemente nelle varie situazioni e diversificandole a seconda delle richieste‬
+
+## ‭Autonomia‬
+
+‭Organizza‬‭in‬‭modo‬‭autonomo‬‭e‬‭personale‬‭il‬‭proprio‬‭apprendimento‬‭elaborando‬
+‭strategie di studio adeguate alle diverse situazioni e richieste‬
+‭Il‬ ‭voto‬ ‭di‬ ‭condotta‬ ‭rappresenta‬ ‭una‬ ‭sintesi‬ ‭degli‬ ‭indicatori‬ ‭relativi‬ ‭al‬ ‭rispetto‬ ‭delle‬ ‭regole‬ ‭scolastiche,‬ ‭alla‬
+‭cittadinanza‬ ‭attiva‬ ‭e‬ ‭solidale,‬ ‭al‬ ‭comportamento‬ ‭responsabile‬ ‭e‬ ‭rispettoso‬ ‭verso‬ ‭la‬ ‭comunità‬ ‭scolastica‬ ‭e‬ ‭il‬
+‭contesto educativo, all’atteggiamento nei confronti del proprio apprendimento.‬
+‭I‬ ‭risultati‬ ‭emersi‬ ‭dalla‬ ‭valutazione‬ ‭della‬ ‭condotta‬ ‭saranno‬ ‭elementi‬ ‭da‬ ‭tenere‬ ‭in‬ ‭considerazione‬ ‭anche‬ ‭nella‬
+‭formulazione‬ ‭del‬ ‭voto‬ ‭di‬ ‭Educazione‬ ‭civica,‬ ‭in‬ ‭quanto‬ ‭la‬ ‭precedente‬ ‭griglia‬ ‭nasce‬ ‭dall’osservazione‬ ‭dei‬ ‭livelli‬
+‭raggiunti‬‭dagli‬‭allievi‬‭nelle‬‭competenze‬‭di‬‭Cittadinanza‬‭e‬‭sulla‬‭base‬‭del‬‭fatto‬‭che‬‭la‬‭valutazione‬‭dell’Educazione‬
+‭civica‬‭deve‬‭tener‬‭conto‬‭delle‬‭conoscenze,‬‭delle‬‭abilità‬‭ma‬‭anche‬‭dei‬‭comportamenti/atteggiamenti,‬‭desumibili‬‭dalla‬
+‭loro condotta nella comunità scolastica.‬
+‭Giudizi di ammissione o non ammissione‬
+‭Per‬‭quanto‬‭riguarda‬‭la‬‭valutazione‬‭nelle‬‭singole‬‭discipline‬‭e‬‭sulle‬‭competenze‬‭trasversali,‬‭è‬‭espresso‬‭da‬‭ciascun‬
+‭docente un voto in decimi con riferimento ai livelli di competenza stabiliti per gli alunni.‬
+‭Si‬ ‭ritiene‬ ‭di‬ ‭dover‬ ‭definire‬ ‭i‬ ‭seguenti‬ ‭criteri‬ ‭condivisi‬ ‭con‬ ‭cui‬ ‭i‬ ‭Consigli‬ ‭di‬ ‭Classe‬ ‭“in‬ ‭presenza‬ ‭di‬ ‭carenze‬
+‭relativamente‬‭al‬‭raggiungimento‬‭degli‬‭obiettivi‬‭di‬‭apprendimento”‬‭deliberano‬‭l’ammissione/non‬‭ammissione‬‭degli‬
+‭allievi alla classe successiva o all’Esame di stato conclusivo del primo ciclo d’istruzione.‬
+‭42‬
+
+---
+
+## Pagina 44
+
+‭Il‬ ‭Consiglio‬ ‭di‬ ‭Classe‬ ‭valuta‬ ‭preliminarmente‬ ‭il‬ ‭processo‬ ‭di‬ ‭maturazione‬‭di‬‭ciascun‬‭alunno‬‭nell’apprendimento‬
+‭considerandone la situazione di partenza, tenendo conto in particolare:‬
+‭●‬
+‭di‬ ‭condizioni‬ ‭soggettive‬ ‭o‬ ‭fattori‬ ‭specifici‬ ‭che‬ ‭possano‬ ‭aver‬ ‭determinato‬ ‭rallentamenti‬ ‭o‬ ‭difficoltà‬
+‭nell’acquisizione di conoscenze e abilità‬
+‭●‬
+‭dell’andamento nel corso dell’anno‬
+‭●‬
+‭della costanza dell’impegno e dello sforzo nell’affrontare il lavoro a scuola e a casa‬
+‭●‬
+‭delle risposte positive agli stimoli e ai supporti individualizzati ricevuti‬
+‭●‬
+‭dell’assunzione di comportamenti responsabili verso i doveri scolastici‬
+‭La‬‭non ammissione‬‭si concepisce:‬
+‭●‬
+‭come‬ ‭costruzione‬ ‭delle‬ ‭condizioni‬ ‭per‬ ‭attivare/riattivare‬ ‭un‬ ‭processo‬ ‭positivo,‬ ‭con‬ ‭tempi‬ ‭più‬‭lunghi‬‭e‬‭più‬
+‭adeguati ai ritmi individuali‬
+‭●‬
+‭quando‬ ‭siano‬ ‭stati‬ ‭adottati,‬ ‭comunque,‬ ‭documentati‬ ‭interventi‬‭di‬‭recupero‬‭e/o‬‭sostegno‬‭che‬‭non‬‭si‬‭siano‬
+‭rivelati produttivi‬
+‭●‬
+‭come‬ ‭evento‬ ‭da‬ ‭considerare‬ ‭in‬ ‭assenza‬ ‭di‬ ‭prerequisiti‬ ‭ritenuti‬ ‭fondamentali,‬ ‭mancando‬ ‭i‬ ‭quali‬ ‭potrebbe‬
+‭risultare compromesso il successivo processo di apprendimento dell'alunno‬
+‭Il‬‭giudizio‬‭di‬‭non‬‭ammissione‬‭alla‬‭classe‬‭successiva‬‭e‬‭all’esame‬‭di‬‭Stato‬‭è‬‭espresso‬‭a‬‭maggioranza‬‭dal‬‭Consiglio‬
+‭di Classe nei seguenti casi:‬
+‭●‬
+‭valutazione‬ ‭non‬ ‭positiva‬ ‭dell’andamento‬ ‭dell’alunno‬ ‭per‬ ‭mancato‬ ‭o‬ ‭scarso‬ ‭rispetto‬ ‭delle‬‭regole‬‭relative‬‭ai‬
+‭doveri scolastici, comprovata anche da ripetuti rilievi di mancanze con riferimento al Regolamento d’Istituto‬
+‭●‬
+‭mancato‬‭raggiungimento‬‭degli‬‭obiettivi‬‭di‬‭apprendimento‬‭in‬‭numerose‬‭discipline‬‭e‬‭presenza‬‭di‬‭diverse‬‭lacune‬
+‭nella‬ ‭preparazione‬ ‭la‬ ‭cui‬ ‭gravità,‬ ‭a‬ ‭giudizio‬ ‭del‬ ‭Consiglio‬ ‭di‬ ‭classe,‬‭sia‬‭tale‬‭da‬‭non‬‭consentire‬‭la‬‭proficua‬
+‭frequenza della classe successiva‬
+‭●‬
+‭complessiva‬ ‭insufficiente‬ ‭maturazione‬ ‭del‬ ‭processo‬ ‭di‬ ‭apprendimento‬ ‭dell’alunno,‬ ‭verificata‬ ‭dal‬ ‭mancato‬
+‭raggiungimento degli obiettivi educativo/didattici‬
+‭Nell’assunzione‬ ‭motivata‬ ‭della‬‭propria‬‭delibera‬‭il‬‭Consiglio‬‭di‬‭Classe‬‭verifica‬‭e‬‭tiene‬‭conto‬‭della‬‭presenza‬‭delle‬
+‭seguenti condizioni:‬
+‭●‬
+‭analisi‬ ‭e‬ ‭monitoraggio‬ ‭della‬ ‭situazione‬ ‭dell’alunno‬ ‭effettuate‬ ‭dal‬ ‭Consiglio‬ ‭di‬ ‭Classe‬ ‭nelle‬ ‭riunioni‬
+‭periodiche‬
+‭●‬
+‭coinvolgimento‬‭della‬‭famiglia‬‭durante‬‭l’anno‬‭scolastico‬‭attraverso‬‭varie‬‭modalità‬‭(colloqui,‬‭comunicazioni‬
+‭scritte, incontri programmati, etc)‬
+‭●‬
+‭forme‬‭e‬‭frequenza‬‭dei‬‭provvedimenti‬‭disciplinari‬‭nei‬‭confronti‬‭dell’alunno‬‭per‬‭carenze‬‭nella‬‭partecipazione‬
+‭personale responsabile e/o nel rispetto delle regole della vita scolastica‬
+‭In‬‭particolare,‬‭in‬‭merito‬‭ai‬ ‭criteri‬‭di‬‭attribuzione‬‭del‬‭voto‬‭di‬‭ammissione‬‭all’Esame‬‭Finale‬‭per‬‭gli‬‭allievi‬ ‭delle‬‭classi‬
+‭terze,‬ ‭da‬ ‭stabilirsi‬ ‭in‬ ‭sede‬ ‭di‬ ‭scrutinio‬ ‭finale,‬ ‭sulla‬ ‭base‬ ‭della‬ ‭volontà‬ ‭di‬ ‭tener‬ ‭presente‬ ‭il‬‭percorso‬‭scolastico‬
+‭triennale‬‭dei‬‭candidati,‬‭valorizzando‬‭in‬‭modo‬‭particolare‬‭il‬‭rendimento‬‭fatto‬‭registrare‬‭nell'ultimo‬‭anno,‬‭il‬‭Collegio‬
+‭docenti ha deliberato che a partire dall’a.s. 2017/18 il voto di ammissione risulti così assegnato:‬
+‭A.‬ ‭calcolo‬‭della‬‭media‬‭dei‬‭voti‬‭presenti‬‭sulla‬‭pagella‬‭finale‬‭della‬‭classe‬‭prima,‬‭ivi‬‭compreso‬‭il‬‭voto‬‭di‬‭condotta,‬
+‭con frazione di due cifre decimali;‬
+‭B.‬ ‭calcolo‬ ‭della‬ ‭media‬ ‭dei‬ ‭voti‬ ‭presenti‬ ‭sulla‬ ‭pagella‬‭finale‬‭della‬‭classe‬‭seconda,‬‭ivi‬‭compreso‬‭il‬‭voto‬‭di‬
+‭condotta, con frazione di due cifre decimali;‬
+‭C.‬ ‭calcolo della media dei voti presenti sulla pagella della classe terza, con frazione di due cifre decimali.‬
+‭Si‬‭procede‬‭in‬‭prima‬‭istanza‬‭alla‬‭media‬‭aritmetica‬‭tra‬‭i‬‭voti‬‭risultanti‬‭da‬‭A‬‭e‬‭B.‬ ‭Si‬‭procede‬‭alla‬‭media‬‭aritmetica‬‭tra‬
+‭questo voto (con frazione di due cifre decimali) e il voto (con frazione di due cifre decimali) risultante da C.‬
+‭Il‬ ‭voto‬ ‭così‬ ‭ottenuto‬ ‭viene‬ ‭arrotondato‬ ‭a‬‭voto‬‭intero‬‭(la‬‭frazione‬‭decimale‬‭pari‬‭o‬‭superiore‬‭a‬‭0,5‬‭è‬‭arrotondata‬
+‭all'unità superiore) e va a costituire il voto di ammissione all'Esame finale.‬
+‭Il‬‭Collegio‬‭dei‬‭docenti‬‭ritiene‬‭che‬‭tali‬‭analisi‬‭attenta‬‭e‬‭scrupolosa‬‭dei‬‭livelli‬‭di‬‭rendimento‬‭fatti‬‭registrare‬‭dall'allievo‬
+‭nel‬ ‭corso‬ ‭dei‬ ‭tre‬ ‭anni‬ ‭costituisca‬ ‭il‬ ‭criterio‬ ‭più‬ ‭equo‬ ‭ed‬ ‭oggettivo‬ ‭possibile‬ ‭per‬ ‭l'assegnazione‬ ‭del‬ ‭voto‬ ‭di‬
+‭ammissione,‬‭sulla‬‭base‬‭del‬‭fatto‬‭che‬‭nella‬‭nostra‬‭scuola‬‭la‬‭valutazione‬‭disciplinare‬‭dei‬‭docenti‬‭tiene‬‭conto,‬‭oltre‬
+‭che‬ ‭delle‬ ‭competenze‬ ‭disciplinari,‬ ‭anche‬ ‭dei‬ ‭parametri‬ ‭precedentemente‬ ‭delineati‬ ‭riguardanti‬ ‭il‬ ‭processo‬ ‭di‬
+‭maturazione di ciascun alunno nell’apprendimento considerando la situazione di partenza.‬
+‭In‬‭un’ottica‬‭di‬‭coerenza‬‭con‬‭tale‬‭principio‬‭guida‬‭della‬‭valutazione‬‭perseguito‬‭nei‬‭tre‬‭anni,‬‭anche‬‭per‬‭la‬‭formulazione‬
+‭del‬‭voto‬‭di‬‭ammissione‬‭all’Esame‬‭finale,‬‭il‬‭Consiglio‬‭di‬‭classe‬‭può‬‭decidere‬‭di‬‭arrotondare‬‭per‬‭eccesso‬‭(a‬‭partire‬‭da‬
+‭frazioni‬‭decimali‬‭dello‬‭0,3)‬‭all’unità‬‭superiore‬‭la‬‭media‬‭dei‬‭voti‬‭dei‬‭tre‬‭anni‬‭calcolata‬‭con‬‭il‬‭metodo‬‭sovraindicato‬
+‭sulla base di un andamento didattico non decrescente dal primo al terzo anno.‬
+‭Competenze trasversali e valutazione degli apprendimenti‬
+‭43‬
+
+---
+
+## Pagina 45
+
+‭La‬‭valutazione‬‭delle‬‭competenze‬‭trasversali,‬‭delle‬‭conoscenze‬‭e‬‭abilità‬‭degli‬‭alunni,‬‭espressa‬‭in‬‭decimi,‬‭è‬‭condotta‬
+‭dai‬ ‭docenti‬ ‭della‬ ‭Scuola‬ ‭Secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”‬ ‭Paritaria‬ ‭sulla‬ ‭base‬
+‭della‬ ‭seguente‬ ‭Griglia‬ ‭di‬
+‭valutazione:‬
+‭Livello medio di‬
+‭apprendimento‬
+‭Valutazione‬
+‭numerica‬
+‭Descrittori (Sapere)‬
+‭Descrittori (Abilità)‬
+‭Comunicazi‬
+‭one‬
+‭Didattica specifica‬ ‭Livello di‬
+‭competenza‬
+‭0%‬
+‭3‬
+‭Conoscenza dei contenuti‬
+‭nulla o non evidenziabile‬
+‭Totale incapacità di applicare‬
+‭la procedura richiesta‬
+‭Espressione‬
+‭nulla‬
+‭Attività di‬
+‭recupero guidato‬
+‭Non raggiunto‬
+‭1-35%‬
+‭4‬
+‭Gravissime lacune e‬
+‭scarsissima conoscenza‬
+‭dei contenuti‬
+‭Gravissime difficoltà nella‬
+‭comprensione e nelle‬
+‭applicazioni (pur guidato‬
+‭continua a commettere gravi‬
+‭errori)‬
+‭Espressione‬
+‭inadeguata‬
+‭e confusa‬
+‭Attività di‬
+‭recupero guidato‬
+‭Non raggiunto‬
+‭36-51%‬
+‭5‬
+‭Conoscenza dei contenuti‬
+‭limitata, frammentaria e/o‬
+‭superficiale e con alcune‬
+‭lacune‬
+‭Difficoltà nella comprensione‬
+‭e nelle applicazioni (sa‬
+‭applicare le conoscenze in‬
+‭compiti semplici, ma fa errori‬
+‭e incorre in imprecisioni)‬
+‭Espressione‬
+‭talvolta‬
+‭scorretta‬
+‭e/o poco‬
+‭chiara e‬
+‭inefficace‬
+‭Attività di‬
+‭recupero‬
+‭Non raggiunto‬
+‭52-64%‬
+‭6‬
+‭Conoscenza dei contenuti‬
+‭essenziali, ma a livello‬
+‭poco approfondito‬
+‭Comprensione dei problemi‬
+‭semplici; abilità minime con‬
+‭alcuni errori concettuali e‬
+‭formali.‬
+‭Espressione‬
+‭semplice,‬
+‭ma corretta‬
+‭Attività di‬
+‭consolidamento‬
+‭Iniziale‬
+‭65-74%‬
+‭7‬
+‭Conoscenza chiara e‬
+‭ordinata dei contenuti‬
+‭essenziali‬
+‭Comprensione e‬
+‭orientamento adeguati in‬
+‭relazione a problemi di‬
+‭difficoltà media, anche se‬
+‭nelle applicazioni emergono‬
+‭alcune incertezze‬
+‭Espressione‬
+‭chiara e‬
+‭corretta‬
+‭Attività di‬
+‭consolidamento‬
+‭Base‬
+‭75-84%‬
+‭8‬
+‭Conoscenza dei contenuti‬
+‭ordinata e pertinente‬
+‭Comprensione dei problemi‬
+‭di difficoltà medio-alta;‬
+‭adeguata capacità di‬
+‭risoluzione, pur con qualche‬
+‭imprecisione.‬
+‭Espressione‬
+‭fluida con‬
+‭buone‬
+‭capacità di‬
+‭analisi e di‬
+‭sintesi‬
+‭Attività di‬
+‭consolidamento‬
+‭Intermedio‬
+‭85-94%‬
+‭9‬
+‭Conoscenza dei contenuti‬
+‭ampia e approfondita, con‬
+‭rielaborazione personale‬
+‭Capacità di comprendere e‬
+‭risolvere problemi‬
+‭complessi;capacità di‬
+‭stabilire connessioni‬
+‭all’interno delle singole‬
+‭discipline‬
+‭Uso‬
+‭puntuale del‬
+‭linguaggio‬
+‭specifico‬
+‭della‬
+‭disciplina‬
+‭Attività di‬
+‭potenziamento‬
+‭Avanzato‬
+‭95-100%‬
+‭10‬
+‭Conoscenza dei contenuti‬
+‭ampia approfondita, con‬
+‭rielaborazione personale e‬
+‭padronanza critica‬
+‭Capacità di comprendere e‬
+‭risolvere problemi‬
+‭complessi;capacità di‬
+‭stabilire connessioni‬
+‭all’interno delle singole‬
+‭discipline e in altri ambiti‬
+‭Uso‬
+‭puntuale e‬
+‭consapevole‬
+‭del‬
+‭linguaggio‬
+‭specifico‬
+‭della‬
+‭disciplina‬
+‭Attività di‬
+‭potenziamento‬
+‭Avanzato‬
+‭Nell'ambito‬‭della‬‭Progettazione‬‭per‬‭competenze,‬‭il‬‭Collegio‬‭Docenti‬‭ha‬‭elaborato‬‭inoltre‬‭la‬‭seguente‬‭descrizione‬‭per‬
+‭livelli delle competenze attese in uscita:‬
+
+## ‭Classi Prime‬
+
+
+## ‭A – Avanzato‬
+
+‭L’alunno/a svolge compiti e risolve problemi, mostrando padronanza nell’uso delle conoscenze e delle abilità;‬
+‭propone le proprie opinioni in modo consapevole.‬
+‭44‬
+
+---
+
+## Pagina 46
+
+
+## ‭B – Intermedio‬
+
+‭L’alunno/a svolge compiti e risolve problemi anche in situazioni nuove, mostrando di saper generalmente utilizzare le‬
+‭conoscenze e le abilità acquisite.‬
+
+## ‭C – Base‬
+
+‭L’alunno/a svolge compiti semplici, mostrando di possedere le conoscenze e le abilità di base e di saper applicare le‬
+‭regole e procedure apprese.‬
+
+## ‭D – Iniziale‬
+
+‭L’alunno/a, se opportunamente guidato/a, svolge compiti semplici in situazioni note.‬
+
+## ‭E – Non Raggiunto‬
+
+‭L’alunno/a, anche se guidato/a, non riesce a svolgere compiti semplici in tutte le situazioni.‬
+
+## ‭Classi Seconde‬
+
+
+## ‭A – Avanzato‬
+
+‭L’alunno/a svolge compiti e risolve problemi complessi, mostrando padronanza nell’uso delle conoscenze e delle‬
+‭abilità; propone le proprie opinioni e assume decisioni consapevoli.‬
+
+## ‭B – Intermedio‬
+
+‭L’alunno/a svolge compiti e risolve problemi in situazioni nuove, mostrando di saper selezionare e utilizzare le‬
+‭conoscenze e le abilità acquisite.‬
+
+## ‭C – Base‬
+
+‭L’alunno/a svolge compiti semplici anche in situazioni nuove, mostrando di possedere conoscenze e abilità‬
+‭fondamentali e di saper applicare basilari regole e procedure apprese.‬
+
+## ‭D – Iniziale‬
+
+‭L’alunno/a, se opportunamente guidato/a, svolge compiti semplici in situazioni note.‬
+
+## ‭E – Non Raggiunto‬
+
+‭L’alunno/a, anche se guidato/a, non riesce a svolgere compiti semplici in tutte le situazioni.‬
+
+## ‭Classi Terze‬
+
+
+## ‭A – Avanzato‬
+
+‭L’alunno/a svolge compiti e risolve problemi complessi, mostrando padronanza nell’uso delle conoscenze e delle‬
+‭abilità; propone e sostiene le proprie opinioni e assume in modo responsabile decisioni consapevoli.‬
+
+## ‭B – Intermedio‬
+
+‭L’alunno/a svolge compiti e risolve problemi in situazioni nuove, compie scelte consapevoli, mostrando di saper‬
+‭utilizzare le conoscenze e le abilità acquisite.‬
+
+## ‭C – Base‬
+
+‭L’alunno/a svolge compiti semplici anche in situazioni nuove, mostrando di possedere conoscenze e abilità‬
+‭fondamentali e di saper applicare basilari regole e procedure apprese.‬
+
+## ‭D – Iniziale‬
+
+‭L’alunno/a, se opportunamente guidato/a, svolge compiti semplici in situazioni note.‬
+
+## ‭E – Non Raggiunto‬
+
+‭L’alunno/a, anche se guidato/a, non riesce a svolgere compiti semplici in tutte le situazioni.‬
+‭Tali‬ ‭livelli‬ ‭di‬ ‭competenza‬ ‭saranno‬ ‭alla‬ ‭base‬ ‭di‬ ‭un‬ ‭giudizio‬ ‭sintetico‬ ‭sui‬ ‭livelli‬ ‭di‬ ‭apprendimento‬ ‭presente‬ ‭sul‬
+‭documento di valutazione.‬
+‭I‬ ‭docenti,‬ ‭in‬ ‭sede‬ ‭di‬ ‭riunioni‬ ‭per‬ ‭materie/ambiti‬ ‭e‬ ‭di‬ ‭Collegio‬ ‭docenti‬ ‭per‬ ‭un’approvazione‬ ‭condivisa,‬ ‭hanno‬
+‭elaborato‬ ‭altresì‬ ‭materiali‬ ‭per‬ ‭la‬ ‭valutazione‬ ‭disciplinare‬ ‭(griglie‬ ‭di‬‭valutazione)‬‭riportati‬‭nel‬‭Curricolo‬‭triennale‬
+‭allegato al presente PTOF.‬
+‭Competenze chiave europee per l’apprendimento permanente‬
+‭La‬ ‭Scuola‬ ‭secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”‬ ‭Paritaria‬ ‭ha‬ ‭deciso‬ ‭di‬ ‭adottare,‬ ‭a‬ ‭partire‬ ‭dall'a.s‬ ‭2017/2018‬ ‭le‬
+‭Competenze‬ ‭Chiave‬ ‭Europee‬ ‭per‬ ‭l’apprendimento‬ ‭permanente,‬ ‭ridefinite‬ ‭dalla‬ ‭raccomandazione‬ ‭del‬ ‭Consiglio‬
+‭dell’Unione‬‭europea‬‭del‬‭22‬‭maggio‬‭2018‬‭e‬‭che‬‭sono‬‭riportate‬‭integralmente‬‭nel‬‭documento‬‭del‬‭Curricolo‬‭Triennale‬
+‭di Istituto, insieme alle relative rubriche.‬
+‭Il‬‭documento,‬‭definito‬‭dal‬‭Collegio‬‭Docenti‬‭anche‬‭per‬‭il‬‭triennio‬‭2025/28,‬‭delinea‬‭le‬‭competenze‬‭trasversali,‬‭sociali‬
+‭ed‬ ‭essenziali,‬ ‭che‬ ‭si‬ ‭intendono‬ ‭promuovere‬ ‭nel‬ ‭triennio‬ ‭e‬ ‭costituisce‬ ‭il‬ ‭riferimento‬ ‭del‬ ‭curricolo‬ ‭d’IStituto‬
+‭disciplinare.Il‬‭Collegio‬‭Docenti‬‭ha‬‭adottato‬‭inoltre‬‭specifiche‬‭rubriche‬‭di‬‭valutazione‬‭per‬‭attività‬‭interdisciplinari,‬‭che‬
+‭concorrono‬ ‭al‬ ‭monitoraggio‬ ‭delle‬ ‭competenze‬ ‭sociali‬ ‭e‬ ‭civiche,‬ ‭fondamentali‬ ‭anche‬ ‭per‬ ‭la‬ ‭formulazione‬ ‭del‬
+‭giudizio sintetico sul comportamento degli alunni.‬
+‭Tutti‬‭i‬‭documenti‬‭sovra‬‭citati‬‭sono‬‭allegati‬‭al‬‭presente‬‭PTOF,‬‭in‬‭un‬‭unico‬‭file‬‭di‬‭raccordo‬‭e‬‭consultabili‬‭nelle‬‭stesse‬
+‭sedi del documento principale.‬
+‭Documenti di valutazione e loro consegna ai genitori‬
+‭La‬ ‭valutazione‬ ‭di‬ ‭ogni‬ ‭singolo‬ ‭allievo‬ ‭è‬ ‭svolta‬ ‭in‬ ‭modo‬ ‭collegiale‬‭da‬‭parte‬‭dei‬‭docenti‬‭di‬‭una‬‭classe,‬‭riuniti‬‭in‬
+‭Consiglio.‬ ‭I‬ ‭documenti‬ ‭ufficiali‬ ‭di‬ ‭valutazione‬ ‭sono‬ ‭le‬ ‭Pagelle‬ ‭che‬ ‭vengono‬ ‭recapitate‬ ‭alle‬‭famiglie‬‭in‬‭formato‬
+‭digitale attraverso il Registro Elettronico.‬
+‭Agli‬‭allievi‬‭di‬‭terza‬‭media,‬‭terminato‬‭l’Esame‬‭di‬‭Licenza,‬‭viene‬‭rilasciato‬‭il‬‭“Certificato‬‭di‬‭Licenza”‬‭con‬‭la‬‭pagella‬‭di‬
+‭terza media, il certificato delle competenze e in seguito il diploma in originale.‬
+‭Azioni della scuola per l’inclusione scolastica‬
+‭La Scuola Secondaria di I grado “Don Bosco” Paritaria si propone di realizzare i suddetti obiettivi attraverso:‬
+‭45‬
+
+---
+
+## Pagina 47
+
+‭●‬
+‭Laboratori‬ ‭specifici‬ ‭attivati‬ ‭in‬ ‭ambito‬ ‭territoriale‬ ‭e‬ ‭a‬ ‭seguito‬ ‭di‬ ‭convenzioni‬ ‭o‬ ‭accordi‬ ‭specifici‬ ‭con‬ ‭Enti‬
+‭territoriali‬
+‭●‬
+‭Laboratori‬‭in‬‭piccoli‬‭gruppi‬‭costituiti‬‭da‬‭alunni‬‭con‬‭Bisogni‬‭educativi‬‭speciali‬‭e‬‭alunni‬‭valorizzati‬‭come‬‭risorsa‬
+‭per il gruppo con finalità di integrazione‬
+‭●‬
+‭Laboratori‬‭artistico-espressivi‬‭o‬‭tecnologici‬‭rivolti‬‭agli‬‭alunni‬‭di‬‭tutte‬‭le‬‭classi‬‭dell’Istituto‬‭in‬‭cui‬‭si‬‭inseriscono‬
+‭anche alunni con Bisogni Educativi speciali‬
+‭A‬‭livello‬‭sistemico,‬‭per‬‭garantire‬‭il‬‭coinvolgimento‬‭e‬‭la‬‭collaborazione‬‭delle‬‭famiglie,‬‭vengono‬‭organizzati‬‭incontri‬
+‭per‬‭la‬‭condivisione,‬‭la‬‭firma‬‭e‬‭la‬‭consegna‬‭dei‬‭piani‬‭didattici‬‭predisposti‬‭per‬‭l’alunno.‬‭Nel‬‭corso‬‭dell’anno‬‭si‬‭attua‬‭un‬
+‭costante‬ ‭monitoraggio‬ ‭attraverso‬ ‭l’aggiornamento‬ ‭del‬ ‭Piano‬ ‭didattico‬ ‭e‬ ‭il‬ ‭controllo‬ ‭dell’efficacia‬ ‭delle‬ ‭diverse‬
+‭strategie adottate.‬
+‭Nonostante‬ ‭la‬ ‭scarsa‬ ‭incidenza‬‭numerica‬‭degli‬‭studenti‬‭stranieri‬‭nella‬‭popolazione‬‭scolastica,‬‭la‬‭scuola‬‭adotta‬
+‭percorsi di accoglienza e di potenziamento della padronanza della lingua italiana.‬
+‭Inoltre,‬‭è‬‭trasversale‬‭a‬‭tutte‬‭le‬‭classi‬‭la‬‭sensibilizzazione‬‭degli‬‭allievi‬‭a‬ ‭temi‬‭interculturali,‬‭affinché‬‭essi‬‭maturino‬‭i‬
+‭valori di cittadinanza nel nuovo contesto della realtà attuale alla luce del messaggio cristiano.‬
+‭Nell'ottica‬‭del‬‭piano‬‭delle‬‭attività‬‭per‬‭l’inclusione,‬‭a‬‭favore‬‭dell'apprendimento‬‭di‬‭tutti‬‭gli‬‭alunni,‬ ‭viene‬‭valorizzata‬
+‭l'importante risorsa  costituita dalla pratica laboratoriale a classi aperte.‬
+‭Come‬‭risulta‬‭anche‬‭dal‬‭RAV‬‭(sez.‬‭3A.2:‬‭Ambiente‬‭di‬‭apprendimento‬‭e‬‭3.A.3:‬‭Inclusione‬‭e‬‭differenziazione),‬‭tutte‬‭le‬
+‭attività‬‭curricolari‬‭ed‬‭extra-curricolari‬‭programmate‬‭dalla‬‭scuola‬‭sono‬‭orientate‬‭all'inclusione‬‭di‬‭tutti‬‭gli‬‭alunni‬‭nel‬
+‭rispetto‬‭delle‬‭specificità‬‭di‬‭ognuno:‬‭attraverso‬‭la‬‭personalizzazione‬‭e‬‭l’individualizzazione‬‭dei‬‭percorsi‬‭formativi,‬‭si‬
+‭potenziano‬ ‭le‬ ‭opportunità‬ ‭di‬ ‭autorealizzazione‬ ‭e‬ ‭di‬ ‭autosviluppo‬ ‭responsabile,‬ ‭in‬ ‭cui‬ ‭l’apprendimento‬ ‭e‬
+‭l’acquisizione‬‭dei‬‭saperi‬‭siano‬‭piacevoli‬‭in‬‭sé‬‭e‬‭siano‬‭finalizzati‬‭alla‬‭qualità‬‭della‬‭vita‬‭degli‬‭individui‬‭e‬‭nella‬‭società.‬
+‭L’intento‬‭è‬‭quello‬‭di‬‭creare‬‭una‬‭scuola‬‭in‬‭cui‬‭gli‬‭individui‬‭sappiano‬‭conciliare‬‭i‬‭desideri‬‭personali‬‭con‬‭quelli‬‭degli‬‭altri,‬
+‭gli‬ ‭scopi‬ ‭e‬ ‭le‬ ‭prospettive‬ ‭individuali‬ ‭con‬ ‭quelle‬ ‭dell’organizzazione‬ ‭scolastica;‬ ‭una‬ ‭scuola‬ ‭che‬ ‭sappia‬ ‭favorire‬
+‭pensieri‬‭creativi‬‭per‬‭migliorare‬‭la‬‭vita‬‭scolastica‬‭motivando‬‭e‬‭coinvolgendo‬‭le‬‭persone‬‭nei‬‭processi‬‭innovativi.‬‭La‬
+‭scuola affianca al compito “dell’insegnare ad apprendere” quello “dell’insegnare ad essere”.‬
+‭Per‬‭rispondere‬‭nel‬‭modo‬‭più‬‭adeguato‬‭e‬‭competente‬‭al‬‭livello‬‭professionale‬‭e‬‭didattico‬‭alle‬‭esigenze‬‭agli‬‭allievi‬‭con‬
+‭Bes‬‭il‬‭corpo‬‭docente‬‭nell’a.s.‬‭2018/19‬‭ha‬‭conseguito‬‭la‬‭certificazione‬‭-‬‭AID-‬‭"Dislessia‬‭Amica‬‭-‬‭Livello‬‭Avanzato"‬‭e‬‭si‬
+‭impegna‬ ‭a‬ ‭recepire‬ ‭le‬ ‭eventuali‬ ‭iniziative‬ ‭di‬ ‭formazione‬ ‭che‬ ‭saranno‬ ‭attivate,‬ ‭nell’ottica‬ ‭dell’aggiornamento‬
+‭permanente.‬
+‭A‬‭questo‬‭proposito,‬‭la‬‭Scuola‬‭ha‬‭partecipato,‬‭nella‬‭figura‬‭della‬‭Referente‬‭BES,‬‭nell’a.s‬‭2019/20‬‭e‬‭concluso‬‭nell’a.s‬
+‭2020/21‬‭al‬‭Corso‬‭Tutoring‬‭organizzato‬‭in‬‭collaborazione‬‭tra‬‭lo‬‭IUSTO‬‭e‬‭l’Università‬‭cattolica‬‭sui‬‭temi‬‭legati‬‭alla‬
+‭disabilità,‬‭ai‬‭DSA,‬‭all’ADHD,‬‭all’autismo‬‭ed‬‭altre‬‭forme‬‭di‬‭disagio.‬‭L’obiettivo‬‭di‬‭tale‬‭Corso‬‭è‬‭stato‬‭quello‬‭di‬‭proporre‬
+‭una‬‭Formazione‬‭di‬‭alto‬‭livello‬‭sui‬‭temi‬‭dell’inclusione‬‭finalizzata‬‭a‬‭compiti‬‭di‬‭tutoraggio‬‭e‬‭monitoraggio‬‭degli‬‭allievi‬
+‭e affiancamento ai docenti nella gestione dei casi di alunni con BES.‬
+‭Anche‬‭per‬‭il‬‭triennio‬‭2022/25‬‭l’istituto‬‭cercherà‬‭di‬‭aderire‬‭ad‬‭iniziative‬‭di‬‭aggiornamento‬‭su‬‭tematiche‬‭inclusive‬
+‭proposte a livello ispettoriale o territoriale.‬
+‭L'Istituto ha scelto di individuare come prioritari i seguenti obiettivi:‬
+‭●‬
+‭Educazione‬‭:‬‭permettere‬‭a‬‭ogni‬‭alunno‬‭di‬‭ampliare‬‭il‬‭proprio‬‭orizzonte‬‭di‬‭senso,‬‭di‬‭trovare‬‭significato‬‭alla‬‭sua‬
+‭esistenza‬‭e‬‭alle‬‭relazioni‬‭con‬‭gli‬‭altri,‬‭di‬‭diventare‬‭persona‬‭capace‬‭di‬‭affrontare‬‭la‬‭complessa‬‭realtà‬‭in‬‭cui‬‭è‬
+‭inserito, di promuovere convivenza civile e di costruire in modo consapevole il proprio progetto di vita‬
+‭●‬
+‭Formazione‬‭:‬ ‭favorire‬ ‭l’acquisizione‬ ‭di‬ ‭conoscenze/abilità‬ ‭e‬ ‭competenze‬ ‭indispensabili‬ ‭per‬ ‭fondare‬
+‭apprendimenti adeguati e realmente formativi per la persona‬
+‭●‬
+‭Integrazione‬ ‭e‬ ‭Inclusione‬‭:‬‭creare‬‭relazioni‬‭tra‬‭pari‬‭e‬‭fra‬‭alunni‬‭e‬‭insegnanti,‬‭sulla‬‭cooperazione‬‭costruttiva‬‭di‬
+‭fronte‬ ‭a‬ ‭problemi‬ ‭da‬ ‭risolvere‬ ‭insieme,‬ ‭a‬ ‭progetti‬ ‭da‬ ‭realizzare‬ ‭in‬ ‭comune,‬ ‭a‬ ‭compiti‬ ‭da‬ ‭eseguire‬
+‭congiuntamente‬
+‭Didattica inclusiva‬
+‭L’inclusione‬‭è‬‭presupposto‬‭del‬‭successo‬‭formativo‬‭dei‬‭nostri‬‭alunni;‬‭pertanto,‬‭la‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬
+‭Bosco”‬‭Paritaria‬‭si‬‭presenta‬‭sul‬‭territorio‬‭come‬‭scuola‬‭attenta‬‭a‬‭intercettare‬‭nuove‬‭emergenze,‬‭non‬‭solo‬‭capace‬‭di‬
+‭accogliere‬ ‭un'utenza‬ ‭diversificata‬ ‭con‬ ‭particolari‬ ‭bisogni,‬ ‭ma‬ ‭anche‬ ‭orientata‬ ‭alla‬ ‭formazione‬ ‭e‬ ‭alla‬
+‭sensibilizzazione‬‭rispetto‬‭alle‬‭nuove‬‭problematiche,‬‭grazie‬‭alle‬‭collaborazioni‬‭con‬‭i‬‭vari‬‭enti,‬‭alla‬‭sperimentazione‬‭di‬
+‭buone prassi e alla promozione di un ambiente favorevole per l'apprendimento di tutti gli alunni.‬
+‭Come‬‭da‬‭normativa‬‭(D.M.‬‭122/94‬‭e‬‭LEGGE‬‭104/92)‬‭è‬‭stata‬‭costituita‬‭una‬‭Commissione‬‭GLI‬‭(Gruppo‬‭di‬‭lavoro‬‭per‬
+‭l’inclusione‬‭o‬‭per‬‭l’inclusività),‬‭che‬‭analizza‬‭la‬‭situazione‬‭complessiva‬‭nell’ambito‬‭territoriale,‬‭le‬‭risorse‬‭dell’Istituto‬
+‭sia umane sia materiali e predispone alcuni incontri operativi.‬
+‭46‬
+
+---
+
+## Pagina 48
+
+‭Il‬ ‭Gruppo‬ ‭per‬ ‭l’inclusione,‬ ‭formato‬ ‭dal‬ ‭Dirigente‬ ‭scolastico,‬ ‭dagli‬ ‭insegnanti‬ ‭di‬ ‭sostegno‬ ‭e‬ ‭dai‬ ‭Referenti‬ ‭per‬
+‭l'inclusione,‬ ‭usufruisce‬ ‭della‬ ‭collaborazione‬ ‭dei‬ ‭servizi‬ ‭socio-sanitari‬ ‭e‬ ‭rileva‬ ‭i‬ ‭bisogni,‬ ‭intrattenendo‬ ‭rapporti‬
+‭costruttivi‬ ‭con‬ ‭il‬ ‭territorio‬ ‭al‬‭fine‬‭di‬‭favorire‬‭i‬‭processi‬‭di‬‭inclusione‬‭di‬‭tutti‬‭gli‬‭alunni.‬‭Dall’a.s.‬‭24/25‬‭il‬‭Collegio‬
+‭Docenti‬‭è‬‭coadiuvato‬‭dal‬‭supporto‬‭e‬‭dalla‬‭consulenza‬‭di‬‭esperti‬‭ed‬‭educatori,‬‭che‬‭operano‬‭sia‬‭in‬‭compresenza‬‭nelle‬
+‭classi che in studio.‬
+‭La‬‭scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”-‬‭Paritaria‬‭compila‬‭ogni‬‭anno‬‭il‬‭PAI‬‭(Piano‬‭Annuale‬‭dell’inclusività),‬
+‭come previsto dalla normativa vigente.‬
+‭Il‬ ‭PAI‬ ‭definisce‬ ‭le‬ ‭modalità‬ ‭per‬ ‭l'utilizzo‬ ‭coordinato‬ ‭delle‬ ‭risorse,‬ ‭compresi‬ ‭il‬ ‭superamento‬ ‭delle‬ ‭barriere‬ ‭e‬
+‭l'individuazione‬‭dei‬‭facilitatori‬‭del‬‭contesto‬‭di‬‭riferimento‬‭nonché‬‭per‬‭progettare‬‭e‬‭programmare‬‭gli‬‭interventi‬‭di‬
+‭miglioramento‬‭della‬‭qualità‬‭dell'inclusione‬‭scolastica.‬‭Il‬‭Piano‬‭per‬‭l'inclusione‬‭e'‬‭attuato‬‭dalla‬‭Scuola‬‭Secondaria‬‭di‬‭I‬
+‭grado “Don Bosco”-paritaria nei limiti delle risorse finanziarie, umane e strumentali disponibili.‬
+‭Al‬‭suo‬‭interno‬‭si‬‭precisa‬‭che‬‭in‬‭tutte‬‭le‬‭classi‬‭si‬‭svolgono‬‭progetti‬‭e‬‭attività‬‭che‬‭hanno‬‭tra‬‭i‬‭propri‬‭obiettivi‬‭principali‬
+‭la‬ ‭promozione‬ ‭della‬ ‭cultura‬ ‭della‬ ‭diversità‬ ‭e‬‭dell’inclusione‬‭(cfr.Progetto‬‭orientamento,‬‭Continuità,‬‭Boscolandia,‬
+‭attività di Accoglienza).‬
+‭La‬‭didattica‬‭inclusiva,‬‭dal‬‭punto‬‭di‬‭vista‬‭organizzativo‬‭e‬‭gestionale,‬‭così‬‭come‬‭nell’aspetto‬‭strategico‬‭all’interno‬‭del‬
+‭PTOF‬‭viene‬‭trattata‬‭alla‬‭pari‬‭delle‬‭altre‬‭problematiche‬‭da‬‭parte‬‭della‬‭scuola‬‭ed‬‭è‬‭una‬‭pratica‬‭regolarmente‬‭adottata‬
+‭dai docenti.‬
+‭Essa viene proposta attivando per tutta la classe strategie quali:‬
+‭●‬
+‭cooperative learning‬
+‭●‬
+‭gruppi di studio guidato‬
+‭●‬
+‭studio a coppie‬
+‭●‬
+‭laboratorio di metodo di studio‬
+‭●‬
+‭lezione multimediale‬
+‭●‬
+‭didattica laboratoriale e interattiva‬
+‭●‬
+‭attività formative, spirituali e ricreative‬
+‭Nell’a.s.‬ ‭2021/22‬ ‭è‬ ‭stato‬ ‭attivato‬ ‭presso‬ ‭la‬ ‭Scuola‬ ‭Secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”-‬ ‭Paritaria‬ ‭al‬ ‭fine‬ ‭della‬
+‭definizione‬ ‭dei‬ ‭PEI‬‭e‬‭della‬‭verifica‬‭del‬‭processo‬‭di‬‭inclusione,‬‭tenuto‬‭conto‬‭del‬‭profilo‬‭di‬‭funzionamento,‬‭il‬‭GLO‬
+‭(Gruppo‬ ‭di‬‭Lavoro‬‭Operativo‬‭per‬‭l’inclusione)‬‭dei‬‭singoli‬‭alunni‬‭con‬‭disabilità.‬‭Ogni‬‭Gruppo‬‭di‬‭lavoro‬‭operativo‬‭è‬
+‭composto‬‭dal‬‭team‬‭dei‬‭docenti‬‭contitolari‬‭o‬‭dal‬‭consiglio‬‭di‬‭classe,‬‭con‬‭la‬‭partecipazione‬‭dei‬‭genitori‬‭della‬‭bambina‬
+‭o‬ ‭del‬ ‭bambino,‬ ‭dell’alunna‬ ‭o‬ ‭dell’alunno,‬ ‭della‬ ‭studentessa‬ ‭o‬ ‭dello‬ ‭studente‬ ‭con‬‭disabilità,‬‭o‬‭di‬‭chi‬‭esercita‬‭la‬
+‭responsabilità‬ ‭genitoriale,‬ ‭delle‬ ‭figure‬ ‭professionali‬ ‭specifiche,‬ ‭interne‬ ‭ed‬ ‭esterne‬ ‭all’istituzione‬ ‭scolastica‬ ‭che‬
+‭interagiscono‬‭con‬‭la‬‭classe‬‭e‬‭con‬‭la‬‭bambina‬‭o‬‭il‬‭bambino,‬‭l’alunna‬‭o‬‭l’alunno,‬‭la‬‭studentessa‬‭o‬‭lo‬‭studente‬‭con‬
+‭disabilità‬ ‭nonché‬ ‭con‬ ‭il‬ ‭necessario‬ ‭supporto‬ ‭dell’unità‬ ‭di‬ ‭valutazione‬ ‭multidisciplinare.‬ ‭Esso‬ ‭opera‬ ‭attraverso‬
+‭incontri‬ ‭formali‬ ‭e‬ ‭informali‬ ‭con‬ ‭i‬ ‭soggetti‬ ‭interessati‬ ‭in‬ ‭maniera‬ ‭periodica,‬ ‭traendo‬ ‭spunti‬ ‭di‬ ‭riflessione‬
+‭dall’osservazione quotidiana degli allievi e un  dialogo costante e aperto con la famiglia.‬
+‭Per‬‭gli‬‭alunni‬‭con‬‭disabilità‬‭certificata‬‭si‬‭attua‬‭la‬‭stesura,‬‭da‬‭parte‬‭dei‬‭Consigli‬‭di‬‭classe,‬‭con‬‭l'apporto‬‭delle‬‭famiglie‬
+‭e degli Enti sanitari di riferimento, del Piano Educativo Individualizzato secondo quanto previsto nel D.L 66/2017.‬
+‭Piani personalizzati‬
+‭Anche‬‭la‬‭Scuola‬‭Secondaria‬‭di‬‭I‬‭grado‬‭“Don‬‭Bosco”‬‭Paritaria,‬‭come‬‭le‬‭altre‬‭scuole‬‭statali‬‭e‬‭paritarie,‬‭risponde‬‭alle‬
+‭esigenze degli allievi con Bisogni Educativi Speciali in base alla normativa vigente e alle risorse di cui dispone.‬
+‭La‬ ‭legislazione‬ ‭nazionale‬ ‭sui‬ ‭BES‬ ‭favorisce‬ ‭l'introduzione‬ ‭di‬ ‭percorsi‬ ‭personalizzati‬ ‭per‬ ‭tutti‬ ‭gli‬ ‭alunni‬ ‭che‬
+‭richiedono risposte specifiche a specifici problemi.‬
+‭Da‬‭alcuni‬‭anni‬‭viene‬‭promosso,‬‭per‬‭tutti‬‭gli‬‭alunni‬ ‭con‬‭bisogni‬‭educativi‬‭speciali,‬‭un‬‭Piano‬‭Didattico‬‭Personalizzato‬
+‭per‬‭favorire‬‭il‬‭successo‬‭formativo,‬‭partendo‬‭dal‬‭riconoscimento‬‭dei‬‭disturbi/svantaggi‬‭che‬‭caratterizzano‬‭i‬‭soggetti‬
+‭in‬‭evoluzione,‬‭a‬‭cui‬‭segue‬‭una‬‭proposta‬‭didattica‬‭adeguata,‬‭condivisa‬‭con‬‭la‬‭famiglia,‬‭in‬‭cui‬‭tutti‬‭gli‬‭operatori‬‭sono‬‭a‬
+‭conoscenza‬‭delle‬‭scelte‬‭metodologiche‬‭da‬‭adottare‬‭sinergicamente‬‭ed‬‭eventualmente‬‭compensate‬‭con‬‭interventi‬
+‭che‬ ‭garantiscono‬ ‭il‬ ‭"benessere‬ ‭psico-fisico"‬ ‭dell'alunno.‬ ‭I‬ ‭Piani‬ ‭personalizzati‬ ‭di‬ ‭norma‬ ‭sono‬ ‭consegnati‬ ‭alle‬
+‭famiglie‬‭entro‬‭il‬‭mese‬‭di‬‭novembre.‬‭Si‬‭prevede‬‭un‬‭periodo‬‭più‬‭ampio‬‭per‬‭le‬‭classi‬‭iniziali‬‭dell’istituto‬‭per‬‭consentire‬
+‭agli‬ ‭insegnanti‬ ‭di‬ ‭poter‬ ‭osservare‬ ‭adeguatamente‬ ‭gli‬ ‭stili‬ ‭di‬ ‭apprendimento‬ ‭degli‬ ‭alunni.‬ ‭Da‬ ‭un‬‭punto‬‭di‬‭vista‬
+‭organizzativo‬ ‭la‬ ‭risposta‬ ‭alla‬ ‭necessità‬ ‭di‬ ‭operare‬ ‭scelte‬ ‭pedagogiche‬ ‭e‬ ‭didattiche‬‭in‬‭linea‬‭con‬‭la‬‭logica‬‭della‬
+‭personalizzazione‬‭consiste‬‭in‬‭una‬‭valutazione‬‭delle‬‭reali‬‭competenze‬‭acquisite‬‭in‬‭seguito‬‭alla‬‭quale‬‭si‬‭procederà‬
+‭con una programmazione di  metodologie individualizzate per le lezioni con accorgimenti e strumenti adeguati.‬
+‭I‬ ‭Piani‬ ‭Didattici‬ ‭Personalizzati‬‭sono‬‭stati‬‭digitalizzati‬‭ed‬‭è‬‭stata‬‭stabilita‬‭l’adozione‬‭del‬‭modello‬‭suggerito‬‭dalla‬
+‭47‬
+
+---
+
+## Pagina 49
+
+‭Regione Piemonte.‬
+‭Rapporto scuola famiglia‬
+‭La famiglia nella scuola‬
+‭La presenza della famiglia nella Scuola riveste una particolare importanza.‬
+‭Rappresentanti genitori‬
+‭I‬‭Rappresentanti‬‭dei‬‭genitori‬‭vengono‬‭eletti‬‭nel‬‭corso‬‭della‬‭prima‬‭assemblea‬‭di‬‭ogni‬‭singola‬‭classe‬‭nel‬‭mese‬‭di‬
+‭Ottobre;‬‭essi‬‭prendono‬‭parte‬‭alle‬‭riunioni‬‭allargate‬‭del‬‭Consiglio‬‭di‬‭Classe.‬‭Nel‬‭corso‬‭dei‬‭Consigli‬‭di‬‭classe‬‭aperti,‬‭gli‬
+‭insegnanti,‬ ‭in‬ ‭particolare‬ ‭il‬ ‭coordinatore,‬ ‭portano‬ ‭a‬ ‭conoscenza‬ ‭delle‬ ‭famiglie‬ ‭la‬ ‭programmazione‬ ‭educativa,‬
+‭l'andamento disciplinare, le eventuali difficoltà che possono sorgere all’interno della classe stessa.‬
+‭Resta‬‭comunque‬‭confermato‬‭che‬‭i‬‭Rappresentanti‬‭di‬‭Classe‬‭sono‬‭i‬‭primi‬‭collaboratori‬‭del‬‭Coordinatore,‬‭per‬‭quanto‬
+‭riguarda‬ ‭i‬ ‭rapporti‬ ‭con‬ ‭le‬ ‭famiglie,‬ ‭allo‬ ‭scopo‬ ‭di‬ ‭favorire‬ ‭le‬ ‭condizioni‬ ‭per‬ ‭un‬‭lavoro‬‭educativo‬‭il‬‭più‬‭possibile‬
+‭condiviso.‬
+‭Ogni‬‭tre‬‭anni,‬‭nel‬‭mese‬‭di‬‭Novembre,‬‭si‬‭procede‬‭anche‬‭all'elezione‬‭dei‬‭membri‬‭del‬‭Consiglio‬‭d'Istituto‬‭relativamente‬
+‭alla componente dei genitori.‬
+‭Colloqui genitori-docenti‬
+‭I‬ ‭Colloqui‬ ‭con‬ ‭le‬ ‭famiglie‬ ‭avvengono‬ ‭durante‬ ‭le‬‭ore‬‭di‬‭ricevimento‬‭di‬‭ogni‬‭singolo‬‭docente‬‭nel‬‭corso‬‭dell’anno‬
+‭scolastico‬ ‭su‬ ‭richiesta‬ ‭delle‬ ‭famiglie‬ ‭effettuata‬ ‭tramite‬ ‭Diario‬ ‭o‬ ‭Registro‬ ‭elettronico;‬ ‭è‬ ‭previsto‬ ‭un‬ ‭incontro‬
+‭collegiale‬‭tra‬‭docenti‬‭e‬‭famiglie,‬‭che‬‭si‬‭svolge‬‭nel‬‭pentamestre.‬‭Il‬‭Consiglio‬‭di‬‭classe‬‭si‬‭riserva‬‭di‬‭effettuare‬‭ulteriori‬
+‭eventuali convocazioni delle famiglie per le situazioni più complesse.‬
+‭Il‬‭Collegio‬‭Docenti‬‭ha‬‭deliberato‬‭che‬‭i‬‭colloqui‬‭settimanali‬‭individuali‬‭con‬‭gli‬‭insegnanti‬‭avvenissero‬‭sia‬‭in‬‭forma‬
+‭telematica a distanza, che in presenza. La modalità viene concordata tra docente e famiglia.‬
+‭Viene‬ ‭privilegiata‬ ‭invece‬ ‭la‬ ‭presenza‬ ‭in‬ ‭casi‬ ‭particolari‬ ‭(Problematiche‬ ‭didattico-disciplinari‬ ‭degli‬ ‭allievi,‬ ‭casi‬
+‭specifici, difficoltà tecniche delle famiglie) o  per le convocazioni operate dal Consiglio di classe.‬
+‭Incontri formativi per i genitori‬
+‭La‬‭Scuola‬‭propone‬‭anche‬‭periodicamente‬‭ai‬‭genitori‬‭momenti‬‭formativi‬‭che‬‭li‬‭aiutino‬‭nel‬‭loro‬‭compito‬‭di‬‭educatori.‬
+‭Le‬ ‭tematiche‬ ‭affrontate‬ ‭in‬ ‭questi‬ ‭incontri‬ ‭verranno‬ ‭definite‬ ‭con‬ ‭gli‬ ‭esperti‬ ‭che‬ ‭interverranno,‬ ‭tuttavia‬ ‭i‬ ‭nuclei‬
+‭tematici saranno in relazione al processo evolutivo del preadolescente.‬
+‭Dall’a.s.‬‭2023/24‬‭almeno‬‭tre‬‭volte‬‭all’anno,‬‭organizzato‬‭per‬‭ciascuna‬‭classe‬‭(tre‬‭incontri‬‭per‬‭la‬‭prima,‬‭tre‬‭per‬‭la‬
+‭seconda,‬‭tre‬‭per‬‭la‬‭terza),‬‭si‬‭svolge‬‭un‬‭evento‬‭denominato‬‭“Uno‬‭Spritz‬‭con‬‭Don‬‭Pier”.‬‭Questi‬‭incontri‬‭rappresentano‬
+‭un‬ ‭momento‬ ‭di‬ ‭confronto‬ ‭e‬ ‭riflessione‬ ‭dedicato‬‭ai‬‭genitori.‬‭L’incontro‬‭si‬‭apre‬‭con‬‭la‬‭presentazione‬‭di‬‭un‬‭tema‬
+‭specifico,‬ ‭proposto‬ ‭come‬ ‭spunto‬ ‭di‬ ‭riflessione‬ ‭e‬ ‭discussione.‬ ‭I‬ ‭genitori,‬‭suddivisi‬‭in‬‭gruppi,‬‭distribuiti‬‭ai‬‭tavoli,‬
+‭hanno‬ ‭l’opportunità‬ ‭di‬ ‭dialogare‬ ‭e‬ ‭confrontarsi‬ ‭tra‬ ‭loro‬ ‭in‬ ‭maniera‬ ‭informale,‬ ‭il‬ ‭tutto‬ ‭accompagnato‬ ‭dalla‬
+‭consumazione‬‭di‬‭un‬‭aperitivo.‬‭L’incontro‬‭si‬‭conclude‬‭con‬‭un‬‭momento‬‭di‬‭confronto‬‭collettivo‬‭a‬‭livello‬‭di‬‭assemblea,‬
+‭guidato‬‭dal‬‭direttore‬‭della‬‭casa,‬‭che‬‭raccoglie‬‭i‬‭contributi‬‭emersi‬‭nei‬‭gruppi‬‭e‬‭offre‬‭ulteriori‬‭spunti‬‭di‬‭riflessione.‬
+‭Questi‬‭momenti‬‭sono‬‭pensati‬‭per‬‭favorire‬‭la‬‭crescita‬‭e‬‭il‬‭dialogo‬‭tra‬‭i‬‭genitori,‬‭creando‬‭uno‬‭spazio‬‭conviviale‬‭e‬
+‭arricchente.‬
+‭Dall’a.s.‬‭24/25‬‭si‬‭è‬‭proposta‬‭una‬‭domenica‬‭mattina‬‭di‬‭Ritiro‬‭spirituale‬‭esclusivamente‬‭per‬‭i‬‭genitori‬‭“Tre‬‭ore‬‭per‬
+‭l’anima” negli ambienti della scuola.‬
+‭Comunicazioni con la famiglia‬
+‭Le comunicazioni con la famiglia avvengono prevalentemente attraverso due canali preferenziali:‬
+‭Diario scolastico:‬
+‭●‬
+‭è lo strumento per verificare costantemente il lavoro scolastico‬
+‭●‬
+‭è utilizzato per comunicazioni tra insegnante e famiglia‬
+‭●‬
+‭deve essere consultato e firmato “per presa visione” ogni giorno‬
+‭Circolari:‬
+‭●‬
+‭sono inviate dalla Presidenza tramite mail‬
+‭●‬
+‭sono presenti sul registro elettronico‬
+‭48‬
+
+---
+
+## Pagina 50
+
+‭Servizio telematico:‬
+‭Viene‬‭offerta‬‭alle‬‭famiglie‬‭l’opportunità‬‭di‬‭poter‬‭usufruire‬‭di‬‭un‬‭servizio‬‭telematico‬‭“Registro‬‭elettronico‬‭on-line”‬
+‭messo‬‭a‬‭disposizione‬‭dalla‬‭scuola‬‭che‬‭permetterà‬‭di‬‭consultare‬‭un’area‬‭riservata‬‭in‬‭cui‬‭in‬‭tempo‬‭reale‬‭vengono‬
+‭registrati : i voti, le assenze, i compiti e gli argomenti delle lezioni.‬
+‭Nel‬ ‭solco‬ ‭di‬ ‭quanto‬ ‭sperimentato‬ ‭nel‬ ‭periodo‬ ‭della‬ ‭didattica‬ ‭a‬ ‭distanza,‬ ‭viene‬ ‭fornito‬ ‭agli‬ ‭allievi‬ ‭un‬ ‭account‬
+‭scolastico‬ ‭che‬ ‭permette‬ ‭loro‬ ‭eventuale‬ ‭accesso‬ ‭alla‬ ‭Classe‬ ‭virtuale‬ ‭con‬ ‭possibilità‬‭per‬‭i‬‭genitori‬‭di‬‭attivare‬‭la‬
+‭funzione‬ ‭Tutoraggio‬ ‭per‬ ‭monitorare‬ ‭lo‬‭svolgimento‬‭dei‬‭compiti‬‭assegnati‬‭in‬‭Piattaforma‬‭e‬‭di‬‭comunicare‬‭con‬‭i‬
+‭docenti via email.‬
+‭Aspettative dei genitori e degli studenti nei confronti della scuola‬
+‭Le famiglie e gli allievi possono aspettarsi dalla scuola:‬
+‭●‬
+‭un ambiente di riferimento per i ragazzi sereno, ben organizzato e che si prenda cura delle loro necessità‬
+‭●‬
+‭una‬‭programmazione‬‭educativa‬‭e‬‭didattica‬‭stimolante‬‭per‬‭l’età‬‭e‬‭i‬‭bisogni‬‭individuali‬‭degli‬‭allievi,‬‭adeguata‬‭ai‬
+‭tempi e all’utilizzo delle nuove tecnologie‬
+‭●‬
+‭una sollecita segnalazione dei problemi inerenti l’attività didattica, formativa e disciplinare‬
+‭●‬
+‭una costante informazione riguardo a progressi compiuti e obiettivi raggiunti da ogni studente‬
+‭●‬
+‭l’opportunità di prendere parte a varie iniziative scolastiche‬
+‭Aspettative della scuola nei confronti delle famiglie‬
+‭La scuola si aspetta da parte delle famiglie:‬
+‭●‬
+‭un‬‭supporto‬‭all’osservanza‬‭dei‬‭Regolamenti‬‭di‬‭Istituto‬‭e‬‭di‬‭Disciplina‬‭della‬‭Scuola,‬‭necessario‬‭per‬‭assicurare‬
+‭un sereno svolgimento delle attività scolastiche‬
+‭●‬
+‭un supporto nell’incoraggiare e sostenere gli sforzi ed il lavoro scolastico dei figli‬
+‭●‬
+‭la partecipazione regolare agli incontri proposti nell'ambito dell'iniziativa della Scuola per Genitori‬
+‭●‬
+‭solleciti‬‭contatti‬‭con‬‭la‬‭Scuola‬‭per‬‭discutere‬‭qualsiasi‬‭problema‬‭che‬‭potrebbe‬‭influire‬‭sul‬‭sereno‬‭processo‬‭di‬
+‭crescita e rendimento scolastico degli allievi‬
+‭●‬
+‭l'assicurazione di puntuale e regolare frequenza‬
+‭●‬
+‭il controllo del materiale necessario al lavoro scolastico e dell’abbigliamento adeguato‬
+‭Aspettative della scuola nei confronti dei singoli studenti‬
+‭La scuola si aspetta da ogni studente:‬
+‭●‬
+‭l'accettazione e l'osservanza delle regole della scuola‬
+‭●‬
+‭la regolare e puntuale frequenza sia delle lezioni curriculari sia dei laboratori‬
+‭●‬
+‭la‬‭partecipazione‬‭consapevole‬‭e‬‭puntuale‬‭a‬‭ciascuna‬‭lezione,‬‭con‬‭il‬‭materiale‬‭necessario‬‭alle‬‭diverse‬‭esigenze‬
+‭disciplinari‬
+‭●‬
+‭l'educazione‬‭e‬‭la‬‭cortesia‬‭nei‬‭confronti‬‭del‬‭personale‬‭della‬‭Scuola,‬‭dei‬‭visitatori‬‭e‬‭nei‬‭rapporti‬‭interpersonali‬
+‭con‬ ‭i‬ ‭compagni,‬ ‭con‬ ‭la‬‭consapevolezza‬‭che‬‭è‬‭da‬‭evitare‬‭ogni‬‭forma‬‭di‬‭sopraffazione‬‭verbale‬‭o‬‭fisica‬‭o‬‭di‬
+‭“bullismo”‬
+‭●‬
+‭il rispetto e la cura degli ambienti e dei materiali della Scuola‬
+‭●‬
+‭il rispetto degli insegnanti, dei compagni e del personale scolastico‬
+‭●‬
+‭l'impegno‬ ‭nel‬ ‭lavorare‬ ‭proficuamente‬ ‭ed‬ ‭approfonditamente‬ ‭per‬ ‭sfruttare‬ ‭tutti‬ ‭i‬ ‭vantaggi‬ ‭e‬ ‭le‬ ‭opportunità‬
+‭offerte dalla Scuola‬
+‭●‬
+‭la puntuale produzione dei compiti a casa‬
+‭●‬
+‭un comportamento corretto e responsabile anche durante le uscite didattiche‬
+‭Nell’a.s.‬‭2020/21‬‭la‬‭Scuola‬‭ha‬‭aggiornato‬‭il‬‭Patto‬‭educativo‬‭di‬‭corresponsabilità‬‭condiviso‬‭con‬‭le‬‭famiglie‬‭all’atto‬
+‭dell’iscrizione‬ ‭con‬ ‭le‬ ‭integrazioni‬ ‭dovute‬ ‭alla‬ ‭necessità‬ ‭di‬ ‭fronteggiare‬ ‭insieme,‬ ‭con‬ ‭la‬ ‭ripresa‬ ‭delle‬ ‭attività‬
+‭didattiche,‬ ‭la‬ ‭diffusione‬ ‭del‬ ‭SARS-COV-2‬ ‭attraverso‬ ‭comportamenti‬ ‭responsabili‬ ‭che‬ ‭consentano‬ ‭di‬ ‭ridurre‬ ‭il‬
+‭margine‬‭di‬‭rischio.‬‭Tale‬‭accordo,‬‭rinnovato‬‭all’inizio‬‭dell’a.s‬‭2021/22‬‭alla‬‭luce‬‭delle‬‭nuove‬‭disposizioni‬‭ministeriali‬
+‭circa‬‭le‬‭prevenzione‬‭e‬‭il‬‭contrasto‬‭alla‬‭diffusione‬‭del‬‭virus‬‭Sars-COV-19,‬‭prevede‬‭l’adattamento‬‭a‬‭quanto‬‭stabilito‬
+‭nelle‬‭Indicazioni‬‭operative‬‭fornite‬‭dal‬‭Ministero‬‭della‬‭Salute‬ ‭e‬‭della‬‭Regione‬‭Piemonte‬‭in‬‭apertura‬‭dell’a.s.‬‭2022/23‬
+‭(cfr. Regolamento d'Istituto 2022/23).‬
+‭49‬
+
+---
+
+## Pagina 51
+
+‭Organizzazione uffici e modalità di rapporto con l’utenza‬
+‭Al‬‭fine‬‭di‬‭rispondere‬‭in‬‭modo‬‭adeguato‬‭alle‬‭esigenze‬‭degli‬‭allievi‬‭e‬‭delle‬‭loro‬‭famiglie,‬‭l'orario‬‭di‬‭apertura‬‭al‬‭pubblico‬
+‭è il seguente:‬
+‭●‬
+‭PRESIDENZA: su appuntamento‬
+‭●‬
+‭SEGRETERIA: su appuntamento‬
+‭Per‬‭una‬‭corretta‬‭comunicazione‬‭scuola-famiglia‬‭i‬‭genitori‬‭sono‬‭pregati‬‭di‬‭fissare,‬‭tramite‬‭Diario‬‭o‬‭registro‬‭on‬‭line‬‭gli‬
+‭eventuali‬‭appuntamenti‬‭richiesti‬‭e‬‭di‬‭rispettare‬‭gli‬‭orari‬‭che‬‭sono‬‭comunicati‬‭sul‬‭diario‬‭degli‬‭alunni‬‭e‬‭sul‬‭sito‬‭della‬
+‭scuola.‬
+‭Nel‬ ‭corso‬ ‭dell'anno‬ ‭scolastico‬ ‭è‬ ‭organizzato‬ ‭un‬ ‭ricevimento‬ ‭pomeridiano,‬ ‭con‬ ‭la‬ ‭presenza‬ ‭di‬ ‭tutti‬ ‭i‬ ‭docenti,‬
+‭secondo orari tempestivamente comunicati.‬
+‭La‬ ‭scuola‬ ‭assicura‬ ‭una‬ ‭costante‬ ‭informazione‬ ‭alle‬ ‭famiglie‬ ‭sia‬‭attraverso‬‭il‬‭Diario‬‭scolastico‬‭e‬‭le‬‭Circolari‬‭sia‬
+‭attraverso il proprio sito www.salesianisb.net/media‬
+‭Come‬ ‭da‬ ‭disposizione‬ ‭ministeriale,‬‭una‬‭copia‬‭del‬‭Piano‬‭Triennale‬‭dell'Offerta‬‭Formativa‬‭è‬‭depositata‬‭presso‬‭la‬
+‭Segreteria‬‭scolastica‬‭ed‬‭è‬‭disponibile‬‭per‬‭la‬‭consultazione‬‭da‬‭parte‬‭degli‬‭utenti‬‭anche‬‭in‬‭versione‬‭on‬‭line‬‭sul‬‭sito‬
+‭della scuola.‬
+‭Le programmazioni annuali presentate dai singoli Docenti sono a disposizione degli utenti presso la Presidenza‬
+‭Approvazione‬
+‭Il‬‭Piano‬‭Triennale‬‭dell’Offerta‬‭Formativa‬‭25/28‬‭e‬‭il‬‭Curricolo‬‭d’Istituto‬‭25/28‬‭sono‬‭stati‬‭approvati‬‭nella‬‭seduta‬‭del‬
+‭Collegio Docenti del 20/11/2024 e del Consiglio d’Istituto nella riunione del 16 dicembre 2024.‬
+‭Tale‬ ‭Piano‬ ‭e‬ ‭i‬ ‭relativi‬ ‭allegati‬ ‭sono‬ ‭oggetto‬ ‭di‬ ‭successive‬ ‭riunioni‬ ‭per‬ ‭apportare‬ ‭i‬ ‭necessari‬ ‭adattamenti‬ ‭e‬
+‭aggiornamenti‬‭dall’inizio‬‭dell’anno‬‭scolastico‬‭2024/25‬ ‭e‬‭vengono‬‭approvati‬‭nella‬‭seduta‬‭del‬‭Collegio‬‭Docenti‬‭del‬
+‭20/11/2024 e del Consiglio d’Istituto nella riunione del 16 dicembre 2024.‬
+‭Riferimenti principali‬
+‭Presso la Segreteria e sul sito internet sono consultabili le seguenti pubblicazioni principali:‬
+‭Piano‬ ‭triennale‬ ‭dell’Offerta‬ ‭Formativa‬ ‭2022-25,‬ ‭della‬ ‭Scuola‬ ‭secondaria‬ ‭di‬ ‭I‬ ‭grado‬ ‭“Don‬ ‭Bosco”‬ ‭–‬ ‭Paritaria‬
+‭(comprensivo degli allegati)‬
+‭Regolamento interno di Istituto‬
+‭Lista allegati‬
+‭●‬
+‭CURRICOLO TRIENNALE d’Istituto 25/28‬
+‭●‬
+
+## ‭Regolamento D’Istituto 24/25‬
+
+‭●‬
+‭PIANO DI MIGLIORAMENTO ANNUALE (in aggiornamento costante) 24/25‬
+‭●‬
+
+## ‭Curricolo Orientamento‬
+
+‭●‬
+
+## ‭Curricolo Ed. Civica‬
+
+‭50‬
+
+---
+

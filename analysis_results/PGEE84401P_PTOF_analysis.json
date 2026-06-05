@@ -1,0 +1,314 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PGEE84401P",
+    "denominazione": "I.C. Spoleto 2",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Spoleto",
+    "anno_ptof": "2022-2025",
+    "provincia": "Perugia",
+    "regione": "Umbria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Visso",
+    "cap": "06049",
+    "email": "pgic84400l@istruzione.it",
+    "pec": "ND",
+    "website": "www.icspoleto2.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Teatro Lirico Sperimentale di Spoleto",
+        "Teatro Stabile dell’Umbria",
+        "Festival dei Due Mondi",
+        "associazioni del terzo settore",
+        "imprese",
+        "Cidis Onlus",
+        "Liceo Scientifico Sansi-Leonardi-Volta",
+        "Università Bocconi",
+        "ASL"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazioni linguistiche (Trinity, Delf, Dele)",
+      "categoria_principale": "Arricchimento dell'offerta formativa",
+      "descrizione_e_metodologia": "Corsi per il conseguimento di certificazioni linguistiche",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti teatrali e musicali",
+      "categoria_principale": "Arricchimento dell'offerta formativa",
+      "descrizione_e_metodologia": "Partecipazione a progetti teatrali e musicali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visite a realtà produttive",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a realtà produttive del territorio",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Programmazione cartacea e digitale per competenze di cittadinanza attiva",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "English Is Fun",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Percorso di avvio alla conoscenza della lingua inglese nella scuola dell'infanzia.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Let’S Try With Trinity",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Percorso di potenziamento inglese per certificazione Trinity.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "The Code Week",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Partecipazione alla Europe Code Week.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori di Recupero e Potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Attività di recupero e potenziamento in orario curricolare/extracurricolare.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Una Scuola Che Accoglie Tutti",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi laboratoriali per BES.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Transizioni",
+      "descrizione_e_metodologia": "Attività per favorire la conoscenza del successivo ciclo scolastico.",
+      "target": "Infanzia/Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione alla Musicalità",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Percorso di avvio e consolidamento della pratica musicale.",
+      "target": "Infanzia/Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Integrazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi individuali e di gruppo per alunni stranieri.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Luci Da Spoleto",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Progettazione e realizzazione grafica per vaporetti.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corso ad Indirizzo Musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corso musicale pomeridiano.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "La Fabbrica Dei Sogni",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Laboratorio teatrale pomeridiano.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Preparazione a certificazioni Trinity, Delf, Dele.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a competizioni sportive.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Il Sapere Che Manca: Amare",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Insegnare e apprendere il bene dell'altro.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Informatica Al Servizio Dei Dsa",
+      "categoria_principale": "DSA",
+      "descrizione_e_metodologia": "Laboratorio pomeridiano sull'uso del PC per DSA.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Sportello di Ascolto Psicologico",
+      "categoria_principale": "Supporto Psicologico",
+      "descrizione_e_metodologia": "Servizio di consulenza psicologica.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Coding e Pensiero Computazionale",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Adesione a progetti nazionali e internazionali: Code Week, Hour of Code, ICT Olympic School Game",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto InnovaMenti",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo di metodologie innovative: gamification, inquiry based learning, storytelling, tinkering, hackathon",
+      "target": "Docenti e Alunni"
+    },
+    {
+      "titolo_attivita": "Nuovo Curricolo Tecnologia",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Elaborazione di un curricolo adeguato ai nuovi scenari tecnologici",
+      "target": "Insegnanti di Tecnologia"
+    },
+    {
+      "titolo_attivita": "Valutazione Competenze Digitali",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Costruzione di un framework per la valutazione delle competenze digitali",
+      "target": "Docenti di Matematica e Tecnologia"
+    },
+    {
+      "titolo_attivita": "Formazione Digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione sull’innovazione didattica e G Suite for Education",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Ore di compresenza tra docenti",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Laboratori extracurricolari",
+      "categoria_principale": "Arricchimento Offerta Formativa",
+      "descrizione_e_metodologia": "Musicale, teatrale, coreutico",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Screening DSA",
+      "categoria_principale": "Prevenzione/Diagnosi",
+      "descrizione_e_metodologia": "Individuazione studenti a rischio",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Rivolta ad alunni di recente immigrazione",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Peer Tutoring",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Supporto tra pari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione Protocollo Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione di 1 ora su protocollo sicurezza interno. Responsabile SPP e Medico Competente.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PGEE84401P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C.Spoleto 2 \"Sordini\" V.Visso (PGEE84401P) per il triennio 2022-2025. L'istituto, di ordine e grado primario, situato nel territorio non metropolitano di Spoleto, in Umbria, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 3 su 5. L'attenzione si concentra sullo sviluppo di attitudini, interessi, progettazione della vita, transizioni formative e capacità di cogliere le opportunità, tutte valutate con un punteggio di 3. La scuola si distingue per una solida rete di partnership e un'attenzione particolare all'inclusione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF dedica uno spazio specifico all'orientamento, un aspetto positivo che sottolinea l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un network di collaborazioni esteso e diversificato, comprendendo enti culturali di rilievo come il **Teatro Lirico Sperimentale di Spoleto**, il **Teatro Stabile dell’Umbria** e il **Festival dei Due Mondi**. La collaborazione si estende anche ad **associazioni del terzo settore**, **imprese**, **Cidis Onlus**, il **Liceo Scientifico Sansi-Leonardi-Volta**, l'**Università Bocconi** e l'**ASL**, per un totale di 10 partner.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi, la progettazione della vita, le transizioni formative e le capacità di orientamento verso le opportunità, tutte valutate con un punteggio di 3.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'abbandono scolastico (punteggio 4), garantire la continuità territoriale (punteggio 3), contrastare la dispersione scolastica e il fenomeno NEET (punteggio 2) e promuovere il lifelong learning (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori (punteggio 4) e un sistema integrato per l'inclusione e la fragilità (punteggio 4). Il monitoraggio delle azioni risulta meno strutturato, con un punteggio di 2.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 3), sull'utilizzo di laboratori (punteggio 3), sull'interdisciplinarità (punteggio 3) e, in misura minore, sulla flessibilità degli spazi e dei tempi (punteggio 2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative include opzioni culturali (punteggio 2), laboratoriali ed espressive (punteggio 3), ludiche e ricreative (punteggio 2), di volontariato (punteggio 2) e sportive (punteggio 2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership** con enti culturali e del territorio, nell'attenzione all'inclusione e nel forte rapporto scuola-genitori. Le attività come **Visite a realtà produttive** e i **Progetti teatrali e musicali** arricchiscono l'offerta formativa e offrono opportunità di orientamento pratico. L'impegno verso le competenze digitali, con iniziative come **Coding** e **Progetto InnovaMenti**, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano il monitoraggio delle azioni di orientamento, la flessibilità degli spazi e dei tempi didattici e l'offerta di opzionali, che risulta meno diversificata. L'obiettivo di contrastare il fenomeno NEET ottiene un punteggio inferiore rispetto agli altri, suggerendo la necessità di un maggiore focus su questo aspetto.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare il sistema di monitoraggio delle azioni di orientamento per valutarne l'efficacia e apportare eventuali correzioni. Inoltre, è auspicabile una maggiore diversificazione dell'offerta di opzionali e una maggiore attenzione alla flessibilità didattica per rispondere alle esigenze specifiche degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C.Spoleto 2 \"Sordini\" V.Visso dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di partnership e da un'attenzione particolare all'inclusione. Pur presentando alcune aree di debolezza, l'istituto ha le potenzialità per sviluppare ulteriormente l'offerta orientativa e garantire un percorso formativo completo e adeguato alle esigenze degli studenti. Attività come **Certificazioni linguistiche**, **Progetto Continuità** e lo **Sportello di Ascolto Psicologico** contribuiscono a creare un ambiente scolastico stimolante e orientato al benessere degli alunni."
+}

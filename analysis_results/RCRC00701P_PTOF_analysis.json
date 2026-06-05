@@ -1,0 +1,192 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCRC00701P",
+    "denominazione": "Is F.Sco La Cava",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Bovalino",
+    "anno_ptof": "2025-2028",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Rosario Procopio N.1",
+    "cap": "89034",
+    "email": "rcis00700q@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.iislacava.edu.it/",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Commerciali"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Presente menzione di attività di orientamento, ma assente una sezione dedicata e strutturata con obiettivi e modalità definite."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "ARNAS “G. Brotzu”",
+        "associazioni sportive",
+        "associazioni religiose",
+        "San Michele",
+        "Microcitemico A. Cao",
+        "Enti locali",
+        "Cooperativa “La Clessidra”"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita delle scuole dell'istituto",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione istituti di secondo grado",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti e laboratori per BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività mirate e personalizzate",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "PDP per alunni stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Elaborazione e monitoraggio",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare e DDI",
+      "categoria_principale": "Continuità didattica",
+      "descrizione_e_metodologia": "Contatti costanti con classe d'origine",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Festival letterari, rassegne teatrali, laboratori scientifici e artistici",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a eventi esterni e collaborazioni",
+      "target": "Alunni ospedalizzati e compagni di classe"
+    },
+    {
+      "titolo_attivita": "Attività ludiche ed espressive",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Instaurare una relazione positiva con i bambini",
+      "target": "Bambini ricoverati"
+    },
+    {
+      "titolo_attivita": "Mentoring strutturato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Studenti delle superiori come testimoni attivi nelle medie.",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Festival scolastico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Festival di quartiere e passeggiate culturali.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Educazione alla cittadinanza, legalità e democrazia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti musicali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività veicolare la musica per promuovere collaborazione, creatività, gestione emozioni, appartenenza, abilità manuale e comportamenti positivi.",
+      "target": "Primaria e Secondaria di Primo Grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCRC00701P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Bovalino-S.Ass.L.Sc.\\\"La Cava\\\"** (RCRC00701P) per il triennio 2025-2028. L'istituto, situato in **Calabria** e operante nei gradi di **Infanzia, Primaria, I e II Grado**, dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. La scuola si colloca in un contesto **metropolitano** della provincia di **Reggio Calabria** e si configura come istituzione **statale**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF presenta una menzione di attività di orientamento, tuttavia manca una sezione dedicata e strutturata con obiettivi e modalità chiaramente definite. Questo rappresenta un punto critico per una pianificazione strategica dell'orientamento.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di partnership, collaborando con enti quali **ARNAS “G. Brotzu”**, diverse **associazioni sportive** e **religiose**, **San Michele**, **Microcitemico A. Cao**, **Enti locali** e la **Cooperativa “La Clessidra”**. La presenza di sei partner diversi evidenzia una buona capacità di coinvolgimento di attori esterni rilevanti per l'orientamento e l'inclusione.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti. Buona anche l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF sono ambiziosi e pertinenti. Particolarmente rilevante è l'obiettivo di **ridurre l'abbandono** scolastico, seguito dalla volontà di garantire la **continuità territoriale** e di **contrastare il fenomeno NEET**. L'attenzione al **lifelong learning** completa il quadro degli obiettivi.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste sono efficaci e ben integrate. Si evidenzia un forte impegno nel **coordinamento dei servizi**, nel **dialogo tra docenti e studenti**, nel **rapporto scuola-genitori** e nell'implementazione di un **sistema integrato di inclusione e fragilità**. Il **monitoraggio delle azioni** è presente, ma potrebbe essere potenziato.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci innovativi, come l'apprendimento **da esperienza degli studenti** e la **flessibilità degli spazi e dei tempi**. L'utilizzo di metodologie **laboratoriali** e **interdisciplinari** è presente, ma potrebbe essere ulteriormente sviluppato.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali è diversificata, con proposte **culturali**, **laboratoriali ed espressive**. Le attività **ludiche e ricreative** risultano meno sviluppate, mentre quelle legate al **volontariato** e allo **sport** presentano un buon livello di implementazione.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership**, nella chiarezza delle **finalità** e degli **obiettivi**, nell'efficacia delle **azioni di sistema** e nell'approccio innovativo alla **didattica orientativa**. L'impegno verso l'**inclusione** e la lotta alla dispersione scolastica rappresenta un valore aggiunto significativo. Le attività registrate, come l'**Open Day**, gli **Incontri con scuole superiori**, i **Progetti e laboratori per BES** e il **Mentoring strutturato**, dimostrano un'attenzione concreta alle esigenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Questo limita la possibilità di una pianificazione strategica e di un monitoraggio efficace delle attività. Anche le attività **ludiche e ricreative** opzionali sembrano meno sviluppate rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di definire una sezione specifica per l'orientamento, con obiettivi, strategie e indicatori di performance chiaramente definiti. È inoltre auspicabile un potenziamento delle attività **ludiche e ricreative** opzionali, al fine di offrire agli studenti un'offerta formativa più completa e diversificata.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Bovalino-S.Ass.L.Sc.\\\"La Cava\\\"** dimostra un impegno significativo verso l'orientamento, con una solida base di partenza e un'ampia gamma di attività implementate. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario colmare il gap relativo alla mancanza di una sezione dedicata all'orientamento e potenziare l'offerta di attività **ludiche e ricreative**. L'integrazione di queste azioni consentirebbe alla scuola di offrire un servizio di orientamento ancora più completo e personalizzato, in linea con le esigenze degli studenti e del territorio."
+}

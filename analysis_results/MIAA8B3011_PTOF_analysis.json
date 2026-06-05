@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIAA8B3011",
+    "denominazione": "Ic A. Diaz",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Vaprio D'Adda",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mazzini",
+    "cap": "20069",
+    "email": "miic8b3004@istruzione.it",
+    "pec": "ND",
+    "website": "www.icsdiazvaprio.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Svolto in aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare e al gusto",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIAA8B3011\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia \"Infanzia Via Mazzini\" (ID MIAA8B3011) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, statale e situato nel territorio metropolitano della provincia di Milano, regione Lombardia, non presenta una sezione esplicita dedicata all'orientamento, ma integra elementi orientativi all'interno delle diverse attività proposte. L'analisi si concentra sulle finalità, gli obiettivi, le azioni e le attività messe in atto per supportare i bambini e le loro famiglie nel percorso di crescita e apprendimento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, evidenziando una possibile integrazione delle pratiche orientative all'interno di altre aree del piano.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione con diversi partner esterni. Tra questi, spiccano **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. Queste collaborazioni, per un totale di quattro partnership, suggeriscono un'apertura verso l'esterno e la volontà di arricchire l'offerta formativa con competenze e risorse esterne.\n\n**2.3 Finalità:** Le finalità del PTOF mostrano un'attenzione particolare allo sviluppo delle attitudini e degli interessi degli alunni, con punteggi elevati in queste aree. Meno marcata è l'attenzione al progetto di vita, alle transizioni formative e allo sviluppo delle capacità orientative per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi definiti nel PTOF si concentrano principalmente sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno NEET) e sulla promozione del lifelong learning. Questi obiettivi, pur importanti, non sembrano direttamente collegati a specifiche strategie di orientamento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema evidenziano un buon livello di coordinamento con i servizi territoriali e un'attenzione al rapporto scuola-genitori. Il dialogo tra docenti e studenti, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità rappresentano ulteriori punti di forza.\n\n**2.6 Didattica Orientativa:** La didattica proposta si caratterizza per un approccio esperienziale, laboratoriale, flessibile e interdisciplinare. Questi elementi favoriscono l'apprendimento attivo e la scoperta delle proprie potenzialità, contribuendo indirettamente all'orientamento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include laboratori espressivi, ludico-ricreativi, ma anche attività culturali, sportive e di volontariato. Sebbene queste attività siano preziose per ampliare l'offerta formativa, l'attenzione specifica all'orientamento in queste aree sembra limitata.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella collaborazione con partner esterni qualificati, nell'attenzione allo sviluppo delle attitudini e degli interessi degli alunni, nel buon coordinamento con i servizi territoriali e nella qualità della didattica proposta, caratterizzata da un approccio esperienziale e laboratoriale. L'offerta di laboratori diversificati, come quelli di **coding**, **musica**, **scienze**, **educazione motoria**, **pittura**, **lettura** e **lingua cinese**, rappresenta un valore aggiunto per l'istituto.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la scarsa attenzione a finalità come il progetto di vita e le transizioni formative rappresentano le principali aree di debolezza del PTOF. Anche la definizione degli obiettivi, focalizzata principalmente su aspetti legati alla dispersione scolastica, sembra poco orientata allo sviluppo delle capacità orientative degli alunni.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica e coordinata dell'orientamento. Sebbene le attività proposte contengano elementi orientativi, questi non sono esplicitamente definiti e integrati in un piano complessivo. È necessario definire finalità e obiettivi specifici per l'orientamento, individuare azioni mirate e monitorare i risultati ottenuti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Infanzia Via Mazzini\" presenta un'offerta formativa ricca e diversificata, con un'attenzione particolare allo sviluppo delle competenze di base e alla collaborazione con il territorio. Tuttavia, l'assenza di una sezione dedicata all'orientamento e la scarsa attenzione a finalità specifiche rappresentano un limite. Si suggerisce di integrare l'orientamento all'interno del PTOF, definendo finalità, obiettivi e azioni mirate, al fine di supportare i bambini e le loro famiglie nel percorso di crescita e apprendimento. L'utilizzo di strumenti di valutazione come il **Questionario di soddisfazione genitori** e il **Questionario di gradimento personale** sono utili per monitorare l'efficacia delle azioni intraprese, così come l'utilizzo di metodologie innovative come il **LEAD (Legami Educativi a Distanza)**."
+}

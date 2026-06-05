@@ -1,0 +1,198 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BGPS00500D",
+    "denominazione": "Liceo Scientifico \"La Traccia",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Calcinate",
+    "anno_ptof": "2025-2028",
+    "provincia": "Bergamo",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via S. Paolo Della Croce N. 2",
+    "cap": "24050",
+    "email": "segreteria@latracciabg.it",
+    "pec": "cpelatraccia@legalmail.it",
+    "website": "www.latracciabg.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene siano presenti riferimenti all'educazione civica e alla cittadinanza attiva, manca un capitolo specifico dedicato all'orientamento scolastico e professionale. L'analisi risulta pertanto superficiale."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Fondazione Karis",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Introduzione alla robotica e al coding.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Celebrazione esperienze scolastiche",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Apertura scuole per far conoscere l'ambiente",
+      "target": "Genitori e potenziali studenti"
+    },
+    {
+      "titolo_attivita": "Progetto educazione sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Attività extrascolastiche",
+      "descrizione_e_metodologia": "Esperienze ludiche, didattiche e convivenza",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Sostegno bambini tramite AVSI",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Donacibo",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta generi alimentari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto promozione lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Avviare e consolidare piacere di leggere",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl PTOF 2025-2028 della Scuola Primaria “Il Cammino” Rimini / Scuola Primaria “Redemptoris Mater” Riccione delinea un quadro complessivo delle azioni e degli obiettivi strategici per il triennio. L'istituto si propone di consolidare l'offerta formativa, promuovendo l'inclusione, l'orientamento e la partecipazione attiva della comunità scolastica. Sebbene siano presenti diverse iniziative meritevoli, si evidenzia una necessità di maggiore focalizzazione sull'orientamento scolastico e professionale, nonché di un'analisi più approfondita delle strategie di inclusione.\n\n## 2. Analisi Dimensionale\n\nL'area delle partnership mostra un buon livello di collaborazione con enti locali, fondazioni e altre istituzioni scolastiche (7 partner nominati). Le finalità educative sono ben definite, con particolare attenzione allo sviluppo di attitudini, interessi e progetti di vita degli studenti. Tuttavia, gli obiettivi specifici relativi alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica e al lifelong learning necessitano di una maggiore concretizzazione. Le azioni previste, come il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori, appaiono standard e richiedono un monitoraggio più efficace per valutarne l'impatto. L'offerta didattica orientativa si basa su esperienze pratiche e laboratoriali, ma l'utilizzo di laboratori dedicati all'orientamento è limitato. Le opzionali, pur diversificate, presentano un punteggio medio, suggerendo la necessità di potenziarne l'offerta e la qualità.\n\n## 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella consolidata rete di partnership, nella chiarezza delle finalità educative e nella varietà delle attività proposte. L'istituto dimostra un impegno costante nella promozione di progetti didattici innovativi, come il CLIL, i laboratori di matematica e la robotica, che favoriscono l'apprendimento attivo e lo sviluppo di competenze trasversali. L'attenzione alla solidarietà e alla cittadinanza attiva, testimoniata da iniziative come le adozioni a distanza e Donacibo, contribuisce a formare cittadini responsabili e consapevoli.\n\n## 4. Debolezze\n\nLe principali debolezze del PTOF riguardano la mancanza di un'articolata sezione dedicata all'orientamento scolastico e professionale, la scarsa definizione degli obiettivi specifici e la limitata efficacia del monitoraggio delle azioni. L'analisi delle strategie di inclusione è superficiale e non affronta in modo adeguato le sfide poste dalla presenza di alunni con bisogni educativi speciali. Inoltre, l'offerta didattica orientativa necessita di essere potenziata con l'utilizzo di laboratori dedicati e di attività mirate.\n\n## 5. Gap Analysis\n\nIl divario principale risiede nella disconnessione tra le finalità dichiarate e le azioni concrete messe in atto. Sebbene il PTOF affermi l'importanza dell'orientamento e dell'inclusione, queste tematiche non sono affrontate in modo sistematico e approfondito. È necessario definire indicatori specifici per misurare l'efficacia delle azioni intraprese e implementare un sistema di monitoraggio che consenta di valutare i progressi compiuti e di apportare eventuali correzioni. Un'analisi più dettagliata delle esigenze del territorio e delle caratteristiche degli studenti consentirebbe di personalizzare l'offerta formativa e di garantire un'equa opportunità di successo a tutti gli alunni.\n\n## 6. Conclusioni\n\nIl PTOF 2025-2028 rappresenta un documento programmatico valido, ma necessita di essere rivisto e aggiornato per colmare le lacune individuate. È fondamentale rafforzare l'attenzione all'orientamento scolastico e professionale, implementare strategie di inclusione efficaci e definire obiettivi specifici e misurabili. Un monitoraggio costante delle azioni intraprese e una valutazione periodica dei risultati consentirebbero di garantire la qualità dell'offerta formativa e di promuovere il successo scolastico di tutti gli studenti."
+}

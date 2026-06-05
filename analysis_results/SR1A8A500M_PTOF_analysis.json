@@ -1,0 +1,209 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SR1A8A500M",
+    "denominazione": "Giro Girotondo",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Carlentini",
+    "anno_ptof": "2025-2028",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via P. Togliatti N° 2",
+    "cap": "96013",
+    "email": "elementari@karis.it",
+    "pec": "ND",
+    "website": "www.karis.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento scolastico e professionale. Il PTOF si concentra su educazione civica e cittadinanza attiva, ma manca un focus specifico sull'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività di robotica e coding per sviluppare competenze tecnologiche.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Viaggio nella tradizione attraverso arte, storia, musica.",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Educazione a comportamenti sicuri e responsabili.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Iniziative per promuovere l'amore per la lettura.",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SR1A8A500M\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell’infanzia **Giro Girotondo** (SR1A8A500M), situata a Carlentini, in provincia di Siracusa e regione Sicilia. Il PTOF copre il periodo 2025-2028 ed è una scuola **paritaria**. L'analisi si concentra in particolare sulla dimensione dell'orientamento scolastico e professionale, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni del sistema, la didattica orientativa e le attività opzionali. La scuola dimostra un impegno significativo verso la collaborazione con diversi partner e l'offerta di attività diversificate, ma presenta alcune lacune nell'esplicita definizione di un percorso di orientamento strutturato.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento scolastico e professionale, concentrandosi maggiormente su **educazione civica** e **cittadinanza attiva**.\n\n**2.2 Partnership:** La scuola vanta un network di collaborazioni con sei partner, tra cui la **Karis Foundation**, altre scuole dell’infanzia e secondaria di primo grado, **enti locali**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Queste partnership rappresentano un valore aggiunto per l'arricchimento dell'offerta formativa.\n\n**2.3 Finalità:** Le finalità del PTOF, in relazione all'orientamento, sono valutate positivamente per quanto riguarda lo sviluppo di **attitudini**, **interessi** e la progettazione del **progetto di vita** degli studenti, ottenendo un punteggio di 4. Le finalità relative alle **transizioni formative** e allo sviluppo di **capacità orientative** per cogliere le opportunità risultano leggermente meno definite, con un punteggio di 3.\n\n**2.4 Obiettivi:** L'obiettivo di ridurre l'**abbandono scolastico** è considerato con un punteggio di 2, mentre la promozione della continuità territoriale ottiene un punteggio di 3. Gli obiettivi di contrastare la dispersione scolastica (fenomeno **NEET**) e promuovere il **lifelong learning** risultano meno prioritari, con punteggi di 1 e 2 rispettivamente.\n\n**2.5 Azioni del Sistema:** Le azioni del sistema, come il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori, sono considerate efficaci, con punteggi compresi tra 3 e 4. Il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità ottengono un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci esperienziali, laboratoriali e interdisciplinari, con punteggi compresi tra 3 e 4. La flessibilità degli spazi e dei tempi didattici risulta meno sviluppata, con un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali espressive**, **ludico-ricreative**, di **volontariato** e **sportive**, con punteggi generalmente buoni (3-4), ad eccezione del volontariato che ottiene un punteggio di 2.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership**, nell'attenzione allo sviluppo delle **attitudini** e degli **interessi** degli studenti, nella valorizzazione della didattica esperienziale e laboratoriale, e nell'offerta di attività opzionali diversificate. L'impegno verso la **solidarietà**, come dimostrato dalle attività di **adozioni a distanza** e del **“Donacibo”**, è particolarmente apprezzabile. Progetti come il **Progetto Clil**, i **laboratori esperienziali di matematica** e il **progetto di robotica e coding** dimostrano un'attenzione all'innovazione didattica.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento scolastico e professionale. Sebbene il PTOF promuova l'educazione civica e la cittadinanza attiva, manca un focus specifico sulla preparazione degli studenti alle future scelte formative e professionali. Anche gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** appaiono poco sviluppati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strategia esplicita per l'orientamento, che potrebbe essere colmata attraverso l'inserimento di attività specifiche volte a sviluppare le capacità di **auto-orientamento** degli studenti, la conoscenza del mondo del lavoro e la consapevolezza delle proprie potenzialità. L'integrazione di queste attività all'interno del curriculum scolastico e la collaborazione con esperti del settore potrebbero contribuire a colmare questo gap.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Giro Girotondo** rappresenta un documento programmatico solido e ben strutturato, con un forte impegno verso la qualità dell'offerta formativa e la collaborazione con il territorio. Tuttavia, per migliorare l'efficacia del PTOF in relazione all'orientamento, si raccomanda di inserire una sezione dedicata a questo tema, definire obiettivi specifici e implementare azioni mirate a sviluppare le competenze orientative degli studenti. L'ampliamento delle attività opzionali in ambito professionale e la promozione di esperienze di **stage** o **visite aziendali** potrebbero ulteriormente arricchire l'offerta formativa e preparare gli studenti alle sfide del futuro."
+}

@@ -1,0 +1,356 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAIC845006",
+    "denominazione": "Ist.Compr. \"B.Croce\" Pula",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Pula",
+    "anno_ptof": "2022-2025",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Tigellio N.1",
+    "cap": "09010",
+    "email": "caic845006@istruzione.it",
+    "pec": "caic845006@pec.istruzione.it",
+    "website": "www.comprensivopula.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata e strutturata all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Enti locali",
+        "Associazioni",
+        "Volontariato",
+        "Parco Scientifico Tecnologico Sardegna",
+        "musei",
+        "istituti pubblici e privati",
+        "associazioni di settore",
+        "imprese",
+        "servizi socio-sanitari ed educativi del territorio",
+        "Sport e Salute S.p.a.",
+        "Federazioni Sportive Nazionali",
+        "Comitato Italiano Paralimpico",
+        "organizzazioni del terzo settore",
+        "Comune di Pula",
+        "Direzione Didattica COLLODI di Torino"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti accoglienza e integrazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di gruppo e individualizzate",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Recupero competenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Lezioni potenziate",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Aule tematiche STEM",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Laboratori tematici",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Ognuno con il suo ritmo....insieme in armonia",
+      "categoria_principale": "Prevenzione dispersione scolastica",
+      "descrizione_e_metodologia": "Tutoraggio, percorsi formativi, mentoring, coaching motivazionale",
+      "target": "Studenti classi seconde e terze con fragilità"
+    },
+    {
+      "titolo_attivita": "Corsi AI, competenze digitali e coding",
+      "categoria_principale": "Potenziamento competenze",
+      "descrizione_e_metodologia": "Corsi dedicati agli studenti",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corso lingua inglese e metodologia CLIL",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Livello B2 per docenti",
+      "target": "Docenti dell'Istituto"
+    },
+    {
+      "titolo_attivita": "Progetto Crea",
+      "categoria_principale": "Formazione Docenti/Genitori",
+      "descrizione_e_metodologia": "Percorso formativo su tematiche culturali e sociali.",
+      "target": "Docenti e genitori"
+    },
+    {
+      "titolo_attivita": "Progetti PNRR",
+      "categoria_principale": "Innovazione Digitale",
+      "descrizione_e_metodologia": "Coding, intelligenza artificiale, competenze digitali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Moduli formativi per studenti della scuola secondaria",
+      "target": "Studenti scuola secondaria"
+    },
+    {
+      "titolo_attivita": "InMovimento",
+      "categoria_principale": "Psicomotricità",
+      "descrizione_e_metodologia": "Intervento psicomotorio e motorio specialistico per inclusione.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Giochi fonologici",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Esperienze ludiche per apprendimenti di base.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Fantastichiamo con lettere e numeri",
+      "categoria_principale": "Matematica/Lingua",
+      "descrizione_e_metodologia": "Percorsi interdipendenti per area linguistica e logico-matematica.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Leggimi una storia",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Incontri di lettura e laboratori con bibliotecaria.",
+      "target": "Infanzia/Primaria"
+    },
+    {
+      "titolo_attivita": "Verso una cittadinanza attiva",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Esplorazione ambiente e sviluppo rispetto per beni comuni.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Amici di penna",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Corrispondenza epistolare tra classi per motivazione scrittura/lettura.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Problemi al centro. Matematica senza paura",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Sviluppo competenze matematiche attraverso problemi.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "A scuola...con gusto",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Laboratorio educazione alimentare.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "I libri...ali per volare!",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratori di lettura per stimolare interesse e amore per i libri.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Nuovi amici",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Inserimento alunno ucraino e corrispondenza con compagni.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Il mare d'inverno",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Lezioni all'aperto per conoscenza territorio.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Natale è...pace!",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canti corali e laboratorio creativo.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Coloro, dipingo...e creo!",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratorio artistico con materiali diversi.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Musiche Primarie",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Propedeutica strumentale con docenti scuola secondaria.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Curiamo l’igiene iniziando dalle mani",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Educazione alla salute e igiene personale.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Attiva Kids",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Collaborazione con Sport e Salute S.p.a. per attività sportive",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Attiva Junior",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Collaborazione con Sport e Salute S.p.a. per attività sportive",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "C'era una volta il Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Creazione di attività per celebrare le feste",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto L.482/99",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di raccordo tra scuola secondaria di I grado e istituti superiori",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "CiSi@mo!!! EcoLOGIC@Mente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Rete di scuole per il contrasto al cyberbullismo",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Guitar orchestra",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Orchestra di chitarre",
+      "target": "Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Mail Art diario Visivo 2025",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Scambio cartoline ispirate a Enrico Baj",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Il giornalino in classe",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Produzione articoli in italiano e inglese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Il ciclo dell'oro verde",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Dalle olive all'olio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Noi facciamo la differenz-iata!",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Raccolta differenziata",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La vendemmia",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Conoscenza processo produzione vino",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione innovativa e sperimentazione sul campo",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero e potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Corsi pomeridiani, potenziamento in orario curricolare",
+      "target": "Alunni con difficoltà/talento"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAIC845006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"B.Croce\" di Pula (CAIC845006) per il triennio 2022-2025. L'istituto, di ordine e grado comprensivo, situato nel territorio metropolitano delle Isole, in Sardegna, dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione specificamente dedicata e strutturata all'interno del PTOF. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sull'esame delle attività registrate, con l'obiettivo di identificare punti di forza, aree di debolezza e possibili gap da colmare.\n\n### 2. Analisi Dimensionale\n\nL'orientamento dell'istituto si articola su diverse dimensioni. Per quanto riguarda le **finalità**, l'istituto mostra un buon livello di attenzione alle attitudini, agli interessi, al progetto di vita, alle transizioni formative e alla capacità di cogliere le opportunità, ottenendo un punteggio di 4 su 5 per ciascuna di queste aree. Gli **obiettivi** delineati includono la riduzione dell'abbandono scolastico e la continuità territoriale, anch'essi con un punteggio di 4. L'obiettivo di contrastare la dispersione scolastica NEET risulta meno prioritario, con un punteggio di 2, mentre l'attenzione al lifelong learning si attesta a 3.\n\nLe **azioni** implementate dal sistema scolastico sono particolarmente efficaci nel coordinamento dei servizi e nel rapporto scuola-genitori, raggiungendo un punteggio di 5. Anche il dialogo tra docenti e studenti è considerato positivo (punteggio 4), così come il sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni, tuttavia, necessita di maggiore attenzione, con un punteggio di 3.\n\nLa **didattica orientativa** si basa su approcci esperienziali, laboratoriali e interdisciplinari (punteggio 4 per ciascuna dimensione). La flessibilità degli spazi e dei tempi didattici, invece, risulta meno sviluppata (punteggio 3). L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali espressive e sportive (punteggio 4), mentre quelle ludico-ricreative e di volontariato necessitano di maggiore implementazione (punteggio 3).\n\n### 3. Punti di Forza\n\nL'istituto dimostra una forte capacità di collaborare con una vasta gamma di **partner**, tra cui enti locali, associazioni, il Parco Scientifico Tecnologico Sardegna, musei, istituti pubblici e privati, servizi socio-sanitari ed educativi del territorio, Sport e Salute S.p.a., e il Comune di Pula. Questa rete di collaborazioni rappresenta un punto di forza significativo per l'offerta di opportunità educative e orientative agli studenti. L'impegno verso l'inclusione, con attività come **Progetti accoglienza e integrazione** per alunni stranieri e **Aule tematiche STEM**, è un altro elemento positivo. L'attenzione alla prevenzione della dispersione scolastica, attraverso iniziative come **Ognuno con il suo ritmo....insieme in armonia**, evidenzia una sensibilità verso le fragilità degli studenti.\n\n### 4. Aree di Debolezza\n\nLa principale area di debolezza risiede nella mancanza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Sebbene le attività siano presenti e ben distribuite nelle diverse dimensioni, la loro integrazione in un quadro strategico coerente potrebbe essere migliorata. Inoltre, l'obiettivo di contrastare il fenomeno NEET appare meno prioritario rispetto ad altri, suggerendo la necessità di una maggiore attenzione a questo aspetto. Il monitoraggio delle azioni orientative, con un punteggio di 3, indica la necessità di implementare sistemi di valutazione più efficaci.\n\n### 5. Gap Analysis\n\nIl gap principale è rappresentato dalla mancanza di una visione strategica unitaria per l'orientamento, che si traduca in una sezione dedicata all'interno del PTOF. Questo comporta una frammentazione delle iniziative e una difficoltà nel misurare l'impatto complessivo delle attività orientative. Un altro gap riguarda la scarsa attenzione al contrasto alla dispersione scolastica NEET, che richiede un'analisi più approfondita delle cause e l'implementazione di interventi mirati.\n\n### 6. Conclusioni\n\nL'Istituto Comprensivo \"B.Croce\" di Pula dimostra un impegno significativo verso l'orientamento, supportato da una vasta rete di collaborazioni e da una serie di attività mirate. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario colmare il gap rappresentato dalla mancanza di una sezione dedicata all'interno del PTOF e rafforzare l'attenzione al contrasto alla dispersione scolastica NEET. L'implementazione di sistemi di monitoraggio più efficaci consentirebbe di valutare l'impatto delle attività e di orientare le scelte future in modo più consapevole. Tra le numerose attività registrate, spiccano **Progetto Orientamento**, **Attiva Kids** e **Attiva Junior**, oltre a progetti di inclusione come **Nuovi amici** e iniziative di promozione della lettura come **Leggimi una storia**."
+}

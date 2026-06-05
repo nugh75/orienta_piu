@@ -1,0 +1,391 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SRAA81104X",
+    "denominazione": "I.C.\"Wojtyla-Chindemi\" Siracusa",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Siracusa",
+    "anno_ptof": "2016-2018",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Pl. Parco Robinson - Via Algeri",
+    "cap": "96100",
+    "email": "caic86400g@istruzione.it",
+    "pec": "caic86400g@pec.istruzione.it",
+    "website": "www.14comprensivosr.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sebbene siano presenti diverse attività di orientamento, manca un capitolo organico e strutturato dedicato all'orientamento. Le iniziative sono frammentate tra visite, incontri e progetti specifici."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Comune",
+        "Municipalità",
+        "associazioni",
+        "Comune di Cagliari",
+        "ASL",
+        "Cada Die Teatro",
+        "C.E.ME.A",
+        "Kuntra",
+        "Crogiuolo",
+        "Domus de luna",
+        "A.S.D. Hobby-Sport Pirri Judo Fijlkam Sardegna",
+        "Società Cooperativa Sociale La Carovana Onlus",
+        "Istituto Comprensivo “Monsignor Saba” di Elmas",
+        "Istituto Comprensivo via Stoccolma di Cagliari",
+        "M.I.U.R.",
+        "Regione",
+        "Provincia",
+        "Università di Cagliari",
+        "Università di Firenze",
+        "Servizi sociali comunali"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "ampliare partecipazione consiglio istituto",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Coinvolgere soggetti istituzionali e associazioni",
+      "target": "Consiglio Istituto"
+    },
+    {
+      "titolo_attivita": "Istituire comitato genitori",
+      "categoria_principale": "Rapporto Scuola-Genitori",
+      "descrizione_e_metodologia": "Comitato rappresentanti genitori",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Protocollo d'intesa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Con Comune, Municipalità, associazioni",
+      "target": "Enti territoriali"
+    },
+    {
+      "titolo_attivita": "Attività teatrali con Cada Die Teatro",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Confronto con bambini e ragazzi, approfondimento del rapporto con le scuole",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Attività artistiche e creative",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Spazio aggregazione EXME', arte e creatività",
+      "target": "Ragazzi"
+    },
+    {
+      "titolo_attivita": "Supporto educativo e psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Domus de luna, recupero tramite musica e arte",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto 'nuovi spazi di apprendimento'",
+      "categoria_principale": "Ristrutturazione Spazi",
+      "descrizione_e_metodologia": "Riqualificazione spazi con contributo di Amministrazione Comunale, associazioni e genitori.",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Costruzione aule laboratorio",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Superamento programmazione curricolare tradizionale, valorizzazione esperienza e personalizzazione.",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Sperimentazione nuove disposizioni aule",
+      "categoria_principale": "Organizzazione Spazi",
+      "descrizione_e_metodologia": "Organizzazione a tavoli e ambienti tematici per favorire collaborazione e apprendimento.",
+      "target": "Scuola Secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Progetto Fiaba",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Attività alternative alla religione cattolica",
+      "target": "Scuola Infanzia"
+    },
+    {
+      "titolo_attivita": "Educazione Ambientale",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Percorsi tematici",
+      "target": "Scuola Primaria Serra"
+    },
+    {
+      "titolo_attivita": "Educazione Alimentare",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Percorso di consapevolezza",
+      "target": "Scuole Toti e Santa Maria Chiara"
+    },
+    {
+      "titolo_attivita": "Studio Assistito",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Approfondimento disciplinare",
+      "target": "Scuola Secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Attività teatrali con Cada Die Teatro",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Confronto con bambini e ragazzi, approfondimento del rapporto con le scuole",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Attività artistiche e creative",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Spazio aggregazione EXME', arte e creatività",
+      "target": "Ragazzi"
+    },
+    {
+      "titolo_attivita": "Supporto educativo e psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Domus de luna, recupero tramite musica e arte",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "Visite guidate e viaggi d'istruzione",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite a realtà del territorio, teatri, cinema, concerti, mostre.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Master Plan 2016-2018",
+      "categoria_principale": "Progettazione ambienti apprendimento",
+      "descrizione_e_metodologia": "Percorso di lavoro e approfondimento progettuale coinvolgendo comunità scolastica e soggetti socio-territoriali.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Sperimentazione azioni Evidence based education",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Accordo con Dipartimento di Pedagogia, Psicologia e Filosofia dell’Università di Cagliari",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Definizione curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Elaborazione curricolo basato sulle Indicazioni Nazionali 2012 e competenze chiave europee",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sport a scuola",
+      "categoria_principale": "Progetti Sportivi",
+      "descrizione_e_metodologia": "Attività sportiva",
+      "target": "Alunni scuola secondaria di I° grado"
+    },
+    {
+      "titolo_attivita": "Progetto Il Futuro",
+      "categoria_principale": "Progetti Didattici",
+      "descrizione_e_metodologia": "Percorsi didattici",
+      "target": "Scuola Primaria Leopardi-Serra-Santa"
+    },
+    {
+      "titolo_attivita": "Dall’Acqua Per L’Acqua",
+      "categoria_principale": "Progetti Didattici",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Scuola Primaria Leopardi-Serra-Santa"
+    },
+    {
+      "titolo_attivita": "Mini Volley",
+      "categoria_principale": "Progetti Sportivi",
+      "descrizione_e_metodologia": "Attività sportiva",
+      "target": "Scuola Primaria Serra-Toti-Santa Maria"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici",
+      "categoria_principale": "Progetti Didattici",
+      "descrizione_e_metodologia": "Attività ludiche",
+      "target": "Scuola Primaria Leopardi"
+    },
+    {
+      "titolo_attivita": "Psicologia Scolastica",
+      "categoria_principale": "Servizi di Supporto",
+      "descrizione_e_metodologia": "Interventi psicologici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Progetti di Raccordo",
+      "descrizione_e_metodologia": "Attività di raccordo tra ordini di scuola",
+      "target": "Scuole Primarie e Secondarie"
+    },
+    {
+      "titolo_attivita": "Prove esperte",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Conoscere grado conoscenze, abilità, capacità personali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Elaborazione Piano Annuale per l'Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Discussione e recepimento proposta Piano Annuale per l'Inclusione. Adattamento in base alle risorse.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Formazione e Tutoraggio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Interfaccia con CTS e servizi territoriali per formazione e tutoraggio.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Elaborazione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PEI in presenza di certificazione disabilità.",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Elaborazione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PDP per alunni con DSA.",
+      "target": "Alunni DSA"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a scuole superiori",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di professionisti",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto “Accompagnamento alle Indicazioni Nazionali 2012”",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Incontri tematici su programmazione, curricolo verticale, valutazione e gestione della classe.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto EBE didattica dell’evidenza",
+      "categoria_principale": "Ricerca-Azione",
+      "descrizione_e_metodologia": "Sperimentazione in classi 5^ primaria e secondaria sull'efficacia di nuovi protocolli di raccolta appunti.",
+      "target": "Studenti classi 5^ primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Costruzione prove per la valutazione delle competenze",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione di prove in collaborazione con altri istituti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Senza Zaino",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Organizzazione di attività formative sulla metodologia Senza Zaino.",
+      "target": "Docenti classi prime"
+    },
+    {
+      "titolo_attivita": "Didattica in ambienti di apprendimento",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Sperimentazione e utilizzo di piattaforme digitali.",
+      "target": "Docenti scuola secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Pensiero computazionale e coding",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Costruzione di competenze e progetti da attivare nelle ore curriculari.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gestione del sito web",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Formazione per la gestione del sito web.",
+      "target": "Docenti referenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "Sicurezza e salute negli ambienti di lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Aggiornamento sulla sicurezza e salute.",
+      "target": "Personale scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SRAA81104X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia **Wojtyla-Chindemi Parco Robinson** (codice scuola **SRAA81104X**) per il triennio 2016-2018. La scuola, situata a Siracusa, in Sicilia, è un istituto statale. L'analisi evidenzia un impegno significativo nella creazione di **partnership** con diversi enti e associazioni del territorio, e una buona attenzione alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi e la progettazione del futuro degli studenti. Tuttavia, manca un'organizzazione strutturata e un capitolo dedicato specificamente all'orientamento, con iniziative che appaiono frammentate.\n\n### 2. Analisi Dimensionale\n\nLa valutazione delle diverse dimensioni dell'orientamento presente nel PTOF rivela un quadro variegato. Per quanto riguarda l'orientamento come sezione dedicata, il punteggio è di 5 su 5, ma la nota evidenzia la mancanza di un capitolo organico e strutturato. Le **partnership** rappresentano un punto di forza, con un punteggio di 6 e un elevato numero di collaborazioni (20), tra cui il **Comune**, l'**ASL**, diverse **associazioni** e **istituti scolastici**. Le finalità dell'orientamento, relative ad attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative, ottengono un punteggio uniforme di 6, indicando una chiara consapevolezza degli obiettivi da perseguire. Gli obiettivi specifici mostrano una variabilità: riduzione dell'abbandono (5), continuità territoriale (6), contrasto al fenomeno NEET (4) e lifelong learning (5). Le azioni a livello di sistema, come il coordinamento dei servizi (7), il dialogo tra docenti e studenti (5), il rapporto scuola-genitori (6), il monitoraggio delle azioni (6) e l'integrazione di inclusione e fragilità (6), dimostrano un approccio olistico. La didattica orientativa, basata sull'esperienza degli studenti (5), sull'utilizzo di laboratori (5), sulla flessibilità degli spazi e dei tempi (5) e sull'interdisciplinarità (6), presenta buone potenzialità. Infine, l'offerta di attività opzionali, tra cui quelle culturali (5), laboratoriali ed espressive (6), ludiche e ricreative (5), di volontariato (4) e sportive (6), amplia l'offerta formativa.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, che coinvolgono enti locali, associazioni e altre scuole. L'impegno nella realizzazione di diverse attività, come **\"ampliare partecipazione consiglio istituto\"**, **\"Istituire comitato genitori\"**, **\"Protocollo d'intesa\"**, **\"Attività teatrali con Cada Die Teatro\"**, **\"Attività artistiche e creative\"**, **\"Supporto educativo e psicologico\"**, **\"Progetto 'nuovi spazi di apprendimento'\"**, **\"Costruzione aule laboratorio\"**, **\"Progetto Fiaba\"**, **\"Educazione Ambientale\"**, **\"Educazione Alimentare\"**, **\"Studio Assistito\"**, **\"Visite guidate e viaggi d'istruzione\"**, **\"Master Plan 2016-2018\"**, **\"Sperimentazione azioni Evidence based education\"**, **\"Definizione curricolo verticale\"**, **\"Progetto Sport a scuola\"**, **\"Progetto Il Futuro\"**, **\"Dall’Acqua Per L’Acqua\"**, **\"Mini Volley\"**, **\"Giochi Matematici\"**, **\"Psicologia Scolastica\"**, **\"Progetto Continuità\"**, **\"Prove esperte\"**, **\"Elaborazione Piano Annuale per l'Inclusione\"**, **\"Formazione e Tutoraggio\"**, **\"Elaborazione PEI\"**, **\"Elaborazione PDP\"**, **\"Visite didattiche\"**, **\"Incontri con professionisti\"**, **\"Progetto “Accompagnamento alle Indicazioni Nazionali 2012”\"**, **\"Progetto EBE didattica dell’evidenza\"**, **\"Costruzione prove per la valutazione delle competenze\"**, **\"Senza Zaino\"**, **\"Didattica in ambienti di apprendimento\"**, **\"Pensiero computazionale e coding\"**, **\"Gestione del sito web\"**, **\"Sicurezza e salute negli ambienti di lavoro\"**, dimostra un'attenzione alla diversificazione dell'offerta formativa e all'inclusione.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di un'organizzazione strutturata e di un capitolo dedicato specificamente all'orientamento. Le iniziative, pur numerose, appaiono frammentate e non coordinate in un piano d'azione coerente. L'obiettivo di contrastare il fenomeno **NEET** ottiene un punteggio inferiore rispetto agli altri, suggerendo la necessità di rafforzare le azioni in questa direzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella trasformazione delle attività esistenti in un sistema di orientamento integrato e strutturato. È necessario definire un percorso formativo coerente, che coinvolga tutti gli attori scolastici (docenti, studenti, genitori) e che sia finalizzato allo sviluppo delle competenze necessarie per affrontare le sfide del futuro.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Wojtyla-Chindemi Parco Robinson** presenta un buon potenziale in termini di orientamento, grazie alla ricchezza delle **partnership** e alla varietà delle attività proposte. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario superare la frammentazione delle iniziative e definire un piano strategico coerente, con obiettivi chiari e misurabili. Un'organizzazione più strutturata dell'orientamento consentirebbe di valorizzare appieno le risorse disponibili e di offrire agli studenti un supporto adeguato nella progettazione del loro futuro."
+}

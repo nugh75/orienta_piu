@@ -1,0 +1,266 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RGRC004013",
+    "denominazione": "Giovanni Verga",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Modica",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ragusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Baden Powell 1",
+    "cap": "97015",
+    "email": "rgis004004@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "https//www.istitutovergamodica.edu.it/",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Commerciali E Turistici"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene siano presenti diverse attività di orientamento, manca una sezione dedicata e strutturata con un capitolo specifico all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Patto di corresponsabilità",
+      "categoria_principale": "Relazione scuola-famiglia",
+      "descrizione_e_metodologia": "Revisione e aggiornamento del patto",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività pomeridiane, supporto compiti.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni esterne.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Interventi educativi e didattici per inclusione e prevenzione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni che passano dalla scuola dell'infanzia/primaria alla secondaria"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale con esperti.",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2 e percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi e delle Ragazze.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA e BES"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti di inclusione",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Promozione comunità educante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in attività di promozione comunità educante",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione di un curricolo per alunni NAI",
+      "target": "Alunni NAI"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RGRC004013\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ist. Prof. Servizi Verga** (RGRC004013) per il triennio 2019/20-2021/22. La scuola, situata a **Modica** in **Sicilia**, è un istituto **statale** che comprende i gradi di **Infanzia, Primaria e I Grado**. L'analisi evidenzia un impegno significativo verso l'orientamento, supportato da numerose attività e partnership, sebbene manchi una strutturazione specifica con una sezione dedicata all'interno del PTOF. L'istituto dimostra attenzione alle finalità dell'orientamento, in particolare alla preparazione per le **transizioni formative** e al supporto per la costruzione del **progetto di vita** degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela l'assenza di una sezione specificamente dedicata all'orientamento all'interno del PTOF, nonostante la presenza di diverse attività in questo ambito. Questo rappresenta un punto di attenzione per una maggiore formalizzazione e visibilità delle iniziative.\n\n**2.2 Partnership:**\n\nL'istituto vanta un solido network di **partnership** con diversi soggetti esterni, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, **musei**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, **altre scuole**, **altre associazioni**, le **autonomie locali** e l'**ASL**. Questo elevato numero di collaborazioni (15 partner nominati) suggerisce un approccio aperto e collaborativo all'orientamento e all'offerta formativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini** e degli **interessi** degli studenti, il supporto alla costruzione del loro **progetto di vita**, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico, la promozione della continuità territoriale, il contrasto al fenomeno dei **NEET** e lo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nL'istituto implementa azioni di sistema volte a favorire il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolare attenzione è rivolta all'implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta formativa include opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, ampliando le opportunità di scelta e personalizzazione dei percorsi formativi.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e nella diversificazione delle **azioni di sistema**. L'impegno verso l'inclusione e la promozione del benessere degli studenti rappresenta un ulteriore elemento positivo. Le attività registrate, come le **visite guidate** e gli **incontri con professionisti** nell'ambito dell'ampliamento curricolare, dimostrano un approccio pratico e concreto all'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dall'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Questo potrebbe limitare la visibilità e la coerenza delle iniziative intraprese.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di formalizzare e strutturare l'offerta orientativa all'interno del PTOF, definendo obiettivi specifici, indicatori di performance e modalità di valutazione. È auspicabile un maggiore dettaglio nelle descrizioni delle attività, come nel caso delle **attività didattiche** che risultano poco definite.\n\n### 6. Conclusioni\n\nIn conclusione, l'**Ist. Prof. Servizi Verga** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una varietà di attività. Tuttavia, per ottimizzare l'efficacia delle iniziative intraprese, è necessario colmare il gap relativo alla mancanza di una sezione dedicata all'orientamento all'interno del PTOF, definendo obiettivi specifici e modalità di valutazione. L'implementazione di un approccio più strutturato e formalizzato consentirebbe di valorizzare ulteriormente il potenziale orientativo dell'istituto e di garantire un supporto adeguato agli studenti nella costruzione del loro futuro."
+}

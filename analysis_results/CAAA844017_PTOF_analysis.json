@@ -1,0 +1,323 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAAA844017",
+    "denominazione": "Elmas \"Mons. Saba",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Elmas",
+    "anno_ptof": "2016-2018",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Temo",
+    "cap": "09030",
+    "email": "caic84400a@istruzione.it",
+    "pec": "caic86400g@pec.istruzione.it",
+    "website": "www.comprensivoelmas.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione esplicitamente presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune",
+        "Municipalità",
+        "associazioni",
+        "Comune di Cagliari",
+        "ASL",
+        "Università di Cagliari"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività teatrali con Cada Die Teatro",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Confronto con bambini e ragazzi, approfondimento del rapporto con le scuole",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività artistiche e creative",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Spazi di aggregazione e sviluppo della creatività",
+      "target": "Ragazzi"
+    },
+    {
+      "titolo_attivita": "Supporto educativo e psicologico",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Luoghi di accoglienza e recupero",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto 'nuovi spazi di apprendimento'",
+      "categoria_principale": "Ristrutturazione e miglioramento spazi",
+      "descrizione_e_metodologia": "Riqualificazione degli spazi con contributo di amministrazione comunale, associazioni e genitori.",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Costruzione aule laboratorio",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Superamento programmazione curricolare tradizionale a favore di approcci laboratoriali.",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Percorsi didattici tematici",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Creazione di angoli attrezzati in spazi interni ed esterni con focus su natura, storia e arte.",
+      "target": "Scuole dell'infanzia e primarie"
+    },
+    {
+      "titolo_attivita": "Visite guidate e viaggi d'istruzione",
+      "categoria_principale": "Attività esterne",
+      "descrizione_e_metodologia": "Visite a realtà del territorio, teatri, cinema, concerti, mostre.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Master Plan 2016-2018",
+      "categoria_principale": "Progettazione ambienti apprendimento",
+      "descrizione_e_metodologia": "Percorso di lavoro e approfondimento progettuale con comunità scolastica e soggetti socio-territoriali.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Progetto Fiaba",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Attività alternative alla religione cattolica",
+      "target": "Scuola Infanzia"
+    },
+    {
+      "titolo_attivita": "Educazione Ambientale",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Percorsi tematici",
+      "target": "Scuola Primaria Serra"
+    },
+    {
+      "titolo_attivita": "Educazione Alimentare",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Percorsi tematici",
+      "target": "Scuole Toti e Santa Maria Chiara"
+    },
+    {
+      "titolo_attivita": "Studio Assistito",
+      "categoria_principale": "Attività alternativa IRC",
+      "descrizione_e_metodologia": "Attività di approfondimento disciplinare",
+      "target": "Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Sperimentazione azioni Evidence based education",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Accordo con Dipartimento di Pedagogia, Psicologia e Filosofia dell’Università di Cagliari",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Definizione curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Elaborazione curricolo basata sulle Indicazioni Nazionali 2012 e competenze chiave europee",
+      "target": "Tutti gli ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Progetto Sport a scuola",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento alla pratica sportiva, percorsi personalizzati, attività ludiche e promozionali",
+      "target": "Alunni scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Corso ad indirizzo musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Integrazione insegnamento strumento con educazione musicale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a scuole superiori",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di professionisti",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Elaborazione Piano Annuale per l’Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Discussione e recepimento proposta Piano Annuale",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Formazione e tutoraggio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Interfaccia con CTS e servizi territoriali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Elaborazione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "In presenza certificazione disabilità",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Predisposizione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Per alunni DSA",
+      "target": "Alunni DSA"
+    },
+    {
+      "titolo_attivita": "Programma Il Futuro",
+      "categoria_principale": "Progetti Didattici",
+      "descrizione_e_metodologia": "Percorsi didattici",
+      "target": "Scuola Primaria Leopardi-Serra-Santa"
+    },
+    {
+      "titolo_attivita": "Dall’Acqua Per L’Acqua",
+      "categoria_principale": "Progetti Didattici",
+      "descrizione_e_metodologia": "Attività in Tanzania",
+      "target": "Scuola Primaria Leopardi-Serra-Santa"
+    },
+    {
+      "titolo_attivita": "Mini Volley",
+      "categoria_principale": "Progetti Sportivi",
+      "descrizione_e_metodologia": "Attività sportiva",
+      "target": "Scuola Primaria Serra-Toti-Santa Maria"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici",
+      "categoria_principale": "Progetti Didattici",
+      "descrizione_e_metodologia": "Attività ludiche",
+      "target": "Scuola Primaria Leopardi"
+    },
+    {
+      "titolo_attivita": "Psicologia Scolastica",
+      "categoria_principale": "Servizi di Supporto",
+      "descrizione_e_metodologia": "Supporto psicologico",
+      "target": "Tutte le scuole"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Progetti di Raccordo",
+      "descrizione_e_metodologia": "Attività di raccordo tra ordini di scuola",
+      "target": "Tutte le scuole"
+    },
+    {
+      "titolo_attivita": "Prove esperte",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Conoscere grado conoscenze, abilità, capacità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Elaborazione curricolo competenze civiche e sociali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni e servizi sociali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione nuovi spazi di apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Creazione aule accoglienti e laboratoriali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Piano dell'Istituto per l’orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di raccordo tra ordini di scuola",
+      "target": "Studenti delle classi terze"
+    },
+    {
+      "titolo_attivita": "Accordi con enti e agenzie formative",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Coprogettazione e condivisione competenze",
+      "target": "Tutta la comunità scolastica"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAAA844017\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Via Temo\" (Elmas), identificato dal codice CAAA844017, relativo all'anno 2016-2018. L'analisi si concentra in particolare sull'area dell'orientamento, valutandone la presenza, la strutturazione, gli obiettivi e le azioni implementate. Il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione dedicata e un punteggio complessivo elevato nelle diverse dimensioni considerate. Si evidenzia un forte impegno nella costruzione di **partnership** con enti locali, **Comune**, **Municipalità**, **associazioni**, **Comune di Cagliari**, **ASL** e **Università di Cagliari**, e un'attenzione particolare allo sviluppo di **progetti** che favoriscano la crescita personale e professionale degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione esplicitamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che testimonia una chiara consapevolezza dell'importanza di questa area.\n\n**2.2 Partnership:** L'istituto vanta un solido network di **partnership**, con ben 7 partner nominati, che contribuiscono attivamente alla realizzazione delle attività di orientamento e all'ampliamento dell'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con un punteggio elevato in queste aree. L'attenzione alle **transizioni formative** risulta leggermente inferiore, ma comunque presente. Si sottolinea l'importanza di sviluppare le **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico** e al rafforzamento della **continuità territoriale**, con punteggi elevati. L'attenzione al contrasto del fenomeno **NEET** e alla promozione del **lifelong learning** risulta meno marcata.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate sono efficaci e mirate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori**, al **monitoraggio delle azioni** e alla creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership** con enti locali e nella varietà delle attività proposte. L'istituto dimostra un forte impegno nell'implementazione di una didattica innovativa, basata sull'esperienza e sulla **laboratorialità**, e nella creazione di spazi di apprendimento flessibili e accoglienti. Le attività registrate, come **Attività teatrali con Cada Die Teatro**, **Attività artistiche e creative**, **Supporto educativo e psicologico** e **Progetto 'nuovi spazi di apprendimento'**, testimoniano un approccio olistico all'educazione e all'orientamento.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente l'attenzione al contrasto del fenomeno **NEET** e alla promozione del **lifelong learning**, che potrebbero essere ulteriormente sviluppate. Anche l'attenzione alle **transizioni formative** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni mirate al contrasto della dispersione scolastica e all'inserimento nel mondo del lavoro, in particolare per gli studenti a rischio. È necessario implementare strategie specifiche per favorire il **lifelong learning** e l'acquisizione di competenze trasversali, utili per affrontare le sfide del mercato del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF CAAA844017 presenta un'offerta formativa ricca e diversificata, con un'attenzione particolare all'orientamento e allo sviluppo delle competenze degli studenti. I punti di forza superano le aree di debolezza, e il PTOF dimostra un forte impegno nella costruzione di una scuola inclusiva, innovativa e orientata al futuro. L'implementazione delle attività registrate, come **Visite didattiche**, **Incontri con professionisti**, **Elaborazione curricolo competenze civiche e sociali** e **Piano dell'Istituto per l’orientamento**, contribuisce a creare un ambiente di apprendimento stimolante e a preparare gli studenti ad affrontare le sfide del futuro."
+}

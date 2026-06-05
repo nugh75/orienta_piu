@@ -1,0 +1,219 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIEE869033",
+    "denominazione": "Lastra A Signa",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Lastra A Signa",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Gramsci 1",
+    "cap": "50055",
+    "email": "fiic86900v@istruzione.it",
+    "pec": "ND",
+    "website": "www.iclastraasigna.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene l'orientamento sia presente, non esiste una sezione dedicata con un titolo specifico. Le attività sono sparse e descritte brevemente."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursione in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Seconda anno"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Terza anno"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Quarta anno"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperti",
+      "target": "Quinta anno"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIEE869033\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “Porto Di Mezzo - \\\"D.Alighieri\\\"” (ID FIEE869033) per il triennio 2019/20-2021/22. L'analisi evidenzia un impegno complessivo positivo verso l'orientamento, con punteggi generalmente alti nelle finalità, nelle azioni di sistema e nelle attività didattiche. Tuttavia, si rileva una mancanza di una sezione specificamente dedicata all'orientamento all'interno del PTOF, con le attività sparse e descritte in modo sintetico. La scuola dimostra una buona capacità di attivare **partnership** con enti ed istituzioni, inclusi enti del terzo settore come la **Croce Verde di Ospitaletto** e l'**Associazione ABC**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento, pur presente nel PTOF, non beneficia di una sezione dedicata con un titolo specifico, ottenendo un punteggio di 2. Le attività sono integrate in altre aree del piano, limitando la visibilità e la coerenza dell'approccio orientativo.\n\n**2.2 Partnership:** La scuola vanta un buon livello di collaborazione con il territorio, come dimostrato dal punteggio di 4. Le **partnership** attivate includono **enti ed istituzioni** e **Enti operanti nel terzo settore**, favorendo l'ampliamento dell'offerta formativa e l'integrazione con il contesto socio-economico locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e perseguite con un punteggio di 4 per ciascuna delle aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati, quali la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**, ricevono un punteggio di 3, indicando un impegno concreto ma con margini di miglioramento nella definizione di indicatori misurabili.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per supportare l'orientamento sono solide e ben strutturate, con un punteggio di 4 per ciascuna delle aree considerate: **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** e la **flessibilità degli spazi e dei tempi**, ottenendo un punteggio di 4. Tuttavia, la didattica **laboratoriale** risulta meno sviluppata, con un punteggio di 2. L'approccio **interdisciplinare** è ben integrato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, con un punteggio di 4 per ciascuna delle aree considerate: **opzionali culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la chiarezza delle **finalità**, la solidità delle **azioni di sistema** e la varietà dell'offerta di **attività opzionali**. La scuola dimostra una buona capacità di attivare **partnership** con il territorio e di promuovere un approccio didattico innovativo basato sull'esperienza e la flessibilità. Le attività registrate, come **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino** e **Stage in Inghilterra**, offrono agli studenti opportunità concrete di esplorazione e crescita.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che limita la visibilità e la coerenza dell'approccio orientativo. La didattica **laboratoriale** risulta meno sviluppata rispetto ad altri approcci didattici.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare una sezione specifica per l'orientamento all'interno del PTOF, definendo obiettivi misurabili e indicatori di performance. È inoltre auspicabile potenziare la didattica **laboratoriale**, integrando attività pratiche e sperimentali nell'offerta formativa.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria “Porto Di Mezzo - \\\"D.Alighieri\\\"” dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni analizzate. Tuttavia, per ottimizzare l'efficacia dell'approccio orientativo, è necessario strutturare una sezione dedicata all'interno del PTOF e potenziare la didattica **laboratoriale**. L'impegno nella realizzazione di attività come il **Ritiro di accoglienza**, gli incontri di **Educazione alimentare** e **Primo soccorso**, e l'orientamento post-liceo, dimostrano un'attenzione concreta alle esigenze degli studenti e alla loro preparazione per il futuro. La formazione continua dei **docenti** e del **personale amministrativo** rappresenta un ulteriore punto di forza."
+}

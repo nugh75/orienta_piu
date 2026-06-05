@@ -34,9 +34,9 @@ class OpenRouterProvider(BaseProvider):
             raise ProviderError("OpenRouter API key not configured. Set OPENROUTER_API_KEY.")
 
         try:
-            import httpx
+            import requests
         except ImportError:
-            raise ProviderError("httpx not installed. Run: pip install httpx")
+            raise ProviderError("requests not installed. Run: pip install requests")
 
         messages = []
         if system_prompt:
@@ -44,23 +44,23 @@ class OpenRouterProvider(BaseProvider):
         messages.append({"role": "user", "content": prompt})
 
         try:
-            with httpx.Client(timeout=120.0) as client:
-                response = client.post(
-                    f"{self.base_url}/chat/completions",
-                    headers={
-                        "Authorization": f"Bearer {self.api_key}",
-                        "Content-Type": "application/json",
-                        "HTTP-Referer": "https://orientapiu.it",
-                        "X-Title": "OrientaPiu Meta Report",
-                    },
-                    json={
-                        "model": self.model,
-                        "messages": messages,
-                        "max_tokens": 4096,
-                    },
-                )
-                response.raise_for_status()
-                data = response.json()
+            response = requests.post(
+                f"{self.base_url}/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {self.api_key}",
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "https://orientapiu.it",
+                    "X-Title": "OrientaPiu Meta Report",
+                },
+                json={
+                    "model": self.model,
+                    "messages": messages,
+                    "max_tokens": 8192,
+                },
+                timeout=300.0,
+            )
+            response.raise_for_status()
+            data = response.json()
 
             content = data["choices"][0]["message"]["content"]
             usage = data.get("usage", {})
@@ -72,7 +72,7 @@ class OpenRouterProvider(BaseProvider):
                 tokens_used=usage.get("total_tokens"),
             )
 
-        except httpx.HTTPError as e:
+        except requests.RequestException as e:
             raise ProviderError(f"OpenRouter API error: {e}")
         except (KeyError, IndexError) as e:
             raise ProviderError(f"Invalid OpenRouter response: {e}")

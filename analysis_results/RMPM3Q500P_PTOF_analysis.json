@@ -1,0 +1,183 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMPM3Q500P",
+    "denominazione": "Kennedy",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Frascati",
+    "anno_ptof": "2015-2018",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Santa Lucia Filippini16",
+    "cap": "00044",
+    "email": "heribertoricottini@libero.it",
+    "pec": "ND",
+    "website": "ND",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF. L'indice menziona solo 'Offerta Formativa' e non una sezione specifica per l'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "CPIA n.3 Nuoro-Sassari",
+        "Università",
+        "Camera di Commercio",
+        "Studi Privati"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corso pomeridiano per studenti lavoratori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corso pomeridiano rivolto a studenti lavoratori.",
+      "target": "Studenti lavoratori"
+    },
+    {
+      "titolo_attivita": "Accordo di rete con CPIA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accordo con CPIA per corso studenti lavoratori.",
+      "target": "Studenti lavoratori"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso aziende e università",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti del settore",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso aziende",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "attività di volontariato",
+      "categoria_principale": "volontariato",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "tutela dell’ambiente",
+      "categoria_principale": "ambiente",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "promozione dei valori dello legalità",
+      "categoria_principale": "legalità",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "sport",
+      "categoria_principale": "sport",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "educazione stradale",
+      "categoria_principale": "sicurezza",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMPM3Q500P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola \"Kennedy\" (RMPM3Q500P), relativo al periodo 2015-2018. La scuola, situata nel territorio metropolitano di Frascati (Roma), è un istituto paritario che offre percorsi di istruzione di secondo grado. L'analisi evidenzia una discreta attenzione all'orientamento, con punteggi variabili nelle diverse dimensioni considerate. Sebbene non sia presente una sezione specificamente dedicata all'orientamento nel PTOF, l'istituto dimostra un impegno attraverso diverse azioni e partnership.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:** L'indice del PTOF non prevede una sezione dedicata all'orientamento, limitandosi a menzionare l'offerta formativa generale.\n\n**2.2 Partnership:** La scuola ha stabilito collaborazioni con diversi partner, tra cui il **CPIA n.3 Nuoro-Sassari**, diverse **Università**, la **Camera di Commercio** e **Studi Privati**, per un totale di quattro partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento, come definite nel PTOF, sono ben definite per quanto riguarda lo sviluppo delle **attitudini** e degli **interessi** degli studenti, nonché per favorire le **transizioni formative** e sviluppare le loro **capacità orientative** rispetto alle opportunità disponibili. Meno marcata è l'attenzione al **progetto di vita** degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati includono la riduzione dell'**abbandono scolastico**, la promozione della continuità territoriale, il contrasto alla dispersione scolastica e NEET, e lo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto punta su azioni di **coordinamento dei servizi**, **dialogo tra docenti e studenti**, rafforzamento del **rapporto scuola-genitori**, **monitoraggio delle azioni** intraprese e creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'utilizzo di metodologie **laboratoriali** risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con un punteggio di valutazione uniforme per ciascuna categoria.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella definizione chiara delle finalità, nello sviluppo di obiettivi mirati alla riduzione dell'abbandono e alla promozione del lifelong learning, e nella creazione di un sistema di azioni che coinvolgono diversi attori della comunità scolastica. Le partnership con enti esterni, come il **CPIA** e le **Università**, rappresentano un valore aggiunto per l'offerta orientativa. L'impegno verso attività di **volontariato**, **tutela dell’ambiente**, **promozione dei valori della legalità**, **sport** ed **educazione stradale** arricchisce l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un punto di debolezza. Inoltre, l'attenzione al **progetto di vita** degli studenti appare meno sviluppata rispetto ad altri aspetti. L'utilizzo di metodologie didattiche **laboratoriali** nell'ambito dell'orientamento potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione esplicita dell'orientamento all'interno del PTOF. Sebbene le azioni e le partnership esistenti siano positive, una sezione dedicata consentirebbe una maggiore coerenza e visibilità dell'impegno dell'istituto in questo ambito. È necessario un maggiore focus sul **progetto di vita** degli studenti e sull'integrazione di metodologie didattiche **laboratoriali** per rendere l'orientamento più efficace e coinvolgente.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Kennedy\" dimostra un'attenzione discreta all'orientamento, con punti di forza nelle finalità, negli obiettivi e nelle azioni di sistema. Tuttavia, l'assenza di una sezione dedicata e la necessità di potenziare alcuni aspetti, come il progetto di vita e la didattica laboratoriale, rappresentano aree di miglioramento. Le attività registrate, come il **Corso pomeridiano per studenti lavoratori**, l'**Accordo di rete con CPIA**, le **Visite guidate**, il **Progetto Orientamento** e l'**Alternanza Scuola-Lavoro**, testimoniano un impegno concreto nel supportare gli studenti nel loro percorso formativo e professionale."
+}

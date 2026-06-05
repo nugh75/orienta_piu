@@ -1,0 +1,206 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SV1M00200X",
+    "denominazione": "S.Giovanni Bosco",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Alassio",
+    "anno_ptof": "2025-2028",
+    "provincia": "Savona",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.S.G.Bosco 12",
+    "cap": "17021",
+    "email": "segreteria.alassio@donbosco.it",
+    "pec": "segreteria@pec.donboscoalassio.it",
+    "website": "www.donboscoalassio.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Primo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Karis Foundation",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Varie",
+      "descrizione_e_metodologia": "Visite a musei, mostre, luoghi di interesse culturale.",
+      "target": "Alunni della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti corretti sulla strada",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Promuovere piacere della lettura",
+      "target": "Scuola Primaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SV1M00200X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **S.Giovanni Bosco** di Alassio, scuola di I Grado, per il periodo 2025-2028. L'analisi si concentra sull'area dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'offerta didattica orientativa e le attività opzionali. Il PTOF evidenzia un impegno nella costruzione di un sistema di orientamento, sebbene con alcune aree che necessitano di maggiore attenzione e sviluppo. La scuola, paritaria, situata nel territorio non metropolitano della provincia di Savona, regione Liguria, dimostra una buona capacità di attivare collaborazioni esterne e di proporre attività diversificate per gli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola ha stabilito partnership con **Karis Foundation**, **AVSI** e **Federazione Nazionale Banchi di Solidarietà**, per un totale di 3 collaborazioni. Questo aspetto rappresenta un punto di forza, in quanto permette di ampliare l'offerta formativa e di offrire agli studenti opportunità di confronto con realtà esterne.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono ben definite e ambiziose. Si riscontra un forte impegno nello sviluppo delle attitudini, degli interessi e nella progettazione del percorso di vita degli studenti, con punteggi elevati (4) per ciascuna di queste aree. L'attenzione alle transizioni formative e allo sviluppo delle capacità orientative per cogliere le opportunità risulta leggermente inferiore (punteggi pari a 2 e 3 rispettivamente).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in relazione all'orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale e sul contrasto alla dispersione formativa (fenomeno NEET). Tuttavia, i punteggi ottenuti (1 per la riduzione dell'abbandono e il contrasto ai NEET, 2 per la continuità territoriale) suggeriscono che questi aspetti necessitano di un maggiore approfondimento e di azioni più mirate. L'obiettivo di promuovere il lifelong learning ha ottenuto un punteggio di 1.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema quali il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. Il punteggio ottenuto per ciascuna di queste azioni varia tra 2 e 3, indicando un buon livello di attenzione a questi aspetti, ma anche la necessità di consolidare le pratiche esistenti. Il monitoraggio delle azioni risulta meno sviluppato, con un punteggio pari a 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'utilizzo di esperienze dirette degli studenti, sull'approccio laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. I punteggi ottenuti (4 per la didattica basata sull'esperienza, 2 per quella laboratoriale e per la flessibilità, 3 per l'interdisciplinarità) evidenziano un buon livello di innovazione didattica, ma anche la necessità di potenziare l'utilizzo di metodologie attive e partecipative.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. I punteggi ottenuti (compresi tra 2 e 3) suggeriscono una buona varietà di proposte, ma anche la possibilità di ampliare l'offerta e di personalizzare ulteriormente i percorsi formativi.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono rappresentati dalle partnership attivate con enti esterni, dalla chiarezza delle finalità educative e dalla buona qualità della didattica orientativa, basata sull'esperienza diretta degli studenti. L'impegno nella costruzione di un sistema integrato di inclusione e supporto alle fragilità è un ulteriore elemento positivo. Le attività organizzate, come il **Presepe Vivente**, la **Festa di fine anno**, l'**Open Day**, il **Corso di teatro**, il **Campo estivo**, le **Adozioni a distanza** e il **Progetto del “Donacibo”**, contribuiscono a creare un ambiente scolastico stimolante e coinvolgente.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza del PTOF sono rappresentate dall'assenza di una sezione dedicata all'orientamento, dalla scarsa attenzione al monitoraggio delle azioni di sistema e dalla necessità di definire obiettivi più specifici e misurabili in relazione all'orientamento. L'offerta di attività opzionali potrebbe essere ulteriormente ampliata e personalizzata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduca in una sezione dedicata del PTOF e in un piano di azione dettagliato. È necessario definire indicatori di performance per monitorare l'efficacia delle azioni intraprese e per valutare il raggiungimento degli obiettivi prefissati. Inoltre, è importante rafforzare la collaborazione tra la scuola, le famiglie e i servizi territoriali per garantire una presa in carico globale degli studenti. Progetti come il **Progetto Clil**, i **Laboratori esperienziali di matematica**, le **Uscite didattiche e viaggi d'istruzione**, il **Gesto di Natale**, il **Progetto sicurezza stradale**, i **Progetti tecnologia e informatica** e il **Progetto lettura** rappresentano buone pratiche, ma necessitano di essere integrate in un quadro più ampio e coerente.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **S.Giovanni Bosco** di Alassio presenta un buon livello di attenzione all'orientamento, ma necessita di un maggiore approfondimento e di una maggiore strutturazione. È fondamentale definire una sezione dedicata all'orientamento, stabilire obiettivi misurabili, monitorare le azioni intraprese e rafforzare la collaborazione con gli stakeholder territoriali. Solo in questo modo sarà possibile garantire agli studenti un percorso formativo completo e coerente, in grado di prepararli ad affrontare le sfide del futuro."
+}

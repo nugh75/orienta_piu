@@ -1,0 +1,400 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIRC058016",
+    "denominazione": "Paolo Frisi",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2025-2028",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Otranto 1",
+    "cap": "20157",
+    "email": "miis058007@istruzione.it",
+    "pec": "ND",
+    "website": "www.iisfrisi.edu.it",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Commerciali E Turistici"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Rete territoriale Milano Nord Ambito 21",
+        "Rete CTI - Ambito 21",
+        "Rete Ambito 26 (Olmo di Cornaredo)",
+        "CPIA 5 di Milano",
+        "CPIA 4 di Legnano",
+        "Rete Certilingua",
+        "Rete ESABAC",
+        "Rete MILE",
+        "Rete SITE",
+        "Rete LES Lombardia",
+        "Rete Nazionale LES",
+        "Renaia",
+        "Renaliart",
+        "Rete IPSECOM",
+        "Rete ISSANS",
+        "Reti scuole Cambridge",
+        "Rete Scuole di Milano per l’Ambiente",
+        "Rete Filiera",
+        "ITS Academy",
+        "università",
+        "mondo del lavoro",
+        "servizi per l'impiego",
+        "scuole estere",
+        "ONG",
+        "associazioni",
+        "enti del Terzo Settore",
+        "Città Metropolitana",
+        "CPIA 4 Legnano",
+        "Cooperativa Articolo 3"
+      ],
+      "partnership_count": 26
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Accoglienza nuovi iscritti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di accoglienza e integrazione per studenti di prima.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Colloqui individuali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui periodici con studenti e famiglie",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Laboratori di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sviluppo competenze auto-orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Peer tutoring",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Confronto tra pari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per le certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi di preparazione per certificazioni B1, B2, C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione CILS",
+      "categoria_principale": "Italiano L2",
+      "descrizione_e_metodologia": "Corsi per certificazione CILS",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Didattica innovativa",
+      "descrizione_e_metodologia": "Utilizzo lingua straniera come veicolare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettori madrelingua",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Interazione con parlanti madrelingua",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso EsaBac",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Diploma italiano e francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Cambridge",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Certificazioni Cambridge",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Settimane linguistiche intensive",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorno in famiglia ospitante",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage professionali all'estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza lavorativa all'estero",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CertiLingua",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Certificazione europea di eccellenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Doppio Diploma Italia-USA",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Diploma americano e italiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto adolescenti",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Servizio di ascolto e orientamento per studenti",
+      "target": "Adolescenti"
+    },
+    {
+      "titolo_attivita": "Assistenza alunni disagiati e bisognosi",
+      "categoria_principale": "Supporto sociale",
+      "descrizione_e_metodologia": "Assistenza materiale e supporto educativo",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola lavoro per allievi DVA",
+      "categoria_principale": "Orientamento professionale",
+      "descrizione_e_metodologia": "Tirocini formativi in aziende",
+      "target": "Alunni DVA"
+    },
+    {
+      "titolo_attivita": "Laboratori alberghieri per allievi BES",
+      "categoria_principale": "Laboratori didattici",
+      "descrizione_e_metodologia": "Attività pratiche in ambito alberghiero",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Attività di volontariato locale",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Coinvolgimento studenti in attività di volontariato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Raccolte solidali",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Organizzazione di raccolte alimentari/vestiti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti intergenerazionali",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Collaborazione con anziani",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Campionati Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a tornei e manifestazioni sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto FRISIADI",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Tornei interni, test motori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite sul territorio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Eventi sportivi, arrampicata",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campioni all'Olmo",
+      "categoria_principale": "Premi",
+      "descrizione_e_metodologia": "Premiazione studenti meritevoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premi Interni",
+      "categoria_principale": "Premi",
+      "descrizione_e_metodologia": "Premi alla memoria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gare di Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Stimolare curiosità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campionati Italiani di Economia e Finanza",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Avvicinare giovani temi economici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campionati di Italiano",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Rafforzare studio lingua italiana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio tecnico-sanitario",
+      "categoria_principale": "Formazione professionale",
+      "descrizione_e_metodologia": "50 ore dedicate al potenziamento delle conoscenze teoriche e procedurali nell'area igienico sanitaria",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Copresenza B023-A015",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "2 ore di copresenza in quarta, 1 ora in quinta per laboratorio tecnico sanitario",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Percorsi strutturati per consapevolezza dinamiche adolescenziali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Prevenzione sovrappeso/obesità, abitudini alimentari corrette",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Servizio di ascolto e orientamento per studenti",
+      "target": "Studenti, famiglie, insegnanti"
+    },
+    {
+      "titolo_attivita": "Educazione sessuale",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri con professionisti esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla prevenzione malattie",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Confronto e formazione sui fattori di rischio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla sostenibilità ambientale",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Sensibilizzazione temi benessere e cambiamenti climatici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla parità di genere",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Attuazione principi pari opportunità",
+      "target": "Studenti, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Scuola e volontariato",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Conoscenza esperienze volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Catalogo di proposte di uscite didattiche",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIRC058016\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.P. - P. Frisi - \"Polo Dell'Ospitalita\" (MIRC058016) per il triennio 2025-2028. L'istituto, situato a Milano, si configura come una scuola di I e II grado che offre percorsi di istruzione di vario tipo, tra cui licei, istituti professionali e tecnici. La valutazione evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata, un'ampia rete di **partnership** e obiettivi ben definiti. Le attività proposte sono numerose e diversificate, coprendo un ampio spettro di interventi, dall'accoglienza degli studenti di prima alla preparazione per le certificazioni linguistiche e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta una fitta rete di collaborazioni con numerosi partner, tra cui la **Rete territoriale Milano Nord Ambito 21**, la **Rete CTI**, i **CPIA** di Milano e Legnano, le **Reti Certilingua**, **ESABAC**, **MILE**, **SITE**, **LES Lombardia** e **Nazionale**, **Renaia**, **Renaliart**, **IPSECOM**, **ISSANS**, le **Reti scuole Cambridge**, la **Rete Scuole di Milano per l’Ambiente**, la **Rete Filiera**, **ITS Academy**, **università**, il **mondo del lavoro**, i **servizi per l'impiego**, **scuole estere**, **ONG**, **associazioni**, **enti del Terzo Settore**, la **Città Metropolitana** e la **Cooperativa Articolo 3**. Il numero elevato di partner (26) indica una forte volontà di creare un sistema di orientamento integrato e di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi** degli studenti, il supporto al **progetto di vita**, la facilitazione delle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità offerte dal territorio. Tutti gli aspetti valutati hanno ottenuto un punteggio di 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a garantire la continuità con il **territorio**, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e di continuità territoriale ottengono un punteggio di 5, mentre quello sul contrasto ai NEET un punteggio di 4. Il lifelong learning, invece, raggiunge il punteggio massimo di 6.\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte le azioni, ad eccezione del monitoraggio (punteggio 4), ottengono un punteggio di 5 o 6.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Tutti gli aspetti valutati ottengono un punteggio di 5 o 6.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Tuttavia, tutte queste opzioni ricevono un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** con enti e istituzioni del territorio, nella chiarezza delle **finalità** e degli **obiettivi**, nella varietà delle **azioni** previste e nell'approccio didattico orientativo basato sull'esperienza e sull'interdisciplinarità. L'offerta di attività come **PCTO**, **colloqui individuali**, **laboratori di orientamento** e **peer tutoring** rappresenta un valore aggiunto per gli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'offerta di attività opzionali e facoltative, che ottiene punteggi bassi in tutte le categorie. Inoltre, il monitoraggio delle azioni di orientamento potrebbe essere potenziato per garantire una maggiore efficacia degli interventi. L'obiettivo di contrasto ai NEET, pur presente, risulta meno prioritario rispetto agli altri obiettivi.\n\n### 5. Gap Analysis\n\nIl divario tra l'impegno profuso nella definizione delle finalità, degli obiettivi e delle azioni di sistema e la limitata offerta di attività opzionali e facoltative rappresenta un gap da colmare. È necessario ampliare l'offerta di attività extracurriculari per rispondere in modo più completo agli interessi e alle attitudini degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.P. - P. Frisi - \"Polo Dell'Ospitalita\" dimostra un forte impegno verso l'orientamento, con una solida base teorica e una vasta rete di collaborazioni. Pur presentando alcune aree di debolezza, il piano offre un quadro complessivamente positivo e promettente per il futuro. Il potenziamento dell'offerta di attività opzionali e facoltative e un monitoraggio più efficace delle azioni intraprese potrebbero contribuire a migliorare ulteriormente l'efficacia del sistema di orientamento e a garantire il successo formativo e professionale degli studenti."
+}

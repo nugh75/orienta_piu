@@ -1,0 +1,267 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEEE863011",
+    "denominazione": "I.C. Rita Levi Montalcini",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "San Stino Di Livenza",
+    "anno_ptof": "2022-2025",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via A. De Gasperi 10",
+    "cap": "30029",
+    "email": "veic86300v@istruzione.it",
+    "pec": "ND",
+    "website": "www.icsanstino.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "SCUOLE IN RETE",
+        "MIUR",
+        "AGENZIE ACCREDITATE",
+        "UNIVERSITA' DI SALERNO",
+        "POLO QUALITA' DI NAPOLI",
+        "Enti locali",
+        "Servizi sociali",
+        "associazioni",
+        "enti territoriali",
+        "altre scuole"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Formazione del personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Partecipazione ad iniziative di formazione e in rete con altre scuole",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale ATA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Dematerializzazione, digitalizzazione dei flussi documentali",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Finalizzate a rendere pubbliche MISSION E VISION",
+      "target": "Genitori, Comunità"
+    },
+    {
+      "titolo_attivita": "Questionari di gradimento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Per esprimere il gradimento verso le iniziative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Momenti di formazione, sia in presenza che in modalità e-learning",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza alunni con bisogni speciali e stranieri",
+      "target": "Alunni nuovi iscritti"
+    },
+    {
+      "titolo_attivita": "Piano Educativo Individualizzato",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e monitoraggio PEI",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "UDA Costituzione (Classe I)",
+      "categoria_principale": "Ed. Civica",
+      "descrizione_e_metodologia": "Percorso multidisciplinare, lavoro di gruppo, realizzazione di cartelloni/elaborati multimediali.",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "UDA Sviluppo Sostenibile (Classe II)",
+      "categoria_principale": "Ed. Civica",
+      "descrizione_e_metodologia": "Percorso multidisciplinare, lavoro di gruppo, realizzazione di cartelloni/elaborati multimediali.",
+      "target": "Classe II"
+    },
+    {
+      "titolo_attivita": "UDA Cittadinanza Digitale (Classe III)",
+      "categoria_principale": "Ed. Civica",
+      "descrizione_e_metodologia": "Percorso multidisciplinare, lavoro di gruppo, realizzazione di cartelloni/elaborati multimediali.",
+      "target": "Classe III"
+    },
+    {
+      "titolo_attivita": "Programma ERASMUS PLUS",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e docenti, progetti collaborativi",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale di Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso educativo-didattico finalizzato a formare cittadini responsabili e attivi.",
+      "target": "Tutti i gradi scolastici"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetti di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri e laboratori",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Economica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Incontri e laboratori",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Marcianisiadi “D.D.1 Cavour”",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione attività motoria, sportiva, inclusione sociale, stili di vita attivi.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sport Di Classe",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Due ore settimanali di Educazione Fisica per tutte le classi primarie.",
+      "target": "Studenti della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visione film e cortometraggi con forum di analisi.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Teatrali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Allestimento spettacoli con partecipazione alunni ed esperti.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Musicale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Allestimento coro scolastico, attività strumentali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esami di Certificazione Lingue Straniere",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Preparazione per certificazioni Inglese, Francese, Spagnolo.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Attività di approfondimento Lingua Inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Rappresentazioni teatrali, progetti CLIL, eTwinning, corrispondenza.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Scuola Aperta al Territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Convegni, progetti benessere psicologico, family day.",
+      "target": "Comunità scolastica e territorio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VEEE863011\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Don Michele Martina-Cap.**, scuola primaria situata nel territorio metropolitano di San Stino Di Livenza (Venezia), Veneto. Il PTOF, relativo all'anno **2022-2025**, si presenta come un documento ben strutturato, con una chiara attenzione all'orientamento e alla costruzione del **progetto di vita** degli studenti. L'istituto, di tipo **statale**, dimostra un impegno significativo nella definizione di finalità educative che mirano a sviluppare **attitudini**, **interessi** e **capacità orientative** degli alunni, preparando alla transizione verso i successivi gradi di istruzione. La presenza di una sezione dedicata all'orientamento, con un punteggio di 7, evidenzia l'importanza attribuita a questo aspetto.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF dedica una sezione specifica all'orientamento, un elemento positivo che ne sottolinea la centralità.\n\n**2.2 Partnership:**\n\nL'istituto vanta un network di **partnership** ampio e diversificato, comprendendo **scuole in rete**, il **MIUR**, **agenzie accreditate**, l'**Università di Salerno**, il **Polo Qualità di Napoli**, **enti locali**, **servizi sociali**, **associazioni**, **enti territoriali** e altre scuole. Questo elevato numero di collaborazioni (10 partner) suggerisce una forte apertura verso il territorio e la volontà di creare sinergie per potenziare l'offerta formativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e il **progetto di vita** degli studenti. L'attenzione alle **capacità orientative** e alle opportunità è considerata importante, mentre le finalità relative alle **transizioni formative** ricevono un punteggio leggermente inferiore, suggerendo un potenziale margine di miglioramento.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico**, alla continuità territoriale, al contrasto al fenomeno dei **NEET** e alla promozione del **lifelong learning**. Questi obiettivi riflettono un impegno verso l'inclusione e la preparazione degli studenti alle sfide del mondo del lavoro.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**, che dimostra un'attenzione particolare alle esigenze degli studenti più vulnerabili.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Quest'ultimo, con un punteggio di 6, sembra essere un elemento distintivo dell'offerta formativa.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **volontariato** e **sportive**. Le attività **ludiche e ricreative** ricevono un punteggio inferiore, suggerendo un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio network di **partnership** con enti e istituzioni del territorio, nella chiarezza delle finalità e degli obiettivi, e nell'attenzione all'inclusione e alla didattica **interdisciplinare**. Le numerose attività proposte, come **formazione del personale docente e ATA**, **open day**, **questionari di gradimento**, **progetto accoglienza**, **PEI**, **UDA** su temi di **educazione civica**, il programma **ERASMUS PLUS**, il **curricolo verticale di Educazione Civica**, **visite guidate**, **progetti di educazione alimentare**, **cittadinanza economica**, **Marcianisiadi**, **Progetto Sport Di Classe**, **Cineforum**, **attività teatrali e musicali**, **esami di certificazione linguistica**, **attività di approfondimento lingua inglese** e **Scuola Aperta al Territorio**, dimostrano un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente le finalità relative alle **transizioni formative** e l'offerta di attività **ludiche e ricreative**. Inoltre, il punteggio relativamente basso delle opzionali di questo tipo suggerisce la necessità di potenziare questa dimensione dell'offerta formativa.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a facilitare le **transizioni formative** degli studenti, ad esempio attraverso attività di orientamento più mirate e personalizzate. Un altro gap potenziale riguarda l'offerta di attività **ludiche e ricreative**, che potrebbero essere ampliate per favorire il benessere e lo sviluppo armonico degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Don Michele Martina-Cap.** si presenta come un documento solido e ben strutturato, con una chiara attenzione all'orientamento e alla costruzione del **progetto di vita** degli studenti. I numerosi punti di forza e le attività proposte testimoniano un impegno significativo verso l'inclusione, l'innovazione e la qualità dell'offerta formativa. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per il raggiungimento degli obiettivi prefissati e per la crescita degli studenti."
+}

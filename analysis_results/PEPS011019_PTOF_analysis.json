@@ -1,0 +1,386 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PEPS011019",
+    "denominazione": "Iis \"L. Da Penne\"- \"M. Dei Fiori\" Penne",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Penne",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Pescara",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dante Alighieri 8",
+    "cap": "65017",
+    "email": "peis01100v@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.liceopenne.gov.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente nell'indice"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Enti Locali"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Veicolazione moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Moduli disciplinari in lingua inglese nel biennio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi di alternanza con aziende e strutture ospitanti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento materie scientifiche-astronomiche. Potenziare capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare senso cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso potenziamento lingua italiana per ragazzi stranieri. Potenziare competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica opera antica/moderna.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dispositivi per apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Protocollo di accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione pratiche comuni per accoglienza alunni BES",
+      "target": "Alunni BES, famiglie, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Corso scrittura e esposizione incisiva",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Counseling",
+      "categoria_principale": "Empowerment",
+      "descrizione_e_metodologia": "Attività potenziamento capacità personali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"Fermi In Musica\"",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio pratica musicale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Potenziamento competenze logico-matematiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"Per Amare Ed Essere Amato\"",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Percorso educazione affettività e sessualità",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"Heraclea In Poesia\"",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Corso produzione poetico-espressiva",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corso preparazione certificazioni",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Certificazioni Informatica",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso preparazione certificazioni Eipass",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Informatica",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Approfondimento metodologie innovative",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Giochi Della Chimica",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Approfondimento chimica",
+      "target": "Interno"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Fisica",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Preparazione competizione fisica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Biologia con Curvatura Biomedica",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Preparazione test ingresso corsi laurea",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Attività Sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Potenziamento tecniche sportive",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Etimo",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Approfondimento etimologia e storia parole",
+      "target": "Interno"
+    },
+    {
+      "titolo_attivita": "\"Romanae Disputationes\"",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Concorso trattazione argomenti studio",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Conversazione Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Consolidamento lingua inglese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Arti Visive",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratorio potenziamento arti e disegno",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Italiano",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Approfondimento moduli grammatica italiana",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approfondimento moduli matematica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Approfondimento Discipline Scientifiche",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Approfondimento scienze, biologia, chimica",
+      "target": "Interno"
+    },
+    {
+      "titolo_attivita": "Progetto Pon",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Potenziamento discipline fondamentali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Regione Basilicata",
+      "categoria_principale": "Cinema",
+      "descrizione_e_metodologia": "Realizzazione cortometraggio",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola 2.0",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Realizzazione classi digitali",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PEPS011019\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo \\\"L. Da Penne\\\" Penne** (PEPS011019) relativo al periodo 2019/20-2021/22. L'istituto, situato in **Abruzzo**, in un territorio **non metropolitano** del comune di **Penne**, si configura come un **liceo** di **II grado** di tipo **statale**. L'analisi si concentra in particolare sull'area dell'orientamento, valutandone la presenza, le finalità, gli obiettivi, le azioni messe in campo e le attività realizzate. Il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione dedicata e un'ampia gamma di partnership attivate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'orientamento, come evidenziato dall'indice, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** L'istituto ha sviluppato un network di **15** partner, tra cui **AGROBIOS**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Teaching For Inclusion** e **Enti Locali**. Questa rete di collaborazioni rappresenta un elemento importante per arricchire l'offerta formativa e offrire agli studenti opportunità di confronto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** e delle **capacità orientative** per affrontare le **transizioni formative**. L'attenzione a questi aspetti, valutati con un punteggio di 4, dimostra una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, a favorire la **continuità territoriale**, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**. Questi obiettivi, valutati con un punteggio di 3, sono in linea con le priorità nazionali e regionali.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento tra i diversi servizi scolastici, il dialogo tra docenti e studenti, il rapporto con le famiglie e il monitoraggio delle azioni intraprese. L'implementazione di un **sistema integrato inclusione-fragilità** è un ulteriore elemento di forza. Tutte queste azioni ottengono un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie **interdisciplinari** e sulla **flessibilità degli spazi e dei tempi**. L'approccio esperienziale, con un punteggio di 4, è particolarmente apprezzabile. La didattica laboratoriale, invece, risulta meno sviluppata, con un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **volontariato**. Le attività **ludiche e ricreative** e quelle **sportive** sembrano meno presenti, con un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e nella centralità dell'esperienza degli studenti nella didattica orientativa. Attività come **Stage ASL**, **Certificazioni linguistiche**, **Microconferenze**, **Flipped Classroom**, **Service Learning (METEO)**, **Veicolazione moduli disciplinari in lingua**, **Alternanza Scuola Lavoro**, **Impresa Formativa Simulata (IFS)**, **Olimpiadi Di Astronomia** e **Cittadinanza E Costituzione** rappresentano un valore aggiunto per l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la didattica laboratoriale, che risulta meno sviluppata, e l'offerta di attività opzionali e facoltative di tipo ludico-ricreativo e sportivo. È necessario potenziare questi aspetti per garantire un'offerta formativa più completa e diversificata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le buone intenzioni del PTOF in azioni concrete e misurabili. È importante definire indicatori di performance per monitorare l'efficacia delle attività di orientamento e valutare il raggiungimento degli obiettivi prefissati. Inoltre, è necessario rafforzare la collaborazione tra scuola, famiglie e territorio per garantire un orientamento efficace e personalizzato.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo \\\"L. Da Penne\\\" Penne** presenta un'impostazione solida e coerente in materia di orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'attenzione alle finalità e agli obiettivi rappresentano elementi di forza. Per migliorare ulteriormente l'offerta formativa, è necessario potenziare la didattica laboratoriale, ampliare l'offerta di attività opzionali e facoltative e definire indicatori di performance per monitorare l'efficacia delle azioni intraprese. L'istituto dimostra un impegno significativo nel fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e costruire il proprio **progetto di vita**."
+}

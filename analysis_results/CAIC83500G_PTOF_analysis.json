@@ -1,0 +1,249 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAIC83500G",
+    "denominazione": "I.C Villaputzu Muravera",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Villaputzu",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Sud Sardegna",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Nazionale",
+    "cap": "09040",
+    "email": "caic83500g@istruzione.it",
+    "pec": "caic83500g@pec.istruzione.it",
+    "website": "https//icvillaputzusanvito.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione per la Scuola Compagnia San Paolo",
+        "Dipartimento di Scienze Aziendali dell’Università di Bologna",
+        "Fondazione Agnelli",
+        "Alliance Française",
+        "Goethe Institut",
+        "CUS Torino",
+        "Società Scacchistica Torinese",
+        "CNOS-FAP",
+        "servizi sociali",
+        "enti locali",
+        "associazioni",
+        "istituti superiori",
+        "Università",
+        "Enti di ricerca",
+        "Enti di formazione accreditati",
+        "Autonomie locali"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 0
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "BILANCIO SOCIALE E STAKEHOLDER ENGAGEMENT",
+      "categoria_principale": "Ricerca-Azione",
+      "descrizione_e_metodologia": "Percorso di formazione e ricerca con Fondazione Compagnia San Paolo e Università di Bologna. Questionari a stakeholder.",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "P4C: Pratica filosofica come Educazione alla Cittadinanza Attiva",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Utilizzo della filosofia per sviluppare il pensiero critico e la partecipazione attiva.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Oltre i confini",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Progetto per promuovere l'interculturalità e la conoscenza di altre culture.",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "PROVACI ANCORA, SAM",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto per il supporto agli alunni con difficoltà.",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla mondialità (Arsenale della Pace)",
+      "categoria_principale": "Educazione alla pace",
+      "descrizione_e_metodologia": "Attività per promuovere la pace e la solidarietà internazionale.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Soggiorno ad Alpette: attività CLIL",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Soggiorno studio con attività in lingua inglese.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto continuità con le scuole dell’infanzia",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incontri sistematici tra docenti per scambio informazioni e progettazione congiunta attività didattiche.",
+      "target": "Alunni scuola dell'infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Progetto formazione classi prime scuola primaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Promozione continuità con scuola infanzia, formazione classi eterogenee.",
+      "target": "Alunni classi prime primaria"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento scolastico in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Somministrazione test Arianna, consegna consiglio orientativo, monitoraggio istituti superiori.",
+      "target": "Alunni classe quinta primaria"
+    },
+    {
+      "titolo_attivita": "Staffetta di scrittura creativa",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione musicale",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione Eipass",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Ricerca-azione, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Anno Di Prova",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Ricerca-azione, Peer review",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Compilazione Pei Su Base Icf",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Compilazione Pdp E Dgr",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Non specificata",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Per Competenze E Valutazione Per Competenze",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Workshop, Ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "E-Clil",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incentivare La Comunicazione Interculturale E L'Uso Della Tecnologia",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Comunità di pratiche, Job shadowing, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAIC83500G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Villaputzu Muravera (CAIC83500G) per il triennio 2019/20-2021/22. L'istituto, situato in Sardegna, copre diversi ordini di grado, dall'infanzia alla scuola professionale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'offerta didattica e le attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con una solida rete di collaborazioni esterne e una varietà di attività mirate a supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, con ben 16 collaborazioni attivate. Tra i partner figurano importanti realtà come la **Fondazione per la Scuola Compagnia San Paolo**, il **Dipartimento di Scienze Aziendali dell’Università di Bologna**, la **Fondazione Agnelli**, **Alliance Française**, **Goethe Institut**, **CUS Torino**, **Società Scacchistica Torinese**, **CNOS-FAP**, oltre a **servizi sociali**, **enti locali**, **associazioni**, **istituti superiori**, **Università**, **Enti di ricerca**, **Enti di formazione accreditati** e **Autonomie locali**. Questa rete di collaborazioni rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, con un buon punteggio in queste aree. Particolarmente rilevante è l'attenzione alle **transizioni formative**, mentre l'aspetto legato allo sviluppo delle capacità orientative per cogliere le opportunità risulta meno sviluppato.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'abbandono scolastico e di favorire la continuità territoriale, con punteggi rispettivamente di 3 e 4. L'attenzione verso il contrasto alla dispersione scolastica giovanile (NEET) è assente, così come un focus specifico sul **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese prevedono un coordinamento dei servizi, un dialogo tra docenti e studenti, un rapporto scuola-genitori e un monitoraggio delle azioni stesse. Particolare attenzione è rivolta all'integrazione e alla fragilità, con un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, ludiche e ricreative, e sportive. Manca, tuttavia, un'offerta specifica legata al volontariato.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza e la varietà delle **partnership** attivate, che consentono di ampliare l'offerta orientativa e di offrire agli studenti opportunità di confronto con il mondo del lavoro e della formazione. L'attenzione alle **transizioni formative** e alla riduzione dell'abbandono scolastico rappresentano ulteriori elementi positivi. Le attività come **BILANCIO SOCIALE E STAKEHOLDER ENGAGEMENT**, **P4C: Pratica filosofica come Educazione alla Cittadinanza Attiva** e **Oltre i confini** dimostrano un approccio proattivo e innovativo all'orientamento.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza è la scarsa attenzione allo sviluppo delle capacità orientative per cogliere le opportunità, che potrebbe limitare l'autonomia degli studenti nelle loro scelte. L'assenza di obiettivi specifici per il contrasto alla dispersione scolastica giovanile (NEET) e per il **lifelong learning** rappresenta un'altra lacuna. L'offerta di attività opzionali potrebbe essere ampliata con proposte legate al volontariato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le competenze degli studenti nella gestione delle proprie scelte formative e professionali, fornendo loro strumenti adeguati per orientarsi nel mondo del lavoro e della formazione continua. È necessario, inoltre, definire obiettivi specifici per il contrasto alla dispersione scolastica giovanile e per la promozione del **lifelong learning**.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Villaputzu Muravera dimostra un impegno significativo verso l'orientamento, con una solida rete di collaborazioni esterne e una varietà di attività mirate a supportare gli studenti. Pur presentando alcuni punti di debolezza, il PTOF offre una base solida per lo sviluppo di un'offerta orientativa efficace e innovativa. L'istituto dovrebbe concentrarsi sul potenziamento delle competenze degli studenti nella gestione delle proprie scelte e sulla definizione di obiettivi specifici per il contrasto alla dispersione scolastica e per la promozione del lifelong learning. Attività come **Progetto continuità con le scuole dell’infanzia** e **Progetto orientamento scolastico in uscita** sono fondamentali per garantire un percorso di orientamento coerente e personalizzato. La formazione del personale, come evidenziato da attività quali **Didattica Per Competenze E Valutazione Per Competenze** e **E-Clil**, è un elemento cruciale per la qualità dell'offerta orientativa."
+}

@@ -1,0 +1,209 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RNMM80802E",
+    "denominazione": "Ic Valle Del Conca Morciano",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "San Clemente",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Rimini",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cerro 3",
+    "cap": "47832",
+    "email": "rnic80800c@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmorciano.scuolerimini.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata specificamente all'orientamento, sebbene l'orientamento sia affrontato all'interno delle finalità generali del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage"
+    },
+    {
+      "titolo_attivita": "PCTO Archivio di Stato/ISRAT",
+      "categoria_principale": "Orientamento"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti digitali",
+      "categoria_principale": "Tecnologia"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico Avanzato",
+      "categoria_principale": "Laboratorio"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RNMM80802E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Giustiniano Villa (Ic Valle Co)**, identificata dal codice RNMM80802E. L'istituto, di I grado, situato nel territorio non metropolitano di San Clemente (Rimini), Emilia Romagna, ha un PTOF valido per gli anni 2023/24-2024/25-2025/26. L'analisi evidenzia un impegno significativo verso l'orientamento, pur non essendo presente una sezione specificamente dedicata, ma integrato nelle finalità generali del piano. Si riscontra una forte attenzione alle **partnership** con il territorio e un'organizzazione sistemica delle azioni, con punteggi elevati nelle aree relative al coordinamento dei servizi, al dialogo tra docenti e studenti e al rapporto scuola-genitori.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene non esista una sezione esplicitamente dedicata all'orientamento nel PTOF, l'istituto affronta la tematica all'interno delle finalità generali, dimostrando una consapevolezza dell'importanza di questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un solido network di **partnership**, con un punteggio massimo di 5. Tra i partner figurano **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato**, **ISRAT**, e diverse **aziende accreditate** e di settore, suggerendo un forte legame con il contesto socio-economico locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e raggiungono punteggi elevati in tutte le aree considerate: attitudini (4), interessi (4), progetto di vita (4), transizioni formative (5) e sviluppo delle capacità orientative e delle opportunità (5).\n\n**2.4 Obiettivi:** Gli obiettivi prefissati sono ambiziosi e mirati. Si punta a ridurre l'abbandono scolastico (3), a favorire la continuità territoriale (5), a contrastare il fenomeno NEET (5) e a promuovere il lifelong learning (4).\n\n**2.5 Azioni di Sistema:** L'istituto dimostra una forte capacità di organizzazione attraverso azioni di sistema ben strutturate, ottenendo punteggi massimi (6) in tutte le aree: coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con un buon punteggio nell'utilizzo di esperienze dirette degli studenti (5). Tuttavia, l'aspetto laboratoriale e la flessibilità degli spazi e dei tempi necessitano di un ulteriore sviluppo (3 per entrambi), mentre la didattica interdisciplinare risulta più consolidata (4).\n\n**2.7 Opzionali e Attività Facoltative:** L'offerta di opzionali e attività facoltative è diversificata, con punteggi variabili. Le opzionali culturali e di volontariato raggiungono un punteggio di 3, quelle laboratoriali ed espressive 4, mentre quelle ludico-ricreative e sportive sono meno sviluppate (1 per entrambe).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la forte attenzione alle **partnership** con il territorio, la chiarezza delle **finalità** e degli **obiettivi**, e l'organizzazione sistemica delle **azioni**. L'impegno verso l'inclusione e il supporto alle fragilità rappresenta un ulteriore elemento positivo. Le attività di **PCTO** e quelle laboratoriali, come le **simulazioni di interviste storiche** e gli **esperimenti materiali dentali**, offrono agli studenti opportunità concrete di apprendimento e di orientamento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata specificamente all'orientamento nel PTOF rappresenta una potenziale area di debolezza. Inoltre, alcuni aspetti della didattica orientativa, come la componente laboratoriale e la flessibilità degli spazi e dei tempi, necessitano di un ulteriore sviluppo. L'offerta di opzionali ludico-ricreative e sportive risulta meno strutturata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella formalizzazione dell'orientamento come sezione autonoma all'interno del PTOF. Sebbene l'orientamento sia integrato nelle finalità generali, una sezione dedicata permetterebbe di definire in modo più preciso le strategie, le azioni e i criteri di valutazione. Un potenziamento delle attività laboratoriali e un ampliamento dell'offerta di opzionali ludico-ricreative e sportive potrebbero contribuire a rendere l'offerta formativa più completa e diversificata.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Giustiniano Villa (Ic Valle Co)** dimostra un impegno significativo verso l'orientamento, con un'attenzione particolare alle **partnership** con il territorio e all'organizzazione sistemica delle azioni. Pur non essendo presente una sezione dedicata, l'orientamento è integrato nelle finalità generali del piano e supportato da una serie di attività concrete, come i **PCTO** e i laboratori. Un ulteriore sviluppo della didattica orientativa e una formalizzazione dell'orientamento come sezione autonoma all'interno del PTOF potrebbero contribuire a rafforzare l'efficacia del piano e a garantire agli studenti un percorso formativo completo e orientato al futuro."
+}

@@ -1,7 +1,7 @@
 .PHONY: \
 	help setup wizard config config-show \
 	run run-force run-force-code workflow workflow-force \
-	dashboard csv csv-watch backfill clean \
+	dashboard csv csv-watch backfill clean align-miur \
 	logs logs-live \
 	refresh full pipeline pipeline-ollama \
 	download download-sample download-strato download-statali download-paritarie \
@@ -20,6 +20,7 @@
 	check-truncated fix-truncated list-backups \
 	git-auto git-status git-pull git-push git-commit \
 	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch \
+	db-ingest-full db-ingest-update \
 	docker-up docker-down docker-build docker-logs docker-status docker-shell venv \
 	tui web-runner
 
@@ -88,6 +89,7 @@ help:
 	@echo "  make csv            - Rigenera il CSV dai file JSON (rebuild_csv_clean.py)"
 	@echo "  make csv-watch       - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
 	@echo "  make backfill       - Backfill metadati mancanti con scan LLM mirata"
+	@echo "  make align-miur      - Allinea metadati a file MIUR ufficiali (DRY=1 per dry-run)"
 	@echo ""
 	@echo "CATALOGO ATTIVITÀ (ex buone pratiche):"
 	@echo "  make activity-extract            - Estrae attività dai PDF PTOF"
@@ -98,6 +100,12 @@ help:
 	@echo "COSTI E CREDITI:"
 	@echo "  make report-costs                - Genera report costi API (CSV/MD) in data/"
 	@echo "  make check-credits               - Verifica credito residuo OpenRouter"
+	@echo ""
+	@echo "META REPORT (Sintesi PTOF):"
+	@echo "  make report-grado1            - Genera report sintesi per I Grado"
+	@echo "  make report-grado2            - Genera report sintesi per II Grado"
+	@echo "  make report-all               - Genera entrambi i report"
+	@echo "    Opzioni: PROVIDER=x MODEL=x DRY=1 NOREVIEW=1"
 	@echo ""
 	@echo "META REPORT (Best Practices):"
 	@echo "  make meta-skeleton DIM=X      - Report tematico skeleton-first (RACCOMANDATO)"
@@ -271,6 +279,13 @@ dashboard:
 csv:
 	$(PYTHON) -m src.processing.rebuild_csv_clean
 	$(PYTHON) src/processing/geocode_schools.py
+	@echo "🏫 Allineamento metadati MIUR..."
+	$(PYTHON) scripts/align_miur_metadata.py
+
+## Allinea metadati scuole ai file MIUR (SCUANAGRAFESTAT/PAR)
+align-miur:
+	@echo "🏫 Allineamento metadati MIUR..."
+	$(PYTHON) scripts/align_miur_metadata.py $(if $(DRY),--dry-run,) $(if $(CSV_ONLY),--csv-only,) $(if $(JSON_ONLY),--json-only,) $(if $(VERIFY),--verify,)
 
 backfill:
 	$(PYTHON) src/processing/backfill_metadata_llm.py
@@ -505,6 +520,9 @@ ANALYST_WORKFLOW ?=
 REVIEWER_WORKFLOW ?=
 REFINER_WORKFLOW ?=
 SYNTHESIZER_WORKFLOW ?=
+# Parametri Validazione
+VALIDATION_PROVIDER ?=
+VALIDATION_MODEL ?=
 # Parametri Attività
 WITH_ACTIVITY ?= 0
 PROVIDER_ACTIVITY ?=
@@ -571,6 +589,8 @@ endif
 		$(if $(GESTIONE),--gestione "$(GESTIONE)",) \
 		$(if $(PROVIDER_WORKFLOW),--provider-workflow "$(PROVIDER_WORKFLOW)",) \
 		$(if $(MODEL_WORKFLOW),--model-workflow "$(MODEL_WORKFLOW)",) \
+		$(if $(VALIDATION_PROVIDER),--validation-provider "$(VALIDATION_PROVIDER)",) \
+		$(if $(VALIDATION_MODEL),--validation-model "$(VALIDATION_MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(ANALYST_WORKFLOW),--analyst "$(ANALYST_WORKFLOW)",) \
 		$(if $(REVIEWER_WORKFLOW),--reviewer "$(REVIEWER_WORKFLOW)",) \
@@ -785,6 +805,53 @@ clean-ptof-codes:
 # Esegue il cleaner applicando le modifiche (RINOMINA FILE)
 # Uso: make clean-ptof-codes-apply [MODEL=...]
 clean-ptof-codes-apply:
+	$(PYTHON) src/agents/ptof_code_cleaner.py --apply \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",)
+
+# ═══════════════════════════════════════════════════════════════════
+# REPORT GENERATION SHORTCUTS
+# ═══════════════════════════════════════════════════════════════════
+
+report-grado1:
+	@echo "🚀 Generazione Report Sintesi PTOF - I Grado..."
+	@$(PYTHON) -m src.agents.meta_report.synthesis_launcher \
+		--ordine-grado "I Grado" \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(DRY),--dry-run,) \
+		$(if $(NOREVIEW),--no-review,)
+	@echo "📛 Arricchimento codici meccanografici con nomi scuola..."
+	@latest=$$(ls -t reports/synthesis/*__Sintesi_PTOF__IGrado*.md 2>/dev/null | grep -v SKELETON | head -1); \
+	 if [ -n "$$latest" ]; then \
+	   $(PYTHON) scripts/enrich_school_names.py "$$latest"; \
+	   echo "🔄 Rigenerazione PDF con nomi scuola..."; \
+	   $(PYTHON) -c "from src.utils.pdf_converter import convert_markdown_to_pdf; r,m = convert_markdown_to_pdf('$$latest'); print(f'  ✅ PDF: {r}' if r else f'  ❌ {m}')"; \
+	 else \
+	   echo "  ⚠️  Nessun report I Grado trovato da arricchire"; \
+	 fi
+
+report-grado2:
+	@echo "🚀 Generazione Report Sintesi PTOF - II Grado..."
+	@$(PYTHON) -m src.agents.meta_report.synthesis_launcher \
+		--ordine-grado "II Grado" \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(DRY),--dry-run,) \
+		$(if $(NOREVIEW),--no-review,)
+	@echo "📛 Arricchimento codici meccanografici con nomi scuola..."
+	@latest=$$(ls -t reports/synthesis/*__Sintesi_PTOF__IIGrado*.md 2>/dev/null | grep -v SKELETON | head -1); \
+	 if [ -n "$$latest" ]; then \
+	   $(PYTHON) scripts/enrich_school_names.py "$$latest"; \
+	   echo "🔄 Rigenerazione PDF con nomi scuola..."; \
+	   $(PYTHON) -c "from src.utils.pdf_converter import convert_markdown_to_pdf; r,m = convert_markdown_to_pdf('$$latest'); print(f'  ✅ PDF: {r}' if r else f'  ❌ {m}')"; \
+	 else \
+	   echo "  ⚠️  Nessun report II Grado trovato da arricchire"; \
+	 fi
+
+report-all: report-grado1 report-grado2
+
 	@echo "⚠️  ATTENZIONE: Questo comando RINOMINERÀ i file in base al report."
 	@read -p "Sei sicuro? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Annullato." && exit 1)
 	$(PYTHON) src/agents/ptof_code_cleaner.py --confirm \
@@ -1097,3 +1164,44 @@ web-runner:
 	@-fuser -k $(or $(PORT),5000)/tcp 2>/dev/null || true
 	@sleep 0.5
 	$(PYTHON) -m src.taskrunner.web --port $(or $(PORT),5000)
+
+# ═══════════════════════════════════════════════════════════════════
+# DATABASE & VECTOR STORE (PostgreSQL + pgvector)
+# ═══════════════════════════════════════════════════════════════════
+
+# Inizializza il DB e lo schema
+db-init:
+	@echo "🗄️  Inizializzazione Database..."
+	POSTGRES_PORT=5433 POSTGRES_PASSWORD=ptof_password $(PYTHON) -c "from src.agents.meta_report.db_manager import DatabaseManager; DatabaseManager().init_schema()"
+
+# Ingestione dati (JSON -> Postgres) — solo note JSON (layer base)
+# Uso: make db-ingest [LIMIT=10]
+db-ingest:
+	@echo "📥 Ingestione dati scuole e vettorializzazione..."
+	POSTGRES_PORT=5433 POSTGRES_PASSWORD=ptof_password $(PYTHON) -m src.agents.meta_report.ingestor $(if $(LIMIT),--limit $(LIMIT),)
+
+# Ingestione completa (JSON + MD analisi + PTOF raw) — RAG ibrido dual-index
+# Uso: make db-ingest-full [LIMIT=10]
+db-ingest-full:
+	@echo "📥 Ingestione completa (JSON notes + MD analisi + PTOF raw)..."
+	POSTGRES_PORT=5433 POSTGRES_PASSWORD=ptof_password $(PYTHON) -m src.agents.meta_report.ingestor --include-md --include-raw $(if $(LIMIT),--limit $(LIMIT),)
+
+# Aggiornamento incrementale (solo file nuovi/modificati)
+# Uso: make db-ingest-update [LIMIT=10]
+db-ingest-update:
+	@echo "📥 Aggiornamento incrementale RAG..."
+	POSTGRES_PORT=5433 POSTGRES_PASSWORD=ptof_password $(PYTHON) -m src.agents.meta_report.ingestor --include-md --include-raw --incremental $(if $(LIMIT),--limit $(LIMIT),)
+
+# Ricerca semantica di prova
+# Uso: make db-search Q="formazione tutor"
+db-search:
+	@echo "🔍 Ricerca Semantica: $(Q)"
+	POSTGRES_PORT=5433 POSTGRES_PASSWORD=ptof_password $(PYTHON) -c "import logging; logging.basicConfig(level=logging.ERROR); \
+	from src.agents.meta_report.db_manager import DatabaseManager; \
+	from sentence_transformers import SentenceTransformer; \
+	db = DatabaseManager(); \
+	model = SentenceTransformer('all-MiniLM-L6-v2'); \
+	emb = model.encode('$(Q)').tolist(); \
+	res = db.search_similar_chunks(emb, limit=5); \
+	print(f'\nRisultati per: $(Q)\n'); \
+	[print(f'- {r[\"school_code\"]} ({r[\"city\"]}): {r[\"content\"][:100]}...') for r in res]"

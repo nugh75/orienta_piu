@@ -1,0 +1,213 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAEE8CS01E",
+    "denominazione": "Ics De Nicola-Sasso",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Torre Del Greco",
+    "anno_ptof": "2025/2028",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mons. M. Sasso",
+    "cap": "80059",
+    "email": "naic8cs00c@istruzione.it",
+    "pec": "ND",
+    "website": "wwwicdenicolasasso.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata all'interno del PTOF. L'analisi del contesto considera l'inclusione."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti DSA/BES"
+    },
+    {
+      "titolo_attivita": "Progetto Gruppo Visione Giovani",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezioni informative e di confronto con la Polizia Cantonale su temi quali abuso alcol, dipendenze, violenza, furti.",
+      "target": "Studenti I e II Liceo"
+    },
+    {
+      "titolo_attivita": "MiOriento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Introduzione al percorso 'MiOriento' con invio di fascicolo via email.",
+      "target": "Studenti Classe I"
+    },
+    {
+      "titolo_attivita": "MiAssumo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Avvio del percorso sulla piattaforma MiAssumo.",
+      "target": "Studenti Classe II"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso con la Banca d'Italia (20 ore).",
+      "target": "Studenti Classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Apertura e attivazione del Curriculum dello Studente Ministeriale.",
+      "target": "Studenti Classe IV"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione per attività giovanili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Didattica Laboratoriale",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAEE8CS01E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola Primaria-Sasso (NAEE8CS01E), per il triennio 2025/2028. La scuola, situata nel territorio metropolitano di Torre Del Greco (Napoli), si configura come un istituto statale primario. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata all'interno del PTOF, ma l'inclusione è considerata un aspetto importante. La scuola dimostra una forte attenzione alle finalità dell'orientamento, coprendo aspetti quali attitudini, interessi, progetto di vita, transizioni formative e sviluppo delle capacità orientative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nNonostante l'assenza di una sezione dedicata all'orientamento nel PTOF, l'istituto dimostra una sensibilità verso questo ambito.\n\n**2.2 Partnership:**\n\nLa scuola vanta un ampio ventaglio di partnership, con ben 15 collaborazioni attive. Tra i partner figurano **LAC**, **Museo in Erba**, **Polizia Cantonale**, **Croce Rossa**, diverse università italiane e internazionali come **Università Bocconi**, **Università della Svizzera Italiana**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Savannah College of Art and Design**, **European Business School di Londra**, **Webster American College**, **Edimburgh University**, **Luiss Roma**, oltre a **specialisti esterni** quali logopedisti, ergoterapisti, psicologi e neuropsichiatri.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono affrontate in modo completo, con punteggi elevati per lo sviluppo di **attitudini**, **interessi**, la costruzione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi relativi alla riduzione dell'**abbandono scolastico**, alla continuità con il **territorio**, al contrasto al fenomeno **NEET** e alla promozione del **lifelong learning** ricevono un punteggio moderato, suggerendo un margine di miglioramento nella definizione di strategie specifiche.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento sono considerate efficaci, con particolare attenzione al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori** e al **monitoraggio delle azioni** intraprese. Viene inoltre sottolineata l'importanza di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci diversificati, con un buon utilizzo di metodologie che partono dall'**esperienza degli studenti**, una flessibilità degli **spazi e dei tempi** e l'integrazione di approcci **interdisciplinari**. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative include proposte **culturali** e **laboratoriali espressive** con un buon livello di sviluppo, mentre le attività **ludiche-ricreative**, di **volontariato** e **sportive** presentano un punteggio inferiore.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, nella completezza delle **finalità** perseguite e nell'efficacia delle **azioni di sistema** implementate. L'attenzione all'**inclusione** e alla personalizzazione dei percorsi rappresenta un valore aggiunto significativo. L'offerta di attività come **MiOriento**, **MiAssumo** e il **Percorso Competenze Trasversali** dimostrano un impegno concreto nell'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta una potenziale area di debolezza. Gli obiettivi specifici relativi alla riduzione dell'abbandono scolastico e al contrasto al fenomeno NEET potrebbero essere ulteriormente definiti e potenziati. L'offerta di attività opzionali e facoltative potrebbe essere ampliata, in particolare per quanto riguarda le attività ludiche, ricreative, di volontariato e sportive.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento come sezione autonoma all'interno del PTOF. Sebbene le attività e le partnership siano numerose e significative, la loro integrazione in un quadro strategico più ampio potrebbe massimizzarne l'efficacia. Un'analisi più approfondita delle esigenze del territorio e delle richieste del mondo del lavoro potrebbe contribuire a definire obiettivi più mirati e a sviluppare percorsi di orientamento più efficaci.\n\n### 6. Conclusioni\n\nIl PTOF della scuola Primaria-Sasso dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di partnership e da un'attenzione particolare alle finalità e alle azioni di sistema. L'integrazione dell'orientamento come sezione autonoma all'interno del PTOF e il potenziamento degli obiettivi specifici potrebbero contribuire a migliorare ulteriormente l'efficacia delle strategie implementate e a garantire un supporto adeguato agli studenti nella costruzione del loro futuro. L'attività di **Sportello supporto DSA/BES** e lo **Sportello di ascolto e supporto** sono elementi chiave per un'offerta formativa inclusiva."
+}

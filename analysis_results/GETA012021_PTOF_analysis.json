@@ -1,0 +1,309 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GETA012021",
+    "denominazione": "B.Marsano",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "San Colombano Certenoli",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Aste Vittorio 1",
+    "cap": "16040",
+    "email": "geis012004@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.marsano.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Agrario"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Unità di valutazione multidisciplinare",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Patto di corresponsabilità",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Revisione e aggiornamento del patto",
+      "target": "Famiglie e personale scolastico"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi/criticità DDI 2020/21 rispetto a 2019/20",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa e mediazione",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curriculare",
+      "descrizione_e_metodologia": "33 ore annuali, trasversale e interdisciplinare, affidato a tutti i docenti",
+      "target": "Tutti i gradi di istruzione"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni che passano tra i diversi ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro online tra docenti degli anni ponte",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire la conoscenza delle specificità dei diversi segmenti scolastici e passaggio di informazioni sugli alunni con BES.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lavoro sistematico per dipartimenti verticali",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Revisione e operativizzazione del Curricolo d’Istituto, in ottica inclusiva.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione di Scuola/Rete",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Scuola Amica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Rete Scuole Green",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Innovazione Tecnologica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "formazone interna con animatore digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "I Disturbi Specifici Dell'Apprendimento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Peer review, Formazione di Scuola/Rete",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Giustizia Riparativa E Mediazione Umanistica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Social networking, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Dsga",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Lezioni frontali, Formazione di Scuola/Rete",
+      "target": "DS, DSGA, Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GETA012021\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ist.Tec.Tecn. Marsano/San Colombano** (ID scuola: GETA012021), relativo all'anno scolastico 2019/20-2021/22. La scuola, di tipo **Tecnico** e situata nel territorio **Metropolitano** di **San Colombano Certenoli** (Genova, Liguria), dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo. L'analisi si concentra sulle diverse dimensioni dell'orientamento, identificando punti di forza, aree di debolezza e possibili gap da colmare.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che indica una chiara attenzione a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** La scuola vanta un network di **16 partner** attivi, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, diversi **musei** e **istituti pubblici/privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, l'**Unità di valutazione multidisciplinare**, **Altre scuole**, **Altre associazioni**, le **Autonomie locali** e l'**ASL**. Questo ampio ventaglio di collaborazioni suggerisce un approccio integrato all'orientamento, che coinvolge diversi attori del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo del **progetto di vita** (4) e delle **transizioni formative** (5). Buoni risultati anche per lo sviluppo di **attitudini** (3) e **interessi** (3), mentre la capacità di orientare verso le **opportunità** (2) risulta un po' meno sviluppata.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono scolastico** (4) e sul mantenimento della continuità con il territorio (4). Meno marcata l'attenzione al contrasto del fenomeno **NEET** (2) e alla promozione del **lifelong learning** (3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate sono orientate al **coordinamento dei servizi** (4), al **dialogo tra docenti e studenti** (4), al **rapporto scuola-genitori** (4) e all'implementazione di un **sistema integrato di inclusione e fragilità** (4). Il **monitoraggio delle azioni** (3) appare un aspetto da rafforzare.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (3), sull'utilizzo di metodologie **laboratoriali** (3) e sulla flessibilità degli **spazi e dei tempi** (3). L'approccio **interdisciplinare** (3) è anch'esso presente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative presenta alcune criticità. Le opzionali **culturali** (1) sono poco sviluppate, mentre quelle **laboratoriali ed espressive** (3) e **sportive** (3) ricevono un punteggio più alto. Le opzionali **ludiche e ricreative** (2) e di **volontariato** (2) necessitano di maggiore attenzione.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio network di **partnership** attivate, nell'attenzione allo sviluppo del **progetto di vita** e delle **transizioni formative** degli studenti, e nell'implementazione di azioni di sistema che coinvolgono diversi attori della comunità scolastica. L'attività \"**Attività di ampliamento curricolare**\" e il \"**Programma Continuità**\" sono esempi concreti di iniziative orientate a supportare gli studenti nel loro percorso.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la capacità di orientare verso le **opportunità** lavorative e formative, il contrasto del fenomeno **NEET**, lo sviluppo di opzionali **culturali** e **ludico-ricreative**, e il monitoraggio delle azioni intraprese. L'attività \"**Monitoraggio Risultati Alunni**\" potrebbe essere potenziata per una valutazione più efficace dell'impatto delle iniziative orientative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare il collegamento tra l'offerta formativa e il mondo del lavoro, fornendo agli studenti strumenti concreti per l'orientamento professionale. È necessario ampliare l'offerta di opzionali **culturali** e **ludico-ricreative** per rispondere alle diverse esigenze e interessi degli studenti. Inoltre, è fondamentale implementare un sistema di monitoraggio più efficace per valutare l'impatto delle azioni intraprese e apportare eventuali correzioni di rotta.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Ist.Tec.Tecn. Marsano/San Colombano** dimostra un impegno significativo verso l'orientamento, con numerosi punti di forza e alcune aree di miglioramento. L'implementazione delle azioni suggerite in questo report consentirebbe di ottimizzare l'offerta orientativa e di fornire agli studenti un supporto più efficace nel loro percorso di crescita e di sviluppo. Attività come \"**Orientamento In Uscita Classi Terze Scuola Secondaria**\" e \"**Progetto di istituto per l'inclusione**\" rappresentano un valido punto di partenza per un'azione orientativa sempre più mirata ed efficace."
+}

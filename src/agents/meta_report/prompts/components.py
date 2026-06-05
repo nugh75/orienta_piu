@@ -11,12 +11,30 @@ personalizzati per ogni tipo di report.
 # =============================================================================
 
 COMMON_RULES = """
+SCALA DI COPERTURA INFORMATIVA (INFORMAZIONE FONDAMENTALE):
+Tutti i punteggi misurano il grado di copertura informativa del PTOF (NON la qualità della scuola) su scala Likert 1-7:
+  1=Assente, 2=Traccia minima, 3=Copertura parziale, 4=Copertura di base, 5=Copertura strutturata, 6=Copertura approfondita, 7=Copertura esaustiva.
+- Quando citi un punteggio, scrivi SEMPRE "su 7" o "su scala 1-7". NON scrivere MAI "scala non specificata", "scala indefinita" o "su 5".
+- La prima volta in una sezione specifica "su scala Likert 1-7 (1=Assente, 7=Copertura esaustiva)", poi basta "su 7".
+- NON inventare nomi di scala ("scala di coordinamento", "scala di continuità"). Esiste UNA SOLA scala: Likert 1-7.
+- NON usare termini valutativi come "eccellente", "ottimo", "buono", "sufficiente" per descrivere i punteggi.
+
+DIMENSIONI ANALIZZATE (tutte su scala 1-7):
+1. FINALITÀ (peso 35%): attitudini, interessi, progetto di vita, transizioni, capacità orientative.
+2. OBIETTIVI (peso 10%): dispersione, continuità territorio, NEET, lifelong learning.
+3. GOVERNANCE (peso 25%): coordinamento, dialogo, famiglie, monitoraggio, inclusione.
+4. DIDATTICA (peso 15%): esperienza studenti, laboratoriale, flessibilità, interdisciplinare.
+5. OPPORTUNITÀ (peso 15%): culturali, laboratoriali, ludiche, volontariato, sportive.
+
+IIPO = media ponderata delle 5 dimensioni (scala 1-7). Indica il livello complessivo di copertura documentale sull'orientamento.
+
 REGOLE GENERALI:
 - Scrivi in italiano accademico, registro formale
 - Evita toni celebrativi e superlativi
 - NON usare blocchi di codice (```)
 - NON usare emoji
 - Basa l'analisi SOLO sui dati forniti
+- COERENZA NUMERICA: Usa il numero di scuole indicato nei dati. Non inventarne di diversi.
 """
 
 CITATION_RULES = """

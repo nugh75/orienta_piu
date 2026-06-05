@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCTD120008",
+    "denominazione": "Raffaele Piria-Ferraris/Da Empoli",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Reggio Di Calabria",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Piria 2",
+    "cap": "89127",
+    "email": "rctd120008@istruzione.it",
+    "pec": "rctd120008@pec.istruzione.it",
+    "website": "www.itepiria.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Commerciale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento all'interno del PTOF, sebbene siano previste attività di orientamento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive per studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursione in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza presso Rifugio Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori.",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Formazione di Scuola/Rete",
+      "target": "docenti neoassunti e docenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione",
+      "target": "docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCTD120008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Tecnico Raffaele Piria-Ferraris/Da Empoli di Reggio Calabria, relativo all'anno scolastico 2019/20-2021/22. L'istituto, di tipo tecnico e di secondo grado, opera in un contesto territoriale metropolitano della regione Calabria. L'analisi evidenzia un impegno significativo verso l'orientamento, pur con alcune aree di miglioramento. Sebbene non sia presente una sezione specificamente dedicata all'orientamento nel PTOF, sono previste e realizzate diverse attività in tal senso, come dimostrato dal registro delle attività.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta una lacuna, nonostante la presenza di attività orientative. Questo suggerisce una necessità di formalizzare maggiormente l'approccio all'orientamento all'interno della pianificazione strategica dell'istituto.\n\n**2.2 Partnership:**\n\nL'istituto dimostra una forte capacità di collaborare con diversi partner esterni, tra cui **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Sono state stabilite ben 5 partnership, evidenziando un'apertura alla collaborazione territoriale e alla valorizzazione delle risorse esterne.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 4, indicando un'attenzione completa a tutti gli aspetti fondamentali dell'orientamento.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati includono la riduzione dell'**abbandono scolastico**, la continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. L'obiettivo di continuità territoriale ha ottenuto il punteggio più alto (4), mentre gli obiettivi di riduzione dell'abbandono e contrasto ai NEET hanno ottenuto un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema implementate sono orientate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori**, al **monitoraggio delle azioni** e alla creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni hanno ottenuto un punteggio di 4, dimostrando un approccio sistemico e integrato all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'enfasi sull'esperienza e sulla flessibilità rappresenta un punto di forza, con punteggi di 4 per le prime due dimensioni.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Tutte queste opzioni hanno ottenuto un punteggio di 4, dimostrando un'attenzione alla personalizzazione dell'offerta formativa e allo sviluppo di interessi specifici.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la forte attenzione alle finalità, la presenza di azioni di sistema ben definite, l'utilizzo di metodologie didattiche innovative e l'ampia offerta di attività opzionali. La collaborazione con partner esterni, come la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, arricchisce l'offerta formativa e favorisce l'integrazione con il territorio. Le attività registrate, come **Ritiro di accoglienza**, **Educazione alimentare**, **Primo soccorso** e **Orientamento post-liceo**, dimostrano un impegno concreto verso l'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Inoltre, gli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno dei NEET potrebbero essere ulteriormente rafforzati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento all'interno della pianificazione strategica dell'istituto. Sebbene le attività siano presenti e ben strutturate, la mancanza di una sezione dedicata nel PTOF suggerisce una necessità di integrare maggiormente l'orientamento nella visione complessiva dell'istituto.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Raffaele Piria-Ferraris/Da Empoli dimostra un impegno significativo verso l'orientamento, con una forte attenzione alle finalità, alle azioni di sistema e alla didattica innovativa. Tuttavia, per ottimizzare l'efficacia dell'orientamento, si raccomanda di formalizzare maggiormente l'approccio all'orientamento all'interno del PTOF, creando una sezione dedicata e rafforzando gli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno dei NEET. Le attività come **Stage sportivo sulla neve**, **Stage di vela**, **Stage in Inghilterra** e **Viaggio d'istruzione** rappresentano un valore aggiunto per gli studenti e contribuiscono a sviluppare le loro competenze e i loro interessi."
+}

@@ -1,0 +1,282 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AQRC007018",
+    "denominazione": "I.I.S. \" L. Da Vinci - O. Colecchi",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "L'Aquila",
+    "anno_ptof": "2019/2022",
+    "provincia": "L'Aquila",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Acquasanta",
+    "cap": "67100",
+    "email": "aqis007009@istruzione.it",
+    "pec": "ND",
+    "website": "www.leonardodavinciaq.it",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Commerciali"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata e strutturata con obiettivi, strategie e valutazione chiara. Le attività sono sparse nel documento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni culturali",
+        "Protezione Civile “Le Aquile”",
+        "Misericordia di Chiusano S. Domenico",
+        "Consorzio dei Servizi Sociali",
+        "ASL di Atripalda",
+        "Fondazione Telethon",
+        "Università di Salerno",
+        "Territorio",
+        "genitori",
+        "figure parentali",
+        "sindaco",
+        "parroco",
+        "nonni"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto “Cresciamo sicuri”,",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Collaborazione con Protezione Civile e Misericordia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto AVIS",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione con sezione AVIS",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla Salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione con ASL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "LEGALITÀ/SALUTE/AMBIENTE/ED. STRADALE",
+      "categoria_principale": "Progetti Trasversali",
+      "descrizione_e_metodologia": "Tematiche separate che mettono al centro l'individuo, gli altri, l'ambiente e le regole.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura: “La Biblioteca A Scuola”",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Promuovere il piacere della lettura attraverso diverse attività.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Recupero E Potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Prove di italiano/matematica strutturate con metodologia Invalsi.",
+      "target": "Classi seconde, terze e quinte Primaria"
+    },
+    {
+      "titolo_attivita": "English For All",
+      "categoria_principale": "Lingua Straniera",
+      "descrizione_e_metodologia": "Sviluppo competenze comunicative e culturali in lingua inglese.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sport Di Classe",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Attività sportive con tecnico federale.",
+      "target": "Studenti Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Accoglienza",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Creazione di un ambiente sereno e socializzante per i nuovi alunni.",
+      "target": "Nuovi alunni"
+    },
+    {
+      "titolo_attivita": "Continuità E Orientamento",
+      "categoria_principale": "Continuità/Orientamento",
+      "descrizione_e_metodologia": "Sostenere il passaggio tra i diversi ordini di scuola.",
+      "target": "Studenti in transizione"
+    },
+    {
+      "titolo_attivita": "Laboratori di coding e robotica educativa",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Sperimentazione di laboratori di coding e robotica educativa",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Percorsi extrascolastici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività calibrate sui profili dinamici funzionali",
+      "target": "Alunni con particolari attitudini"
+    },
+    {
+      "titolo_attivita": "Incontri con specialisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con specialisti ASL",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività linguistiche-espressive",
+      "categoria_principale": "Linguistico-Espressivo",
+      "descrizione_e_metodologia": "Utilizzo di materiali e tecniche espressive",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Attività motorie",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Sperimentazione schemi motori e giochi",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Attività tecnologiche",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Esplorazione funzioni tecnologie digitali",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Discussione guidata con domande-stimolo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Discussioni aperte per stimolare la riflessione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cooperative Learning",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro di gruppo guidato o autonomo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Didattica Laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche ed esperienziali",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Drammatizzazioni",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Espressione creativa attraverso il gioco di ruolo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Apprendista giornalista",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Prestazione autentica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite guidate sul territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimento norme stradali e civiche",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Visita a biblioteca e museo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di laboratorio/ricerca",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Interviste",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Interviste a genitori, parroco",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Discussioni e Riflessioni",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Letture ed elaborazioni personali",
+      "target": "Scuola Secondaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AQRC007018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.P.C. (AQRC007018), scuola comprensiva situata nel territorio non metropolitano de L'Aquila, in Abruzzo. L'istituto, statale e di grado comprensivo (Infanzia, Primaria, I Grado), dimostra un impegno significativo nell'implementazione di attività orientative, sebbene manchi una strutturazione organica e una sezione dedicata specificamente all'orientamento con obiettivi, strategie e criteri di valutazione chiaramente definiti. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni intraprese e le attività registrate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'assenza di una sezione dedicata all'orientamento rappresenta una criticità, nonostante la presenza di diverse attività sparse nel documento. Il punteggio attribuito è di 3, indicando la necessità di una maggiore formalizzazione e coerenza.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, collaborando con diverse realtà del territorio, tra cui **associazioni culturali**, la **Protezione Civile “Le Aquile”**, la **Misericordia di Chiusano S. Domenico**, il **Consorzio dei Servizi Sociali**, l'**ASL di Atripalda**, la **Fondazione Telethon**, l'**Università di Salerno**, il **Territorio**, i **genitori**, le **figure parentali**, il **sindaco**, il **parroco** e i **nonni**. Il punteggio di 4 riflette l'ampiezza e la diversificazione dei collaboratori.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. I punteggi variano da 4 a 5, evidenziando un'attenzione particolare alla crescita personale e professionale degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a garantire la **continuità territoriale**, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I punteggi oscillano tra 3 e 4, suggerendo la necessità di rafforzare le azioni volte a raggiungere gli obiettivi più ambiziosi.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni**. Il punteggio di 4 per ciascuna azione indica un buon livello di implementazione, sebbene il **monitoraggio** necessiti di maggiore attenzione. L'azione relativa al **sistema integrato di inclusione e fragilità** ottiene un punteggio di 3, suggerendo un'area di miglioramento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. I punteggi variano da 3 a 4, evidenziando la necessità di potenziare l'utilizzo dei laboratori e la flessibilità didattica.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi sono generalmente di 3, indicando un'offerta diversificata ma non particolarmente strutturata.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza delle **partnership** instaurate con il territorio e la chiarezza delle **finalità** orientative. L'istituto dimostra un impegno concreto nella promozione di attività che favoriscono lo sviluppo delle competenze degli studenti e la loro preparazione al futuro. L'attività **“Cresciamo sicuri”**, in collaborazione con la **Protezione Civile** e la **Misericordia**, e i progetti di **salute** con l'**ASL** sono esempi significativi di questo impegno.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento, che rende difficile la definizione di obiettivi, strategie e criteri di valutazione chiari e coerenti. Anche il **monitoraggio delle azioni** e l'implementazione di un **sistema integrato di inclusione e fragilità** necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e strutturata dell'orientamento. Sebbene siano presenti numerose attività, queste non sono integrate in un piano complessivo che ne definisca gli obiettivi, le modalità di attuazione e i criteri di valutazione. È necessario colmare questo divario attraverso la creazione di una sezione dedicata all'orientamento nel PTOF, con obiettivi specifici, strategie chiare e indicatori di performance misurabili.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.P.C. (AQRC007018) dimostra un impegno significativo nell'ambito dell'orientamento, supportato da un solido network di **partnership** e da finalità ben definite. Tuttavia, l'assenza di una sezione dedicata e di una strutturazione organica delle attività rappresenta un limite. Per migliorare l'efficacia dell'orientamento, è necessario formalizzare le strategie, definire obiettivi misurabili e implementare un sistema di monitoraggio efficace. L'integrazione di attività come **“Apprendista giornalista”** e le **uscite guidate sul territorio** con una visione strategica più ampia potrebbe massimizzare l'impatto dell'orientamento sulla crescita personale e professionale degli studenti."
+}

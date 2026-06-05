@@ -1,0 +1,204 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIPS15000V",
+    "denominazione": "L. Scientifico - P. Bottoni",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mac Mahon 96/98",
+    "cap": "20155",
+    "email": "mips15000v@istruzione.it",
+    "pec": "mips15000v@pec.istruzione.it",
+    "website": "www.liceobottoni.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni di categoria",
+        "imprese locali",
+        "Scuola secondaria di primo grado \"G. Pascoli\"",
+        "I.C. \"A. De Curtis\"",
+        "I.C. \"D. Cimarosa\"",
+        "I.C. “Basile Don Milani” di Parete",
+        "Università",
+        "Imprese",
+        "Enti del terzo settore",
+        "Consorzio ELIS",
+        "Camera di Commercio",
+        "Banca D’Italia",
+        "Unicredit",
+        "Confcommercio",
+        "Carabinieri",
+        "Guardia di Finanza",
+        "Esercito",
+        "Aeronautica",
+        "Marina militare"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni e accordi con imprese locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione rubriche valutative condivise, test d'ingresso, percorsi orientamento",
+      "target": "Docenti, studenti, genitori"
+    },
+    {
+      "titolo_attivita": "PCTO ingegneria e architettura",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO specifici per indirizzi",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO scienze della vita",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO specifici per indirizzi",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO giuridico-economico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO specifici per indirizzi",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Summer job",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienza di lavoro/studio/volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Learning week",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "40 ore annuali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Appuntamenti con il medico",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri seminariali su anatomia, fisiologia e biomeccanica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi disciplinari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni per stimolare competenze",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Peer to peer education",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Mentoring tra studenti per supporto e recupero",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Web Radio Fermi",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Ottimizzazione informazione interna/esterna",
+      "target": "Studenti e comunità"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIPS15000V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico - P. Bottoni** (MIPS15000V) per il triennio 2022-2025. La scuola, situata a **Milano**, in **Lombardia**, si configura come un istituto **statale** di **II grado**. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata specifica e un'ampia rete di **partnership** attivate. Le finalità dell'orientamento sono ben definite, focalizzandosi sullo sviluppo delle **attitudini**, degli **interessi** degli studenti, sulla progettazione del loro **progetto di vita** e sulla facilitazione delle **transizioni formative**. L'istituto dimostra un'attenzione particolare all'acquisizione di **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 3, indicando una presenza strutturata dell'offerta.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con diversi soggetti, tra cui **associazioni di categoria**, **imprese locali**, scuole del primo grado (**Scuola secondaria di primo grado \"G. Pascoli\"**, **I.C. \"A. De Curtis\"**, **I.C. \"D. Cimarosa\"**, **I.C. “Basile Don Milani” di Parete**), **Università**, **Enti del terzo settore**, il **Consorzio ELIS**, la **Camera di Commercio**, **Banca D’Italia**, **Unicredit**, **Confcommercio**, e rappresentanti delle forze armate (**Carabinieri**, **Guardia di Finanza**, **Esercito**, **Aeronautica**, **Marina militare**). Il punteggio di 4 riflette la solidità di queste collaborazioni, con un totale di 14 partner nominati.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate complete e ben definite, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi** e la costruzione del **progetto di vita** degli studenti. Anche la finalità relativa all'acquisizione di **capacità orientative** per affrontare le opportunità future ottiene un punteggio elevato (5). La finalità relativa alle **transizioni formative** è valutata positivamente con un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico (punteggio 4), la continuità territoriale (punteggio 4), il contrasto al fenomeno **NEET** (punteggio 3) e la promozione del **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento comprendono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 5), il rapporto con i **genitori** (punteggio 4), il **monitoraggio delle azioni** intraprese (punteggio 4) e la creazione di un **sistema integrato di inclusione e fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 5), sull'utilizzo di **laboratori** (punteggio 5), sulla flessibilità degli **spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 4), **volontariato** (punteggio 4), mentre quelle **ludiche-ricreative** e **sportive** ricevono un punteggio inferiore (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e nella varietà delle **azioni** implementate. L'approccio didattico orientativo, basato sull'esperienza, sulla laboratorialità e sull'interdisciplinarità, rappresenta un valore aggiunto. Le attività registrate, come il **PCTO** per diversi indirizzi (**ingegneria e architettura**, **scienze della vita**, **giuridico-economico**), il **Curricolo verticale**, la **Learning week** e il **Summer job**, dimostrano un impegno concreto nell'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra risiedere nella finalità relativa al contrasto al fenomeno **NEET**, che ottiene un punteggio inferiore rispetto alle altre. Anche le opzioni **ludico-ricreative** e **sportive** potrebbero essere potenziate.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, si potrebbe valutare un'ulteriore integrazione tra le attività di orientamento e le esigenze del territorio, con particolare attenzione alle figure professionali più richieste. Un maggiore focus sulla prevenzione della dispersione scolastica e sul contrasto al fenomeno **NEET** potrebbe rafforzare l'efficacia del PTOF.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico - P. Bottoni** dimostra una solida attenzione all'orientamento, con una struttura ben definita, una vasta rete di **partnership** e un approccio didattico innovativo. Le attività registrate, come il **PCTO** e il **Curricolo verticale**, testimoniano l'impegno concreto della scuola nel supportare gli studenti nella loro crescita personale e professionale. Pur con alcune aree di miglioramento, il PTOF si configura come un valido strumento per orientare gli studenti verso scelte consapevoli e responsabili."
+}

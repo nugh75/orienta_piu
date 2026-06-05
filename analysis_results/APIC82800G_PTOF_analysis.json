@@ -1,0 +1,297 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "APIC82800G",
+    "denominazione": "Monteprandone Isc",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Monteprandone",
+    "anno_ptof": "2022/2023- 2024/2025",
+    "provincia": "Ascoli Piceno",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Colle Gioioso N. 2",
+    "cap": "63076",
+    "email": "apic82800g@istruzione.it",
+    "pec": "apic82800g@pec.istruzione.it",
+    "website": "www.icmonteprandone.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata e strutturata con obiettivi, strategie e indicatori specifici. L'analisi risulta superficiale."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "associazioni",
+        "EE. LL.",
+        "Ufficio di Piano",
+        "Protezione Civile",
+        "Parrocchie",
+        "Istituti Comprensivi e Superiori",
+        "Comune",
+        "ASL",
+        "Museo del Sannio Caudino",
+        "Biblioteche",
+        "Aziende",
+        "Fondazione Mariele Ventre",
+        "Teatro San Carlo"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di recupero in Italiano, Matematica e Inglese",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Attività di recupero e potenziamento per studenti con difficoltà",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto di Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Insegnamento della lingua francese",
+      "target": "Alunni classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di Latino",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Insegnamento della lingua latina",
+      "target": "Alunni classi terze secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola e Territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Attività extracurricolari per la scoperta del territorio",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Scuola InCanto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori musicali con il Teatro San Carlo",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di Accoglienza, Continuità e Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Scambio informazioni tra docenti, visite scuole, incontri informativi",
+      "target": "Alunni-Genitori-Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Accoglienza, Continuita’ E Orientamento”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di continuità tra ordini di scuola, incontri informativi, Open day",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto “Legalita’ E Cittadinanza Attiva”",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Laboratori didattici, incontri con soggetti esterni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Sicurezza A Scuola”",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Informazione, formazione, individuazione figure sensibili",
+      "target": "Alunni- Docenti- Personale ATA"
+    },
+    {
+      "titolo_attivita": "Progetto “Scuola E Territorio”",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Laboratori didattici, incontri con soggetti esterni, uscite didattiche",
+      "target": "Alunni, Famiglie E Stakeholders"
+    },
+    {
+      "titolo_attivita": "Progetto “Happy English”",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Attività di laboratorio, giochi, canzoni",
+      "target": "Alunni di cinque anni"
+    },
+    {
+      "titolo_attivita": "Progetto “Musica E Movimento”",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività laboratoriali di musica e movimento",
+      "target": "Alunni di 5 anni"
+    },
+    {
+      "titolo_attivita": "Progetto “Playng Music Approccio Allo Strumento Musicale”",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività laboratoriali, pratica di strumenti musicali",
+      "target": "Alunni classi quinte primaria/scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto “Frutta - Latte Nelle Scuole”",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Degustazioni guidate, distribuzione prodotti",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Italiano”",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Attività laboratoriali, ricerche, esercizi",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Incanto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività canore nell'ambito di un'opera lirica",
+      "target": "Gruppi di alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Giochi Matematici”",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Lezioni pomeridiane, allenamenti, simulazioni",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto “Latino”",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Analisi strutture grammaticali, traduzioni",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto “Inglese”",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Recupero conoscenze, attività mirate",
+      "target": "Alunni classi quinte primaria/terze secondaria"
+    },
+    {
+      "titolo_attivita": "Visite Guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sindaco Junior",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività progetto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate ad aziende locali",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di professionisti",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Visite guidate al Museo del Sannio Caudino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate e laboratori didattici.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzione con I.I.S. Fermi per tirocini.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Interventi mirati all’interno delle classi",
+      "categoria_principale": "Autostima",
+      "descrizione_e_metodologia": "Attività volte al miglioramento dell’autostima e della disponibilità ad apprendere.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Consulenza didattica",
+      "categoria_principale": "DSA",
+      "descrizione_e_metodologia": "Consulenza per situazioni con sospetti casi di DSA.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF APIC82800G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo Monteprandone Isc (APIC82800G), relativo all'anno 2022/2023-2024/2025. L'istituto, situato nel comune di Monteprandone in provincia di Ascoli Piceno (Marche), opera su un territorio non metropolitano e comprende i gradi di scuola dell'Infanzia, Primaria e Secondaria di primo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, supportato da numerose attività e partnership, sebbene manchi una strutturazione più definita e una sezione dedicata con obiettivi, strategie e indicatori specifici.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'istituto non presenta una sezione specificamente dedicata all'orientamento all'interno del PTOF, ottenendo un punteggio di 3. L'analisi in questo ambito risulta superficiale, suggerendo la necessità di una maggiore strutturazione.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con diversi soggetti esterni, tra cui **musei**, **istituti pubblici e privati**, **associazioni**, **EE. LL.**, l'**Ufficio di Piano**, la **Protezione Civile**, **parrocchie**, altri **Istituti Comprensivi e Superiori**, il **Comune**, l'**ASL**, il **Museo del Sannio Caudino**, **biblioteche**, **aziende**, la **Fondazione Mariele Ventre** e il **Teatro San Carlo**. Il numero di partner coinvolti, pari a 16, testimonia un forte radicamento nel territorio e una propensione alla collaborazione.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini** e degli **interessi** degli studenti, il supporto al **progetto di vita**, la preparazione alle **transizioni formative** e il potenziamento delle **capacità orientative** per affrontare le opportunità future. I punteggi ottenuti per ciascuna finalità (4, 4, 5, 4, 4) indicano un buon livello di attenzione a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico** (4), sulla continuità territoriale (5), sul contrasto al fenomeno **NEET** (3) e sulla promozione del **lifelong learning** (5).\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema efficaci, quali il **coordinamento dei servizi** (5), il **dialogo tra docenti e studenti** (4), il rafforzamento del **rapporto scuola-genitori** (5), il **monitoraggio delle azioni** intraprese (4) e la creazione di un **sistema integrato di inclusione e fragilità** (5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** (4), l'utilizzo di **laboratori** (4), la **flessibilità degli spazi e dei tempi** (4) e l'**interdisciplinarità** (4).\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali** (4), **laboratoriali ed espressive** (5), **ludiche e ricreative** (3), di **volontariato** (3) e **sportive** (4), ampliando le opportunità di crescita e di scoperta degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e nell'efficacia delle **azioni di sistema**. L'istituto dimostra una forte attenzione alla continuità territoriale e alla promozione del lifelong learning. L'offerta di attività extracurricolari, come **Scuola InCanto** e **Progetto Scuola e Territorio**, arricchisce l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata e strutturata all'orientamento, con obiettivi, strategie e indicatori specifici. L'analisi in questo ambito risulta superficiale e necessita di un approfondimento. Anche l'attenzione al contrasto del fenomeno NEET appare meno prioritaria rispetto ad altri obiettivi.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare e strutturare l'azione orientativa all'interno del PTOF. È necessario definire obiettivi misurabili, strategie chiare e indicatori di performance per valutare l'efficacia delle attività intraprese. Un'ulteriore area di miglioramento riguarda il potenziamento delle azioni volte al contrasto del fenomeno NEET.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo Monteprandone Isc dimostra un impegno significativo verso l'orientamento, supportato da una ricca offerta di attività e da una solida rete di partnership. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario strutturare una sezione dedicata all'interno del PTOF, definendo obiettivi, strategie e indicatori specifici. L'istituto dovrebbe inoltre rafforzare le azioni volte al contrasto del fenomeno NEET e monitorare costantemente i risultati ottenuti per garantire un miglioramento continuo. Le attività registrate, come il **Progetto di Accoglienza, Continuità e Orientamento**, le **Visite guidate** e i progetti di **Alternanza Scuola-Lavoro**, rappresentano un valido punto di partenza per raggiungere questi obiettivi."
+}

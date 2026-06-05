@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "APEE826023",
+    "denominazione": "Montegiorgio Isc",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Montegiorgio",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Fermo",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mazzini N.39",
+    "cap": "63025",
+    "email": "apic82600x@istruzione.it",
+    "pec": "ND",
+    "website": "www.iscmontegiorgio.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Nonostante la presenza di attività di orientamento nell'indice, non risulta una sezione dedicata e strutturata all'orientamento nel corpo del testo."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Percorsi di potenziamento linguistico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Percorsi di potenziamento sportivo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Seconda anno"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Terza anno"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Quarta anno"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperto",
+      "target": "Quinta anno"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF APEE826023\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Primaria Montegiorgio** (APEPE826023) per il triennio 2019/20-2021/22. L'istituto, situato nel comune di **Montegiorgio** in provincia di **Fermo** (Marche), è una scuola **statale** di ordine **primario**. L'analisi si basa sui dati forniti, valutando la presenza e l'efficacia delle azioni di orientamento in relazione alle finalità, agli obiettivi e alle attività implementate. Sebbene siano presenti diverse attività riconducibili all'orientamento, il PTOF non presenta una sezione dedicata e strutturata specificamente a questo ambito, nonostante un punteggio elevato nelle finalità e nelle azioni di sistema.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia l'assenza di una sezione specificamente dedicata all'orientamento nel corpo del testo del PTOF, nonostante la presenza di attività pertinenti nell'indice.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione con il territorio, come evidenziato dal punteggio di 4. Sono nominati diversi **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per un totale di 4 partner.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate in modo completo e coerente, con un punteggio di 4 per ciascuna delle dimensioni analizzate: attitudini, interessi, progetto di vita, transizioni formative e sviluppo delle capacità orientative e delle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati presentano una variabilità di risultati. L'obiettivo di ridurre l'abbandono scolastico ottiene un punteggio di 1, mentre gli obiettivi di garantire la continuità territoriale, contrastare il fenomeno NEET e promuovere il lifelong learning raggiungono un punteggio di 4, 3 e 3 rispettivamente.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono considerate in modo efficace, con un punteggio di 4 per ciascuna delle dimensioni analizzate: coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci validi, con un punteggio di 4 per la didattica basata sull'esperienza degli studenti, la flessibilità degli spazi e dei tempi e l'interdisciplinarità. La didattica laboratoriale, invece, ottiene un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, con un punteggio di 4 per le opzionali culturali, laboratoriali-espressive, ludiche-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'efficacia delle azioni di sistema e nella varietà dell'offerta formativa opzionale. La collaborazione con partner esterni, come la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, rappresenta un valore aggiunto per l'istituto. Le attività di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento Professionale) offrono agli studenti opportunità concrete di esplorazione del mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. L'obiettivo di ridurre l'abbandono scolastico, con un punteggio di 1, suggerisce la necessità di un maggiore focus su questo aspetto. La didattica laboratoriale, con un punteggio di 2, potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e integrata dell'orientamento, che si traduca in una sezione specifica del PTOF. È necessario definire un piano d'azione dettagliato, con obiettivi misurabili e indicatori di performance, per monitorare l'efficacia delle attività di orientamento e colmare il gap rispetto all'obiettivo di ridurre l'abbandono scolastico.\n\n### 6. Conclusioni\n\nIl PTOF della **Primaria Montegiorgio** presenta un buon potenziale in termini di orientamento, grazie alla chiarezza delle finalità, all'efficacia delle azioni di sistema e alla varietà dell'offerta formativa. Tuttavia, per massimizzare l'impatto delle attività di orientamento, è necessario colmare il divario rappresentato dall'assenza di una sezione dedicata nel PTOF e rafforzare l'attenzione sull'obiettivo di ridurre l'abbandono scolastico. L'implementazione di un piano d'azione strutturato e il monitoraggio costante dei risultati consentiranno all'istituto di offrire un servizio di orientamento sempre più efficace e in linea con le esigenze degli studenti. Attività come il **Ritiro di accoglienza**, **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra** e **Progetto Accoglienza Studenti Stranieri** sono esempi concreti di iniziative positive che contribuiscono allo sviluppo delle competenze orientative degli studenti."
+}

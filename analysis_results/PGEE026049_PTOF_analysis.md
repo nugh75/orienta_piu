@@ -1,0 +1,39 @@
+# Analisi del PTOF PGEE026049
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della **Primaria Cerbara** (PGEE026049) per il triennio 2024-2027. La scuola, situata nel comune di **Città di Castello** in **Umbria**, è un istituto **statale** che opera in un contesto territoriale **non metropolitano**. L'analisi si basa sui dati forniti, valutando la presenza e l'integrazione delle azioni di orientamento all'interno del PTOF. Il documento evidenzia un'attenzione particolare alla collaborazione con il territorio e all'inclusione, con un focus sulle **transizioni formative** degli studenti.
+
+### 2. Analisi Dimensionale
+
+**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, sebbene l'orientamento sia integrato in altre aree del piano.
+
+**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di **partnership** con diversi attori del territorio, tra cui **servizi per la riabilitazione**, altre **scuole primarie**, **biblioteche**, **teatri**, **servizi sportivi** e **fattorie didattiche**. Questo approccio collaborativo rappresenta un punto di forza per l'arricchimento dell'offerta formativa e l'ampliamento delle opportunità per gli studenti. Sono state individuate ben 5 partnership.
+
+**2.3 Finalità:** Le finalità del PTOF in ambito orientativo si concentrano sullo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 su 5 per entrambe le aree. L'attenzione al **progetto di vita** è meno marcata (punteggio 1), mentre le **transizioni formative** ricevono un punteggio elevato (5), sottolineando l'importanza di preparare gli studenti ai passaggi successivi nel loro percorso scolastico. Anche lo sviluppo delle **capacità orientative** e delle opportunità future è considerato importante (punteggio 3).
+
+**2.4 Obiettivi:** Tra gli obiettivi del PTOF, la **continuità territoriale** è prioritaria (punteggio 5), evidenziando l'impegno della scuola nel mantenere un legame forte con il contesto locale. Gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno **NEET** ricevono punteggi più bassi (1 e 0 rispettivamente), suggerendo un'area di potenziale miglioramento. L'obiettivo del **lifelong learning** è considerato in modo marginale (punteggio 1).
+
+**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema orientate al **coordinamento dei servizi** (punteggio 5) e al rafforzamento del **rapporto scuola-genitori** (punteggio 5). Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** ricevono un punteggio medio (3), mentre il sistema integrato di **inclusione e fragilità** è considerato importante (punteggio 4).
+
+**2.6 Didattica Orientativa:** La didattica proposta si basa sull'apprendimento **da esperienza** degli studenti (punteggio 5), sull'utilizzo di metodologie **laboratoriali** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).
+
+**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 3) e **sportive** (punteggio 3). Le attività di **volontariato** sono meno presenti (punteggio 1).
+
+### 3. Punti di Forza
+
+I principali punti di forza del PTOF in ambito orientativo risiedono nella forte collaborazione con il territorio, nella creazione di **partnership** significative e nell'attenzione alle **transizioni formative** degli studenti. L'utilizzo di metodologie didattiche innovative, basate sull'esperienza e sull'interdisciplinarità, rappresenta un ulteriore elemento positivo. Le attività registrate, come le visite a **biblioteche e teatri**, i **laboratori di inglese**, **musica** e **motoria**, arricchiscono l'offerta formativa e contribuiscono allo sviluppo delle competenze degli studenti. L'impegno nell'**inclusione** dei bambini con **BES** è evidenziato da attività specifiche come la programmazione congiunta e gli incontri con le famiglie e i professionisti dei servizi di riabilitazione.
+
+### 4. Aree di Debolezza
+
+L'assenza di una sezione dedicata all'orientamento nel PTOF e la scarsa attenzione al **progetto di vita** degli studenti rappresentano delle aree di debolezza. Anche gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno **NEET** sembrano meno prioritari rispetto ad altri aspetti.
+
+### 5. Gap Analysis
+
+Il divario principale risiede nella necessità di esplicitare maggiormente le azioni di orientamento all'interno del PTOF, definendo obiettivi specifici e misurabili per la riduzione dell'abbandono scolastico e l'inserimento nel mondo del lavoro. È inoltre auspicabile un maggiore focus sul **progetto di vita** degli studenti, aiutandoli a sviluppare consapevolezza delle proprie aspirazioni e competenze.
+
+### 6. Conclusioni
+
+Il PTOF della **Primaria Cerbara** presenta un buon livello di attenzione all'orientamento, con un forte impegno nella collaborazione con il territorio e nell'inclusione degli studenti. Tuttavia, è necessario colmare le lacune individuate, definendo obiettivi più specifici e ampliando l'offerta di attività orientative, in particolare per quanto riguarda la prevenzione dell'abbandono scolastico e la preparazione al futuro professionale degli studenti.

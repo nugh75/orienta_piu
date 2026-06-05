@@ -1,0 +1,284 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GECT702006",
+    "denominazione": "Cpia Centro Ponente",
+    "tipo_scuola": "CPIA",
+    "ordine_grado": "Altro",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Rivera 1",
+    "cap": "16162",
+    "email": "gemm18600b@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.cpiacentroponentege.edu.it",
+    "tipo_scuola_dettaglio": "Centro Territoriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Assenza di una sezione dedicata all'orientamento. Il PTOF si concentra su alternanza scuola-lavoro e PCTO, senza sviluppare un capitolo specifico per l'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Potenziamento Competenze",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli in lingua inglese nei bienni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare senso di cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese, Diplôme De Français Professionnel",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche. Potenziare competenze digitali.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica Educativa",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e progetti dedicati",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici, musicali, linguistici, teatrali, cinematografici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Learning by doing",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Definizione PEI/PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Programmazione didattica, osservazione, monitoraggio",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GECT702006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Cpia Centro Ponente Plesso Pontedecimo** (GECT702006) con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo all'anno **2019/20-2021/22**, evidenzia un focus significativo sull'**alternanza scuola-lavoro** e sul **PCTO**, tuttavia, manca una sezione specificamente dedicata all'orientamento come processo a sé stante. L'istituto, situato nel territorio **metropolitano** di **Genova** (Liguria), si distingue per un'ampia rete di **partnership** e per un'attenzione alle finalità orientative quali attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, nonostante l'importanza riconosciuta all'alternanza scuola-lavoro e al PCTO.\n\n**2.2 Partnership:** Il Cpia Centro Ponente Plesso Pontedecimo vanta un solido network di **partnership**, comprendente enti come **AGROBIOS**, il **Museo Archeologico Nazionale della Siritide**, diverse **associazioni**, **consulenti esterni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e **ASL**. Questo elevato numero di collaborazioni (14 partner) suggerisce un'apertura del contesto scolastico verso il territorio e il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità orientative del PTOF sono considerate con un punteggio elevato (4) in tutte le aree: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, facilitazione delle **transizioni formative** e potenziamento delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF, relativi alla riduzione dell'**abbandono scolastico**, alla continuità con il **territorio**, al contrasto al fenomeno **NEET** e alla promozione del **lifelong learning**, ricevono un punteggio di 3, indicando un impegno costante ma con margini di miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate, quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato inclusione-fragilità**, ottengono un punteggio di 3, suggerendo una buona base di partenza ma con la necessità di consolidare le pratiche.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti**, l'utilizzo di **laboratori**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**, con punteggi che variano tra 3 e 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra 1 e 4, evidenziando una diversificazione dell'offerta formativa.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate e nella chiara definizione delle **finalità orientative**. L'istituto dimostra un impegno nell'innovazione didattica, con l'implementazione di metodologie come la **flipped classroom**, il **service learning** (progetto **METEO**) e l'utilizzo di **moduli disciplinari in lingua inglese**. L'offerta di **certificazioni linguistiche** e l'attenzione all'**inclusione** (con la definizione di **PEI/PDP**) rappresentano ulteriori elementi positivi.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza significativa. Sebbene l'orientamento sia implicitamente presente nelle finalità e nelle attività, la mancanza di un capitolo specifico limita la sua visibilità e la sua integrazione sistematica nel PTOF. Anche l'offerta di attività opzionali **ludiche e ricreative** e **sportive** appare meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di esplicitare e strutturare l'orientamento come un processo continuo e integrato nel curriculum scolastico. È necessario definire obiettivi specifici per l'orientamento, individuare indicatori di performance e implementare azioni mirate per supportare gli studenti nella scelta del percorso formativo e professionale.\n\n### 6. Conclusioni\n\nIl PTOF del Cpia Centro Ponente Plesso Pontedecimo presenta un quadro complessivamente positivo, caratterizzato da un forte impegno verso l'innovazione didattica, l'inclusione e la collaborazione con il territorio. Tuttavia, per rafforzare la dimensione dell'orientamento, è necessario colmare il gap esistente attraverso la creazione di una sezione dedicata nel PTOF e l'implementazione di azioni specifiche per supportare gli studenti nel loro percorso di crescita personale e professionale. Le attività come gli **stage ASL**, l'**alternanza scuola/lavoro**, i **laboratori artistici** e le iniziative di **internazionalizzazione** (come i **gemellaggi**) rappresentano un solido punto di partenza per sviluppare ulteriormente l'offerta orientativa dell'istituto."
+}

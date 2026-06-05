@@ -1,0 +1,173 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIPS058502",
+    "denominazione": "Paolo Frisi",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2024 – 2025 / 2025 – 2026 / 2026 – 2027",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Carlo Amoretti 61/63",
+    "cap": "20157",
+    "email": "miis058007@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.iisfrisi.edu.it/",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "No explicit mention"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "servizi per la riabilitazione",
+        "scuole primarie",
+        "biblioteche",
+        "teatri",
+        "servizi sportivi del territorio",
+        "famiglie"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Programmazione congiunta attività didattica e percorso personalizzato",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Promuovere la massima appartenenza e partecipazione del bambino con BES.",
+      "target": "Bambini con BES"
+    },
+    {
+      "titolo_attivita": "Incontri periodici con famiglia",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Co-costruzione e valutazione PDP/PEI.",
+      "target": "Famiglie bambini con BES"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti riabilitazione",
+      "categoria_principale": "Collaborazione Esterna",
+      "descrizione_e_metodologia": "Condivisione progetto individualizzato.",
+      "target": "Bambini con BES e professionisti"
+    },
+    {
+      "titolo_attivita": "laboratorio espressivo",
+      "categoria_principale": "laboratorio",
+      "descrizione_e_metodologia": "attività di educazione musicale",
+      "target": "bambini"
+    },
+    {
+      "titolo_attivita": "laboratorio linguistico",
+      "categoria_principale": "laboratorio",
+      "descrizione_e_metodologia": "apprendimento lingua inglese",
+      "target": "bambini"
+    },
+    {
+      "titolo_attivita": "laboratorio motorio",
+      "categoria_principale": "laboratorio",
+      "descrizione_e_metodologia": "collaborazione con servizi sportivi",
+      "target": "bambini"
+    },
+    {
+      "titolo_attivita": "laboratorio sensoriale",
+      "categoria_principale": "laboratorio",
+      "descrizione_e_metodologia": "stimolo sensoriale",
+      "target": "bambini"
+    },
+    {
+      "titolo_attivita": "laboratorio grafico-pittorico",
+      "categoria_principale": "laboratorio",
+      "descrizione_e_metodologia": "stimolare immaginazione e creatività",
+      "target": "bambini"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIPS058502\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo G. Gastel (Succursale Serale)**, identificato con il codice **MIPS058502**. L'istituto, situato a **Milano** in **Lombardia**, opera nel contesto di un territorio **metropolitano** e si configura come una scuola **statale** di secondo grado. L'analisi si basa sui dati forniti e mira a delineare un quadro completo delle strategie e delle azioni intraprese per l'orientamento, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF copre gli anni **2024 – 2025 / 2025 – 2026 / 2026 – 2027**.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nNon risulta esplicitamente presente una sezione dedicata all'orientamento all'interno del PTOF analizzato.\n\n#### 2.2 Partnership\n\nIl PTOF dimostra un forte impegno nella costruzione di **partnership** con diversi attori del territorio. Sono nominati **servizi per la riabilitazione**, **scuole primarie**, **biblioteche**, **teatri**, **servizi sportivi del territorio** e le **famiglie**, per un totale di 6 partner. Questo approccio collaborativo suggerisce una volontà di integrare l'istituzione scolastica nel tessuto sociale e di offrire agli studenti opportunità di apprendimento diversificate e contestualizzate.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sembrano orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 per entrambe le aree. L'attenzione al **progetto di vita** è meno marcata (punteggio 1), mentre si riscontra un buon livello di attenzione alle **transizioni formative** (punteggio 5) e allo sviluppo delle **capacità orientative** per cogliere le opportunità (punteggio 3).\n\n#### 2.4 Obiettivi\n\nTra gli obiettivi dichiarati, spicca l'impegno per la **continuità territoriale** (punteggio 5), suggerendo una volontà di mantenere un legame stretto con il contesto locale. L'attenzione alla riduzione dell'**abbandono** scolastico è bassa (punteggio 0), così come quella al **lifelong learning** (punteggio 1). Il contrasto al fenomeno **NEET** riceve un punteggio moderato (1).\n\n#### 2.5 Azioni di Sistema\n\nIl PTOF prevede azioni di sistema orientate al **coordinamento dei servizi** (punteggio 5) e al coinvolgimento delle **famiglie** (punteggio 5). Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** ricevono un punteggio di 3, mentre il sistema integrato di **inclusione e fragilità** è valutato positivamente (punteggio 4).\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa sull'apprendimento **da esperienza degli studenti** (punteggio 5) e sull'utilizzo di metodologie **laboratoriali** (punteggio 3). Si evidenzia una buona flessibilità degli **spazi e dei tempi** (punteggio 4) e un approccio **interdisciplinare** (punteggio 5).\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative include proposte **culturali** (punteggio 3), **laboratoriali espressive** (punteggio 5), **ludiche-ricreative** (punteggio 4) e **sportive** (punteggio 3). L'attenzione al **volontariato** è meno sviluppata (punteggio 1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella forte attenzione alle **partnership** con il territorio, nella didattica orientativa basata sull'esperienza e sull'interdisciplinarità, e nell'impegno per il coordinamento dei servizi e il coinvolgimento delle **famiglie**. Le attività registrate, come **Programmazione congiunta attività didattica e percorso personalizzato**, **Incontri periodici con famiglia**, **Incontri con professionisti riabilitazione**, **laboratorio espressivo**, **laboratorio linguistico**, **laboratorio motorio**, **laboratorio sensoriale** e **laboratorio grafico-pittorico**, supportano concretamente questi aspetti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la scarsa attenzione alla riduzione dell'**abbandono** scolastico e al **lifelong learning** rappresentano le principali aree di debolezza. Anche l'attenzione al **progetto di vita** degli studenti potrebbe essere maggiormente sviluppata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta formativa più esplicitamente orientata alla prevenzione della dispersione scolastica e alla promozione dell'apprendimento permanente. Sarebbe opportuno integrare il PTOF con azioni mirate a supportare gli studenti nella definizione del proprio **progetto di vita** e a sviluppare le competenze necessarie per affrontare le sfide del mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo G. Gastel (Succursale Serale)** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento, grazie all'impegno nella costruzione di **partnership** e all'offerta di attività didattiche innovative. Tuttavia, è necessario colmare le lacune individuate, strutturando una sezione dedicata all'orientamento e rafforzando l'attenzione alla prevenzione della dispersione scolastica e alla promozione del **lifelong learning**. Un approccio più sistematico e integrato all'orientamento consentirebbe all'istituto di offrire agli studenti un supporto più efficace nella definizione del proprio futuro."
+}

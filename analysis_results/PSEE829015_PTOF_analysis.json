@@ -1,0 +1,198 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PSEE829015",
+    "denominazione": "Fano - Nuti",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Fano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Pesaro E Urbino",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Dell'Unita' D'Italia 1",
+    "cap": "61032",
+    "email": "psic829003@istruzione.it",
+    "pec": "psic829003@pec.istruzione.it",
+    "website": "www.nutifano.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento, sebbene l'orientamento sia affrontato all'interno di altre sezioni del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Consulenti esterni",
+        "Rete nazionale MODi (Modelli Organizzativi Didattici) MOF (Modello Organizzativo Finlandese)",
+        "Ufficio Scolastico Regionale",
+        "INPS",
+        "Spaggiari",
+        "Ambiti Territoriali Sociali 1-3-4-5-6-7",
+        "Azienda Sanitaria Unica Regionale Marche Area Vasta 1"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di orientamento in verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Test specifici, riflessioni, restituzione personalizzata",
+      "target": "Studenti e genitori"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus plus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali con Polonia, Ungheria e Grecia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "MODI-MOF",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Modello didattico innovativo ispirato al modello finlandese",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sportello telefonico COVID",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Ascolto e dialogo",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Ascolto e dialogo",
+      "target": "Genitori, alunni, docenti"
+    },
+    {
+      "titolo_attivita": "Pranzo condiviso",
+      "categoria_principale": "Socializzazione",
+      "descrizione_e_metodologia": "Preparazione e condivisione del pranzo",
+      "target": "Genitori, alunni"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Stesura Profilo Diagnostico, Programmazione del percorso di apprendimento",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Incontri con le famiglie",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Condivisione obiettivi, scelte educative, sottoscrizione PEI",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi aperte, laboratori",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione Personale ATA - Ricostruzione Carriera e Pratiche Previdenziali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Procedure e sistemi per la ricostruzione di carriera e pensionamento.",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Sicurezza a Scuola - Misure di Prevenzione e Contenimento COVID",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione on line sulle misure di prevenzione e contenimento.",
+      "target": "Tutto il personale"
+    },
+    {
+      "titolo_attivita": "Formazione Docenti - Impostazione Lezioni, Metodo Cooperativo, Relazione Empatica, Valutazione Integrata",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi con esperti esterni e autoformazione.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PSEE829015\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Fano - Nuti Poderino\" (PSEE829015) per il triennio 2019/20-2021/22. L'analisi si basa sui dati forniti, valutando la presenza di una sezione specifica per l'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Sebbene non sia presente una sezione esplicitamente dedicata all'orientamento, questo viene affrontato in maniera trasversale all'interno del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi evidenzia l'assenza di una sezione specifica dedicata all'orientamento nel PTOF, nonostante l'orientamento sia affrontato all'interno di altre sezioni.\n\n**2.2 Partnership:**\n\nLa scuola dimostra un forte impegno nella creazione di partnership, con un punteggio di 5 su 5. Sono attivi collaborazioni con **Consulenti esterni**, la **Rete nazionale MODi (Modelli Organizzativi Didattici) MOF (Modello Organizzativo Finlandese)**, l'**Ufficio Scolastico Regionale**, l'**INPS**, **Spaggiari**, gli **Ambiti Territoriali Sociali 1-3-4-5-6-7** e l'**Azienda Sanitaria Unica Regionale Marche Area Vasta 1**. Il numero di partner coinvolti (9) testimonia un approccio collaborativo e aperto al territorio.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite, con punteggi elevati per **progetto di vita** (5), **attitudini** (4), **interessi** (4), **transizioni formative** (4) e **capacità orientative e opportunità** (4). Questo suggerisce un'attenzione alla crescita personale degli studenti e alla loro preparazione per il futuro.\n\n**2.4 Obiettivi:**\n\nGli obiettivi di orientamento sono moderatamente definiti. Si registra un punteggio di 3 per la riduzione dell'**abbandono** e del **lifelong learning**, mentre la continuità con il territorio ottiene un punteggio di 4. L'obiettivo di contrastare i **NEET** risulta meno prioritario, con un punteggio di 2.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento sono considerate efficaci, con punteggi elevati per il **coordinamento dei servizi** (5), il **rapporto scuola-genitori** (5) e il **sistema integrato inclusione-fragilità** (5). Anche il **dialogo tra docenti e studenti** (4) e il **monitoraggio delle azioni** (3) contribuiscono a un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico all'orientamento è orientato all'esperienza, con un punteggio di 4 per la **didattica da esperienza degli studenti** e la **didattica interdisciplinare**. La **didattica laboratoriale** e la **flessibilità di spazi e tempi** ottengono un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative per l'orientamento è limitata, con punteggi bassi per le opzionali **culturali** (2), **ludiche-ricreative** (2), **di volontariato** (2) e **sportive** (2). Le opzionali **laboratoriali ed espressive** ottengono un punteggio leggermente superiore (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la forte rete di **partnership** attivate, la chiarezza delle **finalità** educative, l'efficacia delle **azioni di sistema** e l'approccio didattico orientato all'esperienza. L'attività \"**Progetto di orientamento in verticale**\" rappresenta un'iniziativa concreta per supportare gli studenti e le loro famiglie.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la limitata offerta di attività opzionali rappresentano le principali aree di debolezza. L'obiettivo di contrastare i **NEET** sembra meno prioritario rispetto agli altri obiettivi.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta di orientamento più organica e visibile all'interno del PTOF. Sarebbe opportuno ampliare l'offerta di attività opzionali e facoltative, in particolare quelle volte a sviluppare le competenze trasversali e l'autonomia degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria \"Fano - Nuti Poderino\" dimostra un impegno significativo verso l'orientamento, sebbene questo sia integrato in altre aree del piano. La scuola può rafforzare ulteriormente la sua offerta orientativa attraverso la creazione di una sezione dedicata, l'ampliamento delle attività opzionali e una maggiore attenzione alla prevenzione della dispersione scolastica e alla preparazione degli studenti per il futuro. Attività come il \"**Progetto Erasmus plus**\", \"**MODI-MOF**\", \"**Sportello telefonico COVID**\", \"**Sportello d'ascolto psicologico**\", \"**Pranzo condiviso**\", \"**Definizione PEI**\", \"**Incontri con le famiglie**\", \"**Attività laboratoriali integrate**\", \"**Formazione Personale ATA**\", \"**Sicurezza a Scuola**\" e \"**Formazione Docenti**\" contribuiscono a creare un ambiente scolastico inclusivo e orientato al benessere degli studenti."
+}

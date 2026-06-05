@@ -1,0 +1,424 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CTIS03800X",
+    "denominazione": "I.I.S. Fermi Eredia",
+    "tipo_scuola": "Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Catania",
+    "anno_ptof": "2019-2022",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Passo Gravina 197",
+    "cap": "95125",
+    "email": "ctis03800x@istruzione.it",
+    "pec": "ctis03800x@pec.istruzione.it",
+    "website": "https//www.fermieredia.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Intersind",
+        "IRI",
+        "Confindustria",
+        "musei",
+        "istituti pubblici e privati",
+        "università",
+        "imprese",
+        "associazioni terzo settore",
+        "BIC Lazio",
+        "Unindustria",
+        "Federmeccanica",
+        "Federmanager",
+        "Camera di Commercio di Roma",
+        "Enti di alta formazione",
+        "CAME",
+        "Oracle",
+        "Bosch Randstad",
+        "Università Roma3",
+        "ACI",
+        "Federazione Italiana Nuoto",
+        "FIVAP",
+        "Acme 3",
+        "Agenzia Spaziale Italiana",
+        "Agenzia Spaziale Europea",
+        "ANLAIDS",
+        "ASL Roma1",
+        "EMA_ROMA",
+        "Museo Storico Della Comunicazione",
+        "Larimart S.P.A.",
+        "Università degli Studi Link Campus University",
+        "I.I.S. via di Nazareth 150",
+        "CPIA 4 del Lazio",
+        "IPSIA “C. Cattaneo”",
+        "ASL",
+        "Associazioni"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage aziendali",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Tutti gli studenti dal 3° anno svolgono stage presso aziende del settore.",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Visite a Università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri e seminari con diverse facoltà universitarie.",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e tirocini presso aziende ed enti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su valutazione, CLIL, etc.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Creare un canale di raccordo tra scuola e aziende",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Attività di alternanza per competenze spendibili nel mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a percorsi formativi universitari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convegni e presentazioni presso università cittadine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cisco",
+      "categoria_principale": "Formazione Tecnologica",
+      "descrizione_e_metodologia": "Incontri in presenza e piattaforma online con esami.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Came",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione sulla domotica con realizzazione di scenari.",
+      "target": "Classi 4°"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara di primo livello per studenti motivati",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara matematica per stimolare l'interesse",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Partecipazione a gare organizzate dall'AICA",
+      "target": "Studenti biennio e triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Grammatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara di grammatica per motivare allo studio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Salute",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Promozione salute mentale, prevenzione malattie",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Educazione E Sicurezza Stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Corso online MIUR-INAIL con attestato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mare Sicuro",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso formativo sulla sicurezza in mare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Arbitro Fivap",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Abilitazione ad arbitrare partite di pallavolo",
+      "target": "Studenti > 16 anni"
+    },
+    {
+      "titolo_attivita": "Masterclass Di Fisica Terrestre E Ambiente",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Ricerca presso Università ROMA3",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Di Modellazione 3D",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Realizzazione di modelli 3D",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gara Cansat",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di dispositivi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto in rete per l'assistenza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Assistenza agli studenti con BES",
+      "target": "Studenti BES"
+    },
+    {
+      "titolo_attivita": "Progetti Europei (Erasmus Plus)",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Circolazione studenti/docenti per nuovi canali tematici",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Frequenza corsi scuole lingue estere",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "\"Sfida All’Ultima Riga\"",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Sfida tra classi su romanzo",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"Progetto Einaudi\"",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Discussione libro con autore",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"Invito Alla Lettura\"",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Presentazione libro da parte di alunni",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro presso Museo Storico Della Comunicazione",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Settimana (40 ore) presso struttura ospitante",
+      "target": "Classe 3 Telecomunicazioni/Informatica"
+    },
+    {
+      "titolo_attivita": "Continuous Training",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, orientamento, sviluppo di buone pratiche.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Rete Provincia",
+      "categoria_principale": "Assistenza",
+      "descrizione_e_metodologia": "Assistenza specialistica ad alunni con necessità di supporto.",
+      "target": "Scuole superiori"
+    },
+    {
+      "titolo_attivita": "Rosetta Rossi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di aggiornamento, orientamento.",
+      "target": "Scuole"
+    },
+    {
+      "titolo_attivita": "Rete Serale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi di II livello per adulti.",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Rete CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione linguistica e metodologica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Le Ali Della Libertà",
+      "categoria_principale": "Assistenza",
+      "descrizione_e_metodologia": "Assistenza specialistica.",
+      "target": "Scuole"
+    },
+    {
+      "titolo_attivita": "Didattica per Competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso online.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Valutazione Formativa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso online.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sviluppare Competenze Cittadinanza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lingua Inglese Avanzato/CLIL",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Inclusione Scolastica ADHD",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso in presenza/online.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gestione Gruppo Classe DOP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Comunicazione Positiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Riconoscimento Crediti Adulti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Oracle Java Foundation",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, certificazioni.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Fosvi.Co International",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop.",
+      "target": "Docenti, staff"
+    },
+    {
+      "titolo_attivita": "Corso di Formazione Fad",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso online.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Seminario Dislessia",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Oracle Java Programming",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CTIS03800X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. Fermi Eredia (CTIS03800X) per il triennio 2019-2022. La scuola, situata a Catania, si configura come un istituto professionale e tecnico di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con un punteggio medio elevato nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Presenza di Sezione Dedicata:** Il PTOF include esplicitamente una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo indica una chiara attenzione strategica verso questo ambito.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di partnership, con ben 30 partner nominati, tra cui **Intersind**, **IRI**, **Confindustria**, diverse **università**, **imprese**, **associazioni terzo settore**, e enti come **BIC Lazio** e l'**Agenzia Spaziale Italiana**. Questa rete di collaborazioni rappresenta un valore aggiunto significativo per l'orientamento degli studenti, offrendo opportunità di contatto con il mondo del lavoro e del sapere.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, nonché sulla facilitazione delle **transizioni formative** e sull'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal territorio. Tutti questi aspetti ricevono un punteggio di 3, indicando un approccio completo e multidimensionale.\n\n**2.4 Obiettivi:** Tra gli obiettivi principali figurano la riduzione dell'**abbandono scolastico** (punteggio 5), la promozione della continuità territoriale (punteggio 4), il contrasto alla dispersione dei **NEET** (punteggio 3) e l'incentivo al **lifelong learning** (punteggio 4). Questi obiettivi riflettono una visione proattiva e orientata al futuro.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori e il monitoraggio delle attività, oltre a un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte queste azioni ottengono un punteggio di 3, suggerendo un approccio sistematico e strutturato.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento esperienziale, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. Quest'ultima, in particolare, ottiene un punteggio di 4, evidenziando un'attenzione all'integrazione delle diverse discipline per un orientamento più efficace.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni culturali, laboratoriali ed espressive (punteggio 4), mentre quelle ludiche, ricreative e di volontariato ricevono punteggi inferiori (2). Le attività sportive ottengono un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e l'ampia rete di **partnership** attivate. L'impegno nella riduzione dell'**abbandono scolastico** e nella promozione del **lifelong learning** rappresenta un ulteriore elemento positivo. L'offerta di attività diversificate, come gli **stage aziendali**, le **visite a università** e i corsi di formazione, contribuisce a fornire agli studenti un'ampia gamma di opportunità. L'attenzione alla didattica laboratoriale e interdisciplinare favorisce un apprendimento più attivo e coinvolgente.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente l'offerta di attività opzionali ludiche, ricreative e di volontariato, che potrebbero essere potenziate per offrire agli studenti un'esperienza formativa più completa. Inoltre, i punteggi relativamente bassi nelle finalità e nelle azioni di sistema suggeriscono la necessità di una maggiore integrazione e coordinamento delle diverse iniziative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi dichiarati in azioni concrete e misurabili. Sebbene il PTOF preveda una serie di attività, è importante definire indicatori di performance chiari e monitorare i risultati ottenuti per valutare l'efficacia dell'intervento. Un'ulteriore area di miglioramento riguarda la comunicazione e la collaborazione tra i diversi attori coinvolti, come docenti, genitori, aziende e università.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. Fermi Eredia dimostra un impegno significativo verso l'orientamento, con un'ampia rete di **partnership** e un'offerta di attività diversificate. Pur presentando alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per lo sviluppo di un sistema di orientamento efficace e in grado di rispondere alle esigenze degli studenti e del territorio. L'implementazione di un sistema di monitoraggio e valutazione dei risultati, unitamente a un maggiore coordinamento delle diverse iniziative, consentirebbe di ottimizzare l'intervento e raggiungere gli obiettivi prefissati."
+}

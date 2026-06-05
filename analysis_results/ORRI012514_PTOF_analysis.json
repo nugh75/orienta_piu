@@ -1,0 +1,262 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ORRI012514",
+    "denominazione": "I.I.S. \"Mariano Iv D'Arborea",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Ghilarza",
+    "anno_ptof": "2016/2019",
+    "provincia": "Oristano",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Tirso 1",
+    "cap": "09074",
+    "email": "oris012003@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.marianoquarto.edu.it/",
+    "tipo_scuola_dettaglio": "Ist Prof Industria E Artigianato"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "EELL",
+        "associazioni",
+        "scuole",
+        "Università",
+        "enti di ricerca",
+        "associazioni imprese",
+        "enti formazione",
+        "centri formazione",
+        "Regione",
+        "Servizio sanitario nazionale",
+        "Associazione italiana della Croce Rossa",
+        "Cogas",
+        "Comune di Ortona",
+        "Crecchio",
+        "Tollo",
+        "Orsogna",
+        "ANFFAS",
+        "CIPA",
+        "Croce Arcobaleno",
+        "Lanciano",
+        "Free Power",
+        "Ortona",
+        "Progemb",
+        "San Giovanni Teatino",
+        "Teca",
+        "Di Pillo",
+        "Damiano",
+        "Guardiagrele",
+        "Di Boscio"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e tirocini",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività di promozione della lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto teatro-musical",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività teatrali e musicali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto ben-essere",
+      "categoria_principale": "Socio-sanitario",
+      "descrizione_e_metodologia": "Promozione del benessere psicofisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di guida turistica e pratica d'agenzia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione figura guida turistica, approfondimenti sul territorio e istituti di ricerca.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio d'Impresa Simulata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Simulazione attività aziendale con Unioncamere e altre centrali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Simulazione Sportello Bancario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Simulazione operativa con funzionari bancari.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Eccellenza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimenti su tematiche fiscali e tributarie con esperti.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione sulle tecniche di primo soccorso",
+      "categoria_principale": "Sicurezza e salute",
+      "descrizione_e_metodologia": "Modulo di 4 ore con esperti, simulazioni, questionari.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Percorsi di istruzione e formazione professionale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi in regime di sussidiarietà integrativa con conseguimento della QUALIFICA",
+      "target": "Classi 1°, 2° e 3°"
+    },
+    {
+      "titolo_attivita": "Attività di accoglienza e tutoraggio dei docenti neo-assunti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Facilitare la conoscenza della scuola, delle sue risorse e criticità.",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Formazione all’uso di nuove metodologie didattiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Flipped classroom, web quest (MIGLIORARE INNOVANDO)",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulle competenze della lettura",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Strategie per migliorare la comprensione negli studenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulla valutazione degli apprendimenti per competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Costruire compiti di realtà, osservazioni sistematiche.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulla conduzione e gestione della classe",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Peer tutoring, cooperative learning, service learning.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulle Tecnologie informatiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Applicazione all’attività didattica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione in lingua inglese e CLIL",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Livelli BASE e INTERMEDIO per insegnanti DNL.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso di Office automation e digitalizzazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Per il personale tecnico e amministrativo.",
+      "target": "ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ORRI012514\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ipsia Ghilarza - Corso Serale** (school_id: ORRI012514), relativo all'anno scolastico 2016/2019. La scuola, di tipo **Primaria, Professionale, Tecnico** e situata nel territorio **non metropolitano** della **Sardegna**, dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. L'istituto si impegna a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità orientative necessarie per affrontare le opportunità future. Il PTOF evidenzia un forte impegno nella riduzione dell'abbandono scolastico, nella continuità territoriale, nel contrasto alla dispersione scolastica e nella promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, come confermato dal punteggio di 7.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, con un totale di 30 collaborazioni attivate. Tra i partner figurano **EELL**, diverse **associazioni**, altre **scuole**, **Università**, **enti di ricerca**, **associazioni imprese**, **enti formazione**, **centri formazione**, la **Regione**, il **Servizio sanitario nazionale**, l'**Associazione italiana della Croce Rossa**, **Cogas**, e diversi comuni tra cui **Ortona**, **Crecchio**, **Tollo** e **Orsogna**, oltre ad associazioni come **ANFFAS**, **CIPA**, **Croce Arcobaleno**, e aziende come **Free Power**, **Progemb**, **San Giovanni Teatino**, **Teca**, **Di Pillo**, **Damiano**, **Guardiagrele** e **Di Boscio**.\n\n**2.3 Finalità:** Il PTOF definisce finalità chiare in relazione allo sviluppo delle attitudini, degli interessi, dei progetti di vita degli studenti, delle loro transizioni formative e delle loro capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto al fenomeno NEET e alla promozione del lifelong learning, tutti con un punteggio di 5.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su azioni di coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni intraprese e un sistema integrato di inclusione e attenzione alle fragilità, tutte valutate con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sebbene la didattica laboratoriale ottenga un punteggio inferiore (3). La flessibilità degli spazi e dei tempi, così come l'approccio interdisciplinare, sono considerati punti di forza, con un punteggio di 5 per entrambi.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative risulta meno sviluppata, con punteggi bassi per le opzionali culturali (1), e punteggi medi per quelle laboratoriali espressive, ludiche ricreative, di volontariato e sportive (3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio numero di partnership attivate, nella chiarezza delle finalità e degli obiettivi, e nell'implementazione di azioni di sistema efficaci. L'istituto offre diverse attività di orientamento, tra cui **Alternanza scuola-lavoro**, **Progetti di orientamento**, e laboratori specifici come il **Laboratorio di guida turistica e pratica d'agenzia** e il **Laboratorio d'Impresa Simulata**. L'impegno nella formazione dei docenti, con corsi su metodologie didattiche innovative, valutazione per competenze e conduzione della classe, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'offerta di attività opzionali e facoltative, che risulta meno diversificata rispetto ad altri ambiti. La didattica laboratoriale, pur presente, necessita di un maggiore sviluppo.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di potenziare l'offerta di attività opzionali e facoltative, in particolare quelle di tipo culturale, per ampliare le opportunità di scelta degli studenti e favorire lo sviluppo dei loro interessi. È inoltre auspicabile un maggiore investimento nella didattica laboratoriale, per rendere l'apprendimento più pratico e coinvolgente.\n\n### 6. Conclusioni\n\nIl PTOF dell'Ipsia Ghilarza - Corso Serale dimostra un impegno significativo verso l'orientamento, con una solida base di finalità, obiettivi e azioni di sistema. L'ampio ventaglio di partnership e l'attenzione alla formazione dei docenti rappresentano elementi distintivi. Pur presentando alcune aree di debolezza, il PTOF si configura come uno strumento efficace per guidare gli studenti nel loro percorso formativo e professionale, contribuendo alla riduzione dell'abbandono scolastico e alla promozione del lifelong learning. L'attività di **Formazione sulle tecniche di primo soccorso** e i **Percorsi di istruzione e formazione professionale** sono esempi di iniziative concrete che supportano questo impegno."
+}

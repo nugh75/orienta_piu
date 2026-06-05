@@ -1,0 +1,187 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDEE843025",
+    "denominazione": "Iv - Udine",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Udine",
+    "anno_ptof": "2025-2028",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Padova 9",
+    "cap": "33100",
+    "email": "udic843002@istruzione.it",
+    "pec": "ND",
+    "website": "4icudine.gov.it/le_scuole/a-zardinicussignacco/",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente nel PTOF, non esiste una sezione dedicata con un titolo esplicito. Le attività sono integrate in diverse sezioni."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "ARNAS “G. Brotzu”",
+        "Microcitemico “A. Cao”",
+        "San Michele",
+        "Enti locali",
+        "associazioni di volontariato",
+        "CTM",
+        "ARST",
+        "Cooperativa “La Clessidra”"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita delle scuole del territorio",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Alunni classi terze medie"
+    },
+    {
+      "titolo_attivita": "Progetti e laboratori per BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività dedicate e calibrate in base alle necessità degli alunni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare e DDI",
+      "categoria_principale": "Continuità didattica",
+      "descrizione_e_metodologia": "Contatti costanti con classe d'origine per mantenimento relazioni",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Festival letterari, rassegne teatrali, laboratori scientifici e artistici",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a eventi esterni e collaborazioni",
+      "target": "Alunni ricoverati e compagni di classe"
+    },
+    {
+      "titolo_attivita": "Attività ludiche ed espressive",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Instaurare una relazione positiva",
+      "target": "Tutti i minori presenti in reparto"
+    },
+    {
+      "titolo_attivita": "Mentoring strutturato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Studenti delle superiori come testimoni attivi nelle medie.",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Festival scolastico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Festival di quartiere e passeggiate culturali.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Educazione alla cittadinanza, legalità e democrazia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti musicali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività veicolare la musica per promuovere collaborazione, creatività, gestione emozioni, appartenenza, abilità manuale e comportamenti positivi.",
+      "target": "Primaria e Secondaria di Primo Grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDEE843025\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria A.Zardini/Cussignacco (UDEE843025) per il periodo 2025-2028. L'istituto, situato nel territorio non metropolitano di Udine, in Friuli-Venezia Giulia, si configura come scuola statale. L'analisi si basa sui dati forniti, valutando la presenza, la struttura e l'efficacia delle azioni orientative previste. Sebbene l'orientamento sia integrato nel PTOF, manca una sezione specificamente dedicata e denominata come tale, con un punteggio di 3 su una scala di valutazione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Come precedentemente accennato, l'assenza di una sezione esplicitamente dedicata all'orientamento rappresenta una criticità. Le attività sono disperse all'interno di altre sezioni del PTOF.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di **partnership** con diversi enti e istituzioni. Tra i partner nominati figurano l'ARNAS “G. Brotzu”, il Microcitemico “A. Cao”, San Michele, enti locali, associazioni di volontariato, CTM, ARST e la Cooperativa “La Clessidra”. Questo network di collaborazioni, composto da 8 partner, suggerisce una buona capacità di coinvolgimento del territorio e di apertura verso risorse esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio di 4, indicando un'attenzione completa agli aspetti fondamentali dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono ambiziosi e mirano a **ridurre l'abbandono** scolastico (punteggio 5), a garantire la **continuità territoriale** (punteggio 4), a **contrastare il fenomeno NEET** (punteggio 3), a promuovere il **lifelong learning** (punteggio 4). L'impegno a ridurre l'abbandono scolastico emerge come priorità assoluta.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 4), il rafforzamento del **rapporto scuola-genitori** (punteggio 5) e l'implementazione di un **sistema integrato di inclusione e fragilità** (punteggio 5). Il monitoraggio delle azioni, tuttavia, riceve un punteggio inferiore (3), suggerendo la necessità di un maggiore focus sulla valutazione dell'efficacia delle iniziative.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci che valorizzano l'esperienza degli studenti (punteggio 3), l'utilizzo di **laboratori** (punteggio 3), la **flessibilità degli spazi e dei tempi** (punteggio 5) e l'**interdisciplinarità** (punteggio 4). La flessibilità didattica rappresenta un punto di forza significativo.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 1), di **volontariato** (punteggio 3) e **sportive** (punteggio 3). L'area ludico-ricreativa sembra meno sviluppata rispetto alle altre.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità e degli obiettivi, nella solida rete di **partnership** con enti esterni, nell'attenzione all'inclusione e nella flessibilità della didattica. L'impegno a ridurre l'abbandono scolastico e a rafforzare il rapporto scuola-genitori sono particolarmente apprezzabili. Le attività registrate, come l'**Open Day**, gli **Incontri con scuole superiori**, i **Progetti e laboratori per BES** e il **Mentoring strutturato**, dimostrano un'offerta diversificata e mirata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo rende difficile individuare in modo chiaro e organico le azioni orientative previste. Il punteggio inferiore attribuito al monitoraggio delle azioni suggerisce la necessità di un sistema di valutazione più efficace. L'offerta di attività ludico-ricreative appare meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento. Sebbene le singole attività siano ben strutturate, manca un quadro complessivo che le integri e le coordini. È necessario definire indicatori specifici per misurare l'efficacia delle azioni orientative e monitorare i progressi nel tempo.\n\n### 6. Conclusioni\n\nIl PTOF della scuola A.Zardini/Cussignacco presenta un buon potenziale in termini di orientamento, grazie alla chiarezza delle finalità, alla solidità delle partnership e alla flessibilità della didattica. Tuttavia, per massimizzare l'efficacia delle azioni orientative, è necessario creare una sezione dedicata all'interno del PTOF, definire indicatori di valutazione e rafforzare l'offerta di attività ludico-ricreative. L'implementazione di queste misure consentirebbe alla scuola di offrire un servizio di orientamento più completo e mirato, in grado di supportare gli studenti nel loro percorso di crescita e di sviluppo."
+}

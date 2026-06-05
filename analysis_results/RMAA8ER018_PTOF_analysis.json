@@ -1,0 +1,256 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMAA8ER018",
+    "denominazione": "Ic Via N.M. Nicolai",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via E. Martinetti N.21",
+    "cap": "00137",
+    "email": "rmic8er00b@istruzione.it",
+    "pec": "ND",
+    "website": "www.vianmnicolai.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "visite aziendali",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "visite guidate presso aziende del territorio",
+      "target": "studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per il volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e dei consumi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pratiche sportive per sviluppo psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole di smartphone e app",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione collaborativa. Problem solving.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di informatica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizione individuale e preparazione collaborativa. Problem solving.",
+      "target": "Classi terze, quarte, quinte"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Stimolare l'amore per la chimica e selezione squadra italiana.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Richiamo conoscenze e competenze per test d'accesso.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL su primo soccorso, alimentazione, dipendenze, sessualità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso opzionale: Informatica per tutti",
+      "categoria_principale": "Corsi opzionali",
+      "descrizione_e_metodologia": "Preparazione base di informatica.",
+      "target": "Studenti ordinario e sportivo"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti Matematica e Scienze",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio proficuo su curricolo, competenze, contenuti e metodologie.",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso Matematica e Scienze",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Somministrazione sistematica per individuare difficoltà e carenze.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo su metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attuazione precoce, compiti in collaborazione, carattere permanente.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche e strumentali",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "LIM, aule laboratorio, formazione ICT.",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso aziende, enti e associazioni del territorio. Durata circa 60 ore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario Customer Satisfaction",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario di valutazione dell'attività svolta e dei rapporti con l'azienda.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMAA8ER018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Podere Rosa**, scuola dell'infanzia statale situata a Roma. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF 2022-2025 dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio complessivo positivo nelle diverse dimensioni considerate. L'istituto si distingue per la ricchezza delle **partnership** attivate e la varietà delle attività proposte, orientate allo sviluppo di **attitudini**, **interessi** e alla progettazione del **progetto di vita** degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, il che conferma l'attenzione dell'istituto a questa tematica.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** ampio e diversificato, con ben 11 partner nominati tra cui **aziende locali**, **enti**, associazioni di **volontariato**, il **FAI**, **Special Olympics**, l'**Università di Firenze**, **EDUSCOPIO** e la **Fondazione Agnelli**. Questo elevato numero di collaborazioni, con un punteggio di 7, rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (6) e **interessi** (6). Anche la preparazione alle **transizioni formative** (6) e lo sviluppo di **capacità orientative** per cogliere le **opportunità** (6) ricevono una valutazione positiva. Il **progetto di vita** degli studenti, sebbene considerato, ottiene un punteggio leggermente inferiore (5).\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono** scolastico (5) e di favorire la continuità con il territorio (6). L'obiettivo di contrastare il fenomeno dei **NEET** (3) risulta meno prioritario, così come lo sviluppo del **lifelong learning** (5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento con i servizi (4), il dialogo tra docenti e studenti (6) e il rapporto con i genitori (4). Il monitoraggio delle azioni (3) e l'integrazione con i sistemi di inclusione e fragilità (3) necessitano di maggiore attenzione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (6), sull'utilizzo di laboratori (3), sulla flessibilità degli spazi e dei tempi (5) e sull'approccio interdisciplinare (5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è variegata, con punteggi elevati per le opzionali **culturali** (6) e **laboratoriali espressive** (7). Le opzionali **ludiche ricreative** (3) e quelle dedicate al **volontariato** e allo **sport** (5) completano l'offerta.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza e la varietà delle **partnership** attivate, che consentono di offrire agli studenti esperienze concrete e stimolanti. Le attività proposte, come **Sensibilizzazione patrimonio monumentale**, **visite aziendali**, **Formazione volontari Special Olympics**, **Incontri con ex-studenti**, **CAD – Disegno 3D**, **Referendum sull’acqua pubblica**, **Attività per il benessere**, **Sicurezza informatica**, **Olimpiadi della Matematica**, **Olimpiadi di Informatica**, **Campionati di Fisica**, **Giochi della Chimica**, **Lezioni preparazione test universitari STEM**, **Educazione alla salute**, **Corso opzionale: Informatica per tutti**, **Incontri tra docenti Matematica e Scienze**, **Prove d'ingresso Matematica e Scienze**, **Moduli di rinforzo su metodo di studio**, **Incremento dotazioni tecnologiche e strumentali**, **PCTO** e **Questionario Customer Satisfaction**, coprono un ampio spettro di interessi e competenze.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il monitoraggio delle azioni di orientamento e l'integrazione con i sistemi di inclusione. L'obiettivo di contrastare il fenomeno dei **NEET** appare meno prioritario rispetto agli altri. Anche l'offerta di attività opzionali **ludiche ricreative** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare il monitoraggio e la valutazione delle attività di orientamento, al fine di verificarne l'efficacia e apportare eventuali correzioni. È inoltre auspicabile un maggiore impegno nella prevenzione della dispersione scolastica e nella lotta al fenomeno dei **NEET**.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Podere Rosa** presenta un'offerta orientativa solida e ben strutturata, supportata da un ampio network di **partnership** e da una varietà di attività stimolanti. Pur presentando alcune aree di debolezza, l'istituto dimostra un forte impegno verso l'orientamento e la crescita degli studenti, ponendo le basi per un futuro di successo."
+}

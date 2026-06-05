@@ -1,0 +1,218 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIEE895014",
+    "denominazione": "Ic Montessori",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "San Giuliano Milanese",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "P.Zza Italia",
+    "cap": "20098",
+    "email": "miic895002@istruzione.it",
+    "pec": "ND",
+    "website": "www.montessorionline.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF. L'orientamento è affrontato attraverso attività sparse, senza una struttura organica e riconoscibile."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro su educazione alimentare",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIEE895014\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola Primaria M. Montessori (MIEE895014) per il triennio 2019/20-2021/22. La scuola, situata nel territorio metropolitano di San Giuliano Milanese, in Lombardia, è un istituto statale. L'analisi evidenzia una presenza di attività orientative diffuse, ma una mancanza di una sezione specificamente dedicata e strutturata all'interno del PTOF. Nonostante ciò, l'istituto dimostra un impegno nell'affrontare le finalità dell'orientamento, come lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, la preparazione alle transizioni formative e la capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione dedicata all'orientamento, limitandosi ad affrontare la tematica attraverso attività sparse e non organicamente collegate.\n\n**2.2 Partnership:** La scuola collabora con diversi partner esterni, tra cui **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per arricchire l'offerta formativa e le attività di orientamento. Sono state individuate 3 partnership.\n\n**2.3 Finalità:** L'istituto attribuisce un punteggio elevato (3) a tutte le finalità dell'orientamento considerate: sviluppo di attitudini, interessi, progettazione del percorso di vita, preparazione alle transizioni formative e sviluppo della capacità di cogliere le opportunità.\n\n**2.4 Obiettivi:** Anche in questo caso, la scuola mostra un forte impegno verso gli obiettivi dell'orientamento, con un punteggio di 3 per la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (NEET) e la promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con un punteggio di 3 per il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e l'integrazione tra inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali, tuttavia, risulta meno sviluppato, con un punteggio di 1.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, coprendo ambiti culturali, laboratoriali-espressivi, ludico-ricreativi, di volontariato e sportivi, con un punteggio di 3 per ciascuna categoria.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nell'impegno verso le finalità e gli obiettivi, nella collaborazione con partner esterni e nella varietà dell'offerta didattica e delle attività opzionali. L'istituto dimostra una buona capacità di integrare l'orientamento all'interno delle azioni di sistema e di promuovere un approccio didattico basato sull'esperienza e sulla flessibilità. Le attività registrate, come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d'istruzione**, offrono agli studenti opportunità di crescita e di scoperta.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo comporta una frammentazione delle attività e una mancanza di una visione strategica complessiva. L'utilizzo di metodologie didattiche laboratoriali risulta meno sviluppato rispetto ad altri approcci.\n\n### 5. Gap Analysis\n\nIl gap principale è rappresentato dalla necessità di strutturare un'offerta orientativa più organica e riconoscibile, attraverso la creazione di una sezione dedicata all'interno del PTOF. È necessario potenziare l'utilizzo di metodologie didattiche laboratoriali, al fine di favorire l'apprendimento attivo e l'esperienza diretta.\n\n### 6. Conclusioni\n\nIl PTOF della Primaria M. Montessori dimostra un impegno significativo verso l'orientamento, pur presentando alcune aree di miglioramento. La scuola dovrebbe concentrarsi sulla strutturazione di un'offerta orientativa più organica e sulla valorizzazione delle metodologie didattiche laboratoriali. Le attività registrate, come il **Ritiro di accoglienza**, l'**Educazione alimentare**, l'incontro sulla **tossicodipendenza**, il corso di **primo soccorso**, l'**orientamento post-liceo**, il **Progetto Accoglienza Studenti Stranieri**, l'**Open Day**, i percorsi **PCTO** e le attività di **Formazione** per docenti e personale, rappresentano un valido punto di partenza per lo sviluppo di un sistema di orientamento efficace e integrato."
+}

@@ -1,0 +1,232 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEIC824006",
+    "denominazione": "I.C. Staglieno",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Lodi 4",
+    "cap": "16138",
+    "email": "geic824006@istruzione.it",
+    "pec": "geic824006@pec.istruzione.it",
+    "website": "www.icstaglieno.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC",
+        "Comunità di San Patrignano"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperto",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIC824006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Staglieno (GEIC824006) per il periodo 2019/20-2021/22. L'istituto, di ordine II grado e situato nel territorio metropolitano di Genova, presenta un PTOF che dedica spazio specifico all'orientamento, dimostrando una consapevolezza dell'importanza di questo ambito per la crescita degli studenti. La valutazione complessiva evidenzia un impegno significativo nella definizione di finalità, obiettivi e azioni volte a supportare gli studenti nelle loro scelte formative e professionali, con un'attenzione particolare alla prevenzione della dispersione scolastica e all'inserimento nel mondo del lavoro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, confermando l'attenzione dell'istituto a questo aspetto cruciale.\n\n**2.2 Partnership:** L'istituto ha sviluppato una rete di **partnership** con diversi **enti ed istituzioni**, tra cui **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto**, l'**Associazione ABC** e la **Comunità di San Patrignano**. Questa collaborazione, quantificata in 4 partnership, rappresenta un valore aggiunto per l'offerta orientativa, consentendo agli studenti di entrare in contatto con realtà esterne e di ampliare le proprie prospettive.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità del futuro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità** tra i diversi ordini di scuola e il territorio, a **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema, tra cui il **coordinamento dei servizi** di orientamento, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e l'integrazione di azioni orientative in diverse aree dell'offerta formativa. La rete di **partnership** con enti esterni, in particolare con la **Comunità di San Patrignano** e la **Croce Verde di Ospitaletto**, rappresenta un valore aggiunto significativo. L'istituto dimostra un'attenzione particolare alla prevenzione della dispersione scolastica e all'inserimento nel mondo del lavoro, con obiettivi ben definiti e azioni concrete. L'offerta di attività opzionali diversificate contribuisce a personalizzare i percorsi formativi e a valorizzare le attitudini e gli interessi degli studenti.\n\n### 4. Aree di Debolezza\n\nL'analisi dei dati rivela una minore attenzione alla didattica **laboratoriale** rispetto ad altre metodologie, con un punteggio di 2. Questo suggerisce la necessità di potenziare le attività pratiche e di sperimentazione, che possono favorire l'apprendimento attivo e lo sviluppo di competenze specifiche.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra la definizione di obiettivi ambiziosi e la loro effettiva implementazione. Il monitoraggio delle azioni orientative dovrebbe essere rafforzato per valutare l'efficacia degli interventi e apportare eventuali correzioni. Inoltre, sarebbe opportuno ampliare la rete di **partnership** con aziende e professionisti del territorio, per offrire agli studenti opportunità di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento Professionale) più mirate e significative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Staglieno presenta un approccio proattivo all'orientamento, con una solida base teorica e una buona implementazione di azioni concrete. L'istituto dimostra una consapevolezza dell'importanza di questo ambito per la crescita degli studenti e si impegna a fornire loro gli strumenti necessari per affrontare le sfide del futuro. Il potenziamento della didattica **laboratoriale** e il rafforzamento del monitoraggio delle azioni orientative rappresentano le aree di miglioramento prioritario per garantire l'efficacia del PTOF e massimizzare i benefici per gli studenti. Le attività come **Stage in Inghilterra**, **Stage di vela** e **Escursionismo alpino** sono esempi concreti di come l'istituto integri l'orientamento con esperienze pratiche e stimolanti."
+}

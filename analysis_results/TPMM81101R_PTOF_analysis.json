@@ -1,0 +1,247 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TPMM81101R",
+    "denominazione": "I.C. \"Maria Montessori",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Alcamo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Trapani",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Italia N.9",
+    "cap": "91011",
+    "email": "tpic81100q@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmariamontessori.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'offerta formativa musicale"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune di Alcamo",
+        "ASL",
+        "Università",
+        "Mattarella Dolci",
+        "Cooperative ed Associazioni del territorio",
+        "Lingua+",
+        "Consulenti esterni",
+        "Associazioni",
+        "Fondazione Chiaravalle Montessori",
+        "Lega Navale Italiana",
+        "genitori",
+        "esperti",
+        "Associazioni sportive",
+        "Associazioni musicali"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di latino",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Offerta di corso di latino per studenti interessati a proseguire gli studi liceali.",
+      "target": "Studenti della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Esami Trinity",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Offerta di corsi e preparazione per esami di certificazione linguistica Trinity.",
+      "target": "Studenti di tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Esami musicali Classica e Jazz",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Sede registrata per esami di musica.",
+      "target": "Studenti di tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Progettazione di percorsi didattici orientanti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi didattici per sviluppo competenze autovalutative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Strumenti per monitoraggio",
+      "categoria_principale": "Monitoraggio",
+      "descrizione_e_metodologia": "Realizzazione strumenti monitoraggio traiettorie studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Insegnamento trasversale con 33 ore annuali",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Fumettiamo",
+      "categoria_principale": "IRC",
+      "descrizione_e_metodologia": "Attività alternativa all'IRC",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di potenziamento Lingua inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Metodologie di approccio alle prove “Computer based”",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Generazioni Connesse",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Visioni di film, seminari sul bullismo e cyberbullismo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Uscite sul territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Partecipazione a iniziative ed eventi locali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Concorsi esterni",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Partecipazione a giochi matematici, premi linguistici, etc.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Suoniamo con i musicisti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni con musicisti in compresenza con docenti e corso pomeridiano di strumento.",
+      "target": "Classi quinte scuola primaria"
+    },
+    {
+      "titolo_attivita": "Percorso ordinamentale a indirizzo musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni individuali e collettive di strumento, teoria musicale, musica d'insieme.",
+      "target": "Classi prime scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Esami Trinity College London",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esami di musica Classica & Jazz.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Progetto trasversale",
+      "descrizione_e_metodologia": "Didattica attiva, metodologie montessoriane, tematiche Agenda 2030",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Casa Gaia",
+      "categoria_principale": "Progetto didattico",
+      "descrizione_e_metodologia": "Apprendimento autonomo, manipolazione materiali scientifici",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Educazione cosmica",
+      "categoria_principale": "Progetti curricolari",
+      "descrizione_e_metodologia": "Approccio predisciplinare e interdisciplinare alle materie del curricolo.",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Corsi pomeridiani di Francese – Tedesco",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Corsi pomeridiani",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TPMM81101R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della Scuola Media “Mirabella” (TPMM81101R) per il triennio 2022-2025. La scuola, situata nel territorio non metropolitano di Alcamo, in Sicilia, si distingue per un approccio orientativo ben strutturato, come evidenziato dai punteggi ottenuti nelle diverse dimensioni analizzate. L'istituto statale dimostra un forte impegno nell'ampliare l'offerta formativa, con particolare attenzione alle attività musicali e alle partnership con enti esterni. L'orientamento è concepito come un processo volto a sviluppare attitudini, interessi, progetti di vita, capacità orientative e a facilitare le transizioni formative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'offerta formativa musicale, ottenendo un punteggio di 3. Questo indica un’attenzione specifica verso questo ambito, sebbene possa essere ulteriormente approfondito.\n\n**2.2 Partnership:** La scuola vanta un network di **14 partner**, tra cui il **Comune di Alcamo**, l’**ASL**, diverse **università**, **Mattarella Dolci**, **cooperative ed associazioni del territorio**, **Lingua+**, **consulenti esterni**, varie **associazioni**, la **Fondazione Chiaravalle Montessori**, la **Lega Navale Italiana**, i **genitori**, **esperti**, **associazioni sportive** e **associazioni musicali**. Questo elevato numero di collaborazioni (punteggio 5) testimonia una forte apertura verso il territorio e la volontà di arricchire l'offerta formativa attraverso risorse esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** (6), gli **interessi** (6), il **progetto di vita** (5), le **transizioni formative** (5) e le **capacità orientative** (6) degli studenti. Questo approccio olistico sottolinea l'importanza di un orientamento che vada oltre la semplice scelta della scuola superiore.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (4), la continuità territoriale (4), il contrasto al fenomeno **NEET** (2) e la promozione del **lifelong learning** (5). L'obiettivo di contrastare i NEET risulta meno prioritario rispetto agli altri.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste comprendono il coordinamento dei servizi (3), il dialogo tra docenti e studenti (4), il rapporto scuola-genitori (4), il monitoraggio delle azioni (3) e la creazione di un sistema integrato di inclusione e fragilità (4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (5), sull'utilizzo di metodologie laboratoriali (6), sulla flessibilità degli spazi e dei tempi (4) e sull'approccio interdisciplinare (6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni culturali (3), laboratoriali ed espressive (7), ludiche e ricreative (3), di volontariato (3) e sportive (3). Le opzionali laboratoriali ed espressive rappresentano un punto di forza dell'offerta formativa.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF riguardano l'ampio network di **partnership**, la chiarezza delle **finalità orientative**, l'utilizzo di metodologie didattiche innovative come quelle **laboratoriali** e **interdisciplinari**, e la ricca offerta di attività opzionali, in particolare quelle **laboratoriali ed espressive**. L'attenzione alla musica, con la presenza di una sezione dedicata e l'organizzazione di **esami musicali Classica e Jazz**, rappresenta un valore aggiunto. Progetti come **Montessori Day** e **Casa Gaia** dimostrano un impegno verso metodologie didattiche attive e innovative.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno **NEET**, che ottiene un punteggio inferiore rispetto agli altri obiettivi. Anche il coordinamento dei servizi e il monitoraggio delle azioni necessitano di un maggiore approfondimento. La sezione dedicata all'orientamento musicale, pur presente, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare le azioni volte a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro. È necessario implementare strategie mirate per contrastare il fenomeno **NEET** e garantire una maggiore efficacia del monitoraggio delle azioni intraprese.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Media “Mirabella” presenta un solido impianto orientativo, caratterizzato da una forte attenzione alla collaborazione con il territorio, all'innovazione didattica e allo sviluppo delle competenze degli studenti. L'istituto si distingue per la ricchezza dell'offerta formativa, con particolare riferimento alle attività musicali e alle opzioni laboratoriali ed espressive. Pur presentando alcune aree di debolezza, il PTOF dimostra un chiaro impegno verso un orientamento completo e personalizzato, volto a supportare gli studenti nel loro percorso di crescita e a prepararli alle sfide del futuro. Attività come **Progetto di latino**, **Esami Trinity**, **Progettazione di percorsi didattici orientanti**, **Coding**, **Fumettiamo** e **Uscite sul territorio** contribuiscono a creare un ambiente scolastico stimolante e orientato al successo formativo."
+}

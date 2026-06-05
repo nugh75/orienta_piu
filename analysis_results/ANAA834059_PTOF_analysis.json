@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ANAA834059",
+    "denominazione": "Corinaldo",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Castelleone Di Suasa",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cristoforo Colombo N.27",
+    "cap": "60010",
+    "email": "anic834008@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccorinaldo.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Nonostante la presenza di attività orientative, non è identificabile una sezione dedicata specificamente all'orientamento nel documento PTOF. Le iniziative sono integrate in diverse aree, ma manca una trattazione organica e strutturata."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive, socializzazione, programmazione personalizzata.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione della scuola e dell'offerta formativa.",
+      "target": "Futuri studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale.",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione in presenza",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ANAA834059\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Castell.\"Bambini Di S.Giuliano\"** (ID scuola: **ANAA834059**), relativo al triennio **2019/20-2021/22**. L'istituto, di tipo **Infanzia**, situato nel comune di **Castelleone Di Suasa** (provincia di **Ancona**, regione **Marche**), è una scuola **statale**. L'analisi si basa su una valutazione dimensionale delle aree chiave dell'orientamento, identificando punti di forza, aree di debolezza e gap da colmare. Sebbene siano presenti diverse attività orientative, il PTOF non presenta una sezione specificamente dedicata e strutturata all'orientamento, integrando le iniziative in diverse aree del piano.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia l'assenza di una sezione dedicata specificamente all'orientamento nel documento PTOF, nonostante la presenza di attività orientative integrate in altre aree.\n\n**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione con diversi partner, tra cui **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Sono state individuate quattro partnership significative.\n\n**2.3 Finalità:** Il PTOF definisce chiaramente le finalità dell'orientamento, focalizzandosi sullo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, sulla preparazione alle **transizioni formative** e sullo sviluppo delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio elevato.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale**, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**. Anche in questo caso, gli obiettivi sono ben definiti, ma con un punteggio medio.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza** degli studenti, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'utilizzo della didattica **laboratoriale** risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e nella varietà delle azioni di sistema messe in atto. L'istituto dimostra una buona capacità di collaborare con partner esterni e di offrire un'ampia gamma di attività opzionali per gli studenti. Le attività registrate, come **Potenziamento linguistico**, **Potenziamento sportivo**, **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra**, **Viaggio d’istruzione** e **Progetto Accoglienza Studenti Stranieri**, contribuiscono a un'offerta formativa completa e orientata allo sviluppo delle competenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Sebbene le attività orientative siano presenti, manca una trattazione organica e strutturata che ne definisca chiaramente gli obiettivi, le strategie e le modalità di valutazione. La didattica laboratoriale, pur presente, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare una sezione dedicata all'orientamento nel PTOF, che integri le attività esistenti in un quadro coerente e strategico. È necessario definire indicatori di performance per valutare l'efficacia delle azioni intraprese e monitorare i progressi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Castell.\"Bambini Di S.Giuliano\"** presenta un buon livello di attenzione all'orientamento, con finalità chiare, azioni di sistema efficaci e un'ampia offerta di attività. Tuttavia, per migliorare l'efficacia dell'orientamento, è necessario strutturare una sezione dedicata all'interno del PTOF, definendo obiettivi specifici, strategie chiare e indicatori di performance. L'istituto dovrebbe inoltre potenziare la didattica laboratoriale e monitorare costantemente i progressi degli studenti."
+}

@@ -1,0 +1,247 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "POPC001014",
+    "denominazione": "F. Cicognini - G. Rodari",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Prato",
+    "anno_ptof": "2022-2025",
+    "provincia": "Prato",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Baldanzi 16",
+    "cap": "59100",
+    "email": "pois00100r@istruzione.it",
+    "pec": "pvps05000q@pec.istruzione.it",
+    "website": "www.cicogninirodari.prato.gov.it",
+    "tipo_scuola_dettaglio": "Liceo Classico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'offerta formativa PCTO"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università degli Studi di Pavia",
+        "Ospedali",
+        "Ordine dei Medici",
+        "OPI Pavia",
+        "Strutture ospedaliere cittadine",
+        "Banca Intesasanpaolo",
+        "Provincia pavese",
+        "Gran Sasso Science Institute",
+        "Istituto Nazionale di Fisica Nucleare",
+        "Fondazione I.R.C.C.S. Policlinico San Matteo",
+        "FAI",
+        "Altre scuole",
+        "Altre associazioni",
+        "Google Suite"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Power",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ora aggiuntiva di Fisica",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Percorso Biomedicale Ippocrate",
+      "categoria_principale": "Ampliamento offerta",
+      "descrizione_e_metodologia": "Potenziamento Scienze Naturali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Ampliamento offerta",
+      "descrizione_e_metodologia": "Potenziamento lingua inglese",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso cliniche, laboratori, servizi ai pazienti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite documentative guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a strutture sanitarie con medici specialisti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Z-lab Banca Intesasanpaolo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alfabetizzazione economica e finanziaria, sviluppo soft skills.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un'esperienza alla Provincia pavese",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Redazione quotidiano locale, lavoro di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "FAI: apprendisti ciceroni",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate a beni architettonici pavesi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di fisica articolate in più fasi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scaccopernico",
+      "categoria_principale": "Giochi",
+      "descrizione_e_metodologia": "Insegnamento degli scacchi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rafting",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Esplorazione del fiume Ticino, attività di gruppo, pratica del rafting.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Badminton",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Teoria e pratica del badminton, costruzione campi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola di sci",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività di avviamento/perfezionamento sci.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Camposcuola Isola d'Elba",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Esperienze dirette: botanica, geologia, ecologia, trekking.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Apertura biblioteca al pubblico, gestione libri.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Formazione Google Suite",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Webinar e tutorial sull'utilizzo di Google Suite",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Acquisizione abilità base per utilizzo strumenti digitali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Lingua Inglese",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Corsi, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Applicazioni digitali per la didattica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Social networking, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF POPC001014\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo F. Cicognini (POPC001014) per il triennio 2022-2025. La scuola, situata a Prato, in Toscana, si configura come un istituto statale di secondo grado. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni intraprese e le attività proposte. In generale, il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione dedicata e un'ampia gamma di partnership attivate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento: Sezione Dedicata**\n\nIl PTOF presenta una sezione specificamente dedicata all'offerta formativa relativa al **PCTO**, ottenendo un punteggio massimo di 5. Questo indica un impegno concreto nell'integrazione dell'orientamento all'interno del piano scolastico.\n\n**2.2 Partnership**\n\nLa scuola vanta un network di **14 partner**, tra cui **Università degli Studi di Pavia**, diversi **Ospedali** e l'**Ordine dei Medici**, l'**OPI Pavia**, il **Gran Sasso Science Institute**, l'**Istituto Nazionale di Fisica Nucleare**, la **Fondazione I.R.C.C.S. Policlinico San Matteo**, il **FAI**, **Banca Intesasanpaolo**, la **Provincia pavese** e **Google Suite**. Questa rete diversificata offre agli studenti opportunità di confronto con il mondo del lavoro e del sapere, con un punteggio di valutazione pari a 4.\n\n**2.3 Finalità**\n\nLe finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** e delle **transizioni formative**, nonché al potenziamento delle **capacità orientative** e delle **opportunità** future. Tutte queste aree ricevono un punteggio di 4, evidenziando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi**\n\nGli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 3), il mantenimento della continuità con il territorio (punteggio 4), il contrasto alla dispersione dei **NEET** (punteggio 3) e la promozione del **lifelong learning** (punteggio 2).\n\n**2.5 Azioni di Sistema**\n\nLe azioni di sistema previste comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità, tutte con un punteggio di 3.\n\n**2.6 Didattica Orientativa**\n\nLa didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 4).\n\n**2.7 Opzionali e Facoltative**\n\nL'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella ricchezza delle **partnership** attivate e nella completezza delle finalità perseguite. Le attività proposte, come il **Percorso Biomedicale Ippocrate**, il **Liceo Cambridge**, il **Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)**, le **Visite documentative guidate**, lo **Z-lab Banca Intesasanpaolo** e l'iniziativa con la **Provincia pavese**, offrono agli studenti opportunità concrete di orientamento e di sviluppo delle proprie competenze.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza riscontrata è la valutazione leggermente inferiore degli obiettivi di riduzione dell'abbandono e contrasto ai NEET, suggerendo la necessità di un maggiore focus su questi aspetti. Anche la promozione del lifelong learning, con un punteggio di 2, potrebbe beneficiare di un'attenzione più specifica.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di riduzione dell'abbandono e contrasto ai NEET in azioni concrete e misurabili. Inoltre, sarebbe opportuno potenziare le iniziative volte a promuovere il lifelong learning, ad esempio attraverso l'offerta di corsi di formazione continua o di aggiornamento professionale.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del Liceo F. Cicognini dimostra un impegno significativo nell'ambito dell'orientamento, con una solida base di finalità, obiettivi e azioni. La ricchezza delle partnership e la varietà delle attività proposte rappresentano un valore aggiunto per gli studenti. Pur evidenziando alcune aree di debolezza, il PTOF si presenta come un documento ben strutturato e coerente, in grado di fornire un valido supporto all'orientamento degli studenti. Le attività come **Olimpiadi della Fisica**, **Scaccopernico**, **Rafting**, **Badminton**, **Scuola di sci**, **Camposcuola Isola d'Elba**, **Progetto Biblioteca**, **Formazione Google Suite**, **Alfabetizzazione digitale**, **Lingua Inglese** e **Applicazioni digitali per la didattica** arricchiscono ulteriormente l'offerta formativa."
+}

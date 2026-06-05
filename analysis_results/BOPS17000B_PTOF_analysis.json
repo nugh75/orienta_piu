@@ -1,0 +1,280 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPS17000B",
+    "denominazione": "Liceo Rambaldi - Valeriani - A. Da Imola",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Imola",
+    "anno_ptof": "2016-2019",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Guicciardini 4",
+    "cap": "40026",
+    "email": "bops17000b@istruzione.it",
+    "pec": "bops17000b@pec.istruzione.it",
+    "website": "www.imolalicei.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "UNINDUSTRIA",
+        "ASL",
+        "UNIBO",
+        "soggetti del sistema produttivo",
+        "professioni",
+        "Enti pubblici",
+        "Enti privati",
+        "ITS",
+        "aziende",
+        "COSPE",
+        "Amnesty International",
+        "Centro RiESco",
+        "Associazione parenti delle Vittime della strage di Ustica",
+        "San.Arti",
+        "Unindustria",
+        "CEAS La Raganella",
+        "Regione Emilia-Romagna",
+        "FEDERAZIONE delle ASSOCIAZIONI DONATORI MIDOLLO OSSEO",
+        "Scuola Antartide",
+        "Istituto Salesiani",
+        "Comune di Bologna",
+        "CD-Lei",
+        "Ateneo di Bologna, Modena e Reggio Emilia"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro ASL",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di alternanza scuola-lavoro con l'ASL locale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto DESI",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo d’intesa scuola-industria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con aziende del settore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione di stage aziendali e tirocini",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Azioni di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti e visite aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tirocinio Formativo con ASP Città di Bologna",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Inserimento studenti in tirocinio per verifica competenze",
+      "target": "Studenti del corso Socio-Sanitario"
+    },
+    {
+      "titolo_attivita": "Progetto DESI",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Expeditions",
+      "categoria_principale": "Visite/Uscite Didattiche",
+      "descrizione_e_metodologia": "Visite presso il MAST",
+      "target": "Classi III"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e docenti, partecipazione a progetti europei",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistico curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Soggiorni studio all'estero (Londra, Edimburgo, York, Dublino)",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche (PET, FCE)",
+      "categoria_principale": "Potenziamento competenze",
+      "descrizione_e_metodologia": "Corsi di preparazione e sostenimento esami Cambridge ESOL",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Settimana intensiva di allenamento, corsi extrascolastici",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Corso propedeutico Aldini per Ingegneria",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Risoluzione test, approfondimento argomenti",
+      "target": "Studenti interessati all'università"
+    },
+    {
+      "titolo_attivita": "Laboratori Scuol@ 2.0",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Micro-laboratori tecnologico-scientifici e creativi",
+      "target": "Studenti senza insufficienze"
+    },
+    {
+      "titolo_attivita": "Gioco Reale",
+      "categoria_principale": "Educazione alla Legalità",
+      "descrizione_e_metodologia": "Laboratorio teatrale sull'improvvisazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Festival Teatrale per le Scuole Superiori",
+      "categoria_principale": "Promozione Territoriale",
+      "descrizione_e_metodologia": "Organizzazione festival teatrale",
+      "target": "Studenti e scuole del territorio"
+    },
+    {
+      "titolo_attivita": "Laboratorio cinematografico interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Visione e analisi di film da Paesi extraeuropei. Studio grammatica filmica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto EDU",
+      "categoria_principale": "Cittadinanza Globale",
+      "descrizione_e_metodologia": "Formazione docenti, Unità di Apprendimento su temi globali.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto inclusione (PON)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti PON per l'inclusione scolastica.",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Visite guidate, informazioni, laboratori",
+      "target": "Studenti Scuole Medie e genitori"
+    },
+    {
+      "titolo_attivita": "Giornate di orientamento",
+      "categoria_principale": "Orientamento interno",
+      "descrizione_e_metodologia": "Incontri con docenti per spiegare le specializzazioni",
+      "target": "Studenti Biennio"
+    },
+    {
+      "titolo_attivita": "Incontri con aziende",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Presentazione opportunità lavorative",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Sportello Orientamento e Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Servizio di supporto per transizione lavoro/università",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPS17000B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Rambaldi - Valeriani - A. Da Imola** (BOPS17000B), relativo all'anno **2016-2019**. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni intraprese e le attività realizzate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un elevato numero di **partnership** attivate. L'istituto si concentra sulla preparazione degli studenti al **progetto di vita**, sulle **transizioni formative** e sullo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **22 partner**, tra cui **UNINDUSTRIA**, **ASL**, **UNIBO**, diversi **enti pubblici e privati**, **ITS**, **aziende**, **COSPE**, **Amnesty International**, e altre ancora. Questa vasta rete di collaborazioni rappresenta un punto di forza significativo per l'offerta orientamentale, consentendo agli studenti di entrare in contatto con il mondo del lavoro e del volontariato.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo del **progetto di vita** e delle **transizioni formative**, con un punteggio di 5 per entrambe le aree. Anche lo sviluppo delle **capacità orientative** per cogliere le opportunità future è considerato prioritario. Le attitudini e gli interessi degli studenti ricevono un punteggio leggermente inferiore (3), suggerendo un potenziale margine di miglioramento in questa direzione.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** e il mantenimento di un forte legame con il **territorio**, entrambi con un punteggio di 5. L'obiettivo di contrastare il fenomeno dei **NEET** ottiene un punteggio inferiore (3), indicando una possibile area di intervento. La promozione del **lifelong learning** è considerata un obiettivo importante, con un punteggio di 5.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti** e un forte coinvolgimento delle **famiglie**, tutte aree con un punteggio di 5. Il **monitoraggio delle azioni** risulta meno strutturato (punteggio 3), mentre il sistema integrato per l'inclusione e la gestione delle fragilità ottiene un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**, tutte aree con un punteggio di 5. L'utilizzo della **didattica laboratoriale** risulta meno frequente (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** e **laboratoriali espressive** con un punteggio di 5. Le attività **ludico-ricreative** e di **volontariato** sono meno sviluppate (punteggio 1), mentre le attività **sportive** ottengono un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con il mondo del lavoro, gli enti pubblici e le associazioni del territorio. L'impegno verso lo sviluppo del **progetto di vita** degli studenti e la preparazione alle **transizioni formative** rappresentano un altro elemento positivo. L'attenzione alla didattica esperienziale e alla flessibilità didattica contribuisce a creare un ambiente di apprendimento stimolante e orientato alle esigenze degli studenti. Le attività come **Alternanza scuola-lavoro ASL**, **Progetto DESI** e **Protocollo d’intesa scuola-industria** sono esempi concreti di questo impegno.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la minore attenzione alle **attitudini** e agli **interessi** degli studenti nella definizione delle finalità dell'orientamento. Il **monitoraggio delle azioni** intraprese risulta meno strutturato, e l'offerta di attività **ludico-ricreative** e di **volontariato** potrebbe essere ampliata. L'obiettivo di contrastare il fenomeno dei **NEET** necessita di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità orientate allo sviluppo del **progetto di vita** e la minore attenzione alle **attitudini** e agli **interessi** degli studenti suggerisce la necessità di personalizzare maggiormente l'offerta orientamentale. Il monitoraggio delle azioni potrebbe essere potenziato attraverso l'utilizzo di indicatori specifici e la raccolta di feedback da parte degli studenti e dei partner. L'ampliamento dell'offerta di attività **ludico-ricreative** e di **volontariato** potrebbe contribuire a sviluppare le competenze trasversali e la consapevolezza sociale degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Rambaldi - Valeriani - A. Da Imola** dimostra un forte impegno verso l'orientamento, con una solida base di **partnership** e una chiara definizione delle finalità e degli obiettivi. Pur presentando alcune aree di debolezza, il PTOF offre un quadro complessivamente positivo e promettente per la preparazione degli studenti alle sfide del futuro. Attività come **Stage linguistico curricolare**, **Progetti Erasmus** e lo **Sportello Orientamento e Lavoro** rappresentano un valore aggiunto per la comunità scolastica."
+}

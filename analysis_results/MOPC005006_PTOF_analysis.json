@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MOPC005006",
+    "denominazione": "Sacro Cuore",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Modena",
+    "anno_ptof": "2022-2025",
+    "provincia": "Modena",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Viale Storchi 249",
+    "cap": "41121",
+    "email": "segreteria@sacrocuoremodena.it",
+    "pec": "cgpstsg-modena@overpec.it",
+    "website": "www.sacrocuoremodena.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "FISM",
+        "neuropsichiatria di Bonate Sotto",
+        "cooperative del territorio",
+        "ATS",
+        "Amministrazione comunale",
+        "Biblioteca comunale",
+        "Caritas parrocchiale",
+        "Oratorio",
+        "Polizia Locale",
+        "Associazione anziani",
+        "Adasm-fism",
+        "Ufficio Diocesano per la Pastorale Scolastica",
+        "Bicocca",
+        "psicologa della struttura"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 2
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio Scientifico",
+      "categoria_principale": "scientifico",
+      "descrizione_e_metodologia": "Esplorazione, sperimentazione, indagine",
+      "target": "bambini 3 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione alla Teatralità",
+      "categoria_principale": "teatrale",
+      "descrizione_e_metodologia": "Consapevolezza del sé, relazione interpersonale",
+      "target": "bambini 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale e di Ascolto",
+      "categoria_principale": "musicale",
+      "descrizione_e_metodologia": "Ascolto, movimento, sperimentazione",
+      "target": "bambini 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio del Riciclo",
+      "categoria_principale": "ambientale",
+      "descrizione_e_metodologia": "Riciclo, riuso, creatività",
+      "target": "bambini 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Linguistico: La Costruzione del Libro",
+      "categoria_principale": "linguistico",
+      "descrizione_e_metodologia": "Narrazione, creazione libro",
+      "target": "bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Logico-Matematico",
+      "categoria_principale": "logico-matematico",
+      "descrizione_e_metodologia": "Sviluppo pensiero matematico, gioco",
+      "target": "bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Incontri con specialisti (neuropsichiatri, logopedisti, psicomotricisti)",
+      "categoria_principale": "Supporto e consulenza",
+      "descrizione_e_metodologia": "Calendarizzazione di incontri con specialisti per bambini certificati.",
+      "target": "Bambini certificati"
+    },
+    {
+      "titolo_attivita": "Progetto per minori certificati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto coordinato da diverse figure per ottimizzare risorse e garantire qualità.",
+      "target": "Minori con disabilità certificate"
+    },
+    {
+      "titolo_attivita": "Passaggio informazioni scuola infanzia-primaria",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Raccordo e condivisione strategie formative.",
+      "target": "Bambini in transizione"
+    },
+    {
+      "titolo_attivita": "Progetti condivisi con la biblioteca comunale",
+      "categoria_principale": "Lettura e scrittura",
+      "descrizione_e_metodologia": "Avvicinare i bambini al mondo della lettura",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Caritas parrocchiale",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Aiuto alle famiglie con fragilità economica",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti di religione con l'Oratorio",
+      "categoria_principale": "Religione",
+      "descrizione_e_metodologia": "Attività durante l'Avvento e la Pasqua",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Formazione e aggiornamento docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, seminari, laboratori, ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incontri scuola-famiglia",
+      "categoria_principale": "Relazione con le famiglie",
+      "descrizione_e_metodologia": "Assemblee, colloqui individuali",
+      "target": "Genitori"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MOPC005006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia \"Sacro Cuore\" di Modena (ID scuola MOPC005006) per il triennio 2022-2025. La scuola, paritaria, situata in un territorio non metropolitano dell'area geografica Nord Est, dimostra un impegno significativo nella costruzione di una rete di **partnership** con diversi attori del territorio. L'analisi evidenzia una buona attenzione alle finalità formative, con particolare riguardo allo sviluppo di attitudini, interessi e alla progettazione del percorso di vita degli alunni. Sebbene siano presenti diverse azioni a sistema, si riscontra una minore attenzione al monitoraggio delle stesse e alla capacità di orientare verso opportunità concrete.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola vanta un solido network di collaborazioni con 14 partner, tra cui **FISM**, la **neuropsichiatria di Bonate Sotto**, **cooperative del territorio**, **ATS**, l'**Amministrazione comunale**, la **Biblioteca comunale**, la **Caritas parrocchiale**, l'**Oratorio**, la **Polizia Locale**, l'**Associazione anziani**, **Adasm-fism**, l'**Ufficio Diocesano per la Pastorale Scolastica**, **Bicocca** e la **psicologa della struttura**. Questo elevato numero di collaborazioni (punteggio 3) suggerisce una forte integrazione della scuola nel contesto territoriale.\n\n**2.3 Finalità:** Le finalità formative sono ben definite e mirano a sviluppare le attitudini, gli interessi e a supportare la progettazione del percorso di vita degli alunni (punteggio 3 per ciascuna finalità). Si riscontra un punteggio leggermente inferiore (1) per la finalità relativa allo sviluppo delle capacità orientative verso le opportunità, suggerendo un'area di miglioramento.\n\n**2.4 Obiettivi:** L'obiettivo di garantire la continuità territoriale è ben presente (punteggio 3), mentre l'attenzione alla riduzione dell'abbandono scolastico e al contrasto al fenomeno NEET è meno marcata (punteggio 0 per entrambi). L'impegno verso il **lifelong learning** è presente, ma con un punteggio limitato (1).\n\n**2.5 Azioni a Sistema:** La scuola implementa azioni di coordinamento con i servizi territoriali (punteggio 3), promuove il dialogo tra docenti e studenti (punteggio 2) e cura il rapporto con le famiglie (punteggio 3). L'assenza di un sistema di monitoraggio delle azioni intraprese (punteggio 0) rappresenta una criticità. L'attenzione all'inclusione e alla fragilità è ben sviluppata (punteggio 3).\n\n**2.6 Didattica Orientativa:** La didattica è orientata all'esperienza degli studenti (punteggio 3), ma l'utilizzo di metodologie laboratoriali e la flessibilità degli spazi e dei tempi didattici risultano meno sviluppate (punteggio 1 e 2 rispettivamente). L'approccio interdisciplinare è presente, ma con un punteggio moderato (2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include laboratori espressivi (punteggio 3), mentre le opzioni culturali, ludiche, di volontariato e sportive sono meno presenti (punteggio 1 per ciascuna).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la consolidata rete di **partnership** con il territorio, che permette alla scuola di offrire un'ampia gamma di opportunità agli alunni. L'attenzione alle finalità formative e alle azioni a sistema, in particolare al coordinamento con i servizi territoriali e al rapporto con le famiglie, rappresentano ulteriori elementi positivi. Le attività laboratoriali, come il **Laboratorio Scientifico**, il **Laboratorio di Educazione alla Teatralità**, il **Laboratorio Musicale e di Ascolto**, il **Laboratorio del Riciclo**, il **Laboratorio Linguistico: La Costruzione del Libro** e il **Laboratorio Logico-Matematico**, offrono stimoli diversificati e mirati. Il supporto a bambini certificati tramite incontri con specialisti e progetti dedicati è un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specifica dedicata all'orientamento e la scarsa attenzione al monitoraggio delle azioni intraprese rappresentano le principali aree di debolezza. L'impegno verso il **lifelong learning** e la capacità di orientare verso opportunità concrete necessitano di essere rafforzati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un sistema di orientamento più organico e di definire indicatori per valutare l'efficacia delle azioni intraprese. È necessario potenziare le attività volte a sviluppare le capacità orientative degli alunni verso le opportunità formative e professionali, e a prevenire l'abbandono scolastico.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Sacro Cuore\" di Modena dimostra un impegno significativo nella costruzione di un ambiente educativo inclusivo e orientato allo sviluppo integrale degli alunni. La solida rete di **partnership** e l'attenzione alle finalità formative rappresentano punti di forza da consolidare. Per migliorare l'efficacia del PTOF, è necessario strutturare un sistema di orientamento più organico, definire indicatori di monitoraggio e potenziare le attività volte a sviluppare le capacità orientative degli alunni verso le opportunità future. Progetti come il **passaggio informazioni scuola infanzia-primaria**, i **progetti condivisi con la biblioteca comunale**, la **collaborazione con Caritas parrocchiale**, i **progetti di religione con l'Oratorio**, la **formazione e aggiornamento docenti**, gli **incontri scuola-famiglia** sono elementi validi che, integrati in un sistema di orientamento più strutturato, possono contribuire a garantire un futuro migliore per gli alunni."
+}

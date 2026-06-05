@@ -1,0 +1,190 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CZ1A17500A",
+    "denominazione": "L'Isola Felice",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Catanzaro",
+    "anno_ptof": "2025-2028",
+    "provincia": "Catanzaro",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Bausan 19",
+    "cap": "88100",
+    "email": "isolafelicecz@libero.it",
+    "pec": "insiemeper@pec.it",
+    "website": "www.isolafelicecz.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "ARNAS “G. Brotzu”",
+        "Microcitemico “A. Cao”",
+        "San Michele",
+        "Enti locali",
+        "Cooperativa “La Clessidra”"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita delle scuole del circuito",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Alunni classi terze medie"
+    },
+    {
+      "titolo_attivita": "Progetti e laboratori per BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto e inclusione alunni con BES",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "PDP per alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PDP per alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare e DDI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Contatti costanti con alunni ospedalizzati",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Festival letterari, rassegne teatrali, laboratori scientifici e artistici",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a eventi esterni e collaborazioni",
+      "target": "Alunni ricoverati e compagni di classe"
+    },
+    {
+      "titolo_attivita": "Attività ludiche ed espressive",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Instaurare una relazione positiva con i bambini",
+      "target": "Tutti i minori presenti in reparto"
+    },
+    {
+      "titolo_attivita": "Mentoring strutturato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Studenti delle superiori come testimoni attivi nelle medie.",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Festival scolastico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Festival di quartiere e passeggiate culturali.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Educazione alla cittadinanza, legalità e democrazia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti musicali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività veicolate dalla musica per promuovere collaborazione, creatività, gestione emozioni, appartenenza, abilità manuali e comportamenti positivi.",
+      "target": "Primaria e Secondaria di Primo Grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CZ1A17500A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"L'Isola Felice\" (CZ1A17500A), scuola dell'infanzia paritaria situata a Catanzaro, Calabria, per il triennio 2025-2028. L'analisi si basa sui dati forniti, valutando l'approccio dell'istituto all'orientamento, le partnership instaurate, gli obiettivi prefissati e le azioni implementate. Il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione dedicata e un punteggio complessivo positivo nelle diverse dimensioni considerate. L'istituto si impegna a fornire un supporto completo agli studenti, promuovendo l'orientamento scolastico e professionale, l'inclusione e la partecipazione attiva alla vita scolastica e sociale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, evidenziando l'importanza attribuita a questo aspetto.\n\n**2.2 Partnership:** L'istituto ha stabilito collaborazioni con diversi partner, tra cui **ARNAS “G. Brotzu”**, **Microcitemico “A. Cao”**, **San Michele**, **enti locali** e la **Cooperativa “La Clessidra”**. Queste partnership, per un totale di cinque, rappresentano un valore aggiunto per l'offerta formativa e per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, la preparazione alle transizioni formative e l'acquisizione di capacità orientative per cogliere le opportunità. Tutte queste aree ricevono un punteggio elevato, dimostrando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning. L'obiettivo di ridurre l'abbandono scolastico riceve il punteggio massimo, sottolineando l'importanza attribuita a questo aspetto.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e fragilità. Il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità ricevono il punteggio massimo, evidenziando l'importanza attribuita alla collaborazione con le famiglie e all'inclusione degli studenti con bisogni educativi speciali.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'approccio basato sull'esperienza degli studenti e la flessibilità degli spazi e dei tempi ricevono il punteggio massimo, sottolineando l'importanza di un apprendimento attivo e personalizzato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nelle partnership consolidate con enti e istituzioni del territorio, nella chiarezza delle finalità e degli obiettivi, nella completezza delle azioni di sistema e nell'approccio didattico innovativo e personalizzato. L'attenzione all'inclusione e alla collaborazione con le famiglie rappresenta un ulteriore punto di forza. Le attività registrate, come l'**Open Day**, gli **Incontri con scuole superiori** e i **Progetti e laboratori per BES**, dimostrano un impegno concreto nella realizzazione degli obiettivi prefissati.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero essere ulteriormente sviluppate. Le opzionali ludiche, ricreative, di volontariato e sportive ricevono punteggi inferiori rispetto alle altre, suggerendo la necessità di potenziare l'offerta in questi ambiti.\n\n### 5. Gap Analysis\n\nIl gap analysis evidenzia la necessità di rafforzare l'offerta di attività opzionali e facoltative, in particolare quelle ludiche, ricreative, di volontariato e sportive. Inoltre, sarebbe opportuno intensificare le attività di monitoraggio e valutazione delle azioni implementate, al fine di verificarne l'efficacia e apportare eventuali correzioni. L'attività di **Mentoring strutturato** e il **Festival scolastico** rappresentano buone pratiche da consolidare.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto \"L'Isola Felice\" presenta un approccio all'orientamento ben strutturato e completo. L'istituto si impegna a fornire un supporto efficace agli studenti, promuovendo il loro sviluppo personale e professionale e facilitando la loro transizione verso il mondo del lavoro. Le partnership consolidate, le finalità chiare, gli obiettivi ambiziosi e le azioni di sistema implementate rappresentano un solido punto di partenza per il raggiungimento dei risultati prefissati. L'istituto dimostra un forte impegno nell'inclusione e nella collaborazione con le famiglie, creando un ambiente scolastico accogliente e stimolante. L'attività di **Educazione civica** e i **Progetti musicali** completano un quadro positivo."
+}

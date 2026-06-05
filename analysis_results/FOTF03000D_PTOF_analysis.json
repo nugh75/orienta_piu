@@ -1,0 +1,321 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FOTF03000D",
+    "denominazione": "I.T.I. \"Marconi",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Forli'",
+    "anno_ptof": "2019-2022",
+    "provincia": "Forli'-Cesena",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Della Liberta' 14",
+    "cap": "47100",
+    "email": "fotf03000d@istruzione.it",
+    "pec": "fotf03000d@pec.istruzione.it",
+    "website": "https//www.ittsmarconiforli.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Non esiste un capitolo specifico intitolato 'Orientamento'. Le attività di orientamento sono sparse all'interno di altre sezioni."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti pubblici",
+        "enti privati",
+        "Istituto di Biorobotica della Scuola Superiore Sant’Anna di Pisa",
+        "aziende del territorio",
+        "Università degli Studi di Pisa",
+        "Università degli Studi di Firenze",
+        "Camera del Commercio di Pisa",
+        "Centro dell’Impiego di Pontedera",
+        "Società della Salute della Valdera",
+        "Centro Trasfusionale Lotti di Pontedera",
+        "AVIS",
+        "FRATRES",
+        "scuole medie",
+        "Ludoteca del Registro .it",
+        "CRED",
+        "Unione Valdera"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contatti con aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite, viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Stage/Tirocini",
+      "descrizione_e_metodologia": "Percorsi in aziende del territorio, con valutazione delle competenze acquisite.",
+      "target": "Studenti classi 3° e 4°"
+    },
+    {
+      "titolo_attivita": "Progetti di Robotica",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Collaborazione con l'Istituto di Biorobotica di Pisa.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate agli enti autonomi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a Comune, Provincia, Regione, Parlamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Riflessioni e dibattiti su fatti storici",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Visione di film e dibattiti su Shoah, Foibe, Resistenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione ad attività dell'Associazione “LIBERA”",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Giorno del ricordo, Campi di Libera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a conferenze su tematiche umanitarie",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Conferenze su convivenza civile, salute, ambiente",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a progetti d’Istituto, di Rete, PON",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Progetti specifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola aperta",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate a laboratori da studenti e docenti",
+      "target": "Genitori e ragazzi in visita"
+    },
+    {
+      "titolo_attivita": "Scuola aperta per iscrizioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Chiarimenti e supporto all'iscrizione",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Orientamento interno",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Questionari, incontri con studenti e docenti",
+      "target": "Studenti classi seconde"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Informazione universitaria, servizio civile, forze armate",
+      "target": "Studenti classi terze e quinte"
+    },
+    {
+      "titolo_attivita": "Counseling e Centro di Ascolto",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Servizio di ascolto e orientamento relazionale",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Rifornimento in volo",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri pomeridiani con genitori",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Informazione e prevenzione disagio giovanile",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Iniziative con Società della Salute",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Formazione tecniche di primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Donazione sangue e midollo osseo",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri informativi con AVIS e FRATRES",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La Bellezza nascosta",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Progetto di potenziamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadini!! Sani e sportivi",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Progetto di competenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Counseling e laboratorio narrativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Busines idea",
+      "categoria_principale": "Imprenditorialità",
+      "descrizione_e_metodologia": "Progetto in valutazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Digital creActivity",
+      "categoria_principale": "Creatività Digitale",
+      "descrizione_e_metodologia": "Progetto di cittadinanza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Empowering skills",
+      "categoria_principale": "Competenze Base",
+      "descrizione_e_metodologia": "Progetto di potenziamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "studenteMente",
+      "categoria_principale": "Inclusione Sociale",
+      "descrizione_e_metodologia": "Progetto di inclusione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Raccordo con scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Monitoraggio iscrizioni, raccordo con famiglie",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Tutorato alunni in difficoltà",
+      "categoria_principale": "Supporto scolastico",
+      "descrizione_e_metodologia": "Formazione e supervisione tutor",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Sviluppo professionale",
+      "descrizione_e_metodologia": "Corsi su aspetti relazionali e metodologici",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Let’s Bit!",
+      "categoria_principale": "Educazione digitale",
+      "descrizione_e_metodologia": "Formazione studenti per sensibilizzare sull'uso consapevole della rete",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri formazione/informazione docenti, famiglie, studenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri periodici",
+      "target": "Docenti, famiglie, studenti"
+    },
+    {
+      "titolo_attivita": "Sportello ascolto e consulenza",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attività in presenza, telefono, online",
+      "target": "Docenti, genitori, specialisti, studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FOTF03000D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.I. “Marconi” di Forlì, relativo al periodo 2019-2022. L'istituto, di tipo tecnico e afferente al secondo grado, opera in un contesto territoriale non metropolitano della regione Emilia Romagna. L'analisi evidenzia una presenza diffusa di attività orientative, sebbene non formalizzate in una sezione specifica del PTOF. L'istituto dimostra un impegno significativo nella costruzione di **partnership** con diversi enti e istituzioni, e nell'offerta di azioni mirate a sviluppare le **competenze orientative** degli studenti, a ridurre l'**abbandono scolastico** e a favorire la continuità territoriale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela l'assenza di un capitolo specificamente intitolato \"Orientamento\" all'interno del PTOF. Le attività di orientamento sono integrate in altre sezioni, ottenendo un punteggio di 7. Questo suggerisce una necessità di maggiore esplicitazione e strutturazione delle iniziative orientative.\n\n**2.2 Partnership:**\n\nL'istituto vanta un network di **partnership** ampio e diversificato, comprendendo **enti pubblici**, **enti privati**, l'**Istituto di Biorobotica della Scuola Superiore Sant’Anna di Pisa**, diverse **università**, la **Camera del Commercio di Pisa**, il **Centro dell’Impiego di Pontedera** e numerose associazioni del territorio. Il numero di partner, pari a 16, testimonia un forte radicamento nel contesto locale e una volontà di creare sinergie per l'offerta formativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** rispetto alle opportunità offerte dal territorio. Ogni finalità ha ottenuto un punteggio di 5, indicando una chiara definizione degli obiettivi.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in relazione all'orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità territoriale, sul contrasto al fenomeno dei **NEET** e sullo sviluppo del **lifelong learning**. Ogni obiettivo ha ottenuto un punteggio di 4, suggerendo un buon livello di ambizione e concretezza.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Ogni azione ha ottenuto un punteggio di 4, evidenziando un approccio sistemico e integrato all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sulla **didattica laboratoriale**, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. Ogni aspetto ha ottenuto un punteggio di 4, indicando una buona attenzione alla qualità e all'innovazione della didattica.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzioni laboratoriali ed espressive hanno ottenuto un punteggio di 5, mentre le altre hanno ottenuto un punteggio di 4, suggerendo una buona varietà di offerta.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** con enti e istituzioni del territorio, nella chiarezza delle **finalità** e degli **obiettivi**, e nell'approccio sistemico e integrato alle azioni. L'istituto offre una varietà di attività, tra cui **Alternanza Scuola-Lavoro**, **visite aziendali**, **progetti di robotica** e iniziative di **cittadinanza attiva**. L'impegno per il **benessere** degli studenti, attraverso servizi di **counseling** e iniziative di prevenzione del disagio giovanile, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nell'assenza di una sezione specifica dedicata all'orientamento all'interno del PTOF. Questo rende difficile individuare in modo chiaro e organico le iniziative orientative e valutarne l'efficacia.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare in modo più esplicito e coerente le attività di orientamento all'interno del PTOF, creando una sezione dedicata che ne definisca le finalità, gli obiettivi, le azioni e i criteri di valutazione.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.T.I. “Marconi” di Forlì dimostra un impegno significativo verso l'orientamento, sebbene questo non sia formalizzato in una sezione specifica. L'istituto vanta un network di **partnership** solido, una chiara definizione delle **finalità** e degli **obiettivi**, e un'offerta di attività diversificata. Per migliorare l'efficacia dell'azione orientativa, si raccomanda di strutturare in modo più esplicito e coerente le iniziative, creando una sezione dedicata all'interno del PTOF."
+}

@@ -1,0 +1,266 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CRMM809027",
+    "denominazione": "Ic Vescovato \"U.Foscolo",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Grontardo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Cremona",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giovanni Xxiii",
+    "cap": "26044",
+    "email": "cric809005@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.icugofoscolo.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Unità di valutazione multidisciplinare",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite aziendali, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto 'Giardino Felice'",
+      "categoria_principale": "Collaborazione Famiglia-Scuola",
+      "descrizione_e_metodologia": "Organizzazione di servizi integrativi",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curricolare",
+      "descrizione_e_metodologia": "33 ore annuali, trasversale e interdisciplinare, affidato a tutti i docenti",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria e secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2, percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni classi terze scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro online tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire conoscenza specificità segmenti scolastici, passaggio informazioni alunni BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Revisione Curricolo d'Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Lavoro dipartimenti verticali per rendere operativo il curricolo",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete",
+      "target": "Docenti, Personale ATA"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CRMM809027\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Ugo Foscolo\" di Grontardo (CRMM809027), con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre il periodo 2019/20-2021/22 e si configura come un documento programmatico che definisce le strategie e le azioni volte a migliorare l'offerta formativa dell'istituto, in linea con le esigenze del territorio e degli studenti. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e una rete di **partnership** consolidata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, il che indica una presenza strutturata di questa tematica all'interno del piano.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di collaborazioni con diversi soggetti esterni, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, **musei**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, **Legambiente**, l'**IRCCS Burlo Garofolo**, l'**Unità di valutazione multidisciplinare**, **altre scuole**, **altre associazioni**, **autonomie locali** e l'**ASL**. Questo elevato numero di partnership (16) suggerisce una forte attenzione alla creazione di un sistema integrato di servizi per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con un punteggio di 4 per quest'ultimo aspetto. Si pone inoltre attenzione alle **transizioni formative**, anch'esse con un punteggio di 4, e alle **capacità orientative** per cogliere le opportunità, con un punteggio di 3.\n\n**2.4 Obiettivi:** Tra gli obiettivi, spicca l'impegno a ridurre l'**abbandono scolastico** (punteggio 4) e a garantire la continuità territoriale (punteggio 4). L'obiettivo di contrastare il fenomeno dei **NEET** riceve un punteggio inferiore (1), così come l'obiettivo di promuovere il **lifelong learning** (punteggio 2).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento con i servizi territoriali (punteggio 4), di dialogo tra docenti e studenti (punteggio 3), di rapporto con le famiglie (punteggio 4), di monitoraggio delle azioni intraprese (punteggio 3) e di creazione di un sistema integrato di inclusione e supporto alle fragilità (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 3), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni culturali (punteggio 2), laboratoriali ed espressive (punteggio 3), ludiche e ricreative (punteggio 2), di volontariato (punteggio 1) e sportive (punteggio 2).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con enti e istituzioni del territorio, che consente di offrire agli studenti un'ampia gamma di opportunità di orientamento e di supporto. L'attenzione alle finalità di sviluppo del **progetto di vita** e alle **transizioni formative** rappresenta un altro elemento positivo. Le attività registrate, come le **visite aziendali** e gli **incontri con professionisti** nell'ambito dell'attività \"Attività di ampliamento curricolare\", dimostrano un impegno concreto nell'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno dei **NEET** e la promozione del **lifelong learning**, che ricevono punteggi inferiori rispetto agli altri obiettivi. L'offerta di attività opzionali e facoltative, in particolare quelle di **volontariato**, potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario tra l'impegno dimostrato nella creazione di una rete di **partnership** e la scarsa attenzione agli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** suggerisce la necessità di definire azioni più mirate in questi ambiti. Potrebbe essere utile integrare le attività di orientamento con percorsi specifici per gli studenti a rischio di abbandono scolastico e per promuovere l'apprendimento continuo.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo \"Ugo Foscolo\" di Grontardo presenta un approccio strutturato all'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle finalità e degli obiettivi. Pur evidenziando alcune aree di debolezza, il documento dimostra un impegno significativo verso il miglioramento dell'offerta formativa e il supporto agli studenti nella loro crescita personale e professionale. L'implementazione delle attività registrate, come il **monitoraggio didattico digitale integrata** e la **revisione del regolamento di disciplina**, contribuirà a consolidare i risultati raggiunti e a colmare le lacune individuate."
+}

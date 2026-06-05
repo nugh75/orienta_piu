@@ -1,0 +1,263 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GREE817073",
+    "denominazione": "Ic \"Tozzi\" C.Paganico",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Scansano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Grosseto",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Armando Diaz",
+    "cap": "58024",
+    "email": "ND",
+    "pec": "ND",
+    "website": "www.icpaganico.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata e strutturata nel PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione sulla sensibilizzazione e supporto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze e consigli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Corso pratico di disegno 3D",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e sensibilizzazione al riutilizzo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pratiche sportive per sviluppo psico-fisico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole di smartphone e app.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione in collaborazione con UMI e Scuola Normale Superiore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di Informatica con AIICA",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizione individuale e preparazione con AIF",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Organizzati da SCI, problem solving",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione test ammissione facoltà STEM",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL su primo soccorso, alimentazione, dipendenze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso di preparazione al test di ammissione alle facoltà universitarie dell’area biosanitaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi di potenziamento in Chimica e Biologia",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso Enti, Associazioni e Aziende del territorio, durata circa 60 ore",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario di valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Customer satisfaction sull'attività svolta",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti di Matematica e Scienze",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio proficuo tra professionalità su competenze, contenuti e metodologie.",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso in Matematica e Scienze",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Rilevazione precoce di difficoltà/carenze con interventi mirati.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo su metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Interventi permanenti e tempestivi, anche con contributo studentesco.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche e strumentali",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "LIM, laboratori, formazione ICT per didattica inclusiva.",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GREE817073\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “Scansano Cap. -\\\"Umberto I\\\"” (GREE817073) per il triennio 2022-2025. La scuola, statale situata nel comune di Scansano, in provincia di Grosseto e regione Toscana, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata e strutturata nel PTOF. L'istituto si distingue per una forte rete di **partnership** con diversi soggetti del territorio, tra cui **aziende locali**, **enti**, **associazioni di volontariato**, l'**Università di Firenze** e la **Fondazione Agnelli**. Le finalità dell'orientamento sono ben definite, con particolare attenzione allo sviluppo di **attitudini**, **interessi** e alla preparazione al **progetto di vita** degli studenti, nonché alla facilitazione delle **transizioni formative**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti diverse attività di orientamento, il PTOF non prevede una sezione dedicata e strutturata a questo ambito, ottenendo un punteggio di 4.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (12), che rappresentano un valore aggiunto per l'offerta orientamentale. I partner includono realtà locali, enti, associazioni e istituzioni universitarie, offrendo agli studenti opportunità di contatto con il mondo del lavoro e del volontariato. Il punteggio attribuito è di 5.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate molto positive, con punteggi elevati per lo sviluppo di **attitudini** (6), **interessi** (6), la preparazione al **progetto di vita** (5), il supporto alle **transizioni formative** (6) e lo sviluppo delle **capacità orientative** per cogliere le **opportunità** (6).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento presentano una variabilità. L'obiettivo di ridurre l'**abbandono** scolastico ottiene un punteggio di 3, mentre quello di garantire la **continuità territoriale** raggiunge un punteggio di 6. Il contrasto al fenomeno **NEET** e il supporto al **lifelong learning** ottengono rispettivamente 3 e 5.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono valutate positivamente, con punteggi che variano tra 3 e 5. Il **coordinamento dei servizi** (4), il **dialogo tra docenti e studenti** (5) e il **rapporto scuola-genitori** (4) sono considerati efficaci. Il **monitoraggio delle azioni** (3) e l'implementazione di un **sistema integrato di inclusione e fragilità** (4) necessitano di maggiore attenzione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con punteggi elevati per l'apprendimento **da esperienza** degli studenti (6), l'utilizzo di **laboratori** (5), la **flessibilità degli spazi e dei tempi** (4) e l'approccio **interdisciplinare** (5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e apprezzabile. Le opzionali **culturali** (6) e **laboratoriali espressive** (7) sono particolarmente ben sviluppate, mentre quelle **ludiche ricreative** (3) e di **volontariato** (5) e **sportive** (5) presentano margini di miglioramento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** orientative e nell'adozione di metodologie didattiche innovative, come l'apprendimento **da esperienza** e l'utilizzo di **laboratori**. L'offerta di attività opzionali, in particolare quelle **culturali** e **laboratoriali espressive**, rappresenta un valore aggiunto per gli studenti. Le attività registrate, come la **sensibilizzazione al patrimonio monumentale**, le **visite aziendali** e gli **incontri con professionisti**, testimoniano l'impegno concreto della scuola nell'orientamento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata e strutturata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, alcuni obiettivi, come la riduzione dell'**abbandono** e il contrasto al fenomeno **NEET**, necessitano di maggiore attenzione e di azioni più mirate. Il **monitoraggio delle azioni** orientative e l'implementazione di un **sistema integrato di inclusione e fragilità** richiedono un ulteriore approfondimento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento all'interno del PTOF, definendo una sezione specifica con obiettivi, azioni e indicatori di monitoraggio chiari e misurabili. È inoltre necessario rafforzare le azioni volte a prevenire l'**abbandono** scolastico e a contrastare il fenomeno **NEET**, attraverso interventi mirati e personalizzati.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria “Scansano Cap. -\\\"Umberto I\\\"” dimostra un buon livello di attenzione all'orientamento, supportato da una solida rete di **partnership** e da metodologie didattiche innovative. Tuttavia, per ottimizzare l'efficacia delle azioni orientative, è necessario formalizzare l'orientamento all'interno del PTOF, definendo una sezione dedicata e strutturata, e rafforzare le azioni volte a prevenire l'**abbandono** scolastico e a contrastare il fenomeno **NEET**. L'implementazione di un sistema di **monitoraggio** efficace e l'attenzione all'**inclusione** e alla gestione delle **fragilità** rappresentano ulteriori aree di miglioramento."
+}

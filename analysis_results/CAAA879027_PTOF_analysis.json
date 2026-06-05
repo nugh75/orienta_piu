@@ -1,0 +1,236 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAAA879027",
+    "denominazione": "I.C. Monserrato 1-2 La Marmora",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Monserrato",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Decio Mure",
+    "cap": "09042",
+    "email": "caic879009@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutocomprensivomonserrato.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene sia presente un riferimento all'orientamento nell'indice, non esiste una sezione dedicata e strutturata all'orientamento come tale. L'orientamento è menzionato come parte di altre attività (PCTO, progetti) ma non ha un capitolo a sé stante."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursione in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Elementi di primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientarsi dopo il Liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi per facilitare l'inserimento",
+      "target": "Studenti di tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sportello D’Ascolto",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto psicologico e tutoraggio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referente Cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Formazione e sensibilizzazione",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive, acquisizione metodo studio",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAAA879027\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Infanzia Via Decio Mure** (CAAA879027) per il triennio 2019/20-2021/22. L'istituto, di tipo **Infanzia** situato nel territorio **Metropolitano** di **Monserrato** (Cagliari, Sardegna), è una scuola **Statale**. L'analisi si basa sui dati forniti, valutando la presenza e la strutturazione dell'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'offerta didattica e le attività opzionali. Nel complesso, il PTOF dimostra un'attenzione all'orientamento, sebbene non sia presente una sezione dedicata e strutturata come tale.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nL'orientamento non è trattato in una sezione specifica e dedicata all'interno del PTOF. Sebbene sia menzionato nell'indice, l'orientamento viene affrontato come parte integrante di altre attività, come i percorsi **PCTO** e progetti specifici, piuttosto che come un ambito autonomo.\n\n#### 2.2 Partnership\n\nL'istituto ha sviluppato partnership significative con diversi enti. Sono stati nominati tre partner: **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n#### 2.3 Finalità\n\nIl PTOF definisce finalità chiare e ambiziose in ambito orientativo. Vengono esplicitamente considerate le attitudini, gli interessi, il progetto di vita, le transizioni formative e lo sviluppo delle capacità orientative per affrontare le opportunità future. L'istituto dimostra una visione olistica dell'orientamento, mirata a supportare lo sviluppo integrale dello studente.\n\n#### 2.4 Obiettivi\n\nGli obiettivi specifici relativi all'orientamento appaiono meno definiti. Il PTOF indica un basso punteggio per la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (fenomeno NEET) e la promozione del lifelong learning.\n\n#### 2.5 Azioni di Sistema\n\nL'istituto implementa azioni di sistema efficaci per supportare l'orientamento. Vengono promossi il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e un sistema integrato di inclusione e supporto alle fragilità.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa su approcci innovativi e partecipativi. Si valorizza l'esperienza degli studenti, si promuove la didattica laboratoriale (sebbene con un punteggio inferiore rispetto ad altri ambiti), si adotta una flessibilità degli spazi e dei tempi e si incoraggia l'interdisciplinarità.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata. Sono disponibili opzionali culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, offrendo agli studenti opportunità di approfondimento e di scoperta dei propri interessi.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'efficacia delle azioni di sistema, nella varietà dell'offerta didattica e nella ricchezza delle attività opzionali. Le partnership attivate con **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC** rappresentano un valore aggiunto significativo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Gli obiettivi specifici appaiono poco definiti e il punteggio relativo alla loro implementazione è basso.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta orientativa più organica e coerente, con obiettivi specifici e misurabili. È importante definire indicatori di performance per valutare l'efficacia delle azioni intraprese e monitorare i progressi compiuti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Infanzia Via Decio Mure** dimostra un'attenzione all'orientamento, sebbene necessiti di una maggiore strutturazione e definizione degli obiettivi. L'istituto può valorizzare i propri punti di forza, colmare le aree di debolezza e definire un piano d'azione concreto per migliorare l'offerta orientativa e supportare al meglio gli studenti nel loro percorso di crescita e di sviluppo. Le attività come **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra**, **Viaggio d’istruzione**, **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Elementi di primo soccorso**, **Orientarsi dopo il Liceo**, **Progetto Accoglienza**, **Sportello D’Ascolto**, **Referente Cyberbullismo**, **Progetto Accoglienza Studenti Stranieri**, **Open Day**, **PCTO** e le attività di **Formazione** rappresentano un buon punto di partenza per un'offerta orientativa più completa ed efficace."
+}

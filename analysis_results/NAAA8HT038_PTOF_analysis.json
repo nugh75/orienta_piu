@@ -1,0 +1,252 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAAA8HT038",
+    "denominazione": "Ic Ischia 1 - Porto",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Ischia",
+    "anno_ptof": "2022/2023-2024/2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via G. Casciaro 3",
+    "cap": "80077",
+    "email": "amministrazione@ldavinci.org",
+    "pec": "ND",
+    "website": "https//www.iclizzadrironcalli.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento, bensì attività di orientamento integrate nell'offerta formativa generale."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Università di Cambridge",
+        "partner esterni",
+        "Ufo Saronno",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Associazione L’Orma di Milano",
+        "Università degli studi di Lugano",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di musica, cucina, pittura, teatro",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Attività laboratoriali in collaborazione con enti locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato per alunni BES/DSA",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto al metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato per alunni BES/DSA",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua straniera",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi pomeridiani di inglese su quattro livelli, preparazione Cambridge Examinations",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Campo estivo in Inghilterra",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Organizzato in collaborazione con partner esterni",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Laboratori di strumento musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Organizzati dall'istituto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetto Gruppo Visione Giovani",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con l’Associazione L’Orma di Milano",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetto Erasmus Plus",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione alla “Settimana della lingua italiana nel mondo”",
+      "categoria_principale": "Attività culturale",
+      "descrizione_e_metodologia": "Laboratori, conferenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a giochi matematici",
+      "categoria_principale": "Attività didattica",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Attività didattica",
+      "descrizione_e_metodologia": "Visite a luoghi d'arte",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a spettacoli teatrali",
+      "categoria_principale": "Attività culturale",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione alle iniziative sulla Giornata della Memoria",
+      "categoria_principale": "Attività culturale",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri formativi con esperti",
+      "categoria_principale": "Attività formativa",
+      "descrizione_e_metodologia": "Utilizzo del cellulare e di Internet",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento- Open day Università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open day",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Attività didattica",
+      "descrizione_e_metodologia": "Installazione sistema operativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di sostegno all'allievo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, coordinamento PDP, raccordo con specialisti",
+      "target": "Alunni DSA, BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAAA8HT038\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Ischia - Porto\", codice NAAA8HT038, per l'anno scolastico 2022/2023-2024/2025. L'istituto, di ordine Infanzia e tipo Statale, situato nel territorio metropolitano di Ischia, in Campania, dimostra un impegno significativo nell'integrazione di attività di orientamento all'interno dell'offerta formativa generale, pur non disponendo di una sezione specificamente dedicata. L'analisi evidenzia un punteggio uniforme di 3 su 5 per la maggior parte delle dimensioni valutate, indicando un approccio solido e ben strutturato, con particolare attenzione all'inclusione e alla collaborazione con partner esterni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, bensì attività integrate nell'offerta formativa generale.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni con numerosi partner, tra cui **LAC**, **Museo in Erba**, **Università di Cambridge**, **Ufo Saronno**, **Polizia Cantonale**, **Croce Rossa**, **Associazione L’Orma di Milano**, diverse università italiane e svizzere, e istituzioni internazionali come **ESADE di Barcellona** e **University of Dublin**. Sono attive ben 19 partnership, a testimonianza di un forte impegno nell'apertura verso il territorio e nel coinvolgimento di soggetti esterni.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, nonché alla facilitazione delle transizioni formative e all'acquisizione di capacità orientative per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di coordinamento tra i servizi, promuove il dialogo tra docenti e studenti, cura il rapporto con le famiglie e monitora l'efficacia delle azioni intraprese. Particolarmente rilevante è l'attenzione al sistema integrato di inclusione e alla gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nell'attenzione alle finalità formative e agli obiettivi di orientamento, e nell'implementazione di azioni di sistema efficaci. L'impegno per l'inclusione e la gestione delle fragilità rappresenta un valore aggiunto significativo. L'offerta di attività extracurricolari, come i **corsi di musica, cucina, pittura e teatro**, e l'organizzazione di eventi come il **campo estivo in Inghilterra** contribuiscono ad arricchire l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento nel PTOF potrebbe limitare la visibilità e la sistematicità delle azioni intraprese. Sebbene le attività siano integrate nell'offerta formativa generale, una maggiore focalizzazione sull'orientamento potrebbe consentire di sviluppare strategie più mirate ed efficaci.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione esplicita dell'orientamento come area tematica autonoma all'interno del PTOF. Pur essendo presenti numerose attività e iniziative, una maggiore chiarezza e coerenza potrebbero ottimizzare l'impatto dell'azione orientativa.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Ischia - Porto\" dimostra un impegno significativo nell'orientamento, sebbene questo sia integrato nell'offerta formativa generale piuttosto che rappresentare un'area tematica autonoma. La vasta rete di **partnership**, l'attenzione alle finalità formative e l'implementazione di azioni di sistema efficaci costituiscono i punti di forza del PTOF. Un'ulteriore strutturazione dell'orientamento potrebbe consentire di massimizzare l'efficacia delle azioni intraprese e di garantire un supporto più completo e mirato agli studenti nel loro percorso di crescita e di sviluppo. L'offerta di attività di supporto come lo **sportello di sostegno psicologico** e lo **sportello di sostegno all'allievo** sono elementi chiave per garantire un'attenzione personalizzata agli studenti."
+}

@@ -1,0 +1,201 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSEE87208D",
+    "denominazione": "Ic Cetraro",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cetraro",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Loc. Testa",
+    "cap": "87022",
+    "email": "csic872004@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccorradoalvaro.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 0
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche educative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Svolto in aula con docente",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua Cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente dedicati",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna accreditata",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri con pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività plurime a distanza con mediazione dei genitori",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) della scuola paritaria Casa dei Bambini Montessori definisce le linee guida per il triennio 2022/2023 – 2023/2024 – 2024/2025, con un focus sull'innovazione didattica e l'orientamento degli studenti. Il documento evidenzia una solida rete di partnership con enti e istituzioni del territorio, nonché un'offerta formativa ricca di attività laboratoriali. Tuttavia, risulta una scarsa esplicitazione di finalità legate alle transizioni formative e all'orientamento verso percorsi post-infanzia.\n\n## 2. Analisi Dimensionale\n\nL'analisi delle finalità del PTOF rivela un'attenzione prevalente allo sviluppo delle attitudini e degli interessi degli alunni, con un punteggio di 3 per entrambe le dimensioni. Meno marcata è l'attenzione al progetto di vita e alle competenze per l'orientamento, con punteggi di 2 e 1 rispettivamente. Gli obiettivi delineati si concentrano sulla riduzione dell'abbandono scolastico e sulla continuità territoriale, mentre risultano assenti riferimenti specifici alla lotta contro il fenomeno NEET. Per quanto riguarda le azioni di sistema, si evidenzia un buon livello di coordinamento con i servizi territoriali e di coinvolgimento delle famiglie, ma un monitoraggio delle azioni meno strutturato. La didattica orientativa si basa principalmente su esperienze pratiche e laboratoriali, con una flessibilità degli spazi e dei tempi adeguata, ma non specificamente orientata. \n\n## 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella ricchezza dell'offerta formativa, con un'ampia gamma di laboratori (coding, musica, scienze, etc.) che stimolano la curiosità e la creatività degli alunni. La presenza di partnership consolidate con enti esterni, come l'Opera Nazionale Montessori e Docendum, garantisce un supporto qualificato e l'accesso a risorse aggiuntive. Inoltre, l'attenzione al rapporto scuola-famiglia e l'utilizzo di strumenti di valutazione della soddisfazione (questionari) dimostrano un impegno costante nel miglioramento continuo.\n\n## 4. Debolezze\n\nLa principale debolezza del PTOF è la mancanza di una sezione dedicata all'orientamento, con conseguente scarsa attenzione alle finalità legate alle transizioni formative e allo sviluppo delle capacità orientative. Inoltre, l'assenza di obiettivi specifici per contrastare il fenomeno NEET e un monitoraggio delle azioni meno strutturato rappresentano aree di miglioramento. Infine, sebbene la didattica laboratoriale sia ben presente, non risulta chiaramente orientata verso la scelta consapevole del percorso scolastico successivo.\n\n## 5. Gap Analysis\n\nIl divario principale risiede nella necessità di integrare nel PTOF una visione più ampia dell'orientamento, che tenga conto delle esigenze degli alunni in vista del passaggio alla scuola primaria e oltre. È necessario definire obiettivi specifici per lo sviluppo delle competenze orientative, prevedere azioni mirate per il monitoraggio delle transizioni formative e potenziare la didattica orientativa all'interno dei laboratori esistenti. \n\n## 6. Conclusioni\n\nIl PTOF della Casa dei Bambini Montessori rappresenta un documento solido e ben strutturato, con un'offerta formativa ricca e diversificata. Tuttavia, per raggiungere una maggiore efficacia, è necessario colmare le lacune individuate in ambito orientativo, definendo obiettivi specifici, potenziando le azioni di monitoraggio e integrando una visione più ampia dell'orientamento nel contesto della didattica laboratoriale."
+}

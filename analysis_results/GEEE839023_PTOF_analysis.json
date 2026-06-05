@@ -1,0 +1,234 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEEE839023",
+    "denominazione": "Istituto Comprensivo Sestri",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/2020 - 2021/2022",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Sant'Alberto 18 A",
+    "cap": "16154",
+    "email": "geic83900x@istruzione.it",
+    "pec": "ND",
+    "website": "www.icsestri.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata all'educazione civica"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Associazione “Crescere Insieme\"",
+        "Fondazione Villaggio Famiglia",
+        "Polizia Postale",
+        "Contship Italia Group",
+        "Ordine degli Architetti",
+        "Famiglie",
+        "Personale della scuola"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio Madrelingua L’Inglese “FUNTIME ENGLISH\"",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività di potenziamento linguistico",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio English Day",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Giornata dedicata all'inglese",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Ed. Motoria “MI MUOVO E MI CONOSCO”",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività motoria",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale “EMOZIONI IN MUSICA”",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività musicale",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Religiosa “IO HO DIRITTO”",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Educazione religiosa",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio “UN BASTIMENTO CARICO DI.......LETTERE E NUMERI”",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività di alfabetizzazione",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Corsi di avviamento e danza classico e moderna",
+      "categoria_principale": "Laboratoriali/Espressive",
+      "descrizione_e_metodologia": "Corsi rivolti a bambini dai 5 anni in su.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Corsi di madrelingua inglese",
+      "categoria_principale": "Linguistiche",
+      "descrizione_e_metodologia": "Corsi per certificazioni internazionali (Starters, Movers, Ket).",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Corsi di avviamento alla sensibilità musicale",
+      "categoria_principale": "Laboratoriali/Espressive",
+      "descrizione_e_metodologia": "Canto e strumenti musicali.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio Orienteering",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Pratica dell'orienteering con mappe e cartine.",
+      "target": "Classi terze primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Frutta a Merenda",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Merenda con frutta in tutte le sezioni/classi.",
+      "target": "Tutte le sezioni/classi"
+    },
+    {
+      "titolo_attivita": "Progetto Rete Sicura",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Formazione sull'uso consapevole della rete.",
+      "target": "Classe quinta primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Contship",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Visita e conoscenza delle attività portuali.",
+      "target": "Tutte le sezioni/classi"
+    },
+    {
+      "titolo_attivita": "Progetto sull'Affettività",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Approfondimento tematiche affettività e sessualità.",
+      "target": "Classe quinta primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Educazione Civica",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Sensibilizzazione ambientale e sociale tramite Agenda 2030",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Comunicazione non violenta",
+      "categoria_principale": "Competenze sociali",
+      "descrizione_e_metodologia": "Utilizzo del modello di Rosemberg (Osservazione-Sentimento-Bisogno-Richiesta)",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a musei, aziende, ecc.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze di esperti",
+      "target": "Alunni della scuola secondaria di primo grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEEE839023\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria R. Pezzani** (GEEE839023) con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo al triennio 2019/2020 - 2021/2022, evidenzia un impegno significativo verso l'orientamento, come dimostra la presenza di una sezione dedicata all'**educazione civica**. La scuola, situata nel territorio metropolitano di **Genova**, si distingue per una solida rete di **partnership** che coinvolge diverse realtà, tra cui l'**Associazione “Crescere Insieme”**, la **Fondazione Villaggio Famiglia**, la **Polizia Postale**, **Contship Italia Group**, l'**Ordine degli Architetti**, le **famiglie** e il **personale della scuola**. L'orientamento è concepito come un processo volto a sviluppare attitudini, interessi e progetti di vita degli studenti, con un'attenzione particolare alle transizioni formative e alle capacità orientative verso le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento e Sezione Dedicata:** Il PTOF presenta una chiara sezione dedicata all'educazione civica, indicando un'attenzione specifica a questo aspetto cruciale dell'orientamento.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di partnership (6), dimostrando una forte capacità di collaborare con enti esterni per arricchire l'offerta formativa e ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di attitudini, interessi e progetti di vita. L'attenzione alle transizioni formative risulta meno marcata, mentre le capacità orientative verso le opportunità ricevono un punteggio discreto.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, la continuità territoriale e il lifelong learning. L'attenzione al contrasto alla dispersione scolastica giovanile (NEET) è meno prioritaria.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento con i servizi territoriali, il dialogo tra docenti e studenti, il rapporto scuola-genitori e un sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni risulta un aspetto meno sviluppato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Quest'ultima, in particolare, riceve un punteggio molto alto.\n\n**2.7 Offerta di Opzionali:** L'offerta di attività opzionali è diversificata e comprende opzioni culturali, laboratoriali/espressive, ludiche/ricreative, di volontariato e sportive. I laboratori espressivi spiccano per il punteggio più alto.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella solida rete di **partnership**, nella chiarezza delle **finalità** orientative e nell'approccio didattico basato sull'esperienza e sull'**interdisciplinarità**. L'offerta di **attività opzionali** diversificate rappresenta un ulteriore elemento positivo, in grado di soddisfare le diverse esigenze e interessi degli studenti. L'impegno verso l'**educazione civica** e la **comunicazione non violenta** sono segnali di attenzione ai valori fondamentali della cittadinanza attiva.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'attenzione alle **transizioni formative** e al contrasto alla dispersione scolastica giovanile (**NEET**). Il **monitoraggio delle azioni** intraprese risulta un aspetto da rafforzare per garantire l'efficacia dell'intervento orientativo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le azioni specifiche volte a facilitare le transizioni formative degli studenti e a prevenire il fenomeno dei NEET. È auspicabile un maggiore coinvolgimento di servizi esterni specializzati per affrontare queste problematiche. Inoltre, un sistema di monitoraggio più strutturato consentirebbe di valutare l'impatto delle azioni intraprese e di apportare eventuali correzioni in itinere.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Primaria R. Pezzani** presenta un approccio all'orientamento ben strutturato e coerente con le finalità educative dell'istituzione. I numerosi punti di forza, in particolare la rete di **partnership** e l'offerta didattica diversificata, rappresentano un solido punto di partenza per il raggiungimento degli obiettivi prefissati. L'attenzione alle aree di debolezza e il colmamento dei gap individuati consentirebbero di migliorare ulteriormente l'efficacia dell'intervento orientativo e di garantire a tutti gli studenti le migliori opportunità per il loro futuro. Le attività come **Progetto Frutta a Merenda**, **Progetto Rete Sicura**, **Progetto Contship** e **Progetto Educazione Civica** dimostrano un impegno concreto verso la formazione integrale degli alunni."
+}

@@ -2,2847 +2,2956 @@
 
 ## Pagina 1
 
-Pag. 1 a 68
-Piano Triennale Offerta Formativa
 
-## Istituto Professionale Paritario Gauss
+## Piano Triennale Dell’Offerta
 
-Codice Meccanografico ATRI02500P
-Triennio 2023/24-2024/25-2025/2026
-Annualità di riferimento ultimo aggiornamento:
-2025-2026
-Approvato in data 18/12/2023
-Ultimo aggiornamento 22/01/2026
+
+## Formativa
+
+“Uguaglianza significa che tutti hanno diritto di essere diversi
+l’uno dall’altro”
+U. Eco
+Triennio scolastico 2025-2028
+1
 
 ---
 
 ## Pagina 2
 
-Pag. 2 a 68
-I NOSTRI VALORI ......................................................................................................................................................... 4
-Contesto esterno ........................................................................................................................................................ 6
-Contesto interno......................................................................................................................................................... 7
-CARATTERISTICHE PRINCIPALI DELLA SCUOLA ............................................................................................. 7
-RICOGNIZIONE ATTREZZATURE E RISORSE STRUTTURALI ............................................................................................................... 9
-PAI - PIANO ANNUALE PER L’INCLUSIONE ..................................................................................................................12
-FINALITÀ E OBIETTIVI EDUCATIVI GENERALI ..................................................................................................... 14
-OBIETTIVI COMPORTAMENTALI ........................................................................................................................... 14
-OBIETTIVI COGNITIVI ............................................................................................................................................. 14
-BIENNIO .................................................................................................................................................................. 14
-TRIENNIO ................................................................................................................................................................ 14
-Priorità e valori attesi .........................................................................................................................................................18
-Risultati Scolastici...............................................................................................................................................................18
-Priorità ...........................................................................................................................................................................18
-Valori attesi ...................................................................................................................................................................18
-Prosecuzione degli studi a livello universitario ..................................................................................................................18
-Valori attesi ...................................................................................................................................................................18
-Inserimento nel mondo del lavoro con accettabile successo. ..............................................................................................18
-Valori attesi ...................................................................................................................................................................18
-POLITICA DI RINNOVO DELLE ISCRIZIONI ................................................................................................................. 19
-PRATICHE DI INSEGNAMENTO E APPRENDIMENTO...............................................................................................20
-PERSONALIZZAZIONE .......................................................................................................................................................... 21
-LA DIDATTICA MODULARE ................................................................................................................................................... 22
-VISITE DIDATTICHE E AZIENDALI ............................................................................................................................................ 22
-GAMIFICATION.................................................................................................................................................................. 22
-IL CANTIERE SCUOLA .......................................................................................................................................................... 23
-PRATICHE DI VALUTAZIONE .................................................................................................................................................. 24
-CONTENUTI ...................................................................................................................................................................... 25
-Valutazione Post-Insegnamento ............................................................................................................................ 32
-PIANO DI MIGLIORAMENTO ......................................................................................................................................... 34
-Obiettivi di processo: ambiente di apprendimento .............................................................................................. 34
-Risultati.................................................................................................................................................................... 34
-Indicatori ................................................................................................................................................................. 34
-Rilevazione .............................................................................................................................................................. 34
-APPROFONDIMENTO .......................................................................................................................................................... 35
-COMPETENZE COMUNI A TUTTI I PERCORSI DI ISTRUZIONE PROFESSIONALE .................................................................................... 35
-COMPETENZE SPECIFICHE DI INDIRIZZO ................................................................................................................................... 36
 
-## Abstract Attività Curricolare Integrata Per Materie In Forma Progettuale
+## Indice
 
-SUDDIVISO PE MATERIE D’INSEGNAMENTO  BIENNIO E TRIENNIO ...........................................................39
-GLI INSEGNAMENTI ..................................................................................................................................................42
-AREA DI INDIRIZZO ............................................................................................................................................................. 42
-Anatomia, fisiologia e igiene (Gnatologia) .............................................................................................................. 42
-Rappresentazione e modellazione odontotecnica ................................................................................................... 43
-Scienze dei Materiali ................................................................................................................................................ 44
-AREA UMANISTICA ............................................................................................................................................................. 44
-Lingua e letteratura italiana .................................................................................................................................... 44
-Lingua e letteratura straniera (Inglese) ................................................................................................................... 45
-Scienze Motorie ........................................................................................................................................................ 46
-Storia. ....................................................................................................................................................................... 46
-Geografia ................................................................................................................................................................. 47
-Diritto ed Economia (pratica commerciale e legislazione sanitaria) ........................................................................ 47
-AREA SCIENTIFICA .............................................................................................................................................................. 48
-Scienze integrate. ..................................................................................................................................................... 48
-Matematica .............................................................................................................................................................. 48
+Premessa…………………………………………………………….. 5
+Contesto scolastico………………………………………………….. 6
+Bisogni formativi del territorio……………………………………… 8
+​
+Rapporti scuola-famiglia……………………………………...8
+Obiettivi formativi prioritari…………………………………………..9
+​
+Obiettivi formativi individuati dall’Istituto………………….10
+Continuità e orientamento……………………………………………11
+Competenze chiave per l’apprendimento permanente……………….11
+Inclusione……………………………………………………………..13
+Curricolo verticale di educazione civica……………………………...15
+Organizzazione ……………………………………………………….16
+Funzioni strumentali ………………………………………………….16
+Commissioni…………………………………………………………..19
+Referenti ………………………………………………………………20
+Collaboratori del dirigente……………………………………………..20
+Referenti di plesso……………………………………………………..21
+Coordinatori dei consigli di classe…………………………………….22
+Responsabili di dipartimento…………………………………………. 25
+Tirocini universitari…………………………………………………… 26
+Le figure strumentali al ptof……………………………………………27
+Piano della formazione triennale……………………………………….28
+Le scuole dell' istituto…………………………………………………. 30
+Scuola in ospedale……………………………………………………...30
+La scuola dell' infanzia…………………………………………………36
+Valutazione……………………………………………………………..38
+La scuola primaria……………………………………………………...38
+2
 
 ---
 
 ## Pagina 3
 
-Pag. 3 a 68
-Tecnologie dell’informazione e della comunicazione ............................................................................................... 49
-REGOLAMENTO D’ISTITUTO ........................................................................................................................................... 50
-COMPITI DEL GESTORE ................................................................................................................................................... 50
-COMPITI DEL COORDINATORE DIDATTICO ..................................................................................................................... 50
-COMPITI DEI DOCENTI .................................................................................................................................................... 51
-COMPITI DEI GENITORI E DEGLI STUDENTI ....................................................................................................................... 52
-COMPITI DEL PERSONALE DI SEGRETERIA ........................................................................................................................ 52
-ORGANI COLLEGIALI ..................................................................................................................................................... 53
-Consiglio di classe .................................................................................................................................................... 53
-Collegio dei docenti .................................................................................................................................................. 54
-Bilancio/Rendiconto ................................................................................................................................................. 56
-Osservanza del Regolamento ................................................................................................................................... 56
-SERVIZIO DI SOSTEGNO EDUCATIVO, INCLUSIONE E ORGANIZZAZIONE DEGLI INTERVENTI ....................................................................... 57
-FINALITÀ DEL SERVIZIO DI SOSTEGNO E INCLUSIONE ...................................................................................................................... 57
-RIFERIMENTI NORMATIVI ...................................................................................................................................................... 57
-PRINCIPI ORGANIZZATIVI DEL SERVIZIO ...................................................................................................................................... 57
-ARTICOLAZIONE DELL’ORARIO DEL SERVIZIO DI SOSTEGNO .............................................................................................................. 58
-INTEGRAZIONE CON BES, DSA E PERSONALIZZAZIONE DEI PERCORSI ................................................................................................ 58
-COORDINAMENTO DIDATTICO E LAVORO DI ÉQUIPE ...................................................................................................................... 58
-MONITORAGGIO, VALUTAZIONE E MIGLIORAMENTO CONTINUO ...................................................................................................... 59
-COMPITI DEL PERSONALE AUSILIARIO ............................................................................................................................. 60
-IL REGOLAMENTO DI DISCIPLINA DEGLI STUDENTI ..................................................................................................61
-LA PROGETTAZIONE PER IL TRIENNIO 2025/2027 ........................................................................................................ 65
-QUADRO ORARIO ......................................................................................................................................................67
+Valutazione…………………………………………………………….41
+Valutazione nella scuola primaria……………………………………..42
+Scuola secondaria di primo grado…………………………………….45
+Valutazione nella scuola secondaria di primo grado………………….48
+Criteri di valutazione ai fini della validità dell' anno scolastico………48
+Deroghe………………………………………………………………..49
+Progetti………………………………………………………………...51
+Scuola dell'infanzia……………………………………………………52
+Scuola primaria………………………………………………………..53
+Scuola secondaria e ospedaliera……………………………………… 55
+Futura - PNRR…………………………………………………………55
+Quartieri educanti………………………………………………………56
+
+## Pnsd…………………………………………………………………..59
+
+​
+​
+​
+3
 
 ---
 
 ## Pagina 4
 
-Pag. 4 a 68
-
-## I Nostri Valori
-
-Il nostro progetto si propone di ispirare i giovani affinché possano
-comprendere pienamente la realtà in cui viviamo, consentendo loro di agire
-in modo consapevole e responsabile. Siamo fermamente convinti che il
-perseguimento del proprio sviluppo personale debba contribuire al benessere
-dell'intera comunità. Riteniamo che l'uso della ragione trovi piena
-realizzazione attraverso l'applicazione pratica della libertà. Questi principi
-fondamentali costituiscono la base dei nostri valori, valori che desideriamo
-sottolineare qui oggi, in totale conformità con le direttive ministeriali (DPCM
-7 giugno 1995: Carta dei servizi).
-
-## Pari Opportunità
-
-Nel rispetto assoluto delle diversità di ogni individuo, ci ispiriamo al principio
-fondamentale dell'uguaglianza dei diritti. Nella nostra comunità, è
-categoricamente vietata qualsiasi forma di discriminazione basata su sesso,
-razza, etnia, lingua, religione, opinioni politiche, condizioni psico-fisiche e
-socio-economiche. Invece, ognuno di noi è apprezzato per le straordinarie
-potenzialità che porta con sé. La nostra scuola sente quindi l'obbligo morale
-di promuovere la completezza dell'espressione umana, in tutte le sue forme
-positive.
-
-## Equità E Comunità
-
-Nel nostro ruolo di educatori, è nostro compito agire in base a criteri di
-obiettività ed equità nel fornire i nostri servizi, rispettando sia la singolare e
-inalienabile personalità di ciascuno, sia l'adesione alle regole comunitarie
-condivise. La scuola, con il contributo di tutte le sue componenti e il sostegno
-delle istituzioni collegate, garantisce la regolarità e la continuità del servizio
-e delle attività educative nel pieno rispetto dei principi e delle normative
-stabilite dalla legge.
-
-## Accoglienza E Integrazione
-
-La scuola si impegna con determinazione, attraverso atteggiamenti e azioni
-appropriate di tutti gli operatori, a promuovere un ambiente accogliente per
-i genitori e gli studenti, facilitando il loro inserimento e integrazione,
-specialmente durante la fase di ingresso alle classi iniziali e in situazioni di
+4
 
 ---
 
 ## Pagina 5
 
-Pag. 5 a 68
-particolare necessità. Diamo particolare attenzione alla risoluzione delle
-sfide che coinvolgono gli studenti stranieri e quelli con disabilità. Ogni
-operatore, nel corso delle proprie attività, è tenuto ad essere sensibile alle
-esigenze individuali, riconoscendo i diritti e gli interessi di ciascuno degli
-studenti.
 
-## Servizi Amministrativi
+## Premessa
 
-La scuola individua, fissandone e pubblicandone gli standard e garantendone
-altresì l'osservanza ed il rispetto, i seguenti fattori di qualità dei servizi
-amministrativi:
-- cortesia e rispetto reciproco
-- celerità delle procedure
-- trasparenza
-- informatizzazione dei servizi di segreteria
-- tempi di attesa agli sportelli
-- flessibilità degli orari degli uffici a contatto con il pubblico.
-
-## Gli Esami Per I Candidati Esterni
-
-Presso il nostro istituto si possono svolgere esami di idoneità a tutte le
-classi ed esami di abilitazione all’esercizio della professione per candidati
-esterni in base ai requisiti singolarmente posseduti dai candidati; ad essi è
-offerto un apposito sportello didattico di supporto alla preparazione e per
-la verifica dei programmi presentati.
-Sono prese in considerazione solamente domande di candidati che
-intendono presentarsi agli esami di idoneità o all’esame di Stato per il
-superamento di un solo anno scolastico.
+La legge n. 107 del 13.07.2015, recante la “Riforma del sistema nazionale di istruzione e
+formazione e delega per il riordino delle disposizioni legislative vigenti”, all’art. 1 comma 14,
+stabilisce che le istituzioni scolastiche predispongano il Piano triennale dell’offerta formativa. Tale
+Piano deve essere elaborato dal Collegio dei docenti sulla base delle linee per le attività della scuola
+e delle scelte di gestione e di amministrazione, definite dal Dirigente Scolastico con proprio atto di
+indirizzo, e deve essere approvato dal Consiglio d’Istituto.
+Il PTOF è il documento identificativo dell’istituzione scolastica e delinea gli obiettivi educativi,
+didattici ed organizzativi della scuola, in modo da garantire una programmazione trasparente e
+mirata alle esigenze degli studenti e della comunità scolastica. Contiene le priorità, i traguardi e gli
+obiettivi individuati nel rapporto di autovalutazione (RAV) e nel piano di miglioramento (PdM), i
+criteri generali per la programmazione educativa e didattica dell’Istituto, l’offerta formativa e tutti
+gli aspetti organizzativi e le risorse umane e strumentali di cui la scuola dispone.
+Il Piano ha una durata triennale ma può essere rivisto ed aggiornato annualmente. Viene pubblicato
+sul sito internet dell’Istituto e sul portale unico Scuola in Chiaro.
+Il PTOF dell’Istituto Comprensivo “Giusy Devinu” è una visita guidata ad ambienti di
+apprendimento fisici e ideali dove intenti, idee e obiettivi accomunano un team di persone
+determinate a seguirli. La sua funzione fondamentale è di:
+1)​ Informare sulle modalità di organizzazione e funzionamento dell’Istituto;
+2)​ Presentare “la progettazione curricolare, extracurricolare, educativa” che l’Istituto mette in
+atto per raggiungere gli obiettivi educativi e formativi;
+3)​ Orientare rispetto alle scelte fatte, a quelle da compiere durante il percorso e al termine di
+esso.
+Il Dirigente Scolastico, la DSGA, i docenti e il personale ATA lavorano in sinergia per promuovere
+una scuola capace di stare al passo con i tempi, che sappia uscire dalle pareti dell’aula
+convenzionale per sperimentare diverse forme di comunicazione: ed ecco che prendono vita
+laboratori scientifici, linguistici, multimediali, musicali, artistici e teatrali che pongono gli studenti
+al centro dell’azione didattica per farne i veri artefici del loro apprendimento. Ma la visita vuole
+spingersi oltre, fino ad evadere dagli schemi tradizionali di fare scuola, facendosi forte dello
+strumento giuridico dell’autonomia, per coinvolgere studenti e famiglie in progetti curricolari ed
+extracurricolari che li avvicinino alle diverse realtà di un territorio ricco di opportunità e stimoli per
+la crescita personale di ciascuno.
+Promuovere la formazione di cittadini responsabili e consapevoli del proprio ruolo all’interno della
+comunità è il primo degli obiettivi delle nostre scuole.
+Nell’atto d’indirizzo del Dirigente Scolastico per l’aggiornamento del Piano Triennale dell’Offerta
+Formativa, con “La finalità della scuola”, si esplicita il punto di partenza dal quale prende forma e
+vita tutta l’azione educativa che si traduce nelle diversi programmazioni disciplinari di ciascun
+5
 
 ---
 
 ## Pagina 6
 
-Pag. 6 a 68
-Analisi del contesto e dei bisogni del territorio
-L’ Istituto Professionale paritario CF Gauss è una scuola professionale
-paritaria per odontotecnici fondata nel 1978 dalla storica dirigente Prof.
-Fernanda Marchisio con il marito Prof. Pasquale Genzano. La Scuola che
-offre una formazione unica per l'Astigiano ha diplomato generazioni di
-odontotecnici astigiani e non solo.
-L’attuale gestore della scuola è l'associazione ANESSE Aps (Associazione
-Nazionale di Economia Sociale Sostenibile ed Etica APS), iscritta al RUNTS,
-che si occupa di promozione sociale dedicata all'educazione e allo sviluppo
-professionale.
-L'associazione, che ha sede in località Sessant (AT), ha ritenuto d’interesse
-la proposta educativa dell'istituto sposandone la vision, attratta dalla
-tradizione, dalla competenza e dall'unicità della proposta dell’istituto.
-Unico istituto per odontotecnici della provincia di Asti, conta su una
-popolazione scolastica proviene principalmente dalla città ma anche dai
-comuni limitrofi estendendosi sino ai paesi della vicina provincia di Cuneo
-e Alessandria.
-Contesto esterno
-- leggi e norme a livello europeo, nazionale, regionale e locale;
-- concorrenza di aziende locali e regionali e nazionali che lavorano nel
-medesimo contesto;
-- mercato di sbocco è quello nazionale;
-- sistema economico e finanziario al quale l’azienda si appoggia è
-quello formato dagli istituti di credito e autofinanziamento, fornitori,
-mercato di accesso per i dipendenti e i collaboratori;
-- cultura e gli aspetti sociali della consulenza aziendali sono di livello
-medio/alto.
+docente di ogni grado d’istruzione del nostro Istituto Comprensivo: innalzare i livelli di istruzione
+e competenze degli alunni, rispettandone i  tempi e gli stili di apprendimento, per contrastare
+le diseguaglianze socioculturali e territoriali, per prevenire e recuperare l’abbandono e la
+dispersione scolastica.
+Per il conseguimento di tali obiettivi, visti gli effetti sulla didattica dovuti alla pandemia, i docenti
+attiveranno delle attività di recupero e potenziamento del profitto in base alle esigenze di ciascuna
+classe. Tali attività si svolgeranno durante le ore di contemporaneità/compresenza.
+Il potenziamento è inteso come sostegno delle criticità e/o arricchimento e valorizzazione delle
+eccellenze.
+Elaborato ed approvato dal Collegio dei Docenti in data 11 dicembre 2025
+Approvato dal Consiglio di Istituto nella seduta del ……. con delibera N. ….
+
+## Contesto Scolastico
+
+L'Istituto Comprensivo "Giusy Devinu" nasce nel 2015/2016 dall’accorpamento dell’Istituto
+Comprensivo “Mulinu Becciu” con la Scuola Secondaria di Primo grado “Mameli” e l’Istituto
+Comprensivo “Ciusa”. Nel giugno 2017 l’Istituto viene rinominato “Giusy Devinu” in memoria del
+soprano Cagliaritano nata e cresciuta nel quartiere di Is Mirrionis.
+L’Istituto comprende 10 scuole con 11 plessi sull'intero territorio della Circoscrizione n.3 di
+Cagliari, costituita dai contigui quartieri di Is Mirrionis, San Michele e Mulinu Becciu; ad esse si
+aggiunge la Scuola in Ospedale (SiO), fiore all’occhiello dell’Istituto Comprensivo “Giusy
+Devinu”, che opera a , con due distinte sezioni, nei reparti di pediatria e chirurgia pediatrica del San
+Michele (ARNAS “G. Brotzu”) e nell’intero presidio sanitario pediatrico Microcitemico “A. Cao”.
+La Circoscrizione n.3, nella parte ovest dell’agglomerato cittadino, comprende i quartieri più
+popolati di Cagliari. Sorti nei primi anni del '900, i quartieri di Is Mirrionis e San Michele sono
+storicamente meta dei trasferimenti dall’hinterland cagliaritano in città.
+Negli ultimi decenni il territorio ha perso in parte le caratteristiche tipiche delle zone periferiche
+urbane, diventando sempre più integrato nell’area propriamente cittadina anche grazie alla presenza
+di numerose linee di autobus che garantiscono i collegamenti col centro della città e con gli altri
+quartieri cittadini.
+Sono presenti molte attività produttive e commerciali e numerosi servizi (strutture ospedaliere e
+socio sanitarie, mercati, banche, uffici postali, il consultorio familiare, scuole di ogni ordine e
+grado, associazioni sportive e religiose).
+L’Istituto opera, dunque, in zone urbane con un’alta concentrazione di edilizia popolare e in cui le
+opportunità di lavoro sono scarse. La popolazione del contesto di riferimento versa, in buona parte,
+6
 
 ---
 
 ## Pagina 7
 
-Pag. 7 a 68
-Contesto interno
-- etica e cultura aziendale di un’azienda familiare con titolari che la
-gestiscono secondo principi “del buon padre di famiglia”1;
-- la conoscenza dei processi lavorativi e gestionali è quella di una
-società di consulenza moderna di medie dimensioni che utilizza
-processi e strumenti di lavoro adeguati alla dimensione, all’area
-geografica in cui opera e al livello di know-how richiesto dai clienti;
-- l’incidenza di studenti con cittadinanza italiana/ non italiana,
-rappresenta il 50% degli studenti, fuori città il 4%, fuori provincia
-1%.
-
-## Caratteristiche Principali Della Scuola
-
-L'Istituto Paritario Gauss coniuga gli elementi della tradizione con le nuove
-esigenze di una scuola in continua rivoluzione e ripensamento, che evolve e
-si prepara a rispondere alla domanda formativa sempre più stringente di
-una società in perenne trasformazione. Innovazione didattica improntata
-sulle attività di ricerca esperienziali degli studenti secondo quanto previsto
-già dalle linee guida della riforma dei nuovi istituti professionali (D.Lgl.
-61/2017), programmi di formazione all'avanguardia aggiornati con le
-ultime tecnologie: tecnologia di progettazione delle protesi con sistemi
-CAD/CAM. Attività didattiche di ampliamento dell’offerta formativa come
-corsi di igiene e sicurezza (D.lgs 81/08), formazione su emergenze
-antincendio e primo soccorso, auditor interno per sistema di gestione
-qualità ISO 9001 ed elementi delle norme per le certificazioni dei
-dispositivi medici (regolamento UE 2017/745 e ISO 13485), formazione
-sulla gestione del tempo, leadership:
-Competenze trasversali, Soft skills2 di efficacia personale, resistenza allo
-stress, flessibilità, autostima, stress control, creatività e apprendimento
-1 In diverse norme del codice civile ricorre l’espressione “buon padre di famiglia”: così, ad es., il tutore deve
-amministrare il patrimonio del minore con la diligenza del buon padre di famiglia (art. 382); l’esecutore
-testamentario deve amministrare come un buon padre di famiglia (art. 703); nel godimento della cosa
-l’usufruttuario deve usare la diligenza del buon padre di famiglia (art. 1003); il conduttore deve prendere in
-consegna la cosa e osservare la diligenza del buon padre di famiglia (art. 1587).
-2 Insieme delle abilità e competenze possedute da un individuo.
+in condizioni di svantaggio socio-economico e culturale. Nel territorio le opportunità sociali e
+culturali risultano essere piuttosto carenti, in questo contesto l’Istituto appare la principale agenzia
+formativa. La realtà sociale così eterogenea rende necessaria una costante azione di prevenzione sia
+per quanto concerne il profitto scolastico che in riferimento alla dispersione scolastica. Di
+conseguenza l’abbandono del percorso di istruzione e formazione su quest’area è un fenomeno
+particolarmente significativo e contribuisce all’impatto sul mercato del lavoro, rendendo critico il
+versante occupazionale e impoverendo, di fatto, il capitale umano sul quale deve poggiare lo
+sviluppo e l’innovazione del territorio.
+La presenza di discenti stranieri, Rom e con bisogni educativi speciali comporta l’elaborazione di
+una progettazione didattica che deve far fronte a bisogni di alunni con percorsi di scolarizzazione
+discontinua e disomogenea. Tale realtà ha condotto a una progressiva ricerca di nuove strategie
+didattico-educative, un percorso intrapreso dalle varie componenti della comunità scolastica anche
+mediante la formazione professionale.
+Per quanto riguarda, invece, la Scuola in Ospedale, in entrambe le sezioni operanti si rileva
+un’utenza di livello regionale e nazionale, con una prevalenza maggiore di pazienti provenienti
+dall’area metropolitana di Cagliari e dalla provincia del Sud Sardegna.
+L’obiettivo principale della scuola, come comunità educante, è di garantire il successo formativo di
+tutti gli alunni, soprattutto dei più svantaggiati. Ne consegue che il progetto educativo del nostro
+istituto sarà determinato dalla situazione socio-culturale e dalle istanze del territorio e dell’utenza e
+verterà sulla promozione di iniziative volte a contrastare le diseguaglianze sociali, la dispersione
+scolastica e ogni forma di disagio, sarà attento al processo di crescita e di formazione nel rispetto
+delle attitudini personali dei singoli allievi, nei confronti delle relazioni interpersonali fra ragazzi e
+adulti. Tale obiettivo verrà perseguito anche attraverso iniziative educative programmate allo scopo
+di promuovere la capacità di orientamento degli studenti, la parità fra i sessi, la prevenzione della
+violenza di genere e tutte le discriminazioni derivanti.
+Da parte dell’istituzione scolastica nasce l’esigenza di proporre ed attivare un piano dell’offerta
+formativa calibrato sulle effettive emergenze e priorità rilevate attraverso la scrupolosa analisi del
+Rapporto di Autovalutazione, che miri al recupero delle variabili dell’apprendimento (Motivazione,
+Autostima e Curiosità) per promuovere il successo scolastico, attraverso percorsi formativi flessibili
+idonei alle reali potenzialità e ai bisogni degli alunni. Tali percorsi prevedono un maggiore
+coinvolgimento delle famiglie, istituzioni e di tutte le agenzie sociali e culturali presenti nel
+territorio, in quanto la crescita degli alunni è determinata dalla crescita dell’ambiente in cui vivono.
+La scuola pone ogni anno tra i suoi obiettivi prioritari quello di una maggiore inclusione di tutti gli
+alunni e le alunne. A tal fine i docenti si adoperano nella costruzione di un contesto scolastico che
+permetta la realizzazione di un ambiente educativo di apprendimento che consideri basilare la
+diversità, il rispetto dell’identità, la valorizzazione dei percorsi personali e quindi un luogo dove
+ciascun bambino si senta accolto. A tal fine sono messi a disposizione in comodato d’uso, a
+richiesta, libri di testo e strumenti musicali per la Scuola Secondaria di 1° Grado e dispositivi
+digitali per la Didattica Digitale Integrata sia per la Secondaria che per la Scuola Primaria.
+7
 
 ---
 
 ## Pagina 8
 
-Pag. 8 a 68
-continuo;
-Competenze
-trasversali,
-Soft
-Skills,
-di
-servizio
-e
-relazionali,
-orientamento al cliente, comunicazione con l’esterno, cooperazione e
-capacità di mantenere rapporti con terzi;
-Competenze di influenza e impatto, tendenza alla persuasione,
-organizzazione consapevole, mantenimento della leadership e coaching;
-Competenze per la realizzazione, ordine e qualità, iniziativa, approccio
-costruttivo, orientamento al risultato, organizzazione e pianificazione delle
-attività, autonomia nel lavoro e problem solving3;
-Competenze cognitive, capacità di astrazione e analisi.
-L’Istituto privilegia i mezzi che favoriscono la corresponsabilità e la
-partecipazione alla vita scolastica di tutti i membri della comunità educante:
-il dialogo costruttivo e sereno che coinvolge alunni, docenti e genitori; una
-relazione equilibrata e serena con gli alunni che favorisca la maturazione
-affettiva e che crei il clima migliore affinché la proposta educativa possa
-essere compresa e fatta propria; la preparazione e l’aggiornamento di tutti i
-docenti in vista di una professionalità sempre qualificata, efficace ed
-adeguata alle esigenze dei tempi.
-All’interno dell’Istituto operano, secondo specifiche competenze, i seguenti
-organi collegiali: il Consiglio d’Istituto, i Collegi dei Docenti, i Dipartimenti di
-materia, i Consigli di Classe. Essi promuovono tutte le iniziative più idonee
-ad affrontare e risolvere cause di natura economica, ambientale, socio-
-affettiva e culturale che possano pregiudicare all’esercizio del diritto allo
-studio e all’uguaglianza di tutti gli studenti nell’ambito della comunità
-scolastica.
-In ottemperanza alla normativa vigente, si attua un progetto di PCTO4
-caratterizzato da periodi di stage in aziende del territorio.
-Rafforzare i legami con le imprese rappresenta un pilastro fondamentale
-nella nostra offerta educativa presso ANESSE APS. La nostra proposta
-formativa si distingue per la stretta collaborazione con il mondo aziendale.
-Questa sinergia è strutturata seguendo il modello PCTO, che garantisce un
-equo bilanciamento tra i momenti di formazione in aula e quelli trascorsi
-3 Il complesso delle tecniche e delle metodologie necessarie all'analisi di una situazione problematica allo
-scopo di individuare e mettere in atto la soluzione migliore.
-4 Percorsi per le Competenze Trasversali e per l’Orientamento
+
+## Bisogni Formativi Del Territorio
+
+In seguito all’analisi delle diverse variabili presenti nell’ambiente in cui è inserito l’istituto, deriva
+l’elaborazione del PTOF che ha come finalità quella di fornire adeguate risposte ai bisogni
+formativi del territorio. L’area è caratterizzata da una pluralità del tessuto sociale e in questo
+contesto la scuola svolge un ruolo culturale e sociale di fondamentale importanza, portando avanti
+la sua vocazione ad integrarsi con le altre realtà culturali e formative.
+La scuola è chiamata ad assolvere alla funzione aggregativa capace di sviluppare importanti livelli
+di socializzazione e integrazione, di promuovere la qualità delle relazioni, di sopperire alle ridotte
+opportunità che la realtà circostante offre.
+I bisogni formativi sono indirizzati verso il tentativo di arginare i fattori di rischio e le diverse forme
+di disagio e di devianza che possono interessare i giovani in formazione. Alla scuola compete la
+funzione educativa capace di coinvolgere tutto il territorio, partendo dalle famiglie, ha come
+obiettivo principale la crescita globale degli alunni attraverso il loro percorso di formazione dalla
+scuola dell’infanzia fino ad arrivare alla conclusione del primo ciclo d’istruzione.
+L’istituto segue e tutela una popolazione scolastica che va dai 3 ai 14 anni, ne consegue che
+all’interno di quest’arco temporale i bisogni formativi degli alunni siano molto differenti.
+L’indirizzo delle attività didattiche risulta, dunque, molto flessibile, esse devono essere articolate
+per obiettivi e contenuti tenendo conto del livello evolutivo dell’alunno, al fine di permettere
+l’acquisizione di competenze spendibili nel corso della crescita di ciascuno. Fondamentali sono
+l’accettazione, il rispetto dei ritmi di lavoro, degli stili di apprendimento, la valorizzazione delle
+attitudini personali.
+Rapporti Scuola-Famiglia
+Le famiglie degli alunni saranno costantemente informate circa le finalità e le strategie educative
+oltre che della situazione di ogni alunno, così che i soggetti interessati: alunni, docenti, genitori,
+siano consapevoli e responsabili del processo formativo in atto. Ogni Consiglio di
+Classe/Interclasse/Intersezione, sulla base dei criteri dettati dal Collegio dei Docenti e dal Consiglio
+d’Istituto, deciderà le modalità più adatte a rendere i genitori maggiormente partecipi e protagonisti
+nelle scelte che riguardano i propri figli. Tutti gli ordini di scuola utilizzano il registro elettronico
+Argo, inoltre sono previsti in orario extrascolastico nel mese di dicembre e di aprile i colloqui
+generali che, grazie all’innovazione tecnologica , possono avvenire anche  online in un ambiente
+sicuro e protetto.
+Oltre ai due colloqui annuali si possono organizzare, all’occorrenza e in presenza  dei colloqui
+durante tutto l’anno, con orari e giorni da concordare con gli insegnanti, in modo che ci sia uno
+scambio di informazioni riguardanti il percorso effettuato dall’alunno, i progressi avvenuti ed
+eventuali situazioni da supportare. Per la secondaria e per la primaria è prevista la consegna delle
+schede di valutazione nei mesi di febbraio e di giugno. Solo se scuola e famiglia sapranno
+condividere valori, proposte ed esperienze importanti e significative si potrà costruire una scuola
+inclusiva con una didattica per tutti e per ognuno.
+Allegato Patto di corresponsabilità scuola-famiglia
+8
 
 ---
 
 ## Pagina 9
 
-Pag. 9 a 68
-nell'ambiente lavorativo.
-Questa metodologia promuove una partecipazione attiva delle imprese nel
-percorso formativo degli studenti, coinvolgendole sin dalle fasi di
-progettazione fino a quelle di valutazione. Insieme alle famiglie e
-all'Associazione, le aziende diventano artefici di un progetto formativo volto
-al successo personale e professionale di ciascuno studente. Grazie a questa
-collaborazione sinergica, miriamo a preparare gli studenti non solo dal
-punto di vista accademico ma anche per affrontare con successo le sfide del
-mondo del lavoro.
-In particolare l’istituto ha di recente stretto un accordo di collaborazione con
-Nobil Metal S.p.A. di  Villafranca d’Asti, https://www.nobilmetal.it/it-
-IT/homepage , azienda leader nel settore, altri protocolli d’intesa sono stati
-sottoscritti con aziende significative del settore per accordi di collaborazione
-relativi all’istruzione e formazione professionale.
-Ricognizione attrezzature e risorse strutturali
-La scuola risiede nell’edificio annesso alla Chiesa degli Oblati di San
-Giuseppe in via Mazzini, situata quindi nel centro storico della città è ben
-raggiungibili dai mezzi pubblici. Tale centralità consente alla scuola di
-inserirsi attivamente all’interno della vita sociale e culturale di Asti.
-L’Istituto dispone di 7 aule in una sede e 2 aule nella sede in Località
-Sessant 275 (accreditate per la formazione professionale), una segreteria,
-un’aula insegnanti, una ufficio di direzione, un laboratorio odontotecnico,
-una biblioteca e un’aula informatica (queste ultime due in via di
-allestimento).
-Spazio Lettura, Spazio Futuro: la biblioteca Tecnico-Scientifica del CF
 
-## Gauss
+## Obiettivi Formativi Prioritari Anche In Riferimento Al Rav
 
-L’Istituto Professionale Paritario CF GAUSS ha avviato un piano di
-rinnovamento della biblioteca scolastica con l’obiettivo di trasformarla in
-un vero e proprio laboratorio permanente di lettura, studio, ricerca e
-innovazione, coerente con la vocazione tecnico-professionale dell’Istituto.
-Il progetto, intitolato “Spazio Lettura, Spazio Futuro”, si propone di
+a.​ PREVENZIONE E CONTRASTO
+della dispersione scolastica, di ogni forma di
+discriminazione e del bullismo, anche informatico; potenziamento dell'inclusione scolastica
+e del diritto allo studio degli alunni con bisogni educativi speciali attraverso percorsi
+individualizzati e personalizzati anche con il supporto e la collaborazione dei servizi
+socio-sanitari ed educativi del territorio e delle associazioni di settore per favorire il diritto
+allo studio di tutti gli alunni;
+b.​ VALORIZZAZIONE DI PERCORSI FORMATIVI individualizzati e coinvolgimento degli
+alunni e degli studenti anche attraverso il potenziamento delle metodologie laboratoriali e
+delle attività di laboratorio;
+c.​ VALORIZZAZIONE E POTENZIAMENTO delle competenze linguistiche: italiano e altre
+lingue;
+d.​ POTENZIAMENTO delle competenze matematico-logiche e scientifiche;
+e.​ SVILUPPO DELLE COMPETENZE in materia di cittadinanza attiva e democratica,
+attraverso la conoscenza e il rispetto della legalità, la valorizzazione dell’educazione
+interculturale, l’educazione alle pari opportunità e la prevenzione della violenza di genere,
+della solidarietà e della cura dei beni comuni, della sostenibilità ambientale e della
+consapevolezza dei diritti e dei doveri di ciascuno;
+f.​ ALFABETIZZAZIONE E PERFEZIONAMENTO DELL’ITALIANO come lingua seconda
+attraverso corsi e laboratori per studenti di cittadinanza o di lingua non italiana, da
+organizzare anche in collaborazione con gli enti locali e il terzo settore, con l'apporto delle
+comunità di origine, delle famiglie e dei mediatori culturali;
+g.​ AUTONOMIA di giudizio, di scelta, di assunzione di impegni;
+h.​ AUTOSTIMA come consapevolezza delle proprie capacità cognitive, delle proprie
+emozioni, delle competenze individuali attraverso la graduale acquisizione della fiducia e
+sicurezza in se stessi;
+i.​ ACCETTAZIONE E RISPETTO DELL’ALTRO intesi come capacità di dialogare, di
+partecipare al bene comune. Nel rispetto della diversità, per prevenire il pregiudizio su
+persone e culture, nonché l’emarginazione;
+j.​ SVILUPPO DELLO SPIRITO CRITICO inteso come capacità di elaborazione personale del
+sapere;
+k.​ CONOSCENZE intese come saperi acquisiti per mezzo delle diverse discipline e/o
+insegnamenti;
+l.​ ABILITA’ intese come sviluppo completo di competenze cognitive, linguistiche, strumentali
+e fisiche, oggetto di esperienze attive dell’alunno.
+m.​ POTENZIAMENTO degli strumenti didattico - laboratoriali necessari a migliorare la
+formazione e i processi di innovazione dell’istituto; potenziamento delle competenze
+digitali, con particolare riguardo al pensiero computazionale, all’utilizzo critico e
+consapevole dei social network e dei media;
+n.​ FORMAZIONE DEI DOCENTI per l’innovazione didattica e lo sviluppo della cultura
+digitale per l’insegnamento, apprendimento e formazione delle competenze cognitive e
+sociali degli allievi
+9
 
 ---
 
 ## Pagina 10
 
-Pag. 10 a 68
-potenziare l’infrastruttura bibliotecaria esistente, sia sotto il profilo fisico
-che digitale, con un focus particolare sulla valorizzazione del patrimonio
-tecnico-scientifico, promuovendo nel contempo l’abitudine alla lettura,
-all’approfondimento e alla riflessione critica.
-La biblioteca sarà organizzata per aree tematiche e dotata di strumenti per
-la consultazione e il prestito digitale. L’adozione di software open source
-per la catalogazione, l’introduzione di sistemi di prestito automatizzati,
-l’allestimento di uno spazio di lettura informale e di una sezione tecnica
-dedicata agli studenti renderanno l’ambiente funzionale, accogliente e
-moderno.
-Obiettivi del progetto
-Promuovere la lettura tra gli studenti anche attraverso attività coinvolgenti
-(BookClub, BookCrossing con altri istituti)
-Digitalizzare e catalogare il patrimonio librario esistente, alcuni studenti
-delle classi del triennio stanno svolgendo attività di PCTO presso l’Archivio
-di Stato di Asti e l’ISRAT (L'Istituto Storico per la Resistenza e la Società
-Contemporanea in provincia di Asti), nella digitalizzazione e archiviazione
-documentale.
-Valorizzare
-testi
-scientifici
-e
-tecnici
-anche
-attraverso
-attività
-interdisciplinari e percorsi di lettura guidata.
-Creare connessioni con il territorio e le aziende per arricchire la sezione
-tecnico-professionale
-Integrazione nella didattica
-Il potenziamento della biblioteca si integra con le pratiche di didattica
-attiva e personalizzata già adottate dall’Istituto, supportando:
-- lo sviluppo di competenze trasversali (soft skills) come l’autonomia
-nello studio, il pensiero critico e la capacità di documentazione
-- le attività di ricerca e di PCTO
-- la didattica laboratoriale e multidisciplinare
-Uno degli obiettivi è sensibilizzare gli studenti all’utilizzo della biblioteca
-come spazio di apprendimento, crescita e cittadinanza attiva
-La biblioteca rappresenta così un motore culturale e tecnico, luogo di
+o.​ DIRITTO ALLO STUDIO e accompagnamento al reinserimento scolastico nelle classi
+d’origine degli alunni ospedalizzati, frequentanti le sezioni operanti nei due nosocomi del
+San Michele e del Microcitemico "A. Cao".
+Obiettivi formativi individuati dall’Istituto
+1)​ Potenziamento delle competenze matematico-logiche e scientifiche.
+2)​ Sviluppo delle competenze in materia di cittadinanza attiva e democratica attraverso la
+valorizzazione dell’educazione interculturale e alla pace, il rispetto delle differenze e il
+dialogo, il sostegno dell’assunzione di responsabilità nonché della solidarietà e della cura
+dei beni comuni e della consapevolezza dei diritti e dei doveri.
+3)​ Sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto della legalità,
+della sostenibilità ambientale, dei beni paesaggistici, del patrimonio e delle attività culturali.
+4)​ Potenziamento delle discipline motorie e sviluppo di comportamenti ispirati a uno stile di
+vita sano, con particolare riferimento all’alimentazione, all’educazione fisica e allo sport,
+all’abuso di sostanze nocive (fumo, alcool, stupefacenti).
+5)​ Prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione anche
+verso le differenze di genere, del bullismo e cyberbullismo; potenziamento dell’inclusione
+scolastica e del diritto allo studio degli alunni coi sogni educativi speciali attraverso percorsi
+individualizzati e personalizzati anche con il supporto e la collaborazione dei servizi
+socio-sanitari ed educativi del territorio e delle associazioni di settore e l’applicazione delle
+linee di indirizzo per favorire il diritto allo studio degli alunni adottati, emanate dal
+Ministero dell’Istruzione il 18 dicembre 2014.
+6)​ Valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
+studenti.
+7)​ Collaborazione con le scuole di origine - nonché con gli uffici dell’U.S.R. e con la scuola
+polo competente - per garantire la migliore prosecuzione degli studi e il successo formativo
+di tutti gli alunni ospedalizzati, frequentanti le sezioni operanti nei due nosocomi del San
+Michele e del Microcitemico "A. Cao".
+10
 
 ---
 
 ## Pagina 11
 
-Pag. 11 a 68
-incontro tra passato e futuro, tra carta e digitale, tra studio e condivisione.
-All’interno del progetto “Spazio Lettura, Spazio Futuro”, l’Istituto CF GAUSS
-promuove la realizzazione di audiolibri registrati dagli studenti per i loro
-compagni che presentano difficoltà nella lettura, come dislessia o altri
-disturbi specifici dell’apprendimento (DSA). L’ente gestore ha già
-acquistato le attrezzature necessarie per la creazione degli audiolibri e
-podcast specifici, grazie ad un partenariato tecnico con un’azienda leader
-del settore degli audiovisivi.
-Questa iniziativa nasce con una duplice finalità: da un lato favorire
-l’inclusione e garantire a tutti il diritto all’accesso ai contenuti culturali e
-tecnici; dall’altro, valorizzare le competenze comunicative, digitali ed
-empatiche degli studenti coinvolti nella produzione degli audiolibri.
-I testi scelti, in particolare quelli tecnici e professionali, saranno letti ad alta
-voce, registrati e messi a disposizione in formato audio nella biblioteca
-digitale dell’Istituto. Le letture saranno adattate in modo accessibile, chiare
-e accompagnate, quando possibile, da schede di supporto.
-Il progetto si configura come un esempio concreto di peer education e
-solidarietà, promuovendo la cultura dell’aiuto tra pari e la consapevolezza
-delle diverse modalità di apprendimento.
+
+## Continuità E Orientamento
+
+L’unitarietà di obiettivi e intenti del corpo docente dell’Istituto Comprensivo “G. Devinu”, trova la
+sua espressione anche nelle azioni atte ad accompagnare gli alunni e le alunne nel passaggio dai vari
+gradi del primo ciclo di istruzione e guidarli nella scelta del percorso da intraprendere nel secondo
+ciclo. Pertanto viene predisposta una commissione di lavoro che si occupa di organizzare un
+programma di attività funzionali alla continuità e all’orientamento.
+CONTINUITÀ Nei mesi di novembre e dicembre viene organizzato l’"Open Day” durante il quale
+alunni in fase di passaggio di grado d’istruzione e alunni di nuova iscrizione, con i rispettivi
+genitori, sono invitati a visitare le sedi di tutte le Scuole dell’Istituto, dalla Scuola dell’Infanzia alla
+Scuola Secondaria di 1° Grado, per constatarne l’organizzazione didattica e le modalità di
+svolgimento di tutte le attività. Con le classi quarte e quinte vengono predisposti degli incontri, sia
+all’inizio dell’anno scolastico che in occasione di Natale e Carnevale, con manifestazioni sportive,
+concerti e rappresentazioni teatrali. In fase di formazione delle classi prime della Scuola Primaria e
+della Scuola Secondaria di 1° Grado, i docenti delle classi uscenti della Scuola dell’Infanzia e della
+Scuola Primaria incontrano i colleghi del grado successivo di istruzione per lo scambio di
+informazioni atte a formare classi eterogenee secondo l’indicazione dei criteri da parte del
+Consiglio d’Istituto, la proposta del Collegio dei Docenti e le disposizioni del Dirigente Scolastico.
+
+## Orientamento
+
+Nei mesi di novembre e dicembre, nelle sedi “Ciusa”, “Mameli” e “Alziator”, vengono ospitati
+rappresentanti di vari istituti di Scuole Secondarie di 2° Grado perché ne illustrino le caratteristiche
+didattico-organizzative; durante gli “Open Day”, i nostri alunni vengono accompagnati a visitare gli
+Istituti di 2° Grado, affinché possano cogliere le informazioni e le impressioni necessarie a operare
+una scelta consapevole del successivo percorso di studi.
+Allegato Curricolo Verticale di Educazione Civica
+Curricolo Verticale
+Competenze chiave per l’apprendimento permanente
+La Raccomandazione del Consiglio dell’Unione europea presenta il nuovo Quadro di riferimento
+per le competenze chiave per l’apprendimento permanente. Si è posta una grande attenzione al
+miglioramento delle competenze di base e per la vita.
+L’acquisizione delle competenze comporta una maggiore apertura alla cittadinanza attiva e
+inclusiva. Le competenze vengono declinate come una combinazione di conoscenze, abilità e
+atteggiamenti che descrivono la disposizione e la mentalità per agire e reagire.
+Il sapere si traduce in saper fare in maniera consapevole quando lo studente dimostra di mettere in
+pratica ciò che ha imparato.
+11
 
 ---
 
 ## Pagina 12
 
-Pag. 12 a 68
-PAI - Piano Annuale per l’Inclusione
-Istituto Professionale Paritario CF Gauss - Anno scolastico 2024/2025
-https://lnx.ambienteweb.info/allegati/pai.pdf
+Le competenze europee, recepite dal MIUR con la Nota n.3645 del 1 marzo 2018, sono declinate in
+otto tipologie di competenze che rappresentano un quadro di riferimento per tutti i sistemi scolastici
+europei:
+• Competenza alfabetica funzionale.
+• Competenza multi-linguistica.
+• Competenza matematica e competenza in scienze, tecnologie e ingegneria.
+• Competenza digitale.
+• Competenza personale, sociale e capacità di imparare a imparare.
+• Competenza in materia di cittadinanza.
+• Competenza imprenditoriale.
+• Competenza in materia di consapevolezza ed espressione culturale.
+E’ stato elaborato un Curricolo sull’Educazione Civica che, in conformità con quanto previsto dalla
+L. 92/2019 e nel rispetto delle sue Linee-guida che prevede le seguenti tematiche:
+1)​ Costituzione, Istituzioni dello Stato Italiano, dell’Unione europea e degli organismi
+internazionali.
+2)​ Agenda 2030 per lo sviluppo sostenibile, adottata dall’Assemblea Generale delle Nazioni
+Unite il 25 settembre 2015.
+3)​ Educazione alla cittadinanza digitale.
+4)​ Educazione ambientale-
+5)​ Educazione alla legalità.
+6)​ Educazione al rispetto e alla valorizzazione del patrimonio culturale e dei beni pubblici
+comuni.
+7)​ Formazione di base in materia di protezione civile.
+12
 
 ---
 
 ## Pagina 13
 
-Pag. 13 a 68
-Ambienti
-L’ambiente è stato di recente risanato, riverniciato e ristrutturato. La
-nuova amministrazione ha dato nuovo lustro a questi storici ambienti
-scolastici, portando non solo migliorie estetiche ma investendo anche in
-strumentazione e attrezzature: pc, tablet, stampanti, LIM e un sistema CAD
-di nuovissima generazione (EXOCAD). Grazie alla donazione di un’azienda
-prestigiosa del settore il laboratorio odontotecnico è dotato di scanner,
-stampante 3D e fresatrice 4 assi, completando il ciclo di lavoro di un
-laboratorio moderno.
+
+## Inclusione
+
+L’inclusione è un punto nodale su cui si incentra l’azione didattico-educativa dell’Istituto che vede
+una media del 25% di alunni con BES o disabilità e questo impone a docenti ed educatori in
+generale di ripensare continuamente la propria attività didattico-educativa. Gli strumenti cardine
+dell’inclusione sono il PEI e il PDP, documenti che consentono di pianificare e progettare l’attività
+educativa dedicata e di calibrarla in base alle necessità. Essi sono  condivisi da tutti i docenti del
+team e dalle famiglie e sono monitorati con regolarità dalle singole classi. Diversi progetti e
+laboratori sono finalizzati al supporto e all’inclusione degli alunni/studenti con BES. Anche per gli
+alunni di provenienza straniera viene elaborato un PDP.
+Nelle sezioni ospedaliere del San Michele e del Microcitemico "A. Cao" tutti gli alunni frequentanti
+la scuola in corsia sono - per circostanze temporanee - alunni con BES, per i quali è necessario
+favorire un doppio livello di inclusione:
+●​ con gli altri pazienti frequentanti la scuola in ospedale, con fini di socializzazione e
+condivisione della propria condizione di malattia;
+●​ con gli insegnanti e i compagni della propria classe d’origine - con contatti costanti
+attraverso l’istruzione domiciliare e la DDI - ai fini del mantenimento delle relazioni e del
+successivo  reinserimento scolastico, al termine del percorso terapeutico.
+Anche in questo caso il PDP si rivela essere lo strumento fondamentale tramite il quale formalizzare
+la collaborazione tra la Scuola in Ospedale (SiO) e la scuola d’origine dell’alunno lungodegente,
+come stabilito al punto 5.1 delle Linee di indirizzo nazionale (2019).
+Le famiglie
+Le famiglie svolgono un ruolo centrale nella realizzazione del successo formativo di ogni alunno.
+Per questo la costruzione di una collaborazione e di un’alleanza solidale con le famiglie sono un
+obiettivo prioritario.
+La scuola offre, attraverso la segreteria, un supporto costante e concreto ai bisogni amministrativi
+delle famiglie (modulistica, PagoPA, registro elettronico, ecc…).
+13
 
 ---
 
 ## Pagina 14
 
-Pag. 14 a 68
-
-## Finalità E Obiettivi Educativi Generali
-
-L'offerta formativa si prefigge il raggiungimento, a fine quinquennio, dei
-seguenti obiettivi:
-
-## Obiettivi Comportamentali
-
-- Saper considerare la diversità di ideologie e di opinioni come
-occasione di confronto. Saper cogliere il valore della legalità intesa
-come rispetto del diritto e quindi saper rispettare le regole,
-l'ambiente e gli altri.
-- Saper valutare e autovalutarsi con senso critico.
-- Conoscere l'ambiente circostante e sapersi muovere in esso in
-autonomia. Sapersi relazionare con il gruppo classe ed i docenti.
-
-## Obiettivi Cognitivi
-
-
-## Biennio
-
-- Sapersi esprimere in modo chiaro e corretto, utilizzando il lessico
-specifico delle varie discipline.
-- Saper comprendere un testo, individuandone i punti fondamentali e
-saperne esporre i punti significativi.
-- Saper cogliere la coerenza all'interno dei procedimenti. Saper
-applicare regole e principi.
-- Saper collegare argomenti della stessa disciplina o di discipline
-diverse, cogliendone relazioni semplici.
-- Saper stabilire connessioni di causa - effetto. Acquisire un metodo di
-studio.
-
-## Triennio
-
-- Saper leggere, redigere ed interpretare testi e documenti. Saper
-interpretare fatti e fenomeni.
-- Saper elaborare dati e saperli rappresentare in modo efficace per
+Allegati
+Protocollo DSA
+Protocollo Accoglienza Alunni Stranieri
+14
 
 ---
 
 ## Pagina 15
 
-Pag. 15 a 68
-favorire i processi decisionali.
-- Saper documentare adeguatamente il proprio lavoro.
-- Saper comunicare efficacemente utilizzando appropriati linguaggi
-tecnici.
-- Saper analizzare situazioni e rappresentarle con modelli funzionali ai
-problemi da risolvere.
-- Saper effettuare scelte e prendere decisioni ricercando ed assumendo
-le informazioni opportune.
+Curricolo verticale di Educazione Civica
+Le Linee Guida relative all’insegnamento dell’Educazione civica, emanate con Decreto Ministeriale
+n.35 del 22 giugno 2020, stabiliscono che, a partire dall’anno scolastico 2020/2021, questo
+insegnamento, trasversale alle altre materie, divenga obbligatorio in tutti i gradi dell’istruzione, a
+partire dalle scuole dell’infanzia con lo scopo di favorire, da parte delle Istituzioni scolastiche, una
+corretta attuazione dell’innovazione normativa la quale implica, ai sensi dell’articolo 3, una
+revisione dei curricoli di istituto per adeguarsi alle nuove disposizioni. Le istituzioni scolastiche
+prevedono l'insegnamento dell'educazione civica nel curricolo di istituto, per un numero di ore
+annue non inferiore a 33 (corrispondente a 1 ora a settimana), da svolgersi nell'ambito del monte
+orario obbligatorio previsto dagli ordinamenti vigenti.
+Le Linee guida si sviluppano intorno a tre nuclei concettuali che costituiscono i pilastri della Legge,
+a cui possono essere ricondotte tutte le diverse tematiche dalla stessa individuate:
+1. COSTITUZIONE, diritto (nazionale e internazionale), legalità e solidarietà;
+2. SVILUPPO SOSTENIBILE, educazione ambientale, conoscenza e tutela del patrimonio e del
+territorio;
+3. CITTADINANZA DIGITALE, capacità di avvalersi consapevolmente e responsabilmente dei
+mezzi di comunicazione virtuali.
+Il Decreto ministeriale n. 183 del 7 settembre 2024 aggiorna le sopra indicate linee guida per
+l'insegnamento dell'Educazione civica: in particolare, sono stati aggiornati e ampliati i nuclei
+tematici attorno a cui si organizzeranno le lezioni. All’interno delle Nuove Linee Guida sono
+descritti nel dettaglio gli obiettivi di apprendimento ministeriali diversificati per grado, inquadrati
+nei tre nuclei tematici da sviluppare in classe attraverso attività e percorsi educativi.
+In allegato l’intero documento del Curricolo verticale di educazione civica, consultabile sul sito
+dell’Istituto.
+15
 
 ---
 
 ## Pagina 16
 
-Pag. 16 a 68
-Ambienti di apprendimento
-disciplinari
-Discipline
-Aula Prof.ssa Fernanda Marchisio e Prof.
-Pasquale Genzano
-Esercitazioni di laboratorio di odontotecnico
-Stazione EXOCAD, Scanner, Stampante 3d,
-Fresatrice 4 assi
-Anatomia Fisiologia igiene
-Rappresentazione e modellazione
-odontotecnica
-Risorse professionali, Docenti
-Italiano
-Cristina Ballatore
-Francesca Palumbo
-Storia
-Storia dell’arte
-Cristina Ballatore
-Emanuela Borsa
-Inglese
-Matematica / Statistica
-Massimo Piancatelli
-Geografia
-Francesca Palumbo
-Diritto ed economia
-Alberto Bazzano
-(esperto del mondo del lavoro)
-Scienze motorie
-Alberto Bosco
-Paolo Ferrua
-RC o attività alternative - Sostegno
-Luigi Cesare Ivaldi
-Grazia  Di Nunno
-Marta Catone
-Scienze integrate
-Annamaria Bassignano
-Matteo Scaiola
-Tecnologia dell’informazione e della comunicazione
-Luigi Cesare Ivaldi
-(esperto del mondo del lavoro)
-Matteo Scaiola
-Anatomia Fisiologia igiene
-Annamaria Bassignano
-Rappresentazione e modellazione odontotecnica ,
-Laboratorio pratico odontotecnico
-Emanuela Borsa
-Angiolino Alfredo Gamberini
-(esperto del mondo del lavoro)
-Alessandro Bussa (docente masterclass)
-Aya Harchi
-Luigi Frisenda
-Gnatologia , Chimica, Igiene, Anatomia
-Annamaria Bassignano
-Diritto e legislazione socio sanitaria
-Alberto Bazzano
-(esperto del mondo del lavoro)
-Scienze dei materiali dentali e laboratorio
-Chiara Ivaldi
+
+## Organizzazione
+
+La scuola è un’organizzazione complessa in cui ciascuno offre il proprio contributo per un migliore
+funzionamento del tutto. Oltre alla Dirigente e alle sue due collaboratrici, sono presenti diverse
+figure di sistema. Le prime sono le funzioni strumentali che si occupano di gestire i settori strategici
+della scuola (inclusione, digitalizzazione, valutazione…).
+Vi sono i referenti di plesso che garantiscono il corretto funzionamento dei plessi in sostituzione
+della Dirigente, gestendo i docenti dei plessi e i genitori. Vi sono i referenti delle commissioni che,
+insieme, realizzano il progetto complessivo della scuola.
+La segreteria è coordinata dalla Direttrice dei servizi generali e amministrativi che, in stretta
+collaborazione con la Dirigente Scolastica, fa in modo che i diversi settori della segreteria lavorino
+in sintonia per garantire una corretta gestione delle pratiche amministrative ai diversi componenti
+della scuola: alunni, docenti, personale ATA ed enti locali (servizi generali).
+I collaboratori scolastici forniscono un importante contributo per quanto riguarda la vigilanza sugli
+alunni, la pulizia e la guardiania dei locali, la loro apertura e chiusura. Intervengono in caso di
+necessità di soccorso o eventuali situazioni di pericolo.
+
+## Funzioni Strumentali
+
+Funzione strumentale gestione
+piano offerta formativa
+Branca M. Paola
+
+## Ptof
+
+Funzione strumentale Successo
+formativo e inclusione
+Licheri Tatiana, Peddis
+Daniela
+Coordinamento disabili/BES
+GLI, GLHO relazioni con enti
+locali -Formazione-Progetti e
+materiali-Consulenza PEI-PDF
+16
 
 ---
 
 ## Pagina 17
 
-Pag. 17 a 68
-Educazione civica
-Attività d sostegno
-Laboratori didattici
-Grazia Di Nunno
-(Educatore professionale)
-Marta Catone
-Sostegno studenti DSA, BES, HC certificati
-Marta Catone
-Sistemi di gestione qualità ISO 9001
-Igiene e sicurezza D.lgs 81/08
-
-## Haccp
-
-Competenze trasversali soft skills
-Luigi Cesare Ivaldi
-(esperto del mondo del lavoro)
-
-## Istituto Professionale Paritario C.F. Gauss
-
-Gestore
-Associazione Nazionale di Economia Sociale Sostenibile ed Etica APS
-Indirizzo
-
-## V. Mazzini, 6, 14100 Asti (At)
-
-Codice meccanografico
-
-## Atri02500P
-
-Telefono
-0141  091531
-E-mail P.E.O.
-info@istitutogaussasti.it
-segreteria@istitutogaussasti.it
-servizi@istitutogaussasti.it
-presidenza@istitutogaussasti.it
-direzione@istitutogaussasti.it
-
-## P.E.C.
-
-asn@pec.it
-Sito Internet
-https://www.istitutogaussasti.it
-https://www.anesse.org
+Funzione strumentale
+Innovazione e tecnologia
+Manca M. Chiara
+Promuove l'innovazione didattica e
+l'adozione delle tecnologie nelle
+scuole, supportando docenti e
+personale scolastico nell'uso degli
+strumenti digitali e nella gestione
+dei sistemi informatici. I suoi
+compiti includono la formazione
+del personale, il coordinamento del
+Team digitale, il supporto alla
+dematerializzazione, il
+monitoraggio delle risorse
+tecnologiche e l'accompagnamento
+dei docenti verso l'acquisizione
+delle competenze digitali, in linea
+con i modelli come DigComp.
+Compiti principali
+Promozione dell'innovazione:​
+Stimolare e diffondere
+l'innovazione didattica e
+tecnologica all'interno della scuola.
+Supporto tecnologico:​
+Fornire consulenza e supporto ai
+docenti e agli altri operatori
+scolastici nell'utilizzo di software,
+hardware e strumenti multimediali.
+Gestione delle tecnologie:​
+Coordinare la manutenzione e la
+gestione dei sistemi informatici,
+come PC, LIM, reti e software.
+Formazione e competenze
+digitali:​
+Organizzare attività formative per
+docenti e personale ATA per
+promuovere e sviluppare le
+competenze digitali, in accordo con
+il modello DigComp.
+Coordinamento digitale:​
+Collaborare con il Dirigente
+Scolastico e il Team Digitale per
+l'implementazione del Piano
+Nazionale per la Scuola Digitale
+(PNSD) e per la gestione del sito
+17
 
 ---
 
 ## Pagina 18
 
-63
-
-## Priorità Desunte Dal Rav
-
-Priorità e valori attesi
-Risultati Scolastici
-Priorità
-Raggiungimento obiettivi minimi di conoscenze-competenze-abilità.
-Acquisizione delle competenze trasversali (soft skills)
-Valori attesi
-Permettere a tutti i discenti di conseguire un livello piu' che accettabile onde
-trasformare le proprie conoscenze in competenze operative.
-Prosecuzione degli studi a livello universitario
-Valori attesi
-Il conseguimento di competenze conoscitive in grado di consentire buoni
-esiti a livello di studi superiori
-Inserimento nel mondo del lavoro con accettabile successo.
-Valori attesi
-Il conseguimento di abilita' tecnico-pratiche di analisi e di esecuzione di casi
-clinici diretti e reali.
+web scolastico e del registro
+elettronico.
+Aggiornamento e
+progettazione:​
+Partecipare alla progettazione e
+all'aggiornamento del Piano
+Triennale dell'Offerta Formativa
+(PTOF) e alla pianificazione delle
+attività di formazione dei docenti.
+Sviluppo di soluzioni:​
+Ideare e implementare soluzioni
+innovative per migliorare i processi
+di apprendimento e organizzativi.
+Finalità
+●      Diffondere una cultura digitale
+in tutta la comunità scolastica.
+●
+●      Supportare la scuola
+nell'adozione di processi di
+dematerializzazione e nell'utilizzo
+di servizi digitali.
+●
+●      Favorire la progettazione per
+competenze e l'integrazione delle
+tecnologie nell'attività didattica.
+●
+●      Contribuire allo sviluppo
+sostenibile della scuola in coerenza
+con l'Agenda 2030.
+18
 
 ---
 
 ## Pagina 19
 
-63
 
-## Politica Di Rinnovo Delle Iscrizioni
+## Commissioni
 
-L’Istituto Professionale Paritario CF Gauss adotta una politica di rinnovo
-annuale delle iscrizioni basata su principi di corresponsabilità educativa,
-qualità del servizio formativo e trasparenza amministrativa.
-La ri-iscrizione annuale rappresenta il rinnovo del patto educativo tra
-scuola e famiglia ed è subordinata alla verifica dei requisiti didattici,
-comportamentali, organizzativi e amministrativi.
-La regolarità contributiva costituisce requisito fondamentale per la
-prosecuzione del rapporto formativo, nel rispetto dell’equilibrio gestionale
-dell’istituto e della tutela dell’interesse collettivo della comunità scolastica.
+Commissione Continuità e
+Orientamento
+Milazzo Luisa, Adamo Adriano,
+Cherchi
+Valentina,
+Tilocca
+Alessandra,
+Mereu
+Claudia,
+Paschina Barbara, Boy Stefania
+30 ore obbligatorie alla Scuola
+Secondaria di primo grado
+Commissione MUBE MUSES
+(progetti di quartiere)
+Licheri
+Tatiana,
+Boy
+Stefania,
+Norfo Claudia.
+Commissione orario
+Celi Stefania, Cadeddu Marta,
+Congiu
+Alessandra,
+Cogotti,
+Carrucciu.
+Commissione Progetti
+DS, Stracuzzi M. Gloria, Pagni
+Patrizia, Concas Fabiano.
+RAV e PdM (PTOF)
+Branca M. Paola, Concas
+Fabiano, Castangia M. Cristina,
+Cadeddu Marianna
+Commissione “Regolamenti”
+Cherchi Valentina, Stracuzzi M.
+Gloria.
+Infanzia, Primaria, Secondaria,
+Regolamento di Istituto.
+Regolamento somministrazione
+farmaci, Regolamento risarcimento
+danni (?), Regolamento viaggi di
+istruzione.Regolamento comodato
+d’uso.
+GLI
+DS, tutti i docenti di sostegno,
+Asuni Angela Maria, Sechi Paola
+da convocare
+Team Digitale
+Animatore digitale Manca
+coordinatrice) Norfo Claudia; Ortu
+Cristina
+Team Bullismo
+Arippa Emanuela, Piras Sara,
+Berillo Francesca.
+Team INVALSI
+Pitzalis Alessandra, Berillo, Melis
+Barbara
+19
 
 ---
 
 ## Pagina 20
 
-63
+Team Intercultura (integrazione
+alunni stranieri)
+Melis Barbara, Cogotti Roberta.
 
-## Principali Elementi Di Innovazione
+## Referenti
 
+Referente INVALSI
+Pitzalis Alessandra
+Referente sito web
+Norfo Claudia
+Referente registro elettronico
+Celi Stefania, Sechi Paola
+Referente Bullismo e
+Cyberbullismo
+Arippa Emanuela
+Referente attività musicali –
+strumento
+Milazzo Luisa
+Referente gruppo sportivo
+Tiloca Alessandra, Siccu Marta.
+Referente tirocinio universitario
+Sechi Paola
+Referente giochi matematici
+Asuni Angela M.
 
-## Aree Di Innovazione
+## Collaboratori Del Dirigente
 
-
-## Pratiche Di Insegnamento E Apprendimento
-
-La scommessa principale della nuova gestione dell’istituto è quella di
-avvalersi completamente di una didattica innovativa. Minimizzare la
-tradizionale lezione frontale e la mera trasmissione di saperi. Come già
-previsto dalla riforma dei nuovi professionali del 2017 che identifica gli
-istituti professionali come scuole territoriali dell’innovazione, aperte e
-concepite come laboratori di ricerca, sperimentazione e originalità
-didattica la scuola diventa luogo essenziale per lo sviluppo di competenze,
-non solo tecniche e/o disciplinari ma anche trasversali. Fondamenta
-indispensabili per la costruzione di un progetto di vita di ogni alunno,
-cittadino, uomo.
-L’apprendimento cooperativo (cooperative learning), Didattica ibrida5
-(hybrid learning), la classe rovesciata, flipped-classroom6 versione Gauss,
-significa che avviene tutto in classe,  la peer-education7, Tecnica del
-pomodoro sono le principali metodologie su cui si basa l’azione educativa e
-formativa dei nostri docenti.
-Altra peculiarità, una scuola senza compiti!
-Gli allievi sfrutteranno al massimo il tempo scuola, le fasi di studio e di
-esercizio saranno parte integrante delle lezioni. Una didattica attiva che
-vede sempre lo studente al centro e protagonista del proprio processo di
-5 L'apprendimento misto è simile a un cocktail di metodi di insegnamento, combinando elementi tradizionali come le lezioni
-in aula con approcci digitali come le attività online. Questa miscela utilizza sia strumenti sincroni che asincroni, consentendo
-agli studenti di apprendere nel modo che preferiscono. Questo approccio ibrido offre flessibilità e adattabilità, creando un
-ambiente di apprendimento su misura per le esigenze degli studenti.
-6 La flipped classroom è un modello didattico in cui i compiti tradizionalmente svolti in aula, come le spiegazioni, vengono
-spostati online attraverso video o materiali didattici. Gli studenti studiano questi materiali a casa e in classe si concentrano su
-attività pratiche, discussioni e problemi, consentendo un apprendimento più attivo e personalizzato
-7 La peer education è un approccio educativo in cui gli individui apprendono e si supportano reciprocamente, spesso
-attraverso l'insegnamento e il mentoring tra pari. Gli studenti insegnano ad altri studenti, condividendo conoscenze e
-esperienze in un ambiente collaborativo, promuovendo l'apprendimento attivo e facilitando la comprensione attraverso
-interazioni tra coetanei.
+Collaboratore Secondaria
+Celi Stefania
+Collaboratore primaria e
+infanzia
+Sechi Paola
+20
 
 ---
 
 ## Pagina 21
 
-63
-apprendimento. Saranno inoltre previsti dei rientri pomeridiani dedicati al
-tutoraggio, ai recuperi e attività di gruppo per progetti di classe e
-interclasse, ore di volontariato attivo.
-Da noi la campanella non suona per il cambio dell’ora gestita direttamente
-dagli insegnanti.
-Utilizziamo la Tecnica del Pomodoro, è un metodo di gestione del
-tempo che può portare numerosi benefici e raggiungere obiettivi
-significativi nell'ambito di un istituto professionale per odontotecnici. Gli
-obiettivi principali includono:
-- Aumento della produttività, concentrandosi su blocchi di lavoro di
-25 minuti seguiti da brevi pause, gli studenti possono migliorare la
-loro efficienza e produttività negli studi e nelle pratiche
-odontotecniche.
-- Miglioramento della concentrazione, eliminando le distrazioni e
-lavorando per periodi focalizzati, gli studenti possono sviluppare una
-maggiore concentrazione, cruciale per attività complesse come quelle
-odontotecniche.
-- Gestione dello stress, attraverso la regolarità delle pause, la tecnica
-aiuta a ridurre lo stress e l'ansia legati allo studio e alla pratica,
-promuovendo un approccio più equilibrato al lavoro.
-- Ottimizzazione dell'apprendimento, l'alternanza tra lavoro e
-riposo favorisce l'assimilazione delle informazioni e delle tecniche
-odontotecniche, migliorando l'apprendimento a lungo termine.
-I valori attesi dall'implementazione di questa tecnica includono lo sviluppo
-di abitudini di lavoro più sane, una maggiore consapevolezza del tempo e
-un miglior equilibrio tra studio, pratica e tempo libero. Questi risultati
-contribuiscono a formare professionisti odontotecnici più efficienti,
-concentrati e soddisfatti.
-Personalizzazione
-L'Istituto svolge un ruolo fondamentale nel coltivare le competenze
-essenziali necessarie per realizzare il futuro che ogni individuo auspica,
-promuovendo nel contempo l'espansione del suo potenziale. La centralità
-della persona si riflette in un approccio formativo che si adatta alle esigenze
-specifiche di ciascun individuo, inclusi coloro con disabilità, bisogni
+NIV
+Celi Stefania, Sechi Paola, Branca
+Maria Paola, Manca Maria Chiara,
+Licheri Tatiana, Peddis Daniela.
+
+## Referenti Di Plesso
+
+Infanzia Via Brianza
+Pireddu Anna Maria
+Infanzia Cauli
+Infanzia La Rotonda
+Murtas Adriano
+Infanzia via Serbariu
+Sechi Maria Annunziata
+Infanzia Ada Negri
+Arrais Elvira
+Primaria Sergio Atzeni
+Sechi Paola
+Primaria Via Meilogu
+Branca Maria Paola
+Primaria via Redipuglia
+Casu Grazia
+Soddu Marta
+Sec. I grado Alziator
+Peddis Daniela
+Asuni Angela M.
+Sec. I grado Mameli
+Berillo Francesca
+Sec. I grado Ciusa
+Melis sostituzioni
+Scuola in Ospedale
+Cadeddu Marianna
+21
 
 ---
 
 ## Pagina 22
 
-63
-educativi speciali (BES), disturbi dell'apprendimento (DSA) o condizioni di
-svantaggio socioeconomico, linguistico o culturale. Questo si traduce in
-metodologie d'insegnamento e ambienti di apprendimento che tengono
-conto attentamente delle caratteristiche e delle esigenze dei nostri studenti.
-La didattica modulare
-La programmazione didattica può presentarsi anche in forma modulare. Il
-modulo risulta come un insieme coerente di attività, frutto di un’azione
-didattica complessa che prevede l’esistenza di più sistemi integrati che
-interagiscono tra loro. E’ studiato per sviluppare sia abilità generali sia
-abilità specifiche e può essere applicato a tutte le discipline, anzi, il suo
-carattere generalmente pluridisciplinare, non privilegia l’una o l’altra
-materia, ognuna delle quali può collegarsi liberamente con quelle che meglio
-rispondono e esplicitano le finalità dell’azione didattica.
-Visite didattiche e aziendali
-Durante l'anno, sono programmate diverse attività per arricchire
-l'esperienza didattica dei nostri studenti. Queste includono visite didattiche
-per approfondire la storia e l'arte della nostra città, gite d'istruzione di uno o
-più giorni in Italia o all'estero per entrare in contatto con diverse realtà e
-culture, nonché visite aziendali, spesso in collaborazione con associazioni
-del settore. Inoltre, vengono organizzati incontri con esperti del campo,
-offrendo agli studenti l'opportunità di conoscere le più recenti e innovative
-tecniche utilizzate nella realizzazione di protesi e altri prodotti
-odontotecnici. Queste attività sono fondamentali per ampliare le prospettive
-dei nostri studenti e prepararli per il mondo reale.
-Gamification
-Come già citato nei precedenti paragrafi, i nuovi istituti professionali sono
-scuole concepite come laboratori di ricerca e sperimentazione didattica, con
-l’obiettivo di sviluppare non solo le competenze tecniche e disciplinari, ma
-anche quelle trasversali.
-Considerando questa premessa, il nostro istituto si avvale dell’utilizzo di siti
-online interattivi per una didattica individualizzata, personalizzata ed
-inclusiva. Uno su tutti è “Genially”, una piattaforma educativa che consente
-di creare presentazioni, infografiche, poster, mappe concettuali, giochi
+
+## Coordinatori Consigli
+
+
+## Di Classe Scuola
+
+
+## Secondaria E
+
+
+## Ospedaliera
+
+
+## Segretari
+
+
+## Sostituti
+
+1A
+
+## Tiloca
+
+
+## Laconi
+
+Docente più anziano
+2A
+
+## Andreozzi
+
+
+## Mascia
+
+Docente più anziano
+3A
+
+## Melis B.
+
+
+## Luciani M.
+
+Docente più anziano
+1C
+
+## Cadoni Valeria
+
+
+## Altea M.
+
+Docente più anziano
+2C
+
+## Prasciolu
+
+
+## Carboni
+
+Docente più anziano
+2G
+
+## Foddi
+
+
+## Devinu
+
+3G
+
+## Spada Anna Rita
+
+
+## Usai Daniela
+
+1H
+
+## Boy Stefania
+
+
+## Etzu
+
+Cellesi Maddalena
+2H
+
+## Cellesi
+
+
+## Maddalena
+
+
+## Peddis Daniela
+
+Scienze motorie
+3H
+
+## Asuni Angela
+
+
+## Maria
+
+
+## Cherchi Valentina
+
+Sulis Elisa
+22
 
 ---
 
 ## Pagina 23
 
-63
-interattivi e altri contenuti visivi. Questa applicazione viene utilizzata nel
-nostro istituto nella versione “Premium” per creare attività didattiche
-accattivanti e coinvolgenti, ma anche per ampliare il pacchetto di
-competenze digitali degli alunni facendo elaborare a loro stessi i contenuti.
-Gli studenti potenziano così la collaborazione, il problem solving, le
-competenze socio-relazionali, il senso critico, le capacità informatiche, oltre
-al sentirsi più coinvolti e partecipi in una progettazione didattica centrata su
-di loro.
-Nell’ottica di valorizzare il cooperative learning, un esempio di attività
-didattica prevede l’utilizzo della “Gamification”, una metodologia di
-insegnamento che si avvale del gioco per favorire il coinvolgimento emotivo,
-l’engagement, l’interazione degli studenti ed il raggiungimento di obiettivi di
-apprendimento con la preparazione di esperienze centrate sulle singole
-classi. Per esempio, con la modalità “Escape Room” il docente prepara una
-presentazione interattiva e a seguire i ragazzi vengono suddivisi in piccoli
-gruppi all’interno dei quali ciascuno ha un ruolo ben definito per potenziare
-l’interdipendenza positiva8. Gli studenti, collaborando, dovranno rispondere
-a dei quesiti a risposta multipla riguardanti l’argomento oggetto di studio,
-risolvere degli enigmi e cercare le informazioni utili da risorse digitali e
-cartacee, studiando così in modo implicito l’unità di apprendimento
-prescelta.
-Il Cantiere Scuola
-Il programma triennale ha incorporato metodi di insegnamento alternativi
-come i cantieri-scuola per arricchire l'esperienza educativa tradizionale.
-Questi metodi consentono un apprendimento professionale fin dai primi
-passi e offrono l'opportunità di esplorare nuovi approcci progettuali e azioni
-istituzionali.
-Specificatamente, un cantiere-scuola è un'area designata nel laboratorio
-dove avviene l'apprendimento attraverso attività pratiche e teoriche
-incentrate su conoscenza, restauro, recupero e rifunzionalizzazione delle
-protesi. L'educazione attiva qui proposta si basa su una ricerca
-multidisciplinare, la combinazione di diverse competenze tecniche e
-scientifiche, e la collaborazione tra professionisti qualificati abilitati e titolari
-di laboratori odontotecnici.
-8 Con interdipendenza positiva si intende l’essere collegati agli altri in modo tale che il singolo non possa
-avere successo senza il gruppo (e viceversa il gruppo non può avere successo senza il singolo).
+
+## Classe
+
+
+## 1^Ospe
+
+
+## Dale
+
+
+## Loi Sara
+
+
+## Classe
+
+
+## 2^Ospe
+
+
+## Dale
+
+
+## Concas
+
+
+## Fabiano
+
+
+## Classe
+
+
+## 3^Ospe
+
+
+## Dale
+
+
+## Cabras
+
+
+## Eleonora
+
+
+## Primar
+
+IA
+
+## Micro
+
+
+## Massa
+
+
+## Diego
+
+
+## Primar
+
+IA
+
+## Micro
+
+
+## Macis M.
+
+
+## Luisa
+
+
+## Primar
+
+IA
+
+## Brotz
+
+U
+
+## Demontis
+
+
+## Carmela
+
+
+## Coordinatori Consigli
+
+
+## Di Classe Scuola
+
+
+## Primaria
+
+
+## 1A Atzeni
+
+Adamo Adriano
+
+## 2A Atzeni
+
+Ortu Cristina
+
+## 3A Atzeni
+
+Stracuzzi M. Gloria
+
+## 4A Atzeni
+
+Manca M. Chiara
+23
 
 ---
 
 ## Pagina 24
 
-63
-Questo approccio flessibile permette di sviluppare programmi educativi su
-misura per diversi gruppi, utilizzando varie forme di apprendimento, sia
-formale che informale. Questo processo mira a far apprezzare sia il valore
-culturale dei beni che gli aspetti della ricerca ad essi connessi.
-I cantieri-scuola sono progettati per riscoprire e rafforzare competenze
-specializzate, tradizionalmente preservate da corporazioni e comunità locali.
-Questa strategia formativa è cruciale per gli istituti professionali, mirando a
-migliorare sia le opportunità di lavoro che la tutela del patrimonio, in linea
-con i principi fondamentali della Costituzione.
-Infine, questi programmi sono principalmente rivolti agli studenti attuali e
-passati della nostra istituzione, inclusi coloro che non hanno avuto
-l'opportunità di sviluppare abilità, come la digitalizzazione, in precedenza.
-Pratiche di valutazione
-La valutazione dell’apprendimento è un momento necessario nella relazione
-insegnanti studenti, è un’attività incessante, interna alla comunicazione che
-intercorre  nel rapporto educativo. La valutazione  è una ricerca continua di
-un giusto equilibrio tra promozione, cura, attenzione ai bisogni degli allievi e
-valorizzazione del loro impegno, capacità e meriti in un perfetto equilibrio
-tra criteri valutativi e concrete condizioni di lavoro:
-partendo dalle conoscenze possedute dai ragazzi lavorando con tempi
-distesi su pochi ma essenziali contenuti disciplinari, adeguati all’età degli
-allievi utilizzando un metodo laboratoriale, euristico, induttivo, cooperativo
-sfruttando al meglio le opportunità educative offerte dall’ambiente
-scolastico ed extrascolastico stabilendo una buona relazione educativa.
-La valutazione dell’apprendimento quindi non può essere oggettiva, ma può
-dotarsi di strumenti che la rendano il più possibile affidabile, non può
-limitarsi ad un solo aspetto della realtà/persona osservata. L’utilizzo di
-griglie di valutazione riesce a soggettivizzare la valutazione evitando
-influenze emotivo-relazionali.
-Studenti e docenti sono egualmente interessati a conoscere il grado di
-avanzamento del processo di istruzione e formazione. La verifica è
-un’operazione funzionale a tutte le fasi dell’apprendimento e necessita
-l’adozione di modalità e strumenti idonei, per osservare e registrare i
-risultati.    I docenti potranno disporre pertanto delle seguenti tipologie di
-verifica:
-- Interrogazioni orali;
+
+## 5A Atzeni
+
+Argiolas M. Gabriella
+
+## 3B Atzeni
+
+Ghirlanda Alessandra
+
+## 4B Atzeni
+
+Pitzalis Alessandra
+
+## 5B Atzeni
+
+Locci Bianca
+
+## 1A Meilogu
+
+Branca M. Paola
+
+## 2A Meilogu
+
+Di Fina Simona
+
+## 3A Meilogu
+
+Melis Alessandra
+
+## 4A Meilogu
+
+Littarru M. Giovanna
+
+## 5A Meilogu
+
+Desogus Gabriella
+1A
+
+## Redipuglia
+
+Epicureo Amalia
+2A
+
+## Redipuglia
+
+Contu Paola
+3A
+
+## Redipuglia
+
+Sutera Rita
+4A
+
+## Redipuglia
+
+Nonnis Iuri
+5A
+
+## Redipuglia
+
+Leoni Simonetta
+24
 
 ---
 
 ## Pagina 25
 
-63
-- Prove scritte di diversa tipologia;
-- Questionari e test;
-- Esercitazioni pratiche.
-Il Collegio dei Docenti è chiamato annualmente a decidere quali forme di
-verifica saranno adottate da ciascuna materia. La forma adottata verrà
-pubblicamente esibita a studenti e genitori all’inizio di ogni anno scolastico.
-Contenuti
-Nei prossimi anni si prevede di ampliare l’utilizzo dell’ICT nella didattica, a
-mero titolo di esempio le Google apps, la piattaforma MOODLE
-personalizzata, in modo che ogni docente possa rendere disponibili agli
-allievi materiali, lezioni e test online, suddividendo le risorse per materia e
-per classe. Tali strumenti saranno anche a supporto delle attività di flipped-
-classroom9 e attività di peer-education10.
-L'utilizzo di ChatGPT all'Istituto Professionale Paritario CF GAUSS di
-Asti
-L'Istituto Professionale Paritario CF GAUSS di Asti integra l'intelligenza
-artificiale, come ChatGPT, per innovare la didattica e supportare il processo
-di apprendimento degli studenti. ChatGPT viene utilizzato per favorire la
-personalizzazione dello studio, stimolare il pensiero critico e migliorare le
-competenze digitali.
-Tra gli usi principali vi sono: la generazione di idee per progetti didattici, il
-supporto alla scrittura e revisione di testi, la simulazione di scenari
-professionali interattivi e casi studio, la facilitazione nell'apprendimento
-delle discipline tecniche e umanistiche. Questo strumento rappresenta una
-risorsa per studenti e docenti, promuovendo l'adozione di metodi didattici
-innovativi e migliorando l'efficacia dell'insegnamento, in linea con il metodo
-POLIS adottato dall'istituto.
-E’ stato attivato il piano EduPro di Genially11.
-9 In ambito educativo, con classe capovolta ci si riferisce a un approccio metodologico che ribalta il tradizionale ciclo di apprendimento fatto
-di lezione frontale, studio individuale a casa e verifiche in classe. A livello internazionale, tale approccio è identificato dall'espressione inglese
-flipped classroom. Fonte Wikipedia.
-10 Peer education, Nell'educazione tra pari una persona opportunamente formata (educatore paritario) intraprende attività formative con
-altre persone sue pari, simili quanto a età, genere sessuale, status, entroterra culturale o esperienze vissute. Fonte Wikipedia.
-11 Genially , noto anche come "Genial.ly", è uno strumento online per creare tutti i tipi di contenuti visivi e interattivi in modo semplice e
-rapido, per uso individuale o di gruppo. Questo software all-in-one ti consente di creare presentazioni , infografiche , gamification , immagini
-interattive e contenuti più interattivi.
+
+## Responsabili Di Dipartimento
+
+Coordinatore e verbalizzante
+Dipartimento
+linguistico-storico-geografico
+Boy Stefania
+Dipartimento lingue
+Vargiu Valeria
+Dipartimento matematico
+tecnico scientifico
+Asuni Angela M.
+Dipartimento artistico-motorio
+Milazzo Luisa
+Dipartimento Sostegno
+Peddis Daniela
+Comitato Valutazione (Collegio docenti)
+Comitato Valutazione (Consiglio di Istituto)
+Pitzalis Alessandra, Mura Marilena
+Murtas Adriano
+​ Genitori eletti in Consiglio d’Istituto il 27.12.2023-verbale n.1-delibera n.5: Serra Tonina, Vacca Laura
+Commissione elettorale:
+Componente docenti: Carrucciu Stefania, Congiu Alessandra
+Componente genitori: Maurandi Valeria, Vargiolu Viviana
+Componente ATA: Serra Daniela
+25
 
 ---
 
 ## Pagina 26
 
-63
-L'uso di Genially nell'istituto offre numerosi benefici, obiettivi e valori attesi
-che possono trasformare l'esperienza educativa sia per gli insegnanti che
-per gli studenti. Ecco un breve riepilogo:
-- Interattività
-e
-Engagement,
-Genially
-permette
-di
-creare
-presentazioni, infografiche e altri contenuti interattivi che possono
-aumentare l'engagement degli studenti, rendendo l'apprendimento più
-dinamico e coinvolgente.
-- Personalizzazione dell'Apprendimento, attraverso l'utilizzo di
-contenuti
-interattivi
-e
-multimodali,
-Genially
-favorisce
-la
-personalizzazione dell'apprendimento, consentendo agli studenti di
-esplorare i contenuti secondo i propri ritmi e interessi.
-- Sviluppo delle Competenze Digitali, l'adozione di Genially  e
-l’utilizzo di ChatGpt contribuisce allo sviluppo delle competenze
-digitali degli studenti, preparandoli a navigare efficacemente nel
-mondo digitale contemporaneo.
-- Facilità di Collaborazione, Genially facilita la collaborazione tra
-studenti e insegnanti, permettendo la condivisione facile di materiali e
-progetti, e supportando il lavoro di gruppo anche a distanza.
-- Valutazione Innovativa, offre strumenti per una valutazione più
-creativa e interattiva, permettendo agli insegnanti di integrare quiz,
-sondaggi e feedback interattivi nei loro contenuti.
-- Accessibilità, assicura che i materiali didattici siano accessibili a
-studenti con diverse esigenze e preferenze di apprendimento,
-migliorando l'inclusività dell'istruzione.
-In sintesi, l'utilizzo di Genially può trasformare il modo in cui vengono
-insegnati e appresi i concetti odontotecnici, rendendo l'istruzione più
-interattiva, personalizzata e adatta alle esigenze del XXI secolo.
-La valutazione diventa formativa quando si concentra sul processo e
-raccoglie diverse informazioni per aiutare gli studenti a sviluppare
+
+## Tirocini Universitari Laurea In Scienze Della Formazione Primaria E Del Tfa
+
+
+## Docenti Accoglienti Scuola
+
+
+## Dell’Infanzia
+
+
+## Docenti Accoglienti Scuola
+
+
+## Primaria
+
+Murtas Adriano
+Sechi Paola
+Miranda Antonietta
+Sanna Maria Bonaria
+Arrais Elvira
+Cadeddu Marianna (ospedale)
+Abis Rita
+Manca M. Chiara
+Demontis Carmela (ospedale)
+Anastasio Jessica
+Branca M. Paola
+Annalisa Carta
+Massa Diego (ospedale)
+Adamo Adriano
+Pitzalis Alessandra
+26
 
 ---
 
 ## Pagina 27
 
-63
-l'autovalutazione e l'auto-orientamento. Orientare significa guidare gli
-studenti nell'esplorazione di sé stessi, aiutandoli a conoscere le proprie
-capacità, limiti e identità, incoraggiandoli al miglioramento continuo.
-Questa azione di miglioramento richiede una valutazione proattiva che
-stimoli gli aspetti motivazionali degli studenti. La valutazione proattiva
-riconosce anche i piccoli progressi, gratifica i passi compiuti e promuove le
-"emozioni di riuscita" necessarie per azioni future.
-L’istituto, conformemente alle normative recenti, utilizza la valutazione
-formativa ed educativa. Questa valutazione si concentra sul processo
-formativo e sugli obiettivi di apprendimento degli studenti. Serve a
-migliorare l'apprendimento e il successo degli studenti, documentando lo
-sviluppo dell'identità personale e incoraggiando l'autovalutazione.
-La valutazione degli apprendimenti degli studenti si basa su prove
-strutturate e non strutturate, orali e scritte, distribuite nel tempo. I risultati
-sono definiti con criteri noti agli studenti e alle famiglie, e i docenti utilizzano
-diverse modalità, come l'osservazione, le domande e l'analisi di prodotti
-degli studenti, per valutare le competenze sviluppate dagli studenti.
-Durante l'analisi dei risultati, si considerano non solo il raggiungimento degli
-obiettivi ma anche gli atteggiamenti e i comportamenti degli studenti.
-L’istituto comunica in modo trasparente con le famiglie per favorire la
-comprensione del percorso scolastico degli studenti. La valutazione viene
-effettuata con attenzione ai prerequisiti cognitivi e socio-affettivi degli
-studenti diversamente abili, DSA e stranieri neo-arrivati.
-“Una valutazione per l’apprendimento è qualsiasi valutazione che ha, nella sua
-progettazione e pratica, come prima priorità lo scopo di promuovere
-l’apprendimento degli studenti”.
-È diversa dalla valutazione progettata principalmente per lo scopo di
-rendicontazione (accountability), o di classifica degli studenti o di
-certificazione della competenza.
-Un’attività di valutazione può aiutare l’apprendimento se fornisce
-informazioni che gli insegnanti e i loro studenti possono utilizzare come
-feedback per valutare se stessi e i propri compagni e modificare le attività di
+Pagni Patrizia
+Melis Alessandra
+
+## Tfa Sostegno:
+
+Tirocinante Laconi Stefania, tutor Licheri Tatiana
+Tirocinante Melis Silvia, tutor Ortu Cristina (Sechi Paola)
+TFA Secondaria 60 CFU:
+Tirocinante Murgioni Michela tutor Tiloca Alessandra
+Tirocinante Pisano Danilo tutor Vargiu Valeria
+Tirocinante Pisanu Alessandro tutor Asuni Angela Maria
+
+## Le Figure Strumentali Al Ptof
+
+La direzione dell’istituto Comprensivo è affidata al DIRIGENTE SCOLASTICO che gestisce
+unitariamente la scuola e rappresenta legalmente l’istituzione nella gestione delle risorse finanziarie,
+umane e strumentali. Il Dirigente Scolastico si avvale della collaborazione di uno staff di lavoro
+formato prioritariamente dai 2 collaboratori del Dirigente e dalla DSGA (Direttrice dei Servizi
+Generali e Amministrativi). Lo staff dirigenziale è costituito, oltre che dai collaboratori del DS e
+dalla DSGA, anche dalle Figure Strumentali e dai referenti di plesso; questi ultimi rivestono un
+ruolo fiduciario, particolarmente significativo.
+Il modello gestionale e organizzativo è caratterizzato, inoltre, da numerose figure di sistema che
+operano in modo coordinato e alle quali sono affidate specifiche funzioni e incarichi.
+Al fine di garantire la piena attuazione delle diverse attività didattiche previste dal PTOF, il
+Collegio dei docenti sulla base dei bisogni e delle esigenze rilevate a inizio anno
+scolastico,individua delle commissioni di lavoro e dei referenti designati a svolgere specifici
+compiti quali ad es. Commissione PTOF, Commissione continuità e orientamento, Commissione
+orario, Commissione formazione classi, commissione lingua sarda, commissione salute e benessere,
+27
 
 ---
 
 ## Pagina 28
 
-63
-insegnamento e di apprendimento, attività nelle quali sono impegnati.
-Tale valutazione diventa “valutazione formativa, quando le informazioni sono
-effettivamente utilizzate per migliorare il lavoro di insegnamento e per ciò
-stesso soddisfare le esigenze di apprendimento”.
-Black, Harrison, Lee, Marshall, & Wiliam (2004)
-La valutazione formativa avviene nel corso del processo di insegnamento e,
-in un certo senso, si mescola ad esso. Pur raccogliendo feedback dagli
-studenti sulla loro comprensione, non ha l'intenzione di valutare il loro
-apprendimento, bensì l'efficacia dell'insegnamento. Si focalizza sulla classe
-nel suo complesso, cercando di identificare chi non ha compreso l'argomento
-presentato. La sua finalità è comprendere chi o quanti necessitano di un
-insegnamento modificato.
-Questa metodologia si occupa della comprensione, non per giudicare
-l'apprendimento degli studenti, ma per individuare chi richiede un
-adattamento nell'insegnamento e per capire il loro grado di apprendimento.
-Coinvolge insegnanti e studenti, fornendo loro informazioni utili per
-adattare sia il processo di insegnamento che di apprendimento, e per
-decidere chi necessita di tali modifiche.
-Il valore formativo di qualsiasi valutazione non dipende dall'uso di uno
-strumento specifico di misurazione, ma dalla modalità in cui vengono
-utilizzate le informazioni raccolte da tale strumento.
-Quando l'insegnante utilizza le informazioni provenienti da una valutazione
-specifica, come un quiz, un questionario aperto, un problema da risolvere o
-un saggio breve, per monitorare l'apprendimento degli studenti, fornire loro
-feedback e adattare le proprie strategie didattiche per incoraggiare il
-progresso verso gli obiettivi desiderati, quell'insegnante sta conducendo una
-valutazione autenticamente formativa.
-Per condurre una valutazione formativa efficace, l'insegnante crea un
-ambiente in classe che promuova un atteggiamento positivo verso
-l'apprendimento. Questo significa comunicare aspettative chiare, dimostrare
-pazienza, disponibilità e incoraggiare il miglioramento continuo (ruota di
-Deming, P-D-C-A). È essenziale considerare non solo le abilità degli studenti,
+Team innovazione, referente Invalsi, referente LIM, referente bullismo e cyberbullismo, referente
+sito web, referente mensa, referente registro elettronico...
+
+## Piano Della Formazione Triennale
+
+La formazione e l’aggiornamento costituiscono un diritto e un dovere di tutto il personale della
+scuola perché funzionali all’incremento della professionalità e alla condivisione delle pratiche
+educativo-didattiche.
+La formazione è un obbligo contrattuale, stabilito dall’art. 66 del CCNL e ribadito dalla Legge
+107/2015 che  la definisce obbligatoria, permanente e strutturale. Le attività di formazione sono
+definite dal Collegio dei Docenti in coerenza col PTOF e con i risultati emersi dal Piano di
+Miglioramento.
+Sono da considerare obbligatori i corsi di formazione su:
+-​
+Sicurezza (docenti e personale ATA)
+-​
+Formazione dei docenti neoimmessi in ruolo
+Sulla base delle esigenze formative che emergono nel corso dell’anno scolastico:
+-​
+Gestione dell’emergenza e del primo soccorso (docenti e personale ATA)
+Per l’anno scolastico 2025/2026 sarà infine possibile aderire ai corsi di formazione previsti dal
+Decreto Ministeriale n. 66 del 16 gennaio 2024 (Missione 4 – Istruzione e Ricerca – Componente 1
+– “Potenziamento dell’offerta dei servizi all’istruzione: dagli asili nido all’Università” – Linea di
+investimento 2.1 - Didattica digitale integrata e formazione sulla transizione digitale del personale
+scolastico - Codice progetto M4C1I2.1-2023-1222-P-43182 - Titolo ImpariAmo a programmare
+Oggi per il Futuro CUP C24D23002780006).
+Tali percorsi formativi rappresentano un’opportunità importante per il nostro Istituto, in quanto
+permettono di migliorare le competenze e gli strumenti didattici a disposizione del personale
+docente e ATA, contribuendo così al potenziamento dell'offerta formativa, con una ricaduta positiva
+sugli alunni.
+I corsi, in presenza oppure online, saranno attivati al raggiungimento del numero minino di
+partecipanti previsto dal bando e riguarderanno le seguenti tematiche:
+28
 
 ---
 
 ## Pagina 29
 
-63
-ma anche le loro emozioni. Alcuni studenti possono vivere il compito
-scolastico con forti emozioni, influenzando sia le loro abilità cognitive che le
-loro emozioni.
-L'insegnante non può separare l'aspetto emotivo da quello cognitivo degli
-studenti: devono essere considerati come un tutt'uno. Se l'insegnante si
-concentra solo sull'aspetto cognitivo senza comprendere le emozioni degli
-studenti, potrebbero sentirsi estranei e disconnessi.
-Condividere le emozioni degli studenti, sia le delusioni per i fallimenti che la
-gioia per i successi, crea un ambiente positivo e favorisce la volontà di
-superare i propri limiti. Per una valutazione formativa efficace, l'insegnante
-dovrebbe apprezzare gli sforzi degli studenti più delle loro doti innate,
-consentire loro di discutere l'apprendimento con insegnanti e compagni,
-stabilire chiare finalità di apprendimento e coinvolgere gli studenti nel
-processo di valutazione.
-Inoltre, è fondamentale che gli studenti comprendano chiaramente quali
-competenze devono acquisire e riconoscano che ogni piccolo passo
-contribuisce al raggiungimento dell'obiettivo finale. Ripetere ciò che deve
-essere imparato, chiedere agli studenti di ripeterlo con le proprie parole,
-assicurarsi che comprendano i criteri di valutazione e motivarli
-sull'importanza dell'apprendimento sono tutte strategie utili per guidare gli
-studenti verso il loro obiettivo di apprendimento.
-Educare gli studenti a essere responsabili del proprio apprendimento non
-riguarda solo l'obiettivo finale, ma anche il monitoraggio costante del
-proprio percorso di apprendimento. La valutazione deve essere vista come
-parte integrante del processo di apprendimento, contribuendo così a creare
-una nuova cultura della valutazione nella classe e nella scuola.
-Il nostro istituto ha scelto di operare così:
-1. Prima della conclusione di ogni lezione, il docente incoraggia gli
-studenti a rispondere a domande che stimolino la loro riflessione sui
-processi di apprendimento:
-- Cosa hai appreso di nuovo?
+●​ Alfabetizzazione digitale
+●​ Intelligenza artificiale generativa e utilizzo nella didattica
+●​ Bullismo e cyberbullismo
+●​ Grafica Canva
+
+## ●​ Gdpr
+
+●​ Tecnologie digitali per l’inclusione Didattica con le tecnologie assistive
+●​ Applicativi pacchetti office
+●​ Preparazione al conseguimento della ECDL
+
+## ●​ Ecdl
+
+●​ Ricostruzione carriera
+●​ Utilizzo monitor LIM
+●​ Grafica avanzata
+29
 
 ---
 
 ## Pagina 30
 
-63
-- Cosa ti senti in grado di spiegare a un compagno?
-- Quali parti dell'argomento ti hanno interessato di più oggi?
-- Quali concetti hai trovato più difficili da capire?
-- Di cosa hai bisogno per comprendere meglio?
-- Che tipo di assistenza ti serve?
-- Su cosa hai domande?
-2. Alla fine di una breve sessione di lavoro (ogni 20-25 minuti si effettua
-una pausa di 5), viene chiesto agli studenti di valutare le loro conoscenze.
-L'insegnante riassume brevemente un concetto e gli studenti rispondono
-utilizzando, per esempio, il sistema semaforico per autovalutarsi:
-- Verde: Ho compreso completamente;
-- Giallo: Non del tutto chiaro;
-- Rosso: Non ho capito affatto.
-3. Può essere somministrato un questionario in cui gli studenti si
-autovalutano su una scala da chiaro/non sono sicuro/non ho capito.
-4. Dopo una lezione, una spiegazione o una lettura, chiede agli studenti di
-scrivere ciò che hanno compreso.
-5. Chiede agli studenti di identificare le difficoltà su un foglio di carta.
-6. La valutazione tra pari (altro elemento del cooperative learning) si
-presenta come una delle strategie più efficaci ed importanti. Gli studenti
-scambiano i loro lavori e condividono ciò che li ha colpiti e ciò che hanno
-apprezzato fino a quel momento. Prima della fine di ogni lezione, gli studenti
-comunicano a un compagno ciò che hanno compreso bene e pongono
-domande su ciò che non hanno compreso. Se il compagno non è in grado di
-chiarire il dubbio, lo segnalano all'insegnante.
-Queste attività di autovalutazione tra pari aiutano a sviluppare una cultura
-di
-valutazione
-in
-classe,
-consentendo
-agli
-studenti
-di
-riflettere
+
+## Le Scuole Dell’Istituto
+
+
+## Scuola Ospedaliera E Istruzione Domiciliare
+
+Ospedale Microcitemico
+Ospedale Brotzu
+Insegnanti Scuola dell’Infanzia
+/
+1 * 25 ore
+Insegnanti Scuola Primaria
+2 * 22+2 ore
+1 * 22+2 ore
+Ins.  Scuola Sec. Primo Grado
+/
+Italiano, Storia Geografia
+1 * 18 ore
+/
+Matematica, Scienze
+1 * 18 ore
+/
+Inglese
+1 * 18 ore
+/
+Francese
+1 * 6 ore
+/
+Arte e Immagine
+1 * 6 ore
+/
+Ed. Musicale
+1 * 6 ore
+/
+30
 
 ---
 
 ## Pagina 31
 
-63
-sull'apprendimento, individuare aree di miglioramento e assumere
-responsabilità nel loro lavoro.
-7. Indicare il "punto raggiunto e il progresso successivo". La valutazione
-formativa si integra nel processo di apprendimento, verificando se gli
-obiettivi di apprendimento sono stati raggiunti e identificando gli obiettivi
-successivi. A intervalli regolari, come alla fine di una unità di lavoro, è utile
-fornire un feedback sulla qualità del lavoro svolto per suggerire
-miglioramenti futuri. Questo feedback non solo offre agli studenti un
-riepilogo del loro progresso rispetto agli obiettivi desiderati, ma stabilisce
-anche una connessione tra il punto di partenza e gli obiettivi futuri. È
-essenziale coinvolgere attivamente gli studenti nel valutare il loro successo e
-nel definire gli obiettivi futuri. Gli studenti possono valutare il lavoro
-utilizzando criteri stabiliti, individuando cosa è stato ben fatto e cosa può
-essere migliorato. Questo processo aiuta gli studenti a analizzare
-criticamente il proprio lavoro, motivandoli a monitorare il proprio
-progresso e a stabilire obiettivi per il miglioramento.
-8. Fare domande pertinenti e significative è un altro strumento
-fondamentale nella valutazione formativa. Le domande possono essere
-utilizzate per verificare la comprensione della conoscenza, l'abilità nei
-processi o per rilevare capacità metacognitive. Le domande ben formulate
-possono portare a cambiamenti rapidi e positivi nell'apprendimento degli
-studenti. Non è sufficiente formulare domande significative e stimolanti. È
-importante anche assicurarsi che gli studenti prestino attenzione alla
-domanda e riflettano prima di rispondere. È utile incoraggiare gli studenti a
-discutere in coppie o in piccoli gruppi le loro opinioni su una domanda o su
-un argomento prima di condividere le risposte con l'intera classe. Allo stesso
-modo, chiedere agli studenti di scrivere le loro risposte prima di discuterle
-può favorire la riflessione e l'elaborazione del pensiero. Le domande
+Ospedale Microcitemico "A. Cao"
+La scuola in ospedale costituisce uno dei punti d’eccellenza del Sistema Nazionale d’Istruzione, è
+riconosciuta ed apprezzata in ambito sanitario come parte integrante del programma della presa in
+carico globale del bambino. La scuola primaria dell'ospedale Microcitemico "A. Cao", è nata
+nell'anno scolastico 2002/2003 all'interno del circolo didattico di via Meilogu. Conseguentemente
+agli accorpamenti degli Istituti scolastici, dall'anno scolastico 2013/2014, fa parte dell'Istituto
+Comprensivo Giusy Devinu.
+La funzione della scuola in ospedale è quella di assicurare agli alunni ricoverati pari opportunità,
+mettendoli in condizione, ove possibile, di proseguire lo sviluppo di capacità e competenze al fine
+di facilitare il loro reinserimento nei contesti di provenienza e di prevenire eventuali situazioni di
+dispersione scolastica.
+Alla sua apertura la scuola disponeva di un solo insegnante di scuola primaria. Dall’anno scolastico
+2017/18, l’Ufficio Scolastico Regionale, su richiesta della Dirigenza della scuola e della Direzione
+Sanitaria, ha ampliato l’organico di una unità.
+A partire dall’anno scolastico 2020/2021, la scuola ospedaliera si è arricchita della presenza di una
+pluriclasse di scuola secondaria di primo grado. Nello specifico, per l’anno scolastico 2025/2026,
+sono state attribuite le seguenti cattedre:
+●​ Italiano, Storia e Geografia 18 ore
+●​ Matematica e Scienze 18 ore
+●​ Inglese 18 ore
+●​ Francese 6 ore
+●​ Ed. musicale 6 ore
+●​ Arte e immagine 6 ore
+Un’aula, dotata di LIM, collocata nel DH del reparto di Oncoematologia Pediatrica, consente di
+organizzare attività anche in piccoli gruppi; nel reparto di Neuropsichiatria Infantile e
+dell’Adolescenza, le lezioni si svolgono negli spazi comuni polivalenti. Dall’anno scolastico
+2024/2025 anche nella Clinica pediatrica è stata destinata una stanza apposita ad aula didattica per i
+pazienti del reparto degenze e del day hospital. In tutti gli altri casi le lezioni sono individuali e si
+svolgono prevalentemente nelle stanze degli alunni.
+Nello specifico dell'ospedale Microcitemico "A. Cao", la scuola si rivolge sia ad alunni con degenze
+brevi, 1/7 giorni, medie, 8/15 giorni, lunghe (oltre i 15 giorni) e a quelli ricoverati in regime di day
+hospital.
+I reparti a cui la scuola presta la sua offerta sono:
+‣ Oncoematologia pediatrica (day hospital e degenze);
+‣ Clinica pediatrica (day hospital e degenze);
+31
 
 ---
 
 ## Pagina 32
 
-63
-possono variare in complessità, da domande che richiedono una semplice
-descrizione a domande che richiedono un'analisi approfondita e una sintesi
-delle informazioni apprese. È importante creare un ambiente di supporto in
-cui gli studenti si sentano incoraggiati a rispondere alle domande senza
-timore di essere giudicati. L'insegnante può facilitare la risposta dicendo agli
-studenti di riflettere prima di rispondere e di non preoccuparsi se la risposta
-è giusta o sbagliata. Questo clima di sostegno può incoraggiare gli studenti a
-esprimere liberamente le proprie opinioni e a riflettere in modo critico sugli
-argomenti affrontati.
-Valutazione Post-Insegnamento
-La valutazione dopo l'insegnamento si svolge quando l'insegnante ha
-completato l'insegnamento dell'intera unità di apprendimento. Nonostante
-l'unità sia suddivisa in parti più piccole per agevolare la comprensione degli
-studenti, la comprensione complessiva di un argomento non può essere
-ottenuta solo attraverso la comprensione delle singole parti. Pertanto, prima
-di verificare l'apprendimento, l'insegnante incoraggia gli studenti a integrare
-le conoscenze acquisite. La verifica dopo l'insegnamento, come parte della
-valutazione formativa, serve a controllare se tutti gli studenti sono pronti o
-se qualcuno necessita di ulteriori chiarimenti prima della valutazione
-sommativa finale.
-Inserimento delle Mappe Mentali nel Piano Triennale della Formazione
-A partire dall'anno scolastico 2024/2025, l’Istituto CF GAUSS ha introdotto
-l’apprendimento delle mappe mentali come metodo di studio uniforme e
-strategia fondamentale per l’organizzazione del pensiero e l’elaborazione dei
-contenuti didattici. Questa iniziativa risponde all’obiettivo di dotare tutti gli
-studenti di strumenti cognitivi innovativi, che li aiutino a migliorare la
+‣ Thalassemia (day hospital);
+‣ Centro trapianti di midollo osseo (CTMO);
+‣ Clinica di Neuropsichiatria Infantile e dell’Adolescenza (degenze)
+Si tratta dunque di alunni che si assentano da scuola per lunghi e lunghissimi tempi (anche per
+l'intero a.s.) - benché non sempre ricoverati - o che si assentano di frequente a causa di malattie
+croniche.
+È questo il caso dei talassemici o degli alunni che afferiscono alla clinica pediatrica, spesso affetti
+da malattie genetiche.
+Per le caratteristiche degli alunni precedentemente indicate, è spesso necessario che la scuola
+ospedaliera stabilisca dei contatti con la scuola di origine dell'alunno ricoverato.
+Tali contatti permettono di mettere a punto una progettazione di intervento che tenga conto della
+situazione scolastica precedente la malattia, del percorso terapeutico, del programma da svolgere,
+del mantenimento delle relazioni con i compagni e del reinserimento in classe.
+Per raggiungere gli obiettivi appena indicati - relativamente agli alunni lungodegenti
+dell’Oncoematologia Pediatrica, della Neuropsichiatria e del CTMO - ci si avvale delle nuove
+tecnologie, attraverso l’utilizzo delle diverse piattaforme disponibili (Meet, Teams, Zoom ecc.), che
+permettono sia all’alunno di seguire le lezioni in istruzione domiciliare, sia agli insegnanti della
+scuola ospedaliera di incontrare quelli delle classi di origine. In questi casi, dove è possibile,
+l’insegnante ospedaliero incontra anche i compagni di classe, al fine di creare un ponte reale tra le
+due scuole.
+Gli alunni che nel corso degli anni hanno frequentato la scuola in ospedale del Microcitemico "A.
+Cao" sono stati, fino all’anno scolastico 2016/2017 circa quaranta ogni anno. Dall’anno successivo,
+grazie alla presenza di due maestri, annualmente si registra la frequenza di circa 100 alunni della
+scuola primaria; altrettanti se ne contano nella secondaria di I grado.
+È importante sottolineare che la Scuola in Ospedale si fa carico anche degli alunni delle scuole
+secondarie di secondo grado, agevolando e stimolando la conoscenza e l’attivazione dell’istruzione
+domiciliare. Questa attività, erogata dalla scuola di appartenenza, può essere esclusiva o, come
+spesso accade, complementare alle attività della sezione ospedaliera.
+Il servizio di istruzione domiciliare costituisce una reale possibilità di ampliamento dell’offerta
+formativa al fine di facilitare, attraverso una progettazione personalizzata, il reinserimento nelle
+scuole di provenienza di alunni che, per problemi di salute, non hanno potuto frequentare.
+Dal 2011 in poi la scuola in ospedale è stata inserita nella programmazione di festival letterari,
+rassegne teatrali, laboratori scientifici e artistici. Solo a causa della pandemia da Covid-19, non è
+stata possibile nessuna programmazione dei consueti interventi negli anni scolastici 2020/21 e
+2021/2022. A queste opportunità, ormai consolidate, si aggiungono spesso altre proposte e
+collaborazioni che permettono alla scuola di coinvolgere i compagni di classe degli alunni
+ricoverati, in modo da offrire sempre maggiori possibilità di incontro con i loro compagni.
+32
 
 ---
 
 ## Pagina 33
 
-63
-comprensione, la memorizzazione e l’efficacia nell’organizzazione dello
-studio.
-Ogni inizio anno scolastico, saranno previste 8-10 ore di formazione
-dedicate esclusivamente all’apprendimento e all’applicazione delle mappe
-mentali. In queste ore, gli studenti acquisiranno le competenze per creare
-mappe mentali efficaci, partendo dai concetti chiave e sviluppandoli in modo
-logico e strutturato. Il metodo delle mappe mentali si adatta a tutte le
-discipline, favorendo un approccio flessibile e trasversale che potenzia
-l’apprendimento attivo e personalizzato.
-Questo percorso sarà supportato da materiali didattici e da esempi pratici,
-che permetteranno agli studenti di sperimentare l’uso delle mappe mentali
-nelle varie materie e di consolidare un metodo di studio applicabile a ogni
-ambito formativo. L'adozione uniforme delle mappe mentali come sistema di
-studio aiuterà a creare una continuità metodologica all’interno dell’istituto,
-migliorando la preparazione individuale e facilitando il confronto e la
-condivisione di idee tra studenti e docenti.
+Non viene mai meno, infine, la collaborazione diretta con le associazioni di volontariato e le altre
+figure educative che operano in ospedale per il perseguimento di obiettivi comuni, come
+contemplato dalla circolare ministeriale 7 agosto 1998, n. 353, secondo cui il funzionamento della
+scuola in ospedale: “deve programmare interventi integrativi con operatori ospedalieri, operatori
+per attività ludiche e ricreative, volontariato”.
+Azienda Ospedaliera “G. Brotzu”
+Al secondo piano dell’Azienda Ospedaliera “G. Brotzu” operano la Scuola dell’Infanzia e la
+Scuola Primaria, attive inizialmente in forma sperimentale dal 2001–2002 e trasformate in sezioni
+ufficiali a partire dal 2002–2003.
+​
+Dal 2019–2020, il servizio scolastico è stato esteso anche ai bambini ricoverati nel reparto di
+Chirurgia Pediatrica e ai pazienti grandi ustionati sottoposti a isolamento protettivo,
+accogliendo in tal modo la totalità dei pazienti presenti.
+Le attività educative si svolgono prevalentemente nelle ore mattutine, scelta che consente agli
+alunni di partecipare alle proposte formative nel corso della prima parte della giornata e di
+dedicarsi, in seguito, alle iniziative ricreative organizzate dalle associazioni di volontariato.
+​
+La flessibilità organizzativa, intesa anche come adattamento dinamico del tempo scuola,
+costituisce un elemento fondamentale: modellando l’orario sulle esigenze dei reparti e sulle
+presenze giornaliere, è possibile garantire continuità all’intervento didattico, ritagliando all’interno
+dell’esperienza ospedaliera un tempo realmente educativo.​
+La presenza simultanea dei due ordini scolastici rappresenta una scelta metodologica che favorisce
+la coerenza dei percorsi e la costruzione di itinerari formativi condivisi, trasformando ogni
+esperienza in un’occasione di apprendimento significativo.
+Il numero e le caratteristiche dei bambini ricoverati variano quotidianamente per età, provenienza,
+storia personale e situazione familiare; per questo motivo il team docente, dopo un’osservazione
+iniziale, rimodula ogni giorno le attività.​
+Le proposte vengono calibrate sulla durata della degenza e sulla condizione clinica del bambino.
+Tutti gli interventi sono personalizzati e rispettano i limiti fisici, emotivi e psicologici dell’alunno,
+valorizzandone allo stesso tempo le capacità e il bisogno di sentirsi competente nonostante la
+malattia.
+​
+In caso di ricoveri prolungati viene attivata una collaborazione con la scuola di provenienza per
+garantire continuità didattica e favorire un rientro in classe in linea con il percorso della classe.
+Un ambiente didattico attrezzato, condiviso tra infanzia e primaria, permette di proporre attività
+in piccoli gruppi. Quando lo stato di salute non consente la partecipazione in aula, sono le
+33
 
 ---
 
 ## Pagina 34
 
-63
-
-## Piano Di Miglioramento
-
-Obiettivi di processo: ambiente di apprendimento
-1. Organizzazione
-di
-attività
-di
-aggiornamento
-finalizzate
-all’acquisizione di metodologie inclusive
-2. Organizzazione
-di
-attività
-finalizzate
-al
-recupero
-ed
-al
-potenziamento
-Risultati
-1. L’istituto si attende dai docenti una maggiore consapevolezza
-sull’importanza degli strumenti idonei ad una didattica inclusiva
-2. Le attività di recupero e potenziamento coinvolgono tutte le
-discipline
-Indicatori
-1. Attività di aggiornamento sulla didattica inclusiva,
-2. Attività di recupero e di potenziamento rivolte a tutte le classi
-Rilevazione
-1. Questionari d'analisi sull’uso degli strumenti ai docenti e ai discenti
-Annualmente vengono previste attività formative collegiali per la
-conoscenza e condivisione del Piano dell’offerta formativa e del Piano di
-miglioramento; per l’analisi degli esiti delle prove INVALSI; per l’analisi degli
-esiti scolastici, allo scopo di aumentare il livello di consapevolezza,
-partecipazione e condivisione delle scelte della scuola.
+insegnanti a raggiungere il bambino in camera, attraverso una rotazione organizzata per rispondere
+ai diversi bisogni.
+​
+Il servizio è rivolto indistintamente a tutti i minori presenti in reparto. Il primo contatto avviene
+attraverso attività ludiche ed espressive, utili a instaurare rapidamente una relazione positiva;
+successivamente una programmazione giornaliera permette interventi più specifici.
+Nel corso dell’anno scolastico vengono realizzati progetti tematici e laboratori creativi, e
+vengono attivati collegamenti con altre scuole del territorio e di province diverse. Dal 2011 la
+scuola in ospedale è inserita nei programmi di festival letterari, rassegne teatrali e laboratori
+artistici e scientifici, ai quali partecipa con continuità.
+La malattia accompagna il bambino fin dalla prima infanzia, ma la reale consapevolezza della
+propria condizione emerge gradualmente, con il tempo. Non è semplice per lui affrontare situazioni
+che limitano movimento, socializzazione, attenzione, alimentazione e autonomia, mettendolo di
+fronte ai confini del proprio corpo.​
+Fare scuola in ospedale significa offrirgli strumenti per rielaborare ciò che sta vivendo, costruire un
+piccolo vocabolario emotivo per esprimere disagi e timori, ridurre la carica ansiogena
+dell’esperienza e scoprire l’importanza di presenza, ascolto, affetto e rassicurazione.​
+Significa donare ai bambini le parole per comprendere e comunicare il proprio vissuto,
+trasformando l’apprendimento in una forma di cura.
+34
 
 ---
 
 ## Pagina 35
 
-63
 
-## Valori Attesi In Uscita
+## La Scuola Dell’Infanzia
 
-Approfondimento
-L'odontotecnico è l'operatore specializzato nella fabbricazione di ogni tipo di
-protesi dentaria: fissa, mobile, scheletrica, ortodontica, e con uso di
-progettazione digitale. L'odontotecnico realizza i manufatti su prescrizione e
-progettazione dell'odontoiatra, con il quale collabora attivamente e
-continuativamente, supportandolo con la realizzazione e la risoluzione di
-varie e complesse problematiche connesse alle tipologie di protesi richieste.
-Il percorso formativo, della durata di cinque anni, prepara gli alunni alla
-progettazione e realizzazione autonoma delle varie tipologie di protesi,
-intensificando le ore di esercitazioni tecnologiche laboratoriali e integrando
-la programmazione curricolare con periodi di PCTO presso aziende
-accreditate che operano sul territorio e vivono la realtà lavorativa. Il profilo
-odontotecnico si è negli anni profondamente evoluto, mantenendo
-caratteristiche
-di
-manualità
-artigianali,
-completate
-da
-conoscenze
-tecnologiche anche in campo informatico-digitale, in linea con la realtà
-lavorativa attuale e futuribile.
-Competenze comuni a tutti i percorsi di istruzione
-professionale
-- utilizzare il patrimonio lessicale ed espressivo della lingua italiana
-secondo le esigenze comunicative nei vari contesti: sociali, culturali,
-scientifici, economici, tecnologici.
-- stabilire collegamenti tra le tradizioni culturali locali, nazionali ed
-internazionali, sia in prospettiva interculturale sia ai fini della mobilità
-di studio e di lavoro.
-- utilizzare gli strumenti culturali e metodologici per porsi con
-atteggiamento razionale, critico e responsabile di fronte alla realtà, ai
-suoi fenomeni, ai suoi problemi, anche ai fini dell’apprendimento
+La Scuola dell’Infanzia è la prima scuola che il bambino incontra nella sua vita. Si inserisce in un
+percorso educativo iniziato in famiglia, per molti, proseguito all'asilo nido e pone le basi degli
+apprendimenti futuri nella scuola primaria.
+La progettazione viene redatta tenendo conto delle Indicazioni Nazionali del 2012 che fissano i
+“traguardi” per lo sviluppo della competenza dei bambini in riferimento a ciascun Campo di
+esperienza da conseguire durante i tre anni di scuola.
+
+## Finalita' Generali
+
+Sviluppo dell'identità
+Conquista dell'autonomia
+Acquisizione delle competenze
+Educazione alla cittadinanza
+Campi di esperienza
+Il sé e l’altro
+Le grandi domande, il senso morale, il vivere insieme
+Il corpo e il movimento
+Identità, autonomia, salute
+Immagini, suoni, colori
+Gestualità, arte, musica, multimedialità
+I discorsi e le parole
+Comunicazione, lingua, cultura
+La conoscenza del mondo
+Ordine, misura, spazio, tempo, natura
+La legge n.92 del 20/08/2019, con applicazione dal 01/09/2020, prevede l’Educazione Civica nella
+didattica della scuola a partire dal primo ciclo di istruzione. Nella scuola dell’infanzia la materia
+verrà proposta agli alunni attraverso i campi di esperienza, con l’individuazione di obiettivi e
+traguardi specifici di apprendimento. (Allegato: “Curricolo Verticale Educazione Civica”)
+Le azioni educative sono sostenute da scelte pedagogiche di fondo che privilegiano l’esperienza
+diretta, l’esplorazione e il gioco che rappresenta una risorsa trasversale fondamentale per gli
+apprendimenti e per le relazioni dei bambini.
+Ogni campo di esperienza offre un insieme di oggetti, situazioni, immagini e linguaggi, riferiti ai
+sistemi simbolici della nostra cultura, capaci di evocare, stimolare, accompagnare apprendimenti
+35
 
 ---
 
 ## Pagina 36
 
-63
-permanente.
-- utilizzare
-e
-produrre
-strumenti
-di
-comunicazione
-visiva
-e
-multimediale, anche con riferimento alle strategie espressive e agli
-strumenti tecnici della comunicazione in rete.
-- padroneggiare la lingua inglese e, ove prevista, un’altra lingua
-comunitaria per scopi comunicativi e utilizzare i linguaggi settoriali
-relativi ai percorsi di studio, per interagire in diversi ambiti e contesti
-professionali, al livello B2 del quadro comune europeo di riferimento
-per le lingue (QCER).
-- utilizzare il linguaggio e i metodi propri della matematica per
-organizzare e valutare adeguatamente informazioni qualitative e
-quantitative.
-- identificare e applicare le metodologie e le tecniche della gestione per
-progetti.
-- redigere relazioni tecniche e documentare le attività individuali e di
-gruppo relative a situazioni professionali.
-- individuare e utilizzare gli strumenti di comunicazione e di team
-working più appropriati per intervenire nei contesti organizzativi e
-professionali di riferimento.
-Competenze specifiche di indirizzo
-- utilizzare le tecniche di lavorazione necessarie a costruire tutti i tipi di
-protesi: provvisoria, fissa e mobile;
-- applicare le conoscenze di anatomia dell’apparato boccale, di
-biomeccanica, di fisica e di chimica per la realizzazione di un
-manufatto protesico.
-- eseguire tutte le lavorazioni del gesso sviluppando le impronte e
+progressivamente più sicuri in un clima sereno, rispettoso dei tempi, dei ritmi evolutivi, delle
+capacità e necessità formative di ciascun bambino.
+L’ambiente è organizzato attraverso la predisposizione di spazi e oggetti. La conduzione attenta
+dell’intera giornata scolastica da parte dell’insegnante, fa in modo che il bambino si senta accolto,
+riconosciuto, sostenuto e valorizzato.
+
+## Attività
+
+Le attività didattiche vengono organizzate con modalità diverse allo scopo di rendere più efficace il
+progetto educativo. Sono pertanto previste:
+‣ attività di osservazione, esplorazione, manipolazione;
+‣ gioco in tutte le sue varianti (simbolico, motorio, senso-percettivo, imitativo, di ruolo, gioco libero
+e guidato, individuale, di gruppo e di squadra);
+‣ drammatizzazioni, utilizzazione di burattini, marionette;
+‣ conversazioni mirate, lettura di immagini, lettura di fiabe e racconti, invenzione di storie;
+‣ ascolto di suoni, brani musicali, canti e animazioni musicali;
+‣ esperienze di piccolo gruppo e grande gruppo all’interno della sezione.
+In tutte le sedi alla programmazione di plesso si aggiungono annualmente dei progetti finalizzati
+all’ampliamento dell’Offerta Formativa che coinvolgono tutti i bambini delle diverse sezioni.
+Nell’osservanza di quanto stabilito dalle direttive ministeriali e nel pieno rispetto delle libere scelte
+dei genitori, per i bambini che non si avvalgono dell’insegnamento della religione cattolica, è
+garantita la programmazione di una attività alternativa pensata in base ai bisogni educativi e all’età.
+
+## Le Scuole
+
+
+## Scuola
+
+N° Sezioni
+Aule
+Mensa Giardino
+Palestra/
+Salone
+
+## “Via Brianza”
+
+2 di tipo eterogeneo
+2 multifunzionali
+1
+1
+Ampio
+salone, palestra
+
+## “Via Serbariu”
+
+2 di tipo eterogeneo
+2+1
+multifunzionale
+1
+1
+Ampio
+salone
+
+## “M. Cauli”
+
+4 di tipo eterogeneo
+1 multifunzionale
+1
+1
+Ampio
+salone
+
+## “La Rotonda” *
+
+2 di tipo eterogeneo
+3 aule + 1
+multifunzionale
++1 laboratorio
+1
+1
+Palestra
+esterna
+36
 
 ---
 
 ## Pagina 37
 
-63
-collocare i relativi modelli sui dispositivi di registrazione occlusale.
-- correlare lo spazio reale con la relativa rappresentazione grafica e
-convertire la rappresentazione grafica bidimensionale in un modello a
-tre dimensioni.
-- adoperare strumenti di precisione per costruire, levigare e rifinire le
-protesi.
-- applicare la normativa del settore con riferimento alle norme di igiene
-e sicurezza del lavoro e di prevenzione degli infortuni. (*)
-- interagire con lo specialista odontoiatra.
-(*) Allineamento misure di prevenzione e protezione con azioni educative del PTOF
-Questo documento intende allineare le misure di prevenzione e protezione individuate nel
-DVR dell’Istituto Professionale Paritario CF Gauss con le azioni educative e formative previste
-dal Piano Triennale dell’Offerta Formativa (PTOF). Tale integrazione mira a promuovere una
-cultura della sicurezza attiva e consapevole, trasformando le misure tecniche e organizzative
-in esperienze didattiche e formative.
-Misura di
-Prevenzione/Protezione
-Azione Educativa Correlata
+Orari della Scuola dell’Infanzia
+Nome
+sezioni
+tempo
+Orario
+Via Serbariu
+1
+40 ore
+Lun-Ven
+Ingresso: dalle 8:00 alle 9:00
+Uscita: dalle 15:30 alle 16:00
+M.Cauli
+via B. Angelico
+3
+40 ore
+Lun-Ven
+Ingresso: dalle 8:00 alle 9:00
+Uscita: dalle 15:30 alle 16:00
+La Rotonda
+Via D. Deliperi
+3
+40 ore
+Lun-Ven
+Ingresso: dalle 7:45 alle 9:00
+Uscita: dalle 15:30 alle 16:00
+Via Brianza
+Via Meilogu 16
+2
+40 ore
+Lun-Ven
+Ingresso: dalle 8:00 alle 9:00
+Uscita: dalle 15:30 alle 16:00
+Scuola in Ospedale:
+“G.Brotzu”
+1
+25 ore
+Dal Lunedì al Venerdì
+dalle 8 alle 13
+Le sedi delle scuole dell’Infanzia sono dotate di una sala mensa dove il cibo, a chilometro zero,
+viene cucinato in loco, ad eccezione della scuola dell’infanzia “La Rotonda” dove i pasti vengono
+portati pronti.
+Nelle prime quattro scuole è prevista oltre all’uscita indicata, un’uscita dalle 13 alle 14. I
+bambini che non restano a pranzo escono alle ore 12.
+Inoltre l’orario d’uscita viene anticipato in occasione di feste (Natale e Carnevale),
+manifestazioni sportive, saggio finale che richiedono la compresenza degli insegnanti per
+l’organizzazione e la vigilanza degli alunni.
 
-## (Ptof)
+## Valutazione
 
-Finalità Educativa
-Formazione antincendio
-e primo soccorso
-Moduli formativi in
-Educazione civica e Scienze
-motorie
-Sviluppare consapevolezza delle
-emergenze e capacità di reazione
-Sorveglianza sanitaria
-Insegnamenti su igiene e
-sicurezza (Igiene,
-Anatomia)
-Promuovere comportamenti sani e
-prevenzione dei rischi
-Segnaletica di sicurezza
-Attività di osservazione e
-analisi degli spazi scolastici
-Sviluppare l’orientamento spaziale
-e il rispetto delle regole
-Piani di evacuazione
-Esercitazioni pratiche ed
-esercitazioni simulate
-Favorire l’autonomia e la
-collaborazione in caso di
-emergenza
-Sorveglianza delle
-attrezzature
-Moduli su uso sicuro dei
-macchinari (Laboratorio
-odontotecnico)
-Promuovere il senso di
-responsabilità verso l’ambiente e le
-attrezzature
-Valutazione rischi
-maternità
-Attività di sensibilizzazione
-su pari opportunità e tutela
-dei diritti
-Riconoscere e tutelare le situazioni
-di vulnerabilità
-Procedure per minacce
-esterne e pandemie
-Unità didattiche su
-emergenze non
-convenzionali
-Preparare gli studenti alla gestione
-consapevole del rischio
-Defibrillatore e
-formazione BLSD
-Formazione certificata al
-personale e studenti
-Promuovere la cultura del soccorso
-tempestivo e della solidarietà
+Come suggerito dalle Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo
+ciclo d’istruzione, “al termine del percorso triennale della scuola dell’infanzia, è ragionevole
+attendersi che ogni bambino abbia sviluppato alcune competenze di base che strutturano la sua
+crescita personale”. Al riguardo, i docenti hanno predisposto delle griglie di osservazione, come
+documento di passaggio alla scuola primaria. Le griglie hanno una funzione informativa, pertanto,
+non devono essere considerate uno strumento precoce di valutazione dell’alunno, ma una modalità
+di descrizione e valorizzazione del percorso e delle competenze al termine della scuola
+dell’infanzia. La compilazione è basata su un’osservazione attenta, costante ed obiettiva del
+bambino in tutti i campi di esperienza, in riferimento ai traguardi di sviluppo in termini di identità,
+autonomia, competenza e cittadinanza.
+37
 
 ---
 
 ## Pagina 38
 
-63
-Igiene nei laboratori
-Moduli sull’uso dei DPI e
-delle norme igienico-
-sanitarie
-Responsabilizzare sull’uso corretto
-dei dispositivi e sull’igiene
-Integrazione PCTO con
-sicurezza
-Stage con focus su sicurezza
-nei luoghi di lavoro
-Applicare la prevenzione nei
-contesti professionali reali
+Allegato: Griglie di valutazione Scuola dell’Infanzia
+
+## La Scuola Primaria
+
+Obiettivo della scuola è quello di far nascere negli alunni il desiderio della conoscenza e di
+stimolare la curiosità, la creatività, l’ingegno, la pluralità delle proprie capacità, abilità e
+competenze.
+Le aule delle due sedi di via Meilogu e S. Atzeni sono dotate di LIM che, attraverso i linguaggi
+multimediali, rendono la didattica più stimolante favorendo la partecipazione degli alunni, in
+particolare di quelli che presentano difficoltà di apprendimento. Per realizzare la formazione
+globale dell’alunno, valorizzando al meglio le varie individualità e le potenzialità di ciascuno, la
+Scuola Primaria si propone di superare la classe come unico riferimento dell’attività didattica.
+L’organizzazione scolastica sempre più coinvolge il territorio e gli operatori esterni, predisponendo
+una scuola “aperta” dove i bambini fanno molteplici esperienze laboratoriali, che rendono più
+piacevole l’apprendimento, stimolando l’attenzione e mantenendo vivo l’entusiasmo. Oltre alle
+normali attività didattiche, la Scuola Primaria si impegna a promuovere numerose attività
+extracurriculari che prevedono anche il coinvolgimento di diversi esperti esterni. Gli alunni, infatti,
+durante l’arco dell’anno scolastico potrebbero partecipare a varie manifestazioni e attività: giochi
+matematici, percorsi di educazione motoria e attività sportive anche in collaborazione con il Coni,
+visite didattiche e attività teatrali.
+Orari delle scuole Primarie
+Nome
+classi
+tempo
+Orario
+via Meilogu
+5
+40 ore
+Lun-Ven 8:30/16:30
+S. Atzeni,
+via D. Deliperi
+9
+40 ore
+Lun-Ven 8:30/16:30
+San Michele
+Via Redipuglia
+5
+40 ore
+Lun-Ven 8:30/16:30
+Scuola in Ospedale
+Microcitemico "A. Cao"
+2
+Il lunedì e giovedì, dalle ore 8.00 alle ore
+16.30.
+Il martedì dalle 8.00 alle 14.30
+Il mercoledì e venerdì dalle 8.00 alle
+14.00
+Scuola in Ospedale:
+“G.Brotzu”
+1
+22 ore
+Dal lunedì al giovedì dalle 8.00 alle 13.00
+Il venerdì dalle 8 alle  12.00
+38
 
 ---
 
 ## Pagina 39
 
-63
-Abstract Attività Curricolare Integrata per Materie in forma
-progettuale suddiviso pe materie d’insegnamento  Biennio e Triennio
-Materia
-Abstract Attività Curricolare Integrata
+Gli spazi delle scuole primarie:
 
-## Italiano, Storia -
+## Scuola
 
 
-## Triennio
+## Classi Aule Mens
+
+A
+
+## Palestra Biblioteca
 
 
-## Ballatore Cristina
-
-Il progetto integrato di Italiano e Storia si
-propone di potenziare le competenze
-linguistiche e storico-critiche attraverso
-attività didattiche laboratoriali. Gli studenti
-saranno coinvolti in percorsi di analisi
-testuale, scrittura creativa e rielaborazione
-storica, con attenzione all’uso del linguaggio
-nelle diverse epoche e ai contesti culturali.
-Attraverso simulazioni di interviste storiche,
-drammatizzazioni di eventi del passato e
-produzione di contenuti multimediali, il
-laboratorio rafforzerà le abilità di
-comunicazione scritta e orale. Il docente
-guiderà il gruppo nella costruzione di
-connessioni tra testi letterari, documenti
-storici e contesti sociali, promuovendo una
-visione integrata del sapere.
-
-## Scienze Integrate,
+## Sala
 
 
-## Gnatologia
+## Riunioni
 
 
-## Bassignano Annamaria
-
-Il laboratorio integrato mira a collegare la
-biologia, la chimica e l’anatomia con le
-conoscenze gnatologiche applicate
-all’odontotecnica. Gli studenti
-apprenderanno i fondamenti anatomici
-della masticazione e dei disturbi temporo-
-mandibolari attraverso attività pratiche,
-modelli 3D, osservazione di materiali e
-simulazioni. L’obiettivo è consolidare le
-conoscenze scientifiche di base e favorirne
-l’applicazione nei contesti clinico-tecnici,
-rendendo lo studio più motivante e
-significativo.
-
-## Diritto
+## Aule
 
 
-## Bazzano Alberto
+## Tematiche
 
-Il progetto di Diritto si concentra sulla
-simulazione di contesti giuridici applicati
-alla professione odontotecnica e alla vita
-sociale. Saranno trattati i temi della
-responsabilità professionale, della privacy,
-della contrattualistica e dei diritti del
-cittadino. Le attività previste includono
-giochi di ruolo, dibattiti guidati e la
+
+## Meilogu
+
+5
+10
+1
+1
+1
+1
+1 Informatica
+1 Musica e arte
+1 Matematica e
+Scienze
+
+## Sergio
+
+
+## Atzeni
+
+9
+13
+2
+1
+1
+2
+(auditorium)
+1
+39
 
 ---
 
 ## Pagina 40
 
-63
-produzione di documenti (consensi
-informati, regolamenti, contratti).
-L'obiettivo è far acquisire consapevolezza
-del quadro normativo e sviluppare
-competenze di cittadinanza attiva.
+SAN
 
-## Scienze Materiali
+## Michele
 
-
-## Dentali
-
-
-## Boarino Martina
-
-Il laboratorio curricolare sui materiali
-dentali affianca la teoria con attività
-pratiche di riconoscimento, classificazione e
-test fisici e chimici sui principali materiali
-usati in ambito odontotecnico. Attraverso
-esperimenti, schede tecniche e visite virtuali
-alle aziende del settore, gli studenti
-acquisiranno conoscenze sulle proprietà,
-applicazioni e limiti dei materiali in
-relazione al paziente.
-
-## Italiano, Storia,
-
-
-## Geografia - Biennio
-
-
-## Costa Denise
-
-L'integrazione di Italiano, Storia e Geografia
-in un percorso laboratoriale consente una
-visione olistica e interdisciplinare del
-sapere. Gli studenti saranno guidati
-nell’analisi di testi e fonti geostoriche, con
-esercitazioni sulla scrittura di reportage,
-mappe concettuali e dossier tematici. Il
-progetto sviluppa competenze trasversali di
-lettura, interpretazione, rielaborazione e
-collocazione spazio-temporale di eventi.
-
-## Inglese
-
-
-## Daidone Daniele
-
-Il laboratorio di inglese tecnico mira a
-rafforzare le competenze linguistiche di
-base e specifiche nel contesto
-odontotecnico. L’attività prevede lettura e
-analisi di testi tecnici, ascolto di contenuti
-audiovisivi, conversazioni simulate in
-ambito professionale e realizzazione di
-glossari tematici. Il progetto intende
-potenziare la comunicazione in lingua
-straniera per la futura interazione con
-clienti, professionisti e materiali didattici in
-inglese.
-
-## Rappresentazione E
-
-
-## Modellazione
-
-
-## Odontotecnica
-
-
-## Morbelli Luciana
-
-Il laboratorio favorisce lo sviluppo di
-competenze pratiche di disegno tecnico,
-modellazione analogica e digitale di
-dispositivi odontotecnici. Gli studenti
-saranno guidati in esercitazioni su supporti
-cartacei e software CAD, con attività
+5
+13
+1
+1
+1
+Sala
+musica
+1
+L’organizzazione:
+Classi a tempo pieno;
+insegnanti di posto comune;
+insegnanti di sostegno;
+insegnante di R.C.;
+insegnante di Inglese;
+insegnante di educazione fisica;
+collaboratori scolastici.
+Le sedi della scuola Primaria sono dotate di una sala mensa dove il cibo, a chilometro zero, viene
+cucinato in loco prestando la massima attenzione alle diete degli alunni.
+Nella sede di via Dessì Deliperi è presente un auditorium con 125 posti a sedere dove i bambini
+mettono in scena le proprie rappresentazioni e fruiscono di spettacoli proposti da diverse compagnie
+teatrali, sperimentando i vari linguaggi comunicativi.
+I due caseggiati della S. Atzeni sono circondati da ampi spazi verdi che ospitano piante tipiche della
+macchia mediterranea e alberi da frutto, messi a dimora dagli alunni di tutte le classi, all’interno di
+diversi progetti e laboratori, svolti nel corso degli anni.
+40
 
 ---
 
 ## Pagina 41
 
-63
-progettuali e valutazioni tecniche. Il
-progetto mira a rafforzare la precisione, la
-visione spaziale e la competenza nel
-passaggio dall’idea alla realizzazione
-tecnica.
 
-## Matematica, Diritto
+## Valutazione
 
-
-## Scaiola Matteo
-
-
-## Baracco Francesca
-
-
-## Maria (Succ)
-
-Il progetto mira a unire le basi del calcolo e
-del ragionamento logico con le applicazioni
-giuridiche più comuni. Gli studenti
-lavoreranno su problemi di proporzione,
-calcolo di percentuali, interpretazione di
-grafici, legati a situazioni normative (es.
-retribuzioni, sanzioni, costi). L’obiettivo è
-stimolare il pensiero critico e l’autonomia
-attraverso contesti interdisciplinari
-realistici.
-
-## Fisica
-
-
-## Scaiola Matteo
-
-Il laboratorio di fisica applicata
-all’odontotecnica si concentra su concetti di
-meccanica, termodinamica e ottica rilevanti
-per l’uso dei materiali e degli strumenti
-tecnici. Attraverso esperimenti semplificati
-e dimostrazioni pratiche, gli studenti
-comprenderanno fenomeni fisici connessi
-alla resistenza dei materiali, alla
-trasmissione del calore e al funzionamento
-delle apparecchiature.
-
-## Scienze Motorie
-
-
-## Bosco Alberto
-
-
-## Perna Riccardo
-
-
-## Ferrua Paolo (Succ)
-
-
-## Tommso Redi   (Succ)
-
-Il progetto di scienze motorie si struttura
-come laboratorio esperienziale sul
-benessere psico-fisico, la postura e la
-prevenzione. Sono previste attività
-corporee, osservazioni posturali, giochi
-cooperativi e riflessioni sullo stile di vita.
-L’obiettivo è promuovere consapevolezza
-motoria, collaborazione e cura di sé.
-
-## Sostegno
-
-
-## Dell’Oro Lara Olga
-
-
-## Maria
-
-Il laboratorio di sostegno curricolare si
-propone come spazio di accompagnamento
-personalizzato, volto al potenziamento delle
-abilità trasversali e all’autonomia. Gli
-studenti saranno supportati in piccoli
-gruppi attraverso metodologie inclusive,
-tutoraggio tra pari, uso di strumenti
-compensativi e percorsi facilitati. Obiettivo è
-garantire equità, partecipazione e successo
-formativo per tutti.
+La verifica e la valutazione sono atti imprescindibili della prassi didattica, presenti in tutti i
+momenti del percorso curricolare; hanno lo scopo, infatti, di monitorare l’intero processo in
+relazione agli apprendimenti degli studenti e all’efficacia dell’azione educativo-didattica; offrono
+altresì la possibilità di adeguare la programmazione.
+Lo scopo della valutazione, quindi, non è riuscire a classificare gli alunni, ma osservare e
+monitorare il processo di conoscenza che porta all’apprendimento che va dall’esperienza alla
+concettualizzazione.
+La valutazione nella scuola primaria
+La valutazione è un elemento pedagogico fondamentale delle programmazioni didattiche, senza la
+quale non si potrebbero seguire i progressi dell’alunno rispetto agli obiettivi e ai fini da
+raggiungere:
+· l’acquisizione e la trasmissione dei contenuti disciplinari (il sapere)
+· la capacità di trasformare in azione i contenuti acquisiti (il saper fare)
+· la capacità di interagire e di tradurre le conoscenze e le abilità in razionali comportamenti (il saper
+essere).
+La valutazione ha lo scopo quindi di guidare l’alunno durante il percorso scolastico, rendendo
+chiare ed esplicite le mete educative e gli obiettivi didattici.
+I tempi della valutazione
+La valutazione degli apprendimenti viene formulata sulla base degli indicatori delle competenze
+stabiliti collegialmente nel Curricolo verticale d’Istituto. La valutazione degli apprendimenti, per
+rispondere alla sua funzione, si articola in tre momenti: la valutazione iniziale, quella in itinere e
+quella finale.
+A decorrere dall’anno scolastico 2020/2021 la valutazione periodica e finale degli apprendimenti è
+espressa, per ciascuna delle discipline di studio previste dalle Indicazioni Nazionali, compreso
+l’insegnamento trasversale di educazione civica, attraverso un giudizio descrittivo riportato nel
+documento di valutazione, nella prospettiva formativa della valutazione e della valorizzazione del
+miglioramento degli apprendimenti. I giudizi descrittivi sono riferiti agli obiettivi oggetto di
+valutazione definiti nel curricolo d’Istituto e sono correlati a differenti livelli di apprendimento.
+41
 
 ---
 
 ## Pagina 42
 
-63
+Griglia per la Valutazione della Scuola Primaria
+Tabella di corrispondenza tra voti-giudizi e conoscenze/abilità/competenze
+42
 
-## Ed. Civica, Alternativa
+## Voto
 
 
-## Di Nunno Grazia Maria
+## Numerico
 
 
-## Rosa
+## Livello Di
 
-Il progetto propone un percorso
-sull’educazione civica attiva, la legalità,
-l’etica del lavoro e i diritti costituzionali. Si
-affronteranno temi come la cittadinanza
-digitale, l’ambiente, la salute pubblica e la
-sostenibilità, con attività di ricerca,
-produzione multimediale e dibattito. Per
-l’Alternativa alla religione, saranno offerti
-laboratori etici e culturali mirati a
-promuovere il pensiero critico.
-Il presente progetto è validato dal gestore dell’Istituto, ai sensi del vigente
-PTOF, e inserito nei registri delle attività curricolari riconosciute, con valore
-ai fini della programmazione didattica, della rendicontazione formativa e
-della tracciabilità ispettiva.
-L’attuazione del presente progetto è garantita dall’Istituto attraverso
-un'organizzazione didattica formalizzata, che ne assicura la realizzazione
-indipendentemente dalla continuità del singolo docente incaricato, con
-tracciabilità completa delle attività, degli obiettivi e degli strumenti
-valutativi previsti.
 
-## Gli Insegnamenti
+## Apprendimento
 
-Area di indirizzo
-Anatomia, fisiologia e igiene (Gnatologia). Anatomia, fisiopatologia e igiene
-permette allo studente di acquisire abilità specifiche nell’ambito delle
-materie di indirizzo, anche ai fini dell’orientamento. Particolare attenzione è
-posta allo sviluppo di abilità relative alla classificazione e definizione dei
-fattori di rischio ai fini della tutela della salute, alla maturazione di una
-mentalità di prevenzione e all’adozione di corretti comportamenti e stili di
-vita. La disciplina, sviluppata in stretta sintonia con gli insegnamenti tecnico-
-operativi che caratterizzano il curricolo, è finalizzata non tanto
-all’approfondimento sistematico delle tematiche affrontate, quanto alla
+
+## Definizione
+
+10
+
+## Ottimo
+
+L’alunno svolge e porta a termine le attività con autonomia e
+consapevolezza, riuscendo ad affrontare anche situazioni
+complesse e non proposte in precedenza.
+E’ in grado di utilizzare conoscenze, abilità e competenze per
+svolgere con continuità compiti e risolvere problemi anche
+difficili, in modo originale e personale.
+Si esprime correttamente, con particolare proprietà di
+linguaggio, capacità critica e di argomentazione, in modalità
+adeguata al contesto.
+9
+
+## Distinto
+
+L’alunno svolge e porta a termine le attività con autonomia e
+consapevolezza, riuscendo ad affrontare anche situazioni
+complesse.
+E’ in grado di utilizzare conoscenze, abilità e competenze per
+svolgere con continuità compiti e risolvere problemi anche
+difficili.
+Si esprime correttamente, con proprietà di linguaggio, e
+capacità di argomentazione, in modalità adeguata al contesto.
+8
+
+## Buono
+
+L’alunno svolge e porta a termine le attività con autonomia e
+consapevolezza,
+E’ in grado di utilizzare conoscenze, abilità e competenze per
+svolgere con continuità compiti e risolvere problemi
+Si esprime correttamente, collegando le principali informazioni
+e usando un linguaggio adeguato al contesto.
+7
+
+## Discreto
+
+L’alunno svolge e porta a termine le attività con parziale
+autonomia e consapevolezza.
+E’ in grado di utilizzare alcune conoscenze, abilità e
+competenze per svolgere compiti e risolvere problemi non
+particolarmente complessi.
 
 ---
 
 ## Pagina 43
 
-63
-traduzione funzionale ed operativa dei contenuti e delle logiche specifiche.
-Forme di didattica attiva e laboratoriale, anche con l’ausilio di mezzi
-multimediali e l’uso di simulazioni e analisi di casi pratici, permettono allo
-studente di affrontare semplici situazioni reali, riferite a contesti
-professionali.
-In particolare all’ ultimo anno si approfondirà la Gnatologia, ovvero la parte
-di anatomia che riguarda il funzionamento della parte facciale e la struttura
-mascellare, gengivale e dentale. Ciò consente allo studente di rendersi
-consapevole delle dinamiche biologiche ed eziologiche che riguardano la
-parte del corpo umano dove vengono applicate le protesi di sua
-realizzazione.
-Rappresentazione e modellazione odontotecnica. Utilizzare le tecniche di
-lavorazione necessarie a costruire tutti i tipi di protesi: provvisoria, fissa e
-mobile; applicare le conoscenze di anatomia dell’apparato boccale, di
-biomeccanica, di fisica e di chimica per la realizzazione di un manufatto
-protesico; eseguire tutte le lavorazione del gesso sviluppando le impronte e
-collocare i relativi modelli sui dispositivi di registrazione occlusale; correlare
-lo spazio reale con la relativa rappresentazione grafica e convertire la
-rappresentazione grafica bidimensionale in un modello a tre dimensioni;
-adoperare strumenti di precisione per costruire, levigare e rifinire le protesi;
-applicare la normativa del settore con riferimento alle norme di igiene e
-sicurezza del lavoro e di prevenzione degli infortuni; interagire con lo
-specialista odontoiatra; aggiornare le competenze relativamente alle
-innovazioni scientifiche e tecnologiche nel rispetto della vigente normativa.
-Esercitazioni di laboratorio odontotecnico. Utilizzare le tecniche di
-lavorazione necessarie a costruire tutti i tipi di protesi: provvisoria, fissa e
-mobile; applicare le conoscenze di anatomia dell’apparato boccale, di
+I livelli di apprendimento saranno riferiti agli esiti raggiunti da ogni alunno in relazione agli
+obiettivi di ciascuna disciplina. Nell’elaborare il giudizio descrittivo si terrà conto del percorso fatto
+e della sua evoluzione.
+La valutazione degli alunni con disabilità certificata sarà correlata agli obiettivi individuati nel
+Piano Educativo Individualizzato (PEI), mentre la valutazione degli alunni con Disturbi Specifici
+dell’Apprendimento terrà conto del Piano Didattico Personalizzato (PDP).
+43
+Si esprime correttamente, con un lessico semplice adeguato al
+contesto.
+6
+
+## Sufficiente
+
+L’alunno svolge le attività principalmente sotto la guida e con il
+supporto del docente.
+E’ in grado di applicare alcune conoscenze e abilità per svolgere
+semplici compiti e problemi solo se già affrontati in
+precedenza.
+Si esprime, con un lessico limitato e con qualche incertezza..
+5
+
+## Non Sufficiente
+
+L’alunno non riesce abitualmente a svolgere le attività proposte
+anche se guidato dal docente
+Applica solo saltuariamente conoscenze e abilità per svolgere
+alcuni semplici compiti.
+Si esprime con incertezza e in maniera non adeguata al
+contesto...
 
 ---
 
 ## Pagina 44
 
-63
-biomeccanica, di fisica e di chimica per la realizzazione di un manufatto
-protesico; eseguire tutte le lavorazione del gesso sviluppando le impronte e
-collocare i relativi modelli sui dispositivi di registrazione occlusale; correlare
-lo spazio reale con la relativa rappresentazione grafica e convertire la
-rappresentazione grafica bidimensionale in un modello a tre dimensioni;
-adoperare strumenti di precisione per costruire, levigare e rifinire le protesi;
-applicare la normativa del settore con riferimento alle norme di igiene e
-sicurezza del lavoro e di prevenzione degli infortuni; Interagire con lo
-specialista odontoiatra; aggiornare le competenze relativamente alle
-innovazioni scientifiche e tecnologiche nel rispetto della vigente normativa.
-Scienze dei Materiali. Al termine del percorso professionale lo studente
-dovrà possedere le conoscenze di tipo chimico e tecnico relative ai vari
-materiali che ha utilizzato e utilizzerà in ambito laboratoriale, inteso nel
-senso più ampio. Lo studio riprende, approfondisce e sviluppa i contenuti di
-chimica appresi al primo biennio e si rivolge quindi ad esaminare le
-caratteristiche dei materiali di utilizzo nei vari ambiti di attività. In
-particolare, lo studente apprende le caratteristiche fisico- chimiche e
-tecnologiche fondamentali dei materiali di interesse per il proprio indirizzo,
-la loro origine, la loro preparazione e gli impieghi a cui sono destinati; dovra
-inoltre padroneggiare i fondamenti delle tecniche che impiega. Si cercherà il
-raccordo con gli altri ambiti disciplinari, in particolare con Esercitazioni di
-Laboratorio e Anatomia, dato che entrambe vedono nei materiali utilizzati
-una peculiarità di impiego delle rispettive competenze.
-Area umanistica
-Lingua e letteratura italiana. Al termine del percorso scolastico lo studente
+
+## Scuola Secondaria Di 1° Grado
+
+La Scuola Secondaria di 1° Grado intende perseguire le seguenti finalità nel rispetto della normativa
+scolastica vigente e del Regolamento dell’Autonomia:
+‣ Formazione globale della personalità dell’alunno.
+‣ Orientamento ai fini della formazione dell’uomo e del cittadino.
+‣ Preparazione culturale di base, come presupposto per ogni ulteriore impegno scolastico e come
+premessa di educazione permanente.
+La Scuola Secondaria di 1° Grado è finalizzata alla crescita delle capacità autonome di studio e al
+rafforzamento delle attitudini all'interazione sociale:
+• Accresce l'alfabetizzazione informatica in relazione all'evoluzione sociale, culturale e scientifica
+della realtà contemporanea.
+• Fornisce strumenti adeguati alla prosecuzione delle attività di istruzione e di formazione.
+• Introduce lo studio di una seconda lingua dell'Unione europea.
+• Aiuta ad orientarsi per la successiva scelta di istruzione e formazione.
+
+## Corso A Indirizzo Musicale
+
+Nella Scuola Secondaria di 1° Grado “Mameli”, è attivo il corso a indirizzo musicale, con rientri
+pomeridiani, per lo studio individuale dei seguenti strumenti musicali: chitarra, clarinetto,
+pianoforte, violino. Gli strumenti in dotazione alla Scuola possono essere dati agli studenti in
+comodato d’uso.
+L’ammissione degli alunni al corso a indirizzo musicale è subordinata al superamento di una prova
+orientativo-attitudinale predisposta dalla scuola. Lo studio dello strumento viene valutato alla pari
+delle altre discipline curricolari ed è materia d’esame.
+L’Istituto offre la possibilità di ottenere libri di testo in comodato d’uso secondo le modalità
+descritte nella circolare emanata a inizio di ogni nuovo anno scolastico.
+44
 
 ---
 
 ## Pagina 45
 
-63
-padroneggia la lingua italiana: e in grado di esprimersi, in forma scritta e
-orale, con chiarezza e proprietà, variando - a seconda dei diversi contesti e
-scopi - l’uso personale della lingua; di compiere operazioni fondamentali,
-quali riassumere e parafrasare un testo dato, organizzare e motivare un
-ragionamento; di illustrare e interpretare in termini essenziali un fenomeno
-storico, culturale, scientifico. Ha inoltre una complessiva coscienza della
-storicità della lingua italiana, maturata attraverso la lettura fin dal biennio di
-alcuni testi letterari distanti nel tempo, e approfondita poi da elementi di
-storia della lingua, delle sue caratteristiche sociolinguistiche e della presenza
-dei dialetti, nel quadro complessivo dell’Italia odierna, caratterizzato dalle
-varietà d’uso dell’italiano stesso.
-Lingua e letteratura straniera (Inglese). Lo studio della lingua e della cultura
-straniera deve procedere lungo due assi fondamentali tra loro interrelati: lo
-sviluppo di competenze linguistico- comunicative e lo sviluppo di
-conoscenze relative all’universo culturale legato alla lingua di riferimento.
-Come traguardo dell’intero percorso scolastico si pone il raggiungimento di
-un livello di padronanza riconducibile almeno al livello B2 del Quadro
-Comune Europeo di Riferimento per le lingue. A tal fine, durante il percorso
-scolastico lo studente acquisisce capacita di comprensione di testi orali e
-scritti inerenti a tematiche di interesse sia personale sia scolastico (ambito
-letterario, artistico, musicale, scientifico, sociale, economico); di produzione
-di testi orali e scritti per riferire fatti, descrivere situazioni, argomentare e
-sostenere opinioni; di interazione nella lingua straniera in maniera adeguata
-sia agli interlocutori sia al contesto; di analisi e interpretazione di aspetti
-relativi alla cultura dei paesi di cui si parla la lingua, con attenzione a
-tematiche comuni a più discipline.
+Gli spazi delle scuole secondarie di primo grado:
+
+## Scuola
+
+
+## Classi
+
+
+## Laboratorio
+
+
+## Artistico
+
+
+## Palestra
+
+
+## Biblioteca
+
+
+## Sala
+
+
+## Professori
+
+
+## Aula
+
+
+## Informatica
+
+
+## Auditorium
+
+Ciusa
+4
+1
+1
+1
+1
+1
+1
+Alziator
+6
+1
+1
+1
+1
+1
+Mameli
+3
+1
+1
+1
+1
+1
+1
+Microcitemico
+"A. Cao"
+1
+1
+1
+1
+L’organizzazione
+Nella sede Ciusa è presente la Presidenza e la segreteria. Le lezioni in questa sede e nella sede
+Alziator sono organizzate dal lunedì al venerdì dalle 8.00 alle 14.00.
+Nella sede Mameli è attivo il corso ad indirizzo musicale, con il rientro pomeridiano per lo
+studio individuale dei seguenti strumenti musicali: chitarra, clarinetto, pianoforte, violino.
+L'ammissione all'indirizzo musicale degli alunni è subordinata al superamento di una prova
+orientativo-attitudinale predisposta dalla scuola.
+La Scuola possiede un congruo numero di strumenti musicali che mette a disposizione degli
+alunni per le lezioni in classe e in comodato d'uso gratuito. Le ore di strumento musicale sono
+curriculari e obbligatorie per tutta la durata del triennio. Il monte ore complessivo di ogni singolo
+alunno è quindi di trentatré ore settimanali. Lo studio dello strumento viene valutato alla pari delle
+altre discipline curricolari ed è materia d’esame. Le lezioni sono organizzate dal lunedì al venerdì
+dalle 8.00 alle 14. I rientri per il corso musicale si svolgono in orari e giorni concordati con le
+famiglie.
+In tutte le aule delle scuole Secondarie di primo grado sono presenti le LIM.
+Orari settimana corta della Scuola Secondaria di 1° Grado
+Sede
+Ingresso
+Uscita
+Ciusa
+8.00
+14.00
+Alziator
+8.00
+14.00
+45
 
 ---
 
 ## Pagina 46
 
-63
-Scienze Motorie. Al temine del percorso scolastico lo studente ha acquisito la
-consapevolezza
-della
-propria
-corporeità
-intesa
-come
-conoscenza,
-padronanza e rispetto del proprio corpo; ha consolidato i valori sociali dello
-sport e ha acquisito una buona preparazione motoria; ha maturato un
-atteggiamento positivo verso uno stile di vita sano e attivo; ha colto le
-implicazioni e i benefici derivanti dalla pratica di varie attività fisiche svolte
-nei diversi ambienti.
-Lo studente consegue la padronanza del proprio corpo sperimentando
-un’ampia gamma di attività motorie e sportive: ciò favorisce un equilibrato
-sviluppo fisico e neuromotorio. La stimolazione delle capacita motorie dello
-studente, sia coordinative che di forza, resistenza, velocita e flessibilità, e sia
-obiettivo specifico che presupposto per il raggiungimento di più elevati
-livelli di abilita e di prestazioni motorie.
-Storia. Al termine del percorso scolastico lo studente conosce i principali
-eventi e le trasformazioni di lungo periodo della storia dell’Europa e
-dell’Italia, dall’antichità ai giorni nostri, nel quadro della storia globale del
-mondo; usa in maniera appropriata il lessico e le categorie interpretative
-proprie della disciplina; sa leggere e valutare le diverse fonti; guarda alla
-storia come a una dimensione significativa per comprendere, attraverso la
-discussione critica e il confronto fra una varietà di prospettive e
-interpretazioni, le radici del presente. Il punto di partenza sarà la
-sottolineatura della dimensione temporale di ogni evento e la capacita di
-collocarlo nella giusta successione cronologica, in quanto insegnare storia e
-proporre lo svolgimento di eventi correlati fra loro secondo il tempo. D’altro
-canto non va trascurata la seconda dimensione della storia, cioè lo spazio. La
-storia comporta infatti una dimensione geografica; e la geografia umana, a
-sua volta, necessita di coordinate temporali. Le due dimensioni spazio-
-temporali devono far parte integrante dell’apprendimento della disciplina.
+Orari settimana corta delle classi a indirizzo musicale
+Sede
+Ingresso/uscita
+Mameli
+Orario settimanale articolato in cinque giorni, strutturati nel
+seguente modo:
+●​ un giorno a settimana, lezioni dalle ore 8.00 alle ore
+16.00;
+●​ un giorno a settimana, lezioni dalle ore 8.00 alle ore
+14.00, con rientro pomeridiano di un’ora da concordare
+per lezioni individuali di strumento;
+●​ tre giorni a settimana, lezioni dalle ore 8.00 alle ore
+14.00.
+Orari settimana corta della Scuola Secondaria Ospedaliera
+Sede
+Ingresso/uscita
+Microcitemico "A. Cao"
+Lezioni antimeridiane: dal lunedì al venerdì, dalle ore 9.00 alle
+ore 13.00.
+Lezioni pomeridiane: lun 15.00/18.00; mar 16.00/18.00; mer
+14.00/18.00; gio 15.00/18.00; ven 14.00-18.00
+
+## Monte Ore Annuale Scuola Secondaria I Grado
+
+Classi
+Monte
+ore
+annuo
+curricolo secondaria
+1° grado
+Monte
+ore
+annuo
+frequenza
+obbligatoria (almeno
+3/4)
+Ore
+massime
+assenza
+per
+ammissione scrutinio
+(1/4)
+1^, 2^, 3^ secondaria
+1° grado
+
+## 990 H
+
+
+## 743 H
+
+247
+46
 
 ---
 
 ## Pagina 47
 
-63
-Geografia. Al termine del percorso biennale lo studente conoscerà gli
-strumenti fondamentali della disciplina ed avrà acquisito familiarità con i
-suoi principali metodi, anche traendo partito da opportune esercitazioni
-pratiche, che potranno beneficiare, in tale prospettiva, delle nuove tecniche
-di lettura e rappresentazione del territorio. Lo studente saprà orientarsi
-criticamente dinanzi alle principali forme di rappresentazione cartografica,
-nei suoi diversi aspetti geografico fisici e geopolitici, e avrà di conseguenza
-acquisito un’adeguata consapevolezza delle complesse relazioni che
-intercorrono tra le condizioni ambientali, le caratteristiche socioeconomiche
-e culturali e gli assetti demografici di un territorio. Saprà in particolare
-descrivere e inquadrare nello spazio i problemi del mondo attuale, mettendo
-in relazione le ragioni storiche di “lunga durata”, i processi di
-trasformazione, le condizioni morfologiche e climatiche, la distribuzione
-delle risorse, gli aspetti economici e demografici delle diverse realtà in
-chiave multiscalare.
-Diritto ed Economia (pratica commerciale e legislazione sanitaria). Al termine
-del percorso biennale lo studente e in grado di utilizzare il linguaggio
-giuridico essenziale e comprende i concetti fondamentali della disciplina
-giuridica. Egli sa confrontare il diritto, scienza delle regole giuridiche, con le
-altre norme, sociali ed etiche, e riconosce i principi sui quali si fonda la
-produzione delle norme nel passaggio dalle civiltà antiche a quelle moderne.
-Conosce i principi fondamentali della Costituzione italiana, gli organi
-costituzionali e l’assetto della forma di governo del nostro paese. Egli
-apprende inoltre i principali istituti del diritto di famiglia. E in grado di
-comparare fra loro i principali ordinamenti giuridici, e conosce l’evoluzione
-storica e l’assetto istituzionale dell’Unione Europea. Al contempo lo studente
-conosce i fondamentali elementi costitutivi dell’economia politica. Riconosce
+
+## Valutazione Scuola Secondaria Di 1°Grado
+
+La valutazione è effettuata dai docenti di classe attraverso l’attribuzione di un voto in decimi per
+valorizzarne la funzione formativa. Nella valutazione delle verifiche scritte si allegherà la griglia di
+valutazione, individuando nei descrittori il voto corrispondente. I docenti delle varie discipline
+declineranno in modo specifico alla materia di riferimento. La valutazione mediante “giudizi” è di
+pertinenza dell’ IRC e della materia alternativa alla religione. I descrittori relativi alle griglie di
+valutazione vengono proposti e discussi in sede d’incontro tra i vari dipartimenti.
+Allegato: Griglia di valutazione della scuola secondaria di 1^ grado
+
+## Criteri Di Valutazione Ai Fini Della Validita’ Dell’Anno
+
+
+## Scolastico
+
+1) Per procedere alla valutazione finale di ciascun anno scolastico è necessario che gli
+studenti abbiano frequentato le lezioni per un numero di ore pari ad almeno ¾ dell’orario
+annuale (D.P.R. n. 122 del 22/06/2009). Qualora tale limite minimo di frequenza non sia
+raggiunto, lo studente interessato sarà escluso dallo scrutinio finale e contestualmente NON
+AMMESSO alla classe successiva o all’esame di stato.
+2) E’ previsto che le scuole possano stabilire, “per casi eccezionali (….) motivate e
+straordinarie deroghe al suddetto limite”, specificatamente per quelli riguardanti
+“assenze documentate e continuative, a condizione, comunque, che (….) non
+pregiudichino, a giudizio del Consiglio di Classe, la possibilità di procedere alla
+valutazione degli alunni interessati” (art. 14, comma 7, D.P.R. n. 122 del 22/06/2009).
+Non verrà fatta rientrare nel computo complessivo delle assenze la tardiva iscrizione non
+causata da inadempienza dei genitori degli studenti;
+i permessi permanenti di entrata e/o uscita dalla scuola per problemi legati agli orari dei
+mezzi di trasporto saranno autorizzati dietro delibera dei rispettivi Consigli di Classe e
+verranno annotati sul registro elettronico dai collaboratori del Dirigente scolastico. Tali
+permessi non saranno fatti rientrare nel computo complessivo delle assenze.
+Eventuali casi particolari non previsti tra quelli sopra riportati, se opportunamente ed
+analiticamente documentati, saranno valutati dal Dirigente scolastico e sottoposti al vaglio
+dei docenti dello specifico consiglio di classe.
+Saranno computate come ore di assenza secondo il numero delle ore giornalmente effettive:
+●​
+Entrate posticipate alla seconda o successive ore di lezione. Le frazioni di ora sono
+conteggiate come ora intera;
+●​
+Uscite in anticipo. Le frazioni di ora sono conteggiate come ora intera;
+●​
+Assenze per malattia;
+●​
+Assenze per motivi familiari e/o personali;
+●​
+Astensione dalle lezioni (per scioperi o manifestazioni degli studenti);
+47
 
 ---
 
 ## Pagina 48
 
-63
-la natura specifica del problema economico con particolare riguardo ai
-concetti di ricchezza, reddito, moneta, produzione, consumo.
-All’ultimo anno del Triennio verrà invece approfondita la pratica
-commerciale e la legislazione sanitaria, in modo da consentire al diplomando
-di prendere familiarità con le pratiche e le conoscenze necessarie per aprire
-un’azienda in proprio.
-Area scientifica
-Scienze integrate. Il docente di Scienze integrate fa conseguire allo studente
-risultati di apprendimento che lo mettono in grado di: utilizzare i concetti e i
-modelli delle scienze sperimentali per investigare i fenomeni sociali e
-naturali e per interpretare dati. Utilizzare gli strumenti culturali e
-metodologici acquisiti per porsi con atteggiamento razionale, critico,
-creativo, responsabile nei confronti della realtà; utilizzare le reti e gli
-strumenti informatici nelle attività di studio, ricerca e approfondimento;
-padroneggiare l’uso di strumenti tecnologici con attenzione alla sicurezza
-dei luoghi di vita e di lavoro, tutela della persona, dell’ambiente e del
-territorio.
-Matematica. Al termine del percorso del liceo scientifico lo studente
-conoscerà i concetti e i metodi elementari della matematica, sia interni alla
-disciplina in se considerata, sia rilevanti per la descrizione e la previsione di
-fenomeni, in particolare del mondo fisico. Egli saprà inquadrare le varie
-teorie matematiche studiate nel contesto storico entro cui si sono sviluppate
-e ne comprenderà il significato concettuale. Un tema di studio sarà il
-problema del numero delle soluzioni delle equazioni polinomiali. Lo
-studente acquisirà la conoscenza di semplici esempi di successioni
-numeriche, anche definite per ricorrenza, e saprà trattare situazioni in cui si
+●​
+Mancata frequenza delle attività organizzate dalla scuola in caso di non
+partecipazione a viaggi di istruzione o visite guidate;
+●​
+Mancata partecipazione alle attività organizzate in orario curricolare.
+Tutte le assenze, incluse le entrate e le uscite fuori orario, vengono annotate dai docenti sul
+registro elettronico e sono sommate a fine anno scolastico. Il numero di ore totale di assenze
+effettuate dallo studente nell’anno scolastico sarà quindi raffrontato all’orario complessivo
+annuale delle lezioni. L’esito complessivo del raffronto dovrà collocarsi entro il limite del
+25%. Il mancato conseguimento del limite minimo di frequenza, tenuto conto delle deroghe
+riconosciute ai sensi del successivo punto ***, comporterà la non validità dell’anno
+scolastico e la conseguente esclusione dello studente dallo scrutinio finale e la non
+ammissione alla classe successiva.
+
+## Deroghe
+
+Al principio della frequenza obbligatoria di almeno tre quarti dell’orario annuale
+personalizzato di lezione, sono possibili DEROGHE funzionali ad assenze tempestivamente
+documentate e continuative, a condizione, comunque, che tali assenze non pregiudichino, a
+giudizio dei consigli di classe con specifica delibera motivata, la possibilità di procedere alla
+valutazione degli studenti interessati. Tali DEROGHE devono comportare un percorso di
+recupero concordato con l’istituzione scolastica. Sulla base di quanto disposto dall’art. 14
+comma 7 del DPR 122/2009, si considerano assenze continuative che possono consentire di
+derogare ai limiti sopra riportati i seguenti motivi:
+
+## Salute
+
+●​
+Assenze per ricovero ospedaliero o in casa di cura, documentato con certificato di
+ricovero e di dimissione e successivo periodo di convalescenza prescritto all’atto della
+dimissione e convalidato da un medico del SSN;
+●​
+Assenze continuative di 5 o più giorni motivate da patologie che impediscano la
+frequenza scolastica, certificate da un medico del SSN;
+●​
+Assenze ricorrenti per grave malattia documentata con certificato di un medico del
+SSN attestante la gravità della patologia;
+●​
+Visite specialistiche ospedaliere e day hospital (anche riferite ad un solo giorno).
+
+## Personali E/O Di Famiglia
+
+●​
+Allontanamenti temporanei disposti dall’autorità giudiziaria, assenze di più giorni per
+testimonianza o altri procedimenti giudiziari;
+●​
+Gravi patologie e lutti certificati dei componenti del nucleo familiare entro il II
+grado, fino ad un massimo di 5 giorni;
+●​
+Rientro nel paese d’origine per motivi legali o assenza per regolarizzare la propria
+permanenza in Italia presso gli uffici di pubblica sicurezza;
+●​
+Grave disagio socio-culturale certificato dai servizi sociali;
+●​
+Assenze di alunni stranieri per motivi legati alla loro cultura, economia e alle
+tradizioni dei paesi di origine;
+●​
+Partecipazione ad attività sportive e agonistiche organizzate da federazioni
+riconosciute dal CONI;
+48
 
 ---
 
 ## Pagina 49
 
-63
-presentano progressioni aritmetiche e geometriche.
-Approfondirà lo studio delle funzioni elementari dell’analisi e, in particolare,
-delle funzioni esponenziale e logaritmo. Sarà in grado di costruire semplici
-modelli di crescita o decrescita esponenziale, nonché di andamenti periodici,
-anche in rapporto con lo studio delle altre discipline; tutto ciò sia in un
-contesto discreto sia continuo. Infine, lo studente apprenderà ad analizzare
-sia graficamente che analiticamente le principali funzioni e saprà operare su
-funzioni composte e inverse. Un tema importante di studio sarà il concetto di
-velocità di variazione di un processo rappresentato mediante una funzione.
-Tecnologie dell’informazione e della comunicazione. Al termine del percorso
-biennale di questa disciplina lo studente saprà utilizzare e produrre
-strumenti di comunicazione visiva e multimediale, anche con riferimento
-alle strategie espressive e agli strumenti tecnici della comunicazione in rete;
-utilizzare le reti e gli strumenti informatici nelle attività di studio, ricerca e
-approfondimento disciplinare; individuare e utilizzare gli strumenti di
-comunicazione e di team working più appropriati per intervenire nei
-contesti organizzativi e professionali di riferimento.
+●​
+Interruzioni delle attività didattiche per calamità o eventi naturali;
+●​
+Lezioni o esami presso istituzioni statali o legalmente riconosciute;
+●​
+Ritardi dovuti alla frequenza del corso di lingua italiana presso la sede “Ciusa”;
+●​
+Riduzione oraria per frequenza alternata in centro di accoglienza, debitamente
+certificata da servizi sociali o tribunale dei minori o figure assimilate.
+49
 
 ---
 
 ## Pagina 50
 
-63
 
-## Regolamento D’Istituto
+## Progetti
 
-Il presente documento viene redatto con lo scopo di stabilire i compiti di pertinenza del
-personale dirigente, del personale docente, del personale di segreteria e del personale
-ausiliario dell’Istituto, che sono tenuti alla loro puntuale esecuzione.
-
-## Compiti Del Gestore
-
-Il Gestore dell’Istituto deve:
--
-rispettare le condizioni di Sua competenza per il mantenimento della parità
-scolastica;
--
-fornire locali sufficienti e idonei allo svolgimento delle lezioni teoriche e pratiche;
--
-assumere i provvedimenti necessari per garantire la sicurezza della scuola;
--
-fornire alla Dirigenza tutta la documentazione e la certificazione agli atti in materia
-di sicurezza e di edilizia;
--
-provvedere all’assunzione e alla retribuzione del personale docente, di segreteria e
-ausiliario, provvisto dei necessari requisiti ;
--
-disporre gli acquisti del materiale di laboratorio necessario allo svolgimento delle
-lezioni;
--
-disporre gli acquisti del materiale di arredo e di cancelleria;
--
-disporre gli acquisti del materiale informatico ad uso della segreteria, dei docenti e
-degli studenti;
--
-stabilire le rette scolastiche;
--
-provvedere a dare la giusta visibilità all’Istituto attraverso le opportune forme di
-pubblicità.
-
-## Compiti Del Coordinatore Didattico
-
-Il Coordinatore didattico e suoi delegati devono:
--
-in generale, assicurare il buon funzionamento dell’Istituto, curando i rapporti con
-le Istituzioni e con le Famiglie e verificando il lavoro del personale ausiliario,
-docente e di segreteria;
--
-conoscere, rispettare e far rispettare leggi, ordinanze, decreti e circolari in materia
-di istruzione;
--
-accertarsi che vengano rispettate le condizioni per il mantenimento della parità
-scolastica;
+Per garantire una didattica funzionale al conseguimento degli apprendimenti da parte di tutti gli
+alunni delle scuole del nostro Istituto Comprensivo, la Scuola promuove progetti curricolari ed
+extracurricolari, che prevedono l’intervento anche di esperti esterni, attingendo dal territorio.
+I progetti si distinguono in:
+-​
+Progetti presentati da Commissioni e/o Funzioni Strumentali;
+-​
+Progetti di recupero e potenziamento;
+-​
+Progetti dell’area didattica che coinvolgono direttamente gli alunni in attività specifiche,
+anche in collaborazione con le famiglie, enti, associazioni e altri soggetti esterni.
+Gli obiettivi generali dell’ampliamento dell’offerta formativa sono:
+-​
+Migliorare il modello organizzativo della scuola;
+-​
+promuovere e sostenere la collaborazione tra scuola e famiglia ed enti presenti sul territorio;
+-​
+prevenire il disagio e la dispersione; favorire l’integrazione e l’inclusione;
+-​
+programmare ed attuare attività che favoriscano la continuità tra gli ordini di scuola;
+-​
+favorire l’uso delle tecnologie nella didattica.
+Le attività progettuali possono essere svolte in orario scolastico o extrascolastico e variano
+annualmente. Esse si realizzano in seguito all’approvazione degli organi collegiali e sulla base di
+precise scelte educati che tengono conto delle opportunità formative del territorio.
+Verranno realizzati progetti a costo zero in tutti gli ordini di scuola, progetti finanziati dalla R.A.S. e
+con fondi del PNRR.
+Come prescritto dall’Atto di Indirizzo redatto dal Dirigente Scolastico, le attività progettuali
+extrascolastiche dovranno rispettare i seguenti criteri in ordine di priorità:
+1. essere coerenti alle priorità del RAV e ai traguardi e agli obiettivi del PDM
+2. chiarezza di obiettivi e risultati valutabili
+3. maggiore trasversalità
+4. maggior numero di classi e numero di alunni coinvolti (BES inclusi)
+5. equa distribuzione delle risorse per classe e sedi
+6. coinvolgimento famiglie/enti locali/ associazioni.
+Tutte le proposte di progetti saranno vagliate dal Dirigente Scolastico che ne valuterà
+l’ammissibilità prima di proporli all’approvazione del Collegio dei Docenti.
+50
 
 ---
 
 ## Pagina 51
 
-63
--
-verificare la puntuale trasmissione dei dati in risposta alle richieste delle istituzioni;
--
-indire elezioni per la nomina dei componenti degli organi collegiali;
--
-convocare collegi, consigli di classe e consigli d’istituto e curare l’esecuzione delle
-deliberazioni prese dai predetti organi collegiali;
--
-organizzare e presiedere scrutini ed esami;
--
-verificare la regolare tenuta dei registri dei verbali;
--
-verificare il pieno rispetto del Piano Triennale dell’Offerta Formativa (P.T.O.F.) ;
--
-verificare che vengano rispettate le norme in materia di sicurezza, igiene, edilizia,
-salute;
--
-emettere circolari;
--
-procedere alla formazione delle classi e alla formulazione dell’orario;
--
-stabilire il calendario scolastico;
--
-verificare il possesso degli adeguati titoli di studio del personale docente;
--
-verificare il rispetto da parte dei docenti della programmazione dell’attività
-didattica;
--
-verificare la regolare tenuta dei registri docenti personali e di classe;
--
-organizzare gli incontri delle famiglie con i docenti;
--
-tenere sotto controllo l’andamento didattico e comportamentale degli studenti;
--
-informare le famiglie di eventuali carenze nel profitto o di un numero eccessivo di
-assenze che possano inficiare il buon esito dell’anno scolastico;
--
-decidere in merito alle attività extra curriculari degli studenti, quali visite
-didattiche, gite d’istruzione, conferenze;
--
-decidere in merito all’attuazione del PCTO;
--
-verificare che vengano rispettate le normative riguardanti gli studenti affetti da
+Vengono ammessi i seguenti progetti per l’anno scolastico 2025/2026:
 
-## D.S.A. , B.E.S., H.C.;
+## Scuola Dell’Infanzia
 
--
-verificare i titoli di ammissione agli esami dei candidati esterni;
--
-gestire i primi contatti con le famiglie per le richieste di nuove iscrizioni;
--
-organizzare le supplenze.
 
-## Compiti Dei Docenti
+## Nome Del
 
-I Docenti devono:
--
-curare il proprio aggiornamento culturale e professionale, anche nel quadro
-delle iniziative promosse dai competenti organi.
--
-depositare in segreteria i titoli di studio e tutti gli altri documenti richiesti.
--
-compilare con cura i registri personali e di classe;
--
-rispettare la programmazione di inizio anno scolastico dell’attività didattica;
--
-provvedere alla valutazione degli studenti attraverso un congruo numero di
-prove;
--
-rispettare le circolari emesse dalla presidenza;
--
-rispettare il regolamento docenti;
+
+## Progetto
+
+
+## Plesso
+
+
+## Destinatari
+
+
+## Referenti
+
+numero docenti
+partecipanti
+English is Fun!
+Esploriamo l'inglese
+giocando
+
+## 3 Plessi:
+
+"Via
+Brianza" La
+Rotonda"
+"Maurilio
+Cauli"
+"Via Brianza" 2 sez.di 24
+alunni; "La Rotonda" 3 sez.
+di 63 alunni; "Maurilio
+Cauli" 3 sez. di 50
+alunni.Totale alunni = 137
+Anna Maria
+Pireddu
+"Piccoli scienziati
+dell'Energia Pulita"
+VIA
+
+## Brianza
+
+2 sezioni del plesso di "Via
+Brianza" totale alunni = 24
+Anna Maria
+Pireddu
+R. Abis, A. Meloni,
+A.M. Pireddu, F.
+Pisano, M.Siddi
+Fiabe in scena
+Via Serbariu
+Ada Negri
+Via Brianza
+Via Serbariu sez.A 25 alunni;
+Ada Negri sez: A alunni; Via
+Brianza sez.A e B 24 alunni
+Sechi M.
+Annunziata
+“Progetto Yoga
+Libera tutti!”.
+La Rotonda bambini di 5 anni
+Adriano Murtas
+51
 
 ---
 
 ## Pagina 52
 
-63
--
-presenziare ai collegi, ai consigli di classe, agli scrutini ed agli esami;
--
-partecipare alle riunioni con le famiglie e ai colloqui individuali;
--
-far rispettare agli studenti il loro regolamento, che sono tenuti a conoscere.
 
-## Compiti Dei Genitori E Degli Studenti
+## Scuola Primaria
 
-I Genitori e gli Studenti sono i sottoscrittori del piano formativo tra scuola e studenti, di
-cui il Piano dell’Offerta Formativa è l’oggetto contrattuale; è loro dovere partecipare in
-modo consapevole e responsabile alla vita della scuola.
 
-## Compiti Del Personale Di Segreteria
+## Nome Del
 
-Il responsabile della segreteria didattica deve:
--
-curare la buona tenuta e la completezza dell’archivio dei documenti dei docenti
-in servizio;
--
-curare la corretta compilazione dei registri degli stati di servizio dei docenti;
--
-curare la buona tenuta e la completezza dell’archivio dei documenti degli
-studenti iscritti;
--
-compilare i diplomi e curarne la giacenza;
--
-compilare i registri di carico e scarico diplomi;
--
-gestire il software gestione alunni;
--
-comunicare giornalmente alle famiglie, nelle forme stabilite, le assenze degli
-studenti;
--
-gestire, su delega della dirigenza, i permessi di entrata e di uscita degli
-studenti;
--
-evadere e protocollare la corrispondenza e curare la corretta compilazione del
-registro protocollo;
--
-rispondere alle chiamate telefoniche ed evadere le richieste telefoniche di
-carattere didattico degli utenti nei tempi previsti dal P.O.F;
--
-leggere e smistare le e-mail in entrata;
--
-provvedere alla compilazione dei certificati vari, su richiesta della dirigenza o
-dell’utenza;
--
-rispondere, per quanto è di propria competenza, alle richieste della dirigenza o
-dei docenti;
-Il responsabile della segreteria amministrativa deve:
--
-riscuotere le rette scolastiche.
--
-gestire il carico e scarico del materiale di laboratorio e di cancelleria.
--
-evadere le richieste telefoniche di carattere amministrativo degli utenti nei
-tempi previsti dal P.T.O.F.
+
+## Progetto
+
+
+## Plesso
+
+
+## Destinatari
+
+
+## Referenti
+
+numero docenti
+partecipanti
+
+## Ed. Stradale
+
+VIA
+
+## Redipuglia
+
+Classi 4^A (10 alunni),
+5^A (15 alunni)
+
+## Leoni
+
+
+## Simonetta
+
+
+## Docenti
+
+INTERNI:Leoni S.,
+Cabras L., Podda R.,
+Massidda S., Nonnis I.,
+Pisano G., DOCENTI
+ESTERNI: Piras
+Alessandro, Moro
+Maximilian, altro
+agente di polizia
+Christmas around
+the world
+VIA
+
+## Redipuglia
+
+Classi 1^A; 2^A; 3^A;
+
+## 4^A; 5^A
+
+Maria Cristina
+Girau
+Maria Cristina Girau,
+Simonetta Leoni, Grazia
+Casu, Maria Eleonora
+Arrais
+I colori della vita
+VIA
+
+## Meilogu
+
+Classe 3^AM
+Loredana Murgia
+A. Melis, P. Pagni, L.
+Murgia
+Cucina e memoria:
+impariamo dalle
+fonti... e dalle mani
+dei nonni
+VIA
+
+## Meilogu
+
+classe 2^AM
+Martina Lantieri
+S. Di Fina, M.
+Massidda, M. Lantieri,
+B. Mascia
+Una biblioteca per il
+futuro
+VIA
+
+## Meilogu
+
+tutte le classi
+Patrizia Pagni,
+M. Paola Branca
+Pagni, Branca
+
+## Musicoterapia
+
+VIA
+
+## Meilogu/
+
+
+## Sergio
+
+
+## Atzeni
+
+classe 2A (16 alunni),
+classe 3^A (17alunni);
+classe 3^B (17 alunni);
+classe 5^A (17 alunni);
+classe 5^B (17 alunni)
+classe 3^AM (13 alunni)
+Maria Gloria
+Stracuzzi
+16
+
+## Lab. Di Poesia
+
+
+## Visiva
+
+
+## Sergio
+
+
+## Atzeni
+
+Classe 3^A (17 alunni);
+classe 3^AM (13 alunni)
+Concas F.
+Stracuzzi M.G., Concas
+F., Pagni P., Melis A.
+
+## Beni Cun Megus
+
+
+## Sergio
+
+
+## Atzeni/Red
+
+
+## Ipuglia
+
+Classe 3^A "S. Atzeni";
+classe 5^A "Re di Puglia"
+Concas F.
+Stracuzzi M.G., Leoni
+S., Concas F.
+52
 
 ---
 
 ## Pagina 53
 
-63
 
-## Organi Collegiali
+## A Scuola Con I
 
-Disposizioni generali sul funzionamento degli OO.CC.
--
-La convocazione degli Organi Collegiali deve essere disposta con un congruo
-preavviso, di massima non inferiore a cinque giorni, rispetto alla data delle
-riunioni.
--
-Di ogni seduta dell'organo collegiale viene redatto processo verbale, firmato
-dal coordinatore didattico e dal segretario.
-Consiglio di classe
-È composto dai docenti della classe e dal coordinatore didattico che lo presiede ed ha il
-compito di:
-- agevolare ed estendere i rapporti reciproci tra docenti, genitori ed alunni;
-- favorire e verificare l’attuazione del Progetto Educativo a livello di classe;
-- verificare il regolare svolgimento della programmazione attuata dai singoli
-docenti;
-- coordinare le iniziative didattico - educative della classe e di proporne
-l’attuazione;
-- esprimere un parere sulle adozioni dei libri di testo;
-- approvare iniziative didattico - culturali integrative o i viaggi di istruzione;
-- procedere all’analisi del dialogo educativo e del clima interno alla classe e di
-ricercare soluzioni adeguate ad eventuali problemi emersi in tal senso;
-- coordinare la programmazione didattica dei singoli docenti e le iniziative di
-carattere culturale proposte per la classe con riferimento alle delibere del
-collegio dei docenti e alle decisioni prese nelle Aree didattiche;
-- verificare periodicamente l’efficacia della sua azione didattico - educativa e
-cercare eventuali mezzi atti a migliorarla;
-- procedere alle valutazioni intermedie e finali;
-- fare interventi di carattere disciplinare previsti nel Regolamento di Istituto;
-- attuare, nel suo ambito, le delibere del collegio dei docenti;
-- valutare la validità didattico - educativa di iniziative extracurriculari riguardanti
-gli allievi ai fini dell’attribuzione del credito formativo.
-Il consiglio di classe è convocato dal coordinatore didattico di propria iniziativa o su
-richiesta scritta e motivata dalla maggioranza dei suoi membri o dal rappresentante
-legale . Il consiglio si riunisce, di regola, almeno una volta a trimestre aperto alla
-partecipazione dei genitori e degli studenti. Si riunisce inoltre ad ogni conclusione di
-trimestre per esprimere collegialmente le valutazioni definitive di capacità e di merito;
-la riunione è valida solo in presenza della totalità dei membri.
+
+## Super Eroi
+
+
+## Sergio
+
+
+## Atzeni
+
+Classi 1^A; 2^A; 3^A;
+
+## 4^A; 5^A; 3^B; 4^B; 5^B
+
+Maria Chiara
+Manca
+Docenti di classe +
+docenti esterni: Marco
+Frau, Corrado
+Sorrentino, Gabriele
+Catta, Viktoryia Pistis
+Shablova
+
+## Coding E
+
+
+## Robotica
+
+
+## Sergio
+
+
+## Atzeni
+
+Classi 1^A; 2^A; 5^A;
+
+## 3^B; 4^B; 5^B
+
+Maria Chiara
+Manca
+
+## Dama A Scuola
+
+
+## Sergio
+
+
+## Atzeni
+
+classe 3^A (17 alunni);
+classe 3^B (17 alunni)
+Maria Gloria
+Stracuzzi
+6
+
+## Fair Play
+
+
+## Sergio
+
+
+## Atzeni
+
+Classi 1^A; 2^A; 3^A;
+
+## 4^A; 5^A; 3^B; 4^B; 5^B
+
+Maria Chiara
+Manca
+Docenti di classe +
+docente esterno: Marco
+Frau
+
+## Orto Giardino
+
+
+## Didattico
+
+
+## Sergio
+
+
+## Atzeni
+
+Classi 1^A; 3^A; 5^A;
+
+## 3^B; 4^B; 5^B
+
+Usai Alberta,
+Cocco Chiara
+Docenti della classe
+
+## Scacchi A
+
+
+## Scuola
+
+
+## Sergio
+
+
+## Atzeni
+
+5^B (17 alunni)
+Chiara Cocco Docenti di classe +
+docente esterno:
+Francesco Loi
+
+## Progetto
+
+
+## Scuola
+
+
+## Ferrovia
+
+VIA
+
+## Redipugli
+
+
+## A, Sergio
+
+
+## Atzeni
+
+Via Redipuglia: 3^A
+(11 alunni), 4^A (10
+alunni), 5^A (15 alunni);
+S. Atzeni: 3^A (17
+alunni) classe 3AM (13
+alunni)
+Rita Sutera
+Docenti di classe +
+docente esterno:
+Marino Piu,+ intervento
+di 2 Sovrintendenti
+della Polizia Ferroviaria
+
+## Incontri Per
+
+
+## L'Orientamento
+
+
+## Musicale
+
+
+## Plessi
+
+
+## Redipugli
+
+
+## A - Via
+
+
+## Meilogu -
+
+
+## S. Atzeni
+
+a tutte le classi quinte
+della scuola primaria
+Luisa Milazzo
+S. Celi, M. G.
+Luciani, L. Milazzo,
+E. Usai
+53
 
 ---
 
 ## Pagina 54
 
-63
-Per la validità delle altre riunioni è richiesta la presenza di almeno la metà più uno dei
-membri. Per l’approvazione delle proposte in votazione è richiesta la maggioranza
-semplice dei voti validamente espressi.
-Le riunioni si tengono in ore non coincidenti con l’orario delle lezioni.
-La funzione di segretario del consiglio di classe è attribuita dal coordinatore didattico ad
-uno dei membri del consiglio stesso.
-I verbali delle riunioni conterranno:
-- ordine del giorno,
-- validità della convocazione e della riunione.
-- cenno delle discussioni e degli interventi,
-- esito delle votazioni,
-- deliberazioni adottate e proposte avanzate al collegio dei docenti o agli
-organi competenti.
-Collegio dei docenti
-È composto dal personale docente in servizio nell'istituto ed è presieduto dal
-coordinatore didattico: in caso di sua impossibilità da un docente delegato.
-Il collegio dei docenti si riunisce periodicamente secondo un calendario fissato dal
-coordinatore didattico ad inizio anno ed ogniqualvolta il coordinatore didattico ne
-ravvisi la necessità, oppure quando almeno un terzo dei suoi componenti ne faccia
-richiesta. In questo caso la domanda di convocazione dovrà essere presentata per
-iscritto al coordinatore didattico con allegato l’ordine del giorno proposto. La riunione
-sarà tenuta entro dieci giorni scolastici dalla richiesta, in data fissata dal coordinatore
-didattico e comunicata ai docenti almeno cinque giorni prima.
-Per meglio realizzare i suoi compiti il collegio dei docenti distribuisce al suo interno
-incarichi distinti e può articolarsi in gruppi di lavoro distribuiti per aree disciplinari o
-per ambiti di insegnamento (biennio - triennio).
-Il collegio dei docenti:
-- ha potere, nei limiti posti dal D.M. 83/08, di suggerire modifiche al progetto di
-istituto. Esso esercita tale potere nel rispetto della libertà d’insegnamento
-garantita a ciascuno dei docenti;
-- formula proposte al coordinatore didattico per la formazione dell’orario delle
-lezioni e per lo svolgimento delle altre attività scolastiche;
-- valuta periodicamente l’andamento complessivo dell’azione didattica per
+
+## Scuola Secondaria E Ospedaliera
+
+
+## Nome Del
+
+
+## Progetto
+
+
+## Plesso
+
+
+## Destinatari
+
+
+## Referenti
+
+N° doc partecipanti
+Poesia Caviardage
+
+## Microcitemico
+
+Tutti i reparti
+Concas Fabiano (2) Melis D., Concas F.
+Artisticamente
+
+## Microcitemico
+
+Tutti i reparti
+Massa Diego
+(1) Massa D.
+Redazione in
+pigiama-Storie in
+corsia
+
+## Microcitemico
+
+Tutti i reparti
+Massa Diego
+(1) Massa D.
+PrendiAMOci cura
+
+## Brotzu
+
+Tutti i reparti+2^A
+Simaxis
+Cadeddu
+Marianna
+(2) Demontis C.,
+Cadeddu M.
+Il corpo che suona
+
+## Mameli
+
+classi 1^A - 2^C
+Zucca Alberto
+(2) Cherchi V., Zucca
+A.
+Luci e ombre
+
+## Alziator
+
+classe 2^H
+Angius Enrico
+(2) Asuni A.M.,
+Angius E.
+Music H-demi
+
+## Alziator
+
+classe 1^H
+Boy Stefania
+(2) Cherchi V., Boy S.
+Coralità sarda
+
+## Alziator
+
+classi 2^H - 2^G
+Cherchi Valentina
+(2) Devinu Franca,
+Cherchi V.
+Futura (PNRR)
+Viene costituito un gruppo di lavoro per l’attuazione dell’investimento 3.2 “Scuola 4.0: Scuole
+innovative, cablaggio, nuovi ambienti di apprendimento e laboratori” Azione 1 – Next generation
+Classrooms .
+La Missione 4 del PNRR prevede tra gli assi portanti: il miglioramento qualitativo e l’ampliamento
+quantitativo dei servizi di istruzione e formazione, l’ampliamento delle competenze, il sostegno ai
+processi di innovazione e trasferimento tecnologico,  il potenziamento delle condizioni di supporto
+alla ricerca e all’innovazione.
+Tutto ciò richiede quindi l’implementazione delle competenze proprie delle Istituzioni scolastiche
+che siano quindi in grado di mettersi in relazione e dialogare con le agenzie territoriali, ed i soggetti
+pubblici e privati.
+54
 
 ---
 
 ## Pagina 55
 
-63
-verificarne l’efficacia in rapporto agli orientamenti e agli obiettivi programmati,
-proponendo, ove necessario, opportune misure per il miglioramento della
-attività scolastica;
-- provvede all’adozione dei libri di testo, sentiti i consigli di classe ed alla scelta
-dei sussidi didattici;
-- promuove e
-adotta, nell’ambito delle proprie competenze,
-iniziative di sperimen
-- elabora progetti tesi a potenziare il successo finale degli allievi, l’eccellenza o
-l’ampliamento dell’offerta formativa;
-- elabora il Piano Triennale dell’Offerta Formativa;
-- delibera sulle forme di sostegno e di recupero degli allievi in difficoltà;
-- propone alla Rete modifiche metodologiche al Progetto della Scuola
-dell’Autonomia;
-- fissa i criteri di valutazione relativi alle verifiche di apprendimento delle Unità
-Didattiche e dei moduli, capacità e merito, a cui si dovranno attenere i consigli di
-classe, così come l'attenzione rivolta al numero delle assenze;
-- promuove iniziative di aggiornamento e formazione per i propri membri;
-- coordina e promuove le iniziative di orientamento ed accoglienza;
-- definisce le forme e i modi dell’autovalutazione del servizio;
-- svolge tutti gli altri compiti previsti dalla normativa vigente e in particolare
-dalla legge sull’autonomia (D.P.R. 275/99 e legge 59/97).
-Le funzioni di segretario del collegio dei docenti sono attribuite dal coordinatore
-didattico ad uno dei membri del collegio stesso.
-Le riunioni hanno luogo in ore non coincidenti con l’orario delle lezioni.
-Per la validità delle riunioni è richiesta la presenza di almeno la metà più uno dei
-membri. Eventuali votazioni hanno luogo per dichiarazione personale. Per
-l’approvazione delle proposte in votazione è richiesta la maggioranza semplice dei voti
-validamente espressi; a parità di voti prevale il voto di colui che presiede.
-I verbali delle riunioni conterranno:
-- ordine del giorno,
-- validità della convocazione e della riunione,
-- argomenti trattati,
-- cenni relativi agli interventi dei componenti,
-- esito delle votazioni,
+A tal proposito il Gruppo di lavoro, in riferimento alle linee indicate nella Missione 4, Componente
+1, dovrà partire da alcuni degli strumenti esistenti, quali:
+▪​
+il PTOF, il RAV e il Piano di Miglioramento, considerati nella loro struttura ricorsiva che apre le
+porte della scuola al territorio e la accompagna in una logica di follow-up;
+▪​
+il Piano Triennale della Formazione, in quanto esso rappresenta una progettualità pluriennale di
+qualità cui corrisponde un investimento in capitale umano adeguato alle sempre più fluide
+necessità degli studenti;
+▪​
+il Piano per l’inclusione predisposto dal GLI d'Istituto che definisce le modalità per l'utilizzo
+coordinato delle risorse, compresi il superamento delle barriere e l'individuazione dei facilitatori
+esistenti nel contesto di riferimento, nonché per progettare e programmare gli interventi di
+miglioramento della qualità dell'inclusione scolastica.
+Il Gruppo di lavoro definirà in autonomia un calendario di incontri e le modalità di organizzazione
+degli stessi. Per ogni seduta il Gruppo di lavoro redigerà apposito verbale da conservare agli atti
+della scuola. Saranno, altresì, programmati, a cura del Dirigente Scolastico e del Gruppo di
+lavoro, interventi di restituzione agli OO.CC. competenti.
+
+## Quartieri Educanti
+
+Il progetto si propone di ridefinire il rapporto scuola-territorio nel quartiere. I rappresentanti di
+scuole, enti del Terzo Settore e amministrazione comunale si pongono  un obiettivo comune:
+definire proposte operative concrete per l'Azione Scuola nel Territorio.
+Al centro del dialogo: le esigenze specifiche dei quartieri e la volontà di costruire una rete educativa
+realmente integrata e partecipata, attraverso metodologie innovative:
+Mentoring strutturato con studenti delle superiori come testimoni attivi nelle medie.
+Nuovo centro a Sant'Elia: focus su attività estive per intercettare nuove iscrizioni ed evitare
+sovrapposizioni.
+Ricerca-azione partecipata come metodologia comune per tutte le azioni del progetto.
+Anticipazione dell'osservatorio dei bisogni, con integrazione nella formazione degli operatori.
+Le Sfide del Territorio
+Agibilità degli Spazi
+Palestre e teatri inagibili a Is Mirrionis e Mulinu Becciu limitano l'offerta educativa e l'attrattività
+delle scuole.
+Trasporti Inadeguati
+55
 
 ---
 
 ## Pagina 56
 
-63
-- deliberazioni adottate e proposte avanzate alla Gestione ed ai consigli di classe.
-Bilancio/Rendiconto
-Il bilancio/Rendiconto, redatto secondo le vigenti normative fiscali, è messo a
-disposizione delle diverse componenti della comunità scolastica. Chiunque ne abbia
-interesse potrà richiederne la visione alla direzione dell’Istituto ove lo stesso è
-depositato.
-Osservanza del Regolamento
-La mancata osservanza alle norme su indicate evidenzia una accertata indisponibilità a
-collaborare al processo formativo e un venir meno al patto educativo di
-corresponsabilità sottoscritto all'atto dell'iscrizione.
-Il permanere dell'atteggiamento negativo produce la sospensione dalle lezioni, con o
-senza l'obbligo della frequenza, per un certo periodo di tempo, quando vi è speranza che
-il provvedimento determini un ravvedimento; il servizio scolastico viene sospeso
-definitivamente quando gli atteggiamenti di indisponibilità al processo formativo si
-rivelano in palese contrasto con il progetto educativo cui il PTOF si riferisce.
+Mancanza di collegamenti pomeridiani e spopolamento dei quartieri aggravato dai servizi di
+trasporto.
+Servizio Mensa
+Assenza di mensa e catering per i rientri pomeridiani riduce drasticamente la partecipazione degli
+studenti.
+Carenza di Personale
+Problemi legati a pulizie e apertura/chiusura delle scuole necessitano personale esterno aggiuntivo.
+I Fattori Chiave per l'Attrattività
+Attività Culturali
+Teatro e compagnie di quartiere per valorizzare gli spazi scolastici disponibili.
+Proposte Sportive
+Palestre e attività motorie come strumento di coinvolgimento e benessere.
+Programmi Estivi
+Doposcuola e attività estive per mantenere il legame con le famiglie tutto l'anno.
+L'Educazione degli Adulti: Una Leva Primaria ↠Un Effetto Moltiplicatore:
+L'educazione degli adulti emerge come priorità trasversale: dal supporto educativo delle Figlie di
+Maria Ausiliatrice al ruolo centrale del CPA.
+• Educazione finanziaria e permanente
+• Educazione domestica e cucito riparativo
+• Supporto psicologico e pedagogico alle famiglie
+Migliorare il contesto familiare significa migliorare i risultati educativi dei figli.
+Un Ricco Ventaglio di Proposte
+Orientamento e Mentoring
+Percorsi di orientamento scolastico e mentoring interno per contrastare la dispersione.
+56
 
 ---
 
 ## Pagina 57
 
-63
-Servizio di Sostegno Educativo, Inclusione e Organizzazione degli
-Interventi
-Finalità del servizio di sostegno e inclusione
-- L’Istituto Professionale Paritario CF GAUSS promuove una scuola inclusiva,
-orientata alla valorizzazione delle diversità e al successo formativo di tutti gli
-studenti, in coerenza con i principi sanciti dalla normativa nazionale in materia di
-inclusione scolastica.
-- Il servizio di sostegno educativo e didattico è parte integrante del Piano
-Triennale dell’Offerta Formativa ed è finalizzato a:
-- favorire la piena partecipazione degli studenti al percorso scolastico;
-- sostenere gli alunni con Bisogni Educativi Speciali (BES), Disturbi Specifici
-dell’Apprendimento (DSA) e situazioni di fragilità temporanea o permanente;
-- prevenire la dispersione scolastica e l’insuccesso formativo;
-- promuovere il benessere scolastico, relazionale ed emotivo.
-Riferimenti normativi
-- L’organizzazione del servizio di sostegno si fonda sui seguenti riferimenti
-normativi:
-- D.Lgs. 297/1994, art. 396 – Funzioni organizzative e gestionali della direzione
-scolastica;
-- D.P.R. 275/1999 – Autonomia delle istituzioni scolastiche;
-- Legge 170/2010 – Tutela degli studenti con DSA;
-- Direttiva MIUR 27 dicembre 2012 e C.M. n. 8/2013 – Inclusione degli alunni
-con BES;
-- D.Lgs. 66/2017 e successive modifiche – Inclusione scolastica;
-- CCNL Scuola vigente – Organizzazione dell’orario di servizio del personale.
-Principi organizzativi del servizio
-L’Istituto organizza il servizio di sostegno secondo criteri di:
-
-funzionalità didattica;
-
-flessibilità organizzativa;
-
-continuità educativa;
-
-integrazione con la progettazione curricolare;
-
-centralità dello studente.
-La progettazione degli interventi avviene in raccordo con i Consigli di Classe e con il
-coordinamento didattico, al fine di garantire coerenza metodologica e uniformità degli
+Festival Scolastico
+Festival di quartiere e passeggiate culturali per rendere la scuola visibile e attrattiva.
+Educazione Civica
+Educazione alla cittadinanza, legalità e democrazia con linguaggi appropriati.
+Cura degli Spazi
+Banca delle abilità e cura degli spazi comuni per valorizzare il territorio.
+Coordinamento Interistituzionale
+Scuole
+Istituti attivi e disponibili a ospitare tavoli politici provinciali.
+Terzo Settore
+Enti con metodologie consolidate e esperienza sul territorio.
+Comune
+Analisi approfondita dei bisogni e rafforzamento dei raccordi.
+CTM e ARST
+Coinvolgimento necessario nel tavolo di tavolo di regia per risolvere i problemi di mobilità.
+La collaborazione tra istituzioni è essenziale per evitare sovrapposizioni e garantire interventi mirati
+ed efficaci.
+Principi Guida per il Progetto
+01 Confronto Preventivo
+Dialogo con scuole e famiglie per tarare gli interventi sui bisogni reali prima di progettare.
+02 Evitare Duplicazioni
+Prevenire sovrapposizioni tra progetti rivolti sempre agli stessi utenti e sovraccarichi.
+03 Budget per Esperti
+Prevedere risorse dedicate per professionisti professionisti esterni in teatro, musica e sport.
+57
 
 ---
 
 ## Pagina 58
 
-63
-obiettivi educativi.
-Articolazione dell’orario del servizio di sostegno
-L’articolazione dell’orario di servizio del personale addetto al sostegno è definita
-dalla Direzione dell’Istituto nell’ambito delle proprie prerogative organizzative,
-in applicazione dell’autonomia scolastica e nel rispetto del monte ore
-contrattuale.
-La distribuzione settimanale delle ore tiene conto in particolare di:
- numero e tipologia degli studenti destinatari degli interventi;
- classi coinvolte;
- discipline interessate;
- orario curricolare delle attività didattiche;
- necessità di garantire continuità e regolarità degli interventi.
-L’Istituto adotta un modello organizzativo non rigidamente vincolato alla
-concentrazione delle attività su specifiche giornate, ma orientato a una
-distribuzione funzionale ed equilibrata, finalizzata a massimizzare l’efficacia
-educativa e la copertura dei bisogni formativi.
-Eventuali rimodulazioni dell’orario possono essere adottate nel corso dell’anno
-scolastico per motivate esigenze organizzative, didattiche o educative, nel
-rispetto delle disposizioni contrattuali e della programmazione del PTOF.
-Integrazione con BES, DSA e personalizzazione dei percorsi
-Il servizio di sostegno si integra con le azioni previste per:
- studenti con certificazione DSA;
- studenti con Bisogni Educativi Speciali;
- situazioni di svantaggio socio-culturale;
- difficoltà di apprendimento temporanee.
-Gli interventi sono progettati in coerenza con eventuali:
- PDP (Piani Didattici Personalizzati);
- misure dispensative e compensative;
- strategie metodologiche inclusive.
-L’obiettivo è garantire pari opportunità formative, favorendo l’acquisizione delle
-competenze di base e professionali previste dal percorso odontotecnico.
-Coordinamento didattico e lavoro di équipe
-Il personale addetto al sostegno opera in stretta collaborazione con:
+04 Visibilità Positiva
+Migliorare l'immagine delle scuole nel territorio, spesso conosciute solo per aspetti critici.
+05 Sinergie Operative
+Attivare collaborazioni concrete anche attraverso strumenti come PON Metro.
+Una Scuola Aperta al Quartiere
+La visione comune
+Costruire una scuola aperta, attrattiva e radicata nella comunità, che diventi un centro vivo del
+quartiere grazie ad attività laboratoriali, culturali e sportive.
+Una rete attiva e consapevole di scuole, enti e istituzioni pronta a collaborare per trasformare
+l'educazione nei quartieri di Cagliari.
+Il futuro è partecipato: attraverso la ricerca-azione, il coinvolgimento delle famiglie e il
+coordinamento tra tutti gli attori del territorio.
+
+## Pnsd
+
+Attività previste in relazione al Piano
+Ambito
+Interventi nel triennio
+
+## Formazione Interna
+
+Formazione continua specifica per Animatore Digitale e Team
+dell’Innovazione Digitale
+L’Animatore Digitale proporrà, insieme al team, momenti di
+formazione e di condivisione di buone pratiche su:
+1.​ uso degli strumenti tecnologici già presenti a scuola;
+2.​ uso di applicazioni utili per l’inclusione;
+3.​ uso
+di
+strumenti e ambienti di apprendimento
+(piattaforme, videoconferenza, classi virtuali;
+4.​ utilizzo di Google Drive per la condivisione di materiali
+e documentazione;
+5.​ segnalazione di eventi formativi in ambito digitale.
+
+## Coinvolgimento Della
+
+
+## Comunita’ Scolastica
+
+1-​ Coordinamento di un gruppo di lavoro Innovazione
+Digitale con figure di sistema e operatori tecnici
+2-​ Potenziamento e aggiornamento degli spazi web
+specifici di documentazione e diffusione delle azioni
+relative al PNSD sul sito dell’Istituto
+3-​ Coordinamento delle iniziative digitali per l’inclusione
+58
 
 ---
 
 ## Pagina 59
 
-63
- docenti curricolari;
- coordinatori di classe;
- direzione didattica;
- figure di sistema eventualmente coinvolte.
-Il coordinamento consente di:
-condividere obiettivi educativi;
-monitorare l’andamento degli studenti;
-adattare le strategie di intervento;
-garantire coerenza tra sostegno e didattica curricolare.
-Monitoraggio, valutazione e miglioramento continuo
-L’Istituto attua un monitoraggio periodico delle attività di sostegno al fine di:
-
-valutare l’efficacia degli interventi;
-
-verificare il raggiungimento degli obiettivi educativi;
-
-individuare eventuali criticità organizzative;
-
-migliorare la qualità del servizio.
-I risultati del monitoraggio vengono utilizzati come base per eventuali adeguamenti
-organizzativi e per l’aggiornamento del PTOF, in un’ottica di miglioramento continuo e
-responsabilità educativa.
+4-​ Guida all’uso del registro elettronico per genitori e
+nuovi docenti
+
+## Creazione Di Soluzioni
+
+
+## Innovative
+
+1-​ Realizzazione di nuovi ambienti di apprendimento
+2-​ Ricognizione della dotazione tecnologica di Istituto
+e
+sulla
+sua
+eventuale
+integrazione/revisione;
+eventuali nuovi acquisti
+3-​ Individuazione e richiesta di possibili finanziamenti
+per incrementare le attrezzature in dotazione alle
+scuole;
+4-​ Partecipazione a bandi nazionali, europei ed
+internazionali sulla base delle azioni nel PNSD.
+L’Istituto si avvale della collaborazione del Dott. Daniele Bono, pedagogista facente parte della
+Cooperativa “La Clessidra”, il quale ha elaborato dei progetti riguardanti una classe della Primaria
+di via Meilogu e una classe della Secondaria di Primo Grado “Ciusa”.
+Tali progetti hanno come attività veicolare la musica, con i seguenti obiettivi:
+-​
+Promuovere la collaborazione
+-​
+Sviluppare la creatività
+-​
+Gestione delle emozioni
+-​
+Sviluppare un senso di appartenenza
+-​
+Sviluppare abilità manuale
+-​
+Utilizzare la musica come strumento per insegnare comportamenti positivi
+59
 
 ---
 
 ## Pagina 60
 
-63
 
-## Compiti Del Personale Ausiliario
+## Documenti Allegati Al Ptof
 
-Il personale ausiliario deve:
--
-provvedere all’apertura e alla chiusura dei locali per le attività scolastiche e per
-le altre attività deliberate dagli organi collegiali;
--
-tenere sotto controllo il corridoio durante le ore di lezione; far osservare la
-dovuta disciplina agli studenti che per qualsiasi motivo vi si trattengano
-durante le ore di lezione o si rechino ai servizi; avvertire la dirigente nel caso di
-situazioni problematiche;
--
-collaborare con i docenti alla sorveglianza degli studenti durante gli intervalli;
--
-provvedere alla sorveglianza degli studenti nelle aule e nei laboratori in
-occasione di momentanee assenze degli insegnanti;
--
-provvedere all’accompagnamento degli studenti in occasione del loro
-trasferimento dalla scuola alla palestra e viceversa e all’accompagnamento
-nell’ambito delle strutture scolastiche di alunni con handicap;
--
-curare che venga osservato il divieto di fumo;
--
-curare la pulizia di tutti gli ambienti, seguendo il protocollo stabilito;
--
-provvedere all’ordinaria manutenzione delle apparecchiature di laboratorio,
-del materiale di arredo, degli impianti;
--
-provvedere
-all’accensione,
-all’alimentazione
-e
-allo
-spegnimento
-di
-apparecchiature semplici di riscaldamento e all’accensione e allo spegnimento
-di impianti centralizzati per i quali non sia richiesta apposita patente;
--
-provvedere all’approntamento di sussidi didattici per l’uso degli stessi da parte
-dei docenti
--
-rispondere alle richieste della dirigenza, del suo collaboratore, dei docenti, dei
-responsabili delle segreterie e del gestore riguardo a semplici mansioni.
-
----
-
-## Pagina 61
-
-63
-
-## Il Regolamento Di Disciplina Degli Studenti
-
-Art. 1 L’attività dell’Istituto non ha come unico scopo l’istruzione professionale, ma, in
-collaborazione con le Famiglie, si propone di svolgere un’azione educativa che
-miri alla formazione di giovani aperti al colloquio, alla lealtà, alla sincerità e libertà
-nel rispetto del rapporto sociale e dell’etica civile.
-Art. 2 All’interno dell’Istituto non è ammessa alcuna propaganda politica ed è preteso
-il rispetto delle convinzioni e credenze dei singoli individui quale fondamento dei
-principi democratici.
-Art. 3 Il rispetto verso se stessi e verso gli altri è principio fondamentale che deve
-diventare una corretta norma di vita.
-Art. 4 Il corretto comportamento degli allievi è affidato al loro autocontrollo ed alla
-vigilanza dei Docenti. È fatto obbligo agli studenti di:
- trovarsi nelle aule almeno cinque minuti prima dell’inizio delle lezioni;
- presentarsi a scuola con abbigliamento decoroso, consono alle esigenze di
-serietà che la scuola richiede;
- tenere in aula, nei corridoi, nell’atrio, sulle scale, nelle adiacenze dell’Istituto un
-contegno decoroso ed educato, astenendosi da manifestazioni e grida
-scomposte; Controllare in modo particolare il proprio comportamento durante
-gli intervalli, evitando schiamazzi e disordini e soprattutto tutelando l’integrità
-della struttura;
- rispettare le pertinenze della scuola, le suppellettili e la pulizia dei locali, indice
-di educazione e di rispetto verso se stessi e gli altri;
- non fumare nelle pertinenze interne ed anche esterne della scuola, ai sensi del
-DL 104/2013 art. 4 comma 1;
- non consumare bevande o merendine in aula durante le ore di lezione.
-
-Art. 5 All’inizio di ogni anno scolastico le famiglie notificano alla scuola la residenza,
-eventuale altro recapito postale, i recapiti telefonici, l’indirizzo e-mail, nonché il
-numero di cellulare sul quale desiderano ricevere gli s.m.s. della scuola. Il Genitore
-responsabile delle relazioni scuola – famiglia deve depositare in presidenza la
-propria firma, che farà fede in tutte le comunicazioni con la scuola; ciò anche per
-gli studenti maggiorenni non emancipati dalla famiglia. Ogni variazione nei dati
-comunicati deve essere tempestivamente notificata.
-Art. 6 La Scuola tiene le sue le lezioni a prescindere dal numero degli studenti
-presenti: salvo circostanze eccezionali, si fa lezione anche a un solo studente.
-Art. 7 A meno di problemi di salute improvvisi, le uscite anticipate sono ammesse solo
-
----
-
-## Pagina 62
-
-63
-a patto che il genitore chiami in Segreteria. Non verranno ammesse chiamate
-dell'alunno a casa per uscire senza validi motivi. Dietro validi ed accertati motivi, si
-accettano richieste di entrate posticipate ed uscite anticipate permanenti. Il
-Consiglio di Classe vigilerà comunque sull’obbligo di frequenza (max 264 ore di
-assenza) previsto per legge. Ove fosse infranto, si riserva di rivalutare le eventuali
-motivazioni della richiesta e, nel caso lo ritenga opportuno, procede o a negare la
-promozione, o motivare l’eccezione alla norma vigente.
-Art. 8 Lo studente è tenuto a partecipare alla lezione che il docente decide di
-impartire. Qualsiasi rifiuto o resistenza da parte dello studente nello svolgere
-l'attività didattica stabilita dal docente verrà considerato un comportamento
-passibile di abbassamento del voto, scolastico e di condotta.
-Art. 9 Spetta alla dirigenza, a norma del Regolamento dello Statuto, accogliere o meno
-i motivi addotti per l’assenza o il ritardo e quindi assumersi la responsabilità della
-giustificazione. Le assenze ed i ritardi non sufficientemente motivati, anche
-quando non siano puniti con particolari provvedimenti, avranno effetto sulla
-valutazione della condotta da parte del Consiglio di Classe perché indice di scarso
-interesse per la scuola. Si ricorda che la normativa ministeriale prevede che le ore
-di assenza non possono superare il 25% delle ore totali di lezione, pena la non
-ammissione alla classe successiva.
-Art. 9.BIS Ritardi all’ingresso
-
-## Orario Di Ingresso
-
-Tutti gli studenti devono essere presenti entro le ore 8:00.
-
-## Ritardi Fino A 5 Minuti (8:00 – 8:05)
-
-- Ammesso in classe
-- Annotazione sul registro elettronico
-- Giustificazione obbligatoria il giorno stesso o entro il giorno successivo
-RITARDI SUPERIORI A 5 MINUTI (oltre le 8:05)
-- Ammesso solo con autorizzazione del Coordinatore o Docente incaricato
-- Considerato assenza parziale
-- Giustificazione come assenza
-
-## Ritardi Frequenti O Prolungati
-
-- Richiamo scritto
-- Convocazione della famiglia
-- Osservazione educativa
-
-## Ingresso Posticipato Oltre Le 9:00
-
-- Non ammesso, salvo motivazioni documentate
-
-## Validità Dell’Anno Scolastico
-
-- I ritardi superiori ai 15 minuti sono conteggiati nel monte ore di assenza
-- In base al D.P.R. 122/2009, art. 14, comma 7, è obbligatorio frequentare
-almeno i ¾ dell’orario annuale personalizzato
-
----
-
-## Pagina 63
-
-63
-Art. 10 Nel rispetto dei diritti concessi alla maggiore età, la nostra scuola contempera
-tale esigenza con il dovere, che pure ricade sulla scuola stessa, di protezione e
-vigilanza. Pertanto verranno sempre avvisate le famiglie anche degli studenti
-maggiorenni e, in accordo con queste, il permesso di uscita o di entrata anticipata
-potrà essere revocato anche agli studenti maggiorenni.
-Art. 11 È proibito uscire dall’aula durante le lezioni senza il permesso del Docente,
-permesso che sarà concesso a non più di uno studente per volta.
-Lo studente che abbandona la scuola senza preventiva autorizzazione del
-Coordinatore didattico o di un suo delegato, sottraendosi alla vigilanza del
-personale, provoca una immediata interruzione del servizio scolastico. Nessuna
-responsabilità per fatti derivanti da tale comportamento può in proposito essere
-imputata al gestore. Per un eventuale ripristino del servizio la famiglia dovrà
-riformulare una nuova domanda di iscrizione.
-Art. 12 È vietato l’uso di cellulari all’interno delle aule, in particolare con lo scopo di
-scattare fotografie o eseguire riprese. Qualunque trasgressione sarà severamente
-punita. I cellulari autonomamente riposti in segreteria verranno conservati in
-apposite scatole a disposizione della classe. Chiunque verrà trovato in possesso di
-un cellulare subirà un primo richiamo a riporre il cellulare. Se persiste gli si
-intimerà la consegna e la deposizione nella scatola apposita, se ancora si oppone
-verrà apposta una nota di condotta e dal Consiglio di Classe verrà valutata
-l’apposizione di un 6 in condotta.
-Art. 13 A scuola si viene con il materiale adeguato per sostenere la lezione :
- penne e quaderni, uno per ciascuna materia,
- kit odontotecnico,
- kit da disegno per le verifiche sono materiale che il docente può richiedere in
-via indispensabile per le sue attività.
-Chi non porta il materiale nel giorno prefissato dal docente subirà conseguenze sul
-voto scolastico.
-Art. 14 L'alunno è tenuto a partecipare alla lezione che il docente decide di impartire.
-Qualsiasi rifiuto o resistenza da parte dello studente nello svolgere l'attività
-didattica stabilita dal docente verrà considerato un comportamento passibile di
-abbassamento del voto, scolastico e di condotta. Il comportamento verrà
-comunque sanzionato con nota di condotta.
-Art. 15 L'assenza massiva il giorno di una verifica in classe verrà considerata, a meno
-di casi evidenti ed eccezionali, un'azione coordinata di rifiuto dell'attività didattica;
-pertanto sarà nella discrezione del docente sanzionarla con un voto negativo nella
-materia oggetto della verifica e nota di condotta che ne spieghi l’apposizione. Tale
-voto negativo, in quanto non attribuibile ad un rendimento scolastico, verrà
-
----
-
-## Pagina 64
-
-63
-comunque ritenuto provvisorio. Il Consiglio di Classe si riserverà il diritto di
-annullare il voto negativo apposto in via provvisoria dal docente, in caso valutasse
-eccezionale la circostanza.
-Art. 16 L’allievo è tenuto, durante le lezioni di Laboratorio Odontotecnico, ad
-indossare il camice e ad osservare le norme antinfortunistiche che il Docente della
-materia deve far conoscere e rispettare, dette regole sono presenti anche
-all’ingresso affisse alla porta del laboratorio.
-Art. 17 L’allievo, al termine della lezione di Laboratorio Odontotecnico, è tenuto alla
-pulizia del proprio posto di lavoro e dei cassetti annessi. È altresì tenuto a
-cooperare, secondo turni prestabiliti o secondo disposizioni del docente, alla
-pulizia del laboratorio e delle macchine che sono state adoperate dalla classe o da
-parte di essa. Analogamente, al termine delle altre lezioni deve accertarsi di
-lasciare il proprio banco pulito.
-Art. 18 Gli allievi non devono lasciare incustodito alcun oggetto di valore, perché
-l’Istituto non ne risponde; parimenti non risponde di libri, attrezzi di laboratorio o
-altri oggetti dimenticati in classe.
-Art. 19 I danni causati ai beni della scuola ed i furti saranno risarciti dal responsabile.
-Art. 20 Durante le visite didattiche e le gite d’istruzione gli studenti sono tenuti al
-rispetto delle stesse regole imposte durante le normali ore di lezione. I Docenti
-accompagnatori, d’accordo con il Consiglio di Classe, sono liberi di decidere quali
-studenti ammettere alle visite e alle gite, tenuto conto del loro comportamento
-abituale e delle eventuali sanzioni già comminate.
-Art. 21 E’ vietata la consegna di cibo dall’esterno da terzi.
-Art. 22 Per quanto non previsto dal presente Regolamento, si rimanda alle norme
-relative all’Istruzione Secondaria delle Scuole Statali e Paritarie.
-Art. 23 L’accumulo di 3 note di demerito individuali consentirà una discussione
-apposita in un Consiglio di Classe, eventualmente anche Straordinario, per
-decidere un’eventuale sospensione dello studente. Non sono considerate nel
-conteggio le note di condotta che coinvolgono tutta la classe.
-
----
-
-## Pagina 65
-
-63
-
-## La Progettazione Per Il Triennio 2025/2027
-
-Gli obiettivi che il nostro Istituto si propone di realizzare nel prossimo triennio
-sono stati così determinati dalla Gestione, dalla Coordinatrice Didattica, dal
-Collegio Docenti e dal Consiglio d’Istituto:
-1. Incremento delle partnership con le principali aziende di settore, per
-l’organizzazione di lezioni di approfondimento e di aggiornamento e per la
-messa a disposizione delle loro aziende per visite guidate, rafforzamento
-della collaborazione allo scopo di accogliere i nostri allievi in PCTO, tirocini,
-apprendistato ed eventuale inserimento lavorativo di coloro che hanno
-ottenuto il diploma, lezioni presso l’istituto tenute da professionisti esperti
-del settore.
-2. Predisposizione di un laboratorio odontotecnico d’avanguardia, nel
-quale gli studenti avranno a disposizione le tecnologie più avanzate,
-compresa workstation EXOCAD, scanner, stampante 3d e Fresatrice a 4 assi.
-In tale laboratorio anche i nostri studenti già diplomati potranno seguire
-corsi di aggiornamento e di specializzazione.
-3. Sviluppo di una rete di scuole per odontotecnici, statali e paritarie, con
-l’obiettivo di unire le forze per innalzare sempre più la qualità
-dell’insegnamento.
-4. Formazione dei Docenti in merito all’utilizzo di materiale didattico di tipo
-informatico. Es. Corso Mappe Mentali da trasferire agli studenti.
-5. Incoraggiare la frequenza dei laboratori per l’attività di PCTO anche
-durante le vacanze estive.
-6. Organizzare attività in orario extra curricolare per incoraggiare lo studio
-di gruppo, avendo come ultimo fine una diminuzione drastica dei giudizi
-sospesi.
-7. Incrementare i contatti con i tutor aziendali del PCTO, organizzando
-incontri tra scuola, tutor e famiglie per valutare insieme i provvedimenti da
-adottare per il più completo raggiungimento degli obiettivi.
-8. Creare un “Elenco” dei nostri diplomati titolari di laboratorio per
-favorire un loro eventuale rapporto collaborativo e il loro aggiornamento
-continuo.
-9. Uscire dalla sperimentazione del progetto “Laboratorio di Simulazione
-Professionale Odontotecnica” per renderlo progetto organico dell’istituto.
-
----
-
-## Pagina 66
-
-63
-Il progetto “Laboratorio di Simulazione Professionale Odontotecnica”, proposto dal
-professionista A.A. Gamberini, ha avuto origine nell’a.s. 2024/2025 in forma sperimentale. È
-pensato per arricchire l’offerta formativa delle classi quarta e quinta dell’indirizzo odontotecnico,
-affiancando l’insegnamento tradizionale con moduli teorico-pratici in laboratorio.
-Obiettivi principali:
-
-Far vivere agli studenti un ambiente professionale reale, grazie all’uso di tecnologie come
-CAD, scanner da banco, stampanti 3D.
-
-Rafforzare le competenze pratiche e digitali necessarie per l’Esame di Stato e l’inserimento
-nel mondo del lavoro.
-
-Promuovere autonomia operativa, problem solving e lavoro di squadra.
-Struttura delle attività:
-1. Introduzione ai materiali e al ciclo di lavorazione tradizionale e digitale
-2. Utilizzo di software CAD per progettazione di protesi e strutture
-3. Scansione di modelli e gestione file STL per stampa 3D
-4. Esercitazioni con stampante 3D.
-5. Simulazioni guidate di casi clinici e prova d’esame finale
-6. Valutazioni intermedie e finale secondo rubrica ministeriale
-Integrazione curricolare:
-Le unità didattiche sono collegate alle materie d’esame (Scienze dei Materiali Dentali, Gnatologia,
-Inglese) e ai Percorsi per le Competenze Trasversali e l’Orientamento (PCTO).
-Esiti attesi:
-
-Maggiore coinvolgimento e motivazione degli studenti
-
-Conoscenza diretta delle tecniche professionali
-
-Sviluppo di soft skills e orientamento al lavoro
-
-Base solida per decidere l’eventuale stabilizzazione del progetto nel PTOF triennale.
-
----
-
-## Pagina 67
-
-63
-Quadro orario
-Quadro Orario Servizi Socio-Sanitari - Odontotecnico
-Discipline Area Comune
-Ore settimanali
-I
-II
-III
-IV
-V
-Italiano
-4
-4
-4
-4
-4
-Inglese
-3
-3
-2
-2
-2
-Matematica
-4
-4
-3
-3
-3
-Storia
-1
-2
-2
-2
-2
-Geografia
-1
-0
-Diritto ed Economia
-2
-2
-Scienze Motorie
-2
-2
-2
-2
-2
-RC o attività alternative
-1
-1
-1
-1
-1
-Totale ore area comune
-18
-18
-14
-14
-14
-Discipline
-Area
-Ore settimanali
-
----
-
-## Pagina 68
-
-63
-Nell’ambito dell’autonomia di orario e argomenti concessi nel biennio e triennio sono
-introdotti saperi relativi a:
--
-Sistemi di gestione qualità ISO 9001
-(Classi III, IV e V)
--
-Gestione del tempo
-(Tutte le classi)
--
-Uso delle mappe mentali
-(Tutte le classi)
--
-Laboratori pratici manuali
-(Tutte le classi)
-Professionale
-I
-II
-III
-IV
-V
-Sc. Integrate: Fisica
-1
-1
-Sc. Integrate: Chimica
-2
-2
-Sc. Integrate: Scienze della Terra e
-Biologia
-1
-1
-Tecnica Informatica e delle
-Comunicazioni (TIC)
-2
-2
-Anatomia, Fisiologia, Igiene
-2
-2
-2
-Gnatologia
-2
-3
-Diritto e legislazione socio- sanitaria
-2
-Rappresentazione
-e
-modellazione odontotecnica
-2
-2
-4
-4
-Esercitazioni di laboratorio
-odontotecnico
-4
-4
-8
-8
-9
-Scienze dei Materiali Dentali
-4
-4
-4
-Totale ore area  professionale
-14
-14
-18
-18
-18
-Monte ore settimanale
-32
-32
-32
-32
-32
+Curricolo verticale per competenze
+Curricolo verticale Educazione Civica
+Protocollo accoglienza DSA
+Patto educativo di corresponsabilità scuola-famiglia
+Piano di miglioramento
+Progetto Insulas
+Laboratori Iscola
+Protocollo accoglienza alunni stranieri
+Regolamento percorso ad indirizzo musicale
+Valutazione Scuola dell’Infanzia
+Valutazione Scuola Primaria
+Griglia di valutazione Scuola Secondaria di 1° grado
+Formazione obbligatoria per il personale docente e ATA (Legge n. 107/15 comma 12)
+60
 
 ---
 

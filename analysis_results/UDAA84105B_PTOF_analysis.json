@@ -1,0 +1,232 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDAA84105B",
+    "denominazione": "Istituto Comprensivo I - Udine",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Udine",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Polonia 2",
+    "cap": "33100",
+    "email": "udic84100a@istruzione.it",
+    "pec": "ND",
+    "website": "www.1.icudine.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. Le attività di orientamento sono integrate in altre parti del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Prevalenza di lezioni frontali, con limitata implementazione di attività laboratoriali specifiche per l'orientamento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro su educazione alimentare",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Formazione docenti didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione personale ATA gestione emergenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti delle classi quarte e quinte"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDAA84105B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Archimede Taverna**, scuola dell'infanzia situata nel territorio non metropolitano di Udine, in Friuli-Venezia Giulia. L'analisi evidenzia un approccio all'orientamento integrato nelle diverse attività scolastiche, piuttosto che concentrato in una sezione specifica del PTOF. Si riscontra un buon livello di attenzione alle finalità dell'orientamento, con particolare riguardo alle attitudini, agli interessi, al progetto di vita, alle transizioni formative e allo sviluppo delle capacità orientative degli studenti. L'istituto dimostra un impegno nella creazione di partnership con **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non prevede una sezione specificamente dedicata all'orientamento, integrando le attività in altre aree del piano.\n\n**2.2 Partnership:**\n\nL'istituto vanta un buon numero di partnership, pari a 4, che coinvolgono diversi soggetti del territorio, favorendo l'apertura della scuola verso l'esterno e l'arricchimento dell'offerta formativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate in modo completo, coprendo aspetti legati alle attitudini, agli interessi, alla costruzione del progetto di vita, alla gestione delle transizioni formative e allo sviluppo delle capacità orientative per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning.\n\n**2.5 Azioni di Sistema:**\n\nIl sistema di orientamento si basa su azioni di coordinamento con i servizi territoriali, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori, sul monitoraggio delle azioni intraprese e sull'integrazione di interventi inclusivi per gli studenti con fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'esperienza degli studenti e sulla flessibilità degli spazi e dei tempi. Tuttavia, si evidenzia una prevalenza di lezioni frontali con una limitata implementazione di attività laboratoriali specifiche per l'orientamento.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del sistema di orientamento dell'Istituto **Archimede Taverna** risiedono nella completa attenzione alle finalità dell'orientamento, nella creazione di partnership significative con il territorio e nella diversificazione dell'offerta formativa attraverso attività opzionali e PCTO. L'impegno nella formazione dei docenti e del personale ATA rappresenta un ulteriore elemento positivo. Le attività di **PCTO**, come lo **Stage sportivo sulla neve**, lo **Stage di vela**, l'**Escursionismo alpino**, lo **Stage in Inghilterra** e il **Viaggio d’istruzione**, offrono agli studenti opportunità concrete di orientamento e di sviluppo delle competenze.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF e la prevalenza di lezioni frontali rispetto ad attività laboratoriali rappresentano le principali aree di debolezza. Sebbene l'orientamento sia integrato in altre parti del piano, una maggiore esplicitazione delle strategie e delle azioni specifiche in materia di orientamento potrebbe contribuire a rafforzare l'efficacia del sistema.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le attività laboratoriali e pratiche nell'ambito dell'orientamento, al fine di favorire un apprendimento più attivo e coinvolgente per gli studenti. Un'ulteriore area di miglioramento riguarda la formalizzazione di una sezione dedicata all'orientamento nel PTOF, per evidenziare in modo più chiaro le strategie e le azioni intraprese.\n\n### 6. Conclusioni\n\nIn conclusione, l'Istituto **Archimede Taverna** dimostra un impegno significativo nell'ambito dell'orientamento, integrando le attività in un contesto formativo ampio e diversificato. Pur riconoscendo alcune aree di debolezza, il PTOF evidenzia un approccio orientativo completo e orientato allo sviluppo delle competenze degli studenti. Il potenziamento delle attività laboratoriali e la formalizzazione di una sezione dedicata all'orientamento potrebbero contribuire a rafforzare ulteriormente l'efficacia del sistema e a garantire un supporto adeguato agli studenti nelle loro scelte formative e professionali. Attività come il **Ritiro di accoglienza**, l'**Educazione alimentare**, l'incontro sulla **tossicodipendenza**, il corso di **Primo soccorso** e l'**Orientamento post-liceo** sono esempi di iniziative che contribuiscono a formare cittadini consapevoli e responsabili."
+}

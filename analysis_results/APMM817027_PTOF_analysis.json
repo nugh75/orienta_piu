@@ -1,0 +1,265 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "APMM817027",
+    "denominazione": "Isc Folignano - Maltignano",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Maltignano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ascoli Piceno",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dante Alighieri",
+    "cap": "63085",
+    "email": "apic817005@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.iscfolignanomaltignano.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente nell'indice, ma non è presente un capitolo dedicato all'orientamento con una trattazione approfondita."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "Scuole altre",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "GLIR/GIT/Scuole polo",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e moduli ASL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli/momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli in inglese nei bienni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare senso di cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche. Potenziare competenze digitali.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD (Bring Your Own Device). Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e progetti dedicati",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglia, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF APMM817027\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Plesso Secondaria Maltignano-10 (scuola di I Grado, codice APMM817027) per il triennio 2019/20-2021/22. L'istituto, statale situato nel comune di Maltignano (provincia di Ascoli Piceno, regione Marche), dimostra un impegno nell'orientamento, sebbene la trattazione specifica nell'indice non si traduca in un capitolo dedicato e approfondito. Si evidenzia una solida rete di **partnership** con diverse realtà esterne e un'attenzione particolare alle finalità di orientamento, in particolare per quanto riguarda attitudini, interessi e transizioni formative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene presente nell'indice del PTOF, manca un capitolo specificamente dedicato all'orientamento con un'analisi approfondita.\n\n**2.2 Partnership:** La scuola vanta un network di **14 partner**, tra cui **AGROBIOS**, **AGRO.BIOS. del CNR**, **Centro ENEA**, diverse **associazioni**, **scuole** e realtà come **I.B.B.R**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate** e **Re.Na**. Questa ricchezza di collaborazioni rappresenta un punto di forza significativo.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** e **interessi** degli studenti, la preparazione alle **transizioni formative** e lo sviluppo delle **capacità orientative** per affrontare le opportunità future. Meno marcata, invece, l'attenzione al **progetto di vita**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sul contrasto alla dispersione scolastica, sulla continuità territoriale e sulla lotta al fenomeno NEET, con un'attenzione crescente al **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il coinvolgimento delle **famiglie** e un forte impegno nell'implementazione di un **sistema integrato di inclusione e fragilità**. Il **monitoraggio delle azioni** risulta essere l'aspetto meno sviluppato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **interdisciplinari** e sulla flessibilità degli spazi e dei tempi. L'utilizzo della **didattica laboratoriale** appare meno strutturato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali ed espressive**, **sportive** e di **volontariato**. Le attività **ludiche e ricreative** sembrano meno presenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate dalla scuola, che permette di offrire agli studenti un'ampia gamma di opportunità di orientamento e di contatto con il mondo del lavoro. L'attenzione alle **finalità** di orientamento, in particolare allo sviluppo di attitudini, interessi e transizioni formative, è un altro elemento positivo. L'impegno per l'**inclusione** e la creazione di un sistema integrato per gli studenti con fragilità è particolarmente apprezzabile.\n\n### 4. Aree di Debolezza\n\nL'assenza di un capitolo dedicato e approfondito all'orientamento nel PTOF rappresenta un'area di debolezza. Anche il **monitoraggio delle azioni** intraprese risulta essere poco sviluppato. L'offerta di attività **laboratoriali** e **ludico-ricreative** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare meglio la sezione dedicata all'orientamento all'interno del PTOF, trasformando l'indicazione di una sezione presente nell'indice in un capitolo dedicato con una trattazione approfondita. È inoltre necessario potenziare il sistema di **monitoraggio** delle azioni intraprese e ampliare l'offerta di attività **laboratoriali** e **ludico-ricreative**.\n\n### 6. Conclusioni\n\nIl PTOF del Plesso Secondaria Maltignano-10 dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle **finalità** e degli **obiettivi**. Pur presentando alcune aree di debolezza, la scuola ha le potenzialità per sviluppare ulteriormente l'offerta orientativa e garantire a tutti gli studenti un adeguato supporto nella definizione del proprio **progetto di vita** e nella preparazione alle **transizioni formative**. Le attività registrate, come **PCTO**, **Microconferenze**, **Service Learning**, **Alternanza scuola/lavoro** e i progetti di **inclusione**, testimoniano un approccio dinamico e orientato all'innovazione."
+}

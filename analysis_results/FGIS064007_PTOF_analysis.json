@@ -1,0 +1,237 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FGIS064007",
+    "denominazione": "I.I.S.S. \"E.Mattei-Fazzini-Giuliani",
+    "tipo_scuola": "Liceo, Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Vieste",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Foggia",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Loc. Macchia Di Mauro",
+    "cap": "71019",
+    "email": "tsic80300d@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "https//www.toniolo.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia affrontato all'interno di altre sezioni del PTOF, non è presente una sezione dedicata specificamente a questo tema. L'orientamento è quindi integrato in altre aree, ma manca di una trattazione autonoma e approfondita."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Interventi educativi e didattici per inclusione, prevenzione difficoltà, valorizzazione eccellenze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni che passano dalla scuola dell'infanzia alla primaria e alla secondaria."
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Attività ludico-motorie per promuovere uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale con esperti.",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2 e percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti di inclusione",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in attività di promozione",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione di un curricolo per alunni NAI",
+      "target": "Alunni NAI"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FGIS064007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S.S. \\\"E.Mattei-Fazzini-Giuliani\\\" (codice scuola FGIS064007) per il periodo 2019/20-2021/22. La scuola, situata nel territorio non metropolitano di Vieste (Foggia) in Puglia, opera su diversi ordini e gradi di istruzione, con un focus sul II grado. L'analisi evidenzia un impegno generale verso l'orientamento, integrato in diverse aree del PTOF, ma con una mancanza di una sezione autonoma e specificamente dedicata a questo tema.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento, pur presente, non beneficia di una sezione dedicata all'interno del PTOF, ottenendo un punteggio di 3. Questo suggerisce che, sebbene l'orientamento sia considerato, la sua trattazione risulta frammentata e meno approfondita rispetto ad altre aree.\n\n**2.2 Partnership:** La scuola dimostra una solida rete di **partnership** con diversi soggetti esterni, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **musei**, l'**Archivio di Stato**, diversi **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, **altre scuole**, **associazioni o cooperative**, **autonomie locali** e l'**ASL**. Il numero di partner (16) indica un'apertura alla collaborazione esterna per arricchire l'offerta formativa e orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano su **attitudini**, **interessi**, **progetto di vita**, **transizioni formative** e, in misura minore, sullo sviluppo delle **capacità orientative** rispetto alle opportunità. I punteggi ottenuti (3, 3, 4, 5, 2 rispettivamente) suggeriscono una forte attenzione alla preparazione degli studenti per le scelte future e per il passaggio tra i diversi gradi di istruzione.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono scolastico** e a favorire la **continuità territoriale**, con punteggi di 4 per entrambi. L'attenzione al contrasto alla dispersione scolastica e al mantenimento degli studenti nel territorio locale sono quindi prioritari. Gli obiettivi di contrasto ai **NEET** e di promozione del **lifelong learning** ricevono punteggi inferiori (2), indicando un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul **rapporto scuola-genitori** e sull'implementazione di un **sistema integrato di inclusione e fragilità**. Il punteggio di 4 per ciascuna di queste azioni dimostra un impegno a creare un ambiente scolastico collaborativo e inclusivo, favorevole all'orientamento. Il **monitoraggio delle azioni** ottiene un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori** e sulla flessibilità degli **spazi e dei tempi**. L'approccio **interdisciplinare** è anch'esso considerato. I punteggi ottenuti (3, 2, 3, 3) indicano un tentativo di diversificare le metodologie didattiche per rendere l'orientamento più efficace e coinvolgente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi variano tra 2 e 3, suggerendo una buona varietà di offerta, ma con margini di miglioramento per quanto riguarda l'integrazione di queste attività con i percorsi di orientamento.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella solida rete di **partnership** con enti esterni, nell'attenzione alle **finalità** legate al **progetto di vita** e alle **transizioni formative**, e nell'impegno a creare un **sistema integrato** di supporto agli studenti. Le attività come **Attività di ampliamento curricolare** con visite guidate e incontri con professionisti, e il **Programma Continuità** per alunni con esigenze particolari, sono esempi concreti di questo impegno.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo comporta una frammentazione delle azioni e una minore visibilità del tema. Inoltre, gli obiettivi di contrasto ai **NEET** e di promozione del **lifelong learning** ricevono punteggi inferiori, suggerendo la necessità di rafforzare questi aspetti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento. Sebbene le singole azioni siano valide, manca un coordinamento complessivo e una definizione chiara degli obiettivi a lungo termine. È necessario colmare questo divario attraverso la creazione di una sezione dedicata nel PTOF, con obiettivi specifici, azioni mirate e indicatori di performance.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.I.S.S. \\\"E.Mattei-Fazzini-Giuliani\\\" dimostra un impegno verso l'orientamento, ma necessita di un rafforzamento della sua dimensione strategica. La creazione di una sezione dedicata, il potenziamento degli obiettivi di contrasto alla dispersione scolastica e di promozione del **lifelong learning**, e un maggiore coordinamento delle azioni, potrebbero contribuire a rendere l'orientamento più efficace e a garantire un futuro migliore per gli studenti. Attività come il **Monitoraggio Didattica Digitale Integrata**, l'**Anagrafe Competenze Docenti e Personale ATA**, il **Programma Benessere** e l'implementazione del **Curricolo Italiano L2** rappresentano un solido punto di partenza per un ulteriore sviluppo."
+}

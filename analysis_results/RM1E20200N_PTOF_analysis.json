@@ -1,0 +1,242 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1E20200N",
+    "denominazione": "Petranova International Institute",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2025-2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Pavia 23",
+    "cap": "00161",
+    "email": "petranova@scuolecefa.it",
+    "pec": "ND",
+    "website": "www.scuolecefa.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Società sportiva Basket Rimini Crabs",
+        "Accademia Rimini Calcio VB",
+        "CTS",
+        "CTI",
+        "servizi di zona",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "Sostieni il Sostegno"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre, sviluppo psico-fisico.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Danza come linguaggio espressivo, sviluppo fiducia in sé.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Istruttore minibasket, giochi per base motoria.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Approccio al gruppo, sviluppo comunicazione, creatività.",
+      "target": "3, 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Percorso ludico-motorio propedeutico al calcio.",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale.",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Consapevolezza fonologica, narrazione, gioco.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione argilla, sviluppo manualità.",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Attività pratiche, sviluppo creatività.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Cultura e Tradizione",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate all'Avvento con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione e Promozione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day con attività laboratoriali e dimostrative.",
+      "target": "Genitori, bambini, comunità locale"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Eventi e Feste",
+      "descrizione_e_metodologia": "Organizzazione di una festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Apprendimento Esperienziale",
+      "descrizione_e_metodologia": "Visite a fattorie, musei, mercati, etc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine Anno",
+      "categoria_principale": "Eventi e Feste",
+      "descrizione_e_metodologia": "Organizzazione di una festa con maratonina, spettacoli e cene.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Attività personalizzate per alunni con BES",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Learning by doing (teatro, danza, ecc.)",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "Transizioni",
+      "descrizione_e_metodologia": "Incontri tra docenti per garantire il passaggio tra ordini di scuola",
+      "target": "Alunni in transizione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RM1E20200N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Petranova International Institute** per il periodo 2025-2028. L'istituto, di tipo **Primaria** situato a **Roma**, presenta un approccio all'orientamento che si concentra sulla costruzione di **finalità** educative legate alle attitudini, interessi e al **progetto di vita** degli studenti, con particolare attenzione alle **transizioni formative**. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, l'istituto dimostra un impegno significativo nella creazione di **partnership** con diversi enti e associazioni del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela l'assenza di una sezione dedicata specificamente all'orientamento all'interno del PTOF, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** L'istituto vanta un solido network di **partnership**, con un totale di 14 collaborazioni attive. Tra i partner figurano il **Nido d’Infanzia Piccole tracce**, la **Scuola Primaria**, il **Comune di Riccione**, l'**ASL**, diverse società sportive come la **Federazione Italiana Pallacanestro di Rimini**, **Basket Rimini Crabs** e **Accademia Rimini Calcio VB**, oltre a enti come **CTS**, **CTI**, **Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini**, **Diesse** e **Sostieni il Sostegno**. Questo ampio ventaglio di collaborazioni suggerisce un forte radicamento territoriale e una volontà di ampliare l'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (3), **interessi** (3) e la costruzione del **progetto di vita** (3). Particolarmente rilevante è l'attenzione alle **transizioni formative** (4), mentre la capacità di orientare gli studenti verso le opportunità risulta leggermente meno sviluppata (2).\n\n**2.4 Obiettivi:** Tra gli obiettivi dichiarati, la **continuità territoriale** (4) emerge come prioritaria, mentre la riduzione dell'**abbandono** scolastico (1) e il contrasto al fenomeno **NEET** (1), così come la promozione del **lifelong learning** (1), sembrano meno centrali nelle strategie dell'istituto.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento si concentrano sul **coordinamento dei servizi** (3), sul **rapporto scuola-genitori** (4) e sull'inclusione (3). Il **dialogo tra docenti e studenti** (2) e il **monitoraggio delle azioni** (2) appaiono aree che necessitano di maggiore attenzione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci esperienziali (3), **laboratoriali** (3), flessibili (3) e **interdisciplinari** (3), suggerendo un approccio didattico dinamico e coinvolgente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi elevati per i laboratori **espressivi** (5) e le attività **sportive** (5). Le attività **ludico-ricreative** (4) sono ben rappresentate, mentre quelle **culturali** (1) e di **volontariato** (1) sembrano meno sviluppate.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella ricchezza delle **partnership** instaurate con il territorio e nella chiarezza delle **finalità** educative. L'istituto dimostra un forte impegno nell'offrire un'ampia gamma di attività **laboratoriali** e **sportive**, favorendo lo sviluppo di competenze trasversali e l'interesse degli studenti. L'attenzione alla **continuità territoriale** e al coinvolgimento delle famiglie rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta una lacuna significativa. Inoltre, alcuni obiettivi, come la riduzione dell'abbandono scolastico e il contrasto al fenomeno NEET, sembrano meno prioritari. Il dialogo tra docenti e studenti e il monitoraggio delle azioni di orientamento necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento come parte integrante del PTOF. Sebbene le attività e le finalità siano ben definite, manca una visione strategica complessiva che integri l'orientamento in tutte le dimensioni della vita scolastica. È necessario definire indicatori specifici per monitorare l'efficacia delle azioni intraprese e valutare l'impatto sull'apprendimento e sullo sviluppo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Petranova International Institute** presenta un approccio all'orientamento promettente, basato su solide **partnership** e chiare **finalità** educative. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario formalizzare l'orientamento come parte integrante del PTOF, definire obiettivi misurabili e rafforzare il dialogo tra docenti e studenti. L'istituto ha il potenziale per diventare un punto di riferimento per l'orientamento nel territorio, contribuendo a formare cittadini consapevoli e responsabili."
+}

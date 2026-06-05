@@ -1,0 +1,176 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PDMM87102T",
+    "denominazione": "Ic Di Villa Estense",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Sant'Urbano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Padova",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Ca' Nove 7",
+    "cap": "35040",
+    "email": "pdic87100q@istruzione.it",
+    "pec": "ND",
+    "website": "www.icvillaestense.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è presente in modo diffuso nel documento, ma non esiste una sezione dedicata esplicitamente all'orientamento. Si parla di orientamento in relazione agli obiettivi strategici e alle priorità, ma manca una trattazione organica."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Scuole greche",
+        "Università Alma Mater Studiorum di Bologna",
+        "Scuole di Sciacca e Madrid",
+        "Frisali World",
+        "Rete Otis Atene"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "motivare e dare significato alle conoscenze, radicandole sulle effettive capacità individuali",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "motivare e dare significato alle conoscenze, radicandole sulle effettive capacità individuali",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "orientare, mettendo ogni alunno in condizione di operare scelte consapevoli per costruire il proprio futuro",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_transizioni_formative": {
+        "score": 4,
+        "evidence_quote": "garantire un percorso di continuità fra gradi scolastici, potenziando i progetti continuità e orientamento",
+        "evidence_location": "Pagina 6"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Italia- Grecia- Inghilterra, cross the bridge!",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto di scambio culturale e linguistico.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Scambio culturale e linguistico tra studenti di Italia, Grecia e Inghilterra.",
+      "5w_dove": "Italia, Grecia, Inghilterra",
+      "5w_quando": "Anno scolastico 2022/23",
+      "5w_perche": "Ampliare l'orizzonte culturale degli studenti e promuovere il bilinguismo e il biculturalismo.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Eco-school",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto di educazione ambientale.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Sensibilizzazione alle tematiche ambientali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2022/23",
+      "5w_perche": "Promuovere comportamenti di cittadinanza responsabile.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Percorsi per le competenze trasversali e per l’inclusione scolastica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto per lo sviluppo di competenze trasversali e l'inclusione scolastica.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Sviluppo di competenze trasversali e inclusione scolastica.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2022/23",
+      "5w_perche": "Prevenire il disagio e recuperare gli svantaggi.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 7"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PDMM87102T\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF della Scuola Statale Italiana di Atene evidenzia una consapevolezza dell'importanza dell'orientamento, pur non prevedendo una sezione specificamente dedicata. L'orientamento è integrato tra gli obiettivi strategici dell'istituto, con un'attenzione particolare alla motivazione degli studenti, allo sviluppo delle competenze e alla prevenzione della dispersione scolastica. Il documento sottolinea l'impegno della scuola nel garantire la continuità didattica tra i diversi ordini di scuola e nel supportare gli alunni nella costruzione del proprio percorso futuro.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nSi rileva l'assenza di una sezione dedicata all'orientamento, rappresentando una lacuna significativa nella strutturazione del PTOF. L'orientamento è affrontato in maniera frammentaria all'interno di altre sezioni del documento.\n\n#### 2.2 Partnership e Reti\nLa scuola ha stabilito collaborazioni con diverse istituzioni, tra cui scuole greche, l'Università Alma Mater Studiorum di Bologna, scuole di Sciacca e Madrid, Frisali World e la Rete Otis Atene. Queste partnership offrono opportunità di scambio culturale, realizzazione di progetti congiunti e accesso a risorse esterne.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti. La scuola si impegna a garantire la continuità tra i gradi scolastici e a fornire agli studenti le competenze necessarie per affrontare le transizioni formative. Tuttavia, manca una definizione precisa delle competenze orientative che si intendono sviluppare e delle opportunità concrete offerte agli studenti.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di sistema per l'orientamento comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle attività. Il documento non fornisce, tuttavia, dettagli specifici sulle modalità di implementazione e valutazione di tali azioni.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori e sull'interdisciplinarità. Sebbene siano menzionati progetti che potrebbero includere attività pratiche, non emerge una chiara evidenza di laboratori specificamente dedicati all'orientamento.\n\n#### 2.6 Opportunità Formative\nLa scuola offre diverse opportunità formative opzionali, tra cui attività culturali, laboratoriali, ludiche, di volontariato e sportive. Queste attività arricchiscono l'offerta formativa e consentono agli studenti di esplorare i propri interessi e talenti.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Italia- Grecia- Inghilterra, cross the bridge!\nQuesto progetto mira a promuovere lo scambio culturale e linguistico tra studenti di Italia, Grecia e Inghilterra, offrendo loro l'opportunità di immergersi in contesti culturali diversi, migliorare le competenze linguistiche e ampliare i propri orizzonti. Il progetto si svolge in Italia, Grecia e Inghilterra durante l'anno scolastico 2022/23.\n\n#### 2.7.2 Eco-school\nIl progetto Eco-school si concentra sull'educazione ambientale e sulla sensibilizzazione alle tematiche ecologiche, promuovendo comportamenti sostenibili e responsabili attraverso la partecipazione attiva degli studenti. Il progetto si svolge all'interno della scuola durante l'anno scolastico 2022/23.\n\n#### 2.7.3 Percorsi per le competenze trasversali e per l’inclusione scolastica\nQuesto progetto mira a sviluppare le competenze trasversali degli studenti e a promuovere l'inclusione scolastica, attraverso attività collaborative e laboratoriali volte a migliorare le capacità di comunicazione, problem solving e lavoro di squadra. Il progetto si svolge all'interno della scuola durante l'anno scolastico 2022/23.\n\n### 3. Punti di Forza\nI punti di forza del PTOF sono la consapevolezza dell'importanza dell'orientamento, la presenza di partnership con diverse istituzioni e l'impegno verso la continuità tra i gradi scolastici.\n\n### 4. Aree di Debolezza\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento. Inoltre, il documento presenta una mancanza di dettagli specifici sulle metodologie utilizzate e sulle azioni implementate.\n\n### 5. Gap Analysis\nIl gap principale è la mancanza di una strategia organica per l'orientamento. La scuola dovrebbe sviluppare un piano d'azione dettagliato che definisca obiettivi, azioni, risorse e indicatori di successo. È inoltre necessario potenziare l'attenzione all'inclusione, integrando specifiche strategie e azioni volte a garantire pari opportunità a tutti gli studenti.\n\n### 6. Conclusioni\nIl PTOF della Scuola Statale Italiana di Atene dimostra un impegno verso l'orientamento, ma necessita di un maggiore sviluppo e di una maggiore integrazione nel sistema scolastico. La creazione di una sezione dedicata all'orientamento e l'implementazione di un piano d'azione dettagliato potrebbero migliorare significativamente l'efficacia delle azioni intraprese."
+}

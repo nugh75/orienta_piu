@@ -1,0 +1,298 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSPSDO500P",
+    "denominazione": "Istituzioni Scolastiche Ugo Foscolo Srl",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cosenza",
+    "anno_ptof": "2025/28",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Calabria 16",
+    "cap": "87100",
+    "email": "isugofoscolo@libero.it",
+    "pec": "ND",
+    "website": "www.istituzioniscolasticheugofoscolo.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene siano presenti attività di orientamento, non è identificabile una sezione dedicata e strutturata all'orientamento nel documento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Scuole Medie",
+        "Scuole Paritarie Cattoliche",
+        "Professionisti",
+        "Scuole superiori",
+        "Enti territoriali"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 7
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 7
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Attività pomeridiana, integrazione approccio sperimentale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Pubblicazione online, allargare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Potenziare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Migliorare proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Incrementare attività senso critico ed estetico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Presentazione scuola",
+      "descrizione_e_metodologia": "Allievi presentano la scuola e attività",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Laboratori extracurriculari",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività opzionali con contributo economico",
+      "target": "Allievi motivati"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Allestimento spettacolo teatrale",
+      "target": "Allievi classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio Metodo di studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Utilizzo strumenti studio tradizionali e nuove tecnologie",
+      "target": "Allievi classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche: minibasket, pallamano, pallavolo, calcio a 5",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio di latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagella, uscita in montagna",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classe seconda"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classe terza"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e a seguito di convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico, reading, listening, dialoghi, role playing",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura partecipata, analisi romanzo 'Mio fratello rincorre i dinosauri'",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Realizzazione esperimenti chimica, fisica, biologia",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Role playing, letture, esercizi",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Cucina",
+      "descrizione_e_metodologia": "Corso di cucina, preparazione ricette",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Delf",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso francese, preparazione certificazione QCER livello A1",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione e pittura manufatti in creta",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canto corale, repertorio liturgia giovanile",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport (ragazze/ragazzi)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Imparare, impegnarsi, divertirsi con lo sport",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato illustrazione",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a maglia con i ferri",
+      "categoria_principale": "Artigianato",
+      "descrizione_e_metodologia": "Realizzazione prodotti a maglia",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo scheda Arduino",
+      "target": "Classi seconde"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSPSDO500P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituzione scolastica **Istituzioni Scolastiche Ugo Foscolo Srl** (CSPSDO500P), per l'anno scolastico 2025/28. La scuola, di I Grado e Professionale, situata nel territorio non metropolitano di Cosenza, in Calabria, si presenta come un istituto paritario. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nNonostante la presenza di attività orientative, il documento non presenta una sezione specificamente dedicata e strutturata all'orientamento, ottenendo un punteggio di 2.\n\n**2.2 Partnership:**\n\nLa scuola vanta un buon livello di partnership, con un punteggio di 3 e la collaborazione di diversi soggetti, tra cui **Scuole Medie**, **Scuole Paritarie Cattoliche**, **Professionisti**, **Scuole superiori** ed **Enti territoriali**. Si contano 4 partner nominati.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e ambiziose, ottenendo il punteggio massimo (5) per tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, facilitazione delle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi orientativi sono mirati, ma con punteggi variabili. La riduzione dell'**abbandono** scolastico e la promozione della continuità territoriale ottengono un punteggio di 3, mentre il contrasto al fenomeno **NEET** risulta meno prioritario (punteggio di 2). L'impegno per il **lifelong learning** è valutato positivamente con un punteggio di 3.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento sono generalmente efficaci. Il **coordinamento dei servizi** e il **dialogo tra docenti e studenti** ottengono un punteggio di 4 e 5 rispettivamente. Anche il **rapporto scuola-genitori** e il **monitoraggio delle azioni** sono considerati importanti (punteggio di 4). L'integrazione dell'orientamento con i sistemi di inclusione e supporto alla fragilità è valutata con un punteggio di 3.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci validi. L'apprendimento dall'**esperienza degli studenti** e la **didattica laboratoriale** ottengono un punteggio di 4. La flessibilità degli spazi e dei tempi didattici è considerata con un punteggio di 3, mentre l'**interdisciplinarità** è un punto di forza (punteggio di 5).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali è ricca e diversificata. Le opzionali **culturali**, **laboratoriali espressive** e **sportive** sono particolarmente sviluppate (punteggio di 7). Le opzionali **ludiche-ricreative** e di **volontariato** ricevono un punteggio inferiore (3 e 2 rispettivamente).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità orientative, nella varietà delle attività proposte e nella solida rete di partnership. L'impegno per la didattica laboratoriale e interdisciplinare, unitamente all'offerta di opzionali diversificate, contribuisce a creare un ambiente scolastico stimolante e orientato allo sviluppo integrale dello studente. Attività come **Laboratorio scientifico**, **Giornalino d'istituto**, **Concorsi/Progetti interdisciplinari** e **Open day** sono esempi di iniziative ben strutturate.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata e strutturata all'orientamento rappresenta un'area di debolezza. Inoltre, l'obiettivo di contrastare il fenomeno NEET sembra meno prioritario rispetto agli altri obiettivi orientativi.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare e strutturare l'azione orientativa all'interno del PTOF, creando una sezione dedicata che delinei chiaramente le strategie, le responsabilità e le risorse impiegate. È inoltre auspicabile un maggiore focus sulla prevenzione della dispersione scolastica e sull'inserimento nel mondo del lavoro, con azioni mirate per contrastare il fenomeno NEET.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituzione **Istituzioni Scolastiche Ugo Foscolo Srl** dimostra un impegno significativo verso l'orientamento, con finalità ben definite, una solida rete di partnership e un'offerta didattica diversificata. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario strutturare una sezione dedicata all'interno del PTOF e rafforzare l'attenzione alla prevenzione della dispersione scolastica e all'inserimento nel mondo del lavoro. Attività come **Progetto Teatro**, **Laboratorio Metodo di studio**, **Laboratorio di arte** e **Living Around The World** rappresentano un valore aggiunto per gli studenti."
+}

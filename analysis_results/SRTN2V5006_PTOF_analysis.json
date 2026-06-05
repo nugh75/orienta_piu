@@ -1,0 +1,205 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SRTN2V5006",
+    "denominazione": "Istituto Paritario \"Quasimodo",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Rosolini",
+    "anno_ptof": "2025-2028",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Canada 32",
+    "cap": "96019",
+    "email": "istitutoquasimodo@alice.it",
+    "pec": "labuonascuola@pec.it",
+    "website": "www.istitutoquasimodo.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Il PTOF non presenta una sezione dedicata all'orientamento scolastico e professionale, ma affronta la proposta educativa in generale."
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Fondazione Karis",
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà",
+        "FOE"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività di robotica e coding per sviluppare competenze digitali.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Viaggio nella tradizione attraverso poesia, storia, musica e arte.",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di educazione alla sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti adeguati e sicurezza stradale.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale.",
+      "target": "Classi quarte e quinte"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) 2025-2028 della Scuola Primaria “Il Cammino” Rimini / Scuola Primaria “Redemptoris Mater” Riccione definisce le linee guida per lo sviluppo del processo educativo e didattico, ponendo al centro lo studente e le sue potenzialità. Il documento evidenzia un impegno nella costruzione di un ambiente di apprendimento inclusivo e stimolante, volto a promuovere il successo formativo di ogni alunno. Le partnership con enti locali e fondazioni testimoniano l'apertura della scuola al territorio e la volontà di ampliare l'offerta formativa.\n\n## 2. Analisi Dimensionale\n\nL'analisi delle finalità del PTOF rivela una forte attenzione allo sviluppo delle attitudini, degli interessi e del progetto di vita degli alunni. Tuttavia, la transizione verso i successivi gradi di istruzione e lo sviluppo di capacità orientative per affrontare le opportunità future necessitano di un approfondimento. Gli obiettivi delineati, pur lodevoli, presentano un grado di concretezza variabile, con particolare attenzione alla riduzione dell'abbandono scolastico e alla continuità territoriale. Le azioni previste dal sistema scolastico si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori, con un monitoraggio delle azioni che risulta ancora poco definito. \n\n## 3. Punti di Forza\n\nIl PTOF si distingue per la chiarezza nella definizione delle finalità educative e per l'impegno nel promuovere la collaborazione con partner esterni. L'offerta di attività extracurriculari, che spaziano dalla cultura alla solidarietà, arricchisce l'esperienza formativa degli alunni. L'introduzione di progetti innovativi, come il CLIL e i laboratori di matematica, testimonia la volontà di sperimentare nuove metodologie didattiche.\n\n## 4. Debolezze\n\nUn punto critico del PTOF è l'assenza di una sezione dedicata all'orientamento scolastico e professionale. Sebbene l'orientamento sia implicitamente presente nella proposta educativa, manca una strategia specifica per guidare gli alunni nella scelta del percorso formativo più adatto alle loro aspirazioni. Inoltre, la didattica orientativa, pur basandosi sull'esperienza degli studenti e sull'utilizzo di materiali e strumenti, non si concretizza in un approccio prettamente laboratoriale. \n\n## 5. Gap Analysis\n\nIl PTOF necessita di un'analisi più approfondita delle strategie e delle azioni specifiche per l'inclusione degli alunni con Bisogni Educativi Speciali (BES). È fondamentale definire interventi mirati per garantire a tutti gli studenti pari opportunità di apprendimento e partecipazione. Inoltre, è necessario rafforzare il sistema di monitoraggio delle azioni intraprese, al fine di valutarne l'efficacia e apportare eventuali correzioni.\n\n## 6. Conclusioni\n\nIl PTOF 2025-2028 rappresenta un documento programmatico solido, che delinea una visione chiara degli obiettivi e delle priorità della scuola. Tuttavia, per raggiungere appieno il suo potenziale, è necessario colmare le lacune individuate, in particolare per quanto riguarda l'orientamento scolastico e professionale e l'inclusione degli alunni con BES. Un monitoraggio costante e una valutazione critica delle azioni intraprese consentiranno di migliorare continuamente l'offerta formativa e di garantire il successo formativo di ogni studente."
+}

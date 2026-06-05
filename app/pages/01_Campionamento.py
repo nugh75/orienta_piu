@@ -323,7 +323,26 @@ with tab_methodology:
                         ai_config = cycle_data.get('ai_config', {})
                         if ai_config:
                             wf = ai_config.get('workflow', {})
-                            st.caption(f"• **Workflow**: {wf.get('provider', 'N/A')} ({wf.get('model', 'N/A')})")
+                            # Check for generic provider/model or specific roles
+                            provider = wf.get('provider')
+                            model = wf.get('model')
+                            
+                            if provider or model:
+                                st.caption(f"• **Workflow**: {provider or 'N/A'} ({model or 'N/A'})")
+                            else:
+                                # Check for specific roles
+                                roles = []
+                                for role in ['analyst', 'reviewer', 'refiner', 'synthesizer']:
+                                    if wf.get(role):
+                                        roles.append(f"**{role.capitalize()}**: {wf.get(role)}")
+                                
+                                if roles:
+                                    st.caption("• **Workflow**:")
+                                    for r in roles:
+                                        st.caption(f"  - {r}")
+                                else:
+                                   st.caption("• **Workflow**: N/A")
+
                             val = ai_config.get('validation', {})
                             st.caption(f"• **Validazione**: {val.get('provider', 'N/A')} ({val.get('model', 'N/A')})")
                             act = ai_config.get('activity', {})

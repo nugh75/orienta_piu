@@ -1,0 +1,248 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEAA823017",
+    "denominazione": "I.C. Bolzaneto",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza R. Rissotto 2",
+    "cap": "16162",
+    "email": "geic82300a@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.istitutocomprensivo-bolzaneto.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente e dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti con enti locali",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi/criticità DDI 2020/21 rispetto a 2019/20",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni (II anno scuola secondaria I grado)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa e mediazione umanistica",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Insegnamento curriculare",
+      "descrizione_e_metodologia": "Insegnamento trasversale, 33 ore annuali, contitolarità docenti",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni infanzia, primaria, secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale",
+      "target": "Alunni classi 2A, 2B, 3A, 3B, 4A, 5A e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Consiglieri CCRR sensibilizzano su temi di interesse",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Coinvolgimento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano L2",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Definito per alunni NAI",
+      "target": "Alunni NAI"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEAA823017\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto S.Mat. - I.Bonfieni - (GEAA823017), relativo all'anno scolastico 2019/20-2021/22. L'istituto, di ordine Infanzia, situato nel territorio metropolitano di Genova, presenta un PTOF che dedica una sezione specifica all'orientamento, ottenendo un punteggio massimo di 5. L'analisi si concentra sulle finalità, gli obiettivi, le azioni messe in atto e le attività svolte, evidenziando punti di forza, aree di debolezza e possibili gap. La scuola dimostra un impegno significativo nella costruzione di una rete di **partnership** con diversi soggetti del territorio, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **musei**, l'**Archivio di Stato**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, **Legambiente**, l'**IRCCS Burlo Garofolo**, **altre scuole**, **altre associazioni**, **autonomie locali** e l'**ASL**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Finalità:** Le finalità dell'orientamento sono considerate con un buon livello di attenzione (punteggio 4), con particolare riguardo alle **attitudini**, agli **interessi** e al **progetto di vita** degli studenti. Un punteggio più elevato (5) è stato attribuito alla finalità di supportare le **transizioni formative**. La capacità di orientare verso le **opportunità** future risulta anch'essa ben definita (punteggio 4).\n\n**2.2 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico e di garantire la **continuità territoriale** (entrambi con punteggio 4). L'obiettivo di **contrastare il fenomeno NEET** risulta meno prioritario (punteggio 1), così come lo sviluppo del **lifelong learning** (punteggio 3).\n\n**2.3 Azioni di Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi** (punteggio 4), di **dialogo tra docenti e studenti** (punteggio 4) e un forte coinvolgimento delle **famiglie** (punteggio 5). Il **monitoraggio delle azioni** intraprese, tuttavia, appare meno strutturato (punteggio 1). L'istituto si impegna a costruire un **sistema integrato di inclusione e supporto alle fragilità** (punteggio 4).\n\n**2.4 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 3), ma risulta meno sviluppata l'aspetto **laboratoriale** (punteggio 1) e la **flessibilità degli spazi e dei tempi** (punteggio 2). L'approccio **interdisciplinare** è considerato con un buon livello di attenzione (punteggio 3).\n\n**2.5 Offerta di Attività Opzionali:** L'offerta di attività opzionali comprende opzioni **culturali**, **laboratoriali ed espressive** e **ludico-ricreative** (tutte con punteggio 3). Le attività di **volontariato** sono meno presenti (punteggio 1), così come quelle **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella forte attenzione alla costruzione di una rete di **partnership** con il territorio e nel coinvolgimento delle **famiglie**. La presenza di una sezione dedicata all'orientamento, valutata con il massimo dei voti, dimostra l'impegno dell'istituto nel supportare gli studenti nelle loro scelte formative e professionali. L'attività \"**Attività di ampliamento curricolare**\", con **visite guidate e incontri con professionisti**, e la collaborazione con le **associazioni del territorio** attraverso progetti con enti locali, rappresentano esempi concreti di questo impegno.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza è rappresentata dal monitoraggio delle azioni intraprese e dalla scarsa attenzione alla lotta contro il fenomeno **NEET** e allo sviluppo del **lifelong learning**. Anche l'aspetto **laboratoriale** della didattica orientativa e la **flessibilità degli spazi e dei tempi** necessitano di un maggiore sviluppo.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un sistema di **monitoraggio** più efficace delle azioni intraprese, al fine di valutarne l'impatto e apportare eventuali correzioni. È inoltre necessario rafforzare l'attenzione alla prevenzione della dispersione scolastica e alla promozione del **lifelong learning**, attraverso l'implementazione di specifiche strategie e attività.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto S.Mat. - I.Bonfieni - presenta un approccio all'orientamento ben definito e strutturato, con un forte coinvolgimento del territorio e delle **famiglie**. Nonostante alcune aree di debolezza, l'istituto dimostra un impegno significativo nel supportare gli studenti nel loro percorso formativo e professionale. L'implementazione di un sistema di **monitoraggio** più efficace e un maggiore focus sulla prevenzione della dispersione scolastica e sulla promozione del **lifelong learning** potrebbero ulteriormente rafforzare l'efficacia del PTOF. L'attività \"**Insegnamento di Educazione Civica**\", svolto in modo trasversale, e il programma di **Continuità** tra i diversi gradi scolastici, sono elementi positivi che contribuiscono a creare un ambiente educativo stimolante e inclusivo."
+}

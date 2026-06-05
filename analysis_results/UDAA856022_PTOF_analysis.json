@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDAA856022",
+    "denominazione": "Pasian Di Prato",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Pasian Di Prato",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia Giulia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via P. Zorutti 8",
+    "cap": "33037",
+    "email": "udic856004@istruzione.it",
+    "pec": "ND",
+    "website": "www.icpasiandiprato.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata e strutturata."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive e socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori.",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDAA856022\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Pasian Di Prato-Passons** (UDAA856022), relativo all'anno scolastico 2019/20-2021/22. L'istituto, di ordine **Infanzia**, situato nel territorio **non metropolitano** del **Friuli-Venezia Giulia**, presenta un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata e strutturata per questo ambito. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sull'esame delle attività registrate nel PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'istituto mostra un punteggio di 3 su una scala non specificata, indicando la presenza di diverse attività di orientamento, ma evidenziando l'assenza di una sezione dedicata e strutturata all'interno del PTOF.\n\n**2.2 Partnership:** La scuola vanta un buon livello di collaborazione con il territorio, ottenendo un punteggio di 4. Sono nominati diversi **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per un totale di 3 partner attivi.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate solide, con un punteggio di 4 per tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mostrano una valutazione differenziata. L'obiettivo di ridurre l'**abbandono** scolastico ottiene un punteggio di 3, mentre la promozione della continuità con il territorio e il **lifelong learning** raggiungono un punteggio di 4. Anche l'obiettivo di contrastare il fenomeno dei **NEET** si attesta a 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con un punteggio di 4 per tutte le aree: **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci validi, con un punteggio di 4 per l'utilizzo di metodologie basate sull'esperienza degli studenti, la flessibilità degli spazi e dei tempi, e l'approccio **interdisciplinare**. La didattica laboratoriale, invece, ottiene un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, con un punteggio di 4 per le opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella solida definizione delle finalità, nell'efficacia delle azioni di sistema, nell'ampia offerta di attività opzionali e nella buona collaborazione con i partner del territorio. Le attività di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento) sono ben strutturate e mirate a diversi anni scolastici, offrendo agli studenti esperienze pratiche in ambiti diversi come lo sport (stage sulla neve, vela, escursionismo alpino) e la lingua inglese (stage in Inghilterra). L'istituto dimostra attenzione all'accoglienza degli studenti (ritiro a Campovecchio, progetto accoglienza studenti stranieri) e alla loro formazione su temi importanti come l'educazione alimentare, la tossicodipendenza e il primo soccorso.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Sebbene siano presenti numerose attività, la mancanza di una visione strategica unitaria e di un coordinamento centralizzato potrebbe limitare l'efficacia complessiva dell'azione orientativa. Anche l'obiettivo di ridurre l'abbandono scolastico e quello di contrastare il fenomeno dei NEET potrebbero essere rafforzati.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare l'orientamento all'interno del PTOF, creando una sezione dedicata che definisca chiaramente obiettivi, strategie, azioni e indicatori di successo. È inoltre auspicabile un maggiore focus sulla prevenzione dell'abbandono scolastico e del fenomeno dei NEET, attraverso interventi mirati e personalizzati.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Pasian Di Prato-Passons** dimostra un impegno significativo verso l'orientamento, con una solida base di finalità, azioni e attività. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario colmare il divario esistente formalizzando l'orientamento all'interno del PTOF e rafforzando gli obiettivi di prevenzione dell'abbandono scolastico e del fenomeno dei NEET. L'istituto può continuare a valorizzare le partnership con il territorio e l'ampia offerta di attività opzionali, garantendo al contempo un coordinamento efficace e un monitoraggio costante dei risultati."
+}

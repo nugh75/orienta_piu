@@ -1,0 +1,380 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AGPC060002",
+    "denominazione": "Liceo Classico - Vincenzo Linares",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Licata",
+    "anno_ptof": "2022-2025",
+    "provincia": "Agrigento",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Prof. S. Malfitano 2",
+    "cap": "92027",
+    "email": "agpc060002@istruzione.it",
+    "pec": "agpc060002@pec.istruzione.it",
+    "website": "https//www.liceolinares.edu.it/",
+    "tipo_scuola_dettaglio": "Liceo Classico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Consulenti esterni",
+        "Associazioni",
+        "servizi sanitari",
+        "istituzioni scolastiche di scuola secondaria di primo grado",
+        "associazioni",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Enti",
+        "I.C. G. Verga",
+        "FONDAZIONE GOLINELLI",
+        "LUMSA",
+        "PARCO ARCHEOLOGICO Agrigento",
+        "UNAC",
+        "MAREVIVO SICILIA",
+        "RETE DI AMBITO 0002"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 6
+      },
+      "opzionali_volontariato": {
+        "score": 6
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi interdisciplinari legati all’educazione civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi interdisciplinari",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Alla scoperta del territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite e attività sul territorio",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo d'intesa con servizi sanitari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creare canale di riferimento per studenti interessati a percorsi tecnico-sanitari e PCTO.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Accordi di rete con scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività laboratoriali e orientamento per studenti delle scuole medie.",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di dialogo attivo con le famiglie.",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di dialogo attivo con le famiglie.",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di dialogo attivo con le famiglie.",
+      "target": "Studenti, famiglie e docenti"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione personale scolastico con modalità innovative.",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto ORIENTAMENTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open Day, Stage orientativi, Sportelli informativi",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage formativi presso aziende ed enti esterni",
+      "target": "Alunni classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Predisposizione convenzioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Codeweek",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Imparare a programmare in modo divertente e coinvolgente.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Women hack the game",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Promuovere l'inclusione femminile nel settore STEM.",
+      "target": "Studenti e Insegnanti"
+    },
+    {
+      "titolo_attivita": "MAB",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Mappatura collettiva del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Play Basket",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Torneo di pallacanestro.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Calcetto a scuola",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Organizzazione di tornei di calcetto.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Racchette in classe",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Corsi e tornei di tennis.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Recovery Corner",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Tutoraggio lingua inglese",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "A PASSport for the future",
+      "categoria_principale": "Certificazioni linguistiche",
+      "descrizione_e_metodologia": "Certificazioni Cambridge (PET, FCE)",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Teatro in lingua inglese",
+      "categoria_principale": "Attività linguistiche",
+      "descrizione_e_metodologia": "Fruizione del teatro in lingua",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "CLIL & School for Global Goals",
+      "categoria_principale": "Didattica innovativa",
+      "descrizione_e_metodologia": "Co-creazione percorso apprendimento",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Preparazione ai certamina di lingua greca",
+      "categoria_principale": "Eccellenza linguistica",
+      "descrizione_e_metodologia": "Aumentare livelli di eccellenza",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Laboratorio Fisica",
+      "categoria_principale": "Attività scientifiche",
+      "descrizione_e_metodologia": "Riordino materiale e conoscenza dispositivi",
+      "target": "Classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Olimpiadi delle discipline scientifiche EOESit 2023",
+      "categoria_principale": "Competizioni scientifiche",
+      "descrizione_e_metodologia": "Preparazione e partecipazione",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Fisica",
+      "categoria_principale": "Competizioni scientifiche",
+      "descrizione_e_metodologia": "Preparazione e partecipazione",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni scientifiche",
+      "descrizione_e_metodologia": "Approccio ludico alla matematica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto di Geometria dinamica",
+      "categoria_principale": "Tecnologia e matematica",
+      "descrizione_e_metodologia": "GeoGebra",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Fitness e benessere",
+      "categoria_principale": "Stile di vita sano",
+      "descrizione_e_metodologia": "Percorso di allenamento per docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Giornata mondiale del teatro",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Performance teatrali",
+      "target": "Scuole licatesi"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto psicologico scolastico",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Incontri con gli alunni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "A ciascuno il suo: Giornate Sciasciane 2023",
+      "categoria_principale": "Lettura e cultura",
+      "descrizione_e_metodologia": "Lettura analitica romanzo Sciascia",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "La Terra è un sistema integrato",
+      "categoria_principale": "Scienze naturali",
+      "descrizione_e_metodologia": "Osservazione scientifica e critica",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Il Musical Theatre",
+      "categoria_principale": "Arte e spettacolo",
+      "descrizione_e_metodologia": "Laboratorio teatrale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende/università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Incontri in presenza e online, ricerca-azione, comunità di pratiche.",
+      "target": "Docenti tutti"
+    },
+    {
+      "titolo_attivita": "Formazione digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Incontri in presenza e online, laboratori.",
+      "target": "Docenti tutti"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione in lingua inglese",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Incontri in presenza e online, laboratori.",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Transizione digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, workshop, ricerca-azione.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Digitalizzazione Amministrativa",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, formazione online.",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AGPC060002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Classico - Vincenzo Linares** (AGPC060002) per il triennio 2022-2025. La scuola, situata a Licata, in provincia di Agrigento e regione Sicilia, si configura come istituto statale di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con un punteggio medio elevato nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Presenza di Sezione Dedicata:** Il PTOF include una sezione specifica dedicata all'orientamento, evidenziando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola ha sviluppato un network di **15 partnership** con diversi soggetti, tra cui **consulenti esterni**, **associazioni**, **servizi sanitari**, istituzioni scolastiche di primo grado, **organizzazioni del terzo settore**, **imprese**, **Enti**, l'**I.C. G. Verga**, la **FONDAZIONE GOLINELLI**, la **LUMSA**, il **PARCO ARCHEOLOGICO Agrigento**, l'**UNAC**, **MAREVIVO SICILIA** e la **RETE DI AMBITO 0002**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, alla progettazione del loro **progetto di vita**, alla facilitazione delle **transizioni formative** e al potenziamento delle loro **capacità orientative** per cogliere le opportunità disponibili.\n\n**2.4 Obiettivi:** Gli obiettivi principali sono la riduzione dell'**abbandono scolastico**, il mantenimento del legame con il **territorio**, il contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni implementate prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'utilizzo di esperienze dirette degli studenti, sull'organizzazione di attività **laboratoriali**, sulla flessibilità degli **spazi e dei tempi** e sull'integrazione **interdisciplinare** dei contenuti.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, ampliando le possibilità di scelta per gli studenti e favorendo lo sviluppo dei loro talenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua completezza e nella coerenza tra le diverse dimensioni dell'orientamento. La presenza di una sezione dedicata, la vasta rete di partnership, la chiarezza delle finalità e degli obiettivi, l'implementazione di azioni di sistema efficaci e l'offerta di una didattica orientativa innovativa e diversificata costituiscono un solido punto di partenza per il successo delle iniziative intraprese. L'ampia gamma di attività opzionali rappresenta un ulteriore elemento di valore, in grado di soddisfare le diverse esigenze e interessi degli studenti.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, si evidenzia una leggera debolezza nella didattica laboratoriale, che ottiene un punteggio inferiore rispetto alle altre dimensioni. Potrebbe essere utile potenziare questa area, offrendo agli studenti maggiori opportunità di sperimentazione pratica e di applicazione delle conoscenze acquisite.\n\n### 5. Gap Analysis\n\nL'analisi dei dati rivela un buon allineamento tra le finalità, gli obiettivi e le azioni implementate. Tuttavia, è importante monitorare costantemente l'efficacia delle iniziative intraprese e apportare eventuali correzioni in corso d'opera. Un'attenzione particolare dovrebbe essere rivolta alla valutazione dell'impatto delle partnership sulla reale inseribilità lavorativa degli studenti e sulla loro capacità di proseguire gli studi.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Classico - Vincenzo Linares** presenta un approccio all'orientamento ben strutturato e completo. La scuola dimostra un forte impegno verso la crescita personale e professionale degli studenti, offrendo loro un'ampia gamma di opportunità e supporti. Il monitoraggio costante delle azioni intraprese e l'eventuale potenziamento della didattica laboratoriale potrebbero contribuire a migliorare ulteriormente l'efficacia del PTOF e a garantire il successo delle iniziative orientative. Le attività registrate, come **Percorsi interdisciplinari legati all’educazione civica**, **Alla scoperta del territorio**, **Protocollo d'intesa con servizi sanitari**, **Accordi di rete con scuole medie**, **Sportello d'ascolto**, **Corsi di formazione**, **Cineforum**, **Animatore digitale: formazione del personale interno**, **Progetto ORIENTAMENTO**, **PCTO**, **Visite guidate**, **Codeweek**, **Women hack the game**, **MAB**, **Play Basket**, **Calcetto a scuola**, **Racchette in classe**, **Recovery Corner**, **A PASSport for the future**, **Teatro in lingua inglese**, **CLIL & School for Global Goals**, **Preparazione ai certamina di lingua greca**, **Laboratorio Fisica**, **Olimpiadi delle discipline scientifiche EOESit 2023**, **Olimpiadi di Fisica**, **Olimpiadi della Matematica**, **Progetto di Geometria dinamica**, **Fitness e benessere**, **Giornata mondiale del teatro**, **Sportello di ascolto psicologico scolastico**, **A ciascuno il suo: Giornate Sciasciane 2023**, **La Terra è un sistema integrato**, **Il Musical Theatre**, **Didattica per competenze**, **Formazione digitale**, **Alfabetizzazione in lingua inglese**, **Transizione digitale** e **Digitalizzazione Amministrativa**, testimoniano un'offerta ricca e diversificata."
+}

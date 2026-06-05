@@ -1,0 +1,233 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NA1A19100G",
+    "denominazione": "Associazione \"Mali",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Giugliano In Campania",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Ii Viale Parco Noce - Varcaturo -",
+    "cap": "80014",
+    "email": "istdanieldefoe@libero.it",
+    "pec": "toic8b600g@pec.istruzione.it",
+    "website": "https://www.icfoscolo.org/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione per la Scuola Compagnia San Paolo",
+        "Dipartimento di Scienze Aziendali dell’Università di Bologna",
+        "ASL",
+        "Associazioni",
+        "Fondazione Agnelli",
+        "CNOS-FAP",
+        "Alliance Française",
+        "Goethe Institut",
+        "CUS Torino",
+        "Società Scacchistica Torinese",
+        "scuola dell’infanzia",
+        "servizi sociali",
+        "istituti superiori",
+        "Altre scuole",
+        "Università",
+        "Enti di ricerca",
+        "Enti di formazione accreditati",
+        "Autonomie locali"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "BILANCIO SOCIALE E STAKEHOLDER ENGAGEMENT",
+      "categoria_principale": "Ricerca-Azione",
+      "descrizione_e_metodologia": "Percorso di formazione e ricerca con Università di Bologna. Questionari a docenti, Ata, alunni, genitori.",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "P4C: Pratica filosofica",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Uso consapevole del web e dei social media",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Rieducazione equestre",
+      "categoria_principale": "Attività Motoria",
+      "descrizione_e_metodologia": "Supporto sui disturbi pervasivi dello sviluppo",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Educazione alla mondialità",
+      "categoria_principale": "Educazione Interculturale",
+      "descrizione_e_metodologia": "Arsenale della Pace",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Educazione alla Legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Contro il bullismo, il cyberbullismo",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto scuola formazione 14-16",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con CNOS-FAP",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di scienze dell'alimentazione",
+      "categoria_principale": "Educazione alla Salute",
+      "descrizione_e_metodologia": "Approfondimento tematico",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Attività sportive pomeridiane",
+      "categoria_principale": "Attività Sportiva",
+      "descrizione_e_metodologia": "Calcio, hip hop, volley, basket, atletica",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto continuità con le scuole dell’infanzia",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incontri sistematici tra docenti per scambio informazioni e progettazione congiunta attività didattiche.",
+      "target": "Alunni scuola dell'infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Progetto formazione classi prime scuola primaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Promozione continuità con scuola infanzia, formazione classi eterogenee.",
+      "target": "Alunni classi prime primaria"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento scolastico in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Somministrazione test Arianna, consegna consiglio orientativo, monitoraggio istituti superiori.",
+      "target": "Alunni classe quinta primaria"
+    },
+    {
+      "titolo_attivita": "Staffetta di scrittura creativa",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione musicale",
+      "categoria_principale": "Attività didattiche",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione Eipass",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Ricerca-azione, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale Ata",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Attività in presenza, Formazione on line, Formazione di Scuola/Rete",
+      "target": "Personale Ata"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NA1A19100G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Associazione “Mali”, scuola dell’infanzia situata a Giugliano In Campania (NA), per il triennio 2019/20-2021/22. L'analisi si concentra in particolare sull'area dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità, gli obiettivi, le azioni di sistema, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia rete di collaborazioni esterne.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, evidenziando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto scolastico vanta un network di **partnership** molto esteso, comprendendo **Fondazione per la Scuola Compagnia San Paolo**, **Dipartimento di Scienze Aziendali dell’Università di Bologna**, **ASL**, diverse **associazioni**, **Fondazione Agnelli**, **CNOS-FAP**, **Alliance Française**, **Goethe Institut**, **CUS Torino**, **Società Scacchistica Torinese**, altre **scuole**, **istituti superiori**, **università**, **enti di ricerca**, **enti di formazione accreditati** e **autonomie locali**. Questo ampio ventaglio di collaborazioni, pari a 18 partner, suggerisce un approccio aperto e proattivo nella ricerca di risorse e competenze esterne a supporto dell'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con un punteggio di 4 su 5 per ciascuna di queste aree. L'attenzione alle **capacità orientative** e alle **opportunità** è altrettanto elevata. La finalità relativa alle **transizioni formative** risulta meno sviluppata, con un punteggio di 1 su 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono** scolastico (punteggio 4), a favorire la continuità con il territorio (punteggio 3), a contrastare il fenomeno dei **NEET** (punteggio 2) e a promuovere il **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate sono focalizzate sul **coordinamento dei servizi** (punteggio 5), sul **dialogo tra docenti e studenti** (punteggio 4), sul rapporto con i **genitori** (punteggio 5), sul **monitoraggio delle azioni** (punteggio 3) e sull'integrazione di un **sistema inclusivo** per le fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 4), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'**interdisciplinarità** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzioni **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 3) e **sportive** (punteggio 4).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di creare una rete di **partnership** ampia e diversificata, che coinvolge numerosi soggetti esterni. L'attenzione alle finalità di sviluppo personale degli studenti, come **attitudini**, **interessi** e **progetto di vita**, rappresenta un altro elemento positivo. L'impegno verso il **coordinamento dei servizi** e il rapporto con le **famiglie** dimostra una visione sistemica dell'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la finalità relativa alle **transizioni formative**, che necessita di maggiore attenzione e sviluppo. L'obiettivo di contrastare il fenomeno dei **NEET** presenta un punteggio inferiore rispetto agli altri obiettivi, suggerendo la necessità di definire strategie più efficaci in questo ambito.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità ben definite e l'obiettivo meno sviluppato di contrasto ai **NEET** indica la necessità di tradurre le aspirazioni in azioni concrete e misurabili. Un potenziamento delle attività di orientamento mirate alla prevenzione della dispersione scolastica e all'inserimento nel mondo del lavoro potrebbe colmare questa lacuna.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Associazione “Mali” presenta un approccio all'orientamento solido e ben strutturato, supportato da una vasta rete di **partnership** e da una chiara definizione delle finalità e degli obiettivi. Pur evidenziando alcune aree di debolezza, il PTOF dimostra un impegno significativo verso lo sviluppo integrale degli studenti e la loro preparazione al futuro. Le attività registrate, come il **Bilancio Sociale**, **P4C**, **Rieducazione equestre**, **Educazione alla mondialità**, **Educazione alla Legalità**, **Progetto scuola formazione 14-16**, **Laboratorio di scienze dell'alimentazione**, **Attività sportive pomeridiane**, **Progetto continuità**, **Progetto formazione classi prime**, **Progetto orientamento scolastico in uscita**, **Staffetta di scrittura creativa**, **Certificazione musicale**, **Certificazione Eipass** e la **Formazione del personale**, testimoniano un'offerta formativa ricca e diversificata."
+}

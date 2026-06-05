@@ -1,0 +1,342 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VETF01350V",
+    "denominazione": "Leonardo Da Vinci",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Portogruaro",
+    "anno_ptof": "2016",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "via Aldo Moro 13 – 28021 Borgomanero (NO)",
+    "cap": "ND",
+    "email": "itisleon@tin.it",
+    "pec": "ND",
+    "website": "www.isisleonardodavinci.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Associazione Industriali",
+        "Camera di Commercio",
+        "IISS “E. Fermi” di Arona",
+        "Istituto “G. Galilei” di Borgomanero",
+        "Provincia di Novara",
+        "Comune di Borgomanero",
+        "Casa “Piccolo Bartolomeo",
+        "ASL",
+        "FORTES Impresa Sociale",
+        "enti",
+        "associazioni",
+        "università",
+        "mondo del lavoro"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "formazione sulle tecniche di primo soccorso",
+      "categoria_principale": "formazione",
+      "descrizione_e_metodologia": "Corsi di formazione",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "percorsi di alternanza scuola-lavoro",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "Percorsi formativi",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "iniziative per l'orientamento",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "Iniziative varie",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "Piano Nazionale Scuola Digitale",
+      "categoria_principale": "innovazione",
+      "descrizione_e_metodologia": "Attuazione del piano",
+      "target": "studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Attività di potenziamento delle competenze linguistiche di base per alunni stranieri",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di 16 ore finanziato dalla Provincia di Novara.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Prove per Classi Parallele",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Prove comuni per le classi del biennio in Italiano, Lingua Straniera, Matematica, Fisica e Chimica.",
+      "target": "Alunni del biennio"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Percorso interdisciplinare sul tema della legalità.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Attività socialmente utili",
+      "categoria_principale": "Prevenzione dispersione",
+      "descrizione_e_metodologia": "Alternative alla sospensione per studenti con sanzioni disciplinari.",
+      "target": "Studenti con sanzioni disciplinari"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite ad aziende del territorio per conoscere le professioni",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Corso base sulla sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso di sicurezza sul lavoro",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Lean Organization",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso su Lean Organization",
+      "target": "Studenti classi quarte"
+    },
+    {
+      "titolo_attivita": "Stage in aziende",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage di 240 ore in aziende",
+      "target": "Studenti classi quarte"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di potenziamento delle competenze linguistiche di base per alunni stranieri",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di 16 ore finanziato dalla Provincia di Novara.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Prove per Classi Parallele",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Prove comuni per le classi del biennio in Italiano, Lingua Straniera, Matematica, Fisica e Chimica.",
+      "target": "Alunni del biennio"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Percorso interdisciplinare sul tema della legalità.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Attività socialmente utili",
+      "categoria_principale": "Prevenzione dispersione",
+      "descrizione_e_metodologia": "Alternative alla sospensione per studenti con sanzioni disciplinari.",
+      "target": "Studenti con sanzioni disciplinari"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage di 5 settimane presso aziende, enti e uffici. Colloqui con tutor e selezione studenti.",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro Italia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di alternanza scuola-lavoro nazionale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro Estero",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Master dei Talenti, Sweet, Erasmus+. Stage all'estero.",
+      "target": "Neodiplomati"
+    },
+    {
+      "titolo_attivita": "F.A.S.T. Youngs",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Mobilità all'estero per neodiplomati.",
+      "target": "Neodiplomati"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza classi prime",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Informazioni gestione emergenza e primi soccorsi",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Formazione primo soccorso classi seconde",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Gestione ferite, traumi, BLS, DAE",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Approfondimenti sicurezza classi terze",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Approfondimenti curricolari",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Preparazione stage classi quarte",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimenti figure e ruoli",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Incontri enti classi quinte",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri ASL, INAIL, DTL, INPS",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Incontri con esperti, visite istituzionali, approfondimenti tematici",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezioni universitarie, test attitudinali, alternanza scuola-lavoro",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso aziende, enti e uffici",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Valorizzazione diversità e eccellenze",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Partecipazione a concorsi, corsi di approfondimento",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Attività socialmente utili, incontri con forze dell'ordine",
+      "target": "Studenti con sanzioni disciplinari"
+    },
+    {
+      "titolo_attivita": "Prove Per Classi Parallele",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Prove comuni per classi parallele in materie specifiche",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Potenziamento recuperi e approfondimenti",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Sostegno individuale e attività collaterali",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Utilizzo delle nuove tecnologie",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Attuazione progetti finanziati, laboratori attrezzati",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VETF01350V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Itis Da Vinci Serale** (VETF01350V), istituto tecnico situato a Portogruaro, in provincia di Venezia e regione Veneto. L'analisi si basa sui dati forniti, che includono metadati, punteggi relativi a specifiche aree tematiche e un registro delle attività svolte. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio medio-alto nelle diverse dimensioni considerate. L'istituto si colloca in un contesto territoriale metropolitano e si configura come scuola statale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 4, indicando una buona strutturazione e attenzione a questo aspetto.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con un conteggio di 12 collaborazioni attive. Tra i partner figurano **Associazione Industriali**, **Camera di Commercio**, diversi istituti scolastici come l'**IISS “E. Fermi” di Arona** e l'**Istituto “G. Galilei” di Borgomanero**, la **Provincia di Novara**, il **Comune di Borgomanero**, **Casa “Piccolo Bartolomeo”**, l'**ASL**, **FORTES Impresa Sociale**, oltre a **enti**, **associazioni**, **università** e il **mondo del lavoro**. Questo ampio ventaglio di collaborazioni suggerisce un forte radicamento territoriale e una volontà di creare sinergie con il contesto socio-economico locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con punteggi di 3 per ciascuna area. Un punteggio più elevato, pari a 4, è stato attribuito alle finalità legate alle **transizioni formative**, evidenziando l'importanza attribuita al passaggio tra i diversi gradi di istruzione. Infine, le finalità relative allo sviluppo delle **capacità orientative** e all'individuazione delle **opportunità** formative e professionali hanno ottenuto un punteggio di 3.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico** (punteggio 5) e alla continuità territoriale (punteggio 5), dimostrando un forte impegno verso il successo scolastico e l'inserimento nel contesto locale. Anche l'obiettivo di contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) ha ottenuto un buon punteggio (4), mentre l'obiettivo di promuovere il **lifelong learning** ha ricevuto un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi (punteggio 3), il dialogo tra docenti e studenti (punteggio 3), il rapporto scuola-genitori (punteggio 5) e il monitoraggio delle azioni intraprese (punteggio 3). L'implementazione di un **sistema integrato di inclusione e fragilità** ha ottenuto un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sull'utilizzo di metodologie laboratoriali (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampia rete di partnership con il territorio e nell'attenzione alla riduzione dell'abbandono scolastico e alla continuità territoriale. L'istituto dimostra una buona capacità di collaborare con diversi soggetti esterni, creando opportunità di apprendimento e di inserimento nel mondo del lavoro per gli studenti. L'offerta di attività opzionali e facoltative contribuisce ad arricchire l'offerta formativa e a soddisfare le diverse esigenze e interessi degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente le finalità orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, che hanno ottenuto un punteggio di 3. Questo suggerisce la necessità di potenziare le attività volte a favorire la consapevolezza di sé e l'autonomia degli studenti nella scelta del proprio percorso formativo e professionale. Anche l'obiettivo di promuovere il lifelong learning potrebbe essere ulteriormente sviluppato.\n\n### 5. Gap Analysis\n\nAnalizzando il registro delle attività, si evidenzia una prevalenza di iniziative di **alternanza scuola-lavoro** e di **formazione**, in particolare in ambito **sicurezza**. Sebbene queste attività siano importanti, sarebbe auspicabile diversificare l'offerta, includendo maggiori iniziative volte a sviluppare le competenze trasversali degli studenti, come il pensiero critico, la creatività e la capacità di problem solving.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Itis Da Vinci Serale dimostra un impegno significativo verso l'orientamento, con una buona strutturazione e una vasta gamma di attività proposte. L'istituto vanta un'ampia rete di partnership e si concentra sulla riduzione dell'abbandono scolastico e sulla continuità territoriale. Per migliorare ulteriormente l'efficacia dell'orientamento, si suggerisce di potenziare le attività volte a favorire la consapevolezza di sé degli studenti e di diversificare l'offerta formativa, includendo maggiori iniziative per lo sviluppo delle competenze trasversali."
+}

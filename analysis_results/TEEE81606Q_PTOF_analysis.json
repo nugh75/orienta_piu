@@ -1,0 +1,344 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TEEE81606Q",
+    "denominazione": "I.C. Valle Del Fino",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Arsita",
+    "anno_ptof": "2022-2025",
+    "provincia": "Teramo",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Contrada Fonte Maggio",
+    "cap": "64031",
+    "email": "teic81600c@istruzione.it",
+    "pec": "pvps05000q@pec.istruzione.it",
+    "website": "www.icvalledelfino.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Il PTOF include diverse attività di orientamento, ma manca una sezione specificamente dedicata e strutturata per l'orientamento come pilastro autonomo."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Università degli Studi di Pavia",
+        "Ospedali",
+        "Ordine dei Medici",
+        "OPI Pavia",
+        "Strutture ospedaliere cittadine",
+        "Banca Intesasanpaolo",
+        "Provincia pavese",
+        "Gran Sasso Science Institute",
+        "Istituto Nazionale di Fisica Nucleare",
+        "Fondazione I.R.C.C.S. Policlinico San Matteo",
+        "FAI",
+        "Altre scuole",
+        "Altre associazioni",
+        "Google Suite"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3,
+        "note": "L'offerta didattica orientativa si concentra maggiormente su visite guidate e testimonianze, con una limitata presenza di attività laboratoriali specifiche."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso Biomedicale Ippocrate",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Potenziamento delle scienze naturali attraverso attività pratiche e approfondimenti tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Potenziamento della lingua inglese con focus sulla preparazione a certificazioni internazionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Power",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Integrazione di un'ora aggiuntiva di fisica nel curricolo per approfondire concetti chiave e stimolare l'interesse.",
+      "target": "Studenti classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso cliniche, laboratori e servizi ai pazienti per un'esperienza diretta del mondo del lavoro e delle professioni sanitarie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite documentative guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a strutture sanitarie per conoscere da vicino gli ambienti di lavoro e le figure professionali del settore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni di medici specialisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Interventi di medici specialisti per presentare le diverse branche della medicina e le opportunità di carriera.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Z-lab Banca Intesasanpaolo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso di alfabetizzazione economica e finanziaria con sviluppo di soft skills attraverso attività pratiche e simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un'esperienza alla Provincia pavese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività di redazione di articoli per il quotidiano locale, promuovendo il lavoro di gruppo e la comunicazione efficace.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Starbook",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Potenziamento della lingua inglese attraverso la creazione di contenuti multimediali e la condivisione di informazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Concorso di scrittura scientifica per stimolare la creatività e la capacità di divulgazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "FAI: apprendisti ciceroni",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate ai beni architettonici pavesi con l'obiettivo di promuovere la conoscenza del patrimonio culturale locale.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di fisica articolate in più fasi per stimolare l'interesse per la disciplina e la capacità di problem solving.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "giochi di Anacleto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Esperienze pratiche di laboratorio per l'apprendimento attivo e la verifica delle conoscenze.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi dell'Italiano",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di lingua italiana per promuovere la conoscenza della grammatica, della letteratura e della cultura italiana.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di matematica per stimolare il ragionamento logico e la capacità di risolvere problemi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi delle Scienze Naturali",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di scienze naturali per promuovere la conoscenza del mondo naturale e la capacità di osservazione e analisi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto volley Copernico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Organizzazione di un torneo di pallavolo per promuovere l'attività fisica e il lavoro di squadra.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scienze Under 18",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Partecipazione a manifestazioni con exhibit scientifici per divulgare la scienza e stimolare la curiosità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "History Walks",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite guidate in lingua inglese per combinare l'apprendimento della lingua con la scoperta del patrimonio storico-artistico.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Unitest",
+      "categoria_principale": "Preparazione Universitaria",
+      "descrizione_e_metodologia": "Attività di preparazione ai test d'ammissione all'università per supportare gli studenti nella scelta del percorso di studi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione Google Suite",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Webinar e tutorial sull'uso di Google Suite per migliorare le competenze digitali dei docenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le Competenze Trasversali e l'Orientamento per favorire l'inserimento nel mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rafting",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Esplorazione del fiume Ticino con attività di gruppo e pratica del rafting per promuovere la conoscenza del territorio e lo spirito di collaborazione.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Badminton",
+      "categoria_principale": "Benessere, Salute e Sport",
+      "descrizione_e_metodologia": "Teoria e pratica del badminton, con costruzione di campi da gioco per promuovere l'attività fisica e il divertimento.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola di sci",
+      "categoria_principale": "Benessere, Salute e Sport",
+      "descrizione_e_metodologia": "Attività di avviamento e perfezionamento dello sci per promuovere l'attività fisica e il contatto con la natura.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Camposcuola Isola d'Elba",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Esperienze dirette di botanica, geologia, ecologia e trekking per promuovere la conoscenza del territorio e la consapevolezza ambientale.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Potenziamento Linguaggi",
+      "descrizione_e_metodologia": "Apertura della biblioteca al pubblico e gestione del materiale librario per promuovere la lettura e la cultura.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Lingua Inglese",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, corsi e formazione di scuola/rete per migliorare le competenze linguistiche dei docenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Applicazioni digitali per la didattica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop e social networking per promuovere l'uso delle tecnologie digitali nella didattica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Valutazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop e formazione di scuola/rete per migliorare le competenze valutative dei docenti neo-assunti.",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Strategie didattiche innovative e metodologia laboratoriale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop e formazione di scuola/rete per promuovere l'innovazione didattica e l'uso di metodologie attive.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Dinamiche relazionali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop e formazione di scuola/rete per migliorare le competenze relazionali dei docenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Aggiornamento formazione sulla sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza e formazione di scuola/rete per garantire la sicurezza degli ambienti scolastici.",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Aggiornamento formazione antincendio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza e formazione di scuola/rete per garantire la sicurezza in caso di incendio.",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Aggiornamento professionale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza e formazione online per garantire l'aggiornamento professionale del personale amministrativo.",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TEEE81606Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “Arsita Capoluogo” (codice scuola TEEE81606Q) per il triennio 2022-2025. La scuola, situata nel territorio non metropolitano della regione Abruzzo, dimostra un impegno significativo nell'ampliamento dell'offerta formativa e nella creazione di partnership con diversi enti e istituzioni. Sebbene siano presenti numerose attività orientative, il PTOF evidenzia la necessità di strutturare un'area dedicata all'orientamento come pilastro autonomo. L'attenzione è rivolta allo sviluppo di attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela che, nonostante la presenza di attività di orientamento, manca una sezione specificamente dedicata e strutturata all'interno del PTOF. Questo aspetto rappresenta un'area di miglioramento per una maggiore chiarezza e coerenza.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, comprendendo **Università degli Studi di Pavia**, **Ospedali**, **Ordine dei Medici**, **OPI Pavia**, **Strutture ospedaliere cittadine**, **Banca Intesasanpaolo**, **Provincia pavese**, **Gran Sasso Science Institute**, **Istituto Nazionale di Fisica Nucleare**, **Fondazione I.R.C.C.S. Policlinico San Matteo**, **FAI**, altre scuole, altre associazioni e **Google Suite**. Questo elevato numero di collaborazioni (14 partner) testimonia l'apertura della scuola al territorio e la volontà di offrire agli studenti opportunità di apprendimento significative.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, la capacità di progettare il proprio futuro, facilitare le **transizioni formative** e fornire agli studenti gli strumenti per cogliere le **opportunità** che si presentano.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico**, alla promozione della continuità territoriale, al contrasto del fenomeno dei **NEET** (Not in Education, Employment or Training) e alla promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, con particolare attenzione alle visite guidate e alle testimonianze. Tuttavia, l'offerta didattica presenta una limitata presenza di attività laboratoriali specifiche. La flessibilità degli spazi e dei tempi, nonché l'approccio interdisciplinare, sono punti di forza.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**, offrendo agli studenti un'ampia gamma di possibilità per approfondire i propri interessi.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** con enti e istituzioni del territorio, nella chiarezza delle finalità e degli obiettivi dell'orientamento, nell'attenzione all'inclusione e nella promozione di una didattica flessibile e interdisciplinare. L'ampia gamma di attività proposte, come **Percorso Biomedicale Ippocrate**, **Liceo Cambridge**, **Progetto Power**, **Percorsi Trasversali per le Competenze e l'Orientamento (PTCO)**, **Visite documentative guidate** e **Lezioni di medici specialisti**, dimostra un impegno concreto nell'offrire agli studenti esperienze di apprendimento significative.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Inoltre, l'offerta didattica orientativa potrebbe essere potenziata con l'introduzione di un maggior numero di attività laboratoriali.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento come un pilastro autonomo del PTOF, definendo obiettivi specifici, azioni mirate e indicatori di successo. È inoltre necessario incrementare l'offerta di attività laboratoriali per favorire un apprendimento più attivo e coinvolgente.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria “Arsita Capoluogo” presenta un quadro generale positivo per quanto riguarda l'orientamento, con un forte impegno nell'ampliamento dell'offerta formativa e nella creazione di partnership strategiche. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è fondamentale strutturare una sezione dedicata all'orientamento e potenziare l'offerta didattica con attività laboratoriali specifiche. L'implementazione di queste misure consentirà alla scuola di fornire agli studenti un supporto più completo e mirato nella progettazione del loro futuro."
+}

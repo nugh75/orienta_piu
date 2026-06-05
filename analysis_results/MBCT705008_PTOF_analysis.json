@@ -1,0 +1,278 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MBCT705008",
+    "denominazione": "Cpia Monza E Brianza",
+    "tipo_scuola": "CPIA",
+    "ordine_grado": "Altro",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Monza",
+    "anno_ptof": "2022-2025",
+    "provincia": "Monza E Della Brianza",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via S.Martino4",
+    "cap": "20052",
+    "email": "mbmm0cc00l@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.cpia.edu.it/mb/",
+    "tipo_scuola_dettaglio": "Centro Territoriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sebbene siano presenti diverse attività di orientamento, non si configura una sezione dedicata e organica all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Musei",
+        "Teatri",
+        "Biblioteche comunali",
+        "Centri di aggregazione giovanile",
+        "Associazioni",
+        "Comune di Monza",
+        "Co.re.Com.",
+        "Amministrazione comunale",
+        "istituzioni",
+        "associazioni ONLUS",
+        "librerie",
+        "piscina",
+        "cooperative",
+        "Altre scuole",
+        "Agenzie Formative/Università/Altro"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite didattiche a musei, teatri, biblioteche",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Uscite sul territorio per fruire di risorse culturali locali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti anti-dispersione con associazioni",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Collaborazione con associazioni per supporto allo studio e relazioni sociali.",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Compiti di realtà",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di compiti di realtà a quadrimestre.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione su innovazione metodologico-didattica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto di alfabetizzazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Percorsi di prima alfabetizzazione per alunni neo arrivati",
+      "target": "Alunni neo arrivati e con difficoltà"
+    },
+    {
+      "titolo_attivita": "Mediazione linguistica",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Collaborazione con Amministrazione comunale",
+      "target": "Alunni neo arrivati"
+    },
+    {
+      "titolo_attivita": "Visite scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri dimostrativi extrascolastici",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Etwinning",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Attività didattiche, risorse condivise",
+      "target": "Docenti e alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Didattica all'aperto, giochi",
+      "target": "Alunni classi seconde primaria e quinte primaria"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Progettazione e valutazione",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Formazione linguistica e metodologica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Certificazione B2, CLIL",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Formazione digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Strumenti online, laboratori",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Inclusione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Redazione PEI, Sportello Autismo",
+      "target": "Docente funzione strumentale"
+    },
+    {
+      "titolo_attivita": "Legalità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Violenza domestica",
+      "target": "Docente Referente legalità"
+    },
+    {
+      "titolo_attivita": "Prevenzione ludopatie",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Convegni",
+      "target": "Referente prevenzione ludopatie"
+    },
+    {
+      "titolo_attivita": "Sito web",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Gestione e aggiornamento",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Sperimentazione metodologie innovative",
+      "categoria_principale": "Ricerca-azione",
+      "descrizione_e_metodologia": "Ricerca-azione, comunità di pratiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Opera domani",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docenti di musica"
+    },
+    {
+      "titolo_attivita": "Sport per te",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Bullismo/Cyberbullismo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Animatore digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "D. 81/2018, primo soccorso",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "Privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docente Referente sicurezza"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MBCT705008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola C.T.P. C/O S.M.S. \"Confalonieri\" Monza (MBCT705008), relativo all'anno 2022-2025. La scuola, di ordine e grado comprensivo, situata nel territorio non metropolitano di Monza, in Lombardia, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata e strutturata all'interno del PTOF. L'istituto si distingue per una solida rete di **partnership** con diverse realtà del territorio, che supportano le attività orientative e formative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia una mancanza di una sezione dedicata e organica all'orientamento nel PTOF, nonostante la presenza di diverse attività in tal senso.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (15), collaborando con **Musei**, **Teatri**, **Biblioteche comunali**, **Centri di aggregazione giovanile**, **Associazioni**, il **Comune di Monza**, **Co.re.Com.**, l'**Amministrazione comunale**, diverse **istituzioni**, **associazioni ONLUS**, **librerie**, una **piscina**, **cooperative**, **Altre scuole** e **Agenzie Formative/Università/Altro**. Questa rete di collaborazioni rappresenta un punto di forza per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. Particolare attenzione è rivolta alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientativo includono la riduzione dell'**abbandono** scolastico, il rafforzamento del legame con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul rapporto con i **genitori**, sul **monitoraggio delle azioni** e sull'implementazione di un **sistema integrato di inclusione e supporto alla fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** con enti e istituzioni del territorio, che permette di offrire agli studenti un'ampia gamma di opportunità formative e orientative. L'attenzione alle finalità orientative, agli obiettivi di contrasto all'abbandono e di promozione del lifelong learning, e l'impegno per un sistema integrato di inclusione rappresentano ulteriori elementi positivi. Le attività registrate, come le **Visite didattiche a musei, teatri, biblioteche** e i progetti di **Progetti anti-dispersione con associazioni**, dimostrano un impegno concreto nell'implementazione di azioni orientative.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata e organica all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene siano presenti numerose attività, la mancanza di una struttura definita potrebbe limitare l'efficacia e la coerenza dell'offerta orientativa.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'area specifica all'interno del PTOF dedicata all'orientamento, con obiettivi, azioni e indicatori di valutazione chiaramente definiti. Questo permetterebbe di massimizzare l'impatto delle numerose attività già esistenti e di garantire una maggiore coerenza con le finalità generali del PTOF.\n\n### 6. Conclusioni\n\nIl PTOF della scuola C.T.P. C/O S.M.S. \"Confalonieri\" Monza dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle finalità e degli obiettivi. Tuttavia, per ottimizzare l'efficacia dell'offerta orientativa, è necessario strutturare una sezione dedicata all'interno del PTOF, con obiettivi, azioni e indicatori di valutazione specifici. L'implementazione di tale sezione permetterebbe di valorizzare appieno le risorse disponibili e di garantire un supporto adeguato agli studenti nelle loro scelte formative e professionali. Le attività come **Visite scuole superiori** e **Progetto Etwinning** sono esempi di iniziative che, se integrate in un quadro più ampio, possono contribuire significativamente al successo dell'orientamento."
+}

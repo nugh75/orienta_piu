@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CBPS00201D",
+    "denominazione": "Ist. Superiore \"Mario Pagano",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Riccia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Campobasso",
+    "regione": "Molise",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Panichella 45",
+    "cap": "86016",
+    "email": "cbis002003@istruzione.it",
+    "pec": "ceps02000t@pec.istruzione.it",
+    "website": "www.liceopagano.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma attività di orientamento sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "associazioni di categoria",
+        "imprese locali",
+        "G. Pascoli",
+        "A. De Curtis",
+        "D. Cimarosa",
+        "Basile Don Milani Parete",
+        "Cambridge Assessment",
+        "Università pubbliche"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni e accordi con imprese locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione rubriche valutative condivise, test d'ingresso, percorsi di orientamento",
+      "target": "Docenti, studenti, genitori"
+    },
+    {
+      "titolo_attivita": "Commissione prove per classi parallele",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione test d'ingresso e in itinere",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Commissione di educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Elaborazione UDA interdisciplinari",
+      "target": "Consigli di classe"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Valorizzazione didattica a distanza",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Programmare per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione per competenze, UDA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Cambridge International Medical Sciences",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione all'esame IMAT per l'ammissione a corsi di medicina in inglese.",
+      "target": "Studenti del Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "PTCO (Percorsi per le Competenze Trasversali e per l'Orientamento)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi focalizzati sull’area medica e biomedica.",
+      "target": "Studenti del Liceo Scientifico Indirizzo Biomedico"
+    },
+    {
+      "titolo_attivita": "PCTO Ingegneria e Architettura",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage in aziende del settore",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO Scienze della Vita",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Laboratori e visite guidate",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO Giuridico-Economico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Simulazioni e incontri con professionisti",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Olimpiadi disciplinari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni per stimolare competenze",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Peer to peer education",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Mentoring tra studenti per supporto e recupero",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Appuntamenti con il medico",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri seminariali su anatomia, fisiologia e biomeccanica umana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti specifici",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CBPS00201D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico - Riccia** (CBPS00201D) per il triennio 2022-2025. La scuola, situata nel territorio non metropolitano del Molise, si configura come un istituto statale di II grado. L'analisi evidenzia un approccio all'orientamento integrato nelle diverse aree del PTOF, piuttosto che concentrato in una sezione specifica, sebbene siano presenti diverse attività mirate. Il PTOF dimostra un'attenzione particolare alle finalità di orientamento, quali lo sviluppo di attitudini, interessi, progettazione del percorso di vita, supporto alle transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nNonostante l'assenza di una sezione specificamente dedicata all'orientamento nel PTOF, l'istituto integra efficacemente le attività di orientamento all'interno di altre aree programmatiche. Questo approccio dimostra una consapevolezza dell'importanza di permeare l'orientamento in tutta la vita scolastica.\n\n**2.2 Partnership:**\n\nIl liceo vanta un solido network di partnership, con un punteggio di 3 su 3, che include **associazioni di categoria**, **imprese locali**, diversi istituti scolastici come **G. Pascoli**, **A. De Curtis**, **D. Cimarosa** e **Basile Don Milani Parete**, **Cambridge Assessment** e **Università pubbliche**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, offrendo agli studenti opportunità di contatto con il mondo del lavoro e del sapere.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate in modo approfondito, con un punteggio di 4 su 5 per ciascuna delle aree considerate: sviluppo di attitudini, interessi, progettazione del percorso di vita, supporto alle transizioni formative e sviluppo della capacità di cogliere le opportunità. Questo indica un'attenzione completa allo sviluppo personale e professionale degli studenti.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento sono orientati alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning, tutti con un punteggio di 3 su 3. Questi obiettivi riflettono un impegno concreto verso l'inclusione e la preparazione degli studenti al futuro.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste dal PTOF per supportare l'orientamento, come il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione con l'inclusione e la fragilità, ottengono un punteggio di 3 su 3. Questo suggerisce un approccio sistemico e collaborativo all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su metodologie innovative, come l'apprendimento dall'esperienza degli studenti e la flessibilità degli spazi e dei tempi, con un punteggio di 4 su 4. L'approccio interdisciplinare riceve lo stesso punteggio. La didattica laboratoriale, invece, risulta meno sviluppata, con un punteggio di 2 su 4.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di opzionali e attività facoltative comprende opzionali culturali, laboratoriali ed espressive, volontariato e sportive, tutte con un punteggio di 3 su 4. Le attività ludiche e ricreative, invece, ricevono un punteggio inferiore (1 su 4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella solida rete di **partnership**, nell'attenzione alle **finalità** di orientamento, nell'approccio sistemico delle **azioni** e nell'utilizzo di metodologie didattiche innovative. L'attività **PCTO** e il **curricolo verticale** sono particolarmente rilevanti. L'impegno verso la preparazione degli studenti per l'accesso a corsi di laurea specifici, come il percorso **Cambridge International Medical Sciences**, rappresenta un valore aggiunto significativo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata all'orientamento nel PTOF, sebbene questo sia compensato dall'integrazione delle attività in altre aree. La didattica laboratoriale potrebbe essere ulteriormente potenziata. L'offerta di attività ludiche e ricreative risulta meno sviluppata rispetto ad altre tipologie di opzionali.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la formalizzazione di una strategia di orientamento più esplicita e strutturata all'interno del PTOF. Sebbene le attività siano presenti e ben integrate, una sezione dedicata permetterebbe di evidenziare in modo più chiaro gli obiettivi, le azioni e i risultati attesi. Un potenziamento della didattica laboratoriale e un'amplificazione dell'offerta di attività ludiche e ricreative potrebbero contribuire a rendere l'offerta orientativa ancora più completa.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico - Riccia** dimostra un'attenzione significativa all'orientamento, integrando efficacemente le attività in diverse aree programmatiche. La solida rete di **partnership** e l'impegno verso lo sviluppo delle competenze degli studenti rappresentano punti di forza importanti. Pur non disponendo di una sezione dedicata, il PTOF offre un quadro completo e coerente delle attività di orientamento, con un focus particolare sulle finalità, gli obiettivi e le azioni di sistema. Un ulteriore formalizzazione della strategia di orientamento potrebbe contribuire a rafforzare l'efficacia del PTOF e a garantire un supporto ancora più completo agli studenti nella loro progettazione del futuro."
+}

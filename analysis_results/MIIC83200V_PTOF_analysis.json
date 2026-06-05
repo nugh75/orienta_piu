@@ -1,0 +1,295 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIIC83200V",
+    "denominazione": "I.C. Settimo Milanese",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Settimo Milanese",
+    "anno_ptof": "2016/2019",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Buozzi 1",
+    "cap": "20019",
+    "email": "miic83200v@istruzione.it",
+    "pec": "miic83200v@pec.istruzione.it",
+    "website": "www.icsettimomilanese.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Esplicita attenzione all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni",
+        "religiose",
+        "agenzie del territorio",
+        "Comitato Intercomunale per la Pace",
+        "Sercop",
+        "Cooperativa sociale Contina",
+        "Caritas Ambrosiana",
+        "Rotary Club Rho",
+        "CRI",
+        "Polizia Locale",
+        "Comune",
+        "Biblioteca",
+        "Coop",
+        "Società sportive"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Le Botteghe",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "attività laboratoriali per alunni DVA e BES",
+      "target": "alunni DVA e BES"
+    },
+    {
+      "titolo_attivita": "SOS scuola",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "sostegno allo studio e recupero",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "progetto di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "incontri con famiglie e mostra vetrina",
+      "target": "famiglie e studenti"
+    },
+    {
+      "titolo_attivita": "Le Botteghe",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Spazi creativi per alunni DVA, collaborazione docenti-alunni",
+      "target": "Alunni DVA"
+    },
+    {
+      "titolo_attivita": "La mia scuola per la pace",
+      "categoria_principale": "Convivenza",
+      "descrizione_e_metodologia": "Percorso creativo per il rispetto dei diritti e delle regole",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Intercultura",
+      "categoria_principale": "Convivenza",
+      "descrizione_e_metodologia": "Poesie di culture altre per socializzazione senza pregiudizi",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Senza frontiere",
+      "categoria_principale": "Convivenza",
+      "descrizione_e_metodologia": "Mediazione culturale per alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Io sono speciale",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Autostima, rispetto di sé e prevenzione abusi/bullismo",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "SOS scuola",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Prevenzione insuccesso/dispersione scolastica",
+      "target": "Alunni fragili"
+    },
+    {
+      "titolo_attivita": "Città dei bambini e dei ragazzi",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Conoscenza diritti universali",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Inglese Giocando con l'inglese",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Approccio ludico alla lingua inglese",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Animazione del libro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita biblioteca, lettura storia, attività ludico-creative",
+      "target": "Alunni 5 anni"
+    },
+    {
+      "titolo_attivita": "Lettura ed espressività",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lettura teatrale, drammatizzazione, esercizi espressivi",
+      "target": "Alunni 5 anni"
+    },
+    {
+      "titolo_attivita": "Coop… scuola",
+      "categoria_principale": "Educazione al consumo",
+      "descrizione_e_metodologia": "Laboratori interattivi Coop e a scuola",
+      "target": "Classi 2^, 3^, 4^, 5^ primaria"
+    },
+    {
+      "titolo_attivita": "Fragmenta latinitatis",
+      "categoria_principale": "Potenziamento linguistico",
+      "descrizione_e_metodologia": "Studio elementi base lingua latina",
+      "target": "Scuola secondaria 1° grado"
+    },
+    {
+      "titolo_attivita": "Attività motoria",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria con specialisti",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Gioco al Volley",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Manifestazione FIPAV",
+      "target": "Classi 5^ primaria"
+    },
+    {
+      "titolo_attivita": "Roller",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Potenziamento attività motoria",
+      "target": "Scuola primaria Settimo"
+    },
+    {
+      "titolo_attivita": "Sviluppare le capacità motorie di base",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività fisica, psicologica e affettiva",
+      "target": "Classi 1^ primaria Seguro"
+    },
+    {
+      "titolo_attivita": "Raccordo nido/infanzia",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Esplorazione spazi, interazione con futuri compagni",
+      "target": "Bambini Asilo Nido"
+    },
+    {
+      "titolo_attivita": "Raccordo infanzia/primaria",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Conoscenza nuove figure educative",
+      "target": "Bambini scuola infanzia"
+    },
+    {
+      "titolo_attivita": "Raccordo primaria/secondaria",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Visita scuola secondaria, incontro docenti",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Orientiamoci",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con specialisti, psicologi, mostravetrina",
+      "target": "Alunni scuola secondaria 1° grado"
+    },
+    {
+      "titolo_attivita": "Formazione docenti su DSA",
+      "categoria_principale": "Inclusione e disabilità",
+      "descrizione_e_metodologia": "Osservazione e buone pratiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Area disciplinare - innovazione didattica",
+      "descrizione_e_metodologia": "Formazione in presenza",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti Interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi mirati sui bisogni e interessi",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività operative, interclasse",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIIC83200V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Settimo Milanese (MIIC83200V), relativo all'anno 2016/2019. L'istituto, comprensivo e situato nel territorio metropolitano di Settimo Milanese, dimostra una chiara attenzione all'orientamento, come evidenziato dal punteggio di 2 nella sezione dedicata. L'approccio all'orientamento si articola su diverse dimensioni, tra cui la partnership con enti esterni, la definizione di finalità educative, la formulazione di obiettivi specifici, l'implementazione di azioni sistemiche, l'adozione di metodologie didattiche orientative e l'offerta di attività opzionali e facoltative. L'analisi delle attività registrate conferma un impegno concreto nella realizzazione di percorsi orientativi e di supporto agli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, con un punteggio di 2, indicando un'esplicita attenzione a questa tematica.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership, con un punteggio di 4 e la collaborazione di ben 13 partner, tra cui **associazioni**, enti **religiosi**, **agenzie del territorio**, il **Comitato Intercomunale per la Pace**, **Sercop**, **Cooperativa sociale Contina**, **Caritas Ambrosiana**, **Rotary Club Rho**, **CRI**, **Polizia Locale**, **Comune**, **Biblioteca**, **Coop** e **società sportive**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi di 3 per l'attenzione alle **attitudini**, agli **interessi**, al **progetto di vita** e alle **transizioni formative**, e un punteggio di 4 per lo sviluppo delle **capacità orientative** e l'individuazione delle **opportunità**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico (punteggio 3), a garantire la **continuità** territoriale (punteggio 3), a **contrastare il fenomeno NEET** (punteggio 2) e a promuovere il **lifelong learning** (punteggio 2).\n\n**2.5 Azioni Sistema:** Le azioni sistemiche implementate prevedono il **coordinamento dei servizi** (punteggio 3), il **dialogo tra docenti e studenti** (punteggio 3), il **rapporto scuola-genitori** (punteggio 3), il **monitoraggio delle azioni** (punteggio 3) e un particolare focus sull'integrazione e la fragilità (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di metodologie **laboratoriali** (punteggio 2), sulla **flessibilità degli spazi e dei tempi** (punteggio 2) e sull'approccio **interdisciplinare** (punteggio 3).\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 3) e **sportive** (punteggio 4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella consolidata rete di **partnership** con enti del territorio, nella chiarezza delle **finalità** educative, nell'attenzione all'integrazione e alla fragilità, e nella varietà dell'offerta di attività opzionali e facoltative. Le attività registrate, come \"**Le Botteghe**\" per alunni con **DSA** e **BES**, \"**SOS scuola**\" per il sostegno allo studio, il \"**progetto di orientamento**\" con incontri e mostre, e \"**Orientiamoci**\" per gli studenti della scuola secondaria di primo grado, testimoniano un impegno concreto nella realizzazione di percorsi orientativi personalizzati.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF sembrano concentrarsi sulla necessità di potenziare le azioni volte a contrastare il fenomeno **NEET** e a promuovere il **lifelong learning**, come evidenziato dai punteggi inferiori in queste aree. Inoltre, l'utilizzo di metodologie didattiche **laboratoriali** e la **flessibilità degli spazi e dei tempi** potrebbero essere ulteriormente sviluppate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** in azioni concrete e misurabili. È auspicabile un maggiore investimento in attività di orientamento al mondo del lavoro e di sviluppo delle competenze trasversali, nonché un potenziamento delle metodologie didattiche innovative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Settimo Milanese dimostra una buona attenzione all'orientamento, con un solido network di partnership, finalità educative chiare e un'offerta di attività diversificata. Pur presentando alcune aree di debolezza, l'istituto si impegna a fornire un supporto adeguato agli studenti, promuovendo il loro sviluppo personale e professionale. L'implementazione di azioni mirate a colmare i gap individuati consentirebbe di rafforzare ulteriormente l'efficacia dell'offerta orientativa e di garantire un futuro migliore per tutti gli studenti."
+}

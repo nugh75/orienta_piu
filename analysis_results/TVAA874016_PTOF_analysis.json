@@ -1,0 +1,256 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TVAA874016",
+    "denominazione": "Ic Treviso 5 \"Coletti",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Treviso",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Treviso",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Olimpia 5",
+    "cap": "31100",
+    "email": "tvic874009@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.comprensivo5colettitv.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione presente, ma l'analisi risulta superficiale. Si evidenzia la necessità di una descrizione più dettagliata delle attività e degli obiettivi specifici dell'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "Altre scuole",
+        "Altre associazioni",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, supporto compiti.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni esterne.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Interventi educativi e didattici per inclusione e prevenzione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria, secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Espressione e creatività",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2, percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per scelta scolastica/professionale.",
+      "target": "Alunni classi terze scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in attività",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti con associazioni e volontariato",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TVAA874016\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **S. Paolo** di **Treviso** (TVAA874016), relativo al triennio 2019/20-2021/22. La scuola, di ordine **Infanzia**, statale e situata in un territorio **non metropolitano** della regione **Veneto**, dimostra un impegno nell'orientamento, sebbene con alcune aree che necessitano di approfondimento. L'analisi evidenzia una buona rete di **partnership** e una discreta attenzione alle finalità dell'orientamento, ma anche la necessità di potenziare alcuni aspetti legati alla didattica e agli obiettivi specifici.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è confermata, ottenendo un punteggio di 4. Tuttavia, l'analisi suggerisce una certa superficialità nell'approfondimento delle attività e degli obiettivi specifici, richiedendo una descrizione più dettagliata per una piena comprensione dell'approccio scolastico.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di **partnership**, con un punteggio di 5 e ben 17 partner nominati. Tra questi figurano l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, diversi **musei** e l'**Archivio di Stato**, oltre a **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione **\"Giardino Felice\"**, la Cooperativa **(SIS Giotti)**, altre scuole, altre associazioni, le **Autonomie locali** e l'**ASL**. Questa ricchezza di collaborazioni rappresenta un punto di forza significativo.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate adeguate, con punteggi di 4 per le attitudini, gli interessi, il progetto di vita e le capacità orientative verso le opportunità. Particolarmente apprezzata è l'attenzione alle **transizioni formative** (punteggio 5).\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF mostrano una buona coerenza con le finalità, con punteggi di 4 per la riduzione dell'abbandono scolastico e la continuità territoriale. L'obiettivo di contrastare il fenomeno **NEET** ottiene un punteggio inferiore (2), mentre l'attenzione al **lifelong learning** si attesta a 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono valutate positivamente, con punteggi di 4 per il coordinamento dei servizi, il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità. Il dialogo tra docenti e studenti, invece, ottiene un punteggio di 3, suggerendo la necessità di rafforzare questo aspetto. Anche il monitoraggio delle azioni è considerato un punto da migliorare (punteggio 3).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci diversificati, con punteggi di 3 per l'apprendimento dall'esperienza degli studenti, la didattica laboratoriale, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi di 4 per le opzionali laboratoriali ed espressive. Le opzionali culturali, ludiche-ricreative, di volontariato e sportive ottengono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, la vasta rete di **partnership** con enti e associazioni del territorio, e l'attenzione alle **transizioni formative**. L'impegno nell'inclusione e la promozione del benessere degli studenti rappresentano ulteriori elementi positivi. Le attività registrate, come **\"Collaborazione con associazioni del territorio\"** e **\"Programma Benessere\"**, testimoniano un approccio proattivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella superficialità dell'analisi relativa all'orientamento, che necessita di una descrizione più dettagliata delle attività e degli obiettivi specifici. Anche il contrasto al fenomeno **NEET** e il rafforzamento del dialogo tra docenti e studenti richiedono maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di tradurre le buone intenzioni e le finalità dichiarate in azioni concrete e misurabili. È necessario definire indicatori di performance specifici per valutare l'efficacia delle attività di orientamento e monitorare i progressi degli studenti. L'attività **\"Monitoraggio Risultati Alunni\"** è un passo in questa direzione, ma necessita di essere integrata con una valutazione più approfondita delle competenze orientative acquisite.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **S. Paolo** di **Treviso** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La ricchezza delle **partnership** e l'attenzione alle finalità rappresentano un solido punto di partenza. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario approfondire l'analisi delle attività, definire obiettivi specifici e misurabili, e rafforzare il dialogo tra tutti gli attori coinvolti. Attività come **\"Orientamento In Uscita Classi Terze Scuola Secondaria\"** e **\"Progetti di inclusione\"** sono promettenti e dovrebbero essere ulteriormente sviluppate."
+}

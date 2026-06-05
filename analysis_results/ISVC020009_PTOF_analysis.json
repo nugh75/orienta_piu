@@ -1,0 +1,194 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ISVC020009",
+    "denominazione": "Convitto San Frncesco Caracciolo",
+    "tipo_scuola": "Convitto",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Agnone",
+    "anno_ptof": "2024/2025",
+    "provincia": "Isernia",
+    "regione": "Molise",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via De Horatiis Snc",
+    "cap": "86081",
+    "email": "isvc020009@istruzione.it",
+    "pec": "ND",
+    "website": "www.icdagnillo.edu.it",
+    "tipo_scuola_dettaglio": "Convitto Annesso"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "ASREM Isernia",
+        "Servizi sociali territoriali",
+        "Privato sociale",
+        "Volontariato",
+        "ASREM",
+        "CTS di Isernia",
+        "Istituti dell’Alto Molise",
+        "Enti Istituzionali",
+        "Associazioni di volontariato"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sportello di ascolto per il supporto psicologico",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Servizio di supporto psicologico per studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Aggiornamento webinar",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Webinar su decreto correttivo 153/2023",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Convegno nazionale sportelli autismo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Convegno online",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi EMC comunicazione efficace",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi online",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rimini",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Convegno internazionale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Master lingua italiana",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Master",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire integrazione, conoscenza, 'star bene insieme'",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Protocollo accoglienza alunni BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Guida per accoglienza, integrazione, inclusione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Progetti per studenti ucraini",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Normalità a scuola",
+      "target": "Studenti ucraini"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per studenti del triennio",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Aule relax",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Spazi dedicati al relax",
+      "target": "Alunni con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ISVC020009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Convitto San Francesco Caracciolo** (ISVC020009) per l'anno scolastico 2024/2025. L'istituto, situato nel territorio non metropolitano di **Agnone** (Isernia, Molise), opera su diversi ordini di grado, includendo Infanzia, Primaria, I Grado, II Grado e Liceo. L'analisi evidenzia un impegno significativo verso l'inclusione e l'orientamento, con una particolare attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale e al contrasto del fenomeno NEET. La scuola si configura come un istituto statale con una solida rete di **partnership** e un'offerta didattica orientativa diversificata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'inclusione, ottenendo un punteggio massimo di 5, a testimonianza di un'attenzione prioritaria a questo aspetto cruciale.\n\n**2.2 Partnership:** L'istituto vanta una rete di **partnership** consolidata, comprendente **ASREM Isernia**, **Servizi sociali territoriali**, **Privato sociale**, **Volontariato**, **ASREM**, **CTS di Isernia**, **Istituti dell’Alto Molise**, **Enti Istituzionali** e **Associazioni di volontariato**, per un totale di 9 partner. Questo network supporta le attività di orientamento e inclusione, ampliando le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi elevati in tutte le aree considerate: attitudini (6), interessi (6), progetto di vita (7), transizioni formative (6) e capacità orientative e opportunità (6). Questo indica un approccio olistico che mira a sviluppare le potenzialità individuali degli studenti e a prepararli per il futuro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'abbandono scolastico (5), sulla continuità territoriale (5), sul contrasto del fenomeno NEET (4) e sulla promozione del lifelong learning (5). Questi obiettivi riflettono le priorità dell'istituto e la sua volontà di contribuire al benessere della comunità locale.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono orientate al coordinamento dei servizi (6), al dialogo tra docenti e studenti (5), al rapporto scuola-genitori (6), al monitoraggio delle azioni (5) e alla creazione di un sistema integrato di inclusione e fragilità (7). Questo approccio sistemico mira a garantire un supporto completo e personalizzato agli studenti.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (5), sull'utilizzo di laboratori (3), sulla flessibilità degli spazi e dei tempi (6) e sull'interdisciplinarità (5). Questo approccio didattico mira a rendere l'apprendimento più coinvolgente e significativo per gli studenti.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende opzionali culturali (3), laboratoriali ed espressive (4), ludiche e ricreative (3), di volontariato (4) e sportive (3). Questa varietà di attività permette agli studenti di esplorare i propri interessi e di sviluppare le proprie passioni.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte attenzione all'inclusione, nella consolidata rete di **partnership**, nella chiarezza delle finalità e degli obiettivi, nell'approccio sistemico alle azioni e nella varietà dell'offerta didattica orientativa. L'attività **Progetto accoglienza alunni stranieri** e il **Protocollo accoglienza alunni BES** sono particolarmente degni di nota, così come l'impegno per i **Progetti per studenti ucraini**. L'istituto dimostra una sensibilità elevata alle esigenze degli studenti più vulnerabili e un impegno concreto per garantire loro pari opportunità.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza riscontrata riguarda la didattica laboratoriale, che ottiene un punteggio di 3, suggerendo la necessità di potenziare questa componente dell'offerta formativa. Anche le opzionali culturali, ludiche e sportive potrebbero essere ulteriormente sviluppate per offrire agli studenti una gamma più ampia di opportunità.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di tradurre le buone intenzioni espresse nel PTOF in azioni concrete e misurabili. È importante definire indicatori di performance specifici per monitorare l'efficacia delle attività di orientamento e inclusione e per valutare il raggiungimento degli obiettivi prefissati. L'attività **PCTO** rappresenta un'opportunità per colmare questo gap, offrendo agli studenti un'esperienza pratica e orientativa nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Convitto San Francesco Caracciolo** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento e l'inclusione. L'istituto dimostra un forte impegno verso il benessere degli studenti e la loro preparazione per il futuro. L'attività di **Sportello di ascolto per il supporto psicologico** e i corsi di **Formazione** per i docenti, come l'**Aggiornamento webinar**, il **Convegno nazionale sportelli autismo**, i **Corsi EMC comunicazione efficace**, **Rimini** e il **Master lingua italiana**, sono elementi chiave per garantire un servizio di qualità. È importante continuare a investire in queste aree e a monitorare costantemente l'efficacia delle azioni intraprese per garantire un futuro migliore per tutti gli studenti. L'implementazione di **Aule relax** dimostra un'attenzione particolare al benessere degli alunni con BES."
+}

@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEPS05000A",
+    "denominazione": "Ugo Morin",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Venezia",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Asseggiano N. 39",
+    "cap": "30174",
+    "email": "veps05000a@istruzione.it",
+    "pec": "veps05000a@pec.istruzione.it",
+    "website": "www.liceomorin.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività proposte da Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività plurime a distanza con l'ausilio di tecnologie, mediazione dei genitori",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VEPS05000A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo Ugo Morin (VEPS05000A) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, situato a Venezia, si configura come una scuola statale di II grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione specifica per l'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, l'offerta didattica orientativa e le attività opzionali. La valutazione complessiva evidenzia un impegno significativo nella realizzazione di attività laboratoriali e nel coinvolgimento dei genitori, con margini di miglioramento nella definizione di finalità più ampie legate al progetto di vita e alle transizioni formative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio nullo.\n\n**2.2 Partnership:** L'istituto dimostra una buona capacità di collaborare con diversi partner esterni. Sono attive collaborazioni con **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**, per un totale di 5 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo di attitudini e interessi degli studenti, ottenendo un punteggio di 3 per entrambe le aree. Tuttavia, l'attenzione al **progetto di vita** e alle **transizioni formative** risulta meno sviluppata, con un punteggio di 1 per ciascuna. Anche la capacità di orientare gli studenti verso le opportunità formative future ottiene un punteggio di 1.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientativo mirano a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. Tutti questi obiettivi ricevono un punteggio di 1, indicando un impegno generale ma non particolarmente approfondito.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Il rapporto con i genitori e il sistema integrato di inclusione ricevono un punteggio di 3, mentre le altre azioni ottengono un punteggio di 2 o 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa principalmente sull'esperienza degli studenti, con un punteggio di 4. Buoni risultati sono ottenuti anche con la didattica laboratoriale, la flessibilità degli spazi e dei tempi, e l'approccio interdisciplinare, tutte con un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni laboratoriali ed espressive, ludiche e ricreative, con un punteggio di 3 per ciascuna. Le opzioni culturali, di volontariato e sportive risultano meno sviluppate, con un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership** attivate, nell'impegno verso la didattica esperienziale e laboratoriale, e nell'attenzione al coinvolgimento dei **genitori**. L'istituto dimostra una buona capacità di organizzare attività pratiche e di creare un ambiente di apprendimento flessibile e stimolante. L'offerta di laboratori diversificati, come quelli di **coding**, **musica**, **scienze**, **educazione motoria**, **pittura**, **lettura**, **lingua cinese** ed **educazione alimentare**, rappresenta un valore aggiunto per gli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna significativa. Inoltre, le finalità dell'orientamento appaiono focalizzate principalmente sullo sviluppo di attitudini e interessi, con una minore attenzione al **progetto di vita** e alle **transizioni formative** degli studenti. Gli obiettivi, pur essendo presenti, non sono sufficientemente approfonditi e dettagliati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta di orientamento più completa e integrata nel PTOF. È necessario definire finalità più ampie e ambiziose, che vadano oltre lo sviluppo di attitudini e interessi, e che tengano conto delle aspirazioni individuali degli studenti e delle loro future scelte formative e professionali. È inoltre importante potenziare le azioni di monitoraggio e valutazione, al fine di verificare l'efficacia delle iniziative intraprese e di apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF del Liceo Ugo Morin dimostra un impegno significativo nell'ambito dell'orientamento, con particolare attenzione alla didattica esperienziale e al coinvolgimento dei genitori. Tuttavia, è necessario colmare le lacune esistenti, strutturando un'offerta di orientamento più completa e integrata, definendo finalità più ampie e ambiziose, e potenziando le azioni di monitoraggio e valutazione. L'istituto potrebbe beneficiare di una maggiore attenzione al **progetto di vita** degli studenti e alle loro **transizioni formative**, al fine di prepararli al meglio per il futuro. L'attività di **valutazione** tramite questionari a genitori e personale è un buon punto di partenza per il miglioramento continuo."
+}

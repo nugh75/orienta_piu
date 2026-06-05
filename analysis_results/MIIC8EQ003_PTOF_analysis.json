@@ -1,0 +1,239 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIIC8EQ003",
+    "denominazione": "Ic Gobetti",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Trezzano Sul Naviglio",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Tintoretto 9",
+    "cap": "20090",
+    "email": "miic8eq003@istruzione.it",
+    "pec": "miic8eq003@pec.istruzione.it",
+    "website": "www.icsgobetti.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Comune",
+        "Associazioni del territorio",
+        "Associazione Genitori",
+        "altre istituzioni scolastiche",
+        "musei",
+        "istituti pubblici e privati",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "amministrazione comunale",
+        "enti",
+        "associazioni",
+        "organizzazioni",
+        "ASL",
+        "Provincia",
+        "cooperative",
+        "Enti di formazione",
+        "centri",
+        "Salvambiente"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Consiglio Comunale dei Ragazzi",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Sviluppare competenze di cittadinanza attiva",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Ioleggoperché",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Partecipazione a iniziative di lettura",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi per acquisire certificazioni A2 e B1",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Bon Ton Web",
+      "categoria_principale": "Prevenzione e Sicurezza",
+      "descrizione_e_metodologia": "Interventi psicologo/giurista, incontri genitori/docenti",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Progetto GSS",
+      "categoria_principale": "Sport e Salute",
+      "descrizione_e_metodologia": "Percorsi sportivi, sviluppo motorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola Attiva Junior",
+      "categoria_principale": "Sport e Salute",
+      "descrizione_e_metodologia": "Percorsi sportivi, attività multidisciplinari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orchestra Barocca Di Flauti",
+      "categoria_principale": "Musica e Arte",
+      "descrizione_e_metodologia": "Percorso musicale extracurricolare",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Servizio di Psicologia Scolastica",
+      "categoria_principale": "Supporto Psicologico",
+      "descrizione_e_metodologia": "Sportello di ascolto per studenti, genitori e personale scolastico.",
+      "target": "Studenti, Genitori, Personale"
+    },
+    {
+      "titolo_attivita": "Alice Dei Diritti",
+      "categoria_principale": "Teatro Sociale",
+      "descrizione_e_metodologia": "Laboratorio teatrale sui diritti del fanciullo.",
+      "target": "Studenti Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Progetto di Alfabetizzazione Alunni Stranieri",
+      "categoria_principale": "Italiano L2",
+      "descrizione_e_metodologia": "Laboratori di alfabetizzazione per alunni stranieri.",
+      "target": "Alunni Stranieri Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Scuola aperta",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Primo momento utile alla conoscenza della struttura scolastica",
+      "target": "Futuri alunni"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio informazioni utili per la continuità educativa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "L’ACQUA MIRACOLOSA",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Laboratorio con burattini e costruzione di racconti sull'acqua.",
+      "target": "Bambini 5-6 anni"
+    },
+    {
+      "titolo_attivita": "L’ACQUA RISORSA PREZIOSA",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Sperimentazione e analisi dell'acqua.",
+      "target": "Classi terze scuola primaria"
+    },
+    {
+      "titolo_attivita": "L’ORTO IN ECOBOX",
+      "categoria_principale": "Scienze/Educazione Ambientale",
+      "descrizione_e_metodologia": "Realizzazione di orti verticali con materiali di recupero.",
+      "target": "Classi prime scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Coordinare esperienze formative con l’amministrazione comunale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri e visite guidate",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Migliorare la relazione fra pari, docenti e alunni",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Percorsi mirati e calibrati",
+      "target": "Alunni, Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIIC8EQ003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic Gobetti** (MIIC8EQ003) per il triennio 2022-2025. La scuola, situata nel territorio metropolitano di **Trezzano Sul Naviglio** (Milano), si configura come un istituto comprensivo che abbraccia i gradi di infanzia, primaria e secondaria di primo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata presente nel PTOF e un'ampia rete di **partnership** attivate. I punteggi ottenuti nelle diverse dimensioni dell'orientamento indicano una buona attenzione alle finalità formative, agli obiettivi di riduzione dell'abbandono scolastico e alla creazione di un sistema integrato di supporto all'inclusione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** molto ampio e diversificato, comprendendo **Comune**, **Associazioni del territorio**, **Associazione Genitori**, altre istituzioni scolastiche, **musei**, **istituti pubblici e privati**, **organizzazioni del terzo settore**, **imprese**, l'**amministrazione comunale**, vari **enti** e **associazioni**, l'**ASL**, la **Provincia**, **cooperative**, **Enti di formazione**, **centri** e **Salvambiente**. Questo elevato numero di collaborazioni (15 partner nominati) suggerisce una forte volontà di integrare l'azione educativa con le risorse del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** degli studenti, a supportare il loro **progetto di vita** e a facilitare le **transizioni formative**. Particolarmente elevata è l'attenzione allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal contesto.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF puntano a **ridurre l'abbandono** scolastico, a garantire la **continuità** con il territorio, a **contrastare il fenomeno NEET** (anche se con un punteggio inferiore rispetto ad altri obiettivi) e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul rafforzamento del **rapporto scuola-genitori**, sul **monitoraggio delle azioni** intraprese e sulla creazione di un **sistema integrato di inclusione e supporto alla fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza** degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla flessibilità degli spazi e dei tempi (anche se con punteggi inferiori) e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella presenza di una sezione dedicata, nell'ampia rete di **partnership** attivate, nella chiarezza delle **finalità** formative e nella completezza delle **azioni di sistema** previste. L'impegno per la riduzione dell'abbandono scolastico e l'inclusione rappresentano ulteriori elementi di valore. Le attività come **Consiglio Comunale dei Ragazzi**, **Ioleggoperché** e **Certificazioni linguistiche** dimostrano un approccio pratico e orientato all'azione.\n\n### 4. Aree di Debolezza\n\nLe aree di miglioramento riguardano principalmente la didattica orientativa, che presenta punteggi inferiori in termini di flessibilità degli spazi e dei tempi, e l'obiettivo di contrastare il fenomeno **NEET**. Potrebbe essere utile potenziare le attività laboratoriali e sperimentare approcci didattici più innovativi.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi ambiziosi del PTOF in azioni concrete e misurabili. È importante definire indicatori di performance specifici per monitorare l'efficacia delle iniziative di orientamento e valutare l'impatto sulle scelte formative e professionali degli studenti. L'attività **Migliorare la relazione fra pari, docenti e alunni** potrebbe essere potenziata per creare un clima scolastico più favorevole all'orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Ic Gobetti** presenta un approccio solido e ben strutturato all'orientamento. L'istituto dimostra una forte consapevolezza dell'importanza di questo ambito e si impegna a fornire agli studenti un supporto adeguato per affrontare le sfide del futuro. Il potenziamento delle aree di debolezza e la definizione di indicatori di performance specifici consentiranno di massimizzare l'efficacia delle azioni intraprese e di raggiungere gli obiettivi prefissati. Attività come **Progetto GSS**, **Scuola Attiva Junior**, **Servizio di Psicologia Scolastica** e **Progetto di Alfabetizzazione Alunni Stranieri** contribuiscono a creare un ambiente scolastico inclusivo e orientato al benessere degli studenti."
+}

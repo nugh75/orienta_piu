@@ -1,0 +1,312 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BGMM82703X",
+    "denominazione": "Bonate Sotto \"Clara Levi",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Madone",
+    "anno_ptof": "2016",
+    "provincia": "Bergamo",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Donadoni 4/1",
+    "cap": "24040",
+    "email": "bgic82700r@istruzione.it",
+    "pec": "ND",
+    "website": "www.icbonatesotto.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata e strutturata con questo titolo. Le iniziative sono integrate in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Istituto Don Nicola Mazza",
+        "agenzie",
+        "istituzioni",
+        "British School Of Verona",
+        "Università degli Studi di Verona",
+        "Museo di Castelvecchio",
+        "Fondazione Querini Stampalia"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Vade mecum",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Gephyra",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori sul metodo di studio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di accoglienza e supporto allo studio",
+      "target": "Alunni primi anni"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi per recuperare debiti formativi",
+      "target": "Alunni licei"
+    },
+    {
+      "titolo_attivita": "La Musica al liceo",
+      "categoria_principale": "Artistico-Musicale",
+      "descrizione_e_metodologia": "Progetto sperimentale",
+      "target": "Bienni liceali"
+    },
+    {
+      "titolo_attivita": "Attività formative e spirituali",
+      "categoria_principale": "Educativa",
+      "descrizione_e_metodologia": "Progetto",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sipario: i licei “don Mazza” a Teatro",
+      "categoria_principale": "Teatrale",
+      "descrizione_e_metodologia": "Progetto",
+      "target": "Trienni e Bienni"
+    },
+    {
+      "titolo_attivita": "Informatica: patente europea",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corsi per certificazione",
+      "target": "Licei"
+    },
+    {
+      "titolo_attivita": "Corsi per certificazioni linguistiche",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Corsi per certificazione",
+      "target": "Licei"
+    },
+    {
+      "titolo_attivita": "Progetto Mens sana in corpore sano",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Educazione alla salute e benessere per studenti licei",
+      "target": "Studenti licei"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Progetti annuali per studenti scuola secondaria di primo grado",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Progetti annuali per studenti scuola secondaria di primo grado",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Uscita naturalistica al Parco di Villa Scopoli",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Uscita naturalistica per osservazione del paesaggio.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Incontro con personale ATV",
+      "categoria_principale": "Educazione alla mobilità",
+      "descrizione_e_metodologia": "Educazione all'uso dei mezzi pubblici.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Visita ad una biblioteca",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a biblioteca storica.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Visita a Corte Camuzzini",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visita a villa padronale e cappella.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Suono Il Flauto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori di flauto contralto per ampliare l'offerta formativa.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Vade mecum",
+      "categoria_principale": "Lingue Straniere/Latino",
+      "descrizione_e_metodologia": "Percorso di accompagnamento allo studio del latino.",
+      "target": "Alunni terzo anno scuola media"
+    },
+    {
+      "titolo_attivita": "Gioco Con I Pesi",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Attività ludico-motoria con i gesti della pesistica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tempi per lo spirito",
+      "categoria_principale": "Educazione Spirituale",
+      "descrizione_e_metodologia": "Incontri di riflessione personale e comunitaria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cominciamo bene",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri pomeridiani per studenti del primo anno.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "γέφυρα",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per studenti del terzo anno della scuola media.",
+      "target": "Studenti terzo anno scuola media"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della matematica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione al progetto nazionale",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "English for you",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corso pomeridiano con insegnanti madrelingua",
+      "target": "Licei Classico e Scientifico"
+    },
+    {
+      "titolo_attivita": "Corso ECDL",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Formazione competenze informatiche",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Mens sana in corpore sano",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Incontri su alimentazione, dipendenze, disagio",
+      "target": "Licei Classico e Scientifico"
+    },
+    {
+      "titolo_attivita": "Residenzialità per educare",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Tre giorni residenziali con educatori esperti",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Primo soccorso e rianimazione cardiopolmonare",
+      "categoria_principale": "Salute e benessere",
+      "descrizione_e_metodologia": "Lezioni curricolari, prova pratica",
+      "target": "Liceo Classico e Scientifico"
+    },
+    {
+      "titolo_attivita": "Il Museo secondo Carlo Scarpa",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Visita museale, lezione frontale",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Costituzione e cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Lezioni, analisi testi, dibattiti",
+      "target": "Scuola Secondaria di Secondo Grado"
+    },
+    {
+      "titolo_attivita": "Approfondire in autonomia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Elaborazione tesina, ricerca",
+      "target": "Scuola Secondaria di Secondo Grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BGMM82703X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto S.M.S. \"Mazza\" Madone (BGMM82703X), relativo all'anno 2016. La scuola, di I grado, situata nel territorio non metropolitano della Lombardia, presenta un impegno nell'ambito dell'orientamento, sebbene non formalizzato in una sezione dedicata specifica. L'analisi si basa sui punteggi assegnati alle diverse dimensioni del PTOF e sull'esame delle attività registrate, con l'obiettivo di identificare punti di forza, aree di debolezza e possibili gap.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente intitolata \"Orientamento\", ma le attività sono integrate in altre aree programmatiche. Questo aspetto, pur non rappresentando una criticità insormontabile, suggerisce una mancanza di centralità e visibilità per questo ambito.\n\n**2.2 Partnership:** La scuola vanta una rete di **partnership** significativa, che include l'**Istituto Don Nicola Mazza**, diverse **agenzie** e **istituzioni**, la **British School Of Verona**, l'**Università degli Studi di Verona**, il **Museo di Castelvecchio** e la **Fondazione Querini Stampalia**. La presenza di sette partner diversi indica un'apertura alla collaborazione esterna e alla valorizzazione delle risorse del territorio.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle capacità di transizione formativa e delle opportunità. A ciascuna di queste finalità è stato assegnato un punteggio di 4, evidenziando un'attenzione completa e articolata agli obiettivi dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono** scolastico, sulla continuità territoriale e, in misura minore, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. L'azione relativa al sistema integrato di inclusione e fragilità ha ottenuto un punteggio inferiore, suggerendo la necessità di un maggiore approfondimento in questo ambito.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali, tuttavia, risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella chiarezza delle finalità, nella ricchezza delle **partnership** e nell'attenzione alla didattica esperienziale e interdisciplinare. L'impegno nella riduzione dell'**abbandono** scolastico e nella continuità territoriale rappresenta un valore aggiunto significativo. Le attività registrate, come **Progetto Vade mecum**, **Progetto Gephyra** e i **laboratori sul metodo di studio**, dimostrano un'attenzione concreta alle esigenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata all'orientamento all'interno del PTOF. Questo aspetto limita la visibilità e la centralità di questo ambito. Inoltre, l'azione relativa al sistema integrato di inclusione e fragilità necessita di un maggiore approfondimento, così come l'utilizzo di metodologie didattiche laboratoriali.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta orientativa più organica e coerente, con una sezione dedicata all'interno del PTOF. È inoltre auspicabile un maggiore investimento nelle metodologie didattiche laboratoriali e un approfondimento delle azioni volte a favorire l'inclusione e a contrastare la dispersione scolastica.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto S.M.S. \"Mazza\" Madone dimostra un impegno significativo nell'ambito dell'orientamento, sebbene necessiti di una maggiore strutturazione e visibilità. La ricchezza delle **partnership** e la chiarezza delle finalità rappresentano punti di forza importanti, mentre la mancanza di una sezione dedicata e la necessità di potenziare alcune azioni di sistema costituiscono aree di miglioramento. Un'attenzione mirata a questi aspetti consentirebbe di rafforzare l'efficacia dell'azione orientativa e di garantire un supporto adeguato agli studenti nella loro crescita personale e professionale."
+}

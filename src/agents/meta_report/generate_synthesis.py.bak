@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+"""
+CLI for generating cross-cutting PTOF synthesis reports.
+
+Usage:
+    # Default: I Grado + II Grado, Ollama provider
+    python -m src.agents.meta_report.generate_synthesis
+
+    # Specific filters
+    python -m src.agents.meta_report.generate_synthesis --ordine-grado "II Grado" --regione Lazio
+
+    # Dry-run (data aggregation only, no LLM calls)
+    python -m src.agents.meta_report.generate_synthesis --dry-run
+
+    # Use OpenRouter with Anthropic model
+    python -m src.agents.meta_report.generate_synthesis --provider openrouter --model "anthropic/claude-sonnet-4"
+"""
+
+import argparse
+import logging
+import sys
+from datetime import datetime
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Add project root to path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.agents.meta_report.synthesis_skeleton import SynthesisSkeleton
+from src.agents.meta_report.synthesis_filler import SynthesisFiller
+
+
+def setup_logging(verbose: bool = False) -> None:
+    """Configure logging."""
+    level = logging.DEBUG if verbose else logging.INFO
+    logging.basicConfig(
+        level=level,
+        format="[%(asctime)s] %(levelname)s %(name)s: %(message)s",
+        datefmt="%H:%M:%S",
+    )
+
+
+def build_output_path(base_dir: Path, filters: dict) -> Path:
+    """Build the output file path."""
+    output_dir = base_dir / "reports" / "synthesis"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    parts = [timestamp, "Sintesi_PTOF"]
+
+    ordine = filters.get("ordine_grado")
+    if ordine:
+        if isinstance(ordine, list):
+            parts.append("_".join(o.replace(" ", "") for o in ordine))
+        else:
+            parts.append(ordine.replace(" ", ""))
+
+    regione = filters.get("regione")
+    if regione:
+        parts.append(regione.replace(" ", "_"))
+
+    filename = "__".join(parts) + ".md"
+    return output_dir / filename
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Genera un report di sintesi narrativa cross-cutting dai PTOF analizzati.",
+    )
+    parser.add_argument(
+        "--ordine-grado",
+        nargs="+",
+        default=["I Grado", "II Grado"],
+        help="Ordine/grado scolastico da filtrare (default: I Grado, II Grado)",
+    )
+    parser.add_argument(
+        "--regione",
+        default=None,
+        help="Filtra per regione (default: tutte)",
+    )
+    parser.add_argument(
+        "--area-geografica",
+        default=None,
+        help="Filtra per area geografica (default: tutte)",
+    )
+    parser.add_argument(
+        "--tipo-scuola",
+        default=None,
+        help="Filtra per tipo scuola (default: tutti)",
+    )
+    parser.add_argument(
+        "--provider",
+        default="ollama",
+        choices=["ollama", "openrouter", "gemini"],
+        help="LLM provider (default: ollama)",
+    )
+    parser.add_argument(
+        "--model",
+        default=None,
+        help="Modello LLM specifico (default: dal provider)",
+    )
+    parser.add_argument(
+        "--max-samples",
+        type=int,
+        default=30,
+        help="Numero massimo di narrative da campionare (default: 30)",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Solo aggregazione dati, nessuna chiamata LLM",
+    )
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="Output di debug dettagliato",
+    )
+
+    args = parser.parse_args()
+    setup_logging(args.verbose)
+    logger = logging.getLogger("generate_synthesis")
+
+    # Build filters
+    filters = {}
+    if args.ordine_grado:
+        filters["ordine_grado"] = args.ordine_grado if len(args.ordine_grado) > 1 else args.ordine_grado[0]
+    if args.regione:
+        filters["regione"] = args.regione
+    if args.area_geografica:
+        filters["area_geografica"] = args.area_geografica
+    if args.tipo_scuola:
+        filters["tipo_scuola"] = args.tipo_scuola
+
+    logger.info("Filtri: %s", filters)
+
+    # ── Step 1: Build skeleton ───────────────────────────────────────────
+    logger.info("=== Fase 1: Caricamento dati e costruzione skeleton ===")
+
+    skeleton = SynthesisSkeleton(
+        base_dir=PROJECT_ROOT,
+        filters=filters,
+        max_narrative_samples=args.max_samples,
+    )
+    skeleton.load_data()
+
+    if skeleton.stats.get("n_schools", 0) == 0:
+        logger.error("Nessuna scuola trovata con i filtri specificati.")
+        return 1
+
+    skeleton_text = skeleton.generate_skeleton()
+    logger.info(
+        "Skeleton generato: %d scuole, %d narrative campionate, %d caratteri",
+        skeleton.stats["n_schools"],
+        len(skeleton.narratives),
+        len(skeleton_text),
+    )
+
+    # Print stats summary
+    stats = skeleton.stats
+    print(f"\n{'='*60}")
+    print(f"  REPORT DI SINTESI PTOF — Preparazione Dati")
+    print(f"{'='*60}")
+    print(f"  Scuole nel campione:    {stats['n_schools']}")
+    print(f"  Narrative campionate:   {len(skeleton.narratives)}")
+    print(f"  Sez. dedicata PTOF:     {stats.get('has_sezione_dedicata_pct', 0):.1f}%")
+    print(f"  Partnership (media):    {stats.get('partnership_mean', 0):.1f}")
+    print(f"  Attività (media):       {stats.get('activities_mean', 0):.1f}")
+    print(f"\n  Distribuzione per area geografica:")
+    for area, count in stats.get("area_breakdown", {}).items():
+        pct = count / stats["n_schools"] * 100
+        print(f"    {area:20s}: {count:4d} ({pct:.1f}%)")
+    print(f"\n  Le 5 dimensioni più deboli (media):")
+    for dim, mean in stats.get("lowest_dimensions", []):
+        dim_label = dim.replace("_score", "").replace("_", " ")
+        print(f"    {dim_label:50s}: {mean:.2f}")
+    print(f"\n  Le 5 dimensioni più forti (media):")
+    for dim, mean in stats.get("highest_dimensions", []):
+        dim_label = dim.replace("_score", "").replace("_", " ")
+        print(f"    {dim_label:50s}: {mean:.2f}")
+    print(f"{'='*60}\n")
+
+    # ── Dry-run: save skeleton only ──────────────────────────────────────
+    output_path = build_output_path(PROJECT_ROOT, filters)
+
+    if args.dry_run:
+        output_path = output_path.with_name(
+            output_path.stem + "__SKELETON" + output_path.suffix
+        )
+        output_path.write_text(skeleton_text, encoding="utf-8")
+        logger.info("Dry-run: skeleton salvato in %s", output_path)
+        print(f"  Skeleton salvato: {output_path}")
+        return 0
+
+    # ── Step 2: Fill slots with LLM ──────────────────────────────────────
+    logger.info("=== Fase 2: Generazione contenuti con LLM ===")
+    logger.info("Provider: %s, Model: %s", args.provider, args.model or "default")
+
+    filler = SynthesisFiller(
+        skeleton=skeleton,
+        provider_name=args.provider,
+        model=args.model,
+    )
+
+    report_text = filler.fill_all_slots(skeleton_text)
+
+    # ── Step 3: Save output ──────────────────────────────────────────────
+    output_path.write_text(report_text, encoding="utf-8")
+    logger.info("Report salvato: %s (%d caratteri)", output_path, len(report_text))
+    print(f"\n  ✅ Report generato: {output_path}")
+    print(f"     {len(report_text):,} caratteri, {len(report_text.split()):,} parole")
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

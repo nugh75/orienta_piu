@@ -1,0 +1,252 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PEPC8E500U",
+    "denominazione": "Liceo Classico Maior",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Pescara",
+    "anno_ptof": "2025-2028",
+    "provincia": "Pescara",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Tirino 61/1",
+    "cap": "65121",
+    "email": "segreteria@liceomaior.it",
+    "pec": "maiorpescara@pec.it",
+    "website": "www.istitutomecenate.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Accademia Rimini Calcio VB",
+        "CTS",
+        "CTI",
+        "servizi di zona",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre. Sviluppo psico-fisico.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Espressione attraverso il movimento, fiducia in sé stessi.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Istruttore minibasket, giochi per base motoria.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Approccio al gruppo, sviluppo comunicazione, creatività.",
+      "target": "3 e 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria propedeutica al calcio.",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale.",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Consapevolezza fonologica, narrazione, gioco.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione dell'argilla, sviluppo manualità.",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Attività pratiche, sviluppo creatività.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Cultura e Tradizione",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione e Promozione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per presentare la scuola e le sue attività.",
+      "target": "Genitori, bambini, comunità locale"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Eventi e Feste",
+      "descrizione_e_metodologia": "Organizzazione di una festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Apprendimento Esperienziale",
+      "descrizione_e_metodologia": "Visite a fattorie, musei, mercati, etc.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Festa di Fine Anno",
+      "categoria_principale": "Eventi e Feste",
+      "descrizione_e_metodologia": "Organizzazione di una festa di fine anno con maratonina e attività varie.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "sostegno",
+      "descrizione_e_metodologia": "promozione attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività con gruppi eterogenei",
+      "categoria_principale": "inclusione",
+      "descrizione_e_metodologia": "promozione attività con gruppi eterogenei",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "didattica",
+      "descrizione_e_metodologia": "learning by doing",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "tutoring",
+      "categoria_principale": "sostegno",
+      "descrizione_e_metodologia": "supporto individuale",
+      "target": "alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "transizione",
+      "descrizione_e_metodologia": "scambio informazioni tra docenti",
+      "target": "alunni in transizione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PEPC8E500U\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Classico Maior** (PEPC8E500U), relativo all'anno scolastico 2025-2028. La scuola, paritaria, situata a **Pescara** in **Abruzzo**, opera in un contesto territoriale non metropolitano e si rivolge a studenti di II grado, ma include anche l'Infanzia. L'analisi si basa sui dati forniti, valutando la presenza di una sezione specifica per l'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni messe in atto, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con particolare attenzione alla continuità territoriale e alla collaborazione con diversi partner.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola ha sviluppato un network di **13 partner**, tra cui istituzioni educative come **Nido d’Infanzia Piccole tracce** e **Scuola Primaria**, enti locali come il **Comune di Riccione** e l'**ASL**, associazioni sportive come la **Federazione Italiana Pallacanestro di Rimini** e l'**Accademia Rimini Calcio VB**, e altre realtà del territorio come **CTS**, **CTI**, **servizi di zona**, **Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini** e **Diesse**. Questo elevato numero di collaborazioni, con un punteggio di 3, suggerisce un forte radicamento nel territorio e una volontà di offrire agli studenti opportunità diversificate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (4), **interessi** (4) e la preparazione alla **transizioni formative** (4). Il progetto di **vita** riceve un punteggio di 3, mentre le **capacità orientative** legate alle opportunità future risultano meno sviluppate (1).\n\n**2.4 Obiettivi:** L'obiettivo di garantire la **continuità territoriale** degli studenti è il più forte (4), seguito da un impegno, seppur meno marcato, per ridurre l'**abbandono** scolastico (1), contrastare il fenomeno dei **NEET** (1) e promuovere il **lifelong learning** (1).\n\n**2.5 Azioni di Sistema:** Le azioni messe in atto prevedono un buon **coordinamento dei servizi** (4) e un forte coinvolgimento delle **famiglie** (4). Il **dialogo tra docenti e studenti** (2) e il **monitoraggio delle azioni** (3) ricevono punteggi medi, mentre il sistema integrato per l'**inclusione e la fragilità** (3) è considerato adeguato.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento dall'**esperienza** degli studenti (3), sull'utilizzo di **laboratori** (3) e sulla flessibilità di **spazi e tempi** (3). L'**interdisciplinarità** (3) è anch'essa considerata un elemento importante.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi elevati per i laboratori **espressivi** (5) e le attività **ludico-ricreative** (4), seguite da quelle **sportive** (4). Le opzionali **culturali** (2) e di **volontariato** (2) risultano meno sviluppate.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con il territorio, che permette di offrire agli studenti un'ampia gamma di opportunità. L'attenzione alle **finalità** di sviluppo delle attitudini, degli interessi e alla preparazione alle transizioni formative è un altro elemento positivo. L'impegno per la **continuità territoriale** e il coinvolgimento delle **famiglie** rappresentano ulteriori punti di forza. L'offerta di **laboratori espressivi e sportivi** arricchisce l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specifica dedicata all'orientamento nel PTOF rappresenta una lacuna. Le **capacità orientative** legate alle opportunità future e la lotta al fenomeno dei **NEET** necessitano di maggiore attenzione. Il **dialogo tra docenti e studenti** e il **monitoraggio delle azioni** potrebbero essere potenziati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione esplicita dell'orientamento all'interno del PTOF. Sebbene le azioni e le attività implementate siano valide, la loro integrazione in un quadro strategico più ampio potrebbe massimizzarne l'efficacia. È necessario rafforzare le competenze degli studenti nell'individuazione delle opportunità future e nella prevenzione dell'abbandono scolastico.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Classico Maior** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta diversificata di attività. Tuttavia, per raggiungere una maggiore efficacia, è necessario strutturare una sezione dedicata all'orientamento, rafforzare le competenze degli studenti nell'individuazione delle opportunità future e potenziare il dialogo tra docenti e studenti. L'attenzione alla **continuità territoriale** e al coinvolgimento delle **famiglie** rappresenta un valore aggiunto che contribuisce a creare un ambiente scolastico inclusivo e orientato al successo degli studenti. Le attività come \"**Amico sport**\", \"**Laboratorio di Danza creativa**\", \"**Madrelingua inglese**\" e \"**Presepe Vivente/Gesti di Natale**\" sono esempi concreti di come la scuola si impegna a offrire un'esperienza formativa completa e stimolante."
+}

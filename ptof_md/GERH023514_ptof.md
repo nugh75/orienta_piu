@@ -2,457 +2,418 @@
 
 ## Pagina 1
 
+Piano Triennale
+Offerta Formativa
 
-## Iis M A R S A N O
+## Enrico Fermi
 
-Professionale e Tecnico Agrario Statale
-Professionale Alberghiero Statale
-Via alla Scuola di Agricoltura, 9 – 16167 GENOVA
-tel. 010 3726193 - email: geis012004@istruzione.it
-https://www.iismarsano.edu.it/
-
-## Piano Triennale Dell’Offerta Formativa
-
-
-## I.I.S. Marsano
-
-Codice meccanografico: GEIS012004
-Triennio di riferimento 2022-2025
+Triennio 2019/20-2021/22
 
 ---
 
 ## Pagina 2
 
-Il Piano Triennale dell’Offerta Formativa della scuola B.MARSANO è stato elaborato dal collegio
-dei docenti nella seduta del 15/12/2022 sulla base dell’atto di indirizzo del dirigente prot. 843
-del 03/10/2022 ed è stato approvato dal Consiglio di Istituto nella seduta del 20/12/2022 con
-delibera n. 7/2022
+Il Piano Triennale dell’Offerta Formativa della scuola ENRICO FERMI è stato
+elaborato dal collegio dei docenti nella seduta del 21/12/2020 sulla base
+dell’atto di indirizzo del dirigente prot. 9378 del 01/09/2020 ed è stato
+approvato dal Consiglio di Istituto nella seduta del 23/12/2020 con delibera
+n. 10
 Anno di aggiornamento:
-2022/23
-Triennio di riferimento:
-2022 - 2025
+2020/21
+Periodo di riferimento:
+2019/20-2021/22
+1
 
 ---
 
 ## Pagina 3
 
 Indice
-Indice
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-La scuola e il suo contesto
-1  Analisi del contesto e dei bisogni del territorio
-9  Caratteristiche principali della scuola
-12  Ricognizione attrezzature e infrastrutture materiali
-13  Risorse professionali
-Le scelte strategiche
-14  Aspetti generali
-17  Priorità desunte dal RAV
-19  Obiettivi formativi prioritari
-(art. 1, comma 7 L. 107/15)
-21  Piano di miglioramento
-30  Principali elementi di innovazione
-33  Iniziative previste in relazione alla «Missione 1.4-Istruzione» del PNRR
-L'offerta formativa
-34  Aspetti generali
-35  Traguardi attesi in uscita
-45  Insegnamenti e quadri orario
-59  Curricolo di Istituto
-64  Percorsi per le competenze trasversali e per l’orientamento (PCTO)
-67  Iniziative di ampliamento dell'offerta formativa
-88  Attività previste per favorire la Transizione ecologica e culturale
-91  Attività previste in relazione al PNSD
-93  Azioni della Scuola per l'inclusione scolastica
-99  Piano per la didattica digitale integrata
+
+## Enrico Fermi
+
+
+## Indice Sezioni Ptof
+
+
+## La Scuola E Il Suo
+
+
+## Contesto
+
+1.
+Analisi del contesto e dei bisogni del
+territorio
+1.
+1.
+Caratteristiche principali della scuola
+2.
+1.
+Ricognizione attrezzature e
+infrastrutture materiali
+3.
+1.
+Risorse professionali
+4.
+
+## Le Scelte
+
+
+## Strategiche
+
+2.
+Priorità desunte dal RAV
+1.
+2.
+Obiettivi formativi prioritari (art. 1,
+comma 7 L. 107/15)
+2.
+2.
+Piano di miglioramento
+3.
+2.
+Principali elementi di innovazione
+4.
+3.
+Traguardi attesi in uscita
+1.
+3.
+Insegnamenti e quadri orario
+2.
+3.
+Curricolo di Istituto
+3.
+3.
+Percorsi per le competenze
+trasversali e per l’orientamento
+
+## (Pcto)
+
+4.
+3.
+Iniziative di ampliamento curricolare
+5.
+3.
+Attività previste in relazione al PNSD
+6.
+3.
+Valutazione degli apprendimenti
+7.
+3.
+Azioni della Scuola per l'inclusione
+scolastica
+8.
+
+## L'Offerta
+
+
+## Formativa
+
+2
 
 ---
 
 ## Pagina 4
 
 Indice
-Indice
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-Organizzazione
-100  Aspetti generali
-101  Modello organizzativo
-104  Organizzazione Uffici e modalità di rapporto con l'utenza
-105  Reti e Convenzioni attivate
-108  Piano di formazione del personale docente
-113  Piano di formazione del personale ATA
+
+## Enrico Fermi
+
+3.
+Piano per la didattica digitale
+integrata
+9.
+
+## Organizzazione
+
+4.
+Modello organizzativo
+1.
+4.
+Organizzazione Uffici e modalità di
+rapporto con l'utenza
+2.
+4.
+Reti e Convenzioni attivate
+3.
+4.
+Piano di formazione del personale
+docente
+4.
+4.
+Piano di formazione del personale
+ATA
+5.
+3
 
 ---
 
 ## Pagina 5
 
 
+## La Scuola E Il
+
+
+## Suo Contesto
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
 ## La Scuola E Il Suo Contesto
 
-Analisi del contesto e dei bisogni del territorio
 
-## Ptof 2022 - 2025
+## Analisi Del Contesto E Dei Bisogni Del Territorio
 
-Analisi del contesto e dei bisogni del territorio
-L’Istituto Marsano è presente nel territorio genovese da oltre 140 anni ed è unico nel suo genere.
-Frutto di un lascito allo Stato del filantropo Bernardo Marsano, che voleva farne una scuola di
-agricoltura per “i più poveri e abbisognevoli”, ha mantenuto nei decenni la sua missione inclusiva,
-fatta di bellezza e libertà, che rappresenta ancora la sua filosofia formativa.
-Sorto nell’orto storico del Podere Costigliolo, a Sant’Ilario, inizialmente adibito a floricoltura,
-frutticoltura, poi olivicoltura e agrumicoltura, l’Istituto Marsano nasce e si sviluppa all’interno di un
-paesaggio e di una comunità straordinari, che chiunque abbia conosciuto ha sentito il dovere di
-proteggere e sostenere. Già Montale a tale proposito cantava “ qui  tocca anche a noi poveri la
-nostra parte di ricchezza ed è l’odore dei limoni”. Forte di tale tradizione e tanta straordinaria
-bellezza, l’Istituto Marsano oggi è in prima linea per la difesa e la tutela dell’ambiente, per la
-conservazione della biodiversità, per lo sviluppo sostenibile, fatto di energie pulite e rinnovabili.
-Negli ultimi anni l’Istituto Marsano si è sviluppato su tutto il territorio della provincia genovese, da
-Ponente a Levante, con la sua succursale a Molassana (con Azienda Agricola a S. Siro di Struppa) e le
-sue sedi associate nei Comuni di Arenzano e San Colombano Certenoli, ognuna con le rispettive
-Aziende Agrarie. Da quest’anno si è aggiunto all’Istituto il plesso ad indirizzo Enogastronomico e
-Ospitalità Alberghiera di Calvari, con il quale vogliamo sperimentare la “filiera breve”, dalla terra alla
-tavola, all’insegna del rispetto dell’ambiente, del turismo sostenibile e dell’educazione alimentare,
-promuovendo i prodotti locali, sani nella coltivazione e creativi nella preparazione. Il nuovo percorso
-Enogastronomico e Ospitalità Alberghiera prevede la possibilità di un percorso IeFP di qualifica
-triennale, affiancato al percorso quinquennale che porta al diploma di maturità professionale.
-L’Istituto Marsano rappresenta oggi una realtà innovativa e moderna nel territorio genovese, in
-grado di sostenere e ispirare i produttori locali con sistemi ecologicamente sostenibili di produzione
-e trasformazione alimentare e di diventare centro di innovazione, inclusione e creatività per la
-formazione delle ragazze e dei ragazzi.
-La sede è collocata in un territorio particolarmente vocato per colture floricole e orticole (primizie)
-date le condizioni climatiche particolarmente favorevoli; nell'entroterra, caratterizzato da vaste aree
-dedicate a parchi regionali, l'agriturismo, la gestione del bosco e l'allevamento hanno un ruolo
-importante. Esiste una tradizione pluricentenaria dell'Istituto, che è l'unico riferimento formativo del
-settore della Provincia di Genova alle richieste formative provenienti dal territorio. Sono presenti
-nella regione molti terreni attualmente abbandonati e disponibili per un’utilizzazione produttiva
-agricola. La collaborazione con gli enti locali è rivolta a molte attività di consulenza e realizzazione di
-1
 
-## B.Marsano - Geis012004
+## 1.1.   Breve Storia Dell’Istituto
 
+L’ I.I.S. “Fermi”, collocato in un contesto produttivo vitale, arricchito dalla presenza del
+“Museo Archeologico Nazionale della Siritide”, con esposizione e conservazione di
+reperti preziosi e di mirabile fattura della Magna Grecia, viene istituito a Policoro
+nell’a.s. 1967/68, come sede staccata del Liceo Scientifico “Dante Alighieri” di Matera.
+Allocato inizialmente in una struttura provvisoria, priva di palestra e di spazi
+specifici per insegnanti ed alunni, nel 1987 ha occupato permanentemente una
+sede adeguata.
+L’Istituto si è qualificato come una delle realtà scolastiche più dinamiche ed
+“attraenti” del territorio, tanto da essere frequentato da alunni provenienti sia
+dall’hinterland circostante, sia da diversi paesi della provincia di Potenza e di
+Cosenza.
+Attento ai processi di cambiamento della Scuola italiana, l’ I.I.S. “Fermi” ha
+attuato varie forme di sperimentazione, ampliando l’offerta formativa con
+l’istituzione dell’indirizzo Linguistico, dell’opzione Scienze Applicate e dell’Istituto
+Tecnico Trasporti e Logistica.
+
+## 1.2.  Contesto Territoriale Di Riferimento
+
+L’Istituto sorge nella città di Policoro, già fiorente nell’antichità (eloquenti
+le testimonianze delle poleis magno-greche di Siris ed Heraclea) in un territorio
+4
 
 ---
 
 ## Pagina 6
 
 
-## La Scuola E Il Suo Contesto
+## La Scuola E Il
 
-Analisi del contesto e dei bisogni del territorio
 
-## Ptof 2022 - 2025
+## Suo Contesto
 
-orti didattici, orti urbani, gestione di aree verdi di utilizzo pubblico, recupero di varietà locali. Le
-attività formative, svolte in coordinamento con gli enti locali, associazioni professionali, istituti di
-formazione hanno riguardato la potatura degli alberi da frutta, la gestione dei giardini, del verde
-pubblico, la gestione del bosco, l'agriturismo, la realizzazione di orti urbani e didattici. Da
-sottolineare le collaborazioni con le Università, gli Enti Locali, le Associazioni professionali agricole,
-gli Ordini professionali e le imprese del settore. La scuola accoglie anche alunni provenienti da zone
-dell'entroterra di province e regioni limitrofe.
-La sede di Sant’Ilario
-Al momento della redazione del Piano la sede di Sant’Ilario presenta 10 classi, due per ciascuno dei
-cinque anni di corso.
-L’edificio scolastico è costituito dall’ampia villa che nel 1800 fu la residenza di Bernardo Marsano. Gli
-altri fabbricati presenti sono destinati agli uffici di segreteria, spogliatoi degli alunni, serre, ricoveri
-attrezzi e macchinari, officina, ecc.
-Oltre ai locali utilizzati per l'ordinaria attività didattica e per i servizi sono presenti il laboratorio di
-Chimica per lo svolgimento delle analisi del terreno e dei prodotti trasformati (olio, vino e latte), un
-laboratorio di propagazione in vitro, un laboratorio di Fitopatologia, un’aula Applicazioni, un’aula per
-lo svolgimento di lezioni all’aperto, un’aula Audiovisivi, un laboratorio di informatica, un’aula per il
-recupero e il sostegno, un campo per attività ginnico sportive all'aperto, una palestra coperta ed una
-biblioteca. All'Istituto è annessa l'Azienda Agraria costituita da circa mq. 1766 di superficie coperta a
-serre e da mq. 17.390 di terreno direttamente condotto e destinato a colture floricole, orticole ed
-arboree. Le serre, irrigate, ombreggiate e parzialmente riscaldate, sono utilizzate per la coltivazione
-di piante ornamentali da appartamento da fronda, orchidee, piante orticole; in alcuni cassoni
-all’aperto sono coltivate piante aromatiche e storiche varietà di fruttiferi.
-I terreni, terrazzati con muretti a secco, sono dotati di impianto irriguo ed ospitano coltivazioni
-arboree da frutto, curate dagli studenti e dalle studentesse nelle varie fasi fenologiche (potatura,
-concimazione, irrigazione, cure fitopatologiche, raccolta). Alti terreni sono destinati alla coltivazione
-dell’orto sinergico, alla coltivazione di orti convenzionali, all’evoluzione, conoscenza e realizzazione
-dei giardini nei secoli (medievale, rinascimentale, mediterraneo, paesistico), alle coltivazioni erbacee
-foraggere e da granella. Una parte dell’azienda in vicinanza degli edifici scolastici è costituita da
-aiuole, siepi e piccole zone a prato; la gestione della manutenzione di quest’area verde è pure
-affidata alle studentesse e studenti.
-2
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+abbastanza esteso, caratterizzato da un’economia basata su un’agricoltura
+avanzata, da attività commerciali e produttive abbastanza dinamiche, da un
+piccolo tessuto di imprese artigianali a conduzione familiare e da un turismo in
+continua espansione; beneficia, infatti, dell’insediamento di strutture ricettive
+sempre più accoglienti e qualificate sul litorale marino. Il territorio è
+caratterizzato dal pullulare di stabilimenti conservieri e/o di trasformazione di
+prodotti agro-alimentari; si contano inoltre diversi circoli nautici e velici,
+stabilimenti balneari, nonché Enti di ricerca, come l’AGROBIOS, e network
+televisivi.
+Le risorse locali e limitrofe si presentano, dunque, ricche e consentono a
+tutti gli utenti degli indirizzi dell’I.I.S. “Fermi” di trovare il giusto sbocco
+operando in situazione (presenza del mare, degli attrattori turistici, di centri di
+ricerca, rispettivamente proficui e “vocati” per il Nautico, per il Liceo Linguistico
+e il Liceo Scientifico) e di testare le proprie conoscenze, trasformandole in
+abilità e competenze.
+Queste realtà, dalla notevole ricaduta economica e socio-culturale,
+consentono al nostro Istituto di intessere relazioni e collaborazioni capillari e
+proficue, tese ad un’armonizzazione tra l’ente formativo- educativo, la Scuola
+appunto, e gli operatori o Enti, regionali ed extraregionali, a tutto vantaggio
+degli studenti, che, già in fase di frequenza scolastica (particolarmente durante
+i moduli e gli stages di ASL), consolidano la preparazione ed effettuano
+esperienze lavorative non avulse dalla realtà, fruendo di un ventaglio di opzioni
+significative e variegate. In questo modo, i discenti risultano agevolati e meglio
+orientati nelle scelte future, sia nel proseguimento degli studi che
+nell’inserimento diretto nel mondo del lavoro.
+Le potenzialità economiche hanno trasformato l’originario nucleo
+5
 
 ---
 
 ## Pagina 7
 
 
-## La Scuola E Il Suo Contesto
+## La Scuola E Il
 
-Analisi del contesto e dei bisogni del territorio
 
-## Ptof 2022 - 2025
+## Suo Contesto
 
-Succursali in Val Bisagno (Molassana e S. Siro di Struppa)
-Al momento della redazione del Piano la sede di Molassana presenta 10 classi: due per ciascuno dei
-cinque anni di corso.
-Presso la succursale di Via Allende sono anche presenti un laboratorio di Informatica, un laboratorio
-pluridisciplinare per le esercitazioni di chimica, fisica e biologia, un’aula per il recupero ed il sostegno
-e una piccola biblioteca.
-L'Azienda Agraria della Succursale si trova in località S. Siro di Struppa (comune di Genova) in Via di
-Creto ed è costituita da mq. 11.500 di terreno seminativo ed arboreto su cui è posizionata una
-struttura mobile a tunnel per le colture protette di circa mq. 192. L’edificio scolastico ospita due aule
-dotate di Lim dove gli studenti e studentesse effettuano lezioni teoriche.
-L’azienda possiede un’aula officina per la manutenzione delle macchine, un locale per il deposito
-dell’attrezzatura minuta e dispone di un’adeguata dotazione in macchine ed attrezzi meccanici a
-motore e manuali.
-Presso questa azienda le studentesse e gli studenti possono svolgere svariate attività aziendali
-riguardanti le coltivazione erbacee protette in tunnel freddo, semine di ortaggi in seminiere ed in
-pieno campo; coltivazioni erbacee di leguminose, cereali da granella e foraggeri; coltivazione arboree
-che prevedono nuovi impianti e la cura delle piante da frutto esistenti nel corso delle varie fasi
-fenologiche; moltiplicazione di storiche varietà di fruttifere non più reperibili sul mercato,
-coltivazione di piante ornamentali e piante aromatiche. L’oliveto, con diverse varietà liguri, permette
-agli studenti di intervenire su tutta la filiera produttiva, dalla messa a dimora degli alberi alla raccolta
-dei frutti. Il vigneto ha una zona sperimentale dove sono state messe a dimora varietà ibride di vite
-produttori diretti  che non necessitano di trattamenti chimici, per valutare le performance relative
-alla resistenza alle malattie e alla produzione.  Inoltre, all’interno dell’Azienda, vengono eseguiti
-regolari falciature e cura dei prati, potatura delle siepi, realizzazione e manutenzioni dei muri a
-secco, di scarpate e scoline.
-Sono in atto collaborazioni con il Municipio per il ripristino e la messa in coltura dei terreni confinanti
-con l’azienda e compresi nel percorso dell’Acquedotto storico.
-Sede Associata di San Colombano Certenoli
-Al momento della redazione del Piano la sede associata di san Colombano Certenoli presenta tre
-classi, così suddivise: una classe prima, una seconda ed una terza del corso tecnico.
-3
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+abitativo in una delle realtà più dinamiche della regione Basilicata. Oggigiorno,
+anche in questa realtà, si avvertono consistenti segnali di crisi, da fronteggiare,
+però, con lungimiranza e consapevole ed efficace fruizione delle risorse.
+Potrebbe fare la differenza in questo scenario la partecipazione a progetti di
+internazionalizzazione dall’Etwinning agli scambi culturali con Olanda e altre
+scuole europee, dal Comenius all’Erasmus+, ossia partenariati con scuole
+europee che prevedono mobilità all’estero, corsi di preparazione al
+conseguimento delle certificazioni linguistiche di Inglese e Francese (dal livello
+B1 al livello C1), teatro in Lingua, promossi dal nostro Istituto. Inoltre, al fine di
+rendere più completa e al passo con i tempi l’offerta formativa, da un’anno,
+nell’organico dell’Istituto, figura una docente preposta al PNSD (Piano
+Nazionale Scuola Digitale), ambito in cui si stanno potenziando strumentazioni
+e competenze; l’Addetto alla Digitalizzazione si sta occupando di rendere
+fruibili, sia al corpo docenti, che agli alunni, le attrezzature disponibili e le
+relative metodologie: aula LIM, classe digitalizzata 3.0, postazioni multimediali
+interattive mobili, promuovendo l’uso responsabile e consapevole  dei
+software e degli hardware di ultimissima generazione, di cui  è dotata la
+Scuola. L’I.I.S. “Fermi”, aperto alle sollecitazioni e alle necessità del territorio
+(inteso sia come realtà produttive che come tessuto sociale), attento alle
+dinamiche del lavoro e della cultura, intende, in definitiva, concorrere alla
+formazione del cittadino consapevole e attivo, in un avanzamento progressivo
+di traguardi cognitivi e di crescita umana e culturale. La presenza di un Liceo
+con diversi indirizzi, quali Scientifico, Scienze Applicate e Linguistico e di un
+Istituto Trasporti e Logistica (ex ITIS Nautico), ben si concilia con le valenze
+economico-sociali del contesto territoriale.
+
+## 1.3.  Valori
+
+6
 
 ---
 
 ## Pagina 8
 
 
-## La Scuola E Il Suo Contesto
+## La Scuola E Il
 
-Analisi del contesto e dei bisogni del territorio
 
-## Ptof 2022 - 2025
+## Suo Contesto
 
-Oltre ai locali utilizzati per l'ordinaria attività didattica e per i servizi, sono presenti un’aula
-informatica, un’aula audiovisivi (Aula Magna), un laboratorio di chimica e microscopia (per le
-esercitazioni specifiche vengono utilizzate le strutture della sede di Sant’Ilario), un’Aula per lezioni
-individuali, una piccola biblioteca ed un cortile per le attività sportive curricolari.
-L’azienda agraria finalizzata alla didattica delle discipline dell’area professionale, con superficie di
-circa mq. 3.000, è dotata di una struttura a tunnel freddo utilizzata per la coltura di piante
-aromatiche ed ortaggi. La restante superficie di terreno è dedicata alle coltivazioni erbacee a pieno
-campo graminacee, leguminose, orticole, oltre un piccolo frutteto composto da differenti specie
-arboree da frutto di varietà antiche.
-Succursale di Arenzano
-Al momento della redazione del Piano la sede di Arenzano presenta 6 classi:tre classi prime,  due
-seconde ed una terza del corso professionale.
-Presso la succursale di Via Festa sono anche presenti un laboratorio di Informatica, un laboratorio di
-chimica e fisica e un laboratorio di biologia, oltre ad un’aula per il recupero ed il sostegno.
-L'Azienda Agraria, che occupa una superficie di circa mq 5400, della Succursale si trova nelle
-vicinanze del plesso scolastico, raggiungibile a piedi ed è in fase di allestimento. In prospettiva le
-studentesse e gli studenti saranno interessati, coadiuvati dal Comune di Arenzano, alla
-manutenzione del verde urbano nei parchi pubblici della città.
-L’azienda nel prossimo futuro dovrà possedere un’adeguata dotazione in macchine ed attrezzi
-meccanici a motore e manuali.
-Presso questa azienda studenti/studentesse  potranno  svolgere svariate attività aziendali
-riguardanti le coltivazione erbacee, semine di ortaggi in seminiere ed in pieno campo; coltivazioni
-erbacee di leguminose, cereali da granella e foraggeri; coltivazione arboree che prevedono nuovi
-impianti e la cura delle piante da frutto esistenti nel corso delle varie fasi fenologiche;
-moltiplicazione di vecchie varietà di fruttifere non più reperibili sul mercato, coltivazione di piante
-ornamentali e piante aromatiche. Inoltre, all’interno dell’Azienda, vengono eseguiti regolari falciature
-e cura dei prati, potatura delle siepi, manutenzioni dei muri a secco, di scarpate e scoline. Il terreno
-dell’azienda è occupato inoltre da un oliveto storico e da una piccola area confinante con la Scuola
-dell’infanzia e la cui manutenzione verrà portata avanti dai due istituti con un progetto di orto
-didattico.
-4
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Il nostro Istituto, da sempre, è improntato ai valori della discussione libera,
+democratica e quindi plurale coniugata con la responsabilità individuale verso gli altri
+e le istituzioni.
+Sostiene e promuove i valori del dialogo, dell’inclusione, della conoscenza ,lo scambio
+e il confronto  fra culture diverse, del valore educativo di ogni azione culturale.
+Difende e rappresenta i valori della Costituzione Italiana, in particolare quelli presenti
+nelle sezioni “Principi fondamentali” e “Diritti e doveri dei cittadini”.
+Il personale della scuola, dirigente, docenti, assistenti tecnici, amministrativi e
+collaboratori scolastici, condivide a pieno i valori contenuti nel codice disciplinare dei
+dipendenti delle amministrazioni pubbliche (art. 54 DLgs 165/01).
+
+## 1.4. Mission
+
+L’I.I.S. “Enrico Fermi” di  Policoro condivide a pieno la missione che la Costituzione
+della Repubblica Italiana affidata alle istituzioni scolastiche: formare uomini e donne
+come cittadini responsabili e solidali, condurre l’adolescente alla compiuta
+formazione di una personalità adulta e globale.
+Si propone come spazio d’azione e centro d’irraggiamento della vita culturale e
+sociale, per una crescita armonica e globale dell’alunno, protagonista attivo del
+processo osmotico di acculturazione tra il sé e il contesto, locale e non. Tutto ciò, al
+fine di valorizzare le risorse e i talenti, nella loro specificità e mutua
+complementarietà.
+La sua attività didattica mira a realizzare percorsi formativi che educhino alla
+cittadinanza attiva, alla responsabilità personale e sociale, mediante l’acquisizione di
+7
 
 ---
 
 ## Pagina 9
 
 
-## La Scuola E Il Suo Contesto
+## La Scuola E Il
 
-Analisi del contesto e dei bisogni del territorio
 
-## Ptof 2022 - 2025
+## Suo Contesto
 
-Sezione staccata di Calvari
-Al momento della redazione del piano la sede di Calvari ha 7 classi tutte dell'Istituto Professionale a
-indirizzo Enogastronomia e Ospitalità Alberghiera, così suddivise: una classe prima, una classe
-seconda e due classi terze del percorso triennale di Istruzione e Formazione Professionale (IeFP) , al
-termine del quale studenti e studentesse accedono agli esami per  la qualifica di Operatore della
-ristorazione servizi di sala e vendita o servizi di cucina (con la possibilità di riprendere il percorso
-scolastico per conseguire il diploma di scuola secondaria di secondo grado); due classi quarte ed una
-classe quinta.
-L’ edificio, in precedenza appartenuto alla disciolta Promoprovincia e sede storica di Expò
-Fontanabuona, è stato ristrutturato ed inaugurato come plesso scolastico nell’a.s. 2014-15 ed in esso
-sono attualmente presenti:
-al terzo piano otto aule didattiche attrezzate di PC e Smartboard, un ampio laboratorio
-informatico, una sala docenti ed un’ ampia sala per le le lezioni pratiche di laboratorio di sala e
-vendita,  per il bar didattico e per i piccoli eventi occasionali , un piccolo locale per il personale
-ATA ed infine i servizi
-•
-al secondo piano uno studio per la presidenza, due aule multiuso con relativi servizi
-•
-al piano terra un’area di oltre 500 metri quadrati di estensione per un’altezza di 6 m nella quale
-sono attualmente in corso i lavori per la realizzazione del progetto relativo ai nuovi laboratori
-di sala e cucina con i nuovi spogliatoi, che dovrebbero essere pronti già dal prossimo anno
-scolastico
-•
-all’esterno una tensostruttura di recente ristrutturazione adiacente all’edificio scolastico ad uso
-sportivo dotata di riscaldamento ad aria ed una cucina anch’essa adiacente all’edificio
-scolastico fino ad oggi utilizzata per le esercitazioni pratiche dei laboratori di cucina che nel
-prossimo anno dovrebbe essere sostituita dal nuovo locale al piano terra sopra menzionato.
-•
-Nei percorsi triennali la scelta della materia d'indirizzo (al momento sala e vendita o cucina) viene
-anticipata alla classe seconda;  in quarta ed in quinta vengono invece affrontate entrambe  le
-materie professionali con prevalenza di quelle del settore scelto ed alcune lezioni si svolgeranno in
-compresenza di più insegnanti come ad esempio sala/cucina con lingua inglese oppure con scienza
-degli alimenti.
-Di seguito si riportano le opportunità e i vincoli legati alla scuola e al suo contesto, così come
-esplicitati nel Rapporto di Autovalutazione:
-5
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+conoscenze, lo sviluppo di capacità, la maturazione di competenze e di atteggiamenti
+maturi, ragionevoli e aperti.
+Anche per questo s’intende, non solo, innalzare il livello delle conoscenze e delle
+competenze degli studenti e delle studentesse, prevenire l’abbandono e la
+dispersione scolastica, ma anche fornire loro un valido strumento metodologico,
+spendibile sia nel campo degli studi universitari che nel mondo del lavoro.
+
+## 1.5. Vision
+
+L’idea di educazione e di istruzione sposata dal nostro I.I.S. si raccoglie intorno a
+poche ma essenziali parole-chiave: curiosità, amore per la conoscenza, condivisione.
+La Nostra Scuola si prefigge in modo prioritario le seguenti finalità:
+-          stimolare la curiosità intellettuale , suscitare e accendere il
+desiderio di conoscenza  proprio degli uomini e non solo
+durante le attività didattico-educative;
+-          cogliere e valorizzare al meglio  le capacità, le attitudini, le
+risorse, le speranze del singolo studente, curando le eccellenze,
+supportando le difficoltà anche attraverso buone pratiche
+innovative, efficaci e creative  dei processi di apprendimento;
+-          sviluppare un approccio  critico alla conoscenza e all’azione
+8
 
 ---
 
 ## Pagina 10
 
 
-## La Scuola E Il Suo Contesto
-
-Analisi del contesto e dei bisogni del territorio
-
-## Ptof 2022 - 2025
-
-Popolazione scolastica
-Opportunità:
-Alcuni dati inerenti la presenza di famiglie svantaggiate fanno riflettere sull'opportunità di attivare un
-sistema di rilevazione continuativa sul fenomeno, anche vigilando sulla corretta rilevazione del dato
-al momento della somministrazione delle prove INVALSI. La forte presenza di studenti e studentesse
-con BES spesso certificati, rispetto al dato nazionale, regionale e provinciale, impongono un
-ripensamento generale di tutta l'attività didattica in direzione di una didattica inclusiva universale.
-Vincoli:
-La forte presenza di studenti e studentesse con BES spesso certificati, rispetto al dato nazionale,
-regionale e provinciale, oltre a rappresentare un'opportunità, può anche diventare un vincolo, se
-non si mettono in atto progetti e convenzioni con enti del settore, in grado di valorizzare le
-specificità individuali delle alunne e degli alunni.
-Territorio e capitale sociale
-Opportunità:
-La scuola è collocata in un territorio particolarmente vocato per colture floricole e orticole (primizie)
-date le condizioni climatiche particolarmente favorevoli, invece nell'entroterra, caratterizzato da
-vaste aree dedicate a parchi regionali, l'agriturismo, la gestione del bosco e l'allevamento hanno un
-ruolo importante. Esiste una tradizione pluricentenaria dell'Istituto, che e' l'unico riferimento
-formativo del settore della Provincia di Genova, alle richieste formative provenienti dal territorio.
-Sono presenti nella regione molti terreni attualmente abbandonati e disponibili per un utilizzazione
-produttiva agricola. La collaborazione con gli enti locali è rivolta a molte attività di consulenza e
-realizzazione di orti didattici, orti urbani, gestione di aree verdi di utilizzo pubblico, recupero di
-varietà locali. Le attività formative, svolte in coordinamento con gli enti locali, associazioni
-professionali, istituti di formazione hanno riguardato la potatura degli alberi da frutta, la gestione dei
-giardini, la gestione del bosco, l'agriturismo, la realizzazione di orti urbani e didattici. Da sottolineare
-le collaborazioni con le Universita', gli Enti Locali, le Associazioni professionali agricole, gli Ordini
-professionali e le imprese del settore
-Vincoli:
-Ci sono difficoltà logistiche visto la provenienza delle studentesse e degli studenti in percentuale
-elevata da zone dell'entroterra difficilmente raggiungibili. Nonostante l'interlocuzione costante con
-gli enti di trasporto pubblico locale non sempre si riesce ad accontentare tutti gli utenti. Negli ultimi
-anni si è assistito a una riduzione notevole del pagamento del contributo volontario da parte delle
-famiglie.
-6
-
-## B.Marsano - Geis012004
+## La Scuola E Il
 
 
----
-
-## Pagina 11
+## Suo Contesto
 
 
-## La Scuola E Il Suo Contesto
-
-Analisi del contesto e dei bisogni del territorio
-
-## Ptof 2022 - 2025
-
-Risorse economiche e materiali
-Opportunità:
-- Grazie alla recente progettazione tramite bandi PON, la scuola è riuscita a cablare tutti i suoi plessi
-e a dotare tutte le classi della scuola di LIM/Digital Board per una didattica innovativa e digitale. - La
-nuova dirigenza intende continuare e migliorare la progettazione di laboratori ed aule scolastiche
-innovative, anche attraverso un utilizzo mirato dei fondi del PNRR (Future Labs e Future Classrooms)
-e di ulteriori PON in corso di implementazione (EduGreen). - La scuola gestisce il lascito del
-benefattore Bernardo Marsano che include fabbricati e terreni nell'area di Sant'Ilario. L'obiettivo
-della buona gestione delle proprietà potrebbe tradursi nella loro ristrutturazione per utilizzi didattici
-innovativi (laboratori, frantoi, centri culturali, agri-turismo per percorsi PCTO personalizzati, ecc.), in
-condivisione con gli abitanti di Sant'Ilario.
-Vincoli:
-- assenza di un numero sufficiente di strutture sportive in ogni plesso. - assenza di aule magne,
-laboratori adeguati, spazi teatro in ogni plesso - plesso centrale ancora oggetto di lavori di
-ristrutturazione anti-sismica con relativo non utilizzo, a partire dall'a.s. 2021-2022, di spazi fondanti
-la didattica, quali laboratori, aula magna, palestra - necessità di creare ADA più adatti all'inclusione
-Risorse professionali
-Opportunità:
-Nonostante l'età media sia abbastanza alta, si evidenzia un'alta professionalità accompagnata da
-passione per il proprio lavoro e senso di identità con l'Istituzione. I/le docenti di materie di indirizzo
-sono sostanzialmente stabili, mentre per le materie di area comune si assiste a un frequente turn
-over. Nell'ultimo biennio si è assistito, in seguito ai pensionamenti di alcuni/e docenti di materie di
-indirizzo, ad un ricambio con docenti a tempo indeterminato piuttosto giovani. Solo quest'anno sono
-27 i/le docenti in anno di formazione e prova. Per quanto riguarda i /le docenti di sostegno è
-aumentata la percentuale degli specializzati. Si è provveduto ad attivare uno sportello psicologico
-rivolto a tutti/e con l'incarico di personale qualificato esterno ricorrendo alle risorse finanziarie
-dell'Istituto.
-Vincoli:
-In maniera ancora significativa, le nomine su posti di sostegno spesso vengono attribuite da
-graduatorie di tutti i tipi e non sempre garantiscono formazione adeguata al ruolo che si va a
-ricoprire. Il tasso di assenteismo è leggermente più alto della media regionale e nazionale e
-necessita pertanto di una valutazione più attenta, anche dal punto di vista del benessere e della
-sicurezza sul lavoro. Il fatto che la scuola sia distribuita in modo così diffuso sul territorio della
-7
-
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
 
----
+## Enrico Fermi
 
-## Pagina 12
+che orienti a scelte di vita corrette e responsabili.
+La visione educativa del nostro Istituto è la condivisione:
+-          del  piacere di imparare e di crescere culturalmente;
+-
+dello
+stare
+bene
+a
+scuola
+determinando
+un
+ambiente
+favorevole
+all’apprendimento e alla maturazione del futuro cittadino;
+-          del senso di appartenenza alla comunità scolastica (anche con la cura degli spazi
+comuni, delle strumentazioni e attrezzature in dotazione per la gran parte  di
+ultimissima generazione e assai utili e favorevoli ad  un apprendimento adeguato e
+al passo  con i profili cognitivi dei nativi digitali;
+-          della comunicazione efficace e costante ad alunni, famiglie e con enti, associazioni
+e mediatori culturali vari delle iniziative e dei percorsi di apprendimento offerti.
+La serenità, la curiosità, il piacere della conoscenza e della scoperta, la gioia della
+conquista di un successo  a tutto tondo  nel cammino dell’adolescente devono
+considerarsi elementi  prioritari  del suo percorso: questo è ciò che ispira il lavoro
+nelle classi e in tutti i momenti formativi della scuola.
+
+## Caratteristiche Principali Della Scuola
 
 
-## La Scuola E Il Suo Contesto
-
-Analisi del contesto e dei bisogni del territorio
-
-## Ptof 2022 - 2025
-
-provincia di Genova la rende poco attrattiva ai/alle nuove docenti, mentre per i/le docenti di ruolo,
-soprattutto delle materie di indirizzo, rappresenta solo un dato oggettivo, che non inficia la passione
-per il lavoro in un indirizzo agrario o enogastronomico.
-8
-
-## B.Marsano - Geis012004
-
-
----
-
-## Pagina 13
-
-
-## La Scuola E Il Suo Contesto
-
-Caratteristiche principali della scuola
-
-## Ptof 2022 - 2025
-
-Caratteristiche principali della scuola
-Istituto Principale
-
-## B.Marsano (Istituto Principale)
+## Enrico Fermi (Istituto Principale)
 
 Ordine scuola
 
@@ -462,26 +423,42 @@ Tipologia scuola
 
 ## Istituto Superiore
 
+9
+
+---
+
+## Pagina 11
+
+
+## La Scuola E Il
+
+
+## Suo Contesto
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
 Codice
 
-## Geis012004
+## Mtis01700X
 
 Indirizzo
 
-## Via Alla Scuola Di Agricoltura, 9 Genova
-
-
-## Sant'Ilario 16167 Genova
+## Via Puglia, 8 Policoro 75025 Policoro
 
 Telefono
-0103726193
+0835972034
 Email
-GEIS012004@istruzione.it
+MTIS01700X@istruzione.it
 Pec
-geis012004@pec.istruzione.it
-Plessi
+mtis01700x@pec.istruzione.it
+Sito WEB
+www.liceofermipolicoro.gov.it
 
-## Ipsaa B.Marsano (Plesso)
+## Enrico Fermi (Plesso)
 
 Ordine scuola
 
@@ -489,5023 +466,6296 @@ Ordine scuola
 
 Tipologia scuola
 
-## Ist Prof Per L'Agricoltura E L'Ambiente
+## Liceo Scientifico
 
 Codice
 
-## Gera012014
+## Mtps01701A
 
 Indirizzo
 
-## Via Alla Scuola Di Agricoltura, 9 Genova
+## Via Puglia, 8 - 75025 Policoro
 
-
-## Sant'Ilario 16167 Genova
-
+Edifici
+Via SALERNO SNC - 75025 POLICORO MT
+•
 Indirizzi di Studio
 
-## Operatore Agricolo
+## Trasporti E Logistica - Biennio
+
+
+## Comune
 
 •
 
-## Agricoltura, Sviluppo Rurale,
-
-
-## Valorizzazione Dei Prodotti Del
-
-
-## Territorio E Gestione Delle Risorse
-
-
-## Forestali E Montane
+## Conduzione Del Mezzo
 
 •
-9
 
-## B.Marsano - Geis012004
+## Logistica
 
+•
+
+## Scientifico
+
+•
+
+## Scientifico - Opzione Scienze
+
+
+## Applicate
+
+•
+
+## Linguistico
+
+•
+Totale Alunni
+723
+
+## Tecnico "E. Fermi" (Plesso)
+
+Ordine scuola
+
+## Scuola Secondaria Ii Grado
+
+Tipologia scuola
+
+## Istituto Tecnico Nautico
+
+Codice
+
+## Mtth01701X
+
+Indirizzo
+
+## Via Puglia, 8 Policoro 75025 Policoro
+
+10
+
+---
+
+## Pagina 12
+
+
+## La Scuola E Il
+
+
+## Suo Contesto
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Edifici
+Via SALERNO SNC - 75025 POLICORO MT
+•
+Indirizzi di Studio
+
+## Trasporti E Logistica - Biennio
+
+
+## Comune
+
+•
+
+## Conduzione Del Mezzo
+
+•
+
+## Conduzione Del Mezzo Navale -
+
+
+## Opzione
+
+•
+
+## Logistica
+
+•
+Totale Alunni
+185
+
+## Ricognizione Attrezzature E Infrastrutture Materiali
+
+Laboratori
+Con collegamento ad Internet
+8
+Chimica
+1
+Disegno
+1
+Elettronica
+1
+Fisica
+1
+Informatica
+3
+Lingue
+1
+Meccanico
+1
+Multimediale
+1
+Scienze
+1
+Atelier creativo
+1
+Biblioteche
+Classica
+1
+Aule
+Magna
+1
+Proiezioni
+1
+11
+
+---
+
+## Pagina 13
+
+
+## La Scuola E Il
+
+
+## Suo Contesto
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Strutture sportive
+Palestra
+1
+Servizi
+Servizio trasporto alunni disabili
+Attrezzature
+multimediali
+PC e Tablet presenti nei Laboratori
+30
+LIM e SmartTV (dotazioni multimediali)
+presenti nei laboratori
+4
+PC e Tablet presenti nelle Biblioteche
+1
+LIM e SmartTV (dotazioni multimediali)
+presenti nelle Biblioteche
+1
+Lim e Smart TV/Apple TV aule
+32
+Approfondimento
+Si fa presente che, considerata l'emergenza covid 19, tutte le aule soono state dotate
+di pc Notebook e smart Tv così da garantire per tutti la didattica mista come prevista
+dal piano di didattica digitale integrata.
+
+## Risorse Professionali
+
+Docenti
+Personale ATA
+72
+24
+12
 
 ---
 
 ## Pagina 14
 
 
-## La Scuola E Il Suo Contesto
-
-Caratteristiche principali della scuola
-
-## Ptof 2022 - 2025
-
-Totale Alunni
-216
-
-## Marsano/San Colombano (Plesso)
-
-Ordine scuola
-
-## Scuola Secondaria Ii Grado
-
-Tipologia scuola
-
-## Ist Prof Per L'Agricoltura E L'Ambiente
-
-Codice
-
-## Gera012025
-
-Indirizzo
-
-## Via Aste Vittorio, 1 San Colombano Certenoli
+## Le Scelte
 
 
-## 16040 San Colombano Certenoli
+## Strategiche
 
 
-## Marsano/Arenzano (Plesso)
-
-Ordine scuola
-
-## Scuola Secondaria Ii Grado
-
-Tipologia scuola
-
-## Ist Prof Per L'Agricoltura
-
-Codice
-
-## Gera012036
-
-Indirizzo
-
-## Ex Scuola Terralba Arenzano 16011 Arenzano
-
-Indirizzi di Studio
-
-## Agricoltura, Sviluppo Rurale,
+## Ptof - 2019/20-2021/22
 
 
-## Valorizzazione Dei Prodotti Del
+## Enrico Fermi
 
 
-## Territorio E Gestione Delle Risorse
+## Le Scelte Strategiche
 
 
-## Forestali E Montane
+## Priorità Desunte Dal Rav
 
-•
-Totale Alunni
-135
+Aspetti Generali
+- Ridurre la quota di studenti sospesi in giudizio per debiti scolastici.
+- Migliorare le competenze degli studenti (del liceo linguistico e dell'istituto tecnico)
+in italiano e matematica
 
-## Enogastronomia - S. Colombano (Plesso)
+## Priorità E Traguardi
 
-Ordine scuola
+Risultati Scolastici
+Priorità
+Ridurre la quota di studenti sospesi in giudizio per debiti scolastici.
+Traguardi
+Mantenere sotto la soglia del 18% le sospensioni di giudizio per debiti scolastici,in
+riferimento al numero totale degli studenti iscritti.
+Risultati Nelle Prove Standardizzate Nazionali
+Priorità
+Migliorare le competenze degli studenti (del liceo Linguistico e dell'istituto Tecnico)
+in italiano e matematica
+Traguardi
+Migliorare i risultati degli studenti in italiano e matematica nelle prove Invalsi
+riducendo la distanza dalla media regionale di almeno 2 punti.
 
-## Scuola Secondaria Ii Grado
-
-Tipologia scuola
-
-## Ist Prof Alberghiero
-
-Codice
-
-## Gerh012018
-
-Indirizzo
-
-## Via Saracco, 7 San Colombano Certenoli 16040
-
-
-## San Colombano Certenoli
+## Obiettivi Formativi Prioritari (Art. 1, Comma 7 L. 107/15)
 
 
-## Enogastronomia E Ospitalita'
+## Aspetti Generali
 
-•
-Indirizzi di Studio
-10
-
-## B.Marsano - Geis012004
-
+13
 
 ---
 
 ## Pagina 15
 
 
-## La Scuola E Il Suo Contesto
-
-Caratteristiche principali della scuola
-
-## Ptof 2022 - 2025
+## Le Scelte
 
 
-## Alberghiera
+## Strategiche
 
 
-## Operatore Della Ristorazione
-
-•
-
-## Operatore Della Ristorazione
-
-•
-Totale Alunni
-99
-
-## I.T.A. B. Marsano (Plesso)
-
-Ordine scuola
-
-## Scuola Secondaria Ii Grado
-
-Tipologia scuola
-
-## Istituto Tecnico Agrario
-
-Codice
-
-## Geta01201X
-
-Indirizzo
-
-## Via Alla Scuola Di Agricoltura Genova 16167
+## Ptof - 2019/20-2021/22
 
 
-## Genova
+## Enrico Fermi
 
-Indirizzi di Studio
-
-## Agraria, Agroal. E Agroind.-Biennio Com.
-
-•
-
-## Produzioni E Trasformazioni
-
-•
-Totale Alunni
-171
-
-## Ist.Tec.Tecn. Marsano/San Colombano (Plesso)
-
-Ordine scuola
-
-## Scuola Secondaria Ii Grado
-
-Tipologia scuola
-
-## Istituto Tecnico Agrario
-
-Codice
-
-## Geta012021
-
-Indirizzo
-
-## Via Aste Vittorio, 1 San Colombano Certenoli
-
-
-## 16040 San Colombano Certenoli
-
-Indirizzi di Studio
-
-## Agraria, Agroal. E Agroind.-Biennio Com.
-
-•
-
-## Produzioni E Trasformazioni
-
-•
-Totale Alunni
-38
-11
-
-## B.Marsano - Geis012004
-
+Obiettivi funzionali al raggiungimento del traguardo
+Area di processo
+Obiettivi di processo
+Priorità
+1
+Priorità
+2
+Migliorare la progettazione d'Istituto,
+alla luce dei quadri di riferimento di
+Italiano e Matematica dell'INVALSI
+nel primo biennio.
+X
+Utilizzare criteri di valutazione
+omogenei e condivisi nei vari indirizzi
+di studio.
+X
+Realizzare la progettazione d'Istituto
+alla luce dei nuclei fondanti del
+secondo biennio e del monoennio
+secondo il nuovo Esame di Stato.
+X
+X
+1
+Curricolo,
+progettazione e
+valutazione.
+Acquisire un metodo di studio.
+X
+X
+Adottare e condividere pratiche
+metodologiche innovative.
+X
+X
+2
+Ambiente di
+apprendimento
+Utilizzare spazi accattivanti e
+favorevoli all'apprendimento.
+X
+X
+3
+Inclusione e
+differenziazione
+Adeguare l'insegnamento ai bisogni
+formativi di ciascuno studente
+attraverso percorsi di recupero, di
+sostegno e potenziamento.
+X
+Programmare incontri con le scuole
+di provenienza degli alunni iscritti al
+primo anno del nostro Istituto.
+X
+4
+Continuità e
+orientamento
+Promuovere percorsi di
+orientamento per la consapevolezza
+di sé e la costruzione della propria
+identità.
+X
+Orientamento
+strategico e
+Individuare criteri di formazione delle
+classi che garantiscano equi-
+5
+X
+14
 
 ---
 
 ## Pagina 16
 
 
-## La Scuola E Il Suo Contesto
+## Le Scelte
 
-Ricognizione attrezzature e infrastrutture
-materiali
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Ricognizione attrezzature e infrastrutture
-materiali
-Laboratori
-Con collegamento ad Internet
-5
-Chimica
-3
-Disegno
-2
-Informatica
-5
-Scienze
-3
-Biblioteche
-Classica
-1
-Aule
-Magna
-2
-Proiezioni
-1
-Strutture sportive
-Calcio a 11
-1
-Campo Basket-Pallavolo all'aperto
-1
-Palestra
-3
-Servizi
-Mensa
-Approfondimento
-L'Istituto ha iniziato la progettazione relativa all'utilizzo dei Fondi del PNRR per il Piano Scuola 4. 0
-(Azione 2 - Next generation labs - Laboratori per le professioni digitali del futuro e Azione 1 - Next
-generation class - Ambienti di apprendimento innovativi). Si prevedono pertanto importanti
-investimenti, che porteranno l'Istituto ad avere laboratori didattici ed aule altamente innovativi
-(serre con fotovoltaico, autosufficienti dal punto di vista energetico; laboratori di STEM altamente
-innovativi; aule 4.0 distribuite per aree disciplinari), in linea con la missione di ricerca e sviluppo
-dell'Istituto.
-12
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+eterogeneità.
+organizzazione
+della scuola
+Promuovere una figura di docente
+per supportare gli studenti del primo
+biennio dell'indirizzo Linguistico e
+Tecnico in Italiano e Matematica.
+X
+X
+6
+Integrazione con il
+territorio e
+rapporti con le
+famiglie
+Coinvolgere i genitori nel processo di
+apprendimento dei discenti.
+X
+X
+Gli obiettivi di processo da adottare per il raggiungimento delle priorità strategiche
+prefissate sono stati individuati tra le pratiche educative e didattiche, in quanto si
+ritiene che le azioni su tali pratiche determinino in modo diretto i cambiamenti
+richiesti e previsti dalle suddette priorità.
+
+## Obiettivi Formativi Individuati Dalla Scuola
+
+1 ) valorizzazione e potenziamento delle competenze linguistiche, con
+particolare riferimento all'italiano nonché alla lingua inglese e ad altre lingue
+dell'Unione europea, anche mediante l'utilizzo della metodologia Content
+language integrated learning
+2 ) potenziamento delle competenze matematico-logiche e scientifiche
+3 ) potenziamento delle competenze nella pratica e nella cultura musicali,
+nell'arte e nella storia dell'arte, nel cinema, nelle tecniche e nei media di
+produzione e di diffusione delle immagini e dei suoni, anche mediante il
+coinvolgimento dei musei e degli altri istituti pubblici e privati operanti in tali
+settori
+4 ) sviluppo delle competenze in materia di cittadinanza attiva e democratica
+attraverso la valorizzazione dell'educazione interculturale e alla pace, il rispetto
+delle differenze e il dialogo tra le culture, il sostegno dell'assunzione di
+responsabilità nonché della solidarietà e della cura dei beni comuni e della
+consapevolezza dei diritti e dei doveri; potenziamento delle conoscenze in
+materia giuridica ed economico-finanziaria e di educazione
+all'autoimprenditorialità
+15
 
 ---
 
 ## Pagina 17
 
 
-## La Scuola E Il Suo Contesto
+## Le Scelte
 
-Risorse professionali
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Risorse professionali
-Docenti
-132
-Personale ATA
-35
-Distribuzione dei docenti
-Distribuzione dei docenti a T.I. per anzianità nel
-ruolo di appartenenza (riferita all'ultimo ruolo)
-Approfondimento
-E' da notare come oltre la metà dei/delle docenti insegna presso l'Istituto da oltre 5 anni. Questa
-affezione alla scuola e al suo particolare indirizzo è senz'altro un grande elemento di forza per gli
-apprendimenti delle studentesse e degli studenti.
-13
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+5 ) sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto
+della legalità, della sostenibilità ambientale, dei beni paesaggistici, del
+patrimonio e delle attività culturali
+6 ) potenziamento delle discipline motorie e sviluppo di comportamenti ispirati
+a uno stile di vita sano, con particolare riferimento all'alimentazione,
+all'educazione fisica e allo sport, e attenzione alla tutela del diritto allo studio
+degli studenti praticanti attività sportiva agonistica
+7 ) sviluppo delle competenze digitali degli studenti, con particolare riguardo al
+pensiero computazionale, all'utilizzo critico e consapevole dei social network e
+dei media nonché alla produzione e ai legami con il mondo del lavoro
+8 ) potenziamento delle metodologie laboratoriali e delle attività di laboratorio
+9 ) prevenzione e contrasto della dispersione scolastica, di ogni forma di
+discriminazione e del bullismo, anche informatico; potenziamento
+dell'inclusione scolastica e del diritto allo studio degli alunni con bisogni
+educativi speciali attraverso percorsi individualizzati e personalizzati anche con
+il supporto e la collaborazione dei servizi socio-sanitari ed educativi del territorio
+e delle associazioni di settore e l'applicazione delle linee di indirizzo per favorire
+il diritto allo studio degli alunni adottati, emanate dal Ministero dell'istruzione,
+dell'università e della ricerca il 18 dicembre 2014
+10 ) valorizzazione della scuola intesa come comunità attiva, aperta al territorio
+e in grado di sviluppare e aumentare l'interazione con le famiglie e con la
+comunità locale, comprese le organizzazioni del terzo settore e le imprese
+11 ) incremento dell'alternanza scuola-lavoro nel secondo ciclo di istruzione
+12 ) individuazione di percorsi e di sistemi funzionali alla premialità e alla
+valorizzazione del merito degli alunni e degli studenti
+13 ) alfabetizzazione e perfezionamento dell'italiano come lingua seconda
+attraverso corsi e laboratori per studenti di cittadinanza o di lingua non italiana,
+da organizzare anche in collaborazione con gli enti locali e il terzo settore, con
+l'apporto delle comunità di origine, delle famiglie e dei mediatori culturali
+14 ) definizione di un sistema di orientamento
+16
 
 ---
 
 ## Pagina 18
 
 
-## Le Scelte Strategiche
+## Le Scelte
 
-Aspetti generali
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Aspetti generali
-Il contesto socio-economico di riferimento per l’Istituto è un contesto medio con la presenza di
-famiglie spesso proveniente dal settore di indirizzo, a volte con difficoltà economiche e un livello di
-istruzione medio-basso. Sono presenti pochi studenti/studentesse di cittadinanza straniera. Sono
-presenti un buon numero di alunni/e provenienti da zone montane dell'entroterra. Esiste un alto
-tasso di inserimento di studenti/studentesse con disabilità, che rappresentano un valore aggiunto
-alla diversità dell'Istituto.
-Nonostante l'età media dei docenti sia abbastanza alta, si evidenzia un'alta professionalità,
-accompagnata da passione per il proprio lavoro e senso di identità con l'Istituzione (molti dei/delle
-docenti, soprattutto di materie di indirizzo, hanno loro stessi frequentato l'Istituto da ragazzi/e). Gli
-elevati pensionamenti hanno portato ad un abbassamento dell’età media dei docenti di indirizzo,
-con particolare riferimento all'insegnamento di "Laboratori di esercitazioni pratiche inerenti le
-discipline agrarie", e ad una maggiore stabilizzazione dei/delle docenti di area comune. Le nomine su
-posti di sostegno spesso vengono attribuite da graduatorie incrociate e non sempre garantiscono
-formazione adeguata al ruolo che si va a ricoprire. Tuttavia, tale formazione viene fornita all'interno
-della scuola, con la condivisione di buone pratiche, job shadowing, focus group dedicati.
-La scuola ha offerto formazione sulla sicurezza a tutto il personale docente e a.t.a. e sta al momento
-progettando l'offerta formativa del prossimo triennio partendo dagli obiettivi nazionali e le esigenze
-formative individuali.
-In relazione alla dispersione ed al successo scolastico, la scuola registra una situazione articolata:
-nonostante sia molto alto il livello di successo formativo finale del corso di studi, molti sono gli
-studenti e le studentesse che si trovano a rischio dispersione implicita o esplicita, per i quali l'Istituto
-sta attivando una progettazione ad hoc.
-Per quanto riguarda gli esiti delle prove INVALSI, la scuola si trova in una situazione di equilibrio. Il
-punteggio di italiano e matematica della scuola alle prove INVALSI è  in linea con quello di scuole con
-background socio economico e culturale simile, per quanto riguarda l’indirizzo professionale risulta
-anche al di sopra della media. La varianza tra classi in italiano e in matematica  è  leggermente al di
-sotto di quella media, i punteggi delle classi non si discostano molto dalla media della scuola.
-Essendo le attività pratiche punto fondamentale dei percorsi dell'istituto, la formazione di gruppi di
-lavoro per la valutazione delle competenze chiave e di cittadinanza in passato si è svolta sempre
-concentrandosi su di esse; nel RAV appena pubblicato si è evidenziata la necessità di implementare e
-14
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Piano Di Miglioramento
+
+
+## Invalsi
+
+Descrizione Percorso
+Si fa presente che l’emergenza epidemiologica da Covid-19 e le connesse
+disposizioni per fronteggiarla, tra cui la sospensione delle attività didattiche e
+l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, hanno avuto un grande impatto
+sulle pratiche educative e didattiche e, allo stesso tempo, sui processi gestionali ed
+organizzativi dell’intero sistema scolastico per quanto attiene le diverse dimensioni
+che caratterizzano le aree di Contesto, dei Processi e soprattutto degli Esiti. Pertanto,
+si rende prioritario ed indispensabile, per l'anno scolastico 2020/2021 , rivolgere le
+nostre azioni di miglioramento per:
+• garantire l’ordinario e quotidiano svolgimento, in presenza e/o a distanza
+dell’attività educativa e didattica;
+• acquisire e consolidare le competenze di base;
+utilizzare le metodologie didattiche innovative.
+•
+L’AZIONE 1 INVALSI non viene pianificata in quanto, non sono essendo state
+effettuate le prove standardizzate, nell’anno scolastico scorso, a causa
+dell’interruzione delle attività in presenza, non sono presenti i dati per il confronto.
+
+## "Obiettivi Di Processo Collegati Al Percorso"
+
+
+## "Obiettivi Di Processo" Curricolo, Progettazione E Valutazione
+
+"Obiettivo:" Migliorare la progettazione d'Istituto, alla luce dei quadri di
+riferimento di italiano e matematica dell'INVALSI nel primo biennio.
+
+## "Priorità Collegate All’Obiettivo"
+
+» "Priorità" [Risultati scolastici]
+Ridurre la quota di studenti sospesi in giudizio per debiti
+scolastici.
+17
 
 ---
 
 ## Pagina 19
 
 
-## Le Scelte Strategiche
+## Le Scelte
 
-Aspetti generali
 
-## Ptof 2022 - 2025
+## Strategiche
 
-standardizzare le procedure di valutazione e certificazione delle competenze acquisite.
-Il curricolo e le attività di PCTO agevolano in maniera importante l'accesso all'attività lavorativa in
-tempi brevi, come evidenziato dalla documentazione statistica. Negli ultimi anni si è incrementata la
-quota di studenti/studentesse che hanno trovato lavoro in altre regioni ed all'estero.
-Negli anni la percentuale di studentesse/studenti che decide di immatricolarsi a corsi universitari
-non è mai scesa al di sotto del 20%, le valutazioni statistiche fanno rilevare negli ultimi anni un
-modesto successo nella prosecuzione degli studi, su questo tema l'istituto ha deciso di potenziare
-l'attività di orientamento in uscita, soprattutto per quanto attiene l’indirizzo tecnologico.
-A partire dalle Linee Guida degli ordinamenti di riferimento, l'istituto risponde ai bisogni formativi
-degli studenti e delle studentesse e alle attese educative e formative del contesto locale. Viene svolta
-una elaborazione a livello di dipartimenti per adeguare le indicazioni ministeriali al contesto locale.
-La scuola ha individuato i traguardi di competenza che gli studenti dovranno acquisire nel corso dei
-diversi anni. Vengono individuate anche le competenze trasversali e le soft skills (lavorare in
-squadra, comunicare in modo efficace, ecc.)
-Gli/le insegnanti utilizzano il curricolo definito dalla scuola come strumento di lavoro per la loro
-attività e come mezzo di ricerca per migliorare.
-Le attività di ampliamento dell'offerta formativa sono progettate in raccordo con il curricolo di
-istituto.
-Vengono individuati in modo chiaro gli obiettivi e le abilità/competenze da raggiungere attraverso i
-progetti di ampliamento dell'offerta formativa.
-L’ orientamento in entrata si articola su più attività, svolte nelle scuole secondarie di primo grado del
-bacino d’utenza dei diversi plessi e nell’Istituto con accoglienza in istituto delle alunne e degli alunni
-(open school); essa si avvale della collaborazione di numerosi/e docenti, coordinati dal responsabile,
-incaricato con funzione strumentale. L’orientamento in uscita, prevede un’attività di collaborazione
-con gli enti universitari e le associazioni datoriali che viene avviata già in quarta. Il rapporto tra la
-scuola e le famiglie è avvertito come imprescindibile per ciò che riguarda il percorso didattico-
-educativo degli studenti e delle studentesse e si realizza, in primis, con le modalità dei ricevimenti
-individuali e collettivi; le famiglie sono, inoltre, coinvolte nelle attività della scuola attraverso il
-Comitato dei Genitori, che ne raccoglie suggerimenti e istanze.
-La necessità di adeguarsi alle innovazioni del settore agroindustriale ha portato l'istituto a collegarsi
-con strutture locali, nazionali e comunitarie per meglio conoscere l'evolversi del settore di
-15
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+» "Priorità" [Risultati nelle prove standardizzate nazionali]
+Migliorare le competenze degli studenti (del liceo Linguistico e
+dell'istituto Tecnico) in italiano e matematica
+
+## Attività Prevista Nel Percorso: Innovazione Metodologica
+
+Tempistica prevista per la
+conclusione dell'attività
+Destinatari
+Soggetti Interni/Esterni
+Coinvolti
+01/06/2021
+Docenti
+Docenti
+ATA
+ATA
+Studenti
+Studenti
+Genitori
+Genitori
+Consulenti esterni
+Associazioni
+Responsabile
+Descrizione
+Verranno proposte nuove tecniche d’insegnamento:
+− Microconferenze
+− Service Learning
+− Flipped classroom .*
+*la declinazione di tali tecniche sono declinate nell'area afferente ai principali elementi
+di innovazione  nonchè nella sezione afferente al PNSD e alle scelte strategiche
+Attività
+18
 
 ---
 
 ## Pagina 20
 
 
-## Le Scelte Strategiche
+## Le Scelte
 
-Aspetti generali
 
-## Ptof 2022 - 2025
+## Strategiche
 
-riferimento.
-Grande attenzione è stata rivolta ai PCTO nei quali l'istituto ormai da decenni opera con grande
-impegno in tutti i plessi. A questo proposito è stata istituita la funzione strumentale di referente
-PCTO con l’incarico di coordinamento fra tutti i referenti delle singole classi  in modo che la
-progettazione sia condivisa dagli insegnanti di indirizzo e di altre aree e di conseguenza vengano
-ridotte lei possibili difformità..
-L'Istituto ha una lunga tradizione inclusiva nella comunità scolastica delle ragazze e dei ragazzi con
-certificazione 104; le modalità specifiche di attuazione dell'inclusione sono riportate nel Piano
-Annuale dell’inclusione, di seguito riportato.
-16
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+I docenti, referenti dei progetti, formeranno i docenti interessati, all’uso della nuova
+tecnica. Ogni docente potrà erogare attività didattiche con nuove tecniche
+d’insegnamento e/o innovative avendo cura di monitorare gli apprendimenti in itinere
+ed al termine dell’attività.
+Risultati Attesi
+Obiettivo
+− Applicazione di nuove tecniche d’insegnamento e di comunicazione/relazione.
+− Nuovi spazi di apprendimento.
+
+## Principali Elementi Di Innovazione
+
+
+## Sintesi Delle Principali Caratteristiche Innovative
+
+I principali aspetti innovativi si possono racchiudere nei seguenti progetti proposti
+dal gruppo di lavoro riunitosi dal 3 settembre 2020 fino al 9 settembre 2020
+coordinato dal prof. Pino Suriano. Qui di seguito l’abstract sintetico.
+ü  “MICROCONFERENZE”
+Si propone di riconfermare l’attività innovativa, con l’introduzione di alcuni
+nuovi elementi:
+-     apertura del percorso formativo anche a docenti di altre scuole, con la
+prospetti- va dell’orientamento degli studenti della secondaria di primo grado;
+-   condivisione del percorso con esperti universitari al fine di produrre una
+rubrica di valutazione validata a livello accademico;
+-     riproposizione del Premio Nazionale “Microconferenze” con l’aggiunta di
+attività  di formazione anche a distanza per docenti di altre scuole, con
+eventuale riferi-
+mento alla piattaforma e-twinning (vedi in seguito);
+-     Utilizzo delle microconferenze per il percorso di preparazione della relazione
+19
 
 ---
 
 ## Pagina 21
 
 
-## Le Scelte Strategiche
+## Le Scelte
 
-Priorità desunte dal RAV
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Priorità desunte dal RAV
-Risultati scolastici
-Priorità
-Riduzione degli abbandoni scolastici tramite lo sviluppo del Presidio educativo
-"antidispersione e promozione del successo formativo", anche attraverso la costituzione
-di un gruppo di lavoro, insieme alle associazioni del terzo settore del territorio e degli
-EELL, ad esso dedicato.
-Traguardo
-Riduzione di almeno 10 punti percentuali della dispersione scolastica rispetto al dato
-attuale.
-Competenze chiave europee
-Priorità
-Migliorare le procedure di promozione e valutazione delle competenze chiave di
-cittadinanza, con particolare riferimento alle seguenti competenze: - Competenza
-personale, sociale e capacita' di imparare a imparare - Competenze digitali -
-Competenza imprenditoriale - Competenza nelle materie STEM (Science, Technology,
-Engineering, Maths)
-Traguardo
-Costruire ed attuare dei percorsi condivisi dal Collegio docenti per lo sviluppo e la
-valutazione delle competenze chiave per l'apprendimento permanente, strutturati con
-compiti di realtà, griglie di valutazione ed articolati nei diversi indirizzi degli ordinamenti
-presenti nell'Istituto (professionale agrario e enogastronomico e tecnico agrario).
-17
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Pcto;
+-     Ipotesi di proporre alcune di queste microconferenze in un momento di
+condivisione  finale con le aziende.
+ü  FLIPPED CLASSROOM
+Introduzione del metodo innovativo flipped classroom nelle due possibili forme di
+“rovesciamento”:
+-   rovesciamento dei ruoli (studenti/docenti);
+-   rovesciamento dei momenti delle attività (studio individuale/lezione)
+-   momento di formazione sui possibili strumenti tecnologici di supporto alla
+spe- rimentazione (sito Ted, BBc, WeSchool, Sito Rai Scuola, risorse Zoom,
+Screen-
+Cast O’Matic, Loom).
+ü  METEO
+Si propone di riconfermare l’attività innovativa, con alcuni nuovi elementi:
+-    ampliamento dei fruitori del service learning: non solo enti pubblici
+ma anche operatori economici, es. pescatori del territorio.
+-    produzione grafici: analisi e validazione dei dati attraverso
+interpolazioni di grafi- ci, mappe sinottiche e modelli previsionali
+specifici (pressione, copertura del cie-
+lo, stabilità atmosferica, ricambio di masse d’aria e precipitazioni)
+-    previsione a lungo termine: utilizzo dati per una previsione del tempo
+a cadenza settimanale.
+-    presentazione del percorso sul nuovo sito su piattaforma Wordpress,
+con indi- cazione di elementi esplicativi sul metodo di lavoro.
+-    possibilità della diﬀusione di una trasmissione via web del bollettino
+20
 
 ---
 
 ## Pagina 22
 
 
-## Le Scelte Strategiche
+## Le Scelte
 
-Priorità desunte dal RAV
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Risultati a distanza
-Priorità
-Migliorare i risultati a distanza degli studenti e studentesse dell'Istituto, sia
-incrementando il numero di alunni/e che in uscita dal percorso superiore si iscrivono
-all'Università, che migliorando la tipologia contrattuale di quanti entrano nel mercato
-del lavoro.
-Traguardo
-- Incremento di almeno 5 punti percentuali degli studenti e delle studentesse iscritti/e
-all'Università per quanto riguarda l'indirizzo tecnologico. - Incremento di almeno 5 punti
-percentuali delle studentesse e degli studenti impegnati/e in un'attività lavorativa con
-un contratto di lavoro stabile per quanto riguarda l'indirizzo professionale.
-18
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+con lettura video o radio, in modo analogo a quanto avviene nei
+tgradio.
+ü  Veicolazione di moduli disciplinari in lingua nei bienni
+Veicolare moduli disciplinari in lingua inglese nel biennio di tutti gli indirizzi per di-
+scipline non linguistiche.
+-    coinvolgimento potenziale di tutte le discipline;
+-    attività consigliate per le classi prima e seconda di ogni indirizzo;
+-    collaborazione tra docenti in possesso di certificazione e docenti di inglese
+per consulenza o eventuale compresenza in fase di spiegazione o verifica;
+-    sperimentazione per uno o due moduli annuali.
+ü  Strategia operativa Question/Reflection Time
+Introduzione del metodo innovativo Question/Reflection Time. Strategia che
+pre- vede l’individuazione di un segmento temporale per la richiesta di
+chiarimenti con una particolare disposizione dello spazio d’aula, anche virtuale.
+ü  Innovazione proposta: etwinning per Erasmus+ ed altri progetti
+Proposta di un momento di introduzione allo strumento, per poterne fruire in
+pro- spettiva multidisciplinare per la creazione di partnership nazionali e
+internazionali
+ü  “Oltre le discipline”
+Introduzione della proposta pedagogica che si basa su attività di pratica
+21
 
 ---
 
 ## Pagina 23
 
 
-## Le Scelte Strategiche
-
-Obiettivi formativi prioritari<br>(art. 1, comma 7
-
-## L. 107/15)
+## Le Scelte
 
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Obiettivi formativi prioritari
-(art. 1, comma 7 L. 107/15)
-Obiettivi formativi individuati dalla scuola
-valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento
-all'italiano nonché alla lingua inglese e ad altre lingue dell'Unione europea, anche mediante
-l'utilizzo della metodologia Content language integrated learning
-•
-potenziamento delle competenze matematico-logiche e scientifiche
-•
-potenziamento delle competenze nella pratica e nella cultura musicali, nell'arte e nella storia
-dell'arte, nel cinema, nelle tecniche e nei media di produzione e di diffusione delle immagini e dei
-suoni, anche mediante il coinvolgimento dei musei e degli altri istituti pubblici e privati operanti
-in tali settori
-•
-sviluppo delle competenze in materia di cittadinanza attiva e democratica attraverso la
-valorizzazione dell'educazione interculturale e alla pace, il rispetto delle differenze e il dialogo tra
-le culture, il sostegno dell'assunzione di responsabilità nonché della solidarietà e della cura dei
-beni comuni e della consapevolezza dei diritti e dei doveri; potenziamento delle conoscenze in
-materia giuridica ed economico-finanziaria e di educazione all'autoimprenditorialità
-•
-sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto della legalità, della
-sostenibilità ambientale, dei beni paesaggistici, del patrimonio e delle attività culturali
-•
-potenziamento delle discipline motorie e sviluppo di comportamenti ispirati a uno stile di vita
-sano, con particolare riferimento all'alimentazione, all'educazione fisica e allo sport, e attenzione
-alla tutela del diritto allo studio degli studenti praticanti attività sportiva agonistica
-•
-sviluppo delle competenze digitali degli studenti, con particolare riguardo al pensiero
-computazionale, all'utilizzo critico e consapevole dei social network e dei media nonché alla
-produzione e ai legami con il mondo del lavoro
-•
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione e del
-bullismo, anche informatico; potenziamento dell'inclusione scolastica e del diritto allo studio degli
-alunni con bisogni educativi speciali attraverso percorsi individualizzati e personalizzati anche con
-il supporto e la collaborazione dei servizi socio-sanitari ed educativi del territorio e delle
-19
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+laborato- riale integrata con la didattica curricolare e prevede la realizzazione di
+un prodotto/ manufatto in forma di ebook, ipertesto multimediale, filmato,
+guida per i corretti comportamenti alimentari, murales, evento culturale,
+laboratorio interattivo, pod- cast, app, etc.
+Le attività sarebbero relative al gruppo classe e potrebbero essere realizzate
+nel- l’ambito dell’Assemblea di Istituto e/o di classe con l’impegno di un docente
+coor- dinatore delle attività e con la prospettiva di raccogliere i prodotti in un
+unico am- biente digitale per la disseminazione delle attività anche in chiave di
+orientamento.
+ü  Service learning: service learning: apprendimento didattico che coniuga
+apprendimento e servizio;
+ü  Incloding: progetto di inclusione attraverso il coding e la robotica educativa
+
+## Aree Di Innovazione
+
+
+## Leadership E Gestione Della Scuola
+
+La dimensione della leadership e della gestione della scuola si attua e realizza
+principalmente nelle seguenti "pratiche"
+- flessibilità organizzativa
+- garanzia dell'equità e l'omogeneità della componente docente dei diversi
+consigli di classe
+- partecipazione del dirigente ai progetti di mobilità e gemellaggi e
+organizzazione degli spazi della scuola  ad hoc mutuati dalle migliori pratiche
+europee
+22
 
 ---
 
 ## Pagina 24
 
 
-## Le Scelte Strategiche
-
-Obiettivi formativi prioritari<br>(art. 1, comma 7
-
-## L. 107/15)
+## Le Scelte
 
 
-## Ptof 2022 - 2025
+## Strategiche
 
-associazioni di settore e l'applicazione delle linee di indirizzo per favorire il diritto allo studio degli
-alunni adottati, emanate dal Ministero dell'istruzione, dell'università e della ricerca il 18 dicembre
-2014
-valorizzazione della scuola intesa come comunità attiva, aperta al territorio e in grado di
-sviluppare e aumentare l'interazione con le famiglie e con la comunità locale, comprese le
-organizzazioni del terzo settore e le imprese
-•
-apertura pomeridiana delle scuole e riduzione del numero di alunni e di studenti per classe o per
-articolazioni di gruppi di classi, anche con potenziamento del tempo scolastico o rimodulazione
-del monte orario rispetto a quanto indicato dal regolamento di cui al decreto del Presidente della
-Repubblica 20 marzo 2009, n. 89
-•
-incremento dell'alternanza scuola-lavoro nel secondo ciclo di istruzione
-•
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli studenti
-•
-individuazione di percorsi e di sistemi funzionali alla premialità e alla valorizzazione del merito
-degli alunni e degli studenti
-•
-alfabetizzazione e perfezionamento dell'italiano come lingua seconda attraverso corsi e
-laboratori per studenti di cittadinanza o di lingua non italiana, da organizzare anche in
-collaborazione con gli enti locali e il terzo settore, con l'apporto delle comunità di origine, delle
-famiglie e dei mediatori culturali
-•
-definizione di un sistema di orientamento
-•
-20
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+-
+
+## Pratiche Di Insegnamento E Apprendimento
+
+Microconferenze: metodologia di comunicazione efficace, argomentativa ed
+espressiva. Tale attività, già attuata nel nostro istituto a partire dall'anno
+scolastico 2015/2016  come progetto extracurricolare , diventa pratica comune
+di didattica per le discipline di studio curricolari. Tale sperimentazione è
+coordinata da un gruppo di lavoro che si forma sulla metodologia e la mette in
+atto.
+
+## Spazi E Infrastrutture
+
+- Realizzazione di laboratori innovativi (laboratorio informatico e linguistico)
+L'idea alla base del progetto è quella di fornire strumenti utili
+all'approfondimento e allo studio delle competenze chiave organizzando un
+laboratorio completo di attrezzature idonee all'uso per le discipline delle lingue
+straniere e informatica.
+il progetto è volto alla sostituzione di un vecchio laboratorio linguistico obsoleto
+e datato. L'intento, dunque, è quello di realizzare ambienti di apprendimento
+adatti ad uno utilizzo costante e diffuso dellle tecnologie nella quotidianità
+scolastica, al fine di verificare come e quanto l'impatto possa intervenire nei
+processi formativi in un'epoca di trasformazioni dei linguaggi della
+comunicazione e della diffusione dei saperi.
+
+## Progetti A Cui La Scuola Ha Partecipato:
+
+Rete Avanguardie educative
+Didattica
+immersiva
+Altri progetti
+Avanguardie educative DENTRO FUORI LA
+Minecraft
+E-twinning
+23
 
 ---
 
 ## Pagina 25
 
 
-## Le Scelte Strategiche
+## Le Scelte
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Strategiche
 
-Piano di miglioramento
-Percorso n° 1: Armonizzazione dei diversi plessi
-dell'Istituto
-L'Istituto Marsano si prefigge l'obiettivo di proporsi all'utenza della provincia di Genova come un
-istituto unico, con finalità e obiettivi propri, trasparenti, ben articolati e comunicati da
-raggiungere con pratiche e procedure standardizzate e centralizzate. A tale proposito si rende
-necessario:
-1. Rivedere il curricolo d'Istituto in modo da includere i percorsi per competenze per
-l'apprendimento permanente, per le competenze trasversali e l'educazione civica, nonché le
-specificità e curvature legate ad ogni singolo indirizzo. Contestualmente, attraverso il lavoro
-delle articolazioni del Collegio docenti, vanno condivise con tutto l'istituto le buone pratiche e le
-metodologie didattiche in grado di realizzare al meglio gli obiettivi e le finalità del curricolo.
-2. Creare una struttura di staff centralizzata, con docenti provenienti da tutti i plessi e le realtà
-territoriali dell'Istituto in grado di partecipare attivamente alla progettazione e realizzazione
-delle priorità e dei traguardi che l'Istituto si è assegnato.
-3. Uniformare la comunicazione, centralizzando gli account social (Facebook, Instagram e
-Telegram), rispettando sempre un'unica grafica (brand) in tutte le comunicazioni (carta intestata,
-pieghevoli, manifesti, sito web) e manifestando il profilo innovativo dell'Istituto.
-4. Provvedere ad un piano di gestione qualità che armonizzi tutte le procedure, protocolli e
-documenti gestionali amministrativi e didattici
-Priorità e traguardo a cui il percorso è collegato
-Risultati scolastici
-Priorità
-21
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Rete Avanguardie educative
+Didattica
+immersiva
+Altri progetti
+
+## Scuola - Service Learning
+
+Avanguardie educative DEBATE
+Flipped
+classroom
+Avanguardie educative INTEGRAZIONE CDD /
+
+## Libri Di Testo
+
+Microconferenze
+24
 
 ---
 
 ## Pagina 26
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-Riduzione degli abbandoni scolastici tramite lo sviluppo del Presidio educativo
-"antidispersione e promozione del successo formativo", anche attraverso la
-costituzione di un gruppo di lavoro, insieme alle associazioni del terzo settore del
-territorio e degli EELL, ad esso dedicato.
-Traguardo
-Riduzione di almeno 10 punti percentuali della dispersione scolastica rispetto al
-dato attuale.
-Competenze chiave europee
-Priorità
-Migliorare le procedure di promozione e valutazione delle competenze chiave di
-cittadinanza, con particolare riferimento alle seguenti competenze: - Competenza
-personale, sociale e capacita' di imparare a imparare - Competenze digitali -
-Competenza imprenditoriale - Competenza nelle materie STEM (Science,
-Technology, Engineering, Maths)
-Traguardo
-Costruire ed attuare dei percorsi condivisi dal Collegio docenti per lo sviluppo e la
-valutazione delle competenze chiave per l'apprendimento permanente, strutturati
-con compiti di realtà, griglie di valutazione ed articolati nei diversi indirizzi degli
-ordinamenti presenti nell'Istituto (professionale agrario e enogastronomico e
-tecnico agrario).
-Obiettivi di processo legati del percorso
-Curricolo, progettazione e valutazione
-22
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## L'Offerta Formativa
+
+
+## Traguardi Attesi In Uscita
+
+
+## Secondaria Ii Grado - Tipologia: Istituto Tecnico Nautico
+
+
+## Istituto/Plessi
+
+
+## Codice Scuola
+
+
+## Tecnico "E. Fermi"
+
+
+## Mtth01701X
+
+
+## Conduzione Del Mezzo Navale - Opzione
+
+Competenze comuni:
+a tutti i percorsi di istruzione tecnica
+- utilizzare il patrimonio lessicale ed espressivo della lingua italiana secondo le esigenze
+comunicative nei vari contesti: sociali, culturali, scientifici, economici, tecnologici.
+- stabilire collegamenti tra le tradizioni culturali locali, nazionali ed internazionali, sia in
+prospettiva interculturale sia ai fini della mobilità di studio e di lavoro.
+- utilizzare gli strumenti culturali e metodologici per porsi con atteggiamento razionale,
+critico e responsabile di fronte alla realtà, ai suoi fenomeni, ai suoi problemi, anche ai fini
+dell'apprendimento permanente.
+- utilizzare e produrre strumenti di comunicazione visiva e multimediale, anche con
+riferimento alle strategie espressive e agli strumenti tecnici della comunicazione in rete.
+- padroneggiare la lingua inglese e, ove prevista, un'altra lingua comunitaria per scopi
+comunicativi e utilizzare i linguaggi settoriali relativi ai percorsi di studio, per interagire in
+diversi ambiti e contesti professionali, al livello B2 del quadro comune europeo di
+riferimento per le lingue (QCER).
+- utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
+adeguatamente informazioni qualitative e quantitative.
+- identificare e applicare le metodologie e le tecniche della gestione per progetti.
+- redigere relazioni tecniche e documentare le attività individuali e di gruppo relative a
+A.
+25
 
 ---
 
 ## Pagina 27
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-Revisione del curricolo di Istituto e dei criteri di valutazione degli apprendimenti
-degli studenti e delle studentesse così da renderlo più vicino ai bisogni dell'utenza e
-alle imprese ed enti del territorio.
-Realizzare appieno l'autonomia scolastica attraverso l'utilizzo del 20% di quota di
-personalizzazione del curricolo scolastico e/o gli strumenti di flessibilità per
-l'autonomia scolastica, previsti dall'art. 8 del D.Lgs.61/2017, così da offrire al
-territorio una curvatura del percorso scolastico più adatta ai bisogni concreti
-dell'utenza e degli stakeholders.
-Orientamento strategico e organizzazione della
-scuola
-Implementare un sistema di gestione della qualità delle procedure e protocolli
-scolastici, che sostenga tutta la comunità scolastica nell'uniformare, migliorare e
-monitorare l'efficacia e l'efficenza delle pratiche amministrative, didattiche,
-formative.
-Sviluppo e valorizzazione delle risorse umane
-Promuovere percorsi formativi per docenti sull'innovazione didattica e la
-valutazione.
-Integrazione con il territorio e rapporti con le
-famiglie
-Migliorare i rapporti con gli EELL e le imprese, anche del terzo settore per favorire
-23
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+situazioni professionali.
+- individuare e utilizzare gli strumenti di comunicazione e di team working più appropriati
+per intervenire nei contesti organizzativi e professionali di riferimento.
+Competenze specifiche:
+di indirizzo
+- identificare, descrivere e comparare le tipologie e funzioni dei vari mezzi e sistemi di
+trasporto in riferimento all'attività marittima.
+- interagire con i sistemi di assistenza, sorveglianza e monitoraggio del traffico e gestire le
+relative comunicazioni nei vari tipi di trasporto.
+- gestire in modo appropriato gli spazi a bordo e organizzare i servizi di carico e scarico, di
+sistemazione delle merci e dei passeggeri.
+- gestire l'attività di trasporto tenendo conto delle interazioni con l'ambiente esterno
+(fisico e delle condizioni meteorologiche) in cui viene espletata.
+- organizzare il trasporto in relazione alle motivazioni del viaggio ed alla sicurezza degli
+spostamenti.
+- cooperare nelle attività di piattaforma per la gestione delle merci, dei servizi tecnici e dei
+flussi passeggeri in partenza ed in arrivo.
+- controllare e gestire il funzionamento dei diversi componenti di uno specifico mezzo di
+trasporto navale e intervenire nella fase di programmazione della manutenzione.
+- operare nel sistema qualità nel rispetto delle normative di settore sulla sicurezza.
+Nell'opzione "Conduzione del mezzo navale", vengono identificate, acquisite e
+approfondite le competenze relative alle modalità di conduzione del mezzo di trasporto
+per quanto attiene alla pianificazione del viaggio e alla sua esecuzione impiegando le
+tecnologie e i metodi più appropriati per salvaguardare la sicurezza delle persone e
+dell'ambiente e l'economicità del processo.
+
+## Logistica
+
+Competenze comuni:
+a tutti i percorsi di istruzione tecnica
+- utilizzare il patrimonio lessicale ed espressivo della lingua italiana secondo le esigenze
+comunicative nei vari contesti: sociali, culturali, scientifici, economici, tecnologici.
+B.
+26
 
 ---
 
 ## Pagina 28
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-percorsi flessibili di apprendimento e la piena implementazione del sistema duale.
-Percorso n° 2: Innovazione e digitalizzazione
-Rinnovare gli ambienti di apprendimento e conseguentemente la didattica così che l'Istituto
-diventi promotore della "rivoluzione green" con l'ausilio di strumenti e pratiche di coltivazione
-digitali e innovative (fotovoltaico, coltivazione di precisione, fotogrammetria, ecc.) a basso
-impatto ambientale e energetico, all'insegna della sostenibilità ambientale, del riuso e
-autonomia energetica.
-Priorità e traguardo a cui il percorso è collegato
-Competenze chiave europee
-Priorità
-Migliorare le procedure di promozione e valutazione delle competenze chiave di
-cittadinanza, con particolare riferimento alle seguenti competenze: - Competenza
-personale, sociale e capacita' di imparare a imparare - Competenze digitali -
-Competenza imprenditoriale - Competenza nelle materie STEM (Science,
-Technology, Engineering, Maths)
-Traguardo
-Costruire ed attuare dei percorsi condivisi dal Collegio docenti per lo sviluppo e la
-valutazione delle competenze chiave per l'apprendimento permanente, strutturati
-con compiti di realtà, griglie di valutazione ed articolati nei diversi indirizzi degli
-ordinamenti presenti nell'Istituto (professionale agrario e enogastronomico e
-tecnico agrario).
-24
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+- stabilire collegamenti tra le tradizioni culturali locali, nazionali ed internazionali, sia in
+prospettiva interculturale sia ai fini della mobilità di studio e di lavoro.
+- utilizzare gli strumenti culturali e metodologici per porsi con atteggiamento razionale,
+critico e responsabile di fronte alla realtà, ai suoi fenomeni, ai suoi problemi, anche ai fini
+dell'apprendimento permanente.
+- utilizzare e produrre strumenti di comunicazione visiva e multimediale, anche con
+riferimento alle strategie espressive e agli strumenti tecnici della comunicazione in rete.
+- padroneggiare la lingua inglese e, ove prevista, un'altra lingua comunitaria per scopi
+comunicativi e utilizzare i linguaggi settoriali relativi ai percorsi di studio, per interagire in
+diversi ambiti e contesti professionali, al livello B2 del quadro comune europeo di
+riferimento per le lingue (QCER).
+- utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
+adeguatamente informazioni qualitative e quantitative.
+- identificare e applicare le metodologie e le tecniche della gestione per progetti.
+- redigere relazioni tecniche e documentare le attività individuali e di gruppo relative a
+situazioni professionali.
+- individuare e utilizzare gli strumenti di comunicazione e di team working più appropriati
+per intervenire nei contesti organizzativi e professionali di riferimento.
+Competenze specifiche:
+di indirizzo
+- gestire tipologie e funzioni dei vari mezzi e sistemi di trasporto.
+- gestire il funzionamento dei vari insiemi di uno specifico mezzo di trasporto.
+- utilizzare i sistemi di assistenza, monitoraggio e comunicazione nei vari tipi di trasporto.
+- gestire in modo appropriato gli spazi a bordo e organizzare i servizi di carico e scarico, di
+sistemazione delle merci e dei passeggeri.
+- gestire l'attività di trasporto tenendo conto delle interazioni con l'ambiente esterno
+(fisico e delle condizioni meteorologiche) in cui viene espletata.
+- organizzare la spedizione in rapporto alle motivazioni del viaggio ed alla sicurezza degli
+spostamenti.
+- sovrintendere ai servizi di piattaforma per la gestione delle merci e dei flussi passeggeri
+in partenza ed in arrivo.
+- operare nel sistema qualità nel rispetto delle normative di sicurezza.
+
+## Secondaria Ii Grado - Tipologia: Liceo Scientifico
+
+27
 
 ---
 
 ## Pagina 29
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-Risultati a distanza
-Priorità
-Migliorare i risultati a distanza degli studenti e studentesse dell'Istituto, sia
-incrementando il numero di alunni/e che in uscita dal percorso superiore si
-iscrivono all'Università, che migliorando la tipologia contrattuale di quanti entrano
-nel mercato del lavoro.
-Traguardo
-- Incremento di almeno 5 punti percentuali degli studenti e delle studentesse
-iscritti/e all'Università per quanto riguarda l'indirizzo tecnologico. - Incremento di
-almeno 5 punti percentuali delle studentesse e degli studenti impegnati/e in
-un'attività lavorativa con un contratto di lavoro stabile per quanto riguarda
-l'indirizzo professionale.
-Obiettivi di processo legati del percorso
-Curricolo, progettazione e valutazione
-Revisione del curricolo di Istituto e dei criteri di valutazione degli apprendimenti
-degli studenti e delle studentesse così da renderlo più vicino ai bisogni dell'utenza e
-alle imprese ed enti del territorio.
-Realizzare il 20% di quota di personalizzazione del curricolo scolastico per
-l'autonomia scolastica, così da offerire una curvatura del percorso scolastico più
-adatta ai bisogni del territorio.
-25
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Istituto/Plessi
+
+
+## Codice Scuola
+
+
+## Enrico Fermi
+
+
+## Mtps01701A
+
+
+## Logistica
+
+Competenze comuni:
+a tutti i percorsi di istruzione tecnica
+- utilizzare il patrimonio lessicale ed espressivo della lingua italiana secondo le esigenze
+comunicative nei vari contesti: sociali, culturali, scientifici, economici, tecnologici.
+- stabilire collegamenti tra le tradizioni culturali locali, nazionali ed internazionali, sia in
+prospettiva interculturale sia ai fini della mobilità di studio e di lavoro.
+- utilizzare gli strumenti culturali e metodologici per porsi con atteggiamento razionale,
+critico e responsabile di fronte alla realtà, ai suoi fenomeni, ai suoi problemi, anche ai fini
+dell'apprendimento permanente.
+- utilizzare e produrre strumenti di comunicazione visiva e multimediale, anche con
+riferimento alle strategie espressive e agli strumenti tecnici della comunicazione in rete.
+- padroneggiare la lingua inglese e, ove prevista, un'altra lingua comunitaria per scopi
+comunicativi e utilizzare i linguaggi settoriali relativi ai percorsi di studio, per interagire in
+diversi ambiti e contesti professionali, al livello B2 del quadro comune europeo di
+riferimento per le lingue (QCER).
+- utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
+adeguatamente informazioni qualitative e quantitative.
+- identificare e applicare le metodologie e le tecniche della gestione per progetti.
+- redigere relazioni tecniche e documentare le attività individuali e di gruppo relative a
+situazioni professionali.
+- individuare e utilizzare gli strumenti di comunicazione e di team working più appropriati
+per intervenire nei contesti organizzativi e professionali di riferimento.
+Competenze specifiche:
+di indirizzo
+- gestire tipologie e funzioni dei vari mezzi e sistemi di trasporto.
+- gestire il funzionamento dei vari insiemi di uno specifico mezzo di trasporto.
+- utilizzare i sistemi di assistenza, monitoraggio e comunicazione nei vari tipi di trasporto.
+- gestire in modo appropriato gli spazi a bordo e organizzare i servizi di carico e scarico, di
+A.
+28
 
 ---
 
 ## Pagina 30
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-Ambiente di apprendimento
-Rinnovare gli ambienti di apprendimento anche con una progettazione intelligente e
-condivisa dei fondi ad hoc del PNRR (Future labs e Future classrooms).
-Inclusione e differenziazione
-Valorizzare e sollecitare lo sviluppo delle competenze chiave di cittadinanza, così da
-realizzare percorsi integrati e condivisi tra gruppi diversi di studenti e studentesse.
-Sviluppo e valorizzazione delle risorse umane
-Promuovere percorsi formativi per docenti sull'innovazione didattica e la
-valutazione.
-Integrazione con il territorio e rapporti con le
-famiglie
-Migliorare i rapporti con gli EELL e le imprese, anche del terzo settore per favorire
-percorsi flessibili di apprendimento e la piena implementazione del sistema duale.
-Percorso n° 3: Apertura al territorio e alle tematiche
-globali
-Le tematiche della sostenibilità ambientale, valorizzazione del patrimonio paesaggistico, energie
-rinnovabili sono diventate centrali, non solo per il mondo produttivo territoriale, ma anche al
-26
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+sistemazione delle merci e dei passeggeri.
+- gestire l'attività di trasporto tenendo conto delle interazioni con l'ambiente esterno
+(fisico e delle condizioni meteorologiche) in cui viene espletata.
+- organizzare la spedizione in rapporto alle motivazioni del viaggio ed alla sicurezza degli
+spostamenti.
+- sovrintendere ai servizi di piattaforma per la gestione delle merci e dei flussi passeggeri
+in partenza ed in arrivo.
+- operare nel sistema qualità nel rispetto delle normative di sicurezza.
+
+## Scientifico
+
+Competenze comuni:
+a tutti i licei:
+- padroneggiare la lingua italiana in contesti comunicativi diversi, utilizzando registri
+linguistici adeguati alla situazione;
+- comunicare in una lingua straniera almeno a livello B2 (QCER);
+- elaborare testi, scritti e orali, di varia tipologia in riferimento all'attività svolta;
+- identificare problemi e argomentare le proprie tesi, valutando criticamente i diversi
+punti di vista e individuando possibili soluzioni;
+- riconoscere gli aspetti fondamentali della cultura e tradizione letteraria, artistica,
+filosofica, religiosa, italiana ed europea, e saperli confrontare con altre tradizioni e
+culture;
+- agire conoscendo i presupposti culturali e la natura delle istituzioni politiche, giuridiche,
+sociali ed economiche, con riferimento particolare all'Europa oltre che all'Italia, e secondo
+i diritti e i doveri dell'essere cittadini;
+Competenze specifiche:
+del liceo Scientifico:
+- applicare, nei diversi contesti di studio e di lavoro, i risultati della ricerca scientifica e
+dello sviluppo tecnologico, a partire dalla conoscenza della storia delle idee e dei rapporti
+tra il pensiero scientifico, la riflessione filosofica e, più in generale, l'indagine di tipo
+umanistico;
+B.
+29
 
 ---
 
 ## Pagina 31
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-livello globale. La pandemia e successivamente la guerra in Europa hanno reso la comunità
-consapevole della centralità delle tematiche relative ai propri comportamenti alimentari e
-ambientali e all'utilizzo consapevole dell'energia. Per questo motivo l'Istituto deve potenziare la
-sua capacità di porsi come istituzione di ricerca e sviluppo che dialoghi e ispiri la realtà
-produttiva territoriale, anche attraverso la sollecitazione di scambi con altri istituti simili in Italia
-e in Europa, nonché con una progettazione di attività che coinvolga famiglie e territorio
-all'insegna dell'apprendimento nell'arco di tutta la vita. In particolare, si intende sollecitare:
-- attivazione di percorsi E-Twinning-Erasmus con altre scuole in Europa;
-- percorsi extra-curricolari per famiglie/adulti di pratiche di coltivazione innovative e rispettose
-dell'ambiente;
-- Convegni e Tavole rotonde sulle energie rinnovabili, le trasformazioni alimentari rispettose
-dell'ambiente e degli animali, la sostenibilità ambientale.
-Priorità e traguardo a cui il percorso è collegato
-Risultati scolastici
-Priorità
-Riduzione degli abbandoni scolastici tramite lo sviluppo del Presidio educativo
-"antidispersione e promozione del successo formativo", anche attraverso la
-costituzione di un gruppo di lavoro, insieme alle associazioni del terzo settore del
-territorio e degli EELL, ad esso dedicato.
-Traguardo
-Riduzione di almeno 10 punti percentuali della dispersione scolastica rispetto al
-dato attuale.
-Risultati a distanza
-27
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+- padroneggiare le procedure, i linguaggi specifici e i metodi di indagine delle scienze
+sperimentali;
+- utilizzare strumenti di calcolo e di rappresentazione per la modellizzazione e la
+risoluzione di problemi;
+- utilizzare le strutture logiche, i modelli e i metodi della ricerca scientifica, e gli apporti
+dello sviluppo tecnologico, per individuare e risolvere problemi di varia natura, anche in
+riferimento alla vita quotidiana;
+- utilizzare i procedimenti argomentativi e dimostrativi della matematica, padroneggiando
+anche gli strumenti del Problem Posing e Solving.
+
+## Scientifico - Opzione Scienze Applicate
+
+Competenze comuni:
+a tutti i licei:
+- padroneggiare la lingua italiana in contesti comunicativi diversi, utilizzando registri
+linguistici adeguati alla situazione;
+- comunicare in una lingua straniera almeno a livello B2 (QCER);
+- elaborare testi, scritti e orali, di varia tipologia in riferimento all'attività svolta;
+- identificare problemi e argomentare le proprie tesi, valutando criticamente i diversi
+punti di vista e individuando possibili soluzioni;
+- riconoscere gli aspetti fondamentali della cultura e tradizione letteraria, artistica,
+filosofica, religiosa, italiana ed europea, e saperli confrontare con altre tradizioni e
+culture;
+- agire conoscendo i presupposti culturali e la natura delle istituzioni politiche, giuridiche,
+sociali ed economiche, con riferimento particolare all'Europa oltre che all'Italia, e secondo
+i diritti e i doveri dell'essere cittadini;
+Competenze specifiche:
+del liceo Scientifico delle Scienze Applicate:
+- utilizzare criticamente strumenti informatici e telematici per svolgere attività di studio e
+di approfondimento, per fare ricerca e per comunicare, in particolare in ambito scientifico
+e tecnologico;
+- utilizzare gli strumenti e le metodologie dell'informatica nell'analisi dei dati, nella
+C.
+30
 
 ---
 
 ## Pagina 32
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-Priorità
-Migliorare i risultati a distanza degli studenti e studentesse dell'Istituto, sia
-incrementando il numero di alunni/e che in uscita dal percorso superiore si
-iscrivono all'Università, che migliorando la tipologia contrattuale di quanti entrano
-nel mercato del lavoro.
-Traguardo
-- Incremento di almeno 5 punti percentuali degli studenti e delle studentesse
-iscritti/e all'Università per quanto riguarda l'indirizzo tecnologico. - Incremento di
-almeno 5 punti percentuali delle studentesse e degli studenti impegnati/e in
-un'attività lavorativa con un contratto di lavoro stabile per quanto riguarda
-l'indirizzo professionale.
-Obiettivi di processo legati del percorso
-Curricolo, progettazione e valutazione
-Revisione del curricolo di Istituto e dei criteri di valutazione degli apprendimenti
-degli studenti e delle studentesse così da renderlo più vicino ai bisogni dell'utenza e
-alle imprese ed enti del territorio.
-Ambiente di apprendimento
-Rinnovare gli ambienti di apprendimento anche con una progettazione intelligente e
-condivisa dei fondi ad hoc del PNRR (Future labs e Future classrooms).
-Continuita' e orientamento
-Incrementare le attività di orientamento verso il percorso post-scolastico, quali
-28
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+formalizzazione e modellizzazione dei processi complessi e nell'individuazione di
+procedimenti risolutivi;
+- utilizzare le strutture logiche, i modelli e i metodi della ricerca scientifica, e gli apporti
+dello sviluppo tecnologico, per individuare e risolvere problemi di varia natura, anche in
+riferimento alla vita quotidiana;
+- applicare consapevolmente concetti, principi e teorie scientifiche nelle attività
+laboratoriali e sperimentali, nello studio e nella ricerca scientifica, padroneggiando vari
+linguaggi (storico-naturali, simbolici, matematici, logici, formali, artificiali);
+- utilizzare i procedimenti argomentativi e dimostrativi della matematica, padroneggiando
+anche gli strumenti del Problem Posing e Solving.
+
+## Linguistico
+
+Competenze comuni:
+a tutti i licei:
+- padroneggiare la lingua italiana in contesti comunicativi diversi, utilizzando registri
+linguistici adeguati alla situazione;
+- comunicare in una lingua straniera almeno a livello B2 (QCER);
+- elaborare testi, scritti e orali, di varia tipologia in riferimento all'attività svolta;
+- identificare problemi e argomentare le proprie tesi, valutando criticamente i diversi
+punti di vista e individuando possibili soluzioni;
+- riconoscere gli aspetti fondamentali della cultura e tradizione letteraria, artistica,
+filosofica, religiosa, italiana ed europea, e saperli confrontare con altre tradizioni e
+culture;
+- agire conoscendo i presupposti culturali e la natura delle istituzioni politiche, giuridiche,
+sociali ed economiche, con riferimento particolare all'Europa oltre che all'Italia, e secondo
+i diritti e i doveri dell'essere cittadini;
+Competenze specifiche:
+del liceo Linguistico:
+- possedere competenze linguistico-comunicative per la seconda e terza lingua straniera
+almeno a livello B1 (QCER);
+- utilizzare le competenze linguistiche nelle tre lingue moderne in attività di studio e in
+D.
+31
 
 ---
 
 ## Pagina 33
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Piano di miglioramento
 
-## Ptof 2022 - 2025
+## Formativa
 
-quello universitario o ITS di settore (agrario e enogastronomico), anche attraverso
-convenzioni e progetti condivisi con le diverse Facoltà/Istituti.
-Sviluppo e valorizzazione delle risorse umane
-Promuovere percorsi formativi per docenti sull'innovazione didattica e la
-valutazione.
-Integrazione con il territorio e rapporti con le
-famiglie
-Migliorare i rapporti con gli EELL e le imprese, anche del terzo settore per favorire
-percorsi flessibili di apprendimento e la piena implementazione del sistema duale.
-29
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+diversi contesti sociali e ambiti professionali;
+- elaborare nelle tre lingue moderne tipi testuali diversi e adeguati ai compiti di lavoro;
+- padroneggiare l'uso dei tre sistemi linguistici passando agevolmente dall'uno all'altro e
+utilizzando forme specifiche e caratterizzanti di ciascuna lingua;
+- operare conoscendo le caratteristiche culturali dei paesi a cui appartengono le tre lingue
+moderne apprese, in particolare le opere letterarie, artistiche, musicali, cinematografiche,
+oltre alle tradizioni e alle linee fondamentali della storia;
+- agire in situazioni di contatto e scambi internazionali dimostrando capacità di
+relazionarsi con persone e popoli di altra cultura;
+- applicare le capacità di comunicazione interculturale anche per valorizzare il patrimonio
+storico, artistico e paesaggistico di un territorio.
+Approfondimento
+
+## ·         Profili Degli Studenti A Conclusione Del Ciclo Scolastico
+
+I saperi che lo studente di ogni indirizzo deve acquisire a conclusione del percorso
+di studi sono i seguenti:
+• comprendere  la connessione tra cultura umanistica e sviluppo dei metodi critici
+e di conoscenza propri della matematica e delle scienze fisiche e naturali;
+•  seguire lo sviluppo scientifico e tecnologico;
+•  individuare  rapporti storici ed epistemologici tra il pensiero matematico e il
+pensiero umanistico;
+•  individuare  le analogie e le differenze tra i linguaggi simbolico-formali e il
+linguaggio comune;
+•  usare procedure logico-matematiche, sperimentali e ipotetico-deduttive proprie
+dei metodi di indagine scientifica;
+•  individuare  i caratteri specifici e le dimensioni tecnico-applicative dei metodi di
+indagine utilizzati dalle scienze sperimentali;
+•  individuare  le interazioni sviluppatesi nel tempo tra teorie matematiche e
+32
 
 ---
 
 ## Pagina 34
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Principali elementi di innovazione
 
-## Ptof 2022 - 2025
+## Formativa
 
-Principali elementi di innovazione
-Sintesi delle principali caratteristiche innovative
-L'Istituto è  attento nel cogliere le opportunità atte ad incrementare la dotazione strumentale in uso
-nella scuola mediante i finanziamenti che si rendono disponibili.
-Pertanto, esiste una attenta motivazione alla partecipazione  di risorse  come i  PNSD e  i PON  sia
-FESR, sia FES. ed ai fondi di investimento stanziati dal PNRR.
-Il Programma Operativo Nazionale (PON) del Ministero dell’Istruzione, dell’Università e della Ricerca,
-intitolato “Per la Scuola - competenze e ambienti per l’apprendimento”, finanziato dai Fondi
-Strutturali Europei contiene le priorità strategiche del settore istruzione. Le tipologie del Programma
-Operativo Nazionale Scuola prevede due Fondi: il Fondo Sociale Europeo (FSE) e il Fondo Europeo di
-Sviluppo Regionale (FESR). Le iniziative intraprese da questo Istituto hanno lo scopo di consentire:
-La riduzione del fenomeno della dispersione scolastica, rendendo gli ambienti più consoni ad una
-didattica universale, plurale, accessibile;
-1.
-Lo sviluppo della società della conoscenza e dell'informazione;
-2.
-L'ampliamento delle competenze di base;
-3.
-Il sostegno alla mobilità dei giovani e lo sviluppo degli strumenti per garantirla;
-4.
-L'integrazione con il mondo del lavoro (stage, accreditamento competenze, certificazione);
-5.
-Lo sviluppo dell'istruzione permanente;
-6.
-La formazione dei docenti e del personale scolastico;
-7.
-Il rafforzamento delle pari opportunità di genere;
-8.
-Lo sviluppo di una cultura ambientale;
-9.
-Il miglioramento dell’offerta formativa con strutture adeguate all’evoluzione digitale in ambiente
-scolastico.
-10.
-30
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+scientifiche e teorie letterarie, artistiche e letterarie.
+Profilo in uscita degli studenti dell’indirizzo
+Scientifico
+(sia
+corso
+tradizionale
+che
+opzione scienze applicate).
+A conclusione del suddetto percorso di studio, oltre a raggiungere i risultati di
+apprendimento comuni, gli studenti del Liceo Scientifico dovranno essere in
+grado di:
+•    aver appreso concetti, principi e teorie scientifiche anche attraverso
+esemplificazioni operative di laboratorio;
+• elaborare l’analisi critica dei fenomeni considerati, la riflessione metodologica
+sulle procedure sperimentali e la ricerca di strategie atte a favorire la scoperta
+scientifica;
+•  analizzare le strutture logiche coinvolte e di modelli utilizzati nella ricerca
+scientifica;
+•  individuare le caratteristiche e l’apporto dei vari linguaggi (storico-naturali,
+simbolici, matematici, logici, formali, artificiali);
+•  comprendere il ruolo della tecnologia come mediazione fra scienza e vita
+quotidiana;
+•  saper utilizzare gli strumenti informatici in relazione all’analisi dei dati e alla
+modellizzazione
+di
+specifici
+problemiscientificieindividuarelafunzionedell’informaticanellosvilupposcientifico;
+•  saper applicare i metodi delle scienze in diversi ambiti.
+33
 
 ---
 
 ## Pagina 35
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Principali elementi di innovazione
 
-## Ptof 2022 - 2025
+## Formativa
 
-L’Istituto, per l’a.s. 2021-2022, ha aderito:
-al PON FESR  (Avviso Prot. n. 20480 del 20 luglio 2021 ) finalizzato alla realizzazione di reti
-locali, sia cablate che wireless, all’interno delle istituzioni scolastiche.
-•
-al PON FESR (Avviso Prot. n. 28966 del 6 settembre 2021)  finalizzato alla dotazione di
-attrezzature basilari per la trasformazione digitale della didattica e dell’organizzazione delle
-istituzioni scolastiche
-•
-L’Istituto nel a.s. 2021-2022  è stato inserito nel “Piano Scuole Connesse - Banda Ultra Larga”
-pertanto la Sede è oggetto dell'intervento  della Regione Liguria, che fornisce direttamente il servizio
-di connettività a Internet delegando la costruzione della componente infrastrutturale a Infratel.
-Aree di innovazione
 
-## Leadership E Gestione Della Scuola
+## Ptof - 2019/20-2021/22
 
-Dall'a.s. 2022/2023 l'Istituto attiverà la progettazione di un sistema di gestione qualità interno
-con l'intento di standardizzare le best practices già in essere e di procedurizzare in maniera
-puntuale per tutti gli indirizzi di studio e tutti i plessi le prassi di gestione generale, personale,
-didattica ed amministrativa.
 
-## Contenuti E Curricoli
+## Enrico Fermi
 
-Verranno inserite numerose attività atte a sviluppare l'offerta formativa, sia accrescendo il
-campo dell'azione didattica  che studiando pratiche di recupero e potenziamento degli alunni
-fragili tramite laboratori multidisciplinari.
-Per un maggiore dettaglio si rimanda alla sezione relativa all'Offerta formativa
-31
-
-## B.Marsano - Geis012004
-
+Profilo in uscita degli studenti dell’indirizzo Linguistico
+Il percorso del Liceo Linguistico guida lo studente ad approfondire e a sviluppare
+le conoscenze e le abilità, a maturare le competenze necessarie per acquisire la
+padronanza comunicativa di tre lingue, oltre l’italiano e  per comprendere
+criticamente l’identità storica e culturale di tradizioni e civiltà diverse.
+Pertanto  è prevista :
+•  l’acquisizione in due lingue moderne di strutture, modalità e competenze
+comunicative corrispondenti al Livello B2 del Quadro Comune Europeo di
+Riferimento e in una terza lingua moderna di strutture, modalità e competenze
+comunicative corrispondenti almeno al Livello B1 del Quadro Comune Europeo di
+Riferimento;
+•  l’apprendimento di modalità comunicative in tre lingue moderne in vari contesti
+sociali e  situazioni,  utilizzando diverse forme;
+•  conoscenza e comprensione della storia e dei linguaggi culturali dei paesi di
+riferimento;
+•  Nel secondo biennio la valutazione e le attività di sostegno e recupero si
+collegano al nuovo Esame di Stato, alla specificità dei curricoli e agli standard di
+apprendimento fissati nei Dipartimenti e recepiti dai consigli di classe attraverso i
+piani di lavoro individuali dei docenti.
+Profilo in uscita degli studenti dell’indirizzo Trasporti e Logistica
+lI percorso tecnico “Trasporti e Logistica”,che comprende le articolazioni
+“Conduzione del mezzo”  e  “Logistica”, forma profili professionali per la
+34
 
 ---
 
 ## Pagina 36
 
 
-## Le Scelte Strategiche
-
-Principali elementi di innovazione
-
-## Ptof 2022 - 2025
+## L'Offerta
 
 
-## Reti E Collaborazioni Esterne
+## Formativa
 
-L'Istituto si impegna a sviluppare maggiormente i rapporti con le reti di ambito e di scopo per
-l'implementazione di nuove attività, tra le quali le attività  ERASMUS, attività innovative nel
-campo dello sviluppo sostenibile e delle energie rinnovabili, scambi con Istituti formativi dello
-stesso indirizzo e del territorio di riferimento
-32
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+progettazione, la realizzazione, il mantenimento in efficienza dei mezzi e degli
+impianti relativi, nonché l’organizzazione di servizi logistici.
+A conclusione degli studi gli studenti dell’indirizzo “Conduzione del mezzo”
+dovranno essere in grado di :
+·         conoscere, descrivere e confrontare tipologie e funzioni dei vari mezzi e
+sistemi di trasporto;
+·         comunicare con i sistemi di assistenza, sorveglianza e monitoraggio del
+traffico;
+·         organizzare i servizi di carico e scarico,di sistemazione delle merci e dei
+passeggeri;
+·         gestire l'attività di trasporto in relazione all'ambiente esterno, alla sicurezza e
+alle motivazioni del viaggio;
+·         rispettare le procedure del sistema qualità e le normative sulla sicurezza.
+A conclusione degli studi gli studenti dell’indirizzo “ Logistica ” dovranno essere in
+grado  di:
+· gestire tipologie, funzioni e funzionamento dei vari mezzi e sistemi di trasporto;
+· utilizzare i sistemi di assistenza,monitoraggio e comunicazione nei vari tipi di
+trasporto;
+· organizzare i servizi di carico e scarico,di sistemazione delle merci e dei
+passeggeri;
+· gestire l'attività di trasporto in relazione all'ambiente esterno, alla sicurezza e alle
+motivazioni del viaggio;
+· sovrintendere ai servizi di piattaforma per la gestione delle merci e dei flussi
+passeggeri in partenza ed in arrivo;
+· rispettare le procedure del sistema qualità e le normative sulla sicurezza.
+35
 
 ---
 
 ## Pagina 37
 
 
-## Le Scelte Strategiche
+## L'Offerta
 
-Iniziative previste in relazione alla
-&laquo;Missione 1.4-Istruzione&raquo; del PNRR
 
-## Ptof 2022 - 2025
+## Formativa
 
-Iniziative previste in relazione alla
-«Missione 1.4-Istruzione» del PNRR
-L’Istituto è destinatario delle risorse del PNRR Missione 4, in particolare degli investimenti sulle
-INFRASTRUTTURE (Aule 4.0, nuove aule didattiche e laboratori, Future-labs e Future classrooms) e
-sulle COMPETENZE.
-Gli investimenti per le competenze riguardano il digitale, le pari opportunità e la riduzione dei divari
-territoriali, l’istruzione tecnica e professionale, lo sviluppo delle competenze multilinguistiche e
-tecnico-scientifiche.
-Il piano si divide in:
-MILESTONES - Fasi cruciali di natura amministrativa e procedurale
-TARGET - Risultati attesi in base ad indicatori qualificabili e misurabili
-Intervento straordinario finalizzato alla riduzione dei divari territoriali nelle scuole secondarie di
-primo e di secondo grado e alla lotta alla dispersione scolastica
-L’INVALSI ha fornito a tutte le scuole i dati sulla DISPERSIONE IMPLICITA, ossia sui risultati bassi alle
-ultime prove INVALSI; l’Istituto ha prodotto un’analisi dettagliata sugli studenti e studentesse
-bocciati/rimandati e ritirati negli ultimi 3 anni ed ha discusso i dati in ogni classe, durante i consigli,
-coinvolgendo tutti/e i/le docenti. In questo modo ha avviato fin dal mese di ottobre una fase di
-progettazione degli interventi da realizzare, con il coinvolgimento di enti del terzo settore e degli
-EELL, sia per quanto riguarda l’intervento 1.4: Intervento straordinario finalizzato alla riduzione dei
-divari territoriali nelle scuole secondarie di primo e di secondo grado e alla lotta alla dispersione
-scolastica, che quello sulle aule e laboratori 4.0.
-Entro febbraio l’Istituto presenterà nell’apposita piattaforma la progettazione e entro giugno avrà
-selezionato i fornitori per la realizzazione dell’intero intervento a partire dall’a.s. 2023/2024.
-33
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Insegnamenti E Quadri Orario
+
+
+## Enrico Fermi Mtps01701A
+
+
+## Scuola Secondaria Ii Grado - Liceo Scientifico
+
+
+## Quadro Orario Della Scuola: Scientifico - Opzione Scienze Applicate
+
+
+## Qo Scientifico - Opzione Scienze Applicate
+
+
+## Discipline/Monte Orario
+
+
+## Settimanale
+
+I
+
+## Anno
+
+II
+
+## Anno
+
+III
+
+## Anno
+
+IV
+
+## Anno
+
+V
+
+## Anno
+
+
+## Lingua E Letteratura Italiana
+
+4
+4
+4
+4
+4
+
+## Inglese
+
+3
+3
+3
+3
+3
+
+## Storia E Geografia
+
+3
+3
+0
+0
+0
+
+## Storia
+
+0
+0
+2
+2
+2
+
+## Matematica
+
+5
+4
+4
+4
+4
+
+## Informatica
+
+2
+2
+2
+2
+2
+
+## Fisica
+
+2
+2
+3
+3
+3
+
+## Scienze Naturali (Biologia,
+
+
+## Chimica, Scienze Della Terra)
+
+3
+4
+5
+5
+5
+
+## Disegno E Storia Dell'Arte
+
+2
+2
+2
+2
+2
+
+## Filosofia
+
+0
+0
+2
+2
+2
+
+## Scienze Motorie E Sportive
+
+2
+2
+2
+2
+2
+
+## Religione Cattolica/Attivita'
+
+
+## Alternativa
+
+1
+1
+1
+1
+1
+
+## Enrico Fermi Mtps01701A
+
+
+## Scuola Secondaria Ii Grado - Liceo Scientifico
+
+36
 
 ---
 
 ## Pagina 38
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Aspetti generali
 
-## Ptof 2022 - 2025
+## Formativa
 
-Aspetti generali
-L'Istituto Marsano è dal 1882 l'unico istituto agrario nella città metropolitana di Genova e da sempre
-agisce di comune accordo con le istituzioni locali per il mantenimento del verde e la valorizzazione
-del territorio.
-Nonostante questa sicura posizione di leadership, l'Istituto ha da sempre cercato di rinnovarsi,
-partecipando peraltro a reti di scuole e reti di formazione, aprendo nuovi plessi dell'istituto sul
-territorio e, nell'as.s. 2022/23, acquisendo una sezione di enogastronomico (sala e cucina) con
-relativa attivazione del corso IeFP per il settore di riferimento.
-Il prossimo futuro vedrà l'istituto impegnato nella attivazione di qualifiche triennali e quadriennali e
-nella realizzazione di impianto di coltivazione innovativa (progetto acquaponica, progetto frantoio,
-laboratorio di meristematica, ecc.).
-34
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Quadro Orario Della Scuola: Scientifico
+
+
+## Qo Scientifico-2
+
+
+## Discipline/Monte Orario
+
+
+## Settimanale
+
+I
+
+## Anno
+
+II
+
+## Anno
+
+III
+
+## Anno
+
+IV
+
+## Anno
+
+V
+
+## Anno
+
+
+## Lingua E Letteratura Italiana
+
+4
+4
+4
+4
+4
+
+## Lingua E Cultura Latina
+
+3
+3
+3
+3
+3
+
+## Inglese
+
+3
+3
+3
+3
+3
+
+## Storia E Geografia
+
+3
+3
+0
+0
+0
+
+## Storia
+
+0
+0
+2
+2
+2
+
+## Matematica
+
+5
+5
+4
+4
+4
+
+## Fisica
+
+2
+2
+3
+3
+3
+
+## Scienze Naturali (Biologia,
+
+
+## Chimica, Scienze Della Terra)
+
+2
+2
+3
+3
+3
+
+## Disegno E Storia Dell'Arte
+
+2
+2
+2
+2
+2
+
+## Filosofia
+
+0
+0
+3
+3
+3
+
+## Scienze Motorie E Sportive
+
+2
+2
+2
+2
+2
+
+## Religione Cattolica/Attivita'
+
+
+## Alternativa
+
+1
+1
+1
+1
+1
+
+## Enrico Fermi Mtps01701A
+
+
+## Scuola Secondaria Ii Grado - Liceo Scientifico
+
+
+## Quadro Orario Della Scuola: Linguistico
+
+
+## Qo Linguistico-2
+
+37
 
 ---
 
 ## Pagina 39
 
 
-## L'Offerta Formativa
-
-Traguardi attesi in uscita
-
-## Ptof 2022 - 2025
-
-Traguardi attesi in uscita
-Secondaria II grado - TIPOLOGIA: ISTITUTO TECNICO
-
-## Agrario
-
-Istituto/Plessi
-Codice Scuola
-
-## I.T.A. B. Marsano
+## L'Offerta
 
 
-## Geta01201X
+## Formativa
 
 
-## Ist.Tec.Tecn. Marsano/San Colombano
+## Ptof - 2019/20-2021/22
 
 
-## Geta012021
-
-Indirizzo di studio
-
-## Agraria, Agroal. E Agroind.-Biennio Com.
+## Enrico Fermi
 
 
-## Produzioni E Trasformazioni
+## Discipline/Monte Orario
 
-Competenze comuni:
-competenze comuni a tutti i percorsi di istruzione tecnica:
-- utilizzare il patrimonio lessicale ed espressivo della lingua italiana secondo le esigenze
-comunicative
-nei vari contesti sociali, culturali, scientifici, economici, tecnologici.
-- stabilire collegamenti tra le tradizioni culturali locali, nazionali ed internazionali, sia in
-prospettiva
-interculturale sia ai fini della mobilità di studio e di lavoro.
-- utilizzare gli strumenti culturali e metodologici per porsi con atteggiamento razionale,
-critico e
-35
 
-## B.Marsano - Geis012004
+## Settimanale
 
+I
+
+## Anno
+
+II
+
+## Anno
+
+III
+
+## Anno
+
+IV
+
+## Anno
+
+V
+
+## Anno
+
+
+## Lingua E Letteratura Italiana
+
+4
+4
+4
+4
+4
+
+## Lingua Latina
+
+2
+2
+0
+0
+0
+
+## Inglese
+
+4
+4
+3
+3
+3
+
+## Francese
+
+3
+3
+4
+4
+4
+
+## Tedesco
+
+3
+3
+4
+4
+4
+
+## Storia E Geografia
+
+3
+3
+0
+0
+0
+
+## Storia
+
+0
+0
+2
+2
+2
+
+## Matematica
+
+3
+3
+2
+2
+2
+
+## Fisica
+
+0
+0
+2
+2
+2
+
+## Scienze Naturali (Biologia,
+
+
+## Chimica, Scienze Della Terra)
+
+2
+2
+2
+2
+2
+
+## Storia Dell'Arte
+
+0
+0
+2
+2
+2
+
+## Filosofia
+
+0
+0
+2
+2
+2
+
+## Scienze Motorie E Sportive
+
+2
+2
+2
+2
+2
+
+## Religione Cattolica/Attivita'
+
+
+## Alternativa
+
+1
+1
+1
+1
+1
+Monte ore previsto per anno di corso per l'insegnamento trasversale di
+educazione civica
+cf.r curricolo dell'insegnamento trasversale di educazione civica.
+Si specifica per che per tutte le classi di tutti gli indirizzi il monte ore annuale previsto
+è di 33 h
+38
 
 ---
 
 ## Pagina 40
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Traguardi attesi in uscita
 
-## Ptof 2022 - 2025
+## Formativa
 
-responsabile di fronte alla realtà, ai suoi fenomeni, ai suoi problemi, anche ai fini
-dell'apprendimento
-permanente.
-- utilizzare e produrre strumenti di comunicazione visiva e multimediale, anche con
-riferimento alle
-strategie espressive e agli strumenti tecnici della comunicazione in rete.
-- padroneggiare la lingua inglese e, ove prevista, un'altra lingua comunitaria per scopi
-comunicativi
-e utilizzare i linguaggi settoriali relativi ai percorsi di studio, per interagire in diversi ambiti
-e contesti professionali, al livello B2 del quadro comune europeo di riferimento per le
-lingue (QCER).
-- utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
-adeguatamente
-informazioni qualitative e quantitative.
-- identificare e applicare le metodologie e le tecniche della gestione per progetti.
-- redigere relazioni tecniche e documentare le attività individuali e di gruppo relative a
-situazioni
-professionali.
-- individuare e utilizzare gli strumenti di comunicazione e di team working più appropriati
-per
-intervenire nei contesti organizzativi e professionali di riferimento.
-Competenze specifiche:
-competenze specifiche di indirizzo:
-- identificare e descrivere le caratteristiche significative dei contesti ambientali.
-- organizzare attività produttive ecocompatibili.
-- gestire attività produttive e trasformative, valorizzando gli aspetti qualitativi dei prodotti e
-assicurando tracciabilità e sicurezza.
-- rilevare contabilmente i capitali aziendali e la loro variazione nel corso degli esercizi
-produttivi;
-riscontrare i risultati attraverso bilanci aziendali ed indici di efficienza.
-- elaborare stime di valore, relazioni di analisi costi-benefici e di valutazione di impatto
-ambientale.
-- interpretare ed applicare le normative comunitarie, nazionali e regionali, relative alle
-attività
-agricole integrate.
-36
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Curricolo Di Istituto
+
+
+## Nome Scuola
+
+
+## Enrico Fermi (Istituto Principale)
+
+
+## Scuola Secondaria Ii Grado
+
+
+## Nome Scuola
+
+
+## Enrico Fermi (Plesso)
+
+
+## Scuola Secondaria Ii Grado
+
+
+## Curricolo Di Scuola
+
+Il piano dell’offerta formativa è il documento fondamentale della scuola e ne configura
+l’identità culturale e progettuale. L’I.I.S. “E. Fermi” cerca di interpretare le esigenze e i
+bisogni di una società in continua trasformazione e di adeguare ad essi le sue proposte
+educative e culturali. Mira a realizzare percorsi formativi che educhino alla cittadinanza
+attiva, alla responsabilità personale e sociale, mediante l’acquisizione di conoscenze, lo
+sviluppo di capacità, la maturazione di competenze e di atteggiamenti maturi,
+ragionevoli e aperti. Il POF esplicita le linee d’indirizzo dell’Istituto e ne indica le scelte: •
+educative e formative, in relazione a conoscenze da proporre, competenze da far
+acquisire, capacità da sviluppare; • didattiche, in relazione all’approccio metodologico,
+alle modalità di verifica, a criteri di valutazione; • organizzative, per la definizione di ruoli
+e funzioni, l’assegnazione dei compiti, le modalità di coordinamento. Comprende un
+piano di attività che coinvolge tutti gli operatori scolastici: in primis, il Dirigente
+Scolastico, che, preso atto degli esiti documentati dal RAV, predispone e programma
+linee guida e strategie tese al miglioramento dell’istituzione scolastica e ne esercita la
+funzione di garante; i docenti, con il duplice compito di educare e comunicare; il
+personale non docente garante servizi specifici e prestazioni funzionali, nella logica di
+un servizio pubblico caratterizzato da negoziazione sociale e trasparenza e rivolto
+all’efficacia, all’efficienza, alla produttività. Gli obiettivi educativi trovano riscontro nella
+programmazione di classe ed impegnano tutti i docenti sia nella coerenza formativa sia
+nell’operatività disciplinare. Nel P.O.F. vengono riportati i criteri che regolano la vita
+dell’I.I.S. e i progetti, programmati nell’intento di rispondere alle attese degli studenti e
+39
 
 ---
 
 ## Pagina 41
 
 
-## L'Offerta Formativa
-
-Traguardi attesi in uscita
-
-## Ptof 2022 - 2025
-
-- intervenire nel rilievo topografico e nelle interpretazioni dei documenti riguardanti le
-situazioni
-ambientali e territoriali.
-- realizzare attività promozionali per la valorizzazione dei prodotti agroalimentari collegati
-alle
-caratteristiche territoriali, nonché della qualità dell'ambiente.
-Nell'articolazione "Produzioni e trasformazioni" vengono approfondite le problematiche
-collegate
-all'organizzazione delle produzionianimali e vegetali, alle trasformazioni e alla
-commercializzazione
-dei relativi prodotti, all'utilizzazione delle biotecnologie.
-Secondaria II grado - TIPOLOGIA: IST PROF ALBERGHIERO
-Istituto/Plessi
-Codice Scuola
-
-## Enogastronomia - S. Colombano
+## L'Offerta
 
 
-## Gerh012018
-
-Indirizzo di studio
-
-## Enogastronomia E Ospitalita' Alberghiera
+## Formativa
 
 
-## Operatore Della Ristorazione
+## Ptof - 2019/20-2021/22
 
 
-## Operatore Della Ristorazione
+## Enrico Fermi
 
-Secondaria II grado - TIPOLOGIA: IST PROF PER
-
-## L'Agricoltura E L'Ambiente
-
-37
-
-## B.Marsano - Geis012004
-
+delle loro famiglie.   3.1 PROGETTUALITÀ EDUCATIVA La progettualità educativa vede
+al centro dell’azione didattica l’allievo nella sua interezza, mira alla sua crescita integrale
+culturale ed umana, a renderlo sempre più consapevole del suo valore e della sua
+unicità, a fornirgli gli strumenti per la realizzazione del proprio “io”. Gli obiettivi di tale
+progettualità possono essere così sintetizzati:   Acquisizione e consapevolezza di
+principi e valori umani, civili e sociali, che divengano patrimonio di vita e di cultura per
+la costruzione dell’identità personale e per l’esercizio di una cittadinanza consapevole;  
+Capacità di autovalutazione, di auto-orientamento/riorientamento e di progettazione
+del proprio futuro;   Concettualizzazione, attualizzazione e personalizzazione del
+sapere;   Consapevolezza del tessuto di interrelazioni esistente tra gli elementi storico -
+identitari del territorio e del contesto in cui è inserita la scuola e il sapere;  
+Consapevolezza della complessità e storicità del sistema socio-culturale, politico,
+economico a cui si appartiene. A tal fine concorreranno tutte le attività curriculari ed
+extracurriculari. • OBIETTIVI DIDATTICI TRASVERSALI Obiettivi cognitivi: 1. Capacità di
+comprensione e di analisi critica di un testo, di un problema, di un evento, di un periodo
+storico, di un fenomeno, di una forma, di un’opera d’arte; 2. capacità di sintesi intesa
+come capacità di organizzare in modo essenziale e coerente gli elementi di un testo, di
+un problema, di un evento storico-culturale, di un fenomeno; 3. capacità di produrre
+testi scritti coerenti, chiari e ben articolati graduati in base ai prerequisiti e alla
+progressione degli apprendimenti degli studenti; 4. capacità di comunicare
+correttamente, utilizzando i linguaggi settoriali ed il lessico proprio di ciascuna
+disciplina; 5. capacità di valorizzare le proprie competenze logiche e metodologiche per
+acquisire abilità di ragionamento coerente, chiarezza di pensiero e rigore espositivo; 6.
+capacità di auto-valutare il proprio rendimento, le proprie potenzialità e i propri limiti; 7.
+capacità di leggere, analizzare, interpretare e correlare i contenuti nazionali del
+curriculo: fenomeni, eventi, temi specifici del territorio e del contesto in cui l’Istituzione
+scolastica opera. Obiettivi relazionali e valoriali: 1. Conseguire un senso sempre più
+maturo di lealtà, rispetto e disponibilità verso gli altri; 2. considerare la diversità di
+ideologie e di opinioni come occasione di confronto e di ricerca comune di valori
+unificanti; 3. riconoscere il diritto alla diversità etnica, religiosa e culturale ed accettarlo
+come fonte di arricchimento; 4. riconoscere e praticare il valore della legalità, intesa
+come osservanza del diritto e, quindi, come rispetto delle regole, dell’ambiente, della
+cosa pubblica; 5. possedere un’immagine sempre più completa e comprensiva della
+realtà circostante, al fine di contribuire al suo sviluppo mobilitando le risorse di
+ciascuno; 6. riconoscere la valenza formativa delle singole discipline in quanto
+strumento di orientamento nella realtà complessa e inserimento nel tessuto sociale e
+nel mondo produttivo. • OBIETTIVI DIDATTICI - AREA UMANISTICA CONOSCENZE  
+40
 
 ---
 
 ## Pagina 42
 
 
-## L'Offerta Formativa
-
-Traguardi attesi in uscita
-
-## Ptof 2022 - 2025
-
-Istituto/Plessi
-Codice Scuola
-
-## Ipsaa B.Marsano
+## L'Offerta
 
 
-## Gera012014
+## Formativa
 
 
-## Marsano/San Colombano
+## Ptof - 2019/20-2021/22
 
 
-## Gera012025
+## Enrico Fermi
 
-Indirizzo di studio
+Strutture linguistiche   Contenuti disciplinari (articolati coprendo tutti i periodi ed i
+movimenti culturali, artistici e filosofici per autori maggiormente rappresentativi, senza
+vuoti o omissioni).   Linguaggi specifici COMPETENZE a) Organizzazione,
+armonizzazione del sapere assimilato; b) problematizzazione, attualizzazione e
+riflessione critica con collegamenti interdisciplinari e valutazioni personali. ABILITÀ
+LINGUISTICHE: a) Chiarezza espressiva, padronanza della madrelingua e della lingua
+straniera; b) correttezza, pertinenza negli elaborati scritti e nelle diverse tipologie
+testuali. LOGICHE, ELABORATIVE: a) Analisi, sintesi, rielaborazione dei contenuti
+disciplinari; b) decodificazione, illustrazione, interpretazione delle opere d’arte e di
+qualsiasi tipo di testo; c) individuazione della ricchezza stilistica e la complessità formale
+di un testo. • OBIETTIVI DIDATTICI – AREA SCIENTIFICA CONOSCENZE   Termini –
+definizioni;   Contenuti disciplinari (è previsto lo studio della geometria, intesa anche
+come “campo” sul quale applicare le conoscenze matematiche ed esercitare le facoltà
+logiche).   Linguaggi specifici COMPETENZE a) Comprensione e risoluzione di un
+problema; b) autonomia operativa e di giudizio; c) organizzazione armonica di
+conoscenze e competenze; d) utilizzo consapevole degli strumenti informatici e
+telematici ABILITÀ a) Esecuzione di procedure e tecniche di calcolo; b) applicazione di
+metodi, strumenti e modelli matematico-scientifici, anche in situazioni diverse; c) analisi,
+sintesi, elaborazione, interpretazione di dati, situazioni e fenomeni; d) Consapevolezza
+del legame tra scienza, applicazione tecnologica e necessità reali della società moderna
+e del territorio. • OBIETTIVI DIDATTICI - AREA LINGUISTICA CONOSCENZE   Strutture
+linguistiche l1, l2, l3   Contenuti disciplinari (è previsto lo studio della geometria, intesa
+anche come “campo” sul quale applicare le conoscenze matematiche ed esercitare le
+facoltà logiche).   Contenuti disciplinari (letteratura e civiltà) differenziandone, in
+qualche misura, l’articolazione a seconda degli indirizzi; per esempio, prevedendo lo
+studio di alcuni autori collegati con il sapere scientifico nell’opzione “scienze applicate”.
+  Linguaggi specifici (letteratura, scienza, tecnologia). COMPETENZE a) Organizzazione,
+armonizzazione del sapere assimilato; b) problematizzazione e riflessione critica con
+collegamenti interdisciplinari e valutazioni personali, soprattutto in relazione alle altre
+letterature e civiltà. ABILITÀ LINGUISTICHE: a) Chiarezza espressiva, padronanza della
+lingua straniera; b) Correttezza, pertinenza negli elaborati scritti e nelle diverse tipologie
+testuali; c) Conoscenza del lessico specifico delle attività connesse al trasporto e alla
+logistica. LOGICHE, ELABORATIVE: a) Analisi, sintesi, rielaborazione dei contenuti
+disciplinari; b) decodificazione, illustrazione, interpretazione di testi letterari e a
+contenuto tecnico-scientifico in lingua straniera; c) individuazione della ricchezza
+stilistica e la complessità formale di un testo.
 
-## Operatore Agricolo
+## Curricolo Dell'Insegnamento Trasversale Di Educazione Civica
 
-
-## Agricoltura, Sviluppo Rurale, Valorizzazione Dei
-
-
-## Prodotti Del Territorio E Gestione Delle Risorse
-
-
-## Forestali E Montane
-
-Secondaria II grado - TIPOLOGIA: IST PROF PER
-
-## L'Agricoltura
-
-Istituto/Plessi
-Codice Scuola
-
-## Marsano/Arenzano
-
-
-## Gera012036
-
-Indirizzo di studio
-
-## Agricoltura, Sviluppo Rurale, Valorizzazione Dei
-
-
-## Prodotti Del Territorio E Gestione Delle Risorse
-
-38
-
-## B.Marsano - Geis012004
-
+41
 
 ---
 
 ## Pagina 43
 
 
-## L'Offerta Formativa
-
-Traguardi attesi in uscita
-
-## Ptof 2022 - 2025
+## L'Offerta
 
 
-## Forestali E Montane
+## Formativa
 
-Approfondimento
-Profili in uscita
-ISTITUTO TECNICO AGRARIO “Agraria, Agroalimentare e Agroindustria”
-Profilo del diplomato in Agraria, Agroalimentare e Agroindustria:
-ha competenze nel campo dell’organizzazione e della gestione delle attività produttive, di
-trasformazione e valorizzazione del settore, con attenzione alla qualità dei prodotti ed al rispetto
-dell’ambiente;
-interviene, altresì, in aspetti relativi alla gestione del territorio, con specifico riguardo agli equilibri
-ambientali, a quelli idrogeologici e paesaggistici.
-In particolare, è in grado di:
-collaborare alla realizzazione di processi produttivi ecosostenibili, vegetali e animali,
-applicando i risultati delle ricerche più avanzate;
-•
-controllare la qualità delle produzioni sotto il profilo fisico-chimico, igienico ed organolettico;
-•
-individuare esigenze locali per il miglioramento dell’ambiente mediante controlli con opportuni
-indicatori e intervenire nella protezione dei suoli e delle strutture paesaggistiche, a sostegno
-degli insediamenti e della vita rurale;
-•
-intervenire nel settore della trasformazione dei prodotti attivando processi tecnologici e
-biotecnologici per ottenere qualità ed economicità dei risultati e gestire, inoltre, il corretto
-smaltimento e riutilizzazione dei reflui e dei residui;
-•
-controllare con i metodi contabili ed economici le predette attività, redigendo documenti
-contabili, preventivi e consuntivi, rilevando indici di efficienza ed emettendo giudizi di
-convenienza;
-•
-esprimere giudizi di valore su beni, diritti e servizi;
-•
-effettuare operazioni catastali di rilievo e di conservazione; interpretare carte tematiche e
-collaborare in attività di gestione del territorio;
-•
-rilevare condizioni di disagio ambientale e progettare interventi a protezione delle zone di
-•
-39
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Si allega curricolo di educazione civica dettagliato per classi con griglia di valutazione
+
+## Allegato:
+
+
+## Curricolo Di Educazione Civica Indirizzi Liceali + Griglia Di Valutazione.Pdf
+
+
+## Eventuali Aspetti Qualificanti Del Curricolo
+
+Curricolo verticale
+Il piano dell’offerta formativa è il documento fondamentale della scuola e ne configura
+l’identità culturale e progettuale. L’I.I.S. “E. Fermi” cerca di interpretare le esigenze e i
+bisogni di una società in continua trasformazione e di adeguare ad essi le sue proposte
+educative e culturali. Mira a realizzare percorsi formativi che educhino alla cittadinanza
+attiva, alla responsabilità personale e sociale, mediante l’acquisizione di conoscenze, lo
+sviluppo di capacità, la maturazione di competenze e di atteggiamenti maturi,
+ragionevoli e aperti. Il POF esplicita le linee d’indirizzo dell’Istituto e ne indica le scelte: •
+educative e formative, in relazione a conoscenze da proporre, competenze da far
+acquisire, capacità da sviluppare; • didattiche, in relazione all’approccio metodologico,
+alle modalità di verifica, a criteri di valutazione; • organizzative, per la definizione di
+ruoli e funzioni, l’assegnazione dei compiti, le modalità di coordinamento. Comprende
+un piano di attività che coinvolge tutti gli operatori scolastici: in primis, il Dirigente
+Scolastico, che, preso atto degli esiti documentati dal RAV, predispone e programma
+linee guida e strategie tese al miglioramento dell’istituzione scolastica e ne esercita la
+funzione di garante; i docenti, con il duplice compito di educare e comunicare; il
+personale non docente garante servizi specifici e prestazioni funzionali, nella logica di
+un servizio pubblico caratterizzato da negoziazione sociale e trasparenza e rivolto
+all’efficacia, all’efficienza, alla produttività. Gli obiettivi educativi trovano riscontro nella
+programmazione di classe ed impegnano tutti i docenti sia nella coerenza formativa sia
+nell’operatività disciplinare. Nel P.O.F. vengono riportati i criteri che regolano la vita
+dell’I.I.S. e i progetti, programmati nell’intento di rispondere alle attese degli studenti e
+delle loro famiglie.   3.1 PROGETTUALITÀ EDUCATIVA La progettualità educativa vede
+al centro dell’azione didattica l’allievo nella sua interezza, mira alla sua crescita
+integrale culturale ed umana, a renderlo sempre più consapevole del suo valore e della
+sua unicità, a fornirgli gli strumenti per la realizzazione del proprio “io”. Gli obiettivi di
+tale progettualità possono essere così sintetizzati:   Acquisizione e consapevolezza di
+principi e valori umani, civili e sociali, che divengano patrimonio di vita e di cultura per
+la costruzione dell’identità personale e per l’esercizio di una cittadinanza consapevole;
+  Capacità di autovalutazione, di auto-orientamento/riorientamento e di progettazione
+del proprio futuro;   Concettualizzazione, attualizzazione e personalizzazione del
+42
 
 ---
 
 ## Pagina 44
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Traguardi attesi in uscita
 
-## Ptof 2022 - 2025
+## Formativa
 
-rischio;
-collaborare nella gestione delle attività di promozione e commercializzazione dei prodotti
-agrari ed agroindustriali;
-•
-collaborare nella pianificazione delle attività aziendali facilitando riscontri di trasparenza e
-tracciabilità.
-•
-Il monte ore settimanale è pari a 32 ore per complessive 1056 ore annuali per tutte le classi, ad
-eccezione della classe prima che ha 33 ore settimanali e 1089 ore annuali.
-Nell’indirizzo ministeriale sono previste le articolazioni “Produzioni e trasformazioni”, “Gestione
-dell’ambiente e del territorio” e “Viticoltura ed enologia”, nelle quali il profilo viene orientato e
-declinato. La nostra scuola ha scelto per le sedi di S. Ilario e di S. Colombano Certenoli l’articolazione
-“Produzioni e trasformazioni”, nella quale vengono approfondite le problematiche collegate
-all’organizzazione delle produzioni animali e vegetali, alle trasformazioni e alla commercializzazione
-dei relativi prodotti, all’utilizzazione delle biotecnologie.
-Al momento le altre due articolazioni non sono attivate.
-A conclusione del percorso quinquennale,il Diplomato nell’indirizzo “Agraria, Agroalimentare e
-Agroindustria”, denominato Perito Agrario, consegue le seguenti competenze:
-1. Identifica e descrive le caratteristiche significative dei contesti ambientali.
-2. Organizza attività produttive ecocompatibili.
-3. Gestisce attività produttive e trasformative, valorizzando gli aspetti qualitativi dei prodotti e
-assicurando tracciabilità e sicurezza.
-4. Rileva contabilmente i capitali aziendali e la loro variazione nel corso degli esercizi produttivi;
-riscontrare i risultati attraverso bilanci aziendali ed indici di efficienza.
-5. Elaborare stime di valore, relazioni di analisi costi-benefici e di valutazione di impatto ambientale.
-6. Interpreta ed applica le normative comunitarie, nazionali e regionali,relative alle attività agricole
-integrate.
-7. Interviene nel rilievo topografico e nelle interpretazioni dei documenti riguardanti le situazioni
-ambientali e territoriali.
-8. Realizza attività promozionali per la valorizzazione dei prodotti agroalimentari collegati alle
-40
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+sapere;   Consapevolezza del tessuto di interrelazioni esistente tra gli elementi storico -
+identitari del territorio e del contesto in cui è inserita la scuola e il sapere;  
+Consapevolezza della complessità e storicità del sistema socio-culturale, politico,
+economico a cui si appartiene. A tal fine concorreranno tutte le attività curriculari ed
+extracurriculari. • OBIETTIVI DIDATTICI TRASVERSALI Obiettivi cognitivi: 1. Capacità di
+comprensione e di analisi critica di un testo, di un problema, di un evento, di un
+periodo storico, di un fenomeno, di una forma, di un’opera d’arte; 2. capacità di sintesi
+intesa come capacità di organizzare in modo essenziale e coerente gli elementi di un
+testo, di un problema, di un evento storico-culturale, di un fenomeno; 3. capacità di
+produrre testi scritti coerenti, chiari e ben articolati graduati in base ai prerequisiti e
+alla progressione degli apprendimenti degli studenti; 4. capacità di comunicare
+correttamente, utilizzando i linguaggi settoriali ed il lessico proprio di ciascuna
+disciplina; 5. capacità di valorizzare le proprie competenze logiche e metodologiche per
+acquisire abilità di ragionamento coerente, chiarezza di pensiero e rigore espositivo; 6.
+capacità di auto-valutare il proprio rendimento, le proprie potenzialità e i propri limiti;
+7. capacità di leggere, analizzare, interpretare e correlare i contenuti nazionali del
+curriculo: fenomeni, eventi, temi specifici del territorio e del contesto in cui l’Istituzione
+scolastica opera. Obiettivi relazionali e valoriali: 1. Conseguire un senso sempre più
+maturo di lealtà, rispetto e disponibilità verso gli altri; 2. considerare la diversità di
+ideologie e di opinioni come occasione di confronto e di ricerca comune di valori
+unificanti; 3. riconoscere il diritto alla diversità etnica, religiosa e culturale ed accettarlo
+come fonte di arricchimento; 4. riconoscere e praticare il valore della legalità, intesa
+come osservanza del diritto e, quindi, come rispetto delle regole, dell’ambiente, della
+cosa pubblica; 5. possedere un’immagine sempre più completa e comprensiva della
+realtà circostante, al fine di contribuire al suo sviluppo mobilitando le risorse di
+ciascuno; 6. riconoscere la valenza formativa delle singole discipline in quanto
+strumento di orientamento nella realtà complessa e inserimento nel tessuto sociale e
+nel mondo produttivo. • OBIETTIVI DIDATTICI - AREA UMANISTICA CONOSCENZE  
+Strutture linguistiche   Contenuti disciplinari (articolati coprendo tutti i periodi ed i
+movimenti culturali, artistici e filosofici per autori maggiormente rappresentativi, senza
+vuoti o omissioni).   Linguaggi specifici COMPETENZE a) Organizzazione,
+armonizzazione del sapere assimilato; b) problematizzazione, attualizzazione e
+riflessione critica con collegamenti interdisciplinari e valutazioni personali. ABILITÀ
+LINGUISTICHE: a) Chiarezza espressiva, padronanza della madrelingua e della lingua
+straniera; b) correttezza, pertinenza negli elaborati scritti e nelle diverse tipologie
+testuali. LOGICHE, ELABORATIVE: a) Analisi, sintesi, rielaborazione dei contenuti
+disciplinari; b) decodificazione, illustrazione, interpretazione delle opere d’arte e di
+43
 
 ---
 
 ## Pagina 45
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Traguardi attesi in uscita
 
-## Ptof 2022 - 2025
+## Formativa
 
-caratteristiche territoriali, nonché della qualità dell’ambiente.
-In relazione a ciascuna delle articolazioni, le competenze di cui sopra, sono sviluppate
-coerentemente con la peculiarità del percorso di riferimento.
-Il titolo di studio di “Perito Agrario”, previo completamento di uno stage di praticantato ed il
-superamento dell’Esame di Stato, consente l’iscrizione all’Albo dei Periti Agrari e lo svolgimento della
-libera professione.
-ISTITUTO PROFESSIONALE AGRARIO “Agricoltura, sviluppo rurale, valorizzazione dei prodotti del
-territorio e gestione delle risorse forestali e montane”
-Il diplomato, con termine degli studi al quinto anno di corso, possiede competenze che gli
-consentono di:
-Gestire soluzioni tecniche di produzione e trasformazione, idonee a conferire ai prodotti i
-caratteri di qualità previsti dalle normative nazionali e comunitarie;
-•
-Gestire sistemi di allevamento e di acquacoltura, garantendo il benessere animale e la qualità
-delle produzioni;
-•
-Gestire i processi produttivi delle filiere selvicolturali progettando semplici interventi nel
-rispetto della biodiversità e delle risorse naturalistiche e paesaggistiche;
-•
-Descrivere e rappresentare le caratteristiche ambientali e agro produttive di un territorio,
-attraverso l’utilizzo e la realizzazione di mappe tematiche e di sistemi informativi
-computerizzati;
-•
-Intervenire nei processi per la salvaguardia e il ripristino della biodiversità, per la
-conservazione e il potenziamento di parchi, di aree protette e ricreative, per la prevenzione del
-degrado ambientale e per la realizzazione di strutture a difesa delle zone a rischio, eseguendo
-semplici interventi di sistemazione idraulico-agroforestale e relativi piani di assestamento
-•
-Collaborare alla gestione di progetti di valorizzazione energetica e agronomica delle biomasse
-di provenienza agro-forestale, zootecnica e agroindustriale;
-•
-Gestire i reflui zootecnici e agroalimentari applicando tecnologie innovative per la salvaguardia
-ambientale;
-•
-Gestire attività di progettazione e direzione delle opere di miglioramento e trasformazione
-fondiaria in ambito agrario e forestale, attuando sistemi di analisi di efficienza tecnico-
-economica aziendale, interagendo con gli enti territoriali e coadiuvando i singoli produttori
-nell’elaborazione di semplici piani di miglioramento fondiario e di sviluppo rurale;
-•
-Individuare e attuare processi di integrazione di diverse tipologie di prodotti per la
-valorizzazione delle filiere agroalimentari e forestali, gestendo attività di promozione e
-•
-41
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+qualsiasi tipo di testo; c) individuazione della ricchezza stilistica e la complessità
+formale di un testo. • OBIETTIVI DIDATTICI – AREA SCIENTIFICA CONOSCENZE   Termini
+– definizioni;   Contenuti disciplinari (è previsto lo studio della geometria, intesa anche
+come “campo” sul quale applicare le conoscenze matematiche ed esercitare le facoltà
+logiche).   Linguaggi specifici COMPETENZE a) Comprensione e risoluzione di un
+problema; b) autonomia operativa e di giudizio; c) organizzazione armonica di
+conoscenze e competenze; d) utilizzo consapevole degli strumenti informatici e
+telematici ABILITÀ a) Esecuzione di procedure e tecniche di calcolo; b) applicazione di
+metodi, strumenti e modelli matematico-scientifici, anche in situazioni diverse; c)
+analisi, sintesi, elaborazione, interpretazione di dati, situazioni e fenomeni; d)
+Consapevolezza del legame tra scienza, applicazione tecnologica e necessità reali della
+società moderna e del territorio. • OBIETTIVI DIDATTICI - AREA LINGUISTICA
+CONOSCENZE   Strutture linguistiche l1, l2, l3   Contenuti disciplinari (è previsto lo
+studio della geometria, intesa anche come “campo” sul quale applicare le conoscenze
+matematiche ed esercitare le facoltà logiche).   Contenuti disciplinari (letteratura e
+civiltà) differenziandone, in qualche misura, l’articolazione a seconda degli indirizzi; per
+esempio, prevedendo lo studio di alcuni autori collegati con il sapere scientifico
+nell’opzione “scienze applicate”.   Linguaggi specifici (letteratura, scienza, tecnologia).
+COMPETENZE a) Organizzazione, armonizzazione del sapere assimilato; b)
+problematizzazione e riflessione critica con collegamenti interdisciplinari e valutazioni
+personali, soprattutto in relazione alle altre letterature e civiltà. ABILITÀ LINGUISTICHE:
+a) Chiarezza espressiva, padronanza della lingua straniera; b) Correttezza, pertinenza
+negli elaborati scritti e nelle diverse tipologie testuali; c) Conoscenza del lessico
+specifico delle attività connesse al trasporto e alla logistica. LOGICHE, ELABORATIVE: a)
+Analisi, sintesi, rielaborazione dei contenuti disciplinari; b) decodificazione,
+illustrazione, interpretazione di testi letterari e a contenuto tecnico-scientifico in lingua
+straniera; c) individuazione della ricchezza stilistica e la complessità formale di un testo.
+Proposta formativa per lo sviluppo delle competenze trasversali
+Per lo sviluppo delle competenze trasversali, oltre al curriculo verticale, si fa riferimento
+agli insegnamenti opzionali e all'arricchimento dell'offerta formativa
+Curricolo delle competenze chiave di cittadinanza
+Per lo sviluppo delle competenze di cittadinanza , oltre al curriculo verticale, si fa
+riferimento agli insegnamenti opzionali e all'arricchimento dell'offerta formativa. -
+comunicare nella madrelingua (utilizzare il patrimonio lessicale ed espressivo della
+44
 
 ---
 
 ## Pagina 46
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Traguardi attesi in uscita
 
-## Ptof 2022 - 2025
+## Formativa
 
-marketing dei prodotti agricoli, agroindustriali, silvo-pastorali, dei servizi multifunzionali
-realizzando progetti per lo sviluppo rurale.
-Nei cinque anni, suddivisi in un primo biennio, un secondo biennio ed un quinto anno conclusivo, è
-previsto l’insegnamento di varie discipline che sono considerate:
-· comuni a tutti gli indirizzi professionali (area generale “Servizi”), costituite da lingua e letteratura
-italiana, lingua inglese, storia, matematica, diritto ed economia, scienze integrate (scienze della terra
-e biologia), scienze motorie e sportive, religione cattolica o attività alternative e discipline specifiche
-per il settore di professionalità agraria
-· di indirizzo, cioè specifiche per il Servizio Agrario, costituite da: scienze integrate (fisica e chimica),
-tecnologia dell’informazione e della comunicazione, ecologia e pedologia, laboratorio tecnologico ed
-esercitazioni, biologia applicata, chimica applicata e processi di trasformazione, tecniche di
-allevamento vegetale e animale, agronomia territoriale ed ecosistemi forestali, economia agraria e
-dello sviluppo territoriale, valorizzazione delle attività produttive e legislazione di settore, sociologia
-rurale e storia dell’agricoltura.
-Il monte ore settimanale è pari a 32 ore per complessive 1056 ore annuali per tutte le classi.
-Il quinto anno di corso termina con l’Esame di Stato per il diploma di Agrotecnico e il titolo di studio
-ottenuto, previo completamento di uno stage di praticantato ed il superamento dell’Esame di Stato,
-consente l’iscrizione all’Albo degli Agrotecnici e lo svolgimento della libera professione. Il titolo di
-Agrotecnico è equipollente a quello del Perito Agrario.
-A conclusione del percorso quinquennale, il Diplomato nei “Agricoltura, sviluppo rurale,
-valorizzazione dei prodotti del territorio e gestione delle risorse forestali e montane” denominato
-“Agrotecnico”, consegue i risultati di apprendimento, specificati in termini di competenze, così come
-riportate in apposite U.D.A. (Unità di Apprendimento) multidisciplinari appositamente redatte per
-ogni anno del corso di studi tenendo conto delle indicazioni dell’allegato A al Decreto
-interministeriale 24 maggio 2018, n. 92, Regolamento ai sensi dell’articolo 3, comma 3, decreto
-legislativo 13 aprile 2017, n. 61.
-ISTITUTO PROFESSIONALE ALBERGHIERO “Enogastronomico”
-Il diplomato, con termine degli studi al quinto anno di corso, possiede competenze che gli
-consentono di:
-- agire nel sistema di qualità relativo alla filiera produttiva di interesse
-42
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+lingua italiana secondo le esigenze comunicative nei vari contesti: sociali, culturali,
+scientifici, economici, tecnologici; redigere relazioni tecniche e documentare le attività
+individuali e di gruppo relative a situazioni professionali. 2. Comunicazione nelle lingue
+straniere Padroneggiare la lingua inglese e un’altra lingua comunitaria per scopi
+comunicativi, utilizzando anche i linguaggi settoriali previsti dai percorsi di studio, per
+interagire in diversi ambiti e contesti di studio e di lavoro, al livello B2 di padronanza
+del quadro europeo di riferimento per le lingue (QCER). 3. Competenze matematiche
+Utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
+adeguatamente informazioni qualitative e quantitative. Utilizzare le strategie del
+pensiero razionale negli aspetti dialettici e algoritmici per affrontare situazioni
+problematiche, elaborando opportune soluzioni. 4. Competenza digitale Utilizzare e
+produrre strumenti di comunicazione visiva e multimediale, anche con riferimento alle
+strategie espressive e agli strumenti tecnici della comunicazione in rete. Utilizzare le
+reti e gli strumenti informatici nelle attività di studio, ricerca e approfondimento
+disciplinare. 5. Imparare a imparare Partecipare attivamente alle attività portando il
+proprio contributo personale. Reperire, organizzare, utilizzare informazioni da fonti
+diverse per assolvere un determinato compito; organizzare il proprio apprendimento;
+acquisire abilità di studio. 6. Competenze sociali e civiche Agire in modo autonomo e
+responsabile, conoscendo e osservando regole e norme, con particolare riferimento
+alla Costituzione. Collaborare e partecipare comprendendo i diversi punti di vista delle
+persone. 7. Spirito di iniziativa e imprenditorialità Risolvere i problemi che si incontrano
+nella vita e nel lavoro e proporre soluzioni; valutare rischi e opportunità; scegliere tra
+opzioni diverse; prendere decisioni; agire con flessibilità; progettare e pianificare;
+conoscere l’ambiente in cui si opera anche in relazione alle proprie risorse. 8.
+Consapevolezza ed espressione culturale Riconoscere il valore e le potenzialità dei beni
+artistici e ambientali, per una loro corretta fruizione e valorizzazione. Stabilire
+collegamenti tra le tradizioni culturali locali, nazionali ed internazionali, sia in una
+prospettiva interculturale sia ai fini della mobilità di studio e di lavoro. Riconoscere gli
+aspetti geografici, ecologici, territoriali dell’ambiente naturale ed antropico, le
+connessioni con le strutture demografiche, economiche, sociali, culturali e le
+trasformazioni intervenute nel corso del tempo. Comprendere gli aspetti comunicativi,
+culturali e relazionali dell’espressività corporea e l’importanza che riveste la pratica
+dell’attività motorio-sportiva per il benessere individuale e collettivo.
+Insegnamenti opzionali
+Vengono attivati per le classi prime e seconde tali insegnamenti opzionali in orario
+45
 
 ---
 
 ## Pagina 47
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Traguardi attesi in uscita
 
-## Ptof 2022 - 2025
+## Formativa
 
-- utilizzare tecniche di lavorazione e strumenti gestionali nella produzione di servizi e prodotti
-enogastronomici, ristorativi e di accoglienza turistica-alberghiera
-- integrare le competenze professionali orientate al cliente con quelle linguistiche, utilizzando le
-tecniche di comunicazione e relazione per ottimizzare la qualità del servizio e il coordinamento con i
-colleghi
-- valorizzare e promuovere le tradizioni locali, nazionali e internazionali, individuando le nuove
-tendenze di filiera
-- applicare le normative vigenti, nazionali e internazionali in fatto di sicurezza, trasparenza e
-tracciabilità dei prodotti
-- attuare strategie di pianificazione, compensazione, monitoraggio per ottimizzare la produzione di
-beni e servizi in relazione al contesto
-- controllare e utilizzare gli alimenti e le bevande sotto il profilo organolettico, merceologico, chimico-
-fisico, nutrizionale e gastronomico
-- predisporre menu coerenti con il contesto e le esigenze della clientela, anche in relazione a
-specifiche necessità dietologiche
-- adeguare e organizzare la produzione e la vendita in relazione alla domanda dei mercati,
-valorizzando i prodotti tipici
-Nell’ottica di un’evoluzione dell’indirizzo verso il settore agroalimentare e inerente la
-somministrazione cibi e bevande, l’Istituto ha inizialmente accolto le competenze già individuate
-dall’Istituto di provenienza degli studenti (IPSIA M. Polo), ma si riserva di modificare in itinere
-competenze e quadri orari al fine di personalizzare maggiormente l’offerta formativa.
-1.  Al termine del percorso triennale (IeFP) gli studenti, oltre alla possibilità di conseguire la qualifica
-di operatore dei servizi gastronomici nel settore da loro scelto (cucina o sala/bar) potranno
-proseguire con il quarto e quinto anno e conseguire il diploma di Stato potendo quindi accedere a
-qualsiasi facoltà universitaria.
-2. Possibilità concreta di misurarsi con la realtà lavorativa del territorio o di ambienti completamente
-nuovi attraverso le numerose attività di stage
-3. Formazione professionale di qualità che stimola lo studente a promuovere se stesso attraverso
-una  serie di attività esterne coinvolgenti ed uno scambio proficuo di risorse fra istituzioni
-43
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+antimeridiano - conversazione inglese per tutti gli indirizzi liceali -didattica digitale -
+fotografia - percorsi di approfondimento di italiano - percorsi di approfondimento di
+matematica - arte per tutti gli indirizzi - tecnologie informatiche applicate alla didattica
+per tutti gli indirizzi - italiano (per le classi seconde) - matematica (per le classi seconde)
+- approfondimento competenze scientifiche, linguistiche e della comunicazione Si fa
+presente che per l'anno scolastico 2020/2021 per tutta la durata della situazione di
+emergenza non viene attivato alcun insegnamento opzionale. Pertanto rimane valido il
+quadro orario delle discipline obbligatorio per ciascun indirizzo così come la
+legislazione vigente prevede.
+
+## Istruzione Domiciliare
+
+Qui di seguito il quadro sintetico del progetto di Istruzione Domiciliare:
+DENOMINAZIONE PROGETTO ISTRUZIONE DOMICILIARE DESTINATARI Il progetto viene
+attivato nei confronti di alunni per i quali si preveda una lunga degenza domiciliare, su
+specifica istanza della famiglia corredata dalla documentazione prevista dalle Linee
+Guida regionali, previa approvazione dell’U.S.R.. FINALITA’ Intervenire per rimuovere gli
+ostacoli che impediscono la fruizione di attività educativo- didattiche di competenza
+della scuola. Garantire contestualmente il diritto allo studio e il diritto alla salute.
+OBIETTIVI Superare il disagio attraverso l’integrazione dell’alunno nel mondo della
+scuola. Recuperare l’interesse per le attività di tipo didattico e della capacità di
+riorganizzare la propria quotidianità. Contribuire al mantenimento e al recupero
+dell’equilibrio psico-fisico dell’allievo. Limitare il disagio e l’isolamento sociale dovuto
+allo stato di salute con proposte educative mirate. Soddisfare il bisogno di apprendere,
+conoscere e comunicare. Agevolare la prospettiva del reinserimento nel percorso
+scolastico. Curare l’aspetto socializzante della scuola. Incrementare la motivazione allo
+studio attraverso le potenzialità offerte dalle nuove tecnologie. METODOLOGIE
+EDUCATIVE E DIDATTICHE Saranno attivate tutte le possibili strategie per coinvolgere
+positivamente sia la famiglia che l’alunno, che vivono una condizione di particolare
+disagio per la patologia in atto. Il piano operativo si prefigge di valorizzare l’aspetto
+motivazionale e culturale, modulando opportunamente il percorso didattico alle
+concrete possibilità del discente e al suo stato emozionale, che risente delle condizioni
+fisiche. Le attività di insegnamento/apprendimento saranno individualizzate, ma
+saranno anche proposti momenti di interazione con gli adulti e i compagni attraverso
+l’uso delle nuove tecnologie. L’alunno verrà coinvolto in attività disciplinari e
+interdisciplinari che si avvarranno possibilmente del computer come strumento di
+produzione, elaborazione,creatività, ricerca e comunicazione con l’esterno (in
+46
 
 ---
 
 ## Pagina 48
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Traguardi attesi in uscita
 
-## Ptof 2022 - 2025
+## Formativa
 
-4. Acquisizione di un “ habitus mentale “ accogliente ed ospitale proprio di un mondo alberghiero e
-della ristorazione di qualità, in cui creatività, buon gusto e senso del decoro sono un patrimonio
-prezioso
-5. Inclusione sotto tutti gli aspetti, anche attraverso l’attuazione di progetti interessanti quali il
-“progetto panino” ed il “bar didattico”
-6. I nostri laboratori di Sala e di Cucina ai quali il prossimo anno si aggiungeranno l’ampia sala
-ristorante  con cucina e servizi al piano terra progettata per la nostra scuola ed in via di costruzione.
-44
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+particolare con compagni e amici). Gli interventi, se da una parte dovranno
+promuovere apprendimenti, dall'altra dovranno necessariamente organizzare un
+contesto di operatività, oltre che familiare, "fortemente" stimolante e appagante. Gli
+insegnanti coinvolti terranno conto dei seguenti aspetti: Flessibilità degli obiettivi e dei
+nodi concettuali Attenta valutazione, prima di qualunque tipo di intervento, dei tempi
+di applicazione allo studio, dei limiti fisici e psicologici dell’alunno. Attivazione, quando
+possibile, di lavori di gruppo, anche virtuali, per mantenere il collegamento con i
+coetanei. Potenziamento delle capacità espressive anche con l’uso di diversi codici
+comunicativi. L’alunno al termine del percorso educativo sarà in grado di proseguire
+insieme ai compagni il normale svolgimento delle attività didattiche svolte in classe.
+
+## Orientamento In Entrata
+
+Qui di seguito il quadro sintetico de l'attività di Orientamento in entrata anche in
+considerazione della situazione di emergenza: DENOMINAZIONE PROGETTO
+
+## Progetto “Orientamento” Destinatari Alunni Classi Prime Periodo Di
+
+SVOLGIMENTO DICEMBRE - GENNAIO DURATA/ IMPEGNO ORARIO Predisposizione
+piano di partecipazione dei docenti e degli alunni coinvolti alle attività
+curricolari/laboratoriali presso Istituti del territorio e OPEN DAY/DIGITAL DAY RISORSE
+UMANE E SOGGETTI COINVOLTI - Alunni e Docenti coinvolti - Docenti Referenti per
+l’Orientamento - Personale di Segreteria - Collaboratori Scolastici AREA INTERVENTO
+Tutte le discipline OBIETTIVI OBIETTIVI SPECIFICI Agevolare il processo di presa di
+coscienza della propria identità, per interrogarsi e diventare protagonisti attivi di fronte
+alle sollecitazioni esterne, per acquisire la capacità di decifrare, riconoscere e valutare
+in modo critico e personale ogni esperienza di vita. Potenziare la capacità di instaurare
+relazioni con gli altri (coetanei e adulti), mantenere sempre la disponibilità al dialogo e
+alla collaborazione, per riorientare via via al meglio, attraverso il confronto con l’altro, i
+propri convincimenti, i propri comportamenti, le proprie scelte. Far acquisire
+conoscenze ed esperienze per una lettura adeguata del contesto locale,
+socioeconomico e culturale. Promuovere una scelta autonoma e consapevole.
+ATTIVITA’ Progettazione Percorso “Orientamento” Acquisizione e distribuzione agli
+alunni delle classi terze del materiale informativo. Giornate di OPEN DAY informative
+per i genitori e gli alunni delle classi terze, per illustrare i vari percorsi di studi ed
+esplicitare le modalità di iscrizione on line. Predisposizione piano di partecipazione
+degli alunni delle classi terze ad attività curricolari/laboratoriali presso il nostro Istituto
+o da remoto
+47
 
 ---
 
 ## Pagina 49
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Insegnamenti e quadri orario
-
-## Scuola Secondaria Ii Grado - Istituto Tecnico Agrario
-
-Quadro orario della scuola: I.T.A. B. MARSANO GETA01201X
-
-## Produzioni E Trasformazioni
+## L'Offerta
 
 
-## Qo Produzioni E Trasformazioni
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Lingua E Letteratura Italiana
-
-0
-0
-4
-4
-4
-
-## Lingua Inglese
-
-0
-0
-3
-3
-3
-
-## Storia
-
-0
-0
-2
-2
-2
-
-## Matematica
-
-0
-0
-0
-0
-3
-
-## Biotecnologie Agrarie
-
-0
-0
-0
-2
-3
-
-## Economia, Estimo, Marketing E
+## Formativa
 
 
-## Legislazione
-
-0
-0
-3
-2
-3
-
-## Genio Rurale
-
-0
-0
-3
-2
-0
-
-## Produzioni Animali
-
-0
-0
-3
-3
-2
-
-## Produzioni Vegetali
-
-0
-0
-5
-4
-4
-
-## Trasformazione Dei Prodotti
-
-0
-0
-2
-3
-3
-
-## Gestione Dell'Ambiente E Del Territorio
-
-0
-0
-0
-0
-2
-
-## Matematica E Complementi Di
+## Ptof - 2019/20-2021/22
 
 
-## Matematica
+## Enrico Fermi
 
-0
-0
-4
-4
-0
-45
 
-## B.Marsano - Geis012004
+## Accoglienza
 
+Qui di seguito il quadro sintetico dell'attività di Accoglienza rivolto alle classi prime
+anche in considerazione della situazione di emergenza: DENOMINAZIONE PROGETTO
+
+## Progetto Accoglienza “Girando Fermi” Responsabile Di Progetto Silvana
+
+
+## Labbate Destinatari Alunni Classi Prime Periodo Di Svolgimento Prime
+
+
+## Settimane Durata/ Impegno Orario N. 6 Ore Risorse Umane E Soggetti
+
+COINVOLTI Alunni e Docenti classi prime AREA INTERVENTO Tutte le discipline
+OBIETTIVI OBIETTIVI SPECIFICI Garantire la continuità educativa e didattica con la
+Scuola Secondaria di 1^grado, da intendersi come percorso formativo integrale e
+unitario seppur differenziato sotto l’aspetto dei contenuti e delle strategie utilizzate.
+Realizzare un “clima” culturale, relazionale e istituzionale che consenta a tutti di
+partecipare ed essere protagonisti, per agevolare il passaggio. Favorire una graduale
+conoscenza del “nuovo” (sé stesso, ambiente scolastico e territorio); Salvaguardare la
+crescita formativa e il bagaglio di conoscenze che ogni ragazzo porta in sé. Eliminare
+situazioni di insicurezza e di disorientamento cognitivo e sociale. Rispondere
+all’esigenza prioritaria di integrazione e prevenzione del “disagio”, poiché l’alunno che
+vive serenamente l’esperienza scolastica acquisisce i presupposti per consolidare
+l’autostima, utilizzare nuove forme di comunicazione, raggiungere il successo
+personale e scolastico. ATTIVITA’ Accoglienza degli alunni classi prime il primo giorno di
+scuola. Conoscenza dell’Istituto e degli spazi Incontro informative sulla sicurezza e le
+buone norme da seguire per una corretta profilassi
+
+## Counseling
+
+Qui di seguito il quadro sintetico del servizio di Counseling, sostegno psicologico e
+relazionale, anche in considerazione della situazione di emergenza: DENOMINAZIONE
+
+## Progetto Counseling E Sostegno Psicologico “Star Bene Al Fermi”
+
+
+## Responsabile Interno Prof.Ssa Silvanalabate Destinatari Studenti Della
+
+
+## Scuola Periodo Di Svolgimento Tutto L’Anno Durata/ Impegno Orario
+
+
+## Attivita’ Di Potenziamento Area Di Intervento. “Counseling – Sostegno
+
+PSICOLOGICO” è un servizio dedicato alle relazioni, che apre uno spazio di ascolto,
+accoglienza e supporto per gli alunni su problematiche relative al comportamento,
+all’apprendimento, alla comunicazione, alla relazione interpersonale, agli aspetti
+affettivi ed emotivi OBIETTIVI E’ stato pensato per dare la possibilità agli studenti di
+usufruire di uno “sportello”, vale a dire di uno spazio in cui potersi raccontare ed
+esprimere, per offrire loro un sostegno immediato e concreto riguardo a
+48
 
 ---
 
 ## Pagina 50
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Scienze Motorie E Sportive
-
-0
-0
-2
-2
-2
-
-## Religione Cattolica/Attivita'
+## L'Offerta
 
 
-## Alternativa
-
-0
-0
-1
-1
-1
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-
-## Scuola Secondaria Ii Grado - Istituto Tecnico Agrario
-
-Quadro orario della scuola: I.T.A. B. MARSANO GETA01201X AGRARIA,
-
-## Agroal. E Agroind.-Biennio Com.
+## Formativa
 
 
-## Qo Agraria, Agroal. E Agroind.-Biennio Com.
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Lingua E Letteratura Italiana
-
-4
-4
-0
-0
-0
-
-## Lingua Inglese
-
-3
-3
-0
-0
-0
-
-## Storia
-
-2
-2
-0
-0
-0
-
-## Matematica
-
-4
-4
-0
-0
-0
-
-## Scienze Integrate (Scienze Della Terra E
+## Ptof - 2019/20-2021/22
 
 
-## Biologia)
+## Enrico Fermi
 
-2
-2
-0
-0
-0
+problematiche di tipo evolutivo e/o scolastico. Non si tratta di una seduta
+psicoterapeutica: le tematiche trattate riguardano principalmente il metodo di studio,
+l’orientamento scolastico, stati di inquietudine e stress legati alla vita scolastica, le
+relazioni con i compagni, i docenti e i familiari. Lo Sportello è un luogo dove poter
+esporre dubbi, perplessità, preoccupazioni ma anche sogni e speranze. Il confronto
+può essere l'occasione per costruire nuovi punti di vista, modificare o rafforzare alcune
+sicurezze, orientarsi di fronte ad alcune difficoltà che si possono incontrare. ATTIVITÀ
+Incontri individuali con gli studenti Si fa presente che tale attività da parte
+dell'arricchimento dell'offerta formativa
 
-## Scienze Integrate (Fisica)
+## Innovazione
 
-3
-3
-0
-0
-0
-
-## Scienze Integrate (Chimica)
-
-3
-3
-0
-0
-0
-
-## Diritto Ed Economia
-
-2
-2
-0
-0
-0
-
-## Tecnologie E Tecniche Di
-
-3
-3
-0
-0
-0
-46
-
-## B.Marsano - Geis012004
-
+i principali aspetti innovativi si possono racchiudere nei seguenti progetti proposti dal
+gruppo di lavoro riunitosi dal 3 settembre 2020 fino al 9 settembre 2020 coordinato dal
+prof. Pino Suriano. Qui di seguito l’abstract sintetico.   “MICROCONFERENZE” Si
+propone di riconfermare l’attività innovativa, con l’introduzione di alcuni nuovi
+elementi: - apertura del percorso formativo anche a docenti di altre scuole, con la
+prospetti- va dell’orientamento degli studenti della secondaria di primo grado; -
+condivisione del percorso con esperti universitari al fine di produrre una rubrica di
+valutazione validata a livello accademico; - riproposizione del Premio Nazionale
+“Microconferenze” con l’aggiunta di attività di formazione anche a distanza per docenti
+di altre scuole, con eventuale riferi- mento alla piattaforma e-twinning (vedi in seguito);
+- Utilizzo delle microconferenze per il percorso di preparazione della relazione Pcto; -
+Ipotesi di proporre alcune di queste microconferenze in un momento di condivisione
+finale con le aziende.   FLIPPED CLASSROOM Introduzione del metodo innovativo
+flipped classroom nelle due possibili forme di “rovesciamento”: - rovesciamento dei
+ruoli (studenti/docenti); - rovesciamento dei momenti delle attività (studio
+individuale/lezione) - momento di formazione sui possibili strumenti tecnologici di
+supporto alla spe- rimentazione (sito Ted, BBc, WeSchool, Sito Rai Scuola, risorse Zoom,
+Screen- Cast O’Matic, Loom).   METEO Si propone di riconfermare l’attività innovativa,
+con alcuni nuovi elementi: - ampliamento dei fruitori del service learning: non solo enti
+pubblici ma anche operatori economici, es. pescatori del territorio. - produzione grafici:
+analisi e validazione dei dati attraverso interpolazioni di grafi- ci, mappe sinottiche e
+modelli previsionali specifici (pressione, copertura del cie- lo, stabilità atmosferica,
+ricambio di masse d’aria e precipitazioni) - previsione a lungo termine: utilizzo dati per
+una previsione del tempo a cadenza settimanale. - presentazione del percorso sul
+nuovo sito su piattaforma Wordpress, con indi- cazione di elementi esplicativi sul
+49
 
 ---
 
 ## Pagina 51
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Rappresentazione Grafica
+## L'Offerta
 
 
-## Tecnologie Informatiche
-
-3
-0
-0
-0
-0
-
-## Scienze E Tecnologie Applicate
-
-0
-3
-0
-0
-0
-
-## Geografia Generale Ed Economica
-
-1
-0
-0
-0
-0
-
-## Scienze Motorie E Sportive
-
-2
-2
-0
-0
-0
-
-## Religione Cattolica/Attivita'
+## Formativa
 
 
-## Alternativa
-
-1
-1
-0
-0
-0
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-
-## Scuola Secondaria Ii Grado - Istituto Tecnico Agrario
-
-Quadro orario della scuola: IST.TEC.TECN. MARSANO/SAN COLOMBANO
-
-## Geta012021 Agraria, Agroal. E Agroind.-Biennio Com.
+## Ptof - 2019/20-2021/22
 
 
-## Qo Agraria, Agroal. E Agroind.-Biennio Com.
+## Enrico Fermi
 
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
+metodo di lavoro. - possibilità della diﬀusione di una trasmissione via web del
+bollettino con lettura video o radio, in modo analogo a quanto avviene nei tgradio.  
+Veicolazione di moduli disciplinari in lingua nei bienni Veicolare moduli disciplinari in
+lingua inglese nel biennio di tutti gli indirizzi per di- scipline non linguistiche. -
+coinvolgimento potenziale di tutte le discipline; - attività consigliate per le classi prima e
+seconda di ogni indirizzo; - collaborazione tra docenti in possesso di certificazione e
+docenti di inglese per consulenza o eventuale compresenza in fase di spiegazione o
+verifica; - sperimentazione per uno o due moduli annuali.   Strategia operativa
+Question/Reflection Time Introduzione del metodo innovativo Question/Reflection
+Time. Strategia che pre- vede l’individuazione di un segmento temporale per la
+richiesta di chiarimenti con una particolare disposizione dello spazio d’aula, anche
+virtuale.   Innovazione proposta: etwinning per Erasmus+ ed altri progetti Proposta di
+un momento di introduzione allo strumento, per poterne fruire in pro- spettiva
+multidisciplinare per la creazione di partnership nazionali e internazionali   “Oltre le
+discipline” Introduzione della proposta pedagogica che si basa su attività di pratica
+laborato- riale integrata con la didattica curricolare e prevede la realizzazione di un
+prodotto/ manufatto in forma di ebook, ipertesto multimediale, filmato, guida per i
+corretti comportamenti alimentari, murales, evento culturale, laboratorio interattivo,
+pod- cast, app, etc. Le attività sarebbero relative al gruppo classe e potrebbero essere
+realizzate nel- l’ambito dell’Assemblea di Istituto e/o di classe con l’impegno di un
+docente coor- dinatore delle attività e con la prospettiva di raccogliere i prodotti in un
+unico am- biente digitale per la disseminazione delle attività anche in chiave di
+orientamento.   Service learning: service learning: apprendimento didattico che
+coniuga apprendimento e servizio;   Incloding: progetto di inclusione attraverso il
+coding e la robotica educativa
 
-## Lingua E Letteratura Italiana
-
-4
-4
-0
-0
-0
-
-## Lingua Inglese
-
-3
-3
-0
-0
-0
-
-## Storia
-
-2
-2
-0
-0
-0
-
-## Matematica
-
-4
-4
-0
-0
-0
-
-## Scienze Integrate (Scienze Della Terra E
+## Allegato:
 
 
-## Biologia)
+## Relazione 9 Settembre Gruppo Di Lavoro Innovazione (1) Copia 2.Pdf
 
-2
-2
-0
-0
-0
-47
 
-## B.Marsano - Geis012004
+## Nome Scuola
 
+
+## Tecnico "E. Fermi" (Plesso)
+
+
+## Scuola Secondaria Ii Grado
+
+
+## Curricolo Di Scuola
+
+I saperi che lo studente di ogni indirizzo deve acquisire a conclusione del percorso di
+50
 
 ---
 
 ## Pagina 52
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Scienze Integrate (Fisica)
-
-3
-3
-0
-0
-0
-
-## Scienze Integrate (Chimica)
-
-3
-3
-0
-0
-0
-
-## Diritto Ed Economia
-
-2
-2
-0
-0
-0
-
-## Tecnologie E Tecniche Di
+## L'Offerta
 
 
-## Rappresentazione Grafica
-
-3
-3
-0
-0
-0
-
-## Tecnologie Informatiche
-
-3
-0
-0
-0
-0
-
-## Scienze E Tecnologie Applicate
-
-0
-3
-0
-0
-0
-
-## Geografia Generale Ed Economica
-
-1
-0
-0
-0
-0
-
-## Scienze Motorie E Sportive
-
-2
-2
-0
-0
-0
-
-## Religione Cattolica/Attivita'
+## Formativa
 
 
-## Alternativa
-
-1
-1
-0
-0
-0
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-
-## Scuola Secondaria Ii Grado - Ist Prof Alberghiero
-
-Quadro orario della scuola: ENOGASTRONOMIA - S. COLOMBANO
-
-## Gerh012018 Enogastronomia E Ospitalita' Alberghiera
+## Ptof - 2019/20-2021/22
 
 
-## Qo Enogastronomia E Ospitalita' Alberghiera Marsano Biennio 22-23
+## Enrico Fermi
 
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
+studi sono i seguenti: • comprendere la connessione tra cultura umanistica e sviluppo
+dei metodi critici e di conoscenza propri della matematica e delle scienze fisiche e
+naturali; • seguire lo sviluppo scientifico e tecnologico; • individuare rapporti storici ed
+epistemologici tra il pensiero matematico e il pensiero umanistico; • individuare le
+analogie e le differenze tra i linguaggi simbolico-formali e il linguaggio comune; • usare
+procedure logico-matematiche, sperimentali e ipotetico-deduttive proprie dei metodi di
+indagine scientifica; • individuare i caratteri specifici e le dimensioni tecnico-applicative
+dei metodi di indagine utilizzati dalle scienze sperimentali; • individuare le interazioni
+sviluppatesi nel tempo tra teorie matematiche e scientifiche e teorie letterarie,
+artistiche e letterarie. lI percorso tecnico “Trasporti e Logistica”,che comprende le
+articolazioni “Conduzione del mezzo” e “Logistica”, forma profili professionali per la
+progettazione, la realizzazione, il mantenimento in efficienza dei mezzi e degli impianti
+relativi, nonché l’organizzazione di servizi logistici. A conclusione degli studi gli studenti
+dell’indirizzo “Conduzione del mezzo” dovranno essere in grado di : § conoscere,
+descrivere e confrontare tipologie e funzioni dei vari mezzi e sistemi di trasporto; §
+comunicare con i sistemi di assistenza, sorveglianza e monitoraggio del traffico; §
+organizzare i servizi di carico e scarico,di sistemazione delle merci e dei passeggeri; §
+gestire l'attività di trasporto in relazione all'ambiente esterno,alla sicurezza e alle
+motivazioni del viaggio; § rispettare le procedure del sistema qualità e le normative
+sulla sicurezza. A conclusione degli studi gli studenti dell’indirizzo “ Logistica ” dovranno
+essere in grado di: § gestire tipologie, funzioni e funzionamento dei vari mezzi e sistemi
+di trasporto; § utilizzare i sistemi di assistenza,monitoraggio e comunicazione nei vari
+tipi di trasporto; § organizzare i servizi di carico e scarico,di sistemazione delle merci e
+dei passeggeri; § gestire l'attività di trasporto in relazione all'ambiente esterno, alla
+sicurezza e alle motivazioni del viaggio; § sovrintendere ai servizi di piattaforma per la
+gestione delle merci e dei flussi passeggeri in partenza ed in arrivo; § rispettare le
+procedure del sistema qualità e le normative sulla sicurezza.
 
-## Lingua E Letteratura Italiana
+## Curricolo Dell'Insegnamento Trasversale Di Educazione Civica
 
-4
-4
-4
-4
-4
+Si allega curricolo di educazione civica dettagliato per classi con griglia di valutazione
 
-## Lingua Inglese
+## Allegato:
 
-3
-3
-2
-2
-2
-48
 
-## B.Marsano - Geis012004
+## Curricolo Di Educazione Civica Istituto Trasporti E Logistica + Griglia Di
 
+
+## Vaòutazione.Pdf
+
+
+## Eventuali Aspetti Qualificanti Del Curricolo
+
+Curricolo verticale
+51
 
 ---
 
 ## Pagina 53
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Francese
-
-2
-2
-3
-3
-3
-
-## Storia
-
-0
-2
-2
-2
-2
-
-## Geografia
-
-2
-0
-0
-0
-0
-
-## Matematica
-
-4
-4
-3
-3
-3
-
-## Diritto Ed Economia
-
-2
-2
-0
-0
-0
-
-## Tecnologie Dell'Informazione E Della
+## L'Offerta
 
 
-## Comunicazione
-
-1
-2
-0
-0
-0
-
-## Scienza Degli Alimenti
-
-0
-4
-0
-0
-0
-
-## Laboratorio Di Servizi Enogastronomici
+## Formativa
 
 
-## - Settore Cucina
-
-3
-2
-0
-0
-0
-
-## Laboratorio Di Servizi Enogastronomici
+## Ptof - 2019/20-2021/22
 
 
-## - Settore Sala E Vendita
+## Enrico Fermi
 
-3
-2
-0
-0
-0
-
-## Laboratorio Di Servizi Di Accoglienza
-
-
-## Turistica
-
-2
-2
-0
-0
-0
-
-## Arte E Territorio
-
-0
-0
-0
-0
-0
-
-## Scienza E Cultura Dell'Alimentazione
-
-0
-0
-0
-0
-0
-
-## Diritto E Tecniche Amministrative
-
-0
-0
-3
-3
-3
-
-## Tecniche Di Organizzazione E Gestione
-
-
-## Dei Processi Produttivi
-
-0
-0
-0
-0
-0
-
-## Tecniche Di Comunicazione
-
-0
-0
-0
-0
-0
-
-## Scienze Integrate
-
-
-## (Fisica/Chimica/Biologia)
-
-3
-0
-0
-0
-0
-49
-
-## B.Marsano - Geis012004
-
+I saperi che lo studente di ogni indirizzo deve acquisire a conclusione del percorso di
+studi sono i seguenti: • comprendere la connessione tra cultura umanistica e sviluppo
+dei metodi critici e di conoscenza propri della matematica e delle scienze fisiche e
+naturali; • seguire lo sviluppo scientifico e tecnologico; • individuare rapporti storici ed
+epistemologici tra il pensiero matematico e il pensiero umanistico; • individuare le
+analogie e le differenze tra i linguaggi simbolico-formali e il linguaggio comune; • usare
+procedure logico-matematiche, sperimentali e ipotetico-deduttive proprie dei metodi di
+indagine scientifica; • individuare i caratteri specifici e le dimensioni tecnico-applicative
+dei metodi di indagine utilizzati dalle scienze sperimentali; • individuare le interazioni
+sviluppatesi nel tempo tra teorie matematiche e scientifiche e teorie letterarie,
+artistiche e letterarie. lI percorso tecnico “Trasporti e Logistica”,che comprende le
+articolazioni “Conduzione del mezzo” e “Logistica”, forma profili professionali per la
+progettazione, la realizzazione, il mantenimento in efficienza dei mezzi e degli impianti
+relativi, nonché l’organizzazione di servizi logistici. A conclusione degli studi gli studenti
+dell’indirizzo “Conduzione del mezzo” dovranno essere in grado di : § conoscere,
+descrivere e confrontare tipologie e funzioni dei vari mezzi e sistemi di trasporto; §
+comunicare con i sistemi di assistenza, sorveglianza e monitoraggio del traffico; §
+organizzare i servizi di carico e scarico,di sistemazione delle merci e dei passeggeri; §
+gestire l'attività di trasporto in relazione all'ambiente esterno,alla sicurezza e alle
+motivazioni del viaggio; § rispettare le procedure del sistema qualità e le normative
+sulla sicurezza. A conclusione degli studi gli studenti dell’indirizzo “ Logistica ” dovranno
+essere in grado di: § gestire tipologie, funzioni e funzionamento dei vari mezzi e sistemi
+di trasporto; § utilizzare i sistemi di assistenza,monitoraggio e comunicazione nei vari
+tipi di trasporto; § organizzare i servizi di carico e scarico,di sistemazione delle merci e
+dei passeggeri; § gestire l'attività di trasporto in relazione all'ambiente esterno, alla
+sicurezza e alle motivazioni del viaggio; § sovrintendere ai servizi di piattaforma per la
+gestione delle merci e dei flussi passeggeri in partenza ed in arrivo; § rispettare le
+procedure del sistema qualità e le normative sulla sicurezza.
+Proposta formativa per lo sviluppo delle competenze trasversali
+Concorrono allo sviluppo delle competenze trasversali le attività programmate
+nell'arricchimento dell'offerta formativa
+Curricolo delle competenze chiave di cittadinanza
+Comunicazione nella madrelingua Utilizzare il patrimonio lessicale ed espressivo della
+lingua italiana secondo le esigenze comunicative nei vari contesti: sociali, culturali,
+52
 
 ---
 
 ## Pagina 54
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Laboratorio Enogastronomia Cucina
-
-0
-0
-0
-0
-0
-
-## Laboratorio Enogastronomia Bar-Sala
+## L'Offerta
 
 
-## E Vendita
-
-0
-0
-0
-0
-0
-
-## Laboratorio Di Accoglienza Turistica
-
-0
-0
-0
-0
-0
-
-## Laboratorio Di Arte Bianca E
-
-0
-0
-0
-0
-0
-
-## Scienze Motorie E Sportive
-
-2
-2
-2
-2
-2
-
-## Religione Cattolica/Attivita'
+## Formativa
 
 
-## Alternativa
-
-1
-1
-1
-1
-1
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-
-## Scuola Secondaria Ii Grado - Ist Prof Alberghiero
-
-Quadro orario della scuola: ENOGASTRONOMIA - S. COLOMBANO
-
-## Gerh012018 Enogastronomia E Ospitalita' Alberghiera
+## Ptof - 2019/20-2021/22
 
 
-## Qo Enogastronomia E Ospitalita' Alberghiera Marsano Eno 22-23
+## Enrico Fermi
 
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Lingua E Letteratura Italiana
-
-4
-4
-4
-4
-4
-
-## Lingua Inglese
-
-3
-3
-2
-2
-2
-
-## Francese
-
-2
-2
-3
-3
-3
-
-## Storia
-
-0
-2
-2
-2
-2
-
-## Geografia
-
-2
-0
-0
-0
-0
-50
-
-## B.Marsano - Geis012004
-
+scientifici, economici, tecnologici. Redigere relazioni tecniche e documentare le attività
+individuali e di gruppo relative a situazioni professionali. 2. Comunicazione nelle lingue
+straniere Padroneggiare la lingua inglese e un’altra lingua comunitaria per scopi
+comunicativi, utilizzando anche i linguaggi settoriali previsti dai percorsi di studio, per
+interagire in diversi ambiti e contesti di studio e di lavoro, al livello B2 di padronanza
+del quadro europeo di riferimento per le lingue (QCER). 3. Competenze matematiche
+Utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
+adeguatamente informazioni qualitative e quantitative. Utilizzare le strategie del
+pensiero razionale negli aspetti dialettici e algoritmici per affrontare situazioni
+problematiche, elaborando opportune soluzioni. 4. Competenza digitale Utilizzare e
+produrre strumenti di comunicazione visiva e multimediale, anche con riferimento alle
+strategie espressive e agli strumenti tecnici della comunicazione in rete. Utilizzare le
+reti e gli strumenti informatici nelle attività di studio, ricerca e approfondimento
+disciplinare. 5. Imparare a imparare Partecipare attivamente alle attività portando il
+proprio contributo personale. Reperire, organizzare, utilizzare informazioni da fonti
+diverse per assolvere un determinato compito; organizzare il proprio apprendimento;
+acquisire abilità di studio. 6. Competenze sociali e civiche Agire in modo autonomo e
+responsabile, conoscendo e osservando regole e norme, con particolare riferimento
+alla Costituzione. Collaborare e partecipare comprendendo i diversi punti di vista delle
+persone. 7. Spirito di iniziativa e imprenditorialità Risolvere i problemi che si incontrano
+nella vita e nel lavoro e proporre soluzioni; valutare rischi e opportunità; scegliere tra
+opzioni diverse; prendere decisioni; agire con flessibilità; progettare e pianificare;
+conoscere l’ambiente in cui si opera anche in relazione alle proprie risorse. 8.
+Consapevolezza ed espressione culturale Riconoscere il valore e le potenzialità dei beni
+artistici e ambientali, per una loro corretta fruizione e valorizzazione. Stabilire
+collegamenti tra le tradizioni culturali locali, nazionali ed internazionali, sia in una
+prospettiva interculturale sia ai fini della mobilità di studio e di lavoro. Riconoscere gli
+aspetti geografici, ecologici, territoriali dell’ambiente naturale ed antropico, le
+connessioni con le strutture demografiche, economiche, sociali, culturali e le
+trasformazioni intervenute nel corso del tempo. Comprendere gli aspetti comunicativi,
+culturali e relazionali dell’espressività corporea e l’importanza che riveste la pratica
+dell’attività motorio-sportiva per il benessere individuale e collettivo.
+Insegnamenti opzionali
+Si fa presente che per l'anno scolastico 2020/2021 per tutta la durata della situazione di
+emergenza non viene attivato alcun insegnamento opzionale. Pertanto rimane valido il
+53
 
 ---
 
 ## Pagina 55
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Matematica
-
-4
-4
-3
-3
-3
-
-## Diritto Ed Economia
-
-2
-2
-0
-0
-0
-
-## Tecnologie Dell'Informazione E Della
+## L'Offerta
 
 
-## Comunicazione
-
-1
-2
-0
-0
-0
-
-## Scienza Degli Alimenti
-
-0
-4
-0
-0
-0
-
-## Laboratorio Di Servizi Enogastronomici
+## Formativa
 
 
-## - Settore Cucina
-
-3
-2
-0
-0
-0
-
-## Laboratorio Di Servizi Enogastronomici
+## Ptof - 2019/20-2021/22
 
 
-## - Settore Sala E Vendita
+## Enrico Fermi
 
-3
-2
-0
-0
-0
+quadro orario delle discipline obbligatorio per ciascun indirizzo così come la
+legislazione vigente prevede.
 
-## Laboratorio Di Servizi Di Accoglienza
+## Istruzione Domiciliare
 
-
-## Turistica
-
-2
-2
-0
-0
-0
-
-## Arte E Territorio
-
-0
-0
-0
-0
-0
-
-## Scienza E Cultura Dell'Alimentazione
-
-0
-0
-4
-4
-4
-
-## Diritto E Tecniche Amministrative
-
-0
-0
-4
-4
-4
-
-## Tecniche Di Organizzazione E Gestione
-
-
-## Dei Processi Produttivi
-
-0
-0
-0
-0
-0
-
-## Tecniche Di Comunicazione
-
-0
-0
-0
-0
-0
-
-## Scienze Integrate
-
-
-## (Fisica/Chimica/Biologia)
-
-3
-0
-0
-0
-0
-
-## Laboratorio Enogastronomia Cucina
-
-0
-0
-7
-5
-5
-
-## Laboratorio Enogastronomia Bar-Sala
-
-
-## E Vendita
-
-0
-0
-0
-2
-2
-
-## Laboratorio Di Accoglienza Turistica
-
-0
-0
-0
-0
-0
-51
-
-## B.Marsano - Geis012004
-
+Qui di seguito il quadro sintetico del progetto di Istruzione Domiciliare:
+DENOMINAZIONE PROGETTO ISTRUZIONE DOMICILIARE DESTINATARI Il progetto viene
+attivato nei confronti di alunni per i quali si preveda una lunga degenza domiciliare, su
+specifica istanza della famiglia corredata dalla documentazione prevista dalle Linee
+Guida regionali, previa approvazione dell’U.S.R.. FINALITA’ Intervenire per rimuovere gli
+ostacoli che impediscono la fruizione di attività educativo- didattiche di competenza
+della scuola. Garantire contestualmente il diritto allo studio e il diritto alla salute.
+OBIETTIVI Superare il disagio attraverso l’integrazione dell’alunno nel mondo della
+scuola. Recuperare l’interesse per le attività di tipo didattico e della capacità di
+riorganizzare la propria quotidianità. Contribuire al mantenimento e al recupero
+dell’equilibrio psico-fisico dell’allievo. Limitare il disagio e l’isolamento sociale dovuto
+allo stato di salute con proposte educative mirate. Soddisfare il bisogno di apprendere,
+conoscere e comunicare. Agevolare la prospettiva del reinserimento nel percorso
+scolastico. Curare l’aspetto socializzante della scuola. Incrementare la motivazione allo
+studio attraverso le potenzialità offerte dalle nuove tecnologie. METODOLOGIE
+EDUCATIVE E DIDATTICHE Saranno attivate tutte le possibili strategie per coinvolgere
+positivamente sia la famiglia che l’alunno, che vivono una condizione di particolare
+disagio per la patologia in atto. Il piano operativo si prefigge di valorizzare l’aspetto
+motivazionale e culturale, modulando opportunamente il percorso didattico alle
+concrete possibilità del discente e al suo stato emozionale, che risente delle condizioni
+fisiche. Le attività di insegnamento/apprendimento saranno individualizzate, ma
+saranno anche proposti momenti di interazione con gli adulti e i compagni attraverso
+l’uso delle nuove tecnologie. L’alunno verrà coinvolto in attività disciplinari e
+interdisciplinari che si avvarranno possibilmente del computer come strumento di
+produzione, elaborazione,creatività, ricerca e comunicazione con l’esterno (in
+particolare con compagni e amici). Gli interventi, se da una parte dovranno
+promuovere apprendimenti, dall'altra dovranno necessariamente organizzare un
+contesto di operatività, oltre che familiare, "fortemente" stimolante e appagante. Gli
+insegnanti coinvolti terranno conto dei seguenti aspetti: Flessibilità degli obiettivi e dei
+nodi concettuali Attenta valutazione, prima di qualunque tipo di intervento, dei tempi
+di applicazione allo studio, dei limiti fisici e psicologici dell’alunno. Attivazione, quando
+possibile, di lavori di gruppo, anche virtuali, per mantenere il collegamento con i
+54
 
 ---
 
 ## Pagina 56
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Laboratorio Di Arte Bianca E
-
-0
-0
-0
-0
-0
-
-## Scienze Motorie E Sportive
-
-2
-2
-2
-2
-2
-
-## Religione Cattolica/Attivita'
+## L'Offerta
 
 
-## Alternativa
-
-1
-1
-1
-1
-1
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-
-## Scuola Secondaria Ii Grado - Ist Prof Alberghiero
-
-Quadro orario della scuola: ENOGASTRONOMIA - S. COLOMBANO
-
-## Gerh012018 Enogastronomia E Ospitalita' Alberghiera
+## Formativa
 
 
-## Copia Di Qo Enogastronomia E Ospitalita' Alberghiera Marsano 22-23 Sv
+## Ptof - 2019/20-2021/22
 
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
 
-## Lingua E Letteratura Italiana
+## Enrico Fermi
 
-4
-4
-4
-4
-4
+coetanei. Potenziamento delle capacità espressive anche con l’uso di diversi codici
+comunicativi. L’alunno al termine del percorso educativo sarà in grado di proseguire
+insieme ai compagni il normale svolgimento delle attività didattiche svolte in classe.
 
-## Lingua Inglese
+## Orientamento In Entrata
 
-3
-3
-2
-2
-2
+Qui di seguito il quadro sintetico dell'attività di orientamento in entrata anche in
+considerazione della situazione di emergenza: DENOMINAZIONE PROGETTO
 
-## Francese
+## Progetto “Orientamento” Destinatari Alunni Classi Prime Periodo Di
 
-2
-2
-3
-3
-3
+SVOLGIMENTO DICEMBRE - GENNAIO DURATA/ IMPEGNO ORARIO Predisposizione
+piano di partecipazione dei docenti e degli alunni coinvolti alle attività
+curricolari/laboratoriali presso Istituti del territorio e OPEN DAY/DIGITAL DAY RISORSE
+UMANE E SOGGETTI COINVOLTI - Alunni e Docenti coinvolti - Docenti Referenti per
+l’Orientamento - Personale di Segreteria - Collaboratori Scolastici AREA INTERVENTO
+Tutte le discipline OBIETTIVI OBIETTIVI SPECIFICI Agevolare il processo di presa di
+coscienza della propria identità, per interrogarsi e diventare protagonisti attivi di fronte
+alle sollecitazioni esterne, per acquisire la capacità di decifrare, riconoscere e valutare
+in modo critico e personale ogni esperienza di vita. Potenziare la capacità di instaurare
+relazioni con gli altri (coetanei e adulti), mantenere sempre la disponibilità al dialogo e
+alla collaborazione, per riorientare via via al meglio, attraverso il confronto con l’altro, i
+propri convincimenti, i propri comportamenti, le proprie scelte. Far acquisire
+conoscenze ed esperienze per una lettura adeguata del contesto locale,
+socioeconomico e culturale. Promuovere una scelta autonoma e consapevole.
+ATTIVITA’ Progettazione Percorso “Orientamento” Acquisizione e distribuzione agli
+alunni delle classi terze del materiale informativo. Giornate di OPEN DAY informative
+per i genitori e gli alunni delle classi terze, per illustrare i vari percorsi di studi ed
+esplicitare le modalità di iscrizione on line. Predisposizione piano di partecipazione
+degli alunni delle classi terze ad attività curricolari/laboratoriali presso il nostro Istituto
+o da remoto
 
-## Storia
+## Accoglienza
 
-0
-2
-2
-2
-2
+Qui di seguito il quadro sintetico dell'attività di Accoglienza rivolto alle classi prime
+anche in considerazione della situazione di emergenza: DENOMINAZIONE PROGETTO
 
-## Geografia
+## Progetto Accoglienza “Girando Fermi” Responsabile Di Progetto Silvana
 
-2
-0
-0
-0
-0
 
-## Diritto Ed Economia
+## Labbate Destinatari Alunni Classi Prime Periodo Di Svolgimento Prime
 
-2
-2
-0
-0
-0
 
-## Matematica
+## Settimane Durata/ Impegno Orario N. 6 Ore Risorse Umane E Soggetti
 
-4
-4
-3
-3
-3
-
-## Scienza Degli Alimenti
-
-0
-4
-0
-0
-0
-52
-
-## B.Marsano - Geis012004
-
+COINVOLTI Alunni e Docenti classi prime AREA INTERVENTO Tutte le discipline
+55
 
 ---
 
 ## Pagina 57
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Tecnologie Dell'Informazione E Della
+## L'Offerta
 
 
-## Comunicazione
-
-1
-2
-0
-0
-0
-
-## Laboratorio Di Servizi Enogastronomici
+## Formativa
 
 
-## - Settore Sala E Vendita
-
-3
-2
-0
-0
-0
-
-## Laboratorio Di Servizi Enogastronomici
+## Ptof - 2019/20-2021/22
 
 
-## - Settore Cucina
+## Enrico Fermi
 
-3
-2
-0
-0
-0
+OBIETTIVI OBIETTIVI SPECIFICI Garantire la continuità educativa e didattica con la
+Scuola Secondaria di 1^grado, da intendersi come percorso formativo integrale e
+unitario seppur differenziato sotto l’aspetto dei contenuti e delle strategie utilizzate.
+Realizzare un “clima” culturale, relazionale e istituzionale che consenta a tutti di
+partecipare ed essere protagonisti, per agevolare il passaggio. Favorire una graduale
+conoscenza del “nuovo” (sé stesso, ambiente scolastico e territorio); Salvaguardare la
+crescita formativa e il bagaglio di conoscenze che ogni ragazzo porta in sé. Eliminare
+situazioni di insicurezza e di disorientamento cognitivo e sociale. Rispondere
+all’esigenza prioritaria di integrazione e prevenzione del “disagio”, poiché l’alunno che
+vive serenamente l’esperienza scolastica acquisisce i presupposti per consolidare
+l’autostima, utilizzare nuove forme di comunicazione, raggiungere il successo
+personale e scolastico. ATTIVITA’ Accoglienza degli alunni classi prime il primo giorno di
+scuola. Conoscenza dell’Istituto e degli spazi Incontro informative sulla sicurezza e le
+buone norme da seguire per una corretta profilassi
 
-## Arte E Territorio
+## Counseling
 
-0
-0
-0
-0
-0
+Qui di seguito il quadro sintetico del servizio di Counseling sostegno psicologico e
+relazionale anche in considerazione della situazione di emergenza: DENOMINAZIONE
 
-## Laboratorio Di Servizi Di Accoglienza
-
-
-## Turistica
-
-2
-2
-0
-0
-0
-
-## Diritto E Tecniche Amministrative
-
-0
-0
-3
-4
-3
-
-## Scienza E Cultura Dell'Alimentazione
-
-0
-0
-4
-4
-4
-
-## Tecniche Di Comunicazione
-
-0
-0
-0
-0
-0
-
-## Tecniche Di Organizzazione E Gestione
+## Progetto Counseling E Sostegno Psicologico “Star Bene Al Fermi”
 
 
-## Dei Processi Produttivi
-
-0
-0
-0
-0
-0
-
-## Laboratorio Enogastronomia Cucina
-
-0
-0
-0
-2
-0
-
-## Scienze Integrate
+## Responsabile Interno Prof.Ssa Silvanalabate Destinatari Studenti Della
 
 
-## (Fisica/Chimica/Biologia)
-
-3
-0
-0
-0
-0
-
-## Laboratorio Di Accoglienza Turistica
-
-0
-0
-0
-0
-0
-
-## Laboratorio Enogastronomia Bar-Sala
+## Scuola Periodo Di Svolgimento Tutto L’Anno Durata/ Impegno Orario
 
 
-## E Vendita
+## Attivita’ Di Potenziamento Area Di Intervento. “Counseling – Sostegno
 
-0
-0
-8
-5
-8
-
-## Scienze Motorie E Sportive
-
-2
-2
-2
-2
-2
-
-## Laboratorio Di Arte Bianca E
-
-0
-0
-0
-0
-0
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-53
-
-## B.Marsano - Geis012004
-
+PSICOLOGICO” è un servizio dedicato alle relazioni, che apre uno spazio di ascolto,
+accoglienza e supporto per gli alunni su problematiche relative al comportamento,
+all’apprendimento, alla comunicazione, alla relazione interpersonale, agli aspetti
+affettivi ed emotivi OBIETTIVI E’ stato pensato per dare la possibilità agli studenti di
+usufruire di uno “sportello”, vale a dire di uno spazio in cui potersi raccontare ed
+esprimere, per offrire loro un sostegno immediato e concreto riguardo a
+problematiche di tipo evolutivo e/o scolastico. Non si tratta di una seduta
+psicoterapeutica: le tematiche trattate riguardano principalmente il metodo di studio,
+l’orientamento scolastico, stati di inquietudine e stress legati alla vita scolastica, le
+relazioni con i compagni, i docenti e i familiari. Lo Sportello è un luogo dove poter
+esporre dubbi, perplessità, preoccupazioni ma anche sogni e speranze. Il confronto
+può essere l'occasione per costruire nuovi punti di vista, modificare o rafforzare alcune
+sicurezze, orientarsi di fronte ad alcune difficoltà che si possono incontrare. ATTIVITÀ
+Incontri individuali con gli studenti Si fa presente che tale attività rientra
+56
 
 ---
 
 ## Pagina 58
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Religione Cattolica/Attivita'
+## L'Offerta
 
 
-## Alternativa
-
-1
-1
-1
-1
-1
-
-## Scuola Secondaria Ii Grado - Ist Prof Per
+## Formativa
 
 
-## L'Agricoltura E L'Ambiente
-
-Quadro orario della scuola: IPSAA B.MARSANO GERA012014
-
-## Agricoltura, Sviluppo Rurale, Valorizzazione Dei Prodotti Del
+## Ptof - 2019/20-2021/22
 
 
-## Territorio E Gestione Delle Risorse Forestali E Montane
+## Enrico Fermi
 
+nell'arricchimento dell'offerta formativa
 
-## Qo Agricoltura, Sviluppo Rurale, Valorizzazione Dei Prodotti Del Territorio E
+## Innovazione
 
-
-## Gestione Delle Risorse Forestali E Montane2021
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Lingua E Letteratura Italiana
-
-4
-4
-4
-4
-4
-
-## Lingua Inglese
-
-3
-3
-2
-2
-2
-
-## Storia
-
-1
-1
-2
-2
-2
-
-## Geografia
-
-1
-1
-0
-0
-0
-
-## Matematica
-
-4
-4
-3
-3
-3
-
-## Diritto Ed Economia
-
-2
-2
-0
-0
-0
-
-## Tecnologie Dell'Informazione E Della
-
-
-## Comunicazione
-
-2
-2
-0
-0
-0
-
-## Ecologia E Pedologia
-
-3
-3
-0
-0
-0
-
-## Scienze Integrate
-
-5
-5
-0
-0
-0
-54
-
-## B.Marsano - Geis012004
-
+i principali aspetti innovativi si possono racchiudere nei seguenti progetti proposti dal
+gruppo di lavoro riunitosi dal 3 settembre 2020 fino al 9 settembre 2020 coordinato dal
+prof. Pino Suriano. Qui di seguito l’abstract sintetico.   “MICROCONFERENZE” Si
+propone di riconfermare l’attività innovativa, con l’introduzione di alcuni nuovi
+elementi: - apertura del percorso formativo anche a docenti di altre scuole, con la
+prospetti- va dell’orientamento degli studenti della secondaria di primo grado; -
+condivisione del percorso con esperti universitari al fine di produrre una rubrica di
+valutazione validata a livello accademico; - riproposizione del Premio Nazionale
+“Microconferenze” con l’aggiunta di attività di formazione anche a distanza per docenti
+di altre scuole, con eventuale riferi- mento alla piattaforma e-twinning (vedi in seguito);
+- Utilizzo delle microconferenze per il percorso di preparazione della relazione Pcto; -
+Ipotesi di proporre alcune di queste microconferenze in un momento di condivisione
+finale con le aziende.   FLIPPED CLASSROOM Introduzione del metodo innovativo
+flipped classroom nelle due possibili forme di “rovesciamento”: - rovesciamento dei
+ruoli (studenti/docenti); - rovesciamento dei momenti delle attività (studio
+individuale/lezione) - momento di formazione sui possibili strumenti tecnologici di
+supporto alla spe- rimentazione (sito Ted, BBc, WeSchool, Sito Rai Scuola, risorse Zoom,
+Screen- Cast O’Matic, Loom).   METEO Si propone di riconfermare l’attività innovativa,
+con alcuni nuovi elementi: - ampliamento dei fruitori del service learning: non solo enti
+pubblici ma anche operatori economici, es. pescatori del territorio. - produzione grafici:
+analisi e validazione dei dati attraverso interpolazioni di grafi- ci, mappe sinottiche e
+modelli previsionali specifici (pressione, copertura del cie- lo, stabilità atmosferica,
+ricambio di masse d’aria e precipitazioni) - previsione a lungo termine: utilizzo dati per
+una previsione del tempo a cadenza settimanale. - presentazione del percorso sul
+nuovo sito su piattaforma Wordpress, con indi- cazione di elementi esplicativi sul
+metodo di lavoro. - possibilità della diﬀusione di una trasmissione via web del
+bollettino con lettura video o radio, in modo analogo a quanto avviene nei tgradio.  
+Veicolazione di moduli disciplinari in lingua nei bienni Veicolare moduli disciplinari in
+lingua inglese nel biennio di tutti gli indirizzi per di- scipline non linguistiche. -
+coinvolgimento potenziale di tutte le discipline; - attività consigliate per le classi prima e
+seconda di ogni indirizzo; - collaborazione tra docenti in possesso di certificazione e
+docenti di inglese per consulenza o eventuale compresenza in fase di spiegazione o
+verifica; - sperimentazione per uno o due moduli annuali.   Strategia operativa
+57
 
 ---
 
 ## Pagina 59
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## (Fisica/Chimica/Biologia)
+## L'Offerta
 
 
-## Laboratorio Di Scienze E Tecnologie
+## Formativa
 
 
-## Agrarie
-
-4
-4
-0
-0
-0
-
-## Laboratorio Di Biologia E Di Chimica
+## Ptof - 2019/20-2021/22
 
 
-## Applicata Ai Processi Di Trasformazione
+## Enrico Fermi
 
-0
-0
-2
-2
-2
+Question/Reflection Time Introduzione del metodo innovativo Question/Reflection
+Time. Strategia che pre- vede l’individuazione di un segmento temporale per la
+richiesta di chiarimenti con una particolare disposizione dello spazio d’aula, anche
+virtuale.   Innovazione proposta: etwinning per Erasmus+ ed altri progetti Proposta di
+un momento di introduzione allo strumento, per poterne fruire in pro- spettiva
+multidisciplinare per la creazione di partnership nazionali e internazionali   “Oltre le
+discipline” Introduzione della proposta pedagogica che si basa su attività di pratica
+laborato- riale integrata con la didattica curricolare e prevede la realizzazione di un
+prodotto/ manufatto in forma di ebook, ipertesto multimediale, filmato, guida per i
+corretti comportamenti alimentari, murales, evento culturale, laboratorio interattivo,
+pod- cast, app, etc. Le attività sarebbero relative al gruppo classe e potrebbero essere
+realizzate nel- l’ambito dell’Assemblea di Istituto e/o di classe con l’impegno di un
+docente coor- dinatore delle attività e con la prospettiva di raccogliere i prodotti in un
+unico am- biente digitale per la disseminazione delle attività anche in chiave di
+orientamento.   Service learning: service learning: apprendimento didattico che
+coniuga apprendimento e servizio;   Incloding: progetto di inclusione attraverso il
+coding e la robotica educativa
 
-## Tecniche Delle Produzioni Vegetali E
-
-
-## Zootecniche
-
-0
-0
-3
-3
-3
-
-## Gestione E Valorizzazione Delle Attività
-
-
-## Produttive E Sviluppo Del Territorio E
+## Allegato:
 
 
-## Sociologia Rurale
+## Relazione 9 Settembre Gruppo Di Lavoro Innovazione (1) Copia 2.Pdf
 
-0
-0
-3
-3
-3
-
-## Logistica E Marketing Dei Prodotti
-
-
-## Agroalimentari
-
-0
-0
-0
-0
-0
-
-## Agricoltura Sostenibile E Biologica
-
-0
-0
-3
-2
-3
-
-## Selvicoltura, Dendrometria E
-
-
-## Utilizzazioni Forestali
-
-0
-0
-0
-2
-3
-
-## Assestamento Forestale, Gestione
-
-
-## Parchi, Aree Protette, E Fauna Selvatica
-
-0
-0
-0
-0
-0
-
-## Agronomia Del Territorio Agrario E
-
-
-## Forestale
-
-0
-0
-3
-2
-3
-
-## Economia Agraria E Legislazione Di
-
-
-## Settore Agraria E Forestale
-
-0
-0
-4
-4
-4
-
-## Scienze Motorie E Sportive
-
-2
-2
-2
-2
-2
-
-## Religione Cattolica/Attivita'
-
-
-## Alternativa
-
-1
-1
-1
-1
-1
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-55
-
-## B.Marsano - Geis012004
-
+Approfondimento
+Il piano dell’offerta formativa è il documento fondamentale della scuola e ne
+configura l’identità culturale e progettuale.
+L’I.I.S. “E. Fermi” cerca di interpretare le esigenze e i bisogni di una società in
+continua trasformazione e di adeguare ad essi le sue proposte educative e
+culturali.
+Mira a realizzare percorsi formativi che educhino alla cittadinanza attiva, alla
+responsabilità personale e sociale, mediante l’acquisizione di conoscenze, lo
+sviluppo di capacità, la maturazione di competenze e di atteggiamenti maturi,
+ragionevoli e aperti.
+58
 
 ---
 
 ## Pagina 60
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
+## L'Offerta
 
 
-## Scuola Secondaria Ii Grado - Ist Prof Per
+## Formativa
 
 
-## L'Agricoltura
-
-Quadro orario della scuola: MARSANO/ARENZANO GERA012036
-
-## Agricoltura, Sviluppo Rurale, Valorizzazione Dei Prodotti Del
+## Ptof - 2019/20-2021/22
 
 
-## Territorio E Gestione Delle Risorse Forestali E Montane
+## Enrico Fermi
 
-
-## Qo Agricoltura, Sviluppo Rurale, Valorizzazione Dei Prodotti Del Territorio E
-
-
-## Gestione Delle Risorse Forestali E Montane2021-22
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Lingua E Letteratura Italiana
-
-4
-4
-4
-4
-4
-
-## Lingua Inglese
-
-3
-3
-2
-2
-2
-
-## Storia
-
-1
-1
-2
-2
-2
-
-## Geografia
-
-1
-1
-0
-0
-0
-
-## Matematica
-
-4
-4
-3
-3
-3
-
-## Tecnologie Dell'Informazione E Della
-
-
-## Comunicazione
-
-2
-2
-0
-0
-0
-
-## Diritto Ed Economia
-
-2
-2
-0
-0
-0
-
-## Scienze Integrate
-
-
-## (Fisica/Chimica/Biologia)
-
-5
-5
-0
-0
-0
-
-## Laboratorio Di Scienze E Tecnologie
-
-
-## Agrarie
-
-4
-4
-0
-0
-0
-
-## Ecologia E Pedologia
-
-3
-3
-0
-0
-0
-56
-
-## B.Marsano - Geis012004
-
+Il POF esplicita le linee d’indirizzo dell’Istituto e ne indica le scelte:
+·         educative e formative, in relazione a conoscenze da proporre, competenze
+da far acquisire, capacità da sviluppare;
+·         didattiche, in relazione all’approccio metodologico, alle modalità di verifica,
+a criteri di valutazione;
+·         organizzative, per la definizione di ruoli e funzioni, l’assegnazione dei
+compiti, le modalità di coordinamento.
+Comprende un piano di attività che coinvolge tutti gli operatori scolastici: in
+primis, il Dirigente Scolastico, che, preso atto degli esiti documentati dal RAV,
+predispone e programma linee guida e strategie tese al miglioramento
+dell’istituzione scolastica e ne esercita la funzione di garante;  i docenti, con il
+duplice compito di educare e comunicare; il personale non docente  garante servizi
+specifici e prestazioni funzionali, nella logica di un servizio pubblico caratterizzato da
+negoziazione sociale e trasparenza e rivolto all’efficacia, all’efficienza, alla
+produttività.
+Gli obiettivi educativi trovano riscontro nella programmazione di classe ed
+impegnano tutti i docenti sia nella coerenza formativa sia nell’operatività
+disciplinare.
+Nel P.O.F. vengono riportati i criteri che regolano la vita dell’I.I.S. e i progetti,
+programmati nell’intento di rispondere alle attese degli studenti e delle loro
+59
 
 ---
 
 ## Pagina 61
 
 
-## L'Offerta Formativa
-
-Insegnamenti e quadri orario
-
-## Ptof 2022 - 2025
-
-Discipline/Monte Orario Settimanale
-I Anno
-II Anno
-III Anno
-IV Anno
-V Anno
-
-## Laboratorio Di Biologia E Di Chimica
+## L'Offerta
 
 
-## Applicata Ai Processi Di Trasformazione
-
-0
-0
-2
-2
-0
-
-## Gestione E Valorizzazione Delle Attività
+## Formativa
 
 
-## Produttive E Sviluppo Del Territorio E
+## Ptof - 2019/20-2021/22
 
 
-## Sociologia Rurale
+## Enrico Fermi
 
-0
-0
-3
-3
-3
+famiglie.
 
-## Tecniche Delle Produzioni Vegetali E
+## 3.1 Progettualità Educativa
 
-
-## Zootecniche
-
-0
-0
-3
-3
-3
-
-## Agricoltura Sostenibile E Biologica
-
-0
-0
-3
-2
-2
-
-## Logistica E Marketing Dei Prodotti
-
-
-## Agroalimentari
-
-0
-0
-0
-0
-0
-
-## Assestamento Forestale, Gestione
-
-
-## Parchi, Aree Protette, E Fauna Selvatica
-
-0
-0
-0
-0
-0
-
-## Selvicoltura, Dendrometria E
-
-
-## Utilizzazioni Forestali
-
-0
-0
-0
-2
-3
-
-## Economia Agraria E Legislazione Di
-
-
-## Settore Agraria E Forestale
-
-0
-0
-4
-4
-4
-
-## Agronomia Del Territorio Agrario E
-
-
-## Forestale
-
-0
-0
-3
-2
-3
-
-## Religione Cattolica/Attivita'
-
-
-## Alternativa
-
-1
-1
-1
-1
-1
-
-## Educazione Civica
-
-0
-0
-0
-0
-0
-
-## Scienze Motorie E Sportive
-
-2
-2
-2
-2
-2
-Monte ore previsto per anno di corso per l'insegnamento
-trasversale di educazione civica
-57
-
-## B.Marsano - Geis012004
-
+La progettualità educativa vede al centro dell’azione didattica l’allievo nella sua
+interezza, mira alla sua crescita integrale culturale ed umana, a renderlo
+sempre più consapevole del suo valore e della sua unicità, a fornirgli gli
+strumenti per la realizzazione del proprio “io”.
+Gli obiettivi di tale progettualità possono essere così sintetizzati:
+Ø Acquisizione e consapevolezza di principi e valori umani, civili e sociali, che
+divengano patrimonio di vita e di cultura per la costruzione dell’identità
+personale e per l’esercizio di una cittadinanza consapevole;
+Ø Capacità di autovalutazione, di auto-orientamento/riorientamento e di
+progettazione del proprio futuro;
+Ø Concettualizzazione, attualizzazione e personalizzazione del sapere;
+Ø Consapevolezza del tessuto di interrelazioni esistente tra gli elementi storico
+- identitari del territorio e del contesto in cui è inserita la scuola e il sapere;
+60
 
 ---
 
 ## Pagina 62
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Insegnamenti e quadri orario
 
-## Ptof 2022 - 2025
+## Formativa
 
-Il monte ore totale previsto per anno per corso è di 33 ore da suddividere tra tutte le discipline
-indicate nel progetto  della disciplina, condiviso da tutto il consiglio di classe.
-58
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Ø Consapevolezza della complessità e storicità del sistema socio-culturale,
+politico, economico a cui si appartiene.
+A tal fine concorreranno tutte le attività curriculari ed extracurriculari.
+
+## ·         Obiettivi Didattici Trasversali
+
+Obiettivi cognitivi:
+1.   Capacità di comprensione e di analisi critica di un testo, di un problema, di un
+evento, di un periodo storico, di un fenomeno, di una forma, di un’opera
+d’arte;
+2.   capacità di sintesi intesa come capacità di organizzare in modo essenziale e
+coerente gli elementi di un testo, di un problema, di un evento storico-
+culturale, di un fenomeno;
+3.   capacità di produrre testi scritti coerenti, chiari e ben articolati graduati in base
+ai prerequisiti e alla progressione degli apprendimenti degli studenti;
+4.   capacità di comunicare correttamente, utilizzando i linguaggi settoriali  ed il
+lessico proprio di ciascuna disciplina;
+5.   capacità di valorizzare le proprie competenze logiche e metodologiche per
+acquisire abilità di ragionamento coerente, chiarezza di pensiero e rigore
+espositivo;
+6.   capacità di auto-valutare il proprio rendimento, le proprie potenzialità e i
+propri limiti;
+61
 
 ---
 
 ## Pagina 63
 
 
-## L'Offerta Formativa
-
-Curricolo di Istituto
-
-## Ptof 2022 - 2025
-
-Curricolo di Istituto
-
-## B.Marsano
+## L'Offerta
 
 
-## Scuola Secondaria Ii Grado
+## Formativa
 
-Dettaglio Curricolo plesso: IPSAA B.MARSANO
 
-## Scuola Secondaria Ii Grado
+## Ptof - 2019/20-2021/22
 
-Curricolo dell'insegnamento trasversale di educazione
-civica
-Monte ore annuali
-Scuola Secondaria II grado
-33 ore
-Più di 33 ore
-Classe I
-Classe II
-Classe III
-59
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+7.   capacità di leggere, analizzare, interpretare e correlare i contenuti nazionali
+del curriculo: fenomeni, eventi, temi specifici del territorio e del contesto in
+cui l’Istituzione scolastica opera.
+Obiettivi relazionali e valoriali:
+1.    Conseguire un senso sempre più maturo di lealtà, rispetto e disponibilità
+verso gli altri;
+2.    considerare la diversità di ideologie e di opinioni come occasione di
+confronto e di ricerca comune di valori unificanti;
+3.    riconoscere il diritto alla diversità etnica, religiosa e culturale ed accettarlo
+come fonte di arricchimento;
+4.    riconoscere e praticare il valore della legalità, intesa come osservanza del
+diritto e, quindi, come rispetto delle regole, dell’ambiente, della cosa
+pubblica;
+5.    possedere un’immagine sempre più completa e comprensiva della realtà
+circostante, al fine di contribuire al suo sviluppo mobilitando le risorse di
+ciascuno;
+6.    riconoscere la valenza formativa delle singole discipline in quanto
+strumento di orientamento nella realtà complessa e inserimento nel
+tessuto sociale e nel mondo produttivo.
+
+## ·         Obiettivi Didattici - Area Umanistica
+
+62
 
 ---
 
 ## Pagina 64
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Curricolo di Istituto
 
-## Ptof 2022 - 2025
+## Formativa
 
-33 ore
-Più di 33 ore
-Classe IV
-Classe V
-Dettaglio Curricolo plesso: MARSANO/ARENZANO
 
-## Scuola Secondaria Ii Grado
+## Ptof - 2019/20-2021/22
 
-Curricolo dell'insegnamento trasversale di educazione
-civica
-Monte ore annuali
-Scuola Secondaria II grado
-33 ore
-Più di 33 ore
-Classe I
-Classe II
-Classe III
-Dettaglio Curricolo plesso: ENOGASTRONOMIA - S.
-60
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+
+## Conoscenze
+
+v Strutture linguistiche
+v Contenuti disciplinari  (articolati coprendo tutti i periodi ed i
+movimenti culturali, artistici e filosofici per autori maggiormente
+rappresentativi, senza vuoti o omissioni).
+v Linguaggi specifici
+
+## Competenze
+
+a)     Organizzazione, armonizzazione del sapere assimilato;
+b)    problematizzazione, attualizzazione  e riflessione critica con collegamenti
+interdisciplinari e valutazioni personali.
+
+## Abilità
+
+63
 
 ---
 
 ## Pagina 65
 
 
-## L'Offerta Formativa
-
-Curricolo di Istituto
-
-## Ptof 2022 - 2025
+## L'Offerta
 
 
-## Colombano
+## Formativa
 
 
-## Scuola Secondaria Ii Grado
+## Ptof - 2019/20-2021/22
 
-Curricolo dell'insegnamento trasversale di educazione
-civica
-Monte ore annuali
-Scuola Secondaria II grado
-33 ore
-Più di 33 ore
-Classe I
-Classe II
-Classe III
-Classe IV
-Classe V
-Dettaglio Curricolo plesso: I.T.A. B. MARSANO
-61
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+
+## Linguistiche:
+
+a)     Chiarezza espressiva, padronanza della madrelingua e della lingua straniera;
+b)    correttezza, pertinenza negli elaborati scritti e nelle diverse tipologie
+testuali.
+
+## Logiche, Elaborative:
+
+a)     Analisi, sintesi, rielaborazione dei contenuti disciplinari;
+b)    decodificazione, illustrazione, interpretazione delle opere d’arte e di
+qualsiasi tipo di testo;
+c)     individuazione della  ricchezza stilistica e la complessità formale di un testo.
+
+## ·         Obiettivi Didattici – Area Scientifica
+
+
+## Conoscenze
+
+v Termini – definizioni;
+v Contenuti disciplinari  (è previsto lo studio della geometria, intesa
+anche
+come
+“campo”
+sul
+quale
+applicare
+le
+conoscenze
+matematiche ed esercitare le facoltà logiche).
+64
 
 ---
 
 ## Pagina 66
 
 
-## L'Offerta Formativa
-
-Curricolo di Istituto
-
-## Ptof 2022 - 2025
+## L'Offerta
 
 
-## Scuola Secondaria Ii Grado
+## Formativa
 
-Curricolo dell'insegnamento trasversale di educazione
-civica
-Monte ore annuali
-Scuola Secondaria II grado
-33 ore
-Più di 33 ore
-Classe I
-Classe II
-Classe III
-Classe IV
-Classe V
-Approfondimento
-Il curricolo e le attività di PCTO sono progettate in maniera di favorire l'accesso all'attività lavorativa
-in tempi brevi, come evidenziato dalla documentazione statistica. Negli ultimi anni si è incrementata
-la quota di studenti/studentesse che hanno trovato lavoro in altre regioni ed all'estero.
-Essendo le attività pratiche punto fondamentale dei percorsi dell'istituto, la formazione di gruppi di
-lavoro per la valutazione delle competenze chiave e di cittadinanza in passato si è svolta sempre
-concentrandosi su di esse; nel RAV appena pubblicato si è evidenziata la necessità di implementare e
-standardizzare le procedure di valutazione e certificazione delle competenze acquisite.
-Negli anni la percentuale di studentesse/studenti che decide di immatricolarsi a corsi universitari
-non è mai scesa al di sotto del 20%, le valutazioni statistiche fanno rilevare negli ultimi anni un
-62
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+v Linguaggi specifici
+
+## Competenze
+
+a)     Comprensione e risoluzione di un problema;
+b)    autonomia operativa e di giudizio;
+c)     organizzazione armonica di conoscenze e competenze;
+d)    utilizzo consapevole degli strumenti informatici e telematici
+
+## Abilità
+
+a)     Esecuzione di procedure e tecniche di calcolo;
+b)    applicazione di metodi, strumenti e modelli matematico-scientifici,
+anche in situazioni diverse;
+c)     analisi, sintesi, elaborazione, interpretazione di dati, situazioni e
+fenomeni;
+d)    Consapevolezza del legame tra scienza, applicazione tecnologica e
+necessità reali della società moderna e del territorio.
+
+## ·         Obiettivi Didattici - Area Linguistica
+
+65
 
 ---
 
 ## Pagina 67
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Curricolo di Istituto
 
-## Ptof 2022 - 2025
+## Formativa
 
-modesto successo nella prosecuzione degli studi, su questo tema l'istituto ha deciso di potenziare
-l'attività di orientamento in uscita, soprattutto per quanto attiene l’indirizzo tecnologico.
-A partire dalle Linee Guida degli ordinamenti di riferimento, l'istituto risponde ai bisogni formativi
-degli studenti e delle studentesse e alle attese educative e formative del contesto locale. Viene svolta
-una elaborazione a livello di dipartimenti per adeguare le indicazioni ministeriali al contesto locale.
-La scuola ha individuato i traguardi di competenza che gli studenti dovranno acquisire nel corso dei
-diversi anni. Vengono individuate anche le competenze trasversali e le soft skills (lavorare in
-squadra, comunicare in modo efficace, ecc.)
-Gli/le insegnanti utilizzano il curricolo definito dalla scuola come strumento di lavoro per la loro
-attività e come mezzo di ricerca per migliorare.
-Le attività di ampliamento dell'offerta formativa sono progettate in raccordo con il curricolo di
-istituto.
-Vengono individuati in modo chiaro gli obiettivi e le abilità/competenze da raggiungere attraverso i
-progetti di ampliamento dell'offerta formativa.
-La necessità di adeguarsi alle innovazioni del settore agroindustriale ha portato l'istituto a collegarsi
-con strutture locali, nazionali e comunitarie per meglio conoscere l'evolversi del settore di
-riferimento.
-Grande attenzione è stata rivolta ai PCTO nei quali l'istituto ormai da decenni opera con grande
-impegno in tutti i plessi. A questo proposito è stata istituita la funzione strumentale di referente
-PCTO con l’incarico di coordinamento fra tutti i referenti delle singole classi in modo che la
-progettazione sia condivisa dagli insegnanti di indirizzo e di altre aree e di conseguenza vengano
-ridotte lei possibili difformità.
-63
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Conoscenze
+
+v Strutture linguistiche l1,  l2, l3
+v Contenuti disciplinari  (è previsto lo studio della geometria, intesa
+anche
+come
+“campo”
+sul
+quale
+applicare
+le
+conoscenze
+matematiche ed esercitare le facoltà logiche).
+v Contenuti disciplinari  (letteratura e civiltà) differenziandone, in
+qualche misura, l’articolazione a seconda degli indirizzi; per
+esempio, prevedendo lo studio di alcuni autori collegati con il
+sapere scientifico nell’opzione “scienze applicate”.
+v Linguaggi specifici (letteratura, scienza, tecnologia).
+
+## Competenze
+
+a)     Organizzazione, armonizzazione del sapere assimilato;
+b)    problematizzazione
+e
+riflessione
+critica
+con
+collegamenti
+interdisciplinari e valutazioni personali, soprattutto in relazione
+alle altre letterature e civiltà.
+
+## Abilità
+
+
+## Linguistiche:
+
+a)     Chiarezza espressiva, padronanza della lingua straniera;
+66
 
 ---
 
 ## Pagina 68
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Percorsi per le competenze trasversali e per
-l’orientamento (PCTO)
 
-## Ptof 2022 - 2025
+## Formativa
 
-Percorsi per le competenze trasversali e per
-l’orientamento (PCTO)
-Vivi Green
-I percorsi per le competenze trasversali e l'Orientamento prevede che il 20 % del monte ore di
-insegnamento annuale sia dedicato a progetti da condurre nel quadro della collaborazione con
-enti esterni, al fine di rafforzare le competenze tecnico professionali degli studenti e
-studentesse.
-Attualmente i percorsi di PCTO prevedono il completamento del seguente monte ore:
-150 per l’indirizzo tecnico
-•
-210 per l’indirizzo professionale
-•
-I percorsi prevedono l’attivazione di un’attività preparatoria nel corso del secondo anno di studi,
-inerente principalmente la formazione sulla sicurezza e la formazione tecnico/professionale sul
-campo da svolgere all’interno dell’azienda scolastica. A partire dalla classe terza è prevista
-l’attivazione di Stage aziendali e di interventi di manutenzione e progettazione del verde
-pubblico, da svolgere prioritariamente presso Enti pubblici, ma anche in collaborazione con Enti
-privati di forte interesse locale (Villa Durazzo Pallavicini e Villa Duchessa di Galliera).
-Attualmente sono attive convenzioni con Amministrazioni pubbliche e le loro articolazioni, gli
-ordini professionali, le organizzazioni professionali e cooperative agricole, l’Università, le
-associazioni legate al mondo dell’ambiente e del sociale, una fitta rete che raccoglie oltre un
-centinaio di aziende.
-Le classi parteciperanno ai percorsi stabiliti dai/dalle docenti costituenti i vari consigli di classe,
-in coordinamento con il referente unico PCTO, attraverso l’attuazione dei progetti
-successivamente elencati e brevemente descritti e che terranno conto delle singole realtà
-territoriali e riportati ulteriormente nel Progetto di PCTO.
-Per ogni classe sarà individuato un docente referente che predisporrà il progetto annuale di
-classe, organizzerà le attività verificando le presenze degli alunni, il loro gradimento ed i risultati
-acquisiti, coordinandosi con il docente referente per tutta l’istituzione.
-64
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+b)    Correttezza, pertinenza negli elaborati scritti e nelle diverse
+tipologie testuali;
+c)     Conoscenza del lessico specifico delle attività connesse al
+trasporto e alla logistica.
+
+## Logiche, Elaborative:
+
+a)     Analisi, sintesi, rielaborazione dei contenuti disciplinari;
+b)    decodificazione, illustrazione, interpretazione di testi letterari e a
+contenuto tecnico-scientifico in lingua straniera;
+c)     individuazione della   ricchezza stilistica e la complessità formale di
+un testo.
+
+## Percorsi Per Le Competenze Trasversali E Per L’Orientamento
+
+
+## (Pcto)
+
+
+## Fuori Classe: Una Finestra Sul Futuro
+
+Descrizione:
+L’Istituto di Istruzione Superiore “E. Fermi” ha sede in Policoro (MT) uno dei comuni più
+estesi della fascia metapontina, caratterizzato da una economia basata su una agricoltura
+avanzata, da un turismo balneare (porto turistico di Marina Agri) per la presenza di
+strutture ricettive, sempre più numerose sul litorale marino, da un turismo archeologico
+67
 
 ---
 
 ## Pagina 69
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Percorsi per le competenze trasversali e per
-l’orientamento (PCTO)
 
-## Ptof 2022 - 2025
+## Formativa
 
-I PCTO vengono disciplinati come metodologia didattica, con la finalità di orientare gli studenti e
-far loro acquisire le competenze spendibili nel mondo del lavoro, ivi incluse quelle innovative di
-tipo digitale che saranno orientate alla costruzioni di prassi che possano sviluppare opportunità
-di internazionalizzazione. Sul fronte professionale pertanto sono state individuate attività volte
-in particolare a favorire l’orientamento e la scelta del futuro percorso formativo, l’analisi e la
-soluzione dei problemi relativi al settore produttivo di riferimento, il lavoro in gruppo per
-progetti, l’uso delle tecnologie. Il percorso verrà attuato attraverso differenti modalità che
-prevedono incontri con esperti del settore, visite di istruzione rivolte alla conoscenza di realtà
-produttive regionali, nazionali, estere, attività pratiche presso le aziende dell’istituto, simulazione
-d’impresa, partecipazione a seminari e manifestazioni, stage aziendali, attività di
-rispecchiamento, documentazione e rendicontazione online.
-Per le varie sedi, con variazioni dovute ai differenti percorsi dell’indirizzo tecnico e professionale,
-oltre alla realtà locale delle sedi, sono previste le seguenti attività nei diversi settori di
-riferimento:
-Gestione del verde , con interventi di manutenzione e miglioramento di aree verdi,
-progettazione e realizzazione di orti didattici in collaborazione con Municipi e istituti
-comprensivi, progettazione e realizzazione di giardini nel Podere Costigliolo dell’Istituto di
-Sant’Ilario, intervento di ripristino di acciottolato rustico nel Parco di Portofino, interventi
-di manutenzione ordinaria e straordinaria dei Parchi Arenzano, interventi di manutenzione
-ordinaria e straordinaria di Villa Imperiale, Villa Duchessa di Galliera e Villa Durazzo
-Pallavicini e il depuratore di Sturla;
-•
-Attività aziendale , che consiste nel seguire le pratiche colturali ordinarie delle aziende
-dell’istituto con particolare attenzione al campo catalogo di antiche varietà frutticole locali,
-applicando tecniche di coltivazione ecocompatibili, eseguire potature di piante da frutto e
-ornamentali, praticare le tecniche di propagazione;
-•
-Prodotti tipici locali, volto a sviluppare attività differenti al fine di migliorare la conoscenza
-dei prodotti locali e dell’importanza della loro valorizzazione, in particolare visite a frantoi,
-banche del seme e campi catalogo, aziende vitivinicole e zootecniche, laboratorio di analisi
-chimico-organolettiche;
-•
-Visite di istruzione, visite a realtà significative del mondo agricolo, in modo da avvicinare
-l’allievo alla futura realtà lavorativa e favorire il confronto con tecnici e imprenditori che
-operano nel settore dell’agricoltura, visite a giardini storici e contemporanei, questa
-attività si svolge in maniera organizzata e funzionale alla didattica dal 1987.
-•
-"Progetto AppenninoLab" per la gestione e la valorizzazione del territorio dell'Appennino.
-Progetto gestito con la fondazione Garrone.
-•
-65
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+per la presenza del Museo Archeologico Nazionale della Siritide, da industrie
+rappresentate da piccole e medie aziende, da attività commerciali e  servizi. Sul territorio
+ed in quelli limitrofi, da cui tralaltro provengono molti degli studenti che frequentano
+l’istituto, operano Enti di ricerca quali l’I.B.B.R , azienda AGRO.BIOS. del CNR, il Centro
+ENEA i quali offrono valide opportunità per lo svilpuppo delle competenze scientifiche,
+soprattutto nei campi della Bioscenza e delle Biorisorse; nonché associazioni culturali e
+aziende del settore del diporto marittimo e del turismo, soprattutto nautico.
+L’Istituto “E.Fermi”, intercetta i bisogni e le risorse della realtà culturale, sociale ed
+economica del contesto locale, attraverso una pluralità di indirizzi e percorsi didattici. La
+presenza di un indirizzo di Liceo Linguistico e di un indirizzo Trasporti e Logistica, ben si
+concilia con le valenze economico-sociali del contesto territoriale.
+La normativa specifica sottolinea le finalità da perseguire nella progettazione di tali
+percorsi:
+a)    realizzare modalità di apprendimento flessibile equivalenti sotto il profilo culturale
+educativo, rispetto agli esiti dei percorsi del secondo ciclo di istruzione, che
+colleghino sistematicamente la formazione in aula con l'esperienza pratica;
+b)    arricchire la formazione acquisita nei percorsi scolastici formativi con l'ulteriore
+acquisizione di competenze spendibili nel mercato del lavoro;
+c)    favorire l'orientamento dei giovani per valorizzare le vocazioni personali, interessi,
+gli stili di apprendimento individuali;
+d)    realizzare un organico collegamento delle istituzioni scolastiche e formative con il
+mondo del lavoro e la società civile che consenta la partecipazione attiva nei
+processi formativi dei vari soggetti coinvolti;
+e)    correlare l'offerta formativa lo sviluppo culturale, sociale ed economico del
+territorio.
+Condizioni essenziali, quindi, per la progettazione dei percorsi di alternanza sono l'analisi
+dei bisogni formativi del territorio e la correlazione con il piano dell'offerta formativa e la
+specificità del curriculum delle istituzioni scolastiche. Concretamente, i percorsi formativi
+si realizzano tramite l'avvicendarsi di momenti di studio ed esperienza in contesti
+lavorativi, con una condivisione degli obiettivi della scuola con l'impresa, nonché un
+orientamento comune ai bisogni formativi degli studenti.
+I percorsi  sono stati progettati e attuati dall'istituto scolastico sulla base di apposite
+convenzioni con le imprese, le rispettive associazioni di rappresentanza, le camere di
+commercio, industria, artigianato o agricoltura e con gli enti pubblici e privati, inclusi
+quelli del terzo settore.
+68
 
 ---
 
 ## Pagina 70
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Percorsi per le competenze trasversali e per
-l’orientamento (PCTO)
 
-## Ptof 2022 - 2025
+## Formativa
 
-Tutte le classi del triennio sono coinvolte attualmente nei Percorsi per le competenze trasversali
-e per l’orientamento (PCTO, ex alternanza scuola-lavoro).
-Sono stati predisposti i moduli per la certificazione e la valutazione delle competenze, in modo
-particolare riferito alle attività del tutor interno, di quello esterno e  del ragazzo,  che prevedono
-tempi, modalità e le  ricadute successive.
-Riguardo alla valutazione, grazie anche all’attività formativa svolta, sarà dato un peso ad ogni
-attività, ed i voti entreranno nella  valutazione complessiva,  relativa alla condotta ed ai crediti
-scolastica  ed in quella delle singole  materie.
-Modalità
-·
-PCTO presso Str. Ospitante e IFS
-Le attività di alternanza scuola-lavoro sono svolte anche durante i periodi di sospensione
-dell'attività didattica
-Soggetti coinvolti
-·
-Tutti i soggetti elencati
-Durata progetto
-·
-Annuale
-Modalità di valutazione prevista
-Questionari di valutazione somministrati a studenti e imprese ospitanti. Relazioni dei tutor
-aziendali e scolstici.
-66
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Gli obiettivi dei percorsi di Alternanza Scuola – lavoro programmati ed organizzati dal
+nostro Istituto sono:
+1. Offrire agli studenti la possibilità di accedere a luoghi di educazione e formazione
+diversi da quelli istituzionali per valorizzare al meglio le loro potenzialità personali e
+stimolare apprendimenti informali e non formali.
+2. Arricchire il curriculum scolastico degli studenti con contenuti operativi, rilevando e
+valorizzando le competenze, in particolare quelle trasversali.
+3. Favorire la transizione dello studente agli studi universitari, anticipando l’esperienza
+formativa nei luoghi di lavoro.
+4. Valutare la corrispondenza delle aspettative e degli interessi personali con gli scenari e
+le opportunità professionali.
+5. Rafforzare il ruolo di centralità assunto dall’istruzione e dalla formazione nei processi di
+crescita e modernizzazione dell’individuo.
+6. Considerare il raccordo tra istruzione, formazione e mondo del lavoro un fattore
+strategico sia per le imprese che per i giovani che si affacciano al mercato del lavoro.
+Destinatari
+L’istituto “ Enrico Fermi” si rivolge a un bacino d’utenza piuttosto ampio, su un’area ben
+sviluppata sia sul piano economico–sociale che turistico–ambientale. Gli indirizzi di studio
+tendono a fornire una preparazione di base non settoriale ma critica ed aperta
+all'interdisciplinarietà. Da ciò nasce l'esigenza di trasportare e rapportare il sapere proprio
+e le competenze acquisite sul territorio, oltre che offrire la possibilità di sviluppare
+percorsi alternativi di apprendimento che, superando il divario esistente tra momento
+formativo e momento applicativo, secondo la logica del “learning by doing”, possano
+contrastare la dispersione (demotivazione) scolastica, stimolare le capacità di
+apprendimento degli allievi ed ottimizzare il ruolo educativo della scuola interagendo con
+le esigenze attuali e lo sviluppo del territorio.
+Risultati e Impatto.
+L’intervento formativo si caratterizza per il fatto che l'educazione formale e l'esperienza di
+lavoro si combinano in un unico progetto formativo che, fin dall'origine, viene pensato,
+realizzato, valutato in cooperazione tra scuola e mondo del lavoro. Il mondo della scuola e
+quello dell’impresa/struttura ospitante devono ormai considerarsi come realtà integrate
+tra loro, consapevoli che, per uno sviluppo coerente e completo della persona, è
+69
 
 ---
 
 ## Pagina 71
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Iniziative di ampliamento dell'offerta formativa
-Qualifiche IVC
-Apertura del percorso di qualifica IVC, normalmente riservato agli alunni con disabilità, a tutti gli
-studenti al fine di ridurre gli eventuali abbandoni scolastici.
-Obiettivi formativi prioritari del PTOF collegati
-prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione e del
-bullismo, anche informatico; potenziamento dell'inclusione scolastica e del diritto allo studio
-degli alunni con bisogni educativi speciali attraverso percorsi individualizzati e personalizzati
-anche con il supporto e la collaborazione dei servizi socio-sanitari ed educativi del territorio e
-delle associazioni di settore e l'applicazione delle linee di indirizzo per favorire il diritto allo
-studio degli alunni adottati, emanate dal Ministero dell'istruzione, dell'università e della
-ricerca il 18 dicembre 2014
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+importante ampliare e diversificare i luoghi tempi e modalità di apprendimento. Il
+Progetto quindi, assume il ruolo di mediatore tra l'apprendimento formativo e quello
+attivo, quindi di stimolo allo sviluppo di nuove competenze, diverse capacità di impegno,
+valorizza le doti di creatività, organizzazione e relazionali, rapportandosi ad una realtà
+culturale aderente al corso di studi. Esso inoltre, mira a potenziare l’offerta formativa
+della scuola, ma soprattutto si pone tra gli obiettivi quello di orientare lo studente nella
+scelta futura. Nel progetto che si propone, si inserisce una metodologia didattica
+particolarmente accattivante ed innovativa, che consente di apprendere da esperienze
+dirette e produrre ciò che si è appreso in modo qualitativo per una scelta consapevole, e
+favorire la conoscenza delle opportunità e degli sbocchi occupazionali.
+
+## Modalità
+
+PCTO presso Struttura Ospitante
 •
-Risultati attesi
-Riduzione della dispersione scolastica esplicita
-Destinatari
-Gruppi classe
-Risorse professionali
-Esterno
-Risorse materiali necessarie:
-Biblioteche
-centri di formazione professionale
-67
+Impresa Formativa Simulata (IFS)
+•
+PCTO presso Str. Ospitante e IFS
+•
+Le attività di alternanza scuola-lavoro sono svolte anche durante i periodi di
+sospensione dell'attività didattica
 
-## B.Marsano - Geis012004
+## Durata Progetto
 
+Annuale
+
+## Modalità Di Valutazione Prevista
+
+
+## Modalita’ Di Certificazione /Attestazioni Delle Competenze
+
+È previsto il rilascio di una certificazione da parte dell’istituto attestante la
+partecipazione degli alunni al progetto con la relativa durata, competenze abilità e
+conoscenze acquisite., in relazione al profilo nazionale  relativo ai diversi indirizzi del
+corso  di studio
+Valutazione degli apprendimenti
+Le fasi proposte del liceo di Policoro per l'accertamento delle competenze risultano
+così declinate:
+70
 
 ---
 
 ## Pagina 72
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Aule
-Aula generica
-Coding for all
-Promuovere il pensiero computazionale tra alunni/e e docenti
-Obiettivi formativi prioritari del PTOF collegati
-sviluppo delle competenze digitali degli studenti, con particolare riguardo al pensiero
-computazionale, all'utilizzo critico e consapevole dei social network e dei media nonché alla
-produzione e ai legami con il mondo del lavoro
-•
-Risultati attesi
-"Ridurre dispersione implicita Diversificare sbocchi lavorativi Sollecitare il pensiero logico-
-sequenziale "
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Risorse materiali necessarie:
-Laboratori
-Con collegamento ad Internet
-Aule
-Proiezioni
-"Workshop esperienziali “PUBLIC SPEAKING”;
-68
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+§  descrizione delle competenze attese al termine del percorso;
+§  accertamento delle competenze in ingresso;
+§  programmazione degli strumenti azioni di osservazione;
+§  verifica dei risultati conseguiti nelle fasi intermedie;
+§  accertamento delle competenze in uscita.
+I risultati finali della valutazione vengono sintetizzate nella certificazione finale (pag.
+27-31) Il tutor formativo esterno, ai sensi dell'art. 5 del D.LGS. 15 aprile 2005, N.77”
+fornisce all'istituzione scolastica o formativa ogni elemento atto a verificare e valutare
+le attività dello studente e l'efficacia dei processi formati” (all.E).
+La valutazione finale degli apprendimenti, a conclusione dell'anno scolastico, viene
+attuata dal docenti del consiglio di classe, tenuto conto delle attività di valutazione
+svolte dal tutor esterno sulla base degli strumenti predisposti. La valutazione del
+percorso in alternanza è parte integrante della valutazione finale dello studente ed
+incide sul livello dei risultati di apprendimento conseguiti nell'arco del secondo
+biennio e nell'ultimo anno del corso di studi.
+In attesa di una compiuta disciplina della materia nell'ambito del sistema nazionale di
+istruzione, gli strumenti già adottati per garantire la trasparenza dei percorsi formativi
+e riconoscimento delle competenze sono:
+-          il modello di certificazione dei sapere delle competenze di base nell'assolvimento
+dell'obbligo di istruzione;
+-          il libretto formativo del cittadino, ove vengono registrate, oltre alle esperienze
+lavorative/ professionali e formative, i titoli posseduti le competenze acquisite nei
+percorsi di apprendimento.
+-          I modelli di certificazione, elaborate e  compilati d’ intesa tra scuola e soggetto
+ospitante, fanno riferimento gli elementi minimi di attestazione indicati all'art. 6 del
+decreto legislativo 13/2013 e riporta i seguenti elementi:
+a)    i dati anagrafici del destinatario;
+71
 
 ---
 
 ## Pagina 73
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-“Orientamento e valorizzazione talento”"
-L'insegnante fornirà alcuni input, accompagnati da supporti visivi ed esempi pratici, e i
-beneficiari si cimenteranno in prove pratiche dove miglioreranno le proprie competenze nel
-parlare in pubblico e trasmettere un'immagine positiva di sè; in seguito lavoreranno sulla
-motivazione e l'orientamento, in ottica di definire il loro profilo professionale, le competenze
-individuali in ottica, e di facilitare i contatti col mondo del lavoro
-Obiettivi formativi prioritari del PTOF collegati
-individuazione di percorsi e di sistemi funzionali alla premialità e alla valorizzazione del
-merito degli alunni e degli studenti
-•
-Risultati attesi
-Stimolare la motivazione e l'autostima, attraverso un percorso di ricerca del talento e delle
-potenzialità individuali; portando infine i ragazzi a potersi esprimere in una maniera più efficace
-anche davanti ad altre persone
-Destinatari
-Altro
-Risorse professionali
-Esterno
-Start up: Incubatore di progetti sociali
-Il corso avrà un taglio prettamente pratico e sarà finalizzato all'ideazione e design di un progetto
-che sia sostenibile sul piano dei costi/ricavi, ma anche dal punto di vista dell'impatto sociale ed
-ambientale. Saranno affrontate in successione le fasi di project management, dall'ideazione, allo
-studio del contesto, alla definizione di risorse/beneficiari/obiettivi, fino al monitoraggio e al
-contatto con i partner.
-69
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+b)    i dati dell'istituto scolastico;
+c)    i riferimenti alla tipologia i contenuti dell'accordo che ha permesso il percorso in
+alternanza;
+d)    le competenze acquisite indicando per ciascuna di esse il riferimento all'ordinamento
+e all'indirizzo di studio;
+e)    i dati relativi ai contesti di lavoro in cui lo stage/tirocinio si è svolto, le modalità di
+apprendimento e valutazione delle competenze;
+f)     la lingua utilizzata nel contesto lavorativo.
+Nel curriculum di ciascuno studente, da inserire nel PIATTAFORMA PCTO DEL MIUR dei
+dati della scuola, di cui all'art.1, commi 28 e 136 della legge 107/2015, le istituzioni
+scolastiche includono le esperienze condotte dal medesimo in regime di alternanza, ai
+fini della mappatura delle competenze della loro valutazione nell'ambito dell'esame di
+Stato.
+Nel caso di durata pluriennale, in funzione dell'ammissione all'anno successivo, possono
+essere certificati crediti acquisiti a conclusione dell'anno scolastico in cui si è realizzato il
+percorso in alternanza.
+Il processo di certificazione, gli strumenti utilizzati di soggetti coinvolti sono richiamati
+dalla convenzione stipulata dall'istituzione scolastica con l'impresa o altro soggetto del
+mondo del lavoro delle professioni interessato. Nella valutazione dei percorsi in regime
+di alternanza scuola lavoro per gli alunni diversamente abili, con disturbi specifici di
+apprendimento (DSA) e bisogni educativi speciali (BES), valgono le stesse disposizioni
+compatibilmente con quanto previsto dalla normativa vigente.
+Per l'esame di Stato le commissioni predispongono la terza prova scritta secondo le
+tipologie indicate dall'articolo 2, co.1, lettere e) ed f), del D.M. 20/11/2000, n. 429, tenendo
+conto anche delle competenze, conoscenze d'abilità acquisite dagli allievi certificate
+congiuntamente dalla scuole dalla struttura ospitante, nell'ambito delle esperienze
+condotte in alternanza.
+Certificazione dei percorsi di PCTO
+La certificazione rappresenta uno dei pilastri per l'innovazione del sistema di istruzione
+72
 
 ---
 
 ## Pagina 74
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-Risultati attesi
-Migliorare le competenze di problem solving e di creatività, portando al contempo a sviluppare
-competenze di progettazione e considerare l'aspetto etico e di responsabilità sociale delle
-imprese
-Destinatari
-Gruppi classe
-Risorse professionali
-Esterno
-Laboratorio/Workshop di cucina
-Approfondimento mirato su una preparazione o una tecnica particolare, in un contesto ridotto
-nel quale ci si potrà dedicare ad aspetti che durante la lezioni non si possono approfondire
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-Risultati attesi
-Valorizzare le capacità singole dei ragazzi, che nelle ore e gli spazi delle lezioni non sempre
-riescono a far emergere; portandoli ad avere maggiore motivazione e fiducia e compensando
-eventuali lacune teoriche
-70
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+per la valorizzazione dell'alternanza. Tutti i soggetti coinvolti ne traggono beneficio.
+In relazione allo studente, la certificazione delle competenze:
+-          testimonia la valenza formativa del percorso, offre indicazioni sulle proprie vocazioni,
+interessi e stili di apprendimento con una forte funzione di orientamento;
+-          facilita la mobilità, sia ai fini della prosecuzione del percorso scolastico formativo per
+il conseguimento del diploma, sia per gli eventuali passaggi tra i sistemi, ivi compresa
+l'eventuale transizione nei percorsi di apprendistato;
+-          sostiene l'occupabilità, mettendo in luce le competenze spendibili anche nel mercato
+del lavoro;
+-          promuove l'autovalutazione e l'auto-orientamento, in quanto consente lo studente di
+conoscere, di condividere e di partecipare attivamente al conseguimento dei risultati,
+potenziando la propria capacità di auto valutarsi sul modo di apprendere, di misurarsi
+con i punti di forza e di debolezza, di orientarsi rispetto alle aree economiche
+professionali che caratterizzano il mondo del lavoro, onde valutare meglio le proprie
+aspettative per il futuro.
+La certificazione delle competenze sviluppate attraverso la metodologia dell'alternanza
+scuola lavoro può essere acquisita negli scrutini intermedie finali degli anni scolastici
+compresi nel secondo biennio nell'ultimo anno del corso di studi. In tutti i casi, tale
+certificazione deve essere acquisita entro la data d'dello scrutinio di ammissione agli
+esami di stato ed inserita nel curriculum dello studente.
+Sulla base della detta certificazione, il consiglio di classe procede:
+-          alla valutazione degli esiti delle attività di alternanza della loro ricadute sugli
+apprendimenti disciplinare e sul voto di condotta; le proposte di voto dei docenti del
+consiglio di classe tengono esplicitamente conto dei suddetti esiti;
+-          l'attribuzione dei crediti ai sensi del D.M. 20.11.2000, n. 429, in coerenza con i risultati
+di apprendimento in termini di competenze acquisite coerenti con l'indirizzo di studio
+frequentati, ai sensi dei D.P.R. 87,88 e 89 del 2010 e delle successive linee guida e di
+indicazioni nazionali allo scopo emanate.
+Per quanto riguarda la frequenza dello studente alle attività di alternanza, nelle more
+dell'emanazione della Carta dei diritti e dei doveri degli studenti in alternanza scuola-
+73
 
 ---
 
 ## Pagina 75
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-"Dalla letteratura al cinema"" Proiezione film e dibattiti
-guidati
-Attraverso la fruizione di contenuti video, sarà stimolato l'apprendimento in una modalità più
-leggera ma ugualmente efficace, mantenendo un filo conduttore preciso e affrontando dopo la
-visione un confronto orale e scambio di opinioni/pensieri
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle competenze nella pratica e nella cultura musicali, nell'arte e nella storia
-dell'arte, nel cinema, nelle tecniche e nei media di produzione e di diffusione delle immagini e
-dei suoni, anche mediante il coinvolgimento dei musei e degli altri istituti pubblici e privati
-operanti in tali settori
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+lavoro, concernenti i diritti e doveri degli studenti della scuola secondaria di secondo
+grado impegnati nei percorsi di formazione di cui all'articolo 4 della legge 28/03/2003,
+numero 53, come definiti al decreto legislativo 15.04.3005, n. 77, ai fini della validità del
+percorso di alternanza è necessaria la frequenza di almeno ¾ del monte ore previsto dal
+progetto
+Nella Gazzetta Ufficiale del 21 dicembre 2017 è stato pubblicato il decreto
+interministeriale 3 novembre 2017 n. 195 “Regolamento recante la Carta dei diritti e dei
+doveri degli studenti in alternanza scuola-lavoro e le modalità di applicazione della normativa
+per la tutela della salute e della sicurezza nei luoghi di lavoro agli studenti in regime di
+alternanza scuola-lavoro.”
+È un regolamento composto da 7 articoli che spiegano i diritti e i doveri delle studentesse
+e degli studenti nel corso delle attività di Alternanza negli ultimi tre anni della scuola
+superiore.
+La Carta mette al centro la necessità di informare al meglio studentesse e studenti e
+genitori, in un'ottica di dialogo e condivisione che deve sempre accompagnare il rapporto
+scuola-famiglia.
+Prevede che le ragazze e i ragazzi, impegnati in Alternanza, siano accolti in ambienti di
+formazione adeguati e sicuri che favoriscano la crescita della persona e coerenti con
+l'indirizzo di studio seguito.
+Studentesse e studenti avranno diritto ad esprimere alla fine del percorso una
+valutazione sull'efficacia e sulla coerenza del percorso di alternanza effettuato rispetto
+al proprio indirizzo di studio. E dovranno essere supportati da tutor dell'azienda
+ospitante in rapporto al rischio delle attività svolte:
+5 studentesse e/o studenti per ogni tutor interno, per attività ad alto
+rischio
 •
-Risultati attesi
-Stimolare la curiosità e garantire una conoscenza di base su argomenti di letteratura
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Risorse materiali necessarie:
-Aule
-Proiezioni
-71
-
-## B.Marsano - Geis012004
-
+8 studentesse e/o studenti per ogni tutor per attività a medio rischio
+•
+12 studentesse e/o studenti per ogni tutor per attività a basso rischio
+•
+In cambio, le studentesse e gli studenti avranno il dovere di:
+frequentare le attività per almeno tre quarti delle ore previste,
+•
+rispettare le norme in materia di igiene, salute e sicurezza sui luoghi di
+•
+74
 
 ---
 
 ## Pagina 76
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Sportello di Francese
-L’insegnante mette a disposizione 10 minuti per ogni studente che manifesta necessità. Se si
-formano piccoli gruppi anche a classi parallele, si propone uno sportello di 50 minuti.
-Obiettivi formativi prioritari del PTOF collegati
-valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento
-all'italiano nonché alla lingua inglese e ad altre lingue dell'Unione europea, anche mediante
-l'utilizzo della metodologia Content language integrated learning
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+lavoro
+mantenere una riservatezza in relazione a dati, informazioni e
+conoscenze specifiche delle aziende visitate.
 •
-Risultati attesi
-Garantire un supporto efficace, anche peer to peer, nella materia, stimolando la pratica sotto
-alcuni aspetti particolarmente deficitari
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Risorse materiali necessarie:
-Laboratori
-Con collegamento ad Internet
-sportello matematica
-Sfruttando la settima o l'ottava ora nelle giornate in cui i destinatari escono l'ora precedente
-(prolungando quindi di un modulo le lezioni) oppure sfruttando le ore in cui per motivi di turni
-72
-
-## B.Marsano - Geis012004
-
+Le studentesse e gli studenti saranno inoltre assicurati, a carico dello Stato, all'Inail contro
+gli infortuni e coperti da un'assicurazione per la responsabilità civile verso terzi.
+Ampio spazio, nel testo, viene dato al capitolo relativo a "Salute e sicurezza", prevedendo,
+fra l'altro, un numero limite di studentesse e studenti ammissibili in una struttura,
+un'apposita formazione in materia, anche in collaborazione con enti competenti come
+l'Inail (ved. Sopra)
+La Carta dei diritti e dei doveri delle studentesse e degli studenti in Alternanza
+rappresenta un elemento di forte qualificazione dei percorsi scuola-lavoro.
+In ordine alla frequenza degli studenti in alternanza, pertanto, si specifica:
+-          In ordine alle condizioni necessarie a garantire la validità dell'anno scolastico i fini
+della valutazione degli alunni, ai sensi dell'articolo 14, co.7, del d.p.r. 22 giugno 2009,
+n.122 e secondo le indicazioni di cui alla circolare numero 20 del 4 marzo 2001, si
+specifica quanto segue:
+a)    nell'ipotesi in cui periodi alternanza si svolgano durante l'attività didattica, la
+presenza dell'allievo registrata nei suddetti percorsi va computata ai fini del
+raggiungimento del limite minimo di frequenza, pari ad almeno tre quarti
+dell'orario annuale personalizzato, oltre che ai fini del raggiungimento del monte
+ore previsto dal progetto di alternanza;
+b)    qualora invece i periodi di alternanza si svolgono, del tutto o in parte, durante la
+sospensione delle attività didattiche (ad esempio, nei mesi estivi), fermo restando
+l'obbligo del rispetto del limite minimo di frequenza delle lezioni, la presenza
+dell'allievo registrato durante l'attività presso la struttura  concorre alla validità del
+solo percorso di alternanza, che richiede, come sopra specificato, la frequenza di
+almeno tre quarti del monte ore previsto dal progetto.
+Nei percorsi di alternanza si procederà alla verifica valutazione dei seguenti elementi:
+il rispetto del percorso formativo individuale concordato con il tutor esterni;
+75
 
 ---
 
 ## Pagina 77
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-di laboratorio un gruppo della classe entra dopo programmare moduli di recupero relativi ad un
-preciso argomento cui possono partecipare anche alunni di classi diverse.
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-recuperare le conoscenze di base relative ad alcuni argomenti che non consentono di
-proseguire con la programmazione; migliorare nelle competenze richieste per le prove invalsi
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Sportello di inglese (Calvari)
-Modalità preferibilmente online pomeridiane ma all'occorrenza anche in presenza, in orario
-curricolare o extracurricolare, se compatibile con gli orari delle classi. Lo sportello mira ad
-aiutare studenti che evidenziano carenze e che richiedono supporto. Inoltre, potrebbe
-prevedere anche interventi mirati ad approfondimenti per studenti interessati e con un buon
-profitto nella materia (valorizzazione delle eccellenze).
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-73
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+·         il grado di padronanza delle competenze acquisite (in base agli obiettivi
+concordati del percorso formativo chiusa parentesi;
+·         lo sviluppo di consolidamento il potenziamento delle competenze relazionali
+cognitive rispetto alla fase da un esperienze maturate in azienda;
+·         l'autovalutazione dell'allievo.
+Al fine di effettuare le fasi di verifica valutazione si  utilizzeranno i seguenti strumenti:
+-          griglie di valutazione
+-          diario di bordo
+-          prova interdisciplinare
+-          relazione finale individuale
+
+## 1.     Fase Del Monitoraggio Finale
+
+
+## Comprende
+
+1)    Scheda riepilogativa delle attività A.S.L. di Istituto per CIASCUN Anno Scolastico (mod.13)
+2)    La scheda finale di riepilogo attestante le ore di presenza di tutti gli alunni di ciascuna
+classe delle varie attività svolte, sia  in stage sia come formazione in aula e/o con esperti
+
+## (All. L)
+
+3)    La predisposizione del fascicolo personale dello studente con la certificazione delle
+76
 
 ---
 
 ## Pagina 78
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-studenti
-Risultati attesi
-Fornire un supporto regolare per gestire particolari difficoltà dello studente cercando di
-combattere la dispersione scolastica e nello stesso tempo coinvolgere gli studenti più interessati
-in approfondimenti sulla materia (che potrebbero prevedere anche ulteriori compresenze, oltre
-quelle già programmate, con altre materie)
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Sportello di scienze degli alimenti
-Lo sportello prevede la richiesta da parte dello studente di intervento per superare eventuali
-difficoltà e prevede una disponibilità di due giorni a settimana di 30 minuti con accordo previsto
-in classe tra docente e alunno,
-Obiettivi formativi prioritari del PTOF collegati
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-Fornire un supporto ad alunni in difficoltà
-Destinatari
-Gruppi classe
-74
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+competenze acquisite nelle attività di A.S.L., utilizzabile sia nelle fasi intermedie che finale
+alla fine del 5° anno del curricolo (fascicolo personale – all. M)
+
+## 2.    Modalità Congiunte Di
+
+
+## Accertamento Delle Competenze
+
+(Scuola-Struttura ospitante)    (TUTOR
+struttura ospitante, TUTOR scolastico,
+
+## Studente, Docenti Discipline
+
+
+## Coinvolte, Consiglio Di Classe)
+
+Il responsabile del progetto, predispone, in accordo con i tutor interni ed esterni, griglie
+di osservazione dell’esperienza pratica e schede di valutazione; organizza le fasi di
+verifica e valutazione delle diverse attività previste dal progetto e svolte in aula e nei
+contesti lavorativi; organizza la verifica degli studenti in accordo con i tutor esterni e
+aziendali/studi professionali; fornisce i dati necessari al Comitato Tecnico - Scientifico
+per la verifica del progetto.
+Al consiglio di classe spetta la valutazione finale dello studente.
+
+## 3.    Modalità Di
+
+
+## Certificazione/Attestazione Delle
+
+
+## Competenze (Formali, Informali E
+
+
+## Non Formali)
+
+77
 
 ---
 
 ## Pagina 79
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Risorse professionali
-Interno
-Laboratorio di scrittura (Sant'Ilario-Calvari)
-Il laboratorio sarà prevalentemente pratico. Sarà aperto all'ottava ora (prolungando di un
-modulo le lezioni), il mercoledì (per gli studenti di Calvari) e il giovedì (per gli studenti di
-Sant'Ilario), a partire da gennaio. Il professore creerà le condizioni per un’ora di lavoro che sia
-formativa e allo stesso tempo divertente. Si proporranno attività di scrittura creativa, con prove
-che avranno l’obiettivo di rafforzare le capacità di scrittura degli alunni della classe. Le attività
-saranno predisposte dal docente, e avranno lo scopo di stimolare soprattutto la creatività e la
-fantasia, permettendo intanto l’assorbimento delle conoscenze di base, necessarie per la
-produzione di un buon elaborato. Il professore seguirà passo passo i giovani cercando di far
-comprendere gli eventuali errori di ortografia e di sintassi. Il laboratorio di scrittura sarà anche
-un ottimo momento per migliorare le capacità lessicali degli studenti, evitando le frequenti
-ripetizioni, cercando di riflettere sull’utilizzo di determinate parole.
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-individuazione di percorsi e di sistemi funzionali alla premialità e alla valorizzazione del
-merito degli alunni e degli studenti
-•
-Risultati attesi
-Il laboratorio intende rafforzare le basi per una buona produzione di elaborati scritti. Si cercherà
-di colmare le lacune nella grammatica di base e nella sintassi. Si lavorerà sul lessico e sulla
-traduzione dei propri pensieri in frasi coerenti dal punto di vista semantico e sintattico.
-Attraverso modalità anche divertenti, il lavoratorio intende rafforzare le basi grammaticali,
-fornendo agli alunni una maggiore autostima in occasione della realizzazione di elaborati scritti.
-Si cercherà, inoltre, di potenziare le competenze già acquisite dagli studenti.
-75
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Attestato di certificazione delle competenze – MOD. CERT. MIUR
+CONTENUTO DELLA GUIDA OPERATIVA MIUR (all.M)
+MOD. CERT. miur
+Es. CERTIFICAZIONE DELLE COMPETENZE
+·         In riferimento al “quadro unico” per la trasparenza delle qualifiche e delle
+competenze chiamato “Europass” (decisione n. 2241/2004/CE), nel quale si
+esplicita l'Europass Curriculum Vitae:
+- Europass Curriculum Vitae (ex Curriculum Vitae Europeo): formato standard
+di Curriculum Vitae che consente di uniformare la presentazione dei titoli di
+studio, delle esperienze lavorative e delle competenze individuali. Riguarda
+l’insieme delle competenze personali.
+·         In riferimento alle Raccomandazioni del Parlamento Europeo e del Consiglio
+del 23 aprile 2008 (2008/C 111/1) sulla costituzione del Quadro europeo delle
+qualifiche per l'apprendimento permanente nel quale si definisce il
+Descrittore del livello IV assegnato agli studenti che conseguono un diploma
+di scuola media superiore:
+
+## Livello
+
+Conoscenze
+Abilità
+Competenze
+4
+Conoscenza pratica e
+teorica in ampi contesti
+in un ambito di lavoro o
+di studio
+Una gamma di abilità
+cognitive
+e
+pratiche
+necessarie
+a
+risolvere
+problemi specifici in un
+campo  di lavoro o di
+studio
+Sapersi
+gestire
+autonomamente,
+nel
+quadro di istruzioni in un
+contesto di lavoro o di
+studio,
+di
+solito
+prevedibili, ma soggetti a
+78
 
 ---
 
 ## Pagina 80
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Sportello di italiano
-Sportello di supporto degli alunni in difficoltà e progettualità per coloro che desiderano
-approfondire. Intervento pomeridiano e online, se possibile.
-Obiettivi formativi prioritari del PTOF collegati
-prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione e del
-bullismo, anche informatico; potenziamento dell'inclusione scolastica e del diritto allo studio
-degli alunni con bisogni educativi speciali attraverso percorsi individualizzati e personalizzati
-anche con il supporto e la collaborazione dei servizi socio-sanitari ed educativi del territorio e
-delle associazioni di settore e l'applicazione delle linee di indirizzo per favorire il diritto allo
-studio degli alunni adottati, emanate dal Ministero dell'istruzione, dell'università e della
-ricerca il 18 dicembre 2014
-•
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-Fornire un supporto ad alunni in difficoltà
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-76
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+cambiamenti.
+Sorvegliare il lavoro di
+routine
+di
+altri,
+assumendo
+una
+certa
+responsabilità
+per
+la
+valutazione
+e
+il
+miglioramento
+di
+attività
+lavorative o di studi.
+Conoscenze
+La conoscenza può essere definita come il risultato dell’assimilazione di informazioni
+attraverso l’apprendimento. Esse sono un insieme di fatti, principi, teorie e pratiche
+relative a un settore di lavoro o di studio. Essa dunque non indica una capacità
+operativa, ma il possesso di determinati contenuti (per l’appunto: fatti, norme, concetti,
+teorie ecc.).
+Esse sono descritte come:
+•   teoriche (saper comprendere): servono a comprendere un fenomeno, un oggetto,
+una situazione; ne descrivono i componenti, la struttura, il funzionamento;
+•   procedurali (saper come procedere): servono a descrivere “come agire” e descrivono
+le regole  per farlo;
+•      cognitive (sapere elaborare informazioni): necessarie alla formulazione, all’analisi
+e alla risoluzione dei problemi.
+È necessario indicare le conoscenze “essenziali” e "connotative" che hanno cioè
+rilevanza discriminante per l’esercizio della competenza. E’ opportuno non essere né
+troppo analitici né  troppo generici ed esplicitare anche l’ambito di riferimento.
+Abilità
+Le abilità possono essere definite come la capacità di applicare conoscenze e di
+utilizzare know- how per portare a termine compiti e risolvere problemi, indicano cioè
+il saper utilizzare specifici strumenti operativi (procedimenti, tecniche, metodi,
+tecnologie ecc.) per lo svolgimento di un compito (es. saper utilizzare un determinato
+programma informatico, ecc.).
+Esse sono descritte come:
+•   cognitive: comprendenti l'uso del pensiero logico, intuitivo e creativo;
+79
 
 ---
 
 ## Pagina 81
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Sportelli multidisciplinari
-sportello didattico di supporto allo studio pomeridiano rivolto ad un gruppo ristretto di studenti
-in difficoltà che hanno bisogno di essere affiancati per lo svolgimento dei compiti e nello studio.
-1 pomeriggio a settimana, 2 ore. le discipline saranno concordate con gli studenti di settimana
-in settimana a seconda delle esigenze didattiche.
-Obiettivi formativi prioritari del PTOF collegati
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-Fornire un punto di appoggio e supporto pomeridiano agli alunni in difficoltà ed alle famiglie,
-uno spazio di condivisione anche al di fuori dell'orario scolastico
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Biblioteca Itinerante Holden
-Proponiamo l’allestimento di una “biblioteca itinerante” strutturata in un’isola centrale, costituita
-da un grande scaffale e una postazione informatica, e un arcipelago di isolette in ciascuna aula.
-Obiettivi formativi prioritari del PTOF collegati
-77
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+•   pratiche: comprendenti l'abilità manuale e l'uso di metodi, materiali, strumenti.
+Competenze
+In generale il termine competenza indica la capacità degli individui di combinare, in
+modo autonomo, tacitamente o esplicitamente e in un contesto particolare, i diversi
+elementi delle conoscenze e delle abilità che possiedono.
+Per competenza si intende l'essere in grado di:
+-   utilizzare, operare su, ecc.;
+-   diagnosticare, interpretare, elaborare, affrontare, ecc.;
+-   partecipare, interfacciarsi, comunicare, ecc.;
+-   coordinare, gestire, occuparsi di, dirigere, ecc.
+(da inserire nell’all. M)
+“4.4.La valutazione degli apprendimenti e la certificazione delle competenze
+Nei PTCO risultano particolarmente funzionali gli strumenti di verifica e le modalità di
+valutazione che permettano l’accertamento di processo e di risultato, in piena coerenza con
+quanto previsto dall’articolo 1 del Decreto Legislativo 13 aprile 2017, n.62 (“oggetto della
+valutazione”).
+L’attenzione al processo, attraverso l’osservazione strutturata, consente di attribuire valore,
+nella valutazione finale, anche agli atteggiamenti e ai comportamenti dello studente.
+L'esperienza nei diversi contesti operativi, indipendentemente dai contenuti
+dell'apprendimento, contribuisce, infatti, a promuovere le competenze trasversali che sono
+legate anche agli aspetti caratteriali e motivazionali della persona.
+Nella realtà operativa delle scuole gli esiti delle esperienze dei PCTO risultano accertati in
+diversi modi. Esistono, tuttavia, modalità strutturate e strumenti ricorrenti che possono essere
+utilizzati, adattandoli al percorso svolto (ad esempio rubriche, schede di osservazione, diari di
+bordo, portfo-lio digitale, …) in coerenza con le indicazioni contenute nel decreto legislativo
+relativo al Sistema Nazionale di certificazione delle competenze (ex Decreto legislativo 16
+gennaio 2013, n. 13, recante la “Definizione delle norme generali e dei livelli essenziali delle
+prestazioni per l’individuazione e validazione degli apprendimenti non formali e informali e
+degli standard minimi di servizio del Sistema nazio-nale di certificazione delle competenze, a
+norma dell’art. 4, cc 58 e 68, della legge 28 giugno 2012, n. 92”) e nei successivi provvedimenti
+attuativi (Decreto interministeriale 30 giugno 2015, “Definizione di un quadro operativo per il
+80
 
 ---
 
 ## Pagina 82
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-potenziamento delle competenze nella pratica e nella cultura musicali, nell'arte e nella storia
-dell'arte, nel cinema, nelle tecniche e nei media di produzione e di diffusione delle immagini e
-dei suoni, anche mediante il coinvolgimento dei musei e degli altri istituti pubblici e privati
-operanti in tali settori
-•
-Risultati attesi
-Organizzare e gestire insieme agli alunni lo spazio della biblioteca, come spazio aperto e vitale in
-un’ottica inclusiva e partecipativa. Gestire il comodato d’uso gratuito dei testi scolastici.
-Implementare la competenza letto-scrittoria.
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Risorse materiali necessarie:
-Biblioteche
-Classica
-Informatizzata
-Sportello didattico di Chimica
-Disponibilità del docente a fornire spiegazioni su argomenti curricolari.L'attività sarà svolta in
-presenza presso la sede di S. Ilario al termine delle lezioni mattutine . Ogni sportello avrà la
-durata di 2 ore, a cui gli alunni accederanno mediante prenotazione. Numero massimo di alunni
-prenotati: 8 per sportello. Numero di sportelli a settimana :1. Numero di sportelli complessivi
-:10 . Inizio attività: inizio febbraio
-78
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+riconoscimento a livello nazionale delle qua-lificazioni regionali e delle relative competenze,
+nell'ambito del Repertorio nazionale dei titoli di istruzione e formazione e delle qua-lificazioni
+professionali di cui all'articolo 8 del decreto legislativo 16 gennaio 2013, n. 13” e decreto
+interministeriale 8 gennaio 2018, “Istituzione del Quadro nazionale delle qualificazioni
+rilasciate nell’ambito del Sistema nazionale di certificazione delle com-petenze di cui al decreto
+legislativo 16 gennaio 2013, n. 13”).
+In ordine ai risultati, le fasi proposte dalle scuole per l’accertamento delle competenze sono
+strettamente correlate alle modalità di progettazione e risultano normalmente così declinate:
+  identificazione delle competenze attese al termine del percorso e dei relativi livelli di pos-
+sesso;
+  accertamento delle competenze in ingresso;
+  comunicazione efficace agli interessati sugli obiettivi di apprendimento da raggiungere;
+  programmazione degli strumenti e azioni di osservazione;
+  verifica dei risultati conseguiti nelle fasi intermedie;
+  accertamento delle competenze in uscita.
+Anche in questo caso esistono diversi strumenti da utilizzare con efficacia, tra cui, ad esempio, i
+compiti di realtà, le prove esperte e i project-work. Ministero dell’Istruzione, dell’Università e
+della Ricerca
+In tutti i casi l’accertamento delle competenze in uscita dai percorsi deve essere operato entro
+la data dello scrutinio di ammissione agli esami di Stato.
+La valutazione finale degli apprendimenti, a conclusione dell’anno scolastico, viene attuata dai
+docenti del Consiglio di classe, tenuto conto delle attività di osservazione in itinere svolte dal
+tutor interno (nonché da quello esterno, se previsto)-
+Ai sensi dell’art. 5 del d.lgs. 15 aprile 2005, n. 77, il tutor formativo esterno, «…fornisce
+all'istituzione scolastica o formativa ogni elemento atto a verificare e valutare le attività dello
+studente e l'efficacia dei processi formativi».sulla base degli strumenti previsti in fase di
+progettazione (l’incidenza delle esperienze di PCTO sulla valutazione del comportamento è
+collegata all’atteggiamento e all’impegno dello stu-dente durante l’attività presso la struttura
+81
 
 ---
 
 ## Pagina 83
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Obiettivi formativi prioritari del PTOF collegati
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-Favorire il pieno successo formativo di ogni studente. In tale ottica lo sportello è rivolto
-principalmente agli alunni in difficoltà nella disciplina per evitare che eventuali insuccessi
-possano concorrere a forme di dispersione scolastica. Lo sportello può essere utilizzato anche
-da studenti desiderosi di approfondire la materia e veder soddisfatte le proprie aspettative
-formative personali
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Sportello didattico Trasformazione dei Prodotti
-Disponibilità del docente a fornire spiegazioni su argomenti curricolari.L'attività sarà svolta in
-presenza presso la sede di Quarto al termine delle lezioni mattutine (martedi) . Ogni sportello
-avrà la durata di 1 ora, a cui gli alunni accederanno mediante prenotazione. Numero massimo
-di alunni prenotati: 4 per sportello. Numero di sportelli a settimana :1. Numero di sportelli
-complessivi :8. Attività da iniziare a fine gennaio- inizio febbraio
-Obiettivi formativi prioritari del PTOF collegati
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-79
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+ospitante, essendo valorizzato il ruolo attivo e propositivo eventualmente manifestato
+dall’alunno ed evidenziato dal tutor esterno.
+Sulla base delle suddette attività di osservazione e dell’accertamento delle competenze
+raggiunte dagli studenti, quindi, il Consiglio di classe procede alla valutazione degli esiti delle
+attività dei PCTO e della loro ricaduta sugli apprendimenti disciplinari e sulla
+valutazione del comportamento.
+Le proposte di voto dei docenti del Consiglio di classe tengono esplicitamente conto dei suddetti
+esiti, secondo i criteri deliberati dal Collegio dei docenti ed esplicitati nel PTOF dell’istituzione
+scolastica.
+In ordine alle condizioni necessarie a garantire la validità dell’anno scolastico ai fini della
+valutazione degli alunni, ai sensi dell’articolo 13 del d.lgs. 226/2005 e dell’art.14, comma 7, del
+d.P.R. 22 giugno 2009, n.122, secondo le indicazioni di cui alla circolare MIUR n. 20 del 4 marzo
+2011 e del decreto 195/2017si sottolinea che:
+a. nell’ipotesi in cui i percorsi si svolgano durante l’attività didattica, la presenza dell’allievo
+registrata nei suddetti percorsi va computata ai fini del raggiungimento del limi-te minimo di
+frequenza, pari ad almeno tre quarti dell’orario annuale personalizzato, oltre che ai fini del
+raggiungimento del monte ore previsto dal progetto del PCTO;
+b. qualora, invece, i percorsi si svolgano, del tutto o in parte, durante la sospensione delle
+attività didattiche (ad esempio, nei mesi estivi), fermo restando l’obbligo di rispetto del limite
+minimo di frequenza delle lezioni, la presenza dell’allievo registrata durante le attivi-tà presso
+la struttura ospitante concorre alla validità del solo PCTO.
+I risultati finali della valutazione operata dall’istituzione scolastica vengono sintetizzati nella
+certificazione finale delle competenze acquisite dagli studenti.
+Secondo l’articolo 6 del d.lgs. 77/2005, “La valutazione e la certificazione delle competenze
+acquisite dai disabili che frequentano i percorsisono effettuate a norma della legge 5 febbraio
+1992, n. 104, con l'obiettivo prioritario di riconoscerne e valorizzarne il potenziale, anche ai fini
+dell'occupabilità”.
+La certificazione rappresenta uno dei pilastri per l’innovazione del sistema d’istruzione e,
+82
 
 ---
 
 ## Pagina 84
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Risultati attesi
-Favorire il pieno successo formativo di ogni studente. In tale ottica lo sportello è rivolto
-principalmente agli alunni in difficoltà nella disciplina per evitare che eventuali insuccessi
-possano concorrere a forme di dispersione scolastica. Lo sportello può essere utilizzato anche
-da studenti desiderosi di approfondire la materia e veder soddisfatte le proprie aspettative
-formative personali
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Lettori si cresce (Biblioteca di classe)
-"L’ attività didattica laboratoriale si svolge in varie fasi: -Inizialmente la/il docente propone e
-presenta agli studenti alcuni testi di narrativa contemporanea per giovani adulti, secondo una
-scelta accurata degli autori e dei contenuti, volta a favorire l’ interesse degli studenti allo scopo
-di avvicinarli alla lettura. -Scelta di un libro da parte dei ragazzi. -Caricamento dei prestiti
-nominativi tramite l’ applicazione per Smartphone “Handy library” o tramite un software per la
-gestione di piccole biblioteche -Lettura casalinga -Momento di restituzione e di condivisione con
-i compagni e il/la docente, attraverso una scheda libro e una recensione personale. -Creazione
-di un blog scolastico adibito a raccoglitore dei libri recensiti dagli studenti e per gli studenti,
-fruibile sul sito dell’ Istituto.
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-Risultati attesi
-80
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+quindi, anche per la valorizzazione dei PCTO. Tutti i soggetti coinvolti ne devono trarre
+beneficio.
+Dal punto di vista dello studente, la certificazione delle competenze:
+- testimonia la valenza formativa del percorso, offre indicazioni sulle proprie vocazioni, in-
+teressi e stili di apprendimento con una forte funzione di orientamento;
+- facilita la mobilità, sia ai fini della prosecuzione del percorso scolastico o formativo per il
+conseguimento del diploma, sia per gli eventuali passaggi tra i sistemi, ivi compresa l'even-
+tuale transizione nei percorsi di apprendistato;
+- sostiene l’occupabilità, mettendo in luce le competenze spendibili anche nel mercato del la-
+voro;
+- promuove l'auto-valutazione e l'auto-orientamento, in quanto consente allo studente di
+conoscere, di condividere e di partecipare attivamente al conseguimento dei risultati, poten-
+ziando la propria capacità di auto-valutarsi sul modo di apprendere, di misurarsi con i propri
+punti di forza e di debolezza, di orientarsi rispetto alle aree economiche e professionali che
+caratterizzano il mondo del lavoro, onde valutare meglio le proprie aspettative per il futuro.
+Dal punto di vista delle istituzioni scolastiche, la certificazione rende trasparente la qualità
+dell’offerta formativa. Per mezzo della descrizione delle attività attraverso le quali sono state
+mo-bilitate le competenze dello studente, la scuola rende trasparente il processo attivato in
+relazione ai risultati conseguiti, con l’assunzione di responsabilità che testimonia la qualità
+della propria offerta formativa.
+Il documento che riporta la certificazione finale delle competenze acquisite dagli studenti al
+termine del percorso di studi è rappresentato dal curriculum dello studente, allegato al
+diploma finale ri-lasciato in esito al superamento dell’esame di Stato.
+Il diploma attesta, infatti, l’indirizzo, la durata del corso di studi e il punteggio ottenuto, mentre
+il curriculum riporta (21 Articolo 21, comma 2, del d.lgs. 62/2017)
+- le discipline ricomprese nel piano degli studi con l'indicazione del monte ore complessivo
+destinato a ciascuna di esse;
+- in forma descrittiva, i livelli di apprendimento conseguiti nelle prove scritte a carattere na-
+zionale, distintamente per ciascuna delle discipline oggetto di rilevazione e la certificazione
+83
 
 ---
 
 ## Pagina 85
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-"Rinforzo e potenziamento delle competenze disciplinari, in particolare della letto – scrittura, e
-relazionali. Avvicinamento alla lettura nell’ ottica di un’ autoformazione permanente; obiettivo
-del Writing and reading è quello di trasformare la classe in una comunità di lettori e scrittori
-appassionati e critici. Il laboratorio è importante soprattutto per gli alunni a rischio dispersione
-scolastica, per proporre loro un modo alternativo di apprendimento ed una metodologia che ne
-favorisca la rimotivazione rispetto al proprio percorso di studi e che li inizi al piacere della
-lettura. Inclusione e socialità: l’attività, operativa e creativa, può essere rivolta anche agli alunni
-BES delle classi coinvolte, al fine di favorire la loro inclusione. Valorizzazione delle eccellenze: il
-laboratorio permette infine di potenziare le competenze degli alunni più dotati."
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Laboratorio scrittura creativa
-scrittura creativa e performance poetica. Il laboratorio è teorico pratico e si avvale di contributo
-testuale, Immagini, video e di esperti esterni per stimolare nel discente la conoscenza del testo
-poetico come forma di espressione letteraria anche partendo dalla scrittura come atto creativo.
-Mediante un percorso strutturato che attraversa le epoche e gli stili gli alunni apprenderanno
-coem realizzare un testo espressivo poetico, come leggerlo e performarlo. Il laboratorio è adatto
-a tutti gli alunni e consente di valorizzare l'acquisizione del linguaggio retorico e prossemico
-secondo le abilità di ciascun individuo.
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-individuazione di percorsi e di sistemi funzionali alla premialità e alla valorizzazione del
-merito degli alunni e degli studenti
-•
-Risultati attesi
-81
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+sulle abilità di comprensione e uso della lingua inglese;
+- le competenze, le conoscenze e le abilità anche professionali acquisite;
+- le attività culturali, artistiche e di pratiche musicali, sportive e di volontariato, svolte in am-
+bito extra scolastico;
+- le attività relative ai PCTO;
+- altre eventuali certificazioni conseguite.” (LINEE GUIDA MIUR 2019)
+
+## 4.    Valutazione Dei Pcto
+
+
+## Valutazione Del Processo
+
+
+## Valutazione Dei Risultati
+
+Promuovere le competenze
+trasversali che sono legate anche agli
+aspetti caratteriali e motivazionali
+della persona
+Come? L’osservazione strutturata
+consente di attribuire valore anche
+agli atteggiamenti e ai comportamenti
+dello studente
+Fasi:
+1.          identificazione delle competenze
+attese al termine del percorso
+(risultati di apprendimento);
+2.          accertamento delle competenze
+in ingresso
+3.          comunicazione efficace agli
+interessati sugli obiettivi di
+apprendimento
+4.          programmazione degli strumenti
+e azioni di osservazione
+5.          verifica dei risultati conseguiti
+nelle fasi intermesie;
+6.          accertamento delle competenze
+in uscita
+Strumenti
+Rubriche, schede di osservazione,
+diari di bordo, ecc.
+Strumenti
+Compiti di realtà, prove esperte, project
+work
+84
 
 ---
 
 ## Pagina 86
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Mediante un percorso strutturato che attraversa le epoche e gli stili gli alunni apprenderanno
-coem realizzare un testo espressivo poetico, come leggerlo e performarlo. Il laboratorio è adatto
-a tutti gli alunni e consente di valorizzare l'acquisizione del linguaggio retorico e prossemico
-secondo le abilità di ciascun individuo.
-Destinatari
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Valutazione finale a cura del Consiglio di classe
+(ricaduta sugli apprendimenti disciplinari e comportamento)
+
+## Certificazione
+
+(nell’ambito del curriculum dello studente)
+
+## Iniziative Di Ampliamento Curricolare
+
+
+## Debate
+
+Trattazione argomentativa su questioni di rilevanza socio -culturale
+Obiettivi formativi e competenze attese
+comunicazione nella madrelingua: utilizzare il patrimonio lessicale ed espressivo della
+lingua italiana secondo le esigenze comunicative nei vari contesti: sociali, culturali,
+scientifici, economici, tecnologici, riferito alla programmazione annuale di
+valorizzazione delle eccellenze
+
+## Destinatari
+
+
+## Risorse Professionali
+
 Gruppi classe
-Risorse professionali
 Interno
-Sportello didattico di Fisica
-recupero/approfondimento del programma. L'attività avrà carattere preminentemente pratico e
-laboratoriale incentrato su esercitazioni in piccoli gruppi.
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-potenziamento di competenze chiave per l'apprendimento permanente: competenze di base in
-campo scientifico (nello specifico recupero/potenziamento delle competenze disciplinari di base
-e problem solving), imparare ad imparare (attraverso il miglioramento delle strategie di
-apprendimento)
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-82
 
-## B.Marsano - Geis012004
+## Tecnologie Informatiche Integrate Alle Discipline Scolastiche
 
+Corso laboratoriale di apprendimento delle nuove tecnologie integrate alla didattica
+Obiettivi formativi e competenze attese
+competenze digitali:utilizzare e produrre strumenti di comunicazione visiva e
+multimediale, anche con riferimento alle strategie espressive e agli strumenti tecnici
+della comunicazione in rete. Utilizzare le reti e gli strumenti informatici nelle attività di
+studio, ricerca e approfondimento disciplinare. Tale attività facoltativa/opzionabile
+dalle famiglie e viene svolta in orario antimeridiano
+85
 
 ---
 
 ## Pagina 87
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Matematica applicata al settore
-Il laboratorio prevede di effettuare misurazioni di fasce o aiuole nella sede di Sant'Ilario, con lo
-scopo di calcolarne l'area e individuare la quantità di piante coltivabili in tale spazio.
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-Risultati attesi
-Evidenziare l'utilità della matematica a livello pratico e non solo teorico.
-Destinatari
-Gruppi classe
-Risorse professionali
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Classi aperte parallele
 Interno
-PAS Feurstein
-"Le attività verranno eseguite in piccoli gruppi, attraverso gli strumenti del PAS integrate ad altre
-metodologie e consistono in esercizi eseguiti in modalità carta-matita e materiale manipolativo.
-Attraverso di essi e l’attività di mediazione, lo studente apprende riflettendo sulle proprie
-capacità, punti di forza e limiti del proprio apprendimento."
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-83
 
-## B.Marsano - Geis012004
+## Microconferenze
 
+Corso sulla scrittura e l’esposizione incisiva e persuasiva di microconferenze
+Obiettivi formativi e competenze attese
+Comunicazione nella madrelingua: utilizzare il patrimonio lessicale ed espressivo della
+lingua italiana secondo le esigenze comunicative nei vari contesti: sociali, culturali,
+scientifici, economici, tecnologici.Tale attività è riferita alla programmazione annuale di
+valorizzazione delle eccellenze.
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+Approfondimento
+Si fa presente che tale attività rientra in un progetto più ampio  volto all'innovazione
+metodologica. La proposta innovativa completa  proposta dal nostro istituto in tal
+senso è declinata più dettagliatamente nella sezione dedicata dal titolo "le scelte
+strategiche e possibili azione di innovazione" .
+Confluiscono in tale progetto su citato  anche le azioni  legate alla innovazione
+metodologica  di Flipped Classroom e Service Learning
+
+## Counseling
+
+Attività di empowerment per il potenziamento della capacità personali di ciascun
+studente e uno sviluppo consapevole delle risorse personali
+Obiettivi formativi e competenze attese
+Potenziare la consapevolezza di imparare ad imparare
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## “Fermi In Musica”
+
+86
 
 ---
 
 ## Pagina 88
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione e del
-bullismo, anche informatico; potenziamento dell'inclusione scolastica e del diritto allo studio
-degli alunni con bisogni educativi speciali attraverso percorsi individualizzati e personalizzati
-anche con il supporto e la collaborazione dei servizi socio-sanitari ed educativi del territorio e
-delle associazioni di settore e l'applicazione delle linee di indirizzo per favorire il diritto allo
-studio degli alunni adottati, emanate dal Ministero dell'istruzione, dell'università e della
-ricerca il 18 dicembre 2014
-•
-valorizzazione di percorsi formativi individualizzati e coinvolgimento degli alunni e degli
-studenti
-•
-Risultati attesi
-"Recuperare le funzioni cognitive carenti; acquisire i concetti fondamentali, etichette, vocaboli,
-operazioni e relazioni; favorire la motivazione intrinseca; produrre processi riflessivi e
-metacognitivi come risultato del confronto con i successi e con i fallimenti nei compiti proposti;
-trasformare l'allievo da recettore e riproduttore di informazioni passivo a produttore attivo di
-nuove informazioni; acquisizione di contenuti in maniera sistematica di alcune conoscenze
-ritenute essenziali all'esperienza sociale, personale e culturale, e che costituiscono la base per
-apprendimenti successivi; consolidamento di processi, resi possibili dalla manipolazione delle
-conoscenze e dei contenuti acquisiti, che permette di sviluppare aspetti operazionali, logici e
-concettuali dell'apprendimento e operazioni mentali."
-Risorse professionali
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Laboratorio di pratica musicale volto al potenziamento dello studio di uno strumento
+musicale
+Obiettivi formativi e competenze attese
+Potenziamento della consapevolezza e delle espressioni culturali nelle sue diverse
+declinazioni e forme
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
 Interno
-Laboratorio "leggere il presente"
-Il laboratorio “Leggere il presente” vuole stimolare la curiosità e facilitare la comprensione delle
-più attuali questioni socio-culturali sia italiane che estere. Le attività laboratoriali, svolte a partire
-da gennaio, saranno un’occasione per avvicinare gli studenti al mondo dell’informazione
-giornalistica rinforzando di pari passo le abilità di lettura e comprensione del testo scritto.
-84
 
-## B.Marsano - Geis012004
+## Olimpiadi Della Matematica Individuale E Di Squadra
 
+Attività di potenziamento delle competenze logico matematiche finalizzata anche a
+stimolare l’interesse per la matematica
+Obiettivi formativi e competenze attese
+Utilizzare il linguaggio e i metodi propri della matematica per organizzare e valutare
+adeguatamente informazioni qualitative e quantitative. Utilizzare le strategie del
+pensiero razionale negli aspetti dialettici e algoritmici per affrontare situazioni
+problematiche, elaborando opportune soluzioni. Tale attività viene svolta in
+riferimento alla programmazione annuale di valorizzazione delle eccellenze
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## “Per Amare Ed Essere Amato”
+
+Percorso di educazione all’affettività e alla sessualità
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+Approfondimento
+Si fa presente che l’emergenza epidemiologica da Covid-19 e le connesse
+disposizioni per fronteggiarla, tra cui la sospensione delle attività didattiche e
+87
 
 ---
 
 ## Pagina 89
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, hanno avuto un grande impatto
+sulle pratiche educative e didattiche e, allo stesso tempo, sui processi gestionali ed
+organizzativi dell’intero sistema scolastico per quanto attiene le diverse dimensioni
+che caratterizzano le aree di Contesto, dei Processi e soprattutto degli Esiti.
+Pertanto, si rende prioritario ed indispensabile, per l'anno scolastico 2020/2021 ,
+rivolgere le nostre azioni di miglioramento per:
+• garantire l’ordinario e quotidiano svolgimento, in presenza e/o a distanza
+dell’attività educativa e didattica;
+• acquisire e consolidare le competenze di base;
+utilizzare le metodologie didattiche innovative.
 •
-Risultati attesi
-rinforzare le capacità di lettura e comprensione del testo, implementare le competenze lessicali
-Destinatari
+Pertanto, relativamente all'anno scolastico 2020/2021, il progetto in oggetto non
+viene realizzato ovvero previsto eventualmente in modalità a distanza
+
+## “Heraclea In Poesia”
+
+Corso laboratoriale di produzione poetico-espressiva e partecipazione al concorso
+Obiettivi formativi e competenze attese
+Potenziamento della consapevolezza delle differenti forme di espressione culturale
+
+## Destinatari
+
+
+## Risorse Professionali
+
 Gruppi classe
-Risorse professionali
 Interno
-English in action
-Attività di potenziamento della lingua inglese tramite attività laboratoriali
-Obiettivi formativi prioritari del PTOF collegati
-valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento
-all'italiano nonché alla lingua inglese e ad altre lingue dell'Unione europea, anche mediante
-l'utilizzo della metodologia Content language integrated learning
-•
-Risultati attesi
-Miglioramento comprensione e utilizzo lingua inglese
-Destinatari
-Gruppi classe
-85
 
-## B.Marsano - Geis012004
+## Certificazione Cambridge B1, B2, C1, Ceritficazioni Lingua Francese E Lingua
 
+
+## Tedesca
+
+Corso di lingua inglese, francese e tedesco per la certificazione dei livelli secondo il
+quadro di riferimento europeo
+Obiettivi formativi e competenze attese
+Potenziamento delle competenze delle lingue straniere
+88
 
 ---
 
 ## Pagina 90
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Risorse professionali
-Esterno
-Corso di apicoltura
-Introdurre gli studenti alla pratica dell'apicoltura
-Obiettivi formativi prioritari del PTOF collegati
-sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto della legalità,
-della sostenibilità ambientale, dei beni paesaggistici, del patrimonio e delle attività culturali
-•
-Risultati attesi
-Conseguimento di una buona conoscenza e manualità nella pratica dell'apicoltura
-Destinatari
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Destinatari
+
+
+## Risorse Professionali
+
 Gruppi classe
-Risorse professionali
 Interno
-Bird watching
-introdurre gli studenti alla pratica dell'osservazione degli uccelli e delle loro attività migratorie
-sul territorio Ligure
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
-•
-86
+Approfondimento
+Si fa presente che, considerata l'emergenza epidemiologica da Covid-19  e le
+connesse disposizioni per fronteggiarla, tra cui la sospensione delle attività
+didattiche e l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, considerato anche che i partner
+erogatori della suddetta certificazione non hanno ancora provveduto ad un'azione
+di certificazione anche a distanza, per tutto il periodo di emergenza in riferimento
+all'anno scolastico 2020/2021, tale attività è sospesa.
 
-## B.Marsano - Geis012004
+## Certificazioni Di Informatica
 
+Corso laboratoriale di informatica per la preparazione alle certificazioni Eipass
+Obiettivi formativi e competenze attese
+Potenziamento della consapevolezza di un corretto utilizzo delle tecnologie
+informatiche
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Olimpiadi Di Informatica, Olimpiadi Problem Solving Bebras
+
+Corso di approfondimento di metodologie innovative e dell’approccio di risoluzione
+dei problemi a vari livelli
+Obiettivi formativi e competenze attese
+Potenziamento delle competenze digitali e il suo utilizzo integrato alla didattica
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+Approfondimento
+89
 
 ---
 
 ## Pagina 91
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Iniziative di ampliamento dell'offerta formativa
 
-## Ptof 2022 - 2025
+## Formativa
 
-Risultati attesi
-Acquisizione di nuove competenze didattiche e professionali
-Destinatari
-Gruppi classe
-Risorse professionali
-Interno
-Fotogrammetria applicata al territorio agricolo
-terrazzato
-Corso di formazione sull'utilizzo della fotogammetria come sistema di riferimento per
-l'esecuzione di rilievi sul territorio
-Obiettivi formativi prioritari del PTOF collegati
-potenziamento delle metodologie laboratoriali e delle attività di laboratorio
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Si fa presente che l’emergenza epidemiologica da Covid-19 e le connesse
+disposizioni per fronteggiarla, tra cui la sospensione delle attività didattiche e
+l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, hanno avuto un grande impatto
+sulle pratiche educative e didattiche e, allo stesso tempo, sui processi gestionali ed
+organizzativi dell’intero sistema scolastico per quanto attiene le diverse dimensioni
+che caratterizzano le aree di Contesto, dei Processi e soprattutto degli Esiti.
+Pertanto, si rende prioritario ed indispensabile, per l'anno scolastico 2020/2021 ,
+rivolgere le nostre azioni di miglioramento per:
+• garantire l’ordinario e quotidiano svolgimento, in presenza e/o a distanza
+dell’attività educativa e didattica;
+• acquisire e consolidare le competenze di base;
+utilizzare le metodologie didattiche innovative.
 •
-Risultati attesi
-Acquisizione di nuove competenze didattiche e professionali
-Destinatari
-Gruppi classe
-Risorse professionali
+Pertanto per l'anno scolastico 2020/2021 ovvero per tutto il periodo di emergenza,
+tale attività e sospesa o eventualmente realizzata in modalità a distanza
+
+## Giochi Della Chimica,
+
+Corso di approfondimento della chimica e partecipazione alla competizione
+concorsuale
+Obiettivi formativi e competenze attese
+Potenziamento delle competenze scientifiche e tecnologiche
+
+## Risorse Professionali
+
 Interno
-87
 
-## B.Marsano - Geis012004
+## Olimpiadi Della Fisica E “Giochi Di Anacleto”
 
+Corso di preparazione alla competizione di fisica “Anacleto”
+Obiettivi formativi e competenze attese
+Potenziamento delle competenze matematiche, scientifiche e tecnologiche
+90
 
 ---
 
 ## Pagina 92
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Attività previste per favorire la Transizione
-ecologica e culturale
 
-## Ptof 2022 - 2025
+## Formativa
 
-Attività previste per favorire la Transizione
-ecologica e culturale
-Raccolta differenziata
-Pilastri del piano RiGenerazione collegati all'attività
-·
-La rigenerazione dei comportamenti
-Obiettivi dell'attività
-Obiettivi sociali
-·
-Abbandonare la cultura dello scarto a
-vantaggio dalla cultura circolare
-Obiettivi ambientali
-·
-Maturare la consapevolezza dei diritti
-ecologici di tutti gli esseri viventi
-·
-Diventare consapevoli che i problemi
-ambientali vanno affrontati in modo
-sistemico
-·
-Imparare a minimizzare gli impatti delle
-azioni dell'uomo sulla natura
-·
-Conoscere il sistema dell'economia
-circolare
-Obiettivi economici
-88
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Biologia Con Curvatura Biomedica
+
+Corso di biologia per preparazione ai test di ingresso dei corsi di laurea afferenti
+all’area sanitaria biologica
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Esterno
+Approfondimento
+Si fa presente che l’emergenza epidemiologica da Covid-19 e le connesse
+disposizioni per fronteggiarla, tra cui la sospensione delle attività didattiche e
+l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, hanno avuto un grande impatto
+sulle pratiche educative e didattiche e, allo stesso tempo, sui processi gestionali ed
+organizzativi dell’intero sistema scolastico per quanto attiene le diverse dimensioni
+che caratterizzano le aree di Contesto, dei Processi e soprattutto degli Esiti.
+Pertanto, si rende prioritario ed indispensabile, per l'anno scolastico 2020/2021 ,
+rivolgere le nostre azioni di miglioramento per:
+• garantire l’ordinario e quotidiano svolgimento, in presenza e/o a distanza
+dell’attività educativa e didattica;
+• acquisire e consolidare le competenze di base;
+utilizzare le metodologie didattiche innovative.
+•
+Pertanto, in riferimento all'anno scolastico 2020/2021 o comunque per tutto il
+periodo di emergenza, considerato anche la presenza in tale progetto di medici e
+operatori sanitari, tale attività è sospesa
+
+## Attività Sportive E Giochi Sportivi Studenteschi
+
+Potenziamento di tecniche sportive e tattica di gioco
+91
 
 ---
 
 ## Pagina 93
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Attività previste per favorire la Transizione
-ecologica e culturale
 
-## Ptof 2022 - 2025
+## Formativa
 
-·
-Acquisire la consapevolezza che gli
-sconvolgimenti climatici sono anche un
-problema economico
-·
-Imparare a costruire i mestieri e le
-imprese del futuro a zero emissioni,
-circolari e rigenerative
-·
-Acquisire competenze green
-Risultati attesi
-Avviare, potenziare e monitorare la raccolta differenziata dei rifiuti in tutti i plessi dell'Istituto
-Collegamento con gli obiettivi dell'Agenda 2030
-·
-Obiettivo 3: Assicurare la salute e il benessere
-·
-Obiettivi 7 e 8: Energia pulita e accessibile
-·
-Obiettivo 11: Rendere le città inclusive e sostenibili
-·
-Obiettivo 12: Consumo responsabile
-·
-Obiettivo 13: Promuovere azioni per combattere i cambiamenti climatici
-·
-Obiettivo 15: Proteggere e favorire un uso sostenibile dell'ecosistema terrestre
-Collegamento con la progettualità della scuola
-·
-Obiettivi formativi del PTOF
-·
-Priorità e Traguardi del RAV/PdM
-·
-Curricolo dell'insegnamento trasversale di educazione civica
-89
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+Approfondimento
+Si fa presente che l’emergenza epidemiologica da Covid-19 e le connesse
+disposizioni per fronteggiarla, tra cui la sospensione delle attività didattiche e
+l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, hanno avuto un grande impatto
+sulle pratiche educative e didattiche e, allo stesso tempo, sui processi gestionali ed
+organizzativi dell’intero sistema scolastico per quanto attiene le diverse dimensioni
+che caratterizzano le aree di Contesto, dei Processi e soprattutto degli Esiti.
+Pertanto, si rende prioritario ed indispensabile, per l'anno scolastico 2020/2021 ,
+rivolgere le nostre azioni di miglioramento per:
+• garantire l’ordinario e quotidiano svolgimento, in presenza e/o a distanza
+dell’attività educativa e didattica;
+• acquisire e consolidare le competenze di base;
+utilizzare le metodologie didattiche innovative.
+•
+Pertanto, in riferimento all'anno scolastico 2020/2021, ovvero per tutto il periodo di
+emergenza tale attività è sospesa
+
+## Etimo: Lingua Latina E Lingua Greca
+
+Corso laboratoriale di approfondimento dell'etimologia e della storia delle parole in
+campo umanistico, tecnico, scientifico e medico. L'attività, inoltre, è volta ad
+approfondire la cultura della grecia e della magna grecia per una conoscenza più
+approfondita della identità europea e per una valorizzazione più consapevole del
+patrimonio artistico e culturale in generale a partire dalla lingua e dalla cultura latina e
+greca. Tale attività è facoltativa/opzionabile dalle famiglie per le classi prime e viene
+svolta in orario antimeridiano.
+Obiettivi formativi e competenze attese
+potenziamento delle capacità comunicative nella madrelingua e nella lingua straniera
+antica e moderna
+92
 
 ---
 
 ## Pagina 94
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Attività previste per favorire la Transizione
-ecologica e culturale
 
-## Ptof 2022 - 2025
+## Formativa
 
-Informazioni
-Descrizione attività
-Implementare, in accordo con l'AMIU, la raccolta differenziata anche attraverso l'adesione al
-progetto "differenziata 10 e lode" .
-Ci si attende di ridurre dell’80% i rifiuti indifferenziati e di rendere un’abitudine stabile il
-comportamento di separare i rifiuti e, infine, di ridurre la produzione dei rifiiuti stessi,
-soprattutto della plastica.
-Destinatari
-·
-Studenti
-·
-Personale scolastico
-Tempistica
-·
-Triennale
-Tipologia finanziamento
-·
-Fondo per il funzionamento
-dell'istituzione scolastica
-90
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Risorse Professionali
+
+Interno
+Approfondimento
+Si fa presente che l’emergenza epidemiologica da Covid-19 e le connesse
+disposizioni per fronteggiarla, tra cui la sospensione delle attività didattiche e
+l’introduzione della didattica a distanza quale modalità ordinaria di
+insegnamento/apprendimento a cui fare ricorso, hanno avuto un grande impatto
+sulle pratiche educative e didattiche e, allo stesso tempo, sui processi gestionali ed
+organizzativi dell’intero sistema scolastico per quanto attiene le diverse dimensioni
+che caratterizzano le aree di Contesto, dei Processi e soprattutto degli Esiti.
+Pertanto, si rende prioritario ed indispensabile, per l'anno scolastico 2020/2021 ,
+rivolgere le nostre azioni di miglioramento per:
+• garantire l’ordinario e quotidiano svolgimento, in presenza e/o a distanza
+dell’attività educativa e didattica;
+• acquisire e consolidare le competenze di base;
+utilizzare le metodologie didattiche innovative.
+•
+Pertanto, in riferimento all'anno scolastico 2020/2021, ovvero per tutto il periodo di
+emergenza, tale attività è sospesa
+
+## "Romanae Disputationes"
+
+Concorso nazionale sulla trattazione sintetica argomentativa di argomenti di studio e
+di attualità
+Obiettivi formativi e competenze attese
+potenziamento delle competenze comunicative in riferimento alla programmazione
+annuale di valorizzazione delle eccellenze
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+93
 
 ---
 
 ## Pagina 95
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Attività previste in relazione al PNSD
 
-## Ptof 2022 - 2025
+## Formativa
 
-Attività previste in relazione al PNSD
-Ambito 1. Strumenti
-Attività
-Titolo attività: Digitalizzazione Istituto
-Marsano
 
-## Amministrazione Digitale
+## Ptof - 2019/20-2021/22
 
-·    Digitalizzazione amministrativa della scuola
-Descrizione sintetica dei destinatari e dei risultati
-attesi
-La scuola ha individuato un animatore digitale e un team digitale,
-che coordina la diffusione dell’innovazione a scuola e le attività
-del PNSD.
-La sua attività è il coordinamento e la formazione interna alla
-scuola negli ambiti del PNSD
-verso i docenti, con la diffusione di innovazioni
-metodologiche sostenibili per l’insegnamento;
-•
-verso gli studenti con la promozione di situazioni in cui lo
-studente possa esprimere e rafforzare le competenze
-digitali;
-•
-verso la comunità scolastica tutta attraverso il
-coinvolgimento in attività formative laboratoriali.
-•
-Nel corso degli ultimi anni gli interventi di digitalizzazione della
-scuola hanno fatto enormi passi avanti. La scuola attualmente
-abilita per ciascun docente e studente un account istituzionale al
-fine di  migliorare la comunicazione tra docenti e studenti e
-consentire un corretto svolgimento, qualora fosse necessario, di
-Didattica digitale Integrata o Didattica a Distanza.
-La scuola utilizza la piattaforma Google Suite for Education,
-Microsoft Teams e il registro elettronico Argo.
-91
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+
+## Conversazione Inglese , Potenziamento Delle Competenze Di Base Della
+
+
+## Lingua Inglese
+
+attività di potenziamento in orario antimeridiano volto al consolidamaento della lingua
+inglese in situazioni e contesti pratici e reali
+Obiettivi formativi e competenze attese
+Potenziamento delle capacità di comunicazione almeno in una lingua straniera. Tale
+attività è facoltativa/opzionabile dalle famiglie e viene svolta in orario antimeridiano
+nelle prime classi dell'indirizzo scientifico e opzione scienze applicate.
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Arti Visive, Grafica, Fotografia
+
+attività laboratoriale di potenziamento delle arti e del disegno e della fotografia nelle
+forme più diverse e moderne
+Obiettivi formativi e competenze attese
+consolidamento e potenziamento delle abilità di disegno volto ad aumentare la
+consapevolezza delle diverse forme di espressione culturale. Tale attività è
+facoltativa/opzionabile dalle famiglie per le classi prime e seconde e viene svolta in
+orario antimeridiano.
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Italiano
+
+potenziamento e approfondimento di alcuni moduli di grammatica italiana volti al
+consolidamento e potenziamento delle capacità di lettura, scritttura, comprensione,
+analisi e interpretazione delle varie tipologie testuali
+Obiettivi formativi e competenze attese
+potenziamento delle competenze della comunicazione nella madrelingua. Tale attività
+è facoltativa/opzionabile dalle famiglie per le classi seconde e viene svolta in orario
+antimeridiano.
+94
 
 ---
 
 ## Pagina 96
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Attività previste in relazione al PNSD
 
-## Ptof 2022 - 2025
+## Formativa
 
-Ambito 2. Competenze e contenuti
-Attività
-Titolo attività: Sviluppo del pensiero
-computazionale
 
-## Competenze Degli Studenti
+## Ptof - 2019/20-2021/22
 
-·    Aggiornare il curricolo di "Tecnologia" alla scuola secondaria di
-primo grado
-Descrizione sintetica dei destinatari e dei risultati
-attesi
-Ambito 3. Formazione e
-Accompagnamento
-Attività
-Titolo attività: Potenziamento della
-formazione digitale
 
-## Formazione Del Personale
+## Enrico Fermi
 
-·    Rafforzare la formazione iniziale sull’innovazione didattica
-Descrizione sintetica dei destinatari e dei risultati
-attesi
-Verrà proposta un'attività di potenziamento delle competenze
-digitali a carico di tutti i docenti e gli studenti interessati
-dell'Istituto da parte del team digitale
-92
 
-## B.Marsano - Geis012004
+## Destinatari
 
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Matematica
+
+Potenziamento e approfondimento di alcuni moduli di matematica volti al
+consolidamento delle capacità di problem solving e calcolo matematico e scientifico
+Obiettivi formativi e competenze attese
+potenziamento delle competenze matematiche e logiche. Tale attività è
+facoltativa/opzionabile dalle famiglie per le classi seconde e viene svolta in orario
+antimeridiano.
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Approfondimento Discipline Scientifiche
+
+Tale attività è volta all'approfondimento delle discipline scientifiche : scienze, biologia,
+chimica, laboratorio di fisica
+Obiettivi formativi e competenze attese
+Potenziamento delle competenze tecnologiche e scientifiche
+
+## Risorse Professionali
+
+Interno
+
+## Progetto Pon. Progetto Finalizzato Alla Riduzione Del Fallimento
+
+
+## Formativo Precoce E Della Dispersione Scolastica E Formativa
+
+area inclusione. Il progetto mira al potenziamento delle discipline fondamentali ed è
+volto alla riduzione della dispersione scolastica
+Obiettivi formativi e competenze attese
+potenziamento delle competenze linguistiche e matematiche
+95
 
 ---
 
 ## Pagina 97
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Azioni della Scuola per l'inclusione scolastica
 
-## Ptof 2022 - 2025
+## Formativa
 
-Azioni della Scuola per l'inclusione scolastica
-Analisi del contesto per realizzare l'inclusione scolastica
 
-## Bisogni Educativi Speciali
+## Ptof - 2019/20-2021/22
 
-I Bisogni Educativi Speciali (BES) comprendono una categoria di studenti che necessitano di
-particolare attenzione affinché si realizzi una piena inclusione scolastica.
-La categoria BES comprende:
-alunni con la certificazione di disabilità (L.104/92);
-•
-alunni con la certificazione di Disturbi Specifici dell’Apprendimento (DSA) (L.170/2010);
-•
-alunni che presentano altri disturbi clinici che non danno diritto all’attivazione né della
-L.104/92 né alla L.170/2010, ma che sono ricompresi tra le classificazioni diagnostiche dei
-manuali nosografici di riferimento ICD e DSM-5 (a titolo di esempio, gli alunni con DCM, DSL,
-Spettro autistico ad alto funzionamento, ecc.) e per i quali viene redatta una diagnosi con
-profilo funzionale;
-•
-alunni che non necessitano di alcuna certificazione né diagnosi che rientrano nell’area dello
-svantaggio socioeconomico, linguistico e culturale individuati dalla scuola come indicato nella
-C.M. n. 8 del 06/03/2013.
-•
-Indipendentemente dalle diagnosi o certificazioni, la scuola si fa carico delle difficoltà mostrate
-dall’alunno, in linea con le finalità di tutta la normativa sui BES.
-Inclusione e differenziazione
-Punti di forza:
-La scuola accoglie un numero massiccio di alunni/e con disabilità con percorsi sia differenziati che
-per obiettivi equipollenti. I percorsi differenziati dopo il biennio diventano integrati con progetti di
-formazione esterna, soprattutto grazie alle convenzioni attive tra l'istituto, IsforCoop ed Alfa Liguria.
-Vengono altresì formulati piani personalizzati per alunni/e con DSA e BES. La recente normativa
-prevede la possibilità di percorsi alternativi in collaborazione con enti del terzo settore che
-93
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Esterno
+
+## Progetto Regione Basilicata : Cinema Per La Scuola, Progetto Del E Per Le
+
+
+## Scuole
+
+Il progetto è volto alla realizzazione di un cortometraggio sulla valorizzazione dei beni
+culturali e ambientali del territorio magnogreco
+Obiettivi formativi e competenze attese
+il progetto è volto al potenziamento delle competenze comunicative
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Esterno
+
+## Progetto Regionale Basilicata Potenza. Scuola 2.0
+
+Il progetto è volto alla realizzazione di classi digitali
+Obiettivi formativi e competenze attese
+Il progetto è volto al potenziamento delle competenze digitali e informatiche applicate
+allo studio delle discipline
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Progetto Pon: Realizzazione Laboratorio Linguistico/Informatico
+
+Il progetto è volto alla realizzazione del laboratorio linguistico e informatico
+Obiettivi formativi e competenze attese
+Il progetto è volto al potenziamento delle competenze linguistiche straniere e le
+competenze informatiche
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Progetto Pon: Ampliamento Laboratorio Di Simulatore Nautico
+
+96
 
 ---
 
 ## Pagina 98
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Azioni della Scuola per l'inclusione scolastica
 
-## Ptof 2022 - 2025
+## Formativa
 
-permetterà un miglioramento dei percorsi personalizzati con il raggiungimento di qualifiche
-professionali per alunni con BES. Tali percorsi diventeranno pertanto strutturali e personalizzabili
-così da poter essere offerti a tutte le studentesse e gli studenti della scuola.
-Punti di debolezza:
-Necessità per l'Istituto di offrire percorsi altamente personalizzati, differenziando al massimo
-metodologie ed utilizzo di strumentazioni specifiche. Necessità di condividere le buone pratiche
-presenti in ogni plesso, così da strutturare percorsi fruibili da tutti e da tutte gli/le alunni/e. Mancano
-laboratori interni ad hoc che favoriscano lo sviluppo delle potenzialità delle studentesse e degli
-studenti (laboratori multi-sensoriali, fattoria didattica, ecc.).
-Composizione del gruppo di lavoro per l'inclusione (GLI):
-Dirigente scolastico
-Docenti curricolari
-Docenti di sostegno
-Specialisti ASL
-Associazioni
-Famiglie
-Definizione dei progetti individuali
-Processo di definizione dei Piani Educativi
-Individualizzati (PEI)
-La programmazione e la valutazione degli alunni con disabilità viene fatta sulla base del Piano
-Educativo Individualizzato (PEI) dove sono indicati i punti di forza dell’allievo, le condizioni di contesto
-che possono ostacolare o favorire lo sviluppo della persona e degli apprendimenti, le discipline ove
-si adottano personalizzazioni e i rispettivi criteri. Il PEI viene redatto dal Gruppo di Lavoro Operativo
-per l’inclusione (GLO) a cui partecipano le componenti della “comunità educante” compresi i genitori
-dell’alunno e lo studente della scuola secondaria di II grado. Gli alunni con disabilità possono seguire
-percorsi didattici ordinari o personalizzati, con conseguimento del diploma e percorsi differenziati
-94
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+Il progetto è volto all'ampliamento e l'allocazione di nuove strumentazioni nautiche
+Obiettivi formativi e competenze attese
+il progetto è volto al potenziamento delle competenze previste per l'articolazione di
+conduzione del mezzo navale in riferimento all'istituto tecnico trasporti e logistica
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Progetto Pon: Realizzazione Laboratori Digitali In Diverse Classi
+
+Il progetto è volto alla realizzazione e allocazione di strumentazioni digitali moderne
+Obiettivi formativi e competenze attese
+Il progetto è volto al potenziamento delle competenze digitali
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Progetto Pon: Laboratorio Di Meccanica, Laboratori Di Creatività
+
+IL progetto è volto alla realizzazione e all'ampliamento del laboratorio di meccanica e
+laboratori di creativitàè
+Obiettivi formativi e competenze attese
+Il progetto è volto al potenziamento delle competenze tecniche meccaniche e al
+potenziamento delle competenze creative e manuali
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Progetto Pon: Orientamento Formativo E Riodirnamento
+
+Il progetto è volto al potenziamento delle attività di orientamento in entrata e in uscita
+degli studenti
+Obiettivi formativi e competenze attese
+il progetto è volto al potenziamento della competenza di imparare ad imparare
+97
 
 ---
 
 ## Pagina 99
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Azioni della Scuola per l'inclusione scolastica
 
-## Ptof 2022 - 2025
+## Formativa
 
-con conseguimento della certificazione delle competenze.
-Soggetti coinvolti nella definizione dei PEI
-Il PEI viene redatto dal Gruppo di Lavoro Operativo per l’inclusione (GLO) a cui partecipano le
-componenti della “comunità educante” compresi i genitori dell’alunno e lo studente della scuola
-secondaria di II grado.
-Modalità di coinvolgimento delle famiglie
-Ruolo della famiglia
-Il rapporto tra la scuola e le famiglie è alla base del percorso didattico-educativo degli allievi e si
-realizza tramite i ricevimenti individuali e collettivi. Le famiglie sono, inoltre, in costante contatto con
-il coordinatore della classe che, tramite il rappresentante dei genitori, li rende partecipi delle attività
-della scuola. Inoltre, particolare attenzione viene posta alla formazione del gruppo classe sia in
-termini di accoglienza che in termini di criteri per la composizione della classe. In questo senso,
-molto importante risultano essere i colloqui iniziali con le famiglie, oltre all'acquisizione
-dell'eventuale certificazione.
-Modalità di rapporto scuola-famiglia
-•
-Coinvolgimento in progetti di inclusione
-•
-Coinvolgimento in attività di promozione della comunità educante
-Risorse professionali interne coinvolte
-95
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Esterno
+
+## Progetto Pon: Cittadinanza Europea
+
+Il progetto è volto al potenziamento delle competenze linguistiche e di diritto
+cittadinanza
+Obiettivi formativi e competenze attese
+Il progetto è volto al potenziamento delle competenze linguistiche e di diritto
+cittadinanza
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Esterno
+
+## Progetto Pon: Cittadinanza Globale E Digitale
+
+Il progetto è volto al potenziamento delle competenze di cittadinanza europee. Più
+specificamente, il focus del progetto sono le competenze digitali legate alla capacità di
+comunicare in forma scritta e orale
+Obiettivi formativi e competenze attese
+Il progetto è volto al potenziamento delle competenze di cittadinanza europee. Più
+specificamente, il focus del progetto sono le competenze digitali legate alla capacità di
+comunicare in forma scritta e orale
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Olimpiadi Di Filosofia
+
+Attività di ricerca, analisi, comprensione e interpretazione di testi filosofici
+Obiettivi formativi e competenze attese
+Potenziare il pensiero logico, filosofico e argomentativo. potenziare la competenza di
+imparare ad imparare, della comunicazione e della collaborazione
+98
 
 ---
 
 ## Pagina 100
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Azioni della Scuola per l'inclusione scolastica
 
-## Ptof 2022 - 2025
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+Approfondimento
+Si fa presente che in riferimento all'anno scolastico 2020/2021 ovvero per tutto il
+periodo di emergenza, tale attività è sospesa o eventualmente svolta in modalità a
+distanza
+
+## Olimpiadi Di Astronomia
+
+Attività di approfondimento delle materie scientifiche-astronomiche
+Obiettivi formativi e competenze attese
+Potenziare le capacità matematiche e tecnico-scientifiche
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Cittadinanza E Costituzione
+
+- PERCORSI DI CITTADINANZA IN INTESA PREVALENTeMENTE CON LA REGIONE
+
+## Basilicata E Il Miur
+
+Obiettivi formativi e competenze attese
+Sviluppare il senso di una cittadinanza attiva e democratica attraverso la
+valorizzazione e il rispetto dei propri dirittu e dei propri doveri. Favorire un'educazione
+di dialogo e rispetto interculturale, anche attraverso la rilettura storica nonchè della
+solidarietà e della cura del bene comune.
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Gemelaggi
+
+Rapporti di studio e collaborazione con un istituto Danese e Olandese.
+99
+
+---
+
+## Pagina 101
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Obiettivi formativi e competenze attese
+Potenziare la competenza di comunicare in lingua straniera e di collaborazione
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## L2: Lingua Italiana Per Stranieri
+
+Corso di potenziamento della lingua italiana per ragazzi stranieri.
+Obiettivi formativi e competenze attese
+Potenziare le competenze linguistiche e comunicative
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Altro
+Interno
+
+## Competenze Lingua Straniera: Francese, Diplôme De Français
+
+
+## Professionnel - Relations Internationales B2+
+
+L'attività è volta al potenziamento e consolidamento della lingua francese.
+Obiettivi formativi e competenze attese
+e attività di potenziamento di lingua francese sono finalizzate all'acquisizione delle
+competenze linguistiche orali( necessarie per la comunicazione quotidiana. Le
+modalità di lezione utilizzeranno il: pair work,role play,team games finalizzate all'uso
+della lingua parlata in contesti reali di comunicazione.A tal scopo,saranno presentate
+situazioni concrete della vita quotidiana anche attraverso brevi video in cui la lingua è
+utilizzata essenzialmente per la comunicazione pratica.
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Percorsi Di Cittadinanza
+
+sono attivati percorsi di cittadinanza in collaborazione on la Regione Basilicata e il
+Miur
+100
+
+---
+
+## Pagina 102
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Obiettivi formativi e competenze attese
+I percorsi sono volti al potenziamento delle competenze chiave di cittadinanza
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Teatro Antico E Moderno
+
+L'attività è volta alla scrittura ovvero riscrittura e alla rappresentazione scenica di
+un'opera antica e moderna o alla contaminazione tra le stesse
+Obiettivi formativi e competenze attese
+- Potenziare le competenze linguistiche e letterarie in riferimento ai contenuti oggetti
+di studio - potenziare le competenze della comunicazione in una dimensione integrale
+anche in riferimento al linguaggio non verbale - potenziare le competenze civiche in
+riferimento ai contenuti oggetto di studio - maturare la consapevolezza
+dell'importanza della comunicazione e il messaggio ad esso destinato
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Gruppi classe
+Interno
+
+## Pon Fsre, Smart Class
+
+Il progetto è volto all'acquisto dei devices tecnologici allo scopo di innovare le
+metodologie didattiche
+Obiettivi formativi e competenze attese
+- potenziare le competenze digitali - maturare la consapevolezza di un giusto utilizzo
+degli strumenti tecnologici e la loro ricaduta sul piano didattico - Incentivare la
+realizzazione di metodologie innovative e inclusive
+
+## Destinatari
+
+
+## Risorse Professionali
+
+Altro
+Interno
+
+## Attività Previste In Relazione Al Pnsd
+
+101
+
+---
+
+## Pagina 103
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Strumenti
+
+
+## Attività
+
+
+## Spazi E Ambienti Per
+
+
+## L’Apprendimento
+
+Linee guida per politiche attive di BYOD (Bring
+Your Own Device)
+I destinatari sono gli studenti delle classi prime.
+Le competenze attese riguardano l'uso
+consapevole dei dispositivi per l'apprendimento e
+l'utilizzo di app didattiche per la produzione di
+lavori multimediali
+•
+Ambienti per la didattica digitale integrata
+La formazione è rivolta al personale docente e
+viene erogata in modo diversificato in base ai
+livelli di competenza: livello base, livello avanzato,
+metodologie innovative
+Tale formazione è volta prioritariamente alla
+acquisizione di metodologie per una didattica
+innovativa e multimediale
+•
+Ambienti per la didattica digitale integrata
+Tale attività è indirizzata agli studenti
+diversamente abili dell'istituto che, attraverso
+attività di Coding e robotica educativa, vedono
+agevolato il proprio processo di inclusione
+scolastica e lo sviluppo delle competenze logico-
+cognitive utili ad una migliore integrazione nella
+società.
+•
+
+## Competenze E Contenuti
+
+
+## Attività
+
+Scenari innovativi per lo sviluppo di competenze
+digitali applicate
+•
+
+## Competenze Degli Studenti
+
+102
+
+---
+
+## Pagina 104
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Competenze E Contenuti
+
+
+## Attività
+
+I destinatari sono gli studenti delle classi prime.
+Le competenze attese riguardano l'uso
+consapevole dei dispositivi per l'apprendimento e
+l'utilizzo di app didattiche per la produzione di
+lavori multimediali
+Scenari innovativi per lo sviluppo di competenze
+digitali applicate
+Tale attività è indirizzata agli studenti
+diversamente abili dell'istituto che, attraverso
+attività di Coding e robotica educativa, vedono
+agevolato il proprio processo di inclusione
+scolastica e lo sviluppo delle competenze logico-
+cognitive utili ad una migliore integrazione nella
+società.
+•
+
+## Formazione E
+
+
+## Accompagnamento
+
+
+## Attività
+
+
+## Formazione Del Personale
+
+Rafforzare la formazione iniziale sull’innovazione
+didattica
+La formazione è rivolta al personale docente e
+viene erogata in modo diversificato in base ai
+livelli di competenza: livello base, livello avanzato,
+metodologie innovative
+Tale formazione è volta prioritariamente alla
+acquisizione di metodologie per una didattica
+innovativa e multimediale
+•
+103
+
+---
+
+## Pagina 105
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Formazione E
+
+
+## Accompagnamento
+
+
+## Attività
+
+
+## Accompagnamento
+
+Un animatore digitale in ogni scuola
+Iniziative rivolte al territorio per la divulgazione
+delle buone pratiche relative al PNSD
+•
+
+## Valutazione Degli Apprendimenti
+
+
+## Ordine Scuola: Scuola Secondaria Ii Grado
+
+
+## Nome Scuola:
+
+
+## Enrico Fermi - Mtps01701A
+
+
+## Tecnico "E. Fermi" - Mtth01701X
+
+Criteri di valutazione comuni:
+La valutazione, condotta con cadenza regolare al termine di ogni ciclo di
+formazione curricolare e di ogni unità di apprendimento, trova fondamento nella
+definizione dei saperi e degli orientamenti culturali che costituiscono l’identità
+dell’istituto e trova compimento nel profilo formativo in uscita degli studenti.
+In tale profilo si compendiano competenze che si declinano in conoscenze e
+competenze e si attuano in una forma di “sapere in azione”, valutabile dal grado
+sufficiente a quello eccellente.
+La valutazione ha di fatto la funzione di eseguire un bilancio consuntivo della
+programmazione didattica, da cui si ricavano indicazioni per modificare e
+migliorare l’assetto strutturale e organizzativo nel segno della promozione dei
+talenti e della efficacia didattica.
+Pertanto, essa deve vertere a:
+• orientare le attività di didattiche con attenzione agli stili cognitivi e alle modalità
+di studio e di applicazione degli studenti;
+• adottare strategie concrete di responsabilizzazione degli studenti rispetto al
+percorso di apprendimento e formazione, promuovendo l’autostima e
+l’autovalutazione;
+• valorizzare e utilizzare le nuove tecnologie e i laboratori;
+104
+
+---
+
+## Pagina 106
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+• accompagnare all’azione didattica e culturale la riflessione sistematica sugli esiti
+e sulla ricerca volta all’innovazione di metodi e contenuti;
+Anche la progettazione di attività curriculari ed extra-curriculari concorre alla
+valutazione complessiva dei progressi compiuti e della crescita dei discenti
+poiché il controllo e monitoraggio sistematico delle attività fornisce elementi per
+riflettere e analizzare gli effetti dell’azione educativa, per apportare le necessarie
+modifiche, individuando punti di forza e di debolezza, aree di miglioramento e di
+valorizzazione.
+
+## • Verifiche E Tabelle Di Valutazione
+
+La scuola opera per costruire una cultura corretta della valutazione, centrata
+sulla sua funzione formativa, intesa come strumento di crescita e non
+esclusivamente come fine a se stante o mero risultato
+.
+La valutazione sarà distinta in diagnostica, formativa e sommativa .
+Per deliberazione del collegio dei docenti, l’anno scolastico ha scansione
+quadrimestrale;
+Le verifiche, in numero congruo ed equilibratamente distribuite nel corso
+dell’anno scolastico devono garantire la maggiore fondatezza possibile alle
+valutazioni finali.
+Si precisa che, per ogni alunno, saranno effettuate almeno due prove scritte e
+due orali a quadrimestre , ove è previsto il voto per lo scritto e quello per l’orale;
+almeno due verifiche a quadrimestre ( che possono essere sia scritte che orali )
+per le discipline che hanno voto unico.
+In ottemperanza alla Circolare Ministeriale n° 89 del 18 ottobre 2012, negli
+scrutini intermedi, la valutazione dei risultati raggiunti nelle discipline Scienze,
+Disegno e Storia dell’Arte, Informatica, Fisica (nel solo Indirizzo del liceo
+Linguistico), Scienze Sportive e Motorie verrà formulata mediante un voto
+unico,come per lo scrutinio finale.
+Allo studente non sarà richiesto di svolgere più di una prova scritta al giorno e si
+ritiene opportuno che, fatti salvi i casi eccezionali, non sia chiamato a sostenere
+più di due prove orali al giorno;
+Nessuna prova scritta sarà effettuata prima che gli sia stato comunicato il
+risultato e gli siano state fornite le necessarie spiegazioni relative alla
+precedente, in quanto la verifica deve consentire il puntuale ed efficace feed-
+back cosi che possa tradursi in fattore incentivante della responsabilità e della
+motivazione.
+105
+
+---
+
+## Pagina 107
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+L’accertamento delle conoscenze, competenze e abilità segue prioritariamente il
+criterio della trasparenza e dell’oggettività, a tal fine si utilizzano le griglie
+adottate dai singoli dipartimenti disciplinari per le quali si rimanda alle
+programmazioni di dipartimento e improntate sulla base dei seguenti parametri
+di valutazione, condivisi dal Collegio Docenti.
+Parametri di valutazione:
+Negli scrutini le valutazioni si assegnano sulla base del valore medio dei voti
+riportati nelle verifiche, dei progressi o regressi registrati nel percorso
+d’apprendimento, dell’impegno e della partecipazione al dialogo educativo e
+dell’interesse per le discipline. I voti sono attribuiti collegialmente dai Docenti del
+Consiglio di Classe nella seduta di scrutinio, su proposta motivata del Docente di
+ogni disciplina. Il voto di condotta, concorre, al pari dei voti relativi a ciascuna
+disciplina, alla determinazione della media M dei voti conseguiti in sede di
+scrutinio finale di ciascun anno scolastico.
+Ai fini dell’ammissione alla classe successiva e dell’ammissione all’esame di Stato
+conclusivo del secondo ciclo di istruzione, nessun voto può essere inferiore a sei
+decimi in ciascuna disciplina, ivi compreso il voto di condotta.
+Si allega griglia di valutazione
+ALLEGATI: griglie di valutazione.pdf
+Criteri di valutazione dell'insegnamento trasversale di educazione civica:
+
+## Allegati: Griglia Di Valutazione Ed. Civica Approvata Nel
+
+COLLEGIO DOCENTI DEL 18 SETTEMBRE 2020.pdf
+Criteri di valutazione del comportamento:
+si allega griglia
+ALLEGATI: GRIGLIA PER LA VALUTAZIONE DEL VOTO DI CONDOTTA.pdf
+Criteri per l’ammissione/non ammissione alla classe successiva:
+Ai fini dell’ammissione alla classe successiva e dell’ammissione all’esame di Stato
+conclusivo del secondo ciclo di istruzione, nessun voto può essere inferiore a sei
+decimi in ciascuna disciplina, ivi compreso il voto di condotta.
+Criteri per l’ammissione/non ammissione all’esame di Stato:
+Ai fini dell’ammissione alla classe successiva e dell’ammissione all’esame di Stato
+conclusivo del secondo ciclo di istruzione, nessun voto può essere inferiore a sei
+decimi in ciascuna disciplina, ivi compreso il voto di condotta. Tuttavia si fa
+riferimento alla circolare ministeriale emanata ad hoc.
+Criteri per l’attribuzione del credito scolastico:
+106
+
+---
+
+## Pagina 108
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Il credito scolastico (D.M. n° 42 del 22/05/2007, integrato dal D.M. n° 99 del
+16/12/2009,) è attribuito agli studenti frequentanti le classi del secondo biennio e
+del quinto anno sulla base della media aritmetica che stabilisce la fascia di
+punteggio.
+Le oscillazioni all’interno della fascia tengono conto della regolarità della
+frequenza, dell’interesse e impegno nella partecipazione al dialogo educativo, del
+giudizio in Religione (solo per coloro che si avvalgono dell’IRC) e di eventuali
+“crediti formativi” documentati, che derivano da attività svolte al di fuori della
+scuola.
+Se la media dei voti risulta ≥ alla metà dell’intervallo della fascia di appartenenza,
+si assegnerà all’alunno il punteggio massimo;
+diversamente si assegnerà il massimo del punteggio se la somma dei punteggi
+sotto elencati e’ > 0,5
+a) Assiduità e puntualità punti 0,4
+b) Partecipazione attività integrative d’istituto punti 0,2
+c) Partecipazione ore di Religione o attività alternative punti 0,2
+d) Partecipazione a progetti di solidarietà tra pari e di supporto ad attività
+dell’Istituto certificate dal docente referente non meno di 15 ore
+punti 0,2
+e) Il riconoscimento di eventuali crediti non può in alcun modo comportare il
+cambiamento della banda di oscillazione corrispondente alla media M dei voti.
+
+## N.B.: Se Le Assenze Non Giustificate Con Certificato Medico Sono
+
+
+## Superiori A 20 Giorni, Oppure Se I Ritardi Non Giustificati Per
+
+
+## Trasporto Pubblico, Visite Specialistiche Presso Strutture Pubbliche,
+
+SONO SUPERIORI A 10, NON SI POTRA’ ATTRIBUIRE IL CRITERIO: Assiduità e
+puntualità.
+
+## Agli Alunni Con Giudizio Sospeso, Ammessi Alla Classe Successiva Con
+
+
+## Il Voto Di Consiglio “Sufficiente” Viene Attribuito Il Minimo Della
+
+
+## Fascia Di Appartenenza. Per L’Assegnazione Del Punteggio Relativo
+
+
+## Alle Attivita’ Integrative (0,2) La Durata Non Dovra’ Essere Inferiore A
+
+
+## 15 Ore Effettive Di Presenza.
+
+I crediti formativi contribuiscono alla determinazione del credito scolastico: ( pti.
+0.2).
+Il loro conseguimento può solo portare a raggiungere il massimo punteggio della
+fascia prevista per la media aritmetica delle valutazioni conseguite, ma non a
+107
+
+---
+
+## Pagina 109
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+scavalcarla.
+Le attività che danno luogo a credito formativo devono:
+• avere una apprezzabile durata e sistematicità e possono essere di carattere
+culturale (corsi di Lingua straniera riconosciuti a livello europeo, Conservatorio,
+arti applicate e tutte quelle attività che hanno ricaduta positiva sull’indirizzo di
+studi);
+• Essere di carattere sociale (volontariato e attività lavorative a scopo sociale,
+tesseramento Donatori sangue);
+• Essere di carattere sportivo esclusivamente agonistico.
+• Certificazioni linguistiche o informatiche conseguite negli anni scolastici
+precedenti e non fatte ancora valere come credito.
+Il riconoscimento del credito formativo si ottiene producendo un attestato che
+indica l’ente che lo rilascia, la natura , la frequenza e la durata dell’attività svolta.
+
+## • Debito Scolastico E Recupero
+
+Nel corso dell’anno scolastico saranno attivati:
+- recupero in itinere, durante l’intero a.s., nell’orario curriculare.
+- corsi di recupero e sostegno nelle ore pomeridiane.
+Il piano di interventi è destinato:
+- agli studenti che, in sede di valutazione quadrimestrale, presentino insufficienze
+in una o più discipline;
+- agli studenti che, in sede di scrutinio finale, abbiano conseguito valutazioni
+insufficienti con relativa sospensione di giudizio.
+Si precisa che il processo di apprendimento è monitorato permanentemente
+attraverso l’osservazione della situazione di partenza e dei prerequisiti, il report
+(opportunamente documentato e socializzato in sede di C.d.c.) degli esiti
+bimestrali, le due valutazioni sommative di fine quadrimestre.
+Accertate le carenze, L’Istituto attiva interventi didattici di
+recupero/consolidamento per piccoli gruppi e/o fasce di livello di classi parallele.
+Peculiarità dell’I.I.S. “Fermi” è la pianificazione di attività tese al
+recupero/consolidamento degli apprendimenti già in itinere, al fine di rendere
+più tempestiva e mirata l’azione della Scuola nel garantire le opportune
+condizioni per il successo formativo al singolo alunno ed un’osmotica dinamica
+108
+
+---
+
+## Pagina 110
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+del processo di insegnamento-apprendimento.
+L’eventuale recupero nelle varie classi si terrà dopo lo scrutinio del I
+quadrimestre con l’approvazione del Consiglio di classe. Sarà possibile anche
+un’anticipazione del corso su richiesta motivata del docente con l’approvazione
+del C.d.c. La scelta delle modalità operative per il recupero è affidata ai singoli
+C.d.c.
+Modalità dettagliate di attivazione dei corsi di recupero:
+1) I Consigli di classe, in sede di verifica e valutazione quadrimestrale, valutano se
+si è prodotto un debito formativo. Il Consiglio di Classe delibera di informare le
+famiglie e di programmare un’attività di recupero da tenersi agli inizi del 2°
+quadrimestre, in relazione alle risorse economiche disponibili. Al termine si
+effettueranno le relative prove per dare al Consiglio di classe, in fase intermedia,
+oppure in fase di scrutinio finale, l’opportunità di valutare se i debiti sono stati
+saldati o meno.
+2) Nel caso in cui, al termine del 2° quadrimestre, non sia stato saldato il debito, il
+Consiglio sospende il giudizio di valutazione finale e , dopo aver deliberato di
+informare le famiglie, programma un’ulteriore attività di recupero da tenersi nel
+periodo giugno-luglio con relative prove finali da effettuare non oltre il 31agosto.
+3) Il Consiglio di classe si riunisce per la valutazione finale relativa ai debiti
+oggetto di queste ultime attività di recupero possibilmente nell’ultima settimana
+di agosto. Nel caso in cui il debito non sia stato saldato si informano le famiglie e
+l’allievo non accede alla classe successiva. A tal fine la valutazione sarà effettuata
+tenendo conto dei seguenti criteri:
+• Frequenza assidua dei corsi di recupero e degli sportelli didattici attivati;
+• progressi apprezzabili evidenziati rispetto ai livelli della sessione estiva degli
+scrutini;
+• impegno ed applicazione evidenziata durante lo svolgimento delle attività di
+recupero;
+• disponibilità dimostrata a lavorare in gruppo coi colleghi durante le attività in
+didattica laboratoriale.
+4) Ai fini della documentazione delle attività di recupero si istituiranno appositi
+registri e schede analogamente a quanto veniva effettuato prima del D.M. n, 80
+del 03.10.2007 e queste, unitamente alle informative scritte da fare alle famiglie,
+109
+
+---
+
+## Pagina 111
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+saranno approntate e custodite dal responsabile segreteria alunni.
+
+## • Sportello Didattico
+
+Lo sportello didattico è una consulenza fornita da docenti di diverse discipline
+agli alunni che ne facciano libera richiesta per chiarimenti e finalizzato al
+recupero scolastico.
+
+## • Criteri Per La Valutazione Finale
+
+- Ogni notizia sull’iter di apprendimento dello studente avverrà attraverso la
+consultazione del registro elettronico, nel corso dei colloqui (previsti nel Piano
+annuale) con il coordinatore di classe e l’invio di comunicazione formale;
+- non saranno ammessi alla classe successiva gli studenti che abbiano registrato
+quattro insufficienze, di cui due materie d’indirizzo.
+I docenti, ritenendo che più insufficienze (anche con voto 5) non possano essere
+colmate né con lo studio personale durante i mesi estivi e nè con interventi
+didattici promossi dallo stesso Istituto, possono non ammettere l’alunno alla
+classe successiva;
+- nel caso un alunno presenti una sola insufficienza ( voto 5) e però un quadro
+complessivo del rendimento nelle altre discipline più che sufficiente, il Consiglio
+valuterà la possibilità che l’alunno possa sanare autonomamente questo debito e
+perciò potrà essere ammesso alla classe successiva, previo accertamento che
+questo debito non sia stato riportato negli anni scolastici precedenti con la
+medesima gravità nelle medesime discipline;
+- nel caso l’alunno presenti più di due mediocrità (rappresentate con il voto di
+5/10) dovrà recuperare nei modi previsti dalla legge almeno in quelle materie che
+hanno la produzione scritta e che sono ritenute d’indirizzo.
+- Nel caso l’alunno superi, per le assenze, ¼ delle ore di frequenza previste
+nell’orario personalizzato non è ammesso alla classe successiva.
+Sono previste le seguenti deroghe, così come da CC.MM. n. 20 del 04.03.2011 e
+n. 88 del18.10.2012:
+- patologie che rendono impossibile la frequenza. Questi casi devono essere
+giustificati con documentazione specialistica rilasciata da struttura pubblica;
+- donazioni di sangue;
+- partecipazione ad attività sportive e agonistiche organizzate da federazioni
+riconosciute dal CONI.
+110
+
+---
+
+## Pagina 112
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+- adesione a confessioni religiose per le quali esistono specifiche intese che
+considerano il sabato come giorno di riposo(L.n.516/1988);
+- partecipazione a concorsi pubblici;
+- partecipazione a test di ingresso universitari debitamente documentato;
+- partecipazione a esami presso altre scuole e/o istituti ( Conservatori, ecc),
+debitamente certificate dall’ente;
+- gravi motivi di salute adeguatamente documentati;
+- partecipazione a manifestazioni promosse dal MIUR, debitamente giustificate
+dai genitori;
+- terapie o cure programmate;
+- per i casi espressamente previsti nel Piano d’Inclusione dell’Istituto.
+I debiti formativi e la sospensione del giudizio a giugno
+Gli studenti che riportano, nello scrutinio di giugno, valutazioni insufficienti in
+alcune discipline contraggono il debito formativo, cui consegue la sospensione
+del giudizio di ammissione alla classe successiva, che il Consiglio di classe
+comunica alle famiglie, per iscritto, unitamente alle decisioni assunte, ai voti
+riportati e alle specifiche carenze rilevate nelle discipline insufficienti.
+In caso di insufficienza in più discipline, al fine di deliberare o l’eventuale “rinvio
+della valutazione del giudizio finale” o la non promozione, il Consiglio considera:
+  Il tipo di competenze complessive maturate dallo studente;
+  l’entità e la diffusione delle carenze nella preparazione;
+  Le capacità di recupero;
+  Se sia avvenuto il recupero di eventuali debiti formativi contratti nel
+quadrimestre.
+La verifica del recupero del debito formativo ha luogo prima dell’inizio delle
+elezioni dell’a.s. successivo e verterà sugli argomenti indicati dal docente e
+comunicati alle famiglie. Se le prove danno risultati positivi, gli studenti sono
+ammessi alla classe successiva. La valutazione degli alunni delle classi quinte per
+l’ammissione all’Esame di Stato seguirà le direttive e le circolari ministeriali.
+La valutazione delle competenze da certificare in esito all’obbligo di istruzione,
+«è espressione dell'autonomia professionale propria della funzione docente,
+nella sua dimensione sia individuale che collegiale, nonché dell'autonomia
+didattica delle istituzioni scolastiche» (articolo 1, comma 2, del D.P.R. 22 giugno
+2009, n. 122).
+111
+
+---
+
+## Pagina 113
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Essa non è sostitutiva delle attuali modalità di valutazione e attestazione
+giuridica dei risultati scolastici ma integra tali strumenti normativi, delineando in
+forma descrittiva il quadro delle competenze acquisite dagli allievi, ancorate a
+precisi indicatori dei risultati di apprendimento attesi.
+La certificazione si riferisce a conoscenze, abilità e competenze, in sintonia con i
+dispositivi previsti dall’Unione Europea in materia di "competenze chiave per
+l'apprendimento permanente" (2006) e per le qualificazioni (EQF, 2008) recepite
+nell'ordinamento giuridico italiano. Il modello di certificato, che è unico sul
+territorio nazionale, contiene la scheda riguardante le competenze di base e i
+relativi livelli raggiunti dallo studente in relazione agli assi culturali, con
+riferimento alle competenze chiave di cittadinanza, di cui all’allegato 1 al
+Regolamento n. 139, del22/8/2007.
+I consigli delle seconde classi, al termine delle operazioni di scrutinio finale,
+compilano per ogni studente la suddetta scheda, che è conservata agli atti
+dell’istituzione scolastica.
+La definizione per livelli di competenza è indicata nel certificato stesso, che si
+articola in tre livelli: base, intermedio, avanzato.
+Ai fini della compilazione delle singole voci del modello di certificato, si precisa
+che il raggiungimento delle competenze di base va riferito a più discipline o
+ambiti disciplinari.
+Nel caso in cui il livello base non sia stato raggiunto, è riportata, per ciascun asse
+culturale, la dicitura “livello base non raggiunto”. La relativa motivazione è
+riportata nel verbale del consiglio di classe nel quale sono anche indicate le
+misure proposte per sostenere lo studente nel successivo percorso di
+apprendimento. Ai fini dell’adempimento dell’obbligo d’istruzione da parte degli
+alunni diversamente abili si fa riferimento a quanto previsto dal Decreto 22
+agosto 2007 n. 139, art.3,c.1, ed alle indicazioni contenute nelle “Linee guida
+sull’integrazione scolastica degli alunni con disabilità” di cui alla nota prot. n.
+4274 del 4 agosto 2009.
+Si allega tabella crediti
+ALLEGATI: tabella crediti.pdf
+
+## Azioni Della Scuola Per L'Inclusione Scolastica
+
+
+## Analisi Del Contesto Per Realizzare L'Inclusione Scolastica
+
+112
+
+---
+
+## Pagina 114
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Inclusione
+La scuola realizza attivita' tese a favorire l'inclusione dei disabili nel gruppo dei pari
+sia durante il normale svolgimento del curricolo che delle attivita' di ampliamento.
+Alla formulazione dei Piani Educativi Individualizzati partecipano tutti gli insegnanti
+curriculari e l'attuazione di questi piani viene monitorata con regolarita' attraverso i
+
+## Glho.
+
+La scuola si prende cura di studenti con BES attraverso la definizione del PAI e dei
+Piani Didattici Personalizzati.
+La scuola realizza diverse attivita' volte a favorire l'integrazione degli studenti con
+cittadinanza non italiana.
+Recupero e potenziamento
+Il nostro istituto realizza diversi corsi di recupero in itinere, in orario extra orario ,
+sportello didattico,  attivita' progettuali destinate all'approfondimento e al
+potenziamento individuale e di gruppo.
+Dirigente scolastico
+Docenti curricolari
+Docenti di sostegno
+Personale ATA
+Composizione del gruppo di lavoro
+per l'inclusione (GLI):
+113
+
+---
+
+## Pagina 115
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Specialisti ASL
+Associazioni
+Famiglie
+Studenti
+
+## Definizione Dei Progetti Individuali
+
+Processo di definizione dei Piani Educativi Individualizzati (PEI):
+L'Istituto è dotato di un Protocollo di accoglienza: uno strumento di inclusione che, in
+un contesto di autonomia e flessibilità, definisce pratiche comuni all’interno dell’istituto
+finalizzate a facilitare l’accoglienza e l’individuazione di un percorso formativo concepito
+per accompagnare gli alunni con bisogni educativi speciali. Esso si propone le seguenti
+finalità   sostenere l'alunno e la sua famiglia nella fase di orientamento iniziale,
+accoglienza, adattamento e progettualità   favorire la comunicazione e la continuità tra
+ordini scolastici diversi   costituire uno strumento di lavoro, da integrare e rivedere
+periodicamente sulla base delle esperienze realizzate   promuovere pratiche inclusive
+attraverso una più stretta collaborazione fra scuola, famiglia ed Enti Locali (Comune,
+ASL, Provincia, cooperative, Enti di formazione, centri autorizzati)   garantire il diritto
+all’istruzione e favorire il successo scolastico degli alunni con BES, agevolandone la
+piena integrazione sociale e culturale. A tale scopo, il presente documento   traccia le
+diverse fasi dell’accoglienza, ponendosi in continuità con il grado di scuola precedente e
+attivando continui processi di orientamento e auto-orientamento   definisce principi,
+criteri e indicazioni riguardanti le procedure e i piani didattici per l’inserimento degli
+alunni con certificazione, dall’iscrizione fino all’Esame di Stato   descrive i compiti e i
+ruoli delle figure coinvolte all’interno dell’istituzione scolastica. AZIONE FASE
+OPERATIVA SOGGETTI COINVOLTI TEMPI Progettazione Costituzione del GLI Nomina
+Referente BES Collegio Docenti DS Inizio anno scolastico Orientamento Presentazione
+dell'offerta formativa DS o referente BES dicembre-gennaio Scuola Aperta Iscrizione
+Acquisizione dati Acquisizione documentazione Colloquio con le famiglie Referente BES
+Famiglie Segreteria gennaio-febbraio Pre-accoglienza Raccolta informazioni scolarità
+pregressa Presentazione dell’offerta formativa Proposta accoglienza e inserimento
+Referente BES Famiglie marzo-aprile Raccordo tra i vari ordini di scuola Passaggio delle
+informazioni e della documentazione didattica necessaria Referente BES Docenti
+referenti scuola di provenienza prima dell’inizio o durante l’anno scolastico
+Assegnazione alla classe Formulazione proposta di assegnazione nel rispetto dei criteri
+approvati dal Collegio Docenti Dirigente Scolastico Commissione formazione classi
+luglio Presentazione dei casi al CdC Condivisione informazioni con i Consigli di Classe
+114
+
+---
+
+## Pagina 116
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Referente BES Consiglio di Classe settembre Programmazione didattica Osservazione
+Redazione PEI/PDP Consiglio di Classe Famiglie Equipe specialistiche entro novembre
+Monitoraggio Verifica Docenti durante tutto l’anno scolastico Esami di Stato Verifica
+PEI/PDP Compilazione del certificato delle competenze Predisposizione fascicolo
+Personale Coordinatore Consiglio di Classe Referente BES maggio Verifica e
+valutazionedel Protocollo Relazione annuale sulla funzionalità del protocollo GLI DS
+Consigli di classe al termine dell’anno scolastico FINALITA’ Al fine di un’integrazione
+scolastica e sociale ottimale degli alunni con Bisogni Educativi Speciali, il nostro Istituto
+attraverso il Protocollo di Accoglienza intende raggiungere le seguenti finalità • definire
+pratiche condivise tra tutto il personale del nostro Istituto • favorire l’accoglienza e
+l’integrazione degli alunni con Bisogni Educativi Speciali attraverso percorsi comuni,
+individualizzati o personalizzati che fanno coesistere socializzazione ed apprendimento
+• elaborare tre aspetti determinanti del processo di formazione: accoglienza,
+integrazione, orientamento • informare adeguatamente il personale coinvolto •
+condividere e dunque rendere accessibile la modulistica essenziale di riferimento •
+favorire la diagnosi precoce e i percorsi didattici riabilitativi • incrementare la
+comunicazione e la collaborazione tra famiglia, scuola e servizi sanitari, durante il
+percorso di istruzione e di formazione • adottare forme di verifica e valutazione
+adeguate alle necessita formative degli studenti • accompagnare adeguatamente gli
+studenti con Bisogni Educativi Speciali nel percorso scolastico. Orientamento
+L’applicazione del protocollo di accoglienza e inclusione inizia con la fase di
+orientamento, nei mesi di dicembre e gennaio. In occasione delle giornate di "Scuola
+Aperta" il DS invita le famiglie degli alunni con BES a prendere contatto con l'Istituto per
+fissare un incontro di orientamento con il referente BES sul percorso formativo.
+Durante il colloquio viene precisato che il perfezionamento dell’iscrizione deve avvenire
+con la trasmissione alla Segreteria Didattica di tutta la documentazione in possesso,
+dalla prima diagnosi/certificazione fino all'aggiornamento previsto al passaggio di ciclo,
+dalla scuola Primaria a quella Secondaria di Primo Grado. Pre-Accoglienza Alla fine di
+febbraio, conclusa la fase di iscrizione online, il referente BES acquisisce dalla
+segreteria didattica l'elenco degli alunni iscritti e prende contatto con le famiglie non
+ancora incontrate per organizzare un colloquio conoscitivo, durante il quale prendere
+visione dei documenti diagnostici. Prima del termine dell'anno scolastico, il referente
+BES incontra i docenti coordinatori e/o partecipa ai GLHO conclusivi della scuola
+Primaria per favorire la continuità educativa, didattica e formativa. Tutti i documenti, le
+relazioni e le verbalizzazioni degli incontri sono inseriti nel fascicolo personale
+dell’alunno e, all’inizio dell’anno scolastico, sono messi a disposizione del Consiglio di
+115
+
+---
+
+## Pagina 117
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Classe. Inclusione degli alunni con disabilita’ (L. 104/92) L’azione formativa persegue un
+duplice obiettivo: la piena inclusione dell’alunno nella classe e la definizione del suo
+‘progetto di vita’, allo scopo di facilitarne il passaggio dalla scuola al mondo del lavoro e
+alla vita sociale. La realizzazione di tale obiettivo si realizza attraverso • la definizione
+del Piano Educativo Individualizzato (PEI) al fine di motivare, guidare e sostenere il
+percorso scolastico dell’alunno, nella prospettiva del conseguimento del diploma o
+attestato di frequenza unitamente alla certificazione finale delle competenze acquisite •
+l’accompagnamento dell’alunno nell’acquisizione del livello di autonomia prospettato in
+relazione alla cura della propria persona, all’inserimento e all’interazione sociale • una
+didattica orientante allo scopo di aiutare l’alunno a compiere le scelte più consone alla
+propria personalità al di fuori del percorso scolastico. Il docente di sostegno svolge una
+funzione di mediazione fra tutte le componenti coinvolte nel processo di integrazione
+dell’alunno con disabilità: la famiglia, i docenti curricolari, l’équipe specialistica. All’inizio
+dell’anno scolastico, dopo il necessario periodo di osservazione, individua insieme al
+CdC le discipline in cui intervenire e redige il PEI. Al termine della scuola Primaria e
+Secondaria di Primo Grado, il docente avrà cura di aggiornare il PDF in collaborazione
+all’èquipe psico-pedagogica. Monitoraggio Le scelte riportate nel PEI e nel PDP sono
+sottoposte a monitoraggio in itinere e finale. In particolare, sarà responsabilità di
+ciascun insegnante curricolare del Consiglio di Classe, svolgere il monitoraggio in
+itinere e,in occasione degli incontri stabiliti, verificare l’efficacia dei provvedimenti
+previsti ed eventualmente decidere di avviare interventi di recupero e potenziamento
+mirati, nel quadro delle tipologie deliberate dal Collegio Docenti (recupero in itinere,
+brevi corsi di recupero pomeridiani, sportelli help, ecc.). Per il monitoraggio finale sarà
+responsabilità del Consiglio di Classe, al termine di ogni anno scolastico, redigere una
+breve relazione finale sul PDP. Tale relazione, sottoscritta da tutti i docenti del Consiglio
+di Classe, verrà inserita nel fascicolo personale dell’alunno e consegnata in copia al
+referente BES. Revisione finale Il GLI, alla fine dell'anno scolastico, compie un'azione di
+monitoraggio sui risultati finali conseguiti dagli alunni con BES e inserisce i dati nel PAI
+d'Istituto. METODOLOGIE DIDATTICHE E BUONE PRASSI Per gli alunni BES fare
+riferimento nella prassi formativa agli stili di apprendimento e alle diverse strategie che
+lo caratterizzano è un elemento essenziale per il raggiungimento degli obiettivi
+educativo- didattici e il successo scolastico. A questi alunni, in particolare, deve essere
+garantita sia una didattica individualizzata (obiettivi comuni e metodologie differenziate
+in base alle caratteristiche individuali), sia una didattica personalizzata (obiettivi diversi
+affinché ognuno sviluppi al meglio le sue potenzialità, attingendo a molteplici
+metodologie e strategie didattiche). STRATEGIE,METODOLOGIE DIDATTICHE E BUONE
+116
+
+---
+
+## Pagina 118
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Prassi, Unitamente A Una Tabella Con Le Misure Dispensative E Gli Strumenti
+
+COMPENSATIVI UTILI A MIGLIORARE L’APPRENDIMENTO.    Creare un clima di
+apprendimento sereno, nel riconoscimento e nel rispetto delle singole diversità    Valorizzare nella didattica linguaggi comunicativi altri dal codice scritto che attivino più
+canali sensoriali, utilizzando mediatori didattici quali immagini, disegni e riepiloghi a
+voce    Utilizzare schemi, mappe mentali e concettuali, parole chiave a sostegno della
+memorizzazione    Sostenere e promuovere un approccio strategico nello studio,
+utilizzando mediatori didattici facilitanti l’apprendimento (immagini , mappe ….)    Insegnare l’uso di dispositivi extratestuali per lo studio (titolo, paragrafi, immagini)    Sollecitare collegamenti tra le nuove informazioni e quelle già acquisite ogni volta che si
+inizia un nuovo argomento di studio    Dividere gli obiettivi di un compito in “sotto-
+obiettivi”    Privilegiare l’apprendimento dall’esperienza e la didattica laboratoriale    Promuovere processi metacognitivi per sollecitare nell’alunno l’autocontrollo e
+l’autovalutazione dei propri processi di apprendimento    Incentivare la didattica di
+piccolo gruppo e il tutoraggio tra pari (peer education)    Promuovere l’apprendimento
+collaborativo (cooperative learning)    Controllare che i compiti e tutte le
+comunicazioni alle famiglie siano trascritti correttamente    Verificare
+sistematicamente la comprensione delle consegne orali e scritte per non
+compromettere la corretta esecuzione dei compiti e il passaggio di informazioni alla
+famiglia   Aver cura che le richieste operative siano adeguate ai tempi e alle personali
+specificità, anche nel momento dell’assegnazione di compiti a casa. METODOLOGIE
+DIDATTICHE E BUONE PRASSI Per gli alunni BES fare riferimento nella prassi formativa
+agli stili di apprendimento e alle diverse strategie che lo caratterizzano è un elemento
+essenziale per il raggiungimento degli obiettivi educativo- didattici e il successo
+scolastico. A questi alunni, in particolare, deve essere garantita sia una didattica
+individualizzata (obiettivi comuni e metodologie differenziate in base alle caratteristiche
+individuali), sia una didattica personalizzata (obiettivi diversi affinché ognuno sviluppi al
+meglio le sue potenzialità, attingendo a molteplici metodologie e strategie didattiche).
+
+## Strategie,Metodologie Didattiche E Buone Prassi, Unitamente A Una
+
+
+## Tabella Con Le Misure Dispensative E Gli Strumenti Compensativi Utili A
+
+MIGLIORARE L’APPRENDIMENTO.    Creare un clima di apprendimento sereno, nel
+riconoscimento e nel rispetto delle singole diversità    Valorizzare nella didattica
+linguaggi comunicativi altri dal codice scritto che attivino più canali sensoriali,
+utilizzando mediatori didattici quali immagini, disegni e riepiloghi a voce    Utilizzare
+schemi, mappe mentali e concettuali, parole chiave a sostegno della memorizzazione  
+ Sostenere e promuovere un approccio strategico nello studio, utilizzando mediatori
+117
+
+---
+
+## Pagina 119
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+didattici facilitanti l’apprendimento (immagini , mappe ….)    Insegnare l’uso di
+dispositivi extratestuali per lo studio (titolo, paragrafi, immagini)    Sollecitare
+collegamenti tra le nuove informazioni e quelle già acquisite ogni volta che si inizia un
+nuovo argomento di studio    Dividere gli obiettivi di un compito in “sotto-obiettivi”    Privilegiare l’apprendimento dall’esperienza e la didattica laboratoriale    Promuovere
+processi metacognitivi per sollecitare nell’alunno l’autocontrollo e l’autovalutazione dei
+propri processi di apprendimento    Incentivare la didattica di piccolo gruppo e il
+tutoraggio tra pari (peer education)    Promuovere l’apprendimento collaborativo
+(cooperative learning)    Controllare che i compiti e tutte le comunicazioni alle famiglie
+siano trascritti correttamente    Verificare sistematicamente la comprensione delle
+consegne orali e scritte per non compromettere la corretta esecuzione dei compiti e il
+passaggio di informazioni alla famiglia   Aver cura che le richieste operative siano
+adeguate ai tempi e alle personali specificità, anche nel momento dell’assegnazione di
+compiti a casa.
+Soggetti coinvolti nella definizione dei PEI:
+- docenti curricolari - docente di sostegno - famiglie specialisti ASL
+
+## Modalità Di Coinvolgimento Delle Famiglie
+
+Ruolo della famiglia:
+Le famiglie saranno coinvolte nella fase di realizzazione degli interventi inclusivi
+attraverso:   la condivisione delle scelte effettuate   il coinvolgimento nella redazione
+dei PdP Le famiglie devono essere coinvolte nei passaggi essenziali del percorso
+scolastico dei propri figli, anche come assunzione diretta di corresponsabilità
+educativa. I genitori avranno un ruolo determinante nel confronto con il docente
+coordinatore di classe e con il referente per i Bes per condividere interventi e strategie
+nella redazione del PdP.
+Modalità di rapporto
+scuola-famiglia:
+Informazione-formazione su genitorialità e psicopedagogia
+dell'età evolutiva
+Coinvolgimento in progetti di inclusione
+Coinvolgimento in attività di promozione della comunità
+educante
+118
+
+---
+
+## Pagina 120
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Risorse Professionali Interne Coinvolte
 
 Docenti di sostegno
 Partecipazione a GLI
@@ -5515,312 +6765,667 @@ Docenti di sostegno
 Attività individualizzate e di piccolo gruppo
 Docenti di sostegno
 Attività laboratoriali integrate (classi aperte, laboratori, ecc.)
-Docenti di sostegno
-Rapporti con i servizi
 Docenti curriculari
-(Coordinatori di classe e
-simili)
+(Coordinatori di classe
+e simili)
 Partecipazione a GLI
 Docenti curriculari
-(Coordinatori di classe e
-simili)
+(Coordinatori di classe
+e simili)
 Rapporti con famiglie
 Docenti curriculari
-(Coordinatori di classe e
-simili)
+(Coordinatori di classe
+e simili)
 Tutoraggio alunni
 Docenti curriculari
-(Coordinatori di classe e
-simili)
+(Coordinatori di classe
+e simili)
 Progetti didattico-educativi a prevalente tematica inclusiva
-Rapporti con soggetti esterni
-Unità di valutazione
-multidisciplinare
-Analisi del profilo di funzionamento per la definizione del Progetto
-individuale
-96
-
-## B.Marsano - Geis012004
-
+Assistente Educativo
+Culturale (AEC)
+Attività individualizzate e di piccolo gruppo
+Assistente Educativo
+Culturale (AEC)
+Attività laboratoriali integrate (classi aperte, laboratori
+protetti, ecc.)
+Personale ATA
+Assistenza alunni disabili
+119
 
 ---
 
-## Pagina 101
+## Pagina 121
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Azioni della Scuola per l'inclusione scolastica
 
-## Ptof 2022 - 2025
+## Formativa
 
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Risorse Professionali Interne Coinvolte
+
+Personale ATA
+Progetti di inclusione/laboratori integrati
+
+## Rapporti Con Soggetti Esterni
+
+Unità di valutazione
+multidisciplinare
+Analisi del profilo di funzionamento per la definizione del
+Progetto individuale
 Unità di valutazione
 multidisciplinare
 Procedure condivise di intervento sulla disabilità
 Unità di valutazione
 multidisciplinare
 Procedure condivise di intervento su disagio e simili
-Associazioni di riferimento
+Associazioni di
+riferimento
 Procedure condivise di intervento per il Progetto individuale
-Associazioni di riferimento
+Associazioni di
+riferimento
 Progetti territoriali integrati
-Associazioni di riferimento
+Associazioni di
+riferimento
 Progetti integrati a livello di singola scuola
 Rapporti con
-GLIR/GIT/Scuole polo per
-l’inclusione territoriale
-Accordi di programma/protocolli di intesa formalizzati sulla disabilità
+GLIR/GIT/Scuole polo
+per l’inclusione
+territoriale
+Accordi di programma/protocolli di intesa formalizzati sulla
+disabilità
 Rapporti con
-GLIR/GIT/Scuole polo per
-l’inclusione territoriale
-Accordi di programma/protocolli di intesa formalizzati su disagio e simili
+GLIR/GIT/Scuole polo
+per l’inclusione
+territoriale
+Accordi di programma/protocolli di intesa formalizzati su
+disagio e simili
 Rapporti con
-GLIR/GIT/Scuole polo per
-l’inclusione territoriale
+GLIR/GIT/Scuole polo
+per l’inclusione
+territoriale
 Procedure condivise di intervento sulla disabilità
+120
+
+---
+
+## Pagina 122
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Rapporti Con Soggetti Esterni
+
 Rapporti con
-GLIR/GIT/Scuole polo per
-l’inclusione territoriale
+GLIR/GIT/Scuole polo
+per l’inclusione
+territoriale
 Procedure condivise di intervento su disagio e simili
-Rapporti con privato sociale
-e volontariato
+Rapporti con
+GLIR/GIT/Scuole polo
+per l’inclusione
+territoriale
+Progetti territoriali integrati
+Rapporti con
+GLIR/GIT/Scuole polo
+per l’inclusione
+territoriale
 Progetti integrati a livello di singola scuola
-Rapporti con Scuole
-secondarie primo ciclo di
-istruzione
-Raccordo tra docenti di sostegno del 1° e del 2°ciclo
-Valutazione, continuità e orientamento
-97
+Rapporti con privato
+sociale e volontariato
+Progetti territoriali integrati
+Rapporti con privato
+sociale e volontariato
+Progetti integrati a livello di singola scuola
+Rapporti con privato
+sociale e volontariato
+Progetti a livello di reti di scuole
 
-## B.Marsano - Geis012004
+## Valutazione, Continuità E Orientamento
 
-
----
-
-## Pagina 102
-
-
-## L'Offerta Formativa
-
-Azioni della Scuola per l'inclusione scolastica
-
-## Ptof 2022 - 2025
-
-Continuità e strategie di orientamento formativo e
-lavorativo
-ACCOGLIENZA E ORIENTAMENTO IN ENTRATA La scuola, avendo un indirizzo tecnico/professionale
-ed una grande tradizione nelle iniziative volte all’inclusione, presenta un buon numero di iscrizioni di
-alunni con disabilità e per questo motivo, all'interno dei numerosi open day, sono previsti momenti
-dedicati alle famiglie degli alunni con disabilità. Per quanto riguarda questi alunni, la continuità è
-garantita dagli incontri fatti con la famiglia ed i docenti di sostegno della scuola secondaria di primo
-grado, scadenzati nell'anno precedente l'iscrizione. La famiglia è considerata un punto centrale nella
-programmazione del progetto formativo di ogni singolo alunno e sono previsti durante l'anno diversi
-momenti di scambio individuale anche fuori degli orari canonici di ricevimento. ORIENTAMENTO IN
-ITINERE L'istituto evidenzia un buon livello di pratiche inclusive ed una grande attenzione al
-superamento delle barriere fisiche, mentali e sociali. Molta attenzione viene posta alla costruzione di
-un percorso formativo adeguato che aiuti l'alunno nella sua realizzazione, allontanandolo da un
-eventuale abbandono scolastico e avendo come orizzonte il progetto di vita dell’alunno stesso in
-relazione alle sue potenzialità e al suo contesto di vita. Nel caso l'alunno con disabilità segua un
-percorso differenziato, può partecipare a differenti percorsi integrati, progettati sul singolo studente,
-che la scuola realizza da vent'anni in collaborazione con Is.For.Coop o altri enti di Formazione.
-98
-
-## B.Marsano - Geis012004
-
+Criteri e modalità per la valutazione
+Adozione di strategie di valutazione coerenti con prassi inclusive Le modalità di
+valutazione degli alunni faranno riferimento a :   le procedure di valutazione sono
+usate per promuovere l’apprendimento di tutti gli alunni; esse sono complementari e
+fonte di informazione vicendevole;   tutte le procedure di valutazione hanno lo scopo
+di valorizzare la differenza attraverso l’identificazione e la valutazione dei processi e dei
+miglioramenti dell’apprendimento. Indicatori per la valutazione inclusiva. Gli indicatori,
+per citarne solo alcuni, riguardano   il livello degli allievi (“Tutti gli alunni hanno le
+medesime opportunità di partecipare alla propria valutazione, allo sviluppo, al
+potenziamento e all’evoluzione dei propri obiettivi di apprendimento”)   il livello della
+famiglia   il livello dei docenti (I docenti utilizzano la valutazione come un mezzo per
+potenziare le opportunità di apprendimento e mettono in atto tutte le strategie
+121
 
 ---
 
-## Pagina 103
+## Pagina 123
 
 
-## L'Offerta Formativa
+## L'Offerta
 
-Piano per la didattica digitale integrata
 
-## Ptof 2022 - 2025
+## Formativa
 
-Piano per la didattica digitale integrata
-La scuola ha attivato specifiche modalità per la gestione della DDI, descritte nel Regolamento
-allegato.
-- Ogni docente, studente/studentessa e ogni educatore hanno un profilo personale nella google
-Suite implementata dall'Istituto.
-- Ogni disciplina ha attivato delle google classroom per condivisione di materiale
-La DDI viene attivata secondo le modalità previste dal Regolamento di Istituto.
-Allegati:
-Regolamento OOCC a distanza IIS MARSANO 2022.docx.pdf
-99
 
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
+
+## Enrico Fermi
+
+metodologiche in loro possesso per offrire un costante sostegno agli allievi. Azioni di
+sostegno previste dalla scuola Le azioni di sostegno saranno organizzate adottando
+metodologie funzionali all'inclusione e al successo della persona attraverso:   Attività
+laboratoriali (learning by doing): laboratorio artistico, laboratorio musicale, laboratorio
+linguistico, laboratorio teatrale e laboratorio di cinematografia creativa (visione di film,
+dibattito e produzione di recensioni.   Attività per piccoli gruppi (cooperative learning)
+  Tutoring   Peer education   Attività individualizzata (mastery learning)
+Continuità e strategie di orientamento formativo e lavorativo:
+Attenzione particolare sarà dedicata alle fasi di transizione che scandiscono l’ingresso
+nel sistema scolastico e la continuità tra i diversi ordini di scuola. ATTIVITA’ di
+ACCOGLIENZA/ORIENTAMENTO   accompagnamento dei ragazzi in ingresso e rispetto
+della fase di adattamento;   orientamento professionale attraverso stage, progetti
+dedicati e attività di Alternanza scuola/lavoro
+Approfondimento
+Si allega il PAI completo A.S. 2020/2021
+
+## Allegati:
+
+PAI 2020 2021.pdf
+
+## Piano Per La Didattica Digitale Integrata
+
+Si allega il piano per la didattica digitale integrata approvato nel collegio docenti del
+18 Settembre 2020.
+I capitoli riguardano:
+- introduzione e contesto della situazione di emergenza
+- obiettivi della didattica a distanza
+- analisi del fabbisogno
+- la ddi in situazione di lockdown o chiusura temporanea e altra emergenza e quadro
+orario
+122
 
 ---
 
-## Pagina 104
+## Pagina 124
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+- flessibilità organizzativa e didattica nell'erogazione della ddi complementare alla
+didattica in presenza
+- percorsi inclusivi
+- valutazione
+- formazione per il personale docente e Ata
+- privacy e sicurezza
+Si sottolinea che tale piano è aggiornato alla data di apertura dell'istituto fissato al 24
+Settembre 2020.    Si fa presente che tale piano si è dovuto adeguare, nel corso
+dell'anno scolastico e fino alla data della sua pubblicazione, alle disposizioni locali e
+nazionali in riferimento alle misure di contenimento dell'epidemia da Covid Sars 19.
+Fermo restando, in ogni caso,  quanto prescritto con il DPCM del 26 Giugno 2020, con
+l'ordinanza regionale n. 39 del 21.10.2020, infatti, si è disposto il ricorso alla DDI per
+un minimo del 50%, fatte salve le eccezioni per alcuni alunni (diversamente abili,
+BES).  Pertanto la modalità mista prevista dal piano si è orientata in tal senso fissando
+al 50% la presenza in aula.  Con il Dpcm del 24 ottobre 2020,artcolo 1 , comma 9,
+lettera s,  si è disposto il ricorso alla DDI per un minimo del 75%, fatte salve le
+eccezioni , previa valutazione del Dirigente scolastico  in concerto con la rete
+sanitaria-educativa e istituzionale locale, per alcuni alunni (diversamente abili, BES) .
+In tal caso, l'istituto ha disposto una forma di flessibilità che ha previsto la presenza
+per classi parallele  per un solo giorno a settimana, a rotazione dal lunedì al sabato.
+Con il Dpcm del 3 novembre  all'articolo 1, comma 9, lettera s, si è disposto il ricorso
+alla DDI per il 100%, fatte salve, previa  valutazione da parte del Dirigente in concerto
+con la rete sanitaria-educativa e istituzionale locale,  di alcuni alunni (diversamente
+abili, BES) e le attività di laboratorio. In tal caso si è attuato quanto previsto dal piano
+al paragrafo dal titolo "La DDI in situazioni di lockdown o di chiusura temporanea
+della scuola o di situazioni emergenziali" pag 4 e seguenti.
+In merito alla ripresa delle attività didattiche dopo le festività natalizie si fa
+riferimento alla ordinanza del Ministero della Salute del 24.12.2020 e alla nota del
+Ministero dell'Istruzione n. 2241 del 28 Dicembre 2020 ovvero eventuali successive
+modifiche o disposizioni
+123
+
+---
+
+## Pagina 125
+
+
+## L'Offerta
+
+
+## Formativa
+
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Allegati:
+
+PIANO DDI AGGIONATO DELIBERATO DAL COLLEGIO.pdf
+124
+
+---
+
+## Pagina 126
 
 Organizzazione
-Aspetti generali
 
-## Ptof 2022 - 2025
-
-Aspetti generali
-L'Istituto è suddiviso in tre indirizzi:
-- Tecnico agrario
-- professionale agrario
-- professionale enogastronomico (con qualifica triennale)
-e 5 plessi:
-- Sant'Ilario, sede storica
-- Molassana, sede più numerosa
-- San Colombano Certenoli
-- Arenzano
-- Calvari
-Dall'a.s. 2022/23 l'Istituto ha raggiunto l'autonomia ed ha quindi un Dirigente scolastico proprio e
-non più un reggente.
-100
-
-## B.Marsano - Geis012004
+## Ptof - 2019/20-2021/22
 
 
----
+## Enrico Fermi
 
-## Pagina 105
 
-Organizzazione
-Modello organizzativo
+## Organizzazione
 
-## Ptof 2022 - 2025
 
-Modello organizzativo
+## Modello Organizzativo
+
 
 ## Periodo Didattico:
 
 Quadrimestri
-Figure e funzioni organizzative
+
+## Figure E Funzioni Organizzative
+
+- Coordina comunicazioni interne ed
+esterne; - stesura Protocolli d’Intesa,
+Convenzioni, Reti…. etc; - gestione udienze
+con il D.S.; - monitora le assenze/i ritardi e
+riferisce al D.S.le violazioni al Regolamento;
+- cura e verifica della documentazione dei
+Dipartimenti, Progettazioni d’Istituto e
+monitoraggio degli atti preposti; -
+predisposizione delle sostituzioni del
+personale docente/ ATA; - Monitoraggio
+dell’iter comunicativo tra
+dirigenza/segreteria e personale docente e
+A.T.A.( Posta); - organizzazione e gestione
+dei rapporti scuola- famiglia, del rinnovo
+delle rappresentanze degli studenti e dei
+genitori, del consiglio di istituto avendo
+cura di predisporre tutti gli atti della
+commissione; - gestione dei corsi di
+recupero intermedi e finali, avendo cura di
+organizzare tutti gli atti amministrativi -
+organizzazione delle attività per gli scrutini;
+le attività per gli scrutini - organizzazione e
+consegna del materiale per la commissione
+d’esame, predisponendo ambienti e
 Collaboratore del DS
-Ha il compito di supporto alle attività del DS,
-anche per quanto riguarda i rapporti con le
-amministrazioni territoriali e l’organizzazione
-dell’Istituto. Ha inoltre funzioni di delega in caso
-di sostituzione del Dirigente per assenza o
-impedimento, secondo quanto previsto dalle
-vigenti disposizioni in materia;
-1
-Staff del DS (comma 83
-Legge 107/15)
-Affianca la DS nella gestione operativa della
-scuola
-17
+2
+125
+
+---
+
+## Pagina 127
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+materiali; - gestione e monitoraggio degli
+Open day; - organizzazione e gestione dei
+trasferimenti e i nuovi arrivi degli studenti;
+- accoglienza dei nuovi docenti (compreso i
+supplenti) notificandogli le disposizioni -
+cura dei rapporti con i docenti; -
+verbalizzazione delle riunioni collegiali
+dando attuazione alle procedure
+Staff del DS (comma
+83 Legge 107/15)
+Supporto alla dirigenza nelle seguenti aree:
+comunicazione esterna e innovazione
+didattica, inclusione, gemellaggi ed
+Erasmus, responsabile T.I.C. ,
+autovalutazione di istituto, pdm e rav,
+programmazione didattica, educativa e
+gestionale , programmazione oraria e
+flessibilità didattica e oraria
+8
 Funzione strumentale
-Si vedano funzioni specifiche riportate in
-apposito allegato
-5
+le funzioni strumentali supportano la
+dirigenza nelle seguenti aree: redazione
+ptof, rapporto con gli alunni, sistema di
+gestione qualità, PCTO
+6
+Nella progettazione curriculare ed
+extracurriculare dell’offerta formativa
+dell’istituto un ruolo centrale è svolto dai
+dipartimenti d'asse (dei linguaggi,
+matematico, storico sociale, scientifico-
+tecnologico). A tale composizione dei
+dipartimenti per assi che riguarda tutti gli
+indirizzi liceali si aggiunge un unico
+dipartimento dell'istituto tecnico Trasporti
+e logistica. , nonché dal comitato tecnico-
+scientifico (CTS) di cui all’art. 5, comma 3,
+lettera e) del D.P.R. 15.03.2010 n.87
+(Regolamento degli Istituti Professionali),
+art. 5, comma 3, lettera d), del
+D.P.R.15.03.2010 n.88 (Regolamento degli
 Capodipartimento
-Coordina l'attività del suo dipartimento per area
-disciplinare. Provvede alla verbalizzazione delle
-riunioni di dipartimento e alla condivisione con
-lo Staff
-4
-Responsabile di plesso
-Nell’ambito del plesso di propria responsabilità
-hanno la funzione di supporto al Dirigente
-Scolastico per l’organizzazione (strutture,
-didattica, rapporti con le famiglie e orario) ed
-eventuale segnalazione di situazioni critiche al
-DS o suoi collaboratori.
 5
-Ha la funzione di coordinare il processo di
+126
+
+---
+
+## Pagina 128
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Istituti Tecnici) e art.10, comma 2, lettera
+b), del D.P.R. 15.03.2010 n.89 (Regolamento
+dei Licei). La nostra istituzione scolastica si
+è dotata, nell’esercizio dell’ autonomia
+didattica e organizzativa, di un comitato
+tecnico-scientifico, senza nuovi e maggiori
+oneri per la finanza pubblica, composto da
+docenti e da esperti del mondo del lavoro,
+delle professioni e della ricerca scientifica e
+tecnologica, con funzioni consultive e di
+proposta per l’organizzazione delle aree di
+indirizzo e l’utilizzazione degli spazi di
+autonomia e flessibilità
+Responsabile di
+laboratorio
+le unità fanno riferimento ai responsabili
+dei diversi laboratori attivi nell'istituto. Tali
+figure coordinano le attività e gli orari di
+ciascun laboratorio ad essi affidato. I
+laboratori attivi sono: arte e disegno,
+lingue, fisica, chimica, elettronica,
+meccanica, scienze della navigazione,
+atelier creativo, informatica
+8
+A fronte del nuovo quadro normativo che si
+sta delineando emerge la necessità di
+rimodulare i percorsi formativi sulla base
+degli assi culturali ritenuti strategici,
+favorendo l’innovazione metodologico-
+didattica in funzione della qualità
+dell’apprendimento. In funzione di quanto
+sopra evidenziato, sul piano operativo si
+rende necessario programmare interventi
+volti a: - facilitare
+ilprocessod’apprendimento degli allievi
+attraverso l’utilizzodelleT.I.C.. - promuovere
+azioni d’insegnamento che supportino la
+motivazione ad apprendere; - sostenere
 Animatore digitale
 1
-101
-
-## B.Marsano - Geis012004
-
+127
 
 ---
 
-## Pagina 106
+## Pagina 129
 
 Organizzazione
-Modello organizzativo
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-digitalizzazione della scuola e la diffusione
-dell’innovazione a scuola e le attività del PNSD
-anche previste nel Piano triennale dell’offerta
-formativa.
+
+## Enrico Fermi
+
+metodologie innovative; - coordinare l’
+istruzione domiciliare.
+Team digitale
+il team digitale supporta l'animatore e
+diffonde le buone pratiche digitali al vari
+consigli di classe e ai dipartimenti
+8
 Coordinatore
 dell'educazione civica
-Segue i percorsi mirati di formazione che
-saranno attuati da USR Coordina le fasi di
-progettazione, realizzazione e monitoraggio dei
-percorsi di Educazione Civica anche in continuità
-fra i diversi ordini di scuola e in coerenza con il
-PTOF; Coordina le riunioni con i coordinatori
-dell’educazione civica per ciascuna classe e team
-pedagogico e raccoglie la documentazione
-funzionale alla definizione della valutazione da
-registrare nella scheda. Segnala al Collegio
-iniziative formative/concorsi/esperienze
-significative ai fini del conseguimento degli
-obiettivi
+coordinamento e monitoraggio e cura della
+modulistica afferente dell' insegnamento
+trasversale di educazione civica . A tale
+figura si affiancano i referenti
+dell'educazione civica nominati dai singoli
+consigli di classe
 1
-Direttore/ice azienda
-agraria
-Realizza l'indirizzo economico produttivo
-concordato con la DS. Si occupa della gestione
-dell'azienda di riferimento e si coordina con i
-docenti/le docenti di disciplina per la
-suddivisione dei compiti e la definizione del
-calendario colturale annuale.
-4
-Referente cyberbullismo
-Docente con specifica formazione che attua
-azioni di prevenzione del cyberbullismo e
-interviene in caso di situazioni problematiche.
+Coordinatore attività
+ASL
+- cura e monitoraggio dei rapporti e dei
+protocolli d’intesa/convenzioni stipulati con
+le aziende/enti etc… - cura e monitoraggio
+dello svolgimento e della congruenza dei
+percorsi di alternanza; - supporto ai tutor
+2
+referente
+cyberbullismo
+Il referente cura la formazione e la
+diffusione della legislazione in merito al
+problema in oggetto
 1
-Modalità di utilizzo organico dell'autonomia
-102
-
-## B.Marsano - Geis012004
-
+Referente alla salute e
+alle educazioni
+Sovraintende e coordina le attività
+progettuali e di formazione sia per il
+personale che per gli studenti in merito alla
+prevenzione salute, dipendenze e
+all'educazione all'affettività
+1
+Referente Covid
+Svolge attività di monitoraggio in
+riferimento ai protocolli di sicurezza per gli
+studenti, docenti e tutto il personale scuola
+1
+Sostituto referente
+Covid
+Svolge le medesime funzioni in caso di
+assenza del referente
+1
+Svolge funzioni di controllo di tutte le
+misure di prevenzione per la riduzione del
+contagio dell'epidemia Covid Sars 19 e
+Sicurezza/controllo
+applicazioni protocolli
+anti Covid
+1
+128
 
 ---
 
-## Pagina 107
+## Pagina 130
 
 Organizzazione
-Modello organizzativo
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+supporta la dirigenza in merito alla
+sicurezza
+
+## Rspp
+
+Responsabile sicurezza prevenzione e
+protezione è una figura ausiliaria della
+dirigenza scolastica che trova numerose
+similitudini nei ruoli presenti all’interno
+delle organizzazioni del lavoro: infatti nella
+scuola, il RSPP è un ausiliario al DS che ha il
+compito di mantenere i plessi scolastici
+sani, attraverso numerose attività di
+vigilanza, di formazione, informazione nei
+confronti del personale e di gestione dei
+diversi protocolli di sicurezza adottati.
+1
+- presiedono, su delega del Dirigente
+scolastico (art. DPR 416/74), le riunioni del
+Consiglio di classe e ne redige il verbale; -
+coordinano i rapporti tra i docenti della
+classe in ordine alla programmazione delle
+attività didattiche e alla distribuzione
+equilibrata dei carichi di lavoro, in classe a
+casa, degli studenti; - redigono il
+documento di programmazione della classe
+nella parte comune e la archivia nella rete
+d'Istituto; - presentano agli studenti la
+programmazione di classe, il regolamento
+d'Istituto, la carta dei servizi, il P.O.F; -
+verificano che i colleghi abbiano illustrato
+la programmazione disciplinare. Sono punti
+di riferimento per il Dirigente scolastico ed i
+colleghi, specie i supplenti, coi quali
+mantengono costanti e opportuni contatti;
+- segnalano alla Presidenza eventuali
+problemi e necessità di interventi adeguati;
+- sono punti di riferimento per i genitori; -
+coordinano lo svolgimento delle attività
+Coordinatori di classe
+41
+129
+
+---
+
+## Pagina 131
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+degli allievi (gite, assemblee di classe,
+interventi didattici ed educativi integrativi)
+e ne raccoglie proposte ed esigenze; -
+verificano la corretta compilazione del
+registro di classe (firme, argomenti,
+assenze, giustificazioni); - verificano ad
+inizio d'anno le firme dei genitori sul
+libretto delle assenze con timbro della
+scuola; - controllano o assenze, ritardi,
+uscite anticipate degli studenti,
+contattando le famiglie direttamente o
+tramite il Dirigente Scolastico; - Partecipano
+agli incontri d'Istituto per il coordinamento
+delle attività didattiche. - I coordinatori
+delle classi quinte coordinano tutte le
+attività del Consiglio di classe relative
+all'Esame di Stato; - predispongono la
+modulistica occorrente per le riunioni del
+consiglio di classe, seguendo le istruzioni
+della relativa procedura.
+Tutor PCTO
+Svolgono la funzione di monitoraggio delle
+azioni formative ovvero stage delle attività
+interne ed esterne in riferimento
+all'espletazione delle ore di PCTO per
+ciascuna classe. Sovrintende, inoltre, alla
+cura e la compilazione della modulistica di
+pertinenza
+23
+
+## Modalità Di Utilizzo Organico Dell'Autonomia
 
 Scuola secondaria di
-secondo grado - Classe di
-concorso
+secondo grado - Classe
+di concorso
 Attività realizzata
 N. unità attive
 
-## A009 - Discipline
+## A002 - Design Dei
 
 
-## Grafiche, Pittoriche E
+## Metalli,
 
-
-## Scenografiche
-
-Attività artistiche inclusive in coordinamento con
-i docenti del GLO
+Attività di insegnamento curricolare
 Impiegato in attività di:
+1
+130
+
+---
+
+## Pagina 132
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Dell'Oreficeria,
+
+
+## Delle Pietre Dure E
+
+
+## Delle Gemme
+
 Potenziamento
 •
-1
 
-## A017 - Disegno E
-
-
-## Storia Dell'Arte Negli
+## A011 - Discipline
 
 
-## Istituti Di Istruzione
+## Letterarie E Latino
+
+Attività di insegnamento curricolare e di
+potenziamento dell'offerta formativa in
+campo comunicativo, di inclusione e
+innovazione
+Impiegato in attività di:
+Insegnamento
+•
+Potenziamento
+•
+Organizzazione
+•
+Progettazione
+•
+13
+
+## A012 - Discipline
+
+
+## Letterarie Negli
+
+
+## Istituti Di
+
+
+## Istruzione
 
 
 ## Secondaria Di Ii
@@ -5828,99 +7433,541 @@ Potenziamento
 
 ## Grado
 
-Laboratorio di espressione artistica e attività di
-potenziamento nell'azienda agraria
+Attività di insegnamento curricolare
 Impiegato in attività di:
+Insegnamento
+•
+2
+
+## A017 - Disegno E
+
+
+## Storia Dell'Arte
+
+
+## Negli Istituti Di
+
+
+## Istruzione
+
+
+## Secondaria Di Ii
+
+
+## Grado
+
+Attività di insegnamento curricolìare
+Impiegato in attività di:
+Insegnamento
+•
+3
+
+## A019 - Filosofia E
+
+
+## Storia
+
+Attività di insegnamento curricolare e
+potenziamento dell'offerta formativa in
+merito al progetto Romanae diputationes e
+Debate
+Impiegato in attività di:
+Insegnamento
+•
+Potenziamento
+•
+5
+131
+
+---
+
+## Pagina 133
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## A026 - Matematica
+
+Attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
 Potenziamento
 •
 1
-103
 
-## B.Marsano - Geis012004
+## A027 - Matematica E
 
+
+## Fisica
+
+Attività di insegnamento e potenziamento
+nell'arricchimento dell'offerta formativa
+Impiegato in attività di:
+Insegnamento
+•
+Potenziamento
+•
+12
+
+## A034 - Scienze E
+
+
+## Tecnologie
+
+
+## Chimiche
+
+Attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
+1
+
+## A040 - Scienze E
+
+
+## Tecnologie
+
+
+## Elettriche Ed
+
+
+## Elettroniche
+
+attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
+1
+
+## A041 - Scienze E
+
+
+## Tecnologie
+
+
+## Informatiche
+
+Attività di insegnamento curricolare e
+progettazione
+Impiegato in attività di:
+Insegnamento
+•
+Coordinamento
+•
+1
+
+## A042 - Scienze E
+
+
+## Tecnologie
+
+
+## Meccaniche
+
+Attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
+1
+Attività di insegnamento curricolare
+Impiegato in attività di:
+
+## A043 - Scienze E
+
+
+## Tecnologie
+
+
+## Nautiche
+
+1
+132
 
 ---
 
-## Pagina 108
+## Pagina 134
 
 Organizzazione
-Organizzazione Uffici e modalità di rapporto con
-l'utenza
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-Organizzazione Uffici e modalità di rapporto con
-l'utenza
-Organizzazione uffici amministrativi
-Direttore dei servizi generali e
-amministrativi
-Ha la funzione di gestione dei servizi amministrativi, ivi inclusa la
-gestione del personale ATA
-Servizi attivati per la dematerializzazione dell'attività
-amministrativa
+
+## Enrico Fermi
+
+Insegnamento
+•
+
+## A048 - Scienze
+
+
+## Motorie E Sportive
+
+
+## Negli Istituti Di
+
+
+## Istruzione
+
+
+## Secondaria Di Ii
+
+
+## Grado
+
+Attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
+4
+
+## A050 - Scienze
+
+
+## Naturali, Chimiche
+
+
+## E Biologiche
+
+Attività di insegnamento curricolare,
+potenziamento nell'arricchimento
+dell'offerta formativa e progettazione
+Impiegato in attività di:
+Insegnamento
+•
+Coordinamento
+•
+6
+
+## Aa24 - Lingue E
+
+
+## Culture Straniere
+
+
+## Negli Istituti Di
+
+
+## Istruzione Di Ii
+
+
+## Grado (Francese)
+
+Attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
+2
+
+## Ab24 - Lingue E
+
+
+## Culture Straniere
+
+
+## Negli Istituti Di
+
+
+## Istruzione Di Ii
+
+
+## Grado (Inglese)
+
+Attività di insegnamento curricolare e
+potenziamento nell'ampliamento
+dell'offerta formativa
+Impiegato in attività di:
+Insegnamento
+•
+Potenziamento
+•
+7
+
+## Ad24 - Lingue E
+
+
+## Culture Straniere
+
+
+## Negli Istituti Di
+
+
+## Istruzione Di Ii
+
+
+## Grado (Tedesco)
+
+Attività di insegnamento curricolare e
+progettazione
+Impiegato in attività di:
+Insegnamento
+•
+Coordinamento
+•
+2
+133
+
+---
+
+## Pagina 135
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## B015 - Laboratori Di
+
+
+## Scienze E
+
+
+## Tecnologie
+
+
+## Elettriche Ed
+
+
+## Elettroniche
+
+Attività di insegnamento laboratoriale
+Impiegato in attività di:
+Insegnamento
+•
+1
+
+## B017 - Laboratori Di
+
+
+## Scienze E
+
+
+## Tecnologie
+
+
+## Meccaniche
+
+Attività di insegnamento curricolare
+Impiegato in attività di:
+Insegnamento
+•
+1
+
+## Organizzazione Uffici E Modalità Di Rapporto Con L'Utenza
+
+
+## Organizzazione Uffici Amministrativi
+
+Sovrintende ai servizi amministrativo-contabili e ne cura
+l’organizzazione. Ha autonomia operativa e responsabilità
+diretta nella definizione ed esecuzione degli atti
+amministrativo-contabili, di ragioneria e di economato,
+anche con rilevanza esterna. Ai sensi e per gli effetti dell’art.
+25 bis D. L.vo 29/93 e successive modificazioni ed
+integrazioni, il Direttore coadiuva il Dirigente nelle proprie
+funzioni organizzative e amministrative. In materia
+finanziaria e patrimoniale il Direttore: · redige e aggiorna la
+scheda finanziaria dei progetti (artt. 2 c. 6 e 7 c. 2); ·
+predispone la tabella dimostrativa dell’avanzo di
+amministrazione (art. 3 c. 2); · elabora il prospetto recante
+l’indicazione di utilizzo dell’avanzo di amministrazione (art.
+3 c. 3); · predispone la relazione sulle entrate accertate sulla
+consistenza degli impegni assunti e dei pagamenti eseguiti
+finalizzata alla verifica del programma annuale (art. 6 c. 6); ·
+firma gli ordini contabili (riversali e mandati)
+congiuntamente al Dirigente (art. 10 e 12 c. 1); · provvede
+alla liquidazione delle spese (art. 11 c. 4); · può essere
+Direttore dei servizi
+generali e amministrativi
+134
+
+---
+
+## Pagina 136
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Organizzazione Uffici Amministrativi
+
+autorizzato all’uso della carta di credito e riscontra i
+pagamenti effettuati a suo mezzo (art. 14 c. 2 e 3); · ha la
+gestione del fondo per le minute spese (art. 17); ·
+predispone il conto consuntivo (art. 18 c. 5); · elabora la
+scheda illustrativa finanziaria riferita all’azienda agraria e/o
+speciale recante la dimostrazione delle entrate e delle
+spese delle aziende (art. 20 c. 3); · tiene le scritture contabili
+con il metodo della partita doppia dell’azienda (art. 20 c. 6);
+· predispone entro il 15 marzo il rendiconto dell’azienda,
+completo dei prescritti allegati (art. 20 c. 9); · elabora la
+scheda finanziaria riferita alle attività per conto terzi
+recante le entrate e le spese dello specifico progetto iscritto
+a bilancio (art. 21 c. 1); · tiene le scritture contabili relative
+alle “attività per conto terzi” (art. 21 c. 2); · elabora la scheda
+finanziaria riferita alle attività convittuali (illustrative delle
+entrate e spese relative al funzionamento art. 22 c. 1); ·
+tiene e cura l’inventario e ne assume la responsabilità quale
+consegnatario (art. 24 c. 7); · effettua il passaggio di
+consegne in caso di cessazione dall’ufficio di Direttore con
+la redazione di apposito verbale (art. 24 c. 8); · cura
+l’istruttoria per la ricognizione dei beni almeno ogni 5 anni
+ed almeno ogni 10 anni per il rinnovo degli inventari e della
+rivalutazione dei beni (art. 24 c. 9); · affida la custodia del
+materiale didattico, tecnico e scientifico dei gabinetti, dei
+laboratori e delle officine ai rispettivi docenti mediante
+elenchi descrittivi compilati e sottoscritti dal Direttore e dal
+docente (art. 27 c. 1); · sigla i documenti contabili ed a fine
+esercizio attesta il numero delle pagine di cui i documenti
+sono composti (art. 29 c. 4); · riceve dal docente che cessa
+dall’incarico di subconsegnatario il materiale affidatogli in
+custodia (art. 27 c. 2); · è responsabile della tenuta della
+contabilità e degli adempimenti fiscali (art. 29 c. 5); · cura e
+tiene i verbali dei revisori dei conti (art. 60 c. 1). In materia
+di attività negoziale il D.S.G.A.: · collabora con il Dirigente
+135
+
+---
+
+## Pagina 137
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Organizzazione Uffici Amministrativi
+
+Scolastico nella fase istruttoria e svolge specifica attività
+negoziale connessa con le minute spese prevista dal D.I.
+44/01 e dal suo profilo professionale (art.50 – tabella D/2 -
+CCNL 26/5/99); · può essere delegato dal Dirigente
+Scolastico ad occuparsi di singole attività negoziali (art. 32); ·
+svolge l’attività di ufficiale rogante nella stipula degli atti che
+richiedono la forma pubblica; · provvede alla tenuta della
+documentazione relativa all’attività contrattuale svolta e
+programmata; · può essere delegato dal Dirigente
+Scolastico a rilasciare il certificato che attesta la regolarità
+della fornitura per forniture di valore inferiore a 2000 Euro.
+· Redige apposito certificato di regolare prestazione per i
+contratti inerenti la fornitura di servizi periodici. Interventi
+del Consiglio di istituto nell'attività negoziale (art. 33) 1. Il
+Consiglio di istituto delibera in ordine: a. alla accettazione e
+alla rinuncia di legati, eredità e donazioni; b. alla
+costituzione o compartecipazione a fondazioni;
+all'istituzione o compartecipazione a borse di studio; c.
+all'accensione di mutui e in genere ai contratti di durata
+pluriennale; d. ai contratti di alienazione, trasferimento,
+costituzione, modificazione di diritti reali su beni immobili
+appartenenti alla istituzione scolastica, previa verifica, in
+caso di alienazione di beni pervenuti per effetto di
+successioni a causa di morte e donazioni, della mancanza di
+condizioni ostative o disposizioni modali che ostino alla
+dismissione del bene; e. all'adesione a reti di scuole e
+consorzi; f. all'utilizzazione economica delle opere
+dell'ingegno; g. alla partecipazione della scuola ad iniziative
+che comportino il coinvolgimento di agenzie, enti,
+università, soggetti pubblici o privati; h. all'eventuale
+individuazione del superiore limite di spesa di cui
+all'articolo 34, comma 1; i. all'acquisto di immobili.
+si occupa dello smistamento di tutte le pratiche
+Ufficio protocollo
+136
+
+---
+
+## Pagina 138
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Organizzazione Uffici Amministrativi
+
+amministrative e didattiche in entrata e in uscita
+Ufficio acquisti
+Coordinamento e gestione acquisti e progetti
+Ufficio per la didattica
+si occupa di tutte le pratiche dei docenti in servizio.
+Sovraintende agli organici
+Ufficio alunni
+Cura e coordina tutte le pratiche relative agli studenti
+dell'istituto
+Servizi attivati per la
+dematerializzazione dell'attività
+amministrativa:
 Registro online
 Pagelle on line
+Monitoraggio assenze con messagistica
 Modulistica da sito scolastico
-Segreteria digitale
-104
+http://www.liceofermipolicoro.it/
 
-## B.Marsano - Geis012004
+## Reti E Convenzioni Attivate
 
 
----
+## "Scuole In Magna Grecia"
 
-## Pagina 109
-
-Organizzazione
-Reti e Convenzioni attivate
-
-## Ptof 2022 - 2025
-
-Reti e Convenzioni attivate
-Denominazione della rete: Rete Merani
-Azioni realizzate/da realizzare
-Formazione del personale
-•
-Soggetti Coinvolti
-Altre scuole
-•
-Ruolo assunto dalla scuola
-nella rete:
-Partner rete di ambito
-Denominazione della rete: Rete RENISA
-Azioni realizzate/da realizzare
+Azioni realizzate/da
+realizzare
 Attività didattiche
-•
-Attività amministrative
 •
 Risorse condivise
 Risorse professionali
 •
-Soggetti Coinvolti
 Altre scuole
 •
-Ruolo assunto dalla scuola
-nella rete:
-Partner rete di ambito
-105
-
-## B.Marsano - Geis012004
-
+Enti di ricerca
+•
+Altre associazioni o cooperative ( culturali, di
+volontariato, di genitori, di categoria, religiose, ecc.)
+•
+Soggetti Coinvolti
+137
 
 ---
 
-## Pagina 110
+## Pagina 139
 
 Organizzazione
-Reti e Convenzioni attivate
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-Denominazione della rete: Rete Istituti Tecnici e
-Professionali
-Azioni realizzate/da realizzare
-Formazione del personale
+
+## Enrico Fermi
+
+
+## "Scuole In Magna Grecia"
+
+Autonomie locali (Regione, Provincia, Comune, ecc.)
 •
+Ruolo assunto dalla scuola
+nella rete:
+Capofila rete di scopo
+
+## "Tursiopes"
+
+Azioni realizzate/da
+realizzare
 Attività didattiche
 •
 Risorse condivise
@@ -5929,241 +7976,484 @@ Risorse professionali
 Soggetti Coinvolti
 Altre scuole
 •
-Enti di formazione accreditati
+Università
+•
+Enti di ricerca
+•
+Altre associazioni o cooperative ( culturali, di
+volontariato, di genitori, di categoria, religiose, ecc.)
+•
+Autonomie locali (Regione, Provincia, Comune, ecc.)
 •
 Ruolo assunto dalla scuola
 nella rete:
 Partner rete di scopo
-Denominazione della rete: Rete ligure per la
-Realizzazione di progetti nazionali per lo sviluppo di
-modelli innovativi di didattica digitale
-Azioni realizzate/da realizzare
+
+## "Teaching For Inclusion"
+
+Azioni realizzate/da
+realizzare
+Formazione del personale
+•
 Attività didattiche
 •
 Risorse condivise
-Risorse materiali
+Risorse professionali
 •
-106
-
-## B.Marsano - Geis012004
-
+138
 
 ---
 
-## Pagina 111
+## Pagina 140
 
 Organizzazione
-Reti e Convenzioni attivate
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## "Teaching For Inclusion"
 
 Soggetti Coinvolti
+Altre scuole
+•
+Università
+•
+Enti di ricerca
+•
+Altre associazioni o cooperative ( culturali, di
+volontariato, di genitori, di categoria, religiose, ecc.)
+•
+Autonomie locali (Regione, Provincia, Comune, ecc.)
+•
+Ruolo assunto dalla scuola
+nella rete:
+Partner rete di scopo
+
+## Rete Ambito Bas 005
+
+Azioni realizzate/da
+realizzare
+Formazione del personale
+•
+Attività didattiche
+•
+Risorse condivise
+Risorse professionali
+•
+Soggetti Coinvolti
+Altre scuole
+•
+Ruolo assunto dalla scuola
+nella rete:
+Partner rete di ambito
+PLS
+Azioni realizzate/da
+realizzare
+Attività didattiche
+•
+Risorse condivise
+Risorse professionali
+•
+Risorse strutturali
+•
+139
+
+---
+
+## Pagina 141
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+PLS
+Soggetti Coinvolti
+Università
+•
+Ruolo assunto dalla scuola
+nella rete:
+Capofila rete di scopo
+
+## Wedebate
+
+Azioni realizzate/da
+realizzare
+Formazione del personale
+•
+Attività didattiche
+•
+Risorse condivise
+Risorse professionali
+•
+Risorse strutturali
+•
+Soggetti Coinvolti
+Altre scuole
+•
+Enti di ricerca
+•
+Ruolo assunto dalla scuola
+nella rete:
+Partner rete di scopo
+
+## Re.Na
+
+Azioni realizzate/da
+realizzare
+Formazione del personale
+•
+Attività didattiche
+•
+Risorse condivise
+Risorse professionali
+•
+Risorse strutturali
+•
+140
+
+---
+
+## Pagina 142
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## Re.Na
+
+Soggetti Coinvolti
+Altre scuole
+•
+Università
+•
+Enti di ricerca
+•
+Enti di formazione accreditati
+•
 Altri soggetti
 •
 Ruolo assunto dalla scuola
 nella rete:
 Partner rete di scopo
-Denominazione della rete: Rete RENAIA
-Azioni realizzate/da realizzare
-Attività didattiche
+
+## Piano Di Formazione Del Personale Docente
+
+
+## Autonomia Didattica E Organizzativa
+
+attività di formazione individuale o con la rete d'ambito
+Collegamento con le
+priorità del PNF docenti
+Autonomia didattica e organizzativa
+Destinatari
+tutti i docenti
+Modalità di lavoro
+Laboratori
 •
-Risorse condivise
-Risorse professionali
+Ricerca-azione
 •
-Soggetti Coinvolti
-Altre scuole
-•
-Ruolo assunto dalla scuola
-nella rete:
-Partner rete di ambito
-107
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
 
-## B.Marsano - Geis012004
+## Didattica Per Competenze, Innovazione Metodologica E Comp
 
-
----
-
-## Pagina 112
-
-Organizzazione
-Piano di formazione del personale docente
-
-## Ptof 2022 - 2025
-
-Piano di formazione del personale docente
-Titolo attività di formazione: Formazione in ingresso
-docenti
-la riflessione sui contenuti disciplinari (in relazione alle Indicazioni Nazionali nell’ambito del DPR 89
-del 15 marzo 2010);
-Collegamento con le priorità
-del PNF docenti
+attività di formazione individuale o con la rete d'ambito
+Collegamento con le
+priorità del PNF docenti
 Didattica per competenze, innovazione metodologica e
 competenze di base
-Destinatari
-Docenti neo-assunti
-Modalità di lavoro
-Laboratori
-•
-Formazione di Scuola/Rete
-Attività proposta dalla rete di ambito
-Agenzie Formative/Università/Altro coinvolte
-Attività proposta dalla rete di ambito
-Titolo attività di formazione: Aggiornamento digitale
-l’applicazione alla didattica delle tecnologie informatiche e della comunicazione, in relazione alle
-Competenze Chiave dell’Unione Europea;
-Collegamento con le priorità
-Competenze digitali e nuovi ambienti di apprendimento
-108
-
-## B.Marsano - Geis012004
-
+141
 
 ---
 
-## Pagina 113
+## Pagina 143
 
 Organizzazione
-Piano di formazione del personale docente
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-del PNF docenti
+
+## Enrico Fermi
+
 Destinatari
-Docenti impegnati nella realizzazione delle innovazioni
+tutti i docenti
 Modalità di lavoro
 Laboratori
 •
-Peer review
+Ricerca-azione
 •
 Formazione di Scuola/Rete
-Attività proposta dalla singola scuola
-Titolo attività di formazione: Didattica delle lingue
-straniere
-Attività di insegnamento in peer to peer, conversazione in lingua inglese e attività laboratoriale
-Collegamento con le priorità
-del PNF docenti
+Attività proposta dalla rete di ambito
+
+## Competenze Digitali E Nuovi Ambienti Di Apprendimento
+
+attività di formazione individuale o con la rete di ambito
+Collegamento con le
+priorità del PNF docenti
+Competenze digitali e nuovi ambienti di apprendimento
+Destinatari
+tutti i docenti
+Modalità di lavoro
+Laboratori
+•
+Ricerca-azione
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Competenze Di Lingua Straniera
+
+attività di formazione individuale o con la rete d'ambito
+Collegamento con le
+priorità del PNF docenti
 Competenze di lingua straniera
 Destinatari
-Tutti i docenti interessati
+tutti i docenti
 Modalità di lavoro
 Laboratori
 •
-Workshop
-•
-Peer review
+Ricerca-azione
 •
 Formazione di Scuola/Rete
-Attività proposta dalla singola scuola
-Titolo attività di formazione: Sicurezza
-Corsi di base sulla sicurezza - 12 ore
-109
-
-## B.Marsano - Geis012004
-
+Attività proposta dalla rete di ambito
+142
 
 ---
 
-## Pagina 114
+## Pagina 144
 
 Organizzazione
-Piano di formazione del personale docente
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-Collegamento con le priorità
-del PNF docenti
+
+## Enrico Fermi
+
+
+## Inclusione E Disabilità
+
+attività di formazione individuale o con la rete di ambito
+Collegamento con le
+priorità del PNF docenti
+Inclusione e disabilità
+Modalità di lavoro
+Laboratori
+•
+Ricerca-azione
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Coesione Sociale E Prevenzione Del Disagio Giovanile
+
+attività di formazione individuale e con la rete di ambito
+Collegamento con le
+priorità del PNF docenti
+Coesione sociale e prevenzione del disagio giovanile
+Destinatari
+tutti i docenti
+Modalità di lavoro
+Laboratori
+•
+Ricerca-azione
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Integrazione, Competenze Di Cittadinanza E Cittadinanza Globale Scuola E
+
+
+## Lavoro
+
+attività di formazione individuale o con la rete di ambito
+Collegamento con le
+priorità del PNF docenti
+Integrazione, competenze di cittadinanza e cittadinanza
+globale Scuola e lavoro
+143
+
+---
+
+## Pagina 145
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Modalità di lavoro
+Laboratori
+•
+Ricerca-azione
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Valutazione E Miglioramento
+
+attività di formazione individuale o con la rete di ambito
+Collegamento con le
+priorità del PNF docenti
+Valutazione e miglioramento
+Destinatari
+tutti i docenti
+Modalità di lavoro
+Laboratori
+•
+Ricerca-azione
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Collegamento Con Le Priorità Del Piano Di Miglioramento
+
+attività di formazione individuale o con la rete di ambito
+Collegamento con le
+priorità del PNF docenti
 Collegamento con le priorità del Piano di Miglioramento
 Destinatari
-Tutti i docenti interessati
+tutti i docenti
 Modalità di lavoro
 Laboratori
 •
+Ricerca-azione
+•
 Formazione di Scuola/Rete
-Attività proposta dalla singola scuola
-Titolo attività di formazione: Metodologie didattiche
-innovative
-j) il Piano nazionale Scuola Digitale, con particolare riferimento alla cittadinanza digitale; sviluppo
-della didattica digitale e di formazione del personale scolastico sulla transizione digitale (PNRR)
-Titolo attività di formazione: Corsi sulla gestione
-classe/adolescenti/benessere a scuola
-g) contrasto alla dispersione e all’insuccesso formativo; riduzione dei divari territoriali (PNRR);
-Titolo attività di formazione: Corsi su specifici
-110
-
-## B.Marsano - Geis012004
-
+Attività proposta dalla rete di ambito
+144
 
 ---
 
-## Pagina 115
+## Pagina 146
 
 Organizzazione
-Piano di formazione del personale docente
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-insegnamenti disciplinari
-b) discipline scientifico-tecnologiche (STEM): nuove competenze e nuovi linguaggi (PNRR); c) nuova
-organizzazione didattica dell’istruzione professionale (D.I. 92/2018); sviluppo e riforma degli istituti
-tecnici e professionali transizione verde (Energia 4.0, Ambiente 4.0, etc.) e transizione digitale
-(Impresa 4.0) (PNRR); f) linee guida per i percorsi per le competenze trasversali e di orientamento
-(D.M.774/2019); g) contrasto alla dispersione e all’insuccesso formativo; riduzione dei divari
-territoriali (PNRR);
-Titolo attività di formazione: Corsi sull’utilizzo esperto di
-Google-suite
-b) discipline scientifico-tecnologiche (STEM): nuove competenze e nuovi linguaggi (PNRR); g)
-contrasto alla dispersione e all’insuccesso formativo; riduzione dei divari territoriali (PNRR);
-Titolo attività di formazione: Corsi sui nuovi Professionali
-b) discipline scientifico-tecnologiche (STEM): nuove competenze e nuovi linguaggi (PNRR); c) nuova
-organizzazione didattica dell’istruzione professionale (D.I. 92/2018); sviluppo e riforma degli istituti
-tecnici e professionali transizione verde (Energia 4.0, Ambiente 4.0, etc.) e transizione digitale
-(Impresa 4.0) (PNRR);
-111
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+Approfondimento
+Considerato
+l’atto
+di
+indirizzo
+del
+Dirigente Scolastico presentato nella
+seduta
+del
+collegio
+docenti
+del
+18.09.2020  sono qui sintetizzate le azioni
+formative prioritarie riguardo la DDI:
+per gli alunni:
+-       Rudimenti informatici per l’utilizzo dei programmi di video scrittura;
+-       promozione della cultura digitale, del suo buon uso applicata alle discipline di
+studio;
+-
+uso
+delle
+piattaforme
+dedicate
+e
+del
+registro
+Argo
+Per
+i
+docenti
+145
 
 ---
 
-## Pagina 116
+## Pagina 147
 
 Organizzazione
-Piano di formazione del personale docente
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-Titolo attività di formazione: Corso insegnare e valutare
-educazione civica
-a) educazione civica con particolare riguardo alla conoscenza della Costituzione e alla cultura della
-sostenibilità (Legge 92/2019); d) modalità e procedure della valutazione formativa e sistema degli
-Esami di Stato nei Nuovi Professionali (D.lgs. 61 e 62/2017);
-Titolo attività di formazione: Corsi di coding e STEM
-b) discipline scientifico-tecnologiche (STEM): nuove competenze e nuovi linguaggi (PNRR); j) il Piano
-nazionale Scuola Digitale, con particolare riferimento alla cittadinanza digitale; sviluppo della
-didattica digitale e di formazione del personale scolastico sulla transizione digitale (PNRR)
-Titolo attività di formazione: Corsi sulla progettazione
-(inclusa quella per PNRR)
-b) discipline scientifico-tecnologiche (STEM): nuove competenze e nuovi linguaggi (PNRR); d) modalità
-e procedure della valutazione formativa e sistema degli Esami di Stato nei Nuovi Professionali (D.lgs.
-61 e 62/2017); j) il Piano nazionale Scuola Digitale, con particolare riferimento alla cittadinanza
-digitale; sviluppo della didattica digitale e di formazione del personale scolastico sulla transizione
-digitale (PNRR)
-112
 
-## B.Marsano - Geis012004
+## Enrico Fermi
 
+:
+-       programmazione delle attività formative con riferimento alla tutela
+della salute e della sicurezza e in riferimento alla normativa sulla
+privacy;
+-       aggiornamento delle piattaforme utili per l’erogazione e la fruizione
+della DDI e delle metodologie e ambienti di apprendimento ad
+essa legate.
+Per il personale A.T.A.:
+-       attività
+formativa in
+presenza o a
+distanza in
+riferimento
+all’innovazione
+digitale.
+per i genitori:
+-       uso dei dispositivi digitali e della piattaforma Argo
+
+## Piano Di Formazione Del Personale Ata
+
+
+## L'Accoglienza E La Vigilanza
+
+Descrizione dell'attività di
+formazione
+L’accoglienza e la vigilanza
+146
 
 ---
 
-## Pagina 117
+## Pagina 148
 
 Organizzazione
-Piano di formazione del personale ATA
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
 
-Piano di formazione del personale ATA
-Formazione sulla sicurezza
+
+## Enrico Fermi
+
+Destinatari
+Personale Collaboratore scolastico
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## L'Assistenza Agli Alunni Con Diverso Grado Di Abilità
+
+Descrizione dell'attività di
+formazione
+L’assistenza agli alunni con diverso grado di abilità
+Destinatari
+Personale Collaboratore scolastico
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## La Partecipazione Alla Gestione Dell'Emergenza Del Primo Soccorso
+
 Descrizione dell'attività di
 formazione
 La partecipazione alla gestione dell’emergenza e del primo
@@ -6175,56 +8465,215 @@ Attività in presenza
 •
 Laboratori
 •
-Formazione on line
-•
 Formazione di Scuola/Rete
-Attività proposta dalla singola scuola
-Utilizzo esperto delle applicazioni G-Suite
-Descrizione dell'attività di
-formazione
-La gestione delle relazioni interne ed esterne
-Modalità di Lavoro
-Attività in presenza
-•
-Laboratori
-•
-Formazione on line
-•
-Formazione di Scuola/Rete
-Attività proposta dalla singola scuola
+Attività proposta dalla rete di ambito
 
-## Impariamo Ad Accoglierci
+## I Contratti, Le Procedure Amministrativo-Contabili E I Controlli
 
-113
-
-## B.Marsano - Geis012004
-
+147
 
 ---
 
-## Pagina 118
+## Pagina 149
 
 Organizzazione
-Piano di formazione del personale ATA
 
-## Ptof 2022 - 2025
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
 
 Descrizione dell'attività di
 formazione
-L’accoglienza e la vigilanza
+I contratti, le procedure amministrativo-contabili e i
+controlli
 Destinatari
-Personale Collaboratore scolastico
+Personale Amministrativo
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione on line
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## La Collaborazione Nei Processi Di Innovazione Dell'Istituzione Scolastica
+
+Descrizione dell'attività di
+formazione
+La collaborazione nell’attuazione dei processi di
+innovazione dell’istituzione scolastica
+Destinatari
+Personale Amministrativo
 Modalità di Lavoro
 Attività in presenza
 •
 Laboratori
 •
 Formazione di Scuola/Rete
-Attività proposta dalla singola scuola
-114
+Attività proposta dalla rete di ambito
 
-## B.Marsano - Geis012004
+## Il Proprio Ruolo Nell'Organizzazione Scolastica
 
+Descrizione dell'attività di
+formazione
+Il proprio ruolo nell’organizzazione scolastica
+Destinatari
+Personale Amministrativo
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+148
+
+---
+
+## Pagina 150
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## La Funzionalità E La Sicurezza Dei Laboratori
+
+Descrizione dell'attività di
+formazione
+La funzionalità e la sicurezza dei laboratori
+Destinatari
+Personale tecnico
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione on line
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Il Supporto Tecnico All'Attività Didattica Per La Propria Area Di Competenza
+
+Descrizione dell'attività di
+formazione
+Il supporto tecnico all’attività didattica per la propria area di
+competenza
+Destinatari
+Personale tecnico
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Il Supporto Tecnico E La Gestione Dei Beni
+
+Descrizione dell'attività di
+formazione
+Il supporto tecnico e la gestione dei beni
+149
+
+---
+
+## Pagina 151
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+Destinatari
+Personale tecnico
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## Il Coordinamento Del Personale
+
+Descrizione dell'attività di
+formazione
+Il coordinamento del personale
+Destinatari
+
+## Dsga
+
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione on line
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+
+## La Gestione Delle Relazioni Interne Ed Esterne
+
+Descrizione dell'attività di
+formazione
+La gestione delle relazioni interne ed esterne
+Destinatari
+
+## Dsga
+
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione on line
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+150
+
+---
+
+## Pagina 152
+
+Organizzazione
+
+## Ptof - 2019/20-2021/22
+
+
+## Enrico Fermi
+
+
+## La Qualità Del Servizio
+
+Descrizione dell'attività di
+formazione
+La qualità del servizio
+Destinatari
+
+## Dsga
+
+Modalità di Lavoro
+Attività in presenza
+•
+Laboratori
+•
+Formazione on line
+•
+Formazione di Scuola/Rete
+Attività proposta dalla rete di ambito
+151
 
 ---
 

@@ -1,0 +1,27 @@
+# Analisi del PTOF RNAA82301B
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Biancaneve (Coriano)**, codice **RNAA82301B**, per l'anno **2025-2028**. La scuola, di ordine **Infanzia** e tipo **Statale**, situata a **Coriano** (Rimini), in **Emilia Romagna**, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata. L'orientamento viene integrato attraverso diverse attività, tra cui l'**Alternanza Scuola-Lavoro** e i progetti **Erasmus**. L'istituto si distingue per una forte rete di **partnership** con enti locali, nazionali e internazionali, che contribuiscono ad arricchire l'offerta formativa e le opportunità per gli studenti.
+
+### 2. Analisi Dimensionale
+
+La valutazione delle diverse dimensioni dell'orientamento, come definito nel PTOF, rivela un quadro complessivamente positivo. Per quanto riguarda l'orientamento, sebbene non esista una sezione dedicata, il punteggio attribuito è di 3, indicando una presenza implicita e integrata nelle attività scolastiche. Le finalità dell'orientamento, quali lo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative, ricevono valutazioni elevate, con punteggi che variano tra 5 e 7. Questo suggerisce una chiara attenzione alla crescita personale e professionale degli studenti. Anche gli obiettivi, tra cui la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione formativa (NEET) e la promozione del lifelong learning, ottengono punteggi di 5, evidenziando un impegno concreto verso il successo scolastico e l'inserimento nel mondo del lavoro. Le azioni del sistema, come il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione di studenti con fragilità, sono valutate positivamente con un punteggio di 5. La didattica orientativa, basata sull'esperienza degli studenti, la laboratorialità, la flessibilità degli spazi e tempi e l'interdisciplinarità, riceve punteggi tra 6 e 7, sottolineando l'importanza di un approccio pratico e coinvolgente. Infine, le opzioni facoltative, che includono attività culturali, laboratoriali, ludiche, di volontariato e sportive, ottengono punteggi di 5 e 7, dimostrando un'offerta diversificata e mirata a soddisfare le diverse esigenze e interessi degli studenti.
+
+### 3. Punti di Forza
+
+I principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, che include **ITS Puma**, enti di formazione professionale, istituti francesi, svedesi e sloveni, **aziende**, strutture pubbliche, centri di volontariato e numerose associazioni come **FAI**, **ADMO**, **ADISCO**, **AVIS**, **Croce Rossa Italiana**, **SAPERECOOP**, **Lion’s Club**, **CLUB ALPINO ITALIANO** e librerie locali. Questa rete permette di offrire agli studenti opportunità concrete di **Alternanza Scuola-Lavoro** e di partecipare a progetti internazionali come **Erasmus+ KA122-SCH** e **Erasmus+ KA210-VET**. L'offerta didattica, arricchita da **laboratori professionalizzanti** e attività come **Tableaux Vivants**, **Sulle Tracce Di Banksy** e **Andria Arte**, promuove lo sviluppo di competenze pratiche e creative. L'attenzione alla **cittadinanza attiva**, con progetti come **Educazione alla Legalità**, **Tutela della salute** ed **Educazione alla cittadinanza digitale**, contribuisce a formare studenti consapevoli e responsabili.
+
+### 4. Aree di Debolezza
+
+L'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia affrontato attraverso diverse attività, una sezione specifica permetterebbe di definire in modo più chiaro gli obiettivi, le strategie e le azioni da implementare. Inoltre, la mancanza di un sistema di monitoraggio specifico per le attività di orientamento potrebbe rendere difficile valutare l'efficacia delle iniziative intraprese.
+
+### 5. Gap Analysis
+
+Il divario principale risiede nella formalizzazione dell'approccio all'orientamento. Nonostante le numerose attività e partnership, manca una visione strategica unitaria e un piano d'azione dettagliato. È necessario definire indicatori di performance specifici per misurare l'impatto delle attività di orientamento sulla riduzione dell'abbandono scolastico, sull'inserimento nel mondo del lavoro e sullo sviluppo delle competenze chiave degli studenti.
+
+### 6. Conclusioni
+
+Il PTOF della scuola **Biancaneve (Coriano)** dimostra un impegno significativo verso l'orientamento, sebbene necessiti di una maggiore formalizzazione e di un sistema di monitoraggio più efficace. La vasta rete di **partnership** e l'offerta didattica diversificata rappresentano punti di forza importanti, che possono essere ulteriormente valorizzati attraverso la creazione di una sezione dedicata all'orientamento e la definizione di obiettivi e strategie chiare. L'integrazione di attività come **Alternanza Scuola-Lavoro**, **Erasmus+** e i **laboratori professionalizzanti** contribuisce a preparare gli studenti per il futuro, promuovendo lo sviluppo di competenze trasversali e l'inserimento nel mondo del lavoro.

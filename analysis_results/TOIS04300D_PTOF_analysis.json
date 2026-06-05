@@ -1,0 +1,352 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOIS04300D",
+    "denominazione": "I.I.S. Primo Levi",
+    "tipo_scuola": "Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2022-2025",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Unione Sovietica490",
+    "cap": "10135",
+    "email": "tois04300d@istruzione.it",
+    "pec": "tois04300d@pec.istruzione.it",
+    "website": "www.istitutoprimolevi.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione Cassa di Risparmio di Vignola",
+        "Unione Terre dei Castelli",
+        "Enti Locali",
+        "Associazioni di categoria",
+        "Agenzie per l'impiego",
+        "Associazioni del volontariato",
+        "Terzo Settore",
+        "Ferrari S.p.A.",
+        "Scuola secondaria di primo grado “L.A. Muratori”",
+        "Istituto Comprensivo “Martiri della Libertà”",
+        "EKONVOI",
+        "Mater Academy",
+        "AUSL",
+        "Lavoropiù",
+        "COPRESC",
+        "Centro dei servizi per il volontariato (CSV) Terre Estensi",
+        "Scuole Green",
+        "S&T",
+        "Ekonvoi Odv",
+        "UNISER",
+        "UNIBO",
+        "UNIMORE",
+        "ITS",
+        "Avis Volontariato",
+        "Protezione civile",
+        "Progetto BRIDGES",
+        "Aci",
+        "Casa Delle Donne",
+        "Lepida"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratori di alfabetizzazione ITALBASE e ITALSTUDIO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori per l'acquisizione dei linguaggi specifici delle discipline e innalzamento competenze base.",
+      "target": "Studenti non italofoni"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di PCTO finanziate dalla Fondazione Cassa di Risparmio di Vignola.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto didattico laboratoriale su motore Ferrari",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Studio e documentazione di un motore Ferrari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A scuola di talenti",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Collaborazione con scuole primarie per competenze linguistiche e STEAM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alpha Generation School",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Riorganizzazione aule con tecnologie digitali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "EKO Volontariato",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Conversione giorni di sospensione in attività di volontariato presso associazione EKONVOI con tutor.",
+      "target": "Studenti con provvedimenti disciplinari"
+    },
+    {
+      "titolo_attivita": "Programma Doppio Diploma Ita-Usa",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Frequenza corsi online Mater Academy Miami per diploma americano.",
+      "target": "Studenti delle scuole superiori"
+    },
+    {
+      "titolo_attivita": "Certificazione linguistica inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi di inglese con insegnanti madrelingua per certificazioni Cambridge.",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Cosa so - cosa sogno (Classi I e II)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Questionari di riflessione sul sé e sulle proprie scelte.",
+      "target": "Classi I e II"
+    },
+    {
+      "titolo_attivita": "Come vivere la società (Classe I)",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Progetto 'Scelgo io' per la prevenzione delle dipendenze.",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "Orientiamoci! (Classi I, II, III, IV)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori, lavori di gruppo, letture, scrittura, compiti di realtà, dibattiti, viaggi di istruzione.",
+      "target": "Classi I, II, III, IV"
+    },
+    {
+      "titolo_attivita": "Gocce di sostenibilità (Classi III e IV)",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Soft skills, ambiente, volontariato.",
+      "target": "Classi III e IV"
+    },
+    {
+      "titolo_attivita": "Corsi Master per il lavoro di domani (Classe IV)",
+      "categoria_principale": "Orientamento Professionale",
+      "descrizione_e_metodologia": "Campus di matematica, fisica, astrofisica e robotica.",
+      "target": "Classe IV"
+    },
+    {
+      "titolo_attivita": "Imprenditorialità (Classe IV)",
+      "categoria_principale": "Orientamento Professionale",
+      "descrizione_e_metodologia": "Attività 'From Idea To Action' per lo sviluppo di soft skills imprenditoriali.",
+      "target": "Classe IV"
+    },
+    {
+      "titolo_attivita": "PCTO (Classi IV e V)",
+      "categoria_principale": "Orientamento Professionale",
+      "descrizione_e_metodologia": "Attività di PCTO.",
+      "target": "Classi IV e V"
+    },
+    {
+      "titolo_attivita": "Incontro con le aziende del territorio",
+      "categoria_principale": "Visite aziendali",
+      "descrizione_e_metodologia": "Visite aziendali per conoscere il mondo del lavoro",
+      "target": "Classe IV"
+    },
+    {
+      "titolo_attivita": "Orientiamoci!",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Lavori di gruppo e riflessione sul sé",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Cosa so - cosa sogno",
+      "categoria_principale": "Questionari",
+      "descrizione_e_metodologia": "Questionari di autovalutazione",
+      "target": "Classi I, II, V"
+    },
+    {
+      "titolo_attivita": "Come vivere la società",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione al volontariato",
+      "target": "Classi II, III, IV, V"
+    },
+    {
+      "titolo_attivita": "Imprenditorialità",
+      "categoria_principale": "Educazione finanziaria",
+      "descrizione_e_metodologia": "Business Plan",
+      "target": "Classe V"
+    },
+    {
+      "titolo_attivita": "operatori del 118",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Progetto salute",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Positivo alla salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Lotta al doping",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Peer educators",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Educazione tra pari",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "incontro con AVIS",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Sensibilizzazione",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Flashmob (Balletto)",
+      "categoria_principale": "Artistico-Sociale",
+      "descrizione_e_metodologia": "Coreografia contro la violenza",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "\"Casa Delle Donne\"",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Laboratori sulla violenza",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "\"NEO-CONNESSI\"",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Corso informatica per anziani",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Sportello D’Ascolto",
+      "categoria_principale": "Psicologico",
+      "descrizione_e_metodologia": "Colloqui individuali",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Laboratorio Delle Scienze Della Vita",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Attività sperimentali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Lezioni Di Fisica Moderna",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Lezioni divulgative",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corsi di riallineamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi per acquisizione competenze di base",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività di formazione e aggiornamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto didattico laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Motore Ferrari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Preparazione a concorsi e olimpiadi",
+      "target": "Studenti con attitudini"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOIS04300D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. Primo Levi (TOIS04300D) per il triennio 2022-2025. L'istituto, situato a Torino, si configura come una scuola di II grado che offre percorsi di istruzione di diversi ordini e gradi. L'analisi evidenzia un forte impegno dell'istituto verso l'orientamento, con punteggi elevati in tutte le aree considerate, un'ampia rete di **partnership** e una varietà di attività mirate a supportare gli studenti nelle loro scelte formative e professionali. L'attenzione è rivolta non solo all'orientamento in senso stretto, ma anche allo sviluppo di **attitudini**, **interessi** e alla costruzione di un **progetto di vita**, con un focus sulle **transizioni formative** e sulla capacità di cogliere le **opportunità** offerte dal territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo dimostra un'attenzione strutturale e un impegno programmatico verso questa area cruciale.\n\n**2.2 Partnership:** L'istituto vanta una solida rete di **partnership** con ben 22 soggetti esterni, tra cui **Fondazione Cassa di Risparmio di Vignola**, **Unione Terre dei Castelli**, **Enti Locali**, diverse **associazioni di categoria** e del **terzo settore**, aziende come **Ferrari S.p.A.**, istituzioni scolastiche come la scuola “L.A. Muratori” e l’Istituto “Martiri della Libertà”, e realtà formative come **UNIBO** e **UNIMORE**. Questa collaborazione estesa rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e comprendono lo sviluppo di **attitudini**, **interessi**, la costruzione di un **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio massimo di 5, sottolineando la completezza della visione orientativa dell'istituto.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a favorire la **continuità** con il territorio, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e di continuità territoriale ottengono il punteggio massimo di 5, mentre quelli relativi al contrasto dei NEET e al lifelong learning raggiungono un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**. Il coordinamento dei servizi e il monitoraggio delle azioni ottengono un punteggio di 4, mentre le restanti azioni raggiungono il punteggio massimo di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi come l'apprendimento dall'esperienza, la **didattica laboratoriale**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**, tutte aree che ricevono un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Le opzionali culturali, ludiche e sportive ottengono un punteggio inferiore (4, 3 e 3 rispettivamente), mentre quelle laboratoriali ed espressive e di volontariato raggiungono il punteggio massimo di 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, la vasta rete di **partnership** con il territorio, la chiarezza delle **finalità** e degli **obiettivi**, l'approccio didattico innovativo e l'ampia offerta di attività opzionali, in particolare quelle **laboratoriali** e di **volontariato**. L'attività **PCTO** finanziata dalla **Fondazione Cassa di Risparmio di Vignola** rappresenta un'opportunità significativa per gli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza, seppur minori, riguardano gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning**, che ottengono un punteggio leggermente inferiore rispetto agli altri. Anche l'offerta di opzionali **ludiche**, **ricreative** e **sportive** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra un'attenzione significativa all'orientamento, ma un'ulteriore analisi potrebbe concentrarsi sull'efficacia delle azioni messe in atto per raggiungere gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning**. Potrebbe essere utile implementare strategie specifiche per coinvolgere maggiormente gli studenti in attività **ludiche**, **ricreative** e **sportive**, al fine di ampliare l'offerta formativa e rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. Primo Levi (TOIS04300D) presenta un'impostazione solida e ben strutturata in materia di orientamento. L'istituto dimostra un forte impegno verso il supporto degli studenti nelle loro scelte formative e professionali, attraverso una varietà di attività, una vasta rete di **partnership** e un approccio didattico innovativo. Le aree di debolezza individuate sono minori e possono essere affrontate con interventi mirati, al fine di ottimizzare ulteriormente l'efficacia del PTOF e garantire un servizio orientativo di alta qualità. Attività come **Laboratori di alfabetizzazione ITALBASE e ITALSTUDIO**, il progetto **Progetto didattico laboratoriale su motore Ferrari** e **EKO Volontariato** sono esempi concreti di come l'istituto si impegna a fornire un'esperienza formativa completa e orientata al futuro."
+}

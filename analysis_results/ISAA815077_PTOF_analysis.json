@@ -1,0 +1,208 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ISAA815077",
+    "denominazione": "Ist.Comp. Colli A Volturno",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Rocchetta A Volturno",
+    "anno_ptof": "2022-2025",
+    "provincia": "Isernia",
+    "regione": "Molise",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Sandro Pertini",
+    "cap": "86070",
+    "email": "isic815004@istruzione.it",
+    "pec": "istitutisantamaria@legalmail.it",
+    "website": "www.scuolacolliavolturno.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Esplicita attenzione all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Enti locali",
+        "realtà istituzionali, culturali, sociali ed economiche",
+        "organismi e associazioni dei genitori",
+        "Università",
+        "Imprese",
+        "Professionisti",
+        "Ordini",
+        "associazioni professionali",
+        "Enti del terzo settore",
+        "Associazioni di categoria",
+        "Istituzioni di ricerca"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 7
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione nuovi studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni con BES",
+      "target": "Alunni BES, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica metacognitiva",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Imparare ad imparare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Abbinamento classi, verifica congiunta, emulazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Strumento quotidiano, multimedialità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica laboratoriale, personalizzazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica Laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti esterni del polo CAMPUS di Portici tramite piattaforma MEET",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "UDA con valenza orientante",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi multidisciplinari su temi trasversali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze in azienda",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ISAA815077\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo **Rocchetta Al Volturno** (ISAA815077), relativo al triennio 2022-2025. La scuola, di ordine **Infanzia**, situata nel territorio non metropolitano del **Molise**, dimostra una chiara attenzione all'orientamento, come evidenziato dal punteggio di 7 attribuito alla presenza di una sezione dedicata. L'istituto statale si impegna a costruire un sistema di orientamento che tenga conto delle attitudini, degli interessi e del progetto di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, con un punteggio di 7 che indica un'esplicita attenzione all'**inclusione**.\n\n**2.2 Partnership:** L'istituto ha stabilito collaborazioni con un ampio spettro di partner, tra cui **enti locali**, **realtà istituzionali, culturali, sociali ed economiche**, **organismi e associazioni dei genitori**, **Università**, **Imprese**, **Professionisti**, **Ordini**, **associazioni professionali**, **Enti del terzo settore**, **Associazioni di categoria** e **Istituzioni di ricerca**. Il numero di partner coinvolti (10) suggerisce un impegno nella creazione di una rete di supporto per l'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, il supporto alle loro **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future. Tutti questi aspetti ricevono un punteggio di 6, indicando un'attenzione equilibrata a diverse dimensioni dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico** (punteggio 6), la promozione della continuità territoriale (punteggio 4), il contrasto al fenomeno dei **NEET** (punteggio 3) e lo sviluppo del **lifelong learning** (punteggio 6).\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento comprendono il coordinamento dei servizi (punteggio 4), il dialogo tra docenti e studenti (punteggio 5), il rapporto scuola-genitori (punteggio 5), il monitoraggio delle azioni (punteggio 5) e la creazione di un sistema integrato di inclusione e supporto alle fragilità (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 6), sull'utilizzo di metodologie **laboratoriali** (punteggio 7), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 4) e **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata con attenzione all'inclusione, nell'ampia rete di **partnership** attivate, nella chiarezza delle **finalità** e nella varietà delle attività proposte. L'impegno nell'utilizzo di metodologie didattiche innovative, come la didattica laboratoriale e l'apprendimento basato sull'esperienza, rappresenta un ulteriore elemento positivo. Attività come **Progetto accoglienza classi prime**, **Sportello BES**, **Potenziamento scientifico** e **Potenziamento laboratoriale** sono esempi concreti di iniziative messe in campo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di contrasto al fenomeno dei **NEET** (punteggio 3) e la continuità territoriale (punteggio 4), che potrebbero richiedere un maggiore approfondimento e una definizione di azioni più mirate. Anche l'offerta di opzionali ludiche e ricreative e sportive appare meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo degli studenti, in particolare nel contesto territoriale di riferimento. Un'ulteriore area di miglioramento riguarda l'ampliamento dell'offerta di attività opzionali, con particolare attenzione a quelle che promuovono il benessere psicofisico degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo **Rocchetta Al Volturno** presenta un approccio all'orientamento ben strutturato e coerente con le finalità dell'istituzione scolastica. L'impegno nella creazione di una rete di **partnership**, nell'utilizzo di metodologie didattiche innovative e nella promozione di attività extracurriculari rappresenta un valore aggiunto per gli studenti. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra una chiara volontà di fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire il proprio **progetto di vita**. Attività come **PCTO - Modulo Orientamento**, **UDA con valenza orientante**, **PCTO** e **Job Placement** testimoniano l'impegno concreto dell'istituto in questo senso."
+}

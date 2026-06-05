@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEIS02400C",
+    "denominazione": "M.Polo-Liceo Artistico",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Venezia",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Dorsoduro 1073",
+    "cap": "30123",
+    "email": "veis02400c@istruzione.it",
+    "pec": "veis02400c@pec.istruzione.it",
+    "website": "https//www.iismarcopololiceoartisticovenezia.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento nel documento, sebbene siano previste diverse attività in tal senso."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive per studenti",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro su educazione alimentare",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde di Ospitaletto",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Formazione di Scuola/Rete",
+      "target": "docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione",
+      "target": "docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi di formazione in azienda",
+      "target": "Studenti delle classi quarte e quinte"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VEIS02400C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto M.Polo-Liceo Artistico di Venezia (VEIS02400C), relativo all'anno scolastico 2019/20-2021/22. L'analisi si basa sui dati forniti, valutando la presenza di una sezione specifica, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione esplicitamente dedicata, ma piuttosto un insieme di attività diffuse.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nL'analisi evidenzia che, sebbene non sia presente una sezione specificamente dedicata all'orientamento nel documento, sono previste diverse attività in tal senso, ottenendo un punteggio di 3. Questo suggerisce un approccio integrato all'orientamento, piuttosto che una sua trattazione autonoma.\n\n#### 2.2 Partnership\n\nL'istituto dimostra una buona capacità di collaborare con il territorio, come evidenziato dal punteggio di 4. Sono attive partnership con **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per un totale di 4 partner nominati.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la facilitazione delle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità**. Tutte queste aree ricevono un punteggio di 4, indicando un approccio olistico all'orientamento.\n\n#### 2.4 Obiettivi\n\nGli obiettivi prefissati mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale** degli studenti, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**. Tuttavia, ciascuno di questi obiettivi ottiene un punteggio di 3, suggerendo che l'implementazione potrebbe essere ulteriormente potenziata.\n\n#### 2.5 Azioni di Sistema\n\nIl sistema di orientamento si basa su azioni di **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e un **sistema integrato di inclusione e fragilità**. Tutte queste azioni ottengono un punteggio di 4, evidenziando un approccio sistemico e collaborativo.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa sull'apprendimento **da esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Queste metodologie ottengono un punteggio di 4. La didattica **laboratoriale** riceve un punteggio inferiore (2), suggerendo un'area di miglioramento.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali è ampia e diversificata, comprendendo opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 4.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di numerose attività mirate, la collaborazione con partner esterni, la definizione chiara delle finalità e l'approccio sistemico all'implementazione. L'offerta di attività opzionali diversificate rappresenta un ulteriore elemento positivo. L'attività di **Ritiro di accoglienza** per gli studenti di prima è un buon esempio di azione orientativa precoce.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento e i punteggi inferiori relativi agli obiettivi e alla didattica laboratoriale rappresentano le principali aree di debolezza. È necessario potenziare l'implementazione degli obiettivi prefissati e ampliare l'offerta di attività laboratoriali.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica unitaria dell'orientamento, che si traduce in un insieme di azioni frammentate. È necessario definire un piano d'azione più strutturato, con obiettivi misurabili e indicatori di performance. L'attività **PCTO** rappresenta un'importante opportunità di orientamento in uscita, ma necessita di un monitoraggio costante per garantirne l'efficacia.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto M.Polo-Liceo Artistico di Venezia dimostra un impegno significativo verso l'orientamento, sebbene con margini di miglioramento. Potenziare la sezione dedicata all'orientamento, definire obiettivi più ambiziosi e ampliare l'offerta di attività laboratoriali contribuirebbe a rafforzare l'efficacia del sistema di orientamento e a garantire un supporto adeguato agli studenti nel loro percorso formativo e professionale. Attività come **Formazione didattica inclusiva** e **Formazione utilizzo strumenti multimediali** sono importanti per supportare il corpo docente nell'implementazione di strategie orientative efficaci."
+}

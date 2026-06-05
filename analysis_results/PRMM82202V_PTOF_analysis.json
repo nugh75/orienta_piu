@@ -1,0 +1,252 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PRMM82202V",
+    "denominazione": "I.C. Busseto",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Polesine Zibello",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Parma",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Gino Boni N. 12",
+    "cap": "43010",
+    "email": "pric82200r@istruzione.it",
+    "pec": "ND",
+    "website": "www.icbusseto.gov.it/",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "PTOF dedica spazio a valori, contesti, obiettivi"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di igiene e sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "D.lgs 81/08",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione Formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Utilizzo di domande stimolo e autovalutazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppare abilità comunicative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Test fisici e chimici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Comunicazione professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Proporzioni, percentuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti digitali",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Supporto attività di sostegno con strumenti digitali.",
+      "target": "Studenti con BES, DSA"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Corsi su mappe mentali e materiale didattico informatico",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD, scanner 3D, stampanti 3D",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PRMM82202V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto I Grado “Di Polesine - Zibello” (PRMM82202V), con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo agli anni scolastici 2023/24-2024/25-2025/26, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse aree di valutazione. L'istituto, situato in Emilia Romagna, territorio non metropolitano, pone l'accento sulla collaborazione con il territorio e sulla preparazione degli studenti al mondo del lavoro e alla progettazione del proprio futuro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento e Valori:** Il PTOF dedica spazio ai valori, ai contesti e agli obiettivi dell'orientamento, ottenendo un punteggio di 3. Questo indica una solida base concettuale per l'azione orientativa.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con un punteggio di 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, **aziende accreditate** e altre **aziende di settore**. La presenza di collaborazioni con realtà diverse garantisce un'offerta formativa ricca e in linea con le esigenze del mondo del lavoro. Sono state individuate 4 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite. L'istituto attribuisce particolare importanza al **progetto di vita** degli studenti (punteggio 5), mentre le finalità relative alle **attitudini** e agli **interessi** raggiungono un punteggio di 3. Le **transizioni formative** ottengono un punteggio di 2, suggerendo un'area di potenziale miglioramento, mentre le **capacità orientative** e le **opportunità** sono valutate con un punteggio di 4.\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, si evidenzia l'impegno a ridurre l'**abbandono scolastico** (punteggio 2), a garantire la **continuità territoriale** (punteggio 4), a contrastare il fenomeno dei **NEET** (punteggio 3) e a promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede diverse azioni di sistema per supportare l'orientamento. Il **coordinamento dei servizi** (punteggio 3), il **dialogo tra docenti e studenti** (punteggio 4), il **rapporto scuola-genitori** (punteggio 4) e il **sistema integrato di inclusione e fragilità** (punteggio 4) sono elementi chiave. Il **monitoraggio delle azioni** risulta meno sviluppato (punteggio 2).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 5), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'**interdisciplinarità** (punteggio 4).\n\n**2.7 Offerta Formativa Opzionale:** L'offerta formativa opzionale comprende attività **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 2), di **volontariato** (punteggio 3) e **sportive** (punteggio 2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la forte attenzione alla collaborazione con il territorio, la presenza di una rete consolidata di partner, l'impegno verso il progetto di vita degli studenti e l'utilizzo di metodologie didattiche innovative basate sull'esperienza e sull'interdisciplinarità. L'attività di **PCTO** è particolarmente rilevante, così come le iniziative di **inclusione** rivolte agli studenti con BES, DSA e fragilità.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il monitoraggio delle azioni orientative e lo sviluppo delle finalità relative alle transizioni formative. L'offerta di attività opzionali ludiche e sportive potrebbe essere ampliata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare il sistema di monitoraggio delle attività orientative, al fine di valutarne l'efficacia e apportare eventuali correzioni. È inoltre opportuno potenziare le iniziative volte a facilitare le transizioni formative degli studenti verso l'istruzione superiore o il mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto “Di Polesine - Zibello” presenta un approccio solido e ben strutturato all'orientamento. La presenza di una sezione dedicata, la collaborazione con partner esterni e l'utilizzo di metodologie didattiche innovative rappresentano elementi di forza. L'istituto dimostra un impegno concreto verso la preparazione degli studenti al futuro, ponendo l'accento sulla progettazione del proprio percorso di vita e sull'acquisizione di competenze utili per il mondo del lavoro. Il superamento delle aree di debolezza individuate consentirebbe di ottimizzare ulteriormente l'efficacia dell'azione orientativa."
+}

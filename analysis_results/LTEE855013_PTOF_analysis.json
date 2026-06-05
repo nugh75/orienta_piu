@@ -1,0 +1,200 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LTEE855013",
+    "denominazione": "I.C. Marco Emilio Scauro",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Minturno",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Latina",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cistrelli",
+    "cap": "04028",
+    "email": "ltic855001@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutocomprensivomarcoemilioscuaro.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Laboratorio con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Supporto Genitori",
+      "descrizione_e_metodologia": "Incontri su tematiche specifiche",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lingua Italiana",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua Cinese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Utilizzo di strumenti digitali (mail, audio, video, chat, piattaforme) per mantenere il contatto con i bambini assenti",
+      "target": "Bambini assenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LTEE855013\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **Scauri - Scalo Ferroviario** (LTEE855013) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, situato nel comune di **Minturno** in provincia di **Latina** e regione **Lazio**, è una scuola **statale** che opera in un contesto territoriale **non metropolitano**. L'analisi si basa sui dati forniti e mira a delineare un quadro completo delle azioni e degli obiettivi relativi all'orientamento, evidenziando punti di forza, aree di debolezza e possibili gap.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, come evidenziato dal punteggio di 0.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione esterna, con partnership attive con **Banca d’Italia**, **Opera Nazionale Montessori** e **Docendum**. Il punteggio di 3 e la presenza di 3 partner nominati indicano un impegno nel coinvolgimento di soggetti esterni per arricchire l'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 per entrambe le aree. L'attenzione al **progetto di vita** è presente, ma con un punteggio inferiore (2), mentre le finalità legate alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risultano meno accentuate (punteggio 1 per entrambe).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. Tutti questi obiettivi ricevono un punteggio di 1, suggerendo un approccio ampio ma non particolarmente approfondito.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e fragilità. Il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità ricevono un punteggio di 3, mentre le altre azioni ottengono un punteggio di 2 o 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Tutte queste aree ottengono un punteggio di 3, indicando un impegno verso metodologie didattiche innovative e coinvolgenti.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**. Le opzioni laboratoriali espressive e ludiche ricreative sono le più sviluppate (punteggio 3), mentre le altre ricevono un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella collaborazione con partner esterni come **Banca d’Italia**, **Opera Nazionale Montessori** e **Docendum**, nell'attenzione allo sviluppo delle attitudini e degli interessi degli studenti e nell'utilizzo di metodologie didattiche innovative basate sull'esperienza e sulla laboratorialità. L'impegno nel rapporto scuola-genitori e nell'inclusione degli studenti con fragilità rappresenta un ulteriore elemento positivo. Le attività come il **Laboratorio di Coding per l’Infanzia** e i **Laboratori** di diverse discipline testimoniano un'offerta formativa diversificata.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza significativa. Inoltre, le finalità legate alle transizioni formative e allo sviluppo delle capacità orientative per cogliere le opportunità sembrano meno accentuate. Gli obiettivi, pur essendo pertinenti, non sono particolarmente approfonditi e le azioni di sistema necessitano di un maggiore monitoraggio.\n\n### 5. Gap Analysis\n\nIl principale gap riscontrato è la mancanza di una visione strategica e coordinata dell'orientamento, che si traduce nell'assenza di una sezione dedicata nel PTOF. Questo comporta una frammentazione delle azioni e una difficoltà nel misurare l'efficacia degli interventi. È necessario definire obiettivi specifici e indicatori di performance per monitorare i progressi e garantire il raggiungimento dei risultati attesi.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria **Scauri - Scalo Ferroviario** presenta un buon potenziale in termini di orientamento, grazie alla collaborazione con partner esterni, all'attenzione allo sviluppo delle attitudini e degli interessi degli studenti e all'utilizzo di metodologie didattiche innovative. Tuttavia, è necessario colmare il gap rappresentato dall'assenza di una sezione dedicata all'orientamento e definire obiettivi specifici e indicatori di performance per garantire un approccio più strategico e coordinato. Attività come gli **Incontri di sostegno alla genitorialità** e il **Questionario di soddisfazione genitori** dimostrano un'attenzione alla comunità scolastica, mentre iniziative come **LEAD (Legami Educativi a Distanza)** evidenziano la capacità di adattamento alle nuove esigenze."
+}

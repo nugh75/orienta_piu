@@ -1,0 +1,210 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BL1E00200B",
+    "denominazione": "Scuola Primaria \"Agosti",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Belluno",
+    "anno_ptof": "2025-2028",
+    "provincia": "Belluno",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza S.Giovanni Bosco12",
+    "cap": "32100",
+    "email": "direzione@agosti.it",
+    "pec": "istituto.agosti@pec.it",
+    "website": "www.agosti.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Esplicita menzione del PTOF"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Fondazione Karis",
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e manipolativo alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività pratiche di robotica e programmazione.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Potenziare comportamenti corretti sulla strada",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Promuovere il piacere della lettura",
+      "target": "Alunni scuole primarie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BL1E00200B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria “Agosti”** (BL1E00200B) per il periodo 2025-2028, con particolare attenzione alla dimensione dell'orientamento. Il PTOF dimostra un’esplicita attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata. La scuola, situata nel territorio non metropolitano di **Belluno** (Veneto), si configura come un istituto **paritario** con un forte radicamento territoriale e una solida rete di **partnership**. L'analisi rivela un impegno significativo nello sviluppo delle attitudini, degli interessi e nella progettazione del futuro percorso di vita degli studenti, sebbene permangano alcune aree di miglioramento, soprattutto per quanto riguarda la preparazione alle **transizioni formative** e lo sviluppo di capacità orientative legate alle opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento e PTOF:** Il PTOF include esplicitamente l'orientamento, dimostrando una chiara consapevolezza dell'importanza di questa dimensione educativa.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ben consolidato, che include **Fondazione Karis**, **Karis Foundation**, le scuole dell’infanzia e secondaria di primo grado, **enti locali**, **AVSI**, e la **Federazione Nazionale Banchi di Solidarietà**. Questo tessuto relazionale rappresenta un valore aggiunto per l'offerta formativa e per le attività di orientamento. Sono state individuate ben 7 partnership.\n\n**2.3 Finalità:** Le finalità del PTOF sono orientate allo sviluppo delle **attitudini**, degli **interessi** e alla costruzione del **progetto di vita** degli studenti, ottenendo punteggi massimi in queste aree. Meno sviluppata appare la dimensione delle **transizioni formative**, mentre le **capacità orientative** legate alle opportunità future necessitano di un ulteriore rafforzamento.\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, si evidenzia un impegno per la riduzione dell'**abbandono** scolastico e per la continuità territoriale, con punteggi rispettivamente di 2 e 3. L'attenzione al **lifelong learning** è presente, ma con un punteggio moderato (2). Manca un obiettivo specifico per contrastare il fenomeno dei **NEET**.\n\n**2.5 Azioni di Sistema:** La scuola implementa azioni di sistema che coinvolgono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e attenzione alle fragilità. Il rapporto scuola-genitori è particolarmente curato, ottenendo il punteggio massimo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di metodologie **interdisciplinari** e, in misura minore, su approcci **laboratoriali** e sulla flessibilità degli spazi e dei tempi.\n\n**2.7 Offerta di Attività Opzionali:** L'offerta di attività opzionali comprende iniziative **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, contribuendo ad ampliare l'offerta formativa e a soddisfare le diverse esigenze e interessi degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara attenzione all'orientamento, nella solida rete di **partnership**, nell'impegno per lo sviluppo delle **attitudini** e degli **interessi** degli studenti, e nella cura del rapporto scuola-genitori. L'offerta di attività opzionali diversificata e l'utilizzo di metodologie didattiche innovative, come il **Progetto Clil** e i **laboratori esperienziali di matematica**, rappresentano ulteriori elementi positivi. L'organizzazione di attività come il **Presepe Vivente**, la **Festa di fine anno** e l'**Open Day** dimostrano un forte coinvolgimento della comunità scolastica.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la preparazione alle **transizioni formative** e lo sviluppo di **capacità orientative** legate alle opportunità future. L'assenza di un obiettivo specifico per contrastare il fenomeno dei **NEET** e i punteggi moderati relativi al **lifelong learning** indicano la necessità di un maggiore impegno in queste direzioni.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le azioni orientate a supportare gli studenti nelle **transizioni formative** (passaggio dalla scuola primaria alla secondaria) e a sviluppare le loro **capacità orientative** per affrontare le sfide del mondo del lavoro e della formazione continua. È necessario integrare nel PTOF azioni specifiche per l'orientamento professionale e per l'acquisizione di competenze trasversali, come il pensiero critico, la creatività e la capacità di problem solving.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Primaria “Agosti”** rappresenta un documento programmatico solido e ben strutturato, che pone al centro lo sviluppo integrale degli studenti. L'attenzione all'orientamento, la rete di **partnership** e l'offerta di attività diversificate costituiscono un valido punto di partenza per il raggiungimento degli obiettivi prefissati. Tuttavia, è necessario colmare le lacune individuate, potenziando le azioni orientate alle **transizioni formative** e allo sviluppo delle **capacità orientative** degli studenti, al fine di garantire un'offerta formativa sempre più completa e rispondente alle esigenze del territorio. Progetti come l’**Adozioni a distanza**, il **Progetto del “Donacibo”**, il **Progetto sicurezza stradale** e il **Progetto lettura** dimostrano un impegno sociale e culturale significativo."
+}

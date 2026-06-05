@@ -1,0 +1,471 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMIC8A400T",
+    "denominazione": "Ic S.Maria Delle Mole",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Marino",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via G. Prati 9",
+    "cap": "00047",
+    "email": "rmic8a400t@istruzione.it",
+    "pec": "rmic8a400t@pec.istruzione.it",
+    "website": "www.icsmmole.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Oratorio Anime Sante",
+        "Parrocchia Sacro Cuore",
+        "Musei",
+        "Istituti pubblici/privati",
+        "Associazioni di settore",
+        "Enti comunali",
+        "Servizi sociali",
+        "Servizi sanitari",
+        "Servizi educativi del territorio",
+        "Organizzazioni di volontariato",
+        "Terzo settore",
+        "Lega Navale Italiana",
+        "Fondazione Chiaravalle Montessori",
+        "Trinity College London",
+        "Comune di Alcamo",
+        "ASL",
+        "Università UNIPA",
+        "Università UNICORE",
+        "Cooperative",
+        "Associazioni",
+        "Società sportive",
+        "Istituti del territorio"
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di lingua straniera (inglese, spagnolo)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi antimeridiani e pomeridiani, gemellaggi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività oratorio e parrocchia",
+      "categoria_principale": "Educazione sociale",
+      "descrizione_e_metodologia": "Attività ludico-ricreative, doposcuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di recupero delle competenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività laboratoriali ed esperienziali, mobilità europea",
+      "target": "Studenti primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Percorso di consolidamento e recupero competenze trasversali",
+      "categoria_principale": "Competenze Trasversali",
+      "descrizione_e_metodologia": "Attività pratico-laboratoriali, mobilità europea",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività laboratoriali Agenda 2030",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendimento e potenziamento lingue",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Percorso multiculturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consolidamento competenze digitali",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Formazione docenti e studenti",
+      "target": "Docenti e Studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione percorsi didattici orientanti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Strumenti per monitoraggio",
+      "categoria_principale": "Monitoraggio",
+      "descrizione_e_metodologia": "Monitoraggio risultati a distanza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi individualizzati con docenti, psicologi, assistenti sociali.",
+      "target": "Discenti con fragilità"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero competenze base in Italiano, Inglese e Matematica.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento per le famiglie",
+      "categoria_principale": "Coinvolgimento genitori",
+      "descrizione_e_metodologia": "Rappresentazione teatrale con genitori e alunni.",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento rivolto alle terze classi della scuola secondaria di primo grado",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sviluppa le competenze digitali, organizzative e logiche.",
+      "target": "Classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Percorso ordinamentale ad indirizzo musicale",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attivazione percorso musicale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento alla pratica sportiva",
+      "target": "Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Vivere è stupefacente",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Prevenzione uso droga",
+      "target": "Classi terze Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Scuola Amica Unicef",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività educative su rispetto, inclusione, sostenibilità",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Transizione ecologica e culturale",
+      "descrizione_e_metodologia": "Didattica attiva, laboratoriali, montessoriane. Riflessione sugli obiettivi dell'Agenda 2030.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Matematica e scienza dei dati con le tecnologie digitali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Workshop su analisi dati aperti e contestualizzazione in percorsi didattici.",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Insegnare le scienze con la didattica digitale e la realtà aumentata",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Approfondimento tematiche scienze con strumenti digitali.",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Disegnare e produrre oggetti con le tecnologie digitali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Attività interdisciplinari con hardware specifico.",
+      "target": "Docenti scuola Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnare le STEAM in chiave interdisciplinare",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Sinergia tra competenze umanistiche e scientifiche.",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Inclusione e personalizzazione nell’insegnamento delle STEAM",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Strumenti e competenze per inclusione alunni.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Suoniamo con i musicisti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni in orario antimeridiano con musicisti e corso pomeridiano di avviamento alla pratica strumentale.",
+      "target": "Classi quinte della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Esami Trinity di musica",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esami di musica Classica & Jazz.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso a indirizzo musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Insegnamento strumenti: Arpa, Percussioni, Oboe, Fisarmonica. Lezioni individuali e d'insieme.",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Attività pomeridiane di recupero, potenziamento, sportive e musicali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività extrascolastiche per ampliare l'offerta formativa",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi pomeridiani di Francese e Tedesco",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi opzionali per l'apprendimento di lingue straniere",
+      "target": "Studenti della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Differenziazione didattica Montessori",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Formazione di Scuola/Rete",
+      "target": "Docenti di scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Educazione al gesto grafico",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti di scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Il metodo Bortolato",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti di scuola dell’Infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione all'estero",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti impegnati nella realizzazione delle innovazioni"
+    },
+    {
+      "titolo_attivita": "Job shadowing all'estero",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Social networking",
+      "target": "Docenti impegnati nella realizzazione delle innovazioni"
+    },
+    {
+      "titolo_attivita": "Informazione e formazione in materia di igiene e sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Conoscenza del Piano di Gestione dell’Emergenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Aggiornamento competenze Primo soccorso e Prevenzione incendi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Somministrazione di farmaci a scuola",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso da remoto",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "La Transizione Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di Gamification",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Sviluppo modelli innovativi didattica digitale integrata",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Corso di differenziazione didattica Montessori",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Tutti i docenti di scuola dell'infanzia e della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Disgrafia, istruzioni per l’uso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso da remoto",
+      "target": "Docenti di scuola primaria e scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Montessori day",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Attività laboratoriali sugli obiettivi Agenda 2030",
+      "target": "Classi aperte verticali/parallele"
+    },
+    {
+      "titolo_attivita": "Progetto di Lingua, cultura e civiltà rumena",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Conoscere lingua e cultura rumena",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Progetto Multikulturalita’: Sete Di Pace",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attività e percorsi di riflessione sui temi della libertà, giustizia, uguaglianza.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Conoscere il nostro territorio",
+      "categoria_principale": "Storia e Cultura Locale",
+      "descrizione_e_metodologia": "Studio e conoscenza delle proprie radici, della propria storia e delle tradizioni.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Emozioni in musica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Sviluppo della creatività mediante l’uso di vari linguaggi artistici.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Un viaggio tra arte e fiaba",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Rafforzare le capacità d’ascolto, la lettura e la scrittura tramite letture narrative.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Snappy English",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Attività divertenti per lo sviluppo sociale, emotivo, fisico, ed intellettuale.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pre - scuola",
+      "categoria_principale": "Infanzia",
+      "descrizione_e_metodologia": "Laboratori di manipolazione per alunni con orari di lavoro incompatibili con quelli scolastici.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuola Attiva Kids",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Valorizzare l'educazione fisica e sportiva e promuovere i corretti stili di vita.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Facciamo festa",
+      "categoria_principale": "Socializzazione",
+      "descrizione_e_metodologia": "Momenti di festa all'interno della comunità scolastica per condividere socializzazione e collaborazione.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Fumettiamo",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Lettura e comprensione di diversi tipi di testo come attività alternativa per gli alunni che non si avvalgono dell'insegnamento della religione cattolica.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Diamo voce al silenzio",
+      "categoria_principale": "Prevenzione Bullismo",
+      "descrizione_e_metodologia": "Progetto Pilota per la prevenzione del bullismo e del cyberbullismo.",
+      "target": "Altro"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMIC8A400T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic S.Maria Delle Mole** (RMIC8A400T) per il triennio 2022-2025, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio metropolitano di **Marino** (Roma), offre un percorso formativo comprensivo che abbraccia i gradi di infanzia, primaria, secondaria di primo e secondo grado, oltre a corsi professionali. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata all'interno del PTOF e una vasta gamma di attività e partnership volte a supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una presenza strutturata di questa tematica all'interno della pianificazione strategica dell'istituto.\n\n**2.2 Partnership:** L'istituto vanta un network di **21 partner**, tra cui **Oratorio Anime Sante**, **Parrocchia Sacro Cuore**, diversi **Musei**, **Istituti pubblici/privati**, **Associazioni di settore**, **Enti comunali**, **Servizi sociali**, **Servizi sanitari**, **Servizi educativi del territorio**, **Organizzazioni di volontariato**, **Terzo settore**, **Lega Navale Italiana**, **Fondazione Chiaravalle Montessori**, **Trinity College London**, **Comune di Alcamo**, **ASL**, **Università UNIPA**, **Università UNICORE**, **Cooperative**, **Associazioni**, **Società sportive** e altri **Istituti del territorio**. Questo ampio ventaglio di collaborazioni rappresenta un punto di forza significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e il supporto alle **transizioni formative**, oltre a fornire agli studenti le **capacità orientative** per cogliere le **opportunità** offerte dal contesto. Tutti questi aspetti ricevono un punteggio di 4, evidenziando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico (punteggio 5), di favorire la continuità territoriale (punteggio 3), di contrastare il fenomeno dei **NEET** (punteggio 2) e di promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento includono il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 4), il rafforzamento del **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** intraprese (punteggio 4) e la creazione di un **sistema integrato di inclusione e fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sull'utilizzo di metodologie **laboratoriali** (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio **interdisciplinare** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzionali **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 3) e **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate, che offrono agli studenti numerose opportunità di contatto con il mondo del lavoro e di approfondimento delle proprie attitudini. L'impegno nella riduzione dell'**abbandono** scolastico e nel rafforzamento del rapporto **scuola-genitori** sono ulteriori elementi positivi. L'offerta di attività opzionali, in particolare quelle **laboratoriali ed espressive**, contribuisce a personalizzare l'offerta formativa e a valorizzare i talenti individuali.\n\n### 4. Aree di Debolezza\n\nL'obiettivo di contrastare il fenomeno dei **NEET** ottiene un punteggio inferiore rispetto agli altri, suggerendo la necessità di potenziare le azioni specifiche volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani. Anche la continuità territoriale, con un punteggio di 3, potrebbe essere ulteriormente rafforzata attraverso una maggiore collaborazione con gli attori locali.\n\n### 5. Gap Analysis\n\nNonostante l'ampia gamma di attività proposte, la descrizione e la metodologia di alcune di esse, come ad esempio \"**Progettazione percorsi didattici orientanti**\", risultano incomplete. È necessario fornire maggiori dettagli sulle modalità di implementazione delle diverse azioni, al fine di garantirne l'efficacia e la misurabilità.\n\n### 6. Conclusioni\n\nIl PTOF dell'Ic S.Maria Delle Mole dimostra un forte impegno verso l'orientamento, con una sezione dedicata, una vasta rete di **partnership** e una serie di attività volte a supportare gli studenti nelle loro scelte formative e professionali. Pur presentando alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per lo sviluppo di un'offerta orientativa sempre più efficace e personalizzata. L'istituto dovrebbe concentrarsi sul potenziamento delle azioni volte a contrastare il fenomeno dei **NEET** e a rafforzare la continuità territoriale, fornendo al contempo maggiori dettagli sulle modalità di implementazione delle diverse attività."
+}

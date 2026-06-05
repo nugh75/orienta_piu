@@ -1,0 +1,273 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FGIC806003",
+    "denominazione": "I. Oc. \"Padre Giulio Castelli",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Carpino",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Foggia",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Della Repubblica 48",
+    "cap": "71010",
+    "email": "fgic806003@istruzione.it",
+    "pec": "fgic806003@pec.istruzione.it",
+    "website": "https//www.iocarpino.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Enti Locali"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 0
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 0
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 0
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 0
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 0
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 0
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 0
+      },
+      "didattica_interdisciplinare": {
+        "score": 0
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 0
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 0
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 0
+      },
+      "opzionali_volontariato": {
+        "score": 0
+      },
+      "opzionali_sportive": {
+        "score": 0
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua inglese",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli disciplinari in lingua inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto di devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglia, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi extra orario, sportello didattico, attività progettuali",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Filosofia",
+      "categoria_principale": "Filosofia",
+      "descrizione_e_metodologia": "Ricerca, analisi testi filosofici",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FGIC806003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I. Oc. \"Padre Giulio Castelli\" (codice scuola FGIC806003), relativo al periodo 2019/20-2021/22. La scuola, situata nel comune di Carpino in provincia di Foggia e regione Puglia, è un istituto statale di secondo grado che offre percorsi liceali e tecnici. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la struttura, gli obiettivi, le azioni e le attività implementate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata specifica e un'ampia rete di **partnership** attivate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede esplicitamente una sezione dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **15 partner** diversificati, tra cui **AGROBIOS**, il **Museo Archeologico Nazionale della Siritide**, diverse **associazioni**, **consulenti esterni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, il **Centro ENEA**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, la **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na**, l'**ASL** e **Enti Locali**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per le opportunità di orientamento offerte agli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** e le **capacità orientative** degli studenti, facilitando le loro **transizioni formative**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono scolastico** e sul mantenimento di un legame forte con il **territorio**. Manca, invece, un focus specifico sulla lotta al fenomeno dei **NEET** o sullo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema relative all'orientamento risultano meno sviluppate, con punteggi nulli per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni**. Anche il **sistema integrato di inclusione e fragilità** non sembra essere stato implementato in modo efficace.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa principalmente sull'esperienza degli studenti, ma risulta carente per quanto riguarda l'utilizzo di metodologie **laboratoriali**, la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative, come quelle **culturali**, **laboratoriali**, **ludiche**, di **volontariato** o **sportive**, appare limitata.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e la ricchezza della rete di **partnership** attivate. Le finalità dell'orientamento sono chiare e ben definite, e l'attenzione rivolta allo sviluppo delle **attitudini** e degli **interessi** degli studenti è apprezzabile. Le attività registrate, come gli **stage ASL**, le **certificazioni linguistiche**, le **microconferenze**, il **service learning (METEO)** e i **moduli disciplinari in lingua inglese**, dimostrano un impegno concreto verso l'innovazione didattica e l'ampliamento delle opportunità formative.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano le azioni di sistema, che risultano poco sviluppate, e la didattica orientativa, che necessita di maggiore flessibilità e interdisciplinarità. L'offerta di attività opzionali e facoltative appare limitata, e mancano obiettivi specifici per contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning**.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella traduzione delle finalità e degli obiettivi in azioni concrete e misurabili. Sebbene la scuola abbia stabilito una solida base attraverso la sezione dedicata all'orientamento e le **partnership**, è necessario rafforzare le azioni di sistema, implementare metodologie didattiche più innovative e ampliare l'offerta di attività opzionali per garantire un orientamento efficace e completo.\n\n### 6. Conclusioni\n\nIl PTOF FGIC806003 presenta un buon potenziale in termini di orientamento, grazie alla presenza di una sezione dedicata e a una rete di **partnership** consolidata. Tuttavia, è necessario colmare le lacune individuate nelle azioni di sistema, nella didattica orientativa e nell'offerta di attività opzionali per garantire un servizio di orientamento completo e in linea con le esigenze degli studenti e del territorio. L'implementazione di strategie mirate per contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning** rappresenterebbe un ulteriore passo avanti verso un'offerta formativa sempre più efficace e orientata al futuro."
+}

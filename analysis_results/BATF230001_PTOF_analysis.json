@@ -1,0 +1,362 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BATF230001",
+    "denominazione": "I.T.T. Panetti-Pitagora",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Bari",
+    "anno_ptof": "2019-2022",
+    "provincia": "Bari",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Re David 186",
+    "cap": "70125",
+    "email": "batf230001@istruzione.it",
+    "pec": "batf230001@pec.istruzione.it",
+    "website": "www.panettipitagora.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Industriale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata e strutturata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Aviazione Marittima Italiana",
+        "Università degli studi di Bari",
+        "imprese",
+        "enti",
+        "associazioni",
+        "camere di commercio",
+        "organizzazioni sindacali",
+        "Ordine dei Dottori Commercialisti di Taranto",
+        "Università di Scienze",
+        "Forze Armate",
+        "Forze dell’Ordine",
+        "Lega Navale",
+        "Vogatori Palio di Taranto",
+        "SVTAM",
+        "OndaBuena",
+        "Jonian Dolphin Conservation",
+        "Comune Di Taranto",
+        "Chiesa San Pasquale Baylon",
+        "Avis",
+        "Ufficio Di Esecuzione Penale Esterna",
+        "Liceo “Archita”",
+        "CPIA 1 di Taranto",
+        "IC “V. Alfieri”",
+        "Casa Delle Agricolture",
+        "Arsenale Militare Marittimo di Taranto",
+        "Comando Marittimo Sud di Taranto",
+        "Ordine Dei Dottori Commercialisti Ed Esperti Contabili (Odcec) di Taranto"
+      ],
+      "partnership_count": 26
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amo Taranto perché la conosco",
+      "categoria_principale": "Conoscenza del territorio",
+      "descrizione_e_metodologia": "Programma di conoscenza e amore verso la città di Taranto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giornata di studio Aviazione Marittima Italiana",
+      "categoria_principale": "Progetti territoriali",
+      "descrizione_e_metodologia": "Partecipazione a giornata di studio per recupero idroscalo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto d'Istituto per l'inserimento lavorativo",
+      "target": "Studenti ultimo triennio"
+    },
+    {
+      "titolo_attivita": "Crescere Tra Scuola E Impresa",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Attività curriculari ed extracurriculari, percorsi di Alternanza Scuola Lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Una Scuola Per Tutti",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Iniziative per promuovere collaborazione, autostima, valorizzazione",
+      "target": "Studenti con Bisogni Educativi Speciali"
+    },
+    {
+      "titolo_attivita": "La Scuola E Il Territorio",
+      "categoria_principale": "Educazione al territorio",
+      "descrizione_e_metodologia": "Visite, divulgazione, realizzazione di brochure",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Inside the firm",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage presso studi professionali e banche per gestione documentazione e finanziamenti.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Amo Taranto perché la conosco",
+      "categoria_principale": "Conoscenza del territorio",
+      "descrizione_e_metodologia": "Programma di conoscenza e amore verso la città di Taranto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadini Del Mondo",
+      "categoria_principale": "Scambi Culturali",
+      "descrizione_e_metodologia": "Scambio culturale con ragazzi stranieri, laboratori ceramica, escursioni, visite guidate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fai-Apprendisti Ciceroni",
+      "categoria_principale": "Educazione al Patrimonio",
+      "descrizione_e_metodologia": "Formazione sul territorio con esperti FAI, simulazioni, attività sul territorio.",
+      "target": "Studenti Triennio Turismo"
+    },
+    {
+      "titolo_attivita": "Ti Presento Taranto",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Pro Loco, conoscenza del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Torneo di dibattito",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Incontri di preparazione, quarti, semifinali, finalissima. Valutazione ethos, logos, pathos.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rispolveriamo il nostro patrimonio artistico",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Studio beni culturali, traduzione didascalie, attività museali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A porte aperte...nella legalità",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Formazione professionale, prevenzione, legalità, Ufficio Esecuzione Penale Esterna.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Donare per amare",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Sensibilizzazione donazione sangue, AVIS.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Imparare sul campo",
+      "categoria_principale": "Economia",
+      "descrizione_e_metodologia": "Alternanza scuola-lavoro, organizzazione sindacale, Camera di Commercio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Heritage Promoter",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Visite guidate Castello Aragonese, lingue straniere.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tour in catamarano tra Mar Grande e Mar Piccolo",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Uscita in mare per scoperta risorse storiche e naturali.",
+      "target": "Alunni prime classi"
+    },
+    {
+      "titolo_attivita": "Sport e Territorio",
+      "categoria_principale": "Territorio/Sport",
+      "descrizione_e_metodologia": "Pratiche sportive legate al mare (canoa, sup, vela).",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di continuità ed inclusione",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Favorire socializzazione e integrazione",
+      "target": "Alunni prime classi"
+    },
+    {
+      "titolo_attivita": "Una scuola accogliente per studenti adottati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sensibilizzazione",
+      "target": "Studenti adottati"
+    },
+    {
+      "titolo_attivita": "Insieme contro il bullismo e il cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Prevenzione comportamenti di prepotenza",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "COESI",
+      "categoria_principale": "Inclusione e DSA/BES",
+      "descrizione_e_metodologia": "Testi compensativi di italiano",
+      "target": "Studenti con DSA/BES"
+    },
+    {
+      "titolo_attivita": "Educarsi Al Futuro, Campagna Sustain-Sacsa",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche, risorse condivise",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Polo Formativo Scuole Ambito 21",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Formazione del personale, sviluppo competenze",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro con Arsenale Militare Marittimo",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di apprendimento presso l'Arsenale, tutoraggio interno ed esterno.",
+      "target": "Studenti ITES Pitagora"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro con Comando Marittimo Sud",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di apprendimento presso il Comando, tutoraggio interno ed esterno.",
+      "target": "Studenti ITES Pitagora"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro con Lega Navale Italiana",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di apprendimento presso la Lega Navale, tutoraggio interno ed esterno.",
+      "target": "Studenti ITES Pitagora"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro con Ordine Dottori Commercialisti",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di apprendimento presso studi professionali, tutoraggio interno ed esterno.",
+      "target": "Studenti ITES Pitagora"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro con Casa Delle Agricolture",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di apprendimento presso l'azienda agricola, tutoraggio interno ed esterno.",
+      "target": "Studenti ITES Pitagora"
+    },
+    {
+      "titolo_attivita": "Formazione docenti Agenda 2030",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, Formazione di Scuola/Rete, Autoformazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti Competenze Digitali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, Formazione di Scuola/Rete, Autoformazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti Economia Circolare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, Formazione di Scuola/Rete, Autoformazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole medie",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Diffusione informazioni ITES Pitagora",
+      "target": "Scuole Secondarie di Primo grado"
+    },
+    {
+      "titolo_attivita": "Sportello orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coordinamento attività orientamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visite università/lavoro",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Conoscenza offerte formative/lavorative",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BATF230001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.T. Panetti-Pitagora (BATF230001) per il periodo 2019-2022. La scuola, di tipo tecnico e situata nel territorio metropolitano di Bari, in Puglia, dimostra un impegno significativo verso l'orientamento, sebbene manchi una sua esplicita strutturazione in una sezione dedicata e specifica all'interno del PTOF. L'istituto si distingue per un'ampia rete di **partnership** con diversi soggetti del territorio, tra cui **Aviazione Marittima Italiana**, **Università degli studi di Bari**, **imprese**, **enti**, **associazioni**, e numerosi altri, che costituiscono una solida base per le attività di orientamento. Le finalità dell'orientamento sono orientate allo sviluppo di **attitudini**, **interessi**, **progetto di vita**, alla facilitazione delle **transizioni formative** e al potenziamento delle **capacità orientative** rispetto alle opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti diverse attività di orientamento, il PTOF non prevede una sezione dedicata e strutturata con un capitolo specifico, evidenziando un'area di miglioramento.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (26), dimostrando una forte connessione con il territorio e un'ampia gamma di opportunità per gli studenti. Tra i partner figurano anche **Forze Armate**, **Forze dell’Ordine**, **Lega Navale**, **Vogatori Palio di Taranto**, e diverse realtà locali come **SVTAM**, **OndaBuena**, **Jonian Dolphin Conservation**, **Comune Di Taranto**, e molte altre.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** degli studenti, a supportare il loro **progetto di vita** e a facilitare le **transizioni formative**, oltre a potenziare le loro **capacità orientative** rispetto alle opportunità disponibili.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono** scolastico, sulla promozione della continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sullo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi** di orientamento, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento attraverso l'esperienza degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla flessibilità degli **spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di orientamento degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** con il territorio, nella chiarezza delle **finalità** e degli **obiettivi**, nell'attenzione all'**inclusione** e nella diversificazione dell'offerta didattica attraverso le attività **laboratoriali** e gli **opzionali**. L'impegno verso la riduzione dell'**abbandono** scolastico e il contrasto al fenomeno dei **NEET** dimostra una forte attenzione alle esigenze del territorio e degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Questo rende meno evidente l'importanza strategica dell'orientamento e ne limita la visibilità.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare e strutturare l'orientamento all'interno del PTOF, creando una sezione dedicata che definisca in modo chiaro le strategie, le azioni e gli indicatori di successo. Questo consentirebbe di monitorare in modo più efficace l'impatto delle attività di orientamento e di ottimizzare le risorse disponibili.\n\n### 6. Conclusioni\n\nL'I.T.T. Panetti-Pitagora dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle **finalità** e degli **obiettivi**. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario strutturare l'orientamento all'interno del PTOF attraverso la creazione di una sezione dedicata e la definizione di indicatori di successo misurabili. Le numerose attività registrate, come \"**Amo Taranto perché la conosco**\", \"**Alternanza Scuola Lavoro**\", \"**Una Scuola Per Tutti**\", e le diverse iniziative di **formazione** per docenti, testimoniano un approccio proattivo e orientato al futuro."
+}

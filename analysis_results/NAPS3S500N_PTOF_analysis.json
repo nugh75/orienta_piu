@@ -1,0 +1,380 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAPS3S500N",
+    "denominazione": "Amerigo Vespucci",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Frattamaggiore",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Bartolomeo Capasso 17",
+    "cap": "80027",
+    "email": "istitutoamerigovespucci@hotmail.it",
+    "pec": "istitutoamerigovespucci@pec.it",
+    "website": "https://icsamerigovespuccivibo.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Parrocchie",
+        "associazioni sportive",
+        "Capitaneria di Porto",
+        "Guardia di Finanza",
+        "Pantagruel Cooperativa Sociale Onlus",
+        "Impresa Sociale Con I Bambini",
+        "Associazione Officine Psicologiche",
+        "Associazione Culturale Mnemosine",
+        "Sistema Bibliotecario Vibonese",
+        "Liceo Scientifico Berto Vibo Valentia",
+        "Liceo Statale Capialbi Vibo Valentia",
+        "Comune di Vibo Valentia",
+        "Indire",
+        "Scie- scuola e cultura italiana all’estero",
+        "Altre scuole"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Orchestra giovanile",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività laboratoriali musicali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Didattica in barca",
+      "categoria_principale": "Sport/Educazione ambientale",
+      "descrizione_e_metodologia": "Utilizzo di una barca a vela per attività didattiche",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale Creativo",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Laboratorio per stimolare la creatività",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Cucina Internazionale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Cucina per conoscere culture",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Igiene Personale E Cura Della Persona",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Igiene e benessere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Biblioteca Multietnica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e diversità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fantaviaggiando",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Viaggi immaginari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizi Socio-Sanitari E Di Orientamento",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Supporto e orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "T.E.R.R.A",
+      "categoria_principale": "Contrasto alla povertà educativa",
+      "descrizione_e_metodologia": "Progetto di inclusione sociale tramite attività socio-culturali e formazione.",
+      "target": "Studenti 11-17 anni a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Rete Otis - Progetto Oltreconfini",
+      "categoria_principale": "Educazione alla teatralità",
+      "descrizione_e_metodologia": "Laboratori teatrali e interscambio internazionale.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Settimana della Sostenibilità",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione di attività didattiche per classi parallele con tutor alunni.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Didattica in barca",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lezioni di Fisica e Biologia Marina su imbarcazione a vela.",
+      "target": "Alunni della scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Service-Learning",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Servizio per la comunità con acquisizione di competenze.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "SOS Sostenibilità: percorsi didattici di Educazione allo Sviluppo Sostenibile",
+      "categoria_principale": "Educazione alla Sostenibilità",
+      "descrizione_e_metodologia": "Percorsi curriculari verticali per lo sviluppo delle competenze sociali e civiche attraverso lo studio dei goal dell’Agenda 2030.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Rete Otis - Progetto Oltreconfini",
+      "categoria_principale": "Educazione alla teatralità",
+      "descrizione_e_metodologia": "Laboratori teatrali e interscambio internazionale.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "SOS Sostenibilità: percorsi didattici di Educazione allo Sviluppo Sostenibile",
+      "categoria_principale": "Educazione alla Sostenibilità",
+      "descrizione_e_metodologia": "Percorsi curriculari verticali, concorsi, manifestazioni, laboratori riflessivi sull'Agenda 2030.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Attiva, Globale e Digitale",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Percorsi per sviluppare competenze di cittadinanza digitale e partecipazione attiva.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Strategie per ricercare la vocazionalità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per aiutare gli alunni a definire le proprie attitudini e aspirazioni.",
+      "target": "Alunni classi in uscita"
+    },
+    {
+      "titolo_attivita": "Crescere Insieme",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi per facilitare il passaggio tra i diversi ordini di scuola.",
+      "target": "Alunni classi in uscita e docenti/genitori"
+    },
+    {
+      "titolo_attivita": "Filosofando con Harry Potter",
+      "categoria_principale": "Progetto trasversale",
+      "descrizione_e_metodologia": "Lettura filosofica del mondo di J.K. Rowling per sviluppare competenze critiche e pro-sociali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Un Nuovo Orizzonte Oltre Il \"Covid\"",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Intervento per affrontare il rientro a scuola dopo la pandemia, gestendo vissuti ed emozioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "\"Tutti Insieme Per Un Mondo Migliore\"",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Promuovere l'inclusione e la cittadinanza mondiale.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "La Magia dell'Apprendimento",
+      "categoria_principale": "Progetto Innovazione Didattica",
+      "descrizione_e_metodologia": "Didattica attiva, debate, cooperative learning, flipped learning, Service Learning",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "La Magia dei Colori",
+      "categoria_principale": "Arte e Natura",
+      "descrizione_e_metodologia": "Esplorazione colori, sperimentazione, attività laboratoriali",
+      "target": "Alunni Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Qui Pianeta Terra",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Percorso trasversale su diritti umani, beni comuni, sostenibilità",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Liberi Di Esprimersi: Parola-Emozione In Azione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche e risorse condivise",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musicarte",
+      "categoria_principale": "Educazione Musicale",
+      "descrizione_e_metodologia": "Formazione del personale e attività didattiche",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Spazio ZeroSei Vibo Marina",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri con esperti e attività per i più piccoli",
+      "target": "Famiglie e bambini 0-3 anni"
+    },
+    {
+      "titolo_attivita": "L'Eros Della Musica",
+      "categoria_principale": "Educazione Musicale",
+      "descrizione_e_metodologia": "Attività didattiche e curricolo verticale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola Polo Nazionale",
+      "categoria_principale": "Attività Musicale e Teatrale",
+      "descrizione_e_metodologia": "Reimpiego beni confiscati per attività educative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola Polo Educazione Sostenibilità",
+      "categoria_principale": "Educazione Sostenibilità",
+      "descrizione_e_metodologia": "Formazione del personale e attività didattiche",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Accordo di Rete Service Learning",
+      "categoria_principale": "Service Learning",
+      "descrizione_e_metodologia": "Formazione docenti e studenti",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Scuola Polo Monitor Io Studio",
+      "categoria_principale": "Curriculum dello Studente",
+      "descrizione_e_metodologia": "Implementazione curriculum dello studente",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rete Scuol@Genda 2030",
+      "categoria_principale": "Agenda 2030",
+      "descrizione_e_metodologia": "Formazione e promozione Agenda 2030",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Rete Vibo On Air",
+      "categoria_principale": "Povertà Educativa",
+      "descrizione_e_metodologia": "Laboratori multidisciplinari e web radio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La fiaba",
+      "categoria_principale": "Espressione e creatività",
+      "descrizione_e_metodologia": "Utilizzo fiabe per esprimere emozioni e fantasia.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Piccoli Artisti Crescono",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Avvicinare i bambini al colore e all'arte.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Alla scoperta dei colori",
+      "categoria_principale": "Scienze e creatività",
+      "descrizione_e_metodologia": "Esplorazione dei colori e mescolanze.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Valutazione narrativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Raccontare e documentare il percorso di apprendimento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori inclusivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori per coinvolgere tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Percorsi di DDI",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Attività complementari di DDI",
+      "target": "Alunni con bisogni specifici"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAPS3S500N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Amerigo Vespucci** (NAPS3S500N), relativo al periodo 2019/20-2021/22. La scuola, situata nel territorio metropolitano di **Frattamaggiore** (Napoli, Campania), è di tipo **Paritaria** e comprende i gradi di **Infanzia, Primaria, II Grado, Professionale e Tecnico**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7.\n\n**2.2 Partnership:** L'istituto ha sviluppato un network di **15 partner**, tra cui **Parrocchie**, **associazioni sportive**, la **Capitaneria di Porto**, la **Guardia di Finanza**, **Pantagruel Cooperativa Sociale Onlus**, **Impresa Sociale Con I Bambini**, **Associazione Officine Psicologiche**, **Associazione Culturale Mnemosine**, il **Sistema Bibliotecario Vibonese**, il **Liceo Scientifico Berto Vibo Valentia**, il **Liceo Statale Capialbi Vibo Valentia**, il **Comune di Vibo Valentia**, **Indire**, **Scie- scuola e cultura italiana all’estero** e altre scuole. Questo dimostra un impegno nella creazione di sinergie esterne per arricchire l'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità, con un punteggio di 5 per ciascuna area.\n\n**2.4 Obiettivi:** Gli obiettivi delineati mirano a ridurre l'**abbandono scolastico** (punteggio 5), a garantire la continuità territoriale (punteggio 6), a contrastare il fenomeno dei **NEET** (punteggio 3), e a promuovere il **lifelong learning** (punteggio 6).\n\n**2.5 Azioni di Sistema:** Le azioni implementate si focalizzano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori, sul monitoraggio delle azioni e sulla creazione di un sistema integrato di inclusione e supporto alle fragilità, con un punteggio di 5 per ciascuna area.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento dall'esperienza degli studenti (punteggio 6), sulla didattica laboratoriale (punteggio 6), sulla flessibilità degli spazi e dei tempi (punteggio 6) e sull'interdisciplinarità (punteggio 6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende moduli **culturali**, **laboratoriali espressive**, **ludico-ricreative**, di **volontariato** e **sportive**, ciascuna con un punteggio di 5.\n\n### 3. Punti di Forza\n\nUn punto di forza significativo è la vasta rete di **partnership** attivate dall'istituto, che offre agli studenti opportunità di confronto con il mondo del lavoro e del territorio. L'impegno nella didattica laboratoriale e nell'apprendimento esperienziale rappresenta un altro elemento positivo, in linea con le moderne metodologie didattiche. L'offerta di attività opzionali diversificate contribuisce a personalizzare l'offerta formativa e a rispondere agli interessi degli studenti. Le attività registrate, come **Orchestra giovanile**, **Didattica in barca**, **Laboratorio Musicale Creativo**, **Laboratorio Di Cucina Internazionale**, **Laboratorio Igiene Personale E Cura Della Persona**, **Laboratorio Biblioteca Multietnica**, **Fantaviaggiando**, **Servizi Socio-Sanitari E Di Orientamento**, **T.E.R.R.A**, **Rete Otis - Progetto Oltreconfini**, **Settimana della Sostenibilità**, **Service-Learning**, **SOS Sostenibilità**, **Cittadinanza Attiva, Globale e Digitale**, **Strategie per ricercare la vocazionalità**, **Crescere Insieme**, **Filosofando con Harry Potter**, **Un Nuovo Orizzonte Oltre Il \\\"Covid\\\"\", **\\\"Tutti Insieme Per Un Mondo Migliore\\\"\", **La Magia dell'Apprendimento**, **La Magia dei Colori**, **Qui Pianeta Terra**, **Liberi Di Esprimersi**, **Musicarte**, **Spazio ZeroSei Vibo Marina**, **L'Eros Della Musica**, **Scuola Polo Nazionale**, **Scuola Polo Educazione Sostenibilità**, **Accordo di Rete Service Learning**, **Scuola Polo Monitor Io Studio**, **Rete Scuol@Genda 2030**, **Rete Vibo On Air**, **La fiaba**, **Piccoli Artisti Crescono**, **Alla scoperta dei colori**, **Valutazione narrativa**, **Laboratori inclusivi**, **Percorsi di DDI** dimostrano un'ampia gamma di iniziative.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna. Il punteggio relativamente basso (3) per l'obiettivo di contrastare il fenomeno dei **NEET** suggerisce la necessità di rafforzare le azioni specifiche in questa direzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione formale dell'orientamento all'interno del PTOF. Sebbene siano presenti numerose attività e partnership, queste non sono integrate in un piano strategico coerente e mirato. È necessario definire indicatori di performance specifici per monitorare l'efficacia delle azioni intraprese e valutare il raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Amerigo Vespucci** dimostra un impegno significativo nell'offerta di attività orientative e nella creazione di partnership esterne. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario colmare il divario esistente attraverso la formalizzazione di una sezione dedicata all'orientamento e la definizione di obiettivi misurabili. Un approccio più strategico e integrato consentirebbe all'istituto di affrontare in modo più efficace le sfide legate all'orientamento e alla transizione formativa degli studenti."
+}

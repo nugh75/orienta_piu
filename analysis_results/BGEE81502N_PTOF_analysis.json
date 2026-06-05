@@ -1,0 +1,340 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "BGEE81502N",
+    "denominazione": "Bergamo - Camozzi",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Bergamo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bergamo",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Uccelli 18",
+    "cap": "24123",
+    "email": "bgic81500e@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccamozzibergamo.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Indice PTOF presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "FIDAE",
+        "FOE",
+        "Coordinamento Culturale Scuole libere",
+        "Comune",
+        "Forze dell’Ordine",
+        "Croce rossa",
+        "Vigili del fuoco",
+        "ASL",
+        "Biblioteca Marazza",
+        "scuole paritarie e statali del territorio",
+        "istituzioni di ispirazione cattolica"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Studio assistito pomeridiano",
+      "categoria_principale": "Supporto scolastico",
+      "descrizione_e_metodologia": "Attività di recupero e consolidamento",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Borse di studio",
+      "categoria_principale": "Supporto economico",
+      "descrizione_e_metodologia": "Buono scuola regionale",
+      "target": "Famiglie in difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto Cambridge",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Inserimento lingua inglese (6h Primaria, 5h Sec. I grado). Insegnanti madrelingua. Matematica in inglese.",
+      "target": "Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Aggiornamento aula multimediale",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Intensificarne l’uso didattico.",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Esperienze Laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppare l’esperienza laboratoriale nelle singole discipline",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Rapporti tra scuole",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incentivare i rapporti tra i vari gradi di scuole",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Laboratorio musicale",
+      "categoria_principale": "Opzionale/Laboratoriale",
+      "descrizione_e_metodologia": "Attività pratica di musica",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di spagnolo",
+      "categoria_principale": "Opzionale/Laboratoriale",
+      "descrizione_e_metodologia": "Attività pratica di lingua spagnola",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Avvio allo sport",
+      "categoria_principale": "Opzionale/Sportiva",
+      "descrizione_e_metodologia": "Attività sportiva introduttiva",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Drammatizzazione di testi letterari",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Drammatizzazione di testi per favorire la comprensione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Discussioni guidate",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Discussioni su temi di interesse generale con schemi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione testi multimediali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Creazione di materiali multimediali con note esplicative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni con sussidi multimediali",
+      "categoria_principale": "Lezioni",
+      "descrizione_e_metodologia": "Utilizzo di film e materiali digitali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Utilizzo testi digitali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Approfondimento tematiche con software e internet",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Allestimento mostre",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Mostre realizzate e guidate dagli studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Pubblicazione testi sul sito",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Pubblicazione online dei lavori degli studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Cambridge",
+      "categoria_principale": "laboratori",
+      "descrizione_e_metodologia": "Insegnamento di English as a second language, matematica, tecnologia e Global perspective con insegnante madrelingua.",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "Visione filmati in lingua originale",
+      "categoria_principale": "laboratori",
+      "descrizione_e_metodologia": "Visione filmati con sottotitoli per comprensione orale.",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "Esperienza sul metodo sperimentale",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Individuazione fasi: osservazione, raccolta dati, ipotesi, verifica, regola.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Granulometria del suolo",
+      "categoria_principale": "Scienze della Terra",
+      "descrizione_e_metodologia": "Separazione terreno in base alla dimensione dei granuli, calcolo percentuali, curva granulometrica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Grafico tempo/km",
+      "categoria_principale": "Fisica",
+      "descrizione_e_metodologia": "Utilizzo piano cartesiano per rappresentare funzione tempo/km.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappa concettuale principi nutritivi",
+      "categoria_principale": "Biologia",
+      "descrizione_e_metodologia": "Costruzione mappa concettuale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Calcolo calorie",
+      "categoria_principale": "Biologia",
+      "descrizione_e_metodologia": "Calcolo calorie assunte, introdotte, bilancio energetico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri programmati dal Legale Rappresentante (min. 10 ore annuali)",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Colloqui scuola-famiglia",
+      "categoria_principale": "Rapporti con le famiglie",
+      "descrizione_e_metodologia": "Assemblee, colloqui individuali, schede di valutazione",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Educazione psicomotoria",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Gioco. Corsi calcio/twirling",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Esperienza musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Incontro settimanale con insegnante",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Lingua spagnola",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso settimanale, gioco",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Corso di latino",
+      "categoria_principale": "Lingue classiche",
+      "descrizione_e_metodologia": "Corso settimanale",
+      "target": "Classe III scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso settimanale, esercitazioni",
+      "target": "Scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Twirling",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Attività sportiva settimanale",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Corso di tedesco",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso settimanale",
+      "target": "Scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Arte drammatica",
+      "descrizione_e_metodologia": "Laboratorio settimanale",
+      "target": "Scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio scrittura creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Laboratorio settimanale",
+      "target": "Scuola secondaria I grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BGEE81502N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo **Bergamo Camozzi - Rosmini** (ID scuola **BGEE81502N**) per il triennio **2022-2025**. La scuola, di ordine **Primaria**, situata nel territorio **Non Metropolitano** della regione **Lombardia**, presenta un'attenzione specifica all'orientamento, come evidenziato dalla presenza di una sezione dedicata e un punteggio di valutazione pari a 5. L'istituto si distingue per una rete di **partnership** consolidata, che include enti come **FIDAE**, **FOE**, il **Comune**, le **Forze dell’Ordine**, la **Croce rossa**, la **Vigili del fuoco**, l'**ASL**, la **Biblioteca Marazza**, diverse scuole del territorio e istituzioni di ispirazione cattolica. L'analisi delle finalità, degli obiettivi, delle azioni e delle attività rivela un impegno verso la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione formativa e la promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Finalità:** Il PTOF dimostra un'attenzione equilibrata alle finalità orientative, con un punteggio di 3 per ciascuna delle dimensioni considerate: attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità. Questo suggerisce un approccio olistico all'orientamento, che mira a sviluppare le potenzialità individuali degli studenti e a supportarli nella costruzione del loro futuro.\n\n**2.2 Obiettivi:** Gli obiettivi definiti nel PTOF sono focalizzati sulla prevenzione del disagio scolastico e sulla promozione dell'inclusione. L'impegno a ridurre l'abbandono, garantire la continuità territoriale, contrastare i NEET e promuovere il lifelong learning riflette una visione strategica dell'orientamento come strumento per migliorare le prospettive di vita degli studenti. Anche in questo caso, il punteggio di 3 per ciascun obiettivo indica un'attenzione diffusa a questi aspetti.\n\n**2.3 Azioni di Sistema:** Le azioni di sistema previste dal PTOF mirano a creare un ambiente scolastico inclusivo e collaborativo. Il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione delle fragilità rappresentano elementi chiave per garantire un'efficace azione orientativa. Il punteggio di 3 per ciascuna azione sottolinea l'importanza attribuita a questi aspetti.\n\n**2.4 Didattica Orientativa:** La didattica orientativa proposta nel PTOF si basa su approcci innovativi e partecipativi. L'attenzione all'esperienza degli studenti, l'utilizzo di metodologie laboratoriali, la flessibilità degli spazi e dei tempi e l'interdisciplinarità rappresentano elementi distintivi. Il punteggio di 4 per la didattica basata sull'esperienza studentesca evidenzia un forte orientamento verso l'apprendimento attivo.\n\n**2.5 Offerta Formativa Opzionale:** L'offerta formativa opzionale e facoltativa del PTOF è diversificata e ricca di opportunità. Le opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive offrono agli studenti la possibilità di esplorare i propri interessi e sviluppare le proprie passioni. Il punteggio di 3 per ciascuna opzione indica un'ampia gamma di possibilità per gli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, con un punteggio massimo. La solida rete di **partnership** con enti locali e istituzioni rappresenta un valore aggiunto significativo, in quanto consente di ampliare l'offerta formativa e di offrire agli studenti opportunità di apprendimento concrete e significative. L'impegno verso la prevenzione del disagio scolastico e la promozione dell'inclusione è un altro elemento positivo, che dimostra la sensibilità della scuola alle esigenze degli studenti. L'offerta di attività extracurriculari come **Progetto Cambridge**, **laboratorio musicale**, **laboratorio di spagnolo** e **avvio allo sport** arricchisce l'esperienza formativa degli alunni.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, il PTOF presenta alcune aree di debolezza. I punteggi uniformemente pari a 3 per molte delle dimensioni analizzate suggeriscono una mancanza di approfondimento o di specificità in alcune aree. Ad esempio, le finalità, gli obiettivi e le azioni di sistema potrebbero essere declinate in modo più dettagliato e personalizzato.\n\n### 5. Gap Analysis\n\nL'analisi dei dati rivela un gap tra l'attenzione generale all'orientamento e la specificità delle azioni messe in atto. Sebbene il PTOF definisca finalità, obiettivi e azioni orientative, manca una chiara definizione degli indicatori di successo e dei meccanismi di monitoraggio. Inoltre, l'offerta formativa opzionale potrebbe essere ulteriormente ampliata e diversificata, per rispondere alle esigenze specifiche di tutti gli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo **Bergamo Camozzi - Rosmini** rappresenta un documento valido e ben strutturato, che dimostra un impegno significativo verso l'orientamento e la promozione del successo formativo degli studenti. Tuttavia, per massimizzare l'efficacia del PTOF, è necessario approfondire alcune aree di debolezza e definire indicatori di successo chiari e misurabili. L'implementazione di azioni mirate e il monitoraggio costante dei risultati consentiranno alla scuola di raggiungere gli obiettivi prefissati e di offrire agli studenti un'esperienza formativa completa e stimolante. Le attività come **studio assistito pomeridiano**, **borse di studio**, **aggiornamento aula multimediale** e i numerosi **laboratori** rappresentano un valido supporto per il raggiungimento degli obiettivi prefissati."
+}

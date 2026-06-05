@@ -1,0 +1,257 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PVTL006033",
+    "denominazione": "Iis Alessandro Volta - Pavia",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Pavia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Pavia",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "C/O Policlinico S. Matteo Di Pavia Snc",
+    "cap": "27100",
+    "email": "pvis006008@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutovoltapavia.it",
+    "tipo_scuola_dettaglio": "Istituto Tecnico Per Geometri"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione dedicata esclusivamente all'orientamento. L'orientamento è affrontato all'interno di altre sezioni del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "visite aziendali",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per il volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di disegno 3D",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e sensibilizzazione al riutilizzo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività sportive per sviluppo psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole smartphone e app",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione collaborativa. Problem solving.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di informatica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizioni individuali e preparazione collaborativa. Problem solving.",
+      "target": "Classi terze, quarte, quinte"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Stimolare l'amore per la chimica e selezionare la squadra italiana.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione ai test di accesso universitari.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL su primo soccorso, alimentazione, dipendenze, sessualità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso opzionale: Informatica per tutti",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Preparazione base di informatica.",
+      "target": "Studenti ordinario e sportivo"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti Matematica e Scienze",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio proficuo tra professionalità su competenze, contenuti e metodologie.",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso Matematica e Scienze",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Rilevazione precoce di difficoltà/carenze con interventi mirati.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo su metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Interventi permanenti e tempestivi, anche con supporto studentesco.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche e strumentali",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "LIM, laboratori, formazione ICT per didattica inclusiva.",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "PCTO Stages",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stages di 60 ore presso aziende/enti del territorio, con certificazione e valutazione.",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Questionario Customer Satisfaction",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Valutazione studenti sull'attività PCTO.",
+      "target": "Studenti triennio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PVTL006033\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Itg Volta - Sez. Ospedaliera - Pavia** (school_id: PVTL006033) per il triennio 2022-2025. L'istituto, di tipo **Tecnico** e afferente al secondo grado, opera in un contesto territoriale **Non Metropolitano** nella regione **Lombardia**. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate in relazione all'orientamento. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, questo viene affrontato in maniera trasversale all'interno del PTOF, con un punteggio complessivo che riflette un impegno significativo.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia l'assenza di una sezione autonoma dedicata all'orientamento, con un punteggio di 3. L'orientamento è integrato in altre aree del PTOF.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di **partnership** con un ampio ventaglio di soggetti, tra cui **aziende locali**, **enti**, diverse **attività lavorative**, il **FAI**, **associazioni di volontariato** e del **terzo settore**, **personalità cristiane**, **Special Olympics**, l'**Università di Firenze**, associazioni e aziende della provincia di Pistoia, **EDUSCOPIO** e la **Fondazione Agnelli**. Il numero di partner (12) e il punteggio di 5 indicano una rete relazionale ben sviluppata e potenzialmente fruttuosa per l'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** (punteggio 6), gli **interessi** (punteggio 6), il **progetto di vita** (punteggio 5), le **transizioni formative** (punteggio 6) e le **capacità orientative** per cogliere le **opportunità** (punteggio 6).\n\n**2.4 Obiettivi:** Tra gli obiettivi, la scuola punta a ridurre l'**abbandono** (punteggio 3), a favorire la continuità territoriale (punteggio 6), a contrastare il fenomeno dei **NEET** (punteggio 3) e a promuovere il **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema prevedono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 6), il rapporto con i **genitori** (punteggio 4), il **monitoraggio delle azioni** (punteggio 3) e l'implementazione di un sistema integrato di **inclusione** e attenzione alle **fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 6), sull'utilizzo di metodologie **laboratoriali** (punteggio 5), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende moduli **culturali** (punteggio 6), **laboratoriali ed espressive** (punteggio 7), **ludico-ricreative** (punteggio 3), di **volontariato** (punteggio 5) e **sportive** (punteggio 5).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** orientative e nell'impegno a sviluppare le competenze degli studenti attraverso metodologie didattiche innovative come l'apprendimento basato sull'esperienza e l'approccio interdisciplinare. L'offerta di **opzionali** diversificata rappresenta un ulteriore elemento positivo. Attività come **visite aziendali**, **incontri con ex-studenti** e la formazione per il **volontariato Special Olympics** sono particolarmente significative.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza. Inoltre, alcuni obiettivi, come la riduzione dell'**abbandono** e la lotta al fenomeno dei **NEET**, ricevono un punteggio inferiore rispetto ad altri, suggerendo la necessità di un maggiore focus su questi aspetti. Il monitoraggio delle azioni orientative, con un punteggio di 3, potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una struttura organizzativa specifica per l'orientamento. Sebbene le attività siano presenti e ben integrate nel contesto scolastico, una sezione dedicata permetterebbe una maggiore visibilità, un coordinamento più efficace e una valutazione più mirata dei risultati. Un potenziamento del monitoraggio delle azioni e un maggiore focus sulla prevenzione dell'abbandono scolastico e del fenomeno dei NEET potrebbero colmare ulteriori lacune.\n\n### 6. Conclusioni\n\nIl PTOF dell'Itg Volta - Sez. Ospedaliera - Pavia dimostra un impegno significativo verso l'orientamento, pur non disponendo di una sezione dedicata. La ricchezza delle **partnership**, la chiarezza delle **finalità** e l'ampia offerta di attività rappresentano punti di forza notevoli. Per ottimizzare l'efficacia dell'orientamento, si suggerisce di valutare la creazione di una sezione specifica all'interno del PTOF e di rafforzare il monitoraggio delle azioni, con particolare attenzione alla prevenzione dell'abbandono scolastico e alla lotta al fenomeno dei **NEET**. L'implementazione di attività come **PCTO Stages** e la valutazione tramite **Questionario Customer Satisfaction** dimostrano un approccio orientato al miglioramento continuo."
+}

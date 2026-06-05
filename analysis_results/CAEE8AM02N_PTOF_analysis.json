@@ -1,0 +1,205 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CAEE8AM02N",
+    "denominazione": "Ugo Foscolo - Via Stoccolma",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Cagliari",
+    "anno_ptof": "2025-2028",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Stoccolma",
+    "cap": "09100",
+    "email": "caic8al00p@istruzione.it",
+    "pec": "caic8al00p@pec.istruzione.it",
+    "website": "capoterra2.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente analisi del contesto e dei bisogni"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Comune",
+        "Enti locali",
+        "Associazioni",
+        "Università degli Studi di Cagliari",
+        "Opera Nazionale Montessori",
+        "ASL",
+        "professionisti del settore",
+        "famiglie"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di continuità",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Realizzazione di progetti con enti locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività per l'integrazione",
+      "target": "Nuovi studenti"
+    },
+    {
+      "titolo_attivita": "E se i bambini si innamorassero della scuola?",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Finanziamenti per differenziazione didattica Montessori",
+      "target": "Scuole Primarie e dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "PROGRESSI",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Sostegno psicologico, pedagogico e mediazione interculturale",
+      "target": "Scuole Primarie e Secondarie"
+    },
+    {
+      "titolo_attivita": "Esplorazione sensoriale",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Angoli scientifici, coding unplugged, orticoltura didattica",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica Educativa",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo di kit specifici per apprendere linguaggi di programmazione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori di Tinkering",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Progetti creativi con materiali di recupero",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Corsi sull'uso degli strumenti compensativi e dispensativi",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi specifici",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Percorsi formativi sull'uso avanzato del monitor interattivo",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Percorsi formativi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratori pratici STEAM",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori pratici",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione obbligatoria D.Lgs 81/08",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione specifica",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Laboratori di Making e Stampa 3D",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo di stampanti 3D e software di modellazione per progettare e realizzare prototipi.",
+      "target": "Studenti Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Percorsi di Orientamento STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti del settore e attività laboratoriali.",
+      "target": "Studenti Secondaria di Primo Grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CAEE8AM02N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Via Stoccolma\" di Cagliari (CAEE8AM02N), relativo all'anno 2025-2028. L'analisi evidenzia un approccio all'orientamento ben strutturato, con una sezione dedicata specifica e un'attenzione particolare alla collaborazione con diversi partner del territorio. Il PTOF dimostra un forte impegno nel supportare gli studenti nello sviluppo delle loro attitudini, interessi e nella costruzione del loro progetto di vita, con un focus sulla transizione formativa e sulla capacità di cogliere le opportunità. L'istituto si propone di ridurre l'abbandono scolastico, favorire la continuità territoriale e promuovere il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, con un punteggio di 3 su 5, che dimostra la presenza di un'analisi del contesto e dei bisogni degli studenti.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, collaborando con **Comune**, **Enti locali**, **Associazioni**, **Università degli Studi di Cagliari**, **Opera Nazionale Montessori**, **ASL**, **professionisti del settore** e **famiglie**. Questo approccio collaborativo, valutato con un punteggio di 4 su 5, è fondamentale per offrire agli studenti un orientamento completo e in linea con le esigenze del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti. Il PTOF attribuisce particolare importanza alle finalità relative alle transizioni formative e alla capacità di cogliere le opportunità, ottenendo punteggi di 4 su 5 per entrambe.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica (neet) e alla promozione del lifelong learning. L'impegno verso il lifelong learning è particolarmente forte, con un punteggio di 5 su 5.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema volte al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori e al monitoraggio delle azioni intraprese. L'attenzione all'inclusione e alla fragilità è un elemento distintivo, con un punteggio di 4 su 5 per l'azione specifica.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'importanza attribuita alla didattica basata sull'esperienza studentesca e all'interdisciplinarità è evidenziata dai punteggi di 5 su 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con un focus sulle attività laboratoriali ed espressive (punteggio di 4 su 5). Le opzionali di tipo culturale, ludico-ricreativo, di volontariato e sportivo ricevono un punteggio inferiore (1 su 5), suggerendo un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, il solido network di partnership con il territorio, la chiarezza delle finalità e degli obiettivi, l'attenzione all'inclusione e alla fragilità, e l'utilizzo di metodologie didattiche innovative basate sull'esperienza e sull'interdisciplinarità. Le attività come **Progetti di continuità**, **Progetti di accoglienza**, **E se i bambini si innamorassero della scuola?** e **PROGRESSI** dimostrano un impegno concreto verso l'orientamento e il benessere degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente l'offerta di attività opzionali e facoltative di tipo culturale, ludico-ricreativo, di volontariato e sportivo, che potrebbero essere ampliate e diversificate. Il monitoraggio delle azioni intraprese, pur presente, potrebbe essere potenziato per garantire una valutazione efficace dell'impatto delle iniziative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di bilanciare l'offerta di attività opzionali e facoltative, ampliando le opportunità in ambito culturale, ludico-ricreativo, di volontariato e sportivo. Inoltre, sarebbe opportuno definire indicatori specifici per il monitoraggio delle azioni intraprese, al fine di valutare l'efficacia delle strategie implementate e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF CAEE8AM02N presenta un approccio all'orientamento ben strutturato e coerente con le finalità dell'istituto. La collaborazione con i partner del territorio, l'attenzione all'inclusione e l'utilizzo di metodologie didattiche innovative rappresentano elementi distintivi. Pur presentando alcune aree di debolezza, il PTOF dimostra un forte impegno nel supportare gli studenti nello sviluppo delle loro potenzialità e nella costruzione del loro futuro. Attività come **Esplorazione sensoriale**, **Coding e Robotica Educativa**, **Laboratori di Tinkering**, i corsi di formazione per i docenti e le attività **STEM** e di **Orientamento** rappresentano un valore aggiunto per la comunità scolastica."
+}

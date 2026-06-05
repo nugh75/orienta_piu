@@ -1,0 +1,326 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "REIC85100V",
+    "denominazione": "San Martino In Rio",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "San Martino In Rio",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Emilia",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Martiri2",
+    "cap": "42018",
+    "email": "reic85100v@istruzione.it",
+    "pec": "reic85100v@pec.istruzione.it",
+    "website": "www.icsanmartinoinrio.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Curricolo verticale"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "biblioteca pubblica",
+        "associazioni di volontariato",
+        "Museo dell’Agricoltura",
+        "Centro per le Famiglie (Correggio)",
+        "Unione dei Comuni Pianura Reggiana",
+        "Associazioni",
+        "personale esterno qualificato",
+        "musei",
+        "istituti pubblici",
+        "associazioni di settore",
+        "enti autorizzati",
+        "GLIR/GIT/Scuole polo per l’inclusione territoriale",
+        "Altre scuole",
+        "ASL",
+        "Università Unimore"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Teatro",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Polo aggregativo pomeridiano",
+      "target": "Alunni in età scolare"
+    },
+    {
+      "titolo_attivita": "Progetti con Museo dell’Agricoltura",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Coinvolgimento Istituzioni scolastiche",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corso di recupero delle conoscenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività di recupero per studenti con difficoltà",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di potenziamento logico-matematiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività per potenziare abilità logico-matematiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento della lingua inglese",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività per migliorare competenza linguistica inglese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mentoring e sportello psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Sostegno emotivo e sviluppo autostima",
+      "target": "Studenti, Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Teatro",
+      "categoria_principale": "Attività",
+      "descrizione_e_metodologia": "Sviluppo competenze relazionali e sociali",
+      "target": "Studenti, Docenti"
+    },
+    {
+      "titolo_attivita": "Metodologie didattiche innovative",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Apprendimento attivo e collaborativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Percorso teatrale extra curricolare con rappresentazione finale.",
+      "target": "Studenti classi V primaria - III secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento lingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corsi pomeridiani per certificazione Cambridge.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Giornale ONLINE dell'istituto",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Redazione online con piattaforma Office 365.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento abilità logico-matematiche",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Giochi-matematici e gare interne/esterne.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistiche con madrelingua.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Recupero competenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Percorsi pomeridiani per italiano e matematica.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Introduzione alla LIS",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Dattilologia e segni base.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Digitalizzazione amministrativa della scuola",
+      "categoria_principale": "Amministrazione Digitale",
+      "descrizione_e_metodologia": "Uso software open source, dematerializzazione modulistica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ambienti per la didattica digitale integrata",
+      "categoria_principale": "Dotazione Digitale",
+      "descrizione_e_metodologia": "Dotazione aule di schermi touch, creazione NG classroom",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione digitale alunni",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Sviluppo competenze digitali applicate, sicurezza online",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Biblioteca 4.0",
+      "categoria_principale": "Contenuti Digitali",
+      "descrizione_e_metodologia": "Creazione spazio didattica innovativa con risorse digitali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piattaforma competenze studenti",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Creazione piattaforma condivisa per monitoraggio competenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione digitale docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione metodologie didattiche innovative e TIC",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti in collaborazione con scuole del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di prima accoglienza, scambio esperienze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di educazione all’auto-orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sviluppo consapevolezza di sé e competenze",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Revisione programmazione disciplinare",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, rielaborazione critica pratiche professionali",
+      "target": "Docenti Primaria"
+    },
+    {
+      "titolo_attivita": "Aggiornamento Curricolo Verticale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Valutazione per competenze",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione",
+      "target": "Docenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Metodologie didattiche laboratoriali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Metodologie didattiche innovative",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Introduzione alla LIS",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione - team building",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Utilizzo di Office 365 e registro elettronico per attività sincrone/asincrone.",
+      "target": "Studenti in quarantena/fragili"
+    }
+  ],
+  "narrative": "# Analisi del PTOF REIC85100V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo **San Martino In Rio** (REIC85100V) per il triennio 2022-2025, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato in **Emilia Romagna** e operante in un territorio **non metropolitano**, si configura come una scuola **statale** che offre istruzione di I Grado, Infanzia e Primaria. L'analisi evidenzia un impegno significativo verso l'orientamento, supportato da un curricolo verticale ben definito e da una rete di **partnership** consolidata. Le finalità orientative sono chiaramente definite e gli obiettivi, pur con alcune aree di miglioramento, appaiono ambiziosi e pertinenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5, a riprova dell'importanza attribuita a questa dimensione.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni con enti e istituzioni del territorio, tra cui la **biblioteca pubblica**, **associazioni di volontariato**, il **Museo dell’Agricoltura**, il **Centro per le Famiglie (Correggio)**, l'**Unione dei Comuni Pianura Reggiana**, diverse **associazioni di settore**, **istituti pubblici**, **ASL**, **Università Unimore** e i **GLIR/GIT/Scuole polo per l’inclusione territoriale**. Questo network di **partnership** (ben 15) rappresenta un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità formative e professionali per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, alla facilitazione delle **transizioni formative** e al potenziamento delle loro **capacità orientative** per affrontare le opportunità future. Tutte queste aree ricevono un punteggio massimo di 5, sottolineando la completezza della visione orientativa dell'istituto.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono** scolastico, a garantire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I primi due obiettivi ottengono un punteggio di 5, mentre gli ultimi due raggiungono un punteggio di 3, suggerendo la necessità di rafforzare l'impegno in queste aree.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. L'azione di coordinamento dei servizi ottiene un punteggio di 4, mentre le restanti raggiungono il punteggio massimo di 5, evidenziando un approccio sistemico e collaborativo all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sull'interdisciplinarità e, in misura minore, sulla flessibilità degli spazi e dei tempi. Le prime tre aree ottengono un punteggio di 5, mentre l'ultima si attesta a 3, suggerendo la necessità di esplorare ulteriormente soluzioni didattiche innovative e flessibili.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzioni culturali e laboratoriali ottengono un punteggio di 4 e 5 rispettivamente, mentre le restanti si attestano a 3, indicando un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** con enti e istituzioni del territorio, nella chiarezza delle finalità orientative e nell'impegno verso un approccio sistemico e collaborativo. L'offerta di attività didattiche esperienziali e laboratoriali rappresenta un ulteriore elemento di valore. Attività come il **Laboratorio di Teatro** e i **Progetti con Museo dell’Agricoltura** sono esempi concreti di questo impegno.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning**, che ottengono un punteggio inferiore rispetto agli altri. Anche la flessibilità degli spazi e dei tempi nella didattica orientativa e l'offerta di opzionali ludiche, ricreative e di volontariato potrebbero essere ulteriormente sviluppate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** in azioni concrete e misurabili. È inoltre auspicabile un maggiore investimento nella flessibilità della didattica orientativa e nell'ampliamento dell'offerta di opzionali, al fine di rispondere in modo più efficace alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo **San Martino In Rio** presenta un solido impianto orientativo, supportato da una rete di **partnership** consolidata e da un impegno verso un approccio sistemico e collaborativo. Pur con alcune aree di miglioramento, il PTOF si configura come uno strumento efficace per guidare gli studenti nello sviluppo delle loro **attitudini**, dei loro **interessi** e del loro **progetto di vita**. L'implementazione delle azioni previste e il monitoraggio costante dei risultati consentiranno di raggiungere gli obiettivi prefissati e di garantire un'offerta formativa sempre più rispondente alle esigenze del territorio e degli studenti. L'attenzione alla **digitalizzazione** e alla **formazione dei docenti** rappresenta un ulteriore elemento di modernizzazione e innovazione."
+}

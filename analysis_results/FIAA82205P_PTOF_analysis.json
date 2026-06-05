@@ -1,0 +1,368 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIAA82205P",
+    "denominazione": "Signa",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Signa",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Tifariti2",
+    "cap": "50058",
+    "email": "fiic82200n@istruzione.it",
+    "pec": "mbic8ex001@pec.istruzione.it",
+    "website": "wwwicsigna.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "MUST",
+        "biblioteca comunale",
+        "associazioni di volontariato",
+        "gruppi culturali",
+        "sportivi",
+        "Rete di scuole",
+        "Associazione Gaia Onlus",
+        "asilo infantile di Oreno",
+        "P.A.N.E",
+        "Parco della Cavallera",
+        "Lega Ambiente",
+        "Ente locale",
+        "ANPA",
+        "CTI Brianza Est",
+        "Università Bicocca - Milano",
+        "Università Bocconi",
+        "Università Cattolica - Milano",
+        "Università di Bergamo",
+        "Itis Hensemberger- Monza",
+        "Academy Easy Team",
+        "Ente accreditato alla formazione"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "laboratori di musica",
+      "categoria_principale": "laboratori",
+      "descrizione_e_metodologia": "attività laboratoriali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "potenziamento lingue straniere",
+      "categoria_principale": "laboratori",
+      "descrizione_e_metodologia": "attività laboratoriali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "giochi sportivi studenteschi",
+      "categoria_principale": "sport",
+      "descrizione_e_metodologia": "attività sportiva",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "teatro",
+      "categoria_principale": "arte",
+      "descrizione_e_metodologia": "attività teatrali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "laboratori di matematica",
+      "categoria_principale": "laboratori",
+      "descrizione_e_metodologia": "attività laboratoriali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "laboratori di robotica",
+      "categoria_principale": "laboratori",
+      "descrizione_e_metodologia": "attività laboratoriali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "laboratori artistici",
+      "categoria_principale": "arte",
+      "descrizione_e_metodologia": "attività laboratoriali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "realizzazione cortometraggi",
+      "categoria_principale": "media",
+      "descrizione_e_metodologia": "attività video",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "realizzazione giornali",
+      "categoria_principale": "media",
+      "descrizione_e_metodologia": "attività giornalistica",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "mostre fotografiche",
+      "categoria_principale": "arte",
+      "descrizione_e_metodologia": "attività fotografiche",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di repository per la progettazione e condivisione di buone pratiche",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Definizione e stesura di curricoli digitali, esperienze di progettazione partecipata.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Emanare un regolamento di e-policy",
+      "categoria_principale": "Competenze Chiave",
+      "descrizione_e_metodologia": "Promuovere l'uso responsabile delle tecnologie digitali.",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Elaborazione di una griglia di valutazione delle competenze",
+      "categoria_principale": "Competenze Chiave",
+      "descrizione_e_metodologia": "Griglia comune a tutto l'istituto per favorire l'autovalutazione.",
+      "target": "Studenti, Docenti"
+    },
+    {
+      "titolo_attivita": "Intensificazione delle relazioni tra docenti dei diversi ordini scolastici",
+      "categoria_principale": "Sviluppo Risorse Umane",
+      "descrizione_e_metodologia": "Favorire percorsi formativi in graduale verticalità.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Servizio post scuola",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Erogazione del servizio dalle 16.00 alle 19.00 per alunni 6-11 anni, gestito da associazioni diverse a seconda della scuola.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppo competenze trasversali.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Biblioteca scolastica",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Promozione della lettura e consultazione libri.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività teatrale",
+      "categoria_principale": "Attività extracurricolari",
+      "descrizione_e_metodologia": "Laboratori teatrali per sviluppo espressività.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "comitato rappresentanti degli studenti e delle studentesse",
+      "categoria_principale": "Partecipazione",
+      "descrizione_e_metodologia": "Coinvolgimento studenti nella vita scolastica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "percorsi interculturali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Promozione dialogo interculturale",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "progetto famiglia",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Collaborazione scuola-famiglia",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "progetto eventi",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Organizzazione eventi scolastici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "progetto sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Promozione sicurezza scolastica",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "laboratorio coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo piattaforma Programma il futuro",
+      "target": "Studenti infanzia-secondaria"
+    },
+    {
+      "titolo_attivita": "Giornata dell’Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con scuole superiori e professioni",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Questionari psico-attitudinali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Somministrazione questionari",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Colloqui con docenti tutor",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui individuali",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Lo spazio d’incontro, informazione e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Informazioni, consulenza, orientamento e supporto alle famiglie e ai docenti",
+      "target": "Alunni con Bisogni Educativi Speciali"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi d’aggiornamento per genitori, operatori sociali e docenti",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Cittadinanza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione, peer review, comunità di pratiche, formazione di Scuola/Rete",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corso sulla ricaduta delle prove INVALSI",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, ricerca-azione",
+      "target": "Docenti scuola primaria e secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Formazione neo immessi in ruolo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di Scuola/Rete",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Uso del programma Excel",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Potenziamento Scuola Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione on line, formazione di Scuola/Rete",
+      "target": "Dsga e assistente amministrativo"
+    },
+    {
+      "titolo_attivita": "Passweb",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione di Scuola/Rete",
+      "target": "Dsga e assistente amministrativo"
+    },
+    {
+      "titolo_attivita": "Privacy, protezione e trattamento dei dati personali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione on line, formazione di Scuola/Rete",
+      "target": "tutto il personale"
+    },
+    {
+      "titolo_attivita": "Formazione per gli addetti all'attuazione delle misure di prevenzione incendi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, laboratori, formazione di Scuola/Rete",
+      "target": "tutto il personale"
+    },
+    {
+      "titolo_attivita": "Disposizioni per gestione emergenza sanitaria Covid",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione on line, formazione di Scuola/Rete",
+      "target": "Personale Collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIAA82205P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Don Milani**, scuola dell'infanzia situata nel comune di **Signa**, provincia di **Firenze**. Il PTOF, relativo all'anno **2019/20-2021/22**, dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'istituto si impegna a costruire un sistema di orientamento che tenga conto delle attitudini, degli interessi, del progetto di vita degli studenti e delle transizioni formative, fornendo loro le capacità necessarie per affrontare le opportunità future. La scuola si distingue per una forte rete di **partnership** con enti locali, università e associazioni, che arricchiscono l'offerta formativa e facilitano l'orientamento degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF prevede esplicitamente una sezione dedicata all'orientamento, confermando l'importanza attribuita a questo aspetto.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership**, ben 18, che includono enti come **MUST**, la **biblioteca comunale**, diverse **associazioni di volontariato** e **gruppi culturali**, realtà sportive, la **Rete di scuole**, l'**Associazione Gaia Onlus**, l'**asilo infantile di Oreno**, **P.A.N.E**, il **Parco della Cavallera**, **Lega Ambiente**, l'**Ente locale**, **ANPA**, **CTI Brianza Est**, e diverse **Università** (Bicocca, Bocconi, Cattolica, Bergamo). Questa rete di collaborazioni rappresenta un valore aggiunto per l'orientamento degli studenti, offrendo loro opportunità di contatto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, nonché a supportarli nelle **transizioni formative** e a fornire loro le **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono** scolastico, favorire la continuità territoriale, contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning**. Sebbene l'obiettivo di ridurre l'abbandono scolastico riceva un punteggio inferiore rispetto agli altri, la scuola dimostra un impegno concreto nel garantire la continuità territoriale e nel promuovere l'apprendimento permanente.\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con enti e istituzioni del territorio, che offre agli studenti numerose opportunità di orientamento e di contatto con il mondo del lavoro. L'istituto dimostra un forte impegno nel definire finalità e obiettivi chiari, e nell'implementare azioni di sistema efficaci per supportare l'orientamento degli studenti. L'attenzione alla didattica orientativa, basata sull'apprendimento esperienziale e sull'interdisciplinarità, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di ridurre l'**abbandono** scolastico, che riceve un punteggio inferiore rispetto agli altri obiettivi. È necessario approfondire le strategie per affrontare questo problema e garantire che tutti gli studenti abbiano le opportunità necessarie per completare il loro percorso formativo.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario rafforzare le azioni volte a prevenire l'abbandono scolastico e a contrastare il fenomeno dei **NEET**. Potrebbe essere utile implementare programmi di tutoraggio personalizzato e di orientamento professionale più mirati, in collaborazione con le **partnership** esistenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Don Milani** presenta un approccio solido e ben strutturato all'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership**, la chiarezza delle finalità e degli obiettivi, e l'impegno per una didattica orientativa innovativa rappresentano elementi di grande valore. Pur riconoscendo l'area di debolezza relativa all'abbandono scolastico, il PTOF dimostra un forte potenziale per supportare gli studenti nel loro percorso di crescita e di orientamento verso il futuro. Le attività registrate, come i **laboratori di musica**, **robotica**, le attività **teatrali** e i **percorsi interculturali**, testimoniano l'impegno concreto dell'istituto nell'offrire un'offerta formativa ricca e diversificata."
+}

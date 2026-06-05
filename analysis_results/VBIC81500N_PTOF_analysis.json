@@ -1,0 +1,420 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VBIC81500N",
+    "denominazione": "Ic Di Verbania Intra",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Verbania",
+    "anno_ptof": "2024-2028",
+    "provincia": "Verbano-Cusio-Ossola",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Rosmini N. 6",
+    "cap": "28900",
+    "email": "vbic81500n@istruzione.it",
+    "pec": "vbic81500n@pec.istruzione.it",
+    "website": "www.comprensivocivitavecchia1.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Forze Armate",
+        "Forze dell'Ordine",
+        "Museo archeologico nazionale",
+        "Associazioni sportive",
+        "Comune",
+        "Avis",
+        "Enel",
+        "Autorità portuale",
+        "ASL",
+        "specialisti del territorio",
+        "servizi sociali",
+        "enti esterni",
+        "Istituzioni",
+        "Agenzie di viaggio",
+        "strutture pubbliche",
+        "convenzionate",
+        "private",
+        "UONPIA",
+        "Autorità garante per l’infanzia e l’adolescenza"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite sul territorio per acquisizione competenze sociali e civiche",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di integrazione interculturale",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Promozione di progetti per l'integrazione interculturale",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Lab. Teatrale",
+      "categoria_principale": "Espressione",
+      "descrizione_e_metodologia": "Laboratori teatrali",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita a Fattorie didattiche (Villaggio del Fanciullo, Fiocco di Neve, Gattopuzzo)",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caserma Vigili del Fuoco",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita alla Caserma Vigili del Fuoco",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Porto, mercato, centro storico",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita a Porto, mercato, centro storico",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Teatro Traiano",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita al Teatro Traiano",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Cinema",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita al Cinema",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Eventuali iniziative",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Eventuali iniziative organizzate da Comune, Enti locali, Biblioteca Comunale",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Ninfa e Sermoneta",
+      "categoria_principale": "Viaggi d'Istruzione",
+      "descrizione_e_metodologia": "Viaggio d'istruzione",
+      "target": "Secondaria IA, IB, ID, IE, IL"
+    },
+    {
+      "titolo_attivita": "Tarquinia-Piani Degli Alpaca",
+      "categoria_principale": "Viaggi d'Istruzione",
+      "descrizione_e_metodologia": "Viaggio d'istruzione",
+      "target": "Secondaria IC, IM"
+    },
+    {
+      "titolo_attivita": "Perugia-Trasimeno",
+      "categoria_principale": "Viaggi d'Istruzione",
+      "descrizione_e_metodologia": "Viaggio d'istruzione",
+      "target": "Secondaria IIA, IIB, IIC, IID, IIE, IIL, IIM"
+    },
+    {
+      "titolo_attivita": "Lucca-Pisa",
+      "categoria_principale": "Viaggi d'Istruzione",
+      "descrizione_e_metodologia": "Viaggio d'istruzione",
+      "target": "Secondaria IIIA, IIIB, IIIC, IID, IIIE, IIIF, IIIL, IIM"
+    },
+    {
+      "titolo_attivita": "Museo Civico e Bosco di Allumiere",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita al Museo Civico e Bosco di Allumiere",
+      "target": "Secondaria IA, IB, IC, ID, IE, IL, IM"
+    },
+    {
+      "titolo_attivita": "Caprarola-Villa Farnese",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita a Caprarola-Villa Farnese",
+      "target": "Secondaria IIA, IIB, IIC, IID, IIE, IIL, IIM"
+    },
+    {
+      "titolo_attivita": "Museo Piana Delle Orme-Circeo",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita al Museo Piana Delle Orme-Circeo",
+      "target": "Secondaria IIIA, IIIB, IIIC, IID, IIIE, IIIF, IIIL, IIM"
+    },
+    {
+      "titolo_attivita": "Laboratori di coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo linguaggio Scratch",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Partecipazione torneo organizzato Università Bocconi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Laboratorio teatrale e bilingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse culturale e professionale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetti di integrazione interculturale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti per l'integrazione interculturale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Insegnamento strumenti musicali",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Lezioni individuali di clarinetto, violino, chitarra, pianoforte.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Formazione Geometriko",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione in presenza, online, sperimentazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Metodologia DADA",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione in presenza, online, sperimentazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione in presenza, online, sperimentazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Fattorie didattiche",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita a Fattorie didattiche",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Caserma Vigili del Fuoco",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita alla Caserma Vigili del Fuoco",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Porto, mercato, centro storico",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita a Porto, mercato, centro storico",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Teatro Traiano",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita al Teatro Traiano",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Cinema",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Visita al Cinema",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Uscita didattica Eventuali iniziative",
+      "categoria_principale": "Uscite Didattiche",
+      "descrizione_e_metodologia": "Eventuali iniziative organizzate da Comune, Enti locali, Biblioteca Comunale",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Definizione modalità DDI, strumenti, orario, valutazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Contatti telefonici con le famiglie",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Monitoraggio situazione organizzativa famiglia",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Comodato d'uso sussidi didattici",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Fornitura strumenti tecnologici",
+      "target": "Alunni con sussidi"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Incontri tra docenti scuole di provenienza e destinazione",
+      "target": "Alunni in passaggio"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori artistico, musicale, linguistico, drammatizzazione, scientifico, informatica, sportivo",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Calcolo delle aree",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Determinare l’area di semplici figure piane",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Percentuale interesse e sconto",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Comprendere il significato di percentuale",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Teorema di Pitagora",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Conoscere e saper utilizzare il teorema",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Esplorare, osservare e descrivere",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Esplorare fenomeni in laboratorio",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Realizza elaborati personali e creativi",
+      "categoria_principale": "Arte e Immagine",
+      "descrizione_e_metodologia": "Applica le conoscenze del linguaggio visivo",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Eseguire brani vocali e strumentali",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esecuzione di brani di diversi generi",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Impiegare gli strumenti del disegno tecnico",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Rappresentazione di oggetti",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Saper applicare schemi di movimento",
+      "categoria_principale": "Scienze Motorie",
+      "descrizione_e_metodologia": "Risolvere problemi motori",
+      "target": "Classe Seconda"
+    },
+    {
+      "titolo_attivita": "Sviluppo sostenibile (Classi Prime)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi autonomi, produzione personalizzata",
+      "target": "Classi Prime"
+    },
+    {
+      "titolo_attivita": "Riflessione sulla Convenzione sui Diritti dell’Infanzia (Classi Seconde)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Letture, commenti, scritti",
+      "target": "Classi Seconde"
+    },
+    {
+      "titolo_attivita": "I Diritti Umani. Le Libertà Fondamentali (Classi Terze)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Analisi Dichiarazione Universale dei Diritti Umani",
+      "target": "Classi Terze"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VBIC81500N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic Di Verbania Intra** (VBIC81500N) per il periodo 2024-2028. L'istituto, di tipo **Comprensivo** e situato in **Piemonte**, dimostra un'attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 7 su una scala non specificata. L'analisi si concentra sulle diverse dimensioni dell'orientamento, identificando punti di forza, aree di debolezza e potenziali gap. Il PTOF evidenzia un impegno nella costruzione di un sistema di orientamento che coinvolge diversi attori e si articola in azioni concrete, con particolare attenzione alle **transizioni formative** e alla prevenzione dell'**abbandono scolastico**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione specifica per l'orientamento nel PTOF è un elemento positivo, ottenendo un punteggio di 7.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership**, ben 19, che includono **Forze Armate**, **Forze dell'Ordine**, **Museo archeologico nazionale**, **Associazioni sportive**, il **Comune**, **Avis**, **Enel**, l'**Autorità portuale**, l'**ASL**, **specialisti del territorio**, **servizi sociali**, diverse **Istituzioni**, **Agenzie di viaggio**, **strutture pubbliche** e **private**, la **UONPIA** e l'**Autorità garante per l’infanzia e l’adolescenza**. Questo network di collaborazioni rappresenta una risorsa importante per arricchire l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, alla progettazione del **progetto di vita** e alla preparazione alle **transizioni formative**, nonché allo sviluppo delle capacità orientative per cogliere le **opportunità** offerte dal territorio. Tutti questi aspetti ricevono un punteggio di 4, indicando un'attenzione equilibrata alle diverse dimensioni.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 3), la promozione della continuità territoriale (punteggio 4), il contrasto al fenomeno dei **NEET** (punteggio 3) e la promozione del **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono il coordinamento dei servizi (punteggio 5), il dialogo tra docenti e studenti (punteggio 4), il rapporto scuola-genitori (punteggio 5), il monitoraggio delle azioni intraprese (punteggio 4) e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio interdisciplinare (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** e **laboratoriali espressive** (punteggio 4 per entrambe), mentre quelle **ludiche ricreative**, di **volontariato** e **sportive** ricevono un punteggio inferiore (3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate, che offrono agli studenti numerose opportunità di contatto con il mondo del lavoro e del territorio. L'attenzione al coordinamento dei servizi e al rapporto scuola-genitori, evidenziata dai punteggi elevati, suggerisce un approccio sistemico all'orientamento. Le attività registrate, come le **Visite guidate**, i **Progetti di integrazione interculturale** e i **Lab. Teatrale**, dimostrano un impegno concreto nella realizzazione di interventi orientativi diversificati. L'offerta di **laboratori di coding** e la partecipazione a **Giochi Matematici** indicano un'apertura verso le nuove tecnologie e le competenze digitali.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza sembrano concentrarsi sugli obiettivi di riduzione dell'**abbandono scolastico** e di contrasto al fenomeno dei **NEET**, che ottengono un punteggio inferiore rispetto agli altri. Anche l'offerta di attività opzionali **ludiche ricreative**, di **volontariato** e **sportive** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nNonostante la presenza di una sezione dedicata e di un'ampia gamma di attività, è necessario approfondire l'analisi dell'efficacia degli interventi orientativi messi in atto. Sarebbe utile definire indicatori specifici per monitorare il raggiungimento degli obiettivi prefissati, in particolare quelli relativi alla prevenzione dell'abbandono scolastico e alla lotta alla dispersione formativa. Inoltre, è importante garantire una maggiore coerenza tra le finalità dichiarate e le azioni concrete implementate.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Ic Di Verbania Intra** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'impegno nella realizzazione di attività diversificate rappresentano elementi di forza. Tuttavia, è necessario prestare maggiore attenzione agli obiettivi di riduzione dell'abbandono scolastico e di contrasto al fenomeno dei **NEET**, nonché potenziare l'offerta di attività opzionali. Un monitoraggio costante e una valutazione accurata degli interventi orientativi consentiranno di migliorare l'efficacia del PTOF e di garantire a tutti gli studenti un adeguato supporto nella costruzione del proprio **progetto di vita**."
+}

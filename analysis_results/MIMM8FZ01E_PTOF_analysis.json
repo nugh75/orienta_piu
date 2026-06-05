@@ -1,0 +1,219 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIMM8FZ01E",
+    "denominazione": "I.C. Umberto Eco",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2025-2028",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via V. Colonna 42",
+    "cap": "20149",
+    "email": "miic8fz00d@istruzione.it",
+    "pec": "ND",
+    "website": "https//icsumbertoeco.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie.",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti.",
+      "target": "Studenti classe II"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia.",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Connessione dati MiAssumo.",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Teams per info su attività esterne.",
+      "target": "Studenti classi III e IV"
+    },
+    {
+      "titolo_attivita": "Eventi orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri su competenze imprenditoriali, reti, CV.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione per attività giovanili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con rappresentanti di università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIMM8FZ01E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Secondaria I Grado Monteverdi** (MIMM8FZ01E), relativo all'anno scolastico 2025-2028. La scuola, situata a **Milano** in **Lombardia**, si configura come un istituto **statale** inserito in un contesto **metropolitano** e **Nord Ovest**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza di una chiara attenzione a questo ambito.\n\n**2.2 Partnership:** La scuola ha sviluppato un network di **15 partner**, tra cui enti culturali come **LAC** e **Museo in Erba**, istituzioni come la **Polizia Cantonale** e la **Croce Rossa**, università italiane e internazionali quali **Università Bocconi**, **Università della Svizzera Italiana**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Savannah College of Art and Design**, **European Business School di Londra**, **Webster American College**, **Edimburgh University**, **Luiss Roma** e specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra). Questo ampio ventaglio di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. Buono il punteggio anche per la capacità di orientare verso le **opportunità** formative, mentre la transizione tra i diversi gradi scolastici risulta meno enfatizzata.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un punteggio basso per la riduzione dell'**abbandono** scolastico e il mantenimento di un legame con il **territorio**. Più marcato l'impegno nel contrastare il fenomeno dei **NEET** e nel promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento con i servizi territoriali, un dialogo costante tra docenti e studenti, un rapporto attivo con le famiglie e un sistema di monitoraggio delle azioni intraprese. Particolarmente rilevante l'attenzione verso un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'utilizzo delle esperienze degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali appare meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio network di **partnership** attivate, nella chiarezza delle **finalità** e nell'efficacia delle **azioni di sistema**, in particolare quelle legate all'inclusione. L'offerta di attività extracurricolari, come i corsi di **lingue** e di **musica**, e i progetti specifici come **'MiOriento'**, **'MiAssumo'** e il **Percorso Competenze Trasversali** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'**abbandono** scolastico e di mantenimento del legame con il **territorio**. Inoltre, l'utilizzo di metodologie didattiche laboratoriali potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità ambiziose e gli obiettivi meno marcati suggerisce la necessità di definire strategie più concrete per affrontare le problematiche legate all'abbandono scolastico e al collegamento con il territorio. Un maggiore focus sulle attività laboratoriali potrebbe contribuire a rendere l'offerta orientativa più pratica e coinvolgente.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della **Secondaria I Grado Monteverdi** dimostra un forte impegno verso l'orientamento, con una solida base teorica e un'ampia gamma di attività e partnership. Pur presentando alcune aree di debolezza, il PTOF si configura come un documento programmatico ben strutturato e orientato al successo formativo degli studenti. L'attenzione all'inclusione e la diversificazione dell'offerta formativa rappresentano elementi distintivi di questo PTOF."
+}

@@ -1,0 +1,278 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEAA86902Q",
+    "denominazione": "I.C. Adele Zara",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Mira",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Lago D'Albano 5/A",
+    "cap": "30034",
+    "email": "veic86900t@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.istitutocomprensivoadelezara.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente e dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite aziendali, incontri con professionisti",
+      "target": "Studenti secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Potenziamento competenze",
+      "descrizione_e_metodologia": "Laboratori di lettura e scrittura creativa",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Benessere",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Interventi educativi, formazione, supporto psicologico, inclusione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria, secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Sensibilizzazione su tematiche di genere.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Pomeriggi Alla Giotti",
+      "categoria_principale": "Attività pomeridiane",
+      "descrizione_e_metodologia": "Potenziamento attività pomeridiane con SIS.",
+      "target": "Alunni scuola Giotti"
+    },
+    {
+      "titolo_attivita": "Progetto Pari Opportunità",
+      "categoria_principale": "Educazione alla parità",
+      "descrizione_e_metodologia": "Sensibilizzazione su tematiche di genere.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per scelta scolastica/professionale.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, peer review, formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Coinvolgimento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Progetti con associazioni",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VEAA86902Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Gianni Rodari\" di Mira (VE), codice meccanografico VEAA86902Q, relativo all'anno scolastico 2019/20-2021/22. L'istituto, di ordine Infanzia, statale e situato nel territorio metropolitano della regione Veneto, dimostra un'attenzione particolare all'orientamento, come evidenziato dalla presenza di una sezione dedicata e ben dettagliata. L'analisi si concentra sulle dimensioni dell'orientamento, identificando punti di forza, aree di debolezza e possibili gap, basandosi sui dati forniti nel documento PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, valutata con un punteggio massimo di 5, indicando un'attenzione significativa a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, ben 15, che includono l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, diversi **musei** e **istituti pubblici/privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, **altre scuole**, **associazioni o cooperative**, le **autonomie locali** e l'**ASL**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e il supporto alle **transizioni formative**. Particolarmente rilevante è l'attenzione alle **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientamento mirano a ridurre l'**abbandono scolastico**, garantire la continuità con il **territorio**, contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, un forte **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di scelta per gli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, curata nei dettagli. L'ampia rete di **partnership** con enti e istituzioni del territorio, la chiarezza delle **finalità** e degli **obiettivi**, l'implementazione di azioni di sistema efficaci e l'offerta di una didattica orientativa diversificata rappresentano elementi di grande valore. L'attenzione all'inclusione e alla valorizzazione delle competenze degli studenti completano il quadro positivo.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree necessitano di maggiore attenzione. L'obiettivo di contrastare il fenomeno dei **NEET** ha ottenuto un punteggio inferiore (2), suggerendo la necessità di rafforzare le azioni specifiche in questo ambito. Anche l'obiettivo del **lifelong learning** (punteggio 3) potrebbe essere ulteriormente sviluppato.\n\n### 5. Gap Analysis\n\nAnalizzando le attività registrate, si evidenzia una buona varietà di iniziative, tra cui **attività di ampliamento curricolare**, **progetti di lettura**, **monitoraggio della didattica digitale integrata**, **anagrafi delle competenze**, **monitoraggio dei risultati degli alunni**, **revisione del regolamento di disciplina**, **servizi integrativi scolastici**, **laboratori pomeridiani**, **progetti di benessere**, **programmi di continuità**, **attività di educazione motoria**, **laboratori teatrali**, **progetti di intercultura**, **iniziative di cittadinanza attiva**, **progetti di inclusione**, **attività di promozione della comunità educante** e **formazione del personale**. Tuttavia, la descrizione di alcune attività, come le semplici \"**attività didattiche**\", risulta carente di dettagli specifici.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo \"Gianni Rodari\" di Mira dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben strutturata, una vasta rete di **partnership** e una chiara definizione di **finalità** e **obiettivi**. Pur presentando alcune aree di miglioramento, l'istituto si pone come un punto di riferimento per l'offerta formativa e l'orientamento degli studenti nel territorio. L'implementazione delle attività registrate, con particolare attenzione alla specificità delle descrizioni, contribuirà a consolidare i risultati raggiunti e a garantire un futuro di successo per gli studenti."
+}

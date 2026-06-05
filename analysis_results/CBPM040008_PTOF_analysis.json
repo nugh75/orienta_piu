@@ -1,0 +1,517 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CBPM040008",
+    "denominazione": "Liceo Statale \"G. M.Galanti",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Campobasso",
+    "anno_ptof": "2022-2025",
+    "provincia": "Campobasso",
+    "regione": "Molise",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Trieste1",
+    "cap": "86100",
+    "email": "cbpm040008@istruzione.it",
+    "pec": "cbpm040008@pec.istruzione.it",
+    "website": "www.liceogalanti.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Magistrale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Conservatorio \"Lorenzo Perosi\"",
+        "Accademie musicali",
+        "Fondazione Molise Cultura",
+        "territorio",
+        "famiglie",
+        "figure istituzionali",
+        "Educatius Academy",
+        "Intercultura ODV",
+        "Fondazione European People",
+        "AMMA",
+        "Risguardi",
+        "Assoc.",
+        "Unimol",
+        "S. M. Petrone",
+        "Amici della Musica",
+        "Sotto i tetti",
+        "Comune di Ferrazzano",
+        "ASL",
+        "Centro di Supporto Territoriale (CTS)",
+        "Rete di scopo"
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni con enti, associazioni, università, realtà produttive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Interventi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Interventi di recupero e sostegno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione focalizzata sulle competenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Strategie didattiche innovative",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Uso consapevole dei nuovi ambienti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività curriculari ed extracurriculari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Realizzazione di attività",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO all'estero",
+      "categoria_principale": "Mobilità",
+      "descrizione_e_metodologia": "Percorsi PCTO in Spagna, Francia, Irlanda, Finlandia, Belgio e Germania.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tirocinio professionale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Tirocini in aziende estere nel marketing e turismo.",
+      "target": "Neodiplomati"
+    },
+    {
+      "titolo_attivita": "Formazione Staff",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione in Europa su metodologie didattiche e CLIL.",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "EMUN",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Simulazione diplomatica a Bruxelles e Parigi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "IMEP & SUN",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Simulazione del Parlamento Europeo a Roma.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "NHSMUN",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Simulazione Nazioni Unite a New York.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Doppio Diploma Italo-Americano",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Conseguimento diploma USA e Italiano.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "ESABAC",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Conseguimento diploma italiano e francese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alzheimer",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "PCTO presso Associazione molisana malati di Alzheimer",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Libreria Risguardi",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "PCTO presso struttura ospitante",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A scuola di Opencoesione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "PCTO presso struttura ospitante",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Forever Young",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "PCTO presso Casa di riposo \"Don Carlo Pistilli\"",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Marketing digitale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "PCTO presso Unimol",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sulle note della Petrone",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "PCTO presso Istituto S. M. Petrone",
+      "target": "Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "Open Concert",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "PCTO presso Amici della Musica",
+      "target": "Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "La magia dei misteri",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "PCTO presso associazione 'Sotto i tetti'",
+      "target": "Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "Stagione di concerti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "PCTO presso Comune di Ferrazzano",
+      "target": "Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "Ensemble di Clarinetti \"Galanti Perosi\"",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "PCTO presso Conservatorio Lorenzo Perosi",
+      "target": "Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "Orchestra regionale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "PCTO presso OSRM",
+      "target": "Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "Prix Palatine",
+      "categoria_principale": "Cinema",
+      "descrizione_e_metodologia": "Impresa Formativa Simulata (IFS)",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "RISORSE EDUCATIVE APERTE",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Sperimentazione OER con classe prima LES/LSU",
+      "target": "Studenti classe prima LES/LSU"
+    },
+    {
+      "titolo_attivita": "Animatore Digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione interna docenti sull'uso digitale",
+      "target": "Personale Docente"
+    },
+    {
+      "titolo_attivita": "Protocollo per l'inclusione degli alunni con BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione di strategie per l'inclusione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Protocollo per l'inclusione degli alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza e integrazione studenti stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola a Domicilio",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Istruzione a domicilio per alunni ospedalizzati",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Progetto studente-atleta",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto studenti atleti di alto livello",
+      "target": "Studenti atleti"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano L2 per studenti NAI",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche con CPIA",
+      "target": "Studenti NAI"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Conservatorio Perosi",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni, laboratori, esoneri",
+      "target": "Studenti Liceo Musicale"
+    },
+    {
+      "titolo_attivita": "Commentaire Dirigé",
+      "categoria_principale": "ESABAC",
+      "descrizione_e_metodologia": "Analisi testuale e riflessione personale",
+      "target": "Studenti Esabac"
+    },
+    {
+      "titolo_attivita": "Essai Bref",
+      "categoria_principale": "ESABAC",
+      "descrizione_e_metodologia": "Saggio breve su tematiche proposte",
+      "target": "Studenti Esabac"
+    },
+    {
+      "titolo_attivita": "Épreuve d’histoire",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Analisi documenti e composizione",
+      "target": "Studenti Esabac"
+    },
+    {
+      "titolo_attivita": "Formazione online personale ATA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi e laboratori online, tutoraggio on demand",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Auditorium Giovannitti",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Convenzione, risorse condivise",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Asmir",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Donazioni, risorse materiali",
+      "target": "Comunità"
+    },
+    {
+      "titolo_attivita": "Youth Hub",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche, risorse condivise",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "MUSICALE",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività didattiche, risorse professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Accordo quadro - CIP",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività didattiche, risorse professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Per L'Orientamento Formativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche, risorse professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "tirocinio di formazione e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di formazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orchestra scolastica regionale del Molise",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività didattiche, risorse professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CONVENZIONE INVALSI - OCSE",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Prove internazionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione con il Liceo Lafayette",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Scambio culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto EduCare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accademica Group",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Doppio diploma",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "UNIMOL per TFA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "UNIVERSITA' telematica Pegaso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Conservatorio di Brescia",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "UNIVERSITA' CASSINO per TFA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rnfs – Rete Nazionale Formazione Scuola",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "La patente per l’uso consapevole dello smartphone",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche, risorse condivise",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Caccia al tesoro digitale",
+      "categoria_principale": "Alfabetizzazione digitale",
+      "descrizione_e_metodologia": "Ricerca, valutazione e gestione di informazioni online.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "Digitale Non Ostile",
+      "categoria_principale": "Cittadinanza digitale",
+      "descrizione_e_metodologia": "Riflessione sul manifesto e ricerca esempi di comunicazione ostile.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "Io, Cittadino Digitale",
+      "categoria_principale": "Comunicazione e collaborazione",
+      "descrizione_e_metodologia": "Creazione di un padlet sul viaggio di istruzione.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "Proteggi la tua identità digitale",
+      "categoria_principale": "Sicurezza digitale",
+      "descrizione_e_metodologia": "Creazione di password sicure, analisi privacy social media, prevenzione cyberbullismo.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "Mostriamo Il Nostro Lavoro",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Condivisione di Chromebook con touchscreen e Chromecast.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "Creazione di un Podcast",
+      "categoria_principale": "Creazione contenuti digitali",
+      "descrizione_e_metodologia": "Sviluppo script, registrazione audio, utilizzo musica Creative Commons.",
+      "target": "Studenti secondo anno"
+    },
+    {
+      "titolo_attivita": "Relazioni con operatori ASL",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri e colloqui con operatori ASL per supporto agli studenti",
+      "target": "Studenti con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CBPM040008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Statale “G. M. Galanti”** (CBPM040008) per il triennio 2022-2025 dimostra un forte impegno verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da punteggi elevati nelle diverse dimensioni analizzate. L'istituto, situato in **Campobasso**, Molise, si distingue per una rete di **partnership** consolidata e una visione orientata a supportare gli studenti nelle loro scelte formative e professionali, riducendo l'**abbandono scolastico** e promuovendo il **lifelong learning**. L'attenzione è rivolta non solo alle attitudini e agli interessi degli studenti, ma anche alla costruzione di un **progetto di vita** e alla facilitazione delle **transizioni formative**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni, con ben 21 partner nominati, tra cui il **Conservatorio “Lorenzo Perosi”**, diverse **accademie musicali**, la **Fondazione Molise Cultura**, **Unimol**, e realtà internazionali come **Educatius Academy** e **Intercultura ODV**. Questa rete di contatti rappresenta un valore aggiunto per l'offerta orientamentale, offrendo agli studenti opportunità di **PCTO** e di confronto con il mondo del lavoro e dell'università.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, la costruzione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future. Tutte queste aree ricevono un punteggio di 6, indicando un approccio olistico e completo.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a garantire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I punteggi ottenuti (5 per i primi due obiettivi, 4 per il contrasto ai NEET e 5 per il lifelong learning) suggeriscono un impegno concreto verso questi traguardi.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema volte a rafforzare l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rapporto con i **genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato inclusione-fragilità**. Anche in questo caso, i punteggi sono elevati (tra 5 e 6), evidenziando un approccio strutturato e collaborativo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. I punteggi variano (da 3 a 6), suggerendo un'area in cui si potrebbe potenziare l'aspetto laboratoriale.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali-espressive**, **ludico-ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua capacità di integrare l'orientamento in tutte le dimensioni dell'offerta formativa. La vasta rete di **partnership**, in particolare con il **Conservatorio “Lorenzo Perosi”** e le realtà del territorio, offre agli studenti opportunità concrete di **PCTO** e di scoperta del mondo del lavoro. L'attenzione all'inclusione e alla personalizzazione dei percorsi formativi rappresenta un ulteriore elemento distintivo. Le numerose attività registrate, come i **Percorsi PCTO**, i **Tirocini professionali** e le esperienze di **mobilità internazionale** (tra cui **ESABAC**, **Doppio Diploma Italo-Americano** e **NHSMUN**), testimoniano l'impegno dell'istituto nel fornire agli studenti un'ampia gamma di opportunità.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la didattica **laboratoriale**, che ottiene un punteggio inferiore rispetto alle altre dimensioni. Sebbene siano presenti attività pratiche, sarebbe auspicabile un potenziamento di questa componente, magari attraverso l'introduzione di nuovi laboratori o l'ampliamento di quelli esistenti.\n\n### 5. Gap Analysis\n\nIl divario tra l'impegno teorico e la realizzazione pratica delle attività **laboratoriali** rappresenta un'area di miglioramento. È necessario investire in risorse e competenze per garantire che gli studenti abbiano accesso a esperienze pratiche significative, in linea con le finalità dell'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Statale “G. M. Galanti”** si presenta come un documento solido e ben strutturato, che pone l'orientamento al centro del suo progetto educativo. La vasta rete di **partnership**, l'attenzione all'inclusione e la diversificazione dell'offerta formativa rappresentano punti di forza significativi. Un potenziamento della didattica **laboratoriale** potrebbe contribuire a colmare eventuali lacune e a rendere l'offerta orientamentale ancora più completa ed efficace. L'istituto dimostra una chiara volontà di preparare gli studenti ad affrontare le sfide del futuro, fornendo loro gli strumenti necessari per costruire un **progetto di vita** consapevole e soddisfacente."
+}

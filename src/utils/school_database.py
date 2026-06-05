@@ -102,6 +102,8 @@ class SchoolDatabase:
             'pec': clean_value(row.get('INDIRIZZOPECSCUOLA', '')).lower() if clean_value(row.get('INDIRIZZOPECSCUOLA', '')) else '',
             'website': clean_value(row.get('SITOWEBSCUOLA', '')).lower() if clean_value(row.get('SITOWEBSCUOLA', '')) else '',
             'anno_scolastico': clean_value(row.get('ANNOSCOLASTICO', '')),
+            'codice_istituto_riferimento': clean_value(row.get('CODICEISTITUTORIFERIMENTO', '')),
+            'denominazione_istituto_riferimento': clean_value(row.get('DENOMINAZIONEISTITUTORIFERIMENTO', ''), to_title=True),
         }
         
         # Determine Ordine/Tipo

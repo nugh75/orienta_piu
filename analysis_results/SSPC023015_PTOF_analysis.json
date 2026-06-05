@@ -1,0 +1,191 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SSPC023015",
+    "denominazione": "G.Garibaldi",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "La Maddalena",
+    "anno_ptof": "2022-2025",
+    "provincia": "Sassari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Trinita'",
+    "cap": "07024",
+    "email": "ssis02300t@istruzione.it",
+    "pec": "ND",
+    "website": "www.iisgaribaldi.it",
+    "tipo_scuola_dettaglio": "Liceo Classico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Marta",
+        "Nisida",
+        "La Quercia",
+        "biblioteca comprensoriale",
+        "enti locali",
+        "forze di polizia",
+        "polizia municipale",
+        "carabinieri",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Scuole secondarie di secondo grado",
+        "Amministrazione Comunale",
+        "Associazioni",
+        "Enti",
+        "Università",
+        "Scuole italiane e/o straniere"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti didattico-educativi con Cooperative",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Collaborazione con cooperative per progetti educativi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Supporto attività sportive con enti locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano L2",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Corsi e laboratori per studenti di cittadinanza o lingua non italiana.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Sistema di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Definizione di un sistema di orientamento per individuare interessi e attitudini.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali e mobilità studentesca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto La scuola in Valchiavenna",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Sviluppo competenze linguistiche e marketing",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo per l'Accoglienza Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Attività di accoglienza e supporto",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Attività di tutoraggio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di formatore",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SSPC023015\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo G.Garibaldi (SSPC023015) per il triennio 2022-2025. La scuola, situata a La Maddalena, in Sardegna, si configura come un istituto statale di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia rete di **partnership** attivate. L'attenzione è rivolta allo sviluppo delle **attitudini**, degli **interessi** e, in particolare, alla progettazione del **progetto di vita** degli studenti, con un focus sulle **transizioni formative** e sullo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni, che include **Marta**, **Nisida**, **La Quercia**, la **biblioteca comprensoriale**, **enti locali**, **forze di polizia** (tra cui **polizia municipale** e **carabinieri**), **servizi socio-sanitari**, **associazioni di settore** e del **terzo settore**, **imprese**, altre **Scuole secondarie di secondo grado**, l'**Amministrazione Comunale**, diverse **Associazioni**, **Enti**, **Università**, e **Scuole italiane e/o straniere**. Questa ricchezza di partner rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con un punteggio elevato per lo sviluppo del **progetto di vita** degli studenti. Buoni risultati sono stati raggiunti anche nello sviluppo di **attitudini**, **interessi** e **transizioni formative**, oltre alle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a **ridurre l'abbandono** scolastico e a garantire la **continuità territoriale** degli studenti. L'impegno nel **contrastare i NEET** è presente, sebbene con un punteggio inferiore rispetto agli altri obiettivi, mentre si pone l'accento sull'importanza del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'attenzione al **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, con un buon utilizzo di metodologie **laboratoriali**, **flessibili** in termini di spazi e tempi, e **interdisciplinari**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali ed espressive**. Le attività **ludiche, ricreative, di volontariato** e **sportive** ricevono un punteggio leggermente inferiore, suggerendo un potenziale margine di miglioramento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e nell'attenzione al **progetto di vita** degli studenti. L'impegno verso l'**inclusione** e la creazione di un **sistema integrato** per affrontare le fragilità rappresenta un elemento distintivo. Le attività registrate, come i **Progetti didattico-educativi con Cooperative**, i **Corsi di italiano L2**, il **Progetto Erasmus+** e il **Protocollo per l'Accoglienza Alunni Stranieri**, testimoniano un approccio proattivo e inclusivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il contrasto al fenomeno dei **NEET**, che necessita di un maggiore approfondimento e di azioni più mirate. Anche l'offerta di attività opzionali **ludiche, ricreative, di volontariato** e **sportive** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario tra gli obiettivi dichiarati e le azioni concrete è minimo, grazie alla presenza di un sistema di **monitoraggio** e alla forte attenzione al **coordinamento dei servizi**. Tuttavia, è necessario rafforzare le iniziative specifiche per contrastare la dispersione scolastica e il fenomeno dei **NEET**, integrando maggiormente le **attività di tutoraggio** e di **formazione docenti**.\n\n### 6. Conclusioni\n\nIl PTOF del Liceo G.Garibaldi dimostra un forte impegno verso l'orientamento, con una solida base teorica e una ricca offerta di attività. La scuola si distingue per la sua capacità di creare **partnership** significative e di integrare l'orientamento all'interno di un sistema inclusivo e attento alle esigenze di tutti gli studenti. Il continuo monitoraggio delle azioni intraprese e il potenziamento delle aree di debolezza contribuiranno a consolidare ulteriormente l'efficacia del PTOF e a garantire un futuro di successo per gli studenti."
+}

@@ -1,0 +1,356 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CZIC87200X",
+    "denominazione": "Istituto Comprensivo Di Squilla",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Squillace",
+    "anno_ptof": "2022/2025",
+    "provincia": "Catanzaro",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Damiano Assanti N. 15",
+    "cap": "88069",
+    "email": "czic87200x@istruzione.it",
+    "pec": "czic87200x@pec.istruzione.it",
+    "website": "https://www.catanzaroinforma.it/scuola-e-universita/2022/10/25/carabinieri-forestali-allic-",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "amministrazioni locali",
+        "associazioni no profit",
+        "Conservatorio Musicale Tchaikovsky",
+        "Associazione Terra di Mezzo",
+        "Associazione Focus On",
+        "Trinity",
+        "Cambridge",
+        "musei",
+        "Ufficio Scolastico per la Calabria",
+        "Ministero dell’Istruzione, dell’Università e della Ricerca",
+        "I.I.S.Majorana di Girifalco",
+        "I.C. di Girifalco",
+        "I.C. di Borgia",
+        "AID",
+        "Legambiente"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "orientamento musicale",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "attività musicali",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "competenze in Lingua inglese",
+      "categoria_principale": "ampliamento offerta formativa",
+      "descrizione_e_metodologia": "potenziamento lingua inglese",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "recupero apprendimenti",
+      "categoria_principale": "recupero",
+      "descrizione_e_metodologia": "recupero debiti formativi",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "continuità",
+      "categoria_principale": "transizioni",
+      "descrizione_e_metodologia": "attività di continuità",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di strumento musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Collaborazione con Conservatorio Tchaikovsky",
+      "target": "Alunni scuole secondarie"
+    },
+    {
+      "titolo_attivita": "Progetti di storia del territorio",
+      "categoria_principale": "Storia e Cultura",
+      "descrizione_e_metodologia": "Collaborazione con partner locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lettura e dialogo tematico",
+      "categoria_principale": "Italiano e Comunicazione",
+      "descrizione_e_metodologia": "Collaborazione con Associazione Terra di Mezzo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di programmazione",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Collaborazione con Associazione Focus On",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Somministrazione di prove strutturate per competenze",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Prove bimestrali comuni a tutte le classi con griglie di valutazione condivise.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte a distanza",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Interazione tra classi di diversi plessi tramite tecnologie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione e realizzazione di iniziative per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti in rete con altre scuole e associazioni.",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Organizzazione di corsi di formazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi interni ed esterni per docenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Concorso arte e narrazione storia del paesaggio",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Concorso per studenti scuole I e II grado su temi storia ed estetica del paesaggio",
+      "target": "Studenti scuole secondarie I e II grado"
+    },
+    {
+      "titolo_attivita": "Residenza artistica e convenzioni Festival",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Attività di ricerca artistica sul teatro fisico con professionisti e apprendisti",
+      "target": "Studenti scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetti di storia del territorio",
+      "categoria_principale": "Storia e Cultura",
+      "descrizione_e_metodologia": "Progetti in rete con altre scuole e associazioni.",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Lettura e dialogo tematico",
+      "categoria_principale": "Italiano e Comunicazione",
+      "descrizione_e_metodologia": "Collaborazione con Associazione Terra di Mezzo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di programmazione",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Collaborazione con Associazione Focus On",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Piccoli Eroi a Scuola",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Attività ludico-motoria per sviluppo attività di base nella scuola dell'infanzia.",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Frutta e verdura nelle scuole",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Programma per incrementare il consumo di prodotti ortofrutticoli e consapevolezza di sana alimentazione.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Certificazioni Trinity e Cambridge",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Fornire competenze per superare moduli certificazioni.",
+      "target": "Scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici della Bocconi e Gioiamathesis",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Esercitazioni e attività per sviluppare capacità logiche.",
+      "target": "Scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Supporto psicologico 'Voci d'insieme'",
+      "categoria_principale": "Psicologia",
+      "descrizione_e_metodologia": "Supporto psicologico ad alunni, genitori e personale.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Una valigia di emozioni",
+      "categoria_principale": "Psicologia",
+      "descrizione_e_metodologia": "Lettura animata per stimolare creatività e fantasia.",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Voci d'insieme - Sursum corda...cum musica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Tecniche ricettive, espressive e miste per sviluppo senso-percettivo e psicomotorio.",
+      "target": "Primaria (classi 1-5)"
+    },
+    {
+      "titolo_attivita": "Musicando imparo",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Orientamento alla scelta del percorso musicale per classi in uscita primaria.",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Tra percorsi paesaggi e natura",
+      "categoria_principale": "Letteratura/Ambiente",
+      "descrizione_e_metodologia": "Premio/concorso per valorizzare il rapporto tra giovani e paesaggio.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Benessere Attivo",
+      "categoria_principale": "Psicologia/Benessere",
+      "descrizione_e_metodologia": "Spazio di ascolto, accoglienza e supporto su problematiche comportamentali, emotive.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Incontri Formativi Sulla Legalita’",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Laboratori su cittadinanza, legalità, con esperti esterni.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Matematicando",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Potenziamento competenze matematiche in ultima classe Secondaria I grado.",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Un albero per il futuro",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Coinvolgimento studenti in conoscenza riserve naturali, scoperta habitat, cura piante.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "PON Edugreen",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Realizzazione orti didattici per promuovere apprendimento in campo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano Scuola 4.0",
+      "categoria_principale": "Innovazione Digitale",
+      "descrizione_e_metodologia": "Trasformazione digitale della scuola, ambienti di apprendimento innovativi.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "PDP per DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Stesura e monitoraggio PDP",
+      "target": "Alunni DSA/BES"
+    },
+    {
+      "titolo_attivita": "Progetti di accoglienza alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di mediazione culturale",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Ambienti didattici innovativi",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Realizzazione ambienti innovativi tramite bandi PON",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Coding e pensiero computazionale",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività di coding differenziate per complessità",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Biblioteche Scolastiche",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Digit@l Vivarium, software inclusivi",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CZIC87200X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Comprensivo Di Squilla** (CZIC87200X) per il triennio 2022/2025. L'istituto, situato in **Calabria** e operante su un territorio **non metropolitano**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. L'analisi rivela una solida rete di **partnership** con enti locali, associazioni e istituzioni formative, e un'attenzione particolare alle finalità di sviluppo delle attitudini, interessi, progettazione della vita, transizioni formative e capacità orientative.\n\n### 2. Analisi Dimensionale\n\nLa sezione 2.1 del PTOF conferma l'esistenza di una sezione dedicata all'orientamento. Per quanto riguarda le **partnership** (sezione 2.2), l'istituto vanta collaborazioni con ben 15 partner, tra cui **amministrazioni locali**, **associazioni no profit**, il **Conservatorio Musicale Tchaikovsky**, l'**Associazione Terra di Mezzo**, **Trinity** e **Cambridge**, oltre a diversi istituti scolastici della zona e organizzazioni come **AID** e **Legambiente**. Questo ampio ventaglio di collaborazioni suggerisce un approccio integrato all'orientamento.\n\nLe finalità dell'orientamento (sezione 2.3) sono ben definite e mirano a sviluppare le attitudini, gli interessi, la capacità di progettare la propria vita, facilitare le transizioni formative e potenziare le capacità orientative degli studenti. Gli obiettivi (sezione 2.4) si concentrano sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (NEET) e la promozione del lifelong learning.\n\nLe azioni del sistema (sezione 2.5) prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. L'approccio didattico (sezione 2.6) valorizza l'apprendimento esperienziale, l'interdisciplinarità e la flessibilità degli spazi e dei tempi. Infine, l'offerta di attività opzionali e facoltative (sezione 2.7) spazia da attività culturali e sportive a laboratori espressivi, iniziative di volontariato e attività ludico-ricreative.\n\n### 3. Punti di Forza\n\nUn punto di forza significativo è la vasta rete di **partnership** attivate dall'istituto, che permette di offrire agli studenti un'ampia gamma di opportunità di orientamento e di metterli in contatto con il mondo del lavoro e del territorio. L'attenzione alle finalità di sviluppo delle attitudini, degli interessi e della capacità di progettare la propria vita rappresenta un altro elemento positivo. L'istituto si impegna a fornire un supporto completo agli studenti, dalla scuola dell'infanzia alla scuola secondaria di primo grado, attraverso azioni mirate e un sistema integrato di inclusione. Le attività registrate, come **orientamento musicale**, **competenze in Lingua inglese**, **recupero apprendimenti** e **continuità**, dimostrano un impegno concreto nella realizzazione del PTOF.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero essere ulteriormente sviluppate. L'analisi dei punteggi rivela un margine di miglioramento per quanto riguarda gli obiettivi di contrasto alla dispersione scolastica (NEET) e la continuità territoriale. Anche la didattica laboratoriale potrebbe essere potenziata, al fine di offrire agli studenti esperienze pratiche e coinvolgenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi ambiziosi in azioni concrete e misurabili. Sebbene l'istituto abbia individuato una serie di partner e definito le finalità dell'orientamento, è importante monitorare costantemente l'efficacia delle azioni intraprese e apportare eventuali correzioni di rotta. Un'analisi più approfondita dei dati relativi all'abbandono scolastico e alla dispersione formativa potrebbe aiutare a individuare le aree di intervento prioritarie.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Comprensivo Di Squilla** presenta una solida base per lo sviluppo di un'efficace azione di orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'attenzione alle finalità di sviluppo delle attitudini e degli interessi degli studenti rappresentano elementi positivi. Per migliorare ulteriormente l'efficacia del PTOF, è necessario monitorare costantemente l'andamento delle azioni intraprese, individuare le aree di intervento prioritarie e tradurre gli obiettivi ambiziosi in risultati concreti. Attività come **Corsi di strumento musicale**, **Progetti di storia del territorio**, **Lettura e dialogo tematico**, **Corsi di programmazione**, **Certificazioni Trinity e Cambridge** e **PDP per DSA/BES** dimostrano un approccio olistico all'orientamento e all'inclusione."
+}

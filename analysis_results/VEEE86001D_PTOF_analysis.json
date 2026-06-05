@@ -1,0 +1,208 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEEE86001D",
+    "denominazione": "I.C. Daniela Furlan",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Spinea",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Buonarroti 48/A",
+    "cap": "30038",
+    "email": "veic86000b@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutocomprensivospinea1.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori",
+        "Commissione zero-sei"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Svolto in aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua Cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività plurime a distanza con l'ausilio di sistemi tecnologici",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VEEE86001D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Primario \"I. Nievo\" di Spinea (VEEE86001D), relativo agli anni scolastici 2022/2023 – 2023/2024 – 2024/2025. L'istituto, statale, situato nel territorio metropolitano della provincia di Venezia e regione Veneto, dimostra un impegno nella realizzazione di diverse attività e partnership, sebbene l'orientamento non sia esplicitamente trattato in una sezione dedicata. L'analisi si concentra sulle dimensioni chiave dell'orientamento, identificando punti di forza, aree di debolezza e possibili gap da colmare.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio nullo.\n\n**2.2 Partnership:** L'istituto vanta un buon numero di partnership (6), collaborando con enti quali **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e l'orientamento implicito.\n\n**2.3 Finalità:** Le finalità del PTOF mostrano un buon allineamento con le attitudini e gli interessi degli studenti, ottenendo un punteggio di 3 per entrambe le aree. Tuttavia, l'attenzione al **progetto di vita**, alle **transizioni formative** e allo sviluppo delle **capacità orientative** e delle **opportunità** risulta meno marcata, con un punteggio di 1 per ciascuna di queste aree.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning, tutti aspetti importanti per l'orientamento, ma con un punteggio di 1 per ciascuno.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e un sistema integrato di inclusione e fragilità. Il coordinamento dei servizi e il dialogo scuola-genitori ricevono un punteggio di 2, mentre il monitoraggio delle azioni e l'inclusione di fragilità ottengono un punteggio di 1 e 3 rispettivamente.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con punteggi compresi tra 3 e 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali include attività culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali laboratoriali ed espressive e quelle ludiche e ricreative ottengono un punteggio di 3, mentre le altre aree ricevono un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di numerose **partnership** con enti esterni, nell'attenzione alle **attitudini** e agli **interessi** degli studenti e nell'utilizzo di metodologie didattiche innovative come i **laboratori** e l'approccio interdisciplinare. L'impegno per l'**inclusione** e la valorizzazione delle fragilità rappresenta un ulteriore elemento positivo. Le attività registrate, come il **Laboratorio di Coding per l’Infanzia** e il **Laboratorio di Educazione Alimentare**, dimostrano un'offerta diversificata e orientata alla crescita degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza significativa. Inoltre, l'attenzione al **progetto di vita**, alle **transizioni formative** e allo sviluppo delle **capacità orientative** risulta limitata. Gli obiettivi di riduzione dell'abbandono scolastico e di contrasto alla dispersione scolastica, pur importanti, necessitano di essere integrati con azioni specifiche di orientamento.\n\n### 5. Gap Analysis\n\nIl principale gap riscontrato è la mancanza di una visione strategica e coordinata dell'orientamento. Sebbene siano presenti elementi di orientamento implicito nelle attività e nelle partnership, manca una pianificazione esplicita degli interventi e una definizione chiara degli obiettivi specifici. È necessario colmare questo gap attraverso la creazione di una sezione dedicata all'orientamento nel PTOF, la definizione di finalità e obiettivi specifici e la realizzazione di azioni mirate.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \"I. Nievo\" presenta un quadro complessivamente positivo, con numerosi punti di forza e un impegno nella realizzazione di attività diversificate. Tuttavia, l'assenza di una sezione dedicata all'orientamento e la limitata attenzione ad alcuni aspetti chiave rappresentano delle aree di miglioramento. Si raccomanda di integrare il PTOF con una pianificazione esplicita dell'orientamento, al fine di garantire una formazione completa e orientata al futuro per tutti gli studenti. L'implementazione di azioni specifiche, come il **Questionario di soddisfazione genitori** e il **Questionario di gradimento personale**, può contribuire a monitorare l'efficacia degli interventi e a migliorare l'offerta formativa."
+}

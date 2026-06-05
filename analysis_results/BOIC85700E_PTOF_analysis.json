@@ -1,0 +1,348 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOIC85700E",
+    "denominazione": "I.C. N.13 Bologna",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2025-2028",
+    "provincia": "Bologna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dell'Angelo Custode 1/3",
+    "cap": "40141",
+    "email": "boic85700e@istruzione.it",
+    "pec": "boic85700e@pec.istruzione.it",
+    "website": "www.ic13bo.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente analisi contesto e bisogni"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Comune di Bologna",
+        "Associazione ZetaTeatro",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "Consulenti esterni",
+        "Università",
+        "Hera",
+        "Consorzio Co-International",
+        "AUSL",
+        "servizi sociali",
+        "agenzie educative extrascolastiche",
+        "Dolce",
+        "Quadrifoglio",
+        "Associazione Italiana Dislessia – AID",
+        "Parrocchia di San Ruffillo",
+        "Associazione sportiva Pontevecchio",
+        "Centro Sociale Villa Serena",
+        "Rete DADA",
+        "Rete Outdoor Education",
+        "Rete Costruttori di Ponti Educativi",
+        "Rete Service Learning",
+        "ASABO"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Open Campus",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Attività pomeridiane artistiche, linguistiche, sportive e scientifiche",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Rete Costruttori di Ponti Educativi",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con enti del territorio",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Metodo WRW, scrittura laboratoriale, pubblicazioni studenti",
+      "target": "Studenti secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Lettura condivisa",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Lettura ad alta voce, rielaborazione, ampliamento lessico",
+      "target": "Studenti secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Laboratori teatrali",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Riconoscimento emozioni, gestione conflitti, empatia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Benessere in rete: sportello psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Sportello psicologico, interventi educativi, Protocollo antibullismo",
+      "target": "Docenti, ATA, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Guardare il mondo, conoscere sé stessi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Erasmus+ e scambi culturali",
+      "target": "Docenti, ATA, Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali inclusivi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Cucina, architettura, piscina",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La topografia delle emozioni",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Percorsi Teatrico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "DADA – Ambienti di apprendimento disciplinari",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Aule-laboratorio tematiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Erasmus+ e scambi culturali",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità, gemellaggi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Voci che costruiscono pensiero",
+      "categoria_principale": "Competenze Chiave",
+      "descrizione_e_metodologia": "Debate e argomentazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettura ad alta voce",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Lettura condivisa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rappresentanza studentesca",
+      "categoria_principale": "Partecipazione",
+      "descrizione_e_metodologia": "Elezione e formazione dei rappresentanti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello psicologico e Protocollo antibullismo",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Ascolto, prevenzione, interventi psicopedagogici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esplorare Mondi, Costruire Mappe",
+      "categoria_principale": "Riduzione dei divari",
+      "descrizione_e_metodologia": "Percorsi curricolari e co-curriculari, mentoring, laboratori pratici (cucina, OpenCampus)",
+      "target": "Studenti a rischio di dispersione scolastica"
+    },
+    {
+      "titolo_attivita": "Progetto \"Azioni e buone pratiche per la promozione dell'apprendimento e del benessere scolastico\"",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi BES, doposcuola specialistico, supporto genitori",
+      "target": "Alunni con BES e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto I.C.E (Incubatore Comunità Educante)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi di inclusione",
+      "target": "Alunni con c.i.s."
+    },
+    {
+      "titolo_attivita": "Progetto Scuole aperte",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività extrascolastiche",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Programma IL FUTURO - CODING EDUCATIVO",
+      "categoria_principale": "Tecnologie",
+      "descrizione_e_metodologia": "Coding",
+      "target": "Studenti Primaria"
+    },
+    {
+      "titolo_attivita": "GIRLS Code It Better",
+      "categoria_principale": "Tecnologie",
+      "descrizione_e_metodologia": "Coding",
+      "target": "Alunne scuola primaria"
+    },
+    {
+      "titolo_attivita": "Visite a università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate per esplorare percorsi universitari",
+      "target": "Studenti classi II e III"
+    },
+    {
+      "titolo_attivita": "Laboratori teatrali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo del teatro per l'educazione emotiva",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Ponte",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Tutoraggio tra studenti secondaria e primaria",
+      "target": "Studenti classi II e III, studenti primaria"
+    },
+    {
+      "titolo_attivita": "Percorsi regolari di outdoor education",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività artistiche, manipolative, multisensoriali, osservazione naturale, esperimenti",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratori STEM, coding, robotica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Approccio laboratoriale, compiti di realtà",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Moduli CLIL",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Percorsi con docenti madrelingua, certificazioni",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale espressivo-inclusivo",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Laboratorio con evento finale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio musicale formativo-inclusivo",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio con attività",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento al lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi e attività",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Formazione del personale DADA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Ricerca-azione, comunità di pratiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Outdoor Education",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Montessoriana",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, mobilità Erasmus",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOIC85700E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. N.13 Bologna (BOIC85700E) per il periodo 2025-2028, con particolare attenzione alla dimensione dell'orientamento. L'istituto, comprensivo e situato nel territorio metropolitano di Bologna, dimostra un impegno significativo nell'offrire un'offerta formativa ampia e diversificata, che include i gradi di infanzia, primaria, secondaria di I e II grado, oltre a percorsi tecnici. L'analisi rivela una solida base per l'orientamento, supportata da una vasta rete di **partnership** e da un'attenzione particolare alle finalità formative, con un punteggio complessivo che evidenzia un buon livello di strutturazione e implementazione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, con un'analisi del contesto e dei bisogni ben definita, come evidenziato dal punteggio di 3.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di collaborazioni con numerosi soggetti esterni, tra cui il **Comune di Bologna**, l'**Associazione ZetaTeatro**, i **servizi socio-sanitari**, le **associazioni di settore**, gli **enti locali**, il **terzo settore**, le **comunità di origine**, **Consulenti esterni**, l'**Università**, **Hera**, il **Consorzio Co-International**, l'**AUSL**, i **servizi sociali**, le **agenzie educative extrascolastiche**, **Dolce**, **Quadrifoglio**, l'**Associazione Italiana Dislessia – AID**, la **Parrocchia di San Ruffillo**, l'**Associazione sportiva Pontevecchio**, il **Centro Sociale Villa Serena**, la **Rete DADA**, la **Rete Outdoor Education**, la **Rete Costruttori di Ponti Educativi**, la **Rete Service Learning** e **ASABO**. Con un punteggio di 6 e un totale di 24 partner, la scuola dimostra una forte capacità di creare sinergie con il territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e il supporto alle **transizioni formative**, oltre a fornire agli studenti le **capacità orientative** per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico** (punteggio 4), sulla continuità con il **territorio** (punteggio 5), sul contrasto al fenomeno **NEET** (punteggio 3) e sulla promozione del **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 5), il rafforzamento del **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** (punteggio 3) e la creazione di un **sistema integrato di inclusione e fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 5), sull'utilizzo di **laboratori** (punteggio 6), sulla **flessibilità degli spazi e dei tempi** (punteggio 5) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzionali **culturali** (punteggio 5), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 4) e **sportive** (punteggio 4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e degli **obiettivi** dell'orientamento, e nell'approccio didattico innovativo che valorizza l'esperienza diretta degli studenti e l'utilizzo di **laboratori**. L'impegno per l'inclusione e il benessere degli studenti è ulteriormente rafforzato da iniziative come lo **sportello psicologico** e il **protocollo antibullismo**. Attività come **Open Campus**, **Rete Costruttori di Ponti Educativi** e **Debate** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il **monitoraggio delle azioni** (punteggio 3), che necessita di un rafforzamento per garantire l'efficacia degli interventi. Anche l'obiettivo di contrastare il fenomeno **NEET** (punteggio 3) potrebbe beneficiare di una maggiore attenzione e di strategie più mirate.\n\n### 5. Gap Analysis\n\nIl gap tra le finalità ambiziose del PTOF e la necessità di un monitoraggio più efficace delle azioni implementate rappresenta un'area di miglioramento cruciale. È necessario definire indicatori chiari e strumenti di valutazione per misurare l'impatto delle iniziative di orientamento e apportare eventuali correzioni in itinere.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. N.13 Bologna dimostra un forte impegno verso l'orientamento e la crescita degli studenti. La solida rete di **partnership**, le chiare **finalità** e l'approccio didattico innovativo costituiscono una base solida per il successo delle iniziative intraprese. Concentrando gli sforzi sul rafforzamento del **monitoraggio** e sull'approfondimento delle strategie per contrastare il fenomeno **NEET**, l'istituto potrà massimizzare l'efficacia del proprio PTOF e offrire agli studenti un percorso formativo completo e orientato al futuro. Attività come **Erasmus+**, **laboratori STEM**, **moduli CLIL** e i percorsi di **outdoor education** contribuiscono a creare un ambiente di apprendimento stimolante e inclusivo."
+}

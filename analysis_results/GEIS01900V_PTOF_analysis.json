@@ -1,0 +1,381 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "GEIS01900V",
+    "denominazione": "Iiss Amadeo Peter Giannini",
+    "tipo_scuola": "Tecnico, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Chiavari",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Millo 1",
+    "cap": "16043",
+    "email": "geis01900v@istruzione.it",
+    "pec": "geis01900v@pec.istruzione.it",
+    "website": "www.itpchiavari.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'offerta formativa"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune",
+        "Regione",
+        "Università di Bari",
+        "Politecnico di Bari",
+        "associazioni culturali",
+        "imprese locali",
+        "Istat",
+        "SIS",
+        "AICA",
+        "COMAU",
+        "University of Cambridge International examinations",
+        "APULIA DIGITAL MAKER",
+        "Università degli Studi",
+        "Banche",
+        "Fondazioni",
+        "Aziende private",
+        "Altre scuole",
+        "Enti di formazione accreditati",
+        "Soggetti privati",
+        "Autonomie locali",
+        "Enti di ricerca",
+        "Altre associazioni/cooperative"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Olimpiadi di Matematica e Statistica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Gare di soluzione problemi, analisi dati, probabilità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica (OII/OIS)",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Competizioni di programmazione in vari linguaggi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica e Campionati Scienze Naturali",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni scientifiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recupero/Potenziamento area scientifico-tecnologica",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Attività in orario antimeridiano/pomeridiano.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni AICA ICDL/ECDL, CISCO, AUTOCAD",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi extracurricolari per certificazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura Biomedica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Approfondimenti di fisica biomedicale in laboratorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura Coding",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Realizzazione App Android.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Partecipazione a Olimpiadi di Matematica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Lauree Scientifiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimento statistica con Dipartimento Scienze Statistiche e ISTAT",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Psicologi nelle Scuole",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Supporto allo studio, potenziamento autostima, didattica innovativa.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite universitarie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite presso le università",
+      "target": "Studenti degli ultimi anni"
+    },
+    {
+      "titolo_attivita": "StandByMe 2.0",
+      "categoria_principale": "Prevenzione Violenza Genere",
+      "descrizione_e_metodologia": "Sensibilizzazione, educazione, dialogo su violenza di genere online.",
+      "target": "Studenti secondaria di secondo grado"
+    },
+    {
+      "titolo_attivita": "Sci…Amo. Un mare di neve.",
+      "categoria_principale": "Sportivo-Ambientale",
+      "descrizione_e_metodologia": "Campo scuola sci alpino.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fer.Menti culturali",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Riflessione e formazione di una coscienza critica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso “IL PATENTINO DELLA ROBOTICA COMAU\"",
+      "categoria_principale": "STEM/Robotica",
+      "descrizione_e_metodologia": "Approccio innovativo alle discipline STEM, competenze digitali per il mondo del lavoro.",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Corso “MECCATRONICA CON ARDUINO\"",
+      "categoria_principale": "STEM/Meccatronica",
+      "descrizione_e_metodologia": "Formazione sulle applicazioni della meccatronica, robotica e programmazione.",
+      "target": "Studenti del triennio del corso di Meccatronica"
+    },
+    {
+      "titolo_attivita": "Corso “NDG LINUX ESSENTIALS\"",
+      "categoria_principale": "Informatica/Sistemi Operativi",
+      "descrizione_e_metodologia": "Competenze base per lavorare in ambito Open Source su Linux.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “PYTHON ESSENTIALS\"",
+      "categoria_principale": "Informatica/Programmazione",
+      "descrizione_e_metodologia": "Conseguimento della Certificazione Python Institute PCEP.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “ARTIFICIAL INTELLIGENCE\"",
+      "categoria_principale": "Informatica/Intelligenza Artificiale",
+      "descrizione_e_metodologia": "Acquisizione competenze base sull'intelligenza artificiale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “AUTOCAD 2D\"",
+      "categoria_principale": "Informatica/CAD",
+      "descrizione_e_metodologia": "Conseguimento della Certificazione Aica Ecdl Cad 2D.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “DIGITAL LITERACY\"",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Certificazione internazionale dell'alfabetizzazione digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “L’ARIA CHE TIRA\"",
+      "categoria_principale": "Scienze/Ambiente",
+      "descrizione_e_metodologia": "Competenze sui metodi di indagine del biomonitoraggio ambientale con tecnologie digitali.",
+      "target": "Classi II, III, IV"
+    },
+    {
+      "titolo_attivita": "Corso “SCOPRIAMO I MATERIALI\"",
+      "categoria_principale": "Scienze/Materiali",
+      "descrizione_e_metodologia": "Sperimentazione diretta in laboratorio, interdisciplinarità e innovazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “MOBILITA’ SOSTENIBILE PER LA SMART CITY\"",
+      "categoria_principale": "Tecnologia/Sostenibilità",
+      "descrizione_e_metodologia": "Realizzazione di una stazione di ricarica per veicoli elettrici da fonti rinnovabili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi rischi territorio",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Osservazione e analisi dati forniti da soggetti istituzionali.",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura English Plus",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Ora aggiuntiva settimanale di inglese nel biennio per raggiungere il livello B1 al secondo anno.",
+      "target": "Studenti del biennio"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus+ VET Mobility 4.0",
+      "categoria_principale": "Mobilità Internazionale",
+      "descrizione_e_metodologia": "Formazione e tirocini in Europa per studenti e personale scolastico.",
+      "target": "Studenti classi terze e quarte (Elettronica, Meccanica)"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura - La scuola va a teatro",
+      "categoria_principale": "Educazione Culturale",
+      "descrizione_e_metodologia": "Distribuzione libri, confronto, recensione, booktrailer, spettacoli teatrali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori innovativi per la transizione digitale",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Realizzazione laboratori progettazione 3D/VR e reti/cybersecurity.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "STEM by STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Creazione laboratorio polifunzionale STEM con robotica e coding.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Monitorare dati metereologici",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Raccolta dati, grafici riassuntivi, stazione meteo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Energie in cambiamento",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Attività per la transizione ecologica e culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione illuminazione esterna con lampade LED",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Installazione lampade LED e modulo fotovoltaico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stazione di ricarica veicoli elettrici",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Installazione colonnina di ricarica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Profilo digitale docente",
+      "categoria_principale": "PNSD - Strumenti",
+      "descrizione_e_metodologia": "Creazione credenziali e casella email",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Profilo digitale alunno",
+      "categoria_principale": "PNSD - Strumenti",
+      "descrizione_e_metodologia": "Creazione credenziali e casella email",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione AICA ARTIFICIAL INTELLIGENCE",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Percorso formativo finalizzato al superamento dell'esame di certificazione AICA.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione AICA INFORMATION LITERACY",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Percorso formativo finalizzato al superamento dell'esame di certificazione AICA.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione NDG LINUX ESSENTIALS",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Percorso formativo finalizzato al superamento dell'esame di certificazione NDG.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIS01900V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) dell'Iiss Amadeo Peter Giannini (GEIS01900V), relativo al periodo 2022-2025, dimostra un forte impegno nell'ambito dell'orientamento. L'istituto, situato a Chiavari, in Liguria, si propone di offrire un percorso formativo completo, che tenga conto delle attitudini, degli interessi e del progetto di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità orientative necessarie per affrontare le opportunità del mondo del lavoro. L'attenzione è rivolta anche alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Offerta Formativa e Orientamento:** Il PTOF dedica una sezione specifica all'offerta formativa, evidenziando un punteggio massimo di 5.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, comprendendo **Comune**, **Regione**, **Università di Bari**, **Politecnico di Bari**, diverse **associazioni culturali**, **imprese locali**, **Istat**, **SIS**, **AICA**, **COMAU**, **University of Cambridge International examinations**, **APULIA DIGITAL MAKER**, **Università degli Studi**, **Banche**, **Fondazioni**, **Aziende private**, **Altre scuole**, **Enti di formazione accreditati**, **Soggetti privati**, **Autonomie locali**, **Enti di ricerca** e altre **associazioni/cooperative**. Questo elevato numero di collaborazioni (22 partner) suggerisce un forte radicamento del territorio e una volontà di offrire agli studenti opportunità concrete di confronto con il mondo esterno.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative per cogliere le opportunità. Ogni aspetto riceve un punteggio massimo di 5, indicando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno NEET e a promuovere il lifelong learning. I primi tre obiettivi ottengono un punteggio di 5, mentre gli ultimi due raggiungono un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità. Il coordinamento dei servizi e il monitoraggio delle azioni ottengono un punteggio di 4, mentre le restanti azioni raggiungono un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Quest'ultima dimensione riceve il punteggio più alto (6), mentre le altre ottengono un punteggio di 5.\n\n**2.7 Offerta di Attività Opzionali e Facoltative:** L'offerta include opzionali culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali culturali e di volontariato ottengono un punteggio di 4, mentre quelle laboratoriali ed espressive raggiungono un punteggio di 5. Le opzionali ludiche e ricreative e sportive ottengono un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl PTOF si distingue per la sua attenzione all'orientamento, supportata da una vasta rete di **partnership** e da una definizione chiara delle **finalità** e degli **obiettivi**. La didattica orientativa, basata sull'esperienza e sull'interdisciplinarità, rappresenta un punto di forza significativo. L'ampia gamma di attività proposte, come **Olimpiadi di Matematica e Statistica**, **Olimpiadi di Informatica**, **Giochi della Chimica**, **Certificazioni AICA**, **Progetto Curvatura Biomedica** e **Progetto Curvatura Coding**, testimonia l'impegno dell'istituto nell'offrire agli studenti opportunità di potenziamento e di sviluppo delle proprie competenze.\n\n### 4. Aree di Debolezza\n\nLe aree di miglioramento riguardano principalmente gli obiettivi di contrasto al fenomeno NEET e di promozione del lifelong learning, che ottengono un punteggio leggermente inferiore rispetto agli altri. Anche le azioni di coordinamento dei servizi e di monitoraggio delle azioni potrebbero essere ulteriormente potenziate. L'offerta di opzionali ludiche, ricreative e sportive appare meno sviluppata rispetto alle altre aree.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra gli obiettivi dichiarati e la loro effettiva implementazione. Un monitoraggio più accurato delle azioni e una maggiore attenzione alle esigenze degli studenti potrebbero contribuire a migliorare i risultati in termini di contrasto alla dispersione NEET e di promozione del lifelong learning.\n\n### 6. Conclusioni\n\nIl PTOF dell'Iiss Amadeo Peter Giannini si presenta come un documento ben strutturato e coerente, che pone l'orientamento al centro del proprio progetto educativo. La vasta rete di **partnership**, la chiarezza delle **finalità** e degli **obiettivi**, la didattica orientativa innovativa e l'ampia offerta di attività rappresentano i punti di forza del piano. Pur riconoscendo alcune aree di miglioramento, si può affermare che l'istituto è ben posizionato per affrontare le sfide del futuro e per offrire agli studenti un percorso formativo di qualità. L'implementazione di progetti come **StandByMe 2.0**, **Progetto Erasmus+ VET Mobility 4.0** e le numerose attività legate alla **transizione ecologica** dimostrano un'attenzione ai temi emergenti e alle esigenze del territorio."
+}

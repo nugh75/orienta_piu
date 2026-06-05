@@ -1,0 +1,222 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIIC8DU005",
+    "denominazione": "Ic R. Pezzani",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Martinengo 34/6",
+    "cap": "20139",
+    "email": "miic8du005@istruzione.it",
+    "pec": "miic8du005@pec.istruzione.it",
+    "website": "www.icpezzani.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma solo riferimenti sparsi all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "La Strada",
+        "Animondo",
+        "Fabula",
+        "Laureus",
+        "Crinali",
+        "Martinengo",
+        "ForMattArt",
+        "Fondazione De Agostini",
+        "Comune di Milano",
+        "ANFFAS Milano",
+        "ANGSA Lombardia",
+        "Centro Diurno (Autismo) del Polo Ospedaliero San Paolo di Milano",
+        "RBS",
+        "Medici in Famiglia",
+        "ANPI",
+        "Legambiente",
+        "Talent Garden",
+        "Rete di ambito",
+        "Rete di scopo"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti integrazione alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività laboratoriali per inclusione studenti con disabilità",
+      "target": "Alunni stranieri, alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Progetti successo formativo",
+      "categoria_principale": "Apprendimento",
+      "descrizione_e_metodologia": "Attività laboratoriali per ampliare offerta formativa",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Compiti@casa",
+      "categoria_principale": "Sostegno scolastico",
+      "descrizione_e_metodologia": "Sostegno pomeridiano con tutor universitari per alunni con difficoltà.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "School Hub",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Presidio psico-socio-educativo con attività integrative e potenziamento.",
+      "target": "Alunni scuola primaria e secondaria e famiglie"
+    },
+    {
+      "titolo_attivita": "Pezzani@ambiente",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Settimana ambientale con percorsi di cittadinanza attiva e iniziative locali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Differente, non da meno",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto pilota per l'inclusione di alunni con disturbi dello spettro autistico e orientamento verso scuole superiori.",
+      "target": "Alunni con disturbi dello spettro autistico"
+    },
+    {
+      "titolo_attivita": "Biblioteche in rete",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Biblioteche scolastiche informatizzate e legate alla rete RBS.",
+      "target": "Personale, genitori, alunni"
+    },
+    {
+      "titolo_attivita": "Coding per tutti",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Percorsi curricolari di coding in tutte le classi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Formazione coding",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Introduzione alle applicazioni di G-SUITE: Drive, Classroom, Calendar, Email. Workshop",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto BAC",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Corsi di recupero e potenziamento",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Laboratori tecnico-artistici e sportivi",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Judo, basket, murales, ciclofficina, falegnameria, coding",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Screening specialisti Medici in Famiglia",
+      "categoria_principale": "Prevenzione/Salute",
+      "descrizione_e_metodologia": "Screening classi prime",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Progetto GEMMA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contrasto alla dispersione",
+      "target": "Alunni a rischio"
+    },
+    {
+      "titolo_attivita": "Stage di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite ad aziende",
+      "target": "Alunni classi terze"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIIC8DU005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo R. Pezzani (MIIC8DU005) per il periodo 2022-2025. L'istituto, situato nel territorio metropolitano di Milano, opera su diversi ordini di grado: Infanzia, Primaria, Secondaria di Primo e Secondo grado, e Professionale. L'analisi rivela un impegno diffuso verso l'orientamento, sebbene non formalizzato in una sezione dedicata, ma piuttosto integrato in diverse azioni e progetti. La scuola dimostra una forte attenzione all'inclusione, all'ampliamento dell'offerta formativa e alla collaborazione con una vasta rete di partner esterni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:**\n\nIl PTOF non presenta una sezione specificamente dedicata all'orientamento, limitandosi a riferimenti sparsi all'interno del documento. Questo rappresenta un primo elemento da considerare per un possibile miglioramento.\n\n**2.2 Partnership:**\n\nL'istituto vanta un'ampia rete di partnership, con ben 19 collaborazioni attive. Tra i partner figurano enti come **La Strada**, **Animondo**, **Fabula**, **Laureus**, **Crinali**, **Martinengo**, **ForMattArt**, **Fondazione De Agostini**, il **Comune di Milano**, **ANFFAS Milano**, **ANGSA Lombardia**, il **Centro Diurno (Autismo) del Polo Ospedaliero San Paolo di Milano**, **RBS**, **Medici in Famiglia**, **ANPI**, **Legambiente**, **Talent Garden**, la **Rete di ambito** e la **Rete di scopo**. Questa ricchezza di collaborazioni rappresenta un importante punto di forza per l'implementazione di attività di orientamento e supporto agli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento, pur presenti, mostrano punteggi variabili. L'attenzione alle **attitudini** e agli **interessi** degli studenti è considerata significativa (punteggio 4), mentre la progettazione per il **progetto di vita** risulta meno sviluppata (punteggio 2). Buona l'attenzione alle **transizioni formative** e alla capacità di orientarsi nelle **opportunità** (punteggio 4).\n\n**2.4 Obiettivi:**\n\nGli obiettivi delineati nel PTOF evidenziano un impegno nella riduzione dell'**abbandono scolastico** e nel mantenimento della continuità territoriale (punteggio 4). L'attenzione al contrasto del fenomeno **NEET** è meno marcata (punteggio 1), così come lo sviluppo del **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento sono considerate efficaci in termini di **coordinamento dei servizi**, **dialogo tra docenti e studenti**, e **rapporto scuola-genitori** (punteggio 4). Il **monitoraggio delle azioni** risulta meno strutturato (punteggio 3), mentre l'integrazione tra **inclusione** e attenzione alle **fragilità** è ben definita (punteggio 4).\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci esperienziali, **laboratoriali**, flessibilità degli spazi e dei tempi, e **interdisciplinarità** (punteggi tra 3 e 4).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive** (punteggi tra 3 e 4).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** attivate, l'attenzione all'**inclusione** e all'ampliamento dell'offerta formativa, e l'impegno nel **coordinamento dei servizi** e nel **dialogo** con studenti e famiglie. L'attività \"**Differente, non da meno**\" rappresenta un esempio concreto di attenzione all'orientamento per studenti con disturbi dello spettro autistico.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, la progettazione per il **progetto di vita** degli studenti e il contrasto al fenomeno **NEET** necessitano di maggiore attenzione. Il **monitoraggio delle azioni** di orientamento potrebbe essere potenziato per garantire una valutazione efficace dei risultati.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduce in un approccio frammentato e nella difficoltà di misurare l'impatto delle diverse iniziative. È necessario definire obiettivi specifici e indicatori di performance per valutare l'efficacia delle azioni intraprese.\n\n### 6. Conclusioni\n\nIl PTOF dell'IC R. Pezzani dimostra un impegno significativo verso l'orientamento, sebbene questo non sia esplicitamente formalizzato in una sezione dedicata. La ricchezza di **partnership** e l'attenzione all'**inclusione** rappresentano importanti punti di forza. Per migliorare l'efficacia delle azioni di orientamento, si raccomanda di definire una sezione specifica nel PTOF, di rafforzare la progettazione per il **progetto di vita** degli studenti, di potenziare il **monitoraggio delle azioni** e di definire obiettivi e indicatori di performance chiari e misurabili. Attività come \"**Progetto GEMMA**\" e gli \"**Stage di orientamento**\" sono esempi positivi di iniziative concrete che contribuiscono a orientare gli studenti verso il futuro."
+}

@@ -1,0 +1,177 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SSEE82010P",
+    "denominazione": "Bono",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Bultei",
+    "anno_ptof": "2019-2022",
+    "provincia": "Sassari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Stazione Bultei",
+    "cap": "07010",
+    "email": "ssic820006@istruzione.it",
+    "pec": "scuolestimate@pec.it",
+    "website": "www.ics-bono.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento non ha una sezione dedicata. È menzionato implicitamente nella descrizione degli obiettivi formativi e delle attività proposte."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Amministrazione Provinciale",
+        "Enti",
+        "Associazioni",
+        "Teatri",
+        "Musei"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "stimoli continui all’autostima, all’intelligenza emotiva",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "conoscere il territorio e per “toccare” la storia e la natura",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "visione cristiana della vita e del mondo",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 1
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 2
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visita a un Museo",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita guidata a un museo locale per conoscere il patrimonio artistico e culturale.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Esplorazione delle opere d'arte e della storia del museo.",
+      "5w_dove": "Museo locale",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Ampliare le conoscenze culturali e artistiche degli alunni.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "la visita ad un Museo",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Partecipazione a Mostre d'arte",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita a mostre d'arte organizzate dal Comune.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Osservazione e analisi delle opere esposte.",
+      "5w_dove": "Mostre d'arte comunali",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppare il senso estetico e la capacità critica.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "la partecipazione alle Mostre d’arte",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Evento sportivo",
+      "categoria_principale": "Attività Sportiva",
+      "descrizione_e_metodologia": "Partecipazione a un evento sportivo importante.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Pratica di attività sportiva e spirito di squadra.",
+      "5w_dove": "Impianti sportivi locali",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Promuovere uno stile di vita sano e l'amore per lo sport.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "un evento sportivo importante",
+      "evidence_location": "Pagina 2"
+    }
+  ],
+  "narrative": "## Analisi del PTOF SSEE82010P\n\n### 1. Sintesi Generale\nIl PTOF della Scuola Primaria Alle Stimate presenta un approccio all'orientamento che risulta essere implicito e integrato nelle attività didattiche e nei progetti educativi. Non è presente una sezione specificamente dedicata all'orientamento, tuttavia l'attenzione allo sviluppo dell'autostima, dell'intelligenza emotiva e alla stimolazione della curiosità verso l'ambiente esterno costituisce un punto di partenza per un orientamento in itinere. Il documento evidenzia una collaborazione con diverse realtà locali, ma non definisce in modo esplicito azioni orientative strutturate o un sistema di monitoraggio dedicato.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nNon è presente una sezione dedicata all'orientamento. L'orientamento è integrato in altre sezioni, come la descrizione degli obiettivi formativi e delle attività proposte. Questo approccio può favorire un'integrazione naturale dell'orientamento nella vita scolastica.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con l'Amministrazione Comunale, l'Amministrazione Provinciale, Enti, Associazioni, Teatri e Musei. Queste partnership offrono agli alunni opportunità di arricchimento culturale e di contatto con il territorio.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità formative sono orientate allo sviluppo dell'autostima, dell'intelligenza emotiva e alla curiosità verso il mondo esterno. È presente un riferimento alla visione cristiana della vita, che rappresenta un elemento identitario della scuola. Non si riscontra una definizione precisa delle finalità specifiche dell'orientamento, quali la consapevolezza delle proprie attitudini e interessi o la preparazione alle transizioni formative.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di sistema per l'orientamento sono limitate. Si evidenzia un rapporto con le famiglie, ma manca un coordinamento specifico tra i diversi servizi e attori coinvolti.\n\n#### 2.5 Didattica Orientativa\nLa didattica è orientata all'esperienza e alla scoperta del territorio. Le attività laboratoriali e le uscite didattiche offrono agli alunni opportunità di apprendimento attivo e di contatto con la realtà. Non è presente una strutturazione specifica delle metodologie didattiche orientative.\n\n#### 2.6 Opportunità Formative\nSono previste attività culturali, laboratoriali e sportive. Queste attività offrono agli alunni opportunità di arricchimento personale e di sviluppo delle proprie passioni.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Visita a un Museo\nLa visita a un museo è un'attività didattica rivolta a tutte le classi della scuola primaria. Gli alunni hanno l'opportunità di esplorare le opere d'arte e la storia del museo, ampliando le proprie conoscenze culturali. L'attività si svolge durante l'anno scolastico e ha una durata non specificata.\n\n#### 2.7.2 Partecipazione a Mostre d'arte\nLa partecipazione a mostre d'arte organizzate dal Comune offre agli alunni l'opportunità di osservare e analizzare le opere esposte, sviluppando il proprio senso estetico e la propria capacità critica. L'attività si svolge durante l'anno scolastico e ha una durata non specificata.\n\n#### 2.7.3 Evento sportivo\nLa partecipazione a un evento sportivo importante promuove uno stile di vita sano e l'amore per lo sport. Gli alunni hanno l'opportunità di praticare attività fisica e di sviluppare lo spirito di squadra. L'attività si svolge durante l'anno scolastico e ha una durata non specificata.\n\n### 3. Punti di Forza\nL'apertura al territorio e la collaborazione con diverse realtà locali, unitamente all'attenzione allo sviluppo dell'autostima e dell'intelligenza emotiva, rappresentano gli aspetti positivi del PTOF.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento e la mancanza di una strutturazione specifica delle azioni orientative costituiscono le principali aree di miglioramento.\n\n### 5. Gap Analysis\nÈ necessario definire finalità e obiettivi specifici per l'orientamento, strutturare azioni orientative mirate e monitorare i risultati ottenuti. Si evidenzia inoltre la necessità di approfondire l'analisi delle strategie di inclusione e di come queste si integrino con le attività orientative.\n\n### 6. Conclusioni\nIl PTOF della Scuola Primaria Alle Stimate presenta un approccio all'orientamento implicito e diffuso. È necessario rafforzare la strutturazione delle azioni orientative e il loro monitoraggio per garantire una preparazione adeguata degli alunni alle transizioni formative."
+}

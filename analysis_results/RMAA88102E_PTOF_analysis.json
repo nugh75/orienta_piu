@@ -1,0 +1,251 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMAA88102E",
+    "denominazione": "I.C. \"Guido Pitocco",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Castelnuovo Di Porto",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazzale Delle Terrazze N. 9-15",
+    "cap": "00060",
+    "email": "rmic88100l@istruzione.it",
+    "pec": "ND",
+    "website": "www.icgpitocco.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Non è presente una sezione dedicata all'orientamento, bensì attività che la riguardano."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage in aziende del territorio",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodi di stage in aziende locali per esperienza pratica",
+      "target": "Studenti Biennio e Triennio"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Studenti intervistano figure storiche simulate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Contesti professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Supporti cartacei e software CAD",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Situazioni normative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti digitali",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Supporto attività di sostegno con strumenti digitali.",
+      "target": "Studenti con BES, DSA"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'Avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD/CAM, scanner 3D.",
+      "target": "Classi quarta e quinta"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento per diplomati",
+      "categoria_principale": "Formazione continua",
+      "descrizione_e_metodologia": "Corsi post-diploma su nuove tecnologie.",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze estive.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri scuola-tutor-famiglie per monitoraggio PCTO.",
+      "target": "Studenti PCTO"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMAA88102E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia - Le Terrazze** (RMAA88102E) per il triennio 2023/24-2024/25-2025/26. L'istituto, situato nel territorio metropolitano di **Castelnuovo Di Porto** (Roma, Lazio), è una scuola statale di ordine **Infanzia**. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento, le partnership, gli obiettivi, le azioni intraprese e le attività proposte. Sebbene non sia presente una sezione specificamente denominata \"orientamento\", il PTOF include diverse attività che rientrano in quest'area, ottenendo un punteggio complessivo moderato.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione dedicata specificamente all'orientamento, ma piuttosto integra attività orientative all'interno di altre aree del piano.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di partnership con il territorio, collaborando con **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato**, **ISRAT**, e diverse **aziende accreditate** e di settore. Questo aspetto è particolarmente positivo, con un punteggio di 5 su 5, evidenziando un'attenzione alla connessione tra scuola e mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 4, indicando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono** scolastico, garantire la continuità con il **territorio**, contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning**. L'obiettivo di ridurre l'abbandono scolastico ha ottenuto un punteggio di 3, mentre gli altri tre hanno raggiunto un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il coordinamento con i servizi territoriali, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. Il coordinamento dei servizi e il rapporto scuola-genitori hanno ottenuto un punteggio di 3, mentre il dialogo tra docenti e studenti e il sistema integrato di inclusione hanno raggiunto un punteggio di 4. Il monitoraggio delle azioni risulta essere l'area meno sviluppata, con un punteggio di 2.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. L'apprendimento dall'esperienza e la didattica laboratoriale hanno ottenuto un punteggio di 5, mentre la flessibilità degli spazi e dei tempi ha un punteggio di 3 e l'approccio interdisciplinare di 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali culturali e di volontariato hanno ottenuto un punteggio di 3, mentre quelle laboratoriali ed espressive un punteggio di 4. Le opzionali ludiche e ricreative e sportive risultano meno sviluppate, con un punteggio di 2.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono rappresentati dalla forte attenzione alle partnership con il territorio, dalla definizione chiara delle finalità e degli obiettivi, e dall'utilizzo di metodologie didattiche innovative come l'apprendimento dall'esperienza e la didattica laboratoriale. L'impegno nell'inclusione e nel supporto agli studenti con BES, DSA e fragilità è un ulteriore elemento positivo. Attività come **Stage in aziende del territorio** e **PCTO presso Archivio di Stato e ISRAT** offrono opportunità concrete di orientamento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata specificamente all'orientamento e il punteggio relativamente basso del monitoraggio delle azioni rappresentano le principali aree di debolezza. Anche le attività opzionali ludiche e ricreative e sportive sembrano meno sviluppate rispetto alle altre.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare meglio l'offerta orientativa, definendo una sezione specifica all'interno del PTOF e implementando un sistema di monitoraggio più efficace. Sarebbe opportuno potenziare le attività opzionali ludiche e ricreative e sportive, ampliando l'offerta formativa e rispondendo alle diverse esigenze degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia - Le Terrazze** dimostra un impegno significativo nell'orientamento, sebbene con alcune aree di miglioramento. La scuola si distingue per la sua capacità di creare partnership con il territorio e di utilizzare metodologie didattiche innovative. Un maggiore focus sulla strutturazione dell'offerta orientativa e sul monitoraggio delle azioni potrebbe contribuire a rafforzare l'efficacia del PTOF e a garantire un supporto adeguato agli studenti nella loro crescita personale e professionale. Attività come **Creazione audiolibri**, **Mappe Mentali** e il **Servizio di Sostegno Educativo** dimostrano un approccio inclusivo e attento alle esigenze di tutti gli studenti."
+}

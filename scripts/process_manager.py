@@ -97,6 +97,11 @@ def start_workflow_process(params=None):
             # Shared config
             if params.get("ollama_url"):
                 cmd.append(f"OLLAMA_URL={params['ollama_url']}")
+            # Validation config
+            if params.get("validation_provider"):
+                cmd.append(f"VALIDATION_PROVIDER={params['validation_provider']}")
+            if params.get("validation_model"):
+                cmd.append(f"VALIDATION_MODEL={params['validation_model']}")
             # Per-role provider+model
             if params.get("analyst_provider"):
                 cmd.append(f"PROVIDER_ANALYST={params['analyst_provider']}")

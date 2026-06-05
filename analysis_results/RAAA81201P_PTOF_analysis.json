@@ -1,0 +1,232 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RAAA81201P",
+    "denominazione": "I.C. Corso Matteotti Alfonsine",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Alfonsine",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ravenna",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via A.Costa 2",
+    "cap": "48011",
+    "email": "raic81200t@istruzione.it",
+    "pec": "ND",
+    "website": "www.icalfonsine.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC",
+        "Comunità di San Patrignano"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Offerta di potenziamento linguistico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Offerta di potenziamento sportivo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita a capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio per accoglienza studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Seconda anno"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Terza anno"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Quarta anno"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperti",
+      "target": "Quinta anno"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Presentazione dell'offerta formativa",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RAAA81201P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia “Il Bruco” (RAAA81201P), relativa al triennio 2019/20-2021/22. L'istituto, situato nel territorio non metropolitano di Alfonsine, in provincia di Ravenna e regione Emilia Romagna, è una scuola statale che dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo elevato nelle diverse dimensioni analizzate. L'impegno si manifesta attraverso partnership consolidate con **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto**, l'**Associazione ABC** e la **Comunità di San Patrignano**, e si concretizza in una varietà di attività mirate a sviluppare attitudini, interessi, progetti di vita, capacità orientative e a facilitare le transizioni formative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con quattro collaborazioni attive che arricchiscono l'offerta orientativa e offrono agli studenti opportunità di confronto con il mondo esterno.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la costruzione di un progetto di vita, il supporto alle transizioni formative e il potenziamento delle capacità orientative per affrontare le opportunità future. Tutte queste aree ricevono un punteggio elevato, indicando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica e la promozione del lifelong learning. Anche in questo caso, i punteggi ottenuti suggeriscono un impegno concreto nel perseguire tali obiettivi.\n\n**2.5 Azioni di Sistema:** L'istituto implementa un sistema integrato di azioni che coinvolgono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle attività e l'attenzione all'inclusione e alla fragilità. Queste azioni, tutte valutate positivamente, contribuiscono a creare un ambiente scolastico favorevole all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, sull'interdisciplinarità e, in misura minore, sull'utilizzo di laboratori. L'approccio pratico e coinvolgente sembra essere un elemento distintivo dell'offerta formativa.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, offrendo agli studenti la possibilità di esplorare i propri interessi e talenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella solida rete di partnership, nella chiarezza delle finalità e degli obiettivi, nell'implementazione di un sistema integrato di azioni e nella varietà dell'offerta didattica e delle attività opzionali. Le attività registrate, come **Potenziamento linguistico**, **Potenziamento sportivo**, **Stage sportivo sulla neve**, **Stage di vela**, **Escursionismo alpino**, **Stage in Inghilterra**, **Viaggio d'istruzione**, **Ritiro di accoglienza**, **Educazione alimentare**, **La tossicodipendenza**, **Primo soccorso**, **Orientamento post-liceo**, **Open day**, **Stage orientativi**, **PCTO**, **Formazione didattica inclusiva**, **Formazione utilizzo strumenti multimediali** e **Formazione sicurezza**, dimostrano un impegno concreto nel fornire agli studenti un supporto completo e personalizzato.\n\n### 4. Aree di Debolezza\n\nL'analisi dei dati rivela una minore attenzione alla didattica laboratoriale, che potrebbe essere ulteriormente potenziata per offrire agli studenti esperienze pratiche più coinvolgenti e formative.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, sarebbe opportuno approfondire l'integrazione tra le attività di orientamento e le competenze trasversali richieste dal mondo del lavoro, al fine di preparare al meglio gli studenti alle sfide del futuro. Un'analisi più dettagliata dei risultati ottenuti dalle attività di orientamento potrebbe consentire di identificare eventuali aree di miglioramento e di ottimizzare l'offerta formativa.\n\n### 6. Conclusioni\n\nIl PTOF della scuola “Il Bruco” dimostra un'attenzione significativa all'orientamento, con una solida base teorica e un'ampia gamma di attività pratiche. I punti di forza superano le aree di debolezza, e il PTOF si presenta come un documento ben strutturato e coerente con le finalità dell'istituto. L'impegno nel promuovere l'orientamento, attraverso partnership consolidate e un'offerta formativa diversificata, rappresenta un valore aggiunto per gli studenti e contribuisce a creare una scuola inclusiva e orientata al futuro."
+}

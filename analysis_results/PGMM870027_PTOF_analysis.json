@@ -1,0 +1,268 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PGMM870027",
+    "denominazione": "I.C. Panicale Piegaro Paciano",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Paciano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Perugia",
+    "regione": "Umbria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Roma",
+    "cap": "06060",
+    "email": "pgic870005@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.icvalnestore.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente e dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Unità di valutazione multidisciplinare",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 0
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 0
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 0
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 0
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi/criticità DDI 2020/21 rispetto a 2019/20",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni (II anno scuola secondaria I grado)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa e mediazione",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività integrative",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "33 ore annuali, trasversale, in contitolarità",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni che passano tra i diversi ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2 e percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica e professionale.",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": null,
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro on-line tra docenti",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire conoscenza specificità segmenti scolastici, passaggio informazioni alunni BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Revisione Curricolo d’Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Lavoro dipartimenti verticali, condivisione prospettiva pedagogica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PGMM870027\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Mm - Second. 1^ Grado Paciano\" (PGMM870027), relativo al periodo 2019/20-2021/22. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. La scuola, situata nel comune di Paciano, provincia di Perugia, regione Umbria, è un istituto statale di I grado. L'istituto dimostra un impegno significativo nell'orientamento, con una sezione dedicata ben strutturata e un'ampia rete di collaborazioni esterne.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, valutata con un punteggio di 3, indicando un livello di dettaglio soddisfacente.\n\n**2.2 Partnership:** La scuola ha stabilito numerose partnership con diversi soggetti, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, **Musei**, l'**Archivio di Stato**, diversi **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'**IRCCS Burlo Garofolo**, l'**Unità di valutazione multidisciplinare**, **Altre scuole**, **Altre associazioni o cooperative**, le **Autonomie locali** e l'**ASL**. Il numero di partner attivi (17) testimonia un forte radicamento territoriale e una volontà di ampliare l'offerta formativa attraverso la collaborazione esterna.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi** e del **progetto di vita** degli studenti, con particolare attenzione alle **transizioni formative**. L'aspetto relativo allo sviluppo delle **capacità orientative** per cogliere le opportunità risulta meno sviluppato, con un punteggio di 2.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico e di favorire la **continuità** tra i diversi ordini di scuola. Gli obiettivi di contrasto alla dispersione scolastica giovanile (**neet**) e di promozione del **lifelong learning** non sono stati esplicitamente definiti.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, un forte coinvolgimento dei **genitori** e un'attenzione particolare al **sistema integrato inclusione-fragilità**. Manca un sistema di **monitoraggio delle azioni** implementate e un'attenzione specifica all'integrazione di studenti con fragilità.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa prevalentemente sull'utilizzo di esperienze dirette degli studenti, ma risulta poco sviluppato l'uso di metodologie **laboratoriali**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include laboratori espressivi, attività ludico-ricreative, opportunità di **volontariato** e attività sportive. Manca un'offerta di opzionali di tipo culturale.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate con il territorio, nella chiarezza delle **finalità** e nell'impegno per la riduzione dell'**abbandono** scolastico. L'attenzione al rapporto **scuola-genitori** e al coordinamento dei servizi rappresentano ulteriori elementi positivi. Le attività registrate, come le \"**Attività di ampliamento curricolare**\" e la \"**Collaborazione con associazioni del territorio**\", dimostrano un impegno concreto nell'implementazione delle strategie di orientamento.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano la scarsa attenzione allo sviluppo delle **capacità orientative** per cogliere le opportunità, la mancanza di obiettivi specifici per il contrasto al fenomeno **neet** e la promozione del **lifelong learning**. L'approccio didattico orientativo risulta poco innovativo e l'offerta di attività opzionali potrebbe essere ampliata con proposte di tipo culturale. L'assenza di un sistema di **monitoraggio delle azioni** e di un'attenzione specifica all'integrazione di studenti con fragilità rappresenta un limite.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare l'offerta di attività didattiche orientative, introducendo metodologie innovative come il **learning by doing** e l'**interdisciplinarità**. È inoltre necessario definire obiettivi specifici per il contrasto alla dispersione scolastica giovanile e la promozione dell'apprendimento permanente. Infine, è importante implementare un sistema di monitoraggio delle azioni intraprese per valutare l'efficacia delle strategie di orientamento e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo \"Mm - Second. 1^ Grado Paciano\" presenta un approccio all'orientamento solido e ben strutturato, con numerosi punti di forza. Tuttavia, è necessario colmare le lacune individuate per garantire un'offerta formativa completa e in linea con le esigenze del territorio e degli studenti. L'impegno per la costruzione di una rete di **partnership** efficace e la valorizzazione delle risorse interne rappresentano elementi chiave per il successo delle strategie di orientamento. Attività come il \"**Programma Continuità**\" e l' \"**Orientamento In Uscita Classi Terze Scuola Secondaria**\" sono esempi di iniziative concrete che contribuiscono a orientare gli studenti verso scelte consapevoli e responsabili."
+}

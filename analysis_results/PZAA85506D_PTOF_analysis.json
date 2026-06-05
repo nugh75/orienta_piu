@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZAA85506D",
+    "denominazione": "Ic \"G.Racioppi\" Moliterno",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Sarconi",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Aldo Moro",
+    "cap": "85040",
+    "email": "pzic85500b@istruzione.it",
+    "pec": "ND",
+    "website": "www.comprensivomoliterno.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Laboratorio con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Uscite didattiche (circa tre all'anno)",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione Genitori",
+      "descrizione_e_metodologia": "Incontri su tematiche specifiche",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività plurime a distanza con mediazione dei genitori",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZAA85506D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Sarconi**, scuola dell'infanzia statale situata in provincia di Potenza, Basilicata, per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'approccio didattico e l'offerta di attività opzionali. Il PTOF evidenzia un impegno nella realizzazione di diverse attività laboratoriali e di coinvolgimento dei genitori, pur mancando una sezione specificamente dedicata all'orientamento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione dedicata esplicitamente all'orientamento, come evidenziato dal punteggio di 0.\n\n**2.2 Partnership:** L'istituto ha sviluppato partnership significative con diversi soggetti esterni. Tra questi, spiccano **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. Il numero di partner attivi (4) suggerisce una buona apertura verso la collaborazione esterna.\n\n**2.3 Finalità:** Le finalità del PTOF mostrano un buon allineamento con le esigenze formative degli studenti. In particolare, si riscontra un punteggio elevato per le finalità legate allo sviluppo di attitudini (3) e interessi (3). Le finalità relative al progetto di vita (2) e alle transizioni formative (1) presentano punteggi inferiori, così come le capacità orientative e le opportunità (1).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning. Tutti questi obiettivi hanno ottenuto un punteggio di 1, indicando un impegno generale ma non particolarmente approfondito in queste aree.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate dall'istituto comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e fragilità. Il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità ricevono un punteggio di 3, mentre le altre azioni ottengono un punteggio di 2 o 1.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si caratterizza per l'attenzione all'esperienza degli studenti (4), all'utilizzo di laboratori (3), alla flessibilità degli spazi e dei tempi (3) e all'interdisciplinarità (3). Questi elementi suggeriscono un approccio didattico dinamico e orientato alla pratica.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte culturali (1), laboratoriali ed espressive (3), ludiche e ricreative (3), di volontariato (1) e sportive (1). L'enfasi sulle attività laboratoriali ed espressive e ludiche suggerisce un'attenzione allo sviluppo delle competenze trasversali e del benessere degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di partnership attive con enti esterni, nell'impegno verso la realizzazione di laboratori didattici diversificati e nel coinvolgimento dei genitori. L'attenzione all'esperienza degli studenti e alla flessibilità didattica rappresentano ulteriori elementi positivi. L'attività **LEAD (Legami Educativi a Distanza)** dimostra una capacità di adattamento alle nuove esigenze, coinvolgendo bambini e famiglie.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un punto di debolezza significativo. Inoltre, i punteggi relativamente bassi per le finalità legate al progetto di vita e alle transizioni formative, nonché per gli obiettivi di contrasto alla dispersione scolastica, suggeriscono la necessità di un maggiore approfondimento di queste aree. Il **Questionario di soddisfazione genitori** e il **Questionario di gradimento personale** sono strumenti utili, ma necessitano di un'analisi approfondita dei risultati per guidare il miglioramento continuo.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica integrata dell'orientamento, che dovrebbe essere esplicitata in una sezione dedicata del PTOF. È necessario definire obiettivi specifici e azioni concrete per supportare gli studenti nella costruzione del loro progetto di vita e facilitare le transizioni formative. L'attività **Laboratorio di Coding** con **Docendum** rappresenta un'opportunità per sviluppare competenze digitali, ma è importante integrarla in un quadro più ampio di orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Sarconi** presenta un quadro complessivamente positivo, con un impegno significativo verso la realizzazione di attività didattiche innovative e il coinvolgimento della comunità scolastica. Tuttavia, per rafforzare la dimensione dell'orientamento, è necessario colmare il gap esistente attraverso la definizione di una sezione dedicata, l'individuazione di obiettivi specifici e l'implementazione di azioni concrete. L'istituto dovrebbe valorizzare le partnership esistenti e svilupparne di nuove, al fine di ampliare l'offerta formativa e supportare gli studenti nella costruzione del loro futuro. Le attività come il **Laboratorio di Musica in movimento**, il **Laboratorio di Scienze**, il **Laboratorio di Educazione Motoria**, il **Laboratorio di Pittura**, il **Laboratorio di Lettura**, il **Laboratorio in lingua cinese**, il **Laboratorio di Coding per l’Infanzia** e il **Laboratorio di educazione alimentare** sono elementi importanti, ma devono essere integrati in un progetto di orientamento più ampio e coerente."
+}

@@ -1,0 +1,158 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOPS04500E",
+    "denominazione": "Edoardo Agnelli",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2025-2028",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Corso Unione Sovietica 312",
+    "cap": "10135",
+    "email": "segreteria@istitutoagnelli.it",
+    "pec": "agnelli.torino@pec.salesianipiemonte.it",
+    "website": "www.istitutoagnelli.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 6,
+      "note": "Il documento non dedica una sezione *esplicitamente* intitolata 'Orientamento', ma l'orientamento è integrato in diverse parti del documento. La presenza di elementi orientativi è diffusa, sebbene non concentrata in un'unica sezione dedicata."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "ITS Academy"
+      ],
+      "partnership_count": 1
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "superare disuguaglianze e dispersione scolastica, partendo dalle esperienze degli studenti e personalizzando i percorsi formativi",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 5,
+        "evidence_quote": "consentire loro di fare scelte consapevoli per il futuro, sia nello studio che nel lavoro",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "accompagnare gli studenti nel loro percorso di crescita personale e professionale",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "promuovere il merito nel successo formativo",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "fornire supporto a studenti e famiglie, consentendo loro di fare scelte consapevoli per il futuro",
+        "evidence_location": "Pagina 2"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Didattica orientativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Moduli di orientamento formativo di almeno 30 ore per le classi terze, quarte e quinte, integrati nei curricoli scolastici.",
+      "5w_chi": "Studenti delle classi terze, quarte e quinte",
+      "5w_cosa": "Moduli di orientamento formativo",
+      "5w_dove": "Scuola",
+      "5w_quando": "Classi terze, quarte e quinte",
+      "5w_perche": "Fornire supporto agli studenti per scelte consapevoli sul futuro.",
+      "ore_dichiarate": "30",
+      "target": "Classi terze, quarte e quinte",
+      "evidence_quote": "moduli di orientamento formativo di almeno 30 ore",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Sviluppo competenze trasversali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Sviluppo di competenze come responsabilità, spirito di iniziativa, motivazione e creatività.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Sviluppo competenze trasversali",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Promuovere l'imprenditorialità giovanile e il successo formativo.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "sviluppo delle competenze di base e trasversali",
+      "evidence_location": "Pagina 2"
+    }
+  ],
+  "narrative": "## Analisi del PTOF TOPS04500E\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Iis Euganeo dimostra un impegno nell'integrazione dell'orientamento scolastico all'interno delle attività formative. Il documento evidenzia l'intenzione di allinearsi alle direttive del PNRR e alle Linee Guida ministeriali, con un focus sulla personalizzazione dei percorsi e sullo sviluppo delle competenze trasversali. Sebbene non presenti una sezione dedicata specificamente all'orientamento, il tema è affrontato in maniera trasversale in diverse parti del documento.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nCome anticipato, il PTOF non include una sezione esplicitamente intitolata 'Orientamento'. Tuttavia, l'orientamento è integrato in diverse aree del documento, suggerendo un approccio diffuso e sistematico.\n\n#### 2.2 Partnership e Reti\nLe partnership sono attualmente limitate alla collaborazione con gli **ITS Academy**. Un ampliamento delle collaborazioni con aziende, università e altri enti del territorio potrebbe arricchire l'offerta orientativa e fornire agli studenti maggiori opportunità di stage e di contatto con il mondo del lavoro.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono ben definite e in linea con le Linee Guida ministeriali, con particolare attenzione alla riduzione delle disuguaglianze, alla personalizzazione dei percorsi e allo sviluppo delle competenze trasversali. Gli obiettivi sono chiari, sebbene la loro misurabilità potrebbe essere ulteriormente definita.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti, il rapporto con le famiglie e il monitoraggio delle azioni intraprese. Questi elementi costituiscono una base solida per la creazione di un sistema di orientamento integrato ed efficace.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa è concepita come parte integrante del curriculum scolastico, con un'enfasi sull'esperienza degli studenti e sull'interdisciplinarità. Tuttavia, le attività di tipo laboratoriale sembrano meno presenti rispetto ad approcci più tradizionali.\n\n#### 2.6 Opportunità Formative\nLe opportunità formative opzionali appaiono limitate e poco dettagliate. Un ampliamento dell'offerta, con attività culturali, laboratoriali, ludiche, di volontariato e sportive, potrebbe contribuire a soddisfare una gamma più ampia di interessi e attitudini.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Didattica orientativa\nL'attività principale descritta è l'implementazione di moduli di orientamento formativo di almeno 30 ore per le classi terze, quarte e quinte, integrati nei curricoli scolastici. Questi moduli mirano a fornire agli studenti il supporto necessario per compiere scelte consapevoli sul loro futuro.\n\n#### 2.7.2 Sviluppo competenze trasversali\nUn'altra attività rilevante è lo sviluppo delle competenze trasversali, come responsabilità, spirito di iniziativa, motivazione e creatività, con l'obiettivo di promuovere l'imprenditorialità giovanile e il successo formativo.\n\n### 3. Punti di Forza\nIl principale punto di forza del PTOF è l'impegno nell'integrazione dell'orientamento nelle attività formative e lo sviluppo delle competenze trasversali. La presenza di azioni di coordinamento e di dialogo tra i diversi attori coinvolti rappresenta un altro elemento positivo.\n\n### 4. Aree di Debolezza\nLe principali aree di debolezza sono la limitatezza delle partnership, delle opportunità formative opzionali e la scarsa presenza di attività didattiche di tipo laboratoriale.\n\n### 5. Gap Analysis\nIl PTOF potrebbe essere migliorato attraverso un ampliamento delle collaborazioni con enti esterni, un'offerta più ampia di attività formative opzionali e un maggiore investimento in metodologie didattiche innovative, come i laboratori.\n\n### 6. Conclusioni\nNel complesso, il PTOF dell'Iis Euganeo dimostra un buon livello di attenzione all'orientamento scolastico. Sebbene non presenti una sezione dedicata, l'orientamento è integrato in diverse aree del documento. L'impegno verso la personalizzazione dei percorsi e lo sviluppo delle competenze trasversali rappresenta un solido punto di partenza per il futuro, ma è necessario colmare le lacune individuate per garantire un'offerta orientativa completa ed efficace. L'inclusione di studenti con disabilità o provenienti da contesti svantaggiati dovrebbe essere considerata nell'implementazione delle attività orientative."
+}

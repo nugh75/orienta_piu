@@ -24,8 +24,8 @@ PTOF_INVIATI_BACKUP_DIR = BASE_DIR / "ptof_inviati_backup"
 
 # Liste per i dropdown
 REGIONI = [
-    "Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia Romagna",
-    "Friuli-Venezia G.", "Lazio", "Liguria", "Lombardia", "Marche",
+    "Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romagna",
+    "Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardia", "Marche",
     "Molise", "Piemonte", "Puglia", "Sardegna", "Sicilia", "Toscana",
     "Trentino-Alto Adige", "Umbria", "Valle d'Aosta", "Veneto"
 ]
@@ -38,7 +38,8 @@ TIPI_SCUOLA = [
     "Comprensivo",
     "Liceo",
     "Tecnico",
-    "Professionale"
+    "Professionale",
+    "Convitto"
 ]
 
 ORDINI_GRADO = [

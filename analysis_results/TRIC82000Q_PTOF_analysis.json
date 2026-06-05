@@ -1,0 +1,342 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TRIC82000Q",
+    "denominazione": "I.C. Narni Scalo",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Narni",
+    "anno_ptof": "2022-2025",
+    "provincia": "Terni",
+    "regione": "Umbria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Del Parco 13",
+    "cap": "05035",
+    "email": "tric82000q@istruzione.it",
+    "pec": "tric82000q@pec.istruzione.it",
+    "website": "icvallinarni.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento come visite e incontri, ma manca una sezione dedicata con una trattazione organica e strutturata dell'orientamento come materia o area di intervento specifica."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "amministrazione locale",
+        "Associazioni",
+        "forze dell’ordine",
+        "CUS",
+        "ASP",
+        "Docenti",
+        "Studenti",
+        "Protezione civile",
+        "organizzazioni del terzo settore",
+        "magistrati",
+        "istituzioni",
+        "forze di polizia",
+        "arma dei carabinieri",
+        "CONI",
+        "Rotary Acicastello",
+        "Don Pietro Carrera",
+        "Esterno",
+        "Servizi socio-sanitari",
+        "Associazione I-Sports Catania",
+        "Associazione Scacchistica Don Pietro Carrera Catania",
+        "Trinity College London",
+        "Etna Sycula",
+        "ISS Redi di Paternò",
+        "Università KORE di Enna",
+        "British School di Catania"
+      ],
+      "partnership_count": 23
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti PAI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Potenziare l’inclusione scolastica degli alunni con Bisogni Educativi Speciali",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Progetti di Potenziamento/Consolidamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Potenziamento nelle aree linguistico-espressivo e logico-matematico",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di avviamento alla pratica musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corsi per alunni della scuola primaria",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua spagnola",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Laboratorio per sviluppo competenze linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche, visite e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a scuole secondarie di II grado, Open Day",
+      "target": "Classi III"
+    },
+    {
+      "titolo_attivita": "Incontri con i magistrati",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Lezioni sul tema della legalità",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Incontri con rappresentanti delle istituzioni",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Giornate di studio",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Incontri con le forze di polizia",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Lezioni sulla sicurezza",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Arte di crescere",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Attività per l'inclusione",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetti di Potenziamento/Consolidamento",
+      "categoria_principale": "Progetti Curricolari",
+      "descrizione_e_metodologia": "Potenziamento nelle aree linguistico-espressivo e logico-matematico",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di avviamento alla pratica musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corsi per alunni della scuola primaria",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori mare e costa",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Ascolto racconti, sperimentazione, progetti fotografici, pulizia litorale",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Registro elettronico",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Piattaforma online per dati scolastici e comunicazione scuola-famiglia",
+      "target": "Tutti gli studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Cablaggio edifici scolastici",
+      "categoria_principale": "Infrastruttura digitale",
+      "descrizione_e_metodologia": "Realizzazione reti LAN/W-Lan",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Piattaforma G-Suite",
+      "categoria_principale": "Didattica digitale",
+      "descrizione_e_metodologia": "Approfondimento disciplinare, riunioni collegiali",
+      "target": "Studenti dalla classe terza primaria"
+    },
+    {
+      "titolo_attivita": "Assistente tecnico",
+      "categoria_principale": "Supporto tecnico",
+      "descrizione_e_metodologia": "Supporto strumentazione informatica, DAD, progetti",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Formazione innovazione didattica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Animazione digitale, sperimentazione soluzioni innovative",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Predisposizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI in collaborazione con docenti e famiglia",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Redazione PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PDP in collaborazione con docenti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Legalità, Bullismo e Cyberbullismo",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Interventi e attività per studenti, docenti e famiglie.",
+      "target": "Studenti, Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Ambiente e Salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Promuovere stili di vita sani tramite esperti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Psicomotoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Esercizi, giochi e attività mirate.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Greco Antico",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del greco antico tramite miti ed eroi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Imparare facendo, con artisti locali.",
+      "target": "Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scrittura Creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Redazione di testi narrativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica in Scena",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Percorso integrato tra musica, teatro e arte.",
+      "target": "Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "La regina dei baci",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura animata e drammatizzazione.",
+      "target": "Scuola dell'Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Inseguendo Alice - Codifeet",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Percorso di coding con gioco.",
+      "target": "Scuola dell'Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Psicomotricità",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Giochi di movimento e simbolici.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Tutti al traguardo!",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Riduzione carenze e orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite didattiche e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Pianificazione e realizzazione di uscite didattiche per ampliare gli orizzonti degli studenti.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri tra diversi ordini di scuola per facilitare la transizione.",
+      "target": "Alunni classi ponte"
+    },
+    {
+      "titolo_attivita": "Attivazione procedure dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Individuazione precoce e intervento su casi di dispersione scolastica.",
+      "target": "Alunni a rischio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TRIC82000Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Narni Scalo (TRIC82000Q) per il triennio 2022-2025. La scuola, comprensiva e situata nel territorio non metropolitano di Narni, in Umbria, dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. L'istituto presenta un'ampia rete di **partnership** con enti locali, associazioni, forze dell'ordine e diverse istituzioni, evidenziando una forte attenzione alla collaborazione esterna. Le finalità dell'orientamento sono ben definite, con particolare attenzione alle attitudini, agli interessi e alle capacità orientative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti diverse attività di orientamento, come **visite** e **incontri**, manca una sezione dedicata con una trattazione organica e strutturata dell'orientamento come materia o area di intervento specifica.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (23), che includono l'**amministrazione locale**, diverse **associazioni**, le **forze dell’ordine**, il **CUS**, l'**ASP**, docenti, studenti, la **protezione civile**, organizzazioni del terzo settore, **magistrati**, istituzioni, forze di polizia, il **CONI**, il **Rotary Acicastello**, **Don Pietro Carrera**, enti esterni, servizi socio-sanitari, l'**Associazione I-Sports Catania**, l'**Associazione Scacchistica Don Pietro Carrera Catania**, **Trinity College London**, **Etna Sycula**, l'**ISS Redi di Paternò**, l'**Università KORE di Enna** e la **British School di Catania**.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate solide, con punteggi elevati per lo sviluppo di **attitudini** e **interessi**, nonché per le **capacità orientative** e le opportunità. Un punteggio leggermente inferiore è stato attribuito alla progettazione della **progetto di vita** e alla gestione delle **transizioni formative**.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di **ridurre l'abbandono** scolastico, con un punteggio elevato. La **continuità territoriale** è un obiettivo perseguito, sebbene con un punteggio inferiore. Il contrasto al fenomeno **NEET** e la promozione del **lifelong learning** ricevono un punteggio più basso, suggerendo aree di potenziale sviluppo.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema sono ben strutturate, con particolare attenzione al **coordinamento dei servizi**, al **dialogo tra docenti e studenti** e al **rapporto scuola-genitori**. Il **monitoraggio delle azioni** è considerato adeguato, mentre il **sistema integrato di inclusione e fragilità** riceve il punteggio più alto, evidenziando un forte impegno verso l'inclusione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di **laboratori** e sull'approccio **interdisciplinare**. La **flessibilità degli spazi e dei tempi** è considerata un aspetto da migliorare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi elevati per le opzionali **culturali** e **laboratoriali espressive**. Le opzionali **ludiche-ricreative** e di **volontariato** ricevono un punteggio inferiore, mentre le opzionali **sportive** sono considerate adeguate.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership**, nell'attenzione all'inclusione, nella solidità delle finalità orientative e nella qualità delle azioni di sistema. L'impegno verso la didattica laboratoriale e l'offerta diversificata di attività opzionali rappresentano ulteriori elementi positivi. Le attività registrate, come i **Progetti PAI**, i **Progetti di Potenziamento/Consolidamento**, i **Corsi di avviamento alla pratica musicale** e i **Laboratori di Lingua spagnola**, dimostrano un'offerta formativa ricca e variegata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata all'orientamento, con una trattazione organica e strutturata. Inoltre, alcuni obiettivi, come il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**, necessitano di maggiore attenzione. La flessibilità degli spazi e dei tempi nella didattica orientativa potrebbe essere migliorata.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare l'orientamento come un'area di intervento specifica all'interno del PTOF, con obiettivi, azioni e indicatori di monitoraggio ben definiti. È necessario rafforzare le azioni volte a contrastare la dispersione scolastica e a promuovere il **lifelong learning**.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Narni Scalo dimostra un impegno significativo verso l'orientamento, supportato da una vasta rete di **partnership** e da un'offerta formativa diversificata. Tuttavia, per massimizzare l'efficacia dell'orientamento, è necessario strutturarlo come un'area di intervento specifica all'interno del PTOF, con obiettivi chiari e azioni mirate. L'istituto dovrebbe concentrarsi sul rafforzamento delle azioni volte a contrastare la dispersione scolastica e a promuovere il **lifelong learning**, al fine di garantire un futuro migliore per tutti gli studenti. Attività come le **Uscite didattiche**, gli **Incontri con i magistrati** e le **Visite didattiche e viaggi di istruzione** rappresentano un valore aggiunto per la crescita degli studenti."
+}

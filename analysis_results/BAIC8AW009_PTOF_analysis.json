@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Estratto PTOF",
+  "metadata": {
+    "school_id": "BAIC8AW009",
+    "denominazione": "I.C. \"Don Pappagallo-Gesmundo",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Terlizzi",
+    "anno_ptof": "2025/2028",
+    "provincia": "Bari",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Roma 59A",
+    "cap": "70038",
+    "email": "baic8aw009@istruzione.it",
+    "pec": "baic8aw009@pec.istruzione.it",
+    "website": "www.ldavinci.org",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extra-curricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extra-curricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie.",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti.",
+      "target": "Studenti classe II"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia.",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attivazione del curriculum ministeriale.",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Comunicazione via Teams.",
+      "target": "Studenti classi III e IV"
+    },
+    {
+      "titolo_attivita": "Eventi Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con Università e Imprese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gruppo Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative con Polizia Cantonale.",
+      "target": "Studenti I e II Liceo"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione per attività giovanili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Didattica Laboratoriale",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto all’allievo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BAIC8AW009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. \"Don Pappagallo-Gesmundo\" (BAIC8AW009) per il triennio 2025/2028. La scuola, situata nel territorio metropolitano di Terlizzi (Bari, Puglia), si configura come un istituto comprensivo che abbraccia i gradi di istruzione Primaria, I e II grado. L'analisi evidenzia una solida attenzione all'orientamento, con una sezione dedicata specificamente a questo ambito e un'ampia gamma di attività e partnership volte a supportare gli studenti nel loro percorso formativo e nella definizione del loro **progetto di vita**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che dimostra un impegno esplicito e strutturato verso questa area.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto ampio e diversificato, comprendendo ben 15 collaborazioni con enti e istituzioni quali **LAC**, **Museo in Erba**, **Polizia Cantonale**, **Croce Rossa**, diverse **Università** (Bocconi, Svizzera Italiana, Insubria, Edimburgh, Luiss Roma) e istituzioni internazionali come **ESADE di Barcellona** e **Savannah College of Art and Design**.  Si segnala anche la collaborazione con **specialisti esterni** (logopedista, ergoterapista, psicologo, neuropsichiatra).\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 per entrambe le aree. L'attenzione al **progetto di vita** risulta leggermente inferiore (punteggio 2), mentre le finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità sono valutate positivamente con un punteggio di 3.\n\n**2.4 Obiettivi:** Tra gli obiettivi dichiarati, si riscontra una maggiore attenzione alla **continuità territoriale** (punteggio 3). Gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno **NEET** ricevono un punteggio inferiore (1), così come l'obiettivo di promuovere il **lifelong learning** (punteggio 2).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate e comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e l'implementazione di un **sistema integrato di inclusione e fragilità**, tutte aree valutate con un punteggio di 4. Il **monitoraggio delle azioni** risulta meno sviluppato (punteggio 2).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di metodologie **laboratoriali** (punteggio 2), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'approccio **interdisciplinare** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte valutate con un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e la vasta rete di **partnership** con enti, università e professionisti. L'offerta di attività orientative è ampia e diversificata, con progetti specifici per le diverse classi (**MiOriento**, **MiAssumo**, **Percorso Competenze Trasversali**, **Curriculum dello Studente**, **Chat Orientamento**, **Eventi Orientamento**) e un'attenzione particolare all'inclusione e al supporto agli studenti con **BES/DSA** attraverso lo **Sportello supporto DSA/BES** e lo **Sportello di ascolto e supporto all’allievo**.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riscontrate riguardano la scarsa attenzione agli obiettivi di riduzione dell'abbandono scolastico e di contrasto al fenomeno NEET, nonché un monitoraggio meno efficace delle azioni intraprese. L'attenzione al **progetto di vita** degli studenti, pur presente, potrebbe essere ulteriormente sviluppata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a prevenire l'abbandono scolastico e a favorire l'inserimento lavorativo degli studenti, integrando l'orientamento con politiche attive per il lavoro e la formazione professionale. È inoltre auspicabile un maggiore coinvolgimento delle famiglie e una più sistematica valutazione dell'efficacia delle attività orientative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. \"Don Pappagallo-Gesmundo\" dimostra un forte impegno verso l'orientamento, con una solida base di attività, partnership e risorse. Pur presentando alcune aree di debolezza, la scuola si pone come un punto di riferimento per l'orientamento nel territorio, offrendo agli studenti un supporto completo e personalizzato per affrontare le sfide del futuro. L'implementazione di azioni mirate per colmare i gap individuati consentirebbe di rafforzare ulteriormente l'efficacia del sistema di orientamento e di garantire a tutti gli studenti le migliori opportunità di successo formativo e professionale."
+}

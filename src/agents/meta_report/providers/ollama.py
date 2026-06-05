@@ -36,42 +36,42 @@ class OllamaProvider(BaseProvider):
     def is_available(self) -> bool:
         """Check if Ollama is running."""
         try:
-            import httpx
-            with httpx.Client(timeout=5.0) as client:
-                response = client.get(f"{self.host}/api/tags")
-                return response.status_code == 200
+            import requests
+            response = requests.get(f"{self.host}/api/tags", timeout=5.0)
+            return response.status_code == 200
         except Exception:
             return False
 
     def generate(self, prompt: str, system_prompt: Optional[str] = None) -> LLMResponse:
         """Generate text using Ollama with retry and exponential backoff."""
         try:
-            import httpx
+            import requests
         except ImportError:
-            raise ProviderError("httpx not installed. Run: pip install httpx")
+            raise ProviderError("requests not installed. Run: pip install requests")
 
         last_error = None
         
         for attempt in range(1, self.max_retries + 1):
             try:
-                with httpx.Client(timeout=300.0) as client:
-                    response = client.post(
-                        f"{self.host}/api/generate",
-                        json={
-                            "model": self.model,
-                            "prompt": prompt,
-                            "system": system_prompt or "",
-                            "stream": False,
-                            "options": {
-                                "num_ctx": int(os.getenv("META_REPORT_OLLAMA_CTX", "16384")),
-                                "temperature": 0.5,  # Ridotta per maggiore coerenza
-                                "top_p": 0.9,
-                                "repeat_penalty": 1.1,  # Evita ripetizioni
-                            },
+                import requests
+                response = requests.post(
+                    f"{self.host}/api/generate",
+                    json={
+                        "model": self.model,
+                        "prompt": prompt,
+                        "system": system_prompt or "",
+                        "stream": False,
+                        "options": {
+                            "num_ctx": int(os.getenv("META_REPORT_OLLAMA_CTX", "16384")),
+                            "temperature": 0.5,  # Ridotta per maggiore coerenza
+                            "top_p": 0.9,
+                            "repeat_penalty": 1.1,  # Evita ripetizioni
                         },
-                    )
-                    response.raise_for_status()
-                    data = response.json()
+                    },
+                    timeout=300.0,
+                )
+                response.raise_for_status()
+                data = response.json()
 
                 return LLMResponse(
                     content=data.get("response", ""),

@@ -1,0 +1,323 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "OR1A034006",
+    "denominazione": "Scuola Materna N.S. Signora Di Bonaria Ales",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Ales",
+    "anno_ptof": "2025/2028",
+    "provincia": "Oristano",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza Cattedrale N. 4",
+    "cap": "09091",
+    "email": "cenacolocaim@alice.it",
+    "pec": "cenacolocaim@pec.it",
+    "website": "www.salesianisb.net/media‬",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Scuole primarie",
+        "Scuole superiori",
+        "Professionisti",
+        "Enti territoriali",
+        "Università Cattolica",
+        "IUSTO"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Attività pomeridiana, integrazione approccio sperimentale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Pubblicazione online, allargare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Potenziare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Migliorare proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Incrementare attività senso critico ed estetico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day con presentazione della scuola da parte degli studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Gli studenti presentano competenze disciplinari, sociali e civiche",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Laboratorio teatrale per sviluppo espressività e collaborazione",
+      "target": "Studenti classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Metodo di Studio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Approfondimento strumenti studio tradizionali e nuove tecnologie",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche: minibasket, pallamano, pallavolo, calcio a 5.",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni di terza media individuati"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagella, uscita in montagna.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Corsi di apprendimento dell'uso del PC",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Software per mappe concettuali, schemi, programmazione",
+      "target": "Alunni classe prima"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica di base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classe seconda"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classe terza"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e a seguito di convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi/tecnologici",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Rivolti a tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico con esplorazione di usanze e costumi.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura e analisi del romanzo 'Mio fratello rincorre i dinosauri'.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Realizzazione di esperimenti di chimica, fisica e biologia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla lingua spagnola con role-playing e letture.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Arte culinaria",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla pratica culinaria.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Delf",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso per il conseguimento della certificazione DELF.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione e pittura di manufatti in creta.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canto corale con repertorio di liturgia giovanile.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Sport (ragazze/ragazzi)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche: minibasket, pallamano, pallavolo, calcio a 5.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato di illustrazione.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a maglia con i ferri",
+      "categoria_principale": "Artigianato",
+      "descrizione_e_metodologia": "Realizzazione di prodotti lavorati a maglia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo di Arduino.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso per il conseguimento della certificazione ICDL.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Giapponese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla lingua e cultura giapponese.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Food and Cooking",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento del vocabolario inglese in ambito culinario.",
+      "target": "Classi terze"
+    }
+  ],
+  "narrative": "# Analisi del PTOF OR1A034006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Materna N.S. Signora Di Bonaria Ales** (ID scuola OR1A034006) per il triennio 2025/2028, con particolare attenzione alla dimensione dell'orientamento. La scuola, di tipo **Infanzia** e situata nel territorio non metropolitano della regione **Sardegna**, si presenta come una realtà **paritaria** con un forte impegno verso la crescita integrale degli alunni. L'analisi evidenzia un approccio proattivo all'orientamento, pur con alcune aree di miglioramento. Il PTOF dimostra una chiara attenzione alle finalità formative, agli obiettivi di riduzione dell'abbandono scolastico e di promozione del lifelong learning, supportate da un sistema di azioni coordinate e da una didattica orientativa basata sull'esperienza e sulla flessibilità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, un aspetto che potrebbe essere sviluppato per una maggiore chiarezza e sistematicità.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** consolidato, che include **scuole primarie**, **scuole superiori**, **professionisti**, **enti territoriali**, l'**Università Cattolica** e l'**IUSTO**. Sono attive tre collaborazioni, dimostrando un'apertura verso il territorio e la volontà di creare sinergie formative.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono valutate positivamente in tutte le aree considerate: sviluppo di **attitudini**, **interessi**, **progetto di vita**, supporto alle **transizioni formative** e potenziamento delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono ambiziosi e pertinenti. Si punta a **ridurre l'abbandono** scolastico, garantire la **continuità** con il territorio, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede un sistema di azioni ben strutturato, che include il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti**, l'utilizzo di **laboratori**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata e comprende opzioni **culturali**, **laboratoriali ed espressive** (particolarmente sviluppate), **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e degli obiettivi, nella solidità del sistema di partnership, nella qualità della didattica orientativa e nella varietà dell'offerta formativa. L'impegno verso l'inclusione e il supporto agli studenti con fragilità rappresenta un valore aggiunto significativo. Le attività registrate, come il **Laboratorio scientifico**, il **Giornalino d'istituto**, i **Concorsi/Progetti interdisciplinari**, il **Piano delle Arti** e l'**Open day con presentazione della scuola da parte degli studenti**, testimoniano un approccio pratico e coinvolgente all'orientamento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene le attività e le finalità orientative siano presenti, una sezione specifica consentirebbe di sistematizzare l'approccio e di renderlo più visibile. Alcune opzionali, come quelle **ludiche e ricreative** e di **volontariato**, potrebbero essere ulteriormente sviluppate.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la mancanza di una struttura dedicata all'orientamento all'interno del PTOF. Questo potrebbe limitare la capacità della scuola di monitorare e valutare l'efficacia delle azioni intraprese in questo ambito. Un'altra area di miglioramento riguarda la necessità di potenziare le opzionali meno sviluppate, al fine di offrire agli studenti una gamma più ampia di opportunità formative.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Materna N.S. Signora Di Bonaria Ales si presenta come un documento solido e ben strutturato, che pone al centro la crescita integrale degli alunni. L'orientamento è considerato un aspetto fondamentale del processo educativo, come dimostrano le finalità, gli obiettivi e le azioni previste. Pur con alcune aree di miglioramento, il PTOF rappresenta un valido strumento per guidare l'azione educativa della scuola nel triennio 2025/2028. L'implementazione di una sezione dedicata all'orientamento e il potenziamento delle opzionali potrebbero contribuire a rafforzare ulteriormente l'efficacia del PTOF e a garantire agli studenti un percorso formativo completo e stimolante."
+}

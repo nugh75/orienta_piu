@@ -1,0 +1,267 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAPS690018",
+    "denominazione": "Liceo Pluricomprensivo Renato Cartesio",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Villaricca",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giorgio Amendola",
+    "cap": "80010",
+    "email": "naps690007@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.liceorenatocartesio.edu.it",
+    "tipo_scuola_dettaglio": "Liceo Scientifico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Enti Locali"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Potenziamento Competenze",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua inglese",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli disciplinari in lingua inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di studio ed esperienza in contesti lavorativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività lavorative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e progetti dedicati",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Protocollo di accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione pratiche comuni per accoglienza alunni BES",
+      "target": "Alunni BES, Famiglie, Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Alunni con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAPS690018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Pluricomprensivo Renato Cartesio** (NAPS690018) per il triennio 2019/20-2021/22. La scuola, situata a **Villaricca** in provincia di **Napoli** e operante nell'area geografica del **Sud** e nel territorio **Metropolitano**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'istituto, di tipo **Liceo** e grado **II Grado**, si configura come una realtà **statale** con una forte attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa (neet) e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **15 partner** significativi, tra cui **AGROBIOS**, il **Museo Archeologico Nazionale della Siritide**, diverse **Associazioni**, **Consulenti esterni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, il **Centro ENEA**, le scuole della **Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, la **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e **ASL**, oltre agli **Enti Locali**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti, facilitando le loro **transizioni formative**. Sebbene la capacità di orientare verso le opportunità risulti meno sviluppata, l'impegno complessivo è elevato.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa (neet) e alla promozione del lifelong learning. Questi obiettivi riflettono una visione olistica dell'orientamento, che considera sia l'aspetto formativo che quello professionale.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzionali culturali, laboratoriali ed espressive, volontariato e attività sportive, ampliando le possibilità di scelta per gli studenti. L'offerta ludico-ricreativa risulta meno sviluppata.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e degli **obiettivi**, nella varietà delle **azioni di sistema** e nell'approccio didattico orientativo basato sull'esperienza e sulla flessibilità. Le attività come **Stage ASL**, **Certificazioni linguistiche**, **Microconferenze**, **Flipped Classroom**, **Service Learning (METEO)**, **Moduli disciplinari in lingua inglese** e **Conversazione inglese** dimostrano un impegno concreto verso l'innovazione e il potenziamento delle competenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la capacità di orientare gli studenti verso le opportunità concrete, che necessita di un ulteriore sviluppo. Anche l'offerta di attività ludico-ricreative opzionali appare meno strutturata rispetto alle altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare il collegamento tra le attività orientative e il mondo del lavoro, fornendo agli studenti strumenti e informazioni più mirate per affrontare le sfide del futuro. È auspicabile un maggiore coinvolgimento dei **partner** nella progettazione e realizzazione di attività orientative, al fine di garantire una maggiore aderenza alle esigenze del territorio.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Pluricomprensivo Renato Cartesio** presenta un'impostazione solida e coerente in materia di orientamento. La scuola dimostra un forte impegno verso la crescita personale e professionale degli studenti, offrendo un'ampia gamma di attività e servizi. Pur riconoscendo alcune aree di debolezza, il PTOF si configura come un documento programmatico valido e promettente, in grado di contribuire al successo formativo e all'inserimento nel mondo del lavoro dei giovani. Attività come **PCTO presso Struttura Ospitante**, **Impresa Formativa Simulata (IFS)**, **Olimpiadi Di Astronomia**, **Cittadinanza E Costituzione**, **Gemellaggi**, **L2: Lingua Italiana Per Stranieri**, **Competenze Lingua Straniera: Francese**, **Teatro Antico E Moderno**, **Pon Fsre, Smart Class**, **BYOD**, **Progetti territoriali integrati**, **Alternanza scuola/lavoro**, **Protocollo di accoglienza**, **Corsi di recupero** sono elementi che arricchiscono l'offerta formativa e orientativa."
+}

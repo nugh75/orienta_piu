@@ -1,0 +1,329 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CBAA83205Q",
+    "denominazione": "I.C. Cercemaggiore - A. Manzoni",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cercemaggiore",
+    "anno_ptof": "2025/28",
+    "provincia": "Campobasso",
+    "regione": "Molise",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Fonte Peluzzo",
+    "cap": "86012",
+    "email": "cbic83200p@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccercemaggioresepino.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Scuole Medie",
+        "Scuole Paritarie Cattoliche",
+        "Professionisti",
+        "Enti territoriali",
+        "IUSTO",
+        "Università Cattolica"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Attività pomeridiana, integrazione approccio sperimentale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Pubblicazione online, allargare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Potenziare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Migliorare proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Incrementare attività senso critico ed estetico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Presentazione scuola",
+      "descrizione_e_metodologia": "Allievi presentano la scuola e attività",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Laboratori extracurricolari",
+      "categoria_principale": "Attività extracurricolari",
+      "descrizione_e_metodologia": "Attività opzionali con contributo economico",
+      "target": "Allievi motivati"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Allestimento spettacolo teatrale",
+      "target": "Allievi classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio Metodo di studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Utilizzo strumenti studio tradizionali e nuove tecnologie",
+      "target": "Allievi classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5).",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio di latino",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni di terza media con prerequisiti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagella, uscita in montagna, test d'ingresso.",
+      "target": "Alunni in ingresso"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico con esplorazione di usanze e costumi.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura partecipata e analisi del romanzo 'Mio fratello rincorre i dinosauri'.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con realizzazione di esperimenti di chimica, fisica e biologia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla lingua spagnola con role-playing e letture.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Altro",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla pratica culinaria.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Sport (ragazze/ragazzi)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5).",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato di illustrazione.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a maglia con i ferri",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione di prodotti lavorati a maglia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo della scheda elettronica e della piattaforma Arduino.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso per il conseguimento della certificazione ICDL.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Giapponese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso di avvicinamento alla lingua e cultura giapponese.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Food and Cooking",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento del vocabolario inglese in ambito culinario.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori aperti a tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per la promozione della cultura della diversità",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per la promozione della cultura della diversità",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Boscolandia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per la promozione della cultura della diversità",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di apprendimento uso PC",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Software per mappe concettuali, schemi, programmazione",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica di base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classi seconde"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classi terze"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CBAA83205Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia** di Cercemaggiore, identificata dal codice **CBAA83205Q**, per il triennio **2025/28**. L'istituto, statale e situato in un territorio non metropolitano della regione **Molise**, dimostra un forte impegno verso l'inclusione, come evidenziato dalla presenza di una sezione dedicata. L'analisi rivela un'attenzione significativa alle competenze sociali e civiche, con un'ampia gamma di attività proposte. La scuola si avvale di diverse **partnership**, tra cui **Scuole Medie**, **Scuole Paritarie Cattoliche**, **Professionisti**, **Enti territoriali**, **IUSTO** e **Università Cattolica**, per arricchire l'offerta formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF prevede una specifica sezione dedicata all'inclusione, ottenendo un punteggio massimo.\n\n**2.2 Partnership:** La scuola vanta un buon livello di collaborazione esterna, con un punteggio di 3 e la presenza di 3 partner attivi.\n\n**2.3 Finalità:** Le finalità del PTOF sono ben definite, con punteggi elevati (6) per lo sviluppo di **attitudini**, **interessi** e **progetto di vita**. Le finalità relative alle **transizioni formative** ottengono un punteggio di 3, mentre quelle relative allo sviluppo delle **capacità orientative** e delle **opportunità** raggiungono un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono** scolastico (punteggio 4) e sulla continuità territoriale (punteggio 4). L'obiettivo di contrastare i **NEET** ottiene un punteggio più basso (1), mentre quello relativo al **lifelong learning** raggiunge un punteggio di 5.\n\n**2.5 Azioni Sistema:** Le azioni implementate per raggiungere gli obiettivi sono solide, con punteggi elevati per il **coordinamento dei servizi** (6), il **dialogo tra docenti e studenti** (5), il **rapporto scuola-genitori** (6) e il **monitoraggio delle azioni** (5). Particolarmente forte è l'impegno verso un **sistema integrato di inclusione e fragilità** (punteggio 7).\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa sull'esperienza degli studenti (punteggio 5), sull'utilizzo di **laboratori** (punteggio 5), sulla **flessibilità degli spazi e dei tempi** (punteggio 5) e sull'**interdisciplinarità** (punteggio 6).\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi buoni per le opzionali **culturali** (5) e **laboratoriali espressive** (7). Le opzionali **ludiche ricreative** (4), di **volontariato** (3) e **sportive** (5) completano l'offerta.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte attenzione all'inclusione, nella consolidata rete di **partnership** e nella chiarezza delle finalità e degli obiettivi. L'impegno verso un sistema integrato di inclusione e fragilità è particolarmente apprezzabile. L'ampia gamma di attività proposte, come il **Laboratorio scientifico**, il **Giornalino d'istituto**, i **Concorsi/Progetti interdisciplinari** e il **Piano delle Arti**, dimostra una vivace offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare i **NEET**, che ottiene un punteggio basso. Anche le finalità relative alle **transizioni formative** potrebbero essere rafforzate.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le azioni specifiche volte a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro. Un maggiore focus sulle **transizioni formative** potrebbe migliorare l'efficacia del PTOF nel preparare gli studenti alle sfide future.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia** di Cercemaggiore si presenta come un documento ben strutturato e coerente, con un forte impegno verso l'inclusione e lo sviluppo delle competenze degli studenti. L'ampia gamma di attività proposte, supportata da una solida rete di **partnership**, rappresenta un valore aggiunto significativo. Pur presentando alcune aree di debolezza, il PTOF dimostra un chiaro orientamento verso la qualità dell'offerta formativa e il benessere degli studenti. Attività come il **Progetto Teatro**, il **Laboratorio Metodo di studio**, il **Progetto Continuità** e i vari **laboratori** (arte, sport, latino, lingue straniere) arricchiscono l'esperienza scolastica. L'offerta di corsi specifici come **ICDL** e **Giapponese** testimonia l'impegno verso l'innovazione e l'ampliamento delle opportunità formative."
+}

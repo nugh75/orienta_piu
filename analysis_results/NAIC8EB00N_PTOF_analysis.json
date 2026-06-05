@@ -1,0 +1,306 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAIC8EB00N",
+    "denominazione": "Caivano Ic S.M. Milani",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Caivano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Ugo Foscolo Snc",
+    "cap": "80023",
+    "email": "naic8eb00n@istruzione.it",
+    "pec": "naic8eb00n@pec.istruzione.it",
+    "website": "www.comprensivomilani.gov.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente nel PTOF, non esiste una sezione dedicata e strutturata con un titolo specifico. Le attività sono integrate in altre aree."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "MUST (Museo del Territorio)",
+        "biblioteca comunale",
+        "associazioni di volontariato",
+        "gruppi culturali",
+        "gruppi sportivi",
+        "Comune di Vimercate",
+        "Rete di scuole",
+        "Associazione Gaia Onlus",
+        "asilo infantile di Oreno",
+        "CEAF",
+        "Parco della Cavallera",
+        "Lega Ambiente",
+        "Ente locale",
+        "ANPA",
+        "ASL",
+        "Enti Locali",
+        "Comunità Montana",
+        "Tavolo Tecnico Orientarete del distretto di Vimercate",
+        "CTI Brianza Est",
+        "Università Bicocca - Milano",
+        "Università Bocconi",
+        "Università Cattolica - Milano",
+        "Università di Bergamo",
+        "Itis Hensemberger- Monza",
+        "Academy Easy Team"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratori di musica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per potenziare le competenze musicali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento lingue straniere",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per potenziare le competenze linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi sportivi studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a competizioni sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Teatro",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività teatrali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di matematica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per potenziare le competenze matematiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività laboratoriali per potenziare le competenze tecnologiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività laboratoriali per potenziare le competenze artistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione cortometraggi",
+      "categoria_principale": "Media",
+      "descrizione_e_metodologia": "Produzione di cortometraggi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione giornali",
+      "categoria_principale": "Media",
+      "descrizione_e_metodologia": "Produzione di giornali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mostre fotografiche",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Organizzazione di mostre fotografiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di repository per la progettazione e condivisione di buone pratiche",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Creazione di un repository digitale per condividere materiali e pratiche didattiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Emanazione di un regolamento interno per la e-policy",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Definizione di norme per l'uso responsabile delle tecnologie digitali",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Intensificazione delle relazioni tra docenti dei diversi ordini scolastici",
+      "categoria_principale": "Sviluppo Professionale",
+      "descrizione_e_metodologia": "Favorire il confronto e lo scambio tra docenti di diversi ordini",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Elaborazione di una griglia di valutazione delle competenze",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Definire criteri di valutazione comuni a tutto l'istituto",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio post scuola",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Erogazione del servizio dalle 16.00 alle 19.00 per alunni 6-11 anni, gestito da associazioni diverse a seconda della scuola.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppo competenze trasversali.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Biblioteca Scolastica",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Promozione della lettura e accesso a risorse bibliotecarie.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "comitato rappresentanti degli studenti e delle studentesse",
+      "categoria_principale": "Partecipazione",
+      "descrizione_e_metodologia": "Coinvolgimento studenti nella vita scolastica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "percorsi interculturali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività per promuovere l'integrazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "progetto famiglia",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri e attività con le famiglie",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "progetto eventi",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Organizzazione di eventi scolastici",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "progetto sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Attività per la sicurezza",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "laboratorio coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo piattaforme Programma il futuro e Scratch",
+      "target": "Studenti infanzia-secondaria"
+    },
+    {
+      "titolo_attivita": "Lo spazio d’incontro, informazione e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Informazioni, consulenza, orientamento e supporto a famiglie e docenti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Giornata dell’Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con scuole superiori e del mondo del lavoro",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Questionari psico-attitudinali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Somministrazione questionari per auto-valutazione",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Colloqui con docenti tutor",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui individuali per supporto alla scelta",
+      "target": "Alunni classi terze"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAIC8EB00N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola Caivano Ic S.M. Milani (NAIC8EB00N), relativo all'anno scolastico 2019/20-2021/22. L'istituto, di ordine e grado comprensivo, situato nel territorio metropolitano di Caivano (Napoli), in Campania, si presenta come una scuola statale con un'attenzione particolare all'inclusione e all'innovazione didattica. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non formalizzato in una sezione specifica del PTOF. Le attività sono integrate in diverse aree del piano, dimostrando una consapevolezza dell'importanza di supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'orientamento non beneficia di una sezione dedicata e strutturata all'interno del PTOF, ricevendo un punteggio di 3. Le attività, pur presenti, sono integrate in altre aree tematiche, suggerendo una necessità di maggiore focalizzazione e visibilità.\n\n**2.2 Partnership:**\n\nLa scuola vanta un'ampia rete di **partnership** con ben 18 soggetti esterni, tra cui **MUST (Museo del Territorio)**, la **biblioteca comunale**, diverse **associazioni di volontariato** e **gruppi culturali** e **sportivi**. Sono presenti collaborazioni con enti locali come il **Comune di Vimercate**, la **Rete di scuole**, **Associazione Gaia Onlus**, e istituzioni universitarie quali l'**Università Bicocca**, **Bocconi**, **Cattolica** e **Bergamo**. La collaborazione si estende anche a realtà del mondo del lavoro come **Itis Hensemberger- Monza** e **Academy Easy Team**. Questo elevato numero di partner (punteggio 4) testimonia un forte radicamento territoriale e una volontà di ampliare le opportunità formative per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità** (punteggio 4 per ogni finalità).\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale**, **contrastare il fenomeno NEET** e promuovere il **lifelong learning** (punteggi di 4, 4, 3 e 3 rispettivamente).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità** (punteggi di 4, 4, 4, 3 e 4 rispettivamente).\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento attraverso l'**esperienza degli studenti**, sull'utilizzo di metodologie **interdisciplinari**, con un punteggio di 4 per entrambe. L'utilizzo di didattica **laboratoriale** e la **flessibilità degli spazi e dei tempi** ricevono punteggi inferiori, rispettivamente 2 e 3.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive** (punteggio 3 per ciascuna).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** con enti territoriali, istituzioni universitarie e realtà del mondo del lavoro. L'impegno verso le **finalità** dell'orientamento e le **azioni di sistema** sono ben definite e strutturate. L'approccio didattico basato sull'**esperienza degli studenti** e sull'**interdisciplinarità** rappresenta un valore aggiunto. L'offerta di attività opzionali, seppur con punteggi medi, contribuisce ad ampliare le opportunità formative.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. La didattica **laboratoriale** e la **flessibilità degli spazi e dei tempi** necessitano di maggiore attenzione e sviluppo. L'obiettivo di contrastare il fenomeno **NEET** e promuovere il **lifelong learning** ricevono punteggi inferiori rispetto agli altri obiettivi, suggerendo la necessità di definire strategie più efficaci.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduce in un'integrazione delle attività in altre aree del PTOF anziché in una sezione dedicata. Questo comporta una minore visibilità e un potenziale rischio di frammentazione delle iniziative.\n\n### 6. Conclusioni\n\nIl PTOF della scuola Caivano Ic S.M. Milani dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle **finalità** e degli **obiettivi**. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, si raccomanda di strutturare una sezione dedicata all'orientamento all'interno del PTOF, di potenziare la didattica **laboratoriale** e la **flessibilità degli spazi e dei tempi**, e di definire strategie più mirate per contrastare il fenomeno **NEET** e promuovere il **lifelong learning**. Le attività registrate, come i **laboratori di musica**, **potenziamento lingue straniere**, **giochi sportivi studenteschi**, **teatro**, **laboratori di robotica** e le iniziative di **orientamento** vera e propria, dimostrano un'offerta variegata e un impegno concreto nel supportare gli studenti nel loro percorso formativo."
+}

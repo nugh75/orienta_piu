@@ -1,0 +1,250 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LTVC02000Q",
+    "denominazione": "Formia",
+    "tipo_scuola": "Convitto",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Formia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Latina",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Gianola",
+    "cap": "04023",
+    "email": "ltvc02000q@istruzione.it",
+    "pec": "ltrh01000p@pec.istruzione.it",
+    "website": "https://www.portaleargo.it/albopretoriopf3/frontend/atto.xhtml?codcli=ss16846&idatto=1626348&pag=1",
+    "tipo_scuola_dettaglio": "Convitto Annesso"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "associazioni di categoria",
+        "imprese locali",
+        "Scuola secondaria di primo grado \"G. Pascoli\"",
+        "I.C. \"A. De Curtis\"",
+        "I.C. \"D. Cimarosa\"",
+        "I.C. “Basile Don Milani” di Parete",
+        "Cambridge Assessment",
+        "Università della Campania Luigi Vanvitelli",
+        "Federico II",
+        "Suor Orsola Benincasa",
+        "Parthenope",
+        "LUISS",
+        "Bologna",
+        "Pisa",
+        "Camera di Commercio",
+        "Banca D’Italia",
+        "Unicredit",
+        "Confcommercio",
+        "Carabinieri",
+        "Guardia di Finanza",
+        "Esercito",
+        "Aeronautica",
+        "Marina militare"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni e accordi con imprese locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione rubriche valutative condivise, test d'ingresso, percorsi orientamento",
+      "target": "Docenti, studenti, genitori"
+    },
+    {
+      "titolo_attivita": "Commissione prove per classi parallele",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione test d'ingresso e in itinere",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Commissione di educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Elaborazione UDA interdisciplinari",
+      "target": "Consigli di classe"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Valorizzazione didattica a distanza",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Programmare per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione per competenze, UDA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Cambridge International Medical Sciences",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione all'esame IMAT per l'ammissione a corsi di medicina in inglese.",
+      "target": "Studenti del Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "PTCO (ex alternanza scuola-lavoro)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l'orientamento focalizzati sull’area medica e biomedica.",
+      "target": "Studenti del Liceo Scientifico Indirizzo Biomedico"
+    },
+    {
+      "titolo_attivita": "Olimpiadi disciplinari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni per stimolare competenze",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Peer to peer education",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Mentoring tra studenti per supporto e recupero",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "PCTO ingegneria e architettura",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO specifici per indirizzi",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO scienze della vita",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO specifici per indirizzi",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO giuridico-economico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO specifici per indirizzi",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Orientamento universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti e test di ammissione",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi PCTO attuati per l'anno scolastico 21_22",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Appuntamenti con il medico",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri seminariali su anatomia, fisiologia e biomeccanica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti specifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LTVC02000Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Formia** (LTVC02000Q) per il triennio 2022-2025. La scuola, situata nel territorio non metropolitano di **Formia** in provincia di **Latina** e regione **Lazio**, si configura come un istituto statale di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata, un'ampia rete di **partnership** e una chiara definizione delle finalità e degli obiettivi. Le attività registrate dimostrano una varietà di approcci, che spaziano dal **PCTO** all'orientamento universitario, passando per iniziative di potenziamento e recupero.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando un'attenzione strutturale all'area.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con **associazioni di categoria**, **imprese locali**, istituti scolastici di primo grado (**Scuola secondaria di primo grado “G. Pascoli”**, **I.C. “A. De Curtis”**, **I.C. “D. Cimarosa”**, **I.C. “Basile Don Milani” di Parete**), università (**Università della Campania Luigi Vanvitelli**, **Federico II**, **Suor Orsola Benincasa**, **Parthenope**, **LUISS**, **Bologna**, **Pisa**) e importanti enti (**Camera di Commercio**, **Banca D’Italia**, **Unicredit**, **Confcommercio**, **Carabinieri**, **Guardia di Finanza**, **Esercito**, **Aeronautica**, **Marina militare**). Il numero di partner, pari a 22, testimonia un forte radicamento nel territorio e una volontà di offrire agli studenti un'ampia gamma di opportunità.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità offerte dal contesto socio-economico. Ogni finalità ha ottenuto un punteggio di 4, evidenziando una coerenza e completezza nella visione strategica.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono scolastico**, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I primi tre obiettivi hanno ottenuto un punteggio di 4, mentre l'obiettivo di contrastare i NEET ha ottenuto un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. L'azione relativa al sistema integrato di inclusione e fragilità ha ottenuto un punteggio di 3, mentre le altre azioni hanno ottenuto un punteggio di 4, indicando un buon livello di implementazione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Tutte queste dimensioni hanno ottenuto un punteggio di 4, sottolineando un approccio didattico innovativo e centrato sullo studente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Queste attività hanno ottenuto punteggi variabili, con punteggi di 3 per le opzioni culturali e laboratoriali ed espressive, e punteggi inferiori (2) per le opzioni ludiche, ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica, dalla didattica alle partnership, dalle finalità agli obiettivi. L'ampia rete di collaborazioni con il territorio e le università offre agli studenti un'ampia gamma di opportunità di **PCTO** e di orientamento universitario. L'attenzione alla didattica orientativa, basata sull'esperienza, sulla flessibilità e sull'interdisciplinarità, favorisce un apprendimento significativo e coinvolgente. Attività come il **Percorso Cambridge International Medical Sciences** e il **PCTO** specifici per indirizzi dimostrano una forte attenzione alle esigenze degli studenti e alle richieste del mercato del lavoro.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza riguarda la scarsa valorizzazione delle opzioni ludiche, ricreative, di volontariato e sportive, che potrebbero contribuire a sviluppare le competenze trasversali e il benessere degli studenti. Anche l'obiettivo di contrastare il fenomeno dei **NEET**, pur essendo presente, potrebbe essere rafforzato con azioni più mirate e specifiche.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di diversificare ulteriormente l'offerta di attività opzionali e facoltative, al fine di rispondere alle diverse esigenze e interessi degli studenti. Inoltre, sarebbe opportuno potenziare le azioni volte a contrastare il fenomeno dei **NEET**, attraverso la collaborazione con enti e istituzioni competenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Formia** presenta una solida base per lo sviluppo di un'efficace azione di orientamento. La presenza di una sezione dedicata, l'ampia rete di **partnership**, la chiarezza delle finalità e degli obiettivi, e la varietà delle attività registrate, testimoniano un impegno significativo verso la crescita e il successo degli studenti. Superando le aree di debolezza individuate, la scuola potrà consolidare la sua posizione come punto di riferimento per l'orientamento nel territorio."
+}

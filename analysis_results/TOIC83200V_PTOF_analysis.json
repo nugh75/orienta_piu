@@ -1,0 +1,399 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOIC83200V",
+    "denominazione": "I.C. Trofarello",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Trofarello",
+    "anno_ptof": "2025-2028",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Xxiv Maggio 48",
+    "cap": "10028",
+    "email": "toic83200v@istruzione.it",
+    "pec": "toic83200v@pec.istruzione.it",
+    "website": "www.ictrofarello.edu.it",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Musei",
+        "Istituti pubblici",
+        "Istituti privati",
+        "Associazioni del terzo settore",
+        "Imprese",
+        "Enti locali",
+        "realtà istituzionali, culturali, sociali ed economiche",
+        "ASL",
+        "Protezione Civile",
+        "Ser.D",
+        "Centri giovanili",
+        "IST - International School of Turin",
+        "Istituto Superiore di Sanità",
+        "enti di ricerca nazionali",
+        "Consorzio COVAR14",
+        "Sodexo",
+        "Altre scuole",
+        "Fondazione Camillo Benso Di Cavour",
+        "Rizzoli Education",
+        "Biblioteca Comunale",
+        "Rifugio Albero di Mais",
+        "CRI di Trofarello"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento competenze linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali, studio della grammatica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze STEM",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Pedibus",
+      "categoria_principale": "Mobilità sostenibile",
+      "descrizione_e_metodologia": "Percorso a piedi verso la scuola per promuovere la sicurezza e l'inclusione.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visita al Comune",
+      "categoria_principale": "Conoscenza del territorio",
+      "descrizione_e_metodologia": "Passeggiata dal plesso scolastico alla sede del Comune.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto ISS",
+      "categoria_principale": "STEM/Salute",
+      "descrizione_e_metodologia": "Laboratori e percorsi di ricerca guidata su scienza, salute e cittadinanza attiva.",
+      "target": "Tutti i cicli"
+    },
+    {
+      "titolo_attivita": "Progetto Cinema",
+      "categoria_principale": "STEM/Arte",
+      "descrizione_e_metodologia": "Utilizzo del cinema come strumento di apprendimento interdisciplinare.",
+      "target": "Tutti i cicli"
+    },
+    {
+      "titolo_attivita": "D.M. 65/2023",
+      "categoria_principale": "STEM/Digitale",
+      "descrizione_e_metodologia": "Laboratori STEM, digitali e innovazione con stampa 3D e podcast.",
+      "target": "Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Programma Erasmus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità docenti, studenti, progetti transnazionali",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Accordi con IST",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Attività congiunte, formazione, esami",
+      "target": "Studenti, docenti"
+    },
+    {
+      "titolo_attivita": "Le avventure di Cavalier Covar - Missione Ambiente",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Attività didattiche sulla gestione dei rifiuti e sostenibilità",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Dai Cortometraggi Al...Cinema",
+      "categoria_principale": "Cinema e Media",
+      "descrizione_e_metodologia": "Cineforum per avvicinare i bambini al linguaggio cinematografico",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Oggi Cuciniamo Noi: Ricette Da Vivere E CONDIVIVERE",
+      "categoria_principale": "Alimentazione e Salute",
+      "descrizione_e_metodologia": "Laboratori di preparazione alimenti con famiglie e ASL",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "MI MUOVO E SON CONTENTO",
+      "categoria_principale": "Motoria e Salute",
+      "descrizione_e_metodologia": "Laboratorio per favorire comunicazione, relazione e creatività",
+      "target": "Scuola dell'Infanzia e Primavera"
+    },
+    {
+      "titolo_attivita": "SLOW FOOD ITALIA: ORTI A SCUOLA",
+      "categoria_principale": "Educazione Ambientale e Alimentare",
+      "descrizione_e_metodologia": "Realizzazione e cura di orti didattici",
+      "target": "Tutto l'istituto"
+    },
+    {
+      "titolo_attivita": "DALL'ORTO ALL'ARTE",
+      "categoria_principale": "Arte e Natura",
+      "descrizione_e_metodologia": "Cucina, giardinaggio, attività grafico-pittoriche",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Cooperative learning",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività collaborative per promuovere l'apprendimento",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Uso di nuove tecnologie",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di strumenti digitali per l'apprendimento",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Personalizzazione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Adattamento delle attività alle esigenze individuali",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Aaa-A Scuola Con Gli Animali... Per Noi",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Educazione assistita con gli animali (EAA)",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Un Patentito Per Lo Smartphone",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività in classe con Forze dell'Ordine",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Educazione All'Affettivita'",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Confronto qualificato sulla sessualità",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Covar 14: Plastic Free",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Incontro con educatore ambientale",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Covar 14: Littering? No Grazie",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Incontro con educatore ambientale",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "A Scuola Con Le Api",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Osservazione api in teca",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Alcol Tra Divertimento E Rischio (Junior)",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività in classe e incontro interattivo",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Padel",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Lezioni tecniche e giochi",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Tiro Con L'Arco",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Pratica del tiro con l'arco",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Nuoto",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Acquaticità e stili natatori",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Baskin",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportiva ispirata al basket",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Una Canzone Per La Parita'",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Gioco di ruolo e creazione di canzoni",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "GEMELLAGGIO con INTERNATIONAL SCHOOL of TURIN",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Visite, formazione e attività co-progettate",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "La Mia Classe E' La Palestina",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Gioco di ruolo sul conflitto arabo-palestinese",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Il nuovo PEI informatizzato",
+      "categoria_principale": "Inclusione e disabilità",
+      "descrizione_e_metodologia": "Formazione compilazione PEI digitale",
+      "target": "docenti di sostegno"
+    },
+    {
+      "titolo_attivita": "Orti scolastici Slow Food",
+      "categoria_principale": "Discipline scientifiche",
+      "descrizione_e_metodologia": "Creazione orti scolastici per educazione alimentare",
+      "target": "Gruppo docenti ad hoc"
+    },
+    {
+      "titolo_attivita": "I mercoledì di Sapie",
+      "categoria_principale": "Metodologie didattiche innovative",
+      "descrizione_e_metodologia": "Webinar su metodologie didattiche efficaci",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Formazione anno di prova",
+      "categoria_principale": "Autonomia didattica e organizzativa",
+      "descrizione_e_metodologia": "Attività interne per sviluppo competenze",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Corsi erogati dall'ente formativo Rizzoli Education",
+      "categoria_principale": "Competenze digitali e nuovi ambienti per l'apprendimento",
+      "descrizione_e_metodologia": "Corsi su metodologie innovative, AI, etc.",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Circolo di Lettura - Secondaria",
+      "categoria_principale": "Discipline umanistiche",
+      "descrizione_e_metodologia": "Gruppo di lettura tra colleghi",
+      "target": "Docenti di specifiche discipline"
+    },
+    {
+      "titolo_attivita": "RNFS – Rete nazionale formazione Caselette",
+      "categoria_principale": "Competenze digitali e nuovi ambienti per l'apprendimento",
+      "descrizione_e_metodologia": "Workshop su Intelligenza artificiale",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sul nuovo sito web",
+      "categoria_principale": "Gestione tecnica",
+      "descrizione_e_metodologia": "Formazione on line",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Gestione dei contratti",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Attività in presenza e on line",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Gestione delle piattaforme di approvvigionamento",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Formazione on line",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "La gestione delle pratiche pensionistiche",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Attività in presenza e on line",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOIC83200V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Trofarello (TOIC83200V) per il periodo 2025-2028, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio metropolitano della provincia di Torino e regione Piemonte, si configura come un comprensivo che abbraccia i gradi di infanzia, primaria, secondaria di primo e secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una varietà di azioni didattiche e sistemiche. Il PTOF dimostra una chiara attenzione allo sviluppo delle **attitudini**, degli **interessi** e dei progetti di **vita** degli studenti, nonché alla facilitazione delle **transizioni formative** e alla valorizzazione delle **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, indicando un'attenzione specifica a questo ambito cruciale.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di **partnership** con diversi soggetti, tra cui **Musei**, **Istituti pubblici** e **privati**, **Associazioni del terzo settore**, **Imprese**, **Enti locali**, **realtà istituzionali, culturali, sociali ed economiche**, **ASL**, **Protezione Civile**, **Ser.D**, **Centri giovanili**, **IST - International School of Turin**, **Istituto Superiore di Sanità**, **enti di ricerca nazionali**, **Consorzio COVAR14**, **Sodexo**, **Altre scuole**, **Fondazione Camillo Benso Di Cavour**, **Rizzoli Education**, **Biblioteca Comunale**, **Rifugio Albero di Mais** e **CRI di Trofarello**. Questa vasta gamma di collaborazioni, per un totale di 22 partner, suggerisce un approccio integrato all'orientamento, che coinvolge diversi attori del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti e a supportarli nelle **transizioni formative**, potenziando le loro **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla promozione della continuità territoriale, sul contrasto al fenomeno dei **NEET** e sullo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando le opportunità di orientamento e di sviluppo personale degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica, dalla didattica alle azioni di sistema, passando per le partnership con il territorio. La vasta rete di collaborazioni con enti e istituzioni diverse offre agli studenti un'ampia gamma di opportunità di apprendimento e di orientamento. L'attenzione allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, unitamente alla promozione del lifelong learning, dimostra una visione lungimirante e orientata al futuro.\n\n### 4. Aree di Debolezza\n\nNon emergono aree di debolezza significative dall'analisi dei dati forniti. Tuttavia, sarebbe auspicabile una maggiore specificazione delle modalità di monitoraggio e valutazione delle azioni di orientamento, al fine di verificarne l'efficacia e di apportare eventuali correzioni.\n\n### 5. Gap Analysis\n\nL'analisi non evidenzia particolari gap tra gli obiettivi dichiarati nel PTOF e le azioni previste. L'istituto sembra aver strutturato un sistema di orientamento completo e coerente, in grado di rispondere alle esigenze degli studenti e del territorio.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Trofarello (TOIC83200V) presenta un approccio solido e ben strutturato all'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership**, la chiarezza delle finalità e degli obiettivi, l'integrazione dell'orientamento nella didattica e nelle azioni di sistema, nonché l'offerta di opzionali diversificate, costituiscono un insieme di elementi che fanno di questo PTOF un documento valido e promettente per il futuro degli studenti. Le attività registrate, come **Potenziamento competenze linguistiche**, **Potenziamento competenze STEM**, **Pedibus**, **Visita al Comune**, **Progetto ISS**, **Progetto Cinema**, **D.M. 65/2023**, **Programma Erasmus**, **Accordi con IST**, **Le avventure di Cavalier Covar - Missione Ambiente** e molte altre, testimoniano un impegno concreto nella realizzazione di un'offerta formativa ricca e diversificata."
+}

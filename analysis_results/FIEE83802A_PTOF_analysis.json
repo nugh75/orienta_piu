@@ -1,0 +1,336 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIEE83802A",
+    "denominazione": "Ic Galluzzo",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Firenze",
+    "anno_ptof": "2022/2025",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Di Tozzoli1",
+    "cap": "50125",
+    "email": "fiic838007@istruzione.it",
+    "pec": "scuolaparitariacampussrls@legalmail.it",
+    "website": "https//www.icgalluzzo.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "organizzazioni del terzo settore",
+        "imprese",
+        "musei",
+        "istituti pubblici e privati",
+        "Comune di Pagani",
+        "ASL Fg",
+        "Associazione Superamento Handicap",
+        "altre scuole",
+        "università",
+        "enti di ricerca",
+        "associazioni sportive",
+        "aziende private",
+        "ASI"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi per le competenze trasversali e l’orientamento (PCTO)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività laboratoriali e di simulazione di impresa",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incremento dell'alternanza scuola-lavoro",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di potenziamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Metodologie laboratoriali e attività di laboratorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Conoscenza codice stradale e sensibilizzazione al rispetto delle norme.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Lingue",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Compresenza insegnanti madrelingua, attività in orario curriculare e pomeridiano.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Vivi la Biblioteca",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Avvicinare i ragazzi alla lettura e all'uso delle risorse di conoscenza.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "EIPASS",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione competenze informatiche.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Realizzazione di attività per lo sviluppo delle competenze digitali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con università, associazioni, terzo settore e imprese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento strumenti didattici e laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Miglioramento formazione e processi di innovazione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti per l'innovazione didattica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Sviluppo cultura digitale per competenze lavorative, cognitive e sociali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Definizione criteri per l'adozione di testi didattici digitali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Produzione e diffusione di materiali didattici autonomi.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Creazione laboratori territoriali",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Orientamento didattica ai settori strategici del Made in Italy.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "DDI",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di piattaforme WeSchool e Jitsi Meet",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica per Competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione unità di apprendimento, rubriche, compiti autentici.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Innovativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sperimentazione nuovi modi di fare scuola, metodologie inclusive.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Gesti salvavita, manovre di disostruzione.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza Nei Luoghi Di Lavoro",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Nozioni e procedure per ridurre i rischi.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Redazione PDP",
+      "categoria_principale": "BES",
+      "descrizione_e_metodologia": "Elaborazione di percorsi individualizzati",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti compensativi e dispensativi",
+      "categoria_principale": "DSA",
+      "descrizione_e_metodologia": "Applicazione misure previste dalla legge 170",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Giornata Nazionale contro il Bullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Sensibilizzazione studenti e comunità",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Seminario di formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Intervento con esperti esterni",
+      "target": "Docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "Conferenza Bullismo e legalità",
+      "categoria_principale": "Sensibilizzazione",
+      "descrizione_e_metodologia": "Evento sul territorio",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Progetto educazione all'empatia",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Lavoro sulle competenze trasversali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione alunni uso consapevole rete",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Interventi nelle classi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario rilevazione rischio",
+      "categoria_principale": "Monitoraggio",
+      "descrizione_e_metodologia": "Compilazione anonima",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cassetta postale segnalazioni",
+      "categoria_principale": "Segnalazione",
+      "descrizione_e_metodologia": "Raccolta segnalazioni anonime",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Iniziative di collaborazione con enti territoriali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione di progetti con ASI",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo di Accoglienza",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Definizione procedure accoglienza alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Laboratori di italiano L2",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Supporto linguistico",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Progetti per alunni con BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi individualizzati e personalizzati, PEI, PDP",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Progetto Multiculturale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza alunni stranieri, valorizzazione culture",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Sport e disabilità",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto in rete con associazioni sportive",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Prevenzione Contagio Covid 19",
+      "categoria_principale": "Salute e Sicurezza",
+      "descrizione_e_metodologia": "Definizione di protocolli per la frequenza scolastica in sicurezza.",
+      "target": "Studenti, Famiglie, Personale"
+    },
+    {
+      "titolo_attivita": "Prevenzione Bullismo e Cyberbullismo",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Organizzazione di attività di informazione e prevenzione.",
+      "target": "Studenti, Famiglie, Personale"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIEE83802A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Primario \"Damiano Chiesa\" (ID FIEE83802A) relativo all'anno scolastico 2022/2025, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio metropolitano di Firenze, si distingue per un approccio proattivo all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. Il PTOF dimostra un impegno significativo nella costruzione di **partnership** con diversi soggetti esterni, tra cui **organizzazioni del terzo settore**, **imprese**, **musei**, **istituti pubblici e privati**, il **Comune di Pagani**, l'**ASL Fg**, l'**Associazione Superamento Handicap**, altre **scuole**, **università**, **enti di ricerca**, **associazioni sportive**, **aziende private** e l'**ASI**. L'orientamento è concepito come un processo volto a sviluppare **attitudini**, **interessi**, un **progetto di vita**, facilitare le **transizioni formative** e potenziare le **capacità orientative** degli studenti rispetto alle opportunità disponibili.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7, il che indica un'attenzione strutturale a questa area.\n\n**2.2 Partnership:** L'istituto ha stabilito un numero considerevole di **partnership** (7), dimostrando una forte volontà di collaborare con il territorio e con diverse realtà esterne per arricchire l'offerta formativa e orientare gli studenti verso percorsi significativi.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la costruzione di un **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** degli studenti. Ogni finalità ha ottenuto un punteggio di 5, indicando un'attenzione equilibrata a tutti gli aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono** scolastico, sulla continuità con il **territorio**, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 5.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Ogni azione ha ottenuto un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. La didattica laboratoriale, tuttavia, ha ottenuto un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi in questa sezione variano tra 3 e 4, indicando un'offerta diversificata ma con margini di sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** e degli **obiettivi**, e nella coerenza delle **azioni di sistema**. L'istituto dimostra un impegno concreto nell'offrire agli studenti opportunità di apprendimento esperienziale e di sviluppo delle competenze trasversali, come evidenziato dalle attività **Percorsi per le competenze trasversali e l’orientamento (PCTO)** e **Alternanza scuola-lavoro**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la didattica **laboratoriale**, che ha ottenuto un punteggio inferiore rispetto alle altre dimensioni. Anche l'offerta di attività opzionali e facoltative potrebbe essere ulteriormente ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di potenziare le attività **laboratoriali** e di ampliare l'offerta di **opzionali** per rispondere in modo più efficace alle diverse esigenze e interessi degli studenti. È importante investire nella formazione dei docenti per favorire l'implementazione di metodologie didattiche innovative e coinvolgenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Primario \"Damiano Chiesa\" presenta un approccio solido e ben strutturato all'orientamento. L'istituto dimostra un forte impegno nel fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire un **progetto di vita** consapevole e responsabile. Il potenziamento delle attività **laboratoriali** e l'ampliamento dell'offerta di **opzionali** rappresentano aree di miglioramento che potrebbero contribuire a rendere il PTOF ancora più efficace e completo. Le attività come **Vivi la Biblioteca**, **EIPASS**, **Creazione laboratori territoriali** e i progetti dedicati agli alunni con **BES** e **DSA** dimostrano un'attenzione all'inclusione e alla valorizzazione delle diversità."
+}

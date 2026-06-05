@@ -1,0 +1,318 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VRIC89800D",
+    "denominazione": "Ic 01 Legnago",
+    "tipo_scuola": "Comprensivo",
+    "ordine_grado": "Comprensivo",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Legnago",
+    "anno_ptof": "2019/2022",
+    "provincia": "Verona",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via G. Vicentini 13",
+    "cap": "37045",
+    "email": "vric89800d@istruzione.it",
+    "pec": "vric89800d@pec.istruzione.it",
+    "website": "https//www.legnago1.edu.it/",
+    "tipo_scuola_dettaglio": "Istituto Comprensivo"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Protezione Civile “Le Aquile”",
+        "Misericordia di Chiusano S. Domenico",
+        "Consorzio dei Servizi Sociali",
+        "ASL di Atripalda",
+        "Fondazione Telethon",
+        "Università di Salerno",
+        "Pro Loco Montemarano, Volturara, Castel Vetere",
+        "Fraternita Misericordia",
+        "genitori",
+        "figure parentali",
+        "sindaco",
+        "parroco",
+        "nonni"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto “Cresciamo sicuri”,",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Collaborazione con Protezione Civile e Misericordia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto AVIS",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione con sezione AVIS",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla Salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione con ASL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "LEGALITÀ/SALUTE/AMBIENTE/ED. STRADALE",
+      "categoria_principale": "Progetti trasversali",
+      "descrizione_e_metodologia": "Tematiche separate che mettono al centro l'individuo, gli altri, l'ambiente e le regole.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura: “La Biblioteca A Scuola”",
+      "categoria_principale": "Promozione lettura",
+      "descrizione_e_metodologia": "Promuovere il piacere della lettura e l'arricchimento del pensiero.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Recupero E Potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Prove di italiano/matematica strutturate con metodologia Invalsi.",
+      "target": "Classi seconde, terze e quinte Primaria"
+    },
+    {
+      "titolo_attivita": "English For All",
+      "categoria_principale": "Lingua straniera",
+      "descrizione_e_metodologia": "Sviluppo competenze comunicative e culturali in inglese.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sport Di Classe",
+      "categoria_principale": "Educazione fisica",
+      "descrizione_e_metodologia": "Attività sportive con tecnico federale.",
+      "target": "Studenti Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Accoglienza",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Creare un ambiente sereno e socializzante per i nuovi alunni.",
+      "target": "Nuovi alunni"
+    },
+    {
+      "titolo_attivita": "Continuità E Orientamento",
+      "categoria_principale": "Continuità/Orientamento",
+      "descrizione_e_metodologia": "Sostenere il passaggio tra diversi ordini di scuola.",
+      "target": "Studenti in transizione"
+    },
+    {
+      "titolo_attivita": "Laboratori di coding e robotica educativa",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Sperimentazione di laboratori pratici per stimolare il pensiero computazionale",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Percorsi extrascolastici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Potenziare attitudini disciplinari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi aperte, laboratori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Ricerca-azione, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Competenze di Sistema",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Ricerca-azione, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Competenze per il 21mo Secolo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Ricerca-azione, Mappatura competenze",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Competenze per una Scuola Inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Piano di Formazione Personale ATA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, Formazione online",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Attività espressive e manipolative",
+      "categoria_principale": "Linguistico-Espressivo",
+      "descrizione_e_metodologia": "Utilizzo di materiali diversi per esprimere emozioni e raccontare storie.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Giochi di movimento",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Esplorazione del corpo e del movimento attraverso giochi individuali e di gruppo.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Esplorazione del mondo",
+      "categoria_principale": "Conoscenza del Mondo",
+      "descrizione_e_metodologia": "Osservazione e scoperta dell'ambiente circostante.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Discussione guidata con domande-stimolo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Discussioni aperte per stimolare la riflessione.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cooperative Learning",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro di gruppo guidato o autonomo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Didattica Laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Esperienze pratiche individuali o di gruppo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Problem solving",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Definizione collettiva di soluzioni.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Drammatizzazioni",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Espressione attraverso il gioco di ruolo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Uscite guidate sul territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimento norme stradali e civiche",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Visita alla biblioteca e museo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di laboratorio/ricerca",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Interviste",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Interviste a genitori, parroco",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Discussioni e Riflessioni",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Letture ed elaborazioni personali",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Apprendista giornalista",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Prestazione autentica",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VRIC89800D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic 01 Legnago** (VRIC89800D), relativo all'anno scolastico **2019/2022**. La scuola, situata nel territorio non metropolitano del Veneto, offre un percorso comprensivo che include i gradi della scuola dell'infanzia, primaria e secondaria di primo grado. L'analisi evidenzia una solida attenzione all'orientamento, supportata da una sezione dedicata, numerose **partnership** con enti esterni e una varietà di azioni didattiche e formative. Il PTOF dimostra un impegno nel ridurre l'abbandono scolastico, favorire la continuità territoriale e promuovere il **lifelong learning**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una chiara e ben definita sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5.\n\n**2.2 Partnership:** La scuola ha stabilito collaborazioni con diversi soggetti esterni, tra cui **Protezione Civile “Le Aquile”**, **Misericordia di Chiusano S. Domenico**, **Consorzio dei Servizi Sociali**, **ASL di Atripalda**, **Fondazione Telethon**, **Università di Salerno**, **Pro Loco Montemarano, Volturara, Castel Vetere**, **Fraternita Misericordia**, **genitori**, **figure parentali**, **sindaco**, **parroco** e **nonni**. Questo network di **partnership** (un totale di 9) rappresenta una risorsa importante per ampliare l'offerta formativa e offrire agli studenti opportunità di apprendimento pratico e orientamento al mondo del lavoro e alla cittadinanza attiva.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** e le capacità di orientamento degli studenti, facilitando le loro **transizioni formative**. Tutti i campi relativi alle finalità hanno ottenuto un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico, il rafforzamento del legame con il territorio, il contrasto alla dispersione formativa (fenomeno **NEET**) e la promozione dell'apprendimento permanente. L'obiettivo di continuità territoriale risulta particolarmente ben definito, con un punteggio di 4, mentre gli altri obiettivi ottengono un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e il monitoraggio delle attività. Particolare attenzione è rivolta alla creazione di un sistema integrato di inclusione e supporto alle fragilità, con punteggi di 4 per tutte le azioni.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'approccio basato sull'esperienza studentesca e la flessibilità didattica ottengono un punteggio di 4, mentre la didattica laboratoriale un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, offrendo agli studenti la possibilità di approfondire i propri interessi e sviluppare nuove competenze. Tutte le opzionali ottengono un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua attenzione all'orientamento, supportata da una sezione dedicata, una rete di **partnership** consolidata e una varietà di attività didattiche e formative. L'impegno nel coinvolgimento delle famiglie e degli enti locali, come dimostrato dai progetti \"**Progetto “Cresciamo sicuri”**\", \"**Progetto AVIS**\" e \"**Educazione alla Salute**\", rappresenta un valore aggiunto significativo. L'offerta di attività trasversali come \"**LEGALITÀ/SALUTE/AMBIENTE/ED. STRADALE**\" e l'attenzione alla promozione della lettura con \"**Progetto Lettura: “La Biblioteca A Scuola”**\" contribuiscono a formare cittadini consapevoli e responsabili.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno **NEET**, che ottengono un punteggio inferiore rispetto agli altri. Potrebbe essere utile definire strategie più specifiche e mirate per affrontare queste problematiche.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi generali in azioni concrete e misurabili. Sebbene il PTOF preveda numerose attività, sarebbe opportuno definire indicatori di performance specifici per monitorare l'efficacia delle azioni intraprese e valutare il raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Ic 01 Legnago** dimostra un forte impegno verso l'orientamento e la formazione dei propri studenti. La presenza di una sezione dedicata, una solida rete di **partnership** e una varietà di attività didattiche e formative rappresentano un punto di forza significativo. Pur riconoscendo alcune aree di debolezza, il PTOF si presenta come un documento completo e ben strutturato, in grado di fornire una guida efficace per l'azione educativa della scuola. Attività come \"**English For All**\", \"**Sport Di Classe**\", \"**Laboratori di coding e robotica educativa**\" e \"**Percorsi extrascolastici**\" dimostrano un'offerta formativa ricca e diversificata. L'impegno nella formazione del personale, con attività come \"**Formazione del personale**\", \"**Competenze di Sistema**\", \"**Competenze per il 21mo Secolo**\" e \"**Competenze per una Scuola Inclusiva**\", contribuisce a garantire la qualità dell'offerta formativa."
+}

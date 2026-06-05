@@ -1,0 +1,238 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "REAA84401L",
+    "denominazione": "Quattro Castella/Vezzano",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Quattro Castella",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Emilia",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Vespucci 4",
+    "cap": "42020",
+    "email": "reic84400q@istruzione.it",
+    "pec": "ceps02000t@pec.istruzione.it",
+    "website": "http//www.ic4cv.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "associazioni di categoria",
+        "imprese locali",
+        "Università “L. Vanvitelli”",
+        "Scuola secondaria di primo grado \"G. Pascoli\"",
+        "I.C. \"A. De Curtis\"",
+        "I.C. \"D. Cimarosa\"",
+        "I.C. “Basile Don Milani” di Parete",
+        "Cambridge Assessment",
+        "Università",
+        "Imprese",
+        "Enti del terzo settore"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni e accordi con imprese locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione rubriche valutative condivise, test d’ingresso, percorsi di orientamento",
+      "target": "Docenti, studenti, genitori"
+    },
+    {
+      "titolo_attivita": "Commissione prove per classi parallele",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione test d'ingresso e in itinere",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Commissione di educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Elaborazione UDA interdisciplinari",
+      "target": "Consigli di classe"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Valorizzazione didattica a distanza",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Programmare per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione per competenze, UDA",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi per le competenze trasversali e l'orientamento (PTCO)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi focalizzati sull’area medica e biomedica",
+      "target": "Studenti Liceo Biomedico"
+    },
+    {
+      "titolo_attivita": "Certificazione di lingua inglese livello B1",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Approfondimento con docente madrelingua",
+      "target": "Studenti Liceo Cambridge"
+    },
+    {
+      "titolo_attivita": "Laboratori di matematica e fisica",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Attività pratiche e sperimentali",
+      "target": "Studenti Liceo Matematico Potenziato"
+    },
+    {
+      "titolo_attivita": "PCTO Ingegneria e Architettura",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage in aziende del settore",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO Scienze della Vita",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Laboratori e visite guidate",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO Giuridico-Economico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Simulazioni e incontri con professionisti",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi PCTO attuati nell'anno scolastico 21_22",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Appuntamenti con il medico",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri seminariali su anatomia, fisiologia e biomeccanica umana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi disciplinari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni per stimolare competenze",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Peer to peer education",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Mentoring tra studenti per supporto e recupero",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di alternanza scuola-lavoro",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Progetti di educazione civica",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF REAA84401L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia **Montecavolo-L'Albero D.Farfalle** (REAA84401L), relativo al triennio 2022-2025. La scuola, situata nel territorio non metropolitano di Quattro Castella, in provincia di Reggio Emilia e regione Emilia Romagna, è un istituto statale. L'analisi si basa sui dati forniti, con particolare attenzione ai punteggi assegnati alle diverse dimensioni dell'orientamento e alle attività registrate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio medio elevato nelle finalità e nella didattica orientativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF dedica uno spazio specifico all'orientamento, ottenendo un punteggio di 2.\n\n**2.2 Partnership:** La scuola vanta un network di partnership ampio e diversificato, comprendendo **associazioni di categoria**, **imprese locali**, l'**Università “L. Vanvitelli”**, diverse scuole secondarie di primo grado (**Scuola secondaria di primo grado \\\"G. Pascoli\\\"\", I.C. \\\"A. De Curtis\\\"\", I.C. \\\"D. Cimarosa\\\"\", I.C. “Basile Don Milani” di Parete**), **Cambridge Assessment**, altre **Università**, **Imprese**, ed **Enti del terzo settore**. Il numero di partner nominati è pari a 13, con un punteggio di 3.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** rispetto alle opportunità, tutte aree che ricevono un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**, con un punteggio di 3 per ciascuna area.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**, tutte con un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**, con punteggi di 4 per le prime due e le ultime aree, e 3 per la didattica laboratoriale.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara definizione delle finalità dell'orientamento, nell'ampio network di partnership attivate e nell'approccio didattico orientativo che valorizza l'esperienza diretta degli studenti e l'interdisciplinarità. L'attenzione alle competenze trasversali e all'orientamento è evidente nelle attività registrate, come il **PCTO** e il **curricolo verticale**.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza sembrano concentrarsi sulla necessità di rafforzare le azioni di sistema e l'offerta di attività opzionali, che ottengono punteggi inferiori rispetto alle finalità e alla didattica. Il punteggio relativamente basso nell'orientamento sezione dedicata suggerisce che potrebbe essere necessario ampliare ulteriormente la trattazione di questo tema all'interno del PTOF.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella traduzione dei buoni punteggi ottenuti nelle finalità e nella didattica in azioni concrete e misurabili. Sebbene siano presenti diverse attività di **PCTO**, è necessario un monitoraggio più sistematico per valutarne l'efficacia e l'impatto sugli studenti. Inoltre, sarebbe opportuno potenziare le attività opzionali per offrire agli studenti una gamma più ampia di opportunità di approfondimento e sviluppo personale.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola **Montecavolo-L'Albero D.Farfalle** dimostra un impegno significativo verso l'orientamento, con una solida base teorica e un'offerta didattica promettente. Per massimizzare l'efficacia delle azioni intraprese, è necessario concentrarsi sul rafforzamento delle azioni di sistema, sull'ampliamento dell'offerta di attività opzionali e sul monitoraggio costante dei risultati ottenuti. L'attenzione alle **competenze trasversali**, al **PCTO** e alle partnership rappresenta un valore aggiunto che può contribuire a migliorare la preparazione degli studenti per il futuro."
+}

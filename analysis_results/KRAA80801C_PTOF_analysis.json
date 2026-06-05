@@ -1,0 +1,342 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "KRAA80801C",
+    "denominazione": "I.C. Scandale",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "San Mauro Marchesato",
+    "anno_ptof": "2019-2022",
+    "provincia": "Crotone",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Valle Della Noce S. Mauro M.",
+    "cap": "88831",
+    "email": "kric80800g@istruzione.it",
+    "pec": "ND",
+    "website": "www.icscandale.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente orientamento integrato nella programmazione generale."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti Locali",
+        "Associazioni",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "esperti esterni",
+        "volontari",
+        "genitori",
+        "Università Macerata",
+        "Università Camerino",
+        "L’Aquila",
+        "Conservatorio Pergolesi",
+        "Istituto di Teologia",
+        "Fondo Ambientale Italiano (FAI)",
+        "Club Alpino Italiano (CAI)",
+        "Comunità di Capodarco",
+        "ASPEI",
+        "Prefettura di Fermo",
+        "ASUR"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi per le competenze chiave di cittadinanza",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Utilizzo metodologie laboratoriali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Miglioramento competenze logico-matematiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Utilizzo metodologie laboratoriali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Miglioramento competenze linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Laboratori linguistici L2",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Biblioteca",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Prestito libri, coinvolgimento famiglie",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cronisti di Classe",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Produzione articoli giornale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "FAI",
+      "categoria_principale": "Arte/Ambiente",
+      "descrizione_e_metodologia": "Studio opere artistiche/ambientali, ruolo ciceroni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi matematici",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Organizzazione giochi matematici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Maestra Natura",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Insegnamento sperimentale scienze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "It’s English time",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Progetto lingua inglese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "e-twinning",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Scambi culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettorato",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Presenza madrelingua",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Metodologia CLIL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educhange",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Accoglienza studenti universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali/musicali",
+      "categoria_principale": "Arte/Musica",
+      "descrizione_e_metodologia": "Organizzazione spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Crescere con la musica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Propedeutica musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica per tutti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Studio strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Opera Domani",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Ascolto opera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Promozione Accesso Servizi Integrazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi personalizzati, collaborazione territorio",
+      "target": "Alunni svantaggiati"
+    },
+    {
+      "titolo_attivita": "Progetto Musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Valorizzazione diversità, integrazione",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Psicologia Scolastica",
+      "categoria_principale": "Supporto Psicologico",
+      "descrizione_e_metodologia": "Sportello ascolto, orientamento",
+      "target": "Alunni, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Convenzione Aiesec Progetto Educhange",
+      "categoria_principale": "Scambi Culturali",
+      "descrizione_e_metodologia": "Volontari da altri paesi presentano cultura e argomenti generali.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Formazione Registro Elettronico",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione su registro elettronico e documentazione.",
+      "target": "AA"
+    },
+    {
+      "titolo_attivita": "Formazione e-twinning",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione per docenti di inglese.",
+      "target": "Docenti aderenti lingua inglese"
+    },
+    {
+      "titolo_attivita": "Formazione Asur",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Progetti Ministero della Salute (Unplugged, Stand by me, Life Skills).",
+      "target": "Docenti aderenti nei team di classe/sezione"
+    },
+    {
+      "titolo_attivita": "Formazione PNSD",
+      "categoria_principale": "Formazione Docenti/ATA",
+      "descrizione_e_metodologia": "Formazione da Ambito.",
+      "target": "Docenti/AA aderenti"
+    },
+    {
+      "titolo_attivita": "Didattica della matematica",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Proposta Ambito.",
+      "target": "Docenti aderenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Gestione alunni problematiche comportamentali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Dott.ssa Cicconi.",
+      "target": "Docenti aderenti"
+    },
+    {
+      "titolo_attivita": "Somministrazione farmaci a scuola",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Micropan e Glucagone+manovra disostruzione.",
+      "target": "Docenti classi interessate da casi"
+    },
+    {
+      "titolo_attivita": "Percorsi interculturali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Sfide, riflessioni e strumenti.",
+      "target": "Docenti plessi ad elevata presenza alunni con cittadinanza non italiana"
+    },
+    {
+      "titolo_attivita": "Formazione ricerca-azione",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Insegnamento cittadinanza.",
+      "target": "Almeno un docente per classe"
+    },
+    {
+      "titolo_attivita": "Aggiornamento Primo Soccorso, Antiincendio",
+      "categoria_principale": "Formazione Docenti/ATA",
+      "descrizione_e_metodologia": "Formazione di base e specifica lavoratori.",
+      "target": "Docenti/AA da aggiornare"
+    },
+    {
+      "titolo_attivita": "Formazione Ed. Motoria",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Prof. Massimiliano Mecozzi (6 ore).",
+      "target": "Docenti scuola primaria aderenti"
+    },
+    {
+      "titolo_attivita": "Formazione Metodologia Yamaha",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Prima formazione ed aggiornamento.",
+      "target": "Docenti individuati (Onori, Pauri, Pasquarè, Romanelli)"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni e famiglie",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": null,
+      "target": "CS"
+    }
+  ],
+  "narrative": "# Analisi del PTOF KRAA80801C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del Plesso Valle Della Noce, scuola dell'infanzia statale situata nel comune di San Mauro Marchesato, provincia di Crotone, regione Calabria. Il PTOF, relativo al periodo 2019-2022, evidenzia un impegno significativo verso l'orientamento, integrato nella programmazione generale. La scuola dimostra una forte attenzione alle **partnership** con un ampio ventaglio di soggetti, tra cui **Enti Locali**, **Associazioni**, **Università Macerata**, **Università Camerino**, **L’Aquila**, **Conservatorio Pergolesi**, **Istituto di Teologia**, **Fondo Ambientale Italiano (FAI)**, **Club Alpino Italiano (CAI)**, **Comunità di Capodarco**, **ASPEI**, **Prefettura di Fermo**, **ASUR** e altri ancora, per un totale di 19 collaborazioni. Le finalità dell'orientamento sono orientate allo sviluppo di **attitudini**, **interessi**, **progetto di vita** e alla preparazione alle **transizioni formative**, con un focus sulle **capacità orientative** e le **opportunità** offerte.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Integrato:** L'orientamento è presente e integrato nella programmazione generale della scuola, come evidenziato dal punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di partnership (19), dimostrando una capacità di collaborare con diversi attori del territorio e del mondo accademico.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le potenzialità degli studenti in diverse aree, ottenendo un punteggio di 4 per ciascuna delle finalità considerate: **attitudini**, **interessi**, **progetto di vita** e **transizioni formative**, nonché per lo sviluppo delle **capacità orientative** e delle **opportunità**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi, con un punteggio di 5 per l'obiettivo di **ridurre l'abbandono** scolastico. Gli obiettivi di **continuita territoriale** e di **lifelong learning** ottengono un punteggio di 4 e 3 rispettivamente, mentre l'obiettivo di **contrastare i NEET** raggiunge un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate e comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni**. L'azione relativa al **sistema integrato di inclusione e fragilità** riceve un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, con un punteggio di 4. La didattica laboratoriale e la flessibilità degli spazi e dei tempi ottengono un punteggio di 3, mentre la didattica interdisciplinare si distingue con un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra 3 e 4.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte integrazione dell'orientamento nella programmazione scolastica, nell'ampio numero di **partnership** attivate e nella chiarezza delle **finalità** e degli **obiettivi**. L'impegno per la riduzione dell'**abbandono** scolastico è particolarmente degno di nota. La didattica orientativa, basata sull'esperienza e sull'interdisciplinarità, rappresenta un valore aggiunto. Le attività proposte, come **Percorsi per le competenze chiave di cittadinanza**, **Miglioramento competenze logico-matematiche** e **Miglioramento competenze linguistiche**, dimostrano un'attenzione alla crescita globale dello studente.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la necessità di potenziare gli obiettivi di **lifelong learning** e di **contrasto ai NEET**, che ottengono punteggi inferiori rispetto agli altri obiettivi. Inoltre, la didattica laboratoriale e la flessibilità degli spazi e dei tempi potrebbero essere ulteriormente sviluppate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di **lifelong learning** e di **contrasto ai NEET** in azioni concrete e misurabili. È necessario definire strategie specifiche per promuovere l'apprendimento continuo e per prevenire la dispersione scolastica e l'esclusione sociale.\n\n### 6. Conclusioni\n\nIl PTOF del Plesso Valle Della Noce si presenta come un documento ben strutturato e coerente, che pone l'orientamento al centro del processo educativo. La scuola dimostra una forte capacità di collaborare con il territorio e di offrire un'ampia gamma di opportunità agli studenti. Pur presentando alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per il miglioramento continuo dell'offerta formativa e per la realizzazione di un'educazione inclusiva e orientata al futuro. Le numerose attività proposte, come **FAI**, **Giochi matematici**, **Maestra Natura**, **It’s English time**, **e-twinning**, **CLIL**, **Educhange**, **Spettacoli teatrali/musicali**, **Psicologia Scolastica** e i vari corsi di **Formazione Docenti**, testimoniano un impegno costante verso la crescita professionale e personale di tutti i soggetti coinvolti."
+}

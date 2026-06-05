@@ -1,0 +1,282 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOSL01000C",
+    "denominazione": "Primo Liceo Artistico",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2016/2017, 2017/2018, 2018/2019",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Carcano 31",
+    "cap": "10153",
+    "email": "tosl01000c@istruzione.it",
+    "pec": "tosl01000c@pec.istruzione.it",
+    "website": "www.primoart.it",
+    "tipo_scuola_dettaglio": "Liceo Artistico"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'identità dell'istituto e progettazione educativa"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti locali",
+        "realtà istituzionali",
+        "associazioni dei genitori",
+        "agenzie formative",
+        "enti esterni",
+        "enti formativi",
+        "Facoltà di Architettura",
+        "Comune",
+        "Provincia di Gorizia",
+        "centri di ricerca",
+        "laboratori chimici e microbiologici",
+        "riserve e parchi naturali",
+        "servizi di igiene del lavoro",
+        "laboratori ospedalieri",
+        "studi odontoiatrici e veterinari",
+        "servizi di riabilitazione",
+        "industrie chimiche",
+        "industrie farmaceutiche",
+        "industrie alimentari",
+        "stakeholder",
+        "territorio",
+        "società",
+        "Università",
+        "associazioni",
+        "altri istituti"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Utilizzo di nuove tecnologie e didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Tematiche disciplinari, pluridisciplinari e trasversali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazioni con agenzie formative ed enti esterni",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Raccordo e coordinamento con il territorio",
+      "target": "Istituzione scolastica"
+    },
+    {
+      "titolo_attivita": "Esercizio della cittadinanza attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Cultura dell'accoglienza, integrazione, sicurezza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione AutoCAD 2D e 3D",
+      "categoria_principale": "Formazione professionale",
+      "descrizione_e_metodologia": "Corsi in collaborazione con enti formativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperienze di alternanza scuola/lavoro",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Conferenze, seminari, stage",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a concorsi artistici",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Partecipazione a concorsi a livello regionale, nazionale e internazionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "orientamento al termine del primo biennio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Scelta dell'articolazione del secondo biennio",
+      "target": "Studenti primo biennio"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage formativi e orientativi",
+      "target": "Studenti secondo biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Orientamento in entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di interazione con territorio e società",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Monitoraggio percorsi universitari, professionali e lavorativi",
+      "target": "Studenti in uscita"
+    },
+    {
+      "titolo_attivita": "Accoglienza e rapporti scuola/famiglia",
+      "categoria_principale": "Relazioni esterne",
+      "descrizione_e_metodologia": "Incontri, comunicazioni",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "acquisto Pialla a filo",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Fresa da banco toupie",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Troncatrice da banco",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Trapano a colonna",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Levigatrice a nastro",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Levigatrice media angolabile",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Stampante 3D",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio architettura",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Postazioni PC",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio informatica",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "acquisto Monitor LCD",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Acquisto attrezzatura laboratorio informatica",
+      "target": "studenti"
+    },
+    {
+      "titolo_attivita": "Collegamento ADSL banda ultralarga",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Collegamento fibra ottica",
+      "target": "istituto"
+    },
+    {
+      "titolo_attivita": "Realizzazione Aula Multifunzionale",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Creazione aula con PC e monitor",
+      "target": "istituto"
+    },
+    {
+      "titolo_attivita": "Potenziamento Firewall e WiFi",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Miglioramento rete",
+      "target": "istituto"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOSL01000C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto Primo Liceo Artistico (TOSL01000C), con particolare attenzione alla sezione dedicata all'orientamento. L'istituto, situato a Torino, in Piemonte, è una scuola statale di secondo grado. L'analisi si basa sui dati forniti relativi agli anni scolastici 2016/2017, 2017/2018 e 2018/2019. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata all'identità dell'istituto e alla progettazione educativa. L'istituto si distingue per una forte rete di **partnership** con diversi soggetti del territorio, tra cui **enti locali**, **realtà istituzionali**, **associazioni dei genitori**, **agenzie formative**, **Università** e diverse realtà produttive. Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, nonché alla facilitazione delle **transizioni formative** e allo sviluppo delle **capacità orientative** verso le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Identità e Progettazione Educativa:** Il PTOF presenta una solida sezione dedicata all'identità dell'istituto e alla progettazione educativa, ottenendo un punteggio di 3. Questo suggerisce un'attenzione alla definizione chiara del profilo dell'istituto e alla coerenza tra obiettivi educativi e azioni messe in atto.\n\n**2.2 Partnership:** La rete di **partnership** è un punto di forza del PTOF, con un punteggio di 5 e un elevato numero di partner nominati (9). L'istituto collabora attivamente con un ampio spettro di soggetti, tra cui **enti locali**, **associazioni**, **industrie** e **centri di ricerca**, dimostrando una forte integrazione con il **territorio** e la **società**.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo e ambizioso, con punteggi massimi (5) per tutte le aree considerate: sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, facilitazione delle **transizioni formative** e sviluppo delle **capacità orientative**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono mirati alla riduzione dell'**abbandono** scolastico, alla continuità con il **territorio**, al contrasto al fenomeno **NEET** e alla promozione del **lifelong learning**. I punteggi variano tra 3 e 4, indicando un impegno in queste aree, ma con margini di miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi, il dialogo tra **docenti** e **studenti**, il rapporto con le **famiglie**, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. I punteggi oscillano tra 3 e 4, suggerendo una buona implementazione di queste azioni, ma con la necessità di rafforzare il monitoraggio.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli **studenti**, sull'utilizzo di metodologie **laboratoriali**, sull'**interdisciplinarità** e, in misura minore, sulla flessibilità degli spazi e dei tempi. I punteggi sono alti (5) per le prime tre aree, mentre la flessibilità degli spazi e dei tempi ottiene un punteggio di 3.\n\n**2.7 Offerta di Attività Opzionali:** L'offerta di attività opzionali include opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi variano tra 3 e 4, indicando una buona varietà di offerta, ma con la possibilità di ampliare ulteriormente le opzioni disponibili.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la forte rete di **partnership** con il **territorio**, la chiarezza delle **finalità** dell'orientamento e l'utilizzo di metodologie didattiche innovative basate sull'esperienza e sulla **laboratorialità**. L'istituto dimostra un impegno concreto nella realizzazione di attività orientative, come l'**orientamento in entrata** e in **uscita**, l'**alternanza scuola/lavoro** e l'**esercizio della cittadinanza attiva**. L'investimento in **infrastrutture** per i laboratori di architettura e informatica è un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno **NEET**, che ottengono punteggi inferiori rispetto alle altre aree. Inoltre, la flessibilità degli spazi e dei tempi nella didattica orientativa e l'offerta di attività opzionali potrebbero essere ulteriormente ampliate. Il monitoraggio delle azioni messe in atto necessita di un rafforzamento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi ambiziosi in risultati concreti, in particolare per quanto riguarda la riduzione dell'**abbandono** scolastico e l'inserimento nel mondo del lavoro. È necessario un monitoraggio più efficace delle azioni messe in atto e una maggiore attenzione alla personalizzazione dei percorsi orientativi, tenendo conto delle specifiche esigenze e aspirazioni di ciascun **studente**.\n\n### 6. Conclusioni\n\nIl PTOF del Primo Liceo Artistico (TOSL01000C) presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. L'istituto dimostra un forte impegno verso lo sviluppo delle competenze orientative degli **studenti** e la loro integrazione nel **territorio**. Pur esistendo alcune aree di debolezza, il PTOF offre una solida base per il miglioramento continuo e la realizzazione di un sistema di orientamento efficace e innovativo. L'impegno nell'acquisto di nuove **infrastrutture** dimostra una volontà di modernizzare l'offerta formativa e fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro."
+}

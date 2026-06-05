@@ -1,0 +1,240 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PGTDEI500F",
+    "denominazione": "Istituto Superiore Paritario Leonardi",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Perugia",
+    "anno_ptof": "2025-2028",
+    "provincia": "Perugia",
+    "regione": "Umbria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Mario Angeloni N. 59",
+    "cap": "06124",
+    "email": "materne@karis.it",
+    "pec": "u.nicosrls@sicurezzapostale.it",
+    "website": "www.istitutoparitarioleonardi.it",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Accademia Rimini Calcio VB",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "CTS",
+        "CTI",
+        "servizi di zona"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre. Sviluppo psico-fisico.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Danza come linguaggio espressivo. Sviluppo fiducia in sé.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Istruttore minibasket con maestra. Giochi per base motoria.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Approccio al gruppo, sviluppo comunicazione, creatività.",
+      "target": "3, 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria propedeutica al calcio.",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie.",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale.",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Narrazione e gioco per consapevolezza fonologica.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione argilla, sviluppo manualità.",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppo creatività.",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale con coinvolgimento famiglie.",
+      "target": "Tutti i livelli scolastici"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per illustrare le attività scolastiche.",
+      "target": "Genitori, bambini, maestre"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Festa di Carnevale con drammatizzazione e coinvolgimento famiglie.",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a fattorie, musei, mercati, etc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa con maratonina, spettacoli e cene.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Promozione attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "learning by doing",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "Transizioni",
+      "descrizione_e_metodologia": "tra docenti",
+      "target": "alunni in transizione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PGTDEI500F\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Superiore Paritario Leonardi** (PGTDEI500F) per il periodo 2025-2028. L'istituto, di tipo **paritario** e situato nel comune di **Perugia**, serve un bacino d'utenza in area **non metropolitana**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni del sistema, l'approccio didattico e l'offerta di attività opzionali. La valutazione complessiva indica un impegno significativo verso l'orientamento, con particolare attenzione alla continuità territoriale e alla collaborazione con diversi partner.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita e dedicata all'orientamento, ottenendo un punteggio di 0.\n\n**2.2 Partnership:** L'istituto dimostra una forte capacità di creare e mantenere **partnership** con diversi soggetti del territorio. Sono stati individuati ben 13 partner, tra cui **Nido d’Infanzia Piccole tracce**, **Scuola Primaria**, il **Comune di Riccione**, l'**ASL**, la **Federazione Italiana Pallacanestro di Rimini**, l'**Accademia Rimini Calcio VB**, l'**Associazione Il Rischio educativo**, **Fism**, la **Diocesi di Rimini**, **Diesse**, **CTS**, **CTI** e i **servizi di zona**. Questo network di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi** e del **progetto di vita** degli studenti, con un punteggio di 3 per ciascuna area. Particolarmente rilevante è l'attenzione alle **transizioni formative**, con un punteggio di 4, che evidenzia l'impegno dell'istituto nel supportare gli studenti nei passaggi tra i diversi gradi di istruzione. La capacità di orientare verso le opportunità future risulta meno sviluppata, con un punteggio di 1.\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, la riduzione dell'**abbandono** scolastico e il contrasto al fenomeno **NEET** ricevono un punteggio di 1, suggerendo un'area di miglioramento. L'obiettivo di garantire la **continuità territoriale** ottiene un punteggio elevato (4), così come l'impegno per il **lifelong learning** (2).\n\n**2.5 Azioni del Sistema:** Le azioni messe in atto per supportare l'orientamento includono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 2), il **rapporto scuola-genitori** (punteggio 4) e il **monitoraggio delle azioni** (punteggio 3). L'implementazione di un **sistema integrato di inclusione e fragilità** riceve un punteggio di 3, sottolineando l'attenzione dell'istituto alle esigenze specifiche di ogni studente.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'**interdisciplinarità** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** (punteggio 1), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 2) e **sportive** (punteggio 4). L'ampia gamma di attività laboratoriali ed espressive rappresenta un punto di forza dell'offerta formativa.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la solida rete di **partnership** con il territorio, l'attenzione alle **transizioni formative** degli studenti e l'offerta diversificata di attività **laboratoriali ed espressive**. L'impegno per la **continuità territoriale** e il coinvolgimento delle famiglie sono ulteriori elementi positivi. Le attività registrate, come \"**Amico sport**\", \"**Laboratorio di Danza creativa**\", \"**Avviamento al gioco sport Basket**\", \"**Madrelingua inglese**\" e \"**Laboratorio di creta**\", dimostrano un approccio pratico e coinvolgente all'apprendimento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna. Anche gli obiettivi di riduzione dell'**abbandono** scolastico e contrasto al fenomeno **NEET** necessitano di maggiore attenzione. La capacità di orientare verso le opportunità future, con un punteggio di 1, è un'area di miglioramento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione specifica dell'orientamento all'interno del PTOF. Sebbene le azioni e le attività implementate siano valide, la loro integrazione in un quadro strategico più ampio potrebbe potenziarne l'efficacia. È necessario definire indicatori di performance per monitorare il raggiungimento degli obiettivi e valutare l'impatto delle azioni intraprese.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Istituto Superiore Paritario Leonardi** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta formativa diversificata. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è necessario colmare il divario rappresentato dall'assenza di una sezione dedicata all'orientamento e rafforzare gli obiettivi di contrasto all'**abbandono** scolastico e al fenomeno **NEET**. L'istituto dovrebbe concentrarsi sullo sviluppo di una strategia di orientamento più strutturata e sulla definizione di indicatori di performance per monitorare i progressi compiuti."
+}

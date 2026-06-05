@@ -1,0 +1,256 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMEE84402R",
+    "denominazione": "Via Boccea 590",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Casale Pantanelle 15",
+    "cap": "00166",
+    "email": "rmic84400n@istruzione.it",
+    "pec": "boic87900b@pec.istruzione.it",
+    "website": "www.icviaboccea590.edu.it/",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Non è presente una sezione dedicata specificamente all'orientamento. L'orientamento è affrontato all'interno di altre sezioni del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "musei universitari, comunali e statali",
+        "Quartiere",
+        "Città Metropolitana",
+        "Regione Emilia Romagna",
+        "enti",
+        "fondazioni",
+        "associazioni",
+        "Indire",
+        "Comune di Bologna",
+        "Alma Mater Studiorum – Università di Bologna",
+        "Università di Parma",
+        "Università della Basilicata",
+        "conservatorio \"G.B.Martini\"",
+        "fondazione Villa Ghigi",
+        "AUSER",
+        "IC 13",
+        "Istituto ISART"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Orto Circuito",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Laboratori afferenti al pensiero computazionale, realizzazione di progetti in 3D, robotica.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Percorso Montessori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorso a Metodo Montessori",
+      "target": "Alunni scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Percorso Musicale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lezioni individuali e a piccoli gruppi di strumento, teoria e orchestra.",
+      "target": "Alunni scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratori STEAM",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Utilizzo di stampanti 3D, robotica e coding per attività pratiche.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Orto didattico",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Creazione e gestione di orti scolastici per apprendere il ciclo produttivo.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "RiPENSAre: fare, creare, imparare",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Realizzazione ambienti apprendimento innovativi con Digital Board e realtà aumentata.",
+      "target": "Tutti gli alunni (48 aule)"
+    },
+    {
+      "titolo_attivita": "Playfull learning per i maker del futuro",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Sviluppo competenze cittadinanza digitale, creatività e lavoro di squadra con plotter, stampanti 3D, robotica.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Formazione personale scolastico sull'utilizzo strumenti innovativi e piattaforma Scuola Futura.",
+      "target": "20 unità di personale scolastico"
+    },
+    {
+      "titolo_attivita": "Girls Code it Better",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Programma per ridurre le disparità di genere",
+      "target": "Studentesse"
+    },
+    {
+      "titolo_attivita": "FabLab “Periferie creative”",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Laboratorio di fabbricazione digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Edugreen: laboratori di sostenibilità",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Realizzazione orto didattico con fornitura materiali e strumenti.",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Bologna a scuola si muove sostenibile - PEDIBUS",
+      "categoria_principale": "Mobilità sostenibile",
+      "descrizione_e_metodologia": "Organizzazione pedibus con genitori volontari.",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Formazione Outdoor Education",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Valorizzazione cultura Outdoor Education, benessere psicofisico, campi esperienza.",
+      "target": "Docenti scuola Fortuzzi"
+    },
+    {
+      "titolo_attivita": "Sperimentazione Montessori",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso di 160 ore, ricerca-azione, didattica attiva.",
+      "target": "Docenti classi sperimentali Montessori"
+    },
+    {
+      "titolo_attivita": "Ambienti Innovativi di Apprendimento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Strutturazione ambienti apprendimento, competenze digitali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "CQR",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Consiglio di Quartiere delle Ragazze e dei Ragazzi",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto continuità e accoglienza",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Attività e laboratori di accoglienza",
+      "target": "Primaria - Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori classi terze, incontri con esperti",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Sportello d’ascolto",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Consulenza psico-pedagogica",
+      "target": "Primaria - Secondaria"
+    },
+    {
+      "titolo_attivita": "eTwinning",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Progetti in lingua (inglese, francese, spagnolo) con scuole europee.",
+      "target": "Primaria e Secondaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMEE84402R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Pantan Monastero\" (RMEE84402R) per il triennio 2022-2025. L'analisi evidenzia una presenza diffusa di attività orientative integrate in diverse aree del PTOF, sebbene non sia presente una sezione specificamente dedicata all'orientamento. La scuola dimostra un impegno significativo nella creazione di **partnership** con enti locali, università e associazioni, e nell'offerta di attività didattiche e laboratoriali mirate allo sviluppo di competenze trasversali e all'orientamento degli studenti.\n\n### 2. Analisi Dimensionale\n\nL'orientamento, pur non essendo trattato in una sezione autonoma, permea diverse dimensioni del PTOF. Per quanto riguarda le **finalità**, l'istituto attribuisce importanza allo sviluppo di attitudini, interessi e progetti di vita degli studenti, nonché alla preparazione alle **transizioni formative** e alla consapevolezza delle opportunità. Gli **obiettivi** delineati includono la riduzione dell'abbandono scolastico, la continuità territoriale e il **lifelong learning**, con un punteggio inferiore per il contrasto al fenomeno NEET. Le **azioni** implementate si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle attività e la creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\nLa **didattica orientativa** si basa sull'apprendimento esperienziale, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità, con un punteggio inferiore per la didattica laboratoriale. L'offerta di **opzionali** è diversificata e comprende attività culturali, laboratoriali espressive, ludico-ricreative, sportive e di volontariato.\n\n### 3. Punti di Forza\n\nUn punto di forza del PTOF è la ricchezza e la varietà delle **attività** proposte. Tra queste, si segnalano **Orto Circuito**, **Percorso Montessori**, **Laboratori STEAM**, **Orto didattico**, **RiPENSAre: fare, creare, imparare** e **Playfull learning per i maker del futuro**. L'istituto investe nella **formazione docenti**, con iniziative come **Animatore digitale: formazione del personale interno**, **Formazione Outdoor Education**, **Sperimentazione Montessori** e **Ambienti Innovativi di Apprendimento**. La scuola si impegna attivamente nella promozione dell'inclusione, della sostenibilità (**Edugreen: laboratori di sostenibilità**, **Bologna a scuola si muove sostenibile - PEDIBUS**) e dell'educazione civica (**CQR**). Il progetto **eTwinning** favorisce l'internazionalizzazione e l'apprendimento delle lingue straniere.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza. Sebbene l'orientamento sia integrato in altre aree del PTOF, una sezione specifica consentirebbe una maggiore chiarezza e coerenza delle azioni. La didattica laboratoriale, pur presente, riceve un punteggio inferiore rispetto ad altre dimensioni dell'orientamento. L'obiettivo di contrastare il fenomeno NEET, sebbene presente, risulta meno prioritario rispetto agli altri obiettivi.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di esplicitare e sistematizzare le azioni di orientamento all'interno di una sezione dedicata del PTOF. Questo consentirebbe di definire in modo più chiaro le finalità, gli obiettivi, le azioni e i criteri di valutazione dell'orientamento, garantendo una maggiore efficacia delle iniziative. Un potenziamento della didattica laboratoriale e una maggiore attenzione al contrasto al fenomeno NEET potrebbero contribuire a colmare le lacune esistenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Pantan Monastero\" dimostra un impegno significativo nell'offrire un'educazione completa e orientata allo sviluppo delle competenze degli studenti. La ricchezza delle attività proposte, la diversificazione dell'offerta formativa e l'attenzione all'inclusione e alla sostenibilità rappresentano punti di forza. Tuttavia, l'assenza di una sezione dedicata all'orientamento e la necessità di potenziare la didattica laboratoriale e l'attenzione al contrasto al fenomeno NEET costituiscono aree di miglioramento. Si raccomanda di integrare il PTOF con una sezione specifica dedicata all'orientamento, al fine di garantire una maggiore coerenza e efficacia delle azioni intraprese."
+}

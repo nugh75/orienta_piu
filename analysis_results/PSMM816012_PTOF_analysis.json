@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PSMM816012",
+    "denominazione": "Fermignano - D.Bramante",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Fermignano",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Pesaro E Urbino",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Carducci 2",
+    "cap": "61033",
+    "email": "psic816001@istruzione.it",
+    "pec": "ND",
+    "website": "www.iscbramantefermignano.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primo Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e altre lingue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri tematici",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Elementi di primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tests d'ingresso, attività sportive, socializzazione, programmazione personalizzata",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori",
+      "target": "Futuri studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di formazione lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PSMM816012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola secondaria di I grado “Fermignano Donato Bramante” (PSMM816012) per il triennio 2019/20-2021/22. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio complessivo positivo nelle diverse dimensioni considerate. La scuola dimostra attenzione alle attitudini, agli interessi, al progetto di vita degli studenti, alle transizioni formative e allo sviluppo delle capacità orientative per affrontare le opportunità future. L'istituto si impegna a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno NEET e a promuovere il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola ha stabilito partnership con diversi **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, per un totale di quattro collaborazioni. Questo dimostra una volontà di ampliare l'offerta formativa e di connettere gli studenti con il mondo esterno.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi e il progetto di vita degli studenti, facilitando le transizioni formative e fornendo loro le capacità necessarie per cogliere le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, il mantenimento della continuità territoriale, il contrasto al fenomeno NEET e la promozione del lifelong learning. L'obiettivo di contrastare i NEET risulta leggermente meno prioritario rispetto agli altri.\n\n**2.5 Azioni di Sistema:** La scuola implementa azioni di coordinamento tra i servizi, promuove il dialogo tra docenti e studenti, cura il rapporto con i genitori, monitora le azioni intraprese e sviluppa un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali appare meno sviluppato rispetto ad altri approcci.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, offrendo agli studenti la possibilità di esplorare i propri interessi e talenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, che dimostra un impegno concreto verso questo ambito. Le numerose partnership stabilite con enti ed istituzioni del territorio ampliano l'offerta formativa e offrono agli studenti opportunità di apprendimento pratico. L'attenzione alle finalità dell'orientamento, agli obiettivi definiti e alle azioni di sistema implementate contribuiscono a creare un ambiente scolastico favorevole allo sviluppo delle competenze orientative degli studenti. L'ampia gamma di attività opzionali e facoltative permette di personalizzare l'offerta formativa in base agli interessi e alle attitudini di ciascuno.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella minore enfasi sulla didattica labororiale, che potrebbe essere ulteriormente sviluppata per offrire agli studenti esperienze di apprendimento più pratiche e coinvolgenti. L'obiettivo di contrastare il fenomeno NEET, pur presente, risulta meno prioritario rispetto agli altri obiettivi definiti nel PTOF.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di completezza e coerenza. Tuttavia, si potrebbe migliorare l'integrazione tra le diverse dimensioni dell'orientamento, rafforzando il collegamento tra le finalità, gli obiettivi, le azioni di sistema e le attività didattiche. Un maggiore focus sulla didattica labororiale e sull'obiettivo di contrastare il fenomeno NEET potrebbe contribuire a rendere il PTOF ancora più efficace.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola “Fermignano Donato Bramante” dimostra un forte impegno verso l'orientamento, con una sezione dedicata, partnership consolidate, finalità ben definite, obiettivi chiari e azioni di sistema implementate. L'offerta formativa è diversificata e personalizzata, grazie alla presenza di numerose attività opzionali e facoltative. Pur presentando alcune aree di debolezza, il PTOF rappresenta un valido strumento per guidare gli studenti nel loro percorso di crescita e preparazione al futuro. Le attività registrate, come il **ritiro di accoglienza**, i corsi di **potenziamento linguistico** e **sportivo**, gli **stage** in diversi ambiti e i progetti di **formazione** per docenti e studenti, testimoniano un approccio proattivo e orientato al successo formativo."
+}

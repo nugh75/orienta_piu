@@ -1,0 +1,320 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PGAA82901B",
+    "denominazione": "I.C. Gualdo Cattaneo",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Gualdo Cattaneo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Perugia",
+    "regione": "Umbria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Leosprini",
+    "cap": "06035",
+    "email": "pgic82900e@istruzione.it",
+    "pec": "tops120003@pec.istruzione.it",
+    "website": "www.icgcattaneo.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "UE",
+        "Stato",
+        "Regione Piemonte",
+        "Città Metropolitana di Torino",
+        "Comuni di Torino, Collegno, Grugliasco",
+        "Università",
+        "rete nazionale Wedebate",
+        "rete territoriale Dibattito e cittadinanza",
+        "Federazione Nazionale degli Ordini dei Medici Chirurghi e degli Odontoiatri",
+        "Arpa Piemonte",
+        "Polizia di Stato",
+        "Enti del territorio",
+        "ASL",
+        "MIUR",
+        "Autonomie locali"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti integrati con risorse del territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività curricolari e ampliamento offerta formativa",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage formativi in Italia e all'estero",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage per classi 3^, 4^ e 5^",
+      "target": "Studenti classi 3^, 4^ e 5^"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui, supporto metodologico",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Sportello psicologico",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Colloqui individuali, attività di classe",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività finalizzate alla costruzione del clima di classe",
+      "categoria_principale": "Benessere scolastico",
+      "descrizione_e_metodologia": "Supporto psicologico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali",
+      "categoria_principale": "Didattica innovativa",
+      "descrizione_e_metodologia": "Piano Scuola 4.0",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri sulla relazione educativa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "A cura dello psicologo della scuola",
+      "target": "Docenti e genitori"
+    },
+    {
+      "titolo_attivita": "Simulazione prove Esame di Stato",
+      "categoria_principale": "Preparazione Esame",
+      "descrizione_e_metodologia": "Simulazioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Biologia con curvatura biomedica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso triennale con attività teoriche e pratiche presso strutture sanitarie.",
+      "target": "Studenti classi terze interessati a studi biomedici"
+    },
+    {
+      "titolo_attivita": "Progetto MusicPass",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Flessibilità didattica per studenti musicisti/ballerini",
+      "target": "Studenti di talento artistico"
+    },
+    {
+      "titolo_attivita": "Curricolo Educazione Civica",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Integrazione tematiche educazione civica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso di biblioteconomia",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso e certificazione standard internazionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuole Secondarie potenziate in matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Diffusione buone pratiche e metodologie laboratoriali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Riorientarsi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Azioni di orientamento informativa, formativa e consulenza",
+      "target": "Famiglie e Allievi"
+    },
+    {
+      "titolo_attivita": "Scienza e ricerca",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Didattica laboratoriale, partecipazione a progetti",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Piano di emergenza, formazione del personale",
+      "target": "Tutti gli utenti"
+    },
+    {
+      "titolo_attivita": "Supporto alla didattica",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Accoglienza, inclusione, coordinamento",
+      "target": "Alunni, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Teatro e Cinema",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorsi didattici, laboratori teatrali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Test Invalsi",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Svolgimento e analisi dei test",
+      "target": "Alunni, docenti"
+    },
+    {
+      "titolo_attivita": "Tutti insieme",
+      "categoria_principale": "Cittadinanza Digitale",
+      "descrizione_e_metodologia": "Educazione uso consapevole smartphone",
+      "target": "Scuole piemontesi"
+    },
+    {
+      "titolo_attivita": "Volontariato/Educazione alla solidarietà",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Attività di volontariato con enti esterni",
+      "target": "Alunni, docenti, personale ATA"
+    },
+    {
+      "titolo_attivita": "Sportelli di sostegno",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Verifica apprendimento",
+      "target": "Studenti con debiti"
+    },
+    {
+      "titolo_attivita": "Attività di potenziamento",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Valorizzazione talenti",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Colloqui individuali",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Iniziative per competenze digitali, inclusione, coesione sociale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Esabac",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Realizzazione del progetto Esabac",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liceo Scientifico con Curvatura Biomedica",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Protocollo d'intesa con l'Università di Torino",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Potenziamento soft skills, collegamento scuola-lavoro",
+      "target": "Alunni classi 3^, 4^, 5^"
+    },
+    {
+      "titolo_attivita": "Orientamento Formativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Didattica orientativa, test, laboratori autobiografici",
+      "target": "Studenti classi I-V"
+    },
+    {
+      "titolo_attivita": "Certificazioni",
+      "categoria_principale": "Competenze Trasversali",
+      "descrizione_e_metodologia": "Conseguimento certificazioni linguistiche (A1, B2), ICDL",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PGAA82901B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **G.Cattaneo Capoluogo** di Gualdo Cattaneo (PG), codice scuola **PGAA82901B**, per il triennio **2022-2025**. L'istituto, di ordine **Infanzia**, statale, mostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. L'attenzione si concentra sullo sviluppo delle attitudini, degli interessi, della capacità di progettare il proprio futuro e di gestire le transizioni formative, oltre a fornire strumenti per cogliere le opportunità offerte dal territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando un'attenzione strutturata a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, ben 16, che includono enti a livello europeo (**UE**), nazionale (**Stato**, **MIUR**), regionale (**Regione Piemonte**), locale (**Città Metropolitana di Torino**, **Comuni di Torino, Collegno, Grugliasco**, **Autonomie locali**, **Enti del territorio**, **ASL**) e del settore specialistico (**Università**, **rete nazionale Wedebate**, **rete territoriale Dibattito e cittadinanza**, **Federazione Nazionale degli Ordini dei Medici Chirurghi e degli Odontoiatri**, **Arpa Piemonte**, **Polizia di Stato**). Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini e gli interessi degli studenti, a supportarli nella progettazione del loro percorso di vita, a facilitare le transizioni formative e a fornire loro le capacità necessarie per cogliere le opportunità. In particolare, le finalità relative ad attitudini, interessi e transizioni formative ottengono il punteggio massimo di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'abbandono scolastico, alla continuità territoriale e al lifelong learning, con punteggi elevati. L'obiettivo di contrastare il fenomeno NEET, invece, risulta meno prioritario, con un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono complete e mirate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutte queste azioni ottengono un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, sull'interdisciplinarità e sull'utilizzo di metodologie laboratoriali, sebbene queste ultime ottengano un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali e laboratoriali espressive con un buon punteggio (4), mentre quelle ludico-ricreative e sportive risultano meno sviluppate (punteggio 1 e 3 rispettivamente). Il volontariato ottiene un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, l'ampia rete di partnership con enti diversi, la chiarezza delle finalità e degli obiettivi, la completezza delle azioni di sistema e l'attenzione alla didattica orientativa basata sull'esperienza e sulla flessibilità. L'istituto dimostra un forte impegno nel supportare gli studenti nello sviluppo delle loro attitudini, interessi e capacità di progettazione del futuro. Le attività registrate, come i **Progetti integrati con risorse del territorio**, gli **Stage formativi in Italia e all'estero**, lo **Sportello psicologico** e il progetto **Biologia con curvatura biomedica**, testimoniano un'offerta diversificata e mirata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno NEET, che ottiene un punteggio inferiore rispetto agli altri obiettivi. Inoltre, l'offerta di attività opzionali ludico-ricreative e sportive risulta meno sviluppata rispetto ad altre aree. La didattica labororiale, pur presente, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni specifiche volte a contrastare il fenomeno NEET, magari attraverso l'implementazione di progetti mirati all'inserimento lavorativo o alla formazione professionale. Inoltre, sarebbe opportuno ampliare l'offerta di attività opzionali ludico-ricreative e sportive per favorire il benessere psicofisico degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto **G.Cattaneo Capoluogo** presenta un'impostazione solida e ben strutturata in relazione all'orientamento. L'istituto dimostra un forte impegno nel supportare gli studenti nello sviluppo delle loro competenze e nella progettazione del loro futuro, grazie a una rete di partnership consolidata, a finalità e obiettivi chiari e a un'offerta didattica diversificata. Pur presentando alcune aree di debolezza, il PTOF si configura come un documento programmatico efficace e orientato al miglioramento continuo dell'offerta formativa. Le attività registrate, come il progetto **Esabac**, il **Liceo Scientifico con Curvatura Biomedica** e il **PCTO**, dimostrano un'attenzione particolare all'innovazione e alla connessione con il mondo del lavoro."
+}

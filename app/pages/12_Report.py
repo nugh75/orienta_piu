@@ -6,10 +6,15 @@ import streamlit as st
 import json
 import csv
 import re
+import base64
 from pathlib import Path
 from datetime import datetime
 from data_utils import render_footer
 from page_control import setup_page
+import importlib
+import src.utils.pdf_converter
+importlib.reload(src.utils.pdf_converter)
+from src.utils.pdf_converter import convert_markdown_to_pdf
 
 st.set_page_config(page_title="ORIENTA+ | Sintesi Attivita", page_icon="🧭", layout="wide")
 setup_page("pages/12_Report.py")
@@ -38,6 +43,7 @@ st.markdown("""
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 REPORTS_DIR = PROJECT_ROOT / "reports"
 META_REPORTS_DIR = REPORTS_DIR / "meta"
+SYNTHESIS_DIR = REPORTS_DIR / "synthesis"
 REPORT_SUFFIXES = ("_best_practices", "_attivita", "_skeleton")
 
 # Titoli comprensibili per le dimensioni (basati su attivita.json)
@@ -337,8 +343,50 @@ def render_report_inline(expected_type: str, expected_id: str = None, key_suffix
                 file_name=f"{report_title.replace(' ', '_')}.md",
                 mime="text/markdown"
             )
-        except Exception:
-            st.error("Errore nel caricamento del report.")
+
+            # --- PDF Download & Embed ---
+            pdf_path = report_path.with_suffix(".pdf")
+            
+            col_pdf_1, col_pdf_2, col_pdf_3 = st.columns([1, 1, 1])
+            
+            with col_pdf_1:
+                 if pdf_path.exists():
+                     with open(pdf_path, "rb") as f:
+                         st.download_button(
+                             "⬇️ Scarica PDF (Academic)",
+                             data=f,
+                             file_name=pdf_path.name,
+                             mime="application/pdf",
+                             key=f"dl_pdf_{expected_type}_{expected_id}"
+                         )
+                 else:
+                     st.info("PDF non presente")
+
+            with col_pdf_2:
+                if st.button("🔄 Genera/Rigenera PDF", key=f"gen_pdf_{expected_type}_{expected_id}"):
+                     with st.spinner("Generazione PDF in corso..."):
+                         pdf_path_res, error_msg = convert_markdown_to_pdf(str(report_path))
+                         if pdf_path_res:
+                             st.rerun()
+                         else:
+                             st.error(f"Errore generazione PDF: {error_msg}")
+
+            with col_pdf_3:
+                show_pdf_key = f"show_pdf_{expected_type}_{expected_id}"
+                if pdf_path.exists():
+                    if st.toggle("📄 Mostra PDF", key=show_pdf_key):
+                        pdf_bytes = pdf_path.read_bytes()
+                        b64_pdf = base64.b64encode(pdf_bytes).decode("utf-8")
+                        st.markdown(
+                            f'<iframe src="data:application/pdf;base64,{b64_pdf}" '
+                            f'width="100%" height="700px" '
+                            f'style="border: 1px solid #ccc; border-radius: 8px;" '
+                            f'type="application/pdf"></iframe>',
+                            unsafe_allow_html=True,
+                        )
+        except Exception as e:
+            st.error(f"Errore nel caricamento del report: {e}")
+            # st.exception(e) # Uncomment for stack trace in UI
     else:
         st.error("Report non disponibile.")
         clear_selected_report()
@@ -347,38 +395,121 @@ def render_report_inline(expected_type: str, expected_id: str = None, key_suffix
 # === MAIN PAGE ===
 st.title("📄 Sintesi delle Attività")
 
-st.markdown("""
-Questa sezione raccoglie le **sintesi delle attività di orientamento**
-emerse dall'analisi dei PTOF delle scuole italiane. 
-I report sono organizzati per **Dimensione Tematica** (le 6 categorie del framework) e per **Singola Scuola**.
-""")
-
 # Carica dati
 available_reports = get_available_reports()
 
-# === METRICHE ===
-col1, col2, col4 = st.columns([1, 1, 2])
-
-with col1:
-    school_count = len(available_reports["schools"])
-    st.metric("Scuole Analizzate", school_count)
-
-with col2:
-    thematic_count = len(available_reports["thematic"])
-    st.metric("Report Dimensionali", thematic_count)
-
-# Removed Metric as requested
-
-with col4:
+# === AZIONI RAPIDE ===
+col_refresh, _ = st.columns([1, 5])
+with col_refresh:
     if st.button("🔄 Aggiorna"):
         refresh_data()
 
 st.markdown("---")
 
 # === TABS ===
-tab_tematici, tab_scuole, tab_generali, tab_info = st.tabs([
-    "📊 Per Dimensione", "🏫 Per Scuola", "📚 Tutti i Report", "ℹ️ Info"
+tab_sintesi, tab_tematici, tab_scuole, tab_generali, tab_info = st.tabs([
+    "📑 Sintesi PTOF", "📊 Per Dimensione", "🏫 Per Scuola", "📚 Tutti i Report", "ℹ️ Info"
 ])
+
+# === TAB SINTESI ===
+with tab_sintesi:
+    st.subheader("📑 Report di Sintesi PTOF")
+
+    st.markdown("""
+    Report di **sintesi cross-cutting** generati dall'analisi aggregata dei PTOF.
+    Ogni report analizza un grado scolastico (I Grado / II Grado) attraverso
+    tutte le dimensioni del framework di valutazione.
+    """)
+
+    # Trova i report di sintesi (MD + PDF)
+    synthesis_reports = []
+    if SYNTHESIS_DIR.exists():
+        for md_file in sorted(SYNTHESIS_DIR.glob("*.md"), key=lambda f: f.stat().st_mtime, reverse=True):
+            if "SKELETON" in md_file.name:
+                continue
+            pdf_file = md_file.with_suffix(".pdf")
+            # Estrai grado dal nome file
+            if "IGrado" in md_file.stem and "IIGrado" not in md_file.stem:
+                grado = "I Grado"
+            elif "IIGrado" in md_file.stem:
+                grado = "II Grado"
+            else:
+                grado = "Tutti"
+            # Estrai timestamp
+            ts_match = re.match(r"^(\d{8})_(\d{4})__", md_file.name)
+            if ts_match:
+                ts_str = ts_match.group(1)
+                try:
+                    ts_date = datetime.strptime(ts_str, "%Y%m%d").strftime("%d/%m/%Y")
+                except ValueError:
+                    ts_date = ts_str
+            else:
+                ts_date = datetime.fromtimestamp(md_file.stat().st_mtime).strftime("%d/%m/%Y")
+            synthesis_reports.append({
+                "md_path": md_file,
+                "pdf_path": pdf_file if pdf_file.exists() else None,
+                "grado": grado,
+                "date": ts_date,
+                "name": md_file.stem,
+            })
+
+    if not synthesis_reports:
+        st.info("Nessun report di sintesi disponibile. Genera con `make report-grado1` o `make report-grado2`.")
+    else:
+        for i, report in enumerate(synthesis_reports):
+            with st.expander(f"📑 Sintesi PTOF — Scuole Secondarie di {report['grado']} ({report['date']})", expanded=(i == 0)):
+                col_actions = st.columns([1, 1, 1, 2])
+
+                with col_actions[0]:
+                    # Download MD
+                    md_content = report["md_path"].read_text(encoding="utf-8")
+                    st.download_button(
+                        "📥 Scarica MD",
+                        data=md_content.encode("utf-8"),
+                        file_name=report["md_path"].name,
+                        mime="text/markdown",
+                        key=f"dl_synth_md_{i}",
+                    )
+
+                with col_actions[1]:
+                    if report["pdf_path"]:
+                        with open(report["pdf_path"], "rb") as f:
+                            st.download_button(
+                                "⬇️ Scarica PDF",
+                                data=f,
+                                file_name=report["pdf_path"].name,
+                                mime="application/pdf",
+                                key=f"dl_synth_pdf_{i}",
+                            )
+                    else:
+                        st.caption("PDF non disponibile")
+
+                with col_actions[2]:
+                    if st.button("🔄 Genera PDF", key=f"gen_synth_pdf_{i}"):
+                        with st.spinner("Generazione PDF..."):
+                            pdf_res, pdf_msg = convert_markdown_to_pdf(str(report["md_path"]))
+                            if pdf_res:
+                                st.success("PDF generato!")
+                                st.rerun()
+                            else:
+                                st.error(f"Errore: {pdf_msg}")
+
+                # PDF Embed
+                if report["pdf_path"]:
+                    pdf_bytes = report["pdf_path"].read_bytes()
+                    b64_pdf = base64.b64encode(pdf_bytes).decode("utf-8")
+                    pdf_embed_html = f"""
+                    <iframe
+                        src="data:application/pdf;base64,{b64_pdf}"
+                        width="100%"
+                        height="800px"
+                        style="border: 1px solid #ccc; border-radius: 8px;"
+                        type="application/pdf">
+                    </iframe>
+                    """
+                    st.markdown(pdf_embed_html, unsafe_allow_html=True)
+                else:
+                    st.info("⚠️ PDF non ancora generato. Clicca 'Genera PDF' per crearlo.")
 
 # === TAB TEMATICI ===
 with tab_tematici:

@@ -1,0 +1,244 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ANAA81704E",
+    "denominazione": "Ancona - Pinocchio Montesicuro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Ancona",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Montesicuro",
+    "cap": "60020",
+    "email": "anic81700e@istruzione.it",
+    "pec": "ND",
+    "website": "www.pinocchio-montesicuro.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata ai valori"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende di settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "Utilizzo ChatGPT per personalizzare lo studio",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Supporto alla scrittura, simulazioni, apprendimento discipline",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Implementazione Genially per contenuti interattivi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Creazione presentazioni, infografiche, gamification",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione mappe mentali",
+      "categoria_principale": "Metodologie di Studio",
+      "descrizione_e_metodologia": "8-10 ore di formazione annuale sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici/chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali, dossier tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali, glossari tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Supporti cartacei e software CAD.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Proporzioni, percentuali, grafici, normative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica odontotecnica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la piena partecipazione degli studenti al percorso scolastico, sostenere gli alunni con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi su mappe mentali e materiale didattico informatico",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo di tecnologie CAD, scanner 3D, stampanti 3D",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF ANAA81704E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Ancona \"La Giostra\"** (ANAA81704E), con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre il triennio 2023/24-2024/25-2025/26 ed è relativo a una scuola dell'**Infanzia** situata nel territorio non metropolitano di **Ancona**, nella regione **Marche**. L'istituto è **statale** e pone una forte enfasi sulle **partnership** con il territorio e sull'innovazione didattica. L'analisi evidenzia un impegno significativo verso la costruzione di un sistema di orientamento completo, volto a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, facilitando al contempo le loro transizioni formative e la capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento e Valori:** Il PTOF dedica una sezione specifica alla definizione dei valori educativi, ottenendo un punteggio di 3. Questo indica una solida base etica e pedagogica che permea l'azione orientativa.\n\n**2.2 Partnership:** L'istituto dimostra un'eccellente capacità di costruire **partnership** con il territorio, ottenendo un punteggio di 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato**, **ISRAT** e altre **aziende di settore**. La presenza di cinque partner attivi testimonia un forte legame con il contesto socio-economico locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo e coerente, con punteggi massimi (5) per lo sviluppo di **attitudini**, **interessi**, **progetto di vita**, la gestione delle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** L'istituto si pone obiettivi ambiziosi, con un punteggio di 5 per la **continuità territoriale** e il contrasto al fenomeno **NEET**. L'obiettivo di ridurre l'**abbandono** scolastico ottiene un punteggio di 3, mentre l'impegno per il **lifelong learning** è valutato con 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono ben strutturate, con punteggi elevati per il **coordinamento dei servizi** (6), il **rapporto scuola-genitori** (6) e l'implementazione di un **sistema integrato di inclusione e fragilità** (6). Il **dialogo tra docenti e studenti** (4) e il **monitoraggio delle azioni** (3) rappresentano aree di miglioramento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con punteggi di 5 per l'apprendimento **da esperienza** degli studenti e per la didattica **laboratoriale**. La **flessibilità degli spazi e dei tempi** (4) e l'approccio **interdisciplinare** (4) completano il quadro.\n\n**2.7 Offerta Formativa Opzionale:** L'offerta formativa opzionale include attività **culturali** (4), **laboratoriali ed espressive** (4) e di **volontariato** (4). Le attività **ludiche e ricreative** (2) e **sportive** (2) ricevono punteggi inferiori.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella forte attenzione alle **partnership** con il territorio, nella definizione chiara delle **finalità** dell'orientamento e nell'impegno per l'inclusione. L'istituto dimostra una buona capacità di integrare l'orientamento all'interno del sistema scolastico, attraverso azioni di **coordinamento dei servizi** e di coinvolgimento delle famiglie. L'offerta didattica è arricchita da attività **laboratoriali** e da approcci innovativi come l'utilizzo di **ChatGPT** e **Genially**.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il monitoraggio delle azioni orientative e la riduzione dell'abbandono scolastico. L'offerta formativa opzionale potrebbe essere ampliata per includere attività più diversificate, in particolare nel campo ludico-ricreativo e sportivo.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di rafforzare il sistema di monitoraggio delle azioni orientative, al fine di valutarne l'efficacia e apportare eventuali correzioni. È inoltre necessario implementare strategie mirate per ridurre l'abbandono scolastico e favorire il successo formativo di tutti gli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Ancona \"La Giostra\"** presenta un quadro complessivamente positivo per quanto riguarda la dimensione dell'orientamento. L'istituto dimostra un forte impegno per la costruzione di un sistema completo e coerente, volto a supportare gli studenti nel loro percorso di crescita e a prepararli per il futuro. L'attenzione alle **partnership** con il territorio, l'innovazione didattica e l'inclusione rappresentano elementi distintivi del PTOF. Il superamento delle aree di debolezza individuate consentirà all'istituto di raggiungere risultati ancora più significativi nel campo dell'orientamento. Le attività registrate, come i periodi di **PCTO**, la digitalizzazione presso l'**Archivio di Stato** e **ISRAT**, la realizzazione di **audiolibri** e i **laboratori** tematici, testimoniano un impegno concreto nella realizzazione degli obiettivi prefissati."
+}

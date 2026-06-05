@@ -1,0 +1,246 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TA1A63500R",
+    "denominazione": "Disneyland",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Palagiano",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Taranto",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Italo Svevo Nn. 1 3 711 15 17",
+    "cap": "74019",
+    "email": "scuola.disneyland@libero.it",
+    "pec": "scuola.disneyland@pec.it",
+    "website": "www.scuolainfanziadisneyland.it/",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è integrato nelle attività curriculari e nei progetti trasversali, ma non è presente una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Studenti intervistano figure storiche simulate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Contesti professionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Supporti cartacei e software CAD",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Situazioni normative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti semplificati fisica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Fenomeni fisici connessi materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e osservazioni posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Benessere psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la piena partecipazione degli studenti, sostenere alunni con BES/DSA, prevenire dispersione scolastica.",
+      "target": "Studenti con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi aggiornamento diplomati",
+      "categoria_principale": "Formazione continua",
+      "descrizione_e_metodologia": "Corsi di aggiornamento per ex-alunni",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico Avanzato",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD/CAM",
+      "target": "Classi IV e V"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze estive",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TA1A63500R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia **Disneyland** (TA1A63500R), situata a Palagiano, in Puglia. L'istituto, paritario, opera in un territorio non metropolitano. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento, le partnership, gli obiettivi, le azioni messe in atto e l'offerta didattica. In generale, il PTOF dimostra un impegno significativo verso l'orientamento, integrato in diverse attività e progetti, sebbene manchi una sezione specificamente dedicata con un capitolo autonomo.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento è integrato nelle attività curriculari e nei progetti trasversali, ottenendo un punteggio di 3. Tuttavia, l'assenza di una sezione dedicata con un capitolo specifico rappresenta un limite.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, diverse **aziende accreditate** e altre **aziende di settore**. La presenza di sei partner attesta un forte legame con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con un punteggio massimo di 5 per tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo di **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono pertinenti e mirati. Si punta a ridurre l'**abbandono** scolastico (punteggio 5), a favorire la continuità territoriale (punteggio 4), a contrastare il fenomeno dei **NEET** (punteggio 3), a promuovere il **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con punteggi elevati per il **coordinamento dei servizi** (6), il **dialogo tra docenti e studenti** (6), il **rapporto scuola-genitori** (6) e il **sistema integrato di inclusione e fragilità** (6). Il **monitoraggio delle azioni** risulta l'area più debole, con un punteggio di 2.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con un buon punteggio per l'apprendimento **da esperienza degli studenti** (5) e la didattica **laboratoriale** (5). La **flessibilità degli spazi e dei tempi** (3) e l'approccio **interdisciplinare** (4) presentano margini di miglioramento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi variabili. Le opzionali **culturali** (3), **laboratoriali espressive** (4) e di **volontariato** (3) sono presenti, mentre quelle **ludiche ricreative** (2) e **sportive** (2) risultano meno sviluppate.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la forte integrazione dell'orientamento nelle attività curriculari, la presenza di un solido network di **partnership** con aziende e istituzioni del territorio, la chiarezza delle **finalità** e degli **obiettivi**, e l'efficacia delle **azioni di sistema** per il coordinamento dei servizi e il coinvolgimento di tutti gli attori educativi. L'offerta didattica, basata sull'apprendimento esperienziale e laboratoriale, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che ne limita la visibilità e la specificità. Il **monitoraggio delle azioni** risulta insufficiente, impedendo una valutazione efficace dell'impatto delle iniziative. Anche la flessibilità degli spazi e dei tempi e l'offerta di attività opzionali ludiche e sportive necessitano di un maggiore sviluppo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un capitolo specifico dedicato all'orientamento, che delinei in modo chiaro le strategie, le azioni e gli indicatori di successo. È inoltre necessario potenziare il sistema di **monitoraggio** per valutare l'efficacia delle iniziative e apportare eventuali correzioni. Infine, è opportuno ampliare l'offerta di attività opzionali, in particolare quelle ludiche e sportive, per rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Disneyland** dimostra un impegno significativo verso l'orientamento, con un approccio integrato e una solida rete di **partnership**. Nonostante alcune aree di debolezza, il PTOF presenta un quadro complessivamente positivo, con finalità e obiettivi ben definiti e azioni di sistema efficaci. L'implementazione di un capitolo dedicato all'orientamento e il potenziamento del sistema di monitoraggio rappresentano passi fondamentali per migliorare ulteriormente l'efficacia delle iniziative e garantire un futuro di successo per gli studenti. Le attività come **PCTO**, **Realizzazione audiolibri** e il **Servizio di Sostegno Educativo** sono esempi concreti di come l'istituto si impegna a supportare gli studenti nel loro percorso formativo."
+}

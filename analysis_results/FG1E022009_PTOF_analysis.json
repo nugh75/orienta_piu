@@ -1,0 +1,210 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FG1E022009",
+    "denominazione": "Scuola Primaria Paritaria Marcelline",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Foggia",
+    "anno_ptof": "2025-2028",
+    "provincia": "Foggia",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Corso Garibaldi108",
+    "cap": "71121",
+    "email": "info@marcellinefoggia.it",
+    "pec": "marcellinefoggia@sicurpec.it",
+    "website": "www.marcellinefoggia.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "PTOF dedica spazio alla proposta educativa"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Fondazione Karis",
+        "Karis Foundation",
+        "Scuola dell’infanzia",
+        "Scuola secondaria di primo grado",
+        "Enti locali",
+        "AVSI",
+        "Federazione Nazionale Banchi di Solidarietà"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Presepe Vivente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Festa di fine anno",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Corso di teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campo estivo",
+      "categoria_principale": "Ricreativa",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adozioni a distanza",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto del “Donacibo”",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Attività organizzata dalla scuola",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Clil",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Utilizzo della lingua inglese come veicolo per l'apprendimento di scienze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori esperienziali di matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Approccio pratico e laboratoriale alla matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di robotica e coding",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Attività di robotica e coding per sviluppare competenze digitali.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Gesto di Natale",
+      "categoria_principale": "Cultura e Tradizioni",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su nascita di Cristo",
+      "target": "Scuole Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza stradale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Comportamenti adeguati nel traffico",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti tecnologia e informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Coding e pensiero computazionale",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Promozione piacere della lettura",
+      "target": "Alunni scuole primarie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FG1E022009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria Paritaria Marcelline** (FG1E022009) per il periodo 2025-2028, con particolare attenzione alla dimensione dell'orientamento. La scuola, situata nel territorio non metropolitano di **Foggia** in **Puglia**, dimostra un impegno nella definizione di una proposta educativa completa e orientata allo sviluppo integrale dell'alunno. L'analisi evidenzia una solida base per l'orientamento, con una chiara attenzione alle attitudini, agli interessi e al progetto di vita degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento e Proposta Educativa:** Il PTOF dedica uno spazio specifico alla proposta educativa, indicando un'attenzione consapevole all'importanza di definire un percorso formativo coerente con le esigenze del territorio e degli studenti.\n\n**2.2 Partnership:** La scuola vanta un network di **7 partner**, tra cui **Fondazione Karis**, **Karis Foundation**, le scuole dell’infanzia e secondaria di primo grado, **Enti locali**, **AVSI** e la **Federazione Nazionale Banchi di Solidarietà**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per l'ampliamento delle opportunità educative.\n\n**2.3 Finalità:** Le finalità del PTOF sono ben definite e orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti. Si riscontra un punteggio elevato in queste aree, mentre l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risulta meno marcata.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico e la promozione della continuità territoriale, con un punteggio di 3. L'attenzione al contrasto alla dispersione scolastica giovanile (NEET) è assente, mentre il lifelong learning riceve un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità. Il rapporto scuola-genitori è particolarmente curato, mentre il monitoraggio delle azioni necessita di maggiore attenzione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'approccio laboratoriale e la flessibilità necessitano di un ulteriore potenziamento.\n\n**2.7 Offerta di Attività Opzionali:** L'offerta di attività opzionali comprende moduli culturali, laboratoriali ed espressivi, ludico-ricreativi, di volontariato e sportivi. L'offerta è diversificata e mira a soddisfare le diverse esigenze e interessi degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara definizione delle finalità educative, nella solida rete di partnership con enti e istituzioni del territorio, nell'attenzione al rapporto scuola-genitori e nella diversificazione dell'offerta formativa. Le attività come **Presepe Vivente**, **Festa di fine anno**, **Open Day**, **Corso di teatro**, **Campo estivo**, **Adozioni a distanza**, **Progetto del “Donacibo”**, **Progetto Clil**, **Laboratori esperienziali di matematica**, **Progetto di robotica e coding**, **Gesto di Natale**, **Progetto sicurezza stradale**, **Progetti tecnologia e informatica** e **Progetto lettura** arricchiscono l'offerta formativa e promuovono lo sviluppo integrale degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano l'attenzione alle transizioni formative, allo sviluppo delle capacità orientative per cogliere le opportunità e al contrasto alla dispersione scolastica giovanile (NEET). Il monitoraggio delle azioni necessita di un maggiore approfondimento per garantire l'efficacia degli interventi.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare l'attenzione alle competenze orientative degli studenti, in particolare per quanto riguarda la consapevolezza delle proprie attitudini e interessi e la capacità di pianificare il proprio futuro scolastico e professionale. È necessario implementare azioni specifiche per supportare gli studenti nelle transizioni formative e per prevenire la dispersione scolastica.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Primaria Paritaria Marcelline** rappresenta un documento programmatico solido e ben strutturato, con una chiara attenzione all'orientamento e allo sviluppo integrale degli studenti. Pur presentando alcune aree di debolezza, la scuola dimostra un impegno costante nel migliorare l'offerta formativa e nel rispondere alle esigenze del territorio. Un ulteriore potenziamento delle competenze orientative degli studenti e un maggiore focus sul monitoraggio delle azioni potrebbero contribuire a rendere il PTOF ancora più efficace e coerente con le finalità educative."
+}

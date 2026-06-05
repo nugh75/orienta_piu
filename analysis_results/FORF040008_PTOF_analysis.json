@@ -1,0 +1,232 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FORF040008",
+    "denominazione": "I. P. \"Ruffilli",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Forli'",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Forli'-Cesena",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Romanello Da Forli' 6",
+    "cap": "47121",
+    "email": "forf040008@istruzione.it",
+    "pec": "forf040008@pec.istruzione.it",
+    "website": "https//www.istitutoprofessionaleruffilli.it/",
+    "tipo_scuola_dettaglio": "Ist Prof Per I Servizi Sociali"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato all'interno di altre sezioni, ma non ha un capitolo a sé stante."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti ed istituzioni",
+        "Enti operanti nel terzo settore",
+        "Croce Verde di Ospitaletto",
+        "Associazione ABC"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Il testo menziona principalmente lezioni frontali e attività sportive, ma non specifica l'uso di laboratori didattici per l'orientamento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Percorsi di potenziamento linguistico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento sportivo",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Percorsi di potenziamento sportivo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di snowboard e sci",
+      "target": "Studenti 1° anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività velica",
+      "target": "Studenti 2° anno"
+    },
+    {
+      "titolo_attivita": "Escursionismo alpino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Escursioni in montagna",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Stage in Inghilterra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Certificazione linguistica",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita capitali europee",
+      "target": "Studenti 4°/5° anno"
+    },
+    {
+      "titolo_attivita": "Ritiro di accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ritiro di accoglienza a Campovecchio",
+      "target": "Studenti di prima"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti di seconda"
+    },
+    {
+      "titolo_attivita": "La tossicodipendenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con Comunità di San Patrignano",
+      "target": "Studenti di terza"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso con Croce Verde",
+      "target": "Studenti di quarta"
+    },
+    {
+      "titolo_attivita": "Orientamento post-liceo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperto",
+      "target": "Studenti di quinta"
+    },
+    {
+      "titolo_attivita": "Formazione didattica inclusiva",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, formazione di scuola/rete",
+      "target": "Docenti neoassunti e docenti presenti"
+    },
+    {
+      "titolo_attivita": "Formazione utilizzo strumenti multimediali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri di formazione con consulente esterno",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, agenzie formative",
+      "target": "Personale amministrativo"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Incontri con i genitori e gli studenti",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "Stage orientativi",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti delle medie"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento professionale",
+      "target": "Studenti delle classi quarte e quinte"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FORF040008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I. P. “Ruffilli” (FORF040008), relativo al triennio 2019/20-2021/22. L'istituto, di tipo Liceo e Tecnico, opera nel territorio non metropolitano della provincia di Forlì-Cesena, in Emilia Romagna. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata all'interno del PTOF, ma integrato in altre aree. La scuola dimostra una buona capacità di collaborare con **enti ed istituzioni**, **Enti operanti nel terzo settore**, la **Croce Verde di Ospitaletto** e l'**Associazione ABC**, creando un solido network di partnership.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela l'assenza di una sezione autonoma dedicata all'orientamento nel PTOF. Tuttavia, l'orientamento è affrontato all'interno di altre sezioni, dimostrando una sua presenza, seppur non strutturata in un capitolo specifico.\n\n**2.2 Partnership:**\n\nLa scuola vanta un buon livello di partnership, con un punteggio di 4 su 4. Le collaborazioni con diversi soggetti esterni rappresentano un valore aggiunto per l'offerta orientativa, ampliando le opportunità per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirate a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitando le **transizioni formative** e fornendo loro le **capacità orientative** per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 4, indicando un'attenzione completa a tutti gli aspetti cruciali dell'orientamento.\n\n**2.4 Obiettivi:**\n\nGli obiettivi orientativi si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. L'obiettivo di garantire la continuità territoriale risulta particolarmente forte, con un punteggio di 4, mentre gli altri obiettivi ottengono un punteggio di 3.\n\n**2.5 Azioni di Sistema:**\n\nL'istituto implementa azioni di sistema efficaci, quali il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 4, evidenziando un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'uso di laboratori didattici specifici per l'orientamento risulta meno sviluppato, con un punteggio di 2, mentre le altre modalità didattiche ottengono un punteggio di 4.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. Tutte queste opzioni hanno ottenuto un punteggio di 4, dimostrando un'attenzione alla completezza dell'offerta formativa.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nell'efficacia delle azioni di sistema, nella varietà dell'offerta didattica e nella solidità delle partnership. L'istituto dimostra un impegno concreto nel supportare gli studenti nel loro percorso di crescita personale e professionale, attraverso attività come il **ritiro di accoglienza**, l'**educazione alimentare**, l'approfondimento della **tossicodipendenza**, il corso di **primo soccorso** e l'**orientamento post-liceo**.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Inoltre, l'utilizzo di laboratori didattici specifici per l'orientamento sembra meno sviluppato rispetto ad altre modalità didattiche.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare l'orientamento all'interno del PTOF attraverso una sezione dedicata, che consenta di definire in modo più chiaro le strategie, le azioni e gli indicatori di successo. Un ulteriore gap riguarda l'implementazione di laboratori didattici specifici per l'orientamento, che potrebbero arricchire l'offerta formativa e favorire l'apprendimento esperienziale.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I. P. “Ruffilli” dimostra un buon livello di attenzione all'orientamento, sebbene manchi una sua esplicita strutturazione all'interno del documento. L'istituto può migliorare ulteriormente la sua offerta orientativa attraverso la creazione di una sezione dedicata nel PTOF e l'implementazione di laboratori didattici specifici. Le attività registrate, come gli **stage sportivi**, gli **stage in Inghilterra**, i **viaggi d'istruzione**, gli **stage orientativi** e il **PCTO**, rappresentano un valido supporto per gli studenti nel loro percorso di orientamento e di sviluppo delle competenze. La **formazione didattica inclusiva**, la **formazione sull'utilizzo di strumenti multimediali** e l'**open day** completano un quadro positivo dell'impegno dell'istituto verso l'orientamento."
+}

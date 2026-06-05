@@ -1,0 +1,366 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BARI026515",
+    "denominazione": "I.I.S.S. \"C. Colamonico - N. Chiarulli ",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Acquaviva Delle Fonti",
+    "anno_ptof": "2025/2028",
+    "provincia": "Bari",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Strada Comunale Primo Cielo - Renzo Piano",
+    "cap": "70021",
+    "email": "bais026004@istruzione.it",
+    "pec": "ND",
+    "website": "www.colamonicochiarulli.edu.it",
+    "tipo_scuola_dettaglio": "Ist Prof Industria E Artigianato"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Nonostante la presenza di attività che toccano tematiche orientative, non risulta una sezione dedicata e strutturata all'orientamento con obiettivi, azioni e valutazione specifici."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Comune di San Benigno Canavese",
+        "Scuole primarie",
+        "Scuole superiori",
+        "Professionisti",
+        "Enti territoriali",
+        "Università Cattolica",
+        "IUSTO"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 7
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 7
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progetti che integrano diverse discipline",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale per lo studio",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Laboratori tecnici, artistici ed espressivi",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppare competenze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Scientifica",
+      "descrizione_e_metodologia": "Attività pomeridiana opzionale, integrazione approccio sperimentale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Pubblicazione online, allargare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Potenziare partecipazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Migliorare proposta",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Presentazione scuola",
+      "descrizione_e_metodologia": "Allievi presentano la scuola e le attività",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Laboratorio teatrale con allestimento spettacolo",
+      "target": "Allievi classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale per lo studio",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Laboratori di recupero e approfondimento",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Feedback, verifiche, cooperative learning, didattica laboratoriale/multimediale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico, reading, listening, dialoghi, role playing.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura partecipata, analisi romanzo 'Mio fratello rincorre i dinosauri'.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Realizzazione esperimenti chimica, fisica, biologia.",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Role playing, letture, esercizi.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Cucina",
+      "descrizione_e_metodologia": "Corso di cucina, preparazione ricette.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Delf",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso francese, preparazione certificazione QCER livello A1.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione e pittura manufatti in creta.",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canto corale, repertorio liturgia giovanile.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport (ragazze/ragazzi)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Imparare, impegnarsi, divertirsi con lo sport.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato illustrazione.",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a maglia con i ferri",
+      "categoria_principale": "Artigianato",
+      "descrizione_e_metodologia": "Realizzazione prodotti a maglia.",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo scheda Arduino.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Latino",
+      "categoria_principale": "Lingue classiche",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso per certificazione ICDL.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Food and Cooking",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento vocabolario inglese culinario, pratica in cucina.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività ludiche (minibasket, pallamano, pallavolo, calcio a 5)",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Laboratorio di latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagelle, uscita in montagna.",
+      "target": "Alunni in ingresso"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Allestimento di uno spettacolo teatrale.",
+      "target": "Classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica di base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classi seconde"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e a seguito di convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori in piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi/tecnologici",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Rivolti a tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Boscolandia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività di Accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BARI026515\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.P.I.A. \"N.Chiarulli\" Serale (codice scuola BARI026515) per il triennio 2025/2028. L'istituto, situato nel territorio metropolitano di Acquaviva Delle Fonti, in Puglia, è una scuola statale che offre percorsi di istruzione di I e II grado. L'analisi evidenzia un impegno generale verso l'orientamento, con punteggi elevati nelle finalità, nelle azioni di sistema e nella didattica orientativa, ma con una mancanza di una sezione specificamente dedicata e strutturata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'istituto non presenta una sezione dedicata e strutturata all'orientamento, nonostante la presenza di attività che toccano tematiche orientative. Questo aspetto risulta essere un punto critico, come evidenziato dal punteggio di 4.\n\n**2.2 Partnership:** L'istituto vanta collaborazioni con diversi partner, tra cui il **Comune di San Benigno Canavese**, le **scuole primarie** e **superiori**, **professionisti**, **enti territoriali**, l'**Università Cattolica** e l'**IUSTO**. Il numero di partnership attive è pari a 3, ottenendo un punteggio di 3.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate molto forti, con punteggi di 6 per **attitudini**, **interessi** e **progetto di vita**. Anche le finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** e delle **opportunità** ricevono un punteggio elevato (5).\n\n**2.4 Obiettivi:** Gli obiettivi prefissati dall'istituto mostrano una buona attenzione alla riduzione dell'**abbandono scolastico** (punteggio 4) e alla continuità territoriale (punteggio 4). L'obiettivo di contrastare il fenomeno dei **NEET** ottiene un punteggio leggermente inferiore (3), così come l'obiettivo di promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci, con punteggi elevati per il **coordinamento dei servizi** (6), il **dialogo tra docenti e studenti** (6), il **rapporto scuola-genitori** (7) e il **monitoraggio delle azioni** (6). Anche il **sistema integrato di inclusione e fragilità** riceve un buon punteggio (6).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza degli studenti (6), la didattica laboratoriale (4), la flessibilità degli spazi e dei tempi (5) e l'interdisciplinarità (6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e interessante, con punteggi elevati per le opzionali **culturali** (7), **laboratoriali ed espressive** (7) e **sportive** (7). Le opzionali **ludiche e ricreative** e quelle legate al **volontariato** ottengono un punteggio inferiore (4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella forte attenzione alle finalità, nelle efficaci azioni di sistema e nella didattica orientativa basata sull'esperienza e sull'interdisciplinarità. L'ampia offerta di attività opzionali e facoltative rappresenta un ulteriore elemento positivo. La collaborazione con diversi partner, tra cui enti territoriali e università, favorisce l'apertura dell'istituto verso il territorio e il mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata e strutturata all'orientamento, con obiettivi, azioni e valutazione specifici. Questo limita la possibilità di una pianificazione strategica e di un monitoraggio efficace delle attività orientative.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare l'orientamento all'interno del PTOF, definendo una sezione dedicata con obiettivi misurabili, azioni concrete e indicatori di valutazione. Questo consentirebbe di rafforzare l'impegno dell'istituto verso l'orientamento e di garantire una maggiore coerenza tra le diverse attività.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.P.I.A. \"N.Chiarulli\" Serale dimostra un'attenzione significativa all'orientamento, con numerosi punti di forza e un'offerta formativa diversificata. Tuttavia, la mancanza di una sezione dedicata e strutturata rappresenta un limite che dovrebbe essere superato per garantire una pianificazione strategica e un monitoraggio efficace delle attività orientative. L'istituto dovrebbe concentrarsi sulla formalizzazione dell'orientamento all'interno del PTOF, definendo obiettivi misurabili, azioni concrete e indicatori di valutazione. Le attività registrate, come i **progetti interdisciplinari**, i **laboratori tecnici**, il **giornalino d'istituto** e il **progetto teatro**, rappresentano un buon punto di partenza per sviluppare un'offerta orientativa completa ed efficace."
+}

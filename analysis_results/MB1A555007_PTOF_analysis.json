@@ -1,0 +1,242 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MB1A555007",
+    "denominazione": "Scuola Dell'Infanzia Comunale \"Pianeta Azzurro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Monza",
+    "anno_ptof": "2025-2028",
+    "provincia": "Monza E Della Brianza",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Ferrari15",
+    "cap": "20900",
+    "email": "mb1a555007@comune.monza.it",
+    "pec": "monza@pec.comune.monza.it",
+    "website": "www.comune.monza.it/it/services/736",
+    "tipo_scuola_dettaglio": "Scuola Infanzia Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Nido d’Infanzia Piccole tracce",
+        "Scuola Primaria",
+        "Comune di Riccione",
+        "ASL",
+        "Federazione Italiana Pallacanestro di Rimini",
+        "Società sportiva Basket Rimini Crabs",
+        "Accademia Rimini Calcio VB",
+        "CTS",
+        "CTI",
+        "servizi di zona",
+        "Associazione Il Rischio educativo",
+        "Fism",
+        "Diocesi di Rimini",
+        "Diesse",
+        "Sostieni il Sostegno"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Amico sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnante educazione fisica in co-presenza con le maestre, sviluppo psico-fisico",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Danza creativa",
+      "categoria_principale": "Arte e Movimento",
+      "descrizione_e_metodologia": "Espressione attraverso il movimento, fiducia in sé stessi",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Avviamento al gioco sport Basket",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Giochi con palloni, cerchi, istruttore minibasket",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Gioco - motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Sviluppo comunicazione, relazione, creatività",
+      "target": "3, 4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio gioco-calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria propedeutica al calcio",
+      "target": "4-5 anni"
+    },
+    {
+      "titolo_attivita": "Madrelingua inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Immersione nei suoni, routine, giochi, storie",
+      "target": "3,4,5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Esperienza diretta del linguaggio musicale",
+      "target": "4 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di linguaggio",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Consapevolezza fonologica, narrazione, gioco",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di creta",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Manipolazione argilla, sviluppo manualità",
+      "target": "3, 4, 5 anni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di falegnameria e cucito",
+      "categoria_principale": "Arte e Manualità",
+      "descrizione_e_metodologia": "Segare, martellare, creare oggetti",
+      "target": "5 anni"
+    },
+    {
+      "titolo_attivita": "Presepe Vivente/Gesti di Natale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Realizzazione di un presepe vivente e attività legate al Natale coinvolgendo famiglie e scuole.",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Organizzazione di un Open Day per illustrare le attività scolastiche.",
+      "target": "Genitori, bambini, maestre"
+    },
+    {
+      "titolo_attivita": "Carnevale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Festa di Carnevale con drammatizzazione, musica e costumi.",
+      "target": "Famiglie, bambini del quartiere e della città"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite a fattorie, musei, mercati, ecc.",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Festa di Fine anno",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Festa con maratonina, performance musicali e cene.",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "attività individualizzate",
+      "categoria_principale": "sostegno",
+      "descrizione_e_metodologia": "promozione attività individualizzate",
+      "target": "alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "attività laboratoriali",
+      "categoria_principale": "didattica",
+      "descrizione_e_metodologia": "learning by doing",
+      "target": "tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "colloqui di continuità",
+      "categoria_principale": "transizione",
+      "descrizione_e_metodologia": "colloqui tra docenti",
+      "target": "alunni in transizione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MB1A555007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia Comunale \"Pianeta Azzurro\"** (MB1A555007) per il triennio 2025-2028, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio non metropolitano di **Monza** in **Lombardia**, si configura come scuola **paritaria** di ordine **Infanzia**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione con il territorio, come testimoniato dal punteggio di 3 e dalla presenza di 14 partner. Tra questi, spiccano il **Nido d’Infanzia Piccole tracce** e la **Scuola Primaria**, evidenziando una continuità territoriale. Sono inoltre attivi rapporti con enti locali come il **Comune di Riccione** e l'**ASL**, oltre a collaborazioni con associazioni sportive (**Federazione Italiana Pallacanestro di Rimini**, **Società sportiva Basket Rimini Crabs**, **Accademia Rimini Calcio VB**) e realtà del terzo settore (**Associazione Il Rischio educativo**, **Fism**, **Diocesi di Rimini**, **Diesse**, **Sostieni il Sostegno**).\n\n**2.3 Finalità:** Le finalità educative del PTOF sono ben definite, con punteggi elevati per lo sviluppo di attitudini (4), interessi (4) e la preparazione alla transizione formativa (4). Il progetto di vita degli alunni riceve un punteggio di 3, mentre le capacità orientative per cogliere le opportunità risultano meno sviluppate (2).\n\n**2.4 Obiettivi:** L'istituto pone l'accento sulla continuità territoriale (4), ma mostra un minor impegno nella riduzione dell'abbandono scolastico (1) e nel contrasto alla dispersione formativa (1). L'obiettivo di promuovere il lifelong learning ottiene un punteggio di 2.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento con i servizi territoriali (4), un buon rapporto scuola-genitori (4) e un monitoraggio delle azioni intraprese (3). Il dialogo tra docenti e studenti (2) e l'implementazione di un sistema integrato di inclusione e fragilità (3) rappresentano aree di intervento.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'esperienza degli studenti (3), sull'utilizzo di laboratori (3), sulla flessibilità degli spazi e dei tempi (3) e sull'interdisciplinarità (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi elevati per i laboratori espressivi (5) e le attività sportive (5). Le attività ludico-ricreative ottengono un punteggio di 4, mentre quelle culturali e di volontariato risultano meno sviluppate (2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità educative** e nell'impegno per la **continuità territoriale**. L'offerta di **attività opzionali** diversificate, in particolare quelle di tipo espressivo e sportivo, rappresenta un valore aggiunto per gli alunni. L'attenzione al coordinamento dei servizi e al rapporto scuola-genitori contribuisce a creare un ambiente educativo stimolante e inclusivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'**orientamento** rappresenta una lacuna significativa. L'impegno nella riduzione dell'abbandono scolastico e nel contrasto alla dispersione formativa appare limitato. Le capacità orientative per cogliere le opportunità necessitano di essere potenziate.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la formalizzazione di un approccio sistematico all'orientamento, che dovrebbe essere integrato nel PTOF attraverso la definizione di obiettivi specifici, azioni mirate e indicatori di monitoraggio. È necessario rafforzare l'impegno nella prevenzione dell'abbandono scolastico e nella promozione del lifelong learning.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Dell'Infanzia Comunale \"Pianeta Azzurro\"** presenta un quadro complessivamente positivo, con un forte radicamento nel territorio e un'offerta educativa diversificata. Tuttavia, per migliorare l'efficacia del piano, è necessario colmare le lacune relative all'orientamento e alla prevenzione della dispersione formativa, integrando azioni specifiche e monitorando i risultati ottenuti. Le attività come \"**Amico sport**\", \"**Laboratorio di Danza creativa**\", \"**Madrelingua inglese**\" e \"**Uscite didattiche**\" rappresentano esempi concreti di come la scuola si impegna a offrire esperienze formative stimolanti e significative per i bambini."
+}

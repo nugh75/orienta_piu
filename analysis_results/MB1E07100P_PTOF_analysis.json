@@ -1,0 +1,174 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MB1E07100P",
+    "denominazione": "Scuola Primaria Par. \"Maria Ausiliatrice",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Cesano Maderno",
+    "anno_ptof": "2022-2025",
+    "provincia": "Monza E Della Brianza",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Immacolata2",
+    "cap": "20811",
+    "email": "ausiliatrice@binzago.it",
+    "pec": "ausiliatrice@pec.binzago.it",
+    "website": "scuoleparrocchialibinzago.it/primaria",
+    "tipo_scuola_dettaglio": "Scuola Primaria Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "L'orientamento non è presente come sezione dedicata. Viene menzionato implicitamente nella progettazione educativa e nella valorizzazione delle potenzialità degli alunni."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Parrocchia B.V. Immacolata",
+        "Figlie di Maria Ausiliatrice",
+        "Famiglia Marista"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "valorizza e promuove la cultura della vita",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "Si pone come obiettivo lo sviluppo di tutte le sfaccettature della persona",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "contribuisce ad una formazione armonica ed evangelica del bambino",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di Pastorale",
+      "categoria_principale": "Progetto Educativo",
+      "descrizione_e_metodologia": "Percorso educativo volto a riconoscere la bellezza della vita e la presenza del Signore.",
+      "5w_chi": "Tutti gli alunni",
+      "5w_cosa": "Riflessioni e attività legate ai valori cristiani.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Promuovere la crescita spirituale e la consapevolezza dei valori.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Un Cammino Che Ci Accompagna Per Tutto L’Anno Scolastico",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "Un mondo di Emozioni",
+      "categoria_principale": "Progetto Educativo",
+      "descrizione_e_metodologia": "Attività per avvicinarsi alle proprie emozioni, imparare a riconoscerle e gestirle.",
+      "5w_chi": "Tutti gli alunni",
+      "5w_cosa": "Laboratori e attività esperienziali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sviluppare l'intelligenza emotiva e la socializzazione.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Questo Progetto Vuole Offrire Agli Alunni La Possibilità Di Avvicinarsi In Modo Spontaneo Alle Proprie Emozioni",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "La Didattica Digitale Integrata",
+      "categoria_principale": "Progetto Innovazione",
+      "descrizione_e_metodologia": "Digitalizzazione delle aule e riorganizzazione degli spazi per l'apprendimento multimediale.",
+      "5w_chi": "Docenti e alunni",
+      "5w_cosa": "Riqualificazione informatica e introduzione di nuove metodologie didattiche.",
+      "5w_dove": "Scuola",
+      "5w_quando": "In corso",
+      "5w_perche": "Migliorare l'offerta formativa e l'utilizzo delle tecnologie.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Un Progetto Che Riguarda La Digitalizzazione E La Riorganizzazione Di Alcune Aule",
+      "evidence_location": "Pagina 6"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MB1E07100P\n\n## Report di Valutazione\n\n### 1. Sintesi Generale\n\nIl PTOF della Scuola Primaria Maria Ausiliatrice si fonda su una solida ispirazione cristiana e mira alla crescita integrale degli alunni. L'orientamento, pur non essendo esplicitamente trattato in una sezione dedicata, emerge come un elemento implicito nella valorizzazione delle potenzialità individuali e nella promozione di un clima scolastico inclusivo. \n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento\n\nL'assenza di una sezione specifica per l'orientamento costituisce una lacuna. Sebbene integrato nella progettazione didattica generale, manca una strategia mirata per la transizione verso i successivi gradi di istruzione.\n\n#### 2.2 Partnership e Reti\n\nLa collaborazione con la Parrocchia B.V. Immacolata, le Figlie di Maria Ausiliatrice e la Famiglia Marista arricchisce l'offerta formativa e crea un ambiente stimolante.\n\n#### 2.3 Finalità e Obiettivi\n\nLe finalità educative si concentrano sullo sviluppo armonico della persona, valorizzando attitudini e interessi. Tuttavia, l'assenza di obiettivi specifici per la transizione scolastica rappresenta un punto debole.\n\n#### 2.4 Governance e Azioni di Sistema\n\nIl coordinamento dei servizi e il dialogo tra docenti e studenti sono considerati prioritari. L'attenzione all'inclusione e alla gestione delle fragilità rappresenta un punto di forza significativo.\n\n#### 2.5 Didattica Orientativa\n\nLa didattica si basa sull'esperienza diretta degli studenti e sull'utilizzo di metodologie laboratoriali. La flessibilità degli spazi e dei tempi didattici è un aspetto positivo.\n\n#### 2.6 Opportunità Formative\n\nL'offerta di attività opzionali, come laboratori espressivi e attività ludico-ricreative, è presente, ma potrebbe essere ampliata per rispondere a una gamma più ampia di interessi.\n\n#### 2.7 Registro delle Attività\n\nIl **Progetto di Pastorale** promuove la crescita spirituale e la consapevolezza dei valori. **Un mondo di Emozioni** mira a sviluppare l'intelligenza emotiva e la socializzazione. **La Didattica Digitale Integrata** prevede la digitalizzazione delle aule e l'innovazione metodologica.\n\n### 3. Punti di Forza\n\nL'attenzione alla crescita integrale della persona, l'inclusione e la collaborazione con le famiglie costituiscono i principali punti di forza del PTOF.\n\n### 4. Aree di Debolezza\n\nLa mancanza di una sezione dedicata all'orientamento e di obiettivi specifici per la transizione scolastica rappresentano le principali aree di miglioramento.\n\n### 5. Gap Analysis\n\nÈ necessario definire una strategia di orientamento chiara e strutturata, con obiettivi misurabili. È fondamentale potenziare l'attenzione all'inclusione, implementando azioni mirate per supportare gli alunni con fragilità e promuovere una didattica personalizzata.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Primaria Maria Ausiliatrice dimostra un buon livello di maturità nell'ambito dell'educazione e dell'inclusione. Per ottimizzare l'efficacia del PTOF, è necessario rafforzare l'attenzione all'orientamento e all'inclusione, definendo strategie specifiche e coinvolgendo tutti gli attori del contesto scolastico."
+}

@@ -1,0 +1,352 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAEE85304P",
+    "denominazione": "I.C. Mascolo - De Curtis",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Sant'Antonio Abate",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dante Alighieri 22",
+    "cap": "80057",
+    "email": "naic85300d@istruzione.it",
+    "pec": "naic85300d@pec.istruzione.it",
+    "website": "www.scuolamascolo.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Presente analisi del contesto"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [],
+      "partnership_count": 0
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Job shadowing e scambio esperienze con scuole estere",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Orchestra Filarmonica Giovanile Abatese",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Collaborazione con altri IC per creare un'orchestra",
+      "target": "Alunni Indirizzo Musicale"
+    },
+    {
+      "titolo_attivita": "Revisione curricolo d'istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Rimodulare l’azione didattica orientandola verso “il fare con ciò che si sa”,",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Creazione spazi laboratoriali digitali",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Creazione di spazi per didattica innovativa digitale e formazione docenti.",
+      "target": "Docenti e Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica innovativa per l'Invalsi",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Potenziare capacità critiche e logiche per affrontare le prove Invalsi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Co-progettazione con comunità locale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Valorizzazione sinergie con risorse territoriali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Mentoring e tutoring",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Percorsi personalizzati per studenti fragili",
+      "target": "Studenti con fragilità"
+    },
+    {
+      "titolo_attivita": "Percorsi formativi extracurriculari",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Discipline varie (cinema, teatro, sport)",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Conoscere i rischi del web",
+      "categoria_principale": "Educazione Civica Digitale",
+      "descrizione_e_metodologia": "Elencare e applicare regole per navigare in internet in modo sicuro.",
+      "target": "Classi I-V Primaria"
+    },
+    {
+      "titolo_attivita": "Comprendere la cura di sé, comunità e ambiente",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Promuovere comportamenti responsabili e cura del corpo e dell'ambiente.",
+      "target": "Classi I-III Primaria"
+    },
+    {
+      "titolo_attivita": "Riconoscere principi della Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Lettura e collegamento degli articoli della Costituzione alla vita quotidiana.",
+      "target": "Classe III Primaria"
+    },
+    {
+      "titolo_attivita": "Protezione dalle insidie della rete",
+      "categoria_principale": "Educazione Civica Digitale",
+      "descrizione_e_metodologia": "Riconoscere e evitare le insidie online e proteggere la privacy.",
+      "target": "Classe II Primaria"
+    },
+    {
+      "titolo_attivita": "Corso di latino",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Approfondimento grammaticale e linguistico dell'italiano e introduzione al latino.",
+      "target": "Classi III Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Educhiamoci alla legalità!",
+      "categoria_principale": "Educazione alla Legalità",
+      "descrizione_e_metodologia": "Percorsi di diffusione della legalità e partecipazione attiva.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Ambienti...Amo",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Percorsi didattici su inquinamento, disboscamento, energia e rifiuti.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "City camp",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Full Immersion in lingua inglese con tutor native speakers.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Pop Music’N’ Culture",
+      "categoria_principale": "Musica e Lingue",
+      "descrizione_e_metodologia": "Workshop con approccio CLIL utilizzando musica e video.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "English Tales e Sketches",
+      "categoria_principale": "Teatro e Lingue",
+      "descrizione_e_metodologia": "Attività teatrali in inglese con workshop drama-based.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il peso delle parole",
+      "categoria_principale": "Lettura e Bullismo",
+      "descrizione_e_metodologia": "Progetto di lettura per sensibilizzare al bullismo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Genitorialità consapevole",
+      "categoria_principale": "Formazione Genitori",
+      "descrizione_e_metodologia": "Laboratori e sportello d'ascolto per genitori.",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Il giornalismo 4.0",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Laboratorio per imparare le tecniche del giornalismo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "English is funny",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Potenziamento apprendimento inglese con certificazione Trinity.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liberiamoci in allegria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "Esercizi motori cantati e ballati.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Oui, je parle français",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Potenziamento apprendimento francese con certificazione DELF.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Unicef",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Promozione dei diritti dell'infanzia e dell'adolescenza.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Artworks mosaic",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratorio di tecnica del mosaico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Su il Sipario",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Progetto teatro-canto-ballo e majorette. Allestimento spettacolo conclusivo.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Creatività musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio musicale-creativo con creazione di paesaggi sonori e strumenti musicali.",
+      "target": "Classi prime e seconde medie"
+    },
+    {
+      "titolo_attivita": "Deduco e produco",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Percorso di formazione su lettura, scrittura creativa e tecnologie digitali.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Gioco con le parole",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Laboratorio di scrittura creativa per sviluppare il piacere di scrivere.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Learning in a new way",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Potenziamento studio lingua inglese con metodologie innovative.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Apprendre d'une nouvelle manière",
+      "categoria_principale": "Francese",
+      "descrizione_e_metodologia": "Potenziamento studio lingua francese con metodologie innovative.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Giocando con i numeri",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Preparazione alle prove INVALSI con problem solving e gioco.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochiamo con Jimu Robot",
+      "categoria_principale": "Robotica",
+      "descrizione_e_metodologia": "Laboratorio di robotica per sviluppare competenze scientifiche e digitali.",
+      "target": "Alunni primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Programmiamo con Jimu Robot",
+      "categoria_principale": "Robotica",
+      "descrizione_e_metodologia": "Laboratorio di robotica per sviluppare competenze scientifiche e digitali.",
+      "target": "Alunni primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Progetti didattico-educativi a prevalente tematica inclusiva",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività individualizzate e di piccolo gruppo",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Acqua bene comune",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Progetto rivolto a classi V primaria e I secondaria I grado per sensibilizzare sull'acqua.",
+      "target": "Studenti classi V primaria e I secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Agenda 2030 per la scuola",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Percorsi didattici per la formazione di nuove generazioni consapevoli.",
+      "target": "Studenti, personale scolastico, famiglie, esterni"
+    },
+    {
+      "titolo_attivita": "Tecno-dig",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Aggiornamento curricolo tecnologia scuola secondaria I grado.",
+      "target": "Studenti scuola secondaria I grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAEE85304P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) relativo all'istituto **Plesso Capoluogo - De Curtis** (codice **NAEE85304P**) per il triennio **2022-2025**. L'istituto, di ordine **Primaria**, situato nel territorio **Metropolitano** di **Sant'Antonio Abate** (Napoli, Campania), si configura come scuola **Statale**. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutandone l'efficacia e individuando punti di forza, aree di debolezza e possibili gap. Il PTOF dimostra una buona attenzione al contesto, con un'analisi presente e ben definita.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 5 su una scala non specificata, ma evidenziando comunque la presenza di un'analisi del contesto pertinente.\n\n**2.2 Partnership:** Le partnership sono presenti, ma con un punteggio di 3, suggerendo un potenziale di sviluppo. Non sono stati nominati partner specifici nel documento, e il numero di partnership attive è pari a 0.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono considerate solide, con punteggi elevati per l'attenzione alle **attitudini** (4), agli **interessi** (4), al **progetto di vita** (5), alle **transizioni formative** (4) e alla capacità di orientare verso le **opportunità** (4).\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono ambiziosi e pertinenti. Si punta a **ridurre l'abbandono** scolastico (5), a garantire la **continuità territoriale** (4), a **contrastare i NEET** (3) e a promuovere il **lifelong learning** (4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate, con particolare attenzione al **coordinamento dei servizi** (5), al **dialogo tra docenti e studenti** (4), al **rapporto scuola-genitori** (5), al **monitoraggio delle azioni** (3) e all'implementazione di un **sistema integrato di inclusione e fragilità** (5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** (4), la **didattica laboratoriale** (4), l'**interdisciplinarità** (4) e una certa flessibilità negli spazi e nei tempi (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con opzioni **culturali** (3), **laboratoriali ed espressive** (4), **ludiche e ricreative** (3), di **volontariato** (3) e **sportive** (3).\n\n### 3. Punti di Forza\n\nIl PTOF presenta diversi punti di forza, tra cui una solida attenzione alle finalità orientative, un'efficace strutturazione delle azioni di sistema e un approccio didattico innovativo. L'impegno per l'inclusione e la valorizzazione delle fragilità rappresenta un elemento distintivo. Le attività registrate, come il **Progetto Erasmus+**, la collaborazione con l'**Orchestra Filarmonica Giovanile Abatese**, la **Revisione curricolo d'istituto** e la **Creazione spazi laboratoriali digitali**, dimostrano un impegno concreto verso l'innovazione e l'arricchimento dell'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e il limitato numero di partnership rappresentano le principali aree di debolezza. Il punteggio relativamente basso per il contrasto ai **NEET** suggerisce la necessità di rafforzare le azioni specifiche in questo ambito.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un piano di orientamento più organico e integrato, con obiettivi misurabili e indicatori di performance definiti. È inoltre auspicabile un ampliamento delle partnership con enti e istituzioni del territorio, al fine di offrire agli studenti maggiori opportunità di orientamento e di accesso al mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF NAEE85304P dimostra un impegno significativo verso l'orientamento, pur presentando alcune aree di miglioramento. Rafforzando le partnership, strutturando un piano di orientamento più organico e monitorando attentamente i risultati, l'istituto potrà massimizzare l'efficacia delle proprie azioni e garantire agli studenti un percorso formativo completo e orientato al futuro. Le numerose attività proposte, come **Didattica innovativa per l'Invalsi**, **Co-progettazione con comunità locale**, **Genitorialità consapevole** e **Learning in a new way**, testimoniano una vivace attenzione alle esigenze degli studenti e del territorio."
+}

@@ -1,0 +1,255 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VAEE879014",
+    "denominazione": "I.C. Sesto Calende \"Ungaretti",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Mercallo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Varese",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Bagaglio",
+    "cap": "21020",
+    "email": "vaic879002@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.icsestocalende.gov.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti attività di orientamento, manca una sezione dedicata e strutturata con un capitolo specifico all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Musei",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti con enti locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi/criticità DDI 2020/21 rispetto a 2019/20",
+      "target": "Docenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze per individuare risorse interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni (II anno Scuola Secondaria)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati per individuare criticità",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa e mediazione",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività educative, mensa, pre/post accoglimento (sospeso a.s. 2020/21)",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da Associazione \"Giardino Felice\"",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento di Educazione Civica",
+      "categoria_principale": "Attività curricolari",
+      "descrizione_e_metodologia": "Insegnamento trasversale, 33 ore annuali, contitolarità docenti",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni che passano tra i diversi ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Attività di promozione comunità educante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definito per alunni NAI",
+      "target": "Alunni stranieri neo arrivati"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": null,
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo Tiziana Weiss, per il triennio 2019/20-2021/22, definisce le linee guida per lo sviluppo del sistema istruzione-formazione, in coerenza con le normative vigenti e le esigenze del territorio. Il documento si articola attorno a quattro assi strategici: l'orientamento, la partnership con il territorio, l'inclusione e l'innovazione didattica. L'istituto si impegna a promuovere una scuola aperta, inclusiva e orientata al futuro, capace di rispondere alle sfide del contesto socio-economico locale.\n\n## 2. Analisi Dimensionale\n\nL'analisi dimensionale del PTOF evidenzia una solida attenzione alla costruzione di una rete di collaborazioni con enti locali, associazioni e istituzioni del territorio. Le finalità educative sono ben definite e mirano a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, con particolare attenzione alle transizioni formative. Gli obiettivi delineati, pur presentando alcune criticità nel contrasto alla dispersione scolastica e alla promozione del lifelong learning, sono generalmente coerenti con le finalità dichiarate. Le azioni previste, sebbene numerose, necessitano di un monitoraggio costante per valutarne l'efficacia e l'impatto.\n\n## 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte attenzione alla partnership con il territorio, nella definizione di finalità educative chiare e nella varietà delle attività proposte. L'istituto dimostra una buona capacità di mobilitare risorse interne ed esterne per realizzare progetti innovativi e rispondere alle esigenze degli studenti. Il coordinamento dei servizi, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie rappresentano elementi distintivi dell'azione educativa.\n\n## 4. Debolezze\n\nTra le debolezze del PTOF si evidenzia la mancanza di una sezione specificamente dedicata all'orientamento, nonostante la presenza di numerose attività in questo ambito. L'obiettivo di contrastare il fenomeno NEET appare poco ambizioso e necessita di una maggiore definizione delle strategie operative. Il monitoraggio delle azioni previste risulta frammentario e poco sistematico. Infine, l'analisi dell'impatto delle attività sull'apprendimento e sullo sviluppo degli studenti è insufficiente.\n\n## 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare l'offerta orientativa in una sezione dedicata del PTOF, con obiettivi, azioni e indicatori di successo chiaramente definiti. È inoltre necessario potenziare le strategie di contrasto alla dispersione scolastica e promuovere il lifelong learning attraverso percorsi formativi mirati. Infine, si rende opportuno implementare un sistema di monitoraggio e valutazione più efficace, in grado di misurare l'impatto delle attività sull'apprendimento e sullo sviluppo degli studenti, con particolare attenzione all'inclusione degli alunni con bisogni educativi speciali.\n\n## 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo Tiziana Weiss rappresenta un documento programmatico solido e ben strutturato, che definisce una visione chiara dello sviluppo del sistema istruzione-formazione. Pur presentando alcune criticità, il documento dimostra una forte attenzione alla qualità dell'offerta formativa, all'inclusione e alla partnership con il territorio. L'implementazione delle azioni previste, unitamente a un monitoraggio costante e a una valutazione rigorosa, consentirà all'istituto di raggiungere gli obiettivi prefissati e di contribuire alla crescita culturale e sociale della comunità locale."
+}

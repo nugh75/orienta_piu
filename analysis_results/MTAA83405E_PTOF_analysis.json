@@ -1,0 +1,264 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTAA83405E",
+    "denominazione": "I.C. \"Valsinni - Tursi",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Rotondella",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Largo Plebiscito",
+    "cap": "75026",
+    "email": "mtic83400d@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmorra.eu",
+    "tipo_scuola_dettaglio": "Scuola Infanzia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento, ma diverse attività formative possono essere inquadrate in tale ambito."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Autovalutazione, valutazione tra pari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppare abilità comunicative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Test fisici e chimici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Comunicazione professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Applicazioni giuridiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Scienze Motorie",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti digitali",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Supporto attività di sostegno con strumenti digitali.",
+      "target": "Studenti con BES, DSA"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'Avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo workstation EXOCAD, scanner, stampante 3D.",
+      "target": "Studenti e diplomati"
+    },
+    {
+      "titolo_attivita": "Formazione Docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso Mappe Mentali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Frequenza laboratori durante le vacanze estive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri Tutor Aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri scuola, tutor e famiglie.",
+      "target": "Studenti PCTO"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Moduli teorico-pratici in laboratorio.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTAA83405E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Rotondella Centro-Valsinni** (MTAA83405E), scuola dell'infanzia situata in Basilicata. L'analisi si basa sui dati forniti, valutando l'approccio dell'istituto all'orientamento, le partnership instaurate, gli obiettivi prefissati e le azioni messe in campo. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, diverse attività formative possono essere inquadrate in tale ambito, suggerendo un approccio diffuso e integrato. Il PTOF dimostra un impegno significativo nella costruzione di un sistema di orientamento che mira a supportare gli studenti nel loro percorso di crescita personale e professionale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'istituto non possiede una sezione specificamente dedicata all'orientamento, tuttavia, l'orientamento è integrato in diverse attività formative.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership, con un punteggio di 5 su 5. Tra i partner figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, diverse **aziende accreditate** e altre **aziende di settore**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi di 3 per le attitudini e gli interessi, 5 per il **progetto di vita**, 2 per le transizioni formative e 4 per lo sviluppo delle capacità orientative e delle opportunità. L'enfasi sul **progetto di vita** indica un approccio olistico all'orientamento, che considera l'individuo nella sua interezza.\n\n**2.4 Obiettivi:** Gli obiettivi dell'orientamento sono focalizzati sulla riduzione dell'abbandono scolastico (punteggio 3), sulla continuità territoriale (punteggio 4), sul contrasto alla dispersione scolastica e NEET (punteggio 3) e sulla promozione del lifelong learning (punteggio 4). Questi obiettivi riflettono l'impegno dell'istituto a garantire un'istruzione di qualità e a favorire l'inserimento degli studenti nel mondo del lavoro.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi (punteggio 3), il dialogo tra docenti e studenti (punteggio 4), il rapporto scuola-genitori (punteggio 3), il monitoraggio delle azioni (punteggio 2) e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale (punteggio 5), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende attività culturali (punteggio 3), laboratoriali ed espressive (punteggio 4), ludiche e ricreative (punteggio 2), di volontariato (punteggio 3) e sportive (punteggio 2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la solida rete di **partnership** con aziende e istituzioni del territorio, l'enfasi sul **progetto di vita** come finalità primaria dell'orientamento e l'utilizzo di metodologie didattiche innovative basate sull'apprendimento esperienziale. L'attività di **PCTO** è particolarmente rilevante, offrendo agli studenti l'opportunità di acquisire competenze pratiche e di orientarsi nel mondo del lavoro. L'attenzione all'inclusione, con attività come la realizzazione di **audiolibri** per studenti con DSA e il **Servizio di Sostegno Educativo**, rappresenta un valore aggiunto significativo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento nel PTOF potrebbe limitare la visibilità e la coerenza delle azioni intraprese. Il punteggio relativamente basso per il monitoraggio delle azioni (2) suggerisce la necessità di rafforzare i meccanismi di valutazione e di controllo dell'efficacia delle attività di orientamento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella formalizzazione di un piano di orientamento strutturato e integrato nel PTOF. Sebbene le attività di orientamento siano presenti e ben implementate, la loro mancanza di una cornice teorica e operativa condivisa potrebbe comprometterne l'efficacia a lungo termine.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Rotondella Centro-Valsinni** dimostra un impegno significativo nell'offrire un'esperienza formativa completa e orientata al futuro. Nonostante l'assenza di una sezione dedicata, l'orientamento è integrato in diverse attività formative e supportato da una solida rete di partnership. Per migliorare ulteriormente l'efficacia dell'orientamento, si raccomanda di formalizzare un piano di orientamento strutturato e di rafforzare i meccanismi di monitoraggio e valutazione delle azioni intraprese. Le attività come **PCTO**, i **laboratori** tematici e le iniziative di inclusione rappresentano un valore aggiunto significativo per gli studenti e contribuiscono a prepararli per le sfide del futuro."
+}

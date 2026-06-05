@@ -1,0 +1,258 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CEEE8AZ038",
+    "denominazione": "I.C. Lucilio Sessa Aurunca",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Sessa Aurunca",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Amendola",
+    "cap": "81030",
+    "email": "ceic8az004@istruzione.it",
+    "pec": "ND",
+    "website": "http//www.icasessalucilio.edu.it",
+    "tipo_scuola_dettaglio": "Scuola Primaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. Si menzionano attività correlate, ma manca un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri da parte degli studenti per compagni con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici/chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica/digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Proporzioni, percentuali, sanzioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica odontotecnica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività posturali e benessere",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti digitali per il sostegno",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Supporto operativo e documentale per attività di sostegno.",
+      "target": "Personale scolastico e studenti con BES"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi aggiornamento diplomati",
+      "categoria_principale": "Formazione continua",
+      "descrizione_e_metodologia": "Corsi di aggiornamento per ex-alunni.",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico Avanzato",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD/CAM.",
+      "target": "Classi IV e V"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze estive.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie.",
+      "target": "Studenti PCTO"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CEEE8AZ038\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **Sessa Aurunca-Fasani -D.D.2-** (codice scuola **CEEE8AZ038**), per il triennio **2023/24-2024/25-2025/26**. L'istituto, situato nel comune di **Sessa Aurunca** in provincia di **Caserta** e regione **Campania**, è una scuola **statale** che opera in un contesto territoriale **non metropolitano** nell'area geografica del **Sud**. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate in relazione all'orientamento scolastico e professionale. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, il PTOF include diverse attività correlate e una forte attenzione all'inclusione e alla transizione degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia l'assenza di una sezione dedicata specificamente all'orientamento nel PTOF, nonostante la presenza di attività che possono essere considerate orientative.\n\n**2.2 Partnership:** La scuola dimostra un'elevata capacità di instaurare **partnership** con il territorio, come evidenziato da un punteggio di 5 su 5. Tra i partner nominati figurano **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, diverse **aziende accreditate** e altre **aziende di settore**. Il numero di partnership attive è di 8.\n\n**2.3 Finalità:** Le finalità dell'orientamento, come definite nel PTOF, sono considerate positive. Si riscontrano punteggi elevati per la valorizzazione delle **attitudini** (4), degli **interessi** (4), del **progetto di vita** (5), delle **transizioni formative** (4) e delle **capacità orientative** per cogliere le **opportunità** (4).\n\n**2.4 Obiettivi:** Gli obiettivi prefissati sono in linea con le finalità. Si registra un punteggio di 3 per la riduzione dell'**abbandono** scolastico e per il contrasto al fenomeno dei **NEET**, mentre il punteggio sale a 4 per la continuità territoriale e per la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per supportare l'orientamento sono ben definite. Il **coordinamento dei servizi** (4), il **dialogo tra docenti e studenti** (5), il **rapporto scuola-genitori** (5) e il **monitoraggio delle azioni** (3) sono considerati punti di forza. Particolarmente elevato è il punteggio attribuito al **sistema integrato di inclusione e fragilità** (7).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi. L'utilizzo di esperienze dirette degli studenti (4), la **didattica laboratoriale** (4), la flessibilità degli spazi e dei tempi (3) e l'approccio **interdisciplinare** (4) contribuiscono a un apprendimento significativo.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata. Si segnalano punteggi di 4 per le opzionali **culturali** e **laboratoriali espressive**, mentre le opzionali **ludiche-ricreative**, di **volontariato** e **sportive** ottengono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la forte attenzione all'inclusione, la consolidata rete di **partnership** con il territorio e l'impegno nel promuovere il **lifelong learning**. Le attività **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento) rappresentano un elemento chiave per l'orientamento pratico degli studenti, così come le numerose attività **laboratoriali** che offrono opportunità di sperimentazione e scoperta. Il **Servizio di Sostegno Educativo** e l'utilizzo di **strumenti digitali** per il sostegno sono particolarmente apprezzabili.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento nel PTOF. Sebbene siano presenti attività correlate, la mancanza di un capitolo specifico rende difficile una visione d'insieme e una pianificazione strategica dell'orientamento scolastico e professionale. Il punteggio relativamente basso per il monitoraggio delle azioni suggerisce la necessità di rafforzare i meccanismi di valutazione e controllo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento come parte integrante del PTOF. È necessario definire una sezione dedicata che delinei chiaramente le finalità, gli obiettivi, le azioni e gli indicatori di successo dell'orientamento. Inoltre, è importante potenziare il monitoraggio delle attività e valutare l'efficacia delle **partnership** nel raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Sessa Aurunca-Fasani -D.D.2-** dimostra un impegno significativo verso l'orientamento, sebbene manchi una sua esplicita strutturazione. La scuola si distingue per la sua capacità di collaborare con il territorio e di offrire agli studenti opportunità di apprendimento pratico e significativo. Per migliorare ulteriormente l'efficacia dell'orientamento, si raccomanda di integrare una sezione dedicata nel PTOF e di rafforzare i meccanismi di monitoraggio e valutazione. Le attività come **PCTO**, i **laboratori** tematici e il **Servizio di Sostegno Educativo** rappresentano risorse preziose che, se adeguatamente valorizzate, possono contribuire a formare cittadini consapevoli e preparati per il futuro."
+}

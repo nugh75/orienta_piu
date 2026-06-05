@@ -1,0 +1,271 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "VETFO1500N",
+    "denominazione": "Istituto Tecnico Tecnologico Indirizzo Grafica E Comunicazione Abate Zanetti",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Venezia",
+    "anno_ptof": "2019-2022",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Calle Briati N. 8/B",
+    "cap": "30141",
+    "email": "ND",
+    "pec": "abc.srl@pecaruba.it",
+    "website": "http//www.abatezanetti.it/",
+    "tipo_scuola_dettaglio": "Scuola Sec. Secondo Grado Non Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti pubblici",
+        "enti privati",
+        "imprese",
+        "Istituto di Biorobotica della Scuola Superiore Sant’Anna di Pisa",
+        "aziende del territorio",
+        "Università",
+        "Cisco Systems",
+        "scuole medie",
+        "Ludoteca del Registro .it",
+        "CRED",
+        "Unione Valdera",
+        "Provincia di Pisa",
+        "Scuola Superiore Sant’Anna",
+        "Pont-Tech"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contatti con aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite, viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite ad aziende e università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Stage/Tirocini",
+      "descrizione_e_metodologia": "Periodi significativi in contesto lavorativo, formazione sulla sicurezza",
+      "target": "Studenti classi 3° e 4°"
+    },
+    {
+      "titolo_attivita": "Corsi pomeridiani facoltativi",
+      "categoria_principale": "Formazione aggiuntiva",
+      "descrizione_e_metodologia": "Corsi su Cisco, Web Design, Linux, CAD",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate agli enti autonomi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a Comune, Provincia, Regione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Riflessioni e dibattiti su fatti storici",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Visione di film e dibattiti su Shoah, Foibe, Resistenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a iniziative Associazione LIBERA",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Giorno del ricordo, Campi di Libera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a conferenze su tematiche umanitarie",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Conferenze su convivenza civile, salute, ambiente",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a progetti d’Istituto, di Rete, PON",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Progetti specifici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola aperta",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate a laboratori da studenti e docenti",
+      "target": "Genitori e ragazzi in visita"
+    },
+    {
+      "titolo_attivita": "Scuola aperta - Iscrizioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto all'iscrizione online",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Orientamento interno",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Questionari, incontri con studenti e docenti",
+      "target": "Studenti classe seconda"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Informazione università, servizio civile, forze armate",
+      "target": "Studenti classi terze e quinte"
+    },
+    {
+      "titolo_attivita": "Counseling",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Servizio di ascolto e orientamento",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Rifornimento in volo",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Incontri pomeridiani con genitori",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Iniziative di formazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Donazione sangue e midollo osseo",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Incontri informativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Raccordo con scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Monitoraggio iscrizioni, raccordo con famiglie",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Tutorato alunni in difficoltà",
+      "categoria_principale": "Supporto scolastico",
+      "descrizione_e_metodologia": "Formazione e supervisione tutor",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Sviluppo professionale",
+      "descrizione_e_metodologia": "Corsi su aspetti relazionali, metodologici e ICT",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Let’s Bit!",
+      "categoria_principale": "Educazione digitale",
+      "descrizione_e_metodologia": "Formazione studenti per sensibilizzazione uso consapevole della rete",
+      "target": "Studenti e scuole primarie"
+    },
+    {
+      "titolo_attivita": "Incontri formazione/informazione docenti, famiglie, studenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri periodici",
+      "target": "Docenti, famiglie, studenti"
+    },
+    {
+      "titolo_attivita": "Sportello ascolto e consulenza",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attività in presenza, telefono, online",
+      "target": "Docenti, genitori, specialisti, studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VETFO1500N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Tecnico Tecnologico Indirizzo Grafica E Comunicazione Abate Zanetti** (VETFO1500N), relativo all'anno **2019-2022**. L'istituto, situato a **Venezia**, in **Veneto**, è una scuola **paritaria** di grado **II**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con una serie di iniziative volte a supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di **7**, il che indica una buona strutturazione e attenzione a questo aspetto cruciale.\n\n**2.2 Partnership:** L'istituto ha sviluppato un network di **15** partnership con diversi soggetti, tra cui **enti pubblici**, **enti privati**, **imprese**, l'**Istituto di Biorobotica della Scuola Superiore Sant’Anna di Pisa**, **aziende del territorio**, **Università**, **Cisco Systems**, **scuole medie**, la **Ludoteca del Registro .it**, **CRED**, l'**Unione Valdera**, la **Provincia di Pisa**, la **Scuola Superiore Sant’Anna**, e **Pont-Tech**. Questo ampio ventaglio di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità, tutte valutate con un punteggio di **4**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono** scolastico, a favorire la continuità con il **territorio**, a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**, con un punteggio di **4** per ciascuna area.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori e il monitoraggio delle azioni, oltre a un sistema integrato di inclusione e supporto alle fragilità, tutte valutate con un punteggio di **4**.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'utilizzo di esperienze dirette degli studenti, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con punteggi che variano tra **3** e **4**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte valutate con un punteggio di **4**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, ben strutturata e supportata da un ampio network di partnership. L'istituto dimostra un impegno concreto nell'offrire agli studenti un'ampia gamma di opportunità formative e professionali, attraverso attività come l'**Alternanza Scuola-Lavoro**, **visite aziendali e universitarie**, e corsi pomeridiani su competenze specifiche come **Cisco**, **Web Design**, **Linux** e **CAD**. L'attenzione alla **cittadinanza attiva**, con iniziative come la partecipazione ad eventi promossi dall'associazione **LIBERA** e la riflessione su temi storici, rappresenta un ulteriore valore aggiunto.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, si evidenzia una certa uniformità nei punteggi assegnati alle diverse dimensioni dell'orientamento, suggerendo una possibile mancanza di approfondimento o di specificità in alcune aree. La didattica laboratoriale, pur presente, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nL'analisi dei dati rivela un buon livello di attenzione all'orientamento, ma suggerisce la necessità di definire obiettivi più specifici e misurabili, al fine di monitorare l'efficacia delle azioni intraprese. Sarebbe utile, inoltre, implementare un sistema di valutazione più dettagliato delle partnership, per verificarne l'impatto sull'offerta formativa.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Abate Zanetti** dimostra un impegno significativo nell'ambito dell'orientamento, con una serie di iniziative volte a supportare gli studenti nelle loro scelte formative e professionali. L'ampio network di partnership, l'offerta di attività opzionali e l'attenzione alla cittadinanza attiva rappresentano punti di forza da consolidare e sviluppare ulteriormente. Un'attenta revisione degli obiettivi e un sistema di valutazione più dettagliato potrebbero contribuire a migliorare l'efficacia delle azioni intraprese e a garantire un servizio di orientamento sempre più adeguato alle esigenze degli studenti."
+}
